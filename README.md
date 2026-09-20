@@ -17,8 +17,10 @@ Atualmente estão disponíveis:
 - PISM 2025-2;
 - PISM 2024-1;
 - PISM 2024-2.
+- ENEM 2023 — Caderno 2 Amarelo, Linguagens, Códigos e suas Tecnologias
+  (opção Inglês, questões 1 a 5).
 
-O ENEM está previsto como uma expansão futura da plataforma.
+As demais questões do caderno ENEM serão adicionadas progressivamente.
 
 ## Funcionalidades
 
@@ -58,6 +60,7 @@ O ENEM está previsto como uma expansão futura da plataforma.
 - Imagens de charges, mapas e figuras da prova;
 - Textos alternativos nas imagens para melhorar a acessibilidade;
 - Figuras 1, 2 e 3 disponíveis na questão 6 do PISM 2024-1.
+- Imagens de apoio das questões 2 e 3 do ENEM 2023.
 
 ## Tecnologias utilizadas
 
@@ -304,4 +307,3 @@ Este projeto ainda não possui um arquivo de licença definido. Antes de
 redistribuir o código ou os materiais de prova, defina uma licença para o
 software e verifique separadamente os direitos dos conteúdos educacionais,
 textos e imagens utilizados.
-

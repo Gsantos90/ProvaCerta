@@ -8,6 +8,44 @@ import './styles.css'
 import questions2024Day1 from './2024-1-questions.json'
 import questions2024Day2 from './2024-2-questions.json'
 
+const enem2023EnglishQuestions = [
+  {
+    subject: 'Língua Inglesa',
+    text: 'Nesse poema, a expressão "No man is an island" ressalta o(a):',
+    support: 'No man is an island,\nEntire of itself;\nEvery man is a piece of the continent,\nA part of the main.\n[...]\nAny man\'s death diminishes me,\nBecause I am involved in mankind.\n\nDONNE, J. The Works of John Donne. Londres: John W. Parker, 1839 (fragmento).',
+    options: ['Medo da morte.', 'Ideia de conexão.', 'Conceito de solidão.', 'Risco de devastação.', 'Necessidade de empatia.'],
+    answer: 'B',
+  },
+  {
+    subject: 'Língua Inglesa',
+    text: 'Ao retratar o ambiente de trabalho em um escritório, esse cartum tem por objetivo:',
+    supportImage: '/enem-2023-ingles-questao-2.png',
+    options: ['Criticar um padrão de vestimenta.', 'Destacar a falta de diversidade.', 'Indicar um modo de interação.', 'Elogiar um modelo de organização.', 'Salientar o espírito de cooperação.'],
+    answer: 'B',
+  },
+  {
+    subject: 'Língua Inglesa',
+    text: 'Esse cartaz de campanha sugere que:',
+    supportImage: '/enem-2023-ingles-questao-3.png',
+    options: ['Os lixões precisam de ampliação.', 'O desperdício degrada o ambiente.', 'Os mercados doam alimentos perecíveis.', 'A desnutrição compromete o raciocínio.', 'As residências carecem de refrigeradores.'],
+    answer: 'A',
+  },
+  {
+    subject: 'Língua Inglesa',
+    text: 'Ao retratar a trajetória de refugiados, o poema recorre à imagem de viagem marítima para destacar o(a):',
+    support: 'Things We Carry on the Sea\n\nWe carry tears in our eyes: good-bye father, good-bye mother\nWe carry soil in small bags: may home never fade in our hearts\nWe carry carnage of mining, droughts, floods, genocides\nWe carry dust of our families and neighbors incinerated in mushroom clouds\nWe carry our islands sinking under the sea\nWe carry our hands, feet, bones, hearts and best minds for a new life\nWe carry diplomas: medicine, engineer, nurse, education, math, poetry, even if they mean nothing to the other shore\nWe carry old homes along the spine, new dreams in our chests\nWe carry yesterday, today and tomorrow\nWe are refugees of the sea rising from industrial wastes\nAnd we carry our mother tongues\n\nPING, W. Disponível em: https://poets.org. Acesso em: 1 jun. 2023 (fragmento).',
+    options: ['Risco de choques culturais.', 'Impacto do ensino de história.', 'Importância da luta ambiental.', 'Existência de experiências plurais.', 'Necessidade de capacitação profissional.'],
+    answer: 'D',
+  },
+  {
+    subject: 'Língua Inglesa',
+    text: 'Nesse poema de Tato Laviera, o eu lírico destaca uma:',
+    support: 'Spanglish\n\npues estoy creando Spanglish\nbi-cultural systems\nscientific lexicographical\ninter-textual integrations\ntwo expressions\nexistentially wired\ntwo dominant languages\ncontinentally abrazándose\nin colloquial combate\nimperio spanglish emerges\nsobre territorio bi-lingual\nlas novelas mexicanas\nmixing with radiorocknroll\nimmigrant/migrant\nnasal mispronouncements\nhip-hop, street salsa, spanish pop\nstandard english classroom\nwith computer technicalities\nspanglish is literally perfect\n\nLAVIERA, T. Benedición: The Complete Poetry of Tato Laviera. Houston: Arte Público Press, 2014 (fragmento).',
+    options: ['Convergência linguístico-cultural.', 'Característica histórico-cultural.', 'Tendência estilístico-literária.', 'Discriminação cultural.', 'Censura musical.'],
+    answer: 'A',
+  },
+]
+
 const correctedQuestions2024Day1 = questions2024Day1.map((question, index) => (
   index === 2
     ? {
@@ -420,9 +458,10 @@ function App() {
     'pism-2': questionsDay2,
     'pism-2024-1': correctedQuestions2024Day1,
     'pism-2024-2': questions2024Day2,
+    'enem-2023-1-ingles': enem2023EnglishQuestions,
   }
   const activeQuestions = questionSets[selectedExam] || questions
-  const examLabel = selectedExam === 'pism-1' ? '2025-1' : selectedExam === 'pism-2' ? '2025-2' : selectedExam === 'pism-2024-1' ? '2024-1' : '2024-2'
+  const examLabel = selectedExam === 'pism-1' ? '2025-1' : selectedExam === 'pism-2' ? '2025-2' : selectedExam === 'pism-2024-1' ? '2024-1' : selectedExam === 'pism-2024-2' ? '2024-2' : '2023-1_Cad_Amarelo - LINGUAGENS, CÓDIGOS E SUAS TECNOLOGIAS'
   const examDay = examLabel.endsWith('-1') ? 'Dia 1' : 'Dia 2'
 
   const score = useMemo(() => activeQuestions.reduce((total, question, index) => (
@@ -515,6 +554,7 @@ function App() {
               {selectedExam === 'pism-2' && question.subject === 'Literaturas' && <><details className="sidebar-support"><summary><BookOpen size={16} /><span>Texto 1</span><ChevronDown size={15} /></summary><div>{dayTwoTexts[0]}</div></details><details className="sidebar-support"><summary><BookOpen size={16} /><span>Texto 2</span><ChevronDown size={15} /></summary><div>{dayTwoTextTwo}</div></details><details className="sidebar-support"><summary><BookOpen size={16} /><span>Texto 3</span><ChevronDown size={15} /></summary><div>{dayTwoTextThree}</div></details><details className="sidebar-support"><summary><BookOpen size={16} /><span>Texto 4</span><ChevronDown size={15} /></summary><div>{dayTwoTextFour}</div></details><details className="sidebar-support"><summary><BookOpen size={16} /><span>Texto 5</span><ChevronDown size={15} /></summary><div>{dayTwoTextFive}</div></details><details className="sidebar-support"><summary><BookOpen size={16} /><span>Texto 6</span><ChevronDown size={15} /></summary><div>{dayTwoTextSix}</div></details></>}
               {selectedExam === 'pism-2024-1' && question.subject === 'Língua Portuguesa' && <><details className="sidebar-support"><summary><BookOpen size={16} /><span>Texto 1</span><ChevronDown size={15} /></summary><div>{text2024Day1One}</div></details><details className="sidebar-support"><summary><BookOpen size={16} /><span>Texto 2</span><ChevronDown size={15} /></summary><div><img className="support-image" src={text2024Day1TwoImage} alt="Post sobre a periferia acordar primeiro" /></div></details><details className="sidebar-support"><summary><BookOpen size={16} /><span>Texto 3</span><ChevronDown size={15} /></summary><div>{text2024Day1Three}</div></details><details className="sidebar-support"><summary><BookOpen size={16} /><span>Texto 4</span><ChevronDown size={15} /></summary><div>{text2024Day1Four}</div></details><details className="sidebar-support"><summary><BookOpen size={16} /><span>Texto 5</span><ChevronDown size={15} /></summary><div>{text2024Day1Five}</div></details><details className="sidebar-support"><summary><BookOpen size={16} /><span>Texto 6</span><ChevronDown size={15} /></summary><div>{text2024Day1Six}</div></details><details className="sidebar-support"><summary><BookOpen size={16} /><span>Texto 7</span><ChevronDown size={15} /></summary><div>{text2024Day1Seven}</div></details></>}
               {selectedExam === 'pism-2024-1' && question.subject === 'Geografia' && current === 5 && <details className="sidebar-support"><summary><BookOpen size={16} /><span>Figuras 1, 2 e 3</span><ChevronDown size={15} /></summary><div><figure className="support-figure"><img className="support-image" src={text2024Day1FigureOne} alt="Figura 1: massas de ar que atuam sobre a América do Sul no inverno" /><figcaption>Figura 1 — Massas de ar atuantes no inverno.</figcaption></figure><figure className="support-figure"><img className="support-image" src={text2024Day1FigureTwo} alt="Figura 2: massas de ar que atuam sobre a América do Sul no verão" /><figcaption>Figura 2 — Massas de ar atuantes no verão.</figcaption></figure><figure className="support-figure"><img className="support-image" src={text2024Day1FigureThree} alt="Figura 3: precipitação acumulada no Brasil nos últimos 15 dias" /><figcaption>Figura 3 — Fonte: INMET, 2024.</figcaption></figure></div></details>}
+              {selectedExam === 'enem-2023-1-ingles' && <details className="sidebar-support" open><summary><BookOpen size={16} /><span>Texto ou imagem de apoio</span><ChevronDown size={15} /></summary><div>{question.supportImage ? <img className="support-image" src={question.supportImage} alt={`Imagem de apoio da questão ${current + 1}`} /> : <span>{question.support}</span>}</div></details>}
             </aside>
             <section className="question-content">
               <div className={`subject-tag ${subjects.find((item) => item.name === question.subject)?.color}`}>{question.subject}</div>
@@ -570,7 +610,7 @@ function App() {
           <div className="section-heading"><div><p className="eyebrow">Escolha seu desafio</p><h2>Provas para praticar</h2></div><div className="view-all"><LayoutGrid size={17} /> Todas as provas</div></div>
           <div className="exam-cards">
             <ExamCard type="pism" title="PISM" description="Programa de Ingresso Seletivo Misto" years={['2025-1', '2025-2', '2024-1', '2024-2']} year={year} setYear={setYear} onStart={() => startExam(`pism-${year}`)} available />
-            <ExamCard type="enem" title="ENEM" description="Exame Nacional do Ensino Médio" years={['2025', '2024', '2023']} year={year} setYear={setYear} onStart={() => startExam('enem')} />
+            <ExamCard type="enem" title="ENEM" description="Exame Nacional do Ensino Médio" years={['2023-1_Cad_Amarelo - LINGUAGENS, CÓDIGOS E SUAS TECNOLOGIAS']} year={year} setYear={setYear} onStart={() => startExam('enem-2023-1-ingles')} available />
           </div>
         </section>
         <section className="bottom-quote"><span className="quote-mark">“</span><p>Grandes resultados começam<br />com pequenas escolhas diárias.</p><span className="quote-line" /></section>
