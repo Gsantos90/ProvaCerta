@@ -18,7 +18,7 @@ Atualmente estão disponíveis:
 - PISM 2024-1;
 - PISM 2024-2.
 - ENEM 2023 — Caderno 2 Amarelo, Linguagens, Códigos e suas Tecnologias
-  (opção Inglês, questões 1 a 5).
+  (questões 1 a 5 em Inglês e questões 6 a 10 em Espanhol).
 
 As demais questões do caderno ENEM serão adicionadas progressivamente.
 
