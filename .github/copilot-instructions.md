@@ -208,3 +208,106 @@ limpo da árvore de trabalho e o resultado do build.
   publicado;
 - mencionar limitações quando a prova estiver parcialmente cadastrada.
 
+
+## Banco de dados (Supabase)
+
+O schema completo está em `supabase/schema.sql`. O banco tem três tabelas com
+RLS habilitado. As variáveis de conexão ficam em `.env.local` como
+`VITE_SUPABASE_URL` e `VITE_SUPABASE_PUBLISHABLE_KEY`. Nunca usar a chave
+`service_role` no navegador.
+
+### Tabela `exams`
+
+Representa uma prova cadastrada.
+
+| Coluna | Tipo | Descrição |
+| --- | --- | --- |
+| `id` | `uuid` PK | Identificador único gerado automaticamente. |
+| `slug` | `text` UNIQUE | Identificador textual da prova, ex: `pism-2025-1`. |
+| `title` | `text` | Nome exibido, ex: `PISM 2025-1`. |
+| `source` | `text` | Origem da prova; padrão `pism`. |
+| `year` | `text` | Ano/edição da prova, ex: `2025-1`. |
+| `created_at` | `timestamptz` | Data de criação, preenchida automaticamente. |
+
+**Slugs cadastrados:** `pism-2025-1`, `pism-2025-2`, `pism-2024-1`, `pism-2024-2`.
+
+### Tabela `questions`
+
+Representa uma questão objetiva.
+
+| Coluna | Tipo | Descrição |
+| --- | --- | --- |
+| `id` | `uuid` PK | Identificador único gerado automaticamente. |
+| `exam_id` | `uuid` FK → `exams.id` | Prova à qual a questão pertence. |
+| `number` | `integer` | Número de ordem dentro da prova. |
+| `subject` | `text` | Disciplina, ex: `Língua Portuguesa`, `Matemática`. |
+| `text` | `text` | Enunciado completo da questão. |
+| `support` | `text` | Texto de apoio exibido na lateral (opcional). |
+| `support_image` | `text` | Caminho da imagem em `/public/`, ex: `/texto-3-cerrado.png` (opcional). |
+| `options` | `jsonb` | Array JSON com as cinco alternativas, ordem A–E. |
+| `answer` | `text` | Gabarito oficial: `A`, `B`, `C`, `D` ou `E`. |
+| `created_at` | `timestamptz` | Data de criação, preenchida automaticamente. |
+
+A combinação `(exam_id, number)` é única. A coluna `answer` é restrita às
+letras `A`–`E` por um `CHECK`. Cada questão carrega seu próprio texto e
+imagem de apoio — o painel lateral é exibido quando ao menos um desses campos
+está preenchido.
+
+### Tabela `attempts`
+
+Registra uma tentativa concluída por um estudante autenticado.
+
+| Coluna | Tipo | Descrição |
+| --- | --- | --- |
+| `id` | `uuid` PK | Identificador único gerado automaticamente. |
+| `user_id` | `uuid` FK → `auth.users.id` | Usuário que realizou a tentativa. |
+| `exam_slug` | `text` | Slug da prova realizada. |
+| `exam_title` | `text` | Nome legível da prova no momento da tentativa. |
+| `score` | `integer` | Quantidade de acertos. |
+| `total` | `integer` | Total de questões da prova. |
+| `answers` | `jsonb` | Mapa `{ índice: letra }` com as respostas do estudante. |
+| `completed_at` | `timestamptz` | Data e hora da entrega. |
+
+### Políticas RLS
+
+| Tabela | Política | Regra |
+| --- | --- | --- |
+| `exams` | leitura pública | `for select using (true)` |
+| `questions` | leitura pública | `for select using (true)` |
+| `attempts` | leitura própria | `for select using (auth.uid() = user_id)` |
+| `attempts` | criação própria | `for insert with check (auth.uid() = user_id)` |
+
+### Seed
+
+Os arquivos de seed ficam em `supabase/`:
+
+- `seed-pism-2024.sql` — questões do PISM 2024-1 e 2024-2;
+- `seed-pism-2025.sql` — questões do PISM 2025-1 e 2025-2.
+
+Todos os INSERTs usam `on conflict (exam_id, number) do update` para permitir
+re-execução segura sem duplicar dados.
+
+### Mapeamento front-end → banco
+
+`startExam` em `main.jsx` mapeia o identificador interno para o slug:
+
+```js
+{ 'pism-1': 'pism-2025-1', 'pism-2': 'pism-2025-2',
+  'pism-2024-1': 'pism-2024-1', 'pism-2024-2': 'pism-2024-2' }
+```
+
+As colunas são renomeadas na leitura:
+
+```js
+{
+  subject:      question.subject,
+  text:         question.text,
+  support:      question.support,       // coluna support
+  supportImage: question.support_image, // coluna support_image
+  options:      question.options,
+  answer:       question.answer,
+}
+```
+
+Quando a prova não é encontrada no Supabase, `supabaseExamSlug` fica `null`
+e o front-end usa os dados locais como fallback.

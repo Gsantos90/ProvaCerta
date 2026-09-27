@@ -1,10 +1,11 @@
-import React, { useMemo, useState } from 'react'
+import React, { useEffect, useMemo, useState } from 'react'
 import { createRoot } from 'react-dom/client'
 import {
   ArrowLeft, ArrowRight, Award, BookOpen, Check, ChevronDown, Clock3,
   GraduationCap, LayoutGrid, Menu, RotateCcw, Sparkles, Target, X,
 } from 'lucide-react'
 import './styles.css'
+import { isSupabaseConfigured, supabase } from './lib/supabase'
 import questions2024Day1 from './2024-1-questions.json'
 import questions2024Day2 from './2024-2-questions.json'
 
@@ -60,6 +61,31 @@ const enem2023SpanishSupport = {
   9: 'TEXTO I\n?\nPorQUÉ ME CUESTA TANTO ESTUDIAR?\npORQUÉ ME CUESTA TANTO CONCENTRARME?\nPoRQUÉ......\npORQUÉ......\n?\n?\n?\n?\n..... .\nPORQUé NO CONSIGO APRENDER COMO LOS DEMÁS?',
 }
 
+const enemApiBaseUrl = 'https://api.enem.dev/v1'
+const enemSubjectLabels = {
+  'ciencias-humanas': 'Ciências Humanas',
+  'ciencias-natureza': 'Ciências da Natureza',
+  linguagens: 'Linguagens',
+  matematica: 'Matemática',
+}
+
+const wait = (milliseconds) => new Promise((resolve) => setTimeout(resolve, milliseconds))
+
+const normalizeEnemQuestion = (question) => {
+  const markdownImage = question.context?.match(/!\[[^\]]*\]\(([^)]+)\)/)?.[1]
+  const support = question.context?.replace(/!\[[^\]]*\]\([^)]+\)/g, '').trim()
+  return {
+    subject: enemSubjectLabels[question.discipline] || question.discipline,
+    discipline: question.discipline,
+    language: question.language,
+    text: question.alternativesIntroduction,
+    support,
+    supportImage: question.files?.[0] || markdownImage,
+    options: question.alternatives.map((alternative) => alternative.text),
+    answer: question.correctAlternative,
+  }
+}
+
 const correctedQuestions2024Day1 = questions2024Day1.map((question, index) => (
   index === 2
     ? {
@@ -85,6 +111,21 @@ const correctedQuestions2024Day1 = questions2024Day1.map((question, index) => (
           'O fenômeno El Niño provocou a diminuição das temperaturas no Centro-Sul do Brasil, atraindo a Massa Tropical Continental, quente e seca, para essa área.',
         ],
       }
+    : index === 7
+    ? {
+        ...question,
+        text: 'Sobre a vegetação litorânea ameaçada pela privatização de áreas à beira-mar, assinale a alternativa CORRETA.',
+      }
+    : index === 8
+    ? {
+        ...question,
+        text: 'A imagem acima apresenta a área usualmente conhecida como Quadrilátero Ferrífero. Entretanto, pesquisas têm apontado que o termo mais indicado seria Quadrilátero Aquífero-Ferrífero, já que a área abriga o Aquífero Cauê, com alta capacidade de armazenamento de água. Esta capacidade se explica em decorrência das',
+      }
+    : index === 9
+    ? {
+        ...question,
+        text: 'O mapa acima representa uma proposta de trajeto para a Ferrovia Transoceânica, projeto que prevê uma maior integração entre América do Sul e Ásia, sobretudo para o transporte de produtos agrícolas e minerais, tornando as exportações possíveis tanto pelo Oceano Atlântico quanto pelo Oceano Pacífico. Considerando os trajetos representados no mapa em território nacional, e levando em conta uma sobreposição aos principais Domínios Morfoclimáticos do Brasil e as faixas de transição entre eles, definidos pelo geógrafo Aziz Ab’Saber, identifica-se a seguinte sequência, do Oceano Atlântico em direção ao Pacífico, de Domínios cortados pela ferrovia:',
+      }
     : question
 ))
 
@@ -94,11 +135,6 @@ const subjects = [
   { name: 'Matemática', count: 5, color: 'amber' },
   { name: 'Química', count: 5, color: 'purple' },
 ]
-const dayTwoTextTwo = 'TEXTO 2\nMama Africa\nChico Cesar\n\nA minha mae e mae solteira. Mama Africa tem tanto o que fazer, alem de cuidar nenem e fazer denguim. Mama Africa vai e vem, mas nao se afasta de voce.\n\nFonte: CESAR, Chico. Mama Africa (Fragmento). In: Cuscuz cla. Rio de Janeiro: MZA Music, 1996.'
-const dayTwoTextThree = 'TEXTO 3\nrotina\nBruna Mitrano\n\nPela manha empurrar lama com rodo, enxaguar os panos enfiados nos pes das portas, desempilhar os moveis e coloca-los de cabeca pra cima. Toalhas escaldadas trazem a avo, reerguendo a casa tantos temporais depois de desenhar com uma lasca de tijolo sois na calcada.\n\nFonte: MITRANO, Bruna. Ninguem quis ver. Sao Paulo: Companhia das Letras, 2023, p. 61.'
-const dayTwoTextFour = 'TEXTO 4\nNao vou mais lavar os pratos\nCristiane Sobral\n\nNao vou mais lavar os pratos. Nem vou limpar a poeira dos moveis. Sinto muito. Comecei a ler. Depois de ler percebi a estetica dos pratos, a estetica dos tracos, a etica. Depois de tantos anos alfabetizada, aprendi a ler. Li a assinatura da minha lei aurea escrita em negro maiusculo. Aboli. Nao lavo mais os pratos. Quero travessas de prata, cozinha de luxo e joias de ouro. Esta decretada a lei aurea.\n\nFonte: SOBRAL, Cristiane. Nao vou mais lavar os pratos. Rio de Janeiro: Male, 2022.'
-const dayTwoTextFive = 'TEXTO 5\nCapitulo 4, versiculo 3\nRacionais MCs\n\n60% dos jovens de periferia sofreram violencia policial. Tres em cada quatro mortos pela policia sao negros. Nas universidades, apenas 2% dos alunos sao negros. Um jovem negro morre violentamente a cada quatro horas em Sao Paulo.\n\nFonte: RACIONAIS MCs. Sobrevivendo no inferno. Sao Paulo: Companhia das Letras, 2018.'
-const dayTwoTextSix = 'TEXTO 6\nCaderno de Retorno\nEdimilson de Almeida Pereira\n\n75% dos azuis tem mais chances de serem os primeiros demitidos. 70% trabalham em servicos nao-tecnicos. 80,9% de suas parceiras ganham ate dois salarios minimos. 62% ganham ate dois salarios minimos. 80% moram em favelas e locais insalubres. 87% dos que estao fora das escolas sao azuis como seus pais. 47% concluem o ensino medio e somente 1% concluem o ensino superior. 37,7% das azuis sao analfabetas; 40,25% dos azuis sao analfabetos.\n\nFonte: PEREIRA, Edimilson de Almeida. Caderno de retorno. 2. ed. Salvador: Ogums Toques Editora, 2017.'
 
 const questions = [
   {
@@ -448,6 +484,185 @@ Fonte: MARCUSCHI, Luiz Antônio. Da fala para a escrita – atividades de retext
 const text2024Day1FigureOne = '/pism-2024-1-figura-1.png'
 const text2024Day1FigureTwo = '/pism-2024-1-figura-2.png'
 const text2024Day1FigureThree = '/pism-2024-1-figura-3.png'
+const text2024Day1QuestionNineImage = '/pism-2024-1-questao-9-quadrilatero-aquifero-ferrifero.png'
+const text2024Day1QuestionTenImage = '/pism-2024-1-questao-10-ferrovia-transoceanica.png'
+const text2024Day1Eight = `Riscos ambientais da PEC das Praias
+
+Essa faixa costeira é fundamental na contenção da erosão
+
+A Proposta de Emenda Constitucional 3/2022, a PEC das Praias, tem sido debatida nos últimos dias, especialmente sob a ótica econômica e social. Gostaríamos de incluir aqui alguns argumentos ambientais a partir de nossa pesquisa em biologia marinha.
+
+O objetivo principal dessa PEC é a concessão privada de terrenos de marinha. Há um entendimento de que essa faixa se localize acima de 33 metros da linha d’água, o que exclui as praias. Há outro entendimento que cita que essas áreas vão até onde se faça sentir a influência da maré. Só nessa duplicidade de interpretações já há margem para conflitos.
+
+Essa faixa costeira é fundamental na contenção da erosão litorânea e das mudanças climáticas. Elas são partes do patrimônio nacional, devendo ser geridas pelo interesse público. Por mais que não privatize praias, a PEC 3/2022 resultará em degradação ambiental, expulsão de pescadores artesanais, dificuldade de acesso à praia e especulação imobiliária.
+
+https://www.correiobraziliense.com.br/opiniao/2024/06/6878577-riscos-ambientais-da-pec-das-praias.html
+Acesso em: 16 de jun. de 2024.`
+const pism2024Day2Texts = [
+  `TEXTO I
+
+(...)
+
+‘Stamos em pleno mar... Abrindo as velas
+Ao quente arfar das virações marinhas,
+Veleiro brigue corre à flor dos mares,
+Como roçam na vaga as andorinhas...
+Donde vem? Onde vai? Das naus errantes
+Quem sabe o rumo se é tão grande o espaço?
+Neste saara os corcéis o pó levantam,
+Galopam, voam, mas não deixam traço.
+Bem feliz quem ali pode nest’hora
+Sentir deste painel a majestade!...
+Embaixo – o mar... em cima – o firmamento...
+E no mar e no céu – a imensidade!
+Oh! que doce harmonia traz-me a brisa!
+Que música suave ao longe soa!
+Meu Deus! Como é sublime um canto ardente
+Pelas vagas sem fim boiando à toa!
+
+(...)
+
+Era um sonho dantesco... O tombadilho
+Que das luzernas avermelha o brilho,
+Em sangue a se banhar.
+Tinir de ferros... estalar de açoite...
+Legiões de homens negros como a noite,
+Horrendos a dançar...
+Negras mulheres, suspendendo às tetas
+Magras crianças, cujas bocas pretas
+Rega o sangue das mães:
+Outras moças, mas nuas e espantadas,
+No turbilhão de espectros arrastadas,
+Em ânsia e mágoa vãs! (...)
+
+Ouvem-se gritos... o chicote estala.
+E voam mais e mais...
+Presa nos elos de uma só cadeia,
+A multidão faminta cambaleia,
+E chora e dança ali!
+Um de raiva delira, outro enlouquece,
+Outro, que martírios embrutece,
+Cantando, geme e ri! (...)`,
+  `TEXTO II
+
+As Caravanas
+Chico Buarque de Hollanda
+
+É um dia de real grandeza, tudo azul
+Um mar turquesa à la Istambul enchendo os olhos
+Um sol de torrar os miolos
+Quando pinta em Copacabana
+A caravana do Arará, do Caxangá, da Chatuba
+A caravana do Irajá, o comboio da Penha
+Não há barreira que retenha esses estranhos
+Suburbanos tipo muçulmanos do Jacarezinho
+A caminho do Jardim de Alá
+É o bicho, é o buchicho, é a charanga
+
+(...)
+
+Com negros torsos nus deixam em polvorosa
+A gente ordeira e virtuosa que apela
+Pra polícia despachar de volta
+O populacho pra favela
+Ou pra Benguela, ou pra Guiné
+Sol, a culpa deve ser do sol
+Que bate na moleira, o sol
+Que estoura as veias, o suor
+Que embaça os olhos e a razão
+E essa zoeira dentro da prisão
+Crioulos empilhados no porão
+De caravelas no alto mar
+Tem que bater, tem que matar, engrossa a gritaria
+Filha do medo, a raiva é mãe da covardia
+Ou doido sou eu que escuto vozes
+Não há gente tão insana
+Nem caravana do Arará
+Não há, não há`,
+  `TEXTO III
+
+Luísa Mahin
+Jarid Arraes
+
+No século 19
+Luísa Mahin nasceu
+Com origem africana
+Sua história aconteceu
+E com incessante gana
+Seu nome prevaleceu.
+Vinda da Costa da Mina
+Afirmava ser princesa
+Mas vendida como escrava
+Teve na luta a certeza
+Depois de alforriada
+Demonstrou sua proeza.
+Viveu como quituteira
+E morou em Salvador
+Usou com inteligência
+Seus talentos de sabor
+Pois usava o tabuleiro
+De mensagens portador.
+
+(...)
+
+Importante mencionar
+Que foi mãe de Luís Gama
+Poeta e abolicionista
+De imensurável chama
+E por ele foi citada
+Respeitando sua fama.
+
+(...)
+
+O pai branco de Luís
+O vendeu quando criança
+Separando de sua mãe
+Na racista podre herança
+De ser branco dominante
+Indigno de confiança.
+Mas Luísa era guerreira
+A rebelde sem igual
+Fez ainda de sua casa
+Como um quartel general
+Onde eram planejadas
+As revoltas sem igual.
+Apesar de tudo isso
+E de tudo que lutou
+Essa mulher imponente
+Muito se silenciou
+Pois ainda não se conta
+Tudo que realizou.
+Mas apenas sua memória
+É forte o suficiente
+Pra mexer na estrutura
+Dessa gente incoerente
+Que não fala a verdade
+Sobre o negro insurgente.
+(...)`,
+  `TEXTO IV
+
+O Canto dos Escravizados
+Paulina Chiziane
+
+Acorrentado vim, cruzando o mar
+Atormentado fui no negrume do porão
+Aqui estou na América
+Chorando de dor, ó mãe África!
+Escravizado sou, como animal
+Comprado fui por quem só me fez mal
+Aqui estou na América
+Chorando de dor, ó mãe África!
+Estou lutando para me libertar
+E bem depressa regressar ao lar
+Aqui estou na América
+Chorando de dor, ó mãe África`,
+  `TEXTO V
+
+Ponciá Vicêncio
+Conceição Evaristo
+
+Quando Ponciá Vicêncio resolveu sair do povoado onde nascera, a decisão chegou forte e repentina. Estava cansada de tudo ali. De trabalhar o barro com a mãe, de ir e vir às terras dos brancos e voltar de mãos vazias. De ver a terra dos negros coberta de plantações, cuidadas pelas mulheres e crianças, pois os homens gastavam a vida trabalhando nas terras dos senhores, e depois a maior parte das colheitas ser entregue aos coronéis. Cansada da luta insana, sem glória, a que todos se entregavam para amanhecer cada dia mais pobres, enquanto alguns conseguiam enriquecer-se a todo dia. Ela acreditava que poderia traçar outros caminhos, inventar uma vida nova.`
+]
 
 const normalizeExtractedText = (value) => value
   .replace(/P´ agina \d+ de \d+.*?(?=Leia|TEXTO|Quest)/g, '')
@@ -464,9 +679,42 @@ function App() {
   const [screen, setScreen] = useState('home')
   const [selectedExam, setSelectedExam] = useState(null)
   const [year, setYear] = useState('2025-1')
+  const [enemCatalog, setEnemCatalog] = useState([])
+  const [enemYear, setEnemYear] = useState('2023')
+  const [enemDiscipline, setEnemDiscipline] = useState('linguagens')
+  const [enemLanguage, setEnemLanguage] = useState('ingles')
+  const [enemQuestions, setEnemQuestions] = useState([])
+  const [enemQuestionCache, setEnemQuestionCache] = useState({})
+  const [enemLoading, setEnemLoading] = useState(false)
+  const [enemError, setEnemError] = useState('')
   const [current, setCurrent] = useState(0)
   const [answers, setAnswers] = useState({})
   const [menuOpen, setMenuOpen] = useState(false)
+  const [pismLoading, setPismLoading] = useState(false)
+  const [supabaseExamSlug, setSupabaseExamSlug] = useState(null)
+  useEffect(() => {
+    let cancelled = false
+    fetch(`${enemApiBaseUrl}/exams`)
+      .then(async (response) => {
+        if (!response.ok) throw new Error(`Não foi possível carregar as provas do ENEM (HTTP ${response.status}).`)
+        return response.json()
+      })
+      .then((data) => {
+        if (cancelled) return
+        setEnemCatalog(data)
+        const currentExam = data.find((exam) => exam.year === 2023) || data[0]
+        if (currentExam) {
+          setEnemYear(String(currentExam.year))
+          setEnemDiscipline(currentExam.disciplines.find((item) => item.value === 'linguagens')?.value || currentExam.disciplines[0]?.value || '')
+          setEnemLanguage(currentExam.languages[0]?.value || '')
+        }
+      })
+      .catch((error) => {
+        if (!cancelled) setEnemError(error.message)
+      })
+    return () => { cancelled = true }
+  }, [])
+
   const questionSets = {
     'pism-1': questions,
     'pism-2': questionsDay2,
@@ -474,21 +722,109 @@ function App() {
     'pism-2024-2': questions2024Day2,
     'enem-2023-1-ingles': [...enem2023EnglishQuestions, ...enem2023SpanishQuestions],
   }
-  const activeQuestions = questionSets[selectedExam] || questions
-  const examLabel = selectedExam === 'pism-1' ? '2025-1' : selectedExam === 'pism-2' ? '2025-2' : selectedExam === 'pism-2024-1' ? '2024-1' : selectedExam === 'pism-2024-2' ? '2024-2' : '2023-1_Cad_Amarelo - LINGUAGENS, CÓDIGOS E SUAS TECNOLOGIAS'
-  const examDay = examLabel.endsWith('-1') ? 'Dia 1' : 'Dia 2'
+  const activeQuestions = selectedExam === 'enem-api' || supabaseExamSlug ? enemQuestions : questionSets[selectedExam] || questions
+  const examLabel = selectedExam === 'pism-1' ? '2025-1' : selectedExam === 'pism-2' ? '2025-2' : selectedExam === 'pism-2024-1' ? '2024-1' : selectedExam === 'pism-2024-2' ? '2024-2' : selectedExam === 'enem-api' ? `ENEM ${enemYear}` : '2023-1_Cad_Amarelo - LINGUAGENS, CÓDIGOS E SUAS TECNOLOGIAS'
+  const examDay = selectedExam === 'enem-api' ? 'Área selecionada' : examLabel.endsWith('-1') ? 'Dia 1' : 'Dia 2'
 
   const score = useMemo(() => activeQuestions.reduce((total, question, index) => (
     total + (answers[index] === question.answer ? 1 : 0)
   ), 0), [activeQuestions, answers])
 
-  const startExam = (exam) => {
+  const startExam = async (exam) => {
     if (exam === 'enem') return
-    setSelectedExam(exam)
-    setCurrent(0)
-    setAnswers({})
-    setScreen('exam')
-    setMenuOpen(false)
+    setPismLoading(true)
+    try {
+      const supabaseSlug = { 'pism-1': 'pism-2025-1', 'pism-2': 'pism-2025-2', 'pism-2024-1': 'pism-2024-1', 'pism-2024-2': 'pism-2024-2' }[exam]
+      if (supabase && supabaseSlug) {
+        const { data: examRecord, error: examError } = await supabase.from('exams').select('id').eq('slug', supabaseSlug).maybeSingle()
+        if (examError) throw examError
+        if (examRecord) {
+          const { data: storedQuestions, error: questionsError } = await supabase.from('questions').select('*').eq('exam_id', examRecord.id).order('number')
+          if (questionsError) throw questionsError
+          if (storedQuestions?.length) {
+            setEnemQuestions(storedQuestions.map((question) => ({
+              subject: question.subject,
+              text: question.text,
+              support: question.support,
+              supportImage: question.support_image,
+              options: question.options,
+              answer: question.answer,
+            })))
+            setSupabaseExamSlug(supabaseSlug)
+            setSelectedExam(exam)
+          } else {
+            setSupabaseExamSlug(null)
+            setSelectedExam(exam)
+          }
+        } else {
+          setSupabaseExamSlug(null)
+          setSelectedExam(exam)
+        }
+      } else {
+        setSupabaseExamSlug(null)
+        setSelectedExam(exam)
+      }
+      setCurrent(0)
+      setAnswers({})
+      setScreen('exam')
+      setMenuOpen(false)
+    } catch (error) {
+      setEnemError(`Não foi possível carregar as questões do Supabase: ${error.message}`)
+      setSelectedExam(exam)
+      setSupabaseExamSlug(null)
+      setCurrent(0)
+      setAnswers({})
+      setScreen('exam')
+    } finally {
+      setPismLoading(false)
+    }
+  }
+
+  const loadEnemQuestions = async () => {
+    setEnemError('')
+    const cached = enemQuestionCache[enemYear]
+    if (cached) return cached
+    setEnemLoading(true)
+    try {
+      const questions = []
+      let offset = 0
+      let hasMore = true
+      while (hasMore) {
+        const response = await fetch(`${enemApiBaseUrl}/exams/${enemYear}/questions?limit=50&offset=${offset}`)
+        if (!response.ok) throw new Error(`Não foi possível carregar as questões do ENEM ${enemYear} (HTTP ${response.status}).`)
+        const data = await response.json()
+        questions.push(...data.questions)
+        hasMore = data.metadata?.hasMore
+        offset += data.metadata?.limit || 50
+        if (hasMore) await wait(1100)
+      }
+      const normalized = questions.map(normalizeEnemQuestion)
+      setEnemQuestionCache((old) => ({ ...old, [enemYear]: normalized }))
+      return normalized
+    } finally {
+      setEnemLoading(false)
+    }
+  }
+
+  const startEnemExam = async () => {
+    try {
+      const allQuestions = await loadEnemQuestions()
+      const filtered = allQuestions.filter((question) => question.discipline === enemDiscipline)
+      const questionsForLanguage = enemDiscipline === 'linguagens'
+        ? filtered.filter((question) => question.language === enemLanguage || !question.language)
+        : filtered
+      if (!questionsForLanguage.length) {
+        throw new Error('A API não retornou questões para os filtros selecionados.')
+      }
+      setEnemQuestions(questionsForLanguage)
+      setSelectedExam('enem-api')
+      setCurrent(0)
+      setAnswers({})
+      setScreen('exam')
+      setMenuOpen(false)
+    } catch (error) {
+      setEnemError(error.message)
+    }
   }
 
   const selectedExamForYear = {
@@ -496,6 +832,14 @@ function App() {
     '2025-2': 'pism-2',
     '2024-1': 'pism-2024-1',
     '2024-2': 'pism-2024-2',
+  }
+
+  const changeEnemYear = (value) => {
+    const exam = enemCatalog.find((item) => String(item.year) === value)
+    setEnemYear(value)
+    setEnemDiscipline(exam?.disciplines.find((item) => item.value === 'linguagens')?.value || exam?.disciplines[0]?.value || '')
+    setEnemLanguage(exam?.languages[0]?.value || '')
+    setEnemError('')
   }
 
   const answer = (letter) => setAnswers((old) => ({ ...old, [current]: letter }))
@@ -557,7 +901,7 @@ function App() {
         <main className="exam-page">
           <div className="exam-topline">
             <button className="back-link" onClick={() => setScreen(isReview ? 'result' : 'home')}><ArrowLeft size={17} /> {isReview ? 'Voltar ao resultado' : 'Sair da prova'}</button>
-            <div className="exam-name"><span className="mini-logo">P</span><span>provacerta · PISM {examLabel}</span><b>·</b><span>{isReview ? 'Revisão' : `Módulo I · ${examDay}`}</span></div>
+            <div className="exam-name"><span className="mini-logo">P</span><span>provacerta · {selectedExam === 'enem-api' ? examLabel : `PISM ${examLabel}`}</span><b>·</b><span>{isReview ? 'Revisão' : `Módulo I · ${examDay}`}</span></div>
             <span className="question-count">{current + 1} <i>/</i> {activeQuestions.length}</span>
           </div>
           <div className="progress-track"><span style={{ width: `${((current + 1) / activeQuestions.length) * 100}%` }} /></div>
@@ -571,10 +915,15 @@ function App() {
               </div>
               <div className="legend"><span><i className="dot filled" /> Respondida</span><span><i className="dot" /> Em aberto</span></div>
               <div className="exam-tip"><Sparkles size={18} /><p><b>Dica de foco</b><br />Leia com calma e marque a alternativa que melhor responde ao enunciado.</p></div>
-              {selectedExam === 'pism-1' && <><details className="sidebar-support"><summary><BookOpen size={16} /><span>Texto 1</span><ChevronDown size={15} /></summary><div>{textOne}</div></details><details className="sidebar-support"><summary><BookOpen size={16} /><span>Texto 2</span><ChevronDown size={15} /></summary><div>{textTwo}</div></details><details className="sidebar-support"><summary><BookOpen size={16} /><span>Texto 3</span><ChevronDown size={15} /></summary><div><img className="support-image" src={textThreeImage} alt="Charge de Jean Galvão sobre as imagens do satélite do Cerrado" /><p className="support-caption">Fonte: GALVÃO, Jean. Folha de São Paulo, 29 jun. 2025.</p></div></details><details className="sidebar-support"><summary><BookOpen size={16} /><span>Texto 4</span><ChevronDown size={15} /></summary><div><img className="support-image" src={textFourImage} alt="Charge sobre inteligência artificial e trabalho humano" /><p className="support-caption">Disponível em: blogdoaftm.com.br/charge-inteligencia-artificial/. Acesso em: 01 jul. 2025.</p></div></details></>}
-              {selectedExam === 'pism-2' && <><details className="sidebar-support"><summary><BookOpen size={16} /><span>Texto 1</span><ChevronDown size={15} /></summary><div>{dayTwoTexts[0]}</div></details><details className="sidebar-support"><summary><BookOpen size={16} /><span>Texto 2</span><ChevronDown size={15} /></summary><div>{dayTwoTextTwo}</div></details><details className="sidebar-support"><summary><BookOpen size={16} /><span>Texto 3</span><ChevronDown size={15} /></summary><div>{dayTwoTextThree}</div></details><details className="sidebar-support"><summary><BookOpen size={16} /><span>Texto 4</span><ChevronDown size={15} /></summary><div>{dayTwoTextFour}</div></details><details className="sidebar-support"><summary><BookOpen size={16} /><span>Texto 5</span><ChevronDown size={15} /></summary><div>{dayTwoTextFive}</div></details><details className="sidebar-support"><summary><BookOpen size={16} /><span>Texto 6</span><ChevronDown size={15} /></summary><div>{dayTwoTextSix}</div></details></>}
-              {selectedExam === 'pism-2024-1' && question.subject === 'Língua Portuguesa' && <><details className="sidebar-support"><summary><BookOpen size={16} /><span>Texto 1</span><ChevronDown size={15} /></summary><div>{text2024Day1One}</div></details><details className="sidebar-support"><summary><BookOpen size={16} /><span>Texto 2</span><ChevronDown size={15} /></summary><div><img className="support-image" src={text2024Day1TwoImage} alt="Post sobre a periferia acordar primeiro" /></div></details><details className="sidebar-support"><summary><BookOpen size={16} /><span>Texto 3</span><ChevronDown size={15} /></summary><div>{text2024Day1Three}</div></details><details className="sidebar-support"><summary><BookOpen size={16} /><span>Texto 4</span><ChevronDown size={15} /></summary><div>{text2024Day1Four}</div></details><details className="sidebar-support"><summary><BookOpen size={16} /><span>Texto 5</span><ChevronDown size={15} /></summary><div>{text2024Day1Five}</div></details><details className="sidebar-support"><summary><BookOpen size={16} /><span>Texto 6</span><ChevronDown size={15} /></summary><div>{text2024Day1Six}</div></details><details className="sidebar-support"><summary><BookOpen size={16} /><span>Texto 7</span><ChevronDown size={15} /></summary><div>{text2024Day1Seven}</div></details></>}
-              {selectedExam === 'pism-2024-1' && question.subject === 'Geografia' && current === 5 && <details className="sidebar-support"><summary><BookOpen size={16} /><span>Figuras 1, 2 e 3</span><ChevronDown size={15} /></summary><div><figure className="support-figure"><img className="support-image" src={text2024Day1FigureOne} alt="Figura 1: massas de ar que atuam sobre a América do Sul no inverno" /><figcaption>Figura 1 — Massas de ar atuantes no inverno.</figcaption></figure><figure className="support-figure"><img className="support-image" src={text2024Day1FigureTwo} alt="Figura 2: massas de ar que atuam sobre a América do Sul no verão" /><figcaption>Figura 2 — Massas de ar atuantes no verão.</figcaption></figure><figure className="support-figure"><img className="support-image" src={text2024Day1FigureThree} alt="Figura 3: precipitação acumulada no Brasil nos últimos 15 dias" /><figcaption>Figura 3 — Fonte: INMET, 2024.</figcaption></figure></div></details>}
+
+              {selectedExam === 'pism-2024-1' && !supabaseExamSlug && question.subject === 'Língua Portuguesa' && <><details className="sidebar-support"><summary><BookOpen size={16} /><span>Texto 1</span><ChevronDown size={15} /></summary><div>{text2024Day1One}</div></details><details className="sidebar-support"><summary><BookOpen size={16} /><span>Texto 2</span><ChevronDown size={15} /></summary><div><img className="support-image" src={text2024Day1TwoImage} alt="Post sobre a periferia acordar primeiro" /></div></details><details className="sidebar-support"><summary><BookOpen size={16} /><span>Texto 3</span><ChevronDown size={15} /></summary><div>{text2024Day1Three}</div></details><details className="sidebar-support"><summary><BookOpen size={16} /><span>Texto 4</span><ChevronDown size={15} /></summary><div>{text2024Day1Four}</div></details><details className="sidebar-support"><summary><BookOpen size={16} /><span>Texto 5</span><ChevronDown size={15} /></summary><div>{text2024Day1Five}</div></details><details className="sidebar-support"><summary><BookOpen size={16} /><span>Texto 6</span><ChevronDown size={15} /></summary><div>{text2024Day1Six}</div></details><details className="sidebar-support"><summary><BookOpen size={16} /><span>Texto 7</span><ChevronDown size={15} /></summary><div>{text2024Day1Seven}</div></details></>}
+              {selectedExam === 'pism-2024-1' && !supabaseExamSlug && question.subject === 'Geografia' && current === 5 && <details className="sidebar-support"><summary><BookOpen size={16} /><span>Figuras 1, 2 e 3</span><ChevronDown size={15} /></summary><div><figure className="support-figure"><img className="support-image" src={text2024Day1FigureOne} alt="Figura 1: massas de ar que atuam sobre a América do Sul no inverno" /><figcaption>Figura 1 — Massas de ar atuantes no inverno.</figcaption></figure><figure className="support-figure"><img className="support-image" src={text2024Day1FigureTwo} alt="Figura 2: massas de ar que atuam sobre a América do Sul no verão" /><figcaption>Figura 2 — Massas de ar atuantes no verão.</figcaption></figure><figure className="support-figure"><img className="support-image" src={text2024Day1FigureThree} alt="Figura 3: precipitação acumulada no Brasil nos últimos 15 dias" /><figcaption>Figura 3 — Fonte: INMET, 2024.</figcaption></figure></div></details>}
+              {selectedExam === 'pism-2024-1' && !supabaseExamSlug && question.subject === 'Geografia' && current === 7 && <details className="sidebar-support"><summary><BookOpen size={16} /><span>Texto de apoio</span><ChevronDown size={15} /></summary><div>{text2024Day1Eight}</div></details>}
+              {selectedExam === 'pism-2024-1' && !supabaseExamSlug && question.subject === 'Geografia' && current === 8 && <details className="sidebar-support"><summary><BookOpen size={16} /><span>Imagem de apoio</span><ChevronDown size={15} /></summary><div><img className="support-image" src={text2024Day1QuestionNineImage} alt="Mapa de altitude do Quadrilátero Aquífero-Ferrífero, em Minas Gerais" /></div></details>}
+              {selectedExam === 'pism-2024-1' && !supabaseExamSlug && question.subject === 'Geografia' && current === 9 && <details className="sidebar-support"><summary><BookOpen size={16} /><span>Imagem de apoio</span><ChevronDown size={15} /></summary><div><img className="support-image" src={text2024Day1QuestionTenImage} alt="Mapa com a proposta de trajeto da Ferrovia Transoceânica entre os oceanos Atlântico e Pacífico" /></div></details>}
+              {selectedExam === 'pism-2024-2' && !supabaseExamSlug && question.subject === 'Literaturas' && <><details className="sidebar-support"><summary><BookOpen size={16} /><span>Texto 1</span><ChevronDown size={15} /></summary><div>{pism2024Day2Texts[0]}</div></details><details className="sidebar-support"><summary><BookOpen size={16} /><span>Texto 2</span><ChevronDown size={15} /></summary><div>{pism2024Day2Texts[1]}</div></details><details className="sidebar-support"><summary><BookOpen size={16} /><span>Texto 3</span><ChevronDown size={15} /></summary><div>{pism2024Day2Texts[2]}</div></details><details className="sidebar-support"><summary><BookOpen size={16} /><span>Texto 4</span><ChevronDown size={15} /></summary><div>{pism2024Day2Texts[3]}</div></details><details className="sidebar-support"><summary><BookOpen size={16} /><span>Texto 5</span><ChevronDown size={15} /></summary><div>{pism2024Day2Texts[4]}</div></details></>}
+              {supabaseExamSlug && (question.support || question.supportImage) && <details className="sidebar-support" open><summary><BookOpen size={16} /><span>Texto ou imagem de apoio</span><ChevronDown size={15} /></summary><div>{question.supportImage && <img className="support-image" src={question.supportImage} alt={`Imagem de apoio da questão ${current + 1}`} />}{question.support && <span>{question.support}</span>}</div></details>}
+              {selectedExam === 'enem-api' && <details className="sidebar-support" open><summary><BookOpen size={16} /><span>Texto ou imagem de apoio</span><ChevronDown size={15} /></summary><div>{question.supportImage && <img className="support-image" src={question.supportImage} alt={`Imagem de apoio da questão ${current + 1}`} />}{question.support && <span>{question.support}</span>}</div></details>}
               {selectedExam === 'enem-2023-1-ingles' && <details className="sidebar-support" open><summary><BookOpen size={16} /><span>Texto ou imagem de apoio</span><ChevronDown size={15} /></summary><div>{question.supportImage ? <img className="support-image" src={question.supportImage} alt={`Imagem de apoio da questão ${current + 1}`} /> : <span>{current === 9 ? `${enem2023SpanishSupport[9]}\n\n${question.support}` : question.support || enem2023SpanishSupport[current]}</span>}</div></details>}
             </aside>
             <section className="question-content">
@@ -631,7 +980,7 @@ function App() {
           <div className="section-heading"><div><p className="eyebrow">Escolha seu desafio</p><h2>Provas para praticar</h2></div><div className="view-all"><LayoutGrid size={17} /> Todas as provas</div></div>
           <div className="exam-cards">
             <ExamCard type="pism" title="PISM" description="Programa de Ingresso Seletivo Misto" years={['2025-1', '2025-2', '2024-1', '2024-2']} year={year} setYear={setYear} onStart={() => startExam(selectedExamForYear[year])} available />
-            <ExamCard type="enem" title="ENEM" description="Exame Nacional do Ensino Médio" years={['2023-1_Cad_Amarelo - LINGUAGENS, CÓDIGOS E SUAS TECNOLOGIAS']} year={year} setYear={setYear} onStart={() => startExam('enem-2023-1-ingles')} available />
+            <EnemCard catalog={enemCatalog} year={enemYear} setYear={changeEnemYear} discipline={enemDiscipline} setDiscipline={setEnemDiscipline} language={enemLanguage} setLanguage={setEnemLanguage} onStart={startEnemExam} loading={enemLoading} error={enemError} />
           </div>
         </section>
         <section className="bottom-quote"><span className="quote-mark">“</span><p>Grandes resultados começam<br />com pequenas escolhas diárias.</p><span className="quote-line" /></section>
@@ -643,6 +992,27 @@ function App() {
 
 function Header({ onHome, menuOpen, setMenuOpen }) {
   return <header><button className="brand" onClick={onHome}><span className="brand-mark">P</span> prova<span>certa</span></button><nav className={menuOpen ? 'open' : ''}><a href="#provas" onClick={() => setMenuOpen?.(false)}>Provas</a><a href="#como-funciona" onClick={() => setMenuOpen?.(false)}>Como funciona</a><a href="#sobre" onClick={() => setMenuOpen?.(false)}>Sobre nós</a></nav><button className="menu-button" onClick={() => setMenuOpen?.(!menuOpen)}><Menu size={22} /></button></header>
+}
+
+function EnemCard({ catalog, year, setYear, discipline, setDiscipline, language, setLanguage, onStart, loading, error }) {
+  const exam = catalog.find((item) => String(item.year) === year)
+  const disciplines = exam?.disciplines || []
+  const languages = exam?.languages || []
+  return (
+    <article className="exam-card enem">
+      <div className="card-art"><span className="art-kicker">BRASIL</span><strong>ENEM</strong><span className="art-shape">ENEM</span><div className="art-dots" /></div>
+      <div className="exam-card-body">
+        <div className="card-title-row"><div><h3>ENEM</h3><p>Exame Nacional do Ensino Médio</p></div><span className={`status ${catalog.length ? 'ready' : ''}`}>{catalog.length ? 'API conectada' : 'Carregando'}</span></div>
+        <div className="enem-controls">
+          <label>Ano da prova <span className="select-wrap"><select value={year} onChange={(event) => setYear(event.target.value)} disabled={!catalog.length}>{catalog.map((item) => <option key={item.year} value={item.year}>{item.year}</option>)}</select><ChevronDown size={16} /></span></label>
+          <label>Área <span className="select-wrap"><select value={discipline} onChange={(event) => setDiscipline(event.target.value)} disabled={!disciplines.length}>{disciplines.map((item) => <option key={item.value} value={item.value}>{item.label}</option>)}</select><ChevronDown size={16} /></span></label>
+          {discipline === 'linguagens' && <label>Idioma <span className="select-wrap"><select value={language} onChange={(event) => setLanguage(event.target.value)} disabled={!languages.length}>{languages.map((item) => <option key={item.value} value={item.value}>{item.label}</option>)}</select><ChevronDown size={16} /></span></label>}
+        </div>
+        {error && <p className="api-error" role="alert">{error}</p>}
+        <button className={`button ${catalog.length && !loading ? 'primary' : 'disabled'} full`} onClick={onStart} disabled={!catalog.length || loading}>{loading ? 'Carregando questões…' : 'Começar prova'} {!loading && catalog.length > 0 && <ArrowRight size={17} />}</button>
+      </div>
+    </article>
+  )
 }
 
 function ExamCard({ type, title, description, years, year, setYear, onStart, available }) {

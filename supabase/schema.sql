@@ -1,0 +1,50 @@
+create table if not exists public.exams (
+  id uuid primary key default gen_random_uuid(),
+  slug text unique not null,
+  title text not null,
+  source text not null default 'pism',
+  year text not null,
+  created_at timestamptz not null default now()
+);
+
+create table if not exists public.questions (
+  id uuid primary key default gen_random_uuid(),
+  exam_id uuid not null references public.exams(id) on delete cascade,
+  number integer not null,
+  subject text not null,
+  text text not null,
+  support text,
+  support_image text,
+  options jsonb not null,
+  answer text not null check (answer in ('A', 'B', 'C', 'D', 'E')),
+  created_at timestamptz not null default now(),
+  unique (exam_id, number)
+);
+
+create table if not exists public.attempts (
+  id uuid primary key default gen_random_uuid(),
+  user_id uuid not null references auth.users(id) on delete cascade,
+  exam_slug text not null,
+  exam_title text not null,
+  score integer not null default 0,
+  total integer not null default 0,
+  answers jsonb not null default '{}'::jsonb,
+  completed_at timestamptz not null default now()
+);
+
+alter table public.exams enable row level security;
+alter table public.questions enable row level security;
+alter table public.attempts enable row level security;
+
+create policy "Public can read exams" on public.exams for select using (true);
+create policy "Public can read questions" on public.questions for select using (true);
+create policy "Users can read their attempts" on public.attempts for select using (auth.uid() = user_id);
+create policy "Users can create their attempts" on public.attempts for insert with check (auth.uid() = user_id);
+
+insert into public.exams (slug, title, source, year)
+values
+  ('pism-2025-1', 'PISM 2025-1', 'pism', '2025-1'),
+  ('pism-2025-2', 'PISM 2025-2', 'pism', '2025-2'),
+  ('pism-2024-1', 'PISM 2024-1', 'pism', '2024-1'),
+  ('pism-2024-2', 'PISM 2024-2', 'pism', '2024-2')
+on conflict (slug) do nothing;

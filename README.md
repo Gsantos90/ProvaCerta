@@ -17,10 +17,8 @@ Atualmente estão disponíveis:
 - PISM 2025-2;
 - PISM 2024-1;
 - PISM 2024-2.
-- ENEM 2023 — Caderno 2 Amarelo, Linguagens, Códigos e suas Tecnologias
-  (questões 1 a 5 em Inglês e questões 6 a 10 em Espanhol).
-
-As demais questões do caderno ENEM serão adicionadas progressivamente.
+- ENEM 2009 a 2023, carregado sob demanda pela [API pública do ENEM](https://docs.enem.dev/introduction);
+  a prova pode ser filtrada por ano, área e idioma.
 
 ## Funcionalidades
 
@@ -62,14 +60,124 @@ As demais questões do caderno ENEM serão adicionadas progressivamente.
 - Figuras 1, 2 e 3 disponíveis na questão 6 do PISM 2024-1.
 - Imagens de apoio das questões 2 e 3 do ENEM 2023.
 
+### Integração com a API do ENEM
+
+O cartão do ENEM consulta o catálogo de provas em `https://api.enem.dev/v1/exams`.
+Ao iniciar uma prova, as questões do ano selecionado são carregadas em páginas
+de até 50 itens, respeitando o limite de uma requisição por segundo da API.
+Os dados ficam em cache durante a sessão e são filtrados no navegador por área
+e idioma. O simulado usa o gabarito oficial retornado em `correctAlternative`.
+
+Se a API estiver indisponível, a interface exibe a mensagem de erro e mantém
+as provas locais do PISM disponíveis.
+
+### Integração com Supabase
+
+O projeto usa o cliente browser do Supabase para:
+
+- autenticar estudantes por e-mail e senha;
+- carregar questões PISM cadastradas no banco, com fallback para os JSONs locais;
+- salvar cada tentativa concluída, incluindo respostas, acertos e prova realizada.
+
+As variáveis ficam em `.env.local` usando os nomes `VITE_SUPABASE_URL` e
+`VITE_SUPABASE_PUBLISHABLE_KEY`. Nunca use uma chave `service_role` no
+navegador.
+
+Para configurar o banco, execute `supabase/schema.sql` no SQL Editor do
+Supabase. Para carregar as questões, execute também os seeds:
+
+```bash
+# PISM 2024-1 e 2024-2
+supabase/seed-pism-2024.sql
+
+# PISM 2025-1 e 2025-2
+supabase/seed-pism-2025.sql
+```
+
+O seed pode ser regenerado com:
+
+```bash
+npm run supabase:seed:pism
+```
+
+As políticas RLS permitem leitura pública de provas e questões e restringem
+tentativas ao usuário autenticado que as criou.
+
+## Estrutura do banco de dados
+
+O banco é composto por três tabelas com RLS habilitado.
+
+### Tabela `exams`
+
+Representa uma prova cadastrada.
+
+| Coluna | Tipo | Descrição |
+| --- | --- | --- |
+| `id` | `uuid` PK | Identificador único gerado automaticamente. |
+| `slug` | `text` UNIQUE | Identificador textual da prova, ex: `pism-2025-1`. |
+| `title` | `text` | Nome exibido, ex: `PISM 2025-1`. |
+| `source` | `text` | Origem da prova; padrão `pism`. |
+| `year` | `text` | Ano/edição da prova, ex: `2025-1`. |
+| `created_at` | `timestamptz` | Data de criação, preenchida automaticamente. |
+
+Slugs atualmente cadastrados: `pism-2025-1`, `pism-2025-2`, `pism-2024-1`,
+`pism-2024-2`.
+
+### Tabela `questions`
+
+Representa uma questão objetiva de uma prova.
+
+| Coluna | Tipo | Descrição |
+| --- | --- | --- |
+| `id` | `uuid` PK | Identificador único gerado automaticamente. |
+| `exam_id` | `uuid` FK → `exams.id` | Prova à qual a questão pertence. |
+| `number` | `integer` | Número de ordem da questão dentro da prova. |
+| `subject` | `text` | Disciplina, ex: `Língua Portuguesa`, `Matemática`. |
+| `text` | `text` | Enunciado completo da questão. |
+| `support` | `text` | Texto de apoio exibido na lateral da prova (opcional). |
+| `support_image` | `text` | Caminho da imagem em `/public/`, ex: `/texto-3-cerrado.png` (opcional). |
+| `options` | `jsonb` | Array JSON com as cinco alternativas, ordem A–E. |
+| `answer` | `text` | Gabarito oficial: `A`, `B`, `C`, `D` ou `E`. |
+| `created_at` | `timestamptz` | Data de criação, preenchida automaticamente. |
+
+A combinação `(exam_id, number)` é única. A coluna `answer` aceita apenas
+as letras `A`–`E`. Cada questão carrega seu próprio texto e imagem de apoio —
+o painel lateral é exibido quando ao menos um desses campos está preenchido.
+
+### Tabela `attempts`
+
+Registra uma tentativa concluída por um estudante autenticado.
+
+| Coluna | Tipo | Descrição |
+| --- | --- | --- |
+| `id` | `uuid` PK | Identificador único gerado automaticamente. |
+| `user_id` | `uuid` FK → `auth.users.id` | Usuário que realizou a tentativa. |
+| `exam_slug` | `text` | Slug da prova realizada. |
+| `exam_title` | `text` | Nome legível da prova no momento da tentativa. |
+| `score` | `integer` | Quantidade de acertos. |
+| `total` | `integer` | Total de questões da prova. |
+| `answers` | `jsonb` | Mapa `{ índice: letra }` com as respostas do estudante. |
+| `completed_at` | `timestamptz` | Data e hora da entrega. |
+
+### Políticas RLS
+
+| Tabela | Política | Regra |
+| --- | --- | --- |
+| `exams` | leitura pública | `for select using (true)` |
+| `questions` | leitura pública | `for select using (true)` |
+| `attempts` | leitura própria | `for select using (auth.uid() = user_id)` |
+| `attempts` | criação própria | `for insert with check (auth.uid() = user_id)` |
+
 ## Tecnologias utilizadas
 
 - [React](https://react.dev/) 18;
 - [Vite](https://vite.dev/) 6;
 - [React DOM](https://react.dev/reference/react-dom);
 - [Lucide React](https://lucide.dev/) para os ícones;
+- [Supabase](https://supabase.com/) para autenticação, questões e progresso;
 - JavaScript com módulos ES;
 - JSON para armazenamento das questões de 2024;
+- API pública do ENEM para provas e questões de 2009 a 2023;
 - CSS responsivo sem framework visual externo.
 
 ## Requisitos
