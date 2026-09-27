@@ -140,7 +140,7 @@ const normalizeExtractedText = (value) => value
 const pismSeriesConfig = {
   '1 ano': {
     label: '1º ano',
-    years: ['2025-1', '2025-2', '2024-1', '2024-2', '2023-1'],
+    years: ['2025-1', '2025-2', '2024-1', '2024-2', '2023-1', '2023-2'],
   },
   '2 ano': {
     label: '2º ano',
@@ -212,7 +212,7 @@ function App() {
     'enem-2023-1-ingles': [...enem2023EnglishQuestions, ...enem2023SpanishQuestions],
   }
   const activeQuestions = selectedExam === 'enem-api' || supabaseExamSlug ? enemQuestions : questionSets[selectedExam] || []
-  const examLabel = selectedExam === 'pism-1' ? '2025-1' : selectedExam === 'pism-2' ? '2025-2' : selectedExam === 'pism-2024-1' ? '2024-1' : selectedExam === 'pism-2024-2' ? '2024-2' : selectedExam === 'pism-2023-1' ? '2023-1' : selectedExam === 'enem-api' ? `ENEM ${enemYear}` : '2023-1_Cad_Amarelo - LINGUAGENS, CÓDIGOS E SUAS TECNOLOGIAS'
+  const examLabel = selectedExam === 'pism-1' ? '2025-1' : selectedExam === 'pism-2' ? '2025-2' : selectedExam === 'pism-2024-1' ? '2024-1' : selectedExam === 'pism-2024-2' ? '2024-2' : selectedExam === 'pism-2023-1' ? '2023-1' : selectedExam === 'pism-2023-2' ? '2023-2' : selectedExam === 'enem-api' ? `ENEM ${enemYear}` : '2023-1_Cad_Amarelo - LINGUAGENS, CÓDIGOS E SUAS TECNOLOGIAS'
   const examDay = selectedExam === 'enem-api' ? 'Área selecionada' : examLabel.endsWith('-1') ? 'Dia 1' : 'Dia 2'
 
   const score = useMemo(() => activeQuestions.reduce((total, question, index) => (
@@ -224,7 +224,7 @@ function App() {
     setPismLoading(true)
     setEnemError('')
     try {
-      const supabaseSlug = { 'pism-1': 'pism-2025-1', 'pism-2': 'pism-2025-2', 'pism-2024-1': 'pism-2024-1', 'pism-2024-2': 'pism-2024-2', 'pism-2023-1': 'pism-2023-1' }[exam]
+      const supabaseSlug = { 'pism-1': 'pism-2025-1', 'pism-2': 'pism-2025-2', 'pism-2024-1': 'pism-2024-1', 'pism-2024-2': 'pism-2024-2', 'pism-2023-1': 'pism-2023-1', 'pism-2023-2': 'pism-2023-2' }[exam]
       if (!supabase || !supabaseSlug) {
         throw new Error('As provas do PISM exigem conexão com o Supabase. Verifique a configuração do banco de dados.')
       }
@@ -313,6 +313,7 @@ function App() {
     '2024-1': 'pism-2024-1',
     '2024-2': 'pism-2024-2',
     '2023-1': 'pism-2023-1',
+    '2023-2': 'pism-2023-2',
   }
 
   const changePismSeries = (value) => {
