@@ -46,5 +46,6 @@ values
   ('pism-2025-1', 'PISM 2025-1', 'pism', '2025-1'),
   ('pism-2025-2', 'PISM 2025-2', 'pism', '2025-2'),
   ('pism-2024-1', 'PISM 2024-1', 'pism', '2024-1'),
-  ('pism-2024-2', 'PISM 2024-2', 'pism', '2024-2')
+  ('pism-2024-2', 'PISM 2024-2', 'pism', '2024-2'),
+  ('pism-2023-1', 'PISM 2023-1', 'pism', '2023-1')
 on conflict (slug) do nothing;

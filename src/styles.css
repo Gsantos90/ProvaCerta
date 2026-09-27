@@ -95,3 +95,14 @@
 .exam-card .button.full{transition:transform .2s ease,filter .2s ease,background .15s ease}
 .exam-card:hover .button.primary.full{transform:translateY(-1px)}
 @media(prefers-reduced-motion:reduce){.exam-card,.exam-card .card-art,.exam-card .card-art strong,.exam-card .button.full{transition:none}.exam-card:hover{transform:none}.exam-card:hover .card-art{transform:none}}
+
+
+/* Imagens de apoio ampliáveis + zoom acompanhando a fonte */
+.support-stack .support-image{cursor:zoom-in;max-width:100%;transition:filter .15s ease}
+.support-stack .support-image:hover{filter:brightness(.94)}
+.lightbox{position:fixed;inset:0;z-index:1000;background:#0b1220e6;display:flex;align-items:center;justify-content:center;padding:32px;animation:lightbox-in .18s ease}
+.lightbox img{max-width:min(1100px,94vw);max-height:90vh;width:auto;height:auto;border-radius:10px;box-shadow:0 24px 70px #0009;cursor:default}
+.lightbox-close{position:absolute;top:20px;right:22px;display:inline-flex;align-items:center;justify-content:center;width:42px;height:42px;border:none;border-radius:10px;background:#ffffff1f;color:#fff;cursor:pointer;transition:background .15s ease}
+.lightbox-close:hover{background:#ffffff33}
+@keyframes lightbox-in{from{opacity:0}to{opacity:1}}
+@media(prefers-reduced-motion:reduce){.lightbox{animation:none}.support-stack .support-image{transition:none}}

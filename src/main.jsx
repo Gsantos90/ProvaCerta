@@ -140,7 +140,7 @@ const normalizeExtractedText = (value) => value
 const pismSeriesConfig = {
   '1 ano': {
     label: '1º ano',
-    years: ['2025-1', '2025-2', '2024-1', '2024-2'],
+    years: ['2025-1', '2025-2', '2024-1', '2024-2', '2023-1'],
   },
   '2 ano': {
     label: '2º ano',
@@ -157,6 +157,7 @@ function App() {
   const [selectedExam, setSelectedExam] = useState(null)
   const [supportScale, setSupportScale] = useState(1)
   const [speakingId, setSpeakingId] = useState(null)
+  const [lightboxImage, setLightboxImage] = useState(null)
   const [catalogSearch, setCatalogSearch] = useState('')
   const [catalogCategory, setCatalogCategory] = useState('todas')
   const [pismSeries, setPismSeries] = useState('1 ano')
@@ -178,6 +179,12 @@ function App() {
     if (typeof window !== 'undefined' && 'speechSynthesis' in window) window.speechSynthesis.cancel()
     setSpeakingId(null)
   }, [current, screen, selectedExam])
+  useEffect(() => {
+    if (!lightboxImage) return undefined
+    const onKey = (event) => { if (event.key === 'Escape') setLightboxImage(null) }
+    window.addEventListener('keydown', onKey)
+    return () => window.removeEventListener('keydown', onKey)
+  }, [lightboxImage])
   useEffect(() => {
     let cancelled = false
     fetch(`${enemApiBaseUrl}/exams`)
@@ -205,7 +212,7 @@ function App() {
     'enem-2023-1-ingles': [...enem2023EnglishQuestions, ...enem2023SpanishQuestions],
   }
   const activeQuestions = selectedExam === 'enem-api' || supabaseExamSlug ? enemQuestions : questionSets[selectedExam] || []
-  const examLabel = selectedExam === 'pism-1' ? '2025-1' : selectedExam === 'pism-2' ? '2025-2' : selectedExam === 'pism-2024-1' ? '2024-1' : selectedExam === 'pism-2024-2' ? '2024-2' : selectedExam === 'enem-api' ? `ENEM ${enemYear}` : '2023-1_Cad_Amarelo - LINGUAGENS, CÓDIGOS E SUAS TECNOLOGIAS'
+  const examLabel = selectedExam === 'pism-1' ? '2025-1' : selectedExam === 'pism-2' ? '2025-2' : selectedExam === 'pism-2024-1' ? '2024-1' : selectedExam === 'pism-2024-2' ? '2024-2' : selectedExam === 'pism-2023-1' ? '2023-1' : selectedExam === 'enem-api' ? `ENEM ${enemYear}` : '2023-1_Cad_Amarelo - LINGUAGENS, CÓDIGOS E SUAS TECNOLOGIAS'
   const examDay = selectedExam === 'enem-api' ? 'Área selecionada' : examLabel.endsWith('-1') ? 'Dia 1' : 'Dia 2'
 
   const score = useMemo(() => activeQuestions.reduce((total, question, index) => (
@@ -217,7 +224,7 @@ function App() {
     setPismLoading(true)
     setEnemError('')
     try {
-      const supabaseSlug = { 'pism-1': 'pism-2025-1', 'pism-2': 'pism-2025-2', 'pism-2024-1': 'pism-2024-1', 'pism-2024-2': 'pism-2024-2' }[exam]
+      const supabaseSlug = { 'pism-1': 'pism-2025-1', 'pism-2': 'pism-2025-2', 'pism-2024-1': 'pism-2024-1', 'pism-2024-2': 'pism-2024-2', 'pism-2023-1': 'pism-2023-1' }[exam]
       if (!supabase || !supabaseSlug) {
         throw new Error('As provas do PISM exigem conexão com o Supabase. Verifique a configuração do banco de dados.')
       }
@@ -289,6 +296,7 @@ function App() {
         throw new Error('A API não retornou questões para os filtros selecionados.')
       }
       setEnemQuestions(questionsForLanguage)
+      setSupabaseExamSlug(null)
       setSelectedExam('enem-api')
       setCurrent(0)
       setAnswers({})
@@ -304,6 +312,7 @@ function App() {
     '2025-2': 'pism-2',
     '2024-1': 'pism-2024-1',
     '2024-2': 'pism-2024-2',
+    '2023-1': 'pism-2023-1',
   }
 
   const changePismSeries = (value) => {
@@ -531,10 +540,14 @@ function App() {
                 </div>
               </div>
 
-              <div className="support-stack" style={{ fontSize: `${supportScale}rem` }}>
-              {supabaseExamSlug && (question.support || question.supportImage) && <details className="sidebar-support" open><summary><BookOpen size={16} /><span>Texto ou imagem de apoio</span><ChevronDown size={15} /></summary><div>{question.supportImage && <img className="support-image" src={question.supportImage} alt={`Imagem de apoio da questão ${current + 1}`} />}{question.support && <span>{question.support}</span>}</div></details>}
-              {selectedExam === 'enem-api' && <details className="sidebar-support" open><summary><BookOpen size={16} /><span>Texto ou imagem de apoio</span><ChevronDown size={15} /></summary><div>{question.supportImage && <img className="support-image" src={question.supportImage} alt={`Imagem de apoio da questão ${current + 1}`} />}{question.support && <span>{question.support}</span>}</div></details>}
-              {selectedExam === 'enem-2023-1-ingles' && <details className="sidebar-support" open><summary><BookOpen size={16} /><span>Texto ou imagem de apoio</span><ChevronDown size={15} /></summary><div>{question.supportImage ? <img className="support-image" src={question.supportImage} alt={`Imagem de apoio da questão ${current + 1}`} /> : <span>{current === 9 ? `${enem2023SpanishSupport[9]}\n\n${question.support}` : question.support || enem2023SpanishSupport[current]}</span>}</div></details>}
+              <div className="support-stack" style={{ fontSize: `${supportScale}rem` }} onClick={(event) => { if (event.target.tagName === 'IMG' && event.target.classList.contains('support-image')) setLightboxImage({ src: event.target.src, alt: event.target.alt }) }}>
+              {supabaseExamSlug
+                ? (question.support || question.supportImage) && <details className="sidebar-support" open><summary><BookOpen size={16} /><span>Texto ou imagem de apoio</span><ChevronDown size={15} /></summary><div>{question.supportImage && <img className="support-image" src={question.supportImage} alt={`Imagem de apoio da questão ${current + 1}`} />}{question.support && <span>{question.support}</span>}</div></details>
+                : selectedExam === 'enem-api'
+                ? (question.support || question.supportImage) && <details className="sidebar-support" open><summary><BookOpen size={16} /><span>Texto ou imagem de apoio</span><ChevronDown size={15} /></summary><div>{question.supportImage && <img className="support-image" src={question.supportImage} alt={`Imagem de apoio da questão ${current + 1}`} />}{question.support && <span>{question.support}</span>}</div></details>
+                : selectedExam === 'enem-2023-1-ingles'
+                ? <details className="sidebar-support" open><summary><BookOpen size={16} /><span>Texto ou imagem de apoio</span><ChevronDown size={15} /></summary><div>{question.supportImage ? <img className="support-image" src={question.supportImage} alt={`Imagem de apoio da questão ${current + 1}`} /> : <span>{current === 9 ? `${enem2023SpanishSupport[9]}\n\n${question.support}` : question.support || enem2023SpanishSupport[current]}</span>}</div></details>
+                : null}
               </div>
             </aside>
             <section className="question-content">
@@ -563,6 +576,12 @@ function App() {
             </section>
           </div>
         </main>
+        {lightboxImage && (
+          <div className="lightbox" onClick={() => setLightboxImage(null)} role="dialog" aria-modal="true" aria-label="Imagem de apoio ampliada">
+            <button className="lightbox-close" onClick={() => setLightboxImage(null)} aria-label="Fechar imagem"><X size={22} /></button>
+            <img src={lightboxImage.src} alt={lightboxImage.alt} onClick={(event) => event.stopPropagation()} />
+          </div>
+        )}
       </div>
     )
   }
