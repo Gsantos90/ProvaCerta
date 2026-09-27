@@ -3,6 +3,7 @@ import { createRoot } from 'react-dom/client'
 import {
   ArrowLeft, ArrowRight, Award, BookOpen, Check, ChevronDown, Clock3,
   GraduationCap, LayoutGrid, Menu, RotateCcw, Sparkles, Target, X,
+  ZoomIn, ZoomOut, Volume2, Square,
 } from 'lucide-react'
 import './styles.css'
 import { isSupabaseConfigured, supabase } from './lib/supabase'
@@ -693,6 +694,8 @@ const pismSeriesConfig = {
 function App() {
   const [screen, setScreen] = useState('home')
   const [selectedExam, setSelectedExam] = useState(null)
+  const [supportScale, setSupportScale] = useState(1)
+  const [speakingId, setSpeakingId] = useState(null)
   const [pismSeries, setPismSeries] = useState('1 ano')
   const [year, setYear] = useState('2025-1')
   const [enemCatalog, setEnemCatalog] = useState([])
@@ -708,6 +711,10 @@ function App() {
   const [menuOpen, setMenuOpen] = useState(false)
   const [pismLoading, setPismLoading] = useState(false)
   const [supabaseExamSlug, setSupabaseExamSlug] = useState(null)
+  useEffect(() => {
+    if (typeof window !== 'undefined' && 'speechSynthesis' in window) window.speechSynthesis.cancel()
+    setSpeakingId(null)
+  }, [current, screen, selectedExam])
   useEffect(() => {
     let cancelled = false
     fetch(`${enemApiBaseUrl}/exams`)
@@ -875,6 +882,29 @@ function App() {
   const previous = () => setCurrent((value) => Math.max(0, value - 1))
   const next = () => setCurrent((value) => Math.min(activeQuestions.length - 1, value + 1))
 
+  const speechSupported = typeof window !== 'undefined' && 'speechSynthesis' in window
+  const stopSpeech = () => {
+    if (speechSupported) window.speechSynthesis.cancel()
+    setSpeakingId(null)
+  }
+  const speak = (id, text) => {
+    if (!speechSupported || !text) return
+    if (speakingId === id) {
+      stopSpeech()
+      return
+    }
+    window.speechSynthesis.cancel()
+    const utterance = new SpeechSynthesisUtterance(text)
+    utterance.lang = 'pt-BR'
+    utterance.rate = 0.95
+    utterance.onend = () => setSpeakingId(null)
+    utterance.onerror = () => setSpeakingId(null)
+    setSpeakingId(id)
+    window.speechSynthesis.speak(utterance)
+  }
+  const zoomIn = () => setSupportScale((value) => Math.min(1.8, Math.round((value + 0.15) * 100) / 100))
+  const zoomOut = () => setSupportScale((value) => Math.max(0.85, Math.round((value - 0.15) * 100) / 100))
+
   if (screen === 'result') {
     const percentage = Math.round((score / activeQuestions.length) * 100)
     return (
@@ -945,6 +975,19 @@ function App() {
               <div className="legend"><span><i className="dot filled" /> Respondida</span><span><i className="dot" /> Em aberto</span></div>
               <div className="exam-tip"><Sparkles size={18} /><p><b>Dica de foco</b><br />Leia com calma e marque a alternativa que melhor responde ao enunciado.</p></div>
 
+              <div className="a11y-bar">
+                <span className="a11y-label">Acessibilidade</span>
+                <div className="a11y-controls">
+                  <div className="a11y-zoom">
+                    <button type="button" onClick={zoomOut} disabled={supportScale <= 0.85} aria-label="Diminuir tamanho do texto de apoio"><ZoomOut size={16} /></button>
+                    <span className="a11y-zoom-value">{Math.round(supportScale * 100)}%</span>
+                    <button type="button" onClick={zoomIn} disabled={supportScale >= 1.8} aria-label="Aumentar tamanho do texto de apoio"><ZoomIn size={16} /></button>
+                  </div>
+                  {speechSupported && question.support && <button type="button" className={`listen-button small ${speakingId === 'support' ? 'active' : ''}`} onClick={() => speak('support', question.support)} aria-label={speakingId === 'support' ? 'Parar leitura do texto de apoio' : 'Ouvir o texto de apoio'}>{speakingId === 'support' ? <><Square size={13} /> Parar</> : <><Volume2 size={14} /> Ouvir apoio</>}</button>}
+                </div>
+              </div>
+
+              <div className="support-stack" style={{ fontSize: `${supportScale}rem` }}>
               {selectedExam === 'pism-2024-1' && !supabaseExamSlug && question.subject === 'Língua Portuguesa' && <><details className="sidebar-support"><summary><BookOpen size={16} /><span>Texto 1</span><ChevronDown size={15} /></summary><div>{text2024Day1One}</div></details><details className="sidebar-support"><summary><BookOpen size={16} /><span>Texto 2</span><ChevronDown size={15} /></summary><div><img className="support-image" src={text2024Day1TwoImage} alt="Post sobre a periferia acordar primeiro" /></div></details><details className="sidebar-support"><summary><BookOpen size={16} /><span>Texto 3</span><ChevronDown size={15} /></summary><div>{text2024Day1Three}</div></details><details className="sidebar-support"><summary><BookOpen size={16} /><span>Texto 4</span><ChevronDown size={15} /></summary><div>{text2024Day1Four}</div></details><details className="sidebar-support"><summary><BookOpen size={16} /><span>Texto 5</span><ChevronDown size={15} /></summary><div>{text2024Day1Five}</div></details><details className="sidebar-support"><summary><BookOpen size={16} /><span>Texto 6</span><ChevronDown size={15} /></summary><div>{text2024Day1Six}</div></details><details className="sidebar-support"><summary><BookOpen size={16} /><span>Texto 7</span><ChevronDown size={15} /></summary><div>{text2024Day1Seven}</div></details></>}
               {selectedExam === 'pism-2024-1' && !supabaseExamSlug && question.subject === 'Geografia' && current === 5 && <details className="sidebar-support"><summary><BookOpen size={16} /><span>Figuras 1, 2 e 3</span><ChevronDown size={15} /></summary><div><figure className="support-figure"><img className="support-image" src={text2024Day1FigureOne} alt="Figura 1: massas de ar que atuam sobre a América do Sul no inverno" /><figcaption>Figura 1 — Massas de ar atuantes no inverno.</figcaption></figure><figure className="support-figure"><img className="support-image" src={text2024Day1FigureTwo} alt="Figura 2: massas de ar que atuam sobre a América do Sul no verão" /><figcaption>Figura 2 — Massas de ar atuantes no verão.</figcaption></figure><figure className="support-figure"><img className="support-image" src={text2024Day1FigureThree} alt="Figura 3: precipitação acumulada no Brasil nos últimos 15 dias" /><figcaption>Figura 3 — Fonte: INMET, 2024.</figcaption></figure></div></details>}
               {selectedExam === 'pism-2024-1' && !supabaseExamSlug && question.subject === 'Geografia' && current === 7 && <details className="sidebar-support"><summary><BookOpen size={16} /><span>Texto de apoio</span><ChevronDown size={15} /></summary><div>{text2024Day1Eight}</div></details>}
@@ -954,10 +997,11 @@ function App() {
               {supabaseExamSlug && (question.support || question.supportImage) && <details className="sidebar-support" open><summary><BookOpen size={16} /><span>Texto ou imagem de apoio</span><ChevronDown size={15} /></summary><div>{question.supportImage && <img className="support-image" src={question.supportImage} alt={`Imagem de apoio da questão ${current + 1}`} />}{question.support && <span>{question.support}</span>}</div></details>}
               {selectedExam === 'enem-api' && <details className="sidebar-support" open><summary><BookOpen size={16} /><span>Texto ou imagem de apoio</span><ChevronDown size={15} /></summary><div>{question.supportImage && <img className="support-image" src={question.supportImage} alt={`Imagem de apoio da questão ${current + 1}`} />}{question.support && <span>{question.support}</span>}</div></details>}
               {selectedExam === 'enem-2023-1-ingles' && <details className="sidebar-support" open><summary><BookOpen size={16} /><span>Texto ou imagem de apoio</span><ChevronDown size={15} /></summary><div>{question.supportImage ? <img className="support-image" src={question.supportImage} alt={`Imagem de apoio da questão ${current + 1}`} /> : <span>{current === 9 ? `${enem2023SpanishSupport[9]}\n\n${question.support}` : question.support || enem2023SpanishSupport[current]}</span>}</div></details>}
+              </div>
             </aside>
             <section className="question-content">
               <div className={`subject-tag ${subjects.find((item) => item.name === question.subject)?.color}`}>{question.subject}</div>
-              <div className="question-heading"><span>Questão {String(current + 1).padStart(2, '0')}</span><Clock3 size={16} /> <small>Sem tempo limite</small></div>
+              <div className="question-heading"><span>Questão {String(current + 1).padStart(2, '0')}</span><Clock3 size={16} /> <small>Sem tempo limite</small>{speechSupported && <button type="button" className={`listen-button ${speakingId === 'question' ? 'active' : ''}`} onClick={() => speak('question', `${question.text}. ${question.options.map((option, index) => `Alternativa ${letters[index]}. ${option}`).join('. ')}`)} aria-label={speakingId === 'question' ? 'Parar leitura da questão' : 'Ouvir a questão'}>{speakingId === 'question' ? <><Square size={14} /> Parar</> : <><Volume2 size={15} /> Ouvir questão</>}</button>}</div>
               <h1>{question.text}</h1>
               <div className="options">
                 {question.options.map((option, index) => {
