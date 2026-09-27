@@ -675,9 +675,25 @@ const normalizeExtractedText = (value) => value
   .replace(/\s+/g, ' ')
   .trim()
 
+const pismSeriesConfig = {
+  '1 ano': {
+    label: '1º ano',
+    years: ['2025-1', '2025-2', '2024-1', '2024-2'],
+  },
+  '2 ano': {
+    label: '2º ano',
+    years: [],
+  },
+  '3 ano': {
+    label: '3º ano',
+    years: [],
+  },
+}
+
 function App() {
   const [screen, setScreen] = useState('home')
   const [selectedExam, setSelectedExam] = useState(null)
+  const [pismSeries, setPismSeries] = useState('1 ano')
   const [year, setYear] = useState('2025-1')
   const [enemCatalog, setEnemCatalog] = useState([])
   const [enemYear, setEnemYear] = useState('2023')
@@ -834,6 +850,19 @@ function App() {
     '2024-2': 'pism-2024-2',
   }
 
+  const changePismSeries = (value) => {
+    setPismSeries(value)
+    const validYears = pismSeriesConfig[value]?.years || []
+    if (validYears.length > 0) {
+      setYear(validYears[0])
+    } else {
+      setYear('')
+    }
+  }
+
+  const currentPismYears = pismSeriesConfig[pismSeries]?.years || []
+  const isPismAvailable = currentPismYears.length > 0
+
   const changeEnemYear = (value) => {
     const exam = enemCatalog.find((item) => String(item.year) === value)
     setEnemYear(value)
@@ -979,7 +1008,19 @@ function App() {
         <section className="exams-section" id="provas">
           <div className="section-heading"><div><p className="eyebrow">Escolha seu desafio</p><h2>Provas para praticar</h2></div><div className="view-all"><LayoutGrid size={17} /> Todas as provas</div></div>
           <div className="exam-cards">
-            <ExamCard type="pism" title="PISM" description="Programa de Ingresso Seletivo Misto" years={['2025-1', '2025-2', '2024-1', '2024-2']} year={year} setYear={setYear} onStart={() => startExam(selectedExamForYear[year])} available />
+            <ExamCard
+              type="pism"
+              title="PISM"
+              description="Programa de Ingresso Seletivo Misto"
+              series={pismSeriesConfig}
+              currentSeries={pismSeries}
+              onSeriesChange={changePismSeries}
+              years={currentPismYears}
+              year={year}
+              setYear={setYear}
+              onStart={() => isPismAvailable && selectedExamForYear[year] && startExam(selectedExamForYear[year])}
+              available={isPismAvailable}
+            />
             <EnemCard catalog={enemCatalog} year={enemYear} setYear={changeEnemYear} discipline={enemDiscipline} setDiscipline={setEnemDiscipline} language={enemLanguage} setLanguage={setEnemLanguage} onStart={startEnemExam} loading={enemLoading} error={enemError} />
           </div>
         </section>
@@ -1015,8 +1056,55 @@ function EnemCard({ catalog, year, setYear, discipline, setDiscipline, language,
   )
 }
 
-function ExamCard({ type, title, description, years, year, setYear, onStart, available }) {
-  return <article className={`exam-card ${type}`}><div className="card-art"><span className="art-kicker">{type === 'pism' ? 'UFJF' : 'BRASIL'}</span><strong>{title}</strong><span className="art-shape">{type === 'pism' ? 'PISM' : 'ENEM'}</span><div className="art-dots" /></div><div className="exam-card-body"><div className="card-title-row"><div><h3>{title}</h3><p>{description}</p></div><span className={`status ${available ? 'ready' : ''}`}>{available ? 'Disponível' : 'Em breve'}</span></div><label>Ano da prova <span className="select-wrap"><select value={year} onChange={(event) => setYear(event.target.value)} disabled={!available}>{years.map((item) => <option key={item}>{item}</option>)}</select><ChevronDown size={16} /></span></label><button className={`button ${available ? 'primary' : 'disabled'} full`} onClick={onStart} disabled={!available}>{available ? 'Começar prova' : 'Em breve'} {available && <ArrowRight size={17} />}</button></div></article>
+function ExamCard({ type, title, description, series, currentSeries, onSeriesChange, years, year, setYear, onStart, available }) {
+  return (
+    <article className={`exam-card ${type}`}>
+      <div className="card-art">
+        <span className="art-kicker">{type === 'pism' ? 'UFJF' : 'BRASIL'}</span>
+        <strong>{title}</strong>
+        <span className="art-shape">{type === 'pism' ? 'PISM' : 'ENEM'}</span>
+        <div className="art-dots" />
+      </div>
+      <div className="exam-card-body">
+        <div className="card-title-row">
+          <div>
+            <h3>{title}</h3>
+            <p>{description}</p>
+          </div>
+          <span className={`status ${available ? 'ready' : ''}`}>{available ? 'Disponível' : 'Em breve'}</span>
+        </div>
+        <div className="pism-controls">
+          <label>
+            Série
+            <span className="select-wrap">
+              <select value={currentSeries} onChange={(event) => onSeriesChange(event.target.value)}>
+                {Object.entries(series || {}).map(([key, item]) => (
+                  <option key={key} value={key}>{item.label}</option>
+                ))}
+              </select>
+              <ChevronDown size={16} />
+            </span>
+          </label>
+          <label>
+            Ano da prova
+            <span className="select-wrap">
+              <select value={year} onChange={(event) => setYear(event.target.value)} disabled={!available || years.length === 0}>
+                {years.length > 0 ? (
+                  years.map((item) => <option key={item} value={item}>{item}</option>)
+                ) : (
+                  <option value="">Nenhuma prova disponível</option>
+                )}
+              </select>
+              <ChevronDown size={16} />
+            </span>
+          </label>
+        </div>
+        <button className={`button ${available ? 'primary' : 'disabled'} full`} onClick={onStart} disabled={!available}>
+          {available ? 'Começar prova' : 'Em breve'} {available && <ArrowRight size={17} />}
+        </button>
+      </div>
+    </article>
+  )
 }
 
 function MoreDots() { return <span className="more-dots"><i /><i /><i /></span> }
