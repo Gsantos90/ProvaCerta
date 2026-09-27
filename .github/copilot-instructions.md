@@ -36,9 +36,15 @@ Não adicione ferramentas de lint, testes ou build sem necessidade explícita.
 ## Estrutura importante
 
 - `src/main.jsx`: ponto central da aplicação, estado, provas, textos de apoio,
-  resultado, revisão e renderização;
-- `src/2024-1-questions.json`: questões do PISM 2024-1;
-- `src/2024-2-questions.json`: questões do PISM 2024-2;
+  resultado, revisão e renderização. As provas do PISM são carregadas do
+  Supabase (não há mais questões PISM embutidas no código); apenas o ENEM 2023
+  de inglês/espanhol continua hardcoded;
+- `src/2024-1-questions.json` e `src/2024-2-questions.json`: fonte de dados
+  usada apenas por `scripts/generate-pism-seed.mjs` para gerar o seed do banco.
+  Não são importados pela aplicação em tempo de execução;
+- `supabase/`: schema e seeds do banco (fonte de verdade das provas PISM);
+- `scripts/generate-pism-seed.mjs`: gera `supabase/seed-pism-2024.sql` a partir
+  dos JSONs de 2024;
 - `src/styles.css`: identidade visual, layout, responsividade e componentes;
 - `public/`: imagens de apoio referenciadas por caminhos iniciados em `/`;
 - `pdf-extracts/`: material de conferência extraído dos PDFs, não usado

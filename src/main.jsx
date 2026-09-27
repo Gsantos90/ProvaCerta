@@ -3,12 +3,10 @@ import { createRoot } from 'react-dom/client'
 import {
   ArrowLeft, ArrowRight, Award, BookOpen, Check, ChevronDown, Clock3,
   GraduationCap, LayoutGrid, Menu, RotateCcw, Sparkles, Target, X,
-  ZoomIn, ZoomOut, Volume2, Square,
+  ZoomIn, ZoomOut, Volume2, Square, Search,
 } from 'lucide-react'
 import './styles.css'
 import { isSupabaseConfigured, supabase } from './lib/supabase'
-import questions2024Day1 from './2024-1-questions.json'
-import questions2024Day2 from './2024-2-questions.json'
 
 const enem2023EnglishQuestions = [
   {
@@ -70,6 +68,40 @@ const enemSubjectLabels = {
   matematica: 'Matemática',
 }
 
+const catalogCategories = [
+  {
+    id: 'vestibulares',
+    title: 'Vestibulares e ENEM',
+    description: 'Provas de acesso ao ensino superior.',
+    exams: [
+      { id: 'pism', name: 'PISM', org: 'UFJF', description: 'Programa de Ingresso Seletivo Misto', available: true },
+      { id: 'enem', name: 'ENEM', org: 'Brasil', description: 'Exame Nacional do Ensino Médio', available: true },
+    ],
+  },
+  {
+    id: 'faculdades',
+    title: 'Faculdades públicas',
+    description: 'Vestibulares específicos de universidades públicas.',
+    exams: [
+      { id: 'uerj', name: 'UERJ', org: 'Rio de Janeiro', short: 'UERJ', description: 'Universidade do Estado do Rio de Janeiro', available: false, color: 'teal' },
+      { id: 'uff', name: 'UFF', org: 'Fluminense', short: 'UFF', description: 'Universidade Federal Fluminense', available: false, color: 'indigo' },
+      { id: 'ufrj', name: 'UFRJ', org: 'Rio de Janeiro', short: 'UFRJ', description: 'Universidade Federal do Rio de Janeiro', available: false, color: 'crimson' },
+    ],
+  },
+  {
+    id: 'concursos',
+    title: 'Concursos',
+    description: 'Provas de concursos públicos.',
+    exams: [
+      { id: 'pmrj', name: 'PMERJ', org: 'Segurança', short: 'PMERJ', description: 'Polícia Militar do Estado do Rio de Janeiro', available: false, color: 'navy' },
+      { id: 'bb', name: 'Banco do Brasil', org: 'Bancário', short: 'BB', description: 'Concurso do Banco do Brasil', available: false, color: 'gold' },
+      { id: 'caixa', name: 'Caixa Econômica', org: 'Bancário', short: 'CAIXA', description: 'Concurso da Caixa Econômica Federal', available: false, color: 'sky' },
+      { id: 'pf', name: 'Polícia Federal', org: 'Segurança', short: 'PF', description: 'Concurso da Polícia Federal', available: false, color: 'slate' },
+      { id: 'correios', name: 'Correios', org: 'Serviços', short: 'CORREIOS', description: 'Concurso dos Correios', available: false, color: 'amber' },
+    ],
+  },
+]
+
 const wait = (milliseconds) => new Promise((resolve) => setTimeout(resolve, milliseconds))
 
 const normalizeEnemQuestion = (question) => {
@@ -87,582 +119,11 @@ const normalizeEnemQuestion = (question) => {
   }
 }
 
-const correctedQuestions2024Day1 = questions2024Day1.map((question, index) => (
-  index === 2
-    ? {
-        ...question,
-        text: 'A letra da canção de Emicida, Texto I, e o post, Texto II, aproximam-se quanto à temática. O trecho metafórico do Texto I que confirma essa afirmação é:',
-        options: [
-          'A brasa dorme fria e só quem dança é a fumaça.',
-          'As nuvens curiosas, como são / Se vestem de cabelo crespo, ancião.',
-          'De madruga é que as aranha tece no breu.',
-          'E amantes ofegantes vão pro mundo de Morfeu.',
-          'Na São Paulo das manhã que tem lá seus Vietnã.',
-        ],
-      }
-    : index === 5
-    ? {
-        ...question,
-        text: 'Analise as Figuras 1, 2 e 3. A Figura 1 representa as massas de ar que atuam sobre a América do Sul. A Figura 2 representa o acumulado de chuvas, em milímetros, no Brasil entre 21/04/2024 e 06/05/2024. A Figura 3 apresenta a precipitação acumulada nos últimos 15 dias. O elevado nível de chuvas no Rio Grande do Sul pode ser considerado um evento extremo causado por uma conjunção de fenômenos meteorológicos. É correto afirmar que uma das causas desse evento extremo foi:',
-        options: [
-          'A Massa Polar Atlântica, fria e úmida, manteve-se sobre o Rio Grande do Sul devido ao bloqueio atmosférico no Centro-Sul do Brasil.',
-          'A Massa Tropical Atlântica, quente e úmida, não atingiu o Rio Grande do Sul devido ao enfraquecimento da Zona de Alta Pressão Atlântica.',
-          'O aquecimento global ainda não atingiu o estado do Rio Grande do Sul, o que provocou temperaturas abaixo da média e chuvas intensas.',
-          'A Massa Equatorial Continental, quente e úmida, deslocou-se para o Nordeste brasileiro em decorrência das baixas precipitações na Amazônia.',
-          'O fenômeno El Niño provocou a diminuição das temperaturas no Centro-Sul do Brasil, atraindo a Massa Tropical Continental, quente e seca, para essa área.',
-        ],
-      }
-    : index === 7
-    ? {
-        ...question,
-        text: 'Sobre a vegetação litorânea ameaçada pela privatização de áreas à beira-mar, assinale a alternativa CORRETA.',
-      }
-    : index === 8
-    ? {
-        ...question,
-        text: 'A imagem acima apresenta a área usualmente conhecida como Quadrilátero Ferrífero. Entretanto, pesquisas têm apontado que o termo mais indicado seria Quadrilátero Aquífero-Ferrífero, já que a área abriga o Aquífero Cauê, com alta capacidade de armazenamento de água. Esta capacidade se explica em decorrência das',
-      }
-    : index === 9
-    ? {
-        ...question,
-        text: 'O mapa acima representa uma proposta de trajeto para a Ferrovia Transoceânica, projeto que prevê uma maior integração entre América do Sul e Ásia, sobretudo para o transporte de produtos agrícolas e minerais, tornando as exportações possíveis tanto pelo Oceano Atlântico quanto pelo Oceano Pacífico. Considerando os trajetos representados no mapa em território nacional, e levando em conta uma sobreposição aos principais Domínios Morfoclimáticos do Brasil e as faixas de transição entre eles, definidos pelo geógrafo Aziz Ab’Saber, identifica-se a seguinte sequência, do Oceano Atlântico em direção ao Pacífico, de Domínios cortados pela ferrovia:',
-      }
-    : question
-))
-
 const subjects = [
   { name: 'Língua Portuguesa', count: 5, color: 'coral' },
   { name: 'Geografia', count: 5, color: 'blue' },
   { name: 'Matemática', count: 5, color: 'amber' },
   { name: 'Química', count: 5, color: 'purple' },
-]
-
-const questions = [
-  {
-    subject: 'Língua Portuguesa',
-    text: 'A partir da leitura da reportagem “Universidades brasileiras discutem regras de uso de inteligência artificial” (Texto 1), podemos compreender que um guia foi publicado pelo Centro Universitário Senai Cimatec, na Bahia, com o objetivo principal de:',
-    options: [
-      'Desestimular professores a aceitarem o uso de IA em trabalhos acadêmicos.',
-      'Desincentivar o uso da IA para garantir a ausência total de desinformação.',
-      'Orientar a comunidade acadêmica sobre o uso devido da IA, com transparência e responsabilidade.',
-      'Autorizar o uso irrestrito de ferramentas de IA em qualquer atividade.',
-      'Substituir a autoria humana por sistemas de inteligência artificial.',
-    ],
-    answer: 'C',
-  },
-  {
-    subject: 'Língua Portuguesa',
-    text: 'A partir da leitura da reportagem “Universidades brasileiras discutem regras de uso de inteligência artificial” (Texto 1), o uso dessas ferramentas no ensino e na pesquisa deve ser acompanhado principalmente de:',
-    options: [
-      'Transparência, proteção de dados e responsabilidade humana.',
-      'Sigilo absoluto sobre os comandos utilizados.',
-      'Substituição das fontes de pesquisa produzidas por humanos.',
-      'Proibição de qualquer ferramenta de detecção de plágio.',
-      'Autoria exclusiva da plataforma que gerou o conteúdo.',
-    ],
-    answer: 'C',
-  },
-  {
-    subject: 'Língua Portuguesa',
-    text: 'A partir da leitura do Texto 2, “Do luto ao amor digital: americana cria ‘marido perfeito’ com inteligência artificial e vive relacionamento completo com bot”, sobre o relacionamento de Alaina com uma inteligência artificial, pode-se considerar que:',
-    options: [
-      'A expressão “marido perfeito” sugere um tom reflexivo sobre a atitude de Alaina.',
-      '“Amor 5.0” se refere a pessoas com mais de 50 anos.',
-      'A IA é apresentada apenas como uma ferramenta para unir pessoas.',
-      'O relato de Alaina é usado para convencer todos os leitores a se relacionarem com uma IA.',
-      'O casamento digital é apresentado como idêntico a um namoro humano.',
-    ],
-    answer: 'A',
-  },
-  {
-    subject: 'Língua Portuguesa',
-    text: 'O Texto 3, uma charge de Jean Galvão, utiliza elementos visuais e verbais para construir sentidos sobre a situação ambiental do Cerrado. A relação evidenciada é:',
-    options: [
-      'Os dados gerados são imprecisos e causam pânico.',
-      'O fogo extrapolando a imagem do satélite simboliza a gravidade real dos incêndios.',
-      'As imagens reforçam apenas o caráter técnico e imparcial dos dados.',
-      'Os satélites interferem diretamente na destruição ambiental.',
-      'O texto é neutro e não cria metáforas que influenciem o leitor.',
-    ],
-    answer: 'B',
-  },
-  {
-    subject: 'Língua Portuguesa',
-    text: 'A partir de uma interpretação conjunta do Texto 4 (charge sobre inteligência artificial) e do Texto 5 (imagem retirada de um artigo de opinião), a relação de sentidos estabelecida entre eles é de:',
-    options: [
-      'Complementariedade, pois IA e comportamento humano não são concorrentes.',
-      'Confluência, pois ambos criticam o uso da IA em detrimento do trabalho humano.',
-      'Contraposição, pois existe disputa entre IA e comportamento humano.',
-      'Discordância, pois a IA compete de igual maneira no contexto laboral.',
-      'Distanciamento, pois o homem é apresentado como superior à IA.',
-    ],
-    answer: 'B',
-  },
-  {
-    subject: 'Geografia',
-    text: 'Na situação apresentada no enunciado, em que a cidade litorânea A apresenta temperaturas amenas e a cidade interiorana B tem maior variação térmica, o fator climático que explica a diferença é:',
-    options: [
-      'Correntes marítimas.',
-      'Maritimidade e continentalidade.',
-      'Vegetação.',
-      'Atuação das massas de ar.',
-      'Latitude.',
-    ],
-    answer: 'B',
-  },
-  {
-    subject: 'Geografia',
-    text: 'Considerando a imagem da Serra da Canastra, em Minas Gerais (Texto visual da questão), qual alternativa descreve corretamente sua unidade do relevo?',
-    options: [
-      'Planaltos e Serras de Goiás-Minas, com terrenos cristalinos antigos e serras residuais.',
-      'Depressão Sertaneja, extensa área rebaixada e aplanada.',
-      'Planaltos da Bacia do Parnaíba, com topos planos sustentados por sedimentos.',
-      'Planaltos da Bacia do Paraná, com colinas amplas e topos convexos.',
-      'Depressão da Borda Leste da Bacia do Paraná, esculpida em sedimentos.',
-    ],
-    answer: 'A',
-  },
-  {
-    subject: 'Geografia',
-    text: 'A partir do texto sobre os processos naturais e os desequilíbrios ambientais no domínio morfoclimático do Cerrado, é correto afirmar que:',
-    options: [
-      'Os ciclos hídricos dependem da vegetação, afetada pelo desmatamento.',
-      'Queimadas humanas reduzem os impactos ambientais ao renovar nutrientes.',
-      'A cobertura densa reduz a interceptação da chuva.',
-      'O solo do Cerrado tem fertilidade natural elevada.',
-      'As chuvas são abundantes o ano inteiro e a vegetação não interfere na água.',
-    ],
-    answer: 'A',
-  },
-  {
-    subject: 'Geografia',
-    text: 'Observe as figuras de anamorfose sobre população, PIB e riqueza per capita (Textos visuais da questão). A análise indica que:',
-    options: [
-      'O Leste Europeu concentra exclusivamente os maiores níveis de riqueza.',
-      'Países mais populosos sempre concentram mais pobreza.',
-      'A América do Norte tem os maiores indicadores entre todos os países ricos.',
-      'Brasil e Austrália têm riqueza muito concentrada em pequenas parcelas.',
-      'A China tem PIB elevado, mas sua grande população implica menor riqueza per capita.',
-    ],
-    answer: 'E',
-  },
-  {
-    subject: 'Geografia',
-    text: 'A partir da análise do mapa climático da África (Texto visual da questão), o crescimento da civilização egípcia esteve fortemente vinculado:',
-    options: [
-      'Ao clima tropical, com regime de chuvas favorável.',
-      'Ao comércio de especiarias pelo Oceano Índico.',
-      'À presença do Rio Nilo, que fornecia água, cultivo e transporte.',
-      'À região equatorial e às florestas abundantes.',
-      'À posição entre o Mediterrâneo e o Atlântico.',
-    ],
-    answer: 'C',
-  },
-  {
-    subject: 'Matemática',
-    text: 'Considere f: [1,9] → R, definida por f(x) = 6 − x, se 1 ≤ x < 4, e f(x) = x² − 12x + 34, se 4 ≤ x ≤ 9. Qual é o conjunto imagem?',
-    options: ['[−2,5]', '[−2,7]', '[1,9]', '[2,5]', '[5,7]'],
-    answer: 'B',
-  },
-  {
-    subject: 'Matemática',
-    text: 'No plano cartesiano, os gráficos de f e g se encontram em x = −2 e x = 5. O conjunto dos valores reais para os quais f(x) < g(x) é:',
-    options: ['{x ∈ R | x < −2 ou x > 5}', '{x ∈ R | x < −1 ou x > 5}', '{x ∈ R | x < 0 ou x > 5}', '{x ∈ R | −2 < x < 5}', '{x ∈ R | −1 < x < 5}'],
-    answer: 'D',
-  },
-  {
-    subject: 'Matemática',
-    text: 'O gráfico representa o decrescimento exponencial da massa de um radioisótopo a partir de 6 horas da administração. Qual foi a massa inicial administrada?',
-    options: ['4 mg', '6 mg', '7 mg', '8 mg', '16 mg'],
-    answer: 'C',
-  },
-  {
-    subject: 'Matemática',
-    text: 'Considere f(x) = −(1/4)x² + (3/2)x + 4. O gráfico que melhor representa parte da função é uma parábola:',
-    options: ['Com concavidade para cima e raízes positivas.', 'Com concavidade para baixo e intercepto em y = 4.', 'Linear e crescente.', 'Com concavidade para cima e vértice em y = 4.', 'Constante e positiva.'],
-    answer: 'E',
-  },
-  {
-    subject: 'Matemática',
-    text: 'Um estudante modelou o Centro Histórico de Juiz de Fora com um trapézio retângulo. Qual medida, em metro quadrado, corresponde à área obtida no esquema?',
-    options: ['4 000', '390 000', '780 000', '1 560 000', '1 650 000'],
-    answer: 'C',
-  },
-  {
-    subject: 'Química',
-    text: 'Em um sistema fechado, a reação entre vinagre e bicarbonato libera gás, mas mantém a massa. Segundo Dalton, isso ocorre porque:',
-    options: ['As moléculas e íons permanecem inalterados.', 'Os átomos desaparecem ao formar compostos.', 'Os átomos não se transformam nem se dividem.', 'Átomos se transformam em átomos mais leves.', 'Isótopos leves ganham massa.'],
-    answer: 'C',
-  },
-  {
-    subject: 'Química',
-    text: 'Sobre os íons formados em soluções de cloreto de sódio e sulfato de cobre, assinale a alternativa correta:',
-    options: ['O cloro vira ânion com valência positiva.', 'O cobre forma cátion ao perder um ou dois elétrons.', 'O enxofre sempre forma cátions bivalentes.', 'O sódio ganha um elétron e forma cátion.', 'O sódio perde um elétron e forma cátion negativo.'],
-    answer: 'B',
-  },
-  {
-    subject: 'Química',
-    text: 'Sobre os compostos inorgânicos, assinale a alternativa correta:',
-    options: ['A amônia é um ácido de Arrhenius.', 'A soda cáustica é um óxido básico.', 'O ácido sulfúrico é um sal de íons metálicos.', 'O aço inox é uma liga com ferro, carbono, níquel e cromo.', 'O dióxido de carbono é um sal volátil.'],
-    answer: 'D',
-  },
-  {
-    subject: 'Química',
-    text: 'Qual alternativa descreve corretamente os modelos atômicos de Dalton, Thomson e Rutherford?',
-    options: [
-      'Dalton propôs cargas; Thomson, núcleo; Rutherford, átomo indivisível.',
-      'Dalton propôs átomo indivisível; Thomson, elétrons em órbitas; Rutherford, esfera neutra.',
-      'Dalton propôs átomo indivisível; Thomson, esfera positiva com elétrons; Rutherford, núcleo positivo.',
-      'Dalton identificou partículas; Thomson propôs núcleo; Rutherford, esfera homogênea.',
-      'Dalton descobriu núcleo; Thomson descobriu elétrons; Rutherford propôs órbitas.',
-    ],
-    answer: 'C',
-  },
-  {
-    subject: 'Química',
-    text: 'Ao comparar 10 g de chumbo e 10 g de alumínio, a amostra de chumbo tem volume muito menor. Isso indica que:',
-    options: [
-      'O alumínio tem átomos mais leves e mais prótons por grama.',
-      'O chumbo tem átomos mais pesados, com muito mais prótons e nêutrons.',
-      'A massa do chumbo se concentra no núcleo, mas a do alumínio não.',
-      'As duas amostras possuem aproximadamente o mesmo número de partículas nucleares.',
-      'Os elétrons do alumínio são responsáveis por sua menor densidade.',
-    ],
-    answer: 'D',
-  },
-]
-
-const questionsDay2 = [
-  { subject: 'Literaturas', text: 'A partir da leitura do poema “À Mamã” (Texto 1), de Deolinda Rodrigues, podemos encontrar uma homenagem ao continente africano. Assinale a opção em que identificamos duas figuras de linguagem utilizadas no poema.', options: ['Hipérbole e paranomásia.', 'Hipérbole e quiasmo.', 'Metáfora e paranomásia.', 'Metáfora e prosopopeia.', 'Prosopopeia e quiasmo.'], answer: 'D' },
-  { subject: 'Literaturas', text: 'Os Textos 1 e 2 — o poema “À Mamã”, de Deolinda Rodrigues, e a canção “Mama África”, de Chico César — apresentam traços semelhantes no que concerne à temática. Qual interpretação é adequada para ambos?', options: ['A ausência de representações de resiliência.', 'A força da ancestralidade africana.', 'A crítica à sociedade de consumo.', 'Uma representação patriarcal do continente africano.', 'A ausência de homenagem à figura da mulher.'], answer: 'B' },
-  { subject: 'Literaturas', text: 'Com base no conteúdo do poema “rotina” (Texto 3), de Bruna Mitrano, é possível inferir que se trata de uma situação familiar:', options: ['Alegre, pois os desenhos superam os temporais.', 'Corriqueira, vivida por todo brasileiro.', 'Esperançosa, sugerida pelos panos nas portas.', 'Infeliz, em que a devastação dos temporais contrasta com os desenhos na calçada.', 'Irreal, pela presença da avó.'], answer: 'D' },
-  { subject: 'Literaturas', text: 'Considerando o verso “Li a assinatura da minha lei áurea” e o poema “Não vou mais lavar os pratos” (Texto 4), de Cristiane Sobral, observa-se que a autora:', options: ['Atesta que a mulher negra continuou subjugada após a Lei Áurea.', 'Confirma o fim do trabalho doméstico da mulher negra.', 'Destaca a luta emancipatória no período da escravidão.', 'Enfatiza a necessidade de educação racial dos escravizados.', 'Salienta que o acesso ao conhecimento permite a emancipação da mulher negra.'], answer: 'E' },
-  { subject: 'Literaturas', text: 'O poema “Caderno de retorno” (Texto 6), de Edimilson de Almeida Pereira, dialoga diretamente com a introdução do rap “Capítulo 4, versículo 3” (Texto 5), dos Racionais MC’s, porque ambos:', options: ['Usam estatísticas para demonstrar privilégios da população negra.', 'Usam estatísticas para denunciar a discriminação racial e dificultar a ascensão social.', 'Enfatizam a inserção da população negra em espaços privilegiados.', 'Evidenciam mecanismos facilitadores da ascensão social.', 'Usam expressões pejorativas para denunciar o colorismo.'], answer: 'B' },
-  { subject: 'Biologia', text: 'De acordo com o texto sobre energias limpas e método científico (Texto de apoio da questão), traçar hipóteses sobre o impacto ambiental ou econômico é uma etapa posterior à (1) e anterior à (2):', options: ['(1) análise dos resultados; (2) publicação dos resultados.', '(1) criação de uma teoria; (2) análise dos resultados.', '(1) divulgação dos resultados; (2) criação de uma teoria.', '(1) observação do problema; (2) realização de experimentos.', '(1) realização de experimentos; (2) divulgação dos resultados.'], answer: 'D' },
-  { subject: 'Biologia', text: 'Leia o texto sobre autofagia (Texto 2). Sobre esse processo e a manutenção do funcionamento celular, é correto afirmar que:', options: ['Acontece apenas em laboratório.', 'É uma reciclagem natural de organelas ou proteínas disfuncionais, podendo prevenir doenças.', 'Substitui a mitose e impede o envelhecimento.', 'Induz divisão celular para renovar tecidos.', 'Só pode ser induzida por medicamentos.'], answer: 'B' },
-  { subject: 'Biologia', text: 'Considerando as informações do texto sobre membranas biológicas (Texto 3), assinale a alternativa correta sobre a influência da temperatura:', options: ['A baixa temperatura aumenta a fluidez.', 'Apenas temperaturas extremas afetam neurônios.', 'O aumento da temperatura aumenta a fluidez, favorecendo o transporte de proteínas.', 'O aumento da temperatura torna a membrana mais rígida.', 'A baixa temperatura torna a membrana mais fluida pelo acúmulo de proteínas.'], answer: 'C' },
-  { subject: 'Biologia', text: 'Com base no texto sobre bactérias modificadas em células fagocíticas (Texto 4), a organela envolvida e a relação correta são:', options: ['A fluorescência impediu a fagocitose.', 'Foram protegidas contra enzimas do retículo endoplasmático.', 'A resistência permitiu que não fossem degradadas nos lisossomos.', 'Foram protegidas contra enzimas dos peroxissomos.', 'Escaparam do complexo de Golgi.'], answer: 'C' },
-  { subject: 'Biologia', text: 'A partir do texto sobre a bactéria Mycobacterium tuberculosis e seu estado latente (Texto 5), o metabolismo que permite sua sobrevivência está relacionado principalmente ao uso de:', options: ['Carboidratos como única fonte energética.', 'Proteínas produzidas no núcleo.', 'Água como fonte de energia.', 'Lipídios apenas em condições extremas.', 'Lipídios, que liberam muita energia por suas longas cadeias de ácidos graxos.'], answer: 'E' },
-  { subject: 'Física', text: 'Sobre a situação de equilíbrio de uma goiaba apoiada sobre uma mesa, assinale a alternativa correta:', options: ['A normal da mesa é o par da força peso da goiaba.', 'A normal atua para baixo e depende da massa da mesa.', 'A força da goiaba sobre a mesa é sua força peso.', 'A força da goiaba sobre a Terra é o par de ação e reação do peso que atua na goiaba.', 'A força da mesa sobre o solo não depende do peso da goiaba.'], answer: 'D' },
-  { subject: 'Física', text: 'Observe o gráfico de posição S em função do tempo de um robô em Marte (Texto visual da questão). Sobre o movimento, assinale a alternativa correta:', options: ['A aceleração é positiva.', 'A velocidade é nula em t = 2 min.', 'A velocidade inicial é positiva.', 'O deslocamento em t = 8 min é 24 m.', 'O robô desacelera durante todo o percurso.'], answer: 'C' },
-  { subject: 'Física', text: 'Em uma curva de raio constante, percorrida por um carro com velocidade de módulo constante, é correto afirmar que:', options: ['A aceleração é paralela à velocidade.', 'A velocidade é radial e aponta para fora.', 'Não há aceleração, pois o módulo da velocidade é constante.', 'O módulo da aceleração é diretamente proporcional à velocidade.', 'Quanto menor o raio da curva, maior a aceleração.'], answer: 'E' },
-  { subject: 'Física', text: 'Dois barcos recebem o mesmo trabalho do vento ao longo da mesma distância. O barco de Ana tem massa duas vezes maior que o de Bia. A relação entre suas velocidades é:', options: ['vA = √2 vB / 2', 'vA = vB / 2', 'vA = √2 vB', 'vA = vB', 'vA = 2vB'], answer: 'A' },
-  { subject: 'Física', text: 'Mariele tem 20 kg e está na extremidade de uma gangorra. Sua mãe tem 50 kg. Para equilibrar a tábua, a mãe deve sentar-se a que distância de Mariele?', options: ['0,8 m', '1,2 m', '1,25 m', '2,8 m', '3,25 m'], answer: 'D' },
-  { subject: 'História', text: 'A relação entre vida e morte para os povos berberes é caracterizada pela:', options: ['Ruptura com tradições religiosas ocidentais.', 'Relação afetuosa com a ancestralidade.', 'Dissociação entre vida e morte.', 'Uso político da morte para controle de outros povos.', 'Crença na reencarnação.'], answer: 'B' },
-  { subject: 'História', text: 'A partir do texto de Tim Whitmarsh sobre as características étnicas do mundo grego antigo (Texto 2), os argumentos discutidos expressam:', options: ['Uma democracia racial na Grécia Clássica.', 'Um descompasso entre aquele contexto e as concepções raciais atuais.', 'A expansão democrática ateniense entre os “etíopes”.', 'A abertura racial do Império Alexandrino.', 'A uniformidade étnica do Império Romano.'], answer: 'B' },
-  { subject: 'História', text: 'Analise as imagens “Primeira Missa no Brasil” e “A fundação de Maryland” (Textos visuais da questão). As duas pinturas podem ser comparadas:', options: ['Porque houve ampla adesão nativa ao catolicismo na América do Norte.', 'Porque a Igreja Católica representava os interesses oficiais de Portugal e Inglaterra.', 'Mesmo havendo diferenças quanto ao lugar do catolicismo em cada metrópole, pois ele não era unanimidade na Inglaterra.', 'Como críticas incisivas ao catolicismo.', 'Porque o protestantismo foi mais relevante nos dois processos.'], answer: 'C' },
-  { subject: 'História', text: 'Leia o texto sobre a relação entre povos ameríndios e espanhóis na colonização (Texto 3). A diferença de compreensão do ayllu entre povos pré-colombianos e cronistas espanhóis explica-se pela:', options: ['Convivência igualitária entre incas e colonizadores.', 'Evolução social dos incas após o contato.', 'Frágil organização social das comunidades ameríndias.', 'Visão etnocêntrica dos cronistas espanhóis.', 'Passividade dos povos ameríndios diante do apagamento cultural.'], answer: 'D' },
-  { subject: 'História', text: 'A partir do texto sobre a expansão cultural e religiosa do islamismo (Texto 4), a influência do islamismo no Brasil caracterizou-se:', options: ['Pela expansão pacífica em convivência com o cristianismo.', 'Pela influência limitada apenas a territórios africanos.', 'Pela perda das referências culturais islâmicas.', 'Pelo enfraquecimento da Igreja Católica desde o século VII.', 'Pelo longo processo de expansão territorial do islã no Ocidente e suas transformações no contato cultural.'], answer: 'E' },
-]
-
-const textOne = `TEXTO 1
-INTEGRIDADE ACADÊMICA
-
-Universidades brasileiras discutem regras de uso de inteligência artificial
-
-Diante de incertezas por parte de estudantes e pesquisadores, instituições debatem quais seriam os limites éticos do uso dessas ferramentas na escrita e na pesquisa científica.
-
-Instituições científicas e de ensino superior do Brasil começam a formular recomendações para o uso de inteligência artificial (IA), especialmente a generativa, no ensino, na pesquisa e na extensão. A popularização de softwares como o ChatGPT, capazes de gerar texto, imagens e dados, tem levantado dúvidas sobre limites éticos no uso dessas tecnologias, principalmente na escrita acadêmica. Professores têm procurado novas formas de avaliar trabalhos de alunos, tentando contornar os riscos de uso indevido de IA.
-
-De maneira geral, as orientações pedem que seu uso seja transparente e alertam para o perigo de ferir direitos autorais, praticar plágio, gerar desinformação e replicar vieses discriminatórios que essas ferramentas podem reproduzir.
-
-Em fevereiro, o Centro Universitário Senai Cimatec, na Bahia, publicou um guia para orientar sua comunidade acadêmica quanto à IA generativa. Ele segue três princípios: transparência; “centralidade na pessoa humana”, ou seja, que o controle humano seja preservado sobre as informações geradas por IA, já que ela deve ser usada de forma benéfica à sociedade; e atenção à privacidade de dados, sobretudo em atividades que envolvam contratos com empresas por meio de parcerias para desenvolvimento e transferência de tecnologias. Ocorre que as informações compartilhadas em plataformas de IA podem ser armazenadas pela ferramenta, quebrando o sigilo de dados. “Não podemos nos esquecer de que, se nós aprendemos com essas ferramentas, elas também aprendem com a gente”, ressalta a engenheira civil Tatiana Ferraz, pró-reitora administrativo-financeira do Senai Cimatec e coordenadora do guia.
-
-Uma atualização do regulamento disciplinar da instituição passou a prever punições para estudantes que quebrarem as regras. [...]
-
-O guia autoriza professores a usarem softwares de detecção de plágio quando julgarem necessário, embora não sejam 100% precisos ao indicar conteúdo produzido por IA. As ferramentas não podem ser citadas como coautoras de trabalhos acadêmicos, mas sua aplicação para auxiliar processos de pesquisa e ajustes de escrita acadêmica é permitida. Para isso, todos os comandos utilizados — as perguntas e direcionamentos dados à ferramenta, também chamados de prompts — e as informações originais geradas por IA devem ser descritos na metodologia do trabalho e anexados como material suplementar.
-
-Conceitos que resumem as orientações
-
-Transparência: quando o uso dessas ferramentas for permitido, ele deve ser declarado e indicado na seção de metodologia dos trabalhos e artigos acadêmicos.
-
-Proteção de dados: é preciso avaliar quais dados podem ser trabalhados com ferramentas de IA. Informações sensíveis ou inéditas não devem ser compartilhadas.
-
-Autoria: a inteligência artificial generativa não pode ser considerada autora dos trabalhos acadêmicos e artigos científicos. O autor humano é o único responsável pela integridade das informações produzidas com o auxílio da ferramenta.
-
-Clareza: as ementas das disciplinas devem definir o que os estudantes podem ou não fazer com ferramentas de inteligência artificial.
-
-Vieses: as plataformas de IA podem reproduzir desinformação, preconceitos e discriminação. É preciso avaliar com cuidado e atenção os dados que elas fornecem.
-
-Nesse cenário, há casos de professores que passaram a pedir aos alunos que fizessem apresentações orais, trabalhos dentro da sala de aula ou mesmo feitos à mão, no papel. Godoy, da USP, que costumava pedir trabalhos escritos sobre artigos estudados, passou a exigir que os alunos apresentassem esquemas com mapas mentais que mostrem as conexões entre os textos estudados em aula.
-
-Disponível em: https://revistapesquisa.fapesp.br/universidades-brasileiras-discutem-regras-de-uso-de-inteligencia-artificial/. Acesso em: 20 jun. 2025 (adaptado).`
-
-const textTwo = `TEXTO 2
-Do luto ao amor digital: americana cria “marido perfeito” com inteligência artificial e vive relacionamento completo com bot
-
-Após perder o amor da sua vida, a americana Alaina Winters acreditava que jamais voltaria a viver uma história de amor. Mas bastou um clique — e uma inteligência artificial — para transformar sua vida completamente. Ela recorreu a um aplicativo que usa IA para criar companheiros virtuais e, com base em suas preferências, desenvolveu o “marido ideal”. O resultado? Um relacionamento tão intenso quanto real. Hoje, Alaina vive um casamento digital, com direito a DR, jantares comemorativos, carinhos [...]. “Ele me entende melhor do que qualquer pessoa já entendeu”, declarou.
-
-Amor 5.0: tendência ou fuga da realidade?
-
-Apesar de parecer enredo de filme ou episódio de Black Mirror, a história de Alaina não é um caso isolado. Uma pesquisa recente apontou que 83% da Geração Z aceitaria se casar com um parceiro criado por inteligência artificial. Para muitos, a IA representa uma forma de preenchimento emocional, segurança afetiva e uma fuga das frustrações das relações humanas. Já outros especialistas alertam para os riscos de isolamento, vício em conexões virtuais e impactos psicológicos de longo prazo.[...]
-
-Disponível em: https://www.ptnnews.com.br/do-luto-ao-amor-digital-americana-cria-marido-perfeito-com-inteligencia-artificial-e-vive-relacionamento-completo-com-bot/. Acesso em: 03 jul. 2025 (adaptado).
-
-Glossário:
-Bot: é versão abreviada da palavra de língua inglesa robot. Resumidamente, é uma ferramenta automatizada que executa uma série de funções pré-programadas. Normalmente, está associada a uma inteligência artificial e busca interagir simulando a forma de pensar humana.
-
-Disponível em: https://www.weeke.com.br/blog/o-que-e-um-bot-entenda-como-funciona/. Acesso em: 03 jul. 2025.`
-
-const textThreeImage = '/texto-3-cerrado.png'
-const textFourImage = '/texto-4-inteligencia-artificial.png'
-const dayTwoTexts = [
-  `TEXTO 1
-A Mamã
-Deolinda Rodrigues
-
-África
-Mamã África
-Geraste-me no teu ventre
-nasci sob o tufão colonial
-chuchei teu leite de cor
-cresci
-atrofiada mas cresci
-juventude rápida
-como a estrela que corre
-quando morre o nganga.
-Hoje sou mulher
-não sei já se mulher se velhinha
-mas é a ti que venho
-África
-Mamã África.
-
-Fonte: RODRIGUES, Deolinda. A Mamã (Fragmento). In: ANDRADE, Mário. Antologia temática de poesia africana II: O canto armado. Lisboa: Livraria Sá da Costa Editora, 1979.
-
-Glossário:
-Tufão: em sentido literal, refere-se a um ciclone tropical.
-Nganga: sacerdote ou curandeiro espiritual.
-Chuchei: mamei, suguei.`,
-]
-const text2024Day1One = `TEXTO I
-A ordem natural das coisas
-Emicida
-
-A merendeira desce, o ônibus sai
-Dona Maria já se foi, só depois é que o Sol nasce
-De madruga é que as aranha tece no breu
-E amantes ofegantes vão pro mundo de Morfeu
-E o Sol só vem depois
-O Sol só vem depois
-É o astro rei, ok, mas vem depois
-O Sol só vem depois
-Anunciado no latir dos cães, no cantar dos galos
-Na calma das mães, que quer o rebento cem por cento
-E diz: Leva o documento, son
-Na São Paulo das manhã que tem lá seus Vietnã
-Na vela que o vento apaga, afaga quando passa
-A brasa dorme fria e só quem dança é a fumaça
-Orvalho é o pranto dessas planta no sereno
-A Lua já tá no Japão, como esse mundo é pequeno
-Farelos de um sonho bobinho que a luz contorna
-Dar um tapa no quartinho, esse ano sai a reforma
-O som das criança indo pra escola convence
-O feijão germina no algodão, a vida sempre vence
-As nuvens curiosas, como são
-Se vestem de cabelo crespo, ancião
-Caminham lento, lá pra cima, o firmamento
-Pois no fundo ela se finge de neblina
-Pra ver o amor dos dois mundos
-
-Fonte: EMICIDA. Disponível em: https://www.letras.mus.br/emicida/a-ordem-natural-das-coisas-part-mc-tha/. Acesso em: 08 jul. 2024.`
-const text2024Day1TwoImage = '/texto-2-periferia.png'
-const text2024Day1Three = `TEXTO III
-[...] Filhos sem educação que faziam de mim gato e sapato a filha dessa minha patroa tinha minha idade 14 anos à época e ela até me batia mas isso eu não deixava revidava então era uma brigaiada mas como eles não podiam perder a escravinha não me mandavam embora só ameaçavam!`
-const text2024Day1Four = `TEXTO IV
-Sem falar em outro doutorzinho que expõe sua empregada ao ridículo lá no meu trabalho ele sai mostrando a foto do perfil dela do WhatsApp para seus outros colegas e debochando. Olha só essa foto que cara de pobre que pose de vagabunda só podia ser doméstica mesmo!`
-const text2024Day1Five = `TEXTO V
-[...] a D. da casa é uma dondoca mesquinha que vive pra gastar o dinheiro do marido e ser servida. Um dia na hora do jantar usei um pouco de pimenta-do-reino dela para colocar no meu prato. A mulher fez um escândalo, disse que aquilo era muito caro, que aquelas pimentas eram dela e da família dela. Não era para eu usar na comida da empregada. Onde já se viu? Uma pimenta de 17 reais (só porque vinha naqueles moedores), a empregadinha colocar no prato. No dia seguinte comprei as pimentas com moedor mais caras do supermercado, levei para a casa dela. Usava em todas as comidas da casa, colocava na mesa a minha pimenta, oferecia para os convidados dela, usava a rodo. Eu sentia o constrangimento e a raiva dela, mas ela não podia fazer nada, eu estava sendo legal. Uns três anos depois, vocês não sabem o que eu encontro, vencida, bem escondidinha. AS PIMENTAS. Eram tão caras e ela deixou apodrecer.
-
-Trechos retirados de SILVA, Enise de Castro. A reconfiguração da experiência de ser doméstica através da página “Eu, empregada doméstica”. Dissertação (Mestrado) – Universidade Federal de Minas Gerais, Faculdade de Filosofia e Ciências Humanas, 2019, p. 71-88. Textos adaptados para fins didáticos.`
-const text2024Day1Six = `O Texto VI a seguir é um trecho do livro “Da fala para a escrita – atividades de retextualização”, escrito pelo linguista brasileiro Luiz Antônio Marcuschi, acerca da relação entre gêneros de textos orais e escritos.`
-const text2024Day1Seven = `TEXTO VI
-Da fala para a escrita – atividades de retextualização
-Luiz Antônio Marcuschi
-
-A hipótese que defendemos supõe que: as diferenças entre fala e escrita se dão dentro do continuum tipológico das práticas sociais de produção dos gêneros textuais e não na relação dicotômica [oposta] de dois polos opostos. [...] Na realidade, temos uma série de textos produzidos em condições naturais e espontâneas nos mais diversos domínios discursivos das duas modalidades da língua – oral e escrita. Com isto, descobrimos que, comparando uma carta pessoal em estilo descontraído (texto escrito) com uma narrativa oral espontânea (texto oral), haverá menos diferenças do que entre a narrativa oral e um texto acadêmico escrito. Por outro lado, uma conferência universitária preparada com cuidado terá maior semelhança com textos escritos do que com uma conversação espontânea. Os textos se entrecruzam sob muitos aspectos e por vezes constituem domínios mistos, mesclando aspectos da oralidade em textos escritos e da escrita em textos orais. [...] Com isso, toda vez que emprego a palavra língua não me refiro a um sistema de regras determinado, abstrato, regular e homogêneo, nem a relações linguísticas imanentes. Ao contrário, minha concepção de língua pressupõe um fenômeno heterogêneo, variável, histórico e social, indeterminado sob o ponto de vista semântico e sintático, submetido às condições de produção, e que se manifesta em situações de uso concretas como texto e discurso. [...]
-
-Fonte: MARCUSCHI, Luiz Antônio. Da fala para a escrita – atividades de retextualização. São Paulo: Cortez, 2010. p. 37-38. Texto adaptado para fins didáticos.`
-const text2024Day1FigureOne = '/pism-2024-1-figura-1.png'
-const text2024Day1FigureTwo = '/pism-2024-1-figura-2.png'
-const text2024Day1FigureThree = '/pism-2024-1-figura-3.png'
-const text2024Day1QuestionNineImage = '/pism-2024-1-questao-9-quadrilatero-aquifero-ferrifero.png'
-const text2024Day1QuestionTenImage = '/pism-2024-1-questao-10-ferrovia-transoceanica.png'
-const text2024Day1Eight = `Riscos ambientais da PEC das Praias
-
-Essa faixa costeira é fundamental na contenção da erosão
-
-A Proposta de Emenda Constitucional 3/2022, a PEC das Praias, tem sido debatida nos últimos dias, especialmente sob a ótica econômica e social. Gostaríamos de incluir aqui alguns argumentos ambientais a partir de nossa pesquisa em biologia marinha.
-
-O objetivo principal dessa PEC é a concessão privada de terrenos de marinha. Há um entendimento de que essa faixa se localize acima de 33 metros da linha d’água, o que exclui as praias. Há outro entendimento que cita que essas áreas vão até onde se faça sentir a influência da maré. Só nessa duplicidade de interpretações já há margem para conflitos.
-
-Essa faixa costeira é fundamental na contenção da erosão litorânea e das mudanças climáticas. Elas são partes do patrimônio nacional, devendo ser geridas pelo interesse público. Por mais que não privatize praias, a PEC 3/2022 resultará em degradação ambiental, expulsão de pescadores artesanais, dificuldade de acesso à praia e especulação imobiliária.
-
-https://www.correiobraziliense.com.br/opiniao/2024/06/6878577-riscos-ambientais-da-pec-das-praias.html
-Acesso em: 16 de jun. de 2024.`
-const pism2024Day2Texts = [
-  `TEXTO I
-
-(...)
-
-‘Stamos em pleno mar... Abrindo as velas
-Ao quente arfar das virações marinhas,
-Veleiro brigue corre à flor dos mares,
-Como roçam na vaga as andorinhas...
-Donde vem? Onde vai? Das naus errantes
-Quem sabe o rumo se é tão grande o espaço?
-Neste saara os corcéis o pó levantam,
-Galopam, voam, mas não deixam traço.
-Bem feliz quem ali pode nest’hora
-Sentir deste painel a majestade!...
-Embaixo – o mar... em cima – o firmamento...
-E no mar e no céu – a imensidade!
-Oh! que doce harmonia traz-me a brisa!
-Que música suave ao longe soa!
-Meu Deus! Como é sublime um canto ardente
-Pelas vagas sem fim boiando à toa!
-
-(...)
-
-Era um sonho dantesco... O tombadilho
-Que das luzernas avermelha o brilho,
-Em sangue a se banhar.
-Tinir de ferros... estalar de açoite...
-Legiões de homens negros como a noite,
-Horrendos a dançar...
-Negras mulheres, suspendendo às tetas
-Magras crianças, cujas bocas pretas
-Rega o sangue das mães:
-Outras moças, mas nuas e espantadas,
-No turbilhão de espectros arrastadas,
-Em ânsia e mágoa vãs! (...)
-
-Ouvem-se gritos... o chicote estala.
-E voam mais e mais...
-Presa nos elos de uma só cadeia,
-A multidão faminta cambaleia,
-E chora e dança ali!
-Um de raiva delira, outro enlouquece,
-Outro, que martírios embrutece,
-Cantando, geme e ri! (...)`,
-  `TEXTO II
-
-As Caravanas
-Chico Buarque de Hollanda
-
-É um dia de real grandeza, tudo azul
-Um mar turquesa à la Istambul enchendo os olhos
-Um sol de torrar os miolos
-Quando pinta em Copacabana
-A caravana do Arará, do Caxangá, da Chatuba
-A caravana do Irajá, o comboio da Penha
-Não há barreira que retenha esses estranhos
-Suburbanos tipo muçulmanos do Jacarezinho
-A caminho do Jardim de Alá
-É o bicho, é o buchicho, é a charanga
-
-(...)
-
-Com negros torsos nus deixam em polvorosa
-A gente ordeira e virtuosa que apela
-Pra polícia despachar de volta
-O populacho pra favela
-Ou pra Benguela, ou pra Guiné
-Sol, a culpa deve ser do sol
-Que bate na moleira, o sol
-Que estoura as veias, o suor
-Que embaça os olhos e a razão
-E essa zoeira dentro da prisão
-Crioulos empilhados no porão
-De caravelas no alto mar
-Tem que bater, tem que matar, engrossa a gritaria
-Filha do medo, a raiva é mãe da covardia
-Ou doido sou eu que escuto vozes
-Não há gente tão insana
-Nem caravana do Arará
-Não há, não há`,
-  `TEXTO III
-
-Luísa Mahin
-Jarid Arraes
-
-No século 19
-Luísa Mahin nasceu
-Com origem africana
-Sua história aconteceu
-E com incessante gana
-Seu nome prevaleceu.
-Vinda da Costa da Mina
-Afirmava ser princesa
-Mas vendida como escrava
-Teve na luta a certeza
-Depois de alforriada
-Demonstrou sua proeza.
-Viveu como quituteira
-E morou em Salvador
-Usou com inteligência
-Seus talentos de sabor
-Pois usava o tabuleiro
-De mensagens portador.
-
-(...)
-
-Importante mencionar
-Que foi mãe de Luís Gama
-Poeta e abolicionista
-De imensurável chama
-E por ele foi citada
-Respeitando sua fama.
-
-(...)
-
-O pai branco de Luís
-O vendeu quando criança
-Separando de sua mãe
-Na racista podre herança
-De ser branco dominante
-Indigno de confiança.
-Mas Luísa era guerreira
-A rebelde sem igual
-Fez ainda de sua casa
-Como um quartel general
-Onde eram planejadas
-As revoltas sem igual.
-Apesar de tudo isso
-E de tudo que lutou
-Essa mulher imponente
-Muito se silenciou
-Pois ainda não se conta
-Tudo que realizou.
-Mas apenas sua memória
-É forte o suficiente
-Pra mexer na estrutura
-Dessa gente incoerente
-Que não fala a verdade
-Sobre o negro insurgente.
-(...)`,
-  `TEXTO IV
-
-O Canto dos Escravizados
-Paulina Chiziane
-
-Acorrentado vim, cruzando o mar
-Atormentado fui no negrume do porão
-Aqui estou na América
-Chorando de dor, ó mãe África!
-Escravizado sou, como animal
-Comprado fui por quem só me fez mal
-Aqui estou na América
-Chorando de dor, ó mãe África!
-Estou lutando para me libertar
-E bem depressa regressar ao lar
-Aqui estou na América
-Chorando de dor, ó mãe África`,
-  `TEXTO V
-
-Ponciá Vicêncio
-Conceição Evaristo
-
-Quando Ponciá Vicêncio resolveu sair do povoado onde nascera, a decisão chegou forte e repentina. Estava cansada de tudo ali. De trabalhar o barro com a mãe, de ir e vir às terras dos brancos e voltar de mãos vazias. De ver a terra dos negros coberta de plantações, cuidadas pelas mulheres e crianças, pois os homens gastavam a vida trabalhando nas terras dos senhores, e depois a maior parte das colheitas ser entregue aos coronéis. Cansada da luta insana, sem glória, a que todos se entregavam para amanhecer cada dia mais pobres, enquanto alguns conseguiam enriquecer-se a todo dia. Ela acreditava que poderia traçar outros caminhos, inventar uma vida nova.`
 ]
 
 const normalizeExtractedText = (value) => value
@@ -696,6 +157,8 @@ function App() {
   const [selectedExam, setSelectedExam] = useState(null)
   const [supportScale, setSupportScale] = useState(1)
   const [speakingId, setSpeakingId] = useState(null)
+  const [catalogSearch, setCatalogSearch] = useState('')
+  const [catalogCategory, setCatalogCategory] = useState('todas')
   const [pismSeries, setPismSeries] = useState('1 ano')
   const [year, setYear] = useState('2025-1')
   const [enemCatalog, setEnemCatalog] = useState([])
@@ -739,13 +202,9 @@ function App() {
   }, [])
 
   const questionSets = {
-    'pism-1': questions,
-    'pism-2': questionsDay2,
-    'pism-2024-1': correctedQuestions2024Day1,
-    'pism-2024-2': questions2024Day2,
     'enem-2023-1-ingles': [...enem2023EnglishQuestions, ...enem2023SpanishQuestions],
   }
-  const activeQuestions = selectedExam === 'enem-api' || supabaseExamSlug ? enemQuestions : questionSets[selectedExam] || questions
+  const activeQuestions = selectedExam === 'enem-api' || supabaseExamSlug ? enemQuestions : questionSets[selectedExam] || []
   const examLabel = selectedExam === 'pism-1' ? '2025-1' : selectedExam === 'pism-2' ? '2025-2' : selectedExam === 'pism-2024-1' ? '2024-1' : selectedExam === 'pism-2024-2' ? '2024-2' : selectedExam === 'enem-api' ? `ENEM ${enemYear}` : '2023-1_Cad_Amarelo - LINGUAGENS, CÓDIGOS E SUAS TECNOLOGIAS'
   const examDay = selectedExam === 'enem-api' ? 'Área selecionada' : examLabel.endsWith('-1') ? 'Dia 1' : 'Dia 2'
 
@@ -756,48 +215,38 @@ function App() {
   const startExam = async (exam) => {
     if (exam === 'enem') return
     setPismLoading(true)
+    setEnemError('')
     try {
       const supabaseSlug = { 'pism-1': 'pism-2025-1', 'pism-2': 'pism-2025-2', 'pism-2024-1': 'pism-2024-1', 'pism-2024-2': 'pism-2024-2' }[exam]
-      if (supabase && supabaseSlug) {
-        const { data: examRecord, error: examError } = await supabase.from('exams').select('id').eq('slug', supabaseSlug).maybeSingle()
-        if (examError) throw examError
-        if (examRecord) {
-          const { data: storedQuestions, error: questionsError } = await supabase.from('questions').select('*').eq('exam_id', examRecord.id).order('number')
-          if (questionsError) throw questionsError
-          if (storedQuestions?.length) {
-            setEnemQuestions(storedQuestions.map((question) => ({
-              subject: question.subject,
-              text: question.text,
-              support: question.support,
-              supportImage: question.support_image,
-              options: question.options,
-              answer: question.answer,
-            })))
-            setSupabaseExamSlug(supabaseSlug)
-            setSelectedExam(exam)
-          } else {
-            setSupabaseExamSlug(null)
-            setSelectedExam(exam)
-          }
-        } else {
-          setSupabaseExamSlug(null)
-          setSelectedExam(exam)
-        }
-      } else {
-        setSupabaseExamSlug(null)
-        setSelectedExam(exam)
+      if (!supabase || !supabaseSlug) {
+        throw new Error('As provas do PISM exigem conexão com o Supabase. Verifique a configuração do banco de dados.')
       }
+      const { data: examRecord, error: examError } = await supabase.from('exams').select('id').eq('slug', supabaseSlug).maybeSingle()
+      if (examError) throw examError
+      if (!examRecord) {
+        throw new Error(`A prova "${supabaseSlug}" não foi encontrada no banco de dados.`)
+      }
+      const { data: storedQuestions, error: questionsError } = await supabase.from('questions').select('*').eq('exam_id', examRecord.id).order('number')
+      if (questionsError) throw questionsError
+      if (!storedQuestions?.length) {
+        throw new Error(`A prova "${supabaseSlug}" não possui questões cadastradas no banco de dados.`)
+      }
+      setEnemQuestions(storedQuestions.map((question) => ({
+        subject: question.subject,
+        text: question.text,
+        support: question.support,
+        supportImage: question.support_image,
+        options: question.options,
+        answer: question.answer,
+      })))
+      setSupabaseExamSlug(supabaseSlug)
+      setSelectedExam(exam)
       setCurrent(0)
       setAnswers({})
       setScreen('exam')
       setMenuOpen(false)
     } catch (error) {
       setEnemError(`Não foi possível carregar as questões do Supabase: ${error.message}`)
-      setSelectedExam(exam)
-      setSupabaseExamSlug(null)
-      setCurrent(0)
-      setAnswers({})
-      setScreen('exam')
     } finally {
       setPismLoading(false)
     }
@@ -905,6 +354,101 @@ function App() {
   const zoomIn = () => setSupportScale((value) => Math.min(1.8, Math.round((value + 0.15) * 100) / 100))
   const zoomOut = () => setSupportScale((value) => Math.max(0.85, Math.round((value - 0.15) * 100) / 100))
 
+  const pismCard = (
+    <ExamCard
+      type="pism"
+      title="PISM"
+      description="Programa de Ingresso Seletivo Misto"
+      series={pismSeriesConfig}
+      currentSeries={pismSeries}
+      onSeriesChange={changePismSeries}
+      years={currentPismYears}
+      year={year}
+      setYear={setYear}
+      onStart={() => isPismAvailable && selectedExamForYear[year] && startExam(selectedExamForYear[year])}
+      available={isPismAvailable}
+      loading={pismLoading}
+      error={enemError}
+    />
+  )
+  const enemCard = (
+    <EnemCard catalog={enemCatalog} year={enemYear} setYear={changeEnemYear} discipline={enemDiscipline} setDiscipline={setEnemDiscipline} language={enemLanguage} setLanguage={setEnemLanguage} onStart={startEnemExam} loading={enemLoading} error={enemError} />
+  )
+  const featuredCards = { pism: pismCard, enem: enemCard }
+
+  if (screen === 'catalog') {
+    return (
+      <div className="app-shell">
+        <Header menuOpen={menuOpen} setMenuOpen={setMenuOpen} onHome={() => setScreen('home')} />
+        <main className="catalog-page">
+          <div className="catalog-head">
+            <button className="back-link" onClick={() => setScreen('home')}><ArrowLeft size={17} /> Voltar ao início</button>
+            <p className="eyebrow">Catálogo completo</p>
+            <h1>Todas as provas</h1>
+            <p className="catalog-subtitle">Escolha uma prova por categoria. Novas provas serão adicionadas em breve.</p>
+          </div>
+
+          <div className="catalog-filters">
+            <div className="catalog-search">
+              <Search size={17} />
+              <input
+                type="text"
+                value={catalogSearch}
+                onChange={(event) => setCatalogSearch(event.target.value)}
+                placeholder="Buscar prova por nome..."
+                aria-label="Buscar prova por nome"
+              />
+              {catalogSearch && <button className="catalog-search-clear" onClick={() => setCatalogSearch('')} aria-label="Limpar busca"><X size={15} /></button>}
+            </div>
+            <div className="catalog-chips">
+              <button className={`catalog-chip ${catalogCategory === 'todas' ? 'active' : ''}`} onClick={() => setCatalogCategory('todas')}>Todas</button>
+              {catalogCategories.map((category) => (
+                <button key={category.id} className={`catalog-chip ${catalogCategory === category.id ? 'active' : ''}`} onClick={() => setCatalogCategory(category.id)}>{category.title}</button>
+              ))}
+            </div>
+          </div>
+
+          {(() => {
+            const term = catalogSearch.trim().toLowerCase()
+            const matches = (exam) => !term || exam.name.toLowerCase().includes(term) || (exam.description || '').toLowerCase().includes(term)
+            const visibleCategories = catalogCategories
+              .filter((category) => catalogCategory === 'todas' || category.id === catalogCategory)
+              .map((category) => ({ ...category, exams: category.exams.filter(matches) }))
+              .filter((category) => category.exams.length > 0)
+
+            if (visibleCategories.length === 0) {
+              return <p className="catalog-empty">Nenhuma prova encontrada para o filtro selecionado.</p>
+            }
+
+            return visibleCategories.map((category) => {
+              const featured = category.exams.filter((exam) => featuredCards[exam.id])
+              const upcoming = category.exams.filter((exam) => !featuredCards[exam.id])
+              return (
+                <section className="catalog-category" key={category.id}>
+                  <div className="catalog-category-head">
+                    <h2>{category.title}</h2>
+                    <p>{category.description}</p>
+                  </div>
+                  {featured.length > 0 && (
+                    <div className="exam-cards">
+                      {featured.map((exam) => <React.Fragment key={exam.id}>{featuredCards[exam.id]}</React.Fragment>)}
+                    </div>
+                  )}
+                  {upcoming.length > 0 && (
+                    <div className="exam-cards trio">
+                      {upcoming.map((exam) => <UpcomingCard key={exam.id} exam={exam} />)}
+                    </div>
+                  )}
+                </section>
+              )
+            })
+          })()}
+        </main>
+        <footer><span className="brand"><span className="brand-mark">P</span> prova<span>certa</span></span><span>Feito para quem quer chegar mais longe.</span><span>© 2025 provacerta</span></footer>
+      </div>
+    )
+  }
+
   if (screen === 'result') {
     const percentage = Math.round((score / activeQuestions.length) * 100)
     return (
@@ -988,12 +532,6 @@ function App() {
               </div>
 
               <div className="support-stack" style={{ fontSize: `${supportScale}rem` }}>
-              {selectedExam === 'pism-2024-1' && !supabaseExamSlug && question.subject === 'Língua Portuguesa' && <><details className="sidebar-support"><summary><BookOpen size={16} /><span>Texto 1</span><ChevronDown size={15} /></summary><div>{text2024Day1One}</div></details><details className="sidebar-support"><summary><BookOpen size={16} /><span>Texto 2</span><ChevronDown size={15} /></summary><div><img className="support-image" src={text2024Day1TwoImage} alt="Post sobre a periferia acordar primeiro" /></div></details><details className="sidebar-support"><summary><BookOpen size={16} /><span>Texto 3</span><ChevronDown size={15} /></summary><div>{text2024Day1Three}</div></details><details className="sidebar-support"><summary><BookOpen size={16} /><span>Texto 4</span><ChevronDown size={15} /></summary><div>{text2024Day1Four}</div></details><details className="sidebar-support"><summary><BookOpen size={16} /><span>Texto 5</span><ChevronDown size={15} /></summary><div>{text2024Day1Five}</div></details><details className="sidebar-support"><summary><BookOpen size={16} /><span>Texto 6</span><ChevronDown size={15} /></summary><div>{text2024Day1Six}</div></details><details className="sidebar-support"><summary><BookOpen size={16} /><span>Texto 7</span><ChevronDown size={15} /></summary><div>{text2024Day1Seven}</div></details></>}
-              {selectedExam === 'pism-2024-1' && !supabaseExamSlug && question.subject === 'Geografia' && current === 5 && <details className="sidebar-support"><summary><BookOpen size={16} /><span>Figuras 1, 2 e 3</span><ChevronDown size={15} /></summary><div><figure className="support-figure"><img className="support-image" src={text2024Day1FigureOne} alt="Figura 1: massas de ar que atuam sobre a América do Sul no inverno" /><figcaption>Figura 1 — Massas de ar atuantes no inverno.</figcaption></figure><figure className="support-figure"><img className="support-image" src={text2024Day1FigureTwo} alt="Figura 2: massas de ar que atuam sobre a América do Sul no verão" /><figcaption>Figura 2 — Massas de ar atuantes no verão.</figcaption></figure><figure className="support-figure"><img className="support-image" src={text2024Day1FigureThree} alt="Figura 3: precipitação acumulada no Brasil nos últimos 15 dias" /><figcaption>Figura 3 — Fonte: INMET, 2024.</figcaption></figure></div></details>}
-              {selectedExam === 'pism-2024-1' && !supabaseExamSlug && question.subject === 'Geografia' && current === 7 && <details className="sidebar-support"><summary><BookOpen size={16} /><span>Texto de apoio</span><ChevronDown size={15} /></summary><div>{text2024Day1Eight}</div></details>}
-              {selectedExam === 'pism-2024-1' && !supabaseExamSlug && question.subject === 'Geografia' && current === 8 && <details className="sidebar-support"><summary><BookOpen size={16} /><span>Imagem de apoio</span><ChevronDown size={15} /></summary><div><img className="support-image" src={text2024Day1QuestionNineImage} alt="Mapa de altitude do Quadrilátero Aquífero-Ferrífero, em Minas Gerais" /></div></details>}
-              {selectedExam === 'pism-2024-1' && !supabaseExamSlug && question.subject === 'Geografia' && current === 9 && <details className="sidebar-support"><summary><BookOpen size={16} /><span>Imagem de apoio</span><ChevronDown size={15} /></summary><div><img className="support-image" src={text2024Day1QuestionTenImage} alt="Mapa com a proposta de trajeto da Ferrovia Transoceânica entre os oceanos Atlântico e Pacífico" /></div></details>}
-              {selectedExam === 'pism-2024-2' && !supabaseExamSlug && question.subject === 'Literaturas' && <><details className="sidebar-support"><summary><BookOpen size={16} /><span>Texto 1</span><ChevronDown size={15} /></summary><div>{pism2024Day2Texts[0]}</div></details><details className="sidebar-support"><summary><BookOpen size={16} /><span>Texto 2</span><ChevronDown size={15} /></summary><div>{pism2024Day2Texts[1]}</div></details><details className="sidebar-support"><summary><BookOpen size={16} /><span>Texto 3</span><ChevronDown size={15} /></summary><div>{pism2024Day2Texts[2]}</div></details><details className="sidebar-support"><summary><BookOpen size={16} /><span>Texto 4</span><ChevronDown size={15} /></summary><div>{pism2024Day2Texts[3]}</div></details><details className="sidebar-support"><summary><BookOpen size={16} /><span>Texto 5</span><ChevronDown size={15} /></summary><div>{pism2024Day2Texts[4]}</div></details></>}
               {supabaseExamSlug && (question.support || question.supportImage) && <details className="sidebar-support" open><summary><BookOpen size={16} /><span>Texto ou imagem de apoio</span><ChevronDown size={15} /></summary><div>{question.supportImage && <img className="support-image" src={question.supportImage} alt={`Imagem de apoio da questão ${current + 1}`} />}{question.support && <span>{question.support}</span>}</div></details>}
               {selectedExam === 'enem-api' && <details className="sidebar-support" open><summary><BookOpen size={16} /><span>Texto ou imagem de apoio</span><ChevronDown size={15} /></summary><div>{question.supportImage && <img className="support-image" src={question.supportImage} alt={`Imagem de apoio da questão ${current + 1}`} />}{question.support && <span>{question.support}</span>}</div></details>}
               {selectedExam === 'enem-2023-1-ingles' && <details className="sidebar-support" open><summary><BookOpen size={16} /><span>Texto ou imagem de apoio</span><ChevronDown size={15} /></summary><div>{question.supportImage ? <img className="support-image" src={question.supportImage} alt={`Imagem de apoio da questão ${current + 1}`} /> : <span>{current === 9 ? `${enem2023SpanishSupport[9]}\n\n${question.support}` : question.support || enem2023SpanishSupport[current]}</span>}</div></details>}
@@ -1038,7 +576,7 @@ function App() {
             <div className="pill"><span className="pulse-dot" /> Seu próximo passo começa aqui</div>
             <h1>Estude melhor.<br /><em>Conquiste mais.</em></h1>
             <p>Simulados de provas importantes, feitos para você praticar, acompanhar seu progresso e chegar mais preparado.</p>
-            <button className="button primary hero-button" onClick={() => document.getElementById('provas').scrollIntoView({ behavior: 'smooth' })}>Explorar provas <ArrowRight size={18} /></button>
+            <button className="button primary hero-button" onClick={() => setScreen('catalog')}>Explorar provas <ArrowRight size={18} /></button>
             <div className="hero-proof"><div className="avatars"><span>J</span><span>M</span><span>A</span><span>+</span></div><span>Junte-se a quem está estudando hoje</span></div>
           </div>
           <div className="hero-visual">
@@ -1050,22 +588,10 @@ function App() {
         </section>
         <section className="trust-row"><div><BookOpen size={18} /><span>Conteúdo selecionado<br /><b>por especialistas</b></span></div><div><GraduationCap size={20} /><span>Prepare-se para<br /><b>o seu futuro</b></span></div><div><Sparkles size={18} /><span>Estude no seu<br /><b>próprio ritmo</b></span></div></section>
         <section className="exams-section" id="provas">
-          <div className="section-heading"><div><p className="eyebrow">Escolha seu desafio</p><h2>Provas para praticar</h2></div><div className="view-all"><LayoutGrid size={17} /> Todas as provas</div></div>
+          <div className="section-heading"><div><p className="eyebrow">Escolha seu desafio</p><h2>Provas em destaque</h2></div><button className="view-all" onClick={() => setScreen('catalog')}><LayoutGrid size={17} /> Todas as provas</button></div>
           <div className="exam-cards">
-            <ExamCard
-              type="pism"
-              title="PISM"
-              description="Programa de Ingresso Seletivo Misto"
-              series={pismSeriesConfig}
-              currentSeries={pismSeries}
-              onSeriesChange={changePismSeries}
-              years={currentPismYears}
-              year={year}
-              setYear={setYear}
-              onStart={() => isPismAvailable && selectedExamForYear[year] && startExam(selectedExamForYear[year])}
-              available={isPismAvailable}
-            />
-            <EnemCard catalog={enemCatalog} year={enemYear} setYear={changeEnemYear} discipline={enemDiscipline} setDiscipline={setEnemDiscipline} language={enemLanguage} setLanguage={setEnemLanguage} onStart={startEnemExam} loading={enemLoading} error={enemError} />
+            {pismCard}
+            {enemCard}
           </div>
         </section>
         <section className="bottom-quote"><span className="quote-mark">“</span><p>Grandes resultados começam<br />com pequenas escolhas diárias.</p><span className="quote-line" /></section>
@@ -1100,7 +626,7 @@ function EnemCard({ catalog, year, setYear, discipline, setDiscipline, language,
   )
 }
 
-function ExamCard({ type, title, description, series, currentSeries, onSeriesChange, years, year, setYear, onStart, available }) {
+function ExamCard({ type, title, description, series, currentSeries, onSeriesChange, years, year, setYear, onStart, available, loading, error }) {
   return (
     <article className={`exam-card ${type}`}>
       <div className="card-art">
@@ -1143,9 +669,44 @@ function ExamCard({ type, title, description, series, currentSeries, onSeriesCha
             </span>
           </label>
         </div>
-        <button className={`button ${available ? 'primary' : 'disabled'} full`} onClick={onStart} disabled={!available}>
-          {available ? 'Começar prova' : 'Em breve'} {available && <ArrowRight size={17} />}
+        {error && <p className="api-error" role="alert">{error}</p>}
+        <button className={`button ${available && !loading ? 'primary' : 'disabled'} full`} onClick={onStart} disabled={!available || loading}>
+          {loading ? 'Carregando questões…' : available ? 'Começar prova' : 'Em breve'} {available && !loading && <ArrowRight size={17} />}
         </button>
+      </div>
+    </article>
+  )
+}
+
+function UpcomingCard({ exam }) {
+  return (
+    <article className={`exam-card upcoming color-${exam.color}`}>
+      <div className="card-art">
+        <span className="art-kicker">{exam.org}</span>
+        <strong>{exam.short}</strong>
+        <span className="art-shape">{exam.short}</span>
+        <div className="art-dots" />
+      </div>
+      <div className="exam-card-body">
+        <div className="card-title-row">
+          <div>
+            <h3>{exam.name}</h3>
+            <p>{exam.description}</p>
+          </div>
+          <span className="status">Em breve</span>
+        </div>
+        <div className="pism-controls">
+          <label>
+            Ano da prova
+            <span className="select-wrap">
+              <select disabled>
+                <option value="">Em breve</option>
+              </select>
+              <ChevronDown size={16} />
+            </span>
+          </label>
+        </div>
+        <button className="button disabled full" disabled>Em breve</button>
       </div>
     </article>
   )

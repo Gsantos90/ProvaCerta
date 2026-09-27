@@ -268,20 +268,27 @@ npm run build
 
 É o ponto principal da aplicação. Esse arquivo contém:
 
-- os dados das provas de 2025;
-- a importação das provas de 2024;
+- o carregamento das provas do PISM a partir do Supabase;
+- as questões hardcoded do ENEM 2023 (inglês e espanhol), que não estão no banco;
 - a seleção dinâmica da prova;
 - o estado da questão atual;
 - as respostas do estudante;
 - a tela de resultado;
 - o modo de revisão;
-- os textos de apoio;
-- a renderização das imagens;
+- os controles de acessibilidade (zoom e leitura em áudio);
+- a renderização dos textos e imagens de apoio;
 - a normalização de alguns textos extraídos de PDF.
+
+As questões e os textos de apoio das provas do PISM não são mais embutidos no
+código: eles vêm do Supabase. Se o banco não estiver configurado ou não tiver
+a prova cadastrada, o cartão do PISM exibe uma mensagem de erro.
 
 #### `src/2024-1-questions.json` e `src/2024-2-questions.json`
 
 Contêm as questões objetivas, alternativas e gabaritos das provas de 2024.
+Servem como **fonte de dados para gerar o seed do banco** por meio de
+`scripts/generate-pism-seed.mjs`. A aplicação **não** importa mais esses
+arquivos em tempo de execução — as provas do PISM são carregadas do Supabase.
 Cada questão segue uma estrutura semelhante a:
 
 ```json
