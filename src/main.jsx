@@ -1,7 +1,7 @@
 import React, { useEffect, useMemo, useState } from 'react'
 import { createRoot } from 'react-dom/client'
 import {
-  ArrowLeft, ArrowRight, Award, BookOpen, Check, ChevronDown, Clock3,
+  ArrowLeft, ArrowRight, Award, BookOpen, Check, ChevronDown, ChevronUp, Clock3,
   GraduationCap, LayoutGrid, Menu, RotateCcw, Sparkles, Target, X,
   ZoomIn, ZoomOut, Volume2, Square, Search,
 } from 'lucide-react'
@@ -71,7 +71,7 @@ const enemSubjectLabels = {
 const catalogCategories = [
   {
     id: 'vestibulares',
-    title: 'Vestibulares e ENEM',
+    title: 'Provas em destaques',
     description: 'Provas de acesso ao ensino superior.',
     exams: [
       { id: 'pism', name: 'PISM', org: 'UFJF', description: 'Programa de Ingresso Seletivo Misto', available: true },
@@ -92,12 +92,13 @@ const catalogCategories = [
     id: 'concursos',
     title: 'Concursos',
     description: 'Provas de concursos públicos.',
+    kind: 'concurso',
     exams: [
-      { id: 'pmrj', name: 'PMERJ', org: 'Segurança', short: 'PMERJ', description: 'Polícia Militar do Estado do Rio de Janeiro', available: false, color: 'navy' },
-      { id: 'bb', name: 'Banco do Brasil', org: 'Bancário', short: 'BB', description: 'Concurso do Banco do Brasil', available: false, color: 'gold' },
-      { id: 'caixa', name: 'Caixa Econômica', org: 'Bancário', short: 'CAIXA', description: 'Concurso da Caixa Econômica Federal', available: false, color: 'sky' },
-      { id: 'pf', name: 'Polícia Federal', org: 'Segurança', short: 'PF', description: 'Concurso da Polícia Federal', available: false, color: 'slate' },
-      { id: 'correios', name: 'Correios', org: 'Serviços', short: 'CORREIOS', description: 'Concurso dos Correios', available: false, color: 'amber' },
+      { id: 'pmrj', name: 'PMERJ', org: 'Segurança', short: 'PMERJ', description: 'Polícia Militar do Estado do Rio de Janeiro', available: false, color: 'navy', roles: ['Soldado', 'Oficial'] },
+      { id: 'bb', name: 'Banco do Brasil', org: 'Bancário', short: 'BB', description: 'Concurso do Banco do Brasil', available: false, color: 'gold', roles: ['Escriturário - Agente Comercial', 'Escriturário - Agente de Tecnologia'] },
+      { id: 'caixa', name: 'Caixa Econômica', org: 'Bancário', short: 'CAIXA', description: 'Concurso da Caixa Econômica Federal', available: false, color: 'sky', roles: ['Técnico Bancário', 'Técnico Bancário - TI'] },
+      { id: 'pf', name: 'Polícia Federal', org: 'Segurança', short: 'PF', description: 'Concurso da Polícia Federal', available: false, color: 'slate', roles: ['Agente', 'Escrivão', 'Delegado', 'Perito Criminal'] },
+      { id: 'correios', name: 'Correios', org: 'Serviços', short: 'CORREIOS', description: 'Concurso dos Correios', available: false, color: 'amber', roles: ['Carteiro', 'Agente dos Correios - Atendente', 'Analista de Correios'] },
     ],
   },
 ]
@@ -152,6 +153,19 @@ const pismSeriesConfig = {
   },
 }
 
+// Cargos e provas do concurso do Banco do Brasil.
+// Cada ano aponta para o slug da prova cadastrada no Supabase (quando disponível).
+const bbRolesConfig = {
+  'Escriturário - Agente Comercial': {
+    label: 'Escriturário - Agente Comercial',
+    years: [{ value: '2022-A', slug: 'bb-2022-a-comercial' }],
+  },
+  'Escriturário - Agente de Tecnologia': {
+    label: 'Escriturário - Agente de Tecnologia',
+    years: [],
+  },
+}
+
 function App() {
   const [screen, setScreen] = useState('home')
   const [selectedExam, setSelectedExam] = useState(null)
@@ -162,6 +176,10 @@ function App() {
   const [catalogCategory, setCatalogCategory] = useState('todas')
   const [pismSeries, setPismSeries] = useState('1 ano')
   const [year, setYear] = useState('2025-1')
+  const [bbRole, setBbRole] = useState('Escriturário - Agente Comercial')
+  const [bbYear, setBbYear] = useState('2022-A')
+  const [bbLoading, setBbLoading] = useState(false)
+  const [bbError, setBbError] = useState('')
   const [enemCatalog, setEnemCatalog] = useState([])
   const [enemYear, setEnemYear] = useState('2023')
   const [enemDiscipline, setEnemDiscipline] = useState('linguagens')
@@ -173,12 +191,16 @@ function App() {
   const [current, setCurrent] = useState(0)
   const [answers, setAnswers] = useState({})
   const [menuOpen, setMenuOpen] = useState(false)
+  const [gridExpanded, setGridExpanded] = useState(false)
   const [pismLoading, setPismLoading] = useState(false)
   const [supabaseExamSlug, setSupabaseExamSlug] = useState(null)
   useEffect(() => {
     if (typeof window !== 'undefined' && 'speechSynthesis' in window) window.speechSynthesis.cancel()
     setSpeakingId(null)
   }, [current, screen, selectedExam])
+  useEffect(() => {
+    setGridExpanded(false)
+  }, [selectedExam, screen])
   useEffect(() => {
     if (!lightboxImage) return undefined
     const onKey = (event) => { if (event.key === 'Escape') setLightboxImage(null) }
@@ -212,12 +234,41 @@ function App() {
     'enem-2023-1-ingles': [...enem2023EnglishQuestions, ...enem2023SpanishQuestions],
   }
   const activeQuestions = selectedExam === 'enem-api' || supabaseExamSlug ? enemQuestions : questionSets[selectedExam] || []
-  const examLabel = selectedExam === 'pism-1' ? '2025-1' : selectedExam === 'pism-2' ? '2025-2' : selectedExam === 'pism-2024-1' ? '2024-1' : selectedExam === 'pism-2024-2' ? '2024-2' : selectedExam === 'pism-2023-1' ? '2023-1' : selectedExam === 'pism-2023-2' ? '2023-2' : selectedExam === 'enem-api' ? `ENEM ${enemYear}` : '2023-1_Cad_Amarelo - LINGUAGENS, CÓDIGOS E SUAS TECNOLOGIAS'
-  const examDay = selectedExam === 'enem-api' ? 'Área selecionada' : examLabel.endsWith('-1') ? 'Dia 1' : 'Dia 2'
+  const examLabel = selectedExam === 'pism-1' ? '2025-1' : selectedExam === 'pism-2' ? '2025-2' : selectedExam === 'pism-2024-1' ? '2024-1' : selectedExam === 'pism-2024-2' ? '2024-2' : selectedExam === 'pism-2023-1' ? '2023-1' : selectedExam === 'pism-2023-2' ? '2023-2' : selectedExam === 'enem-api' ? `ENEM ${enemYear}` : selectedExam === 'bb' ? `Banco do Brasil ${bbYear} · ${bbRole}` : '2023-1_Cad_Amarelo - LINGUAGENS, CÓDIGOS E SUAS TECNOLOGIAS'
+  const examDay = selectedExam === 'enem-api' ? 'Área selecionada' : selectedExam === 'bb' ? 'Prova objetiva' : examLabel.endsWith('-1') ? 'Dia 1' : 'Dia 2'
 
+  // Normaliza letras de gabarito/resposta para evitar falhas de comparação
+  // por espaços, quebras de linha ou diferença de maiúsculas/minúsculas.
+  const normalizeLetter = (value) => (typeof value === 'string' ? value.trim().toUpperCase() : value)
   const score = useMemo(() => activeQuestions.reduce((total, question, index) => (
-    total + (answers[index] === question.answer ? 1 : 0)
+    total + (normalizeLetter(answers[index]) === normalizeLetter(question.answer) ? 1 : 0)
   ), 0), [activeQuestions, answers])
+
+  // Carrega as questões de uma prova cadastrada no Supabase a partir do seu slug.
+  const loadSupabaseExam = async (supabaseSlug) => {
+    if (!supabase || !supabaseSlug) {
+      throw new Error('Esta prova exige conexão com o Supabase. Verifique a configuração do banco de dados.')
+    }
+    const { data: examRecord, error: examError } = await supabase.from('exams').select('id').eq('slug', supabaseSlug).maybeSingle()
+    if (examError) throw examError
+    if (!examRecord) {
+      throw new Error(`A prova "${supabaseSlug}" não foi encontrada no banco de dados.`)
+    }
+    const { data: storedQuestions, error: questionsError } = await supabase.from('questions').select('*').eq('exam_id', examRecord.id).order('number')
+    if (questionsError) throw questionsError
+    if (!storedQuestions?.length) {
+      throw new Error(`A prova "${supabaseSlug}" não possui questões cadastradas no banco de dados.`)
+    }
+    return storedQuestions.map((question) => ({
+      subject: question.subject,
+      text: question.text,
+      support: question.support,
+      supportImage: question.support_image,
+      options: question.options,
+      answer: question.answer,
+      explanation: question.explanation,
+    }))
+  }
 
   const startExam = async (exam) => {
     if (exam === 'enem') return
@@ -225,27 +276,11 @@ function App() {
     setEnemError('')
     try {
       const supabaseSlug = { 'pism-1': 'pism-2025-1', 'pism-2': 'pism-2025-2', 'pism-2024-1': 'pism-2024-1', 'pism-2024-2': 'pism-2024-2', 'pism-2023-1': 'pism-2023-1', 'pism-2023-2': 'pism-2023-2' }[exam]
-      if (!supabase || !supabaseSlug) {
+      if (!supabaseSlug) {
         throw new Error('As provas do PISM exigem conexão com o Supabase. Verifique a configuração do banco de dados.')
       }
-      const { data: examRecord, error: examError } = await supabase.from('exams').select('id').eq('slug', supabaseSlug).maybeSingle()
-      if (examError) throw examError
-      if (!examRecord) {
-        throw new Error(`A prova "${supabaseSlug}" não foi encontrada no banco de dados.`)
-      }
-      const { data: storedQuestions, error: questionsError } = await supabase.from('questions').select('*').eq('exam_id', examRecord.id).order('number')
-      if (questionsError) throw questionsError
-      if (!storedQuestions?.length) {
-        throw new Error(`A prova "${supabaseSlug}" não possui questões cadastradas no banco de dados.`)
-      }
-      setEnemQuestions(storedQuestions.map((question) => ({
-        subject: question.subject,
-        text: question.text,
-        support: question.support,
-        supportImage: question.support_image,
-        options: question.options,
-        answer: question.answer,
-      })))
+      const questions = await loadSupabaseExam(supabaseSlug)
+      setEnemQuestions(questions)
       setSupabaseExamSlug(supabaseSlug)
       setSelectedExam(exam)
       setCurrent(0)
@@ -258,6 +293,39 @@ function App() {
       setPismLoading(false)
     }
   }
+
+  const startBbExam = async () => {
+    setBbLoading(true)
+    setBbError('')
+    try {
+      const selectedYear = (bbRolesConfig[bbRole]?.years || []).find((item) => item.value === bbYear)
+      if (!selectedYear?.slug) {
+        throw new Error('Esta prova ainda não está disponível para o cargo selecionado.')
+      }
+      const questions = await loadSupabaseExam(selectedYear.slug)
+      setEnemQuestions(questions)
+      setSupabaseExamSlug(selectedYear.slug)
+      setSelectedExam('bb')
+      setCurrent(0)
+      setAnswers({})
+      setScreen('exam')
+      setMenuOpen(false)
+    } catch (error) {
+      setBbError(`Não foi possível carregar as questões do Supabase: ${error.message}`)
+    } finally {
+      setBbLoading(false)
+    }
+  }
+
+  const changeBbRole = (value) => {
+    setBbRole(value)
+    setBbError('')
+    const roleYears = bbRolesConfig[value]?.years || []
+    setBbYear(roleYears[0]?.value || '')
+  }
+
+  const currentBbYears = bbRolesConfig[bbRole]?.years || []
+  const isBbAvailable = currentBbYears.length > 0
 
   const loadEnemQuestions = async () => {
     setEnemError('')
@@ -384,7 +452,21 @@ function App() {
   const enemCard = (
     <EnemCard catalog={enemCatalog} year={enemYear} setYear={changeEnemYear} discipline={enemDiscipline} setDiscipline={setEnemDiscipline} language={enemLanguage} setLanguage={setEnemLanguage} onStart={startEnemExam} loading={enemLoading} error={enemError} />
   )
-  const featuredCards = { pism: pismCard, enem: enemCard }
+  const bbCard = (
+    <BbCard
+      roles={bbRolesConfig}
+      role={bbRole}
+      onRoleChange={changeBbRole}
+      years={currentBbYears}
+      year={bbYear}
+      setYear={setBbYear}
+      onStart={startBbExam}
+      available={isBbAvailable}
+      loading={bbLoading}
+      error={bbError}
+    />
+  )
+  const featuredCards = { pism: pismCard, enem: enemCard, bb: bbCard }
 
   if (screen === 'catalog') {
     return (
@@ -433,21 +515,35 @@ function App() {
             return visibleCategories.map((category) => {
               const featured = category.exams.filter((exam) => featuredCards[exam.id])
               const upcoming = category.exams.filter((exam) => !featuredCards[exam.id])
+              // Nos concursos, os cards funcionais usam o mesmo grid compacto (trio)
+              // dos demais para manter todos com o mesmo tamanho.
+              const isConcurso = category.kind === 'concurso'
               return (
                 <section className="catalog-category" key={category.id}>
                   <div className="catalog-category-head">
                     <h2>{category.title}</h2>
                     <p>{category.description}</p>
                   </div>
-                  {featured.length > 0 && (
-                    <div className="exam-cards">
-                      {featured.map((exam) => <React.Fragment key={exam.id}>{featuredCards[exam.id]}</React.Fragment>)}
-                    </div>
-                  )}
-                  {upcoming.length > 0 && (
-                    <div className="exam-cards trio">
-                      {upcoming.map((exam) => <UpcomingCard key={exam.id} exam={exam} />)}
-                    </div>
+                  {isConcurso ? (
+                    (featured.length > 0 || upcoming.length > 0) && (
+                      <div className="exam-cards trio">
+                        {featured.map((exam) => <React.Fragment key={exam.id}>{featuredCards[exam.id]}</React.Fragment>)}
+                        {upcoming.map((exam) => <UpcomingCard key={exam.id} exam={exam} />)}
+                      </div>
+                    )
+                  ) : (
+                    <>
+                      {featured.length > 0 && (
+                        <div className="exam-cards">
+                          {featured.map((exam) => <React.Fragment key={exam.id}>{featuredCards[exam.id]}</React.Fragment>)}
+                        </div>
+                      )}
+                      {upcoming.length > 0 && (
+                        <div className="exam-cards trio">
+                          {upcoming.map((exam) => <UpcomingCard key={exam.id} exam={exam} />)}
+                        </div>
+                      )}
+                    </>
                   )}
                 </section>
               )
@@ -514,18 +610,33 @@ function App() {
         <main className="exam-page">
           <div className="exam-topline">
             <button className="back-link" onClick={() => setScreen(isReview ? 'result' : 'home')}><ArrowLeft size={17} /> {isReview ? 'Voltar ao resultado' : 'Sair da prova'}</button>
-            <div className="exam-name"><span className="mini-logo">P</span><span>provacerta · {selectedExam === 'enem-api' ? examLabel : `PISM ${examLabel}`}</span><b>·</b><span>{isReview ? 'Revisão' : `Módulo I · ${examDay}`}</span></div>
+            <div className="exam-name"><span className="mini-logo">P</span><span>provacerta · {selectedExam === 'enem-api' || selectedExam === 'bb' ? examLabel : `PISM ${examLabel}`}</span><b>·</b><span>{isReview ? 'Revisão' : selectedExam === 'bb' ? examDay : `Módulo I · ${examDay}`}</span></div>
             <span className="question-count">{current + 1} <i>/</i> {activeQuestions.length}</span>
           </div>
           <div className="progress-track"><span style={{ width: `${((current + 1) / activeQuestions.length) * 100}%` }} /></div>
           <div className="exam-layout">
             <aside className="question-nav">
               <div className="aside-heading"><span>{isReview ? 'Revisão' : 'Questões'}</span><small>{isReview ? `${score}/${activeQuestions.length}` : `${Object.keys(answers).length}/${activeQuestions.length}`}</small></div>
-              <div className="question-grid">
-                {activeQuestions.map((item, index) => (
-                  <button key={item.text} className={`${index === current ? 'active' : ''} ${answers[index] ? 'answered' : ''}`} onClick={() => setCurrent(index)}>{index + 1}</button>
-                ))}
-              </div>
+              {(() => {
+                const gridThreshold = 40
+                const isCollapsible = activeQuestions.length > gridThreshold
+                // Mantém a questão atual visível mesmo com a grade recolhida.
+                const visibleCount = isCollapsible && !gridExpanded ? Math.max(gridThreshold, current + 1) : activeQuestions.length
+                return (
+                  <>
+                    <div className="question-grid">
+                      {activeQuestions.slice(0, visibleCount).map((item, index) => (
+                        <button key={item.text} className={`${index === current ? 'active' : ''} ${answers[index] ? 'answered' : ''}`} onClick={() => setCurrent(index)}>{index + 1}</button>
+                      ))}
+                    </div>
+                    {isCollapsible && (
+                      <button type="button" className="grid-toggle" onClick={() => setGridExpanded((value) => !value)} aria-expanded={gridExpanded}>
+                        {gridExpanded ? <><ChevronUp size={15} /> Ver menos questões</> : <><ChevronDown size={15} /> Ver todas as {activeQuestions.length} questões</>}
+                      </button>
+                    )}
+                  </>
+                )
+              })()}
               <div className="legend"><span><i className="dot filled" /> Respondida</span><span><i className="dot" /> Em aberto</span></div>
               <div className="exam-tip"><Sparkles size={18} /><p><b>Dica de foco</b><br />Leia com calma e marque a alternativa que melhor responde ao enunciado.</p></div>
 
@@ -558,11 +669,17 @@ function App() {
               <div className="options">
                 {question.options.map((option, index) => {
                   const letter = letters[index]
-                  const isCorrect = letter === question.answer
-                  const isSelected = selected === letter
+                  const isCorrect = letter === normalizeLetter(question.answer)
+                  const isSelected = normalizeLetter(selected) === letter
                   return <button key={letter} onClick={() => !isReview && answer(letter)} className={`option ${isReview && isCorrect ? 'correct' : ''} ${isReview && isSelected && !isCorrect ? 'incorrect' : ''} ${!isReview && isSelected ? 'selected' : ''}`}><span className="option-letter">{letter}</span><span>{option}</span>{isReview && isCorrect && <span className="answer-label"><Check size={15} /> Correta</span>}{isReview && isSelected && !isCorrect && <span className="answer-label wrong"><X size={15} /> Sua resposta</span>}{!isReview && isSelected && <Check size={18} className="option-check" />}</button>
                 })}
               </div>
+              {isReview && normalizeLetter(selected) !== normalizeLetter(question.answer) && question.explanation && (
+                <div className="answer-explanation">
+                  <div className="answer-explanation-head"><Sparkles size={15} /> <b>Como chegar na resposta correta ({question.answer})</b></div>
+                  <p>{question.explanation}</p>
+                </div>
+              )}
               <div className="question-footer">
                 <div className="question-footer-left">
                   {isReview && <button className="button secondary small" onClick={() => setScreen('result')}>Sair da revisão</button>}
@@ -698,6 +815,58 @@ function ExamCard({ type, title, description, series, currentSeries, onSeriesCha
   )
 }
 
+function BbCard({ roles, role, onRoleChange, years, year, setYear, onStart, available, loading, error }) {
+  return (
+    <article className="exam-card color-gold">
+      <div className="card-art">
+        <span className="art-kicker">BANCÁRIO</span>
+        <strong>BB</strong>
+        <span className="art-shape">BB</span>
+        <div className="art-dots" />
+      </div>
+      <div className="exam-card-body">
+        <div className="card-title-row">
+          <div>
+            <h3>Banco do Brasil</h3>
+            <p>Concurso do Banco do Brasil</p>
+          </div>
+          <span className={`status ${available ? 'ready' : ''}`}>{available ? 'Disponível' : 'Em breve'}</span>
+        </div>
+        <div className="pism-controls">
+          <label>
+            Cargo
+            <span className="select-wrap">
+              <select value={role} onChange={(event) => onRoleChange(event.target.value)}>
+                {Object.entries(roles || {}).map(([key, item]) => (
+                  <option key={key} value={key}>{item.label}</option>
+                ))}
+              </select>
+              <ChevronDown size={16} />
+            </span>
+          </label>
+          <label>
+            Ano da prova
+            <span className="select-wrap">
+              <select value={year} onChange={(event) => setYear(event.target.value)} disabled={!available || years.length === 0}>
+                {years.length > 0 ? (
+                  years.map((item) => <option key={item.value} value={item.value}>{item.value}</option>)
+                ) : (
+                  <option value="">Nenhuma prova disponível</option>
+                )}
+              </select>
+              <ChevronDown size={16} />
+            </span>
+          </label>
+        </div>
+        {error && <p className="api-error" role="alert">{error}</p>}
+        <button className={`button ${available && !loading ? 'primary' : 'disabled'} full`} onClick={onStart} disabled={!available || loading}>
+          {loading ? 'Carregando questões…' : available ? 'Começar prova' : 'Em breve'} {available && !loading && <ArrowRight size={17} />}
+        </button>
+      </div>
+    </article>
+  )
+}
+
 function UpcomingCard({ exam }) {
   return (
     <article className={`exam-card upcoming color-${exam.color}`}>
@@ -716,6 +885,17 @@ function UpcomingCard({ exam }) {
           <span className="status">Em breve</span>
         </div>
         <div className="pism-controls">
+          {exam.roles?.length > 0 && (
+            <label>
+              Cargo
+              <span className="select-wrap">
+                <select disabled>
+                  {exam.roles.map((role) => <option key={role} value={role}>{role}</option>)}
+                </select>
+                <ChevronDown size={16} />
+              </span>
+            </label>
+          )}
           <label>
             Ano da prova
             <span className="select-wrap">
