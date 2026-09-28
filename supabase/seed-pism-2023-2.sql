@@ -1,7 +1,8 @@
 -- Seed: PISM 2023-2 (Modulo 1 - 2o Dia)
--- Fonte: Caderno de Provas PISM - Modulo I - 2o Dia, prova realizada em 20/12/2023 (trienio 2023-2025)
--- Gabarito objetivo: Literaturas 1-5 A,D,B,E,B | Biologia 6-10 A,B,B,C,E | Fisica 11-15 B,B,E,A,D | Historia 16-20 D,B,B,A,E
--- Observacao: as questoes 11, 15 e 17 dependem de figuras. O campo support_image referencia
+-- Fonte: Caderno de Provas PISM 2023 - Modulo I - 2o Dia, prova realizada em 04/12/2022 (trienio 2023-2025)
+-- Gabarito objetivo OFICIAL (COPESE/UFJF): Literaturas 1-5 B,E,A,C,D | Biologia 6-10 A,B,A,E,A | Fisica 11-15 E,D,D,B,C | Historia 16-20 A,C,B,E,ANULADA
+-- Observacao 1: a questao 20 foi ANULADA pela banca; mantida no banco com uma alternativa para nao quebrar o app.
+-- Observacao 2: as questoes 11, 15 e 17 dependem de figuras. O campo support_image referencia
 -- arquivos que ainda precisam ser adicionados em /public (nomes sugeridos abaixo).
 
 insert into public.exams (slug, title, source, year)
@@ -39,7 +40,7 @@ e a tranquila resposta do senhor empreiteiro:
 Fonte: CRAVEIRINHA, José. Antologia Poética. Belo Horizonte: Editora da UFMG, 2010, p. 35.',
 '',
 '["A crítica à poluição gerada pelos motores a óleo.","A denúncia da gentrificação causada pelas grandes construções.","A descrição do processo de trabalho na construção civil.","O processo de apagamento e desumanização de trabalhadores negros.","A modernidade dos prédios como resultado da exploração negra."]'::jsonb,
-'D'
+'B'
 from public.exams where slug = 'pism-2023-2'
 on conflict (exam_id, number) do update set subject = excluded.subject, text = excluded.text, support = excluded.support, support_image = excluded.support_image, options = excluded.options, answer = excluded.answer;
 
@@ -84,7 +85,7 @@ E vão fazendo telhados.
 Fonte: ANDRADE, O. Poesias Reunidas. 5ª ed. Civilização Brasileira, 1978, p. 89.',
 '',
 '["A situação social e cultural do profissional de construção civil.","O preconceito linguístico ao desconsiderar a segunda parte do par milho-mio.","O desrespeito do empreiteiro face ao trabalho braçal do pedreiro.","A mobilização de recursos linguísticos típicos dos canteiros de obras.","O machismo presente na condição de trabalho de homens em edificações."]'::jsonb,
-'D'
+'E'
 from public.exams where slug = 'pism-2023-2'
 on conflict (exam_id, number) do update set subject = excluded.subject, text = excluded.text, support = excluded.support, support_image = excluded.support_image, options = excluded.options, answer = excluded.answer;
 
@@ -190,7 +191,7 @@ que a tua canção é minha.
 Fonte: SOUSA, Noémia. Sangue Negro. F. Mendonça & N. Saúte (org.). Ed. Associação dos escritores Moçambicanos. Moçambique: CIEDIMA, 1998, p. 74-75.',
 '',
 '["A Fraternidade entre os moçambicanos subalternizados.","A subjugação do homem negro, fruto de anos de escravidão.","A nostalgia de um passado mítico e idealizado.","A saudade de uma África pré-colonial, livre, mas melancólica.","A canção que evoca um passado idílico."]'::jsonb,
-'B'
+'C'
 from public.exams where slug = 'pism-2023-2'
 on conflict (exam_id, number) do update set subject = excluded.subject, text = excluded.text, support = excluded.support, support_image = excluded.support_image, options = excluded.options, answer = excluded.answer;
 
@@ -217,7 +218,7 @@ O Seu João veio buscar as folhas de batatas. Eu disse-lhe:
 Fonte: JESUS, Carolina Maria de. Quarto de despejo: diário de uma favelada. São Paulo: Ática, 2014.',
 '',
 '["O incipiente surgimento de uma solidariedade negra, como se lê em: \"Porque negra é a nossa vida. Negro é tudo que nos rodeia\".","A defesa da Negritude como autoafirmação da identidade negra, como se lê em: \"Porque negra é a nossa vida. Negro é tudo que nos rodeia\".","O racismo estrutural da sociedade brasileira, como se observa em \"A mãe ouvia e não repreendia. São as mães que instigam\".","A falta de uma conscientização da condição do negro na sociedade brasileira, como se compreende em \"Comeram e não aludiram a (sic) cor negra do feijão\".","As complexas relações entre classe e raça presentes em \"Não está ao alcance dos infelizes que estão no quarto de despejo\"."]'::jsonb,
-'B'
+'D'
 from public.exams where slug = 'pism-2023-2'
 on conflict (exam_id, number) do update set subject = excluded.subject, text = excluded.text, support = excluded.support, support_image = excluded.support_image, options = excluded.options, answer = excluded.answer;
 
@@ -240,8 +241,8 @@ select id, 7, 'Biologia',
 'No estudo da Biologia, utiliza-se o método científico, que inclui vários passos, dentre eles: a escolha do problema analisado, a formulação ou não de hipóteses, a observação, a descrição, o registro dos dados e a análise desses dados, que podem refutar ou confirmar a hipótese inicial, respondendo, assim, ao problema questionado. O método científico confere à Ciência um caráter',
 '',
 '',
-'["dinâmico, uma vez que está em constante testagem e reavaliação.","dinâmico, uma vez que informações veiculadas pela mídia e redes sociais são relevantes.","dinâmico, uma vez que qualquer pessoa leiga pode dar sua opinião.","fixo, uma vez que o problema não pode ser novamente questionado.","fixo, uma vez que somente cientistas podem fazer questionamentos."]'::jsonb,
-'A'
+'["dinâmico, uma vez que informações veiculadas pela mídia e redes sociais são relevantes.","dinâmico, uma vez que está em constante testagem e reavaliação.","dinâmico, uma vez que qualquer pessoa leiga pode dar sua opinião.","fixo, uma vez que o problema não pode ser novamente questionado.","fixo, uma vez que somente cientistas podem fazer questionamentos."]'::jsonb,
+'B'
 from public.exams where slug = 'pism-2023-2'
 on conflict (exam_id, number) do update set subject = excluded.subject, text = excluded.text, support = excluded.support, support_image = excluded.support_image, options = excluded.options, answer = excluded.answer;
 
@@ -250,8 +251,8 @@ select id, 8, 'Biologia',
 'Nas células ocorrem importantes atividades metabólicas, sendo o metabolismo o conjunto de reações químicas responsáveis pela manutenção da vida. Essas atividades são realizadas em estruturas ou organelas celulares. Considere as organelas e as funções principais: 1) lisossomos — a) secreção e empacotamento; 2) vacúolo — b) digestão intracelular; 3) complexo golgiense — c) inativação de substâncias tóxicas à célula; 4) peroxissomos — d) síntese e transporte de lipídios; 5) retículo endoplasmático — e) digestão intracelular e controle osmótico. Considerando as colunas acima, a organela',
 '',
 '',
-'["\"1\" tem como função a letra \"a\" e ocorre nas células animais.","\"2\" tem como função a letra \"e\" e ocorre em células vegetais.","\"4\" tem como função a letra \"c\" e ocorre somente nas células animais.","\"3\" tem como função a letra \"d\" e ocorre em células vegetais e animais.","\"5\" tem como função a letra \"b\" e ocorre em células animais e vegetais."]'::jsonb,
-'B'
+'["\"2\" tem como função a letra \"e\" e ocorre em células vegetais.","\"1\" tem como função a letra \"a\" e ocorre nas células animais.","\"4\" tem como função a letra \"c\" e ocorre somente nas células animais.","\"3\" tem como função a letra \"d\" e ocorre em células vegetais e animais.","\"5\" tem como função a letra \"b\" e ocorre em células animais e vegetais."]'::jsonb,
+'A'
 from public.exams where slug = 'pism-2023-2'
 on conflict (exam_id, number) do update set subject = excluded.subject, text = excluded.text, support = excluded.support, support_image = excluded.support_image, options = excluded.options, answer = excluded.answer;
 
@@ -260,8 +261,8 @@ select id, 9, 'Biologia',
 'O tecido nervoso apresenta as funções de recepção, análise e integração de estímulos internos e externos, desencadeando respostas adequadas. Apesar da complexidade de suas funções, o tecido nervoso é composto basicamente por dois tipos de células: os neurônios e os gliócitos. Em relação aos neurônios',
 '',
 '',
-'["podem apresentar axônios mielinizados, o que aumenta a velocidade de transmissão do impulso nervoso.","possuem axônios e dendritos que são regiões ramificadas que permitem a transmissão bidirecional do impulso nervoso.","possuem corpo celular onde se encontra o núcleo desta célula, não apresentando, no entanto, organelas citoplasmáticas.","seu meio intracelular em repouso possui alta concentração de íons de sódio, o que confere uma carga positiva em relação ao meio externo.","os gliócitos, além de protegerem e nutrirem os neurônios, também desempenham a função de interligá-los para a condução do impulso nervoso."]'::jsonb,
-'A'
+'["os gliócitos, além de protegerem e nutrirem os neurônios, também desempenham a função de interligá-los para a condução do impulso nervoso.","possuem axônios e dendritos que são regiões ramificadas que permitem a transmissão bidirecional do impulso nervoso.","possuem corpo celular onde se encontra o núcleo desta célula, não apresentando, no entanto, organelas citoplasmáticas.","seu meio intracelular em repouso possui alta concentração de íons de sódio, o que confere uma carga positiva em relação ao meio externo.","podem apresentar axônios mielinizados, o que aumenta a velocidade de transmissão do impulso nervoso."]'::jsonb,
+'E'
 from public.exams where slug = 'pism-2023-2'
 on conflict (exam_id, number) do update set subject = excluded.subject, text = excluded.text, support = excluded.support, support_image = excluded.support_image, options = excluded.options, answer = excluded.answer;
 
@@ -271,7 +272,7 @@ select id, 10, 'Biologia',
 '',
 '',
 '["atuam como catalisadores biológicos que aumentam a velocidade de reações químicas.","formam a celulose e constituem as fibras vegetais, que estimulam o peristaltismo intestinal.","formam o colesterol, usado na síntese dos hormônios sexuais.","não são afetadas por variações de temperatura e pH.","têm grande poder de dissolução dos sais minerais."]'::jsonb,
-'E'
+'A'
 from public.exams where slug = 'pism-2023-2'
 on conflict (exam_id, number) do update set subject = excluded.subject, text = excluded.text, support = excluded.support, support_image = excluded.support_image, options = excluded.options, answer = excluded.answer;
 
@@ -285,7 +286,7 @@ select id, 11, 'Física',
 'Gráfico: velocidade instantânea v (m/s) em função do tempo t (s). De 0 a 5,0 s a velocidade é constante em 30 m/s; de 5,0 s a 10 s a velocidade é constante em 40 m/s.',
 '/pism-2023-2-questao-11.png',
 '["150 m","200 m","300 m","350 m","400 m"]'::jsonb,
-'B'
+'E'
 from public.exams where slug = 'pism-2023-2'
 on conflict (exam_id, number) do update set subject = excluded.subject, text = excluded.text, support = excluded.support, support_image = excluded.support_image, options = excluded.options, answer = excluded.answer;
 
@@ -295,7 +296,7 @@ select id, 12, 'Física',
 '',
 '',
 '["328 m","336 m","352 m","384 m","448 m"]'::jsonb,
-'B'
+'D'
 from public.exams where slug = 'pism-2023-2'
 on conflict (exam_id, number) do update set subject = excluded.subject, text = excluded.text, support = excluded.support, support_image = excluded.support_image, options = excluded.options, answer = excluded.answer;
 
@@ -305,7 +306,7 @@ select id, 13, 'Física',
 '',
 '',
 '["30 s.","15 s.","12 s.","10 s.","6 s."]'::jsonb,
-'C'
+'D'
 from public.exams where slug = 'pism-2023-2'
 on conflict (exam_id, number) do update set subject = excluded.subject, text = excluded.text, support = excluded.support, support_image = excluded.support_image, options = excluded.options, answer = excluded.answer;
 
@@ -315,7 +316,7 @@ select id, 14, 'Física',
 '',
 '',
 '["5%.","50%.","67%.","75%.","100%."]'::jsonb,
-'A'
+'B'
 from public.exams where slug = 'pism-2023-2'
 on conflict (exam_id, number) do update set subject = excluded.subject, text = excluded.text, support = excluded.support, support_image = excluded.support_image, options = excluded.options, answer = excluded.answer;
 
@@ -325,7 +326,7 @@ select id, 15, 'Física',
 'Figura: sistema de polias (associação de polias móveis e fixa) usado para elevar um suporte com tijolos de massa total 120 kg; a força F é aplicada para baixo na corda.',
 '/pism-2023-2-questao-15.png',
 '["1200 N","600 N","400 N","300 N","200 N"]'::jsonb,
-'D'
+'C'
 from public.exams where slug = 'pism-2023-2'
 on conflict (exam_id, number) do update set subject = excluded.subject, text = excluded.text, support = excluded.support, support_image = excluded.support_image, options = excluded.options, answer = excluded.answer;
 
@@ -340,7 +341,7 @@ select id, 16, 'História',
 Fonte: A. M. ALI HAKEM. A civilização de Napata e Méroe. In: MOKHTAR, G. (coord.). História Geral da África. v. 2: A África Antiga. São Paulo - Paris: Ática – UNESCO, 1983.',
 '',
 '["Promover a distribuição do poder político, religioso e econômico nas mãos de mulheres guerreiras.","Legitimar o poder real por meio do exercício de sua autoridade religiosa concedida diretamente por deuses.","Garantir o funcionamento da realeza na função de conselheira do rei por meio do sistema de adoção.","Liderar o exército constituído por mulheres na luta contra invasores do território ocupado pelo Império Kush.","Convencer as mulheres da sociedade a serem insubmissas aos seus esposos, contestando o patriarcalismo."]'::jsonb,
-'D'
+'C'
 from public.exams where slug = 'pism-2023-2'
 on conflict (exam_id, number) do update set subject = excluded.subject, text = excluded.text, support = excluded.support, support_image = excluded.support_image, options = excluded.options, answer = excluded.answer;
 
@@ -376,13 +377,14 @@ Fonte: https://agenciabrasil.ebc.com.br/cultura/noticia/2014-12/tupi-deu-importa
 from public.exams where slug = 'pism-2023-2'
 on conflict (exam_id, number) do update set subject = excluded.subject, text = excluded.text, support = excluded.support, support_image = excluded.support_image, options = excluded.options, answer = excluded.answer;
 
-insert into public.questions (exam_id, number, subject, text, support, support_image, options, answer)
+insert into public.questions (exam_id, number, subject, text, support, support_image, options, answer, explanation)
 select id, 20, 'História',
-'Assinale a frase que sintetiza o texto:',
+'(QUESTÃO ANULADA pela banca COPESE/UFJF) Assinale a frase que sintetiza o texto:',
 '"Com que palavra denominaríamos essa grande evolução que levou a mais ciência, mais conhecimentos, mais domínio do mundo natural, maior amor pela beleza (...). A herança da civilização greco-romana, o clima temperado, as terras férteis (...) favoreceram os homens que se tinham concentrado na Europa Ocidental. Mas também não faltaram as dificuldades: umas naturais, como a peste negra, outras provocadas pelo jogo das competições políticas, econômicas e religiosas (...) desafios que foram vencidos com coragem e com gênio. A história do movimento a que me refiro é a história desses desafios e dessas respostas. A recuperação demográfica, os progressos técnicos, a aventura marítima, um novo conceito de beleza (...). Mas a mais elementar obrigação de lucidez conduz-nos a declarar que os séculos XV e XVI viram, de certo modo, um aumento do obscurantismo (...) tempos de ódio, de lutas terríveis, de processos insensatos, do massacre dos povos americanos e das execuções da Inquisição."
 Fonte: Adaptado de DELUMEAU, Jean. A Civilização... Lisboa: Estampa, 1984, p. 19-22.',
 '',
 '["A Reforma criou suas raízes na crise do feudalismo.","A Heresia é uma ruptura com o pensamento dominante da época.","A Propriedade é a causa de todas as guerras e derramamento de sangue.","O Renascimento surge aos nossos olhos como um oceano de contradições.","O Mercantilismo minou a autoridade da Igreja e revelou os tesouros da arte."]'::jsonb,
-'D'
+'D',
+'Esta questão foi ANULADA pela banca organizadora (COPESE/UFJF) no gabarito oficial do PISM 2023 - Módulo 1 - Dia 2. Portanto, não há alternativa considerada correta; ela foi mantida aqui apenas para preservar a numeração da prova.'
 from public.exams where slug = 'pism-2023-2'
-on conflict (exam_id, number) do update set subject = excluded.subject, text = excluded.text, support = excluded.support, support_image = excluded.support_image, options = excluded.options, answer = excluded.answer;
+on conflict (exam_id, number) do update set subject = excluded.subject, text = excluded.text, support = excluded.support, support_image = excluded.support_image, options = excluded.options, answer = excluded.answer, explanation = excluded.explanation;

@@ -17,9 +17,13 @@ create table if not exists public.questions (
   support_image text,
   options jsonb not null,
   answer text not null check (answer in ('A', 'B', 'C', 'D', 'E')),
+  explanation text,
   created_at timestamptz not null default now(),
   unique (exam_id, number)
 );
+
+-- Caso a tabela ja exista, adiciona a coluna de explicacao (exibida na revisao).
+alter table public.questions add column if not exists explanation text;
 
 create table if not exists public.attempts (
   id uuid primary key default gen_random_uuid(),
@@ -48,5 +52,6 @@ values
   ('pism-2024-1', 'PISM 2024-1', 'pism', '2024-1'),
   ('pism-2024-2', 'PISM 2024-2', 'pism', '2024-2'),
   ('pism-2023-1', 'PISM 2023-1', 'pism', '2023-1'),
-  ('pism-2023-2', 'PISM 2023-2', 'pism', '2023-2')
+  ('pism-2023-2', 'PISM 2023-2', 'pism', '2023-2'),
+  ('bb-2022-a-comercial', 'Banco do Brasil 2022 - Agente Comercial (Prova A)', 'bb', '2022-A')
 on conflict (slug) do nothing;
