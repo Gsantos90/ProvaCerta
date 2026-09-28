@@ -191,6 +191,7 @@ function App() {
   const [current, setCurrent] = useState(0)
   const [answers, setAnswers] = useState({})
   const [menuOpen, setMenuOpen] = useState(false)
+  const [voices, setVoices] = useState([])
   const [gridExpanded, setGridExpanded] = useState(false)
   const [pismLoading, setPismLoading] = useState(false)
   const [supabaseExamSlug, setSupabaseExamSlug] = useState(null)
@@ -201,6 +202,13 @@ function App() {
   useEffect(() => {
     setGridExpanded(false)
   }, [selectedExam, screen])
+  useEffect(() => {
+    if (typeof window === 'undefined' || !('speechSynthesis' in window)) return undefined
+    const loadVoices = () => setVoices(window.speechSynthesis.getVoices())
+    loadVoices()
+    window.speechSynthesis.addEventListener('voiceschanged', loadVoices)
+    return () => window.speechSynthesis.removeEventListener('voiceschanged', loadVoices)
+  }, [])
   useEffect(() => {
     if (!lightboxImage) return undefined
     const onKey = (event) => { if (event.key === 'Escape') setLightboxImage(null) }
@@ -414,20 +422,61 @@ function App() {
     if (speechSupported) window.speechSynthesis.cancel()
     setSpeakingId(null)
   }
+  // Escolhe a voz pt-BR mais natural disponível no dispositivo.
+  // Vozes "online"/"natural" (Google, Microsoft Natural, Luciana) soam bem menos
+  // robóticas que a voz local padrão; por isso são priorizadas.
+  const pickPortugueseVoice = () => {
+    const available = voices.length ? voices : (speechSupported ? window.speechSynthesis.getVoices() : [])
+    const ptVoices = available.filter((voice) => /pt(-|_)?BR/i.test(voice.lang) || /pt/i.test(voice.lang))
+    if (!ptVoices.length) return null
+    const score = (voice) => {
+      const name = voice.name.toLowerCase()
+      let value = 0
+      if (/pt(-|_)?br/i.test(voice.lang)) value += 5
+      if (/google/.test(name)) value += 4
+      if (/natural|neural|online/.test(name)) value += 4
+      if (/luciana|francisca|maria|helo[ií]sa| br/i.test(name)) value += 2
+      if (!voice.localService) value += 3 // vozes online costumam ser mais naturais
+      return value
+    }
+    return [...ptVoices].sort((a, b) => score(b) - score(a))[0]
+  }
   const speak = (id, text) => {
     if (!speechSupported || !text) return
     if (speakingId === id) {
       stopSpeech()
       return
     }
-    window.speechSynthesis.cancel()
-    const utterance = new SpeechSynthesisUtterance(text)
-    utterance.lang = 'pt-BR'
-    utterance.rate = 0.95
-    utterance.onend = () => setSpeakingId(null)
-    utterance.onerror = () => setSpeakingId(null)
-    setSpeakingId(id)
-    window.speechSynthesis.speak(utterance)
+    const synth = window.speechSynthesis
+    synth.cancel()
+    const voice = pickPortugueseVoice()
+    // O Chrome corta falas muito longas; dividimos o texto em blocos por frases.
+    const chunks = String(text).match(/[^.!?\n]+[.!?\n]*|\s*\S+/g)?.reduce((acc, part) => {
+      const last = acc[acc.length - 1]
+      if (last && (last.length + part.length) < 200) acc[acc.length - 1] = last + part
+      else acc.push(part)
+      return acc
+    }, []) || [String(text)]
+    const start = () => {
+      setSpeakingId(id)
+      chunks.forEach((chunk, index) => {
+        const utterance = new SpeechSynthesisUtterance(chunk.trim())
+        if (voice) utterance.voice = voice
+        utterance.lang = voice?.lang || 'pt-BR'
+        utterance.rate = 1
+        utterance.pitch = 1.05
+        utterance.volume = 1
+        if (index === chunks.length - 1) {
+          utterance.onend = () => setSpeakingId(null)
+        }
+        utterance.onerror = () => setSpeakingId(null)
+        synth.speak(utterance)
+      })
+      // O Chrome às vezes deixa o motor "pausado" após um cancel; resume garante a fala.
+      if (synth.paused) synth.resume()
+    }
+    // Pequeno atraso evita a falha do Chrome ao chamar speak() logo após cancel().
+    setTimeout(start, 60)
   }
   const zoomIn = () => setSupportScale((value) => Math.min(1.8, Math.round((value + 0.15) * 100) / 100))
   const zoomOut = () => setSupportScale((value) => Math.max(0.85, Math.round((value - 0.15) * 100) / 100))
@@ -617,6 +666,26 @@ function App() {
           <div className="exam-layout">
             <aside className="question-nav">
               <div className="aside-heading"><span>{isReview ? 'Revisão' : 'Questões'}</span><small>{isReview ? `${score}/${activeQuestions.length}` : `${Object.keys(answers).length}/${activeQuestions.length}`}</small></div>
+
+              <div className="a11y-bar">
+                <div className="a11y-zoom">
+                  <button type="button" onClick={zoomOut} disabled={supportScale <= 0.85} aria-label="Diminuir tamanho do texto de apoio"><ZoomOut size={14} /></button>
+                  <span className="a11y-zoom-value">{Math.round(supportScale * 100)}%</span>
+                  <button type="button" onClick={zoomIn} disabled={supportScale >= 1.8} aria-label="Aumentar tamanho do texto de apoio"><ZoomIn size={14} /></button>
+                </div>
+                {speechSupported && question.support && <button type="button" className={`listen-button small ${speakingId === 'support' ? 'active' : ''}`} onClick={() => speak('support', question.support)} aria-label={speakingId === 'support' ? 'Parar leitura do texto de apoio' : 'Ouvir o texto de apoio'}>{speakingId === 'support' ? <><Square size={13} /> Parar</> : <><Volume2 size={14} /> Ouvir</>}</button>}
+              </div>
+
+              <div className="support-stack" style={{ fontSize: `${supportScale}rem` }} onClick={(event) => { if (event.target.tagName === 'IMG' && event.target.classList.contains('support-image')) setLightboxImage({ src: event.target.src, alt: event.target.alt }) }}>
+              {supabaseExamSlug
+                ? (question.support || question.supportImage) && <details className="sidebar-support" open><summary><BookOpen size={16} /><span>Texto ou imagem de apoio</span><ChevronDown size={15} /></summary><div>{question.supportImage && <img className="support-image" src={question.supportImage} alt={`Imagem de apoio da questão ${current + 1}`} />}{question.support && <span>{question.support}</span>}</div></details>
+                : selectedExam === 'enem-api'
+                ? (question.support || question.supportImage) && <details className="sidebar-support" open><summary><BookOpen size={16} /><span>Texto ou imagem de apoio</span><ChevronDown size={15} /></summary><div>{question.supportImage && <img className="support-image" src={question.supportImage} alt={`Imagem de apoio da questão ${current + 1}`} />}{question.support && <span>{question.support}</span>}</div></details>
+                : selectedExam === 'enem-2023-1-ingles'
+                ? <details className="sidebar-support" open><summary><BookOpen size={16} /><span>Texto ou imagem de apoio</span><ChevronDown size={15} /></summary><div>{question.supportImage ? <img className="support-image" src={question.supportImage} alt={`Imagem de apoio da questão ${current + 1}`} /> : <span>{current === 9 ? `${enem2023SpanishSupport[9]}\n\n${question.support}` : question.support || enem2023SpanishSupport[current]}</span>}</div></details>
+                : null}
+              </div>
+
               {(() => {
                 const gridThreshold = 40
                 const isCollapsible = activeQuestions.length > gridThreshold
@@ -639,28 +708,6 @@ function App() {
               })()}
               <div className="legend"><span><i className="dot filled" /> Respondida</span><span><i className="dot" /> Em aberto</span></div>
               <div className="exam-tip"><Sparkles size={18} /><p><b>Dica de foco</b><br />Leia com calma e marque a alternativa que melhor responde ao enunciado.</p></div>
-
-              <div className="a11y-bar">
-                <span className="a11y-label">Acessibilidade</span>
-                <div className="a11y-controls">
-                  <div className="a11y-zoom">
-                    <button type="button" onClick={zoomOut} disabled={supportScale <= 0.85} aria-label="Diminuir tamanho do texto de apoio"><ZoomOut size={16} /></button>
-                    <span className="a11y-zoom-value">{Math.round(supportScale * 100)}%</span>
-                    <button type="button" onClick={zoomIn} disabled={supportScale >= 1.8} aria-label="Aumentar tamanho do texto de apoio"><ZoomIn size={16} /></button>
-                  </div>
-                  {speechSupported && question.support && <button type="button" className={`listen-button small ${speakingId === 'support' ? 'active' : ''}`} onClick={() => speak('support', question.support)} aria-label={speakingId === 'support' ? 'Parar leitura do texto de apoio' : 'Ouvir o texto de apoio'}>{speakingId === 'support' ? <><Square size={13} /> Parar</> : <><Volume2 size={14} /> Ouvir apoio</>}</button>}
-                </div>
-              </div>
-
-              <div className="support-stack" style={{ fontSize: `${supportScale}rem` }} onClick={(event) => { if (event.target.tagName === 'IMG' && event.target.classList.contains('support-image')) setLightboxImage({ src: event.target.src, alt: event.target.alt }) }}>
-              {supabaseExamSlug
-                ? (question.support || question.supportImage) && <details className="sidebar-support" open><summary><BookOpen size={16} /><span>Texto ou imagem de apoio</span><ChevronDown size={15} /></summary><div>{question.supportImage && <img className="support-image" src={question.supportImage} alt={`Imagem de apoio da questão ${current + 1}`} />}{question.support && <span>{question.support}</span>}</div></details>
-                : selectedExam === 'enem-api'
-                ? (question.support || question.supportImage) && <details className="sidebar-support" open><summary><BookOpen size={16} /><span>Texto ou imagem de apoio</span><ChevronDown size={15} /></summary><div>{question.supportImage && <img className="support-image" src={question.supportImage} alt={`Imagem de apoio da questão ${current + 1}`} />}{question.support && <span>{question.support}</span>}</div></details>
-                : selectedExam === 'enem-2023-1-ingles'
-                ? <details className="sidebar-support" open><summary><BookOpen size={16} /><span>Texto ou imagem de apoio</span><ChevronDown size={15} /></summary><div>{question.supportImage ? <img className="support-image" src={question.supportImage} alt={`Imagem de apoio da questão ${current + 1}`} /> : <span>{current === 9 ? `${enem2023SpanishSupport[9]}\n\n${question.support}` : question.support || enem2023SpanishSupport[current]}</span>}</div></details>
-                : null}
-              </div>
             </aside>
             <section className="question-content">
               <div className={`subject-tag ${subjects.find((item) => item.name === question.subject)?.color}`}>{question.subject}</div>
