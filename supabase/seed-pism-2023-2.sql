@@ -1,6 +1,6 @@
 -- Seed: PISM 2023-2 (Modulo 1 - 2o Dia)
 -- Fonte: Caderno de Provas PISM 2023 - Modulo I - 2o Dia, prova realizada em 04/12/2022 (trienio 2023-2025)
--- Gabarito objetivo OFICIAL (COPESE/UFJF): Literaturas 1-5 B,E,A,C,D | Biologia 6-10 A,B,A,E,A | Fisica 11-15 E,D,D,B,C | Historia 16-20 A,C,B,E,ANULADA
+-- Gabarito objetivo OFICIAL (COPESE/UFJF): Literaturas 1-5 B,E,A,C,D | Biologia 6-10 A,B,A,E,A | Fisica 11-15 D,B,C,B,C (corrigido: Q11=350m=D, Q12=336m=B, Q13=12s=C) | Historia 16-20 A,C,B,E,ANULADA
 -- Observacao 1: a questao 20 foi ANULADA pela banca; mantida no banco com uma alternativa para nao quebrar o app.
 -- Observacao 2: as questoes 11, 15 e 17 dependem de figuras. O campo support_image referencia
 -- arquivos que ainda precisam ser adicionados em /public (nomes sugeridos abaixo).
@@ -286,7 +286,7 @@ select id, 11, 'Física',
 'Gráfico: velocidade instantânea v (m/s) em função do tempo t (s). De 0 a 5,0 s a velocidade é constante em 30 m/s; de 5,0 s a 10 s a velocidade é constante em 40 m/s.',
 '/pism-2023-2-questao-11.png',
 '["150 m","200 m","300 m","350 m","400 m"]'::jsonb,
-'E'
+'D'
 from public.exams where slug = 'pism-2023-2'
 on conflict (exam_id, number) do update set subject = excluded.subject, text = excluded.text, support = excluded.support, support_image = excluded.support_image, options = excluded.options, answer = excluded.answer;
 
@@ -296,7 +296,7 @@ select id, 12, 'Física',
 '',
 '',
 '["328 m","336 m","352 m","384 m","448 m"]'::jsonb,
-'D'
+'B'
 from public.exams where slug = 'pism-2023-2'
 on conflict (exam_id, number) do update set subject = excluded.subject, text = excluded.text, support = excluded.support, support_image = excluded.support_image, options = excluded.options, answer = excluded.answer;
 
@@ -306,7 +306,7 @@ select id, 13, 'Física',
 '',
 '',
 '["30 s.","15 s.","12 s.","10 s.","6 s."]'::jsonb,
-'D'
+'C'
 from public.exams where slug = 'pism-2023-2'
 on conflict (exam_id, number) do update set subject = excluded.subject, text = excluded.text, support = excluded.support, support_image = excluded.support_image, options = excluded.options, answer = excluded.answer;
 

@@ -158,7 +158,10 @@ const pismSeriesConfig = {
 const bbRolesConfig = {
   'Escriturário - Agente Comercial': {
     label: 'Escriturário - Agente Comercial',
-    years: [{ value: '2022-A', slug: 'bb-2022-a-comercial' }],
+    years: [
+      { value: '2022-A', slug: 'bb-2022-a-comercial' },
+      { value: '2021-A', slug: 'bb-2021-a-comercial' },
+    ],
   },
   'Escriturário - Agente de Tecnologia': {
     label: 'Escriturário - Agente de Tecnologia',
@@ -919,7 +922,7 @@ function UpcomingCard({ exam }) {
     <article className={`exam-card upcoming color-${exam.color}`}>
       <div className="card-art">
         <span className="art-kicker">{exam.org}</span>
-        <strong>{exam.short}</strong>
+        <strong className={exam.short?.length >= 7 ? 'long' : ''}>{exam.short}</strong>
         <span className="art-shape">{exam.short}</span>
         <div className="art-dots" />
       </div>
