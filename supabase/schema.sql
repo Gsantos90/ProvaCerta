@@ -53,5 +53,6 @@ values
   ('pism-2024-2', 'PISM 2024-2', 'pism', '2024-2'),
   ('pism-2023-1', 'PISM 2023-1', 'pism', '2023-1'),
   ('pism-2023-2', 'PISM 2023-2', 'pism', '2023-2'),
-  ('bb-2022-a-comercial', 'Banco do Brasil 2022 - Agente Comercial (Prova A)', 'bb', '2022-A')
+  ('bb-2022-a-comercial', 'Banco do Brasil 2022 - Agente Comercial (Prova A)', 'bb', '2022-A'),
+  ('bb-2021-a-comercial', 'Banco do Brasil 2021 - Agente Comercial (Prova A)', 'bb', '2021-A')
 on conflict (slug) do nothing;
