@@ -223,6 +223,17 @@ const cnuExamSlugs = {
   '2024|superior|bloco-1|tarde': 'cnu-2024-bloco1-tarde',
   '2024|superior|bloco-2|manha': 'cnu-2024-bloco2-manha',
   '2024|superior|bloco-2|tarde': 'cnu-2024-bloco2-tarde',
+  '2024|superior|bloco-3|manha': 'cnu-2024-bloco3-manha',
+  '2024|superior|bloco-3|tarde': 'cnu-2024-bloco3-tarde',
+  '2024|superior|bloco-4|manha': 'cnu-2024-bloco4-manha',
+  '2024|superior|bloco-4|tarde': 'cnu-2024-bloco4-tarde',
+  '2024|superior|bloco-5|manha': 'cnu-2024-bloco5-manha',
+  '2024|superior|bloco-5|tarde': 'cnu-2024-bloco5-tarde',
+  '2024|superior|bloco-6|manha': 'cnu-2024-bloco6-manha',
+  '2024|superior|bloco-6|tarde': 'cnu-2024-bloco6-tarde',
+  '2024|superior|bloco-7|manha': 'cnu-2024-bloco7-manha',
+  '2024|medio|bloco-8|manha': 'cnu-2024-bloco8-manha',
+  '2024|medio|bloco-8|tarde': 'cnu-2024-bloco8-tarde',
 }
 
 function App() {
