@@ -48,7 +48,7 @@
 
 
 /* Cards de provas futuras (catálogo) */
-.exam-cards.trio{grid-template-columns:repeat(3,1fr)}
+.exam-cards.trio{grid-template-columns:repeat(3,1fr);grid-auto-rows:1fr}
 .exam-cards.trio .exam-card{grid-template-columns:34% 66%}
 .exam-cards.trio .card-art{min-height:210px;padding:18px 16px}
 .exam-cards.trio .card-art strong{font-size:30px;bottom:44px;left:16px;right:16px;white-space:nowrap;letter-spacing:-1.5px}
