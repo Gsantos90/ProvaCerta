@@ -72,9 +72,9 @@ const catalogCategories = [
   {
     id: 'vestibulares',
     title: 'Provas em destaques',
-    description: 'Provas de acesso ao ensino superior.',
+    description: 'Provas em destaque na plataforma.',
     exams: [
-      { id: 'pism', name: 'PISM', org: 'UFJF', description: 'Programa de Ingresso Seletivo Misto', available: true },
+      { id: 'cnu', name: 'CNU', org: 'Concurso Nacional', short: 'CNU', description: 'Concurso Público Nacional Unificado', available: false, color: 'teal', roles: ['Nível Superior', 'Ensino Médio'] },
       { id: 'enem', name: 'ENEM', org: 'Brasil', description: 'Exame Nacional do Ensino Médio', available: true },
     ],
   },
@@ -83,6 +83,7 @@ const catalogCategories = [
     title: 'Faculdades públicas',
     description: 'Vestibulares específicos de universidades públicas.',
     exams: [
+      { id: 'pism', name: 'PISM', org: 'UFJF', description: 'Programa de Ingresso Seletivo Misto', available: true },
       { id: 'uerj', name: 'UERJ', org: 'Rio de Janeiro', short: 'UERJ', description: 'Universidade do Estado do Rio de Janeiro', available: false, color: 'teal' },
       { id: 'uff', name: 'UFF', org: 'Fluminense', short: 'UFF', description: 'Universidade Federal Fluminense', available: false, color: 'indigo' },
       { id: 'ufrj', name: 'UFRJ', org: 'Rio de Janeiro', short: 'UFRJ', description: 'Universidade Federal do Rio de Janeiro', available: false, color: 'crimson' },
@@ -99,6 +100,7 @@ const catalogCategories = [
       { id: 'caixa', name: 'Caixa Econômica', org: 'Bancário', short: 'CAIXA', description: 'Concurso da Caixa Econômica Federal', available: false, color: 'sky', roles: ['Técnico Bancário', 'Técnico Bancário - TI'] },
       { id: 'pf', name: 'Polícia Federal', org: 'Segurança', short: 'PF', description: 'Concurso da Polícia Federal', available: false, color: 'slate', roles: ['Agente', 'Escrivão', 'Delegado', 'Perito Criminal'] },
       { id: 'correios', name: 'Correios', org: 'Serviços', short: 'CORREIOS', description: 'Concurso dos Correios', available: false, color: 'amber', roles: ['Carteiro', 'Agente dos Correios - Atendente', 'Analista de Correios'] },
+      { id: 'pc', name: 'Polícia Civil', org: 'Segurança', short: 'PC', description: 'Concurso da Polícia Civil', available: false, color: 'crimson', roles: ['Investigador', 'Escrivão', 'Delegado', 'Perito Criminal'] },
     ],
   },
 ]
@@ -169,6 +171,60 @@ const bbRolesConfig = {
   },
 }
 
+// Concurso Publico Nacional Unificado (CNU).
+// Os blocos variam conforme o ano e o nivel. Quando houver prova cadastrada, o bloco tera um slug.
+const cnuYears = ['2025', '2024']
+const cnuLevelLabels = { superior: 'Nível superior', medio: 'Ensino médio' }
+const cnuBlocksByYear = {
+  '2025': {
+    superior: [
+      { value: 'bloco-1', label: 'Bloco 1: Seguridade Social – Saúde, Assistência Social e Previdência Social' },
+      { value: 'bloco-2', label: 'Bloco 2: Cultura e Educação' },
+      { value: 'bloco-3', label: 'Bloco 3: Ciência, Dados e Tecnologia' },
+      { value: 'bloco-4', label: 'Bloco 4: Engenharia e Arquitetura' },
+      { value: 'bloco-5', label: 'Bloco 5: Administração' },
+      { value: 'bloco-6', label: 'Bloco 6: Desenvolvimento Socioeconômico' },
+      { value: 'bloco-7', label: 'Bloco 7: Justiça e Defesa' },
+    ],
+    medio: [
+      { value: 'bloco-8', label: 'Bloco 8: Saúde' },
+      { value: 'bloco-9', label: 'Bloco 9: Regulação' },
+    ],
+  },
+  '2024': {
+    superior: [
+      { value: 'bloco-1', label: 'Bloco 1: Infraestrutura, Exatas e Engenharia' },
+      { value: 'bloco-2', label: 'Bloco 2: Tecnologia, Dados e Informação' },
+      { value: 'bloco-3', label: 'Bloco 3: Ambiental, Agrário e Biológicas' },
+      { value: 'bloco-4', label: 'Bloco 4: Trabalho e Saúde do Servidor' },
+      { value: 'bloco-5', label: 'Bloco 5: Educação, Saúde, Desenvolvimento Social e Direitos Humanos' },
+      { value: 'bloco-6', label: 'Bloco 6: Setores Econômicos e Regulação' },
+      { value: 'bloco-7', label: 'Bloco 7: Gestão Governamental e Administração Pública' },
+    ],
+    medio: [
+      { value: 'bloco-8', label: 'Bloco 8: Nível Intermediário' },
+    ],
+  },
+}
+// Niveis disponiveis para o card (label + chave), na ordem de exibicao.
+const cnuLevelsConfig = {
+  superior: { label: cnuLevelLabels.superior },
+  medio: { label: cnuLevelLabels.medio },
+}
+// Cada prova do CNU tem dois turnos/fases.
+const cnuShifts = [
+  { value: 'manha', label: 'Manhã — Conhecimentos Gerais' },
+  { value: 'tarde', label: 'Tarde — Conhecimentos Específicos' },
+]
+// Slugs das provas do CNU cadastradas no Supabase, por ano/nivel/bloco/turno.
+// Somente as combinacoes presentes aqui ficam disponiveis para iniciar.
+const cnuExamSlugs = {
+  '2024|superior|bloco-1|manha': 'cnu-2024-bloco1-manha',
+  '2024|superior|bloco-1|tarde': 'cnu-2024-bloco1-tarde',
+  '2024|superior|bloco-2|manha': 'cnu-2024-bloco2-manha',
+  '2024|superior|bloco-2|tarde': 'cnu-2024-bloco2-tarde',
+}
+
 function App() {
   const [screen, setScreen] = useState('home')
   const [selectedExam, setSelectedExam] = useState(null)
@@ -183,6 +239,12 @@ function App() {
   const [bbYear, setBbYear] = useState('2022-A')
   const [bbLoading, setBbLoading] = useState(false)
   const [bbError, setBbError] = useState('')
+  const [cnuYear, setCnuYear] = useState('2025')
+  const [cnuLevel, setCnuLevel] = useState('superior')
+  const [cnuBlock, setCnuBlock] = useState('bloco-1')
+  const [cnuShift, setCnuShift] = useState('manha')
+  const [cnuLoading, setCnuLoading] = useState(false)
+  const [cnuError, setCnuError] = useState('')
   const [enemCatalog, setEnemCatalog] = useState([])
   const [enemYear, setEnemYear] = useState('2023')
   const [enemDiscipline, setEnemDiscipline] = useState('linguagens')
@@ -245,8 +307,9 @@ function App() {
     'enem-2023-1-ingles': [...enem2023EnglishQuestions, ...enem2023SpanishQuestions],
   }
   const activeQuestions = selectedExam === 'enem-api' || supabaseExamSlug ? enemQuestions : questionSets[selectedExam] || []
-  const examLabel = selectedExam === 'pism-1' ? '2025-1' : selectedExam === 'pism-2' ? '2025-2' : selectedExam === 'pism-2024-1' ? '2024-1' : selectedExam === 'pism-2024-2' ? '2024-2' : selectedExam === 'pism-2023-1' ? '2023-1' : selectedExam === 'pism-2023-2' ? '2023-2' : selectedExam === 'enem-api' ? `ENEM ${enemYear}` : selectedExam === 'bb' ? `Banco do Brasil ${bbYear} · ${bbRole}` : '2023-1_Cad_Amarelo - LINGUAGENS, CÓDIGOS E SUAS TECNOLOGIAS'
-  const examDay = selectedExam === 'enem-api' ? 'Área selecionada' : selectedExam === 'bb' ? 'Prova objetiva' : examLabel.endsWith('-1') ? 'Dia 1' : 'Dia 2'
+  const examLabel = selectedExam === 'pism-1' ? '2025-1' : selectedExam === 'pism-2' ? '2025-2' : selectedExam === 'pism-2024-1' ? '2024-1' : selectedExam === 'pism-2024-2' ? '2024-2' : selectedExam === 'pism-2023-1' ? '2023-1' : selectedExam === 'pism-2023-2' ? '2023-2' : selectedExam === 'enem-api' ? `ENEM ${enemYear}` : selectedExam === 'bb' ? `Banco do Brasil ${bbYear} · ${bbRole}` : selectedExam === 'cnu' ? `CNU ${cnuYear} · Bloco ${cnuBlock.replace('bloco-', '')}` : '2023-1_Cad_Amarelo - LINGUAGENS, CÓDIGOS E SUAS TECNOLOGIAS'
+  const cnuShiftLabel = cnuShift === 'manha' ? 'Manhã · Conhecimentos Gerais' : 'Tarde · Conhecimentos Específicos'
+  const examDay = selectedExam === 'enem-api' ? 'Área selecionada' : selectedExam === 'bb' ? 'Prova objetiva' : selectedExam === 'cnu' ? cnuShiftLabel : examLabel.endsWith('-1') ? 'Dia 1' : 'Dia 2'
 
   // Normaliza letras de gabarito/resposta para evitar falhas de comparação
   // por espaços, quebras de linha ou diferença de maiúsculas/minúsculas.
@@ -337,6 +400,42 @@ function App() {
 
   const currentBbYears = bbRolesConfig[bbRole]?.years || []
   const isBbAvailable = currentBbYears.length > 0
+
+  const blocksFor = (yearValue, levelValue) => cnuBlocksByYear[yearValue]?.[levelValue] || []
+
+  const changeCnuLevel = (value) => {
+    setCnuLevel(value)
+    setCnuBlock(blocksFor(cnuYear, value)[0]?.value || '')
+  }
+
+  const changeCnuYear = (value) => {
+    setCnuYear(value)
+    setCnuBlock(blocksFor(value, cnuLevel)[0]?.value || '')
+  }
+
+  const currentCnuBlocks = blocksFor(cnuYear, cnuLevel)
+  const cnuSlug = cnuExamSlugs[`${cnuYear}|${cnuLevel}|${cnuBlock}|${cnuShift}`]
+  const isCnuAvailable = Boolean(cnuSlug)
+
+  const startCnuExam = async () => {
+    if (!cnuSlug) return
+    setCnuLoading(true)
+    setCnuError('')
+    try {
+      const questions = await loadSupabaseExam(cnuSlug)
+      setEnemQuestions(questions)
+      setSupabaseExamSlug(cnuSlug)
+      setSelectedExam('cnu')
+      setCurrent(0)
+      setAnswers({})
+      setScreen('exam')
+      setMenuOpen(false)
+    } catch (error) {
+      setCnuError(`Não foi possível carregar as questões do Supabase: ${error.message}`)
+    } finally {
+      setCnuLoading(false)
+    }
+  }
 
   const loadEnemQuestions = async () => {
     setEnemError('')
@@ -518,7 +617,27 @@ function App() {
       error={bbError}
     />
   )
-  const featuredCards = { pism: pismCard, enem: enemCard, bb: bbCard }
+  const cnuCard = (
+    <CnuCard
+      years={cnuYears}
+      year={cnuYear}
+      setYear={changeCnuYear}
+      levels={cnuLevelsConfig}
+      level={cnuLevel}
+      onLevelChange={changeCnuLevel}
+      blocks={currentCnuBlocks}
+      block={cnuBlock}
+      setBlock={setCnuBlock}
+      shifts={cnuShifts}
+      shift={cnuShift}
+      setShift={setCnuShift}
+      onStart={startCnuExam}
+      available={isCnuAvailable}
+      loading={cnuLoading}
+      error={cnuError}
+    />
+  )
+  const featuredCards = { pism: pismCard, enem: enemCard, bb: bbCard, cnu: cnuCard }
 
   if (screen === 'catalog') {
     return (
@@ -567,16 +686,17 @@ function App() {
             return visibleCategories.map((category) => {
               const featured = category.exams.filter((exam) => featuredCards[exam.id])
               const upcoming = category.exams.filter((exam) => !featuredCards[exam.id])
-              // Nos concursos, os cards funcionais usam o mesmo grid compacto (trio)
-              // dos demais para manter todos com o mesmo tamanho.
-              const isConcurso = category.kind === 'concurso'
+              // Nos concursos e nas faculdades publicas, os cards funcionais usam o mesmo
+              // grid compacto (trio) dos demais para manter todos com o mesmo tamanho:
+              // 3 por linha e o que sobrar na linha de baixo.
+              const useUnifiedGrid = category.kind === 'concurso' || category.id === 'faculdades'
               return (
                 <section className="catalog-category" key={category.id}>
                   <div className="catalog-category-head">
                     <h2>{category.title}</h2>
                     <p>{category.description}</p>
                   </div>
-                  {isConcurso ? (
+                  {useUnifiedGrid ? (
                     (featured.length > 0 || upcoming.length > 0) && (
                       <div className="exam-cards trio">
                         {featured.map((exam) => <React.Fragment key={exam.id}>{featuredCards[exam.id]}</React.Fragment>)}
@@ -662,7 +782,7 @@ function App() {
         <main className="exam-page">
           <div className="exam-topline">
             <button className="back-link" onClick={() => setScreen(isReview ? 'result' : 'home')}><ArrowLeft size={17} /> {isReview ? 'Voltar ao resultado' : 'Sair da prova'}</button>
-            <div className="exam-name"><span className="mini-logo">P</span><span>provacerta · {selectedExam === 'enem-api' || selectedExam === 'bb' ? examLabel : `PISM ${examLabel}`}</span><b>·</b><span>{isReview ? 'Revisão' : selectedExam === 'bb' ? examDay : `Módulo I · ${examDay}`}</span></div>
+            <div className="exam-name"><span className="mini-logo">P</span><span>provacerta · {selectedExam === 'enem-api' || selectedExam === 'bb' || selectedExam === 'cnu' ? examLabel : `PISM ${examLabel}`}</span><b>·</b><span>{isReview ? 'Revisão' : selectedExam === 'bb' || selectedExam === 'cnu' ? examDay : `Módulo I · ${examDay}`}</span></div>
             <span className="question-count">{current + 1} <i>/</i> {activeQuestions.length}</span>
           </div>
           <div className="progress-track"><span style={{ width: `${((current + 1) / activeQuestions.length) * 100}%` }} /></div>
@@ -777,7 +897,7 @@ function App() {
         <section className="exams-section" id="provas">
           <div className="section-heading"><div><p className="eyebrow">Escolha seu desafio</p><h2>Provas em destaque</h2></div><button className="view-all" onClick={() => setScreen('catalog')}><LayoutGrid size={17} /> Todas as provas</button></div>
           <div className="exam-cards">
-            {pismCard}
+            {cnuCard}
             {enemCard}
           </div>
         </section>
@@ -903,6 +1023,72 @@ function BbCard({ roles, role, onRoleChange, years, year, setYear, onStart, avai
                 ) : (
                   <option value="">Nenhuma prova disponível</option>
                 )}
+              </select>
+              <ChevronDown size={16} />
+            </span>
+          </label>
+        </div>
+        {error && <p className="api-error" role="alert">{error}</p>}
+        <button className={`button ${available && !loading ? 'primary' : 'disabled'} full`} onClick={onStart} disabled={!available || loading}>
+          {loading ? 'Carregando questões…' : available ? 'Começar prova' : 'Em breve'} {available && !loading && <ArrowRight size={17} />}
+        </button>
+      </div>
+    </article>
+  )
+}
+
+function CnuCard({ years, year, setYear, levels, level, onLevelChange, blocks, block, setBlock, shifts, shift, setShift, onStart, available, loading, error }) {
+  return (
+    <article className="exam-card color-teal">
+      <div className="card-art">
+        <span className="art-kicker">CONCURSO NACIONAL</span>
+        <strong>CNU</strong>
+        <span className="art-shape">CNU</span>
+        <div className="art-dots" />
+      </div>
+      <div className="exam-card-body">
+        <div className="card-title-row">
+          <div>
+            <h3>CNU</h3>
+            <p>Concurso Público Nacional Unificado</p>
+          </div>
+          <span className={`status ${available ? 'ready' : ''}`}>{available ? 'Disponível' : 'Em breve'}</span>
+        </div>
+        <div className="pism-controls">
+          <label>
+            Ano da prova
+            <span className="select-wrap">
+              <select value={year} onChange={(event) => setYear(event.target.value)}>
+                {years.map((item) => <option key={item} value={item}>{item}</option>)}
+              </select>
+              <ChevronDown size={16} />
+            </span>
+          </label>
+          <label>
+            Nível
+            <span className="select-wrap">
+              <select value={level} onChange={(event) => onLevelChange(event.target.value)}>
+                {Object.entries(levels || {}).map(([key, item]) => (
+                  <option key={key} value={key}>{item.label}</option>
+                ))}
+              </select>
+              <ChevronDown size={16} />
+            </span>
+          </label>
+          <label>
+            Bloco
+            <span className="select-wrap">
+              <select value={block} onChange={(event) => setBlock(event.target.value)} disabled={blocks.length === 0}>
+                {blocks.map((item) => <option key={item.value} value={item.value}>{item.label}</option>)}
+              </select>
+              <ChevronDown size={16} />
+            </span>
+          </label>
+          <label>
+            Turno / Fase
+            <span className="select-wrap">
+              <select value={shift} onChange={(event) => setShift(event.target.value)}>
+                {shifts.map((item) => <option key={item.value} value={item.value}>{item.label}</option>)}
               </select>
               <ChevronDown size={16} />
             </span>

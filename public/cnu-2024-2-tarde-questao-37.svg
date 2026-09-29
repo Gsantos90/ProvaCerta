@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="740" height="1290" viewBox="0 0 740 1290" font-family="Consolas, 'Courier New', monospace">
+  <rect width="740" height="1290" fill="#ffffff"/>
+  <style>
+    .code { font-size: 14px; fill: #1a1a1a; }
+    .lbl { font-size: 16px; font-weight: bold; fill: #0a8; font-family: Arial, sans-serif; }
+    .cmt { fill: #6a737d; }
+  </style>
+
+  <!-- A -->
+  <text x="14" y="26" class="lbl">(A)</text>
+  <text x="14" y="50"  class="code cmt">import java.util.Stack;</text>
+  <text x="14" y="70"  class="code">public static int inverte(int num) {</text>
+  <text x="14" y="88"  class="code">    Stack&lt;Integer&gt; pilha = new Stack&lt;Integer&gt;();</text>
+  <text x="14" y="108" class="code">    do {</text>
+  <text x="14" y="126" class="code">        int resto = num % 10;  num /= 10;  pilha.push(resto);</text>
+  <text x="14" y="144" class="code">    } while (num &gt; 0);</text>
+  <text x="14" y="164" class="code">    for (int i=1; ! pilha.isEmpty(); i*=10)  num += pilha.pop() * i;</text>
+  <text x="14" y="182" class="code">    return num;</text>
+  <text x="14" y="200" class="code">}</text>
+  <line x1="14" y1="216" x2="726" y2="216" stroke="#ddd"/>
+
+  <!-- B -->
+  <text x="14" y="242" class="lbl">(B)</text>
+  <text x="14" y="266" class="code cmt">import java.util.LinkedList;  import java.util.Queue;</text>
+  <text x="14" y="286" class="code">public static int inverte(int num) {</text>
+  <text x="14" y="304" class="code">    Queue&lt;Integer&gt; fila = new LinkedList&lt;Integer&gt;();</text>
+  <text x="14" y="324" class="code">    for ( ; num &gt; 0; ) {</text>
+  <text x="14" y="342" class="code">        int resto = num % 10;  num /= 10;  fila.offer(resto);</text>
+  <text x="14" y="360" class="code">    }</text>
+  <text x="14" y="380" class="code">    for (int i=1; ! fila.isEmpty(); i*=10)  num += fila.poll() * i;</text>
+  <text x="14" y="398" class="code">    return num;</text>
+  <text x="14" y="416" class="code">}</text>
+  <line x1="14" y1="432" x2="726" y2="432" stroke="#ddd"/>
+
+  <!-- C -->
+  <text x="14" y="458" class="lbl">(C)</text>
+  <text x="14" y="482" class="code cmt">import java.util.LinkedList;  import java.util.Queue;</text>
+  <text x="14" y="502" class="code">public static int inverte(int num) {</text>
+  <text x="14" y="520" class="code">    Queue&lt;Integer&gt; fila = new LinkedList&lt;Integer&gt;();</text>
+  <text x="14" y="540" class="code">    do {</text>
+  <text x="14" y="558" class="code">        int resto = num % 10;  num /= 10;  fila.offer(num);</text>
+  <text x="14" y="576" class="code">    } while (num &gt; 0);</text>
+  <text x="14" y="596" class="code">    for (int i=1; ! fila.isEmpty(); i*=10)  num += fila.poll() * i;</text>
+  <text x="14" y="614" class="code">    return num;</text>
+  <text x="14" y="632" class="code">}</text>
+  <line x1="14" y1="648" x2="726" y2="648" stroke="#ddd"/>
+
+  <!-- D -->
+  <text x="14" y="674" class="lbl">(D)</text>
+  <text x="14" y="698" class="code cmt">import java.util.LinkedList;  import java.util.Queue;</text>
+  <text x="14" y="718" class="code">public static int inverte(int num) {</text>
+  <text x="14" y="736" class="code">    Queue&lt;Integer&gt; fila = new LinkedList&lt;Integer&gt;();</text>
+  <text x="14" y="756" class="code">    while (num &gt; 0) {</text>
+  <text x="14" y="774" class="code">        int resto = num % 10;  num /= 10;  fila.offer(resto);</text>
+  <text x="14" y="792" class="code">    }</text>
+  <text x="14" y="812" class="code">    for (int i=1; ! fila.isEmpty(); i*=10)  num += fila.poll() * i;</text>
+  <text x="14" y="830" class="code">    return num;</text>
+  <text x="14" y="848" class="code">}</text>
+  <line x1="14" y1="864" x2="726" y2="864" stroke="#ddd"/>
+
+  <!-- E -->
+  <text x="14" y="890" class="lbl">(E)</text>
+  <text x="14" y="914" class="code cmt">import java.util.Stack;</text>
+  <text x="14" y="934" class="code">public static int inverte(int num) {</text>
+  <text x="14" y="952" class="code">    Stack&lt;Integer&gt; pilha = new Stack&lt;Integer&gt;();</text>
+  <text x="14" y="972" class="code">    while (num &gt; 0) {</text>
+  <text x="14" y="990" class="code">        int resto = num % 10;  num /= 10;  pilha.push(num);</text>
+  <text x="14" y="1008" class="code">    }</text>
+  <text x="14" y="1028" class="code">    for (int i=1; ! pilha.isEmpty(); i*=10)  num += pilha.pop() * i;</text>
+  <text x="14" y="1046" class="code">    return num;</text>
+  <text x="14" y="1064" class="code">}</text>
+</svg>

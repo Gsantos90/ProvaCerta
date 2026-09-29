@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="700" height="1020" viewBox="0 0 700 1020" font-family="Consolas, 'Courier New', monospace">
+  <rect width="700" height="1020" fill="#ffffff"/>
+  <style>
+    .code { font-size: 14px; fill: #1a1a1a; }
+    .lbl { font-size: 16px; font-weight: bold; fill: #0a8; font-family: Arial, sans-serif; }
+  </style>
+
+  <!-- A -->
+  <text x="14" y="28" class="lbl">(A)</text>
+  <text x="14" y="52"  class="code">def incluiA(lista, subst):</text>
+  <text x="14" y="72"  class="code">    for elem in lista:</text>
+  <text x="14" y="92"  class="code">        if elem[0] == subst:</text>
+  <text x="14" y="112" class="code">            elem[1] += 1</text>
+  <text x="14" y="132" class="code">    lista.append([subst, 1])</text>
+  <line x1="14" y1="150" x2="686" y2="150" stroke="#ddd"/>
+
+  <!-- B -->
+  <text x="14" y="178" class="lbl">(B)</text>
+  <text x="14" y="202" class="code">def inclui(lista, subst):</text>
+  <text x="14" y="222" class="code">    for i in range(len(lista)):</text>
+  <text x="14" y="242" class="code">        if lista[i][0] == subst:</text>
+  <text x="14" y="262" class="code">            lista[i][1] += 1</text>
+  <text x="14" y="282" class="code">            return</text>
+  <text x="14" y="302" class="code">    lista.append([subst, 1])</text>
+  <line x1="14" y1="320" x2="686" y2="320" stroke="#ddd"/>
+
+  <!-- C -->
+  <text x="14" y="348" class="lbl">(C)</text>
+  <text x="14" y="372" class="code">def inclui(lista, subst):</text>
+  <text x="14" y="392" class="code">    res = 0</text>
+  <text x="14" y="412" class="code">    try:</text>
+  <text x="14" y="432" class="code">        res = lista.index( subst )</text>
+  <text x="14" y="452" class="code">    except ValueError:</text>
+  <text x="14" y="472" class="code">        lista.append( [subst, 1] )</text>
+  <text x="14" y="492" class="code">    lista[res][1] += 1</text>
+  <line x1="14" y1="510" x2="686" y2="510" stroke="#ddd"/>
+
+  <!-- D -->
+  <text x="14" y="538" class="lbl">(D)</text>
+  <text x="14" y="562" class="code">def inclui(lista, subst):</text>
+  <text x="14" y="582" class="code">    try:</text>
+  <text x="14" y="602" class="code">        res = lista.index( [subst] )</text>
+  <text x="14" y="622" class="code">        lista[res][1] += 1</text>
+  <text x="14" y="642" class="code">    except ValueError:</text>
+  <text x="14" y="662" class="code">        lista.append( [subst, 1] )</text>
+  <line x1="14" y1="680" x2="686" y2="680" stroke="#ddd"/>
+
+  <!-- E -->
+  <text x="14" y="708" class="lbl">(E)</text>
+  <text x="14" y="732" class="code">def inclui(lista, subst):</text>
+  <text x="14" y="752" class="code">    try:</text>
+  <text x="14" y="772" class="code">        res = lista.index( subst )</text>
+  <text x="14" y="792" class="code">        lista[res][1] += 1</text>
+  <text x="14" y="812" class="code">    except ValueError:</text>
+  <text x="14" y="832" class="code">        lista.append([subst, 1])</text>
+</svg>

@@ -1,0 +1,146 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="1500" viewBox="0 0 720 1500" font-family="Arial, sans-serif">
+  <rect width="720" height="1500" fill="#ffffff"/>
+  <style>
+    .box { fill:#ffffff; stroke:#222; stroke-width:1.5; }
+    .en { font-size:15px; fill:#111; text-anchor:middle; font-weight:bold; }
+    .lbl { font-size:16px; font-weight:bold; fill:#0a8; }
+    .rel { font-size:12px; fill:#333; }
+    .ln { stroke:#222; stroke-width:1.3; fill:none; }
+    .tri { fill:#ffffff; stroke:#222; stroke-width:1.3; }
+  </style>
+
+  <!-- ============ (A) ============ -->
+  <text x="14" y="26" class="lbl">(A)</text>
+  <!-- A -->
+  <rect class="box" x="300" y="40" width="80" height="34"/>
+  <text class="en" x="340" y="62">A</text>
+  <line class="ln" x1="340" y1="74" x2="340" y2="96"/>
+  <polygon class="tri" points="326,96 354,96 340,114"/>
+  <text class="rel" x="360" y="108">total e compartilhada</text>
+  <line class="ln" x1="340" y1="114" x2="340" y2="126"/>
+  <line class="ln" x1="230" y1="126" x2="450" y2="126"/>
+  <line class="ln" x1="230" y1="126" x2="230" y2="146"/>
+  <line class="ln" x1="450" y1="126" x2="450" y2="146"/>
+  <!-- B -->
+  <rect class="box" x="190" y="146" width="80" height="34"/>
+  <text class="en" x="230" y="168">B</text>
+  <!-- C -->
+  <rect class="box" x="410" y="146" width="80" height="34"/>
+  <text class="en" x="450" y="168">C</text>
+  <!-- B -> D,E -->
+  <line class="ln" x1="230" y1="180" x2="230" y2="196"/>
+  <polygon class="tri" points="216,196 244,196 230,214"/>
+  <text class="rel" x="250" y="208">parcial e exclusiva</text>
+  <line class="ln" x1="230" y1="214" x2="230" y2="226"/>
+  <line class="ln" x1="150" y1="226" x2="310" y2="226"/>
+  <line class="ln" x1="150" y1="226" x2="150" y2="246"/>
+  <line class="ln" x1="310" y1="226" x2="310" y2="246"/>
+  <rect class="box" x="110" y="246" width="80" height="34"/>
+  <text class="en" x="150" y="268">D</text>
+  <rect class="box" x="270" y="246" width="80" height="34"/>
+  <text class="en" x="310" y="268">E</text>
+  <line x1="14" y1="300" x2="706" y2="300" stroke="#ddd"/>
+
+  <!-- ============ (B) ============ -->
+  <text x="14" y="330" class="lbl">(B)</text>
+  <rect class="box" x="300" y="344" width="80" height="34"/>
+  <text class="en" x="340" y="366">A</text>
+  <line class="ln" x1="340" y1="378" x2="340" y2="398"/>
+  <polygon class="tri" points="326,398 354,398 340,416"/>
+  <text class="rel" x="360" y="410">parcial e compartilhada</text>
+  <line class="ln" x1="340" y1="416" x2="340" y2="428"/>
+  <line class="ln" x1="150" y1="428" x2="470" y2="428"/>
+  <line class="ln" x1="150" y1="428" x2="150" y2="448"/>
+  <line class="ln" x1="310" y1="428" x2="310" y2="448"/>
+  <line class="ln" x1="470" y1="428" x2="470" y2="448"/>
+  <rect class="box" x="110" y="448" width="80" height="34"/>
+  <text class="en" x="150" y="470">E</text>
+  <rect class="box" x="270" y="448" width="80" height="34"/>
+  <text class="en" x="310" y="470">D</text>
+  <rect class="box" x="430" y="448" width="80" height="34"/>
+  <text class="en" x="470" y="470">C</text>
+  <!-- B below, fed by E and D (parcial e exclusiva) -->
+  <line class="ln" x1="150" y1="482" x2="150" y2="502"/>
+  <polygon class="tri" points="136,502 164,502 150,520"/>
+  <line class="ln" x1="310" y1="482" x2="310" y2="502"/>
+  <polygon class="tri" points="296,502 324,502 310,520"/>
+  <text class="rel" x="170" y="514">parcial e exclusiva</text>
+  <line class="ln" x1="150" y1="520" x2="230" y2="540"/>
+  <line class="ln" x1="310" y1="520" x2="230" y2="540"/>
+  <rect class="box" x="190" y="540" width="80" height="34"/>
+  <text class="en" x="230" y="562">B</text>
+  <line x1="14" y1="594" x2="706" y2="594" stroke="#ddd"/>
+
+  <!-- ============ (C) ============ -->
+  <text x="14" y="624" class="lbl">(C)</text>
+  <rect class="box" x="300" y="638" width="80" height="34"/>
+  <text class="en" x="340" y="660">A</text>
+  <line class="ln" x1="340" y1="672" x2="340" y2="692"/>
+  <polygon class="tri" points="326,692 354,692 340,710"/>
+  <text class="rel" x="360" y="704">parcial e compartilhada</text>
+  <line class="ln" x1="340" y1="710" x2="340" y2="722"/>
+  <line class="ln" x1="230" y1="722" x2="450" y2="722"/>
+  <line class="ln" x1="230" y1="722" x2="230" y2="742"/>
+  <line class="ln" x1="450" y1="722" x2="450" y2="742"/>
+  <rect class="box" x="190" y="742" width="80" height="34"/>
+  <text class="en" x="230" y="764">B</text>
+  <rect class="box" x="410" y="742" width="80" height="34"/>
+  <text class="en" x="450" y="764">C</text>
+  <line class="ln" x1="230" y1="776" x2="230" y2="792"/>
+  <polygon class="tri" points="216,792 244,792 230,810"/>
+  <text class="rel" x="250" y="804">parcial e exclusiva</text>
+  <line class="ln" x1="230" y1="810" x2="230" y2="822"/>
+  <line class="ln" x1="150" y1="822" x2="310" y2="822"/>
+  <line class="ln" x1="150" y1="822" x2="150" y2="842"/>
+  <line class="ln" x1="310" y1="822" x2="310" y2="842"/>
+  <rect class="box" x="110" y="842" width="80" height="34"/>
+  <text class="en" x="150" y="864">D</text>
+  <rect class="box" x="270" y="842" width="80" height="34"/>
+  <text class="en" x="310" y="864">E</text>
+  <line x1="14" y1="896" x2="706" y2="896" stroke="#ddd"/>
+
+  <!-- ============ (D) ============ -->
+  <text x="14" y="926" class="lbl">(D)</text>
+  <rect class="box" x="300" y="940" width="80" height="34"/>
+  <text class="en" x="340" y="962">A</text>
+  <line class="ln" x1="340" y1="974" x2="340" y2="994"/>
+  <polygon class="tri" points="326,994 354,994 340,1012"/>
+  <text class="rel" x="360" y="1006">total e compartilhada</text>
+  <line class="ln" x1="340" y1="1012" x2="340" y2="1024"/>
+  <line class="ln" x1="130" y1="1024" x2="550" y2="1024"/>
+  <line class="ln" x1="130" y1="1024" x2="130" y2="1044"/>
+  <line class="ln" x1="270" y1="1024" x2="270" y2="1044"/>
+  <line class="ln" x1="410" y1="1024" x2="410" y2="1044"/>
+  <line class="ln" x1="550" y1="1024" x2="550" y2="1044"/>
+  <rect class="box" x="90"  y="1044" width="80" height="34"/>
+  <text class="en" x="130" y="1066">B</text>
+  <rect class="box" x="230" y="1044" width="80" height="34"/>
+  <text class="en" x="270" y="1066">C</text>
+  <rect class="box" x="370" y="1044" width="80" height="34"/>
+  <text class="en" x="410" y="1066">D</text>
+  <rect class="box" x="510" y="1044" width="80" height="34"/>
+  <text class="en" x="550" y="1066">E</text>
+  <line x1="14" y1="1098" x2="706" y2="1098" stroke="#ddd"/>
+
+  <!-- ============ (E) ============ -->
+  <text x="14" y="1128" class="lbl">(E)</text>
+  <rect class="box" x="300" y="1142" width="80" height="34"/>
+  <text class="en" x="340" y="1164">A</text>
+  <line class="ln" x1="340" y1="1176" x2="340" y2="1196"/>
+  <polygon class="tri" points="326,1196 354,1196 340,1214"/>
+  <text class="rel" x="360" y="1208">parcial e exclusiva</text>
+  <line class="ln" x1="340" y1="1214" x2="340" y2="1226"/>
+  <line class="ln" x1="130" y1="1226" x2="550" y2="1226"/>
+  <line class="ln" x1="130" y1="1226" x2="130" y2="1246"/>
+  <line class="ln" x1="270" y1="1226" x2="270" y2="1246"/>
+  <line class="ln" x1="410" y1="1226" x2="410" y2="1246"/>
+  <line class="ln" x1="550" y1="1226" x2="550" y2="1246"/>
+  <rect class="box" x="90"  y="1246" width="80" height="34"/>
+  <text class="en" x="130" y="1268">B</text>
+  <rect class="box" x="230" y="1246" width="80" height="34"/>
+  <text class="en" x="270" y="1268">C</text>
+  <rect class="box" x="370" y="1246" width="80" height="34"/>
+  <text class="en" x="410" y="1268">D</text>
+  <rect class="box" x="510" y="1246" width="80" height="34"/>
+  <text class="en" x="550" y="1268">E</text>
+</svg>
