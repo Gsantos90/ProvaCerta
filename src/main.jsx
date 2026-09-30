@@ -219,6 +219,8 @@ const cnuShifts = [
 // Slugs das provas do CNU cadastradas no Supabase, por ano/nivel/bloco/turno.
 // Somente as combinacoes presentes aqui ficam disponiveis para iniciar.
 const cnuExamSlugs = {
+  '2025|superior|bloco-7|tarde': 'cnu-2025-bloco7-tarde',
+  '2025|medio|bloco-8|tarde': 'cnu-2025-bloco8-tarde',
   '2024|superior|bloco-1|manha': 'cnu-2024-bloco1-manha',
   '2024|superior|bloco-1|tarde': 'cnu-2024-bloco1-tarde',
   '2024|superior|bloco-2|manha': 'cnu-2024-bloco2-manha',
@@ -232,6 +234,7 @@ const cnuExamSlugs = {
   '2024|superior|bloco-6|manha': 'cnu-2024-bloco6-manha',
   '2024|superior|bloco-6|tarde': 'cnu-2024-bloco6-tarde',
   '2024|superior|bloco-7|manha': 'cnu-2024-bloco7-manha',
+  '2024|superior|bloco-7|tarde': 'cnu-2024-bloco7-tarde',
   '2024|medio|bloco-8|manha': 'cnu-2024-bloco8-manha',
   '2024|medio|bloco-8|tarde': 'cnu-2024-bloco8-tarde',
 }
@@ -253,7 +256,7 @@ function App() {
   const [cnuYear, setCnuYear] = useState('2025')
   const [cnuLevel, setCnuLevel] = useState('superior')
   const [cnuBlock, setCnuBlock] = useState('bloco-1')
-  const [cnuShift, setCnuShift] = useState('manha')
+  const [cnuShift, setCnuShift] = useState('tarde')
   const [cnuLoading, setCnuLoading] = useState(false)
   const [cnuError, setCnuError] = useState('')
   const [enemCatalog, setEnemCatalog] = useState([])
@@ -319,7 +322,7 @@ function App() {
   }
   const activeQuestions = selectedExam === 'enem-api' || supabaseExamSlug ? enemQuestions : questionSets[selectedExam] || []
   const examLabel = selectedExam === 'pism-1' ? '2025-1' : selectedExam === 'pism-2' ? '2025-2' : selectedExam === 'pism-2024-1' ? '2024-1' : selectedExam === 'pism-2024-2' ? '2024-2' : selectedExam === 'pism-2023-1' ? '2023-1' : selectedExam === 'pism-2023-2' ? '2023-2' : selectedExam === 'enem-api' ? `ENEM ${enemYear}` : selectedExam === 'bb' ? `Banco do Brasil ${bbYear} · ${bbRole}` : selectedExam === 'cnu' ? `CNU ${cnuYear} · Bloco ${cnuBlock.replace('bloco-', '')}` : '2023-1_Cad_Amarelo - LINGUAGENS, CÓDIGOS E SUAS TECNOLOGIAS'
-  const cnuShiftLabel = cnuShift === 'manha' ? 'Manhã · Conhecimentos Gerais' : 'Tarde · Conhecimentos Específicos'
+  const cnuShiftLabel = cnuYear === '2025' ? 'Conhecimentos Gerais e Específicos' : cnuShift === 'manha' ? 'Manhã · Conhecimentos Gerais' : 'Tarde · Conhecimentos Específicos'
   const examDay = selectedExam === 'enem-api' ? 'Área selecionada' : selectedExam === 'bb' ? 'Prova objetiva' : selectedExam === 'cnu' ? cnuShiftLabel : examLabel.endsWith('-1') ? 'Dia 1' : 'Dia 2'
 
   // Normaliza letras de gabarito/resposta para evitar falhas de comparação
@@ -422,6 +425,9 @@ function App() {
   const changeCnuYear = (value) => {
     setCnuYear(value)
     setCnuBlock(blocksFor(value, cnuLevel)[0]?.value || '')
+    // Em 2025, conhecimentos gerais e específicos estão na mesma prova (turno único "tarde"),
+    // por isso o seletor de turno/fase fica oculto e o turno é fixado em "tarde".
+    if (value === '2025') setCnuShift('tarde')
   }
 
   const currentCnuBlocks = blocksFor(cnuYear, cnuLevel)
@@ -1095,15 +1101,17 @@ function CnuCard({ years, year, setYear, levels, level, onLevelChange, blocks, b
               <ChevronDown size={16} />
             </span>
           </label>
-          <label>
-            Turno / Fase
-            <span className="select-wrap">
-              <select value={shift} onChange={(event) => setShift(event.target.value)}>
-                {shifts.map((item) => <option key={item.value} value={item.value}>{item.label}</option>)}
-              </select>
-              <ChevronDown size={16} />
-            </span>
-          </label>
+          {year !== '2025' && (
+            <label>
+              Turno / Fase
+              <span className="select-wrap">
+                <select value={shift} onChange={(event) => setShift(event.target.value)}>
+                  {shifts.map((item) => <option key={item.value} value={item.value}>{item.label}</option>)}
+                </select>
+                <ChevronDown size={16} />
+              </span>
+            </label>
+          )}
         </div>
         {error && <p className="api-error" role="alert">{error}</p>}
         <button className={`button ${available && !loading ? 'primary' : 'disabled'} full`} onClick={onStart} disabled={!available || loading}>

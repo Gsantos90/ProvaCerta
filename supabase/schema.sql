@@ -60,5 +60,8 @@ values
   ('cnu-2024-bloco3-tarde', 'CNU 2024 - Bloco 3 (Tarde) - Conhecimentos Específicos', 'cnu', '2024'),
   ('cnu-2024-bloco4-tarde', 'CNU 2024 - Bloco 4 (Tarde) - Conhecimentos Específicos', 'cnu', '2024'),
   ('cnu-2024-bloco5-tarde', 'CNU 2024 - Bloco 5 (Tarde) - Conhecimentos Específicos', 'cnu', '2024'),
-  ('cnu-2024-bloco6-tarde', 'CNU 2024 - Bloco 6 (Tarde) - Conhecimentos Específicos', 'cnu', '2024')
+  ('cnu-2024-bloco6-tarde', 'CNU 2024 - Bloco 6 (Tarde) - Conhecimentos Específicos', 'cnu', '2024'),
+  ('cnu-2024-bloco7-tarde', 'CNU 2024 - Bloco 7 (Tarde) - Conhecimentos Específicos', 'cnu', '2024'),
+  ('cnu-2025-bloco7-tarde', 'CNU 2025 (2ª Edição) - Bloco 7 (Tarde) - Justiça e Defesa', 'cnu', '2025'),
+  ('cnu-2025-bloco8-tarde', 'CNU 2025 (2ª Edição) - Bloco 8 (Tarde) - Intermediário - Saúde', 'cnu', '2025')
 on conflict (slug) do nothing;
