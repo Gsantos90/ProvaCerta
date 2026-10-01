@@ -173,7 +173,6 @@ const bbRolesConfig = {
 
 // Concurso Publico Nacional Unificado (CNU).
 // Os blocos variam conforme o ano e o nivel. Quando houver prova cadastrada, o bloco tera um slug.
-const cnuYears = ['2025', '2024']
 const cnuLevelLabels = { superior: 'Nível superior', medio: 'Ensino médio' }
 const cnuBlocksByYear = {
   '2025': {
@@ -216,9 +215,19 @@ const cnuShifts = [
   { value: 'manha', label: 'Manhã — Conhecimentos Gerais' },
   { value: 'tarde', label: 'Tarde — Conhecimentos Específicos' },
 ]
+// Opcoes do seletor "Ano da prova": a fase/turno foi incorporada ao ano.
+// Em 2025, conhecimentos gerais e especificos estao na mesma prova (turno unico).
+// Em 2024, a prova e dividida em Manha (basicos) e Tarde (especificos).
+const cnuYearOptions = [
+  { value: '2025', label: '2025', year: '2025', shift: 'tarde' },
+  { value: '2024-manha', label: '2024 - Manhã - Conhecimentos Básicos', year: '2024', shift: 'manha' },
+  { value: '2024-tarde', label: '2024 - Tarde - Conhecimentos Específicos', year: '2024', shift: 'tarde' },
+]
 // Slugs das provas do CNU cadastradas no Supabase, por ano/nivel/bloco/turno.
 // Somente as combinacoes presentes aqui ficam disponiveis para iniciar.
 const cnuExamSlugs = {
+  '2025|superior|bloco-1|tarde': 'cnu-2025-bloco1-tarde',
+  '2025|superior|bloco-2|tarde': 'cnu-2025-bloco2-tarde',
   '2025|superior|bloco-7|tarde': 'cnu-2025-bloco7-tarde',
   '2025|medio|bloco-8|tarde': 'cnu-2025-bloco8-tarde',
   '2024|superior|bloco-1|manha': 'cnu-2024-bloco1-manha',
@@ -422,13 +431,15 @@ function App() {
     setCnuBlock(blocksFor(cnuYear, value)[0]?.value || '')
   }
 
-  const changeCnuYear = (value) => {
-    setCnuYear(value)
-    setCnuBlock(blocksFor(value, cnuLevel)[0]?.value || '')
-    // Em 2025, conhecimentos gerais e específicos estão na mesma prova (turno único "tarde"),
-    // por isso o seletor de turno/fase fica oculto e o turno é fixado em "tarde".
-    if (value === '2025') setCnuShift('tarde')
+  // O seletor "Ano da prova" agora combina ano + turno/fase em uma única opção.
+  const changeCnuYearOption = (optionValue) => {
+    const option = cnuYearOptions.find((item) => item.value === optionValue) || cnuYearOptions[0]
+    setCnuYear(option.year)
+    setCnuShift(option.shift)
+    setCnuBlock(blocksFor(option.year, cnuLevel)[0]?.value || '')
   }
+  // Valor atualmente selecionado no seletor combinado (deriva de ano + turno).
+  const cnuYearOption = cnuYear === '2025' ? '2025' : `2024-${cnuShift}`
 
   const currentCnuBlocks = blocksFor(cnuYear, cnuLevel)
   const cnuSlug = cnuExamSlugs[`${cnuYear}|${cnuLevel}|${cnuBlock}|${cnuShift}`]
@@ -636,18 +647,15 @@ function App() {
   )
   const cnuCard = (
     <CnuCard
-      years={cnuYears}
-      year={cnuYear}
-      setYear={changeCnuYear}
+      yearOptions={cnuYearOptions}
+      yearOption={cnuYearOption}
+      onYearOptionChange={changeCnuYearOption}
       levels={cnuLevelsConfig}
       level={cnuLevel}
       onLevelChange={changeCnuLevel}
       blocks={currentCnuBlocks}
       block={cnuBlock}
       setBlock={setCnuBlock}
-      shifts={cnuShifts}
-      shift={cnuShift}
-      setShift={setCnuShift}
       onStart={startCnuExam}
       available={isCnuAvailable}
       loading={cnuLoading}
@@ -969,17 +977,6 @@ function ExamCard({ type, title, description, series, currentSeries, onSeriesCha
         </div>
         <div className="pism-controls">
           <label>
-            Série
-            <span className="select-wrap">
-              <select value={currentSeries} onChange={(event) => onSeriesChange(event.target.value)}>
-                {Object.entries(series || {}).map(([key, item]) => (
-                  <option key={key} value={key}>{item.label}</option>
-                ))}
-              </select>
-              <ChevronDown size={16} />
-            </span>
-          </label>
-          <label>
             Ano da prova
             <span className="select-wrap">
               <select value={year} onChange={(event) => setYear(event.target.value)} disabled={!available || years.length === 0}>
@@ -988,6 +985,17 @@ function ExamCard({ type, title, description, series, currentSeries, onSeriesCha
                 ) : (
                   <option value="">Nenhuma prova disponível</option>
                 )}
+              </select>
+              <ChevronDown size={16} />
+            </span>
+          </label>
+          <label>
+            Série
+            <span className="select-wrap">
+              <select value={currentSeries} onChange={(event) => onSeriesChange(event.target.value)}>
+                {Object.entries(series || {}).map(([key, item]) => (
+                  <option key={key} value={key}>{item.label}</option>
+                ))}
               </select>
               <ChevronDown size={16} />
             </span>
@@ -1021,17 +1029,6 @@ function BbCard({ roles, role, onRoleChange, years, year, setYear, onStart, avai
         </div>
         <div className="pism-controls">
           <label>
-            Cargo
-            <span className="select-wrap">
-              <select value={role} onChange={(event) => onRoleChange(event.target.value)}>
-                {Object.entries(roles || {}).map(([key, item]) => (
-                  <option key={key} value={key}>{item.label}</option>
-                ))}
-              </select>
-              <ChevronDown size={16} />
-            </span>
-          </label>
-          <label>
             Ano da prova
             <span className="select-wrap">
               <select value={year} onChange={(event) => setYear(event.target.value)} disabled={!available || years.length === 0}>
@@ -1040,6 +1037,17 @@ function BbCard({ roles, role, onRoleChange, years, year, setYear, onStart, avai
                 ) : (
                   <option value="">Nenhuma prova disponível</option>
                 )}
+              </select>
+              <ChevronDown size={16} />
+            </span>
+          </label>
+          <label>
+            Cargo
+            <span className="select-wrap">
+              <select value={role} onChange={(event) => onRoleChange(event.target.value)}>
+                {Object.entries(roles || {}).map(([key, item]) => (
+                  <option key={key} value={key}>{item.label}</option>
+                ))}
               </select>
               <ChevronDown size={16} />
             </span>
@@ -1054,7 +1062,7 @@ function BbCard({ roles, role, onRoleChange, years, year, setYear, onStart, avai
   )
 }
 
-function CnuCard({ years, year, setYear, levels, level, onLevelChange, blocks, block, setBlock, shifts, shift, setShift, onStart, available, loading, error }) {
+function CnuCard({ yearOptions, yearOption, onYearOptionChange, levels, level, onLevelChange, blocks, block, setBlock, onStart, available, loading, error }) {
   return (
     <article className="exam-card color-teal">
       <div className="card-art">
@@ -1075,8 +1083,8 @@ function CnuCard({ years, year, setYear, levels, level, onLevelChange, blocks, b
           <label>
             Ano da prova
             <span className="select-wrap">
-              <select value={year} onChange={(event) => setYear(event.target.value)}>
-                {years.map((item) => <option key={item} value={item}>{item}</option>)}
+              <select value={yearOption} onChange={(event) => onYearOptionChange(event.target.value)}>
+                {yearOptions.map((item) => <option key={item.value} value={item.value}>{item.label}</option>)}
               </select>
               <ChevronDown size={16} />
             </span>
@@ -1101,17 +1109,6 @@ function CnuCard({ years, year, setYear, levels, level, onLevelChange, blocks, b
               <ChevronDown size={16} />
             </span>
           </label>
-          {year !== '2025' && (
-            <label>
-              Turno / Fase
-              <span className="select-wrap">
-                <select value={shift} onChange={(event) => setShift(event.target.value)}>
-                  {shifts.map((item) => <option key={item.value} value={item.value}>{item.label}</option>)}
-                </select>
-                <ChevronDown size={16} />
-              </span>
-            </label>
-          )}
         </div>
         {error && <p className="api-error" role="alert">{error}</p>}
         <button className={`button ${available && !loading ? 'primary' : 'disabled'} full`} onClick={onStart} disabled={!available || loading}>
@@ -1140,6 +1137,15 @@ function UpcomingCard({ exam }) {
           <span className="status">Em breve</span>
         </div>
         <div className="pism-controls">
+          <label>
+            Ano da prova
+            <span className="select-wrap">
+              <select disabled>
+                <option value="">Em breve</option>
+              </select>
+              <ChevronDown size={16} />
+            </span>
+          </label>
           {exam.roles?.length > 0 && (
             <label>
               Cargo
@@ -1151,15 +1157,6 @@ function UpcomingCard({ exam }) {
               </span>
             </label>
           )}
-          <label>
-            Ano da prova
-            <span className="select-wrap">
-              <select disabled>
-                <option value="">Em breve</option>
-              </select>
-              <ChevronDown size={16} />
-            </span>
-          </label>
         </div>
         <button className="button disabled full" disabled>Em breve</button>
       </div>
