@@ -1,0 +1,101 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="660" height="520" viewBox="0 0 660 520" font-family="Arial, Helvetica, sans-serif">
+  <rect width="660" height="520" fill="#ffffff"/>
+  <text x="330" y="22" text-anchor="middle" font-size="13" font-weight="bold" fill="#111">Distribuição por sexo e raça em cargos de liderança — Executivo Federal</text>
+  <text x="330" y="39" text-anchor="middle" font-size="11" fill="#333">(% por grupo) — Mulheres Negras · Mulheres Brancas · Homens Negros · Homens Brancos</text>
+
+  <!-- Escala horizontal: x0=150 (0%), x1=610 (100%) => 4.6 px por %. Cada barra: y por categoria. -->
+  <!-- cores -->
+  <!-- MN #d9d2e9 (claro, hachura), MB #a7bfe8, HN #7f8fb0, HB #2f3b57 -->
+
+  <!-- Linha de cabecalho de eixo -->
+  <g font-size="10" fill="#555">
+    <text x="150" y="70" text-anchor="middle">0%</text>
+    <text x="265" y="70" text-anchor="middle">25%</text>
+    <text x="380" y="70" text-anchor="middle">50%</text>
+    <text x="495" y="70" text-anchor="middle">75%</text>
+    <text x="610" y="70" text-anchor="middle">100%</text>
+  </g>
+
+  <!-- Macro para cada linha: labels a esquerda em x=145 -->
+  <!-- BRASIL 28/23/27/21  (y=80) -->
+  <g>
+    <text x="140" y="94" text-anchor="end" font-size="10" fill="#222">BRASIL</text>
+    <rect x="150" y="82" width="128.8" height="18" fill="#d9d2e9"/><text x="214" y="95" text-anchor="middle" font-size="9" fill="#333">28</text>
+    <rect x="278.8" y="82" width="105.8" height="18" fill="#a7bfe8"/><text x="331" y="95" text-anchor="middle" font-size="9" fill="#333">23</text>
+    <rect x="384.6" y="82" width="124.2" height="18" fill="#7f8fb0"/><text x="446" y="95" text-anchor="middle" font-size="9" fill="#fff">27</text>
+    <rect x="508.8" y="82" width="96.6" height="18" fill="#2f3b57"/><text x="557" y="95" text-anchor="middle" font-size="9" fill="#fff">21</text>
+  </g>
+  <!-- CCE e FCE 15/26/22/34  (y=108) -->
+  <g>
+    <text x="140" y="120" text-anchor="end" font-size="10" fill="#222">CCE e FCE</text>
+    <rect x="150" y="108" width="69" height="18" fill="#d9d2e9"/><text x="184" y="121" text-anchor="middle" font-size="9" fill="#333">15</text>
+    <rect x="219" y="108" width="119.6" height="18" fill="#a7bfe8"/><text x="279" y="121" text-anchor="middle" font-size="9" fill="#333">26</text>
+    <rect x="338.6" y="108" width="101.2" height="18" fill="#7f8fb0"/><text x="389" y="121" text-anchor="middle" font-size="9" fill="#fff">22</text>
+    <rect x="439.8" y="108" width="156.4" height="18" fill="#2f3b57"/><text x="518" y="121" text-anchor="middle" font-size="9" fill="#fff">34</text>
+  </g>
+  <!-- Nat. Esp 8/17/8/63  (y=134) -->
+  <g>
+    <text x="140" y="146" text-anchor="end" font-size="10" fill="#222">Nat. Esp.</text>
+    <rect x="150" y="134" width="36.8" height="18" fill="#d9d2e9"/><text x="168" y="147" text-anchor="middle" font-size="9" fill="#333">8</text>
+    <rect x="186.8" y="134" width="78.2" height="18" fill="#a7bfe8"/><text x="226" y="147" text-anchor="middle" font-size="9" fill="#333">17</text>
+    <rect x="265" y="134" width="36.8" height="18" fill="#7f8fb0"/><text x="283" y="147" text-anchor="middle" font-size="9" fill="#fff">8</text>
+    <rect x="301.8" y="134" width="289.8" height="18" fill="#2f3b57"/><text x="446" y="147" text-anchor="middle" font-size="9" fill="#fff">63</text>
+  </g>
+  <!-- DAS-6 9/21/13/54  (y=160) -->
+  <g>
+    <text x="140" y="172" text-anchor="end" font-size="10" fill="#222">DAS-6</text>
+    <rect x="150" y="160" width="41.4" height="18" fill="#d9d2e9"/><text x="170" y="173" text-anchor="middle" font-size="9" fill="#333">9</text>
+    <rect x="191.4" y="160" width="96.6" height="18" fill="#a7bfe8"/><text x="239" y="173" text-anchor="middle" font-size="9" fill="#333">21</text>
+    <rect x="288" y="160" width="59.8" height="18" fill="#7f8fb0"/><text x="318" y="173" text-anchor="middle" font-size="9" fill="#fff">13</text>
+    <rect x="347.8" y="160" width="248.4" height="18" fill="#2f3b57"/><text x="472" y="173" text-anchor="middle" font-size="9" fill="#fff">54</text>
+  </g>
+  <!-- DAS-5 11/27/16/43  (y=186) -->
+  <g>
+    <text x="140" y="198" text-anchor="end" font-size="10" fill="#222">DAS-5</text>
+    <rect x="150" y="186" width="50.6" height="18" fill="#d9d2e9"/><text x="175" y="199" text-anchor="middle" font-size="9" fill="#333">11</text>
+    <rect x="200.6" y="186" width="124.2" height="18" fill="#a7bfe8"/><text x="263" y="199" text-anchor="middle" font-size="9" fill="#333">27</text>
+    <rect x="324.8" y="186" width="73.6" height="18" fill="#7f8fb0"/><text x="362" y="199" text-anchor="middle" font-size="9" fill="#fff">16</text>
+    <rect x="398.4" y="186" width="197.8" height="18" fill="#2f3b57"/><text x="497" y="199" text-anchor="middle" font-size="9" fill="#fff">43</text>
+  </g>
+  <!-- DAS-4 13/27/19/38  (y=212) -->
+  <g>
+    <text x="140" y="224" text-anchor="end" font-size="10" fill="#222">DAS-4</text>
+    <rect x="150" y="212" width="59.8" height="18" fill="#d9d2e9"/><text x="180" y="225" text-anchor="middle" font-size="9" fill="#333">13</text>
+    <rect x="209.8" y="212" width="124.2" height="18" fill="#a7bfe8"/><text x="272" y="225" text-anchor="middle" font-size="9" fill="#333">27</text>
+    <rect x="334" y="212" width="87.4" height="18" fill="#7f8fb0"/><text x="378" y="225" text-anchor="middle" font-size="9" fill="#fff">19</text>
+    <rect x="421.4" y="212" width="174.8" height="18" fill="#2f3b57"/><text x="509" y="225" text-anchor="middle" font-size="9" fill="#fff">38</text>
+  </g>
+  <!-- DAS-3 16/28/21/33  (y=238) -->
+  <g>
+    <text x="140" y="250" text-anchor="end" font-size="10" fill="#222">DAS-3</text>
+    <rect x="150" y="238" width="73.6" height="18" fill="#d9d2e9"/><text x="187" y="251" text-anchor="middle" font-size="9" fill="#333">16</text>
+    <rect x="223.6" y="238" width="128.8" height="18" fill="#a7bfe8"/><text x="288" y="251" text-anchor="middle" font-size="9" fill="#333">28</text>
+    <rect x="352.4" y="238" width="96.6" height="18" fill="#7f8fb0"/><text x="401" y="251" text-anchor="middle" font-size="9" fill="#fff">21</text>
+    <rect x="449" y="238" width="151.8" height="18" fill="#2f3b57"/><text x="525" y="251" text-anchor="middle" font-size="9" fill="#fff">33</text>
+  </g>
+  <!-- DAS-2 17/27/21/32  (y=264) -->
+  <g>
+    <text x="140" y="276" text-anchor="end" font-size="10" fill="#222">DAS-2</text>
+    <rect x="150" y="264" width="78.2" height="18" fill="#d9d2e9"/><text x="189" y="277" text-anchor="middle" font-size="9" fill="#333">17</text>
+    <rect x="228.2" y="264" width="124.2" height="18" fill="#a7bfe8"/><text x="290" y="277" text-anchor="middle" font-size="9" fill="#333">27</text>
+    <rect x="352.4" y="264" width="96.6" height="18" fill="#7f8fb0"/><text x="401" y="277" text-anchor="middle" font-size="9" fill="#fff">21</text>
+    <rect x="449" y="264" width="147.2" height="18" fill="#2f3b57"/><text x="523" y="277" text-anchor="middle" font-size="9" fill="#fff">32</text>
+  </g>
+  <!-- DAS-1 15/24/25/33  (y=290) -->
+  <g>
+    <text x="140" y="302" text-anchor="end" font-size="10" fill="#222">DAS-1</text>
+    <rect x="150" y="290" width="69" height="18" fill="#d9d2e9"/><text x="184" y="303" text-anchor="middle" font-size="9" fill="#333">15</text>
+    <rect x="219" y="290" width="110.4" height="18" fill="#a7bfe8"/><text x="274" y="303" text-anchor="middle" font-size="9" fill="#333">24</text>
+    <rect x="329.4" y="290" width="115" height="18" fill="#7f8fb0"/><text x="387" y="303" text-anchor="middle" font-size="9" fill="#fff">25</text>
+    <rect x="444.4" y="290" width="151.8" height="18" fill="#2f3b57"/><text x="520" y="303" text-anchor="middle" font-size="9" fill="#fff">33</text>
+  </g>
+
+  <!-- Legenda -->
+  <g font-size="10" fill="#222">
+    <rect x="90" y="340" width="14" height="14" fill="#d9d2e9"/><text x="108" y="351">Mulheres Negras</text>
+    <rect x="230" y="340" width="14" height="14" fill="#a7bfe8"/><text x="248" y="351">Mulheres Brancas</text>
+    <rect x="372" y="340" width="14" height="14" fill="#7f8fb0"/><text x="390" y="351">Homens Negros</text>
+    <rect x="505" y="340" width="14" height="14" fill="#2f3b57"/><text x="523" y="351">Homens Brancos</text>
+  </g>
+  <text x="330" y="378" text-anchor="middle" font-size="9" fill="#666">(Fonte: Movimento Pessoas à Frente, nota técnica 2024, com base no Painel Estatístico de Pessoal — MGI, 2023, p. 12)</text>
+</svg>
