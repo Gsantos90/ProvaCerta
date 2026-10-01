@@ -65,5 +65,8 @@ values
   ('cnu-2025-bloco7-tarde', 'CNU 2025 (2ª Edição) - Bloco 7 (Tarde) - Justiça e Defesa', 'cnu', '2025'),
   ('cnu-2025-bloco8-tarde', 'CNU 2025 (2ª Edição) - Bloco 8 (Tarde) - Intermediário - Saúde', 'cnu', '2025'),
   ('cnu-2025-bloco1-tarde', 'CNU 2025 (2ª Edição) - Bloco 1 (Tarde) - Seguridade Social', 'cnu', '2025'),
-  ('cnu-2025-bloco2-tarde', 'CNU 2025 (2ª Edição) - Bloco 2 (Tarde) - Cultura e Educação', 'cnu', '2025')
+  ('cnu-2025-bloco2-tarde', 'CNU 2025 (2ª Edição) - Bloco 2 (Tarde) - Cultura e Educação', 'cnu', '2025'),
+  ('cnu-2025-bloco3-tarde', 'CNU 2025 (2ª Edição) - Bloco 3 (Tarde) - Ciências, Dados e Tecnologia', 'cnu', '2025'),
+  ('cnu-2025-bloco4-tarde', 'CNU 2025 (2ª Edição) - Bloco 4 (Tarde) - Engenharias e Arquitetura', 'cnu', '2025'),
+  ('cnu-2025-bloco5-tarde', 'CNU 2025 (2ª Edição) - Bloco 5 (Tarde) - Administração', 'cnu', '2025')
 on conflict (slug) do nothing;

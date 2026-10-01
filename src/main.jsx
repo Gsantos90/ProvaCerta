@@ -228,6 +228,9 @@ const cnuYearOptions = [
 const cnuExamSlugs = {
   '2025|superior|bloco-1|tarde': 'cnu-2025-bloco1-tarde',
   '2025|superior|bloco-2|tarde': 'cnu-2025-bloco2-tarde',
+  '2025|superior|bloco-3|tarde': 'cnu-2025-bloco3-tarde',
+  '2025|superior|bloco-4|tarde': 'cnu-2025-bloco4-tarde',
+  '2025|superior|bloco-5|tarde': 'cnu-2025-bloco5-tarde',
   '2025|superior|bloco-7|tarde': 'cnu-2025-bloco7-tarde',
   '2025|medio|bloco-8|tarde': 'cnu-2025-bloco8-tarde',
   '2024|superior|bloco-1|manha': 'cnu-2024-bloco1-manha',
@@ -246,6 +249,27 @@ const cnuExamSlugs = {
   '2024|superior|bloco-7|tarde': 'cnu-2024-bloco7-tarde',
   '2024|medio|bloco-8|manha': 'cnu-2024-bloco8-manha',
   '2024|medio|bloco-8|tarde': 'cnu-2024-bloco8-tarde',
+}
+
+// Renderiza uma ou mais imagens de apoio. O campo support_image pode conter
+// varios caminhos separados por virgula; cada um vira uma <img> clicavel.
+function renderSupportImages(supportImage, questionNumber) {
+  if (!supportImage) return null
+  const sources = String(supportImage)
+    .split(',')
+    .map((src) => src.trim())
+    .filter(Boolean)
+  if (sources.length === 0) return null
+  return sources.map((src, index) => (
+    <img
+      key={src}
+      className="support-image"
+      src={src}
+      alt={sources.length > 1
+        ? `Imagem de apoio ${index + 1} da questão ${questionNumber}`
+        : `Imagem de apoio da questão ${questionNumber}`}
+    />
+  ))
 }
 
 function App() {
@@ -826,11 +850,11 @@ function App() {
 
               <div className="support-stack" style={{ fontSize: `${supportScale}rem` }} onClick={(event) => { if (event.target.tagName === 'IMG' && event.target.classList.contains('support-image')) setLightboxImage({ src: event.target.src, alt: event.target.alt }) }}>
               {supabaseExamSlug
-                ? (question.support || question.supportImage) && <details className="sidebar-support" open><summary><BookOpen size={16} /><span>Texto ou imagem de apoio</span><ChevronDown size={15} /></summary><div>{question.supportImage && <img className="support-image" src={question.supportImage} alt={`Imagem de apoio da questão ${current + 1}`} />}{question.support && <span>{question.support}</span>}</div></details>
+                ? (question.support || question.supportImage) && <details className="sidebar-support" open><summary><BookOpen size={16} /><span>Texto ou imagem de apoio</span><ChevronDown size={15} /></summary><div>{renderSupportImages(question.supportImage, current + 1)}{question.support && <span>{question.support}</span>}</div></details>
                 : selectedExam === 'enem-api'
-                ? (question.support || question.supportImage) && <details className="sidebar-support" open><summary><BookOpen size={16} /><span>Texto ou imagem de apoio</span><ChevronDown size={15} /></summary><div>{question.supportImage && <img className="support-image" src={question.supportImage} alt={`Imagem de apoio da questão ${current + 1}`} />}{question.support && <span>{question.support}</span>}</div></details>
+                ? (question.support || question.supportImage) && <details className="sidebar-support" open><summary><BookOpen size={16} /><span>Texto ou imagem de apoio</span><ChevronDown size={15} /></summary><div>{renderSupportImages(question.supportImage, current + 1)}{question.support && <span>{question.support}</span>}</div></details>
                 : selectedExam === 'enem-2023-1-ingles'
-                ? <details className="sidebar-support" open><summary><BookOpen size={16} /><span>Texto ou imagem de apoio</span><ChevronDown size={15} /></summary><div>{question.supportImage ? <img className="support-image" src={question.supportImage} alt={`Imagem de apoio da questão ${current + 1}`} /> : <span>{current === 9 ? `${enem2023SpanishSupport[9]}\n\n${question.support}` : question.support || enem2023SpanishSupport[current]}</span>}</div></details>
+                ? <details className="sidebar-support" open><summary><BookOpen size={16} /><span>Texto ou imagem de apoio</span><ChevronDown size={15} /></summary><div>{question.supportImage ? renderSupportImages(question.supportImage, current + 1) : <span>{current === 9 ? `${enem2023SpanishSupport[9]}\n\n${question.support}` : question.support || enem2023SpanishSupport[current]}</span>}</div></details>
                 : null}
               </div>
 
@@ -1014,7 +1038,7 @@ function BbCard({ roles, role, onRoleChange, years, year, setYear, onStart, avai
   return (
     <article className="exam-card color-gold">
       <div className="card-art">
-        <span className="art-kicker">BANCÁRIO</span>
+        <span className="art-kicker">Bancário</span>
         <strong>BB</strong>
         <span className="art-shape">BB</span>
         <div className="art-dots" />
