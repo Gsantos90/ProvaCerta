@@ -96,6 +96,23 @@ Pode conter também:
 - `support`: texto de apoio;
 - `supportImage`: caminho de uma imagem de apoio em `public/`.
 
+### Convenção para o campo `subject` (nome da matéria)
+
+O `subject` deve conter apenas o nome limpo da matéria/área, sem prefixos de
+numeração ou rotulação da banca. Em provas do CNU, os cadernos trazem títulos
+como `Eixo Temático 1 - Seguridade Social`; nesse caso, grave somente a parte
+descritiva, descartando o trecho `Eixo Temático N -`.
+
+- usar `Seguridade Social` (e não `Eixo Temático 1 - Seguridade Social`);
+- usar `Saúde` (e não `Eixo Temático 2 - Saúde`);
+- usar `Previdência Social` (e não `Eixo Temático 4 - Previdência Social`);
+- do mesmo modo para `Assistência Social`, `Saúde e Segurança do Trabalho`,
+  `Justiça e Defesa`, `Gestão Governamental e Métodos Aplicados` etc.;
+- para o bloco inicial comum do CNU, usar `Conhecimentos Gerais`;
+- a mesma lógica vale para qualquer outra banca: remover rótulos de seção como
+  `Eixo`, `Bloco`, `Parte`, `Grupo` ou numerações, preservando apenas o nome
+  temático da disciplina.
+
 Regras:
 
 - `options` deve ter cinco alternativas na ordem A–E;
@@ -246,7 +263,7 @@ Representa uma questão objetiva.
 | `id` | `uuid` PK | Identificador único gerado automaticamente. |
 | `exam_id` | `uuid` FK → `exams.id` | Prova à qual a questão pertence. |
 | `number` | `integer` | Número de ordem dentro da prova. |
-| `subject` | `text` | Disciplina, ex: `Língua Portuguesa`, `Matemática`. |
+| `subject` | `text` | Disciplina/área, ex: `Língua Portuguesa`, `Matemática`, `Seguridade Social`. Nome limpo, sem prefixos de seção da banca (ex.: gravar `Seguridade Social`, não `Eixo Temático 1 - Seguridade Social`). Ver "Convenção para o campo `subject`". |
 | `text` | `text` | Enunciado completo da questão. |
 | `support` | `text` | Texto de apoio exibido na lateral (opcional). |
 | `support_image` | `text` | Caminho da imagem em `/public/`, ex: `/texto-3-cerrado.png` (opcional). |
