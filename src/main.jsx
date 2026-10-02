@@ -103,6 +103,14 @@ const catalogCategories = [
       { id: 'pc', name: 'Polícia Civil', org: 'Segurança', short: 'PC', description: 'Concurso da Polícia Civil', available: false, color: 'crimson', roles: ['Investigador', 'Escrivão', 'Delegado', 'Perito Criminal'] },
     ],
   },
+  {
+    id: 'oab',
+    title: 'Exame da Ordem (OAB)',
+    description: 'Exame de Ordem Unificado da Ordem dos Advogados do Brasil.',
+    exams: [
+      { id: 'oab', name: 'OAB', org: 'Ordem dos Advogados', short: 'OAB', description: 'Exame de Ordem Unificado (1ª fase)', available: true, color: 'crimson', roles: ['1ª fase'] },
+    ],
+  },
 ]
 
 const wait = (milliseconds) => new Promise((resolve) => setTimeout(resolve, milliseconds))
@@ -234,6 +242,7 @@ const cnuExamSlugs = {
   '2025|superior|bloco-6|tarde': 'cnu-2025-bloco6-tarde',
   '2025|superior|bloco-7|tarde': 'cnu-2025-bloco7-tarde',
   '2025|medio|bloco-8|tarde': 'cnu-2025-bloco8-tarde',
+  '2025|medio|bloco-9|tarde': 'cnu-2025-bloco9-tarde',
   '2024|superior|bloco-1|manha': 'cnu-2024-bloco1-manha',
   '2024|superior|bloco-1|tarde': 'cnu-2024-bloco1-tarde',
   '2024|superior|bloco-2|manha': 'cnu-2024-bloco2-manha',
@@ -251,6 +260,23 @@ const cnuExamSlugs = {
   '2024|medio|bloco-8|manha': 'cnu-2024-bloco8-manha',
   '2024|medio|bloco-8|tarde': 'cnu-2024-bloco8-tarde',
 }
+
+// Exame de Ordem Unificado da OAB (1a fase), organizado por ano da prova.
+// Cada edicao aponta para o slug da prova cadastrada no Supabase (quando houver).
+// Enquanto o slug for null, a edicao aparece listada, mas o botao fica desabilitado
+// ("Em breve"). Para habilitar, basta preencher o slug do seed correspondente.
+const oabExamsByYear = {
+  '2026': [
+    { value: '47', label: '47º Exame de Ordem', slug: 'oab-47-primeira-fase' },
+    { value: '46', label: '46º Exame de Ordem', slug: 'oab-46-primeira-fase' },
+  ],
+  '2025': [
+    { value: '45', label: '45º Exame de Ordem', slug: 'oab-45-primeira-fase' },
+    { value: '44', label: '44º Exame de Ordem', slug: 'oab-44-primeira-fase' },
+    { value: '43', label: '43º Exame de Ordem', slug: 'oab-43-primeira-fase' },
+  ],
+}
+const oabYearOptions = Object.keys(oabExamsByYear).sort((a, b) => b.localeCompare(a))
 
 // Renderiza uma ou mais imagens de apoio. O campo support_image pode conter
 // varios caminhos separados por virgula; cada um vira uma <img> clicavel.
@@ -291,6 +317,10 @@ function App() {
   const [cnuLevel, setCnuLevel] = useState('superior')
   const [cnuBlock, setCnuBlock] = useState('bloco-1')
   const [cnuShift, setCnuShift] = useState('tarde')
+  const [oabYear, setOabYear] = useState(oabYearOptions[0] || '')
+  const [oabEdition, setOabEdition] = useState(oabExamsByYear[oabYearOptions[0]]?.[0]?.value || '')
+  const [oabLoading, setOabLoading] = useState(false)
+  const [oabError, setOabError] = useState('')
   const [cnuLoading, setCnuLoading] = useState(false)
   const [cnuError, setCnuError] = useState('')
   const [enemCatalog, setEnemCatalog] = useState([])
@@ -363,9 +393,9 @@ function App() {
     ...enemCatalog,
   ].sort((a, b) => b.year - a.year)
   const activeQuestions = selectedExam === 'enem-api' || supabaseExamSlug ? enemQuestions : questionSets[selectedExam] || []
-  const examLabel = selectedExam === 'pism-1' ? '2025-1' : selectedExam === 'pism-2' ? '2025-2' : selectedExam === 'pism-2024-1' ? '2024-1' : selectedExam === 'pism-2024-2' ? '2024-2' : selectedExam === 'pism-2023-1' ? '2023-1' : selectedExam === 'pism-2023-2' ? '2023-2' : supabaseExamSlug === 'enem-2024' ? 'ENEM 2024 · Prova completa' : selectedExam === 'enem-api' ? `ENEM ${enemYear}` : selectedExam === 'bb' ? `Banco do Brasil ${bbYear} · ${bbRole}` : selectedExam === 'cnu' ? `CNU ${cnuYear} · Bloco ${cnuBlock.replace('bloco-', '')}` : '2023-1_Cad_Amarelo - LINGUAGENS, CÓDIGOS E SUAS TECNOLOGIAS'
+  const examLabel = selectedExam === 'pism-1' ? '2025-1' : selectedExam === 'pism-2' ? '2025-2' : selectedExam === 'pism-2024-1' ? '2024-1' : selectedExam === 'pism-2024-2' ? '2024-2' : selectedExam === 'pism-2023-1' ? '2023-1' : selectedExam === 'pism-2023-2' ? '2023-2' : supabaseExamSlug === 'enem-2024' ? 'ENEM 2024 · Prova completa' : selectedExam === 'enem-api' ? `ENEM ${enemYear}` : selectedExam === 'bb' ? `Banco do Brasil ${bbYear} · ${bbRole}` : selectedExam === 'cnu' ? `CNU ${cnuYear} · Bloco ${cnuBlock.replace('bloco-', '')}` : selectedExam === 'oab' ? `OAB ${oabYear} · ${(oabExamsByYear[oabYear] || []).find((item) => item.value === oabEdition)?.label || 'Exame de Ordem'}` : '2023-1_Cad_Amarelo - LINGUAGENS, CÓDIGOS E SUAS TECNOLOGIAS'
   const cnuShiftLabel = cnuYear === '2025' ? 'Conhecimentos Gerais e Específicos' : cnuShift === 'manha' ? 'Manhã · Conhecimentos Gerais' : 'Tarde · Conhecimentos Específicos'
-  const examDay = supabaseExamSlug === 'enem-2024' ? 'Prova completa · 180 questões' : selectedExam === 'enem-api' ? 'Área selecionada' : selectedExam === 'bb' ? 'Prova objetiva' : selectedExam === 'cnu' ? cnuShiftLabel : examLabel.endsWith('-1') ? 'Dia 1' : 'Dia 2'
+  const examDay = supabaseExamSlug === 'enem-2024' ? 'Prova completa · 180 questões' : selectedExam === 'enem-api' ? 'Área selecionada' : selectedExam === 'bb' ? 'Prova objetiva' : selectedExam === 'oab' ? 'Prova objetiva · 1ª fase' : selectedExam === 'cnu' ? cnuShiftLabel : examLabel.endsWith('-1') ? 'Dia 1' : 'Dia 2'
 
   // Normaliza letras de gabarito/resposta para evitar falhas de comparação
   // por espaços, quebras de linha ou diferença de maiúsculas/minúsculas.
@@ -495,6 +525,38 @@ function App() {
       setCnuError(`Não foi possível carregar as questões do Supabase: ${error.message}`)
     } finally {
       setCnuLoading(false)
+    }
+  }
+
+  // Exame da Ordem (OAB). Carrega a prova da edicao selecionada a partir do slug
+  // cadastrado em oabExamsByYear/Supabase.
+  const currentOabEditions = oabExamsByYear[oabYear] || []
+  const oabSlug = currentOabEditions.find((item) => item.value === oabEdition)?.slug
+  const isOabAvailable = Boolean(oabSlug)
+
+  const changeOabYear = (value) => {
+    setOabYear(value)
+    setOabEdition((oabExamsByYear[value] || [])[0]?.value || '')
+    setOabError('')
+  }
+
+  const startOabExam = async () => {
+    if (!oabSlug) return
+    setOabLoading(true)
+    setOabError('')
+    try {
+      const questions = await loadSupabaseExam(oabSlug)
+      setEnemQuestions(questions)
+      setSupabaseExamSlug(oabSlug)
+      setSelectedExam('oab')
+      setCurrent(0)
+      setAnswers({})
+      setScreen('exam')
+      setMenuOpen(false)
+    } catch (error) {
+      setOabError(`Não foi possível carregar as questões do Supabase: ${error.message}`)
+    } finally {
+      setOabLoading(false)
     }
   }
 
@@ -716,7 +778,21 @@ function App() {
       error={cnuError}
     />
   )
-  const featuredCards = { pism: pismCard, enem: enemCard, bb: bbCard, cnu: cnuCard }
+  const oabCard = (
+    <OabCard
+      years={oabYearOptions}
+      year={oabYear}
+      setYear={changeOabYear}
+      editions={currentOabEditions}
+      edition={oabEdition}
+      setEdition={setOabEdition}
+      onStart={startOabExam}
+      available={isOabAvailable}
+      loading={oabLoading}
+      error={oabError}
+    />
+  )
+  const featuredCards = { pism: pismCard, enem: enemCard, bb: bbCard, cnu: cnuCard, oab: oabCard }
 
   if (screen === 'catalog') {
     return (
@@ -768,7 +844,7 @@ function App() {
               // Nos concursos e nas faculdades publicas, os cards funcionais usam o mesmo
               // grid compacto (trio) dos demais para manter todos com o mesmo tamanho:
               // 3 por linha e o que sobrar na linha de baixo.
-              const useUnifiedGrid = category.kind === 'concurso' || category.id === 'faculdades'
+              const useUnifiedGrid = category.kind === 'concurso' || category.id === 'faculdades' || category.id === 'oab'
               return (
                 <section className="catalog-category" key={category.id}>
                   <div className="catalog-category-head">
@@ -861,7 +937,7 @@ function App() {
         <main className="exam-page">
           <div className="exam-topline">
             <button className="back-link" onClick={() => setScreen(isReview ? 'result' : 'home')}><ArrowLeft size={17} /> {isReview ? 'Voltar ao resultado' : 'Sair da prova'}</button>
-            <div className="exam-name"><span className="mini-logo">P</span><span>provacerta · {selectedExam === 'enem-api' || selectedExam === 'bb' || selectedExam === 'cnu' ? examLabel : `PISM ${examLabel}`}</span><b>·</b><span>{isReview ? 'Revisão' : selectedExam === 'bb' || selectedExam === 'cnu' ? examDay : `Módulo I · ${examDay}`}</span></div>
+            <div className="exam-name"><span className="mini-logo">P</span><span>provacerta · {selectedExam === 'enem-api' || selectedExam === 'bb' || selectedExam === 'cnu' || selectedExam === 'oab' ? examLabel : `PISM ${examLabel}`}</span><b>·</b><span>{isReview ? 'Revisão' : selectedExam === 'bb' || selectedExam === 'cnu' || selectedExam === 'oab' ? examDay : `Módulo I · ${examDay}`}</span></div>
             <span className="question-count">{current + 1} <i>/</i> {activeQuestions.length}</span>
           </div>
           <div className="progress-track"><span style={{ width: `${((current + 1) / activeQuestions.length) * 100}%` }} /></div>
@@ -1167,6 +1243,60 @@ function CnuCard({ yearOptions, yearOption, onYearOptionChange, levels, level, o
             <span className="select-wrap">
               <select value={block} onChange={(event) => setBlock(event.target.value)} disabled={blocks.length === 0}>
                 {blocks.map((item) => <option key={item.value} value={item.value}>{item.label}</option>)}
+              </select>
+              <ChevronDown size={16} />
+            </span>
+          </label>
+        </div>
+        {error && <p className="api-error" role="alert">{error}</p>}
+        <button className={`button ${available && !loading ? 'primary' : 'disabled'} full`} onClick={onStart} disabled={!available || loading}>
+          {loading ? 'Carregando questões…' : available ? 'Começar prova' : 'Em breve'} {available && !loading && <ArrowRight size={17} />}
+        </button>
+      </div>
+    </article>
+  )
+}
+
+function OabCard({ years, year, setYear, editions, edition, setEdition, onStart, available, loading, error }) {
+  return (
+    <article className="exam-card color-crimson">
+      <div className="card-art">
+        <span className="art-kicker">ORDEM DOS ADVOGADOS</span>
+        <strong>OAB</strong>
+        <span className="art-shape">OAB</span>
+        <div className="art-dots" />
+      </div>
+      <div className="exam-card-body">
+        <div className="card-title-row">
+          <div>
+            <h3>OAB</h3>
+            <p>Exame de Ordem Unificado (1ª fase)</p>
+          </div>
+          <span className={`status ${available ? 'ready' : ''}`}>{available ? 'Disponível' : 'Em breve'}</span>
+        </div>
+        <div className="pism-controls">
+          <label>
+            Ano da prova
+            <span className="select-wrap">
+              <select value={year} onChange={(event) => setYear(event.target.value)} disabled={years.length === 0}>
+                {years.length > 0 ? (
+                  years.map((item) => <option key={item} value={item}>{item}</option>)
+                ) : (
+                  <option value="">Nenhum ano disponível</option>
+                )}
+              </select>
+              <ChevronDown size={16} />
+            </span>
+          </label>
+          <label>
+            Edição do exame
+            <span className="select-wrap">
+              <select value={edition} onChange={(event) => setEdition(event.target.value)} disabled={editions.length === 0}>
+                {editions.length > 0 ? (
+                  editions.map((item) => <option key={item.value} value={item.value}>{item.label}</option>)
+                ) : (
+                  <option value="">Nenhuma prova disponível</option>
+                )}
               </select>
               <ChevronDown size={16} />
             </span>

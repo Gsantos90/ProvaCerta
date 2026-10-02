@@ -70,5 +70,11 @@ values
   ('cnu-2025-bloco4-tarde', 'CNU 2025 (2ª Edição) - Bloco 4 (Tarde) - Engenharias e Arquitetura', 'cnu', '2025'),
   ('cnu-2025-bloco5-tarde', 'CNU 2025 (2ª Edição) - Bloco 5 (Tarde) - Administração', 'cnu', '2025'),
   ('cnu-2025-bloco6-tarde', 'CNU 2025 (2ª Edição) - Bloco 6 (Tarde) - Desenvolvimento Socioeconômico', 'cnu', '2025'),
-  ('enem-2024', 'ENEM 2024 - Prova Objetiva', 'enem', '2024')
+  ('cnu-2025-bloco9-tarde', 'CNU 2025 (2ª Edição) - Bloco 9 (Tarde) - Intermediário - Regulação', 'cnu', '2025'),
+  ('enem-2024', 'ENEM 2024 - Prova Objetiva', 'enem', '2024'),
+  ('oab-45-primeira-fase', 'OAB 45º Exame de Ordem Unificado (1ª fase)', 'oab', '2025'),
+  ('oab-44-primeira-fase', 'OAB 44º Exame de Ordem Unificado (1ª fase)', 'oab', '2025'),
+  ('oab-43-primeira-fase', 'OAB 43º Exame de Ordem Unificado (1ª fase)', 'oab', '2025'),
+  ('oab-46-primeira-fase', 'OAB 46º Exame de Ordem Unificado (1ª fase)', 'oab', '2026'),
+  ('oab-47-primeira-fase', 'OAB 47º Exame de Ordem Unificado (1ª fase)', 'oab', '2026')
 on conflict (slug) do nothing;
