@@ -896,9 +896,15 @@ function App() {
                 return (
                   <>
                     <div className="question-grid">
-                      {activeQuestions.slice(0, visibleCount).map((item, index) => (
-                        <button key={item.text} className={`${index === current ? 'active' : ''} ${answers[index] ? 'answered' : ''}`} onClick={() => setCurrent(index)}>{index + 1}</button>
-                      ))}
+                      {activeQuestions.slice(0, visibleCount).map((item, index) => {
+                        // Na revisao, marca cada quadradinho: verde se acertou,
+                        // vermelho se errou OU nao respondeu.
+                        const reviewCorrect = isReview && normalizeLetter(answers[index]) === normalizeLetter(item.answer)
+                        const reviewWrong = isReview && !reviewCorrect
+                        return (
+                          <button key={item.text} className={`${index === current ? 'active' : ''} ${answers[index] ? 'answered' : ''} ${reviewCorrect ? 'review-correct' : ''} ${reviewWrong ? 'review-wrong' : ''}`} onClick={() => setCurrent(index)}>{index + 1}</button>
+                        )
+                      })}
                     </div>
                     {isCollapsible && (
                       <button type="button" className="grid-toggle" onClick={() => setGridExpanded((value) => !value)} aria-expanded={gridExpanded}>
