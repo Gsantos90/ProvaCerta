@@ -354,10 +354,18 @@ function App() {
   const questionSets = {
     'enem-2023-1-ingles': [...enem2023EnglishQuestions, ...enem2023SpanishQuestions],
   }
+  // Provas de ENEM cadastradas no Supabase, apresentadas no mesmo seletor de ano
+  // da API. 'source: supabase' indica que a prova vem completa do banco (sem
+  // filtro por area/idioma) em vez da api.enem.dev.
+  const enemSupabaseExams = [{ year: 2024, slug: 'enem-2024', source: 'supabase', disciplines: [], languages: [] }]
+  const enemCatalogCombined = [
+    ...enemSupabaseExams.filter((item) => !enemCatalog.some((apiItem) => apiItem.year === item.year)),
+    ...enemCatalog,
+  ].sort((a, b) => b.year - a.year)
   const activeQuestions = selectedExam === 'enem-api' || supabaseExamSlug ? enemQuestions : questionSets[selectedExam] || []
-  const examLabel = selectedExam === 'pism-1' ? '2025-1' : selectedExam === 'pism-2' ? '2025-2' : selectedExam === 'pism-2024-1' ? '2024-1' : selectedExam === 'pism-2024-2' ? '2024-2' : selectedExam === 'pism-2023-1' ? '2023-1' : selectedExam === 'pism-2023-2' ? '2023-2' : selectedExam === 'enem-api' ? `ENEM ${enemYear}` : selectedExam === 'bb' ? `Banco do Brasil ${bbYear} · ${bbRole}` : selectedExam === 'cnu' ? `CNU ${cnuYear} · Bloco ${cnuBlock.replace('bloco-', '')}` : '2023-1_Cad_Amarelo - LINGUAGENS, CÓDIGOS E SUAS TECNOLOGIAS'
+  const examLabel = selectedExam === 'pism-1' ? '2025-1' : selectedExam === 'pism-2' ? '2025-2' : selectedExam === 'pism-2024-1' ? '2024-1' : selectedExam === 'pism-2024-2' ? '2024-2' : selectedExam === 'pism-2023-1' ? '2023-1' : selectedExam === 'pism-2023-2' ? '2023-2' : supabaseExamSlug === 'enem-2024' ? 'ENEM 2024 · Prova completa' : selectedExam === 'enem-api' ? `ENEM ${enemYear}` : selectedExam === 'bb' ? `Banco do Brasil ${bbYear} · ${bbRole}` : selectedExam === 'cnu' ? `CNU ${cnuYear} · Bloco ${cnuBlock.replace('bloco-', '')}` : '2023-1_Cad_Amarelo - LINGUAGENS, CÓDIGOS E SUAS TECNOLOGIAS'
   const cnuShiftLabel = cnuYear === '2025' ? 'Conhecimentos Gerais e Específicos' : cnuShift === 'manha' ? 'Manhã · Conhecimentos Gerais' : 'Tarde · Conhecimentos Específicos'
-  const examDay = selectedExam === 'enem-api' ? 'Área selecionada' : selectedExam === 'bb' ? 'Prova objetiva' : selectedExam === 'cnu' ? cnuShiftLabel : examLabel.endsWith('-1') ? 'Dia 1' : 'Dia 2'
+  const examDay = supabaseExamSlug === 'enem-2024' ? 'Prova completa · 180 questões' : selectedExam === 'enem-api' ? 'Área selecionada' : selectedExam === 'bb' ? 'Prova objetiva' : selectedExam === 'cnu' ? cnuShiftLabel : examLabel.endsWith('-1') ? 'Dia 1' : 'Dia 2'
 
   // Normaliza letras de gabarito/resposta para evitar falhas de comparação
   // por espaços, quebras de linha ou diferença de maiúsculas/minúsculas.
@@ -517,6 +525,27 @@ function App() {
   }
 
   const startEnemExam = async () => {
+    // Anos cadastrados no Supabase (ex.: 2024) carregam a prova completa do banco.
+    const supabaseExam = enemSupabaseExams.find((item) => String(item.year) === String(enemYear))
+    if (supabaseExam) {
+      setEnemError('')
+      setEnemLoading(true)
+      try {
+        const questions = await loadSupabaseExam(supabaseExam.slug)
+        setEnemQuestions(questions)
+        setSupabaseExamSlug(supabaseExam.slug)
+        setSelectedExam('enem-api')
+        setCurrent(0)
+        setAnswers({})
+        setScreen('exam')
+        setMenuOpen(false)
+      } catch (error) {
+        setEnemError(`Não foi possível carregar o ENEM ${supabaseExam.year} do Supabase: ${error.message}`)
+      } finally {
+        setEnemLoading(false)
+      }
+      return
+    }
     try {
       const allQuestions = await loadEnemQuestions()
       const filtered = allQuestions.filter((question) => question.discipline === enemDiscipline)
@@ -561,10 +590,10 @@ function App() {
   const isPismAvailable = currentPismYears.length > 0
 
   const changeEnemYear = (value) => {
-    const exam = enemCatalog.find((item) => String(item.year) === value)
+    const exam = enemCatalogCombined.find((item) => String(item.year) === value)
     setEnemYear(value)
-    setEnemDiscipline(exam?.disciplines.find((item) => item.value === 'linguagens')?.value || exam?.disciplines[0]?.value || '')
-    setEnemLanguage(exam?.languages[0]?.value || '')
+    setEnemDiscipline(exam?.disciplines?.find((item) => item.value === 'linguagens')?.value || exam?.disciplines?.[0]?.value || '')
+    setEnemLanguage(exam?.languages?.[0]?.value || '')
     setEnemError('')
   }
 
@@ -654,7 +683,7 @@ function App() {
     />
   )
   const enemCard = (
-    <EnemCard catalog={enemCatalog} year={enemYear} setYear={changeEnemYear} discipline={enemDiscipline} setDiscipline={setEnemDiscipline} language={enemLanguage} setLanguage={setEnemLanguage} onStart={startEnemExam} loading={enemLoading} error={enemError} />
+    <EnemCard catalog={enemCatalogCombined} year={enemYear} setYear={changeEnemYear} discipline={enemDiscipline} setDiscipline={setEnemDiscipline} language={enemLanguage} setLanguage={setEnemLanguage} onStart={startEnemExam} loading={enemLoading} error={enemError} />
   )
   const bbCard = (
     <BbCard
@@ -964,6 +993,7 @@ function Header({ onHome, menuOpen, setMenuOpen }) {
 
 function EnemCard({ catalog, year, setYear, discipline, setDiscipline, language, setLanguage, onStart, loading, error }) {
   const exam = catalog.find((item) => String(item.year) === year)
+  const isSupabaseExam = exam?.source === 'supabase'
   const disciplines = exam?.disciplines || []
   const languages = exam?.languages || []
   return (
@@ -972,9 +1002,10 @@ function EnemCard({ catalog, year, setYear, discipline, setDiscipline, language,
       <div className="exam-card-body">
         <div className="card-title-row"><div><h3>ENEM</h3><p>Exame Nacional do Ensino Médio</p></div><span className={`status ${catalog.length ? 'ready' : ''}`}>{catalog.length ? 'API conectada' : 'Carregando'}</span></div>
         <div className="enem-controls">
-          <label>Ano da prova <span className="select-wrap"><select value={year} onChange={(event) => setYear(event.target.value)} disabled={!catalog.length}>{catalog.map((item) => <option key={item.year} value={item.year}>{item.year}</option>)}</select><ChevronDown size={16} /></span></label>
-          <label>Área <span className="select-wrap"><select value={discipline} onChange={(event) => setDiscipline(event.target.value)} disabled={!disciplines.length}>{disciplines.map((item) => <option key={item.value} value={item.value}>{item.label}</option>)}</select><ChevronDown size={16} /></span></label>
-          {discipline === 'linguagens' && <label>Idioma <span className="select-wrap"><select value={language} onChange={(event) => setLanguage(event.target.value)} disabled={!languages.length}>{languages.map((item) => <option key={item.value} value={item.value}>{item.label}</option>)}</select><ChevronDown size={16} /></span></label>}
+          <label>Ano da prova <span className="select-wrap"><select value={year} onChange={(event) => setYear(event.target.value)} disabled={!catalog.length}>{catalog.map((item) => <option key={item.year} value={item.year}>{item.source === 'supabase' ? `${item.year} (prova completa)` : item.year}</option>)}</select><ChevronDown size={16} /></span></label>
+          {!isSupabaseExam && <label>Área <span className="select-wrap"><select value={discipline} onChange={(event) => setDiscipline(event.target.value)} disabled={!disciplines.length}>{disciplines.map((item) => <option key={item.value} value={item.value}>{item.label}</option>)}</select><ChevronDown size={16} /></span></label>}
+          {!isSupabaseExam && discipline === 'linguagens' && <label>Idioma <span className="select-wrap"><select value={language} onChange={(event) => setLanguage(event.target.value)} disabled={!languages.length}>{languages.map((item) => <option key={item.value} value={item.value}>{item.label}</option>)}</select><ChevronDown size={16} /></span></label>}
+          {isSupabaseExam && <p className="enem-note">Prova completa (180 questões), com todas as áreas.</p>}
         </div>
         {error && <p className="api-error" role="alert">{error}</p>}
         <button className={`button ${catalog.length && !loading ? 'primary' : 'disabled'} full`} onClick={onStart} disabled={!catalog.length || loading}>{loading ? 'Carregando questões…' : 'Começar prova'} {!loading && catalog.length > 0 && <ArrowRight size={17} />}</button>

@@ -69,5 +69,6 @@ values
   ('cnu-2025-bloco3-tarde', 'CNU 2025 (2ª Edição) - Bloco 3 (Tarde) - Ciências, Dados e Tecnologia', 'cnu', '2025'),
   ('cnu-2025-bloco4-tarde', 'CNU 2025 (2ª Edição) - Bloco 4 (Tarde) - Engenharias e Arquitetura', 'cnu', '2025'),
   ('cnu-2025-bloco5-tarde', 'CNU 2025 (2ª Edição) - Bloco 5 (Tarde) - Administração', 'cnu', '2025'),
-  ('cnu-2025-bloco6-tarde', 'CNU 2025 (2ª Edição) - Bloco 6 (Tarde) - Desenvolvimento Socioeconômico', 'cnu', '2025')
+  ('cnu-2025-bloco6-tarde', 'CNU 2025 (2ª Edição) - Bloco 6 (Tarde) - Desenvolvimento Socioeconômico', 'cnu', '2025'),
+  ('enem-2024', 'ENEM 2024 - Prova Objetiva', 'enem', '2024')
 on conflict (slug) do nothing;
