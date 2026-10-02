@@ -231,6 +231,7 @@ const cnuExamSlugs = {
   '2025|superior|bloco-3|tarde': 'cnu-2025-bloco3-tarde',
   '2025|superior|bloco-4|tarde': 'cnu-2025-bloco4-tarde',
   '2025|superior|bloco-5|tarde': 'cnu-2025-bloco5-tarde',
+  '2025|superior|bloco-6|tarde': 'cnu-2025-bloco6-tarde',
   '2025|superior|bloco-7|tarde': 'cnu-2025-bloco7-tarde',
   '2025|medio|bloco-8|tarde': 'cnu-2025-bloco8-tarde',
   '2024|superior|bloco-1|manha': 'cnu-2024-bloco1-manha',
