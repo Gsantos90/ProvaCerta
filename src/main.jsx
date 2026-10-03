@@ -215,6 +215,12 @@ const pcByState = {
           { value: '2022', slug: 'pc-rj-2022-inspetor' },
         ],
       },
+      'Auxiliar de Necropsia': {
+        label: 'Auxiliar Policial de Necropsia',
+        years: [
+          { value: '2022', slug: 'pc-rj-2022-necropsia' },
+        ],
+      },
       'Escrivão': { label: 'Escrivão de Polícia', years: [] },
       'Delegado': { label: 'Delegado de Polícia', years: [] },
       'Perito Criminal': { label: 'Perito Criminal', years: [] },
@@ -485,7 +491,7 @@ function App() {
   const activeQuestions = selectedExam === 'enem-api' || supabaseExamSlug ? enemQuestions : questionSets[selectedExam] || []
   const examLabel = selectedExam === 'pism-1' ? '2025-1' : selectedExam === 'pism-2' ? '2025-2' : selectedExam === 'pism-2024-1' ? '2024-1' : selectedExam === 'pism-2024-2' ? '2024-2' : selectedExam === 'pism-2023-1' ? '2023-1' : selectedExam === 'pism-2023-2' ? '2023-2' : supabaseExamSlug === 'enem-2024' ? 'ENEM 2024 · Prova completa' : selectedExam === 'enem-api' ? `ENEM ${enemYear}` : selectedExam === 'bb' ? `Banco do Brasil ${bbYear} · ${bbRole}` : selectedExam === 'cnu' ? `CNU ${cnuYear} · Bloco ${cnuBlock.replace('bloco-', '')}` : selectedExam === 'oab' ? `OAB ${oabYear} · ${(oabExamsByYear[oabYear] || []).find((item) => item.value === oabEdition)?.label || 'Exame de Ordem'}` : selectedExam === 'pmerj' ? `PMERJ ${pmerjYear} · ${pmerjRolesConfig[pmerjRole]?.label || 'Soldado'}` : selectedExam === 'pc' ? `Polícia Civil ${pcState} ${pcYear} · ${pcByState[pcState]?.roles?.[pcRole]?.label || 'Investigador'}` : selectedExam === 'pf' ? `Polícia Federal ${pfYear} · ${pfRole} · ${pfArea}` : '2023-1_Cad_Amarelo - LINGUAGENS, CÓDIGOS E SUAS TECNOLOGIAS'
   const cnuShiftLabel = cnuYear === '2025' ? 'Conhecimentos Gerais e Específicos' : cnuShift === 'manha' ? 'Manhã · Conhecimentos Gerais' : 'Tarde · Conhecimentos Específicos'
-  const examDay = supabaseExamSlug === 'enem-2024' ? 'Prova completa · 180 questões' : selectedExam === 'enem-api' ? 'Área selecionada' : selectedExam === 'bb' ? 'Prova objetiva' : selectedExam === 'oab' ? 'Prova objetiva · 1ª fase' : selectedExam === 'pmerj' ? 'Prova objetiva · 50 questões' : selectedExam === 'pc' ? 'Prova objetiva · 100 questões' : selectedExam === 'pf' ? 'Conhecimentos Básicos · 50 itens (Certo/Errado)' : selectedExam === 'cnu' ? cnuShiftLabel : examLabel.endsWith('-1') ? 'Dia 1' : 'Dia 2'
+  const examDay = supabaseExamSlug === 'enem-2024' ? 'Prova completa · 180 questões' : selectedExam === 'enem-api' ? 'Área selecionada' : selectedExam === 'bb' ? 'Prova objetiva' : selectedExam === 'oab' ? 'Prova objetiva · 1ª fase' : selectedExam === 'pmerj' ? 'Prova objetiva · 50 questões' : selectedExam === 'pc' ? `Prova objetiva · ${activeQuestions.length} questões` : selectedExam === 'pf' ? 'Conhecimentos Básicos · 50 itens (Certo/Errado)' : selectedExam === 'cnu' ? cnuShiftLabel : examLabel.endsWith('-1') ? 'Dia 1' : 'Dia 2'
 
   // Normaliza letras de gabarito/resposta para evitar falhas de comparação
   // por espaços, quebras de linha ou diferença de maiúsculas/minúsculas.
