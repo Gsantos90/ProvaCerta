@@ -56,6 +56,7 @@ values
   ('bb-2022-a-comercial', 'Banco do Brasil 2022 - Agente Comercial (Prova A)', 'bb', '2022-A'),
   ('bb-2021-a-comercial', 'Banco do Brasil 2021 - Agente Comercial (Prova A)', 'bb', '2021-A'),
   ('bb-2022-tecnologia', 'Banco do Brasil 2022 - Agente de Tecnologia (Microrregião 158 - TI)', 'bb', '2022'),
+  ('bb-2021-tecnologia', 'Banco do Brasil 2021 - Agente de Tecnologia (Microrregião 16 DF-TI)', 'bb', '2021'),
   ('cnu-2024-bloco1-manha', 'CNU 2024 - Bloco 1 (Manhã) - Conhecimentos Gerais', 'cnu', '2024'),
   ('cnu-2024-bloco1-tarde', 'CNU 2024 - Bloco 1 (Tarde) - Conhecimentos Específicos', 'cnu', '2024'),
   ('cnu-2024-bloco3-tarde', 'CNU 2024 - Bloco 3 (Tarde) - Conhecimentos Específicos', 'cnu', '2024'),

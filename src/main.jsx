@@ -177,6 +177,7 @@ const bbRolesConfig = {
     label: 'Escriturário - Agente de Tecnologia',
     years: [
       { value: '2022', slug: 'bb-2022-tecnologia' },
+      { value: '2021', slug: 'bb-2021-tecnologia' },
     ],
   },
 }
