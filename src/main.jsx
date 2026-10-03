@@ -530,7 +530,9 @@ function App() {
     setBbRole(value)
     setBbError('')
     const roleYears = bbRolesConfig[value]?.years || []
-    setBbYear(roleYears[0]?.value || '')
+    // Preserva o ano selecionado se ele existir no novo cargo; senão, usa o primeiro disponível.
+    const keepYear = roleYears.some((item) => item.value === bbYear)
+    setBbYear(keepYear ? bbYear : (roleYears[0]?.value || ''))
   }
 
   const currentBbYears = bbRolesConfig[bbRole]?.years || []
