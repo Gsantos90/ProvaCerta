@@ -98,7 +98,7 @@ const catalogCategories = [
       { id: 'pmrj', name: 'PMERJ', org: 'Segurança', short: 'PMERJ', description: 'Polícia Militar do Estado do Rio de Janeiro', available: true, color: 'navy', roles: ['Soldado', 'Oficial'] },
       { id: 'bb', name: 'Banco do Brasil', org: 'Bancário', short: 'BB', description: 'Concurso do Banco do Brasil', available: false, color: 'gold', roles: ['Escriturário - Agente Comercial', 'Escriturário - Agente de Tecnologia'] },
       { id: 'caixa', name: 'Caixa Econômica', org: 'Bancário', short: 'CAIXA', description: 'Concurso da Caixa Econômica Federal', available: false, color: 'sky', roles: ['Técnico Bancário', 'Técnico Bancário - TI'] },
-      { id: 'pf', name: 'Polícia Federal', org: 'Segurança', short: 'PF', description: 'Concurso da Polícia Federal', available: false, color: 'slate', roles: ['Agente', 'Escrivão', 'Delegado', 'Perito Criminal'] },
+      { id: 'pf', name: 'Polícia Federal', org: 'Segurança', short: 'PF', description: 'Concurso da Polícia Federal', available: true, color: 'slate', roles: ['Agente', 'Escrivão', 'Delegado', 'Perito Criminal'] },
       { id: 'correios', name: 'Correios', org: 'Serviços', short: 'CORREIOS', description: 'Concurso dos Correios', available: false, color: 'amber', roles: ['Carteiro', 'Agente dos Correios - Atendente', 'Analista de Correios'] },
       { id: 'pc', name: 'Polícia Civil', org: 'Segurança', short: 'PC', description: 'Concurso da Polícia Civil', available: true, color: 'crimson', roles: ['Investigador', 'Escrivão', 'Delegado', 'Perito Criminal'] },
     ],
@@ -218,6 +218,36 @@ const pcByState = {
   'Minas Gerais': { label: 'Minas Gerais', roles: { 'Investigador': { label: 'Investigador Policial', years: [] } } },
 }
 const pcStateOptions = Object.keys(pcByState)
+
+// Concurso da Polícia Federal (banca Cebraspe), organizado por Cargo > Área > Ano.
+// No cargo Perito Criminal Federal, a opção "Conhecimento Básico" é comum a todas
+// as áreas (prova única). As áreas específicas ("Específico - ...") ainda não têm
+// prova cadastrada e ficam indisponíveis até existir o seed correspondente.
+const pfPeritoSpecificAreas = [
+  'Contábil/Financeira',
+  'Engenharia Elétrica / Engenharia Eletrônica',
+  'Informática Forense',
+  'Geologia Forense',
+  'Engenharia Civil',
+  'Engenharia Cartográfica',
+  'Medicina Legal',
+  'Física Forense',
+  'Engenharia de Minas',
+  'Genética Forense',
+  'Engenharia Ambiental',
+  'Antropologia Forense',
+]
+const pfPeritoAreaOptions = [
+  { value: 'Conhecimento Básico', years: [{ value: '2025', slug: 'pf-2025-perito-cb' }] },
+  ...pfPeritoSpecificAreas.map((area) => ({ value: `Específico - ${area}`, years: [] })),
+]
+const pfRolesConfig = {
+  'Perito Criminal Federal': {
+    label: 'Perito Criminal Federal',
+    areas: pfPeritoAreaOptions,
+  },
+}
+const pfRoleOptions = Object.keys(pfRolesConfig)
 
 // Concurso Publico Nacional Unificado (CNU).
 // Os blocos variam conforme o ano e o nivel. Quando houver prova cadastrada, o bloco tera um slug.
@@ -362,6 +392,11 @@ function App() {
   const [pcYear, setPcYear] = useState('2024')
   const [pcLoading, setPcLoading] = useState(false)
   const [pcError, setPcError] = useState('')
+  const [pfRole, setPfRole] = useState('Perito Criminal Federal')
+  const [pfArea, setPfArea] = useState('Conhecimento Básico')
+  const [pfYear, setPfYear] = useState('2025')
+  const [pfLoading, setPfLoading] = useState(false)
+  const [pfError, setPfError] = useState('')
   const [cnuYear, setCnuYear] = useState('2025')
   const [cnuLevel, setCnuLevel] = useState('superior')
   const [cnuBlock, setCnuBlock] = useState('bloco-1')
@@ -442,9 +477,9 @@ function App() {
     ...enemCatalog,
   ].sort((a, b) => b.year - a.year)
   const activeQuestions = selectedExam === 'enem-api' || supabaseExamSlug ? enemQuestions : questionSets[selectedExam] || []
-  const examLabel = selectedExam === 'pism-1' ? '2025-1' : selectedExam === 'pism-2' ? '2025-2' : selectedExam === 'pism-2024-1' ? '2024-1' : selectedExam === 'pism-2024-2' ? '2024-2' : selectedExam === 'pism-2023-1' ? '2023-1' : selectedExam === 'pism-2023-2' ? '2023-2' : supabaseExamSlug === 'enem-2024' ? 'ENEM 2024 · Prova completa' : selectedExam === 'enem-api' ? `ENEM ${enemYear}` : selectedExam === 'bb' ? `Banco do Brasil ${bbYear} · ${bbRole}` : selectedExam === 'cnu' ? `CNU ${cnuYear} · Bloco ${cnuBlock.replace('bloco-', '')}` : selectedExam === 'oab' ? `OAB ${oabYear} · ${(oabExamsByYear[oabYear] || []).find((item) => item.value === oabEdition)?.label || 'Exame de Ordem'}` : selectedExam === 'pmerj' ? `PMERJ ${pmerjYear} · ${pmerjRolesConfig[pmerjRole]?.label || 'Soldado'}` : selectedExam === 'pc' ? `Polícia Civil ${pcState} ${pcYear} · ${pcByState[pcState]?.roles?.[pcRole]?.label || 'Investigador'}` : '2023-1_Cad_Amarelo - LINGUAGENS, CÓDIGOS E SUAS TECNOLOGIAS'
+  const examLabel = selectedExam === 'pism-1' ? '2025-1' : selectedExam === 'pism-2' ? '2025-2' : selectedExam === 'pism-2024-1' ? '2024-1' : selectedExam === 'pism-2024-2' ? '2024-2' : selectedExam === 'pism-2023-1' ? '2023-1' : selectedExam === 'pism-2023-2' ? '2023-2' : supabaseExamSlug === 'enem-2024' ? 'ENEM 2024 · Prova completa' : selectedExam === 'enem-api' ? `ENEM ${enemYear}` : selectedExam === 'bb' ? `Banco do Brasil ${bbYear} · ${bbRole}` : selectedExam === 'cnu' ? `CNU ${cnuYear} · Bloco ${cnuBlock.replace('bloco-', '')}` : selectedExam === 'oab' ? `OAB ${oabYear} · ${(oabExamsByYear[oabYear] || []).find((item) => item.value === oabEdition)?.label || 'Exame de Ordem'}` : selectedExam === 'pmerj' ? `PMERJ ${pmerjYear} · ${pmerjRolesConfig[pmerjRole]?.label || 'Soldado'}` : selectedExam === 'pc' ? `Polícia Civil ${pcState} ${pcYear} · ${pcByState[pcState]?.roles?.[pcRole]?.label || 'Investigador'}` : selectedExam === 'pf' ? `Polícia Federal ${pfYear} · ${pfRole} · ${pfArea}` : '2023-1_Cad_Amarelo - LINGUAGENS, CÓDIGOS E SUAS TECNOLOGIAS'
   const cnuShiftLabel = cnuYear === '2025' ? 'Conhecimentos Gerais e Específicos' : cnuShift === 'manha' ? 'Manhã · Conhecimentos Gerais' : 'Tarde · Conhecimentos Específicos'
-  const examDay = supabaseExamSlug === 'enem-2024' ? 'Prova completa · 180 questões' : selectedExam === 'enem-api' ? 'Área selecionada' : selectedExam === 'bb' ? 'Prova objetiva' : selectedExam === 'oab' ? 'Prova objetiva · 1ª fase' : selectedExam === 'pmerj' ? 'Prova objetiva · 50 questões' : selectedExam === 'pc' ? 'Prova objetiva · 100 questões' : selectedExam === 'cnu' ? cnuShiftLabel : examLabel.endsWith('-1') ? 'Dia 1' : 'Dia 2'
+  const examDay = supabaseExamSlug === 'enem-2024' ? 'Prova completa · 180 questões' : selectedExam === 'enem-api' ? 'Área selecionada' : selectedExam === 'bb' ? 'Prova objetiva' : selectedExam === 'oab' ? 'Prova objetiva · 1ª fase' : selectedExam === 'pmerj' ? 'Prova objetiva · 50 questões' : selectedExam === 'pc' ? 'Prova objetiva · 100 questões' : selectedExam === 'pf' ? 'Conhecimentos Básicos · 50 itens (Certo/Errado)' : selectedExam === 'cnu' ? cnuShiftLabel : examLabel.endsWith('-1') ? 'Dia 1' : 'Dia 2'
 
   // Normaliza letras de gabarito/resposta para evitar falhas de comparação
   // por espaços, quebras de linha ou diferença de maiúsculas/minúsculas.
@@ -610,6 +645,50 @@ function App() {
       setPcError(`Não foi possível carregar as questões do Supabase: ${error.message}`)
     } finally {
       setPcLoading(false)
+    }
+  }
+
+  // Concurso da Polícia Federal. Seleção por Cargo > Área > Ano.
+  const currentPfAreas = pfRolesConfig[pfRole]?.areas || []
+  const currentPfYears = currentPfAreas.find((item) => item.value === pfArea)?.years || []
+  const pfSlug = currentPfYears.find((item) => item.value === pfYear)?.slug
+  const isPfAvailable = Boolean(pfSlug)
+
+  const changePfRole = (value) => {
+    setPfRole(value)
+    setPfError('')
+    const areas = pfRolesConfig[value]?.areas || []
+    const firstArea = areas[0]?.value || ''
+    setPfArea(firstArea)
+    setPfYear(areas[0]?.years?.[0]?.value || '')
+  }
+
+  const changePfArea = (value) => {
+    setPfArea(value)
+    setPfError('')
+    const years = currentPfAreas.find((item) => item.value === value)?.years || []
+    // Preserva o ano selecionado se existir na nova área; senão, usa o primeiro disponível.
+    const keepYear = years.some((item) => item.value === pfYear)
+    setPfYear(keepYear ? pfYear : (years[0]?.value || ''))
+  }
+
+  const startPfExam = async () => {
+    if (!pfSlug) return
+    setPfLoading(true)
+    setPfError('')
+    try {
+      const questions = await loadSupabaseExam(pfSlug)
+      setEnemQuestions(questions)
+      setSupabaseExamSlug(pfSlug)
+      setSelectedExam('pf')
+      setCurrent(0)
+      setAnswers({})
+      setScreen('exam')
+      setMenuOpen(false)
+    } catch (error) {
+      setPfError(`Não foi possível carregar as questões do Supabase: ${error.message}`)
+    } finally {
+      setPfLoading(false)
     }
   }
 
@@ -918,6 +997,23 @@ function App() {
       error={pcError}
     />
   )
+  const pfCard = (
+    <PfCard
+      roles={pfRoleOptions}
+      role={pfRole}
+      onRoleChange={changePfRole}
+      areas={currentPfAreas}
+      area={pfArea}
+      onAreaChange={changePfArea}
+      years={currentPfYears}
+      year={pfYear}
+      setYear={setPfYear}
+      onStart={startPfExam}
+      available={isPfAvailable}
+      loading={pfLoading}
+      error={pfError}
+    />
+  )
   const cnuCard = (
     <CnuCard
       yearOptions={cnuYearOptions}
@@ -949,7 +1045,7 @@ function App() {
       error={oabError}
     />
   )
-  const featuredCards = { pism: pismCard, enem: enemCard, bb: bbCard, cnu: cnuCard, oab: oabCard, pmrj: pmerjCard, pc: pcCard }
+  const featuredCards = { pism: pismCard, enem: enemCard, bb: bbCard, cnu: cnuCard, oab: oabCard, pmrj: pmerjCard, pc: pcCard, pf: pfCard }
 
   if (screen === 'catalog') {
     return (
@@ -1094,7 +1190,7 @@ function App() {
         <main className="exam-page">
           <div className="exam-topline">
             <button className="back-link" onClick={() => setScreen(isReview ? 'result' : 'home')}><ArrowLeft size={17} /> {isReview ? 'Voltar ao resultado' : 'Sair da prova'}</button>
-            <div className="exam-name"><span className="mini-logo">P</span><span>provacerta · {selectedExam === 'enem-api' || selectedExam === 'bb' || selectedExam === 'cnu' || selectedExam === 'oab' || selectedExam === 'pmerj' || selectedExam === 'pc' ? examLabel : `PISM ${examLabel}`}</span><b>·</b><span>{isReview ? 'Revisão' : selectedExam === 'bb' || selectedExam === 'cnu' || selectedExam === 'oab' || selectedExam === 'pmerj' || selectedExam === 'pc' ? examDay : `Módulo I · ${examDay}`}</span></div>
+            <div className="exam-name"><span className="mini-logo">P</span><span>provacerta · {selectedExam === 'enem-api' || selectedExam === 'bb' || selectedExam === 'cnu' || selectedExam === 'oab' || selectedExam === 'pmerj' || selectedExam === 'pc' || selectedExam === 'pf' ? examLabel : `PISM ${examLabel}`}</span><b>·</b><span>{isReview ? 'Revisão' : selectedExam === 'bb' || selectedExam === 'cnu' || selectedExam === 'oab' || selectedExam === 'pmerj' || selectedExam === 'pc' || selectedExam === 'pf' ? examDay : `Módulo I · ${examDay}`}</span></div>
             <span className="question-count">{current + 1} <i>/</i> {activeQuestions.length}</span>
           </div>
           <div className="progress-track"><span style={{ width: `${((current + 1) / activeQuestions.length) * 100}%` }} /></div>
@@ -1200,7 +1296,9 @@ function App() {
           <div className="hero-copy">
             <div className="pill"><span className="pulse-dot" /> Seu próximo passo começa aqui</div>
             <h1>Estude melhor.<br /><em>Conquiste mais.</em></h1>
-            <p>Simulados de provas importantes, feitos para você praticar, acompanhar seu progresso e chegar mais preparado.</p>
+            <p>Sua aprovação começa com a prática certa.
+
+Acesse provas reais de concursos e faculdades federais, resolva simulados exclusivos e acompanhe seu desempenho para chegar pronto no dia da prova.</p>
             <button className="button primary hero-button" onClick={() => setScreen('catalog')}>Explorar provas <ArrowRight size={18} /></button>
             <div className="hero-proof"><div className="avatars"><span>J</span><span>M</span><span>A</span><span>+</span></div><span>Junte-se a quem está estudando hoje</span></div>
           </div>
@@ -1456,6 +1554,65 @@ function PcCard({ states, state, onStateChange, roles, role, onRoleChange, years
                 {Object.entries(roles || {}).map(([key, item]) => (
                   <option key={key} value={key}>{item.label}</option>
                 ))}
+              </select>
+              <ChevronDown size={16} />
+            </span>
+          </label>
+        </div>
+        {error && <p className="api-error" role="alert">{error}</p>}
+        <button className={`button ${available && !loading ? 'primary' : 'disabled'} full`} onClick={onStart} disabled={!available || loading}>
+          {loading ? 'Carregando questões…' : available ? 'Começar prova' : 'Em breve'} {available && !loading && <ArrowRight size={17} />}
+        </button>
+      </div>
+    </article>
+  )
+}
+
+function PfCard({ roles, role, onRoleChange, areas, area, onAreaChange, years, year, setYear, onStart, available, loading, error }) {
+  return (
+    <article className="exam-card color-slate">
+      <div className="card-art">
+        <span className="art-kicker">Segurança</span>
+        <strong className="long">PF</strong>
+        <span className="art-shape">PF</span>
+        <div className="art-dots" />
+      </div>
+      <div className="exam-card-body">
+        <div className="card-title-row">
+          <div>
+            <h3>Polícia Federal</h3>
+            <p>Concurso da Polícia Federal</p>
+          </div>
+          <span className={`status ${available ? 'ready' : ''}`}>{available ? 'Disponível' : 'Em breve'}</span>
+        </div>
+        <div className="pism-controls">
+          <label>
+            Ano da prova
+            <span className="select-wrap">
+              <select value={year} onChange={(event) => setYear(event.target.value)} disabled={years.length === 0}>
+                {years.length > 0 ? (
+                  years.map((item) => <option key={item.value} value={item.value}>{item.value}</option>)
+                ) : (
+                  <option value="">Nenhuma prova disponível</option>
+                )}
+              </select>
+              <ChevronDown size={16} />
+            </span>
+          </label>
+          <label>
+            Cargo
+            <span className="select-wrap">
+              <select value={role} onChange={(event) => onRoleChange(event.target.value)}>
+                {roles.map((item) => <option key={item} value={item}>{item}</option>)}
+              </select>
+              <ChevronDown size={16} />
+            </span>
+          </label>
+          <label>
+            Área
+            <span className="select-wrap">
+              <select value={area} onChange={(event) => onAreaChange(event.target.value)}>
+                {areas.map((item) => <option key={item.value} value={item.value}>{item.value}</option>)}
               </select>
               <ChevronDown size={16} />
             </span>
