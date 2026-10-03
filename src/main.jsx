@@ -169,13 +169,15 @@ const bbRolesConfig = {
   'Escriturário - Agente Comercial': {
     label: 'Escriturário - Agente Comercial',
     years: [
-      { value: '2022-A', slug: 'bb-2022-a-comercial' },
-      { value: '2021-A', slug: 'bb-2021-a-comercial' },
+      { value: '2022', slug: 'bb-2022-a-comercial' },
+      { value: '2021', slug: 'bb-2021-a-comercial' },
     ],
   },
   'Escriturário - Agente de Tecnologia': {
     label: 'Escriturário - Agente de Tecnologia',
-    years: [],
+    years: [
+      { value: '2022', slug: 'bb-2022-tecnologia' },
+    ],
   },
 }
 
@@ -347,7 +349,7 @@ function App() {
   const [pismSeries, setPismSeries] = useState('1 ano')
   const [year, setYear] = useState('2025-1')
   const [bbRole, setBbRole] = useState('Escriturário - Agente Comercial')
-  const [bbYear, setBbYear] = useState('2022-A')
+  const [bbYear, setBbYear] = useState('2022')
   const [bbLoading, setBbLoading] = useState(false)
   const [bbError, setBbError] = useState('')
   const [pmerjRole, setPmerjRole] = useState('Soldado')
@@ -1371,17 +1373,6 @@ function PmerjCard({ roles, role, onRoleChange, years, year, setYear, onStart, a
         </div>
         <div className="pism-controls">
           <label>
-            Cargo
-            <span className="select-wrap">
-              <select value={role} onChange={(event) => onRoleChange(event.target.value)}>
-                {Object.entries(roles || {}).map(([key, item]) => (
-                  <option key={key} value={key}>{item.label}</option>
-                ))}
-              </select>
-              <ChevronDown size={16} />
-            </span>
-          </label>
-          <label>
             Ano da prova
             <span className="select-wrap">
               <select value={year} onChange={(event) => setYear(event.target.value)} disabled={!available || years.length === 0}>
@@ -1390,6 +1381,17 @@ function PmerjCard({ roles, role, onRoleChange, years, year, setYear, onStart, a
                 ) : (
                   <option value="">Nenhuma prova disponível</option>
                 )}
+              </select>
+              <ChevronDown size={16} />
+            </span>
+          </label>
+          <label>
+            Cargo
+            <span className="select-wrap">
+              <select value={role} onChange={(event) => onRoleChange(event.target.value)}>
+                {Object.entries(roles || {}).map(([key, item]) => (
+                  <option key={key} value={key}>{item.label}</option>
+                ))}
               </select>
               <ChevronDown size={16} />
             </span>
