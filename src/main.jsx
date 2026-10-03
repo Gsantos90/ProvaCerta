@@ -95,12 +95,12 @@ const catalogCategories = [
     description: 'Provas de concursos públicos.',
     kind: 'concurso',
     exams: [
-      { id: 'pmrj', name: 'PMERJ', org: 'Segurança', short: 'PMERJ', description: 'Polícia Militar do Estado do Rio de Janeiro', available: false, color: 'navy', roles: ['Soldado', 'Oficial'] },
+      { id: 'pmrj', name: 'PMERJ', org: 'Segurança', short: 'PMERJ', description: 'Polícia Militar do Estado do Rio de Janeiro', available: true, color: 'navy', roles: ['Soldado', 'Oficial'] },
       { id: 'bb', name: 'Banco do Brasil', org: 'Bancário', short: 'BB', description: 'Concurso do Banco do Brasil', available: false, color: 'gold', roles: ['Escriturário - Agente Comercial', 'Escriturário - Agente de Tecnologia'] },
       { id: 'caixa', name: 'Caixa Econômica', org: 'Bancário', short: 'CAIXA', description: 'Concurso da Caixa Econômica Federal', available: false, color: 'sky', roles: ['Técnico Bancário', 'Técnico Bancário - TI'] },
       { id: 'pf', name: 'Polícia Federal', org: 'Segurança', short: 'PF', description: 'Concurso da Polícia Federal', available: false, color: 'slate', roles: ['Agente', 'Escrivão', 'Delegado', 'Perito Criminal'] },
       { id: 'correios', name: 'Correios', org: 'Serviços', short: 'CORREIOS', description: 'Concurso dos Correios', available: false, color: 'amber', roles: ['Carteiro', 'Agente dos Correios - Atendente', 'Analista de Correios'] },
-      { id: 'pc', name: 'Polícia Civil', org: 'Segurança', short: 'PC', description: 'Concurso da Polícia Civil', available: false, color: 'crimson', roles: ['Investigador', 'Escrivão', 'Delegado', 'Perito Criminal'] },
+      { id: 'pc', name: 'Polícia Civil', org: 'Segurança', short: 'PC', description: 'Concurso da Polícia Civil', available: true, color: 'crimson', roles: ['Investigador', 'Escrivão', 'Delegado', 'Perito Criminal'] },
     ],
   },
   {
@@ -178,6 +178,43 @@ const bbRolesConfig = {
     years: [],
   },
 }
+
+// Concurso da Polícia Militar do Estado do Rio de Janeiro (PMERJ), banca FGV.
+// Cada cargo lista os anos disponíveis; o ano aponta para o slug da prova no Supabase.
+const pmerjRolesConfig = {
+  'Soldado': {
+    label: 'Soldado Policial Militar',
+    years: [
+      { value: '2024', slug: 'pmerj-2024-soldado' },
+    ],
+  },
+  'Oficial': {
+    label: 'Oficial Policial Militar',
+    years: [],
+  },
+}
+
+// Concurso da Polícia Civil, banca FGV, organizado por Estado > Cargo > Ano.
+// Cada ano aponta para o slug da prova cadastrada no Supabase (quando houver).
+const pcByState = {
+  'Rio de Janeiro': {
+    label: 'Rio de Janeiro',
+    roles: {
+      'Investigador': {
+        label: 'Investigador Policial',
+        years: [
+          { value: '2024', slug: 'pc-rj-2024-investigador' },
+        ],
+      },
+      'Escrivão': { label: 'Escrivão de Polícia', years: [] },
+      'Delegado': { label: 'Delegado de Polícia', years: [] },
+      'Perito Criminal': { label: 'Perito Criminal', years: [] },
+    },
+  },
+  'São Paulo': { label: 'São Paulo', roles: { 'Investigador': { label: 'Investigador Policial', years: [] } } },
+  'Minas Gerais': { label: 'Minas Gerais', roles: { 'Investigador': { label: 'Investigador Policial', years: [] } } },
+}
+const pcStateOptions = Object.keys(pcByState)
 
 // Concurso Publico Nacional Unificado (CNU).
 // Os blocos variam conforme o ano e o nivel. Quando houver prova cadastrada, o bloco tera um slug.
@@ -313,6 +350,15 @@ function App() {
   const [bbYear, setBbYear] = useState('2022-A')
   const [bbLoading, setBbLoading] = useState(false)
   const [bbError, setBbError] = useState('')
+  const [pmerjRole, setPmerjRole] = useState('Soldado')
+  const [pmerjYear, setPmerjYear] = useState('2024')
+  const [pmerjLoading, setPmerjLoading] = useState(false)
+  const [pmerjError, setPmerjError] = useState('')
+  const [pcState, setPcState] = useState('Rio de Janeiro')
+  const [pcRole, setPcRole] = useState('Investigador')
+  const [pcYear, setPcYear] = useState('2024')
+  const [pcLoading, setPcLoading] = useState(false)
+  const [pcError, setPcError] = useState('')
   const [cnuYear, setCnuYear] = useState('2025')
   const [cnuLevel, setCnuLevel] = useState('superior')
   const [cnuBlock, setCnuBlock] = useState('bloco-1')
@@ -393,9 +439,9 @@ function App() {
     ...enemCatalog,
   ].sort((a, b) => b.year - a.year)
   const activeQuestions = selectedExam === 'enem-api' || supabaseExamSlug ? enemQuestions : questionSets[selectedExam] || []
-  const examLabel = selectedExam === 'pism-1' ? '2025-1' : selectedExam === 'pism-2' ? '2025-2' : selectedExam === 'pism-2024-1' ? '2024-1' : selectedExam === 'pism-2024-2' ? '2024-2' : selectedExam === 'pism-2023-1' ? '2023-1' : selectedExam === 'pism-2023-2' ? '2023-2' : supabaseExamSlug === 'enem-2024' ? 'ENEM 2024 · Prova completa' : selectedExam === 'enem-api' ? `ENEM ${enemYear}` : selectedExam === 'bb' ? `Banco do Brasil ${bbYear} · ${bbRole}` : selectedExam === 'cnu' ? `CNU ${cnuYear} · Bloco ${cnuBlock.replace('bloco-', '')}` : selectedExam === 'oab' ? `OAB ${oabYear} · ${(oabExamsByYear[oabYear] || []).find((item) => item.value === oabEdition)?.label || 'Exame de Ordem'}` : '2023-1_Cad_Amarelo - LINGUAGENS, CÓDIGOS E SUAS TECNOLOGIAS'
+  const examLabel = selectedExam === 'pism-1' ? '2025-1' : selectedExam === 'pism-2' ? '2025-2' : selectedExam === 'pism-2024-1' ? '2024-1' : selectedExam === 'pism-2024-2' ? '2024-2' : selectedExam === 'pism-2023-1' ? '2023-1' : selectedExam === 'pism-2023-2' ? '2023-2' : supabaseExamSlug === 'enem-2024' ? 'ENEM 2024 · Prova completa' : selectedExam === 'enem-api' ? `ENEM ${enemYear}` : selectedExam === 'bb' ? `Banco do Brasil ${bbYear} · ${bbRole}` : selectedExam === 'cnu' ? `CNU ${cnuYear} · Bloco ${cnuBlock.replace('bloco-', '')}` : selectedExam === 'oab' ? `OAB ${oabYear} · ${(oabExamsByYear[oabYear] || []).find((item) => item.value === oabEdition)?.label || 'Exame de Ordem'}` : selectedExam === 'pmerj' ? `PMERJ ${pmerjYear} · ${pmerjRolesConfig[pmerjRole]?.label || 'Soldado'}` : selectedExam === 'pc' ? `Polícia Civil ${pcState} ${pcYear} · ${pcByState[pcState]?.roles?.[pcRole]?.label || 'Investigador'}` : '2023-1_Cad_Amarelo - LINGUAGENS, CÓDIGOS E SUAS TECNOLOGIAS'
   const cnuShiftLabel = cnuYear === '2025' ? 'Conhecimentos Gerais e Específicos' : cnuShift === 'manha' ? 'Manhã · Conhecimentos Gerais' : 'Tarde · Conhecimentos Específicos'
-  const examDay = supabaseExamSlug === 'enem-2024' ? 'Prova completa · 180 questões' : selectedExam === 'enem-api' ? 'Área selecionada' : selectedExam === 'bb' ? 'Prova objetiva' : selectedExam === 'oab' ? 'Prova objetiva · 1ª fase' : selectedExam === 'cnu' ? cnuShiftLabel : examLabel.endsWith('-1') ? 'Dia 1' : 'Dia 2'
+  const examDay = supabaseExamSlug === 'enem-2024' ? 'Prova completa · 180 questões' : selectedExam === 'enem-api' ? 'Área selecionada' : selectedExam === 'bb' ? 'Prova objetiva' : selectedExam === 'oab' ? 'Prova objetiva · 1ª fase' : selectedExam === 'pmerj' ? 'Prova objetiva · 50 questões' : selectedExam === 'pc' ? 'Prova objetiva · 100 questões' : selectedExam === 'cnu' ? cnuShiftLabel : examLabel.endsWith('-1') ? 'Dia 1' : 'Dia 2'
 
   // Normaliza letras de gabarito/resposta para evitar falhas de comparação
   // por espaços, quebras de linha ou diferença de maiúsculas/minúsculas.
@@ -486,6 +532,81 @@ function App() {
 
   const currentBbYears = bbRolesConfig[bbRole]?.years || []
   const isBbAvailable = currentBbYears.length > 0
+
+  // Concurso da PMERJ. Carrega a prova do cargo/ano selecionado a partir do slug.
+  const changePmerjRole = (value) => {
+    setPmerjRole(value)
+    setPmerjError('')
+    const roleYears = pmerjRolesConfig[value]?.years || []
+    setPmerjYear(roleYears[0]?.value || '')
+  }
+
+  const currentPmerjYears = pmerjRolesConfig[pmerjRole]?.years || []
+  const isPmerjAvailable = currentPmerjYears.length > 0
+
+  const startPmerjExam = async () => {
+    setPmerjLoading(true)
+    setPmerjError('')
+    try {
+      const selectedYear = (pmerjRolesConfig[pmerjRole]?.years || []).find((item) => item.value === pmerjYear)
+      if (!selectedYear?.slug) {
+        throw new Error('Esta prova ainda não está disponível para o cargo selecionado.')
+      }
+      const questions = await loadSupabaseExam(selectedYear.slug)
+      setEnemQuestions(questions)
+      setSupabaseExamSlug(selectedYear.slug)
+      setSelectedExam('pmerj')
+      setCurrent(0)
+      setAnswers({})
+      setScreen('exam')
+      setMenuOpen(false)
+    } catch (error) {
+      setPmerjError(`Não foi possível carregar as questões do Supabase: ${error.message}`)
+    } finally {
+      setPmerjLoading(false)
+    }
+  }
+
+  // Concurso da Polícia Civil. Seleção em três níveis: Estado > Cargo > Ano.
+  const currentPcRoles = pcByState[pcState]?.roles || {}
+  const currentPcYears = currentPcRoles[pcRole]?.years || []
+  const pcSlug = currentPcYears.find((item) => item.value === pcYear)?.slug
+  const isPcAvailable = Boolean(pcSlug)
+
+  const changePcState = (value) => {
+    setPcState(value)
+    setPcError('')
+    const roles = pcByState[value]?.roles || {}
+    const firstRole = Object.keys(roles)[0] || ''
+    setPcRole(firstRole)
+    setPcYear(roles[firstRole]?.years?.[0]?.value || '')
+  }
+
+  const changePcRole = (value) => {
+    setPcRole(value)
+    setPcError('')
+    setPcYear((currentPcRoles[value]?.years || [])[0]?.value || '')
+  }
+
+  const startPcExam = async () => {
+    if (!pcSlug) return
+    setPcLoading(true)
+    setPcError('')
+    try {
+      const questions = await loadSupabaseExam(pcSlug)
+      setEnemQuestions(questions)
+      setSupabaseExamSlug(pcSlug)
+      setSelectedExam('pc')
+      setCurrent(0)
+      setAnswers({})
+      setScreen('exam')
+      setMenuOpen(false)
+    } catch (error) {
+      setPcError(`Não foi possível carregar as questões do Supabase: ${error.message}`)
+    } finally {
+      setPcLoading(false)
+    }
+  }
 
   const blocksFor = (yearValue, levelValue) => cnuBlocksByYear[yearValue]?.[levelValue] || []
 
@@ -761,6 +882,37 @@ function App() {
       error={bbError}
     />
   )
+  const pmerjCard = (
+    <PmerjCard
+      roles={pmerjRolesConfig}
+      role={pmerjRole}
+      onRoleChange={changePmerjRole}
+      years={currentPmerjYears}
+      year={pmerjYear}
+      setYear={setPmerjYear}
+      onStart={startPmerjExam}
+      available={isPmerjAvailable}
+      loading={pmerjLoading}
+      error={pmerjError}
+    />
+  )
+  const pcCard = (
+    <PcCard
+      states={pcStateOptions}
+      state={pcState}
+      onStateChange={changePcState}
+      roles={currentPcRoles}
+      role={pcRole}
+      onRoleChange={changePcRole}
+      years={currentPcYears}
+      year={pcYear}
+      setYear={setPcYear}
+      onStart={startPcExam}
+      available={isPcAvailable}
+      loading={pcLoading}
+      error={pcError}
+    />
+  )
   const cnuCard = (
     <CnuCard
       yearOptions={cnuYearOptions}
@@ -792,7 +944,7 @@ function App() {
       error={oabError}
     />
   )
-  const featuredCards = { pism: pismCard, enem: enemCard, bb: bbCard, cnu: cnuCard, oab: oabCard }
+  const featuredCards = { pism: pismCard, enem: enemCard, bb: bbCard, cnu: cnuCard, oab: oabCard, pmrj: pmerjCard, pc: pcCard }
 
   if (screen === 'catalog') {
     return (
@@ -937,7 +1089,7 @@ function App() {
         <main className="exam-page">
           <div className="exam-topline">
             <button className="back-link" onClick={() => setScreen(isReview ? 'result' : 'home')}><ArrowLeft size={17} /> {isReview ? 'Voltar ao resultado' : 'Sair da prova'}</button>
-            <div className="exam-name"><span className="mini-logo">P</span><span>provacerta · {selectedExam === 'enem-api' || selectedExam === 'bb' || selectedExam === 'cnu' || selectedExam === 'oab' ? examLabel : `PISM ${examLabel}`}</span><b>·</b><span>{isReview ? 'Revisão' : selectedExam === 'bb' || selectedExam === 'cnu' || selectedExam === 'oab' ? examDay : `Módulo I · ${examDay}`}</span></div>
+            <div className="exam-name"><span className="mini-logo">P</span><span>provacerta · {selectedExam === 'enem-api' || selectedExam === 'bb' || selectedExam === 'cnu' || selectedExam === 'oab' || selectedExam === 'pmerj' || selectedExam === 'pc' ? examLabel : `PISM ${examLabel}`}</span><b>·</b><span>{isReview ? 'Revisão' : selectedExam === 'bb' || selectedExam === 'cnu' || selectedExam === 'oab' || selectedExam === 'pmerj' || selectedExam === 'pc' ? examDay : `Módulo I · ${examDay}`}</span></div>
             <span className="question-count">{current + 1} <i>/</i> {activeQuestions.length}</span>
           </div>
           <div className="progress-track"><span style={{ width: `${((current + 1) / activeQuestions.length) * 100}%` }} /></div>
@@ -1175,6 +1327,119 @@ function BbCard({ roles, role, onRoleChange, years, year, setYear, onStart, avai
                 ) : (
                   <option value="">Nenhuma prova disponível</option>
                 )}
+              </select>
+              <ChevronDown size={16} />
+            </span>
+          </label>
+          <label>
+            Cargo
+            <span className="select-wrap">
+              <select value={role} onChange={(event) => onRoleChange(event.target.value)}>
+                {Object.entries(roles || {}).map(([key, item]) => (
+                  <option key={key} value={key}>{item.label}</option>
+                ))}
+              </select>
+              <ChevronDown size={16} />
+            </span>
+          </label>
+        </div>
+        {error && <p className="api-error" role="alert">{error}</p>}
+        <button className={`button ${available && !loading ? 'primary' : 'disabled'} full`} onClick={onStart} disabled={!available || loading}>
+          {loading ? 'Carregando questões…' : available ? 'Começar prova' : 'Em breve'} {available && !loading && <ArrowRight size={17} />}
+        </button>
+      </div>
+    </article>
+  )
+}
+
+function PmerjCard({ roles, role, onRoleChange, years, year, setYear, onStart, available, loading, error }) {
+  return (
+    <article className="exam-card color-navy">
+      <div className="card-art">
+        <span className="art-kicker">Segurança</span>
+        <strong className="long">PMERJ</strong>
+        <span className="art-shape">PMERJ</span>
+        <div className="art-dots" />
+      </div>
+      <div className="exam-card-body">
+        <div className="card-title-row">
+          <div>
+            <h3>PMERJ</h3>
+            <p>Polícia Militar do Estado do Rio de Janeiro</p>
+          </div>
+          <span className={`status ${available ? 'ready' : ''}`}>{available ? 'Disponível' : 'Em breve'}</span>
+        </div>
+        <div className="pism-controls">
+          <label>
+            Cargo
+            <span className="select-wrap">
+              <select value={role} onChange={(event) => onRoleChange(event.target.value)}>
+                {Object.entries(roles || {}).map(([key, item]) => (
+                  <option key={key} value={key}>{item.label}</option>
+                ))}
+              </select>
+              <ChevronDown size={16} />
+            </span>
+          </label>
+          <label>
+            Ano da prova
+            <span className="select-wrap">
+              <select value={year} onChange={(event) => setYear(event.target.value)} disabled={!available || years.length === 0}>
+                {years.length > 0 ? (
+                  years.map((item) => <option key={item.value} value={item.value}>{item.value}</option>)
+                ) : (
+                  <option value="">Nenhuma prova disponível</option>
+                )}
+              </select>
+              <ChevronDown size={16} />
+            </span>
+          </label>
+        </div>
+        {error && <p className="api-error" role="alert">{error}</p>}
+        <button className={`button ${available && !loading ? 'primary' : 'disabled'} full`} onClick={onStart} disabled={!available || loading}>
+          {loading ? 'Carregando questões…' : available ? 'Começar prova' : 'Em breve'} {available && !loading && <ArrowRight size={17} />}
+        </button>
+      </div>
+    </article>
+  )
+}
+
+function PcCard({ states, state, onStateChange, roles, role, onRoleChange, years, year, setYear, onStart, available, loading, error }) {
+  return (
+    <article className="exam-card color-crimson">
+      <div className="card-art">
+        <span className="art-kicker">Segurança</span>
+        <strong>PC</strong>
+        <span className="art-shape">PC</span>
+        <div className="art-dots" />
+      </div>
+      <div className="exam-card-body">
+        <div className="card-title-row">
+          <div>
+            <h3>Polícia Civil</h3>
+            <p>Concurso da Polícia Civil</p>
+          </div>
+          <span className={`status ${available ? 'ready' : ''}`}>{available ? 'Disponível' : 'Em breve'}</span>
+        </div>
+        <div className="pism-controls">
+          <label>
+            Ano da prova
+            <span className="select-wrap">
+              <select value={year} onChange={(event) => setYear(event.target.value)} disabled={years.length === 0}>
+                {years.length > 0 ? (
+                  years.map((item) => <option key={item.value} value={item.value}>{item.value}</option>)
+                ) : (
+                  <option value="">Nenhuma prova disponível</option>
+                )}
+              </select>
+              <ChevronDown size={16} />
+            </span>
+          </label>
+          <label>
+            Estado
+            <span className="select-wrap">
+              <select value={state} onChange={(event) => onStateChange(event.target.value)}>
+                {states.map((item) => <option key={item} value={item}>{item}</option>)}
               </select>
               <ChevronDown size={16} />
             </span>

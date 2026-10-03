@@ -76,5 +76,7 @@ values
   ('oab-44-primeira-fase', 'OAB 44º Exame de Ordem Unificado (1ª fase)', 'oab', '2025'),
   ('oab-43-primeira-fase', 'OAB 43º Exame de Ordem Unificado (1ª fase)', 'oab', '2025'),
   ('oab-46-primeira-fase', 'OAB 46º Exame de Ordem Unificado (1ª fase)', 'oab', '2026'),
-  ('oab-47-primeira-fase', 'OAB 47º Exame de Ordem Unificado (1ª fase)', 'oab', '2026')
+  ('oab-47-primeira-fase', 'OAB 47º Exame de Ordem Unificado (1ª fase)', 'oab', '2026'),
+  ('pmerj-2024-soldado', 'PMERJ 2024 - Soldado Policial Militar Classe C', 'pmerj', '2024'),
+  ('pc-rj-2024-investigador', 'Polícia Civil RJ 2024 - Investigador Policial de 3ª Classe', 'pc', '2024')
 on conflict (slug) do nothing;
