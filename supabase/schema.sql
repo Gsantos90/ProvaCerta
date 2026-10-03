@@ -83,5 +83,6 @@ values
   ('pc-rj-2024-investigador', 'Polícia Civil RJ 2022 - Investigador Policial de 3ª Classe', 'pc', '2022'),
   ('pc-rj-2022-inspetor', 'Polícia Civil RJ 2022 - Inspetor de Polícia de 6ª Classe', 'pc', '2022'),
   ('pc-rj-2022-necropsia', 'Polícia Civil RJ 2022 - Auxiliar Policial de Necropsia de 3ª Classe', 'pc', '2022'),
+  ('pc-rj-2022-perito-legista', 'Polícia Civil RJ 2022 - Perito Legista de 3ª Classe', 'pc', '2022'),
   ('pf-2025-perito-cb', 'Polícia Federal 2025 - Perito Criminal Federal (Conhecimentos Básicos)', 'pf', '2025')
 on conflict (slug) do nothing;

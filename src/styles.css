@@ -106,3 +106,57 @@
 .lightbox-close:hover{background:#ffffff33}
 @keyframes lightbox-in{from{opacity:0}to{opacity:1}}
 @media(prefers-reduced-motion:reduce){.lightbox{animation:none}.support-stack .support-image{transition:none}}
+
+
+/* Crie seu simulado */
+.nav-cta{color:var(--coral)!important;font-weight:700!important}
+.nav-cta:hover{color:#e85b47!important}
+.hero-buttons{display:flex;flex-wrap:wrap;gap:12px}
+.hero-buttons .button.secondary{box-shadow:0 7px 20px #e9edf4}
+
+.simulado-page{max-width:900px}
+.simulado-steps{display:flex;flex-direction:column;gap:22px}
+.simulado-block{background:#fff;border:1px solid #e9edf4;border-radius:16px;padding:24px 24px 26px;box-shadow:0 8px 28px #4254740a}
+.simulado-block-head{display:flex;align-items:center;gap:14px;margin-bottom:18px}
+.simulado-step-num{flex:none;width:30px;height:30px;border-radius:9px;display:grid;place-items:center;background:var(--navy);color:#fff;font:800 14px Manrope;transform:rotate(-8deg)}
+.simulado-block-head h2{font:700 18px Manrope;letter-spacing:-.4px;margin:0 0 3px}
+.simulado-block-head p{color:#8a94a6;font-size:12px;margin:0}
+.simulado-block-head p b{color:var(--coral)}
+.simulado-selectall{margin-left:auto;background:none;border:1px solid #dbe1ee;border-radius:999px;padding:7px 13px;color:#4b5568;font:inherit;font-size:11px;font-weight:600;cursor:pointer;transition:.15s;white-space:nowrap}
+.simulado-selectall:hover{border-color:#b9c4db;background:#f4f7fc}
+.simulado-hint{color:#77839a;font-size:13px;margin:4px 0 0}
+
+.simulado-levels{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+.simulado-level{text-align:left;border:1px solid #e2e7ef;background:#fff;border-radius:12px;padding:16px 17px;cursor:pointer;transition:.18s}
+.simulado-level:hover{border-color:#b9c4db;background:#fbfcff}
+.simulado-level strong{display:block;font:700 15px Manrope;color:#28344c;margin-bottom:5px}
+.simulado-level small{display:block;color:#8a94a6;font-size:11px;line-height:1.45}
+.simulado-level.active{border-color:#7aa5f5;background:#eef4ff;box-shadow:0 0 0 2px #4979ed1c}
+.simulado-level.active strong{color:#2f3d57}
+
+.simulado-subjects{display:flex;flex-wrap:wrap;gap:9px}
+.simulado-subject{display:inline-flex;align-items:center;gap:8px;border:1px solid #dbe1ee;background:#fff;color:#4b5568;border-radius:999px;padding:9px 15px;font:inherit;font-size:12px;font-weight:600;cursor:pointer;transition:.15s}
+.simulado-subject:hover{border-color:#b9c4db;background:#f4f7fc}
+.simulado-subject-check{display:inline-flex;align-items:center;justify-content:center;width:16px;height:16px;border-radius:50%;border:1px solid #cfd6e2;color:#fff;transition:.15s}
+.simulado-subject.active .simulado-subject-check{border:0}
+.simulado-subject.coral.active{border-color:#ed735f;background:#fff0ed;color:#c6412e}
+.simulado-subject.coral.active .simulado-subject-check{background:#ed735f}
+.simulado-subject.blue.active{border-color:#6478d9;background:#eef2ff;color:#3b4ea8}
+.simulado-subject.blue.active .simulado-subject-check{background:#6478d9}
+.simulado-subject.amber.active{border-color:#d79438;background:#fff5e5;color:#a66c17}
+.simulado-subject.amber.active .simulado-subject-check{background:#d79438}
+.simulado-subject.purple.active{border-color:#7a6ee1;background:#f2efff;color:#5a4fc0}
+.simulado-subject.purple.active .simulado-subject-check{background:#7a6ee1}
+
+.simulado-counts{display:flex;flex-wrap:wrap;gap:9px}
+.simulado-count{min-width:52px;border:1px solid #e2e7ef;background:#fff;color:#4b5568;border-radius:10px;padding:11px 14px;font:700 13px Manrope;cursor:pointer;transition:.15s}
+.simulado-count:hover{border-color:#b9c4db;background:#fbfcff}
+.simulado-count.active{border-color:var(--navy);background:var(--navy);color:#fff}
+
+.simulado-cta{display:flex;align-items:center;justify-content:space-between;gap:16px;flex-wrap:wrap;margin-top:24px;padding:18px 20px;background:#fff;border:1px solid #e9edf4;border-radius:14px;box-shadow:0 8px 28px #4254740a}
+.simulado-summary{display:flex;align-items:center;gap:9px;color:#5e6a7e;font-size:12px}
+.simulado-summary svg{color:#ff806d;flex:none}
+.simulado-cta .button{white-space:nowrap}
+.simulado-page .api-error{margin-top:18px}
+
+@media(max-width:600px){.simulado-levels{grid-template-columns:1fr}.simulado-block{padding:20px 18px 22px}.simulado-cta{flex-direction:column;align-items:stretch}.simulado-cta .button{justify-content:center}}

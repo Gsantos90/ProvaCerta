@@ -100,7 +100,7 @@ const catalogCategories = [
       { id: 'caixa', name: 'Caixa Econômica', org: 'Bancário', short: 'CAIXA', description: 'Concurso da Caixa Econômica Federal', available: false, color: 'sky', roles: ['Técnico Bancário', 'Técnico Bancário - TI'] },
       { id: 'pf', name: 'Polícia Federal', org: 'Segurança', short: 'PF', description: 'Concurso da Polícia Federal', available: true, color: 'slate', roles: ['Agente', 'Escrivão', 'Delegado', 'Perito Criminal'] },
       { id: 'correios', name: 'Correios', org: 'Serviços', short: 'CORREIOS', description: 'Concurso dos Correios', available: false, color: 'amber', roles: ['Carteiro', 'Agente dos Correios - Atendente', 'Analista de Correios'] },
-      { id: 'pc', name: 'Polícia Civil', org: 'Segurança', short: 'PC', description: 'Concurso da Polícia Civil', available: true, color: 'crimson', roles: ['Investigador', 'Escrivão', 'Delegado', 'Perito Criminal'] },
+      { id: 'pc', name: 'Polícia Civil', org: 'Segurança', short: 'PC', description: 'Concurso da Polícia Civil', available: true, color: 'crimson', roles: ['Investigador', 'Inspetor', 'Auxiliar de Necropsia', 'Perito Legista', 'Escrivão', 'Delegado', 'Perito Criminal'] },
     ],
   },
   {
@@ -219,6 +219,12 @@ const pcByState = {
         label: 'Auxiliar Policial de Necropsia',
         years: [
           { value: '2022', slug: 'pc-rj-2022-necropsia' },
+        ],
+      },
+      'Perito Legista': {
+        label: 'Perito Legista',
+        years: [
+          { value: '2022', slug: 'pc-rj-2022-perito-legista' },
         ],
       },
       'Escrivão': { label: 'Escrivão de Polícia', years: [] },
@@ -381,6 +387,46 @@ function renderSupportImages(supportImage, questionNumber) {
   ))
 }
 
+// ============================================================
+// Simulado personalizado ("Crie seu simulado")
+// O usuario escolhe o grau de ensino, as materias e a quantidade
+// de questoes; montamos uma prova aleatoria a partir das questoes
+// ja cadastradas no Supabase.
+// ============================================================
+
+// Graus de ensino disponiveis no gerador de simulado.
+const simuladoLevels = [
+  { value: 'medio', label: 'Ensino Médio', description: 'Questões de provas de nível médio (ENEM e afins).' },
+  { value: 'superior', label: 'Ensino Superior', description: 'Questões de concursos e exames de nível superior.' },
+]
+
+// Classifica uma prova (pelo campo source e pelo slug) em um grau de ensino.
+// Como o banco nao possui uma coluna de nivel, usamos a origem da prova.
+const simuladoLevelForExam = (exam) => {
+  const source = (exam?.source || '').toLowerCase()
+  const slug = (exam?.slug || '').toLowerCase()
+  // ENEM e sempre ensino medio.
+  if (source === 'enem') return 'medio'
+  // CNU: os blocos 8 e 9 sao de nivel intermediario (ensino medio);
+  // os demais blocos sao de nivel superior.
+  if (source === 'cnu') return /bloco-?(8|9)/.test(slug) ? 'medio' : 'superior'
+  // Demais origens (pism, oab, pc, pf, bb, pmerj, ...) sao tratadas como superior.
+  return 'superior'
+}
+
+// Quantidades de questoes oferecidas no gerador de simulado.
+const simuladoCountOptions = [5, 10, 15, 20, 30]
+
+// Embaralha um array (Fisher-Yates) sem alterar o original.
+const shuffleArray = (items) => {
+  const copy = [...items]
+  for (let i = copy.length - 1; i > 0; i -= 1) {
+    const j = Math.floor(Math.random() * (i + 1))
+    ;[copy[i], copy[j]] = [copy[j], copy[i]]
+  }
+  return copy
+}
+
 function App() {
   const [screen, setScreen] = useState('home')
   const [selectedExam, setSelectedExam] = useState(null)
@@ -419,6 +465,14 @@ function App() {
   const [oabError, setOabError] = useState('')
   const [cnuLoading, setCnuLoading] = useState(false)
   const [cnuError, setCnuError] = useState('')
+  // Estado do gerador de simulado personalizado.
+  const [simuladoLevel, setSimuladoLevel] = useState('medio')
+  const [simuladoSubjects, setSimuladoSubjects] = useState({}) // { medio: [...], superior: [...] }
+  const [simuladoSelected, setSimuladoSelected] = useState([]) // materias marcadas
+  const [simuladoCount, setSimuladoCount] = useState(10)
+  const [simuladoCatalogLoading, setSimuladoCatalogLoading] = useState(false)
+  const [simuladoLoading, setSimuladoLoading] = useState(false)
+  const [simuladoError, setSimuladoError] = useState('')
   const [enemCatalog, setEnemCatalog] = useState([])
   const [enemYear, setEnemYear] = useState('2023')
   const [enemDiscipline, setEnemDiscipline] = useState('linguagens')
@@ -489,9 +543,9 @@ function App() {
     ...enemCatalog,
   ].sort((a, b) => b.year - a.year)
   const activeQuestions = selectedExam === 'enem-api' || supabaseExamSlug ? enemQuestions : questionSets[selectedExam] || []
-  const examLabel = selectedExam === 'pism-1' ? '2025-1' : selectedExam === 'pism-2' ? '2025-2' : selectedExam === 'pism-2024-1' ? '2024-1' : selectedExam === 'pism-2024-2' ? '2024-2' : selectedExam === 'pism-2023-1' ? '2023-1' : selectedExam === 'pism-2023-2' ? '2023-2' : supabaseExamSlug === 'enem-2024' ? 'ENEM 2024 · Prova completa' : selectedExam === 'enem-api' ? `ENEM ${enemYear}` : selectedExam === 'bb' ? `Banco do Brasil ${bbYear} · ${bbRole}` : selectedExam === 'cnu' ? `CNU ${cnuYear} · Bloco ${cnuBlock.replace('bloco-', '')}` : selectedExam === 'oab' ? `OAB ${oabYear} · ${(oabExamsByYear[oabYear] || []).find((item) => item.value === oabEdition)?.label || 'Exame de Ordem'}` : selectedExam === 'pmerj' ? `PMERJ ${pmerjYear} · ${pmerjRolesConfig[pmerjRole]?.label || 'Soldado'}` : selectedExam === 'pc' ? `Polícia Civil ${pcState} ${pcYear} · ${pcByState[pcState]?.roles?.[pcRole]?.label || 'Investigador'}` : selectedExam === 'pf' ? `Polícia Federal ${pfYear} · ${pfRole} · ${pfArea}` : '2023-1_Cad_Amarelo - LINGUAGENS, CÓDIGOS E SUAS TECNOLOGIAS'
+  const examLabel = selectedExam === 'simulado' ? `Simulado · ${simuladoLevels.find((item) => item.value === simuladoLevel)?.label || 'Personalizado'}` : selectedExam === 'pism-1' ? '2025-1' : selectedExam === 'pism-2' ? '2025-2' : selectedExam === 'pism-2024-1' ? '2024-1' : selectedExam === 'pism-2024-2' ? '2024-2' : selectedExam === 'pism-2023-1' ? '2023-1' : selectedExam === 'pism-2023-2' ? '2023-2' : supabaseExamSlug === 'enem-2024' ? 'ENEM 2024 · Prova completa' : selectedExam === 'enem-api' ? `ENEM ${enemYear}` : selectedExam === 'bb' ? `Banco do Brasil ${bbYear} · ${bbRole}` : selectedExam === 'cnu' ? `CNU ${cnuYear} · Bloco ${cnuBlock.replace('bloco-', '')}` : selectedExam === 'oab' ? `OAB ${oabYear} · ${(oabExamsByYear[oabYear] || []).find((item) => item.value === oabEdition)?.label || 'Exame de Ordem'}` : selectedExam === 'pmerj' ? `PMERJ ${pmerjYear} · ${pmerjRolesConfig[pmerjRole]?.label || 'Soldado'}` : selectedExam === 'pc' ? `Polícia Civil ${pcState} ${pcYear} · ${pcByState[pcState]?.roles?.[pcRole]?.label || 'Investigador'}` : selectedExam === 'pf' ? `Polícia Federal ${pfYear} · ${pfRole} · ${pfArea}` : '2023-1_Cad_Amarelo - LINGUAGENS, CÓDIGOS E SUAS TECNOLOGIAS'
   const cnuShiftLabel = cnuYear === '2025' ? 'Conhecimentos Gerais e Específicos' : cnuShift === 'manha' ? 'Manhã · Conhecimentos Gerais' : 'Tarde · Conhecimentos Específicos'
-  const examDay = supabaseExamSlug === 'enem-2024' ? 'Prova completa · 180 questões' : selectedExam === 'enem-api' ? 'Área selecionada' : selectedExam === 'bb' ? 'Prova objetiva' : selectedExam === 'oab' ? 'Prova objetiva · 1ª fase' : selectedExam === 'pmerj' ? 'Prova objetiva · 50 questões' : selectedExam === 'pc' ? `Prova objetiva · ${activeQuestions.length} questões` : selectedExam === 'pf' ? 'Conhecimentos Básicos · 50 itens (Certo/Errado)' : selectedExam === 'cnu' ? cnuShiftLabel : examLabel.endsWith('-1') ? 'Dia 1' : 'Dia 2'
+  const examDay = selectedExam === 'simulado' ? `Simulado personalizado · ${activeQuestions.length} questões` : supabaseExamSlug === 'enem-2024' ? 'Prova completa · 180 questões' : selectedExam === 'enem-api' ? 'Área selecionada' : selectedExam === 'bb' ? 'Prova objetiva' : selectedExam === 'oab' ? 'Prova objetiva · 1ª fase' : selectedExam === 'pmerj' ? 'Prova objetiva · 50 questões' : selectedExam === 'pc' ? `Prova objetiva · ${activeQuestions.length} questões` : selectedExam === 'pf' ? 'Conhecimentos Básicos · 50 itens (Certo/Errado)' : selectedExam === 'cnu' ? cnuShiftLabel : examLabel.endsWith('-1') ? 'Dia 1' : 'Dia 2'
 
   // Normaliza letras de gabarito/resposta para evitar falhas de comparação
   // por espaços, quebras de linha ou diferença de maiúsculas/minúsculas.
@@ -629,7 +683,12 @@ function App() {
     setPcState(value)
     setPcError('')
     const roles = pcByState[value]?.roles || {}
-    const firstRole = Object.keys(roles)[0] || ''
+    // Seleciona o primeiro cargo que possua prova cadastrada (ano com slug);
+    // se nenhum tiver, cai no primeiro cargo (que ficará indisponível).
+    const firstAvailableRole = Object.keys(roles).find(
+      (key) => (roles[key]?.years || []).some((entry) => entry.slug),
+    )
+    const firstRole = firstAvailableRole || Object.keys(roles)[0] || ''
     setPcRole(firstRole)
     setPcYear(roles[firstRole]?.years?.[0]?.value || '')
   }
@@ -701,6 +760,121 @@ function App() {
       setPfError(`Não foi possível carregar as questões do Supabase: ${error.message}`)
     } finally {
       setPfLoading(false)
+    }
+  }
+
+  // ----------------------------------------------------------
+  // Gerador de simulado personalizado
+  // ----------------------------------------------------------
+
+  // Carrega, uma unica vez, o catalogo de materias por grau de ensino.
+  // Junta cada questao do banco ao seu exame para descobrir o grau e,
+  // em seguida, agrupa as materias (coluna subject) por grau de ensino.
+  const loadSimuladoCatalog = async () => {
+    if (!supabase) {
+      throw new Error('O simulado personalizado exige conexão com o Supabase. Verifique a configuração do banco de dados.')
+    }
+    const { data: exams, error: examsError } = await supabase.from('exams').select('id, slug, source')
+    if (examsError) throw examsError
+    const levelByExamId = new Map((exams || []).map((exam) => [exam.id, simuladoLevelForExam(exam)]))
+    const { data: rows, error: rowsError } = await supabase.from('questions').select('exam_id, subject')
+    if (rowsError) throw rowsError
+    const byLevel = { medio: new Set(), superior: new Set() }
+    for (const row of rows || []) {
+      const level = levelByExamId.get(row.exam_id)
+      if (level && row.subject) byLevel[level].add(row.subject)
+    }
+    return {
+      medio: [...byLevel.medio].sort((a, b) => a.localeCompare(b, 'pt-BR')),
+      superior: [...byLevel.superior].sort((a, b) => a.localeCompare(b, 'pt-BR')),
+    }
+  }
+
+  // Abre a tela do simulado, carregando o catalogo de materias se ainda nao houver.
+  const openSimulado = async () => {
+    setMenuOpen(false)
+    setSimuladoError('')
+    setScreen('simulado')
+    if (simuladoSubjects.medio || simuladoSubjects.superior) return
+    setSimuladoCatalogLoading(true)
+    try {
+      const catalog = await loadSimuladoCatalog()
+      setSimuladoSubjects(catalog)
+    } catch (error) {
+      setSimuladoError(`Não foi possível carregar as matérias: ${error.message}`)
+    } finally {
+      setSimuladoCatalogLoading(false)
+    }
+  }
+
+  // Troca o grau de ensino e limpa as materias marcadas (sao especificas de cada grau).
+  const changeSimuladoLevel = (value) => {
+    setSimuladoLevel(value)
+    setSimuladoSelected([])
+    setSimuladoError('')
+  }
+
+  // Marca/desmarca uma materia.
+  const toggleSimuladoSubject = (subject) => {
+    setSimuladoError('')
+    setSimuladoSelected((current) => (
+      current.includes(subject) ? current.filter((item) => item !== subject) : [...current, subject]
+    ))
+  }
+
+  const currentSimuladoSubjects = simuladoSubjects[simuladoLevel] || []
+
+  // Monta e inicia o simulado: busca as questoes das materias escolhidas no grau
+  // selecionado, embaralha e corta na quantidade pedida.
+  const startSimulado = async () => {
+    if (simuladoSelected.length === 0) {
+      setSimuladoError('Selecione ao menos uma matéria para gerar o simulado.')
+      return
+    }
+    if (!supabase) {
+      setSimuladoError('O simulado personalizado exige conexão com o Supabase.')
+      return
+    }
+    setSimuladoLoading(true)
+    setSimuladoError('')
+    try {
+      const { data: exams, error: examsError } = await supabase.from('exams').select('id, slug, source')
+      if (examsError) throw examsError
+      const examIds = (exams || [])
+        .filter((exam) => simuladoLevelForExam(exam) === simuladoLevel)
+        .map((exam) => exam.id)
+      if (examIds.length === 0) {
+        throw new Error('Nenhuma prova disponível para o grau selecionado.')
+      }
+      const { data: rows, error: rowsError } = await supabase
+        .from('questions')
+        .select('subject, text, support, support_image, options, answer, explanation')
+        .in('exam_id', examIds)
+        .in('subject', simuladoSelected)
+      if (rowsError) throw rowsError
+      if (!rows?.length) {
+        throw new Error('Não há questões cadastradas para as matérias selecionadas.')
+      }
+      const questions = shuffleArray(rows).slice(0, simuladoCount).map((question) => ({
+        subject: question.subject,
+        text: question.text,
+        support: question.support,
+        supportImage: question.support_image,
+        options: question.options,
+        answer: question.answer,
+        explanation: question.explanation,
+      }))
+      setEnemQuestions(questions)
+      setSupabaseExamSlug('simulado')
+      setSelectedExam('simulado')
+      setCurrent(0)
+      setAnswers({})
+      setScreen('exam')
+      setMenuOpen(false)
+    } catch (error) {
+      setSimuladoError(`Não foi possível gerar o simulado: ${error.message}`)
+    } finally {
+      setSimuladoLoading(false)
     }
   }
 
@@ -1059,10 +1233,140 @@ function App() {
   )
   const featuredCards = { pism: pismCard, enem: enemCard, bb: bbCard, cnu: cnuCard, oab: oabCard, pmrj: pmerjCard, pc: pcCard, pf: pfCard }
 
+  if (screen === 'simulado') {
+    const subjectColors = ['coral', 'blue', 'amber', 'purple']
+    const canStart = simuladoSelected.length > 0 && !simuladoLoading
+    return (
+      <div className="app-shell">
+        <Header menuOpen={menuOpen} setMenuOpen={setMenuOpen} onHome={() => setScreen('home')} onSimulado={openSimulado} onCatalog={() => setScreen('catalog')} />
+        <main className="catalog-page simulado-page">
+          <div className="catalog-head">
+            <button className="back-link" onClick={() => setScreen('home')}><ArrowLeft size={17} /> Voltar ao início</button>
+            <p className="eyebrow">Monte do seu jeito</p>
+            <h1>Crie seu simulado</h1>
+            <p className="catalog-subtitle">Escolha o grau de ensino, selecione as matérias que deseja treinar e a quantidade de questões. Montamos um simulado único a partir das provas da plataforma.</p>
+          </div>
+
+          <div className="simulado-steps">
+            <section className="simulado-block">
+              <div className="simulado-block-head">
+                <span className="simulado-step-num">1</span>
+                <div>
+                  <h2>Grau de ensino</h2>
+                  <p>Define o conjunto de provas usado no seu simulado.</p>
+                </div>
+              </div>
+              <div className="simulado-levels">
+                {simuladoLevels.map((level) => (
+                  <button
+                    key={level.value}
+                    type="button"
+                    className={`simulado-level ${simuladoLevel === level.value ? 'active' : ''}`}
+                    onClick={() => changeSimuladoLevel(level.value)}
+                    aria-pressed={simuladoLevel === level.value}
+                  >
+                    <strong>{level.label}</strong>
+                    <small>{level.description}</small>
+                  </button>
+                ))}
+              </div>
+            </section>
+
+            <section className="simulado-block">
+              <div className="simulado-block-head">
+                <span className="simulado-step-num">2</span>
+                <div>
+                  <h2>Matérias</h2>
+                  <p>Toque para incluir ou remover uma matéria. {simuladoSelected.length > 0 && <b>{simuladoSelected.length} selecionada(s)</b>}</p>
+                </div>
+                {currentSimuladoSubjects.length > 0 && (
+                  <button
+                    type="button"
+                    className="simulado-selectall"
+                    onClick={() => setSimuladoSelected(
+                      simuladoSelected.length === currentSimuladoSubjects.length ? [] : [...currentSimuladoSubjects],
+                    )}
+                  >
+                    {simuladoSelected.length === currentSimuladoSubjects.length ? 'Limpar seleção' : 'Selecionar todas'}
+                  </button>
+                )}
+              </div>
+              {simuladoCatalogLoading ? (
+                <p className="simulado-hint">Carregando matérias disponíveis…</p>
+              ) : currentSimuladoSubjects.length === 0 ? (
+                <p className="simulado-hint">Nenhuma matéria disponível para este grau de ensino no momento.</p>
+              ) : (
+                <div className="simulado-subjects">
+                  {currentSimuladoSubjects.map((subject, index) => {
+                    const active = simuladoSelected.includes(subject)
+                    return (
+                      <button
+                        key={subject}
+                        type="button"
+                        className={`simulado-subject ${subjectColors[index % subjectColors.length]} ${active ? 'active' : ''}`}
+                        onClick={() => toggleSimuladoSubject(subject)}
+                        aria-pressed={active}
+                      >
+                        <span className="simulado-subject-check">{active ? <Check size={13} /> : null}</span>
+                        {subject}
+                      </button>
+                    )
+                  })}
+                </div>
+              )}
+            </section>
+
+            <section className="simulado-block">
+              <div className="simulado-block-head">
+                <span className="simulado-step-num">3</span>
+                <div>
+                  <h2>Quantidade de questões</h2>
+                  <p>Caso haja menos questões disponíveis, usamos todas as que existirem.</p>
+                </div>
+              </div>
+              <div className="simulado-counts">
+                {simuladoCountOptions.map((count) => (
+                  <button
+                    key={count}
+                    type="button"
+                    className={`simulado-count ${simuladoCount === count ? 'active' : ''}`}
+                    onClick={() => setSimuladoCount(count)}
+                    aria-pressed={simuladoCount === count}
+                  >
+                    {count}
+                  </button>
+                ))}
+              </div>
+            </section>
+          </div>
+
+          {simuladoError && <p className="api-error" role="alert">{simuladoError}</p>}
+
+          <div className="simulado-cta">
+            <div className="simulado-summary">
+              <Target size={16} />
+              <span>
+                {simuladoLevels.find((item) => item.value === simuladoLevel)?.label}
+                {' · '}
+                {simuladoSelected.length > 0 ? `${simuladoSelected.length} matéria(s)` : 'nenhuma matéria'}
+                {' · '}
+                até {simuladoCount} questões
+              </span>
+            </div>
+            <button className={`button ${canStart ? 'primary' : 'disabled'}`} onClick={startSimulado} disabled={!canStart}>
+              {simuladoLoading ? 'Gerando simulado…' : 'Gerar simulado'} {!simuladoLoading && <ArrowRight size={17} />}
+            </button>
+          </div>
+        </main>
+        <footer><span className="brand"><span className="brand-mark">P</span> prova<span>certa</span></span><span>Feito para quem quer chegar mais longe.</span><span>© 2025 provacerta</span></footer>
+      </div>
+    )
+  }
+
   if (screen === 'catalog') {
     return (
       <div className="app-shell">
-        <Header menuOpen={menuOpen} setMenuOpen={setMenuOpen} onHome={() => setScreen('home')} />
+        <Header menuOpen={menuOpen} setMenuOpen={setMenuOpen} onHome={() => setScreen('home')} onSimulado={openSimulado} onCatalog={() => setScreen('catalog')} />
         <main className="catalog-page">
           <div className="catalog-head">
             <button className="back-link" onClick={() => setScreen('home')}><ArrowLeft size={17} /> Voltar ao início</button>
@@ -1151,7 +1455,7 @@ function App() {
     const percentage = Math.round((score / activeQuestions.length) * 100)
     return (
       <div className="app-shell">
-        <Header onHome={() => setScreen('home')} />
+        <Header onHome={() => setScreen('home')} onSimulado={openSimulado} onCatalog={() => setScreen('catalog')} />
         <main className="result-page">
           <div className="result-glow" />
           <section className="result-card">
@@ -1198,11 +1502,11 @@ function App() {
     }
     return (
       <div className="app-shell exam-shell">
-        <Header onHome={() => setScreen('home')} />
+        <Header onHome={() => setScreen('home')} onSimulado={openSimulado} onCatalog={() => setScreen('catalog')} />
         <main className="exam-page">
           <div className="exam-topline">
             <button className="back-link" onClick={() => setScreen(isReview ? 'result' : 'home')}><ArrowLeft size={17} /> {isReview ? 'Voltar ao resultado' : 'Sair da prova'}</button>
-            <div className="exam-name"><span className="mini-logo">P</span><span>provacerta · {selectedExam === 'enem-api' || selectedExam === 'bb' || selectedExam === 'cnu' || selectedExam === 'oab' || selectedExam === 'pmerj' || selectedExam === 'pc' || selectedExam === 'pf' ? examLabel : `PISM ${examLabel}`}</span><b>·</b><span>{isReview ? 'Revisão' : selectedExam === 'bb' || selectedExam === 'cnu' || selectedExam === 'oab' || selectedExam === 'pmerj' || selectedExam === 'pc' || selectedExam === 'pf' ? examDay : `Módulo I · ${examDay}`}</span></div>
+            <div className="exam-name"><span className="mini-logo">P</span><span>provacerta · {selectedExam === 'simulado' || selectedExam === 'enem-api' || selectedExam === 'bb' || selectedExam === 'cnu' || selectedExam === 'oab' || selectedExam === 'pmerj' || selectedExam === 'pc' || selectedExam === 'pf' ? examLabel : `PISM ${examLabel}`}</span><b>·</b><span>{isReview ? 'Revisão' : selectedExam === 'simulado' || selectedExam === 'bb' || selectedExam === 'cnu' || selectedExam === 'oab' || selectedExam === 'pmerj' || selectedExam === 'pc' || selectedExam === 'pf' ? examDay : `Módulo I · ${examDay}`}</span></div>
             <span className="question-count">{current + 1} <i>/</i> {activeQuestions.length}</span>
           </div>
           <div className="progress-track"><span style={{ width: `${((current + 1) / activeQuestions.length) * 100}%` }} /></div>
@@ -1302,7 +1606,7 @@ function App() {
 
   return (
     <div className="app-shell">
-      <Header menuOpen={menuOpen} setMenuOpen={setMenuOpen} onHome={() => setScreen('home')} />
+      <Header menuOpen={menuOpen} setMenuOpen={setMenuOpen} onHome={() => setScreen('home')} onSimulado={openSimulado} onCatalog={() => setScreen('catalog')} />
       <main className="home">
         <section className="hero">
           <div className="hero-copy">
@@ -1311,7 +1615,10 @@ function App() {
             <p>Sua aprovação começa com a prática certa.
 
 Acesse provas reais de concursos e faculdades federais, resolva simulados exclusivos e acompanhe seu desempenho para chegar pronto no dia da prova.</p>
-            <button className="button primary hero-button" onClick={() => setScreen('catalog')}>Explorar provas <ArrowRight size={18} /></button>
+            <div className="hero-buttons">
+              <button className="button primary hero-button" onClick={() => setScreen('catalog')}>Explorar provas <ArrowRight size={18} /></button>
+              <button className="button secondary hero-button" onClick={openSimulado}><Sparkles size={17} /> Crie seu simulado</button>
+            </div>
             <div className="hero-proof"><div className="avatars"><span>J</span><span>M</span><span>A</span><span>+</span></div><span>Junte-se a quem está estudando hoje</span></div>
           </div>
           <div className="hero-visual">
@@ -1336,8 +1643,18 @@ Acesse provas reais de concursos e faculdades federais, resolva simulados exclus
   )
 }
 
-function Header({ onHome, menuOpen, setMenuOpen }) {
-  return <header><button className="brand" onClick={onHome}><span className="brand-mark">P</span> prova<span>certa</span></button><nav className={menuOpen ? 'open' : ''}><a href="#provas" onClick={() => setMenuOpen?.(false)}>Provas</a><a href="#como-funciona" onClick={() => setMenuOpen?.(false)}>Como funciona</a><a href="#sobre" onClick={() => setMenuOpen?.(false)}>Sobre nós</a></nav><button className="menu-button" onClick={() => setMenuOpen?.(!menuOpen)}><Menu size={22} /></button></header>
+function Header({ onHome, onSimulado, onCatalog, menuOpen, setMenuOpen }) {
+  const handleSimulado = (event) => {
+    event.preventDefault()
+    setMenuOpen?.(false)
+    onSimulado?.()
+  }
+  const handleCatalog = (event) => {
+    event.preventDefault()
+    setMenuOpen?.(false)
+    onCatalog?.()
+  }
+  return <header><button className="brand" onClick={onHome}><span className="brand-mark">P</span> prova<span>certa</span></button><nav className={menuOpen ? 'open' : ''}><a href="#provas" onClick={handleCatalog}>Provas</a><a href="#simulado" className="nav-cta" onClick={handleSimulado}>Crie seu simulado</a><a href="#sobre" onClick={() => setMenuOpen?.(false)}>Sobre nós</a></nav><button className="menu-button" onClick={() => setMenuOpen?.(!menuOpen)}><Menu size={22} /></button></header>
 }
 
 function EnemCard({ catalog, year, setYear, discipline, setDiscipline, language, setLanguage, onStart, loading, error }) {
@@ -1520,6 +1837,11 @@ function PmerjCard({ roles, role, onRoleChange, years, year, setYear, onStart, a
 }
 
 function PcCard({ states, state, onStateChange, roles, role, onRoleChange, years, year, setYear, onStart, available, loading, error }) {
+  // Mostra no seletor apenas cargos que tenham ao menos uma prova cadastrada
+  // (algum ano com slug). Cargos sem prova ficam ocultos.
+  const availableRoles = Object.entries(roles || {}).filter(
+    ([, item]) => (item.years || []).some((entry) => entry.slug),
+  )
   return (
     <article className="exam-card color-crimson">
       <div className="card-art">
@@ -1562,10 +1884,14 @@ function PcCard({ states, state, onStateChange, roles, role, onRoleChange, years
           <label>
             Cargo
             <span className="select-wrap">
-              <select value={role} onChange={(event) => onRoleChange(event.target.value)}>
-                {Object.entries(roles || {}).map(([key, item]) => (
-                  <option key={key} value={key}>{item.label}</option>
-                ))}
+              <select value={role} onChange={(event) => onRoleChange(event.target.value)} disabled={availableRoles.length === 0}>
+                {availableRoles.length > 0 ? (
+                  availableRoles.map(([key, item]) => (
+                    <option key={key} value={key}>{item.label}</option>
+                  ))
+                ) : (
+                  <option value="">Nenhum cargo disponível</option>
+                )}
               </select>
               <ChevronDown size={16} />
             </span>
