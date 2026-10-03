@@ -206,7 +206,13 @@ const pcByState = {
       'Investigador': {
         label: 'Investigador Policial',
         years: [
-          { value: '2024', slug: 'pc-rj-2024-investigador' },
+          { value: '2022', slug: 'pc-rj-2024-investigador' },
+        ],
+      },
+      'Inspetor': {
+        label: 'Inspetor de Polícia',
+        years: [
+          { value: '2022', slug: 'pc-rj-2022-inspetor' },
         ],
       },
       'Escrivão': { label: 'Escrivão de Polícia', years: [] },
@@ -389,7 +395,7 @@ function App() {
   const [pmerjError, setPmerjError] = useState('')
   const [pcState, setPcState] = useState('Rio de Janeiro')
   const [pcRole, setPcRole] = useState('Investigador')
-  const [pcYear, setPcYear] = useState('2024')
+  const [pcYear, setPcYear] = useState('2022')
   const [pcLoading, setPcLoading] = useState(false)
   const [pcError, setPcError] = useState('')
   const [pfRole, setPfRole] = useState('Perito Criminal Federal')
