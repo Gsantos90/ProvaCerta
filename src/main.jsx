@@ -84,7 +84,7 @@ const catalogCategories = [
     description: 'Vestibulares específicos de universidades públicas.',
     exams: [
       { id: 'pism', name: 'PISM', org: 'UFJF', description: 'Programa de Ingresso Seletivo Misto', available: true },
-      { id: 'uerj', name: 'UERJ', org: 'Rio de Janeiro', short: 'UERJ', description: 'Universidade do Estado do Rio de Janeiro', available: false, color: 'teal' },
+      { id: 'uerj', name: 'UERJ', org: 'Rio de Janeiro', short: 'UERJ', description: 'Universidade do Estado do Rio de Janeiro', available: true, color: 'teal' },
       { id: 'uff', name: 'UFF', org: 'Fluminense', short: 'UFF', description: 'Universidade Federal Fluminense', available: false, color: 'indigo' },
       { id: 'ufrj', name: 'UFRJ', org: 'Rio de Janeiro', short: 'UFRJ', description: 'Universidade Federal do Rio de Janeiro', available: false, color: 'crimson' },
     ],
@@ -366,6 +366,15 @@ const oabExamsByYear = {
 }
 const oabYearOptions = Object.keys(oabExamsByYear).sort((a, b) => b.localeCompare(a))
 
+// Vestibular Estadual da UERJ, organizado por ano > edição (exame de qualificação).
+// Cada edição aponta para o slug da prova cadastrada no Supabase (quando houver).
+const uerjExamsByYear = {
+  '2025': [
+    { value: 'eq2', label: '2º Exame de Qualificação', slug: 'uerj-2025-eq2' },
+  ],
+}
+const uerjYearOptions = Object.keys(uerjExamsByYear).sort((a, b) => b.localeCompare(a))
+
 // Renderiza uma ou mais imagens de apoio. O campo support_image pode conter
 // varios caminhos separados por virgula; cada um vira uma <img> clicavel.
 function renderSupportImages(supportImage, questionNumber) {
@@ -415,7 +424,7 @@ const simuladoLevelForExam = (exam) => {
 }
 
 // Quantidades de questoes oferecidas no gerador de simulado.
-const simuladoCountOptions = [5, 10, 15, 20, 30]
+const simuladoCountOptions = [5, 10, 15, 20, 30, 50]
 
 // Embaralha um array (Fisher-Yates) sem alterar o original.
 const shuffleArray = (items) => {
@@ -463,6 +472,10 @@ function App() {
   const [oabEdition, setOabEdition] = useState(oabExamsByYear[oabYearOptions[0]]?.[0]?.value || '')
   const [oabLoading, setOabLoading] = useState(false)
   const [oabError, setOabError] = useState('')
+  const [uerjYear, setUerjYear] = useState(uerjYearOptions[0] || '')
+  const [uerjEdition, setUerjEdition] = useState(uerjExamsByYear[uerjYearOptions[0]]?.[0]?.value || '')
+  const [uerjLoading, setUerjLoading] = useState(false)
+  const [uerjError, setUerjError] = useState('')
   const [cnuLoading, setCnuLoading] = useState(false)
   const [cnuError, setCnuError] = useState('')
   // Estado do gerador de simulado personalizado.
@@ -543,9 +556,9 @@ function App() {
     ...enemCatalog,
   ].sort((a, b) => b.year - a.year)
   const activeQuestions = selectedExam === 'enem-api' || supabaseExamSlug ? enemQuestions : questionSets[selectedExam] || []
-  const examLabel = selectedExam === 'simulado' ? `Simulado · ${simuladoLevels.find((item) => item.value === simuladoLevel)?.label || 'Personalizado'}` : selectedExam === 'pism-1' ? '2025-1' : selectedExam === 'pism-2' ? '2025-2' : selectedExam === 'pism-2024-1' ? '2024-1' : selectedExam === 'pism-2024-2' ? '2024-2' : selectedExam === 'pism-2023-1' ? '2023-1' : selectedExam === 'pism-2023-2' ? '2023-2' : supabaseExamSlug === 'enem-2024' ? 'ENEM 2024 · Prova completa' : selectedExam === 'enem-api' ? `ENEM ${enemYear}` : selectedExam === 'bb' ? `Banco do Brasil ${bbYear} · ${bbRole}` : selectedExam === 'cnu' ? `CNU ${cnuYear} · Bloco ${cnuBlock.replace('bloco-', '')}` : selectedExam === 'oab' ? `OAB ${oabYear} · ${(oabExamsByYear[oabYear] || []).find((item) => item.value === oabEdition)?.label || 'Exame de Ordem'}` : selectedExam === 'pmerj' ? `PMERJ ${pmerjYear} · ${pmerjRolesConfig[pmerjRole]?.label || 'Soldado'}` : selectedExam === 'pc' ? `Polícia Civil ${pcState} ${pcYear} · ${pcByState[pcState]?.roles?.[pcRole]?.label || 'Investigador'}` : selectedExam === 'pf' ? `Polícia Federal ${pfYear} · ${pfRole} · ${pfArea}` : '2023-1_Cad_Amarelo - LINGUAGENS, CÓDIGOS E SUAS TECNOLOGIAS'
+  const examLabel = selectedExam === 'uerj' ? `UERJ ${uerjYear} · ${(uerjExamsByYear[uerjYear] || []).find((item) => item.value === uerjEdition)?.label || ''}` : selectedExam === 'simulado' ? `Simulado · ${simuladoLevels.find((item) => item.value === simuladoLevel)?.label || 'Personalizado'}` : selectedExam === 'pism-1' ? '2025-1' : selectedExam === 'pism-2' ? '2025-2' : selectedExam === 'pism-2024-1' ? '2024-1' : selectedExam === 'pism-2024-2' ? '2024-2' : selectedExam === 'pism-2023-1' ? '2023-1' : selectedExam === 'pism-2023-2' ? '2023-2' : supabaseExamSlug === 'enem-2024' ? 'ENEM 2024 · Prova completa' : selectedExam === 'enem-api' ? `ENEM ${enemYear}` : selectedExam === 'bb' ? `Banco do Brasil ${bbYear} · ${bbRole}` : selectedExam === 'cnu' ? `CNU ${cnuYear} · Bloco ${cnuBlock.replace('bloco-', '')}` : selectedExam === 'oab' ? `OAB ${oabYear} · ${(oabExamsByYear[oabYear] || []).find((item) => item.value === oabEdition)?.label || 'Exame de Ordem'}` : selectedExam === 'pmerj' ? `PMERJ ${pmerjYear} · ${pmerjRolesConfig[pmerjRole]?.label || 'Soldado'}` : selectedExam === 'pc' ? `Polícia Civil ${pcState} ${pcYear} · ${pcByState[pcState]?.roles?.[pcRole]?.label || 'Investigador'}` : selectedExam === 'pf' ? `Polícia Federal ${pfYear} · ${pfRole} · ${pfArea}` : '2023-1_Cad_Amarelo - LINGUAGENS, CÓDIGOS E SUAS TECNOLOGIAS'
   const cnuShiftLabel = cnuYear === '2025' ? 'Conhecimentos Gerais e Específicos' : cnuShift === 'manha' ? 'Manhã · Conhecimentos Gerais' : 'Tarde · Conhecimentos Específicos'
-  const examDay = selectedExam === 'simulado' ? `Simulado personalizado · ${activeQuestions.length} questões` : supabaseExamSlug === 'enem-2024' ? 'Prova completa · 180 questões' : selectedExam === 'enem-api' ? 'Área selecionada' : selectedExam === 'bb' ? 'Prova objetiva' : selectedExam === 'oab' ? 'Prova objetiva · 1ª fase' : selectedExam === 'pmerj' ? 'Prova objetiva · 50 questões' : selectedExam === 'pc' ? `Prova objetiva · ${activeQuestions.length} questões` : selectedExam === 'pf' ? 'Conhecimentos Básicos · 50 itens (Certo/Errado)' : selectedExam === 'cnu' ? cnuShiftLabel : examLabel.endsWith('-1') ? 'Dia 1' : 'Dia 2'
+  const examDay = selectedExam === 'uerj' ? `Prova objetiva · ${activeQuestions.length} questões` : selectedExam === 'simulado' ? `Simulado personalizado · ${activeQuestions.length} questões` : supabaseExamSlug === 'enem-2024' ? 'Prova completa · 180 questões' : selectedExam === 'enem-api' ? 'Área selecionada' : selectedExam === 'bb' ? 'Prova objetiva' : selectedExam === 'oab' ? 'Prova objetiva · 1ª fase' : selectedExam === 'pmerj' ? 'Prova objetiva · 50 questões' : selectedExam === 'pc' ? `Prova objetiva · ${activeQuestions.length} questões` : selectedExam === 'pf' ? 'Conhecimentos Básicos · 50 itens (Certo/Errado)' : selectedExam === 'cnu' ? cnuShiftLabel : examLabel.endsWith('-1') ? 'Dia 1' : 'Dia 2'
 
   // Normaliza letras de gabarito/resposta para evitar falhas de comparação
   // por espaços, quebras de linha ou diferença de maiúsculas/minúsculas.
@@ -784,9 +797,14 @@ function App() {
       const level = levelByExamId.get(row.exam_id)
       if (level && row.subject) byLevel[level].add(row.subject)
     }
+    // No ensino superior, ocultamos as materias genericas "Eixo 1" a "Eixo 5"
+    // (provenientes das provas do CNU) da selecao de materias do simulado.
+    const isHiddenSuperiorSubject = (subject) => /^eixo\s*[1-5]$/i.test(subject.trim())
     return {
       medio: [...byLevel.medio].sort((a, b) => a.localeCompare(b, 'pt-BR')),
-      superior: [...byLevel.superior].sort((a, b) => a.localeCompare(b, 'pt-BR')),
+      superior: [...byLevel.superior]
+        .filter((subject) => !isHiddenSuperiorSubject(subject))
+        .sort((a, b) => a.localeCompare(b, 'pt-BR')),
     }
   }
 
@@ -948,6 +966,37 @@ function App() {
       setOabError(`Não foi possível carregar as questões do Supabase: ${error.message}`)
     } finally {
       setOabLoading(false)
+    }
+  }
+
+  // Vestibular da UERJ. Seleção por ano > edição; o slug define a prova disponível.
+  const currentUerjEditions = uerjExamsByYear[uerjYear] || []
+  const uerjSlug = currentUerjEditions.find((item) => item.value === uerjEdition)?.slug
+  const isUerjAvailable = Boolean(uerjSlug)
+
+  const changeUerjYear = (value) => {
+    setUerjYear(value)
+    setUerjError('')
+    setUerjEdition((uerjExamsByYear[value] || [])[0]?.value || '')
+  }
+
+  const startUerjExam = async () => {
+    if (!uerjSlug) return
+    setUerjLoading(true)
+    setUerjError('')
+    try {
+      const questions = await loadSupabaseExam(uerjSlug)
+      setEnemQuestions(questions)
+      setSupabaseExamSlug(uerjSlug)
+      setSelectedExam('uerj')
+      setCurrent(0)
+      setAnswers({})
+      setScreen('exam')
+      setMenuOpen(false)
+    } catch (error) {
+      setUerjError(`Não foi possível carregar as questões do Supabase: ${error.message}`)
+    } finally {
+      setUerjLoading(false)
     }
   }
 
@@ -1231,7 +1280,21 @@ function App() {
       error={oabError}
     />
   )
-  const featuredCards = { pism: pismCard, enem: enemCard, bb: bbCard, cnu: cnuCard, oab: oabCard, pmrj: pmerjCard, pc: pcCard, pf: pfCard }
+  const uerjCard = (
+    <UerjCard
+      years={uerjYearOptions}
+      year={uerjYear}
+      setYear={changeUerjYear}
+      editions={currentUerjEditions}
+      edition={uerjEdition}
+      setEdition={setUerjEdition}
+      onStart={startUerjExam}
+      available={isUerjAvailable}
+      loading={uerjLoading}
+      error={uerjError}
+    />
+  )
+  const featuredCards = { pism: pismCard, enem: enemCard, uerj: uerjCard, bb: bbCard, cnu: cnuCard, oab: oabCard, pmrj: pmerjCard, pc: pcCard, pf: pfCard }
 
   if (screen === 'simulado') {
     const subjectColors = ['coral', 'blue', 'amber', 'purple']
@@ -1506,7 +1569,7 @@ function App() {
         <main className="exam-page">
           <div className="exam-topline">
             <button className="back-link" onClick={() => setScreen(isReview ? 'result' : 'home')}><ArrowLeft size={17} /> {isReview ? 'Voltar ao resultado' : 'Sair da prova'}</button>
-            <div className="exam-name"><span className="mini-logo">P</span><span>provacerta · {selectedExam === 'simulado' || selectedExam === 'enem-api' || selectedExam === 'bb' || selectedExam === 'cnu' || selectedExam === 'oab' || selectedExam === 'pmerj' || selectedExam === 'pc' || selectedExam === 'pf' ? examLabel : `PISM ${examLabel}`}</span><b>·</b><span>{isReview ? 'Revisão' : selectedExam === 'simulado' || selectedExam === 'bb' || selectedExam === 'cnu' || selectedExam === 'oab' || selectedExam === 'pmerj' || selectedExam === 'pc' || selectedExam === 'pf' ? examDay : `Módulo I · ${examDay}`}</span></div>
+            <div className="exam-name"><span className="mini-logo">P</span><span>provacerta · {selectedExam === 'uerj' || selectedExam === 'simulado' || selectedExam === 'enem-api' || selectedExam === 'bb' || selectedExam === 'cnu' || selectedExam === 'oab' || selectedExam === 'pmerj' || selectedExam === 'pc' || selectedExam === 'pf' ? examLabel : `PISM ${examLabel}`}</span><b>·</b><span>{isReview ? 'Revisão' : selectedExam === 'uerj' || selectedExam === 'simulado' || selectedExam === 'bb' || selectedExam === 'cnu' || selectedExam === 'oab' || selectedExam === 'pmerj' || selectedExam === 'pc' || selectedExam === 'pf' ? examDay : `Módulo I · ${examDay}`}</span></div>
             <span className="question-count">{current + 1} <i>/</i> {activeQuestions.length}</span>
           </div>
           <div className="progress-track"><span style={{ width: `${((current + 1) / activeQuestions.length) * 100}%` }} /></div>
@@ -2055,6 +2118,60 @@ function OabCard({ years, year, setYear, editions, edition, setEdition, onStart,
           </label>
           <label>
             Edição do exame
+            <span className="select-wrap">
+              <select value={edition} onChange={(event) => setEdition(event.target.value)} disabled={editions.length === 0}>
+                {editions.length > 0 ? (
+                  editions.map((item) => <option key={item.value} value={item.value}>{item.label}</option>)
+                ) : (
+                  <option value="">Nenhuma prova disponível</option>
+                )}
+              </select>
+              <ChevronDown size={16} />
+            </span>
+          </label>
+        </div>
+        {error && <p className="api-error" role="alert">{error}</p>}
+        <button className={`button ${available && !loading ? 'primary' : 'disabled'} full`} onClick={onStart} disabled={!available || loading}>
+          {loading ? 'Carregando questões…' : available ? 'Começar prova' : 'Em breve'} {available && !loading && <ArrowRight size={17} />}
+        </button>
+      </div>
+    </article>
+  )
+}
+
+function UerjCard({ years, year, setYear, editions, edition, setEdition, onStart, available, loading, error }) {
+  return (
+    <article className="exam-card color-teal">
+      <div className="card-art">
+        <span className="art-kicker">RIO DE JANEIRO</span>
+        <strong>UERJ</strong>
+        <span className="art-shape">UERJ</span>
+        <div className="art-dots" />
+      </div>
+      <div className="exam-card-body">
+        <div className="card-title-row">
+          <div>
+            <h3>UERJ</h3>
+            <p>Vestibular Estadual</p>
+          </div>
+          <span className={`status ${available ? 'ready' : ''}`}>{available ? 'Disponível' : 'Em breve'}</span>
+        </div>
+        <div className="pism-controls">
+          <label>
+            Ano da prova
+            <span className="select-wrap">
+              <select value={year} onChange={(event) => setYear(event.target.value)} disabled={years.length === 0}>
+                {years.length > 0 ? (
+                  years.map((item) => <option key={item} value={item}>{item}</option>)
+                ) : (
+                  <option value="">Nenhum ano disponível</option>
+                )}
+              </select>
+              <ChevronDown size={16} />
+            </span>
+          </label>
+          <label>
+            Edição
             <span className="select-wrap">
               <select value={edition} onChange={(event) => setEdition(event.target.value)} disabled={editions.length === 0}>
                 {editions.length > 0 ? (
