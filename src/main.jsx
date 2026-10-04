@@ -228,7 +228,12 @@ const pcByState = {
       },
       'Escrivão': { label: 'Escrivão de Polícia', years: [] },
       'Delegado': { label: 'Delegado de Polícia', years: [] },
-      'Perito Criminal': { label: 'Perito Criminal', years: [] },
+      'Perito Criminal': {
+        label: 'Perito Criminal - Química',
+        years: [
+          { value: '2022', slug: 'pc-rj-2022-perito-quimica' },
+        ],
+      },
     },
   },
   'São Paulo': { label: 'São Paulo', roles: { 'Investigador': { label: 'Investigador Policial', years: [] } } },
@@ -369,7 +374,7 @@ const oabYearOptions = Object.keys(oabExamsByYear).sort((a, b) => b.localeCompar
 // Cada edição aponta para o slug da prova cadastrada no Supabase (quando houver).
 const uerjExamsByYear = {
   '2025': [
-    { value: 'eq2', label: '2º Exame de Qualificação', slug: 'uerj-2025-eq2' },
+    { value: 'eq2', label: 'Exame de Qualificação', slug: 'uerj-2025-eq2' },
   ],
 }
 const uerjYearOptions = Object.keys(uerjExamsByYear).sort((a, b) => b.localeCompare(a))

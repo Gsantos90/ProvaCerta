@@ -20,7 +20,8 @@ Origens de prova disponíveis no catálogo:
   filtrável por ano, área e idioma (o ENEM 2024 completo está no banco);
 - **CNU** (Concurso Nacional Unificado);
 - **OAB** (Exame de Ordem);
-- **PMERJ**, **Polícia Civil** e **Polícia Federal**;
+- **PMERJ**, **Polícia Civil** (incluindo Perito Criminal - Química 2022) e
+   **Polícia Federal**;
 - **Banco do Brasil**;
 - **UERJ** (Vestibular Estadual);
 - **USP** (FUVEST).

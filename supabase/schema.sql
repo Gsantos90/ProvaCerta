@@ -79,9 +79,16 @@ alter table public.exams enable row level security;
 alter table public.questions enable row level security;
 alter table public.attempts enable row level security;
 
+drop policy if exists "Public can read exams" on public.exams;
 create policy "Public can read exams" on public.exams for select using (true);
+
+drop policy if exists "Public can read questions" on public.questions;
 create policy "Public can read questions" on public.questions for select using (true);
+
+drop policy if exists "Users can read their attempts" on public.attempts;
 create policy "Users can read their attempts" on public.attempts for select using (auth.uid() = user_id);
+
+drop policy if exists "Users can create their attempts" on public.attempts;
 create policy "Users can create their attempts" on public.attempts for insert with check (auth.uid() = user_id);
 
 insert into public.exams (slug, title, source, year)
@@ -123,6 +130,7 @@ values
   ('pc-rj-2022-inspetor', 'Polícia Civil RJ 2022 - Inspetor de Polícia de 6ª Classe', 'pc', '2022'),
   ('pc-rj-2022-necropsia', 'Polícia Civil RJ 2022 - Auxiliar Policial de Necropsia de 3ª Classe', 'pc', '2022'),
   ('pc-rj-2022-perito-legista', 'Polícia Civil RJ 2022 - Perito Legista de 3ª Classe', 'pc', '2022'),
+  ('pc-rj-2022-perito-quimica', 'Polícia Civil RJ 2022 - Perito Criminal - Química', 'pc', '2022'),
   ('uerj-2025-eq2', 'UERJ 2025 - Vestibular Estadual (2º Exame de Qualificação)', 'uerj', '2025'),
   ('usp-2026-v1', 'USP 2026 - FUVEST (Prova de Conhecimentos Gerais - V1)', 'usp', '2026'),
   ('pf-2025-perito-cb', 'Polícia Federal 2025 - Perito Criminal Federal (Conhecimentos Básicos)', 'pf', '2025')
