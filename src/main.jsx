@@ -85,8 +85,7 @@ const catalogCategories = [
     exams: [
       { id: 'pism', name: 'PISM', org: 'UFJF', description: 'Programa de Ingresso Seletivo Misto', available: true },
       { id: 'uerj', name: 'UERJ', org: 'Rio de Janeiro', short: 'UERJ', description: 'Universidade do Estado do Rio de Janeiro', available: true, color: 'teal' },
-      { id: 'uff', name: 'UFF', org: 'Fluminense', short: 'UFF', description: 'Universidade Federal Fluminense', available: false, color: 'indigo' },
-      { id: 'ufrj', name: 'UFRJ', org: 'Rio de Janeiro', short: 'UFRJ', description: 'Universidade Federal do Rio de Janeiro', available: false, color: 'crimson' },
+      { id: 'usp', name: 'USP', org: 'FUVEST · São Paulo', short: 'USP', description: 'Universidade de São Paulo (FUVEST)', available: true, color: 'crimson' },
     ],
   },
   {
@@ -375,6 +374,15 @@ const uerjExamsByYear = {
 }
 const uerjYearOptions = Object.keys(uerjExamsByYear).sort((a, b) => b.localeCompare(a))
 
+// Vestibular da USP (FUVEST), organizado por ano > prova/fase.
+// Cada edição aponta para o slug da prova cadastrada no Supabase (quando houver).
+const uspExamsByYear = {
+  '2026': [
+    { value: 'v1', label: '1ª fase - Conhecimentos Gerais', slug: 'usp-2026-v1' },
+  ],
+}
+const uspYearOptions = Object.keys(uspExamsByYear).sort((a, b) => b.localeCompare(a))
+
 // Renderiza uma ou mais imagens de apoio. O campo support_image pode conter
 // varios caminhos separados por virgula; cada um vira uma <img> clicavel.
 function renderSupportImages(supportImage, questionNumber) {
@@ -476,6 +484,10 @@ function App() {
   const [uerjEdition, setUerjEdition] = useState(uerjExamsByYear[uerjYearOptions[0]]?.[0]?.value || '')
   const [uerjLoading, setUerjLoading] = useState(false)
   const [uerjError, setUerjError] = useState('')
+  const [uspYear, setUspYear] = useState(uspYearOptions[0] || '')
+  const [uspEdition, setUspEdition] = useState(uspExamsByYear[uspYearOptions[0]]?.[0]?.value || '')
+  const [uspLoading, setUspLoading] = useState(false)
+  const [uspError, setUspError] = useState('')
   const [cnuLoading, setCnuLoading] = useState(false)
   const [cnuError, setCnuError] = useState('')
   // Estado do gerador de simulado personalizado.
@@ -556,9 +568,12 @@ function App() {
     ...enemCatalog,
   ].sort((a, b) => b.year - a.year)
   const activeQuestions = selectedExam === 'enem-api' || supabaseExamSlug ? enemQuestions : questionSets[selectedExam] || []
-  const examLabel = selectedExam === 'uerj' ? `UERJ ${uerjYear} · ${(uerjExamsByYear[uerjYear] || []).find((item) => item.value === uerjEdition)?.label || ''}` : selectedExam === 'simulado' ? `Simulado · ${simuladoLevels.find((item) => item.value === simuladoLevel)?.label || 'Personalizado'}` : selectedExam === 'pism-1' ? '2025-1' : selectedExam === 'pism-2' ? '2025-2' : selectedExam === 'pism-2024-1' ? '2024-1' : selectedExam === 'pism-2024-2' ? '2024-2' : selectedExam === 'pism-2023-1' ? '2023-1' : selectedExam === 'pism-2023-2' ? '2023-2' : supabaseExamSlug === 'enem-2024' ? 'ENEM 2024 · Prova completa' : selectedExam === 'enem-api' ? `ENEM ${enemYear}` : selectedExam === 'bb' ? `Banco do Brasil ${bbYear} · ${bbRole}` : selectedExam === 'cnu' ? `CNU ${cnuYear} · Bloco ${cnuBlock.replace('bloco-', '')}` : selectedExam === 'oab' ? `OAB ${oabYear} · ${(oabExamsByYear[oabYear] || []).find((item) => item.value === oabEdition)?.label || 'Exame de Ordem'}` : selectedExam === 'pmerj' ? `PMERJ ${pmerjYear} · ${pmerjRolesConfig[pmerjRole]?.label || 'Soldado'}` : selectedExam === 'pc' ? `Polícia Civil ${pcState} ${pcYear} · ${pcByState[pcState]?.roles?.[pcRole]?.label || 'Investigador'}` : selectedExam === 'pf' ? `Polícia Federal ${pfYear} · ${pfRole} · ${pfArea}` : '2023-1_Cad_Amarelo - LINGUAGENS, CÓDIGOS E SUAS TECNOLOGIAS'
+  const examLabel = selectedExam === 'usp' ? `USP ${uspYear} · FUVEST` : selectedExam === 'uerj' ? `UERJ ${uerjYear} · ${(uerjExamsByYear[uerjYear] || []).find((item) => item.value === uerjEdition)?.label || ''}` : selectedExam === 'simulado' ? `Simulado · ${simuladoLevels.find((item) => item.value === simuladoLevel)?.label || 'Personalizado'}` : selectedExam === 'pism-1' ? '2025-1' : selectedExam === 'pism-2' ? '2025-2' : selectedExam === 'pism-2024-1' ? '2024-1' : selectedExam === 'pism-2024-2' ? '2024-2' : selectedExam === 'pism-2023-1' ? '2023-1' : selectedExam === 'pism-2023-2' ? '2023-2' : supabaseExamSlug === 'enem-2024' ? 'ENEM 2024 · Prova completa' : selectedExam === 'enem-api' ? `ENEM ${enemYear}` : selectedExam === 'bb' ? `Banco do Brasil ${bbYear} · ${bbRole}` : selectedExam === 'cnu' ? `CNU ${cnuYear} · Bloco ${cnuBlock.replace('bloco-', '')}` : selectedExam === 'oab' ? `OAB ${oabYear} · ${(oabExamsByYear[oabYear] || []).find((item) => item.value === oabEdition)?.label || 'Exame de Ordem'}` : selectedExam === 'pmerj' ? `PMERJ ${pmerjYear} · ${pmerjRolesConfig[pmerjRole]?.label || 'Soldado'}` : selectedExam === 'pc' ? `Polícia Civil ${pcState} ${pcYear} · ${pcByState[pcState]?.roles?.[pcRole]?.label || 'Investigador'}` : selectedExam === 'pf' ? `Polícia Federal ${pfYear} · ${pfRole} · ${pfArea}` : '2023-1_Cad_Amarelo - LINGUAGENS, CÓDIGOS E SUAS TECNOLOGIAS'
+  // Tela de "início" para onde os botões de voltar da prova/resultado devem retornar:
+  // simulados voltam para a tela de simulado; as demais provas, para o catálogo (todas as provas).
+  const examHomeScreen = selectedExam === 'simulado' ? 'simulado' : 'catalog'
   const cnuShiftLabel = cnuYear === '2025' ? 'Conhecimentos Gerais e Específicos' : cnuShift === 'manha' ? 'Manhã · Conhecimentos Gerais' : 'Tarde · Conhecimentos Específicos'
-  const examDay = selectedExam === 'uerj' ? `Prova objetiva · ${activeQuestions.length} questões` : selectedExam === 'simulado' ? `Simulado personalizado · ${activeQuestions.length} questões` : supabaseExamSlug === 'enem-2024' ? 'Prova completa · 180 questões' : selectedExam === 'enem-api' ? 'Área selecionada' : selectedExam === 'bb' ? 'Prova objetiva' : selectedExam === 'oab' ? 'Prova objetiva · 1ª fase' : selectedExam === 'pmerj' ? 'Prova objetiva · 50 questões' : selectedExam === 'pc' ? `Prova objetiva · ${activeQuestions.length} questões` : selectedExam === 'pf' ? 'Conhecimentos Básicos · 50 itens (Certo/Errado)' : selectedExam === 'cnu' ? cnuShiftLabel : examLabel.endsWith('-1') ? 'Dia 1' : 'Dia 2'
+  const examDay = selectedExam === 'usp' || selectedExam === 'uerj' ? `Prova objetiva · ${activeQuestions.length} questões` : selectedExam === 'simulado' ? `Simulado personalizado · ${activeQuestions.length} questões` : supabaseExamSlug === 'enem-2024' ? 'Prova completa · 180 questões' : selectedExam === 'enem-api' ? 'Área selecionada' : selectedExam === 'bb' ? 'Prova objetiva' : selectedExam === 'oab' ? 'Prova objetiva · 1ª fase' : selectedExam === 'pmerj' ? 'Prova objetiva · 50 questões' : selectedExam === 'pc' ? `Prova objetiva · ${activeQuestions.length} questões` : selectedExam === 'pf' ? 'Conhecimentos Básicos · 50 itens (Certo/Errado)' : selectedExam === 'cnu' ? cnuShiftLabel : examLabel.endsWith('-1') ? 'Dia 1' : 'Dia 2'
 
   // Normaliza letras de gabarito/resposta para evitar falhas de comparação
   // por espaços, quebras de linha ou diferença de maiúsculas/minúsculas.
@@ -773,6 +788,19 @@ function App() {
       setPfError(`Não foi possível carregar as questões do Supabase: ${error.message}`)
     } finally {
       setPfLoading(false)
+    }
+  }
+
+  // Vai para a home e rola suavemente até a seção "Sobre nós".
+  const goToAbout = () => {
+    setMenuOpen(false)
+    setScreen('home')
+    if (typeof window !== 'undefined') {
+      window.requestAnimationFrame(() => {
+        setTimeout(() => {
+          document.getElementById('sobre')?.scrollIntoView({ behavior: 'smooth', block: 'start' })
+        }, 60)
+      })
     }
   }
 
@@ -997,6 +1025,37 @@ function App() {
       setUerjError(`Não foi possível carregar as questões do Supabase: ${error.message}`)
     } finally {
       setUerjLoading(false)
+    }
+  }
+
+  // Vestibular da USP (FUVEST). Seleção por ano > prova; o slug define a prova disponível.
+  const currentUspEditions = uspExamsByYear[uspYear] || []
+  const uspSlug = currentUspEditions.find((item) => item.value === uspEdition)?.slug
+  const isUspAvailable = Boolean(uspSlug)
+
+  const changeUspYear = (value) => {
+    setUspYear(value)
+    setUspError('')
+    setUspEdition((uspExamsByYear[value] || [])[0]?.value || '')
+  }
+
+  const startUspExam = async () => {
+    if (!uspSlug) return
+    setUspLoading(true)
+    setUspError('')
+    try {
+      const questions = await loadSupabaseExam(uspSlug)
+      setEnemQuestions(questions)
+      setSupabaseExamSlug(uspSlug)
+      setSelectedExam('usp')
+      setCurrent(0)
+      setAnswers({})
+      setScreen('exam')
+      setMenuOpen(false)
+    } catch (error) {
+      setUspError(`Não foi possível carregar as questões do Supabase: ${error.message}`)
+    } finally {
+      setUspLoading(false)
     }
   }
 
@@ -1294,14 +1353,28 @@ function App() {
       error={uerjError}
     />
   )
-  const featuredCards = { pism: pismCard, enem: enemCard, uerj: uerjCard, bb: bbCard, cnu: cnuCard, oab: oabCard, pmrj: pmerjCard, pc: pcCard, pf: pfCard }
+  const uspCard = (
+    <UspCard
+      years={uspYearOptions}
+      year={uspYear}
+      setYear={changeUspYear}
+      editions={currentUspEditions}
+      edition={uspEdition}
+      setEdition={setUspEdition}
+      onStart={startUspExam}
+      available={isUspAvailable}
+      loading={uspLoading}
+      error={uspError}
+    />
+  )
+  const featuredCards = { pism: pismCard, enem: enemCard, uerj: uerjCard, usp: uspCard, bb: bbCard, cnu: cnuCard, oab: oabCard, pmrj: pmerjCard, pc: pcCard, pf: pfCard }
 
   if (screen === 'simulado') {
     const subjectColors = ['coral', 'blue', 'amber', 'purple']
     const canStart = simuladoSelected.length > 0 && !simuladoLoading
     return (
       <div className="app-shell">
-        <Header menuOpen={menuOpen} setMenuOpen={setMenuOpen} onHome={() => setScreen('home')} onSimulado={openSimulado} onCatalog={() => setScreen('catalog')} />
+        <Header menuOpen={menuOpen} setMenuOpen={setMenuOpen} onHome={() => setScreen('home')} onSimulado={openSimulado} onCatalog={() => setScreen('catalog')} onAbout={goToAbout} />
         <main className="catalog-page simulado-page">
           <div className="catalog-head">
             <button className="back-link" onClick={() => setScreen('home')}><ArrowLeft size={17} /> Voltar ao início</button>
@@ -1429,7 +1502,7 @@ function App() {
   if (screen === 'catalog') {
     return (
       <div className="app-shell">
-        <Header menuOpen={menuOpen} setMenuOpen={setMenuOpen} onHome={() => setScreen('home')} onSimulado={openSimulado} onCatalog={() => setScreen('catalog')} />
+        <Header menuOpen={menuOpen} setMenuOpen={setMenuOpen} onHome={() => setScreen('home')} onSimulado={openSimulado} onCatalog={() => setScreen('catalog')} onAbout={goToAbout} />
         <main className="catalog-page">
           <div className="catalog-head">
             <button className="back-link" onClick={() => setScreen('home')}><ArrowLeft size={17} /> Voltar ao início</button>
@@ -1518,7 +1591,7 @@ function App() {
     const percentage = Math.round((score / activeQuestions.length) * 100)
     return (
       <div className="app-shell">
-        <Header onHome={() => setScreen('home')} onSimulado={openSimulado} onCatalog={() => setScreen('catalog')} />
+        <Header onHome={() => setScreen('home')} onSimulado={openSimulado} onCatalog={() => setScreen('catalog')} onAbout={goToAbout} />
         <main className="result-page">
           <div className="result-glow" />
           <section className="result-card">
@@ -1539,7 +1612,7 @@ function App() {
             </div>
             <div className="result-actions">
               <button className="button primary" onClick={() => { setCurrent(0); setAnswers({}); setScreen('exam') }}><RotateCcw size={17} /> Refazer prova</button>
-              <button className="button secondary" onClick={() => setScreen('home')}>Voltar ao início</button>
+              <button className="button secondary" onClick={() => { if (examHomeScreen === 'simulado') { openSimulado() } else { setScreen(examHomeScreen) } }}>Voltar ao início</button>
             </div>
           </section>
         </main>
@@ -1565,11 +1638,11 @@ function App() {
     }
     return (
       <div className="app-shell exam-shell">
-        <Header onHome={() => setScreen('home')} onSimulado={openSimulado} onCatalog={() => setScreen('catalog')} />
+        <Header onHome={() => setScreen('home')} onSimulado={openSimulado} onCatalog={() => setScreen('catalog')} onAbout={goToAbout} />
         <main className="exam-page">
           <div className="exam-topline">
-            <button className="back-link" onClick={() => setScreen(isReview ? 'result' : 'home')}><ArrowLeft size={17} /> {isReview ? 'Voltar ao resultado' : 'Sair da prova'}</button>
-            <div className="exam-name"><span className="mini-logo">P</span><span>provacerta · {selectedExam === 'uerj' || selectedExam === 'simulado' || selectedExam === 'enem-api' || selectedExam === 'bb' || selectedExam === 'cnu' || selectedExam === 'oab' || selectedExam === 'pmerj' || selectedExam === 'pc' || selectedExam === 'pf' ? examLabel : `PISM ${examLabel}`}</span><b>·</b><span>{isReview ? 'Revisão' : selectedExam === 'uerj' || selectedExam === 'simulado' || selectedExam === 'bb' || selectedExam === 'cnu' || selectedExam === 'oab' || selectedExam === 'pmerj' || selectedExam === 'pc' || selectedExam === 'pf' ? examDay : `Módulo I · ${examDay}`}</span></div>
+            <button className="back-link" onClick={() => { if (isReview) { setScreen('result') } else if (examHomeScreen === 'simulado') { openSimulado() } else { setScreen(examHomeScreen) } }}><ArrowLeft size={17} /> {isReview ? 'Voltar ao resultado' : 'Sair da prova'}</button>
+            <div className="exam-name"><span className="mini-logo">P</span><span>provacerta · {selectedExam === 'usp' || selectedExam === 'uerj' || selectedExam === 'simulado' || selectedExam === 'enem-api' || selectedExam === 'bb' || selectedExam === 'cnu' || selectedExam === 'oab' || selectedExam === 'pmerj' || selectedExam === 'pc' || selectedExam === 'pf' ? examLabel : `PISM ${examLabel}`}</span><b>·</b><span>{isReview ? 'Revisão' : selectedExam === 'usp' || selectedExam === 'uerj' || selectedExam === 'simulado' || selectedExam === 'bb' || selectedExam === 'cnu' || selectedExam === 'oab' || selectedExam === 'pmerj' || selectedExam === 'pc' || selectedExam === 'pf' ? examDay : `Módulo I · ${examDay}`}</span></div>
             <span className="question-count">{current + 1} <i>/</i> {activeQuestions.length}</span>
           </div>
           <div className="progress-track"><span style={{ width: `${((current + 1) / activeQuestions.length) * 100}%` }} /></div>
@@ -1669,7 +1742,7 @@ function App() {
 
   return (
     <div className="app-shell">
-      <Header menuOpen={menuOpen} setMenuOpen={setMenuOpen} onHome={() => setScreen('home')} onSimulado={openSimulado} onCatalog={() => setScreen('catalog')} />
+      <Header menuOpen={menuOpen} setMenuOpen={setMenuOpen} onHome={() => setScreen('home')} onSimulado={openSimulado} onCatalog={() => setScreen('catalog')} onAbout={goToAbout} />
       <main className="home">
         <section className="hero">
           <div className="hero-copy">
@@ -1699,6 +1772,22 @@ Acesse provas reais de concursos e faculdades federais, resolva simulados exclus
             {enemCard}
           </div>
         </section>
+        <section className="about-section" id="sobre">
+          <div className="section-heading"><div><p className="eyebrow">Sobre nós</p><h2>O que é o provacerta</h2></div></div>
+          <div className="about-grid">
+            <div className="about-lead">
+              <p>O provacerta é uma plataforma de estudos feita para quem se prepara para concursos, vestibulares e exames. Reunimos provas reais, organizadas por banca, ano e cargo, para que você treine exatamente no formato que vai encontrar no dia da prova.</p>
+              <p>Além das provas completas, você pode montar simulados personalizados, escolhendo o grau de ensino, as matérias e a quantidade de questões. Ao final, acompanhe seu desempenho e revise cada questão com explicações que mostram o caminho até a resposta correta.</p>
+              <p>Nosso objetivo é simples: transformar a prática em aprovação, com conteúdo fiel às provas originais e uma experiência de estudo leve, focada e no seu ritmo.</p>
+            </div>
+            <ul className="about-points">
+              <li><BookOpen size={18} /><div><b>Provas reais</b><small>Concursos, vestibulares e exames transcritos fielmente, com gabarito oficial.</small></div></li>
+              <li><Sparkles size={18} /><div><b>Simulados sob medida</b><small>Monte sua prova por grau de ensino, matérias e número de questões.</small></div></li>
+              <li><Target size={18} /><div><b>Revisão com explicações</b><small>Entenda por que cada alternativa está certa e evolua a cada tentativa.</small></div></li>
+              <li><GraduationCap size={18} /><div><b>No seu ritmo</b><small>Estude quando e quanto quiser, acompanhando seu progresso.</small></div></li>
+            </ul>
+          </div>
+        </section>
         <section className="bottom-quote"><span className="quote-mark">“</span><p>Grandes resultados começam<br />com pequenas escolhas diárias.</p><span className="quote-line" /></section>
       </main>
       <footer><span className="brand"><span className="brand-mark">P</span> prova<span>certa</span></span><span>Feito para quem quer chegar mais longe.</span><span>© 2025 provacerta</span></footer>
@@ -1706,7 +1795,7 @@ Acesse provas reais de concursos e faculdades federais, resolva simulados exclus
   )
 }
 
-function Header({ onHome, onSimulado, onCatalog, menuOpen, setMenuOpen }) {
+function Header({ onHome, onSimulado, onCatalog, onAbout, menuOpen, setMenuOpen }) {
   const handleSimulado = (event) => {
     event.preventDefault()
     setMenuOpen?.(false)
@@ -1717,7 +1806,12 @@ function Header({ onHome, onSimulado, onCatalog, menuOpen, setMenuOpen }) {
     setMenuOpen?.(false)
     onCatalog?.()
   }
-  return <header><button className="brand" onClick={onHome}><span className="brand-mark">P</span> prova<span>certa</span></button><nav className={menuOpen ? 'open' : ''}><a href="#provas" onClick={handleCatalog}>Provas</a><a href="#simulado" className="nav-cta" onClick={handleSimulado}>Crie seu simulado</a><a href="#sobre" onClick={() => setMenuOpen?.(false)}>Sobre nós</a></nav><button className="menu-button" onClick={() => setMenuOpen?.(!menuOpen)}><Menu size={22} /></button></header>
+  const handleAbout = (event) => {
+    event.preventDefault()
+    setMenuOpen?.(false)
+    onAbout?.()
+  }
+  return <header><button className="brand" onClick={onHome}><span className="brand-mark">P</span> prova<span>certa</span></button><nav className={menuOpen ? 'open' : ''}><a href="#provas" onClick={handleCatalog}>Provas</a><a href="#simulado" className="nav-cta" onClick={handleSimulado}>Crie seu simulado</a><a href="#sobre" onClick={handleAbout}>Sobre nós</a></nav><button className="menu-button" onClick={() => setMenuOpen?.(!menuOpen)}><Menu size={22} /></button></header>
 }
 
 function EnemCard({ catalog, year, setYear, discipline, setDiscipline, language, setLanguage, onStart, loading, error }) {
@@ -2172,6 +2266,60 @@ function UerjCard({ years, year, setYear, editions, edition, setEdition, onStart
           </label>
           <label>
             Edição
+            <span className="select-wrap">
+              <select value={edition} onChange={(event) => setEdition(event.target.value)} disabled={editions.length === 0}>
+                {editions.length > 0 ? (
+                  editions.map((item) => <option key={item.value} value={item.value}>{item.label}</option>)
+                ) : (
+                  <option value="">Nenhuma prova disponível</option>
+                )}
+              </select>
+              <ChevronDown size={16} />
+            </span>
+          </label>
+        </div>
+        {error && <p className="api-error" role="alert">{error}</p>}
+        <button className={`button ${available && !loading ? 'primary' : 'disabled'} full`} onClick={onStart} disabled={!available || loading}>
+          {loading ? 'Carregando questões…' : available ? 'Começar prova' : 'Em breve'} {available && !loading && <ArrowRight size={17} />}
+        </button>
+      </div>
+    </article>
+  )
+}
+
+function UspCard({ years, year, setYear, editions, edition, setEdition, onStart, available, loading, error }) {
+  return (
+    <article className="exam-card color-crimson">
+      <div className="card-art">
+        <span className="art-kicker">FUVEST · SÃO PAULO</span>
+        <strong>USP</strong>
+        <span className="art-shape">USP</span>
+        <div className="art-dots" />
+      </div>
+      <div className="exam-card-body">
+        <div className="card-title-row">
+          <div>
+            <h3>USP</h3>
+            <p>Universidade de São Paulo (FUVEST)</p>
+          </div>
+          <span className={`status ${available ? 'ready' : ''}`}>{available ? 'Disponível' : 'Em breve'}</span>
+        </div>
+        <div className="pism-controls">
+          <label>
+            Ano da prova
+            <span className="select-wrap">
+              <select value={year} onChange={(event) => setYear(event.target.value)} disabled={years.length === 0}>
+                {years.length > 0 ? (
+                  years.map((item) => <option key={item} value={item}>{item}</option>)
+                ) : (
+                  <option value="">Nenhum ano disponível</option>
+                )}
+              </select>
+              <ChevronDown size={16} />
+            </span>
+          </label>
+          <label>
+            Prova
             <span className="select-wrap">
               <select value={edition} onChange={(event) => setEdition(event.target.value)} disabled={editions.length === 0}>
                 {editions.length > 0 ? (
