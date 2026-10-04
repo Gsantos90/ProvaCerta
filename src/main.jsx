@@ -6,7 +6,7 @@ import {
   ZoomIn, ZoomOut, Volume2, Square, Search,
 } from 'lucide-react'
 import './styles.css'
-import { isSupabaseConfigured, supabase } from './lib/supabase'
+import { supabase } from './lib/supabase'
 
 const enem2023EnglishQuestions = [
   {
@@ -444,6 +444,11 @@ const shuffleArray = (items) => {
   return copy
 }
 
+// Cache em memória (por sessão) das provas já carregadas do Supabase, por slug.
+// Evita refazer a requisição ao reabrir a mesma prova. Fora do componente para
+// persistir entre renders sem causar re-render.
+const supabaseExamCache = new Map()
+
 function App() {
   const [screen, setScreen] = useState('home')
   const [selectedExam, setSelectedExam] = useState(null)
@@ -587,17 +592,21 @@ function App() {
     if (!supabase || !supabaseSlug) {
       throw new Error('Esta prova exige conexão com o Supabase. Verifique a configuração do banco de dados.')
     }
+    // Reaproveita a prova já carregada nesta sessão, se houver.
+    if (supabaseExamCache.has(supabaseSlug)) {
+      return supabaseExamCache.get(supabaseSlug)
+    }
     const { data: examRecord, error: examError } = await supabase.from('exams').select('id').eq('slug', supabaseSlug).maybeSingle()
     if (examError) throw examError
     if (!examRecord) {
       throw new Error(`A prova "${supabaseSlug}" não foi encontrada no banco de dados.`)
     }
-    const { data: storedQuestions, error: questionsError } = await supabase.from('questions').select('*').eq('exam_id', examRecord.id).order('number')
+    const { data: storedQuestions, error: questionsError } = await supabase.from('questions').select('number, subject, text, support, support_image, options, answer, explanation').eq('exam_id', examRecord.id).order('number')
     if (questionsError) throw questionsError
     if (!storedQuestions?.length) {
       throw new Error(`A prova "${supabaseSlug}" não possui questões cadastradas no banco de dados.`)
     }
-    return storedQuestions.map((question) => ({
+    const mapped = storedQuestions.map((question) => ({
       subject: question.subject,
       text: question.text,
       support: question.support,
@@ -606,6 +615,8 @@ function App() {
       answer: question.answer,
       explanation: question.explanation,
     }))
+    supabaseExamCache.set(supabaseSlug, mapped)
+    return mapped
   }
 
   const startExam = async (exam) => {

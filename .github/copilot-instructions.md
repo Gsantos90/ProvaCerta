@@ -3,9 +3,14 @@
 ## Objetivo do projeto
 
 O `provacerta` é uma SPA React para estudo de provas. A experiência principal
-é um simulado interativo: o estudante escolhe uma prova, responde às
-questões, recebe a correção automática e pode revisar cada resposta com o
-gabarito.
+é um simulado interativo: o estudante escolhe uma prova (ou monta um simulado
+personalizado), responde às questões, recebe a correção automática e pode
+revisar cada resposta com o gabarito e a explicação.
+
+O catálogo abrange várias origens de prova: PISM, ENEM, CNU, OAB, PMERJ,
+Polícia Civil (PC), Polícia Federal (PF), Banco do Brasil (BB), UERJ e USP
+(FUVEST). O ENEM é carregado sob demanda pela API pública; as demais provas
+vêm do Supabase.
 
 O produto deve permanecer simples, visualmente agradável, responsivo,
 intuitivo e orientado a UX. O conteúdo educacional deve ser tratado como
@@ -36,41 +41,44 @@ Não adicione ferramentas de lint, testes ou build sem necessidade explícita.
 ## Estrutura importante
 
 - `src/main.jsx`: ponto central da aplicação, estado, provas, textos de apoio,
-  resultado, revisão e renderização. As provas do PISM são carregadas do
-  Supabase (não há mais questões PISM embutidas no código); apenas o ENEM 2023
-  de inglês/espanhol continua hardcoded;
-- `src/2024-1-questions.json` e `src/2024-2-questions.json`: fonte de dados
-  usada apenas por `scripts/generate-pism-seed.mjs` para gerar o seed do banco.
-  Não são importados pela aplicação em tempo de execução;
-- `supabase/`: schema e seeds do banco (fonte de verdade das provas PISM);
-- `scripts/generate-pism-seed.mjs`: gera `supabase/seed-pism-2024.sql` a partir
-  dos JSONs de 2024;
+  simulado personalizado, resultado, revisão e renderização. As provas vêm do
+  Supabase (não há questões embutidas no código); apenas o ENEM 2023 de
+  inglês/espanhol continua hardcoded, e o restante do ENEM vem da API pública;
+- `src/lib/supabase.js`: cria o cliente Supabase a partir das variáveis de
+  ambiente e injeta `preconnect`/`dns-prefetch` para o domínio do projeto;
+- `supabase/`: schema, policies, índices e seeds do banco (fonte de verdade das
+  provas);
+  - `schema.sql`: tabelas, RLS e lista de slugs cadastrados;
+  - `policies.sql`: políticas RLS documentadas e recomendadas (re-executável);
+  - `indexes.sql`: índices de performance de `questions` (re-executável);
+  - `seed-*.sql`: um arquivo por prova; todos usam `on conflict do update`;
 - `src/styles.css`: identidade visual, layout, responsividade e componentes;
 - `public/`: imagens de apoio referenciadas por caminhos iniciados em `/`;
+- `index.html`: inclui `preconnect` para a API do ENEM;
+- `vercel.json`: `Cache-Control` de longa duração para imagens (`public/`);
 - `pdf-extracts/`: material de conferência extraído dos PDFs, não usado
   diretamente durante a execução;
 - `README.md`: documentação pública para instalação, manutenção e contribuição.
 
+> Nota: os antigos `src/2024-1-questions.json`/`2024-2-questions.json` e o
+> script `scripts/generate-pism-seed.mjs` foram descontinuados — os seeds em
+> `supabase/` são a fonte de verdade das provas.
+
 ## Provas atualmente cadastradas
 
-### PISM
+As provas vêm do Supabase (ver a lista completa de slugs em `supabase/schema.sql`).
+As origens cobrem PISM, CNU, OAB, PMERJ, Polícia Civil, Polícia Federal, Banco
+do Brasil, UERJ e USP (FUVEST). Além disso:
 
-- `pism-1` → `2025-1`;
-- `pism-2` → `2025-2`;
-- `pism-2024-1` → `2024-1`;
-- `pism-2024-2` → `2024-2`.
+- o ENEM é carregado sob demanda pela API pública (`https://api.enem.dev`), com
+  exceção do ENEM 2023 de inglês/espanhol, que permanece hardcoded em
+  `main.jsx`;
+- o **simulado personalizado** monta uma prova por grau de ensino (médio/
+  superior), matérias e quantidade de questões, sorteando entre as questões já
+  cadastradas no banco.
 
-### ENEM
-
-- `enem-2023-1-ingles` → `2023-1_Cad_Amarelo - LINGUAGENS, CÓDIGOS E SUAS TECNOLOGIAS`.
-
-O ENEM 2023 atualmente contém uma prova única com numeração contínua:
-
-- questões 1–5: Língua Inglesa;
-- questões 6–10: Língua Espanhola.
-
-As demais questões do caderno devem ser adicionadas somente quando o usuário
-fornecer os enunciados, alternativas e gabarito.
+Novas questões/provas só devem ser adicionadas quando o usuário fornecer os
+enunciados, alternativas e gabarito.
 
 ## Modelo de questão
 
@@ -237,7 +245,13 @@ limpo da árvore de trabalho e o resultado do build.
 O schema completo está em `supabase/schema.sql`. O banco tem três tabelas com
 RLS habilitado. As variáveis de conexão ficam em `.env.local` como
 `VITE_SUPABASE_URL` e `VITE_SUPABASE_PUBLISHABLE_KEY`. Nunca usar a chave
-`service_role` no navegador.
+`service_role` no navegador — toda a proteção depende do RLS.
+
+Arquivos SQL relacionados (todos re-executáveis com segurança):
+
+- `supabase/schema.sql`: tabelas, RLS inicial e slugs cadastrados;
+- `supabase/policies.sql`: policies RLS documentadas/recomendadas;
+- `supabase/indexes.sql`: índices de performance de `questions`.
 
 ### Tabela `exams`
 
@@ -252,7 +266,9 @@ Representa uma prova cadastrada.
 | `year` | `text` | Ano/edição da prova, ex: `2025-1`. |
 | `created_at` | `timestamptz` | Data de criação, preenchida automaticamente. |
 
-**Slugs cadastrados:** `pism-2025-1`, `pism-2025-2`, `pism-2024-1`, `pism-2024-2`.
+**Slugs cadastrados:** ver a lista completa em `supabase/schema.sql` (PISM, BB,
+CNU, OAB, PMERJ, PC, PF, UERJ, USP e ENEM 2024). O campo `source` identifica a
+origem (`pism`, `cnu`, `oab`, `pmerj`, `pc`, `pf`, `bb`, `uerj`, `usp`, `enem`).
 
 ### Tabela `questions`
 
@@ -269,12 +285,13 @@ Representa uma questão objetiva.
 | `support_image` | `text` | Caminho da imagem em `/public/`, ex: `/texto-3-cerrado.png` (opcional). |
 | `options` | `jsonb` | Array JSON com as cinco alternativas, ordem A–E. |
 | `answer` | `text` | Gabarito oficial: `A`, `B`, `C`, `D` ou `E`. |
+| `explanation` | `text` | Explicação da resposta, exibida na revisão (opcional). |
 | `created_at` | `timestamptz` | Data de criação, preenchida automaticamente. |
 
 A combinação `(exam_id, number)` é única. A coluna `answer` é restrita às
 letras `A`–`E` por um `CHECK`. Cada questão carrega seu próprio texto e
 imagem de apoio — o painel lateral é exibido quando ao menos um desses campos
-está preenchido.
+está preenchido. A `explanation`, quando presente, aparece na revisão.
 
 ### Tabela `attempts`
 
@@ -293,31 +310,45 @@ Registra uma tentativa concluída por um estudante autenticado.
 
 ### Políticas RLS
 
+Definidas em `supabase/schema.sql` e documentadas/refinadas em
+`supabase/policies.sql`.
+
 | Tabela | Política | Regra |
 | --- | --- | --- |
 | `exams` | leitura pública | `for select using (true)` |
 | `questions` | leitura pública | `for select using (true)` |
-| `attempts` | leitura própria | `for select using (auth.uid() = user_id)` |
-| `attempts` | criação própria | `for insert with check (auth.uid() = user_id)` |
+| `attempts` | leitura própria | `for select ... using (auth.uid() = user_id)` |
+| `attempts` | criação própria | `for insert ... with check (auth.uid() = user_id)` |
+
+Observações de segurança:
+
+- `exams`/`questions` não têm policy de insert/update/delete. Com RLS ligado,
+  o que não tem policy é negado — por isso a anon key não escreve nessas
+  tabelas. A escrita (seeds) é feita pelo SQL Editor do painel.
+- Em `policies.sql`, as policies de `attempts` são aplicadas ao role
+  `authenticated` (defesa em profundidade), e não ao `public`.
+- Recomendado ativar no painel o "Automatically enable RLS on new tables" e
+  confirmar que a env (app e Vercel) usa a chave anon, nunca a service_role.
 
 ### Seed
 
-Os arquivos de seed ficam em `supabase/`:
-
-- `seed-pism-2024.sql` — questões do PISM 2024-1 e 2024-2;
-- `seed-pism-2025.sql` — questões do PISM 2025-1 e 2025-2.
-
-Todos os INSERTs usam `on conflict (exam_id, number) do update` para permitir
+Há um arquivo de seed por prova em `supabase/` (`seed-<slug>.sql`). Todos os
+INSERTs usam `on conflict (exam_id, number) do update` para permitir
 re-execução segura sem duplicar dados.
+
+Quando imagens de apoio são preenchidas manualmente no banco (ex.: USP), o
+`support_image` pode ser removido da cláusula `on conflict do update` do seed
+para que reaplicar o arquivo não sobrescreva o valor digitado à mão.
 
 ### Mapeamento front-end → banco
 
-`startExam` em `main.jsx` mapeia o identificador interno para o slug:
+Cada card de prova (PISM, BB, CNU, OAB, PMERJ, PC, PF, UERJ, USP) resolve um
+`slug` a partir das suas seleções (ano, cargo, bloco, edição etc.) e chama
+`loadSupabaseExam(slug)`. Essa função:
 
-```js
-{ 'pism-1': 'pism-2025-1', 'pism-2': 'pism-2025-2',
-  'pism-2024-1': 'pism-2024-1', 'pism-2024-2': 'pism-2024-2' }
-```
+- reaproveita um cache em memória por slug (`supabaseExamCache`) para não
+  refazer a requisição ao reabrir a mesma prova na sessão;
+- lê somente as colunas usadas (sem `select('*')`).
 
 As colunas são renomeadas na leitura:
 
@@ -329,8 +360,10 @@ As colunas são renomeadas na leitura:
   supportImage: question.support_image, // coluna support_image
   options:      question.options,
   answer:       question.answer,
+  explanation:  question.explanation,   // coluna explanation
 }
 ```
 
-Quando a prova não é encontrada no Supabase, `supabaseExamSlug` fica `null`
-e o front-end usa os dados locais como fallback.
+O simulado personalizado (`startSimulado`) não usa `loadSupabaseExam`: ele
+consulta `exams`/`questions` diretamente, classifica por grau de ensino
+(`simuladoLevelForExam`) e sorteia as questões das matérias escolhidas.

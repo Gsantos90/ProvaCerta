@@ -36,6 +36,45 @@ create table if not exists public.attempts (
   completed_at timestamptz not null default now()
 );
 
+do $$
+begin
+  if not exists (
+    select 1 from pg_constraint
+    where conname = 'attempts_score_nonnegative'
+      and conrelid = 'public.attempts'::regclass
+  ) then
+    alter table public.attempts
+      add constraint attempts_score_nonnegative check (score >= 0);
+  end if;
+
+  if not exists (
+    select 1 from pg_constraint
+    where conname = 'attempts_total_positive'
+      and conrelid = 'public.attempts'::regclass
+  ) then
+    alter table public.attempts
+      add constraint attempts_total_positive check (total > 0);
+  end if;
+
+  if not exists (
+    select 1 from pg_constraint
+    where conname = 'attempts_score_not_greater_than_total'
+      and conrelid = 'public.attempts'::regclass
+  ) then
+    alter table public.attempts
+      add constraint attempts_score_not_greater_than_total check (score <= total);
+  end if;
+
+  if not exists (
+    select 1 from pg_constraint
+    where conname = 'attempts_answers_object'
+      and conrelid = 'public.attempts'::regclass
+  ) then
+    alter table public.attempts
+      add constraint attempts_answers_object check (jsonb_typeof(answers) = 'object');
+  end if;
+end $$;
+
 alter table public.exams enable row level security;
 alter table public.questions enable row level security;
 alter table public.attempts enable row level security;

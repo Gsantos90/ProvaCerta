@@ -4,6 +4,11 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="theme-color" content="#f6f8fc" />
+    <!-- Antecipa a conexão (DNS + TLS) com a API externa do ENEM para acelerar o 1º fetch.
+         A conexão com o Supabase é adiantada em runtime (ver src/lib/supabase.js),
+         pois o domínio do projeto vem da variável de ambiente. -->
+    <link rel="preconnect" href="https://api.enem.dev" crossorigin />
+    <link rel="dns-prefetch" href="https://api.enem.dev" />
     <title>provacerta · Estude com propósito</title>
   </head>
   <body>

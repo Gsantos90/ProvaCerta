@@ -1,30 +1,40 @@
 # provacerta
 
-Plataforma web de estudos para provas famosas, com foco inicial no **PISM**. O
+Plataforma web de estudos para provas de concursos, vestibulares e exames. O
 projeto transforma questões e textos de apoio em simulados interativos,
 permitindo que o estudante responda às questões, receba o resultado e revise
-cada alternativa com o gabarito oficial.
+cada alternativa com o gabarito oficial e a explicação.
 
 ## Visão geral
 
 O provacerta foi desenvolvido para oferecer uma experiência simples e
 intuitiva de preparação para provas. A aplicação funciona como uma SPA
-(Single-Page Application), sem backend ou cadastro obrigatório.
+(Single-Page Application), sem cadastro obrigatório. As provas são carregadas
+do Supabase (conteúdo público) e o ENEM é carregado sob demanda pela API
+pública.
 
-Atualmente estão disponíveis:
+Origens de prova disponíveis no catálogo:
 
-- PISM 2025-1;
-- PISM 2025-2;
-- PISM 2024-1;
-- PISM 2024-2.
-- ENEM 2009 a 2023, carregado sob demanda pela [API pública do ENEM](https://docs.enem.dev/introduction);
-  a prova pode ser filtrada por ano, área e idioma.
+- **PISM** (UFJF);
+- **ENEM** 2009 a 2023, pela [API pública do ENEM](https://docs.enem.dev/introduction),
+  filtrável por ano, área e idioma (o ENEM 2024 completo está no banco);
+- **CNU** (Concurso Nacional Unificado);
+- **OAB** (Exame de Ordem);
+- **PMERJ**, **Polícia Civil** e **Polícia Federal**;
+- **Banco do Brasil**;
+- **UERJ** (Vestibular Estadual);
+- **USP** (FUVEST).
+
+Além das provas completas, o usuário pode **criar um simulado personalizado**,
+escolhendo o grau de ensino (médio/superior), as matérias e a quantidade de
+questões — a prova é montada sorteando questões já cadastradas no banco.
 
 ## Funcionalidades
 
 ### Simulados
 
-- Seleção da prova por ano e dia;
+- Catálogo de provas por origem, com seleção de ano, cargo, bloco ou edição;
+- Simulado personalizado por grau de ensino, matérias e quantidade de questões;
 - Organização das questões por disciplina;
 - Navegação pelas questões usando os botões anterior e próxima;
 - Grade lateral para acessar diretamente qualquer questão;
@@ -57,8 +67,8 @@ Atualmente estão disponíveis:
 - Referências explícitas a Texto 1, Texto 2, Texto 3 e demais materiais;
 - Imagens de charges, mapas e figuras da prova;
 - Textos alternativos nas imagens para melhorar a acessibilidade;
-- Figuras 1, 2 e 3 disponíveis na questão 6 do PISM 2024-1.
-- Imagens de apoio das questões 2 e 3 do ENEM 2023.
+- Suporte a múltiplas imagens por questão (caminhos separados por vírgula no
+  campo `support_image`).
 
 ### Integração com a API do ENEM
 
@@ -68,40 +78,34 @@ de até 50 itens, respeitando o limite de uma requisição por segundo da API.
 Os dados ficam em cache durante a sessão e são filtrados no navegador por área
 e idioma. O simulado usa o gabarito oficial retornado em `correctAlternative`.
 
-Se a API estiver indisponível, a interface exibe a mensagem de erro e mantém
-as provas locais do PISM disponíveis.
+Se a API estiver indisponível, a interface exibe a mensagem de erro; as demais
+provas, carregadas do Supabase, continuam disponíveis.
 
 ### Integração com Supabase
 
-O projeto usa o cliente browser do Supabase para:
-
-- autenticar estudantes por e-mail e senha;
-- carregar questões PISM cadastradas no banco, com fallback para os JSONs locais;
-- salvar cada tentativa concluída, incluindo respostas, acertos e prova realizada.
+O projeto usa o cliente browser do Supabase para carregar as provas e as
+questões cadastradas no banco. A aplicação é somente leitura: usa a chave
+anon/publishable e não grava dados nem exige login.
 
 As variáveis ficam em `.env.local` usando os nomes `VITE_SUPABASE_URL` e
 `VITE_SUPABASE_PUBLISHABLE_KEY`. Nunca use uma chave `service_role` no
-navegador.
+navegador — toda a proteção depende do RLS.
 
-Para configurar o banco, execute `supabase/schema.sql` no SQL Editor do
-Supabase. Para carregar as questões, execute também os seeds:
+Para configurar o banco, execute no SQL Editor do Supabase, na ordem:
 
-```bash
-# PISM 2024-1 e 2024-2
-supabase/seed-pism-2024.sql
-
-# PISM 2025-1 e 2025-2
-supabase/seed-pism-2025.sql
+```text
+supabase/schema.sql     # tabelas, RLS e slugs cadastrados
+supabase/policies.sql   # políticas RLS recomendadas (opcional, re-executável)
+supabase/indexes.sql    # índices de performance (recomendado)
 ```
 
-O seed pode ser regenerado com:
+Depois, carregue as provas executando os seeds desejados (um arquivo por prova,
+no padrão `supabase/seed-<slug>.sql`). Todos usam
+`on conflict (exam_id, number) do update`, então são seguros de re-executar.
 
-```bash
-npm run supabase:seed:pism
-```
-
-As políticas RLS permitem leitura pública de provas e questões e restringem
-tentativas ao usuário autenticado que as criou.
+As políticas RLS permitem leitura pública de provas e questões e restringem a
+tabela `attempts` ao usuário autenticado que criou cada tentativa. Recomenda-se
+ativar no painel o "Automatically enable RLS on new tables".
 
 ## Estrutura do banco de dados
 
@@ -120,8 +124,9 @@ Representa uma prova cadastrada.
 | `year` | `text` | Ano/edição da prova, ex: `2025-1`. |
 | `created_at` | `timestamptz` | Data de criação, preenchida automaticamente. |
 
-Slugs atualmente cadastrados: `pism-2025-1`, `pism-2025-2`, `pism-2024-1`,
-`pism-2024-2`.
+A lista completa de slugs cadastrados está em `supabase/schema.sql`, cobrindo
+PISM, BB, CNU, OAB, PMERJ, PC, PF, UERJ, USP e ENEM 2024. O campo `source`
+identifica a origem de cada prova.
 
 ### Tabela `questions`
 
@@ -138,11 +143,13 @@ Representa uma questão objetiva de uma prova.
 | `support_image` | `text` | Caminho da imagem em `/public/`, ex: `/texto-3-cerrado.png` (opcional). |
 | `options` | `jsonb` | Array JSON com as cinco alternativas, ordem A–E. |
 | `answer` | `text` | Gabarito oficial: `A`, `B`, `C`, `D` ou `E`. |
+| `explanation` | `text` | Explicação da resposta, exibida na revisão (opcional). |
 | `created_at` | `timestamptz` | Data de criação, preenchida automaticamente. |
 
 A combinação `(exam_id, number)` é única. A coluna `answer` aceita apenas
 as letras `A`–`E`. Cada questão carrega seu próprio texto e imagem de apoio —
 o painel lateral é exibido quando ao menos um desses campos está preenchido.
+A `explanation`, quando presente, aparece na revisão da questão.
 
 ### Tabela `attempts`
 
@@ -165,8 +172,13 @@ Registra uma tentativa concluída por um estudante autenticado.
 | --- | --- | --- |
 | `exams` | leitura pública | `for select using (true)` |
 | `questions` | leitura pública | `for select using (true)` |
-| `attempts` | leitura própria | `for select using (auth.uid() = user_id)` |
-| `attempts` | criação própria | `for insert with check (auth.uid() = user_id)` |
+| `attempts` | leitura própria | `for select ... using (auth.uid() = user_id)` |
+| `attempts` | criação própria | `for insert ... with check (auth.uid() = user_id)` |
+
+As tabelas `exams` e `questions` não têm políticas de escrita: com o RLS
+habilitado, isso impede qualquer alteração via chave anon. A versão recomendada
+das políticas (incluindo `attempts` restrita ao role `authenticated`) está em
+`supabase/policies.sql`.
 
 ## Tecnologias utilizadas
 
@@ -174,9 +186,8 @@ Registra uma tentativa concluída por um estudante autenticado.
 - [Vite](https://vite.dev/) 6;
 - [React DOM](https://react.dev/reference/react-dom);
 - [Lucide React](https://lucide.dev/) para os ícones;
-- [Supabase](https://supabase.com/) para autenticação, questões e progresso;
+- [Supabase](https://supabase.com/) como banco das provas e questões (leitura pública);
 - JavaScript com módulos ES;
-- JSON para armazenamento das questões de 2024;
 - API pública do ENEM para provas e questões de 2009 a 2023;
 - CSS responsivo sem framework visual externo.
 
@@ -244,20 +255,20 @@ npm run build
 
 ```text
 .
-├── public/
-│   ├── pism-2024-1-figura-1.png
-│   ├── pism-2024-1-figura-2.png
-│   ├── pism-2024-1-figura-3.png
-│   ├── texto-2-periferia.png
-│   ├── texto-3-cerrado.png
-│   └── texto-4-inteligencia-artificial.png
+├── public/                 # imagens de apoio (servidas por caminhos "/...")
 ├── src/
-│   ├── 2024-1-questions.json
-│   ├── 2024-2-questions.json
-│   ├── main.jsx
-│   └── styles.css
-├── pdf-extracts/
+│   ├── lib/
+│   │   └── supabase.js     # cliente Supabase + preconnect
+│   ├── main.jsx            # aplicação (estado, provas, simulado, resultado, revisão)
+│   └── styles.css          # identidade visual e layout
+├── supabase/
+│   ├── schema.sql          # tabelas, RLS e slugs cadastrados
+│   ├── policies.sql        # políticas RLS recomendadas
+│   ├── indexes.sql         # índices de performance
+│   └── seed-<slug>.sql     # um arquivo de seed por prova
+├── pdf-extracts/           # material de conferência (não usado em runtime)
 ├── index.html
+├── vercel.json             # cache de longa duração para imagens
 ├── package.json
 └── README.md
 ```
@@ -268,45 +279,27 @@ npm run build
 
 É o ponto principal da aplicação. Esse arquivo contém:
 
-- o carregamento das provas do PISM a partir do Supabase;
-- as questões hardcoded do ENEM 2023 (inglês e espanhol), que não estão no banco;
-- a seleção dinâmica da prova;
-- o estado da questão atual;
-- as respostas do estudante;
-- a tela de resultado;
-- o modo de revisão;
+- o carregamento das provas a partir do Supabase (com cache em memória por
+  slug);
+- o gerador de simulado personalizado (grau de ensino, matérias e quantidade);
+- as questões hardcoded do ENEM 2023 (inglês e espanhol) e a integração com a
+  API pública do ENEM;
+- a seleção dinâmica da prova (cards por origem: PISM, CNU, OAB, PMERJ, PC, PF,
+  BB, UERJ, USP);
+- o estado da questão atual e as respostas do estudante;
+- a tela de resultado e o modo de revisão (com explicações);
 - os controles de acessibilidade (zoom e leitura em áudio);
-- a renderização dos textos e imagens de apoio;
-- a normalização de alguns textos extraídos de PDF.
+- a renderização dos textos e imagens de apoio.
 
-As questões e os textos de apoio das provas do PISM não são mais embutidos no
-código: eles vêm do Supabase. Se o banco não estiver configurado ou não tiver
-a prova cadastrada, o cartão do PISM exibe uma mensagem de erro.
+As questões e os textos de apoio das provas vêm do Supabase. Se o banco não
+estiver configurado ou não tiver a prova cadastrada, o card correspondente
+exibe uma mensagem de erro.
 
-#### `src/2024-1-questions.json` e `src/2024-2-questions.json`
+#### `src/lib/supabase.js`
 
-Contêm as questões objetivas, alternativas e gabaritos das provas de 2024.
-Servem como **fonte de dados para gerar o seed do banco** por meio de
-`scripts/generate-pism-seed.mjs`. A aplicação **não** importa mais esses
-arquivos em tempo de execução — as provas do PISM são carregadas do Supabase.
-Cada questão segue uma estrutura semelhante a:
-
-```json
-{
-  "subject": "Geografia",
-  "text": "Enunciado da questão",
-  "options": [
-    "Alternativa A",
-    "Alternativa B",
-    "Alternativa C",
-    "Alternativa D",
-    "Alternativa E"
-  ],
-  "answer": "A"
-}
-```
-
-O valor de `answer` deve ser uma letra entre `A` e `E`.
+Cria o cliente do Supabase a partir das variáveis de ambiente e injeta
+`preconnect`/`dns-prefetch` para o domínio do projeto, acelerando a primeira
+requisição ao banco.
 
 #### `src/styles.css`
 
@@ -351,12 +344,15 @@ tempo de execução, mas ajudam na conferência e manutenção do conteúdo.
 
 Para adicionar uma nova prova, siga estes passos:
 
-1. Prepare um arquivo JSON com as questões, alternativas e gabaritos.
-2. Importe o arquivo em `src/main.jsx`.
-3. Adicione uma identificação para a nova prova no seletor.
-4. Inclua a prova na lógica que escolhe o conjunto de questões ativo.
-5. Cadastre os textos e as imagens de apoio, quando existirem.
-6. Verifique se os enunciados fazem referência correta aos textos.
+1. Registre o slug da prova em `supabase/schema.sql`.
+2. Crie um seed `supabase/seed-<slug>.sql` com as questões, alternativas e
+   gabaritos (usando `on conflict (exam_id, number) do update`).
+3. Cadastre os textos e as imagens de apoio, quando existirem (imagens em
+   `public/`, referenciadas por `support_image` iniciado em `/`).
+4. Habilite o card/seletor correspondente em `src/main.jsx` (config de ano/
+   cargo/edição e o slug).
+5. Verifique se os enunciados fazem referência correta aos textos.
+6. Aplique o schema/seed no Supabase.
 7. Execute `npm run build`.
 8. Teste o fluxo completo no navegador: seleção, resposta, resultado e revisão.
 
