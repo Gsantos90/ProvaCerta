@@ -22,6 +22,8 @@ Origens de prova disponíveis no catálogo:
 - **OAB** (Exame de Ordem);
 - **PMERJ**, **Polícia Civil** (incluindo Perito Criminal - Química 2022) e
    **Polícia Federal**;
+- **Correios** (Agente de Correios - Carteiro 2024);
+- **CAIXA** (Técnico Bancário Novo 2024);
 - **Banco do Brasil**;
 - **UERJ** (Vestibular Estadual);
 - **USP** (FUVEST).

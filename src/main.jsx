@@ -96,9 +96,9 @@ const catalogCategories = [
     exams: [
       { id: 'pmrj', name: 'PMERJ', org: 'Segurança', short: 'PMERJ', description: 'Polícia Militar do Estado do Rio de Janeiro', available: true, color: 'navy', roles: ['Soldado', 'Oficial'] },
       { id: 'bb', name: 'Banco do Brasil', org: 'Bancário', short: 'BB', description: 'Concurso do Banco do Brasil', available: false, color: 'gold', roles: ['Escriturário - Agente Comercial', 'Escriturário - Agente de Tecnologia'] },
-      { id: 'caixa', name: 'Caixa Econômica', org: 'Bancário', short: 'CAIXA', description: 'Concurso da Caixa Econômica Federal', available: false, color: 'sky', roles: ['Técnico Bancário', 'Técnico Bancário - TI'] },
+      { id: 'caixa', name: 'Caixa Econômica', org: 'BANCÁRIO', short: 'CAIXA', description: 'Concurso da Caixa Econômica Federal', available: true, color: 'sky', roles: ['Técnico Bancário Novo'] },
       { id: 'pf', name: 'Polícia Federal', org: 'Segurança', short: 'PF', description: 'Concurso da Polícia Federal', available: true, color: 'slate', roles: ['Agente', 'Escrivão', 'Delegado', 'Perito Criminal'] },
-      { id: 'correios', name: 'Correios', org: 'Serviços', short: 'CORREIOS', description: 'Concurso dos Correios', available: false, color: 'amber', roles: ['Carteiro', 'Agente dos Correios - Atendente', 'Analista de Correios'] },
+      { id: 'correios', name: 'Correios', org: 'SERVIÇOS', short: 'CORREIOS', description: 'Concurso dos Correios', available: true, color: 'amber', roles: ['Carteiro'] },
       { id: 'pc', name: 'Polícia Civil', org: 'Segurança', short: 'PC', description: 'Concurso da Polícia Civil', available: true, color: 'crimson', roles: ['Investigador', 'Inspetor', 'Auxiliar de Necropsia', 'Perito Legista', 'Escrivão', 'Delegado', 'Perito Criminal'] },
     ],
   },
@@ -193,6 +193,26 @@ const pmerjRolesConfig = {
   'Oficial': {
     label: 'Oficial Policial Militar',
     years: [],
+  },
+}
+
+// Concurso dos Correios, organizado por cargo e ano da prova.
+const correiosRolesConfig = {
+  Carteiro: {
+    label: 'Agente de Correios - Carteiro',
+    years: [
+      { value: '2024', slug: 'correios-2024-carteiro' },
+    ],
+  },
+}
+
+// Concurso da Caixa Econômica Federal, organizado por cargo e ano da prova.
+const caixaRolesConfig = {
+  tecnico: {
+    label: 'Técnico Bancário Novo',
+    years: [
+      { value: '2024', slug: 'caixa-2024-tecnico-bancario' },
+    ],
   },
 }
 
@@ -422,6 +442,73 @@ const simuladoLevels = [
   { value: 'superior', label: 'Ensino Superior', description: 'Questões de concursos e exames de nível superior.' },
 ]
 
+const oabSimuladoSubjects = [
+  'Ética e Estatuto da OAB',
+  'Direito Administrativo',
+  'Direito Ambiental',
+  'Direito Civil',
+  'Direito Constitucional',
+  'Direito do Consumidor',
+  'Direito do Trabalho',
+  'Direito Eleitoral',
+  'Direito Empresarial',
+  'Direito Financeiro',
+  'Direito Internacional',
+  'Direito Penal',
+  'Direito Previdenciário',
+  'Direito Processual Civil',
+  'Direito Processual do Trabalho',
+  'Direito Processual Penal',
+  'Direito Tributário',
+  'Direitos Humanos',
+  'Estatuto da Criança e do Adolescente',
+  'Filosofia do Direito',
+]
+
+const simuladoSubjectGroups = {
+  medio: [
+    { label: 'Língua Portuguesa', subjects: ['Língua Portuguesa', 'Linguagens, Códigos e suas Tecnologias'] },
+    { label: 'Matemática e suas Tecnologias', subjects: ['Matemática', 'Matemática e suas tecnologias', 'Matemática e suas Tecnologias'] },
+  ],
+  superior: [
+    { label: 'Português', subjects: ['Língua Portuguesa', 'Linguagens', 'Literatura', 'Literaturas'] },
+    { label: 'Matemática', subjects: ['Matemática', 'Matemática Financeira'] },
+  ],
+}
+
+const normalizeSimuladoSubject = (subject) => subject
+  .trim()
+  .toLocaleLowerCase('pt-BR')
+  .normalize('NFD')
+  .replace(/[\u0300-\u036f]/g, '')
+
+const simuladoSubjectsForDisplay = (level, subjects) => {
+  const groups = simuladoSubjectGroups[level] || []
+  const sourceSubjects = new Set(subjects.map(normalizeSimuladoSubject))
+  const groupedSubjects = new Set(groups.flatMap((group) => group.subjects.map(normalizeSimuladoSubject)))
+  const groupedLabels = groups
+    .filter((group) => group.subjects.some((subject) => sourceSubjects.has(normalizeSimuladoSubject(subject))))
+    .map((group) => group.label)
+  const groupedLabelNames = new Set(groupedLabels.map(normalizeSimuladoSubject))
+  const individualSubjects = subjects.filter((subject) => (
+    !groupedSubjects.has(normalizeSimuladoSubject(subject))
+    && !groupedLabelNames.has(normalizeSimuladoSubject(subject))
+  ))
+  const uniqueDisplaySubjects = [...new Map(
+    [...groupedLabels, ...individualSubjects]
+      .map((subject) => [normalizeSimuladoSubject(subject), subject]),
+  ).values()]
+  return uniqueDisplaySubjects.sort((a, b) => a.localeCompare(b, 'pt-BR'))
+}
+
+const simuladoSourceSubjects = (level, selectedSubjects) => {
+  const groups = simuladoSubjectGroups[level] || []
+  return [...new Set(selectedSubjects.flatMap((subject) => {
+    const group = groups.find((item) => item.label === subject)
+    return group ? group.subjects : [subject]
+  }))]
+}
+
 // Classifica uma prova (pelo campo source e pelo slug) em um grau de ensino.
 // Como o banco nao possui uma coluna de nivel, usamos a origem da prova.
 const simuladoLevelForExam = (exam) => {
@@ -472,6 +559,14 @@ function App() {
   const [pmerjYear, setPmerjYear] = useState('2024')
   const [pmerjLoading, setPmerjLoading] = useState(false)
   const [pmerjError, setPmerjError] = useState('')
+  const [correiosRole, setCorreiosRole] = useState('Carteiro')
+  const [correiosYear, setCorreiosYear] = useState('2024')
+  const [correiosLoading, setCorreiosLoading] = useState(false)
+  const [correiosError, setCorreiosError] = useState('')
+  const [caixaRole, setCaixaRole] = useState('tecnico')
+  const [caixaYear, setCaixaYear] = useState('2024')
+  const [caixaLoading, setCaixaLoading] = useState(false)
+  const [caixaError, setCaixaError] = useState('')
   const [pcState, setPcState] = useState('Rio de Janeiro')
   const [pcRole, setPcRole] = useState('Investigador')
   const [pcYear, setPcYear] = useState('2022')
@@ -578,12 +673,12 @@ function App() {
     ...enemCatalog,
   ].sort((a, b) => b.year - a.year)
   const activeQuestions = selectedExam === 'enem-api' || supabaseExamSlug ? enemQuestions : questionSets[selectedExam] || []
-  const examLabel = selectedExam === 'usp' ? `USP ${uspYear} · FUVEST` : selectedExam === 'uerj' ? `UERJ ${uerjYear} · ${(uerjExamsByYear[uerjYear] || []).find((item) => item.value === uerjEdition)?.label || ''}` : selectedExam === 'simulado' ? `Simulado · ${simuladoLevels.find((item) => item.value === simuladoLevel)?.label || 'Personalizado'}` : selectedExam === 'pism-1' ? '2025-1' : selectedExam === 'pism-2' ? '2025-2' : selectedExam === 'pism-2024-1' ? '2024-1' : selectedExam === 'pism-2024-2' ? '2024-2' : selectedExam === 'pism-2023-1' ? '2023-1' : selectedExam === 'pism-2023-2' ? '2023-2' : supabaseExamSlug === 'enem-2024' ? 'ENEM 2024 · Prova completa' : selectedExam === 'enem-api' ? `ENEM ${enemYear}` : selectedExam === 'bb' ? `Banco do Brasil ${bbYear} · ${bbRole}` : selectedExam === 'cnu' ? `CNU ${cnuYear} · Bloco ${cnuBlock.replace('bloco-', '')}` : selectedExam === 'oab' ? `OAB ${oabYear} · ${(oabExamsByYear[oabYear] || []).find((item) => item.value === oabEdition)?.label || 'Exame de Ordem'}` : selectedExam === 'pmerj' ? `PMERJ ${pmerjYear} · ${pmerjRolesConfig[pmerjRole]?.label || 'Soldado'}` : selectedExam === 'pc' ? `Polícia Civil ${pcState} ${pcYear} · ${pcByState[pcState]?.roles?.[pcRole]?.label || 'Investigador'}` : selectedExam === 'pf' ? `Polícia Federal ${pfYear} · ${pfRole} · ${pfArea}` : '2023-1_Cad_Amarelo - LINGUAGENS, CÓDIGOS E SUAS TECNOLOGIAS'
+  const examLabel = selectedExam === 'usp' ? `USP ${uspYear} · FUVEST` : selectedExam === 'uerj' ? `UERJ ${uerjYear} · ${(uerjExamsByYear[uerjYear] || []).find((item) => item.value === uerjEdition)?.label || ''}` : selectedExam === 'simulado' ? `Simulado · ${simuladoLevels.find((item) => item.value === simuladoLevel)?.label || 'Personalizado'}` : selectedExam === 'pism-1' ? '2025-1' : selectedExam === 'pism-2' ? '2025-2' : selectedExam === 'pism-2024-1' ? '2024-1' : selectedExam === 'pism-2024-2' ? '2024-2' : selectedExam === 'pism-2023-1' ? '2023-1' : selectedExam === 'pism-2023-2' ? '2023-2' : supabaseExamSlug === 'enem-2024' ? 'ENEM 2024 · Prova completa' : selectedExam === 'enem-api' ? `ENEM ${enemYear}` : selectedExam === 'bb' ? `Banco do Brasil ${bbYear} · ${bbRole}` : selectedExam === 'cnu' ? `CNU ${cnuYear} · Bloco ${cnuBlock.replace('bloco-', '')}` : selectedExam === 'oab' ? `OAB ${oabYear} · ${(oabExamsByYear[oabYear] || []).find((item) => item.value === oabEdition)?.label || 'Exame de Ordem'}` : selectedExam === 'pmerj' ? `PMERJ ${pmerjYear} · ${pmerjRolesConfig[pmerjRole]?.label || 'Soldado'}` : selectedExam === 'correios' ? `Correios ${correiosYear} · ${correiosRolesConfig[correiosRole]?.label || 'Carteiro'}` : selectedExam === 'caixa' ? `CAIXA ${caixaYear} · ${caixaRolesConfig[caixaRole]?.label || 'Técnico Bancário Novo'}` : selectedExam === 'pc' ? `Polícia Civil ${pcState} ${pcYear} · ${pcByState[pcState]?.roles?.[pcRole]?.label || 'Investigador'}` : selectedExam === 'pf' ? `Polícia Federal ${pfYear} · ${pfRole} · ${pfArea}` : '2023-1_Cad_Amarelo - LINGUAGENS, CÓDIGOS E SUAS TECNOLOGIAS'
   // Tela de "início" para onde os botões de voltar da prova/resultado devem retornar:
   // simulados voltam para a tela de simulado; as demais provas, para o catálogo (todas as provas).
   const examHomeScreen = selectedExam === 'simulado' ? 'simulado' : 'catalog'
   const cnuShiftLabel = cnuYear === '2025' ? 'Conhecimentos Gerais e Específicos' : cnuShift === 'manha' ? 'Manhã · Conhecimentos Gerais' : 'Tarde · Conhecimentos Específicos'
-  const examDay = selectedExam === 'usp' || selectedExam === 'uerj' ? `Prova objetiva · ${activeQuestions.length} questões` : selectedExam === 'simulado' ? `Simulado personalizado · ${activeQuestions.length} questões` : supabaseExamSlug === 'enem-2024' ? 'Prova completa · 180 questões' : selectedExam === 'enem-api' ? 'Área selecionada' : selectedExam === 'bb' ? 'Prova objetiva' : selectedExam === 'oab' ? 'Prova objetiva · 1ª fase' : selectedExam === 'pmerj' ? 'Prova objetiva · 50 questões' : selectedExam === 'pc' ? `Prova objetiva · ${activeQuestions.length} questões` : selectedExam === 'pf' ? 'Conhecimentos Básicos · 50 itens (Certo/Errado)' : selectedExam === 'cnu' ? cnuShiftLabel : examLabel.endsWith('-1') ? 'Dia 1' : 'Dia 2'
+  const examDay = selectedExam === 'usp' || selectedExam === 'uerj' ? `Prova objetiva · ${activeQuestions.length} questões` : selectedExam === 'simulado' ? `Simulado personalizado · ${activeQuestions.length} questões` : supabaseExamSlug === 'enem-2024' ? 'Prova completa · 180 questões' : selectedExam === 'enem-api' ? 'Área selecionada' : selectedExam === 'bb' ? 'Prova objetiva' : selectedExam === 'oab' ? 'Prova objetiva · 1ª fase' : selectedExam === 'pmerj' || selectedExam === 'correios' || selectedExam === 'caixa' ? `Prova objetiva · ${activeQuestions.length} questões` : selectedExam === 'pc' ? `Prova objetiva · ${activeQuestions.length} questões` : selectedExam === 'pf' ? 'Conhecimentos Básicos · 50 itens (Certo/Errado)' : selectedExam === 'cnu' ? cnuShiftLabel : examLabel.endsWith('-1') ? 'Dia 1' : 'Dia 2'
 
   // Normaliza letras de gabarito/resposta para evitar falhas de comparação
   // por espaços, quebras de linha ou diferença de maiúsculas/minúsculas.
@@ -717,6 +812,58 @@ function App() {
     }
   }
 
+  const currentCorreiosYears = correiosRolesConfig[correiosRole]?.years || []
+  const isCorreiosAvailable = currentCorreiosYears.length > 0
+
+  const startCorreiosExam = async () => {
+    setCorreiosLoading(true)
+    setCorreiosError('')
+    try {
+      const selectedYear = currentCorreiosYears.find((item) => item.value === correiosYear)
+      if (!selectedYear?.slug) {
+        throw new Error('Esta prova ainda não está disponível para o cargo selecionado.')
+      }
+      const questions = await loadSupabaseExam(selectedYear.slug)
+      setEnemQuestions(questions)
+      setSupabaseExamSlug(selectedYear.slug)
+      setSelectedExam('correios')
+      setCurrent(0)
+      setAnswers({})
+      setScreen('exam')
+      setMenuOpen(false)
+    } catch (error) {
+      setCorreiosError(`Não foi possível carregar as questões do Supabase: ${error.message}`)
+    } finally {
+      setCorreiosLoading(false)
+    }
+  }
+
+  const currentCaixaYears = caixaRolesConfig[caixaRole]?.years || []
+  const isCaixaAvailable = currentCaixaYears.length > 0
+
+  const startCaixaExam = async () => {
+    setCaixaLoading(true)
+    setCaixaError('')
+    try {
+      const selectedYear = currentCaixaYears.find((item) => item.value === caixaYear)
+      if (!selectedYear?.slug) {
+        throw new Error('Esta prova ainda não está disponível para o cargo selecionado.')
+      }
+      const questions = await loadSupabaseExam(selectedYear.slug)
+      setEnemQuestions(questions)
+      setSupabaseExamSlug(selectedYear.slug)
+      setSelectedExam('caixa')
+      setCurrent(0)
+      setAnswers({})
+      setScreen('exam')
+      setMenuOpen(false)
+    } catch (error) {
+      setCaixaError(`Não foi possível carregar as questões do Supabase: ${error.message}`)
+    } finally {
+      setCaixaLoading(false)
+    }
+  }
+
   // Concurso da Polícia Civil. Seleção em três níveis: Estado > Cargo > Ano.
   const currentPcRoles = pcByState[pcState]?.roles || {}
   const currentPcYears = currentPcRoles[pcRole]?.years || []
@@ -845,10 +992,10 @@ function App() {
     // (provenientes das provas do CNU) da selecao de materias do simulado.
     const isHiddenSuperiorSubject = (subject) => /^eixo\s*[1-5]$/i.test(subject.trim())
     return {
-      medio: [...byLevel.medio].sort((a, b) => a.localeCompare(b, 'pt-BR')),
-      superior: [...byLevel.superior]
+      superior: simuladoSubjectsForDisplay('superior', [...new Set([...byLevel.superior, ...oabSimuladoSubjects])])
         .filter((subject) => !isHiddenSuperiorSubject(subject))
         .sort((a, b) => a.localeCompare(b, 'pt-BR')),
+      medio: simuladoSubjectsForDisplay('medio', [...byLevel.medio]),
     }
   }
 
@@ -884,7 +1031,10 @@ function App() {
     ))
   }
 
-  const currentSimuladoSubjects = simuladoSubjects[simuladoLevel] || []
+  const currentSimuladoSubjects = [...new Map(
+    (simuladoSubjects[simuladoLevel] || [])
+      .map((subject) => [normalizeSimuladoSubject(subject), subject]),
+  ).values()]
 
   // Monta e inicia o simulado: busca as questoes das materias escolhidas no grau
   // selecionado, embaralha e corta na quantidade pedida.
@@ -912,7 +1062,7 @@ function App() {
         .from('questions')
         .select('subject, text, support, support_image, options, answer, explanation')
         .in('exam_id', examIds)
-        .in('subject', simuladoSelected)
+        .in('subject', simuladoSourceSubjects(simuladoLevel, simuladoSelected))
       if (rowsError) throw rowsError
       if (!rows?.length) {
         throw new Error('Não há questões cadastradas para as matérias selecionadas.')
@@ -1290,6 +1440,34 @@ function App() {
       error={pmerjError}
     />
   )
+  const correiosCard = (
+    <CorreiosCard
+      roles={correiosRolesConfig}
+      role={correiosRole}
+      onRoleChange={setCorreiosRole}
+      years={currentCorreiosYears}
+      year={correiosYear}
+      setYear={setCorreiosYear}
+      onStart={startCorreiosExam}
+      available={isCorreiosAvailable}
+      loading={correiosLoading}
+      error={correiosError}
+    />
+  )
+  const caixaCard = (
+    <CaixaCard
+      roles={caixaRolesConfig}
+      role={caixaRole}
+      onRoleChange={setCaixaRole}
+      years={currentCaixaYears}
+      year={caixaYear}
+      setYear={setCaixaYear}
+      onStart={startCaixaExam}
+      available={isCaixaAvailable}
+      loading={caixaLoading}
+      error={caixaError}
+    />
+  )
   const pcCard = (
     <PcCard
       states={pcStateOptions}
@@ -1383,7 +1561,7 @@ function App() {
       error={uspError}
     />
   )
-  const featuredCards = { pism: pismCard, enem: enemCard, uerj: uerjCard, usp: uspCard, bb: bbCard, cnu: cnuCard, oab: oabCard, pmrj: pmerjCard, pc: pcCard, pf: pfCard }
+  const featuredCards = { pism: pismCard, enem: enemCard, uerj: uerjCard, usp: uspCard, bb: bbCard, cnu: cnuCard, oab: oabCard, pmrj: pmerjCard, correios: correiosCard, caixa: caixaCard, pc: pcCard, pf: pfCard }
 
   if (screen === 'simulado') {
     const subjectColors = ['coral', 'blue', 'amber', 'purple']
@@ -1789,7 +1967,7 @@ Acesse provas reais de concursos e faculdades federais, resolva simulados exclus
           </div>
         </section>
         <section className="about-section" id="sobre">
-          <div className="section-heading"><div><p className="eyebrow">Sobre nós</p><h2>O que é o provacerta</h2></div></div>
+          <div className="section-heading"><div><p className="eyebrow">Sobre nós</p><h2>O que é o Provacerta</h2></div></div>
           <div className="about-grid">
             <div className="about-lead">
               <p>O provacerta é uma plataforma de estudos feita para quem se prepara para concursos, vestibulares e exames. Reunimos provas reais, organizadas por banca, ano e cargo, para que você treine exatamente no formato que vai encontrar no dia da prova.</p>
@@ -1909,7 +2087,7 @@ function BbCard({ roles, role, onRoleChange, years, year, setYear, onStart, avai
   return (
     <article className="exam-card color-gold">
       <div className="card-art">
-        <span className="art-kicker">Bancário</span>
+        <span className="art-kicker">BANCÁRIO</span>
         <strong>BB</strong>
         <span className="art-shape">BB</span>
         <div className="art-dots" />
@@ -1961,7 +2139,7 @@ function PmerjCard({ roles, role, onRoleChange, years, year, setYear, onStart, a
   return (
     <article className="exam-card color-navy">
       <div className="card-art">
-        <span className="art-kicker">Segurança</span>
+        <span className="art-kicker">SEGURAÇA</span>
         <strong className="long">PMERJ</strong>
         <span className="art-shape">PMERJ</span>
         <div className="art-dots" />
@@ -2009,6 +2187,98 @@ function PmerjCard({ roles, role, onRoleChange, years, year, setYear, onStart, a
   )
 }
 
+function CorreiosCard({ roles, role, onRoleChange, years, year, setYear, onStart, available, loading, error }) {
+  return (
+    <article className="exam-card color-amber">
+      <div className="card-art">
+        <span className="art-kicker">SERVIÇOS</span>
+        <strong>CORREIOS</strong>
+        <span className="art-shape">ECT</span>
+        <div className="art-dots" />
+      </div>
+      <div className="exam-card-body">
+        <div className="card-title-row">
+          <div>
+            <h3>Correios</h3>
+            <p>Agente de Correios - Carteiro</p>
+          </div>
+          <span className={`status ${available ? 'ready' : ''}`}>{available ? 'Disponível' : 'Em breve'}</span>
+        </div>
+        <div className="pism-controls">
+          <label>
+            Ano da prova
+            <span className="select-wrap">
+              <select value={year} onChange={(event) => setYear(event.target.value)} disabled={!available || years.length === 0}>
+                {years.length > 0 ? years.map((item) => <option key={item.value} value={item.value}>{item.value}</option>) : <option value="">Nenhum ano disponível</option>}
+              </select>
+              <ChevronDown size={16} />
+            </span>
+          </label>
+          <label>
+            Cargo
+            <span className="select-wrap">
+              <select value={role} onChange={(event) => onRoleChange(event.target.value)}>
+                {Object.entries(roles || {}).map(([key, item]) => <option key={key} value={key}>{item.label}</option>)}
+              </select>
+              <ChevronDown size={16} />
+            </span>
+          </label>
+        </div>
+        {error && <p className="api-error" role="alert">{error}</p>}
+        <button className={`button ${available && !loading ? 'primary' : 'disabled'} full`} onClick={onStart} disabled={!available || loading}>
+          {loading ? 'Carregando questões…' : available ? 'Começar prova' : 'Em breve'} {available && !loading && <ArrowRight size={17} />}
+        </button>
+      </div>
+    </article>
+  )
+}
+
+function CaixaCard({ roles, role, onRoleChange, years, year, setYear, onStart, available, loading, error }) {
+  return (
+    <article className="exam-card color-sky">
+      <div className="card-art">
+        <span className="art-kicker">BANCÁRIO</span>
+        <strong>CAIXA</strong>
+        <span className="art-shape">CAIXA</span>
+        <div className="art-dots" />
+      </div>
+      <div className="exam-card-body">
+        <div className="card-title-row">
+          <div>
+            <h3>Caixa Econômica Federal</h3>
+            <p>Concurso Técnico Bancário Novo</p>
+          </div>
+          <span className={`status ${available ? 'ready' : ''}`}>{available ? 'Disponível' : 'Em breve'}</span>
+        </div>
+        <div className="pism-controls">
+          <label>
+            Ano da prova
+            <span className="select-wrap">
+              <select value={year} onChange={(event) => setYear(event.target.value)} disabled={!available || years.length === 0}>
+                {years.length > 0 ? years.map((item) => <option key={item.value} value={item.value}>{item.value}</option>) : <option value="">Nenhum ano disponível</option>}
+              </select>
+              <ChevronDown size={16} />
+            </span>
+          </label>
+          <label>
+            Cargo
+            <span className="select-wrap">
+              <select value={role} onChange={(event) => onRoleChange(event.target.value)}>
+                {Object.entries(roles || {}).map(([key, item]) => <option key={key} value={key}>{item.label}</option>)}
+              </select>
+              <ChevronDown size={16} />
+            </span>
+          </label>
+        </div>
+        {error && <p className="api-error" role="alert">{error}</p>}
+        <button className={`button ${available && !loading ? 'primary' : 'disabled'} full`} onClick={onStart} disabled={!available || loading}>
+          {loading ? 'Carregando questões…' : available ? 'Começar prova' : 'Em breve'} {available && !loading && <ArrowRight size={17} />}
+        </button>
+      </div>
+    </article>
+  )
+}
+
 function PcCard({ states, state, onStateChange, roles, role, onRoleChange, years, year, setYear, onStart, available, loading, error }) {
   // Mostra no seletor apenas cargos que tenham ao menos uma prova cadastrada
   // (algum ano com slug). Cargos sem prova ficam ocultos.
@@ -2018,7 +2288,7 @@ function PcCard({ states, state, onStateChange, roles, role, onRoleChange, years
   return (
     <article className="exam-card color-crimson">
       <div className="card-art">
-        <span className="art-kicker">Segurança</span>
+        <span className="art-kicker">SEGURANÇA</span>
         <strong>PC</strong>
         <span className="art-shape">PC</span>
         <div className="art-dots" />
@@ -2083,7 +2353,7 @@ function PfCard({ roles, role, onRoleChange, areas, area, onAreaChange, years, y
   return (
     <article className="exam-card color-slate">
       <div className="card-art">
-        <span className="art-kicker">Segurança</span>
+        <span className="art-kicker">SEGURANÇA</span>
         <strong className="long">PF</strong>
         <span className="art-shape">PF</span>
         <div className="art-dots" />
@@ -2199,7 +2469,7 @@ function OabCard({ years, year, setYear, editions, edition, setEdition, onStart,
   return (
     <article className="exam-card color-crimson">
       <div className="card-art">
-        <span className="art-kicker">ORDEM DOS ADVOGADOS</span>
+        <span className="art-kicker">ORDEM DO ADVOGADOS</span>
         <strong>OAB</strong>
         <span className="art-shape">OAB</span>
         <div className="art-dots" />
