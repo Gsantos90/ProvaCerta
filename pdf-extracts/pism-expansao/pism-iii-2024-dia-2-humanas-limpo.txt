@@ -1,0 +1,519 @@
+QUESTÕES OBJETIVAS
+FÍSICA
+Objetivas
+Questões de 01 a 05
+QUESTÃO 01 - O campo magnético da Terra protege nosso planeta dos raios cósmicos, permitindo a existência de
+vida. Contudo, pesquisas recentes mostram a possibilidade de alteração na sua intensidade e mudança na sua
+orientação no espaço.
+Em relação à origem mais provável do campo magnético da Terra, temos que ele é produzido
+(A)
+como resultado do movimento de translação da Terra em torno do Sol.
+(B)
+pelo movimento das cargas elétricas resultantes das colisões dos raios cósmicos com a atmosfera terrestre.
+(C)
+pelo movimento de cargas elétricas em sua superfície.
+(D)
+por um grande ímã permanente de ferro que há no centro da Terra.
+(E)
+por cargas elétricas em movimento em seu interior.
+QUESTÃO 02 - O galvanômetro é um aparelho capaz de medir pequenas correntes elétricas que passam por ele.
+Entretanto, as correntes elétricas em circuitos cotidianos geralmente são muito maiores do que o galvanômetro
+suporta diretamente. Modificações podem ser feitas no galvanômetro com a associação de um resistor, de forma
+apropriada, para permitir fazê-lo funcionar como um voltímetro ou como um amperímetro. Este resistor pode ter
+resistência grande ou pequena, relativamente à resistência interna do galvanômetro.
+Assinale a alternativa que representa a associação apropriada do resistor com o galvanômetro, a partir do
+funcionamento CORRETO do voltímetro e do amperímetro.
+(A)
+Amperímetro é um galvanômetro com uma grande resistência em paralelo.
+(B)
+Amperímetro é um galvanômetro com uma grande resistência em série.
+(C)
+Amperímetro é um galvanômetro com uma pequena resistência em série.
+(D)
+Voltímetro é um galvanômetro com uma grande resistência em série.
+(E)
+Voltímetro é um galvanômetro com uma grande resistência em paralelo.
+
+QUESTÃO 03 - Na eletrostática, objetos neutros podem ser eletrizados por atrito, por contato e por indução, e podem
+ser classificados simplificadamente como condutores ou isolantes.
+Em relação à eletrização de objetos, assinale a afirmativa CORRETA.
+(A)
+Ao ser carregado por atrito, um objeto neutro ficará sempre com o mesmo sinal de carga elétrica, devido ao
+material do qual ele é feito.
+(B)
+As cargas que dois objetos neutros adquirem, após o atrito entre ambos, dependem da facilidade de um ceder
+elétrons ao outro.
+(C)
+Quando dois objetos condutores neutros, de materiais diferentes, são atritados entre si, ambos podem ficar
+com cargas elétricas de mesmo sinal, pois possuem elétrons livres.
+(D)
+Somente objetos condutores carregados podem interagir por indução, pois necessitam de cargas livres.
+(E)
+Somente objetos isolantes podem ser carregados por contato com outro objeto carregado.
+QUESTÃO 04 - Um observador fixo na Terra vê duas naves espaciais deslocarem-se muito rapidamente em sua
+direção, ambas aproximando-se da Terra em linha reta, e decide medir suas velocidades e comprimentos aparentes.
+A primeira das naves, que tem comprimento próprio (ou seja, medido em repouso) conhecido de 6,0 m, tem
+velocidade medida de módulo 0,6 c, em que c é a velocidade da luz no vácuo. A segunda nave tem comprimento
+próprio desconhecido e velocidade medida de módulo 0,8 c, mas aparenta ter o dobro do comprimento aparente da
+primeira para o observador fixo. Contrações relativísticas ocorrem por um fator de (cid:1)1−(cid:4)(cid:5)/(cid:7)(cid:5).
+Qual é o comprimento próprio da segunda nave?
+(A)
+4,8 m
+(B)
+8,0 m
+(C)
+9,6 m
+(D)
+12,0 m
+(E)
+16,0 m
+QUESTÃO 05 - Considere as seguintes afirmações relacionadas ao tema da dualidade onda-partícula:
+I – Elétrons podem difratar-se.
+II – Fótons não têm massa de repouso, portanto, sua energia é nula.
+III – Os efeitos Compton e fotoelétrico podem ser compreendidos como manifestações da natureza corpuscular da
+onda eletromagnética.
+Assinale a alternativa CORRETA a respeito dessas afirmações.
+(A)
+Somente I é verdadeira.
+(B)
+Somente II é verdadeira.
+(C)
+Somente III é verdadeira.
+(D)
+Somente I e III são verdadeiras.
+(E)
+I, II e III são verdadeiras.
+
+QUÍMICA
+Objetivas
+Questões de 06 a 10
+QUESTÃO 06 - Uma solução aquosa saturada de cloreto de sódio (NaCl) é mantida em um recipiente fechado e em
+temperatura constante. Quando o recipiente é aberto, inicia-se a evaporação do solvente e surge o equilíbrio químico
+representado pela equação abaixo.
+NaCl ⇌ Na+ + Cl-
+(s) (aq) (aq)
+Em relação aos fenômenos envolvidos no processo descrito, assinale a alternativa INCORRETA.
+(A)
+A dupla seta indica que a dissolução do cloreto de sódio sólido e a recristalização dos íons solvatados ocorrem
+durante o equilíbrio químico.
+(B)
+A saturação da solução ocorre quando os íons sódio e cloreto atingem concentração máxima, nas condições
+descritas.
+(C)
+A solvatação do cloreto de sódio ocorre quando os íons sódio e cloreto ficam ligados e envoltos por moléculas
+de água.
+(D)
+Na medida em que a água evapora ocorre o deslocamento do equilíbrio, aumentando a massa do cloreto de
+sódio sólido.
+(E)
+O equilíbrio químico é sempre um processo dinâmico, isto é, a reação ocorre nos dois sentidos, mesmo que a
+temperatura fique constante.
+
+QUESTÃO 07 - Os açúcares são também conhecidos como sacarídeos, glicídios ou carboidratos, tendo fórmula geral
+(CH O) e são considerados nossos combustíveis biológicos, por disponibilizarem grandes quantidades de energia
+2 n
+para as células vivas.
+Sobre essa classe de substâncias, suas propriedades e ações biológicas, identifique a resposta INCORRETA.
+(A)
+A celulose é um carboidrato, sendo o principal responsável pela estruturação das células vegetais.
+(B)
+A glicose, presente no sangue humano, sofre oxidação para produção de energia necessária ao metabolismo.
+(C)
+A respiração celular é a conversão da glicose em gás carbônico e água e ocorre nas células de animais, mas não
+das plantas.
+(D)
+A sacarose é o principal carboidrato obtido da cana-de-açúcar e é formado pela ligação química entre a glicose
+e a frutose.
+(E)
+O amido é um polímero de glicose, que pode ser convertido em energia quando necessário.
+QUESTÃO 08 - A panela de pressão é comumente empregada para agilizar o cozimento de alimentos. Quando levada
+ao fogo faz com que a temperatura de ebulição da água se eleve acima de 100 oC, devido ao aumento da pressão
+interna.
+Com base na teoria das colisões, indique a resposta CORRETA.
+(A)
+Com o aumento da pressão dentro da panela, as colisões entre as moléculas e íons diminuem fazendo com que
+o processo de cozimento seja mais rápido.
+(B)
+A pressão interna da panela diminui a concentração de moléculas e íons aumentando a velocidade das reações
+químicas envolvidas durante o cozimento.
+(C)
+A superfície de contato dos alimentos durante o cozimento diminui devido à elevação da pressão aumentando
+a velocidade de cozimento dos alimentos.
+(D)
+A velocidade de cozimento na panela de pressão é maior, pois a energia cinética média das moléculas e íons é
+maior.
+(E)
+O aumento da temperatura de ebulição não altera a energia cinética média das moléculas, acelerando o
+processo de cozimento.
+QUESTÃO 09 - O petróleo é classificado como uma mistura de compostos derivados de carbono com propriedades
+físicas diferentes, segundo o tamanho das cadeias carbônicas. Por exemplo, a gasolina (C -C ) possui de cinco a doze
+5 12
+átomos de carbono em sua estrutura. Outras frações do petróleo são o GLP (gás liquefeito de petróleo, C -C ), o
+1 4
+querosene (C -C ), o óleo diesel (C C ) e o óleo lubrificante (C -C ). A separação desses compostos se dá por
+10 16 14- 20 20 50
+destilação fracionada após a extração do petróleo, sendo esse processo conhecido como refino.
+Em relação ao processo de refino é CORRETO afirmar que
+(A)
+a gasolina é destilada depois do óleo diesel.
+(B)
+o GLP é a última fração a ser destilada.
+(C)
+o óleo diesel é a fração destilada antes do querosene.
+(D)
+o óleo lubrificante constitui a fração destilada antes da gasolina.
+(E)
+o querosene constitui a fração destilada após a gasolina.
+
+QUESTÃO 10 - Com a proximidade do verão, o uso recreativo das piscinas em clubes, condomínios e casas aumenta
+consideravelmente e, com isso, a frequência de limpeza da água também. O método de limpeza mais comum faz uso
+da adição de hipoclorito de cálcio Ca(Cl O) na piscina. Contudo, o método mais moderno utiliza a eletrólise de uma
+2
+solução aquosa de NaCl. Nesse caso, o sal é adicionado à piscina, e, através de um sistema de bombas e eletrodos,
+ocorre a eletrólise da solução e a espécie ativa ClO- (íon hipoclorito) é formada. A eletrólise é um processo no qual as
+espécies químicas são reduzidas e oxidadas, na presença de eletrodos e passagem de corrente elétrica.
+Abaixo estão representadas as semi-reações envolvidas no processo de eletrólise da solução de NaCl (i e ii) assim
+como a reação de formação do íon hipoclorito (iii):
+i. 2 Cl- Cl + 2 e-
+(g) 2(aq)
+ii. 2 H O + 2 e- H + 2 OH-
+2 (l) 2(g) (aq)
+iii. Cl + 2 OH- Cl- + ClO- + H O
+2(g) (aq) (aq) (aq) 2 (l)
+Analise as sentenças a seguir:
+I. Durante o processo de limpeza são formadas espécies de cloro oxidadas e reduzidas.
+II. A produção de gás cloro ocorre no catodo.
+III. Ocorre a formação da espécie ativa (ClO-) tanto na presença quanto na ausência de íons OH-.
+IV. Para que a eletrólise ocorra é preciso dois eletrodos: um será o catodo e o outro o anodo.
+Marque a alternativa que apresenta apenas as sentenças CORRETAS.
+(A)
+(I) e (II)
+(B)
+(II) e (III)
+(C)
+(III) e (IV)
+(D)
+(I) e (IV)
+(E)
+(II) e (IV)
+
+GEOGRAFIA
+Objetivas
+Questões de 11 a 15
+QUESTÃO 11 – A figura abaixo apresenta os cabos submarinos instalados para permitir a acessibilidade à internet.
+Considerando a atual integração dos países por redes .
+materiais e imateriais, assinale a alternativa CORRETA:
+(A)
+Expõe-se uma rede de transporte, posto que a
+informação e a comunicação são bens que
+precisam estar em fluxo para serem eficientes.
+(B)
+Apresenta-se uma rede material de fluxos
+imateriais, especificamente de informação e
+comunicação, que reproduz a lógica da atual
+ordem mundial.
+(C)
+Nota-se na imagem a difusão de redes de
+comunicação e de transporte, respectivamente
+material e imaterial, tendendo a equilibrar as
+relações internacionais.
+(D)
+A reduzida conexão entre América Latina e
+África é pouco significativa quanto à atual
+ordem mundial, pois os centros de difusão da
+internet estão localizados apenas em países do
+Atlântico Norte.
+(E)
+Fonte: https://www.submarinecablemap.com/ Adaptado. Acesso em
+Visualizam-se na imagem rotas semelhantes às
+05 jun. 2023
+do período colonial que conectavam as trocas
+de mercadorias entre América Latina e Estados
+Unidos, assim como as rotas de tráfico entre
+este país e os países africanos.
+QUESTÃO 12 – Leia a manchete abaixo:
+Cisjordânia: o que explica pior onda de violência entre Israel e palestinos em 20 anos
+BBC – 04/07/2023
+Israel iniciou na segunda-feira (3/7), no campo de refugiados de Jenin, a maior operação militar na Cisjordânia nos
+últimos 20 anos, o que resultou na morte de pelo menos 12 palestinos e um soldado israelense.
+Fonte: https://www.bbc.com/portuguese/articles/crg9ylp1n02o Acesso em 06 jul de 2023.
+Assinale a alternativa CORRETA que indica o principal motivo dos conflitos entre Israel e Palestina:
+(A)
+As ações do Estado Islâmico.
+(B)
+A instituição da religião judaica.
+(C)
+O controle dos poços de petróleo.
+(D)
+O assassinato de lideranças israelenses.
+(E)
+A ocupação de territórios palestinos por Israel.
+
+QUESTÃO 13 – Leia o trecho de reportagem abaixo:
+Argentina reforça crítica feita por Lula ao acordo entre Mercosul e UE: ‘algumas assimetrias’
+Em cúpula do grupo sul-americano, Alberto Fernandez disse estar de acordo com o presidente brasileiro na questão
+das compras governamentais.
+Fernandez defendeu a integração comercial como fator essencial para o desenvolvimento da região. Ele mencionou
+ainda que ‘ninguém pode nos condenar a ser apenas fornecedores’.
+Fonte: https://oglobo.globo.com/mundo/noticia/2023/07/argentina-reforca-critica-feita-por-lula-ao-acordo-entre-mercosul-e-ue-algumas-
+assimetrias.ghtml Adaptado. Acesso em 05 jul de 2023
+Assinale a alternativa CORRETA:
+(A)
+A defesa da integração comercial, por ambos os presidentes, faz referência ao novo passo a ser dado pelo
+Mercosul com o intuito de reduzir as barreiras entre cidadãos sul-americanos.
+(B)
+A possível condenação dos países do Mercosul a serem apenas fornecedores se deve à manutenção de regras
+protecionistas, por parte de alguns países da UE, que exporiam pequenas e médias empresas sul-americanas.
+(C)
+A recente negociação entre Mercosul e UE tende a intensificar as mudanças na ordem mundial ao fortalecer as
+indústrias sul-americanas por meio da ampliação da exportação de produtos de maior valor agregado.
+(D)
+O presidente da Argentina, ao se referir à importância da integração comercial, demonstra sua discordância
+com o Chile, que tem buscado manter negociações autônomas mesmo sendo um membro do Mercosul.
+(E)
+A questão das compras governamentais, sobre a qual há concordância entre os presidentes do Brasil e da
+Argentina, refere-se à constituição de uma nova moeda para a América do Sul que substituiria às moedas
+nacionais.
+QUESTÃO 14 – Com o avanço da produção de carros elétricos, o lítio vem se tornando um dos minerais de maior
+interesse do mercado internacional. Usado para fabricação de baterias, seu preço de mercado teve forte variação a
+partir de meados de 2021, como mostra o gráfico abaixo:
+Fonte: https://www.bloomberglinea.com.br/2023/04/05/o-que-precos-mais-altos-do-petroleo-significam-para-a-transicao-energetica/ acesso
+em 02 jun.2023
+Sobre o mercado do lítio, é CORRETO afirmar que:
+(A)
+Mesmo com a crescente demanda pelo mineral para fabricação de baterias de veículos elétricos, o preço do
+lítio caiu nos primeiros meses de 2023.
+(B)
+Apesar da continuidade dos conflitos na Ucrânia e sua reverberação no mercado do petróleo, os preços do lítio
+continuam em ascensão.
+(C)
+O Brasil perde uma importante chance de aumentar exportações e ampliar o superávit da balança comercial ao
+não se inserir no mercado do lítio.
+(D)
+O aumento no preço do lítio no início de 2023 representou uma expansão da produção de carros elétricos
+devido à insegurança do mercado.
+(E)
+A diminuição do preço das baterias impulsionou o mercado de carros elétricos no Brasil, que já detém a maior
+parcela de vendas desse setor.
+
+QUESTÃO 15 – Leia os dois textos abaixo:
+TEXTO I
+África: Lula destaca potencial de parceria no desenvolvimento agrário
+Ingrid Soares - 09/08/2023 - 20:25
+O presidente Luiz Inácio Lula da Silva (PT) se reuniu nesta quarta-feira (9/8) com o presidente do Congo, Denis
+Sassou N'guesso, após a Cúpula da Amazônia, em Belém. O chefe do Executivo brasileiro reforçou a intenção de
+fazer com que o Brasil retome o diálogo com os países africanos e citou potencial de parceria na preservação
+ambiental e no desenvolvimento agrário.
+Mais cedo, o chefe do Executivo também conversou com o presidente da República Democrática do Congo (RDC),
+Félix Tshisekedi, e destacou a necessidade de avanços nas áreas de cooperação e intercâmbio cultural e econômico.
+Fonte: https://www.correiobraziliense.com.br/politica/2023/08/5115789-africa-lula-destaca-potencial-de-parceria-no-desenvolvimento-
+agrario.html Adaptado. Acesso em 10 ago de 2023.
+TEXTO II
+Migrantes africanos vagam, no limite de suas forças, no deserto entre Tunísia e Líbia
+AFPi - 31/07/2023 - 10:02
+Caminhando até a exaustão, centenas de migrantes africanos entram todos os dias na Líbia, depois de terem sido
+abandonados na fronteira, no meio do deserto, pelas forças de segurança tunisianas, segundo os seus depoimentos
+e os da Guarda fronteiriça da Líbia.
+Cem migrantes foram resgatados por guardas líbios no domingo (30), enquanto vagavam em uma zona árida
+desabitada perto de Sebjat al Magta, um lago salgado, ao longo da fronteira entre Tunísia e Líbia.
+Fonte: https://istoe.com.br/migrantes-africanos-vagam-no-limite-de-suas-forcas-no-deserto-entre-tunisia-e-libia/ Adaptado. Acesso em 10 ago
+de 2023.
+Considerando a regionalização do continente africano pelo critério de localização, que o subdivide em cinco regiões,
+assinale a alternativa que indica corretamente as regiões nas quais se localizam os países envolvidos nas duas
+reportagens:
+(A)
+1) Magreb | 2) Sahel
+(B)
+1) Sahel | 2) África Setentrional
+(C)
+1) África Meridional | 2) Magreb
+(D)
+1) África Ocidental | 2) África Oriental
+(E)
+1) África Central | 2) África Setentrional
+
+HISTÓRIA
+Objetivas
+Questões de 16 a 20
+Questão 16 – Leia os textos a seguir:
+Texto I
+O postulado do racismo biológico poderia representar um obstáculo para alguns observadores, tal como a atitude
+ateia do regime nazista. Já desde as primeiras glosas do triunfo de Hitler que os fascistas espanhóis salientavam que
+o antissemitismo biológico-genético era a grande característica que diferenciava o “hitlerismo” dos outros
+movimentos fascistas, e afastavam-se dessa concepção de raça. No entanto, assinalavam, ao mesmo tempo, que os
+espanhóis também não gostavam dos judeus e que, portanto, compreendiam a interpretação racial que o nacional-
+socialismo dava a um problema universal, que noutras latitudes (Espanha e Itália) tinha adquirido apenas
+características confessionais.
+Fonte: SEIXAS, Xosé M. N. Ecos de Berlim: a influência do nacional-socialismo alemão no fascismo espanhol (1930-1940). Estudos Ibero-
+Americanos, 2015, p. 46
+Texto II
+Quem são os Yomus, grupo de ultras fascistas que começou os atos racistas contra Vini Jr.
+Os torcedores localizados atrás do gol defendido por Mamardashvili, do Valência, durante o segundo tempo, foram
+os responsáveis por iniciarem os atos racistas contra o atacante Vinicius Junior, no último domingo, no estádio
+Mestalla. Aquele setor da arena é onde fica o grupo Ultra Yomus, uma torcida organizada considerada
+ideologicamente fascista e de ideologia nacionalista espanhola. O grupo Yomus surgiu em 1983 num contexto
+político muito marcado pela agitação e violência. Na década de 1990, diversos jovens com pensamentos neonazistas
+entraram nos Yomus e ficou cada vez mais comum vermos nos jogos bandeiras identificadas com o nazismo, o
+orgulho celta e o franquismo.
+Fonte: https://oglobo.globo.com/esportes/futebol-internacional/noticia/2023/05/quem-sao-os-yomus-grupo-de-ultrafascistas-que-comecou-
+os-atos-racistas-contra-vini-jr.ghtml. Acessado em 13 jun de 2023
+A partir dos dois textos, compreende-se que a nefasta adesão ao racismo na Espanha
+(A)
+foi juridicamente estabelecida no contexto de institucionalização do regime fascista espanhol no final do século
+XIX.
+(B)
+foi um fenômeno em ascensão nos anos finais do século XX, sem relação direta com o fascismo
+espanhol.
+(C)
+não possui relação com o fascismo espanhol porque esse regime se diferenciava do nazismo no tocante à
+questão racial.
+(D)
+possui vinculação com o contexto de emergência do fascismo espanhol, com repercussão em práticas sociais
+atuais.
+(E)
+é explicada pela aproximação recente entre torcidas organizadas de times espanhóis e de times alemães que
+compartilham ideais fascistas.
+
+QUESTÃO 17 - Observe a imagem e leia o texto a seguir:
+Em 1928, dois comunistas do Bloco Operário e Camponês foram eleitos para o Conselho Municipal do Distrito
+Federal.
+“[...] só nos devem encher de satisfação as novas diretivas que vêm adotando o movimento proletário entre nós,
+arregimentando suas forças para futuras batalhas eleitorais, que inaugurarão uma fase na política, fazendo com que
+o proletariado entre em cena, independente dos chorrilhos políticos da burguesia (...) será um dos muitos meios de
+alargar sua luta geral contra os exploradores, criando uma nova frente de combate e preparando com ela novas
+bases para um mais largo movimento de massas capaz de derrubar definitivamente os seus exploradores e levá-los à
+definitiva vitória contra os seus inimigos seculares”.
+Fonte: trecho do jornal “A Esquerda”, publicado no Rio de Janeiro em fevereiro de 1928. Citado por Batalha, C. Formação da classe operária e
+projetos de identidade coletiva. In: FERREIRA, J. e DELGADO, L.N. (org). O Brasil Republicano, Vol 1. Rio de Janeiro, Civilização Brasileira, 2008.
+p. 181
+A partir do texto e da imagem, observa-se
+(A)
+a rejeição dos Anarquistas em relação a procedimentos e instituições político-parlamentares típicos da
+democracia liberal.
+(B)
+a crítica das oligarquias ao sistema eleitoral vigente, em que só votavam homens alfabetizados e maiores de 21
+anos.
+(C)
+a visão dos Socialistas no sentido de defender o processo eleitoral como principal meio de conquistar direitos
+sociais.
+(D)
+a defesa de uma reforma imediata do sistema eleitoral da Primeira República, visando permitir a candidatura
+de membros da classe trabalhadora.
+(E)
+a posição dos Comunistas em defesa da participação no processo eleitoral, compreendido como um espaço de
+luta política dentre outros.
+
+QUESTÃO 18 - Observe a imagem a seguir:
+Fig. 1: Capa de Superman (n. 17. Julho-agosto). Disponível em: h+ps://m.media-amazon.com/images/I/51usOys22zL.jpg
+acesso em 26 jun. 2023.
+Sobre a participação dos EUA na Segunda Guerra Mundial e dos usos políticos da indústria cultural, é CORRETO
+afirmar que:
+(A)
+Os EUA participaram da Segunda Guerra Mundial, principalmente a partir da política cultural, por isso, filmes,
+desenhos animados e história em quadrinhos foram utilizados à exaustão.
+(B)
+A utilização das histórias em quadrinhos tinha como objetivo primordial o alistamento de soldados, assim como
+justificar a presença de mulheres jovens nos campos de batalha no território europeu.
+(C)
+A capa de Superman reforçava o uso da indústria cultural, como forma de representar a participação dos EUA
+na Segunda Guerra Mundial, e valorizar a presença americana como solucionadora do conflito.
+(D)
+A participação dos EUA na Segunda Guerra Mundial não foi consenso entre as forças aliadas, por essa razão, a
+indústria cultural foi um instrumento para justificar a necessidade da incursão militar.
+(E)
+A entrada dos EUA na Segunda Guerra Mundial representou o momento de criação da indústria cultural, sendo
+que filmes, histórias em quadrinhos e desenhos animados surgiram no contexto da guerra.
+
+QUESTÃO 19 - Leia o texto a seguir:
+As grandes redes de TV surgiam com programação em âmbito nacional, estimuladas pela criação da Embratel, do
+Ministério das Comunicações e de outros investimentos governamentais em telecomunicação, que buscavam a
+integração e a segurança do território brasileiro. Ganhavam vulto diversas instituições estatais de incremento à
+cultura, como a Embrafilme, a Funarte e o Conselho Federal de Cultura. À sombra de apoio do Estado, floresceu
+também a iniciativa privada: criou-se uma indústria cultural, não só televisiva, mas também fonográfica, editorial, de
+agências de publicidade etc.
+Fonte: RIDENTI, Marcelo. Cultura e Política. In: FERREIRA, J. e DELGADO, L.A.N. O Brasil Republicano, vol 4, p. 155)
+Entre as alternativas abaixo, assinale aquela que corresponde ao contexto político-cultural a que se refere o autor:
+(A)
+Primeira República, quando artistas e intelectuais ligados ao movimento modernista e antropofágico
+defenderam a ideia de aglutinação e integração das culturas e a “devoração crítica das influências culturais”
+estrangeiras.
+(B)
+Contrução do Estado Novo, quando intelectuais se inseriram na organização político-ideológica do Estado,
+participando da construção do projeto político-pedagógico de implementação, popularização e difusão da
+ideologia do regime.
+(C)
+Aos chamados Anos Dourados, quando as políticas do governo de Juscelino Kubitschek, baseadas no
+nascionalismo e no desenvolvimentismo, deram suporte a projetos culturais de caráter inclusivo e
+universalista.
+(D)
+Ditadura Militar, quando, paralelamente à censura, observa-se um esforço governamental modernizador nas
+áreas de comunicação e cultura, incentivando o investimento privado e a ação estatal direcionada, inclusive, a
+integração nacional.
+(E)
+Redemocratização, quando, apesar da criação de órgãos de incentivo à cultura, como a ANCINE, verifica-se um
+declínio da participação estatal na cultura e um incremento da propaganda governamental como meio de
+assegurar a segurança nacional.
+QUESTÃO 20 - Leia o texto a seguir:
+Também conhecida como Aliança Atlântica, a Organização do Tratado do Atlântico Norte (Otan) foi fundada em
+1949 com o objetivo, em primeiro lugar, de atuar como um obstáculo à ameaça de expansão soviética na Europa
+após a Segunda Guerra Mundial. Além disso, os Estados Unidos a viram como uma ferramenta para impedir o
+ressurgimento de tendências nacionalistas na Europa e promover a integração política no continente. [...] Em maio
+de 2022, motivados pela invasão da Ucrânia pela Rússia, os governos da Finlândia e da Suécia apoiaram a adesão de
+ambos os países à Otan, sinalizando uma mudança em suas políticas de décadas de não alinhamento militar. O
+secretário-geral da Otan, Jens Stoltenberg, afirmou que seria possível permitir que Finlândia e Suécia aderissem à
+aliança rapidamente.
+Fonte: MUDGE, Rob. O que é a Otan e por que ela foi criada. Deutsch Welle, 17/05/2022. https://www.dw.com/pt-br/o-que-%E9-a-otan-e-por-
+que-ela-foi-criada/a-60701303
+Sobre a Otan e as relações internacionais, é CORRETO afirmar que:
+(A)
+A Guerra da Ucrânia teve início após a sinalização de Finlândia e Suécia em aderir à Otan, após pertencerem ao
+bloco geopolítico russo.
+(B)
+A fundação da Otan foi articulada pela Convenção Geral da Organização das Nações Unidas, como a unidade
+militar da entidade, com objetivos expansionistas.
+(C)
+A Otan surge no contexto da Segunda Guerra Mundial, como um produto das articulações do Tratado de
+Versalhes, buscando solucionar os conflitos bélicos.
+(D)
+A Otan foi fundada como uma resposta à institucionalização do Pacto de Varsóvia, que foi articulado no
+contexto do fim da Segunda Guerra Mundial e início da Guerra Fria.
+(E)
+Um dos elementos centrais da tensão entre Rússia e Ucrânia se dá pela disposição da Ucrânia em integrar a
+Otan e aos interesses geopolíticos do bloco liderado pelos EUA.
+
+QUESTÕES DISCURSIVAS
+* Lembre-se: este Caderno de Provas não será usado para correção, motivo pelo qual você poderá levá-lo para casa
+ao término da prova. Para cada uma das questões a seguir há um local apropriado na Folha de Respostas (único
+documento que será utilizado para correção, tanto das questões objetivas quanto das questões discursivas).
+GEOGRAFIA
+Discursivas (4 questões)
+QUESTÃO 1 – Leia o trecho da reportagem abaixo:
+Ambientalistas no calcanhar da Shell
+Isto É – 26/05/2023
+A relação entre multinacionais petrolíferas e ambientalistas nunca foi das melhores, mas os atritos entre a anglo-
+holandesa Shell e ONGs de proteção do meio ambiente ganharam escalas cinematográficas na semana passada.
+Durante assembleia de acionistas na terça-feira (23), ativistas do clima invadiram o centro de convenções da
+companhia, em Londres, e forçaram a suspensão da reunião. A revolta começou depois que 20% dos acionistas
+votaram contra a estratégia de descarbonização e transição energética da Shell para fontes limpas [...].
+A assembleia de acionistas, palco dos embates, foi a primeira sob o comando de Sawan, que assumiu o cargo em
+janeiro. Ele encarou a missão sob um intenso tiroteio entre os acionistas, que divergiam sobre a viabilidade de a
+companhia conseguir reduzir suas emissões e diminuir a dependência do petróleo. O plano, apresentado em 2021,
+previa corte acima de 30% até 2030, um objetivo ousado para uma empresa de petróleo [...].
+No Brasil, as petrolíferas — incluindo a Shell — também estão no alvo de ambientalistas em organizações como
+Greenpeace, com mais intensidade desde o ano passado. Isso porque o governo concedeu, em abril de 2022, 59
+áreas para exploração de petróleo no País, em leilão que arrecadou R$ 422,4 milhões. Do total arrecadado, 98%
+foram oferecidos por Shell, Ecopetrol e Total pela concessão de oito áreas na Bacia de Santos [...].
+Fonte: https://istoedinheiro.com.br/ambientalistas-no-calcanhar-da-shell/. acesso em 2 jun.2023
+A) Cite três motivos que explicam a resistência de empresas petrolíferas em assumir compromissos de
+investimentos nas chamadas “energias limpas”.
+B) No mundo globalizado, mesmo com o avanço na transição energética de países como a Alemanha e a
+Dinamarca, o movimento ambientalista continua exigindo esforços dos países com maior PIB no investimento
+e promoção de energia limpa nos países pobres. Explique as motivações dessa exigência.
+QUESTÃO 2 – Leia o trecho da reportagem abaixo:
+Resort de grupo espanhol tem conflito acirrado na APA de Maricá
+Indígenas Guarani bloqueiam obras do Projeto Maraey, megaempreendimento com parceiros de peso como a rede
+internacional de hotéis Marriott e a marca de festivais Rock in Rio
+((o))Eco - ELIZABETH OLIVEIRA - 20 de abril de 2023
+Alvo de resistência do movimento ambientalista e de cientistas que atuam, há décadas, com estudos em várias áreas
+do conhecimento na Área de Proteção Ambiental (APA) de Maricá, o Projeto Maraey amanheceu nesta segunda-
+feira (17) com o canteiro de obras bloqueado por um grupo da comunidade Mata Verde Bonita, onde vivem

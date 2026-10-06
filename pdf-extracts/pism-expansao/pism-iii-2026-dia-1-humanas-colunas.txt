@@ -1,0 +1,1277 @@
+
+=== PDF 3 ===
+L´INGUA PORTUGUESA - Objetivas
+TEXTO 1
+FERRAMENTAS COMO CHATGPT SO´
+EXISTEM PORQUE HUMANOS VEEM
+SENTIDO A PARTIR DE QUALQUER COISA
+TiagoTorrent
+DoutoremLingu´ısticapelaUniversidadeFederaldoRiode
+Janeiro.ProfessordoProgramadePo´s-Graduac¸a˜oem
+Lingu´ısticadaUniversidadeFederaldeJuizdeForae
+CoordenadordoLaborato´rioFrameNetBrasil.Bolsistade
+ProdutividadedoCNPq.
+Fato: ferramentas de inteligeˆncia artificial
+(IA) gerativa esta˜o revolucionando o mundo.
+Dentre elas, o ChatGPT e´ a mais popular.
+Entender o que ele tem de especial passa
+por dois vieses: o da computac¸a˜o e o da
+lingu´ıstica.
+Do ponto de vista computacional,
+a inovac¸a˜o do ChatGPT e´ como ele
+combina o modelo de l´ıngua que constro´i
+durante o treinamento com uma versa˜o da
+“Aprendizagem de Reforc¸o por Feedback
+Humano”.
+Essate´cnicausaavaliac¸o˜eshumanaspara
+auxiliar a IA no processo de ca´lculo da perda
+entreaquiloquefoieaquiloquedeveriatersido
+gerado por ela como resposta mais prova´vel
+a um determinado comando. Cada vez que
+selecionamos hidrantes em um captcha, ou
+avaliamos uma traduc¸a˜o automa´tica, estamos
+ajudando a IA a se recalibrar para diminuir a
+perda.
+O ChatGPT escalonou – e muito – essa
+ideia. Em vez de confiar so´ na avaliac¸a˜o
+dos usua´rios, essa ferramenta usou uma
+quantidade absurda – e mal remunerada –
+de avaliac¸o˜es humanas acerca da flueˆncia do
+texto produzido. Assim, o modelo de IA por
+tra´s do ChatGPT foi recalibrado a partir de
+uma infinidade de feedbacks humanos. Qual
+o impacto disso? Aqui entra o vie´s lingu´ıstico.
+Essa IA, que foi treinada e recalibrada
+para gerar sequeˆncias de texto que parec¸am
+fluentes, e´ usada por humanos cuja cognic¸a˜o
+evoluiu para construir sentido a partir de
+qualquer pista. [...] Construir sentido a partir
+depistaslingu´ısticase´ abasedacomunicac¸a˜o
+humana. Toda l´ıngua e´ composta de s´ımbolos
+que unem uma forma – por exemplo, trem – a
+um ou mais significados – meio de transporte
+ferrovia´rioou,sevoceˆ formineiro,virtualmente
+qualquer coisa.
+Pa´gina
+Quando conversamos com algue´m,
+no´s nos engajamos em um processo de
+reconstruc¸a˜o do sentido pretendido por esse
+algue´m.
+ParausaraspalavrasdeGillesFauconnier,
+linguista cognitivista, “a l´ıngua na˜o porta
+significado, mas o guia”, o que significa dizer
+que as formas lingu´ısticas, por si so´, na˜o sa˜o
+garantidoras da interpretac¸a˜o. E´ necessa´rio
+que quem ouve ou leˆ uma sequeˆncia de
+palavras seja capaz de dar sentido a`quele
+conjuntodepistas,apartirdeconhecimentode
+mundo compartilhado.
+Ha´, ainda, o Princ´ıpio da Cooperac¸a˜o,
+propostoporPaulGrice–filo´sofodalinguagem
+responsa´vel por importantes contribuic¸o˜es
+para o estudo do significado. Segundo Grice,
+quando nos engajamos em uma conversa,
+no´s pressupomos que nosso interlocutor e´
+cooperativo. Emoutraspalavras,pressupomos
+que ele esta´ nos dando toda a informac¸a˜o
+necessa´ria,queessainformac¸a˜oe´ verdadeira,
+relevante e que esta´ sendo apresentada da
+forma mais adequada poss´ıvel.
+E´ na combinac¸a˜o desses dois aspectos
+que reside o grande impacto do ChatGPT:
+quandolemosasequeˆnciadepalavrasgerada
+por essa IA, nossa cognic¸a˜o “treinada” para
+construir significado a partir de qualquer pista
+e para aderir ao princ´ıpio da cooperac¸a˜o vai
+achar uma maneira de essa sequeˆncia fazer
+sentido. Essee´ oprincipalriscoqueIAsdesse
+tipo trazem.
+A flueˆncia das sequeˆncias geradas por
+essas IAs desencadeia um processo de
+antropomorfizac¸a˜o comunicativa que foi
+batizado de Efeito Eliza, em homenagem ao
+primeiro chatbot.
+Esse efeito consiste em, a partir da
+projec¸a˜o da nossa capacidade cognitiva para
+a IA, atribuir a ela uma capacidade que na˜o
+tem: nesse caso, a de produzir sequeˆncias
+lingu´ısticas sabendo o que significam.
+E´ como se no´s julga´ssemos que o
+ChatGPT sabe o que diz. Entretanto, o
+sentido de uma sequeˆncia gerada por uma IA
+desse tipo so´ existe porque no´s, humanos, o
+constru´ımos quando lemos o texto. [...]
+A inteligeˆncia artificial generativa (como o
+ChatGPT)na˜oentendeoquediz—elaapenas
+produz sequeˆncias lingu´ısticas com apareˆncia
+fluente. O sentido dessas sequeˆncias e´
+constru´ıdo pelos humanos, cujas capacidades
+cognitivas e lingu´ısticas esta˜o baseadas em
+princ´ıpios de interpretac¸a˜o e cooperac¸a˜o.
+Assim, o risco das IAs esta´ na forma como
+1 de 17
+
+=== PDF 4 ===
+no´s interpretamos seus outputs, e na˜o nelas
+mesmas.
+Dispon´ıvelem:https://www1.folha.uol.com.br/tec
+/2023/07/ferramentas-como-chatgpt-so-existem-porque-humanos
+-veem-sentido-a-partir-de-qualquer-coisa.shtml.Acessoem30
+jun.2025(adaptado).
+QUESTA˜O 1.
+Tomando como refereˆncia o Texto 1, podemos
+afirmar que o autor defende que
+(A) a inteligeˆncia artificial generativa na˜o
+entende o que diz; no´s, humanos, e´ que
+projetamos sentido ao que ela gera, a
+partir do princ´ıpio de cooperac¸a˜o e da
+interpretac¸a˜o de pistas lingu´ısticas.
+(B) a inteligeˆncia artificial generativa, cada
+vez mais, entende o que e´ gerado em
+seusprogramas,mase´ preciso“recalibrar”
+corretamente as informac¸o˜es para que os
+textos fac¸am sentido.
+(C) apartirdovie´scomputacionalelingu´ıstico,
+a IA produz textos que os humanos
+nem sempre conseguem produzir, pois
+programas como ChatGPT sa˜o treinados
+e calibrados o tempo todo.
+(D) asIAquegeramtextoseimagens,embora
+saibam o sentido do que produzem,
+alimentam-se das informac¸o˜es de seus
+usua´rios,deixandoosprogramascadavez
+melhores.
+(E) o impacto das inteligeˆncias artificiais
+na humanidade ainda na˜o pode ser
+calculado, mas as sequeˆncias lingu´ısticas
+produzidas por ChatGPT esta˜o cada vez
+mais fluentes.
+Pa´gina
+QUESTA˜O 2.
+O uso de duas citac¸o˜es no Texto 1 – de Gilles
+Fauconnier e Paul Grice – tem como objetivo
+(A) defender que a l´ıngua na˜o e´ um conjunto
+de pistas para interpretac¸a˜o, mas um
+mecanismo de transmissa˜o direto de
+sentidos.
+(B) destacar que a Lingu´ıstica, como cieˆncia
+da linguagem, e´ a a´rea mais importante
+para a concepc¸a˜o das IA.
+(C) exemplificar, a partir de duas citac¸o˜es,
+como a Lingu´ıstica pode colaborar para o
+aprimoramento do ChatGPT.
+(D) fundamentar o ponto de vista acerca da
+importaˆnciadosaspectoslingu´ısticospara
+a ana´lise sobre o funcionamento das IA.
+(E) mostrar que na˜o cabem aos seres
+humanos as interpretac¸o˜es decorrentes
+dos textos produzidos por IA, citando dois
+pensadores da a´rea.
+QUESTA˜O 3.
+Releia o trecho do nono para´grafo do Texto
+1, “Ferramentas como ChatGPT so´ existem
+porque humanos veem sentido a partir de
+qualquer coisa”, de Tiago Torrent.
+“E´ na combinac¸a˜o desses dois aspectos
+que reside o grande impacto do ChatGPT:
+[...].”
+A expressa˜o “desses dois aspectos” refere-se
+(A) a` capacidade humana de interpretac¸a˜o a
+partir de pistas lingu´ısticas e ao Princ´ıpio
+de Cooperac¸a˜o.
+(B) a` ordem de palavras formadas por IA e
+a` cognic¸a˜o “treinada” para na˜o produzir
+significado a partir de pistas.
+(C) a` te´cnica de “Aprendizagem de Reforc¸o
+porFeedbackHumano”ea` capacidadede
+calibragem do ChatGPT.
+(D) aovie´scomputacionaleaovie´slingu´ıstico
+da criac¸a˜o do ChatGPT e outras IA
+generativas.
+(E) aos riscos que as IA podem trazer
+e ao processo de antropomorfizac¸a˜o
+comunicativa.
+2 de 17
+
+=== PDF 5 ===
+TEXTO 2
+PESSOAS BUSCAM INTELIGEˆNCIA
+ARTIFICIAL PARA CONVERSAR E ALIVIAR
+SOFRIMENTO PS´IQUICO
+Tecnologia pode ajudar, mas especialistas
+apontam riscos e afirmam que ferramenta na˜o
+substitui um terapeuta
+Site do Jornal Folha de Sa˜o Paulo
+folha.com/equilibrio
+Treˆs anos apo´s a chegada do ChatGPT
+ao pa´ıs, os brasileiros recorrem a soluc¸o˜es de
+inteligeˆnciaartificial(IA)paradiversosfins,seja
+na escola, na universidade, no trabalho ou na
+vidapessoal,inclusiveparalidarcomquesto˜es
+muito humanas, como o sofrimento ps´ıquico.
+A OMS (Organizac¸a˜o Mundial da Sau´de)
+estima que cerca de 300 milho˜es de pessoas
+no mundo sofram com depressa˜o. Somado
+a isso ha´ o uso excessivo de m´ıdias digitais,
+fenoˆmeno que reflete a sociedade em que
+vivemos. “Estamos fragmentados, isolados,
+na˜o encontramos nas pessoas relac¸o˜es que
+nos satisfazem. A nossa sociedade na˜o
+da´ conforto para ningue´m e vivemos em
+tensa˜o permanente”, avalia Glauco Arbix,
+socio´logo e professor titular do Departamento
+de Sociologia da USP.
+E´ nesse cena´rio que os brasileiros esta˜o
+recorrendo a` tecnologia, mais precisamente
+a` IA, para suprir suas necessidades
+psicolo´gicas.
+Ale´m do ChatGPT, usado por muita
+gente que deseja desabafar, ferramentas
+espec´ıficas ja´ foram criadas para dar suporte
+emocional. Em agosto de 2024, a empresa
+de telemedicina Vibe Sau´de lanc¸ou a Vivi,
+“assistente de IA em sau´de mental” que hoje
+conta com 16 mil usua´rios.
+IA e´ usada para terapia e suporte emocional -
+Catarina Pignato.
+Pa´gina
+A IA avalia as mensagens enviadas pelo
+usua´rio e sugere um ciclo de cuidado de
+seis semanas que segue as te´cnicas da
+terapia cognitivo-comportamental. De acordo
+com Felipe Cunha, presidente e cofundador
+da empresa, os protocolos foram criados
+por profissionais de sau´de, e ha´ ainda uma
+plataforma de seguranc¸a cl´ınica que funciona
+como uma auditora em tempo real e “pode
+bloquear uma mensagem que tenha uma
+conduta cl´ınica na˜o aceita´vel por parte da
+inteligeˆncia artificial”.
+Apo´s oferecer o ciclo terapeˆutico de seis
+semanas,aViviindicaposs´ıveissoluc¸o˜espara
+as questo˜es levantadas e diz que o contato
+pode ser retomado a qualquer momento.
+Se o usua´rio na˜o precisar da assisteˆncia
+ao longo dos dias, na semana seguinte a
+pro´pria IA envia uma mensagem no dia e
+hora´rio previamente combinados. A partir de
+fevereiro o servic¸o sera´ cobrado — R$ 2,50
+porumpacotede30mensagensenviadaspelo
+usua´rio, em texto ou a´udio.
+“Ela [Vivi] na˜o e´ uma profissional, na˜o
+substitui o psico´logo e na˜o passa nenhum
+tipo de diagno´stico ou medicamentos. E´
+uma assistente de suporte emocional para
+suplementar o trabalho dos profissionais de
+sau´de”, ressalta Cunha.
+Alicie Camargo, publicita´ria de 27 anos,
+conta que usa o ChatGPT em momentos de
+ansiedade. Ela avalia que a interac¸a˜o e´,
+em geral, positiva — por exemplo quando a
+ferramenta a ajuda a acertar o tom de uma
+mensagem que deseja enviar a algue´m e
+na˜o sabe como, quando indica exerc´ıcios de
+respirac¸a˜o em momentos de crise e quando
+apontaalgoqueelana˜oenxergariasozinhaem
+uma situac¸a˜o.
+“Mas eu entendo as limitac¸o˜es”, diz ela,
+citando sugesto˜es oferecidas pela IA que na˜o
+condizem com a sua personalidade. “Se o
+problema for cobrar algue´m, o´bvio que ele
+[ChatGPT] vai dar a soluc¸a˜o de cobrar a
+atitude, mas emocionalmente eu na˜o estaria
+pronta para isso. Enta˜o o conselho na˜o me
+serviu de nada”.
+A publicita´ria sabe que a tecnologia na˜o
+substitui o trabalho de um profissional da
+psicologia. “Inclusive estou procurando um.”
+Um ambiente digital dispon´ıvel 24 horas
+por dia pode oferecer al´ıvio em momentos de
+solida˜o,maspesquisadoresalertamparaofato
+de que essas tecnologias sa˜o novas e seus
+efeitos ainda na˜o sa˜o conhecidos. “Se as
+pessoas podem acessar algo que as fara´ se
+3 de 17
+
+=== PDF 6 ===
+sentir menos solita´rias porque escutam o que
+elas teˆm a dizer, e´ algo positivo. Mas, a longo
+prazo,na˜osabemosaindasee´ algorealmente
+bom”, afirma Christopher Wagstaff, professor
+seˆnior na Universidade de Birmingham e autor
+do artigo “Inteligeˆncia Artificial e as relac¸o˜es
+terapeˆuticas na sau´de mental”.
+“Eu gostaria de acreditar que isso nunca
+ira´ substituir a interac¸a˜o humana”, acresenta
+Wagstaff, citando “programas que teˆm rostos
+que fingem ouvir, se importar e fazer contato
+visual de forma empa´tica”.
+L., jornalista e redatora publicita´ria de
+21 anos que na˜o quis se identificar, conta
+que conseguiu contornar o problema das
+respostas gene´ricas da tecnologia de forma
+pra´tica. Acostumada a usar tanto o ChatGPT
+quanto o Google AI Studio na faculdade e no
+trabalho,eladizquedesenvolveute´cnicaspara
+aprimorar os comandos e, consequentemente,
+as respostas do roboˆ.
+A jovem comec¸ou a usar o chatbot para
+suporteemocionalduranteumper´ıododeluto,
+apo´s a psico´loga com quem se consultava
+haviacincoanosmorrer. Eladizserconsciente
+dosriscosqueaIApodetrazer,mascontaque
+na e´poca foi o u´nico recurso que se via capaz
+deutilizar,ja´ quena˜oconseguiaprocuraroutro
+terapeuta. Depois de quatro meses usando
+a ferramenta, L. diz que se sentiu bem o
+suficienteparaprocurartratamentopsicolo´gico
+e psiquia´trico, retomado ha´ treˆs meses.
+Dispon´ıvelem:https://www1.folha.uol.com.br/
+equilibrio/2025/01/pessoas-buscam-inteligencia-artificial-para
+-conversar-e-aliviar-sofrimento-psiquico.shtml.Acessoem:25
+jun.2025.
+QUESTA˜O 4.
+Sobre o uso de IA para terapia e suporte
+emocional, o Texto 2, “Pessoas buscam
+inteligeˆncia artificial para conversar e aliviar
+sofrimento ps´ıquico”, apresenta:
+(A) apenas relatos neutros.
+(B) aspectos positivos e negativos.
+(C) estritamente uma cr´ıtica.
+(D) exclusivamente uma longa justificativa.
+(E) somente dados quantitativos negativos.
+Pa´gina
+QUESTA˜O 5.
+Em relac¸a˜o ao primeiro e segundo para´grafos
+do Texto 2, o terceiro para´grafo – “E´ nesse
+cena´rio que os brasileiros esta˜o recorrendo a`
+tecnologia,maisprecisamentea` IA,parasuprir
+suas necessidades psicolo´gicas” – estabelece
+uma relac¸a˜o de:
+(A) conclusa˜o parcial.
+(B) contraposic¸a˜o total.
+(C) exemplificac¸a˜o pessoal.
+(D) justificativa subsequente.
+(E) ressalva comedida.
+LITERATURA - Objetivas
+TEXTO 1
+Mar e lua
+Chico Buarque
+Amaram o amor urgente
+As bocas salgadas pela maresia
+As costas lanhadas pela tempestade
+Naquela cidade
+Distante do mar
+Amaram o amor serenado
+Das noturnas praias
+Levantavam as saias
+E se enluaravam de felicidade
+Naquela cidade
+Que na˜o tem luar
+Amavam o amor proibido
+Pois hoje e´ sabido
+Todo mundo conta
+Que uma andava tonta
+Gra´vida de lua
+E outra andava nua
+A´vida de mar
+E foram ficando marcadas
+Ouvindo risadas, sentindo arrepios
+Olhando pro rio ta˜o cheio de lua
+E que continua
+Correndo pro mar
+E foram correnteza abaixo
+Rolando no leito
+Engolindo a´gua
+Boiando com as algas
+Arrastando folhas
+4 de 17
+
+=== PDF 7 ===
+Carregando flores
+E a se desmanchar
+E foram virando peixes
+Virando conchas
+Virando seixos
+Virando areia
+Prateada areia
+Com lua cheia
+E a` beira-mar
+Fonte:BUARQUE,Chico.Marelua.In:Vida.RiodeJaneiro:
+PolygramPhilips,1980.
+Glossa´rio:
+Seixos: pedras pequenas, geralmente
+arredondadas.
+QUESTA˜O 6.
+Em relac¸a˜o a` canc¸a˜o “Mar e lua” (Texto 1),
+de Chico Buarque, assinale a alternativa que
+representa uma interpretac¸a˜o adequada aos
+versos destacados.
+(A) A canc¸a˜o aborda a homoafetividade
+atrave´s das meta´foras do rio e do mar,
+representando as figuras das amantes,
+conforme indicam os versos “Naquela
+cidade / Distante do mar / (...) / Que na˜o
+tem luar”.
+(B) A canc¸a˜o aborda a homoafetividade
+apresentando um desfecho feliz para o
+relacionamento das amantes, conforme
+indicam os versos “E foram correnteza
+abaixo / Rolando no leito / Engolindo
+a´gua”.
+(C) A canc¸a˜o aborda a homoafetividade e
+o preconceito social, conforme indicam
+os versos “E foram ficando marcadas
+/ Ouvindo risadas, sentindo arrepios /
+Olhando pro rio ta˜o cheio de lua”.
+(D) A canc¸a˜o aborda a homoafetividade,
+deixando evidente a traic¸a˜o amorosa de
+uma das amantes, conforme indicam os
+versos “Todo mundo conta / Que uma
+andavatonta/Gra´vidadelua/(...) /A´vida
+de mar”.
+(E) A canc¸a˜o aborda a homoafetividade
+a partir da construc¸a˜o de elementos
+validados pela sociedade representada
+na letra, conforme indicam os versos
+“Amavam o amor proibido / Pois hoje e´
+sabido/ todo mundo conta”.
+Pa´gina
+TEXTO 2
+Arpejos
+Ana Cristina Cesar
+1
+Acordei com coceira no h´ımen. No bideˆ com
+espelhinho examinei o local. Na˜o surpreendi
+ind´ıcios de mole´stia. Meus olhos leigos na
+certa na˜o percebem que um rouge a mais tem
+significado a mais. Passei pomada branca ate´
+queapele(rugosaemurcha)ficassebrilhante.
+Com essa murcharam igualmente projetos de
+ir de bicicleta a` ponta do Arpoador. O selim
+poderia reavivar a irritac¸a˜o. Em vez disso
+decidi me dedicar a` leitura.
+2
+Ontem na recepc¸a˜o virei inadvertidamente a`
+cabec¸acontraobeijodesaudac¸a˜odeAntoˆnia.
+Senti na nuca o bafo seco do susto. Na˜o havia
+como desfazer o engano. Sorrimos o resto da
+noite. Falo o tempo todo em mim. Na˜o deixo
+Antoˆnia abrir sua boca de lagarta beijando
+para sempre o ar. Na sa´ıda nos beijamos de
+acordo, dos dois lados. Aguardo crise aguda
+de remorso.
+3
+A crise parece controlada. Passo o dia a
+recordar o gesto involunta´rio. Represento a
+cena ao espelho. Viro o rosto a` minha pro´pria
+imagem sequiosa. Depois me volto, procuro
+nos olhos dela signos de decepc¸a˜o. Mas
+Antoˆnia continuaria inexora´vel. Saio depois
+de tantos ensaios. O movimento das rodas me
+desanuvia os tendo˜es duros. Os navios me
+iluminam. Pedalo de maneira insensata.
+Fonte:CESAR,AnaCristina.Cenasdeabril(1979).In:
+CESAR,AnaCristina.Poe´tica.Sa˜oPaulo:Companhiadas
+Letras:2013,p.26.
+Glossa´rio:
+Selim: banco da bicicleta
+5 de 17
+
+=== PDF 8 ===
+QUESTA˜O 7.
+Arpejos sa˜o execuc¸o˜es sucessivas de notas
+que compo˜em um acorde musical. O acorde,
+por sua vez, implica a execuc¸a˜o simultaˆnea de
+todas essas notas a comporem uma estrutura
+harmoˆnica.
+Tendoemvistaesseesclarecimentoinicial,nas
+treˆs partes do poema de Ana Cristina Cesar
+(Texto 2), o t´ıtulo pode ser justificado a partir
+da tema´tica
+(A) antagoˆnica, ja´ que a atrac¸a˜o por Antoˆnia
+na˜o encontra reciprocidade.
+(B) conflitante, que aponta para a vergonha
+feminina diante do pro´prio corpo.
+(C) excludente, em que a voz poe´tica se
+sobrepo˜e a`s respostas de Antoˆnia.
+(D) relacional, em que o esporte e´ colocado
+em contraste com a vida amorosa.
+(E) semelhante,quesugereumarepresentac¸a˜o
+do desejo feminino.
+QUESTA˜O 8.
+Ana Cristina Cesar foi uma poeta que
+esteve associada a` poesia marginal dos anos
+1970 no Brasil. Conhecida tambe´m como
+Gerac¸a˜o Mimeo´grafo, muitos de seus poetas
+divulgavam os projetos litera´rios fora dos
+paraˆmetros do mercado editorial.
+Apartirdaleituradopoema“Arpejos”(Texto 2),
+compreende-se que essa vinculac¸a˜o a` poesia
+marginal se da´ por
+(A) cadeˆncia ritmada dos versos e controle
+dos significados atribu´ıdos ao texto
+poe´tico.
+(B) cara´ter prosaico dos versos e
+representac¸a˜o do cotidiano da juventude
+urbana da e´poca.
+(C) conflito que se faz entre prosa e poesia e
+ineditismo do tema da homoafetividade.
+(D) esgotamento das formas fixas no se´culo
+XX e uso imoderado de figuras de
+linguagem.
+(E) recusa de produzir poemas tradicionais e
+tom moralista que incide sobre a tema´tica.
+Pa´gina
+TEXTO 3
+O que e´ a HISTO´RIA DOCINHA
+A HISTO´RIA DOCINHA e´ uma marca de
+ac¸u´car portugueˆs. Foi criada com o propo´sito
+de adocicar as conversas sobre a colonizac¸a˜o
+portuguesa.
+Tem o poder de adocicar ou ameigar tudo:
+genoc´ıdio, escravizac¸a˜o, casamento forc¸ado,
+violac¸a˜o, pedofilia, imposic¸a˜o religiosa,
+lingu´ıstica e cultural, trabalho forc¸ado, invasa˜o,
+saque, destruic¸a˜o ambiental ou a suspensa˜o
+do futuro do Outro.
+O formato da HISTO´RIA DOCINHA, que e´ o
+formatodopacoteregulardeac¸u´careajusta´vel
+ao pires e x´ıcara de cafe´ portugueses, nem
+sempre foi assim. Comec¸ou por ser um stick,
+mas como ningue´m em Portugal e ilhas sabia
+abri-lo corretamente, a companhia optou por
+reproduzir o formato retangular.
+Desde enta˜o os pacotes de HISTO´RIA
+DOCINHA, que teˆm um design muito familiar
+paraosportugueses,incluem,a` vez,cadauma
+das32figurasdoPadra˜odosDescobrimentos.
+Como usar a HISTO´RIA DOCINHA
+1. Os pacotes HISTO´RIA DOCINHA devem
+ser apenas usados em situac¸o˜es de grande
+constrangimento, exaltac¸a˜o ou nervosismo.
+Para todas as idades.
+Fonte:LINO,Patr´ıcia.Okitdesobreviveˆnciadodescobridor
+portugueˆsnomundoanticolonial.JuizdeFora:Edic¸o˜es
+Macondo,2020.
+Glossa´rio:
+Stick: recipientedepapeloupla´stico;pequeno
+pacote de ac¸u´car, sal, adoc¸ante etc.
+Padra˜o dos Descobrimentos: composto
+por figuras de homens que participaram
+das navegac¸o˜es e, consequentemente, do
+processo de colonizac¸a˜o.
+6 de 17
+
+=== PDF 9 ===
+QUESTA˜O 9.
+Patr´ıcia Lino e´ uma poeta portuguesa
+contemporaˆnea cuja obra envolve o dia´logo
+permanente com outras artes e regimes
+discursivos. Nolivro “Okitdesobreviveˆnciado
+descobridor portugueˆs no mundo anticolonial”,
+Lino aborda, de modo singular, a histo´ria da
+colonizac¸a˜o portuguesa e os seus reflexos no
+mundo atual.
+Com base no fragmento lido (Texto 3), e´
+poss´ıvel afirmar que a cr´ıtica da autora
+(A) configura um retrato impreciso da
+colonizac¸a˜oportuguesa,umavezquena˜o
+ha´ dados histo´ricos suficientes na histo´ria
+que sustentem o texto.
+(B) direciona o olhar para a permaneˆncia do
+discursoquetendeamascararaspra´ticas
+eosefeitosoriundosdaexpansa˜ocolonial
+portuguesa.
+(C) elabora um discurso difamato´rio que
+depo˜e contra os me´ritos incontesta´veis
+dos “descobrimentos” promovidos pela
+nac¸a˜o portuguesa.
+(D) seleciona fatos histo´ricos que deixam
+entrever, no texto, sua postura favora´vel e
+condescendenteemrelac¸a˜oa` colonizac¸a˜o
+portuguesa.
+(E) sinaliza a dissociac¸a˜o entre a marca
+portuguesa e o per´ıodo de explorac¸a˜o da
+coloˆnia brasileira conhecido como ciclo da
+cana de ac¸u´car.
+Pa´gina
+TEXTO 4
+O Kit de Sobreviveˆncia do Descobridor
+Portugueˆs no Mundo Anticolonial
+Patr´ıcia Lino
+O que e´ a PORTUGALIDADE
+A PORTUGALIDADE e´ uma sensac¸a˜o
+produzida por um est´ımulo externo ou interno
+sobre um o´rga˜o sensorial e transmitida
+ao ce´rebro atrave´s do sistema nervoso.
+Pode manifestar-se em qualquer ex-colo´nia
+portuguesa de modo visual, auditivo, ta´ctil,
+gustativo, olfativo ou espacial. Esta sensac¸a˜o,
+que nos aproxima uns dos outros, e´, ao
+mesmo tempo, o que nos distingue dos
+restantes povos do globo. Mais do que
+uma ideia e uma forma de estar civilizadora,
+a PORTUGALIDADE abre-se como uma
+promissora constelac¸a˜o de Estados, porque
+o mundo portugueˆs e´ uma alianc¸a de povos
+com um passado partilhado e um futuro em
+comum. Por esta raza˜o, a necessidade justa
+e natural de reerguer a fam´ılia das nac¸o˜es de
+falalusa,queso´ portra´gicoacasosedesfez,e´
+imperativa.
+Fonte:LINO,Patr´ıcia.Okitdesobreviveˆnciadodescobridor
+portugueˆsnomundoanticolonial.JuizdeFora:Edic¸o˜es
+Macondo,2020.
+QUESTA˜O 10.
+A partir da leitura do fragmento do livro “O kit
+de sobreviveˆncia do descobridor portugueˆs no
+mundo anticolonial” (Texto 4), de Patr´ıcia Lino,
+infere-se que a “Portugalidade”
+(A) e´ um elogio que a autora tece a` grandeza
+do povo portugueˆs.
+(B) e´ um julgamento dirigido a`queles que na˜o
+veem Portugal como uma constelac¸a˜o de
+estados.
+(C) e´ uma celebrac¸a˜o das terras de almas
+portuguesas, como as ex-coloˆnias de
+Portugal.
+(D) e´ uma cr´ıtica que a autora tece ao projeto
+colonial e civilizato´rio portugueˆs.
+(E) e´ uma promissora constelac¸a˜o de
+Estados que englobam as ex-coloˆnias
+portuguesas.
+7 de 17
+
+=== PDF 10 ===
+BIOLOGIA - Objetivas
+QUESTA˜O 11.
+Microrganismos, plantas e animais
+considerados transgeˆnicos sa˜o produzidos
+para expressar genes de interesse de outra
+espe´cie,passandoaapresentarcaracter´ısticas
+que naturalmente na˜o possuem. De forma
+geral, os transgeˆnicos sa˜o utilizados em
+processos industriais ou para aprimorar
+pra´ticas agr´ıcolas.
+A produc¸a˜o de transgeˆnicos esta´
+CORRETAMENTE exemplificada no processo
+de
+(A) cruzamentos entre linhagens de uma
+mesma espe´cie de milho resultando uma
+linhagem h´ıbrida que apresenta qualidade
+superior a`s de origem.
+(B) incorporac¸a˜odogenedeumabacte´riaque
+induz a produc¸a˜o de pro´-toxina inseticida
+no genoma de milho, barateando o
+controle de pragas.
+(C) introduzir uma combinac¸a˜o de genes
+(plasm´ıdeo) obtida de bacte´rias que
+metabolizam petro´leo em bacte´rias
+marinhas para limpeza de oceanos.
+(D) plantar cultivares de trigo com diferentes
+interac¸o˜es com insetos numa mesma
+lavoura para garantir maior produtividade
+em caso de ataque de pragas.
+(E) produc¸a˜o de rac¸as de cachorros atrave´s
+decruzamentosparaobterindiv´ıduoscom
+caracter´ısticas espec´ıficas e de interesse
+comercial.
+Pa´gina
+QUESTA˜O 12.
+Ao observar diferentes organismos que se
+alimentam de ne´ctar ou insetos em locais de
+dif´ıcil acesso, e´ poss´ıvel notar adaptac¸o˜es
+morfolo´gicas espec´ıficas para essa func¸a˜o.
+A probo´scide de uma borboleta e a l´ıngua
+compridaepegajosadeumtamandua´ servem,
+cada uma a seu modo, para alcanc¸ar o
+alimento em locais estreitos, como o interior
+de flores ou cupinzeiros. Apesar de todas
+essas estruturas serem utilizadas para obter
+alimento de maneira semelhante, pertencem
+a organismos de grupos distantemente
+aparentados na escala evolutiva.
+O processo biolo´gico responsa´vel pelas
+adaptac¸o˜es apresentadas acima e´ a
+(A) divergeˆncia evolutiva.
+(B) evoluc¸a˜o convergente.
+(C) homologia.
+(D) irradiac¸a˜o adaptativa.
+(E) selec¸a˜o artificial.
+QUESTA˜O 13.
+A diversidade gene´tica entre os indiv´ıduos de
+umapopulac¸a˜oe´ fundamentalparaoprocesso
+de evoluc¸a˜o biolo´gica.
+Esta afirmac¸a˜o esta´ CORRETA porque a
+diversidade gene´tica
+(A) elimina ou impede o surgimento de
+mutac¸o˜es ao longo das gerac¸o˜es de
+indiv´ıduos dentro de uma mesma
+populac¸a˜o.
+(B) faz com que todos os indiv´ıduos dessa
+populac¸a˜o tenham as mesmas chances
+de sobreviveˆncia, independentemente das
+condic¸o˜es do ambiente.
+(C) garante que todos os indiv´ıduos
+pertencentes a essa populac¸a˜o
+expressem as mesmas caracter´ısticas
+fenot´ıpicas.
+(D) impede que os indiv´ıduos da populac¸a˜o
+se adaptem a novos ambientes e evita o
+surgimento de indiv´ıduos na˜o adaptados.
+(E) permitequealgunsindiv´ıduospertencentes
+a` populac¸a˜o tenham caracter´ısticas
+vantajosas em ambientes que mudam ao
+longo do tempo.
+8 de 17
+
+=== PDF 11 ===
+QUESTA˜O 14.
+Pesquisadores esta˜o estudando o
+desenvolvimento de variedades de certa
+espe´cie de feija˜o em uma regia˜o semia´rida
+do Brasil a fim de selecionarem plantas com
+sementes de colorac¸a˜o escura, com maior
+resisteˆncia a` radiac¸a˜o solar e a` desidratac¸a˜o.
+Foi observado que a colorac¸a˜o das sementes
+dessa espe´cie era determinada pela interac¸a˜o
+entre os genes P e I, autossoˆmicos e
+independentes. O gene P condiciona a
+s´ıntese depigmentos escuros, enquantoo seu
+alelo condiciona a gerac¸a˜o de sementes de
+cor clara. O gene I tem ac¸a˜o inibito´ria da
+pigmentac¸a˜o, enquanto o seu alelo permite a
+manifestac¸a˜o da pigmentac¸a˜o das sementes.
+Considerando esse padra˜o de heranc¸a
+gene´tica,qualdoscruzamentosabaixooferece
+a maior probabilidade de gerar plantas com
+sementes pigmentadas, como as procuradas
+pelos pesquisadores?
+(A) IiPp × IiPp
+(B) IIPP × iipp
+(C) iiPp × iiPp
+(D) Iipp × IIPP
+(E) IiPP × Iipp
+QUESTA˜O 15.
+Leia o texto a seguir.
+As fontes de energia renova´vel veˆm sendo
+cada vez mais utilizadas em substituic¸a˜o a`s
+fontesfo´sseis. Noentanto,suaadoc¸a˜oenvolve
+umase´riedefatoreseconoˆmicoseambientais.
+Dispon´ıvelem:https://encurtador.com.br/ScdVS(link
+encurtado).Acessoem:24dejun.de2025.
+Considerando os fatores econoˆmicos e
+ambientais no texto acima,
+(A) a adoc¸a˜o de fontes renova´veis reduz
+a emissa˜o de gases poluentes,
+mas costuma gerar mais custos de
+manutenc¸a˜o do que as fontes fo´sseis.
+(B) aenergiaprovenientedefontesrenova´veis
+e´ invia´vel economicamente, sendo
+utilizada apenas por pa´ıses ricos com
+grande disponibilidade de recursos
+naturais.
+Pa´gina
+(C) as energias renova´veis ajudam a reduzir
+a emissa˜o de gases do efeito estufa
+e, a longo prazo, podem representar
+economia, apesar dos altos custos iniciais
+de instalac¸a˜o.
+(D) as fontes de energias renova´veis sa˜o
+isentas de qualquer impacto ambiental e
+por isso na˜o exigem planejamento para
+sua instalac¸a˜o.
+(E) as fontes renova´veis como a solar e
+a eo´lica garantem produc¸a˜o constante
+de energia, independentemente das
+condic¸o˜es clima´ticas.
+Matema´tica - Objetivas
+QUESTA˜O 16.
+No plano cartesiano abaixo esta˜o
+representados segmentos de treˆs retas: r, s
+e t.
+As equac¸o˜es das retas r e s esta˜o fornecidas
+na figura, sendo a equac¸a˜o da reta t da forma
+y = ax + b. Essas treˆs retas se cruzam num
+mesmo ponto que esta´ localizado no primeiro
+quadrante do plano cartesiano.
+Os valores dos coeficientes a e b da reta t
+devem ser tais que
+1
+(A) − < a < 1 e 2 < b < 8
+2
+(B) −1 < a < 1 e 2 < b < 8
+1
+(C) 2 < a < 8 e − < b < 1
+2
+(D) 2 < a < 8 e −1 < b < 1
+(E) −1 < a < 1 e 2 < b < 16
+9 de 17
+
+=== PDF 12 ===
+QUESTA˜O 17.
+Quatro amigas compraram bombons em uma
+doceria. Ana comprou 2 bombons de uva,
+1 de morango, 1 de ameixa e pagou
+15 reais. Beatriz comprou 1 bombom de uva,
+1 de ameixa e pagou 8 reais. Carla
+comprou 2 bombons de morango, 1 de ameixa
+e pagou 13 reais. Ja´ Denise comprou
+1 bombom de uva, 1 de morango e
+2 de ameixa.
+Quantos reais Denise pagou pelos bombons
+que comprou?
+(A) 12
+(B) 15
+(C) 16
+(D) 17
+(E) 21
+QUESTA˜O 18.
+Considere os nu´meros x, y e z definidos por
+x = 23+log 2 5 , y = 32−log 3 5 e z = 6(log 9 4)×(log 6 3).
+O valor de x·y·z e´
+(A) 52
+(B) 72
+(C) 144
+(D) 156·6(log 9 4)
+(E) 216·6(log 9 4)
+Pa´gina 1
+QUESTA˜O 19.
+Uma pessoa elaborou uma playlist com 12
+mu´sicas diferentes, das quais 2 sa˜o do geˆnero
+sertanejo, 4 sa˜o cla´ssicas e 6 sa˜o do geˆnero
+rock. Ela programara´ essa playlist para tocar
+treˆs blocos de mu´sica, sendo que, em cada
+bloco, sera˜o tocadas todas as mu´sicas de um
+mesmo geˆnero musical em ordem aleato´ria,
+podendoostreˆsblocosdosdiferentesgeˆneros
+musicais serem, entre si, reproduzidos em
+qualquer ordem.
+Com essa programac¸a˜o feita, de quantas
+maneiras diferentes essa playlist podera´ ser
+reproduzida?
+(A) 12!
+(B) 3! × 2! × 4! × 6!
+(C) 3! + 2! + 4! + 6!
+(D) 3 × 2! × 4! × 6!
+(E) 12 × 2! × 4! × 6!
+QUESTA˜O 20.
+Laura pretende jantar em um restaurante com
+umgrupodedozeamigosmais´ıntimos,dentre
+os quais ha´ um casal formado por Joana e
+Pedro, para comemorar seu aniversa´rio. Ao
+tentar fazer a reserva de uma mesa nesse
+restaurante para o dia do seu aniversa´rio, foi
+informada que a u´nica mesa dispon´ıvel era
+para seis pessoas e, assim, decidiu sortear,
+dentre os doze amigos, quais os cinco que
+jantariam com ela nesse restaurante nessa
+data.
+Qual e´ a probabilidade de o casal Joana e
+Pedro participarem desse jantar?
+1
+(A)
+2
+1
+(B)
+11
+2
+(C)
+5
+5
+(D)
+22
+5
+(E)
+33
+10 de 17
+
+=== PDF 13 ===
+L´INGUA PORTUGUESA - Discursivas
+LeiaoTexto1erespondaasquesto˜es1e2.
+TEXTO 1
+Post do Instagram do Jornal Folha de Sa˜o
+Paulo
+Dispon´ıvelem:https://www.instagram.com/p/DFB
+uk3yTifx/?igsh=ZXdzcmgzMm1kcHJ6.Acessoem:30jun.
+2025.
+Transcric¸a˜o dos textos no post:
+“Pessoas buscam inteligeˆncia artificial para
+‘conversar’ e aliviar sofrimento ps´ıquico”
+A OMS (Organizac¸a˜o Mundial da Sau´de)
+estima que cerca de 300 milho˜es de pessoas
+no mundo sofram com depressa˜o. Somado
+a isso ha´ o uso excessivo de m´ıdias digitais,
+fenoˆmeno que reflete a sociedade em que
+vivemos. “Estamos fragmentados, isolados,
+na˜o encontramos nas pessoas relac¸o˜es que
+nos satisfazem. A nossa sociedade na˜o
+da´ conforto para ningue´m e vivemos em
+tensa˜o permanente”, avalia Glauco Arbix,
+socio´logo e professor titular do Departamento
+de Sociologia da USP. E´ nesse cena´rio que
+os brasileiros esta˜o recorrendo a` tecnologia,
+mais precisamente a` IA, para suprir suas
+necessidades psicolo´gicas.
+Pa´gina 1
+QUESTA˜O 1.
+A partir da interpretac¸a˜o da tema´tica da
+imagem, do t´ıtulo e da legenda do Texto 1,
+produzaumpara´grafo,simulandoumcomando
+direcionado a um programa de Inteligeˆncia
+Artificial (IA). Este para´grafo precisa: ser
+escrito em primeira pessoa do singular,
+utilizar um vocativo e conter uma introduc¸a˜o,
+contextualizando uma situac¸a˜o problema e,
+ao final, uma pergunta, pedindo para a IA
+sugesto˜es de resoluc¸a˜o.
+QUESTA˜O 2.
+O Texto 2, “Pessoas buscam inteligeˆncia
+artificial para conversar e aliviar sofrimento
+ps´ıquico”, apresentado na prova objetiva
+de L´ıngua Portuguesa, e o texto 1 da
+prova discursiva de L´ıngua Portuguesa,
+post do Instagram da Folha de Sa˜o Paulo,
+compartilham uma imagem e veiculam o
+mesmo assunto, mas de maneiras diferentes
+emfunc¸a˜odam´ıdiadesuporte/veiculac¸a˜oedo
+objetivo de comunicac¸a˜o de cada um. A partir
+dessas informac¸o˜es e explorando os pro´prios
+textos, responda:
+Qual o principal objetivo de comunicac¸a˜o do
+post do Instagram da Folha de Sa˜o Paulo em
+relac¸a˜o ao texto 2 da prova objetiva, cujo t´ıtulo
+e´ “Pessoas buscam inteligeˆncia artificial para
+‘conversar e aliviar’ sofrimento ps´ıquico”?
+11 de 17
+
+=== PDF 14 ===
+Leia o Texto 2 e responda a questa˜o 3 (no v
+TEXT
+Fonte:MONTANARO,Joa˜o.Quadra˜o
+Pa´gina 1
+verso).
+TO 2
+o.FolhadeSa˜oPaulo,15.jun.2025
+12 de 17
+
+=== PDF 15 ===
+QUESTA˜O 3.
+Fac¸aumpara´grafoexplicandocomooquadra˜o
+de Joa˜o Montanaro (Texto 2) elabora uma
+cr´ıtica sobre a forma como a tecnologia,
+a m´ıdia e a solida˜o moldam a experieˆncia
+humana contemporaˆnea.
+Leiaostextos3e4erespondaaquesta˜o4.
+TEXTO 3
+O Pensador de Rodin: ana´lise e significado
+da escultura
+Rebeca Fuks
+Doutora em Estudos da Cultura
+Escultura “O Pensador”, de Auguste Rodin
+Museu Rodin, em Paris
+A escultura “O Pensador” (Le Penseur), do
+artista franceˆs Auguste Rodin, faz parte de
+uma composic¸a˜o maior chamada “A Porta do
+Inferno”, que foi inspirada no poema Divina
+Come´dia,deDanteAlighieri. Aobrafoiiniciada
+em 1880, mas so´ foi totalmente finalizada em
+1917. [...]
+A escultura [...] feita por Rodin retrata um
+homem nu, sentado e apoiando a cabec¸a em
+uma das ma˜os, enquanto a outra descansa
+sobre o joelho. A pose da figura do Pensador
+leva a` ideia de uma meditac¸a˜o profunda ao
+mesmo tempo que o corpo forte do homem
+retratado passa a noc¸a˜o que ele pode vir a
+tomar uma grande ac¸a˜o.[...]
+Chama a atenc¸a˜o a riqueza de detalhes da
+obra. Conve´m reparar, por exemplo, no
+formato das sobrancelhas e na contrac¸a˜o dos
+pe´s. O pro´prio Rodin alertou na ocasia˜o da
+criac¸a˜o para os detalhes da escultura: “O que
+faz meu Pensador pensar e´ que ele pensa
+na˜o so´ com o ce´rebro, mas tambe´m com suas
+sobrancelhastensas,suasnarinasdistendidas
+e seus la´bios comprimidos. Ele pensa com
+cada mu´sculo de seus brac¸os e pernas, com
+seus punhos fechados e com seus artelhos
+curvados”.
+Pa´gina 1
+Dispon´ıvelem:
+https://www.culturagenial.com/o-pensador-de-rodin/.Acesso
+em:03jul.2025.(adaptado)
+TEXTO 4
+Charge retirada do Blog Pandata
+Dispon´ıvelem:
+https://pandata.co/blog/how-social-science-the-humanities-data
+-science-more-ethical-ai/.Acessoem:03jul.2025.
+QUESTA˜O 4.
+Qual a relac¸a˜o intertextual estabelecida entre
+a escultura “O Pensador”, de Auguste Rodin
+(Texto 3), e a charge (Texto 4)? Justifique sua
+resposta com elementos desses textos.
+13 de 17
+
+=== PDF 16 ===
+LITERATURA - Discursivas
+TEXTO 1
+Treˆs poemas com o aux´ılio do google
+Ange´lica Freitas
+a mulher pensa
+a mulher pensa com o corac¸a˜o
+a mulher pensa de outra maneira
+a mulher pensa em nada ou em algo muito
+semelhante
+a mulher pensa sera´ em compras talvez
+a mulher pensa por meta´foras
+a mulher pensa sobre sexo
+a mulher pensa mais em sexo
+amulherpensa: sefizerissocomele,vaiachar
+que fac¸o com todos
+a mulher pensa muito antes de fazer besteira
+a mulher pensa em engravidar
+a mulher pensa que pode se dedicar
+integralmente a` carreira
+(...)
+a mulher pensa que a culpa foi dela
+a mulher pensa em tudo isso
+a mulher pensa emocionalmente
+a mulher quer
+a mulher quer ser amada
+a mulher quer um cara rico
+a mulher quer conquistar um homem
+a mulher quer um homem
+a mulher quer sexo
+a mulher quer tanto sexo quanto o homem
+a mulher quer que a preparac¸a˜o para o sexo
+acontec¸a lentamente
+a mulher quer ser possu´ıda
+a mulher quer um macho que a lidere
+a mulher quer casar
+(...)
+a mulher vai
+a mulher vai ao cinema
+a mulher vai aprontar
+a mulher vai ovular
+a mulher vai sentir prazer
+a mulher vai implorar por mais
+a mulher vai ficar louca por voceˆ
+a mulher vai dormir
+a mulher vai ao me´dico e se queixa
+a mulher vai notando o crescimento do seu
+ventre
+Pa´gina 1
+a mulher vai passar nove meses com uma
+crianc¸a na barriga
+a mulher vai realizar o primeiro ultrassom
+a mulher vai para a sala de cirurgia e recebe a
+anestesia
+a mulher vai se casar, ter filhos, cuidar do
+marido e das crianc¸as
+(...)
+a mulher vai pro trabalho e deixa o homem na
+cozinha
+a mulher vai embora e deixa uma penca de
+filhos
+a mulher vai no fim sair com outro
+a mulher vai ganhar um lugar ao sol
+a mulher vai poder dirigir no afeganista˜o
+Fonte:FREITAS,Ange´lica.Umu´teroe´ dotamanhodeum
+punho.Sa˜oPaulo:CosacNaify,2012.
+QUESTA˜O 1.
+Os treˆs poemas de Ange´lica Freitas (Texto 1),
+publicados na obra “Um u´tero e´ do tamanho
+de um punho”, fazem parte de uma sec¸a˜o
+que dialoga com os recursos tecnolo´gicos
+dispon´ıveis em nosso mundo. Conforme
+sugeridopelot´ıtulo“Treˆspoemascomoaux´ılio
+do google”, o procedimento poe´tico da autora
+envolveu a montagem dos textos a partir dos
+resultados que surgissem das pesquisas feitas
+naquela plataforma, tendo sido utilizadas,
+como termos de busca, as expresso˜es “a
+mulher pensa”, “a mulher quer” e “a mulher
+vai”.
+Nesse sentido, analisando o conteu´do
+presente nos versos dos treˆs poemas escritos
+por Ange´lica Freitas, e assumindo que eles
+sejam reflexos de pesquisas feitas pelos
+pro´prios internautas, associe seus poss´ıveis
+significados a`s viso˜es sobre a mulher na
+sociedade contemporaˆnea.
+14 de 17
+
+=== PDF 17 ===
+TEXTO 2
+Anjos tronchos
+Caetano Veloso
+Uns anjos tronchos do Vale do Sil´ıcio
+Desses que vivem no escuro em plena luz
+Disseram, vai ser virtuoso no v´ıcio
+Das telas dos azuis mais do que azuis
+Agora a minha histo´ria e´ um denso algoritmo
+Que vende venda a vendedores reais
+Neuroˆnios meus ganharam novo outro ritmo
+E mais e mais, e mais e mais, e mais(...)
+Anjos ja´ mi ou bi ou triliona´rios
+Comandam so´ seus mi, bi, trilho˜es
+E no´s, quando na˜o somos ota´rios
+Ouvimos Shoenberg, Webern, Cage, canc¸o˜es
+(...)
+Mas ha´ poemas como jamais
+Ou como algum poeta sonhou
+Nos tempos em que havia tempos atra´s
+E eu vou, por que na˜o?
+Eu vou, por que na˜o? Eu vou
+Fonte:VELOSO,Caetano.Anjostronchos(Fragmento).In:
+Meucoco.RiodeJaneiro.SonyMusic,2021.
+Glossa´rio:
+Vale do Sil´ıcio: refere-se a uma regia˜o do
+estado da Califo´rnia, nos Estados Unidos,
+onde esta˜o localizadas as grandes empresas
+globais de tecnologia.
+Shoenberg, Webern, Cage: sa˜o nomes de
+treˆs mu´sicos.
+TEXTO 3
+Definic¸a˜odetronchonoDiciona´rioHouaiss
+da L´ıngua Portuguesa:
+Troncho s.m. 1 membro cortado 2 talo de
+couve tronchuda adj. 3 a que se cortou um
+ramo ou membro; mutilado 4 inclinado para
+um lado; torto de um lado, cambaio 5 que
+perdeuojeitocomouso,aidadeetc.;malfeito,
+atamancado.
+Fonte:HOUAISS,Antoˆnio;VILLAR,MaurodeSalles.
+Diciona´rioHouaissdal´ınguaportuguesa.RiodeJaneiro:
+Objetiva,2001.
+Pa´gina 1
+QUESTA˜O 2.
+Associe um dos significados do verbete
+“troncho”, consoante definic¸a˜o do diciona´rio
+Houaiss (Texto 3), ao sentido de “troncho”,
+na canc¸a˜o de Caetano Veloso (Texto 2),
+explorando o potencial metafo´rico empregado
+na canc¸a˜o.
+QUESTA˜O 3.
+Os versos das duas primeiras estrofes da
+canc¸a˜o “Anjos tronchos” (Texto 2), de Caetano
+Veloso, enfatizam uma caracter´ıstica dos
+algoritmos de inteligeˆncia artificial presente
+nasredessociais. Trata-sedamemorizac¸a˜ode
+certos padro˜es dos usua´rios e a consequente
+repetic¸a˜o dessas prefereˆncias, fazendo com
+que as pessoas que utilizam as redes sociais
+fiquem muito mais tempo nas plataformas do
+que deveriam, de forma viciante.
+Levando em considerac¸a˜o a meta´fora de
+um destino “virtuoso no v´ıcio”, marcado
+por algoritmos, conforme as duas primeiras
+estrofes do fragmento reforc¸am, exponha qual
+e´ a possibilidade alternativa de redenc¸a˜o
+sugerida pelo sujeito poe´tico, utilizando ate´
+quatro versos da canc¸a˜o para justificar sua
+resposta.
+TEXTO 4
+Aqueles dois
+Caio Fernando Abreu
+Parte 1
+A verdade e´ que na˜o havia mais ningue´m
+em volta. Meses depois, na˜o no comec¸o,
+um deles diria que a repartic¸a˜o era como
+”um deserto de almas”. O outro concordou
+sorrindo, orgulhoso, sabendo-se exclu´ıdo.
+E longamente, entre cervejas, trocaram
+enta˜o a´cidos comenta´rios sobre as mulheres
+mal-amadas e vorazes, os papos de futebol,
+amigo secreto, lista de presente, bookmaker,
+bicho,enderec¸odecartomante,clipsnorelo´gio
+de ponto, vezenquando salgadinhos no fim
+do expediente, champanha nacional em copo
+de pla´stico. Num deserto de almas tambe´m
+desertas, uma alma especial reconhece de
+imediatoaoutra—talvezporisso,quemsabe?
+Mas nenhum se perguntou.
+15 de 17
+
+=== PDF 18 ===
+Parte 2
+Fazia muito calor. Suarento, o chefe
+foi direto ao assunto. Tinha recebido
+algumas cartas anoˆnimas. Recusou-se a
+mostra´-las. Pa´lidos, ouviram expresso˜es
+como ”relac¸a˜o anormal e ostensiva”,
+”desavergonhadaaberrac¸a˜o”,”comportamento
+doentio”, ”psicologia deformada”, sempre
+assinadas por Um Atento Guardia˜o da Moral.
+Fonte:ABREU,CaioFernando.Aquelesdois.In:Morangos
+mofados.8.ed.Sa˜oPaulo:Brasiliense,1982.
+QUESTA˜O 4.
+O conto “Aqueles dois”, de Caio Fernando
+Abreu (Texto 4), apresenta a histo´ria de
+amizade e proximidade afetiva entre dois
+colegas de trabalho. Considerando nos
+fragmentos apresentados, as falas do chefe
+e as cartas que ele tinha recebido, relacione
+a representac¸a˜o litera´ria da homoafetividade
+ao modo como a sociedade retratada acolhia
+essa relac¸a˜o, destacando a figura do “Atento
+Guardia˜o da Moral”.
+Sociologia - Discursivas
+QUESTA˜O 1.
+Com base na figura ao final da pa´gina e
+em seus conhecimentos sociolo´gicos sobre o
+mundo do trabalho, responda as questo˜es A e
+B.
+(A) A imagem apresenta a evoluc¸a˜o dos
+modelos produtivos. Que modelos ela
+apresenta?
+(B) Apresente ao menos duas caracter´ısticas
+do modelo produtivo identificado na
+imagem como “produc¸a˜o puxada” e
+analise como ele transformou as relac¸o˜es
+de produc¸a˜o e trabalho na sociedade.
+Dispon´ıvelem:https://dex.descomplica.com.br/enem/geografia/ext
+Pa´gina 1
+QUESTA˜O 2.
+Leia o fragmento abaixo:
+Pela primeira vez, a populac¸a˜o quilombola
+foi identificada, enquanto grupo e´tnico, num
+censo de populac¸a˜o, Censo Demogra´fico
+2022 - o mais importante retrato demogra´fico,
+geogra´fico e socioeconoˆmico do pa´ıs. (...)
+A populac¸a˜o quilombola residente no Brasil
+e´ de 1.330.186 pessoas (0,66%) em 1.700
+munic´ıpios, 24 estados e no Distrito Federal.
+(...)
+Dentro dos territo´rios quilombolas oficialmente
+delimitados, a taxa de alfabetizac¸a˜o das
+pessoas quilombolas com no m´ınimo 15 anos
+foi de 80,25% - nu´mero inferior ao ´ındice de
+alfabetizac¸a˜odapopulac¸a˜ototaldopa´ısnessa
+faixaeta´ria(93,0%). (...) Quantoaogeˆnero,as
+mulheres quilombolas (82,89%) apresentaram
+taxa de alfabetizac¸a˜o superior a` dos homens
+quilombolas(79,11%),emborasejaminferiores
+aos ´ındices das mulheres na populac¸a˜o total
+(93,5%).
+Dispon´ıvelem:https://educa.ibge.gov.br/jovens/conheca-o-
+brasil/territorio/22321-alfabetizacao.htmlAcessoem:02jun.
+2025.
+Para algumas teorias feministas, as
+desigualdades sociais resultam de uma
+composic¸a˜o de experieˆncias. Com base no
+texto acima, responda as questo˜es:
+(A) Identifique o conceito sociolo´gico que
+fundamenta tais teorias.
+(B) A` luz do conceito identificado, avalie os
+resultados acima relativos a` populac¸a˜o
+quilombola.
+tensivo-enem-modelos-produtivos-84ec50/explicacao/1.Acessoem:
+02dejul.2025.
+16 de 17
+
+=== PDF 19 ===
+Pa´gina 1
+17 de 17

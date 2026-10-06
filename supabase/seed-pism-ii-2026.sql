@@ -1,0 +1,319 @@
+-- PISM II 2026 (2º ano): 20 questões objetivas por dia.
+
+-- Redação adaptada para estudo; textos de apoio resumidos e figuras funcionais extraídas dos cadernos.
+
+-- Explicações autorais: não são justificativas publicadas pela banca.
+
+-- Cadernos: https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2025/12/Pism-2-dia-1.pdf
+
+-- https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2025/12/Pism-2-dia-2.pdf
+
+-- Gabarito dia 1: https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2025/12/GABARITO-PISM-2026-OBJETIVA-D1-P2.pdf
+
+-- Gabarito dia 2 APÓS RECURSOS: https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2026/01/GABARITO-PISM-2026-OBJETIVA-D2-P2-P%C3%B3s-Recursos.pdf
+
+-- Dia 2, questão 17 ANULADA: A/B/C/D/E representa o crédito automático, inclusive em branco.
+
+-- Requer a atualização da interface para aplicar a anulação corretamente.
+
+-- Questões 6 e 7 de Biologia preservam o gabarito oficial e registram ressalvas científicas na explicação.
+
+-- Execute o arquivo completo no SQL Editor do Supabase. Reexecutável.
+
+begin;
+
+alter table public.questions add column if not exists explanation text;
+
+alter table public.questions drop constraint if exists questions_answer_check;
+
+alter table public.questions add constraint questions_answer_check check (answer ~ '^[A-E](/[A-E])*$');
+
+insert into public.exams (slug,title,source,year) values ('pism-ii-2026-dia-1','PISM II 2026 - 1º dia','pism','2026-1') on conflict (slug) do update set title=excluded.title, source=excluded.source, year=excluded.year;
+
+insert into public.questions (exam_id,number,subject,text,support,support_image,options,answer,explanation)
+
+select id, 1, 'Língua Portuguesa', 'No guia sobre IA generativa, qual é a função dos subtítulos em negrito em relação aos parágrafos seguintes?', 'Redação adaptada para estudo; dados, numeração e ordem das alternativas preservados. Consulte a redação original e os textos integrais no caderno oficial.
+
+Texto 1: o guia IA Generativa no Serviço Público, do Ministério da Gestão e da Inovação (2025), explica riscos e limitações dos modelos. Os subtítulos destacam alucinações, perguntas mal formuladas, dados incompletos ou enviesados, preenchimento de lacunas e desatualização. Leia o texto integral na página 1 do caderno (3 do PDF).', null, '["Apresentar um assunto que o parágrafo seguinte refuta.", "Fazer uma pergunta que o parágrafo seguinte responde.", "Indicar um tema que o parágrafo seguinte explica.", "Oferecer uma explicação que o parágrafo seguinte detalha.", "Expor uma afirmação que o parágrafo seguinte exemplifica."]'::jsonb, 'C', 'Alternativa C. Os subtítulos identificam o assunto de cada seção; os parágrafos esclarecem em que consiste o risco ou a limitação. Por exemplo, a seção sobre dados incompletos explica como informações limitadas ou enviesadas afetam as respostas. Essa relação organiza a leitura por temas.' from public.exams where slug='pism-ii-2026-dia-1'
+
+on conflict (exam_id,number) do update set subject=excluded.subject, text=excluded.text, support=excluded.support, support_image=excluded.support_image, options=excluded.options, answer=excluded.answer, explanation=excluded.explanation;
+
+insert into public.questions (exam_id,number,subject,text,support,support_image,options,answer,explanation)
+
+select id, 2, 'Língua Portuguesa', 'Considerando o segundo parágrafo do Texto 1, qual expressão substitui o sentido de criativas atribuído às respostas produzidas pela IA?', 'Redação adaptada para estudo; dados, numeração e ordem das alternativas preservados. Consulte a redação original e os textos integrais no caderno oficial.
+
+Texto 1: o guia IA Generativa no Serviço Público, do Ministério da Gestão e da Inovação (2025), explica riscos e limitações dos modelos. Os subtítulos destacam alucinações, perguntas mal formuladas, dados incompletos ou enviesados, preenchimento de lacunas e desatualização. Leia o texto integral na página 1 do caderno (3 do PDF).', null, '["Desfavoráveis em comparação às inicialmente pretendidas.", "Equivalentes às inicialmente pretendidas.", "Idênticas às inicialmente pretendidas.", "Opostas às inicialmente pretendidas.", "Superiores em comparação às inicialmente pretendidas."]'::jsonb, 'E', 'Alternativa E, conforme o gabarito oficial. A leitura adotada pela banca associa a criatividade a respostas que ultrapassariam as inicialmente pretendidas. Isso não significa que respostas de IA sejam sempre melhores ou verdadeiras: o próprio parágrafo contrapõe esse potencial à produção de informações inexatas ou fabricadas. O sentido deve ser avaliado no contexto do trecho.' from public.exams where slug='pism-ii-2026-dia-1'
+
+on conflict (exam_id,number) do update set subject=excluded.subject, text=excluded.text, support=excluded.support, support_image=excluded.support_image, options=excluded.options, answer=excluded.answer, explanation=excluded.explanation;
+
+insert into public.questions (exam_id,number,subject,text,support,support_image,options,answer,explanation)
+
+select id, 3, 'Língua Portuguesa', 'O conector entretanto liga o potencial criativo da IA ao risco de gerar informações fabricadas. Qual relação de sentido ele estabelece?', 'Redação adaptada para estudo; dados, numeração e ordem das alternativas preservados. Consulte a redação original e os textos integrais no caderno oficial.
+
+Texto 1: o guia IA Generativa no Serviço Público, do Ministério da Gestão e da Inovação (2025), explica riscos e limitações dos modelos. Os subtítulos destacam alucinações, perguntas mal formuladas, dados incompletos ou enviesados, preenchimento de lacunas e desatualização. Leia o texto integral na página 1 do caderno (3 do PDF).', null, '["Adição.", "Conclusão.", "Consequência.", "Contrariedade.", "Explicação."]'::jsonb, 'D', 'Alternativa D. Entretanto é um conector adversativo: introduz uma ressalva que contrasta com a expectativa positiva criada pela ideia de criatividade. O segundo trecho aponta que essa mesma capacidade pode produzir alucinações. Não se trata de simples soma de informações ou conclusão.' from public.exams where slug='pism-ii-2026-dia-1'
+
+on conflict (exam_id,number) do update set subject=excluded.subject, text=excluded.text, support=excluded.support, support_image=excluded.support_image, options=excluded.options, answer=excluded.answer, explanation=excluded.explanation;
+
+insert into public.questions (exam_id,number,subject,text,support,support_image,options,answer,explanation)
+
+select id, 4, 'Língua Portuguesa', 'Qual alternativa caracteriza corretamente a organização predominante do artigo de opinião (Texto 2) e da reportagem (Texto 3)?', 'Redação adaptada para estudo; dados, numeração e ordem das alternativas preservados. Consulte a redação original e os textos integrais no caderno oficial.
+
+Texto 2: artigo de Virgílio Almeida e Francisco Gaetani sobre IA, sustentabilidade e COP-30; defende políticas que conciliem inovação, interesse público e proteção ambiental. Texto 3: reportagem que confronta declarações sobre o consumo de água e energia da IA com pesquisas e questionamentos sobre esses dados. Os textos integrais estão nas páginas 2 e 3 do caderno (4 e 5 do PDF).', null, '["O artigo é dialogal, porque apresenta perguntas; a reportagem é argumentativa, porque traz dados ambientais.", "O artigo é expositivo, por explicar a COP-30; a reportagem argumenta para desacreditar os riscos ambientais.", "O artigo argumenta sobre IA e ambiente; a reportagem expõe dados sobre os impactos ambientais da IA.", "O artigo descreve detalhes da COP-30; a reportagem argumenta por utilizar dados científicos.", "O artigo narra acontecimentos da COP-30; a reportagem expõe os efeitos ambientais da IA."]'::jsonb, 'C', 'Alternativa C. O artigo sustenta uma posição sobre como orientar a IA para objetivos de sustentabilidade, característica argumentativa. A reportagem apresenta declarações, pesquisas e dados de consumo, com predomínio expositivo. A presença de perguntas ou de dados, isoladamente, não determina o gênero nem sua sequência predominante.' from public.exams where slug='pism-ii-2026-dia-1'
+
+on conflict (exam_id,number) do update set subject=excluded.subject, text=excluded.text, support=excluded.support, support_image=excluded.support_image, options=excluded.options, answer=excluded.answer, explanation=excluded.explanation;
+
+insert into public.questions (exam_id,number,subject,text,support,support_image,options,answer,explanation)
+
+select id, 5, 'Língua Portuguesa', 'Sobre objetividade e subjetividade nos trechos dos textos 2 e 3, qual interpretação é adequada?', 'Redação adaptada para estudo; dados, numeração e ordem das alternativas preservados. Consulte a redação original e os textos integrais no caderno oficial.
+
+Texto 2: artigo de Virgílio Almeida e Francisco Gaetani sobre IA, sustentabilidade e COP-30; defende políticas que conciliem inovação, interesse público e proteção ambiental. Texto 3: reportagem que confronta declarações sobre o consumo de água e energia da IA com pesquisas e questionamentos sobre esses dados. Os textos integrais estão nas páginas 2 e 3 do caderno (4 e 5 do PDF).', null, '["A defesa da criação de políticas públicas que alinhem IA e sustentabilidade expressa o ponto de vista do enunciador.", "A declaração de consumo médio de água é objetiva porque produz subjetividade ao apresentar uma opinião do enunciador.", "A atribuição de um valor de consumo de energia a Altman é subjetiva porque dizer também disse já revela juízo de valor.", "O relato de uma pesquisa sobre água gasta ao gerar um e-mail é subjetivo porque necessariamente sustenta a opinião do jornal.", "A descrição da posição singular do Brasil na agenda internacional é totalmente neutra e não manifesta avaliação."]'::jsonb, 'A', 'Alternativa A. Ao afirmar a necessidade de políticas públicas, os autores defendem uma orientação desejável para o uso da IA: trata-se de avaliação e posicionamento. Já atribuir dados a uma fonte não transforma automaticamente o relato em opinião. Na alternativa E, a qualificação da posição brasileira como singular também revela um componente avaliativo.' from public.exams where slug='pism-ii-2026-dia-1'
+
+on conflict (exam_id,number) do update set subject=excluded.subject, text=excluded.text, support=excluded.support, support_image=excluded.support_image, options=excluded.options, answer=excluded.answer, explanation=excluded.explanation;
+
+insert into public.questions (exam_id,number,subject,text,support,support_image,options,answer,explanation)
+
+select id, 6, 'Geografia', 'Qual ação favorece o direito à moradia e ajuda a superar a fragmentação socioespacial nas cidades?', 'Redação adaptada para estudo; dados, numeração e ordem das alternativas preservados. Consulte a redação original e os textos integrais no caderno oficial.
+
+A questão parte da crítica de Raquel Rolnik à política habitacional baseada apenas no mercado: a dimensão social da moradia e o atendimento às famílias de baixa renda precisam orientar as políticas urbanas. Consulte o excerto na página 5 do caderno.', null, '["Regularizar terrenos em bairros consolidados sem melhorar a infraestrutura.", "Criar programas habitacionais com infraestrutura urbana e participação da comunidade.", "Acelerar a construção privada de moradias sem participação popular.", "Priorizar a quantidade de casas em periferias, deixando a infraestrutura em segundo plano.", "Construir em terrenos baratos afastados dos centros e dos serviços essenciais."]'::jsonb, 'B', 'Alternativa B. Moradia digna envolve mais que a unidade habitacional: exige acesso a serviços, infraestrutura e integração urbana. A participação dos moradores permite adequar os programas às suas necessidades. As outras propostas mantêm carências urbanas ou ampliam a segregação.' from public.exams where slug='pism-ii-2026-dia-1'
+
+on conflict (exam_id,number) do update set subject=excluded.subject, text=excluded.text, support=excluded.support, support_image=excluded.support_image, options=excluded.options, answer=excluded.answer, explanation=excluded.explanation;
+
+insert into public.questions (exam_id,number,subject,text,support,support_image,options,answer,explanation)
+
+select id, 7, 'Geografia', 'Qual conjunto de fatores explica a localização dos parques tecnológicos e tecnopolos?', 'Redação adaptada para estudo; dados, numeração e ordem das alternativas preservados. Consulte a redação original e os textos integrais no caderno oficial.', null, '["Áreas rurais com muitos recursos renováveis são a localização prioritária.", "Profissionais qualificados, pesquisa e desenvolvimento, universidades e financiamento.", "Baixa densidade populacional e isolamento das empresas para evitar concorrência.", "Proximidade de consumidores de produtos baratos e de baixo valor agregado.", "Presença exclusiva de grandes portos e aeroportos internacionais."]'::jsonb, 'B', 'Alternativa B. Tecnopolos dependem de conhecimento especializado e de vínculos entre empresas, universidades e centros de pesquisa. Infraestrutura de P&D, mão de obra qualificada e financiamento favorecem a inovação. Portos, recursos naturais ou terrenos baratos podem ajudar, mas não substituem esses fatores.' from public.exams where slug='pism-ii-2026-dia-1'
+
+on conflict (exam_id,number) do update set subject=excluded.subject, text=excluded.text, support=excluded.support, support_image=excluded.support_image, options=excluded.options, answer=excluded.answer, explanation=excluded.explanation;
+
+insert into public.questions (exam_id,number,subject,text,support,support_image,options,answer,explanation)
+
+select id, 8, 'Geografia', 'Que transformação espacial está associada ao crescimento do comércio eletrônico nas cidades brasileiras?', 'Redação adaptada para estudo; dados, numeração e ordem das alternativas preservados. Consulte a redação original e os textos integrais no caderno oficial.', null, '["Adesão de toda a população e uniformização do consumo entre regiões.", "Fuga de capitais para países com mão de obra barata como consequência principal.", "Redução necessária do tráfego e da poluição porque os consumidores deixam de sair para comprar.", "Esvaziamento generalizado dos centros pelo fechamento intenso de lojas.", "Reorganização logística com centros de distribuição urbanos e próximos a rodovias."]'::jsonb, 'E', 'Alternativa E. O comércio eletrônico exige armazenagem, separação de pedidos e entrega rápida. Isso favorece centros de distribuição ligados a mercados consumidores e eixos rodoviários. Não implica acesso universal, padrões idênticos de consumo ou redução automática do tráfego, pois as entregas também geram deslocamentos.' from public.exams where slug='pism-ii-2026-dia-1'
+
+on conflict (exam_id,number) do update set subject=excluded.subject, text=excluded.text, support=excluded.support, support_image=excluded.support_image, options=excluded.options, answer=excluded.answer, explanation=excluded.explanation;
+
+insert into public.questions (exam_id,number,subject,text,support,support_image,options,answer,explanation)
+
+select id, 9, 'Geografia', 'A agricultura passou a depender mais de máquinas, insumos industrializados e capital. Qual desvantagem desse modelo afeta o pequeno agricultor?', 'Redação adaptada para estudo; dados, numeração e ordem das alternativas preservados. Consulte a redação original e os textos integrais no caderno oficial.
+
+O texto de Denise Elias discute a mudança da base técnica da agropecuária desde as décadas de 1960 e 1970. Os insumos industriais passam a ter papel central na produção e na rentabilidade. Leia o excerto na página 6 do caderno.', null, '["Aumento dos custos de cultivo.", "Redução do emprego formal.", "Limitação do controle de pragas.", "Estagnação agroindustrial.", "Redução das monoculturas."]'::jsonb, 'A', 'Alternativa A. A compra de máquinas, sementes e outros insumos industrializados eleva os custos e pode criar dependência de fornecedores e crédito. Produtores com poucos recursos têm mais dificuldade para absorver esses gastos e competir. A questão pede a desvantagem relacionada diretamente ao modelo descrito.' from public.exams where slug='pism-ii-2026-dia-1'
+
+on conflict (exam_id,number) do update set subject=excluded.subject, text=excluded.text, support=excluded.support, support_image=excluded.support_image, options=excluded.options, answer=excluded.answer, explanation=excluded.explanation;
+
+insert into public.questions (exam_id,number,subject,text,support,support_image,options,answer,explanation)
+
+select id, 10, 'Geografia', 'Dados do mercado de trabalho mostram desvantagens persistentes para mulheres negras. Qual interpretação explica adequadamente esse quadro?', 'Redação adaptada para estudo; dados, numeração e ordem das alternativas preservados. Consulte a redação original e os textos integrais no caderno oficial.
+
+Indicadores do 2º trimestre de 2024 apresentados no caderno: desemprego médio de 6,9%; homens não negros, 4,6%; mulheres negras, 10,1%. A remuneração das mulheres negras corresponde a 50,2% da dos homens brancos. Fonte do gráfico: CNN Brasil, 20/11/2024. Gráfico original na página 7 do caderno.', null, '["A causa principal é a concentração dessas profissionais em regiões economicamente pouco dinâmicas.", "A informalidade decorre apenas de escolarização tardia e pouca experiência individual.", "A desigualdade resulta de escolhas culturais pelo trabalho doméstico.", "A taxa de desemprego elevada é um fenômeno pontual da conjuntura econômica.", "Raça, classe e gênero se cruzam e reforçam a marginalização histórica desse grupo."]'::jsonb, 'E', 'Alternativa E. A interseccionalidade analisa como diferentes formas de desigualdade atuam conjuntamente. Racismo, desigualdade de classe e discriminação de gênero afetam oportunidades e remuneração. Explicações apenas individuais, culturais ou conjunturais não dão conta da persistência das desigualdades estruturais.' from public.exams where slug='pism-ii-2026-dia-1'
+
+on conflict (exam_id,number) do update set subject=excluded.subject, text=excluded.text, support=excluded.support, support_image=excluded.support_image, options=excluded.options, answer=excluded.answer, explanation=excluded.explanation;
+
+insert into public.questions (exam_id,number,subject,text,support,support_image,options,answer,explanation)
+
+select id, 11, 'Matemática', 'As notas de 100 candidatos estão no gráfico. Somente notas estritamente superiores à média garantem aprovação para a segunda fase. Quantos candidatos são aprovados?', 'Redação adaptada para estudo; dados, numeração e ordem das alternativas preservados. Consulte a redação original e os textos integrais no caderno oficial.', '/pism-ii-2026-dia-1-questao-11.png', '["15", "45", "50", "55", "100"]'::jsonb, 'B', 'Alternativa B. A média ponderada é (6×15 + 7×40 + 8×30 + 9×10 + 10×5)/100 = 750/100 = 7,5. As notas superiores a 7,5 são 8, 9 e 10. Portanto, são aprovados 30 + 10 + 5 = 45 candidatos.' from public.exams where slug='pism-ii-2026-dia-1'
+
+on conflict (exam_id,number) do update set subject=excluded.subject, text=excluded.text, support=excluded.support, support_image=excluded.support_image, options=excluded.options, answer=excluded.answer, explanation=excluded.explanation;
+
+insert into public.questions (exam_id,number,subject,text,support,support_image,options,answer,explanation)
+
+select id, 12, 'Matemática', 'Na fase lútea, de x = 14 a x = 28 dias, a concentração começa e termina em 1 ng/mL e atinge 25 ng/mL no dia 21. Qual função senoidal modela essa variação?', 'Redação adaptada para estudo; dados, numeração e ordem das alternativas preservados. Consulte a redação original e os textos integrais no caderno oficial.', '/pism-ii-2026-dia-1-questao-12.png', '["H(x) = 25·sen[(π/7)(x − 14)]", "H(x) = 25·sen[(π/14)(x − 14)]", "H(x) = 1 + 24·sen[(π/7)(x − 14)]", "H(x) = 1 + 25·sen[(π/7)(x − 14)]", "H(x) = 1 + 24·sen[(π/14)(x − 14)]"]'::jsonb, 'E', 'Alternativa E. O nível inicial é 1 e o aumento até o pico é 25 − 1 = 24. O seno deve ir de 0 a 1 e voltar a 0 em 14 dias, descrevendo meia onda: o argumento vai de 0 a π. Assim, H(x) = 1 + 24·sen[(π/14)(x − 14)]. No dia 21, o argumento vale π/2 e H(21) = 25.' from public.exams where slug='pism-ii-2026-dia-1'
+
+on conflict (exam_id,number) do update set subject=excluded.subject, text=excluded.text, support=excluded.support, support_image=excluded.support_image, options=excluded.options, answer=excluded.answer, explanation=excluded.explanation;
+
+insert into public.questions (exam_id,number,subject,text,support,support_image,options,answer,explanation)
+
+select id, 13, 'Matemática', 'Uma pilha de areia tem forma de cone reto com raio 5 m e altura 3 m. A areia será colocada em barris cilíndricos de diâmetro 1 m e altura 80 cm. Qual é o número mínimo de barris?', 'Redação adaptada para estudo; dados, numeração e ordem das alternativas preservados. Consulte a redação original e os textos integrais no caderno oficial.', null, '["19", "32", "125", "375", "1 125"]'::jsonb, 'C', 'Alternativa C. O volume do cone é (π×5²×3)/3 = 25π m³. Cada barril tem raio 0,5 m e altura 0,8 m, logo seu volume é π×0,5²×0,8 = 0,2π m³. A razão entre os volumes é 25π/(0,2π) = 125. Como o resultado é inteiro, são necessários exatamente 125 barris.' from public.exams where slug='pism-ii-2026-dia-1'
+
+on conflict (exam_id,number) do update set subject=excluded.subject, text=excluded.text, support=excluded.support, support_image=excluded.support_image, options=excluded.options, answer=excluded.answer, explanation=excluded.explanation;
+
+insert into public.questions (exam_id,number,subject,text,support,support_image,options,answer,explanation)
+
+select id, 14, 'Matemática', 'Um bloco formado por 18 cubos brancos teve sua superfície externa pintada com 21 mL de tinta. Após retirar os quatro cubos indicados, quanto de tinta é necessário para pintar as faces brancas do sólido restante e dos cubos retirados?', 'Redação adaptada para estudo; dados, numeração e ordem das alternativas preservados. Consulte a redação original e os textos integrais no caderno oficial.', '/pism-ii-2026-dia-1-questao-14.png', '["4 mL", "8 mL", "12 mL", "16 mL", "54 mL"]'::jsonb, 'C', 'Alternativa C. O bloco tem dimensões 3×3×2 cubos: sua área externa corresponde a 2(9 + 6 + 6) = 42 faces, consumindo 0,5 mL por face. A retirada do grupo 2×2 expõe 8 faces no bloco restante. Os quatro cubos retirados têm 24 faces, das quais 8 já estavam pintadas; restam 16 brancas. São 8 + 16 = 24 faces para pintar, exigindo 24×0,5 = 12 mL.' from public.exams where slug='pism-ii-2026-dia-1'
+
+on conflict (exam_id,number) do update set subject=excluded.subject, text=excluded.text, support=excluded.support, support_image=excluded.support_image, options=excluded.options, answer=excluded.answer, explanation=excluded.explanation;
+
+insert into public.questions (exam_id,number,subject,text,support,support_image,options,answer,explanation)
+
+select id, 15, 'Matemática', 'Duzentos estudantes escolheram uma modalidade esportiva. Usando os gráficos de preferência e de distribuição por sexo, quantas mulheres escolheram vôlei?', 'Redação adaptada para estudo; dados, numeração e ordem das alternativas preservados. Consulte a redação original e os textos integrais no caderno oficial.', '/pism-ii-2026-dia-1-questao-15.png', '["24", "32", "36", "48", "60"]'::jsonb, 'C', 'Alternativa C. O vôlei corresponde a 30% das escolhas: 0,30×200 = 60 estudantes. No gráfico por sexo, mulheres correspondem a 60% dos que preferem vôlei. Portanto, 0,60×60 = 36 mulheres.' from public.exams where slug='pism-ii-2026-dia-1'
+
+on conflict (exam_id,number) do update set subject=excluded.subject, text=excluded.text, support=excluded.support, support_image=excluded.support_image, options=excluded.options, answer=excluded.answer, explanation=excluded.explanation;
+
+insert into public.questions (exam_id,number,subject,text,support,support_image,options,answer,explanation)
+
+select id, 16, 'Química', 'Qual afirmação descreve corretamente as interações intermoleculares envolvidas na remoção de gordura por tensoativos de xampus?', 'Redação adaptada para estudo; dados, numeração e ordem das alternativas preservados. Consulte a redação original e os textos integrais no caderno oficial.', null, '["A parte apolar evita a água e se associa à gordura por forças de dispersão de London.", "A parte polar se associa à água exclusivamente por dipolo–dipolo induzido.", "Micelas dependem apenas da temperatura, sem participação de interações intermoleculares.", "A micela resulta de interações íon–íon entre água e moléculas apolares.", "A água dissolve gorduras quebrando as ligações de hidrogênio entre elas."]'::jsonb, 'A', 'Alternativa A. Tensoativos são anfifílicos: a cadeia apolar se associa aos óleos por forças de dispersão, enquanto a extremidade polar ou iônica interage com a água. A formação de micelas permite dispersar a gordura no meio aquoso. As outras opções atribuem mecanismos inadequados às interações entre água, gordura e tensoativo.' from public.exams where slug='pism-ii-2026-dia-1'
+
+on conflict (exam_id,number) do update set subject=excluded.subject, text=excluded.text, support=excluded.support, support_image=excluded.support_image, options=excluded.options, answer=excluded.answer, explanation=excluded.explanation;
+
+insert into public.questions (exam_id,number,subject,text,support,support_image,options,answer,explanation)
+
+select id, 17, 'Química', 'Considerando Al = 27 e O = 16, qual alternativa descreve adequadamente a massa molar do Al₂O₃?', 'Redação adaptada para estudo; dados, numeração e ordem das alternativas preservados. Consulte a redação original e os textos integrais no caderno oficial.', null, '["27 g de alumínio por mol do composto.", "Massa molar de 50 g/mol.", "Massa molar de 102 g/mol.", "Massa molar de 113 g/mol.", "24 g de oxigênio por mol do composto."]'::jsonb, 'C', 'Alternativa C. A fórmula Al₂O₃ contém dois átomos de alumínio e três de oxigênio. Sua massa molar é 2×27 + 3×16 = 54 + 48 = 102 g/mol. Um mol do composto contém 54 g de alumínio e 48 g de oxigênio. As unidades foram explicitadas na adaptação: massa molar se expressa em g/mol.' from public.exams where slug='pism-ii-2026-dia-1'
+
+on conflict (exam_id,number) do update set subject=excluded.subject, text=excluded.text, support=excluded.support, support_image=excluded.support_image, options=excluded.options, answer=excluded.answer, explanation=excluded.explanation;
+
+insert into public.questions (exam_id,number,subject,text,support,support_image,options,answer,explanation)
+
+select id, 18, 'Química', 'Na reação 3 NaHCO₃ + C₆H₈O₇ → 3 CO₂ + 3 H₂O + Na₃C₆H₅O₇, reagem 12,6 g de bicarbonato com ácido em excesso. Com M(NaHCO₃) = 84 g/mol e volume molar de 22,4 L/mol na CNTP, qual volume de CO₂ é produzido?', 'Redação adaptada para estudo; dados, numeração e ordem das alternativas preservados. Consulte a redação original e os textos integrais no caderno oficial.', null, '["1,78 L", "3,36 L", "3,54 L", "10,08 L", "149,3 L"]'::jsonb, 'B', 'Alternativa B. A quantidade de bicarbonato é 12,6/84 = 0,15 mol. Pela reação balanceada, três mols de bicarbonato geram três mols de CO₂, razão de 1:1. Portanto, são formados 0,15 mol de gás, com volume 0,15×22,4 = 3,36 L na CNTP.' from public.exams where slug='pism-ii-2026-dia-1'
+
+on conflict (exam_id,number) do update set subject=excluded.subject, text=excluded.text, support=excluded.support, support_image=excluded.support_image, options=excluded.options, answer=excluded.answer, explanation=excluded.explanation;
+
+insert into public.questions (exam_id,number,subject,text,support,support_image,options,answer,explanation)
+
+select id, 19, 'Química', 'Balanceie C₁₂H₂₂O₁₁ + H₂O → C₂H₆O + CO₂. Usando 6,0×10²³ moléculas/mol, o que é produzido a partir de 1 mol de sacarose?', 'Redação adaptada para estudo; dados, numeração e ordem das alternativas preservados. Consulte a redação original e os textos integrais no caderno oficial.', null, '["6,0×10²³ moléculas de CO₂.", "7,2×10²⁴ moléculas de CO₂.", "6,0×10²³ moléculas de etanol.", "2,4×10²⁴ moléculas de etanol.", "3,6×10²⁴ moléculas de etanol."]'::jsonb, 'D', 'Alternativa D. O balanceamento é C₁₂H₂₂O₁₁ + H₂O → 4 C₂H₆O + 4 CO₂. Uma molécula de sacarose gera quatro de etanol; um mol gera quatro mols de etanol. Assim, o número de moléculas é 4×6,0×10²³ = 2,4×10²⁴.' from public.exams where slug='pism-ii-2026-dia-1'
+
+on conflict (exam_id,number) do update set subject=excluded.subject, text=excluded.text, support=excluded.support, support_image=excluded.support_image, options=excluded.options, answer=excluded.answer, explanation=excluded.explanation;
+
+insert into public.questions (exam_id,number,subject,text,support,support_image,options,answer,explanation)
+
+select id, 20, 'Química', 'Estime ΔH para CH₄(g) + 2 O₂(g) → CO₂(g) + 2 H₂O(g), usando energias de ligação em kJ/mol: C–H = 412; O=O = 498; C=O = 799; O–H = 463.', 'Redação adaptada para estudo; dados, numeração e ordem das alternativas preservados. Consulte a redação original e os textos integrais no caderno oficial.', null, '["−806 kJ/mol", "−235 kJ/mol", "−120 kJ/mol", "+120 kJ/mol", "+806 kJ/mol"]'::jsonb, 'A', 'Alternativa A. A quebra das ligações consome 4×412 + 2×498 = 2 644 kJ/mol. A formação das ligações libera 2×799 + 4×463 = 3 450 kJ/mol. Logo, ΔH = energia das ligações quebradas − energia das ligações formadas = 2 644 − 3 450 = −806 kJ/mol. O sinal negativo indica reação exotérmica.' from public.exams where slug='pism-ii-2026-dia-1'
+
+on conflict (exam_id,number) do update set subject=excluded.subject, text=excluded.text, support=excluded.support, support_image=excluded.support_image, options=excluded.options, answer=excluded.answer, explanation=excluded.explanation;
+
+insert into public.exams (slug,title,source,year) values ('pism-ii-2026-dia-2','PISM II 2026 - 2º dia','pism','2026-2') on conflict (slug) do update set title=excluded.title, source=excluded.source, year=excluded.year;
+
+insert into public.questions (exam_id,number,subject,text,support,support_image,options,answer,explanation)
+
+select id, 1, 'Literaturas', 'Em Civilização, a biblioteca e os aparelhos de Jacinto contrastam com o nome vegetal Jasmineiro. Qual par expressa melhor essa oposição?', 'Redação adaptada para estudo; dados, numeração e ordem das alternativas preservados. Consulte a redação original e os textos integrais no caderno oficial.
+
+Texto 1: Civilização, de Eça de Queiroz. Jacinto vive entre milhares de livros e aparelhos modernos em uma casa chamada Jasmineiro. O trecho contrasta o acúmulo material e tecnológico com a referência vegetal do nome da residência. Leia o fragmento integral na página 1 do caderno (3 do PDF).', null, '["Civilização e barbárie.", "Civilização e conhecimento.", "Civilização e ignorância.", "Civilização e natureza.", "Civilização e tecnologia."]'::jsonb, 'D', 'Alternativa D. Os livros e aparelhos representam o mundo material e técnico da civilização; o nome Jasmineiro remete a uma planta e à natureza. O contraste contribui para a crítica ao acúmulo de recursos modernos como garantia de bem-estar. Tecnologia, nesse trecho, pertence ao mesmo polo da civilização.' from public.exams where slug='pism-ii-2026-dia-2'
+
+on conflict (exam_id,number) do update set subject=excluded.subject, text=excluded.text, support=excluded.support, support_image=excluded.support_image, options=excluded.options, answer=excluded.answer, explanation=excluded.explanation;
+
+insert into public.questions (exam_id,number,subject,text,support,support_image,options,answer,explanation)
+
+select id, 2, 'Literaturas', 'Qual figura de linguagem aparece quando o narrador de Civilização representa os sons dos aparelhos de Jacinto com palavras que imitam seus ruídos?', 'Redação adaptada para estudo; dados, numeração e ordem das alternativas preservados. Consulte a redação original e os textos integrais no caderno oficial.
+
+Texto 1: Civilização, de Eça de Queiroz. Jacinto vive entre milhares de livros e aparelhos modernos em uma casa chamada Jasmineiro. O trecho contrasta o acúmulo material e tecnológico com a referência vegetal do nome da residência. Leia o fragmento integral na página 1 do caderno (3 do PDF).', null, '["Antítese.", "Hipérbole.", "Onomatopeia.", "Pleonasmo.", "Prosopopeia."]'::jsonb, 'C', 'Alternativa C. Onomatopeia é a representação verbal de sons ou ruídos. A sequência sonora reproduz o funcionamento dos aparelhos e torna perceptível a agitação do gabinete. Não há, nesse recurso específico, exagero, repetição redundante de ideias ou atribuição de qualidades humanas a objetos.' from public.exams where slug='pism-ii-2026-dia-2'
+
+on conflict (exam_id,number) do update set subject=excluded.subject, text=excluded.text, support=excluded.support, support_image=excluded.support_image, options=excluded.options, answer=excluded.answer, explanation=excluded.explanation;
+
+insert into public.questions (exam_id,number,subject,text,support,support_image,options,answer,explanation)
+
+select id, 3, 'Literaturas', 'Qual interpretação do fragmento de Congresso Pan-Planetário é adequada?', 'Redação adaptada para estudo; dados, numeração e ordem das alternativas preservados. Consulte a redação original e os textos integrais no caderno oficial.
+
+Texto 2: Congresso Pan-Planetário, de Lima Barreto. Júpiter propõe um congresso entre planetas sob um ideal coletivo, mas deseja ampliar a venda de seus produtos e sua influência. A sátira também expõe a produção exagerada de livros e a busca por prestígio. Fragmento na página 2 do caderno (4 do PDF).', null, '["O exagero da produção literária provoca a recusa do congresso.", "A colonização de outros planetas decorre de uma aliança entre Sol e Júpiter.", "A tecnologia de Júpiter se apoia em consciência ambiental.", "A influência do Sol produz igualdade entre os planetas.", "Planetas personificados agem segundo interesses políticos e econômicos de Júpiter."]'::jsonb, 'E', 'Alternativa E. Os planetas recebem comportamentos humanos, como negociar, persuadir e defender interesses comerciais. Júpiter apresenta um projeto coletivo para ocultar sua intenção de vender produtos e expandir sua influência. A personificação sustenta a sátira às relações de poder e aos discursos que disfarçam interesses particulares.' from public.exams where slug='pism-ii-2026-dia-2'
+
+on conflict (exam_id,number) do update set subject=excluded.subject, text=excluded.text, support=excluded.support, support_image=excluded.support_image, options=excluded.options, answer=excluded.answer, explanation=excluded.explanation;
+
+insert into public.questions (exam_id,number,subject,text,support,support_image,options,answer,explanation)
+
+select id, 4, 'Literaturas', 'Ao comentar a necessidade humana de espetáculo e os interesses por trás dos congressos, quem se manifesta e qual ideia é expressa?', 'Redação adaptada para estudo; dados, numeração e ordem das alternativas preservados. Consulte a redação original e os textos integrais no caderno oficial.
+
+Texto 2: Congresso Pan-Planetário, de Lima Barreto. Júpiter propõe um congresso entre planetas sob um ideal coletivo, mas deseja ampliar a venda de seus produtos e sua influência. A sátira também expõe a produção exagerada de livros e a busca por prestígio. Fragmento na página 2 do caderno (4 do PDF).', null, '["O autor afirma que o espetáculo integra a natureza humana em situações convenientes.", "O autor classifica congressos como necessidades secundárias, embora convenientes.", "O narrador equipara todas as exigências humanas às necessidades dos congressos.", "O narrador comenta o desejo humano de exibição, associado também à conveniência.", "O narrador considera desvios necessidades essenciais, diferentemente dos congressos."]'::jsonb, 'D', 'Alternativa D. O comentário pertence à voz narrativa, que apresenta uma avaliação irônica do desejo de se mostrar e obter vantagens. Não se deve confundir automaticamente narrador e autor. A crítica se articula ao restante do conto: a proposta do congresso aparece envolvida por prestígio, espetáculo e interesses particulares.' from public.exams where slug='pism-ii-2026-dia-2'
+
+on conflict (exam_id,number) do update set subject=excluded.subject, text=excluded.text, support=excluded.support, support_image=excluded.support_image, options=excluded.options, answer=excluded.answer, explanation=excluded.explanation;
+
+insert into public.questions (exam_id,number,subject,text,support,support_image,options,answer,explanation)
+
+select id, 5, 'Literaturas', 'Que aproximação pode ser feita entre A Montanha Pulverizada, de Drummond, e a charge de Amarildo Lima sobre o rompimento da barragem de Mariana em 2015?', 'Redação adaptada para estudo; dados, numeração e ordem das alternativas preservados. Consulte a redação original e os textos integrais no caderno oficial.
+
+Texto 3: A Montanha Pulverizada, de Carlos Drummond de Andrade, contrapõe a memória e a permanência da serra à sua destruição pela mineração. Texto 4: charge de Amarildo Lima sobre o desastre de Mariana. Consulte ambos na página 3 do caderno (5 do PDF).', null, '["Ambos denunciam os efeitos destrutivos da mineração nas localidades exploradas.", "Ambos descrevem de forma neutra a rotina das empresas mineradoras.", "Ambos representam destruição provocada exclusivamente por desastres naturais.", "Ambos retratam personagens que presenciaram o rompimento da barragem de Mariana.", "Ambos apenas antecipam melancolicamente o rompimento de uma barragem."]'::jsonb, 'A', 'Alternativa A. O poema trata do desaparecimento de uma serra pela exploração mineral; a charge critica os danos do rompimento da barragem. A relação está na denúncia das consequências da mineração para a paisagem e para as pessoas. São processos ligados à ação humana, e o poema não narra especificamente o desastre de Mariana.' from public.exams where slug='pism-ii-2026-dia-2'
+
+on conflict (exam_id,number) do update set subject=excluded.subject, text=excluded.text, support=excluded.support, support_image=excluded.support_image, options=excluded.options, answer=excluded.answer, explanation=excluded.explanation;
+
+insert into public.questions (exam_id,number,subject,text,support,support_image,options,answer,explanation)
+
+select id, 6, 'Biologia', 'Sobre botulismo e contaminação bacteriana dos alimentos, qual afirmação foi considerada correta no gabarito oficial?', 'Redação adaptada para estudo; dados, numeração e ordem das alternativas preservados. Consulte a redação original e os textos integrais no caderno oficial.
+
+Esta questão contém uma afirmação sobre resistência ao calor que exige ressalva científica. O gabarito oficial foi preservado; veja a observação na explicação durante a revisão.', null, '["A intoxicação sempre exige ingestão de bactérias vivas, nunca de seus produtos.", "Somente alimentos de origem animal podem sofrer contaminação bacteriana.", "A toxina de Clostridium botulinum pode existir sem a bactéria presente e seria muito resistente ao calor.", "As bactérias ingeridas liberam toxinas no organismo; por isso devemos lavar bem mãos e alimentos.", "O cozimento elimina todas as toxinas e dispensa cuidados prévios de conservação."]'::jsonb, 'C', 'Alternativa C no gabarito oficial, com uma ressalva científica na redação. O botulismo alimentar pode resultar da ingestão de toxina já produzida no alimento, sem necessidade de ingerir bactérias viáveis. Porém, a afirmação de alta resistência da toxina ao calor é inadequada: a OMS distingue os esporos resistentes do microrganismo da toxina, que pode ser inativada por tratamento térmico apropriado. O projeto preserva a resposta da banca e registra essa diferença. Fonte: https://www.who.int/en/news-room/fact-sheets/detail/botulism' from public.exams where slug='pism-ii-2026-dia-2'
+
+on conflict (exam_id,number) do update set subject=excluded.subject, text=excluded.text, support=excluded.support, support_image=excluded.support_image, options=excluded.options, answer=excluded.answer, explanation=excluded.explanation;
+
+insert into public.questions (exam_id,number,subject,text,support,support_image,options,answer,explanation)
+
+select id, 7, 'Biologia', 'Uma gestante recebeu diagnóstico de HIV no início da gestação. Entre as medidas apresentadas, qual foi escolhida pela banca para reduzir a transmissão vertical?', 'Redação adaptada para estudo; dados, numeração e ordem das alternativas preservados. Consulte a redação original e os textos integrais no caderno oficial.', null, '["Usar preservativo em todas as relações sexuais.", "Garantir amamentação nos primeiros seis meses.", "Evitar medicamentos antirretrovirais.", "Trocar sangue entre mãe e bebê para produzir anticorpos.", "Realizar cesariana para evitar contato do bebê com secreções vaginais."]'::jsonb, 'E', 'Alternativa E, conforme o gabarito. A banca destaca a redução da exposição durante o parto. Na assistência real, a prevenção inclui tratamento antirretroviral, avaliação da carga viral e cuidados com o recém-nascido e a alimentação. A via de parto depende da avaliação clínica; cesariana não é uma regra universal para toda gestante com HIV. Suspender antirretrovirais ou promover troca de sangue não previne a transmissão. Fonte: https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/a/aids-hiv/prevencao-a-transmissao-vertical' from public.exams where slug='pism-ii-2026-dia-2'
+
+on conflict (exam_id,number) do update set subject=excluded.subject, text=excluded.text, support=excluded.support, support_image=excluded.support_image, options=excluded.options, answer=excluded.answer, explanation=excluded.explanation;
+
+insert into public.questions (exam_id,number,subject,text,support,support_image,options,answer,explanation)
+
+select id, 8, 'Biologia', 'Qual é o nome da associação entre fungos e raízes de plantas e qual é o benefício oferecido pelos fungos?', 'Redação adaptada para estudo; dados, numeração e ordem das alternativas preservados. Consulte a redação original e os textos integrais no caderno oficial.
+
+O texto-base descreve redes de fungos associadas às raízes e a circulação de recursos entre plantas. Leia o fragmento da reportagem da BBC na página 4 do caderno.', null, '["Hifas; fornecimento de alimento.", "Líquenes; decomposição.", "Micélios; fornecimento de energia.", "Micorrizas; auxílio na obtenção de água e sais minerais.", "Septos; defesa contra predadores."]'::jsonb, 'D', 'Alternativa D. Micorrizas são associações entre fungos e raízes. As hifas aumentam a área explorada no solo e favorecem a absorção de água e sais minerais; a planta fornece compostos orgânicos ao fungo. Líquenes envolvem fungos e parceiros fotossintetizantes, não essa associação com raízes.' from public.exams where slug='pism-ii-2026-dia-2'
+
+on conflict (exam_id,number) do update set subject=excluded.subject, text=excluded.text, support=excluded.support, support_image=excluded.support_image, options=excluded.options, answer=excluded.answer, explanation=excluded.explanation;
+
+insert into public.questions (exam_id,number,subject,text,support,support_image,options,answer,explanation)
+
+select id, 9, 'Biologia', 'Na chave dicotômica, os sinais + e − indicam presença e ausência de características. Que sequência de animais corresponde a I, II, III, IV e V?', 'Redação adaptada para estudo; dados, numeração e ordem das alternativas preservados. Consulte a redação original e os textos integrais no caderno oficial.', '/pism-ii-2026-dia-2-questao-9.png', '["Água-viva; ancilóstomo; lampreia; serpente-do-mar; gato.", "Anêmona-do-mar; esquistossomo; lesma; minhoca; tubarão.", "Coral; tênia; pepino-do-mar; arraia; sapo.", "Esponja-do-mar; minhoca; lombriga; ouriço-do-mar; salamandra.", "Hidra; planária; caramujo; anfioxo; estrela-do-mar."]'::jsonb, 'B', 'Alternativa B. I não apresenta três folhetos germinativos: corresponde a um cnidário, a anêmona. II é triblástico sem sistema digestório, como o esquistossomo. III tem sistema digestório e não apresenta metameria: a lesma. IV é metamerizado sem sistema nervoso dorsal: a minhoca. V apresenta sistema nervoso dorsal: o tubarão.' from public.exams where slug='pism-ii-2026-dia-2'
+
+on conflict (exam_id,number) do update set subject=excluded.subject, text=excluded.text, support=excluded.support, support_image=excluded.support_image, options=excluded.options, answer=excluded.answer, explanation=excluded.explanation;
+
+insert into public.questions (exam_id,number,subject,text,support,support_image,options,answer,explanation)
+
+select id, 10, 'Biologia', 'Após infecção, um aumento moderado da temperatura favoreceu a sobrevivência de répteis ectotérmicos. Qual comportamento permite a esses animais melhorar a resposta imunológica?', 'Redação adaptada para estudo; dados, numeração e ordem das alternativas preservados. Consulte a redação original e os textos integrais no caderno oficial.
+
+O texto cita Dipsosaurus dorsalis infectado por Aeromonas hydrophila: uma elevação de 2 °C foi associada a maior sobrevivência. A questão trata de termorregulação comportamental.', null, '["Atividade exclusivamente noturna para evitar qualquer aumento de temperatura.", "Exposição controlada a fontes externas de calor para elevar a temperatura corporal.", "Uso de produção interna de calor como mecanismo típico dos ectotérmicos.", "Busca de calor porque a febre é prejudicial aos ectotérmicos.", "Redução máxima da exposição solar para poupar energia."]'::jsonb, 'B', 'Alternativa B. Ectotérmicos regulam sua temperatura principalmente por trocas com o ambiente e por comportamento. A busca controlada de locais mais quentes pode produzir febre comportamental, elevando a temperatura em resposta à infecção. Isso não equivale à produção metabólica de calor típica dos endotérmicos.' from public.exams where slug='pism-ii-2026-dia-2'
+
+on conflict (exam_id,number) do update set subject=excluded.subject, text=excluded.text, support=excluded.support, support_image=excluded.support_image, options=excluded.options, answer=excluded.answer, explanation=excluded.explanation;
+
+insert into public.questions (exam_id,number,subject,text,support,support_image,options,answer,explanation)
+
+select id, 11, 'Física', 'De uma garrafa com 1 L de leite, retiram-se 250 mL para um copo. Mantidas a composição e a temperatura, como a densidade no copo se compara à da garrafa?', 'Redação adaptada para estudo; dados, numeração e ordem das alternativas preservados. Consulte a redação original e os textos integrais no caderno oficial.', null, '["É igual, pois densidade não depende da quantidade da amostra.", "É quatro vezes menor porque a massa é quatro vezes menor.", "É quatro vezes menor porque o volume é quatro vezes menor.", "É quatro vezes maior porque a massa é quatro vezes menor.", "É quatro vezes maior porque o volume é quatro vezes menor."]'::jsonb, 'A', 'Alternativa A. Densidade é a razão massa/volume e é uma propriedade intensiva. Ao retirar um quarto do volume de leite homogêneo, também se retira um quarto da massa; a razão permanece igual. A comparação pressupõe a mesma temperatura e composição.' from public.exams where slug='pism-ii-2026-dia-2'
+
+on conflict (exam_id,number) do update set subject=excluded.subject, text=excluded.text, support=excluded.support, support_image=excluded.support_image, options=excluded.options, answer=excluded.answer, explanation=excluded.explanation;
+
+insert into public.questions (exam_id,number,subject,text,support,support_image,options,answer,explanation)
+
+select id, 12, 'Física', 'Qual situação exemplifica a difração de uma onda sonora?', 'Redação adaptada para estudo; dados, numeração e ordem das alternativas preservados. Consulte a redação original e os textos integrais no caderno oficial.', null, '["O som aumenta sua frequência ao atravessar uma abertura pequena.", "Equipamentos amplificam a intensidade do som.", "O som retorna ao encontrar um obstáculo, produzindo eco.", "O som contorna a esquina de um edifício e pode ser ouvido do outro lado.", "Uma fonte em um poste emite som em diferentes direções."]'::jsonb, 'D', 'Alternativa D. Difração é o espalhamento de ondas ao contornar obstáculos ou atravessar aberturas. Ela permite ouvir um som mesmo sem uma linha direta entre a fonte e o ouvinte. O eco corresponde à reflexão; amplificação e emissão em várias direções, por si só, não caracterizam difração.' from public.exams where slug='pism-ii-2026-dia-2'
+
+on conflict (exam_id,number) do update set subject=excluded.subject, text=excluded.text, support=excluded.support, support_image=excluded.support_image, options=excluded.options, answer=excluded.answer, explanation=excluded.explanation;
+
+insert into public.questions (exam_id,number,subject,text,support,support_image,options,answer,explanation)
+
+select id, 13, 'Física', 'Para observar uma imagem direita e ampliada do rosto, que espelho e posição devem ser usados?', 'Redação adaptada para estudo; dados, numeração e ordem das alternativas preservados. Consulte a redação original e os textos integrais no caderno oficial.', null, '["Espelho côncavo, com o rosto entre o foco e o vértice.", "Espelho côncavo, com o rosto entre o foco e o centro de curvatura.", "Espelho convexo, com o rosto entre o foco e o vértice.", "Espelho convexo, com o rosto entre o foco e o centro de curvatura.", "Espelho plano bem próximo ao rosto."]'::jsonb, 'A', 'Alternativa A. No espelho côncavo, um objeto situado entre o foco e o vértice gera imagem virtual, direita e ampliada. Entre foco e centro de curvatura, a imagem é real e invertida. Espelhos convexos formam imagens menores; espelhos planos mantêm o tamanho.' from public.exams where slug='pism-ii-2026-dia-2'
+
+on conflict (exam_id,number) do update set subject=excluded.subject, text=excluded.text, support=excluded.support, support_image=excluded.support_image, options=excluded.options, answer=excluded.answer, explanation=excluded.explanation;
+
+insert into public.questions (exam_id,number,subject,text,support,support_image,options,answer,explanation)
+
+select id, 14, 'Física', 'Em La Paz, a água ferve a 90 °C. Uma banheira contém 50 L de água a 18 °C. Que volume de água a 90 °C deve ser adicionado para atingir 26 °C, considerando apenas a troca de calor entre as duas porções?', 'Redação adaptada para estudo; dados, numeração e ordem das alternativas preservados. Consulte a redação original e os textos integrais no caderno oficial.', null, '["1,92 L", "2,77 L", "3,46 L", "5,00 L", "6,25 L"]'::jsonb, 'E', 'Alternativa E. O calor recebido pela água fria é igual ao cedido pela quente. Com a mesma densidade e o mesmo calor específico, 50(26 − 18) = V(90 − 26). Assim, 400 = 64V e V = 6,25 L. O cálculo considera que a água quente é acrescentada aos 50 L iniciais.' from public.exams where slug='pism-ii-2026-dia-2'
+
+on conflict (exam_id,number) do update set subject=excluded.subject, text=excluded.text, support=excluded.support, support_image=excluded.support_image, options=excluded.options, answer=excluded.answer, explanation=excluded.explanation;
+
+insert into public.questions (exam_id,number,subject,text,support,support_image,options,answer,explanation)
+
+select id, 15, 'Física', 'Um termoscópio linear marca 15 no ponto de fusão do gelo e 55 no ponto de ebulição da água ao nível do mar. A que temperatura Celsius corresponde a marca 35?', 'Redação adaptada para estudo; dados, numeração e ordem das alternativas preservados. Consulte a redação original e os textos integrais no caderno oficial.', null, '["50,0 °C", "42,5 °C", "35,0 °C", "32,5 °C", "20,0 °C"]'::jsonb, 'A', 'Alternativa A. A escala varia 40 unidades quando a temperatura Celsius varia 100 °C. A marca 35 está 20 unidades acima de 15, isto é, na metade do intervalo. Pela proporção T/100 = (35 − 15)/(55 − 15), obtém-se T = 50 °C.' from public.exams where slug='pism-ii-2026-dia-2'
+
+on conflict (exam_id,number) do update set subject=excluded.subject, text=excluded.text, support=excluded.support, support_image=excluded.support_image, options=excluded.options, answer=excluded.answer, explanation=excluded.explanation;
+
+insert into public.questions (exam_id,number,subject,text,support,support_image,options,answer,explanation)
+
+select id, 16, 'História', 'Um texto de João Paulo Pimenta descreve longos turnos industriais e a sincronização da vida por relógios. Qual interpretação histórica corresponde a esse cenário?', 'Redação adaptada para estudo; dados, numeração e ordem das alternativas preservados. Consulte a redação original e os textos integrais no caderno oficial.
+
+O excerto de O Livro do Tempo trata de jornadas longas, trabalho infantil e imposição do tempo industrial sobre outros ritmos de vida. Texto integral na página 8 do caderno.', null, '["Os turnos referem-se exclusivamente à escravidão colonial nas Américas.", "A redução da influência da natureza ocorreu em uma Europa predominantemente absolutista.", "O historiador defende o livre mercado ao mencionar a relação entre tempo e dinheiro.", "Máquinas intermitentes indicam a automação da segunda metade do século XX.", "O relógio global representa o controle e a disciplina da vida proletária na Revolução Industrial."]'::jsonb, 'E', 'Alternativa E. O trabalho industrial exige horários, turnos e controle do ritmo de produção. O relógio torna-se um instrumento de disciplina que subordina a rotina dos trabalhadores às exigências fabris. O texto discute historicamente essa transformação; não equivale a uma defesa do liberalismo.' from public.exams where slug='pism-ii-2026-dia-2'
+
+on conflict (exam_id,number) do update set subject=excluded.subject, text=excluded.text, support=excluded.support, support_image=excluded.support_image, options=excluded.options, answer=excluded.answer, explanation=excluded.explanation;
+
+insert into public.questions (exam_id,number,subject,text,support,support_image,options,answer,explanation)
+
+select id, 17, 'História', 'A circulação de pessoas, cartas, mercadorias e armas conferiu dimensão transnacional às revoluções do século XIX. Sobre essa interpretação, analise as alternativas da questão original, anulada após recursos.', 'Redação adaptada para estudo; dados, numeração e ordem das alternativas preservados. Consulte a redação original e os textos integrais no caderno oficial.
+
+QUESTÃO ANULADA pela UFJF no gabarito após recursos. Seu ponto é atribuído automaticamente. As alternativas permanecem apenas para consulta; não há uma alternativa correta definitiva para esta questão.', null, '["Giuseppe Garibaldi participou de movimentos revolucionários na Europa e do outro lado do Atlântico.", "A Primavera dos Povos foi resistência direta ao expansionismo de Napoleão.", "Essas revoluções difundiram uma industrialização mundial caracterizada sempre pelo embate entre burguesia e senhores feudais.", "Em 1848, iluministas protagonizaram essencialmente uma luta da ciência contra a religião.", "As revoluções se organizaram principalmente contra o imperialismo britânico."]'::jsonb, 'A/B/C/D/E', 'Questão anulada no gabarito oficial após recursos. A pontuação é atribuída automaticamente, independentemente da alternativa marcada ou de a questão ter ficado em branco. O enunciado e as alternativas são mantidos para consulta histórica, sem apresentar uma opção como resposta definitiva. A UFJF não informa neste documento a justificativa da anulação.' from public.exams where slug='pism-ii-2026-dia-2'
+
+on conflict (exam_id,number) do update set subject=excluded.subject, text=excluded.text, support=excluded.support, support_image=excluded.support_image, options=excluded.options, answer=excluded.answer, explanation=excluded.explanation;
+
+insert into public.questions (exam_id,number,subject,text,support,support_image,options,answer,explanation)
+
+select id, 18, 'História', 'Que relação entre passado e presente é evidenciada pela subjugação de povos indígenas na formação dos Estados nacionais americanos?', 'Redação adaptada para estudo; dados, numeração e ordem das alternativas preservados. Consulte a redação original e os textos integrais no caderno oficial.
+
+O texto de Ana Carolina Pompeu analisa a expansão argentina sobre territórios indígenas e suas conexões com projetos de colonialismo e imperialismo em outros países. Excerto na página 9 do caderno.', null, '["Projetos excludentes de civilização elaborados por elites repercutem hoje em reivindicações de reparação e de demarcação de terras.", "As nações americanas não têm nenhuma semelhança e suas demandas indígenas não podem ser compartilhadas.", "Povos indígenas cederam voluntariamente terras improdutivas em troca de reconhecimento cultural.", "A ação militar se justifica pela incapacidade indígena de compreender necessidades nacionais.", "Os novos Estados romperam com o colonialismo, e hoje os povos indígenas buscam restaurar condições coloniais favoráveis."]'::jsonb, 'A', 'Alternativa A. Projetos de expansão territorial frequentemente trataram a autonomia indígena como obstáculo à civilização e recorreram à violência e à expropriação. Seus efeitos persistem na exclusão e nos conflitos fundiários, relacionados às demandas contemporâneas por reparação e direitos territoriais. Isso não corresponde a uma cessão livre de terras.' from public.exams where slug='pism-ii-2026-dia-2'
+
+on conflict (exam_id,number) do update set subject=excluded.subject, text=excluded.text, support=excluded.support, support_image=excluded.support_image, options=excluded.options, answer=excluded.answer, explanation=excluded.explanation;
+
+insert into public.questions (exam_id,number,subject,text,support,support_image,options,answer,explanation)
+
+select id, 19, 'História', 'O debate sobre os nomes da franquia hoje chamada Washington Commanders se relaciona à história indígena dos Estados Unidos. O que essa trajetória evidencia?', 'Redação adaptada para estudo; dados, numeração e ordem das alternativas preservados. Consulte a redação original e os textos integrais no caderno oficial.
+
+O texto-base relata a substituição do antigo nome, criticado como pejorativo por povos indígenas, e as disputas em torno das referências usadas pela franquia. Leia o texto nas páginas 9 e 10 do caderno.', null, '["Uma sociedade pacificada, cujos conflitos étnicos terminaram no século XIX.", "Uma valorização igualitária de colonizadores e povos indígenas.", "Apenas uma disputa pelo nome mais comercial após mudança de sede.", "O isolamento do esporte em relação às questões políticas e sociais.", "Questões identitárias ligadas a relações de poder que se reorganizam no tempo e no espaço."]'::jsonb, 'E', 'Alternativa E. Nomes e símbolos esportivos podem reproduzir estereótipos e memórias de dominação, tornando-se objetos de disputa. A mudança de denominação evidencia a revisão de representações identitárias em contextos históricos distintos. Não indica que os conflitos terminaram nem que o esporte esteja separado da política.' from public.exams where slug='pism-ii-2026-dia-2'
+
+on conflict (exam_id,number) do update set subject=excluded.subject, text=excluded.text, support=excluded.support, support_image=excluded.support_image, options=excluded.options, answer=excluded.answer, explanation=excluded.explanation;
+
+insert into public.questions (exam_id,number,subject,text,support,support_image,options,answer,explanation)
+
+select id, 20, 'História', 'Considerando o comunismo do século XIX e a origem do Rock Against Communism (RAC), qual afirmação é adequada?', 'Redação adaptada para estudo; dados, numeração e ordem das alternativas preservados. Consulte a redação original e os textos integrais no caderno oficial.
+
+O texto apresenta o RAC como subgênero surgido entre o fim dos anos 1970 e o início dos 1980 no Reino Unido, associado a mensagens de intolerância. Consulte o texto integral na página 10 do caderno.', null, '["O RAC deixou de difundir intolerância depois da queda do Muro de Berlim.", "O RAC surgiu porque a classe trabalhadora viveu sob governos comunistas britânicos no século XIX.", "Detratores associam indevidamente o comunismo também a questões raciais, de gênero e nacionalidade, além das econômicas.", "A música é ineficaz na disputa política porque trabalhadores não se apropriam dela.", "O RAC responde ao nacionalismo de outras vertentes musicais burguesas."]'::jsonb, 'C', 'Alternativa C. O texto caracteriza o RAC por vínculos com extrema direita, nacionalismo e, em alguns casos, supremacia branca. Seu discurso de oposição ao comunismo extrapola a crítica econômica e incorpora associações preconceituosas. A história britânica não sustenta a existência dos governos comunistas mencionados na alternativa B.' from public.exams where slug='pism-ii-2026-dia-2'
+
+on conflict (exam_id,number) do update set subject=excluded.subject, text=excluded.text, support=excluded.support, support_image=excluded.support_image, options=excluded.options, answer=excluded.answer, explanation=excluded.explanation;
+
+commit;
+
+select e.slug, count(q.id) as quantidade_questoes from public.exams e left join public.questions q on q.exam_id=e.id where e.slug in ('pism-ii-2026-dia-1','pism-ii-2026-dia-2') group by e.slug order by e.slug;

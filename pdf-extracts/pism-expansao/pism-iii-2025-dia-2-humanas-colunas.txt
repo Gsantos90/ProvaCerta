@@ -1,0 +1,932 @@
+
+=== PDF 3 ===
+Pism 2025 - M´odulo 3 - Humanas - 2” Dia
+F´ISICA - OBJETIVAS
+Quest˜ao 1.
+Termˆometros infravermelhos utilizados em hospitais
+sa˜odispositivosutilizadosparamedirtemperaturade
+pessoas sem contato direto com elas. Seu funciona-
+mento se baseia no princ´ıpio f´ısico de que qualquer
+material com temperatura da ordem de 36(cid:176)C emite
+radiac¸˜ao infravermelha, cuja intensidade total da ra-
+diac¸˜ao emitida (I (T)) aumenta com a tempera-
+rad
+tura do objeto, conforme a equa¸c˜ao:
+I (T) = ϵσT4.
+rad
+σ = 5,7 Wm−2K−4 ´e um valor constante chamado
+de constante de Stefan-Boltzman e ϵ´e um parˆametro
+adimensional que pode assumir valores entre 0 e 1,
+dependendodascaracter´ısticasdomaterial,chamada
+de emissividade. Para a pele humana, por exemplo,
+ϵ ´e da ordem de 0,98. Para o pl´astico claro, ϵ ´e igual
+a 0,94.
+Alguns termˆometros de infravermelho possuem
+uma mira laser para sinalizar o local onde a tem-
+peratura ser´a realizada.
+(A) aintensidadedaradia¸c˜aoinfravermelhapodeser
+medida em graus Celsius.
+(B) a temperatura de uma pessoa pode ser medida
+com este tipo de termˆometro, sem perda de pre-
+cis˜ao, atrav´es de materiais transparentes, como
+vidro e pl´astico.
+(C) s´o ´e poss´ıvel medir a medida de temperatura de
+seres vivos.
+(D) devido `a radia¸c˜ao n˜ao podem ser utiliza-
+dos indiscriminadamente, pois podem provocar
+cˆancer.
+(E) um objeto quente pr´oximo ao ponto de medic¸˜ao
+pode interferir no valor da temperatura forne-
+cido pelo termˆometro.
+Quest˜ao 2.
+Fog˜oes de indu¸c˜ao s˜ao, uma alternativa ecol´ogica
+ao fog˜ao a g´as convencional, pois funcionam com a
+induc¸˜ao de corrente el´etrica no fundo da panela pela
+presen¸ca de uma bobina dentro do fog˜ao. A bo-
+bina fica paralela ao fundo da panela e ´e ligada a
+uma fonte de corrente alternada. Entre a bobina
+e a panela, existe uma placa de vidro, de modo
+que a bobina n˜ao encosta na panela. Por simpli-
+cidade, considere que a bobina do fog˜ao ´e formada
+por um solenoide de diˆametro D, conforme mostra
+a figura a seguir. O fundo da panela, neste caso,
+pode ser considerado como uma espira de uma volta.
+Para melhorar o projeto do conjunto fog˜ao de
+induc¸˜ao/panela descrito acima, pensando em aumen-
+tar a eficiˆencia no aquecimento da panela, sem aque-
+cer o fog˜ao, pode-se
+(A) aumentar a distˆancia entre a panela e a bobina.
+(B) aumentar o diˆametro D da bobina interna do
+fog˜ao.
+(C) utilizar apenas metais ferromagn´eticos na cons-
+tru¸c˜ao da bobina interna.
+(D) utilizar metais com maior resistividade na fa-
+brica¸c˜ao da panela.
+(E) reduzir a frequˆencia da fonte de corrente.
+
+=== PDF 4 ===
+Pism 2025 - M´odulo 3 - Humanas - 2” Dia
+Quest˜ao 3.
+Um casal de irm˜aos gˆemeos, Alice e Bob, tˆem `a sua
+disposic¸˜ao duas naves espaciais que os levar˜ao a um
+planeta distante rec´em descoberto. Em determinado
+instante, quando ambos possu´ıam a mesma idade,
+Alice parte em direc¸˜ao ao planeta. Bob fica ainda
+na Terra e so´ depois de certo tempo, viaja tamb´em.
+Considere as velocidades das naves altas o suficiente
+(pr´oximas `a velocidade da luz), e que ambos chegam
+juntos ao planeta. Nesse caso,
+(A) a relatividade especial n˜ao permite distinguir
+qual dos dois ser´a o mais velho ao fim da via-
+gem.
+(B) pode-se concluir que, ao fim da viagem, Alice
+ser´a mais velha do que Bob.
+(C) como ambos percorreram a mesma distˆancia,
+eles chegar˜ao com a mesma idade.
+(D) os efeitos de dilatac¸˜ao temporal s˜ao detectados
+apenas no referencial de partida dos irm˜aos.
+(E) os tempos gastos por Alice e Bob medidos no re-
+ferencialdaTerras˜aoosmesmosparacompletar
+a viagem devido `a dilata¸c˜ao temporal.
+Quest˜ao 4.
+O efeito Doppler corresponde `a alterac¸˜ao do compri-
+mento de onda detectada por um observador quando
+uma fonte de ondas sonoras se desloca em relac¸˜ao
+ao observador. Este efeito n˜ao ´e somente restrito ao
+som. Ele tamb´em ocorre com a luz, sendo utilizado
+em astronomia e cosmologia observacional para estu-
+dar o universo em larga escala. E´ bem sabido que
+gal´axias distantes est˜ao se afastando de n´os. Logo, a
+luz, no espectro vis´ıvel, oriunda de uma determinada
+gal´axia distante, ao ser detectada na Terra,
+(A) n˜ao experimenta o efeito Doppler, que s´o ´e de-
+tect´avel no referencial da gal´axia.
+(B) sofre altera¸c˜ao na sua velocidade, pois h´a al-
+tera¸c˜ao no comprimento de onda.
+(C) ter´a a energia dos seus f´otons aumentada.
+(D) n˜aosofremudan¸caemsuafrequˆencia,que´euma
+grandeza absoluta.
+(E) sofre um desvio para o vermelho (ou seja, au-
+mento do comprimento de onda).
+Quest˜ao 5.
+Um reparo de um dispositivo eletrˆonico demanda de
+um t´ecnico a substitui¸c˜ao de um resistor com re-
+sistˆencia dada por 1,5 kΩ. Para fazer a troca, o
+t´ecnico tem `a sua disposi¸c˜ao outros trˆes resistores
+com resistˆencias dadas por R = 1 kΩ, R = 2 kΩ e
+1 2
+R = 3 kΩ. A associa¸c˜ao entre os trˆes que fornece o
+3
+valor de resistˆencia necess´aria ao reparo ´e dada
+(A) pelos trˆes resistores associados em s´erie.
+(B) pelos trˆes resistores associados em paralelo.
+(C) por R e R associados em s´erie, ligados em pa-
+1 2
+ralelo com R .
+3
+(D) por R e R associados em paralelo, ligados em
+2 3
+s´erie com R .
+1
+(E) por R e R associados em s´erie, ligados em pa-
+1 3
+ralelo com R .
+2
+QU´IMICA - OBJETIVAS
+A tabela peri´odica se encontra no final da prova.
+Quest˜ao 6.
+A indu´stria carboqu´ımica utiliza o carbono para ge-
+rar diferentes produtos. Na produ¸c˜ao do carbeto de
+c´alcio, CaC , o carbonato de c´alcio (calc´ario) ´e de-
+2
+composto na primeira etapa da rea¸c˜ao, como mostra
+a equa¸c˜ao qu´ımica a seguir:
+CaCO (s)→CaO(s)+CO (g) ∆H = +177,5 kJ/mol
+3 2
+Na segunda etapa, o ´oxido de c´alcio (cal virgem) re-
+age com a grafita atrav´es da rea¸c˜ao qu´ımica:
+CaO(s)+3C(grafita) → CaC (s)+CO(g)
+2
+Analisando as duas equa¸c˜oes qu´ımicas, pode-se afir-
+mar que
+(A) a decomposi¸c˜ao do carbonato de c´alcio ´e acele-
+rada pela diminui¸c˜ao da temperatura.
+(B) a primeira e a segunda etapas envolvem reac¸˜oes
+de oxi-redu¸c˜ao.
+(C) em ambas as etapas, h´a produ¸c˜ao de g´as
+carbˆonico, que ´e prejudicial ao meio ambiente.
+(D) na primeira etapa, h´a forma¸c˜ao de um g´as que,
+ao reagir com ´agua, diminui o pH do meio.
+(E) o calc´ario, quando em meio aquoso, tem a sua
+solubilidade alterada somente pelo pH.
+
+=== PDF 5 ===
+Pism 2025 - M´odulo 3 - Humanas - 2” Dia
+Quest˜ao 7.
+Ahidroxiapatita[Ca (PO ) (OH)]´eumasubstˆancia
+5 4 3
+que comp˜oe o esmalte dos dentes. Na boca, ocorrem
+osprocessosdedesmineraliza¸c˜aoeremineraliza¸c˜aoda
+hidroxiapatitasimultaneamente. Aequac¸˜aoqu´ımica,
+a seguir, apresenta esses processos, sendo a desmine-
+raliza¸c˜ao representada pela reac¸˜ao direta e a remine-
+raliza¸c˜ao pela rea¸c˜ao inversa.
+Ca (PO ) OH(s)⇌5Ca2+(aq)+3PO3−(aq)+OH−(aq)
+5 4 3 4
+O esmalte dos dentes ser´a preservado quando hou-
+ver
+(A) aumento da basicidade do meio em que ocorre a
+rea¸c˜ao.
+(B) diminui¸c˜ao da concentrac¸˜ao de´ıons Ca2+.
+(C) manuten¸c˜ao do equil´ıbrio pela retirada cont´ınua
+dos´ıons.
+(D) neutralizac¸˜ao do ´ıon OH−, tornando o meio
+mais b´asico.
+(E) reduc¸˜ao do pH da boca, tornando a saliva mais
+´acida.
+Quest˜ao 8.
+O etanol combust´ıvel (CH CH OH), popularmente
+3 2
+chamado de “´alcool de posto” faz parte da matriz
+energ´etica brasileira e ´e considerado um biocom-
+bust´ıvel. Diferentes processos industriais podem ser
+utilizadosparaaobten¸c˜aodeetanolcombust´ıvel,mas
+omaisutilizado´eoprocessodeprimeiragera¸c˜ao,que
+utilizacomomat´eriaprimaosucodacana-de-a¸cu´car.
+Sobre a produ¸c˜ao de etanol, indique a alternativa
+CORRETA.
+(A) A produc¸˜ao de ´alcool ocorre na etapa de
+produc¸˜ao do melado.
+(B) Naetapadefermenta¸c˜aoocorreatransforma¸c˜ao
+dos lip´ıdeos em etanol.
+(C) O ´alcool ´e retirado da mistura bruta atrav´es de
+destila¸c˜ao.
+(D) Na indu´stria da cana-de-ac¸u´car o etanol ´e o
+u´nico produto gerado.
+(E) Acana-de-a¸cu´car´eau´nicafontedeprodu¸c˜aode
+etanol.
+Quest˜ao 9.
+Ometilfenidato´eutilizadocomof´armacodeprimeira
+escolha no tratamento do transtorno do d´eficit de
+aten¸c˜ao e hiperatividade.
+Metilfenidato
+O metilfenidato ´e uma mol´ecula que possui
+(A) trˆes ´atomos de carbono assim´etricos.
+(B) f´ormula molecular C H NO .
+14 18 2
+(C) as func¸˜oes orgˆanicas amida, ´ester e anel
+arom´atico.
+(D) uma fun¸c˜ao orgˆanica que pode ser hidrolisada.
+(E) quatroparesdeel´etronspiligantesentre´atomos
+de carbono.
+Quest˜ao 10.
+Foram realizados trˆes experimentos para o estudo da
+velocidade de reac¸˜ao entre o ´oxido n´ıtrico (NO) e o
+g´as hidrogˆenio (H ) formando o g´as nitrogˆenio (N )
+2 2
+e ´agua, na temperatura de 1000 K, como mostrado
+na equa¸c˜ao qu´ımica a seguir.
+2 NO(g)+2 H (g) → N (g)+2 H O(g)
+2 2 2
+Os resultados obtidos nos experimentos est˜ao descri-
+tos na tabela abaixo:
+Experimento [NO] [H ] Vel inicial
+2
+(mol/L) (mol/L) (mol/L · s)
+1 1,0 0,5 3,0 (cid:214) 104
+2 1,0 1,0 6,0 (cid:214) 104
+3 2,0 0,5 12,0 (cid:214) 104
+Assinale a alternativa que representa a lei de velo-
+cidade (v) para essa reac¸˜ao de acordo com os experi-
+mentos ´e:
+(A) v = k·[NO]2·[H ]
+2
+(B) v = k·2·[NO]·[H ]
+2
+(C) v = k·[NO]2·[H ]2
+2
+(D) v = k·[N ]·[H O]2
+2 2
+[N ]·[H O]2
+2 2
+(E) v = k·
+[NO]2·[H ]2
+2
+
+=== PDF 6 ===
+Pism 2025 - M´odulo 3 - Humanas - 2” Dia
+GEOGRAFIA - OBJETIVAS
+Quest˜ao 11.
+Leia o excerto a seguir:
+Nesta quarta-feira (22), Espanha, Noru-
+ega e Irlanda anunciaram em conjunto que
+v˜ao reconhecer a Palestina como Estado na
+pr´oxima semana. Desde o in´ıcio da guerra
+entre Hamas e Israel, j´a s˜ao oito pa´ıses que
+deramostatusoficialparaospalestinos. Os
+trˆes europeus se somam a Bahamas, Barba-
+dos, Jamaica, M´exico e Trinidad e Tobago.
+Fonte: Adaptadodehttps://encurtador.com.br/1lJgXAcessoem
+02jul.2024.
+Sobre a situac¸˜ao atual da Palestina junto `a ONU
+(Organizac¸˜ao das Na¸c˜oes Unidas), ´e CORRETO
+afirmar que:
+(A) n˜ao ´e reconhecida pela ONU.
+(B) trata-se de um Estado antissemita.
+(C) trata-se de Estado observador n˜ao membro.
+(D) trata-se de Estado reconhecido apenas por n˜ao
+membros.
+(E) trata-se de um membro da Organiza¸c˜ao das
+Na¸c˜oes e Povos N˜ao Representados.
+Quest˜ao 12.
+Leia o excerto e analise o gr´afico a seguir:
+´India supera China e se torna o pa´ıs mais
+populoso
+Estimativas foram divulgadas em relat´orio das Orga-
+niza¸c˜oes das Na¸c˜oes Unidas (ONU)
+Com a virada do mˆes de abril para maio de 2023,
+a ´India se tornou o pa´ıs mais populoso do mundo,
+alcan¸cando um total estimado de 1.428.600.000 pes-
+soas (1,4286 bilh˜ao), segundo o “Relat´orio sobre a
+situa¸c˜ao da popula¸c˜ao mundial”, do Fundo de Po-
+pulac¸˜aodasNa¸c˜oesUnidas(Unfpa), publicadoem19
+de abril. Com isso, a popula¸c˜ao indiana ultrapassou
+a da China (1.425.700.000 de pessoas), que mantinha
+a primeira posi¸c˜ao desde o in´ıcio da publica¸c˜ao do
+estudo, em 1950.
+Fonte: Adaptadodehttps://encurtador.com.br/RReidAcessoem
+04dejul. de2024.
+Fonte: Adaptadodehttps://encurtador.com.br/WWBW1Acesso
+em12deago. de2024.
+Considerando os u´ltimos 40 anos e, levando em
+conta as dinˆamicas populacionais de ´India e China,
+um fator determinante para a troca de posi¸c˜ao entre
+os dois pa´ıses na condic¸˜ao de na¸c˜ao mais populosa do
+mundo foi:
+(A) a emigrac¸˜ao da China por motivos de perse-
+gui¸c˜ao pol´ıtica.
+(B) a pol´ıtica de restric¸˜ao ao nu´mero de filhos per-
+mitido por casal na China.
+(C) a ´India completar o seu processo de transic¸˜ao
+demogr´afica h´a muitas d´ecadas.
+(D) o papel que a ´India tem ocupado como p´olo de
+atra¸c˜ao de imigrantes qualificados.
+(E) a´India implantar pol´ıticas de natalidade que in-
+centivam o aumento das taxas de fecundidade.
+
+=== PDF 7 ===
+Pism 2025 - M´odulo 3 - Humanas - 2” Dia
+Quest˜ao 13.
+Leia o excerto a seguir:
+Com menos de um quinto das metas ca-
+minhando na direc¸˜ao correta, o mundo n˜ao
+est´a conseguindo cumprir a promessa dos
+Objetivos de Desenvolvimento Sustent´avel,
+alerta novo relat´orio da ONU.
+(...)
+Orelat´oriorevelaqueapenas17%dasmetas
+dos ODS est˜ao atualmente na dire¸c˜ao cor-
+retaparaseremcumpridas,sendoquequase
+metade apresenta progresso m´ınimo ou mo-
+derado e mais de um ter¸co est´a estagnado
+ou regredindo.
+Fonte: Adaptadodehttps://encurtador.com.br/ELgp9. Acessoem
+26jun. 2024.
+OsObjetivosdeDesenvolvimentoSustent´avel(ODS)
+formamumconjuntodemetaspactuadaspelospa´ıses
+membros da Organizac¸˜ao das Na¸c˜oes Unidas (ONU)
+em 2015 com a finalidade de serem cumpridas at´e
+2030. No entanto, conforme apontado em relat´orio
+de 2024, o cumprimento dos ODS est˜ao aqu´em do
+projetado.
+Sobre as causas deste progresso pouco satisfat´orio,
+´e CORRETO afirmar que:
+(A) as razo˜es que levaram a elabora¸c˜ao dos ODS em
+2015 n˜ao sa˜o mais um problema atualmente.
+(B) os pa´ıses europeus n˜ao conseguiram cumprir as
+metasestabelecidasporqueaestesforamimpos-
+tas medidas mais rigorosas.
+(C) a desvaloriza¸c˜ao das commodities agr´ıcolas pre-
+judicou a capacidade dos pa´ıses em desenvolvi-
+mento de tomar medidas em defesa do meio am-
+biente.
+(D) o conjunto de medidas adotadas pelas empre-
+sas foi suficiente para a resolu¸c˜ao dos proble-
+mas apontados, tornando desnecess´aria a ac¸˜ao
+dos Estados.
+(E) os ODS subestimaram as assimetrias entre
+pa´ısesemergentesedesenvolvidosnacapacidade
+fiscal e pol´ıtica de implementar as medidas reco-
+mendadas.
+Quest˜ao 14.
+Leia o excerto a seguir:
+...a incorpora¸c˜ao dos seis novos mem-
+bros do BRICS significa uma verdadeira
+“explos˜ao sistˆemica” da ordem internacio-
+nal constru´ıda e controlada pelos europeus
+e seus descendentes diretos h´a, pelos me-
+nos, trˆes s´eculos. Mas seus efeitos e con-
+sequˆencias mais importantes n˜ao ser˜ao ime-
+diatos, e ir˜ao se manifestar na forma de on-
+das sucessivas, e cada vez mais fortes.
+Fonte: Adaptadodehttps://encurtador.com.br/XvcjC.Acessoem
+30jun. 2024.
+O excerto expressa uma altera¸c˜ao na geopol´ıtica con-
+temporˆanea a partir do ingresso de Ar´abia Saudita,
+Ir˜a, Egito, Emirados A´rabes e Eti´opia (a Argentina
+seria o sexto membro, mas, posteriormente, optou
+pelo n˜ao ingresso). Estes pa´ıses somaram-se a Brasil,
+Ru´ssia, ´India, China e A´frica do Sul para compor o
+agora BRICS+.
+Sobre o BRICS+, ´e CORRETO afirmar que se
+trata de um/a:
+(A) Uni˜ao Aduaneira, com o objetivo de zerar as ta-
+rifas alfandeg´arias entre os pa´ıses membros.
+(B) bloco econˆomico, com o objetivo de fortalecer a
+integra¸c˜ao econˆomica entre os pa´ıses membros.
+(C) alian¸ca militar, com o objetivo de contrapor o
+poder da Organiza¸c˜ao do Tratado do Atlˆantico
+Norte (OTAN).
+(D) tratadocomercial, comoobjetivodepromovero
+livre-com´ercio entre os pa´ıses membros e desses
+diante dos outros pa´ıses.
+(E) organiza¸c˜ao pol´ıtica entre pa´ıses emergentes,
+com o objetivo de ampliar o poder geopol´ıtico
+desses pa´ıses no cen´ario global.
+
+=== PDF 8 ===
+Pism 2025 - M´odulo 3 - Humanas - 2” Dia
+Quest˜ao 15.
+Leia o excerto a seguir:
+O governo brasileiro apresenta, ao lado
+de seus aliados, um projeto de reforma do
+Conselho de Seguranc¸a, ampliando o atual
+´org˜ao para que tenha um total de 25 ou
+26 membros, onze a mais que o atual for-
+mato. O veto, hoje usado para impedir de-
+cis˜oes,na˜oseriausadoporumper´ıodode15
+anos pelos novos membros. Numa reuni˜ao
+nestaquinta-feira,nasededaONUemNova
+Iorque, a proposta foi submetida pelo G4,
+grupo formado por Brasil,´India, Alemanha
+e Jap˜ao
+Fonte: Adaptadodehttps://encurtador.com.br/5DI2n. Acessoem
+08jul. 2024.
+O excerto trata da proposta de reforma do Conse-
+lho de Seguran¸ca da Organizac¸˜ao das Nac¸˜oes Unidas
+(ONU) apresentada por Brasil, ´India, Alemanha e
+Jap˜ao. No entanto, a proposta j´a foi rechac¸ada de
+imediato por Ru´ssia e China.
+Pode-se afirmar que, dentre as raz˜oes desta nega-
+tiva por parte dos dois pa´ıses, est˜ao:
+(A) Ru´ssia tˆem conflitos militares com a Alemanha
+desde o final da Segunda Guerra Mundial.
+(B) Chinatemlit´ıgiosfronteiric¸oscoma´Indiaeuma
+rivalidade hist´orica com o Jap˜ao.
+(C) Ru´ssiaeChinadisputamcoma´Indiaalideran¸ca
+da tecnologia do 5G aplicado `a indu´stria b´elica.
+(D) Ru´ssia e China imp˜oem restric¸˜oes aos quatro
+pa´ıses devido ao n˜ao cumprimento de acordos
+ambientais.
+(E) Ru´ssia e China discordam dos quatro pa´ıses de-
+vido`aposi¸c˜aodestesfrenteaoconflitoPalestina-
+Israel.
+HISTO´RIA - OBJETIVAS
+Quest˜ao 16.
+Na Ru´ssia de 1927, a escritora, jornalista e revo-
+lucion´aria russa, Aleksandra Mikh´ailovna Kollontai,
+publicava na Revista das Mulheres o artigo “As com-
+batentesnodiadograndeOutubro”. OTextoabaixo
+apresenta fragmentos do referido artigo.
+AS COMBATENTES NO DIA DO
+GRANDE OUTUBRO
+Para a Grande Revolu¸c˜ao de Outubro, quem fo-
+ram elas? Indiv´ıduos? N˜ao, uma massa, dezenas,
+centenas de milhares de hero´ınas anˆonimas que ca-
+minharam lado a lado com oper´arios e camponeses
+em nome da bandeira vermelha, com o lema dos so-
+vietes, atrav´es das ru´ınas do odioso passado religioso
+e tsarista em dire¸c˜ao a um novo futuro...
+Se olharmos para o passado, veremos essas mas-
+sas de hero´ınas anˆonimas nos dias de Outubro em
+cidades fam´elicas, em vilas destitu´ıdas e espoliadas
+pela guerra. (...) Para onde quer que se olhe, por
+toda parte h´a mulheres: nos com´ıcios, reuni˜oes, ma-
+nifesta¸c˜oes...
+(...) Algum dia os historiadores escrever˜ao sobre
+o que fizeram essas hero´ınas anˆonimas, mortas no
+front, executadas pelos brancos. (...) E quantas
+“anˆonimas”?
+Fonte: SCHNEIDER,Graziela. ARevolu¸c˜aodasMulheres:
+emancipa¸c˜aofemininanaRu´ssiaSovi´etica. S˜aoPaulo: Boitempo
+Editorial,2017,pp. 265-270.
+Sobreovalorhist´oricodoartigo,´eCORRETOafir-
+mar que se trata de:
+(A) uma publica¸c˜ao question´avel, pois n˜ao se co-
+nhece a autoria das centenas de mulheres que
+participaramdomovimentorevolucion´ariorusso
+de 1917.
+(B) um documento que compromete a verdadeira
+hist´oria da Ru´ssia, ao marginalizar os oper´arios
+e camponeses no processo revolucion´ario.
+(C) um artigo sem valor hist´orico, pois foi produ-
+zido posteriormente `a eclos˜ao da Revolu¸c˜ao de
+Outubro, que ocorreu em 1917.
+(D) umafontequeampliaosestudoshist´oricossobre
+a Revolu¸c˜ao Russa, ao evidenciar a participa¸c˜ao
+das mulheres no movimento revolucion´ario.
+(E) um discurso que pouco contribui para o estudo
+da hist´oria, pois revela a vis˜ao parcial de uma
+mulher que participou da Revolu¸c˜ao de Outu-
+bro.
+
+=== PDF 9 ===
+Pism 2025 - M´odulo 3 - Humanas - 2” Dia
+Quest˜ao 17.
+Observe as imagens abaixo:
+Cartaz da Ac¸˜ao Integralista Brasileira
+Dispon´ıvelem: https://imagohistoria.blogspot.com/2009/03/era-
+vargas-3-de-4.html-acessoem08ago. 2024.
+Cartaz do Partido Comunista
+Dispon´ıvelem: https://documentosrevelados.com.br/cartazes-e-
+panfletos-da-alianca-nacional-libertadora-anl/-acessoem08ago.
+2024.
+Sobre o contexto hist´orico de atuac¸˜ao dos dois movi-
+mentos na Era Vargas, representados pelos cartazes,
+assinale a alternativa CORRETA:
+(A) A trajet´oria dos dois movimentos foi marcada
+por grande apoio popular baseado em valores
+tradicionais, defesa da ordem e da disciplina, re-
+presentados pela tr´ıade Deus, P´atria e Fam´ılia.
+(B) A atuac¸˜ao do Partido Comunista por meio da
+Alian¸caNacionalLibertadorafoivitoriosanaIn-
+tentona Comunista, conseguindo apoio de Var-
+gas em contraposi¸c˜ao `as press˜oes dos Integralis-
+tas.
+(C) Do ponto de vista econˆomico ambos os movi-
+mentos apoiavam pautas liberais, como a mo-
+derniza¸c˜aoeconˆomicaeacriac¸˜aodegrandesem-
+presas estatais, bem como pol´ıticas intervencio-
+nistas e planejadas.
+(D) Representam dois importantes movimentos
+pol´ıticos do per´ıodo republicano brasileiro e
+caracterizavam-se por fortes influˆencias do
+cen´ario internacional, tais como o ide´ario fas-
+cista e a expans˜ao socialista da Uni˜ao Sovi´etica.
+(E) O Partido Comunista Brasileiro que integrou a
+Alian¸ca Nacional Libertadora e os Integralistas
+por meio da A¸c˜ao Integralista Brasileira recebe-
+ram apoio do governo Vargas para a construc¸˜ao
+de suas pautas trabalhistas.
+
+=== PDF 10 ===
+Pism 2025 - M´odulo 3 - Humanas - 2” Dia
+Quest˜ao 18.
+O texto abaixo descreve relatos apresentados pelo
+diretor da Feteerj, Antˆonio Rodrigues, sobre perse-
+guic¸˜ao, demiss˜oes e censura de professores persegui-
+dos pelo regime civil-militar que se instalou ap´os o
+golpe de 1964.
+“ Ah,issoaquifoiseupaiqueescreveu”.
+E cortava o texto. Ela n˜ao gostava de te-
+mas pol´ıticos. At´e que os alunos, entre eles
+(Carlos) Minc e (Alfredo) Sirkis, por exem-
+plo, zangaram-se tanto que um dia publi-
+caram uma edi¸c˜ao do jornal em branco, s´o
+com uma faixa preta na transversal com a
+palavra “Censurientac¸˜ao”.
+“ N˜ao precisava de ditadura l´a fora; ela
+j´a estava dentro da escola. (...)”
+“ Acharam que Regina era da luta ar-
+mada. N˜ao era ligada a nada! O Dops foi
+ao col´egio, e ela n˜ao estava. Liguei para
+ela e disse para me ver no dia seguinte, mas
+n˜aofalarcomigo. Euandariaatr´asdelacon-
+tandotudo, eaReginaC´elias´oouviria. Ela
+foi se esconder e queimou outros desenhos
+que poderiam gerar suspeita, como um de
+crian¸cas da A´frica”.
+Dispon´ıvelem: https://www.sinprominas.org.br/contee-na-rede-
+perseguicao-a-professores-na-ditadura-incluiu-escutas-em-sala/.
+Acessoem21jun. 2024.
+Ap´osaleituradostrechosdareportagemsobreasca-
+racter´ısticas pol´ıticas da ditadura civil-militar, mar-
+que a alternativa CORRETA:
+(A) Acensurapr´eviaeraorganizadaporumaequipe
+de professores qualificados de cada escola que
+avaliavam o conteu´do dos livros did´aticos e ou-
+tras publica¸c˜oes a servic¸o do governo.
+(B) O autoritarismo era marcado pela tortura e ou-
+tras formas de violˆencias que tinham como ob-
+jetivo controlar, punir e desencorajar as mani-
+festa¸c˜oes dos professores contra o governo.
+(C) Acentralizac¸˜aopol´ıticaerapr´opriadosgovernos
+militares que respeitavam a autonomia e liber-
+dade ilimitada dos professores, mas vigiavam e
+perseguiam as escolas e os jornais estudantis.
+(D) A supress˜ao dos direitos civis e constitucionais
+era mantida para evitar a propaganda de novas
+ideologias, autorizando a discuss˜ao nas escolas,
+mas instalando a desconfian¸ca entre os professo-
+res.
+(E) A tortura era uma pr´atica exercida pelas insti-
+tui¸c˜oes militares que deviam incentivar a parti-
+cipa¸c˜ao dos professores sem limitac¸˜oes, princi-
+palmente, aos temas pol´ıticos.
+Quest˜ao 19.
+Leonardo Padura, considerado o maior nome da li-
+teratura cubana no mundo, disse em reportagem a
+Jamil Chade no site do UOL
+“Nesse momento falta combust´ıvel em
+Cuba, falta alimento, falta rem´edio. Mas
+o que mais falta ´e esperan¸ca. E uma
+sociedade sem esperan¸ca ´e uma sociedade
+que tem um grande problema de funciona-
+mento.”
+Dispon´ıvelem: https://noticias.uol.com.br/colunas/jamil-
+chade/2024/03/03/o-que-mais-falta-em-cuba-e-esperanca-diz-
+escritor-leonardo-padura.htm. Acessoem11jun. 2024.
+O depoimento do escritor se relaciona ao contexto
+hist´orico de:
+(A) fortalecimento do imperialismo norte-americano
+na Ilha, a partir do incremento dos neg´ocios das
+empresas favorecendo a internacionalizac¸˜ao da
+economia.
+(B) tens˜oes entre o governo Cubano e os Estados
+Unidos, iniciado desde os anos da guerra fria em
+1960 e ao fim dos subs´ıdios da Uni˜ao Sovi´etica
+ap´os o seu colapso.
+(C) amplia¸c˜ao das rela¸c˜oes comerciais com a
+Am´erica Latina e Caribe, que acabaram por ge-
+rar descontentamentos entre a maioria da po-
+pulac¸˜ao exclu´ıda desses benef´ıcios;
+(D) restri¸c˜oesimpostaspelogovernodosEUA,apro-
+fundando as sanc¸˜oes comerciais e fechamento da
+embaixada americana em Havana;
+(E) press˜oes da nova ordem mundial marcada pela
+expans˜ao tecnol´ogica e liderada pelos interesses
+chineses na Am´erica Latina.
+Quest˜ao 20.
+Leia o fragmento de discurso pol´ıtico da Georgia Me-
+loni, primeira ministra da It´alia.
+“Ou vocˆe diz ‘sim’ ou diz ‘n˜ao’. ‘Sim’
+`a fam´ılia natural, ‘n˜ao’ aos lobistas LGBT.
+‘Sim’ `a identidade sexual, ‘n˜ao’ `a ideologia
+
+=== PDF 11 ===
+Pism 2025 - M´odulo 3 - Humanas - 2” Dia
+de gˆenero”.
+‘Sim’ `a cultura da vida, ‘n˜ao’ ao abismo da
+morte, ‘sim’ `a universalidade da cruz, ‘n˜ao’
+`a violˆencia islˆamica”.
+‘Sim’`aseguran¸cadasfronteiras,‘n˜ao’`aimi-
+gra¸c˜ao em massa. ‘Sim’ ao trabalho de nos-
+sos cidad˜aos, ‘n˜ao’ `as grandes finan¸cas in-
+ternacionais. ‘Sim’ `a soberania dos povos,
+‘n˜ao’ aos burocratas de Bruxelas. E ‘sim’
+`a nossa civiliza¸c˜ao e ‘n˜ao’ aos que querem
+destru´ı-la”.
+Dispon´ıvelem:
+https://www.cnnbrasil.com.br/internacional/mussolini-foi-um-
+bom-politico-e-outras-situacoes-polemicas-de-giorgia-meloni/
+Acessoem: 21jun. 2024.
+Podemos identificar nas frases de Giorgia Meloni,
+primeira ministra da It´alia, que elas se referem a:
+(A) tra¸cosdofascismo,ummovimentopol´ıticoultra-
+nacionalista, que defende um Estado forte, uma
+identidade ´etnica e a rejei¸c˜ao aos imigrantes e a
+outras culturas.
+(B) influˆencias do liberalismo, uma ordem pol´ıtica
+mundialquevalorizaasliberdadesindividuais, o
+livre mercado e o fim das fronteiras comerciais.
+(C) caracter´ısticas do nazismo, uma ideologia euro-
+peia, imperialista e belicista a favor das grandes
+empresasinternacionaisedauni˜aodoseuropeus.
+(D) aspectosdosocialismo,umafilosofiapol´ıtica,so-
+cialeeconˆomicaquelutapelapropriedadesocial
+dos meios de produc¸˜ao, de forma coletiva.
+(E) marcas do absolutismo, uma doutrina secular
+de centraliza¸c˜ao do poder que investe na ma-
+nipulac¸˜ao do sistema pol´ıtico e eleitoral.
+GEOGRAFIA - DISSERTATIVAS
+1) Observe a charge abaixo, leia o excerto da repor-
+tagem e responda as quest˜oes:
+Fonte: https://encurtador.com.br/bCAuR.Acessoem20set.
+2024.
+“As elei¸c˜oes para o Parlamento
+da Uni˜ao Europeia causaram tremores
+pol´ıticos e ganharam as manchetes dos
+jornais de todo o mundo, muitas de-
+las surpresas com o avanc¸o da extrema
+direita. Mas para analistas ouvidos
+pelo Brasil de Fato, mais do que ga-
+nhos pr´aticos, a grande vit´oria da ul-
+tradireita europeia´e ter aumentado sua
+visibilidade e movido o eixo de gravi-
+dade pol´ıtico, ao atrair o centro para
+sua dire¸c˜ao.”
+Fonte: https://encurtador.com.br/StKeaAcessoem02jul.
+2024.
+(A) Considerando o cen´ario pol´ıtico recente da
+Europa, Estados Unidos e Brasil, o que a
+charge acima representa?
+(B) Cite duas consequˆencias da ascens˜ao da
+extrema-direita pelo mundo.
+
+=== PDF 12 ===
+Pism 2025 - M´odulo 3 - Humanas - 2” Dia
+2) Leia o excerto a seguir:
+Por que a Coreia do Sul poupa seus´ıdolos
+do k-pop do servi¸co militar
+Na Coreia do Sul, todo homem saud´avel entre 18
+e 28 anos deve passar por cerca de 20 meses pelo
+servi¸comilitardopa´ıs. KimSeok-jin, tamb´emco-
+nhecido como Jin do grupo de k-pop BTS, com-
+pleta 28 anos nesta sexta-feira (4), e precisaria
+deixar a boyband para se alistar.
+No entanto, nesta ter¸ca-feira (1”), a Assembleia
+Nacional editou o Ato de Servic¸o Militar permi-
+tindo que o artista possa cumprir a obrigac¸˜ao at´e
+os 30 anos de idade. A expectativa ´e de que
+o presidente Moon Jae-in assine a mudan¸ca nas
+pr´oximas semanas. Esse aditamento abrac¸a ape-
+nas artistas de k-pop que receberam medalhas do
+governoporajudaradivulgarainfluˆenciacultural
+e lingu´ıstica do pa´ıs para o resto do mundo. Os
+sete membros do grupo BTS ganharam a Ordem
+do M´erito Cultural em 2018.
+Fonte: https://encurtador.com.br/1yW5p. Acessoem01jul.
+2024.
+(A) Identifique e explique, com base no texto
+acima, qual a estrat´egia geopol´ıtica adotada
+pela Coreia do Sul para influenciar outros
+pa´ıses.
+(B) Cite dois exemplos do uso dessa estrat´egia
+por diferentes pa´ıses.
+3) Observe a charge abaixo e respondas as quest˜oes:
+Fonte: https://encurtador.com.br/E12Of. Acessoem05jul.
+2024.
+Considerando a charge acima, responda:
+(A) Quais acontecimentos a charge satiriza? Por
+que um dos personagens retratados utiliza o
+termo “brochou”?
+(B) Por que a s´atira se d´a sobre tanques de
+guerra?
+4) Leia o trecho abaixo:
+... a transic¸˜ao socioecol´ogica deixou de ser uma
+quest˜ao restrita a grupos de ativistas e cientis-
+tas para se tornar o eixo central das agendas
+pol´ıticas e econˆomicas contemporˆaneas. Entre-
+tanto, duas quest˜oes importantes surgem aqui.
+Primeiro, diante da urgˆencia da descarboniza¸c˜ao,
+h´a uma tendˆencia de reduzir a transic¸˜ao socioe-
+col´ogica – cujo entendimento integral deve abran-
+ger os n´ıveis energ´etico, produtivo, alimentar e
+urbano – `a transic¸˜ao energ´etica. A segunda
+quest˜ao est´a associada `a forma como a transic¸˜ao
+energ´etica ´e realizada e quem pagar´a os custos.
+A transic¸a˜o energ´etica, impulsionada principal-
+mente por grandes corporac¸˜oes, funda¸c˜oes e go-
+vernos do Norte Global e dos pa´ıses emergentes
+em dire¸c˜ao a` energia supostamente “limpa”, est´a
+exercendoumapress˜aocadavezmaiorsobreoSul
+Global. Para que a China, os Estados Unidos e
+a Europa avancem em direc¸˜ao `a desfossilizac¸˜ao,
+novas zonas de sacrif´ıcio est˜ao sendo criadas nas
+periferias globais.
+Fonte: https://encurtador.com.br/bQmtA.Acessoem13jun.
+2024.(Adaptado)
+O excerto acima trata do processo e das con-
+tradi¸c˜oes da transic¸˜ao energ´etica em curso atu-
+almente no mundo.
+A respeito desse processo, responda:
+(A) O que ´e desfossiliza¸c˜ao?
+(B) Dˆe um exemplo de processos associados `a
+desfossiliza¸c˜ao em pa´ıses do Sul Global com
+impactos socioambientais negativos. Expli-
+que o exemplo dado.
+
+=== PDF 13 ===
+Pism 2025 - M´odulo 3 - Humanas - 2” Dia
+HISTO´RIA - DISSERTATIVAS
+1) Leia o trecho do samba “Os Sert˜oes” composto
+por Edeor de Paula em 1976 :
+Marcado pela pr´opria natureza
+O Nordeste do meu Brasil
+Oh! solit´ario sert˜ao
+De sofrimento e solid˜ao
+A terra ´e seca
+(...)
+Foi no s´eculo passado
+No interior da Bahia
+O Homem revoltado com a sorte
+do mundo em que vivia
+Ocultou-se no sert˜ao
+espalhando a rebeldia
+Se revoltando contra a lei
+Que a sociedade oferecia
+Os Jagun¸cos lutaram
+At´e o final
+Defendendo Canudos (bis)
+Naquela guerra fatal.
+Dispon´ıvelem: letras.mus.br/em-cima-da-hora/867181/acesso
+em: 09ago. 2024.
+(A) Identifique a qual movimento social a mu´sica
+se refere e apresente uma caracter´ıstica do
+contexto hist´orico do per´ıodo.
+(B) Citeeanalisedoistra¸cosdaculturasertaneja
+do movimento.
+2) Leia a chamada do jornal abaixo em uma man-
+chete online do dia 29/09/2023:
+MIGRAC¸A˜O EUROPA
+Mais de 2.500 migrantes morreram no Medi-
+terrˆaneoem2023. Nu´merodemortosnatravessia
+j´a ´e 48% maior que no mesmo per´ıodo de 2022.
+Cerca de 186 mil migrantes chegaram `a Europa
+partindo da costa do Norte da A´frica, maioria de-
+sembarcou na It´alia.”
+“DW”DeutscheWelle´eumaemissorainternacionalda
+Alemanhaquetransmiteprogramasdetelevisa˜o,ra´dioeonline
+paratodoomundo.
+Dispon´ıvelem:
+https://www.dw.com/pt-br/mais-de-2500-migrantes-morreram-
+no-mediterr%C3%A2neo-em-2023/a-66966632. Acessoem: em
+17jun. 2024.
+Responda ao que se pede:
+(A) Analise como o processo caracterizado pelos
+interessesimperialistasdofinaldos´eculoXIX
+e a posterior pol´ıtica de descolonizac¸˜ao se re-
+lacionam com o atual continente africano
+(B) Analise como esse processo ajuda a explicar
+oquadroatualdemonstradopelareportagem
+acima.
+3) Leia os textos I e II a seguir e responda ao que se
+pede.
+Texto I
+OsPovosInd´ıgenasexistentesnoBrasil, represen-
+tados na UNIA˜O DAS NAC¸OES IND´IGENAS -
+UNI, [se posicionam] perante as autoridades cons-
+titu´ıdas, `a opini˜ao pu´blica e em especial perante
+os Membros do Congresso Nacional para informar
+e exigir o seguinte:
+(...) Nesta reuni˜ao decidimos PARTICIPAR DA
+ELABORAC¸A˜O DA NOVA CONSTITUIC¸A˜O,
+POIS ESTA LEI TRATA DE QUESTO˜ES
+DE INTERESSE IMEDIATO DOS POVOS
+IND´IGENAS, tais como: o direito a terra e a in-
+corporac¸˜aodos´ındios`asociedadenacionalecomo
+habitamosoterrit´oriobrasileiro,nossentimosn˜ao
+s´o no direito, mas no dever de influir na forma de
+organiza¸c˜aodoEstadobrasileiro, paraqueeleres-
+peite os Povos Ind´ıgenas e garanta a liberdade e
+participac¸˜ao de todos os brasileiros, nas decis˜oes
+estatais, inclusive quanto `a correta e justa uti-
+liza¸c˜ao e distribui¸c˜ao das riquezas.
+Goiˆania-GO,11deoutubrode1986-UNIA˜ODASNAC¸OES
+IND´IGENASHECK;SILVA;FEITOSA(orgs). Povos
+ind´ıgenas: aquelesquedevemviver–Manifestocontraos
+decretosdeexterm´ınio. Bras´ılia: Cimi–ConselhoIndigenista
+Mission´ario,2012,pp.101-102.
+
+=== PDF 14 ===
+Pism 2025 - M´odulo 3 - Humanas - 2” Dia
+Texto II
+Para estar na pol´ıtica, mulheres ind´ıgenas
+enfrentam desafios como falta de apoio e
+preconceito
+Apesardoaumentodascandidaturasind´ıgenasde
+2016 para 2020, ainda h´a uma sub-representa¸c˜ao
+nas cˆamaras municipais. Pr´e candidatas
+ind´ıgenas, no Paran´a,(...) apontam os desafios
+para se manterem na pol´ıtica como mulheres
+ind´ıgenas. (...) Jovina Renhga, Kaingang, da
+Aldeia Kakan´e Por˜a, de Curitiba, ´e escritora da
+literatura ind´ıgena e pr´e-candidata (...) e afirma
+que decidiu se candidatar porque quer defender
+seupovoquevivenapobrezaedefendertamb´ema
+pautaambiental. “Somosumpovoquesofredesde
+ainvas˜ao,em1500. Comovereadora,acreditoque
+posso defender meu povo que, hoje, vive na po-
+breza. E, claro, lutar pela M˜ae Terra que vem
+sofrendo com a destrui¸c˜ao da floresta e o aqueci-
+mento global,” diz. (...) “Acho que o primeiro
+desafio ´e ter coragem para estar e se manter sem-
+pre na luta em defesa de espa¸co para as mulheres
+ind´ıgenas e contra o racismo, diz Jovina Renhga.
+Dispon´ıvelem:
+https://www.brasildefatopr.com.br/2024/06/13/para-estar-na-
+politica-mulheres-indigenas-enfrentam-desafios-como-falta-de-
+apoio-e-preconceito. Acessoem: 17/06/2024.
+(A) A partir do texto I, explique como se deu
+a participa¸c˜ao dos povos ind´ıgenas na ela-
+borac¸˜ao da Constitui¸c˜ao de 1988.
+(B) A partir do Texto II, identifique UMA mu-
+dan¸caeUMAcontinuidadeemrela¸c˜ao`apar-
+ticipa¸c˜aopol´ıticadospovosind´ıgenasnoBra-
+sil desde a redemocratiza¸c˜ao at´e os dias atu-
+ais.
+4) Leia os textos abaixo.
+Texto I
+Rap do motoboy (Emicida e Fi´oti)
+E´ sempre a vida sobre duas roda (...)
+O sol nasceu, n´ois se benze e vai embora (...)
+A fluir pela via, fui entre as faixa (...)
+E´ toda uma vida sofrida, corrida,
+nessas avenida, relaxa
+Saltos em vertigem (...)
+O tempo que passa´e sempre pouco (...)
+Como ´e que t´a? Massa? Firm˜ao?
+Irm˜ao, motoboy ´e verbo de ligac¸˜ao.
+FONTE:EMICIDA;FIO´TI.Rapdomotoboy. Dispon´ıvelem:
+https://www.letras.mus.br/emicida/rap-do-motoboy-part-
+fioti/. Acessoem: 14/06/24.
+Texto II
+Estamos presenciando o advento e a expans˜ao
+monumental do novo proletariado da era digi-
+tal, cujos trabalhos, mais ou menos intermitentes
+[n˜aocont´ınuos],maisoumenosconstantes,ganha-
+ram novo impulso. (...) Estamos vivenciando o
+crescimento exponencial do novo proletariado de
+servi¸cos, uma variante global do que se pode de-
+nominar escravid˜ao digital. (...) A terceirizac¸˜ao,
+a informalidade e a flexibilidade se tornaram par-
+tes insepar´aveis do l´exico da empresa corporativa.
+Assim, movida por essa l´ogica que se expande em
+escalaglobal,estamospresenciandoaexpans˜aodo
+que podemos denominar uberiza¸c˜ao do trabalho.
+ANTUNES,Ricardo. Oprivil´egiodaservida˜o: onovo
+proletariadodeservi¸cosnaeradigital. Sa˜oPaulo: Boitempo,
+2018. pp.30-37. [textocomadapta¸c˜oes]
+A partir da leitura do Texto I e do Texto II, res-
+ponda ao que se pede:
+(A) Identifique e explique UMA caracter´ıstica do
+“novo proletariado de servi¸cos”.
+(B) Relacione a economia capitalista globalizada
+ao processo de “uberizac¸˜ao do trabalho”.
+
+=== PDF 15 ===
+Pism 2025 - M´odulo 3 - Humanas - 2” Dia
+FILOSOFIA - DISSERTATIVAS
+1) “Negar aquilo que ´e, ou afirmar aquilo que n˜ao ´e,
+´e falso, ao passo que o verdadeiro´e afirmar aquilo
+que ´e ou negar aquilo que n˜ao ´e”.
+Arist´oteles(Metaf´ısica. 1011b25)
+(A) Defina Realidade, Verdade e Conhecimento.
+Se desejar, vocˆe pode fazer referˆencia direta
+a um filo´sofo que tenha estudado.
+(B) Mostre a diferen¸ca entre esses conceitos com
+um exemplo.
+2) Considere as seguintes premissas:
+A – Liberdade pressup˜oe responsabilidade. Ser li-
+vre´eresponderplenamentepeloquesefaz,epelos
+resultados positivos ou negativos de suas a¸c˜oes.
+B–E´tica´eaciˆenciaqueinvestigaaadequac¸˜aodas
+a¸co˜es, se boas ou m´as, morais ou imorais, justas
+ou injustas.
+Considerando essas premissas, disserte breve-
+mente sobre a validade e as consequˆencias do re-
+lativismo ´etico-moral, isto ´e, a cren¸ca de que n˜ao
+existe certo ou errado, bem ou mal.
+
+=== PDF 16 ===
+Pism 2025 - M´odulo 3 - Humanas - 2” Dia

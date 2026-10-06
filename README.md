@@ -421,3 +421,119 @@ Este projeto ainda não possui um arquivo de licença definido. Antes de
 redistribuir o código ou os materiais de prova, defina uma licença para o
 software e verifique separadamente os direitos dos conteúdos educacionais,
 textos e imagens utilizados.
+
+
+## PISM II 2025 (2º ano)
+
+Execute `supabase/seed-pism-ii-2025.sql` completo no SQL Editor do Supabase.
+O arquivo cadastra duas provas de 20 questões objetivas, com os slugs
+`pism-ii-2025-dia-1` e `pism-ii-2025-dia-2`, sem substituir as provas do módulo I.
+No site, escolha PISM → Série: 2º ano → 2025 · 1º ou 2º dia.
+
+As provas da edição 2025 foram realizadas em 14 e 15 de dezembro de 2024.
+As fontes são os cadernos e gabaritos oficiais da UFJF/COPESE. O gabarito
+após recursos do dia 2 aceita C ou E na questão 14 e B ou C na questão 15.
+O SQL amplia a restrição `questions_answer_check` para aceitar letras
+separadas por `/`. A correção, a pontuação e a revisão reconhecem ambas.
+Publique a atualização da interface junto com a importação para garantir
+que as alternativas múltiplas sejam corrigidas corretamente.
+
+Há 9 figuras de apoio na pasta `public`. Os textos de terceiros são apresentados
+como sínteses ou referências ao caderno oficial, acessível em cada questão.
+As alternativas das questões 3 e 4 de Literatura foram adaptadas para evitar
+reproduzir extensos trechos do conto. As questões discursivas não foram importadas.
+As 40 questões possuem explicações didáticas autorais, conferidas com os cadernos e gabaritos oficiais. Não são justificativas publicadas pela banca.
+
+Fontes:
+- [Dia 1: provas e gabaritos](https://www2.ufjf.br/copese/vestibular-pism-2/vestibular-pism-edicoes-anteriores/pism-2024/2025-provas-e-gabaritos-1o-dia/)
+- [Dia 2: provas e gabaritos definitivos](https://www2.ufjf.br/copese/vestibular-pism-2/vestibular-pism-edicoes-anteriores/pism-2025/provas-e-gabaritos-2o-dia/)
+
+Os dados revisados estão em `pdf-extracts/pism-ii-2025/questoes-dia-1.json`
+e `questoes-dia-2.json`, junto dos materiais de conferência.
+
+
+## Atualização das provas PISM já cadastradas
+
+Execute no Supabase os arquivos supabase/update-pism-i-titles.sql (nomes e anos oficiais do módulo I) e supabase/update-explanations-pism-ii-2025.sql (40 explicações do módulo II 2025). Os dois preservam os identificadores e os gabaritos existentes.
+
+Os slugs legados pism-2023, pism-2024 e pism-2025 correspondem às edições oficiais 2024, 2025 e 2026. A interface exibe esses anos e o dia no mesmo padrão do módulo II. Todas as oito provas têm links para a página de cada questão no caderno oficial.
+
+
+## PISM II 2026 — 2º ano, dias 1 e 2
+
+Execute `supabase/seed-pism-ii-2026.sql` no SQL Editor do Supabase. O arquivo cadastra duas provas, com 20 questões objetivas por dia, e já inclui as 40 explicações autorais. É reexecutável e atualiza somente essas provas. Publique também a interface atualizada para disponibilizar a seleção de 2026 e a correção da questão anulada.
+
+Os enunciados e alternativas têm redação adaptada para estudo, mantendo dados, numeração e ordem. Textos literários e jornalísticos são sintetizados ou referenciados; cada questão abre a página correspondente do caderno oficial. As cinco imagens de apoio estão em `public/pism-ii-2026-*.png`. As questões discursivas não estão incluídas.
+
+Foi utilizado o gabarito do dia 1 disponibilizado pela COPESE e, para o dia 2, o gabarito **após recursos** de janeiro de 2026. A questão 17 de História do dia 2 foi anulada: no banco, `A/B/C/D/E` representa a anulação, e a interface atribui crédito mesmo quando a resposta fica em branco. As opções dessa questão não são identificadas como todas corretas na revisão.
+
+Nas provas PISM, as explicações da revisão agora aparecem também nas respostas acertadas. As questões 6 e 7 de Biologia preservam o gabarito da banca e incluem observações científicas: distinção entre toxina e esporos no botulismo, e indicação da via de parto conforme avaliação clínica na prevenção da transmissão do HIV. Essas observações foram conferidas com a OMS e o Ministério da Saúde.
+
+Fontes oficiais:
+- [Cadernos e gabarito do 1º dia](https://www2.ufjf.br/copese/vestibular-pism-2/vestibular-pism-edicoes-anteriores/pism-2026/provas-e-gabaritos-1o-dia/)
+- [Caderno do 2º dia](https://www2.ufjf.br/copese/vestibular-pism-2/vestibular-pism-edicoes-anteriores/pism-2026/provas-e-gabaritos-2o-dia/)
+- [Gabarito do 2º dia após recursos](https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2026/01/GABARITO-PISM-2026-OBJETIVA-D2-P2-P%C3%B3s-Recursos.pdf)
+
+Materiais de conferência: `pdf-extracts/pism-ii-2026`. Para regenerar SQL, dados e imagens, execute `scripts/generate-pism-ii-2026.py`; para validar, `node scripts/verify-pism-ii-2026.mjs`.
+
+## PISM II 2024 e PISM III 2024, 2025 e 2026
+
+A seleção de série agora inclui os dois dias de 2024 no 2º ano e os dois dias de cada edição de 2024, 2025 e 2026 no 3º ano. São oito novas provas, com **160 questões objetivas e 160 explicações autorais**.
+
+Execute, completos, no SQL Editor do Supabase:
+
+- `supabase/seed-pism-ii-2024.sql`: duas provas e 40 questões.
+- `supabase/seed-pism-iii-2024-2026.sql`: seis provas e 120 questões.
+
+As consultas são reexecutáveis e preservam IDs por meio de `on conflict`. Não é necessário repetir o schema ou os seeds anteriores. Os dados só aparecerão no site depois da execução das consultas. Publique também o código atualizado e as 23 figuras em `public/pism-ii-2024-*.png` e `public/pism-iii-*.png`.
+
+O cadastro mantém o formato de questões objetivas já usado no projeto. No PISM III, as 20 objetivas de cada dia são comuns a Economia e Administração, Exatas, Humanas e Saúde; as discursivas variam conforme a área e não estão incluídas. O link de cada questão abre a página correspondente no caderno de Humanas. Os endereços dos cadernos das quatro áreas estão preservados no catálogo de fontes.
+
+Enunciados e alternativas foram revisados/adaptados para estudo. Textos literários, letras e reportagens são resumidos ou referenciados no caderno oficial. A questão 5 do PISM III 2024, dia 1, exige comparar as cinco charges no caderno, acessível pelo link da questão. As explicações são autorais, não justificativas publicadas pela banca.
+
+Gabaritos após recursos preservados:
+
+- PISM II 2024, dia 1, questão 11: C ou D.
+- PISM III 2025, dia 1, questão 11: C ou E; questão 15: B ou C.
+- PISM III 2026, dia 2, questão 17: anulada, com crédito automático inclusive em branco.
+
+A questão 15 do PISM II 2024, dia 1, registra a imprecisão do total de 375 viagens: o gabarito marca o 13º dia, quando a soma ultrapassa esse valor. A explicação da questão 8 do PISM II 2024, dia 2, distingue o gabarito de uma afirmação inadequada sobre hepatite A, com referência ao Ministério da Saúde. A questão 4 do PISM III 2026, dia 2, corrige na explicação o ano do Nobel de Einstein, com referência ao NobelPrize.org.
+
+Fontes oficiais: páginas de provas e gabaritos da [edição 2024](https://www2.ufjf.br/copese/vestibular-pism-2/vestibular-pism-edicoes-anteriores/pism-2024/2024-provas-e-gabaritos-1o-dia/), [2025](https://www2.ufjf.br/copese/vestibular-pism-2/vestibular-pism-edicoes-anteriores/pism-2025/provas-e-gabaritos-2o-dia/) e [2026](https://www2.ufjf.br/copese/vestibular-pism-2/vestibular-pism-edicoes-anteriores/pism-2026/provas-e-gabaritos-2o-dia/). A lista completa dos 34 PDFs consultados está em `pdf-extracts/pism-expansao/fontes.json`.
+
+Dados e materiais de conferência: `pdf-extracts/pism-expansao`. Fluxo de regeneração: `scripts/import-pism-additions.py`, depois `scripts/reextract-pism-additions.py`, depois `scripts/finalize-pism-additions.py`. A revisão editorial e as explicações estão em `scripts/pism_additions_editorial.py` e `scripts/pism_additions_explanations.py`. Validação: `node scripts/verify-pism-additions.mjs`.
+
+## INSS 2022 — Técnico do Seguro Social
+
+O card INSS fica em Concursos. Execute **todo** o arquivo `supabase/seed-inss-2022-tecnico.sql` no SQL Editor do Supabase para disponibilizar os 120 itens (50 básicos e 70 específicos), da aplicação de **27/11/2022**, cadernos 01. A reaplicação de Guarulhos não está incluída. A consulta é reexecutável, preserva os IDs existentes e não altera as outras provas; explicações já preenchidas são preservadas quando não há explicação nova.
+
+As opções exibidas são Certo e Errado. No banco, A representa Certo, B representa Errado e A/B/C/D/E representa anulação. A prova INSS usa +1 por acerto, −1 por erro e zero por item em branco. Os oito itens anulados (49, 54, 65, 68, 72, 74, 104 e 106) recebem +1 independentemente da marcação. A tela mostra a pontuação líquida, os acertos, os erros e os itens em branco. Os simulados personalizados continuam usando sua pontuação habitual.
+
+Cada item possui acesso à página correspondente do caderno oficial do Cebraspe. O texto CB1A1 foi resumido para estudo; nas questões de análise textual e gramatical, leia o original pelo link. As duas figuras de informática estão em `public/inss-2022/`. As questões e o gabarito reproduzem o contexto da prova de 2022; não são uma atualização da legislação. Esta inclusão não traz comentários explicativos para os itens não anulados.
+
+Fontes: [caderno básico](https://cdn.cebraspe.org.br/concursos/INSS_22/arquivos/760_INSS_CB1_01.PDF), [caderno específico](https://cdn.cebraspe.org.br/concursos/INSS_22/arquivos/760_INSS_001_01.PDF), [gabarito definitivo básico](https://cdn.cebraspe.org.br/concursos/INSS_22/arquivos/GAB_DEFINITIVO_760_INSS_CB1_01.PDF) e [gabarito definitivo específico](https://cdn.cebraspe.org.br/concursos/INSS_22/arquivos/GAB_DEFINITIVO_760_INSS_001_01.PDF).
+
+Verificação: `node scripts/verify-inss-2022.mjs`. Os scripts `scripts/import-inss-2022.py` e `scripts/generate-inss-2022.py` permitem baixar novamente as fontes e regenerar a consulta, os recortes e os links (dependências Python: pdfplumber e pypdfium2).
+
+
+## Praticar redação
+
+Acesse **Praticar redação** no menu superior ou na página inicial. A área reúne editor de texto, contagens de palavras/parágrafos/caracteres, palavras frequentes (ao menos quatro letras e três ocorrências, filtrando termos comuns), repetições consecutivas e espaços duplicados. São verificações de leitura, sem IA, avaliação gramatical automática ou nota estimada.
+
+A autoavaliação oferece sete critérios gerais de texto argumentativo e gera prioridades a partir das respostas do próprio aluno. Alterar o texto ou o tema invalida as avaliações anteriores para a nova versão. As anotações permanecem disponíveis para a reescrita. Os parágrafos são contados por quebras de linha; linhas visuais do editor não equivalem às linhas da folha oficial.
+
+O rascunho, o tema sorteado e a revisão ficam no navegador/dispositivo (`provacerta-redacao-v1`), sem envio do texto ao Supabase. É possível baixar um arquivo TXT com texto, tema, fonte, autoavaliação e anotações. Se o armazenamento falhar, a interface avisa; um rascunho corrompido não é sobrescrito automaticamente.
+
+### Banco de temas e sorteio
+
+Execute **todo** o arquivo `supabase/seed-essay-themes.sql` no SQL Editor do Supabase. Ele cria a tabela `essay_themes`, habilita RLS para leitura pública apenas dos temas ativos e cadastra nove temas oficiais: **ENEM 2023, 2024 e 2025; FUVEST 2024, 2025 e 2026; UERJ 2024, 2025 e 2026**. A proposta da FUVEST 2026 cadastrada é a primeira, de gênero dissertativo-argumentativo. As propostas da UERJ dependem da leitura das obras indicadas. Títulos e orientações têm fontes oficiais individuais; as orientações são resumidas para estudo, com acesso à coletânea ou ao comentário da banca pelo link.
+
+A consulta é reexecutável e preserva IDs e a ativação/desativação dos temas existentes. O navegador lê os temas do Supabase e permite filtrar por prova e ano antes de sortear. O sorteio evita repetir imediatamente o tema atual quando há outra opção no filtro, preserva o texto já escrito e atualiza a proposta. Editar manualmente o tema volta ao modo de tema livre. Sem conexão ou sem configuração do banco, a seleção inicial desses nove temas fica disponível, com uma indicação na tela; uma lista vazia publicada no banco é respeitada.
+
+As tabelas e consultas das provas objetivas permanecem independentes. Não é necessário alterar o cadastro de questões para utilizar a redação. Verificação: `node scripts/verify-essay-practice.mjs`.
+
+
+### Relatos de problemas e modo de prova
+Execute `supabase/setup-question-reports.sql` no SQL Editor para habilitar o envio de relatos. O formulário identifica a prova e o número original da questão, inclusive nos simulados mistos. Somente o administrador consulta os relatos pelo painel ou SQL; visitantes podem apenas enviá-los. Não é necessário executar SQL para o cronômetro.
+
+Ao carregar qualquer prova ou simulado, escolha estudo livre ou modo de prova com duração de 1 a 600 minutos. O relógio usa um prazo absoluto, continua em outras abas e encerra a sessão ao esgotar o tempo, mantendo as respostas para o resultado e a revisão. Há avisos nos últimos cinco minutos e no último minuto. Finalizar antecipadamente também mostra tempo utilizado e questões em branco. Sair cancela a sessão; recarregar a página perde o progresso atual.

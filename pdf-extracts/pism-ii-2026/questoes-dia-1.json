@@ -1,0 +1,322 @@
+[
+  {
+    "number": 1,
+    "subject": "Língua Portuguesa",
+    "text": "No guia sobre IA generativa, qual é a função dos subtítulos em negrito em relação aos parágrafos seguintes?",
+    "options": [
+      "Apresentar um assunto que o parágrafo seguinte refuta.",
+      "Fazer uma pergunta que o parágrafo seguinte responde.",
+      "Indicar um tema que o parágrafo seguinte explica.",
+      "Oferecer uma explicação que o parágrafo seguinte detalha.",
+      "Expor uma afirmação que o parágrafo seguinte exemplifica."
+    ],
+    "answer": "C",
+    "explanation": "Alternativa C. Os subtítulos identificam o assunto de cada seção; os parágrafos esclarecem em que consiste o risco ou a limitação. Por exemplo, a seção sobre dados incompletos explica como informações limitadas ou enviesadas afetam as respostas. Essa relação organiza a leitura por temas.",
+    "support": "Redação adaptada para estudo; dados, numeração e ordem das alternativas preservados. Consulte a redação original e os textos integrais no caderno oficial.\n\nTexto 1: o guia IA Generativa no Serviço Público, do Ministério da Gestão e da Inovação (2025), explica riscos e limitações dos modelos. Os subtítulos destacam alucinações, perguntas mal formuladas, dados incompletos ou enviesados, preenchimento de lacunas e desatualização. Leia o texto integral na página 1 do caderno (3 do PDF).",
+    "support_image": null
+  },
+  {
+    "number": 2,
+    "subject": "Língua Portuguesa",
+    "text": "Considerando o segundo parágrafo do Texto 1, qual expressão substitui o sentido de criativas atribuído às respostas produzidas pela IA?",
+    "options": [
+      "Desfavoráveis em comparação às inicialmente pretendidas.",
+      "Equivalentes às inicialmente pretendidas.",
+      "Idênticas às inicialmente pretendidas.",
+      "Opostas às inicialmente pretendidas.",
+      "Superiores em comparação às inicialmente pretendidas."
+    ],
+    "answer": "E",
+    "explanation": "Alternativa E, conforme o gabarito oficial. A leitura adotada pela banca associa a criatividade a respostas que ultrapassariam as inicialmente pretendidas. Isso não significa que respostas de IA sejam sempre melhores ou verdadeiras: o próprio parágrafo contrapõe esse potencial à produção de informações inexatas ou fabricadas. O sentido deve ser avaliado no contexto do trecho.",
+    "support": "Redação adaptada para estudo; dados, numeração e ordem das alternativas preservados. Consulte a redação original e os textos integrais no caderno oficial.\n\nTexto 1: o guia IA Generativa no Serviço Público, do Ministério da Gestão e da Inovação (2025), explica riscos e limitações dos modelos. Os subtítulos destacam alucinações, perguntas mal formuladas, dados incompletos ou enviesados, preenchimento de lacunas e desatualização. Leia o texto integral na página 1 do caderno (3 do PDF).",
+    "support_image": null
+  },
+  {
+    "number": 3,
+    "subject": "Língua Portuguesa",
+    "text": "O conector entretanto liga o potencial criativo da IA ao risco de gerar informações fabricadas. Qual relação de sentido ele estabelece?",
+    "options": [
+      "Adição.",
+      "Conclusão.",
+      "Consequência.",
+      "Contrariedade.",
+      "Explicação."
+    ],
+    "answer": "D",
+    "explanation": "Alternativa D. Entretanto é um conector adversativo: introduz uma ressalva que contrasta com a expectativa positiva criada pela ideia de criatividade. O segundo trecho aponta que essa mesma capacidade pode produzir alucinações. Não se trata de simples soma de informações ou conclusão.",
+    "support": "Redação adaptada para estudo; dados, numeração e ordem das alternativas preservados. Consulte a redação original e os textos integrais no caderno oficial.\n\nTexto 1: o guia IA Generativa no Serviço Público, do Ministério da Gestão e da Inovação (2025), explica riscos e limitações dos modelos. Os subtítulos destacam alucinações, perguntas mal formuladas, dados incompletos ou enviesados, preenchimento de lacunas e desatualização. Leia o texto integral na página 1 do caderno (3 do PDF).",
+    "support_image": null
+  },
+  {
+    "number": 4,
+    "subject": "Língua Portuguesa",
+    "text": "Qual alternativa caracteriza corretamente a organização predominante do artigo de opinião (Texto 2) e da reportagem (Texto 3)?",
+    "options": [
+      "O artigo é dialogal, porque apresenta perguntas; a reportagem é argumentativa, porque traz dados ambientais.",
+      "O artigo é expositivo, por explicar a COP-30; a reportagem argumenta para desacreditar os riscos ambientais.",
+      "O artigo argumenta sobre IA e ambiente; a reportagem expõe dados sobre os impactos ambientais da IA.",
+      "O artigo descreve detalhes da COP-30; a reportagem argumenta por utilizar dados científicos.",
+      "O artigo narra acontecimentos da COP-30; a reportagem expõe os efeitos ambientais da IA."
+    ],
+    "answer": "C",
+    "explanation": "Alternativa C. O artigo sustenta uma posição sobre como orientar a IA para objetivos de sustentabilidade, característica argumentativa. A reportagem apresenta declarações, pesquisas e dados de consumo, com predomínio expositivo. A presença de perguntas ou de dados, isoladamente, não determina o gênero nem sua sequência predominante.",
+    "support": "Redação adaptada para estudo; dados, numeração e ordem das alternativas preservados. Consulte a redação original e os textos integrais no caderno oficial.\n\nTexto 2: artigo de Virgílio Almeida e Francisco Gaetani sobre IA, sustentabilidade e COP-30; defende políticas que conciliem inovação, interesse público e proteção ambiental. Texto 3: reportagem que confronta declarações sobre o consumo de água e energia da IA com pesquisas e questionamentos sobre esses dados. Os textos integrais estão nas páginas 2 e 3 do caderno (4 e 5 do PDF).",
+    "support_image": null
+  },
+  {
+    "number": 5,
+    "subject": "Língua Portuguesa",
+    "text": "Sobre objetividade e subjetividade nos trechos dos textos 2 e 3, qual interpretação é adequada?",
+    "options": [
+      "A defesa da criação de políticas públicas que alinhem IA e sustentabilidade expressa o ponto de vista do enunciador.",
+      "A declaração de consumo médio de água é objetiva porque produz subjetividade ao apresentar uma opinião do enunciador.",
+      "A atribuição de um valor de consumo de energia a Altman é subjetiva porque dizer também disse já revela juízo de valor.",
+      "O relato de uma pesquisa sobre água gasta ao gerar um e-mail é subjetivo porque necessariamente sustenta a opinião do jornal.",
+      "A descrição da posição singular do Brasil na agenda internacional é totalmente neutra e não manifesta avaliação."
+    ],
+    "answer": "A",
+    "explanation": "Alternativa A. Ao afirmar a necessidade de políticas públicas, os autores defendem uma orientação desejável para o uso da IA: trata-se de avaliação e posicionamento. Já atribuir dados a uma fonte não transforma automaticamente o relato em opinião. Na alternativa E, a qualificação da posição brasileira como singular também revela um componente avaliativo.",
+    "support": "Redação adaptada para estudo; dados, numeração e ordem das alternativas preservados. Consulte a redação original e os textos integrais no caderno oficial.\n\nTexto 2: artigo de Virgílio Almeida e Francisco Gaetani sobre IA, sustentabilidade e COP-30; defende políticas que conciliem inovação, interesse público e proteção ambiental. Texto 3: reportagem que confronta declarações sobre o consumo de água e energia da IA com pesquisas e questionamentos sobre esses dados. Os textos integrais estão nas páginas 2 e 3 do caderno (4 e 5 do PDF).",
+    "support_image": null
+  },
+  {
+    "number": 6,
+    "subject": "Geografia",
+    "text": "Qual ação favorece o direito à moradia e ajuda a superar a fragmentação socioespacial nas cidades?",
+    "options": [
+      "Regularizar terrenos em bairros consolidados sem melhorar a infraestrutura.",
+      "Criar programas habitacionais com infraestrutura urbana e participação da comunidade.",
+      "Acelerar a construção privada de moradias sem participação popular.",
+      "Priorizar a quantidade de casas em periferias, deixando a infraestrutura em segundo plano.",
+      "Construir em terrenos baratos afastados dos centros e dos serviços essenciais."
+    ],
+    "answer": "B",
+    "explanation": "Alternativa B. Moradia digna envolve mais que a unidade habitacional: exige acesso a serviços, infraestrutura e integração urbana. A participação dos moradores permite adequar os programas às suas necessidades. As outras propostas mantêm carências urbanas ou ampliam a segregação.",
+    "support": "Redação adaptada para estudo; dados, numeração e ordem das alternativas preservados. Consulte a redação original e os textos integrais no caderno oficial.\n\nA questão parte da crítica de Raquel Rolnik à política habitacional baseada apenas no mercado: a dimensão social da moradia e o atendimento às famílias de baixa renda precisam orientar as políticas urbanas. Consulte o excerto na página 5 do caderno.",
+    "support_image": null
+  },
+  {
+    "number": 7,
+    "subject": "Geografia",
+    "text": "Qual conjunto de fatores explica a localização dos parques tecnológicos e tecnopolos?",
+    "options": [
+      "Áreas rurais com muitos recursos renováveis são a localização prioritária.",
+      "Profissionais qualificados, pesquisa e desenvolvimento, universidades e financiamento.",
+      "Baixa densidade populacional e isolamento das empresas para evitar concorrência.",
+      "Proximidade de consumidores de produtos baratos e de baixo valor agregado.",
+      "Presença exclusiva de grandes portos e aeroportos internacionais."
+    ],
+    "answer": "B",
+    "explanation": "Alternativa B. Tecnopolos dependem de conhecimento especializado e de vínculos entre empresas, universidades e centros de pesquisa. Infraestrutura de P&D, mão de obra qualificada e financiamento favorecem a inovação. Portos, recursos naturais ou terrenos baratos podem ajudar, mas não substituem esses fatores.",
+    "support": "Redação adaptada para estudo; dados, numeração e ordem das alternativas preservados. Consulte a redação original e os textos integrais no caderno oficial.",
+    "support_image": null
+  },
+  {
+    "number": 8,
+    "subject": "Geografia",
+    "text": "Que transformação espacial está associada ao crescimento do comércio eletrônico nas cidades brasileiras?",
+    "options": [
+      "Adesão de toda a população e uniformização do consumo entre regiões.",
+      "Fuga de capitais para países com mão de obra barata como consequência principal.",
+      "Redução necessária do tráfego e da poluição porque os consumidores deixam de sair para comprar.",
+      "Esvaziamento generalizado dos centros pelo fechamento intenso de lojas.",
+      "Reorganização logística com centros de distribuição urbanos e próximos a rodovias."
+    ],
+    "answer": "E",
+    "explanation": "Alternativa E. O comércio eletrônico exige armazenagem, separação de pedidos e entrega rápida. Isso favorece centros de distribuição ligados a mercados consumidores e eixos rodoviários. Não implica acesso universal, padrões idênticos de consumo ou redução automática do tráfego, pois as entregas também geram deslocamentos.",
+    "support": "Redação adaptada para estudo; dados, numeração e ordem das alternativas preservados. Consulte a redação original e os textos integrais no caderno oficial.",
+    "support_image": null
+  },
+  {
+    "number": 9,
+    "subject": "Geografia",
+    "text": "A agricultura passou a depender mais de máquinas, insumos industrializados e capital. Qual desvantagem desse modelo afeta o pequeno agricultor?",
+    "options": [
+      "Aumento dos custos de cultivo.",
+      "Redução do emprego formal.",
+      "Limitação do controle de pragas.",
+      "Estagnação agroindustrial.",
+      "Redução das monoculturas."
+    ],
+    "answer": "A",
+    "explanation": "Alternativa A. A compra de máquinas, sementes e outros insumos industrializados eleva os custos e pode criar dependência de fornecedores e crédito. Produtores com poucos recursos têm mais dificuldade para absorver esses gastos e competir. A questão pede a desvantagem relacionada diretamente ao modelo descrito.",
+    "support": "Redação adaptada para estudo; dados, numeração e ordem das alternativas preservados. Consulte a redação original e os textos integrais no caderno oficial.\n\nO texto de Denise Elias discute a mudança da base técnica da agropecuária desde as décadas de 1960 e 1970. Os insumos industriais passam a ter papel central na produção e na rentabilidade. Leia o excerto na página 6 do caderno.",
+    "support_image": null
+  },
+  {
+    "number": 10,
+    "subject": "Geografia",
+    "text": "Dados do mercado de trabalho mostram desvantagens persistentes para mulheres negras. Qual interpretação explica adequadamente esse quadro?",
+    "options": [
+      "A causa principal é a concentração dessas profissionais em regiões economicamente pouco dinâmicas.",
+      "A informalidade decorre apenas de escolarização tardia e pouca experiência individual.",
+      "A desigualdade resulta de escolhas culturais pelo trabalho doméstico.",
+      "A taxa de desemprego elevada é um fenômeno pontual da conjuntura econômica.",
+      "Raça, classe e gênero se cruzam e reforçam a marginalização histórica desse grupo."
+    ],
+    "answer": "E",
+    "explanation": "Alternativa E. A interseccionalidade analisa como diferentes formas de desigualdade atuam conjuntamente. Racismo, desigualdade de classe e discriminação de gênero afetam oportunidades e remuneração. Explicações apenas individuais, culturais ou conjunturais não dão conta da persistência das desigualdades estruturais.",
+    "support": "Redação adaptada para estudo; dados, numeração e ordem das alternativas preservados. Consulte a redação original e os textos integrais no caderno oficial.\n\nIndicadores do 2º trimestre de 2024 apresentados no caderno: desemprego médio de 6,9%; homens não negros, 4,6%; mulheres negras, 10,1%. A remuneração das mulheres negras corresponde a 50,2% da dos homens brancos. Fonte do gráfico: CNN Brasil, 20/11/2024. Gráfico original na página 7 do caderno.",
+    "support_image": null
+  },
+  {
+    "number": 11,
+    "subject": "Matemática",
+    "text": "As notas de 100 candidatos estão no gráfico. Somente notas estritamente superiores à média garantem aprovação para a segunda fase. Quantos candidatos são aprovados?",
+    "options": [
+      "15",
+      "45",
+      "50",
+      "55",
+      "100"
+    ],
+    "answer": "B",
+    "explanation": "Alternativa B. A média ponderada é (6×15 + 7×40 + 8×30 + 9×10 + 10×5)/100 = 750/100 = 7,5. As notas superiores a 7,5 são 8, 9 e 10. Portanto, são aprovados 30 + 10 + 5 = 45 candidatos.",
+    "support": "Redação adaptada para estudo; dados, numeração e ordem das alternativas preservados. Consulte a redação original e os textos integrais no caderno oficial.",
+    "support_image": "/pism-ii-2026-dia-1-questao-11.png"
+  },
+  {
+    "number": 12,
+    "subject": "Matemática",
+    "text": "Na fase lútea, de x = 14 a x = 28 dias, a concentração começa e termina em 1 ng/mL e atinge 25 ng/mL no dia 21. Qual função senoidal modela essa variação?",
+    "options": [
+      "H(x) = 25·sen[(π/7)(x − 14)]",
+      "H(x) = 25·sen[(π/14)(x − 14)]",
+      "H(x) = 1 + 24·sen[(π/7)(x − 14)]",
+      "H(x) = 1 + 25·sen[(π/7)(x − 14)]",
+      "H(x) = 1 + 24·sen[(π/14)(x − 14)]"
+    ],
+    "answer": "E",
+    "explanation": "Alternativa E. O nível inicial é 1 e o aumento até o pico é 25 − 1 = 24. O seno deve ir de 0 a 1 e voltar a 0 em 14 dias, descrevendo meia onda: o argumento vai de 0 a π. Assim, H(x) = 1 + 24·sen[(π/14)(x − 14)]. No dia 21, o argumento vale π/2 e H(21) = 25.",
+    "support": "Redação adaptada para estudo; dados, numeração e ordem das alternativas preservados. Consulte a redação original e os textos integrais no caderno oficial.",
+    "support_image": "/pism-ii-2026-dia-1-questao-12.png"
+  },
+  {
+    "number": 13,
+    "subject": "Matemática",
+    "text": "Uma pilha de areia tem forma de cone reto com raio 5 m e altura 3 m. A areia será colocada em barris cilíndricos de diâmetro 1 m e altura 80 cm. Qual é o número mínimo de barris?",
+    "options": [
+      "19",
+      "32",
+      "125",
+      "375",
+      "1 125"
+    ],
+    "answer": "C",
+    "explanation": "Alternativa C. O volume do cone é (π×5²×3)/3 = 25π m³. Cada barril tem raio 0,5 m e altura 0,8 m, logo seu volume é π×0,5²×0,8 = 0,2π m³. A razão entre os volumes é 25π/(0,2π) = 125. Como o resultado é inteiro, são necessários exatamente 125 barris.",
+    "support": "Redação adaptada para estudo; dados, numeração e ordem das alternativas preservados. Consulte a redação original e os textos integrais no caderno oficial.",
+    "support_image": null
+  },
+  {
+    "number": 14,
+    "subject": "Matemática",
+    "text": "Um bloco formado por 18 cubos brancos teve sua superfície externa pintada com 21 mL de tinta. Após retirar os quatro cubos indicados, quanto de tinta é necessário para pintar as faces brancas do sólido restante e dos cubos retirados?",
+    "options": [
+      "4 mL",
+      "8 mL",
+      "12 mL",
+      "16 mL",
+      "54 mL"
+    ],
+    "answer": "C",
+    "explanation": "Alternativa C. O bloco tem dimensões 3×3×2 cubos: sua área externa corresponde a 2(9 + 6 + 6) = 42 faces, consumindo 0,5 mL por face. A retirada do grupo 2×2 expõe 8 faces no bloco restante. Os quatro cubos retirados têm 24 faces, das quais 8 já estavam pintadas; restam 16 brancas. São 8 + 16 = 24 faces para pintar, exigindo 24×0,5 = 12 mL.",
+    "support": "Redação adaptada para estudo; dados, numeração e ordem das alternativas preservados. Consulte a redação original e os textos integrais no caderno oficial.",
+    "support_image": "/pism-ii-2026-dia-1-questao-14.png"
+  },
+  {
+    "number": 15,
+    "subject": "Matemática",
+    "text": "Duzentos estudantes escolheram uma modalidade esportiva. Usando os gráficos de preferência e de distribuição por sexo, quantas mulheres escolheram vôlei?",
+    "options": [
+      "24",
+      "32",
+      "36",
+      "48",
+      "60"
+    ],
+    "answer": "C",
+    "explanation": "Alternativa C. O vôlei corresponde a 30% das escolhas: 0,30×200 = 60 estudantes. No gráfico por sexo, mulheres correspondem a 60% dos que preferem vôlei. Portanto, 0,60×60 = 36 mulheres.",
+    "support": "Redação adaptada para estudo; dados, numeração e ordem das alternativas preservados. Consulte a redação original e os textos integrais no caderno oficial.",
+    "support_image": "/pism-ii-2026-dia-1-questao-15.png"
+  },
+  {
+    "number": 16,
+    "subject": "Química",
+    "text": "Qual afirmação descreve corretamente as interações intermoleculares envolvidas na remoção de gordura por tensoativos de xampus?",
+    "options": [
+      "A parte apolar evita a água e se associa à gordura por forças de dispersão de London.",
+      "A parte polar se associa à água exclusivamente por dipolo–dipolo induzido.",
+      "Micelas dependem apenas da temperatura, sem participação de interações intermoleculares.",
+      "A micela resulta de interações íon–íon entre água e moléculas apolares.",
+      "A água dissolve gorduras quebrando as ligações de hidrogênio entre elas."
+    ],
+    "answer": "A",
+    "explanation": "Alternativa A. Tensoativos são anfifílicos: a cadeia apolar se associa aos óleos por forças de dispersão, enquanto a extremidade polar ou iônica interage com a água. A formação de micelas permite dispersar a gordura no meio aquoso. As outras opções atribuem mecanismos inadequados às interações entre água, gordura e tensoativo.",
+    "support": "Redação adaptada para estudo; dados, numeração e ordem das alternativas preservados. Consulte a redação original e os textos integrais no caderno oficial.",
+    "support_image": null
+  },
+  {
+    "number": 17,
+    "subject": "Química",
+    "text": "Considerando Al = 27 e O = 16, qual alternativa descreve adequadamente a massa molar do Al₂O₃?",
+    "options": [
+      "27 g de alumínio por mol do composto.",
+      "Massa molar de 50 g/mol.",
+      "Massa molar de 102 g/mol.",
+      "Massa molar de 113 g/mol.",
+      "24 g de oxigênio por mol do composto."
+    ],
+    "answer": "C",
+    "explanation": "Alternativa C. A fórmula Al₂O₃ contém dois átomos de alumínio e três de oxigênio. Sua massa molar é 2×27 + 3×16 = 54 + 48 = 102 g/mol. Um mol do composto contém 54 g de alumínio e 48 g de oxigênio. As unidades foram explicitadas na adaptação: massa molar se expressa em g/mol.",
+    "support": "Redação adaptada para estudo; dados, numeração e ordem das alternativas preservados. Consulte a redação original e os textos integrais no caderno oficial.",
+    "support_image": null
+  },
+  {
+    "number": 18,
+    "subject": "Química",
+    "text": "Na reação 3 NaHCO₃ + C₆H₈O₇ → 3 CO₂ + 3 H₂O + Na₃C₆H₅O₇, reagem 12,6 g de bicarbonato com ácido em excesso. Com M(NaHCO₃) = 84 g/mol e volume molar de 22,4 L/mol na CNTP, qual volume de CO₂ é produzido?",
+    "options": [
+      "1,78 L",
+      "3,36 L",
+      "3,54 L",
+      "10,08 L",
+      "149,3 L"
+    ],
+    "answer": "B",
+    "explanation": "Alternativa B. A quantidade de bicarbonato é 12,6/84 = 0,15 mol. Pela reação balanceada, três mols de bicarbonato geram três mols de CO₂, razão de 1:1. Portanto, são formados 0,15 mol de gás, com volume 0,15×22,4 = 3,36 L na CNTP.",
+    "support": "Redação adaptada para estudo; dados, numeração e ordem das alternativas preservados. Consulte a redação original e os textos integrais no caderno oficial.",
+    "support_image": null
+  },
+  {
+    "number": 19,
+    "subject": "Química",
+    "text": "Balanceie C₁₂H₂₂O₁₁ + H₂O → C₂H₆O + CO₂. Usando 6,0×10²³ moléculas/mol, o que é produzido a partir de 1 mol de sacarose?",
+    "options": [
+      "6,0×10²³ moléculas de CO₂.",
+      "7,2×10²⁴ moléculas de CO₂.",
+      "6,0×10²³ moléculas de etanol.",
+      "2,4×10²⁴ moléculas de etanol.",
+      "3,6×10²⁴ moléculas de etanol."
+    ],
+    "answer": "D",
+    "explanation": "Alternativa D. O balanceamento é C₁₂H₂₂O₁₁ + H₂O → 4 C₂H₆O + 4 CO₂. Uma molécula de sacarose gera quatro de etanol; um mol gera quatro mols de etanol. Assim, o número de moléculas é 4×6,0×10²³ = 2,4×10²⁴.",
+    "support": "Redação adaptada para estudo; dados, numeração e ordem das alternativas preservados. Consulte a redação original e os textos integrais no caderno oficial.",
+    "support_image": null
+  },
+  {
+    "number": 20,
+    "subject": "Química",
+    "text": "Estime ΔH para CH₄(g) + 2 O₂(g) → CO₂(g) + 2 H₂O(g), usando energias de ligação em kJ/mol: C–H = 412; O=O = 498; C=O = 799; O–H = 463.",
+    "options": [
+      "−806 kJ/mol",
+      "−235 kJ/mol",
+      "−120 kJ/mol",
+      "+120 kJ/mol",
+      "+806 kJ/mol"
+    ],
+    "answer": "A",
+    "explanation": "Alternativa A. A quebra das ligações consome 4×412 + 2×498 = 2 644 kJ/mol. A formação das ligações libera 2×799 + 4×463 = 3 450 kJ/mol. Logo, ΔH = energia das ligações quebradas − energia das ligações formadas = 2 644 − 3 450 = −806 kJ/mol. O sinal negativo indica reação exotérmica.",
+    "support": "Redação adaptada para estudo; dados, numeração e ordem das alternativas preservados. Consulte a redação original e os textos integrais no caderno oficial.",
+    "support_image": null
+  }
+]

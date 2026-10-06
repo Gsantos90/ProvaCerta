@@ -1,0 +1,925 @@
+ĹINGUA PORTUGUESA - Objetivas
+TEXTO 1
+FERRAMENTAS COMO CHATGPT SÓ
+EXISTEM PORQUE HUMANOS VEEM
+SENTIDO A PARTIR DE QUALQUER COISA
+TiagoTorrent
+DoutoremLingúisticapelaUniversidadeFederaldoRiode
+Janeiro.ProfessordoProgramadePós-Graduaçãoem
+LingúisticadaUniversidadeFederaldeJuizdeForae
+CoordenadordoLaboratórioFrameNetBrasil.Bolsistade
+ProdutividadedoCNPq.
+Fato: ferramentas de inteligência artificial
+(IA) gerativa estão revolucionando o mundo.
+Dentre elas, o ChatGPT é a mais popular.
+Entender o que ele tem de especial passa
+por dois vieses: o da computação e o da
+lingúistica.
+Do ponto de vista computacional,
+a inovação do ChatGPT é como ele
+combina o modelo de ĺingua que constrói
+durante o treinamento com uma versão da
+“Aprendizagem de Reforço por Feedback
+Humano”.
+Essatécnicausaavaliaçõeshumanaspara
+auxiliar a IA no processo de cálculo da perda
+entreaquiloquefoieaquiloquedeveriatersido
+gerado por ela como resposta mais provável
+a um determinado comando. Cada vez que
+selecionamos hidrantes em um captcha, ou
+avaliamos uma tradução automática, estamos
+ajudando a IA a se recalibrar para diminuir a
+perda.
+O ChatGPT escalonou – e muito – essa
+ideia. Em vez de confiar só na avaliação
+dos usuários, essa ferramenta usou uma
+quantidade absurda – e mal remunerada –
+de avaliações humanas acerca da fluência do
+texto produzido. Assim, o modelo de IA por
+trás do ChatGPT foi recalibrado a partir de
+uma infinidade de feedbacks humanos. Qual
+o impacto disso? Aqui entra o viés lingúistico.
+Essa IA, que foi treinada e recalibrada
+para gerar sequências de texto que pareçam
+fluentes, é usada por humanos cuja cognição
+evoluiu para construir sentido a partir de
+qualquer pista. [...] Construir sentido a partir
+depistaslingúisticasé abasedacomunicação
+humana. Toda ĺingua é composta de śimbolos
+que unem uma forma – por exemplo, trem – a
+um ou mais significados – meio de transporte
+ferroviárioou,sevocê formineiro,virtualmente
+qualquer coisa.
+Página
+Quando conversamos com alguém,
+nós nos engajamos em um processo de
+reconstrução do sentido pretendido por esse
+alguém.
+ParausaraspalavrasdeGillesFauconnier,
+linguista cognitivista, “a ĺingua não porta
+significado, mas o guia”, o que significa dizer
+que as formas lingúisticas, por si só, não são
+garantidoras da interpretação. É necessário
+que quem ouve ou lê uma sequência de
+palavras seja capaz de dar sentido àquele
+conjuntodepistas,apartirdeconhecimentode
+mundo compartilhado.
+Há, ainda, o Prinćipio da Cooperação,
+propostoporPaulGrice–filósofodalinguagem
+responsável por importantes contribuições
+para o estudo do significado. Segundo Grice,
+quando nos engajamos em uma conversa,
+nós pressupomos que nosso interlocutor é
+cooperativo. Emoutraspalavras,pressupomos
+que ele está nos dando toda a informação
+necessária,queessainformaçãoé verdadeira,
+relevante e que está sendo apresentada da
+forma mais adequada posśivel.
+É na combinação desses dois aspectos
+que reside o grande impacto do ChatGPT:
+quandolemosasequênciadepalavrasgerada
+por essa IA, nossa cognição “treinada” para
+construir significado a partir de qualquer pista
+e para aderir ao prinćipio da cooperação vai
+achar uma maneira de essa sequência fazer
+sentido. Esseé oprincipalriscoqueIAsdesse
+tipo trazem.
+A fluência das sequências geradas por
+essas IAs desencadeia um processo de
+antropomorfização comunicativa que foi
+batizado de Efeito Eliza, em homenagem ao
+primeiro chatbot.
+Esse efeito consiste em, a partir da
+projeção da nossa capacidade cognitiva para
+a IA, atribuir a ela uma capacidade que não
+tem: nesse caso, a de produzir sequências
+lingúisticas sabendo o que significam.
+É como se nós julgássemos que o
+ChatGPT sabe o que diz. Entretanto, o
+sentido de uma sequência gerada por uma IA
+desse tipo só existe porque nós, humanos, o
+constrúimos quando lemos o texto. [...]
+A inteligência artificial generativa (como o
+ChatGPT)nãoentendeoquediz—elaapenas
+produz sequências lingúisticas com aparência
+fluente. O sentido dessas sequências é
+constrúido pelos humanos, cujas capacidades
+cognitivas e lingúisticas estão baseadas em
+prinćipios de interpretação e cooperação.
+Assim, o risco das IAs está na forma como
+1 de 17
+nós interpretamos seus outputs, e não nelas
+mesmas.
+Dispońivelem:https://www1.folha.uol.com.br/tec
+/2023/07/ferramentas-como-chatgpt-so-existem-porque-humanos
+-veem-sentido-a-partir-de-qualquer-coisa.shtml.Acessoem30
+jun.2025(adaptado).
+QUESTÃO 1.
+Tomando como referência o Texto 1, podemos
+afirmar que o autor defende que
+(A) a inteligência artificial generativa não
+entende o que diz; nós, humanos, é que
+projetamos sentido ao que ela gera, a
+partir do prinćipio de cooperação e da
+interpretação de pistas lingúisticas.
+(B) a inteligência artificial generativa, cada
+vez mais, entende o que é gerado em
+seusprogramas,masé preciso“recalibrar”
+corretamente as informações para que os
+textos façam sentido.
+(C) apartirdoviéscomputacionalelingúistico,
+a IA produz textos que os humanos
+nem sempre conseguem produzir, pois
+programas como ChatGPT são treinados
+e calibrados o tempo todo.
+(D) asIAquegeramtextoseimagens,embora
+saibam o sentido do que produzem,
+alimentam-se das informações de seus
+usuários,deixandoosprogramascadavez
+melhores.
+(E) o impacto das inteligências artificiais
+na humanidade ainda não pode ser
+calculado, mas as sequências lingúisticas
+produzidas por ChatGPT estão cada vez
+mais fluentes.
+Página
+QUESTÃO 2.
+O uso de duas citações no Texto 1 – de Gilles
+Fauconnier e Paul Grice – tem como objetivo
+(A) defender que a ĺingua não é um conjunto
+de pistas para interpretação, mas um
+mecanismo de transmissão direto de
+sentidos.
+(B) destacar que a Lingúistica, como ciência
+da linguagem, é a área mais importante
+para a concepção das IA.
+(C) exemplificar, a partir de duas citações,
+como a Lingúistica pode colaborar para o
+aprimoramento do ChatGPT.
+(D) fundamentar o ponto de vista acerca da
+importânciadosaspectoslingúisticospara
+a análise sobre o funcionamento das IA.
+(E) mostrar que não cabem aos seres
+humanos as interpretações decorrentes
+dos textos produzidos por IA, citando dois
+pensadores da área.
+QUESTÃO 3.
+Releia o trecho do nono parágrafo do Texto
+1, “Ferramentas como ChatGPT só existem
+porque humanos veem sentido a partir de
+qualquer coisa”, de Tiago Torrent.
+“É na combinação desses dois aspectos
+que reside o grande impacto do ChatGPT:
+[...].”
+A expressão “desses dois aspectos” refere-se
+(A) à capacidade humana de interpretação a
+partir de pistas lingúisticas e ao Prinćipio
+de Cooperação.
+(B) à ordem de palavras formadas por IA e
+à cognição “treinada” para não produzir
+significado a partir de pistas.
+(C) à técnica de “Aprendizagem de Reforço
+porFeedbackHumano”eà capacidadede
+calibragem do ChatGPT.
+(D) aoviéscomputacionaleaoviéslingúistico
+da criação do ChatGPT e outras IA
+generativas.
+(E) aos riscos que as IA podem trazer
+e ao processo de antropomorfização
+comunicativa.
+2 de 17
+TEXTO 2
+PESSOAS BUSCAM INTELIGÊNCIA
+ARTIFICIAL PARA CONVERSAR E ALIVIAR
+SOFRIMENTO PŚIQUICO
+Tecnologia pode ajudar, mas especialistas
+apontam riscos e afirmam que ferramenta não
+substitui um terapeuta
+Site do Jornal Folha de São Paulo
+folha.com/equilibrio
+Três anos após a chegada do ChatGPT
+ao páis, os brasileiros recorrem a soluções de
+inteligênciaartificial(IA)paradiversosfins,seja
+na escola, na universidade, no trabalho ou na
+vidapessoal,inclusiveparalidarcomquestões
+muito humanas, como o sofrimento pśiquico.
+A OMS (Organização Mundial da Saúde)
+estima que cerca de 300 milhões de pessoas
+no mundo sofram com depressão. Somado
+a isso há o uso excessivo de ḿidias digitais,
+fenômeno que reflete a sociedade em que
+vivemos. “Estamos fragmentados, isolados,
+não encontramos nas pessoas relações que
+nos satisfazem. A nossa sociedade não
+dá conforto para ninguém e vivemos em
+tensão permanente”, avalia Glauco Arbix,
+sociólogo e professor titular do Departamento
+de Sociologia da USP.
+É nesse cenário que os brasileiros estão
+recorrendo à tecnologia, mais precisamente
+à IA, para suprir suas necessidades
+psicológicas.
+Além do ChatGPT, usado por muita
+gente que deseja desabafar, ferramentas
+espećificas já foram criadas para dar suporte
+emocional. Em agosto de 2024, a empresa
+de telemedicina Vibe Saúde lançou a Vivi,
+“assistente de IA em saúde mental” que hoje
+conta com 16 mil usuários.
+IA é usada para terapia e suporte emocional -
+Catarina Pignato.
+Página
+A IA avalia as mensagens enviadas pelo
+usuário e sugere um ciclo de cuidado de
+seis semanas que segue as técnicas da
+terapia cognitivo-comportamental. De acordo
+com Felipe Cunha, presidente e cofundador
+da empresa, os protocolos foram criados
+por profissionais de saúde, e há ainda uma
+plataforma de segurança cĺinica que funciona
+como uma auditora em tempo real e “pode
+bloquear uma mensagem que tenha uma
+conduta cĺinica não aceitável por parte da
+inteligência artificial”.
+Após oferecer o ciclo terapêutico de seis
+semanas,aViviindicaposśiveissoluçõespara
+as questões levantadas e diz que o contato
+pode ser retomado a qualquer momento.
+Se o usuário não precisar da assistência
+ao longo dos dias, na semana seguinte a
+própria IA envia uma mensagem no dia e
+horário previamente combinados. A partir de
+fevereiro o serviço será cobrado — R$ 2,50
+porumpacotede30mensagensenviadaspelo
+usuário, em texto ou áudio.
+“Ela [Vivi] não é uma profissional, não
+substitui o psicólogo e não passa nenhum
+tipo de diagnóstico ou medicamentos. É
+uma assistente de suporte emocional para
+suplementar o trabalho dos profissionais de
+saúde”, ressalta Cunha.
+Alicie Camargo, publicitária de 27 anos,
+conta que usa o ChatGPT em momentos de
+ansiedade. Ela avalia que a interação é,
+em geral, positiva — por exemplo quando a
+ferramenta a ajuda a acertar o tom de uma
+mensagem que deseja enviar a alguém e
+não sabe como, quando indica exerćicios de
+respiração em momentos de crise e quando
+apontaalgoqueelanãoenxergariasozinhaem
+uma situação.
+“Mas eu entendo as limitações”, diz ela,
+citando sugestões oferecidas pela IA que não
+condizem com a sua personalidade. “Se o
+problema for cobrar alguém, óbvio que ele
+[ChatGPT] vai dar a solução de cobrar a
+atitude, mas emocionalmente eu não estaria
+pronta para isso. Então o conselho não me
+serviu de nada”.
+A publicitária sabe que a tecnologia não
+substitui o trabalho de um profissional da
+psicologia. “Inclusive estou procurando um.”
+Um ambiente digital dispońivel 24 horas
+por dia pode oferecer aĺivio em momentos de
+solidão,maspesquisadoresalertamparaofato
+de que essas tecnologias são novas e seus
+efeitos ainda não são conhecidos. “Se as
+pessoas podem acessar algo que as fará se
+3 de 17
+sentir menos solitárias porque escutam o que
+elas têm a dizer, é algo positivo. Mas, a longo
+prazo,nãosabemosaindaseé algorealmente
+bom”, afirma Christopher Wagstaff, professor
+sênior na Universidade de Birmingham e autor
+do artigo “Inteligência Artificial e as relações
+terapêuticas na saúde mental”.
+“Eu gostaria de acreditar que isso nunca
+irá substituir a interação humana”, acresenta
+Wagstaff, citando “programas que têm rostos
+que fingem ouvir, se importar e fazer contato
+visual de forma empática”.
+L., jornalista e redatora publicitária de
+21 anos que não quis se identificar, conta
+que conseguiu contornar o problema das
+respostas genéricas da tecnologia de forma
+prática. Acostumada a usar tanto o ChatGPT
+quanto o Google AI Studio na faculdade e no
+trabalho,eladizquedesenvolveutécnicaspara
+aprimorar os comandos e, consequentemente,
+as respostas do robô.
+A jovem começou a usar o chatbot para
+suporteemocionalduranteumpeŕiododeluto,
+após a psicóloga com quem se consultava
+haviacincoanosmorrer. Eladizserconsciente
+dosriscosqueaIApodetrazer,mascontaque
+na época foi o único recurso que se via capaz
+deutilizar,já quenãoconseguiaprocuraroutro
+terapeuta. Depois de quatro meses usando
+a ferramenta, L. diz que se sentiu bem o
+suficienteparaprocurartratamentopsicológico
+e psiquiátrico, retomado há três meses.
+Dispońivelem:https://www1.folha.uol.com.br/
+equilibrio/2025/01/pessoas-buscam-inteligencia-artificial-para
+-conversar-e-aliviar-sofrimento-psiquico.shtml.Acessoem:25
+jun.2025.
+QUESTÃO 4.
+Sobre o uso de IA para terapia e suporte
+emocional, o Texto 2, “Pessoas buscam
+inteligência artificial para conversar e aliviar
+sofrimento pśiquico”, apresenta:
+(A) apenas relatos neutros.
+(B) aspectos positivos e negativos.
+(C) estritamente uma cŕitica.
+(D) exclusivamente uma longa justificativa.
+(E) somente dados quantitativos negativos.
+Página
+QUESTÃO 5.
+Em relação ao primeiro e segundo parágrafos
+do Texto 2, o terceiro parágrafo – “É nesse
+cenário que os brasileiros estão recorrendo à
+tecnologia,maisprecisamenteà IA,parasuprir
+suas necessidades psicológicas” – estabelece
+uma relação de:
+(A) conclusão parcial.
+(B) contraposição total.
+(C) exemplificação pessoal.
+(D) justificativa subsequente.
+(E) ressalva comedida.
+LITERATURA - Objetivas
+TEXTO 1
+Mar e lua
+Chico Buarque
+Amaram o amor urgente
+As bocas salgadas pela maresia
+As costas lanhadas pela tempestade
+Naquela cidade
+Distante do mar
+Amaram o amor serenado
+Das noturnas praias
+Levantavam as saias
+E se enluaravam de felicidade
+Naquela cidade
+Que não tem luar
+Amavam o amor proibido
+Pois hoje é sabido
+Todo mundo conta
+Que uma andava tonta
+Grávida de lua
+E outra andava nua
+Ávida de mar
+E foram ficando marcadas
+Ouvindo risadas, sentindo arrepios
+Olhando pro rio tão cheio de lua
+E que continua
+Correndo pro mar
+E foram correnteza abaixo
+Rolando no leito
+Engolindo água
+Boiando com as algas
+Arrastando folhas
+4 de 17
+Carregando flores
+E a se desmanchar
+E foram virando peixes
+Virando conchas
+Virando seixos
+Virando areia
+Prateada areia
+Com lua cheia
+E à beira-mar
+Fonte:BUARQUE,Chico.Marelua.In:Vida.RiodeJaneiro:
+PolygramPhilips,1980.
+Glossário:
+Seixos: pedras pequenas, geralmente
+arredondadas.
+QUESTÃO 6.
+Em relação à canção “Mar e lua” (Texto 1),
+de Chico Buarque, assinale a alternativa que
+representa uma interpretação adequada aos
+versos destacados.
+(A) A canção aborda a homoafetividade
+através das metáforas do rio e do mar,
+representando as figuras das amantes,
+conforme indicam os versos “Naquela
+cidade / Distante do mar / (...) / Que não
+tem luar”.
+(B) A canção aborda a homoafetividade
+apresentando um desfecho feliz para o
+relacionamento das amantes, conforme
+indicam os versos “E foram correnteza
+abaixo / Rolando no leito / Engolindo
+água”.
+(C) A canção aborda a homoafetividade e
+o preconceito social, conforme indicam
+os versos “E foram ficando marcadas
+/ Ouvindo risadas, sentindo arrepios /
+Olhando pro rio tão cheio de lua”.
+(D) A canção aborda a homoafetividade,
+deixando evidente a traição amorosa de
+uma das amantes, conforme indicam os
+versos “Todo mundo conta / Que uma
+andavatonta/Grávidadelua/(...) /Ávida
+de mar”.
+(E) A canção aborda a homoafetividade
+a partir da construção de elementos
+validados pela sociedade representada
+na letra, conforme indicam os versos
+“Amavam o amor proibido / Pois hoje é
+sabido/ todo mundo conta”.
+Página
+TEXTO 2
+Arpejos
+Ana Cristina Cesar
+1
+Acordei com coceira no h́imen. No bidê com
+espelhinho examinei o local. Não surpreendi
+ind́icios de moléstia. Meus olhos leigos na
+certa não percebem que um rouge a mais tem
+significado a mais. Passei pomada branca até
+queapele(rugosaemurcha)ficassebrilhante.
+Com essa murcharam igualmente projetos de
+ir de bicicleta à ponta do Arpoador. O selim
+poderia reavivar a irritação. Em vez disso
+decidi me dedicar à leitura.
+2
+Ontem na recepção virei inadvertidamente à
+cabeçacontraobeijodesaudaçãodeAntônia.
+Senti na nuca o bafo seco do susto. Não havia
+como desfazer o engano. Sorrimos o resto da
+noite. Falo o tempo todo em mim. Não deixo
+Antônia abrir sua boca de lagarta beijando
+para sempre o ar. Na sáida nos beijamos de
+acordo, dos dois lados. Aguardo crise aguda
+de remorso.
+3
+A crise parece controlada. Passo o dia a
+recordar o gesto involuntário. Represento a
+cena ao espelho. Viro o rosto à minha própria
+imagem sequiosa. Depois me volto, procuro
+nos olhos dela signos de decepção. Mas
+Antônia continuaria inexorável. Saio depois
+de tantos ensaios. O movimento das rodas me
+desanuvia os tendões duros. Os navios me
+iluminam. Pedalo de maneira insensata.
+Fonte:CESAR,AnaCristina.Cenasdeabril(1979).In:
+CESAR,AnaCristina.Poética.SãoPaulo:Companhiadas
+Letras:2013,p.26.
+Glossário:
+Selim: banco da bicicleta
+5 de 17
+QUESTÃO 7.
+Arpejos são execuções sucessivas de notas
+que compõem um acorde musical. O acorde,
+por sua vez, implica a execução simultânea de
+todas essas notas a comporem uma estrutura
+harmônica.
+Tendoemvistaesseesclarecimentoinicial,nas
+três partes do poema de Ana Cristina Cesar
+(Texto 2), o t́itulo pode ser justificado a partir
+da temática
+(A) antagônica, já que a atração por Antônia
+não encontra reciprocidade.
+(B) conflitante, que aponta para a vergonha
+feminina diante do próprio corpo.
+(C) excludente, em que a voz poética se
+sobrepõe às respostas de Antônia.
+(D) relacional, em que o esporte é colocado
+em contraste com a vida amorosa.
+(E) semelhante,quesugereumarepresentação
+do desejo feminino.
+QUESTÃO 8.
+Ana Cristina Cesar foi uma poeta que
+esteve associada à poesia marginal dos anos
+1970 no Brasil. Conhecida também como
+Geração Mimeógrafo, muitos de seus poetas
+divulgavam os projetos literários fora dos
+parâmetros do mercado editorial.
+Apartirdaleituradopoema“Arpejos”(Texto 2),
+compreende-se que essa vinculação à poesia
+marginal se dá por
+(A) cadência ritmada dos versos e controle
+dos significados atribúidos ao texto
+poético.
+(B) caráter prosaico dos versos e
+representação do cotidiano da juventude
+urbana da época.
+(C) conflito que se faz entre prosa e poesia e
+ineditismo do tema da homoafetividade.
+(D) esgotamento das formas fixas no século
+XX e uso imoderado de figuras de
+linguagem.
+(E) recusa de produzir poemas tradicionais e
+tom moralista que incide sobre a temática.
+Página
+TEXTO 3
+O que é a HISTÓRIA DOCINHA
+A HISTÓRIA DOCINHA é uma marca de
+açúcar português. Foi criada com o propósito
+de adocicar as conversas sobre a colonização
+portuguesa.
+Tem o poder de adocicar ou ameigar tudo:
+genoćidio, escravização, casamento forçado,
+violação, pedofilia, imposição religiosa,
+lingúistica e cultural, trabalho forçado, invasão,
+saque, destruição ambiental ou a suspensão
+do futuro do Outro.
+O formato da HISTÓRIA DOCINHA, que é o
+formatodopacoteregulardeaçúcareajustável
+ao pires e x́icara de café portugueses, nem
+sempre foi assim. Começou por ser um stick,
+mas como ninguém em Portugal e ilhas sabia
+abri-lo corretamente, a companhia optou por
+reproduzir o formato retangular.
+Desde então os pacotes de HISTÓRIA
+DOCINHA, que têm um design muito familiar
+paraosportugueses,incluem,à vez,cadauma
+das32figurasdoPadrãodosDescobrimentos.
+Como usar a HISTÓRIA DOCINHA
+1. Os pacotes HISTÓRIA DOCINHA devem
+ser apenas usados em situações de grande
+constrangimento, exaltação ou nervosismo.
+Para todas as idades.
+Fonte:LINO,Patŕicia.Okitdesobrevivênciadodescobridor
+portuguêsnomundoanticolonial.JuizdeFora:Edições
+Macondo,2020.
+Glossário:
+Stick: recipientedepapelouplástico;pequeno
+pacote de açúcar, sal, adoçante etc.
+Padrão dos Descobrimentos: composto
+por figuras de homens que participaram
+das navegações e, consequentemente, do
+processo de colonização.
+6 de 17
+QUESTÃO 9.
+Patŕicia Lino é uma poeta portuguesa
+contemporânea cuja obra envolve o diálogo
+permanente com outras artes e regimes
+discursivos. Nolivro “Okitdesobrevivênciado
+descobridor português no mundo anticolonial”,
+Lino aborda, de modo singular, a história da
+colonização portuguesa e os seus reflexos no
+mundo atual.
+Com base no fragmento lido (Texto 3), é
+posśivel afirmar que a cŕitica da autora
+(A) configura um retrato impreciso da
+colonizaçãoportuguesa,umavezquenão
+há dados históricos suficientes na história
+que sustentem o texto.
+(B) direciona o olhar para a permanência do
+discursoquetendeamascararaspráticas
+eosefeitosoriundosdaexpansãocolonial
+portuguesa.
+(C) elabora um discurso difamatório que
+depõe contra os méritos incontestáveis
+dos “descobrimentos” promovidos pela
+nação portuguesa.
+(D) seleciona fatos históricos que deixam
+entrever, no texto, sua postura favorável e
+condescendenteemrelaçãoà colonização
+portuguesa.
+(E) sinaliza a dissociação entre a marca
+portuguesa e o peŕiodo de exploração da
+colônia brasileira conhecido como ciclo da
+cana de açúcar.
+Página
+TEXTO 4
+O Kit de Sobrevivência do Descobridor
+Português no Mundo Anticolonial
+Patŕicia Lino
+O que é a PORTUGALIDADE
+A PORTUGALIDADE é uma sensação
+produzida por um est́imulo externo ou interno
+sobre um órgão sensorial e transmitida
+ao cérebro através do sistema nervoso.
+Pode manifestar-se em qualquer ex-colónia
+portuguesa de modo visual, auditivo, táctil,
+gustativo, olfativo ou espacial. Esta sensação,
+que nos aproxima uns dos outros, é, ao
+mesmo tempo, o que nos distingue dos
+restantes povos do globo. Mais do que
+uma ideia e uma forma de estar civilizadora,
+a PORTUGALIDADE abre-se como uma
+promissora constelação de Estados, porque
+o mundo português é uma aliança de povos
+com um passado partilhado e um futuro em
+comum. Por esta razão, a necessidade justa
+e natural de reerguer a faḿilia das nações de
+falalusa,quesó portrágicoacasosedesfez,é
+imperativa.
+Fonte:LINO,Patŕicia.Okitdesobrevivênciadodescobridor
+portuguêsnomundoanticolonial.JuizdeFora:Edições
+Macondo,2020.
+QUESTÃO 10.
+A partir da leitura do fragmento do livro “O kit
+de sobrevivência do descobridor português no
+mundo anticolonial” (Texto 4), de Patŕicia Lino,
+infere-se que a “Portugalidade”
+(A) é um elogio que a autora tece à grandeza
+do povo português.
+(B) é um julgamento dirigido àqueles que não
+veem Portugal como uma constelação de
+estados.
+(C) é uma celebração das terras de almas
+portuguesas, como as ex-colônias de
+Portugal.
+(D) é uma cŕitica que a autora tece ao projeto
+colonial e civilizatório português.
+(E) é uma promissora constelação de
+Estados que englobam as ex-colônias
+portuguesas.
+7 de 17
+BIOLOGIA - Objetivas
+QUESTÃO 11.
+Microrganismos, plantas e animais
+considerados transgênicos são produzidos
+para expressar genes de interesse de outra
+espécie,passandoaapresentarcaracteŕisticas
+que naturalmente não possuem. De forma
+geral, os transgênicos são utilizados em
+processos industriais ou para aprimorar
+práticas agŕicolas.
+A produção de transgênicos está
+CORRETAMENTE exemplificada no processo
+de
+(A) cruzamentos entre linhagens de uma
+mesma espécie de milho resultando uma
+linhagem h́ibrida que apresenta qualidade
+superior às de origem.
+(B) incorporaçãodogenedeumabactériaque
+induz a produção de pró-toxina inseticida
+no genoma de milho, barateando o
+controle de pragas.
+(C) introduzir uma combinação de genes
+(plasḿideo) obtida de bactérias que
+metabolizam petróleo em bactérias
+marinhas para limpeza de oceanos.
+(D) plantar cultivares de trigo com diferentes
+interações com insetos numa mesma
+lavoura para garantir maior produtividade
+em caso de ataque de pragas.
+(E) produção de raças de cachorros através
+decruzamentosparaobterindiv́iduoscom
+caracteŕisticas espećificas e de interesse
+comercial.
+Página
+QUESTÃO 12.
+Ao observar diferentes organismos que se
+alimentam de néctar ou insetos em locais de
+dif́icil acesso, é posśivel notar adaptações
+morfológicas espećificas para essa função.
+A probóscide de uma borboleta e a ĺingua
+compridaepegajosadeumtamanduá servem,
+cada uma a seu modo, para alcançar o
+alimento em locais estreitos, como o interior
+de flores ou cupinzeiros. Apesar de todas
+essas estruturas serem utilizadas para obter
+alimento de maneira semelhante, pertencem
+a organismos de grupos distantemente
+aparentados na escala evolutiva.
+O processo biológico responsável pelas
+adaptações apresentadas acima é a
+(A) divergência evolutiva.
+(B) evolução convergente.
+(C) homologia.
+(D) irradiação adaptativa.
+(E) seleção artificial.
+QUESTÃO 13.
+A diversidade genética entre os indiv́iduos de
+umapopulaçãoé fundamentalparaoprocesso
+de evolução biológica.
+Esta afirmação está CORRETA porque a
+diversidade genética
+(A) elimina ou impede o surgimento de
+mutações ao longo das gerações de
+indiv́iduos dentro de uma mesma
+população.
+(B) faz com que todos os indiv́iduos dessa
+população tenham as mesmas chances
+de sobrevivência, independentemente das
+condições do ambiente.
+(C) garante que todos os indiv́iduos
+pertencentes a essa população
+expressem as mesmas caracteŕisticas
+fenot́ipicas.
+(D) impede que os indiv́iduos da população
+se adaptem a novos ambientes e evita o
+surgimento de indiv́iduos não adaptados.
+(E) permitequealgunsindiv́iduospertencentes
+à população tenham caracteŕisticas
+vantajosas em ambientes que mudam ao
+longo do tempo.
+8 de 17
+QUESTÃO 14.
+Pesquisadores estão estudando o
+desenvolvimento de variedades de certa
+espécie de feijão em uma região semiárida
+do Brasil a fim de selecionarem plantas com
+sementes de coloração escura, com maior
+resistência à radiação solar e à desidratação.
+Foi observado que a coloração das sementes
+dessa espécie era determinada pela interação
+entre os genes P e I, autossômicos e
+independentes. O gene P condiciona a
+śintese depigmentos escuros, enquantoo seu
+alelo condiciona a geração de sementes de
+cor clara. O gene I tem ação inibitória da
+pigmentação, enquanto o seu alelo permite a
+manifestação da pigmentação das sementes.
+Considerando esse padrão de herança
+genética,qualdoscruzamentosabaixooferece
+a maior probabilidade de gerar plantas com
+sementes pigmentadas, como as procuradas
+pelos pesquisadores?
+(A) IiPp × IiPp
+(B) IIPP × iipp
+(C) iiPp × iiPp
+(D) Iipp × IIPP
+(E) IiPP × Iipp
+QUESTÃO 15.
+Leia o texto a seguir.
+As fontes de energia renovável vêm sendo
+cada vez mais utilizadas em substituição às
+fontesfósseis. Noentanto,suaadoçãoenvolve
+umasériedefatoreseconômicoseambientais.
+Dispońivelem:https://encurtador.com.br/ScdVS(link
+encurtado).Acessoem:24dejun.de2025.
+Considerando os fatores econômicos e
+ambientais no texto acima,
+(A) a adoção de fontes renováveis reduz
+a emissão de gases poluentes,
+mas costuma gerar mais custos de
+manutenção do que as fontes fósseis.
+(B) aenergiaprovenientedefontesrenováveis
+é inviável economicamente, sendo
+utilizada apenas por páises ricos com
+grande disponibilidade de recursos
+naturais.
+Página
+(C) as energias renováveis ajudam a reduzir
+a emissão de gases do efeito estufa
+e, a longo prazo, podem representar
+economia, apesar dos altos custos iniciais
+de instalação.
+(D) as fontes de energias renováveis são
+isentas de qualquer impacto ambiental e
+por isso não exigem planejamento para
+sua instalação.
+(E) as fontes renováveis como a solar e
+a eólica garantem produção constante
+de energia, independentemente das
+condições climáticas.
+Matemática - Objetivas
+QUESTÃO 16.
+No plano cartesiano abaixo estão
+representados segmentos de três retas: r, s
+e t.
+As equações das retas r e s estão fornecidas
+na figura, sendo a equação da reta t da forma
+y = ax + b. Essas três retas se cruzam num
+mesmo ponto que está localizado no primeiro
+quadrante do plano cartesiano.
+Os valores dos coeficientes a e b da reta t
+devem ser tais que
+1
+(A) − < a < 1 e 2 < b < 8
+2
+(B) −1 < a < 1 e 2 < b < 8
+1
+(C) 2 < a < 8 e − < b < 1
+2
+(D) 2 < a < 8 e −1 < b < 1
+(E) −1 < a < 1 e 2 < b < 16
+9 de 17
+QUESTÃO 17.
+Quatro amigas compraram bombons em uma
+doceria. Ana comprou 2 bombons de uva,
+1 de morango, 1 de ameixa e pagou
+15 reais. Beatriz comprou 1 bombom de uva,
+1 de ameixa e pagou 8 reais. Carla
+comprou 2 bombons de morango, 1 de ameixa
+e pagou 13 reais. Já Denise comprou
+1 bombom de uva, 1 de morango e
+2 de ameixa.
+Quantos reais Denise pagou pelos bombons
+que comprou?
+(A) 12
+(B) 15
+(C) 16
+(D) 17
+(E) 21
+QUESTÃO 18.
+Considere os números x, y e z definidos por
+x = 23+log 2 5 , y = 32−log 3 5 e z = 6(log 9 4)×(log 6 3).
+O valor de x·y·z é
+(A) 52
+(B) 72
+(C) 144
+(D) 156·6(log 9 4)
+(E) 216·6(log 9 4)
+
+QUESTÃO 19.
+Uma pessoa elaborou uma playlist com 12
+músicas diferentes, das quais 2 são do gênero
+sertanejo, 4 são clássicas e 6 são do gênero
+rock. Ela programará essa playlist para tocar
+três blocos de música, sendo que, em cada
+bloco, serão tocadas todas as músicas de um
+mesmo gênero musical em ordem aleatória,
+podendoostrêsblocosdosdiferentesgêneros
+musicais serem, entre si, reproduzidos em
+qualquer ordem.
+Com essa programação feita, de quantas
+maneiras diferentes essa playlist poderá ser
+reproduzida?
+(A) 12!
+(B) 3! × 2! × 4! × 6!
+(C) 3! + 2! + 4! + 6!
+(D) 3 × 2! × 4! × 6!
+(E) 12 × 2! × 4! × 6!
+QUESTÃO 20.
+Laura pretende jantar em um restaurante com
+umgrupodedozeamigosmaiśintimos,dentre
+os quais há um casal formado por Joana e
+Pedro, para comemorar seu aniversário. Ao
+tentar fazer a reserva de uma mesa nesse
+restaurante para o dia do seu aniversário, foi
+informada que a única mesa dispońivel era
+para seis pessoas e, assim, decidiu sortear,
+dentre os doze amigos, quais os cinco que
+jantariam com ela nesse restaurante nessa
+data.
+Qual é a probabilidade de o casal Joana e
+Pedro participarem desse jantar?
+1
+(A)
+2
+1
+(B)
+11
+2
+(C)
+5
+5
+(D)
+22
+5
+(E)
+33
+10 de 17
+ĹINGUA PORTUGUESA - Discursivas
+LeiaoTexto1erespondaasquestões1e2.
+TEXTO 1
+Post do Instagram do Jornal Folha de São
+Paulo
+Dispońivelem:https://www.instagram.com/p/DFB
+uk3yTifx/?igsh=ZXdzcmgzMm1kcHJ6.Acessoem:30jun.
+2025.
+Transcrição dos textos no post:
+“Pessoas buscam inteligência artificial para
+‘conversar’ e aliviar sofrimento pśiquico”
+A OMS (Organização Mundial da Saúde)
+estima que cerca de 300 milhões de pessoas
+no mundo sofram com depressão. Somado
+a isso há o uso excessivo de ḿidias digitais,
+fenômeno que reflete a sociedade em que
+vivemos. “Estamos fragmentados, isolados,
+não encontramos nas pessoas relações que
+nos satisfazem. A nossa sociedade não
+dá conforto para ninguém e vivemos em
+tensão permanente”, avalia Glauco Arbix,
+sociólogo e professor titular do Departamento
+de Sociologia da USP. É nesse cenário que
+os brasileiros estão recorrendo à tecnologia,
+mais precisamente à IA, para suprir suas
+necessidades psicológicas.
+
+QUESTÃO 1.
+A partir da interpretação da temática da
+imagem, do t́itulo e da legenda do Texto 1,
+produzaumparágrafo,simulandoumcomando
+direcionado a um programa de Inteligência
+Artificial (IA). Este parágrafo precisa: ser
+escrito em primeira pessoa do singular,
+utilizar um vocativo e conter uma introdução,
+contextualizando uma situação problema e,
+ao final, uma pergunta, pedindo para a IA
+sugestões de resolução.
+QUESTÃO 2.
+O Texto 2, “Pessoas buscam inteligência
+artificial para conversar e aliviar sofrimento
+pśiquico”, apresentado na prova objetiva
+de Ĺingua Portuguesa, e o texto 1 da
+prova discursiva de Ĺingua Portuguesa,
+post do Instagram da Folha de São Paulo,
+compartilham uma imagem e veiculam o
+mesmo assunto, mas de maneiras diferentes
+emfunçãodaḿidiadesuporte/veiculaçãoedo
+objetivo de comunicação de cada um. A partir
+dessas informações e explorando os próprios
+textos, responda:
+Qual o principal objetivo de comunicação do
+post do Instagram da Folha de São Paulo em
+relação ao texto 2 da prova objetiva, cujo t́itulo
+é “Pessoas buscam inteligência artificial para
+‘conversar e aliviar’ sofrimento pśiquico”?
+11 de 17

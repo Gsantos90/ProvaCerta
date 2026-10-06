@@ -5,7 +5,7 @@
 -- arquivos que ainda precisam ser adicionados em /public (nomes sugeridos abaixo).
 
 insert into public.exams (slug, title, source, year)
-values ('pism-2023-1', 'PISM 2023-1', 'pism', '2023-1')
+values ('pism-2023-1', 'PISM I 2024 - 1º dia', 'pism', '2024-1')
 on conflict (slug) do update set title = excluded.title;
 
 -- ============================================================

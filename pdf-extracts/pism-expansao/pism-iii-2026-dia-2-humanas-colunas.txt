@@ -1,0 +1,1181 @@
+
+=== PDF 3 ===
+F´ısica - Objetivas
+QUESTA˜O 1.
+Imagine um pro´ton atingindo a magnetosfera
+comumcertoaˆngulo,comomostradonafigura
+abaixo. A ampliac¸a˜o da regia˜o retangular
+destacada mostra, de uma forma simplificada,
+a situac¸a˜o na qual estamos interessados:
+um campo magne´tico uniforme, apontando no
+sentido positivo de y, e o vetor velocidade (⃗v)
+forma um aˆngulo de 30° com o eixo y, a` sua
+esquerda.
+Sobre a trajeto´ria da part´ıcula, considerando
+um campo
+magne´tico uniforme, indique a opc¸a˜o
+CORRETA.
+(A) Apart´ıculaincidentena˜osofrera´ mudanc¸a
+em sua trajeto´ria e ira´ manter seu
+movimento retil´ıneo inicial.
+(B) A trajeto´ria da part´ıcula sera´ em forma
+de espiral em direc¸a˜o ao polo norte
+geogra´fico e, em relac¸a˜o a` posic¸a˜o
+mostrada na figura, a part´ıcula ira´ girar
+inicialmente para dentro da folha.
+(C) A trajeto´ria da part´ıcula sera´ em forma
+de espiral em direc¸a˜o ao polo norte
+geogra´fico e, em relac¸a˜o a` posic¸a˜o
+mostrada na figura, a part´ıcula ira´ girar
+inicialmente para fora da folha.
+(D) A trajeto´ria da part´ıcula sera´ um c´ırculo
+e, em relac¸a˜o a` posic¸a˜o mostrada na
+figura, a part´ıcula ira´ girar inicialmente
+para dentro da folha.
+(E) A trajeto´ria da part´ıcula sera´ um c´ırculo e,
+em relac¸a˜o a` posic¸a˜o mostrada na figura,
+a part´ıcula ira´ girar inicialmente para fora
+da folha.
+Pa´gina
+QUESTA˜O 2.
+A figura abaixo ilustra um fio condutor
+posicionado acima de uma bu´ssola, distante
+de alguns poucos cent´ımetros dela. Em
+um primeiro momento na˜o existe corrente
+passando pelo fio e o ponteiro da bu´ssola
+aponta para uma posic¸a˜o entre os indicadores
+1 e 2, como mostrado na figura, em direc¸a˜o
+ao polo norte geogra´fico da Terra. Em um
+segundo momento, uma corrente i e´ aplicada
+ao fio, com o sentido da esquerda para a
+direita.
+Considerando que o campo magne´tico
+induzido pela corrente em suas redondezas e´
+muito maior que o campo magne´tico terrestre,
+qual sera´ a nova orientac¸a˜o do ponteiro da
+bu´ssola apo´s o acionamento da corrente
+ele´trica?
+(A) O ponteiro apontara´ para a posic¸a˜o 1.
+(B) O ponteiro apontara´ para a posic¸a˜o 2.
+(C) O ponteiro apontara´ para a posic¸a˜o 3.
+(D) O ponteiro apontara´ para a posic¸a˜o 4.
+(E) O ponteiro permanecera´ na mesma
+posic¸a˜o indicada na figura.
+1 de 17
+
+=== PDF 4 ===
+QUESTA˜O 3.
+Recentemente, o carro ele´trico foi inserido
+nos mercados mundo afora. No entanto,
+o princ´ıpio de funcionamento de um motor
+ele´tricoexistedesdeose´culoXIXapartirdalei
+de Faraday-Neumann. No Brasil, por exemplo,
+o primeiro bonde ele´trico foi inaugurado em
+1892.
+A figura abaixo ilustra um motor ele´trico
+simples, que consiste em uma espira cuja
+a´rea esta´ no plano do papel e posicionada
+entre os polos norte (N) e sul (S) de um ima˜
+permanente, e por onde passa uma corrente
+i. E´ necessa´rio que a espira fique girando
+permanentemente na mesma direc¸a˜o.
+Sobre as condic¸o˜es de funcionamento deste
+motor e o movimento da espira a partir da
+posic¸a˜oinicialesentidodacorrentemostrados
+na figura, marque a alternativa CORRETA.
+(A) A corrente deve ter um sentido u´nico e a
+sec¸a˜odaespiraidentificadapelaletraAira´
+semovimentarinicialmenteparadentrodo
+plano do papel.
+(B) A corrente deve ter seu sentido invertido
+sempre que o plano da espira for
+perpendicularaoplanodopapeleasec¸a˜o
+da espira identificada pela letra A ira´
+se movimentar inicialmente para fora do
+plano do papel.
+(C) A corrente deve ter seu sentido invertido
+sempre que o plano da espira for
+perpendicularaoplanodopapeleasec¸a˜o
+da espira identificada pela letra A ira´ se
+movimentar inicialmente para dentro do
+plano do papel.
+(D) A corrente deve ter seu sentido invertido
+sempre que o plano da espira estiver
+no plano do papel e a sec¸a˜o da espira
+identificada pela letra A ira´ se movimentar
+inicialmente para fora do plano do papel.
+(E) A corrente deve ter seu sentido invertido
+sempre que o plano da espira estiver
+no plano do papel e a sec¸a˜o da espira
+identificada pela letra A ira´ se movimentar
+inicialmente para dentro do plano do
+papel.
+Pa´gina
+QUESTA˜O 4.
+O efeito fotoele´trico e´ um fenoˆmeno quaˆntico
+descobertoacidentalmentepelof´ısicoHeinrich
+Hertz ao final do se´culo XIX. A investigac¸a˜o
+deste efeito foi enta˜o complementada pelos
+f´ısicos Philipp Lenard e finalizada por Albert
+Einstein. Einstein ganhou o Preˆmio Nobel de
+F´ısica em 1905 por este trabalho.
+PhilippLenardconstruiuumsistemacomduas
+placas meta´licas submetidas a uma diferenc¸a
+depotencialnointeriordeumaampoladevidro
+mantida no va´cuo. Externamente, uma fonte
+de luz foi direcionada para uma das placas e,
+com um microamper´ımetro, a corrente ele´trica
+circulando no sistema foi medida. A figura
+abaixo ilustra este sistema.
+Fonte:Modernasuperac¸a˜o!F´ısica/R.H.Doca,R.Fogo;editor
+resp.F.M.Leonardo;1.ed.Moderna,2024,p.420.
+Emrelac¸a˜oaoefeitofotoele´trico,considerando
+o sistema descrito acima, marque a alternativa
+CORRETA.
+(A) A energia cine´tica ma´xima adquirida pelo
+ele´tron emitido e´ influenciada tanto pela
+intensidade como pelo comprimento de
+onda da luz emitida.
+(B) Emumasituac¸a˜oondealuzincidentena˜o
+gera corrente ele´trica no sistema, deve-se
+aumentar a intensidade do feixe de luz
+para que o efeito fotoele´trico ocorra.
+(C) Quantomaioraintensidadedofeixedeluz
+incidente, maior a corrente medida.
+(D) Quantomaioraintensidadedofeixedeluz
+incidente,maioraenergiacine´ticama´xima
+adquirida pelo ele´tron emitido.
+(E) Quanto maior o comprimento de onda
+da luz incidente, maior a energia cine´tica
+ma´xima adquirida pelo ele´tron emitido.
+2 de 17
+
+=== PDF 5 ===
+QUESTA˜O 5.
+As leis de Newton (1643-1727) fornecem
+descric¸a˜o precisa e u´til para situac¸o˜es
+de corpos que viajam com velocidades
+relacionadas ao nosso cotidiano, como,
+por exemplo, em velocidades de meios de
+transporte terrestre. No entanto, conforme
+a velocidade de um corpo se aproxima da
+velocidadedaluz,essasleiscomec¸amafalhar
+enecessitamosusarateoriadarelatividadede
+Einstein (1879-1955).
+CombasenateoriadarelatividadedeEinstein,
+selecione a alternativa CORRETA.
+(A) As leis da F´ısica sa˜o diferentes em
+relac¸a˜o a dois referenciais inerciais com
+velocidades distintas.
+(B) A velocidade da luz no va´cuo varia
+dependendodavelocidadedoobservador.
+(C) O espac¸o sera´ menor para quem esta´
+em movimento com velocidade pro´xima
+a` velocidade da luz em relac¸a˜o a um
+observador em repouso.
+(D) O tempo passa mais ra´pido para quem
+esta´ em movimento com velocidade
+pro´xima a velocidade da luz em relac¸a˜o a
+um observador em repouso.
+(E) Um corpo qualquer pode se movimentar
+com velocidade acima da velocidade da
+luz no va´cuo.
+QU´IMICA - Objetivas
+A tabela perio´dica se encontra ao final da
+prova
+Pa´gina
+QUESTA˜O 6.
+Durante uma investigac¸a˜o experimental,
+estudantes compararam a velocidade de
+reac¸a˜oentrecomprimidosefervescentes,a´gua
+e vinagre. Para isso, repetiram a reac¸a˜o
+variando o volume de vinagre, a temperatura
+daa´guaeoscomprimidosinteirosetriturados.
+Qual alternativa descreve CORRETAMENTE
+os fatores que influenciaram a velocidade da
+reac¸a˜o observada pelos estudantes?
+(A) A elevac¸a˜o da temperatura diminuiu a
+frequeˆncia das coliso˜es entre reagentes e
+diminuiu a velocidade da reac¸a˜o.
+(B) A elevac¸a˜o da temperatura e da superf´ıcie
+de contato aumentou as coliso˜es e
+aumentou a velocidade da reac¸a˜o.
+(C) A variac¸a˜o da concentrac¸a˜o do vinagre
+na˜o afetou a velocidade da reac¸a˜o.
+(D) O aumento da massa total dos reagentes
+alterou a velocidade da reac¸a˜o.
+(E) O uso de comprimido inteiro acelerou
+a velocidade da reac¸a˜o por aumentar a
+superf´ıciedecontatoemcomparac¸a˜ocom
+o comprimido triturado.
+QUESTA˜O 7.
+Duranteamanutenc¸a˜odeestruturasmeta´licas
+expostas a` umidade, uma equipe te´cnica
+observou a formac¸a˜o de oxidac¸a˜o em suas
+superf´ıcies. Esse processo ocorre por uma
+reac¸a˜o de oxirreduc¸a˜o, em que o metal doa
+ele´trons ao reagir com espe´cies oxidantes,
+sendo convertido em´ıons.
+Qual equac¸a˜o a seguir representa
+CORRETAMENTEumareac¸a˜odeoxirreduc¸a˜o
+balanceada?
+(A) Fe (s) +2 O (g) → FeO (s)
+2 2
+(B) 2 Fe (s) + 3 O (g) → 2 Fe O (s)
+2 3 4
+(C) Fe(s) + Cu2+ (aq) → Fe2+ (aq) + Cu(s)
+(D) Cu (s) + 2 H+ (aq) → Cu2+ (aq) +
+H O (ℓ)
+2
+(E) Zn (s) + Cℓ (g) → ZnCl (s)
+2
+3 de 17
+
+=== PDF 6 ===
+QUESTA˜O 8.
+Durante a s´ıntese da amoˆnia pelo processo
+de Haber-Bosch, utiliza-se um catalisador
+meta´lico para acelerar a reac¸a˜o entre
+nitrogeˆnio e hidrogeˆnio.
+N (g) + 3 H (g) ⇌ 2 NH (g) ∆H < 0
+2 2 3
+Considerando as teorias sobre equil´ıbrio
+qu´ımico, e´ CORRETO afirmar que o
+catalisador
+(A) acelera a reac¸a˜o direta e retarda a
+reac¸a˜o inversa, favorecendo a formac¸a˜o
+de produtos.
+(B) aumenta a velocidade de ambas as
+reac¸o˜es (direta e inversa), sem alterar a
+posic¸a˜o do equil´ıbrio.
+(C) consome parte dos reagentes,
+promovendo um novo equil´ıbrio mais
+favora´vel aos produtos.
+(D) desloca o equil´ıbrio qu´ımico para o lado
+queliberacalor,aumentandoorendimento
+da reac¸a˜o.
+(E) diminui a energia dos reagentes e, por
+isso, aumenta a formac¸a˜o dos produtos.
+QUESTA˜O 9.
+Analiseafo´rmulaeletroˆnicadeLewisdoBF e
+3
+assinale a alternativa CORRETA.
+(A) A fo´rmula eletroˆnica do BF mostra que o
+3
+B eoF alcanc¸amaestabilidade,comoos
+gases nobres, completando a camada de
+valeˆncia.
+(B) A fo´rmula eletroˆnica de Lewis mostra que
+o boro na˜o obedece a` regra do octeto no
+BF .
+3
+(C) A ligac¸a˜o qu´ımica, representada na
+fo´rmula eletroˆnica do BF , e´ a ioˆnica,
+3
+uma vez que o Flu´or e´ o a´tomo mais
+eletronegativo.
+(D) O alto valor de eletronegatividade do flu´or
+gera uma polaridade na mole´cula BF ,
+3
+tornando-a polar.
+Pa´gina
+(E) Osa´tomosdeboroeflu´or,paraseligarem,
+seguem a regra do octeto, pois, se na˜o a
+seguissem, a ligac¸a˜o na˜o se manteria.
+QUESTA˜O 10.
+Na retina, uma camada que fica na
+parte posterior do olho, existem ce´lulas
+fotorreceptoras contendo uma substaˆncia
+chamada cis retinal. Ao incidir a luz ocorre
+a transformac¸a˜o de cis retinal em trans retinal,
+gerandoumimpulsoele´trico,quee´ enviadoao
+ce´rebro, possibilitando a interpretac¸a˜o do que
+e´ visto.
+Sobreassubstaˆnciascis-retinal etrans-retinal,
+assinale a alternativa CORRETA.
+(A) A substaˆncia cis retinal e´ um isoˆmero
+geome´trico da trans retinal e elas
+possuem propriedades f´ısicas diferentes.
+(B) A substaˆncia cis retinal e´ um isoˆmero
+o´pticodatransretinal,ja´ quealuzinterfere
+na posic¸a˜o dos a´tomos na cadeia.
+(C) A substaˆncia cis retinal se converte
+em seu isoˆmero trans retinal porque as
+ligac¸o˜es duplas mudaram de posic¸a˜o na
+cadeia.
+(D) A substaˆncia trans retinal apresenta o
+substituinte no mesmo lado do eixo
+trac¸ado ao longo das ligac¸o˜es duplas.
+(E) A substaˆncia trans retinal e´ produzida a
+partir da incideˆncia de luz, sem que haja
+modificac¸a˜o da posic¸a˜o no espac¸o dos
+substituintes presentes nos carbonos da
+dupla ligac¸a˜o.
+4 de 17
+
+=== PDF 7 ===
+Geografia - Objetivas
+QUESTA˜O 11.
+Observe a charge abaixo.
+Dispon´ıvelem:
+http://crabjelly.zip.net/arch2009-01-012009-01-31.html.Acesso
+em:15jun.2025.
+A charge acima utiliza o humor iroˆnico
+para destacar os desafios enfrentados por
+organizac¸o˜es internacionais, como a ONU,
+na promoc¸a˜o da cooperac¸a˜o entre pa´ıses.
+No cena´rio global, essas instituic¸o˜es sa˜o
+formadas por diversos Estados que buscam
+atuar juntos para enfrentar problemas comuns
+einfluenciardeciso˜esqueimpactamospa´ıses,
+especialmente em questo˜es que ultrapassam
+suas fronteiras nacionais.
+Assinale a alternativa CORRETA que
+apresenta um dos principais desafios
+enfrentadospelasorganizac¸o˜esinternacionais.
+(A) As organizac¸o˜es internacionais teˆm total
+autonomiaparaagirsemprecisarnegociar
+com os pa´ıses membros.
+(B) As organizac¸o˜es internacionais possuem
+poder legal e podem impor suas deciso˜es
+a todos os pa´ıses membros.
+(C) As diferenc¸as de prioridades pol´ıticas,
+econoˆmicas e sociais entre os Estados
+na˜o influenciam a atuac¸a˜o das
+organizac¸o˜es internacionais.
+(D) Como as organizac¸o˜es internacionais sa˜o
+totalmente independentes dos pa´ıses,
+na˜o enfrentam problemas financeiros para
+manterem suas atividades.
+(E) Alguns pa´ıses-membros teˆm mais
+influeˆncia do que outros nas deciso˜es
+tomadaspelasorganizac¸o˜esinternacionais,
+dificultando a representac¸a˜o justa de
+todos.
+Pa´gina
+QUESTA˜O 12.
+Leia o excerto abaixo.
+Com escassas opc¸o˜es militares a` ma˜o,
+o Ira˜ voltou a ameac¸ar fechar o estreito
+de Ormuz neste domingo (22), apo´s ser
+alvejado diretamente pelos Estados Unidos
+pelaprimeiraveznos46anosdehisto´riacomo
+Repu´blica Islaˆmica.
+Dispon´ıvelem:https://encurtador.com.br/AHjWW.Acessoem:
+22jun.2025.
+Nomeˆsdejunhode2025,IsraeleIra˜ iniciaram
+umaguerraquefoiacirradacomaentradados
+Estados Unidos no conflito. Apo´s o ataque
+americano, o pa´ıs do Oriente Me´dio ameac¸ou
+retaliar e fechar o estreito de Ormuz.
+O estreito de Ormuz se configura como uma
+importante arma geopol´ıtica do Ira˜ porque
+(A) corresponde a` localizac¸a˜o ideal para
+instalac¸a˜o de bases militares.
+(B) correspondeaumadasprincipaisrotasde
+exportac¸a˜o de petro´leo.
+(C) corresponde a` principal rota log´ıstica de
+comunicac¸a˜o com o Ocidente.
+(D) corresponde a` a´rea privilegiada para
+exportac¸a˜o de minerais meta´licos.
+(E) corresponde a` localizac¸a˜o da principal
+plataforma produtora de petro´leo.
+5 de 17
+
+=== PDF 8 ===
+QUESTA˜O 13.
+Analise a manchete a seguir.
+Fonte:MARINHO,AnaClara.FernandodeNoronhapassaa
+controlarnu´merodevisitantescombasenosdadosdeturistas
+noParqueNacionalMarinho.G1,Pernambuco,21ago.2023.
+Fernando de Noronha e´ um destino tur´ıstico
+muito procurado devido a`s suas belezas
+naturais e biodiversidade.
+Com base na manchete e nos conhecimentos
+sobre os fluxos tur´ısticos contemporaˆneos,
+assinale a alternativa CORRETA.
+(A) A limitac¸a˜o do turismo tem como principal
+objetivoampliaroacessodapopulac¸a˜ode
+baixa renda ao arquipe´lago.
+(B) A cultura local na˜o sofre alterac¸o˜es
+significativas com o turismo, pois os
+visitantes permanecem isolados das
+comunidades residentes.
+(C) A atividade tur´ıstica em Fernando de
+Noronha na˜o causa impactos relevantes,
+pois e´ praticada em a´reas protegidas e
+com fiscalizac¸a˜o constante.
+(D) O turismo de massa e´ incentivado no
+arquipe´lago como estrate´gia oficial para
+aumentar a arrecadac¸a˜o pu´blica, sem
+considerar limites ambientais.
+(E) O controle da entrada de turistas
+em Fernando de Noronha busca
+equilibrar a preservac¸a˜o ambiental e o
+desenvolvimento econoˆmico sustenta´vel.
+Pa´gina
+QUESTA˜O 14.
+Analise a representac¸a˜o a seguir.
+Fonte:THE´RY,Herve´;THE´RY,NeliAparecidadeMello.Atlas
+doBrasil:disparidadesedinaˆmicasdoterrito´rio.Edusp-
+EditoradaUniversidadedeSa˜oPaulo,2018,p.127.
+A distribuic¸a˜o da populac¸a˜o pelo territo´rio
+brasileiro na˜o e´ homogeˆnea. Algumas a´reas
+sa˜omuitopovoadas,enquantooutraspossuem
+baix´ıssima densidade populacional.
+Uma importante a´rea de baixo contingente
+demogra´fico no Brasil associa-se a` (ao)
+(A) espac¸o rural.
+(B) regia˜o amazoˆnica.
+(C) recoˆncavo baiano.
+(D) extensa˜o litoraˆnea.
+(E) planalto setentrional.
+6 de 17
+
+=== PDF 9 ===
+QUESTA˜O 15.
+Leia o excerto abaixo.
+A vida dos imigrantes brasileiros pode ficar
+mais dif´ıcil no pa´ıs com o aumento da
+participac¸a˜o pol´ıtica da AfD no Bundetag
+(Caˆmara Baixa do Parlamento Alema˜o).
+Dispon´ıvelem:https://encurtador.com.br/iLQ5d.Acessoem:26
+jun.2025.
+A AfD e´ um partido que tem ganhado forc¸a
+nas eleic¸o˜es parlamentares da Alemanha,
+principalmente com discursos contra´rios a`
+imigrac¸a˜o e com pautas nacionalistas.
+Com base nesse contexto, marque a
+alternativa CORRETA.
+(A) A participac¸a˜o da AfD no Budestag na˜o
+temimpactosobreaspol´ıticasmigrato´rias,
+pois a Alemanha mante´m uma postura
+neutra e te´cnica com relac¸a˜o a` entrada de
+estrangeiros.
+(B) O crescimento da AfD no Parlamento
+Alema˜o esta´ associado a uma postura
+cr´ıticaa` globalizac¸a˜oetendeaintensificar
+a xenofobia, dificultando a vida dos
+imigrantes, inclusive brasileiros.
+(C) A ascensa˜o da AfD indica uma
+estabilidade democra´tica, pois expressa
+a diversidade ideolo´gica e garante a
+inclusa˜o de perspectivas alternativas
+ao debate pu´blico sobre imigrac¸a˜o e
+identidade nacional.
+(D) O aumento da representatividade da AfD
+indica o sucesso da pol´ıtica multicultural
+alema˜, que tem gerado tenso˜es apenas
+em grupos rece´m chegados e na˜o
+afeta a comunidade de imigrantes ja´
+estabelecidas.
+(E) O fortalecimento de partidos como a AfD
+na˜o representa uma preocupac¸a˜o para
+imigrantes brasileiros, pois o foco maior
+das cr´ıticas desses pol´ıticos recai sobre
+migrantes do norte da A´frica e do Oriente
+Me´dio.
+Pa´gina
+Histo´ria - Objetivas
+QUESTA˜O 16.
+Leiaotextoabaixoqueapresentaumareflexa˜o
+sobre modos de manifestac¸a˜o e efeitos do
+fascismo.
+Em 1974, Pasolini desenvolvera´ amplamente
+seutemado“genoc´ıdiocultural”. O“verdadeiro
+fascismo”, diz ele, e´ aquele que tem por alvo
+osvalores,asalmas,aslinguagens,osgestos,
+os corpos do povo”. E´ aquele que “conduz,
+sem carrascos nem execuc¸o˜es em massa,
+a` supressa˜o de grandes porc¸o˜es da pro´pria
+sociedade”, e e´ por isso que e´ preciso chamar
+degenoc´ıdio“essaassimilac¸a˜o(total)aomodo
+e a` qualidade de vida da burguesia”. Em
+1975, perto de escrever seu texto sobre o
+desaparecimento dos vaga-lumes, o cineasta
+dedicar-se-a´ ao tema – tra´gico e apocal´ıptico
+– de um desaparecimento do humano no
+corac¸a˜o da sociedade atual.
+Fonte:DIDI-HUBERMAN,Georges.Sobreviveˆnciados
+vaga-lumes.BeloHorizonte:EditoraUFMG,2011,p.29.
+Sobre as relac¸o˜es entre fascismo, artes e
+cultura, e´ CORRETO afirmar, com base no
+texto, que
+(A) ao definir de forma arbitra´ria a
+humanidade do humano, as artes se
+associam ao fascismo na produc¸a˜o do
+genoc´ıdio cultural que permanece no se´c.
+XXI.
+(B) a resisteˆncia ao fascismo por meio das
+artes so´ era poss´ıvel no contexto do
+fascismo histo´rico, que se inicia na Ita´lia
+e se encerra ao fim da Segunda Guerra
+Mundial.
+(C) as artes sa˜o imunes a` violeˆncia fascista
+por mobilizarem linguagens verbais e na˜o
+verbais imposs´ıveis de serem capturadas
+de forma objetiva no tempo e no espac¸o.
+(D) o genoc´ıdio cultural que resulta da
+permaneˆncia hegemoˆnica do modo
+de vida burgueˆs faz do fascismo um
+fenoˆmeno de longa durac¸a˜o e atrelado ao
+capitalismo.
+(E) os valores fascistas veˆm sendo
+contestados pelas artes desde a segunda
+metadedose´culoXX,eaculturadose´culo
+XXI apresenta total ruptura com esses
+valores.
+7 de 17
+
+=== PDF 10 ===
+QUESTA˜O 17.
+Guerra por procurac¸a˜o (ou guerra proxy),
+um conflito militar no qual uma ou mais
+terceiraspartesapoiamdiretaouindiretamente
+um ou mais Estados ou atores na˜o estatais
+beligerantes, com o objetivo de influenciar o
+desfecho do conflito e, assim, promover seus
+pro´prios interesses estrate´gicos ou minar os
+de seus adversa´rios. As terceiras partes em
+uma guerra por procurac¸a˜o na˜o participam
+dos combates de forma significativa – ou na˜o
+participaram de modo nenhum. Guerras por
+procurac¸a˜o permitem que grandes poteˆncias
+evitem o confronto direto entre si enquanto
+competem por influeˆncia e recursos. Os
+meios de apoio direto incluem assisteˆncia
+militar, treinamento, ajuda econoˆmica e,
+ocasionalmente, operac¸o˜es militares limitadas
+com forc¸as substitutas (surrogates). Ja´ os
+meios indiretos abrangem bloqueios, sanc¸o˜es,
+embargos comerciais e outras estrate´gias
+destinadas a frustrar as ambic¸o˜es do rival.
+Dispon´ıvelem:TraduzidodeBritannicaEncyclopedia.“Proxy
+war”.https://www.britannica.com/topic/proxy-war.Acessoem:
+17jun.2025(adaptado).
+O trecho acima foi retirado da Enciclope´dia
+Britaˆnica, e apresenta um conceito que pode
+ser utilizado na ana´lise de conflitos histo´ricos:
+guerra por procurac¸a˜o (ou, proxy war).
+E´ poss´ıvel pensar em eventos histo´ricos
+concretos que poderiam ser interpretados
+como “guerras por procurac¸a˜o”, como
+(A) no caso da Guerra Fria, exemplificada
+em conflitos como a Guerra do Vietna˜ e
+a Guerra das Coreias, que mobilizaram,
+para ale´m dos atores locais, interesses de
+poteˆncias capitalistas e comunistas.
+(B) as lutas por independeˆncia na A´frica
+na segunda metade do se´culo XX, que
+se explicam mais pela interfereˆncia de
+poteˆncias estrangeiras do que pelas
+circunstaˆncias locais.
+(C) a Guerra do Paraguai, que exemplifica
+a manipulac¸a˜o de jovens nac¸o˜es
+sul-americanas (Paraguai, Brasil,
+Argentina e Uruguai) pela Inglaterra,
+grandepoteˆnciaeconoˆmicadose´culoXIX.
+(D) no caso da Revoluc¸a˜o Cubana, um
+processo bastante documentado sobre o
+expansionismo sovie´tico nas Ame´ricas,
+Pa´gina
+em oposic¸a˜o a` influeˆncia dos Estados
+Unidos na regia˜o.
+(E) a chamada Guerra dos Boxers, que
+expressaainflueˆnciajaponesanaChina–
+mobilizandoresisteˆnciamilitarchinesaaos
+interesses imperialistas ocidentais no final
+do se´culo XIX.
+QUESTA˜O 18.
+Leiaotextoabaixosobrerelac¸o˜esentrepa´ıses
+africanoseeuropeusnopo´s-independeˆnciado
+se´culo XX.
+Aliada a` expansa˜o agr´ıcola africana, a
+criac¸a˜o do Mercado Comum Europeu, em
+1957, foi outro entrave para as exportac¸o˜es
+dos produtos prima´rios brasileiros. Sob a
+lideranc¸a francesa, os territo´rios ultramarinos
+foram inclu´ıdos no sistema fechado de
+come´rcio seletivo em que se constitu´ıa
+esse Mercado. Posteriormente, com a
+independeˆncia de algumas coloˆnias, os novos
+Estados puderam associar-se em um sistema
+que estabelecia regime preferencial, um fundo
+dedesenvolvimento,ana˜odiscriminac¸a˜oentre
+os Seis (Franc¸a, Alemanha Ocidental, Ita´lia,
+Be´lgica, Pa´ıses Baixos e Luxemburgo) e seus
+associados e um Conselho de Ministros e
+uma Corte de Justic¸a pro´prios. Na pra´tica,
+a participac¸a˜o de pa´ıses africanos significou
+o acesso de seus produtos a esse mercado
+sem a incideˆncia de tarifas aduaneiras, o que
+barateava o prec¸o dos mesmos e gerava, por
+sua vez, uma concorreˆncia desleal para os
+produtos brasileiros.
+Fonte:ALMEIDA,E.L.de.Dooutroladodoatlaˆntico:as
+relac¸o˜espol´ıticaseeconoˆmicasentreoBrasileospa´ıses
+africanosdesdeose´culoXX.CadernosdoCEAS:Revista
+cr´ıticadehumanidades,Salvador,BA,Brasil,n.241,p.447,
+2017.
+8 de 17
+
+=== PDF 11 ===
+Os efeitos das relac¸o˜es
+econoˆmicas entre a Europa e as
+rece´m-independentes nac¸o˜es africanas sa˜o
+caracterizados
+(A) pela permaneˆncia de
+relac¸o˜es econoˆmicas com rastros
+coloniais entre Europa e A´frica,
+prejudiciais a` economia brasileira por
+dificultar a entrada de produtos brasileiros
+na Europa e acordos econoˆmicos entre o
+Brasil e pa´ıses africanos.
+(B) como forma de reparac¸a˜o histo´rica
+em func¸a˜o das barba´ries coloniais
+empreendidasaospa´ısesafricanos,ja´ que
+ospa´ıseseuropeusofereceramvantagens
+econoˆmicasa`ssuasex-coloˆnias,incluindo
+os pa´ıses sul-americanos, como o Brasil.
+(C) pela abertura de mercados feita por
+Franc¸a, Alemanha Ocidental, Ita´lia,
+Be´lgica, Pa´ıses Baixos, Luxemburgo e
+pelo Brasil, uma vez que o pa´ıs e´ carente
+desses produtos e tambe´m colonizou
+pa´ıses africanos.
+(D) por benef´ıcios econoˆmicos oferecidos
+pelos europeus aos pa´ıses africanos que
+experimentaram uma expansa˜o agr´ıcola,
+condicionados a se manterem como
+coloˆnias, o que favoreceu os produtos
+brasileiros no mercado europeu.
+(E) pelo processo de independeˆncias de
+coloˆnias africanas, que contou com o
+apoio econoˆmico brasileiro, gerando
+reclamac¸o˜es do Brasil quando esses
+pa´ıses priorizaram estabelecer relac¸o˜es
+comerciais com os ex-colonizadores
+europeus.
+Pa´gina
+QUESTA˜O 19.
+Leia os Textos 1 e 2, que foram publicados,
+respectivamente, no jornal El Pais e no jornal
+CNN Brasil em 2025.
+Texto 1
+Entre a “violac¸a˜o” do estatuto e os
+antecedentes pol´ıticos: a´guas divididas no
+Nacional pelos desaparecidos
+Os jogadores do elenco principal assumiram o
+comando no domingo e, na entrada da partida
+contra o Defensor Sporting, apareceram
+vestindo uma camisa com a inscric¸a˜o “Somos
+todos fam´ılia” no peito, em refereˆncia a` causa
+que apo´ia os detidos e desaparecidos durante
+a ditadura uruguaia.
+Dispon´ıvelem:https://www.elpais.com.uy/
+ovacion/futbol/entre-la
+-violacion-de-estatuto-y-los-antecedentes-politicos-aguas-
+divididas-en-nacional-por-los-desaparecidos.Acessoem:23
+jun.2025(traduc¸a˜olivre).
+Texto 2
+Clubes da Argentina recordam aniversa´rio
+de golpe militar: “Nunca mais”
+Golpe militar completa 45 anos na Argentina e
+clubes se manifestam contra ditadura
+Em 24 de marc¸o e´ celebrado o Dia da
+Memo´ria Pela Verdade e Justic¸a na Argentina,
+com diversas manifestac¸o˜es em memo´ria a`s
+cerca de 30 mil v´ıtimas do regime. Como
+fazem costumeiramente na data, os principais
+clubes de futebol argentinos se uniram em
+manifestac¸o˜es nas redes sociais para lembrar
+— e condenar — o golpe. Em todas, as
+equipes usam a expressa˜o “Nunca Mais”.
+Dispon´ıvelem:https://www.cnnbrasil.com.br/esportes/futebol/
+futebol-internacional/clubes-da-argentina-recordam-aniversario
+-de-golpe-militar-nunca-mais/.Acessoem:23jun.2025.
+9 de 17
+
+=== PDF 12 ===
+Do ponto de vista histo´rico, as manifestac¸o˜es
+realizadas pelo time uruguaio, Nacional, e
+pelos clubes argentinos neste ano de 2025
+indicam
+(A) a aproximac¸a˜o dos clubes a`s pautas
+dos movimentos pol´ıticos de pa´ıses da
+Ame´rica Latina que lutam pela memo´ria
+dos perseguidos pol´ıticos e buscam
+respostas aos mortos e desaparecidos
+pelas ditaduras sul-americanas do se´culo
+XX.
+(B) a recusa dos clubes de futebol do Uruguai
+e da Argentina em superar as reparac¸o˜es
+histo´ricasrealizadasduranteocontextode
+abertura pol´ıtica pelos governos militares
+sul-americanos, que reconheceram as
+violac¸o˜es cometidas.
+(C) a solidariedade do Nacional, clube
+uruguaio, aos pa´ıses da Ame´rica Latina
+que foram submetidos a` repressa˜o de
+regimes militares, pois o Uruguai foi o
+u´nico pa´ıs democra´tico durante a vigeˆncia
+das ditaduras do Cone Sul no se´culo XX.
+(D) uma rivalidade esportiva entre os clubes
+da Argentina e do Uruguai, que se
+relaciona com suas disputas pelo dom´ınio
+militar, pol´ıtico e econoˆmico na Ame´rica
+Latina desde o contexto de abertura
+pol´ıtica e de transic¸a˜o democra´tica.
+(E) uma tradic¸a˜o dos clubes de futebol
+da Ame´rica Latina mantida desde a
+criac¸a˜o da Operac¸a˜o Condor, quando os
+governos militares garantiram a liberdade
+de expressa˜o pol´ıtica aos times de futebol
+latino-americanos.
+Pa´gina 1
+QUESTA˜O 20.
+Texto 1
+De La´ Pra Ca´
+O mal veio de caravela com
+sobrenome Cabral diretamente
+da Europa, vulgo: Portugal
+Trazendo armas e fardas
+convertendo e matando, isso
+vem acontecendo ha´ mais de
+500 anos
+Escravizando nosso povo, toda
+uma nac¸a˜o; prefeito burgueˆs
+querendo trocar merenda
+por rac¸a˜o
+E a mesma arma que mata e´ a
+mesma que converte, a m´ıdia
+manipula pra voceˆs “jogarem”
+confete.
+Enta˜o confere, o cara´ter nos
+caracteres, somos erro 404 no
+programa desses vermes
+Fonte:SlamdaGuilhermina.SlamInterescolar:dasruaspara
+asescolasdasescolasparaasruas.Sa˜oPaulo:Literarua,
+2021,p.147.
+Texto 2
+No Brasil, o Slam chegou em 2008 [e]
+o movimento se espalhou pelo Brasil. (...)
+Essa ferramenta que e´ o Slam, ale´m de
+ser uma impulsionadora de empoderamento
+individual, de superac¸a˜o de barreiras como
+a timidez ou mesmo a falta de espac¸o para
+expor sua poesia, e´ tambe´m uma ferramenta
+de organizac¸a˜o pol´ıtica coletiva. O movimento
+e´ hoje um forte aliado das causas sociais, um
+grandepropulsordevisibilidadeparaaspautas
+negras, ind´ıgenas, LGBTQI+, feministas,
+pessoas com deficieˆncia, anticapitalista,
+ambiental, etc.
+Dispon´ıvelem:https://jornal.usp.br/ciencias/ciencias
+-humanas/slam-e-voz-de-identidade-e-resistencia-dos-poetas
+-contemporaneos/.Acessoem:17jun.2025(adaptado).
+10 de 17
+
+=== PDF 13 ===
+O Texto 1 e´ um slam poesia de Jow Nogueira,
+estudante de 17 anos, enquanto o Texto 2
+contextualiza o movimento do Slam.
+Reconhecido como um fenoˆmeno cultural
+da juventude contemporaˆnea, o slam poesia
+caracteriza-se por ser
+(A) umaestrate´giadedenu´nciadesatualizada,
+pois o poder militar, simbolizado pelas
+armas e fardas, foi destitu´ıdo no Brasil
+desde meados da de´cada de 1980, com a
+redemocratizac¸a˜o do pa´ıs.
+(B) ilustrativa da criatividade da juventude
+contemporaˆnea,quefazusosinadequados
+do passado com a finalidade de elaborar
+poesias comprometidas apenas com a
+adequac¸a˜o entre mensagem e rima.
+(C) incentivadora do individualismo entre
+a juventude contemporaˆnea, pois trata
+de tema´ticas que se relacionam aos
+interesses de grupos espec´ıficos, como
+a juventude negra, ind´ıgena e LGBTQI+.
+(D) reveladoradoprotagonismoeorganizac¸a˜o
+da juventude das periferias urbanas,
+que se utiliza de temas histo´ricos para
+denunciar as discriminac¸o˜es vividas pelos
+jovens no presente.
+(E) uma manifestac¸a˜o cultural desligada das
+pautas da juventude contemporaˆnea, pois
+suas cr´ıticas sa˜o dirigidas a`s experieˆncias
+histo´ricas de violeˆncia do Estado e de
+segregac¸a˜o social do se´culo XVI.
+Geografia - Discursivas
+QUESTA˜O 1.
+Observe a charge abaixo.
+Pa´gina 1
+Dispon´ıvelem:https://l1nq.com/mt1u3Acessoem:22jun.2025.
+Em per´ıodos de crise, os jovens teˆm mais
+chances de perder o emprego do que os
+adultosemaisdificuldadesparaencontraruma
+nova vaga. Por isso, muitos se submetem
+a condic¸o˜es de trabalho precarizadas. A
+“uberizac¸a˜o” do trabalho e´ exemplo disso, e
+vai ale´m dos servic¸os de transporte: ela se
+estende aos servic¸os de entrega, faxina e
+muitos outros servic¸os.
+Dispon´ıvelem:https://encurtador.com.br/R4JuT.Acessoem:15
+jun.2025.
+A imagem e a citac¸a˜o retratam a realidade
+enfrentada pelos trabalhadores de aplicativos.
+Em 2020, esses trabalhadores organizaram
+um movimento nacional chamado “Breque
+dos App” como forma de luta, por meio do
+qual denunciaram as dificuldades enfrentadas
+no exerc´ıcio da atividade e reivindicaram
+melhores condic¸o˜es de trabalho. Essa
+mobilizac¸a˜o reacendeu debates sobre os
+impactos da globalizac¸a˜o nas dinaˆmicas
+do mundo do trabalho, cada vez mais
+influenciadas pelo avanc¸o tecnolo´gico e pela
+flexibilizac¸a˜o dos v´ınculos empregat´ıcios.
+Considerando as transformac¸o˜es no mundo
+do trabalho, associadas ao desenvolvimento
+do capitalismo globalizado:
+(A) Cite duas qualidades ou habilidades
+exigidas dos trabalhadores na atualidade,
+associadas ao desenvolvimento do
+capitalismo globalizado.
+(B) Cite e explique como a lo´gica da
+uberizac¸a˜o afeta a qualidade de vida e as
+condic¸o˜es de trabalho dos trabalhadores
+das periferias.
+11 de 17
+
+=== PDF 14 ===
+QUESTA˜O 2.
+Leia a manchete abaixo.
+“EUA
+Celso Amorim: “acabou a ordem mundial”
+Em v´ıdeo, acessor internacional do presidente
+Lula alerta para o momento sombrio”
+Fonte:https://encurtador.com.br/tp3rHAcessoem:24jun.
+2025.
+Apo´s o ataque dos EUA ao Ira˜ em junho
+de 2025, o ex-Chanceler do Brasil, Celso
+Amorim, em entrevista, alertou para a escala
+dos conflitos recentes entre nac¸o˜es. Ele alerta
+para o risco das guerras em curso no Oriente
+Me´dio se alastrarem e envolverem outros
+pa´ıses. Segundo o ex-ministro, para ale´m
+das perdas humanas, observa-se sucessivas
+violac¸o˜es ao Direito Internacional. Para ele,
+o momento representa uma ruptura da ordem
+mundial desde a Segunda Guerra Mundial, o
+que o levou a afirmar que essa ordem teria
+“acabado” tanto no que diz respeito a` paz e
+seguranc¸a quanto na esfera comercial.
+A partir dos dados expostos e dos e dos seus
+conhecimentos, responda as questo˜es.
+(A) Qual e´ o conceito de Ordem Mundial e
+qual a Nova Ordem Mundial que surge
+apo´s o fim da Guerra Fria?
+(B) Cite dois exemplos de fatos recentes
+que justifiquem a fala do ex-Chanceler
+Brasileiro, Celso Amorim.
+QUESTA˜O 3.
+Observe a charge abaixo.
+Pa´gina 1
+Dispon´ıvelem:https://encurtador.com.br/vBFSDAcessoem:22
+jun.2025.
+A proclamac¸a˜o do Estado de Israel, em
+1948, teve como base a Resoluc¸a˜o 181 da
+ONU, a qual previa a partilha da Palestina
+entre comunidades a´rabes e judaicas. Em
+decorreˆncia dessa decisa˜o, deflagrou-se o
+conflito que ficou conhecido como Primeira
+Guerra A´rabe Israelense. Entre 700 mil a
+800 mil palestinos foram compelidos a deixar
+suasterraseaproximadamente400a500vilas
+palestinas foram destru´ıdas.
+Com base na charge e em seu conhecimento
+sobre o tema, responda as questo˜es.
+(A) O que aconteceu nas duas datas
+representadas na charge (1948 e 2025)?
+(B) Explique o que significa Nakba para a
+populac¸a˜o a´rabe.
+QUESTA˜O 4.
+Leia o excerto a seguir.
+Com o agravamento da crise econoˆmica
+e social na Venezuela, o fluxo de
+cidada˜os venezuelanos para o Brasil cresceu
+macic¸amente nos u´ltimos anos. O fluxo dos
+migrantes no Pa´ıs comec¸ou a aumentar de
+forma significativa a partir de 2015, mas foi em
+2017 que se intensificou de maneira nota´vel.
+O nu´mero de pessoas que atravessam as
+fronteiras diariamente ainda se mante´m alto.
+Diversos grupos e´tnicos e sociais escolhem
+o Brasil como pa´ıs de refu´gio, incluindo
+povos ind´ıgenas, crianc¸as e adolescentes que
+buscam uma vida melhor. A maioria entra no
+Pa´ıs pela fronteira norte do Brasil, no estado
+de Roraima, e se concentra nos munic´ıpios
+de Pacaraima e Boa Vista, capital do estado.
+Apenas entre janeiro e agosto de 2024, mais
+de 60 mil refugiados e migrantes entraram
+no Brasil por Pacaraima, representando uma
+me´dia de 250 pessoas por dia.
+Fonte:UNICEF.Crisemigrato´riavenezuelananoBrasil.
+Bras´ılia:UNICEF,[s.d.].Dispon´ıvelem:
+https://www.unicef.org/brazil/crise-migratoria-venezuelana-
+no-brasil.Acessoem:15jun.2025(adaptado).
+12 de 17
+
+=== PDF 15 ===
+O processo migrato´rio e´ uma caracter´ıstica
+marcante da globalizac¸a˜o. Refugiados
+pol´ıticos,migrantesambientaisetrabalhadores
+em busca de melhores condic¸o˜es de vida
+circulampordiferentesterrito´rios,muitasvezes
+enfrentando barreiras sociais, econoˆmicas e
+geopol´ıticas. OBrasiltemrecebidoumnu´mero
+crescente de migrantes, especialmente
+venezuelanos. Considerando esse fenoˆmeno:
+(A) Cite duas consequeˆncias socioespaciais
+da migrac¸a˜o venezuelana para o territo´rio
+brasileiro.
+(B) Explique a migrac¸a˜o venezuelana para
+o Brasil, considerando os fatores de
+expulsa˜o no pa´ıs de origem e os fatores
+de atrac¸a˜o no pa´ıs de destino.
+Histo´ria - Discursivas
+QUESTA˜O 1.
+Observe a reflexa˜o desenvolvida pela
+historiadora Albene Klemi sobre a histo´ria da
+repu´blica no Brasil.
+(...) nesses 133 anos de vida republicana
+o Brasil passou por va´rias mudanc¸as de
+regime e teve cinco constituic¸o˜es – me´dia
+de uma constituic¸a˜o a cada 26 anos; a mais
+breve, a de 1934, ficou em vigeˆncia cerca de
+treˆs anos e a mais longeva ate´ aqui, a de
+1891, perdurou por 39 anos. Esses dados,
+isoladamente, da˜o mostra da instabilidade
+pol´ıtica na vida republicana, decorrente esta,
+dentre outros fatores, do ativismo pol´ıtico
+das Forc¸as Armadas. Constata-se, assim,
+que em praticamente todos os contextos nos
+quais ocorreram mudanc¸as de regime e as
+constituic¸o˜es nacionais foram derrogadas,
+registrou-se ac¸a˜o de militares – ativismo
+inaugurado com a proclamac¸a˜o da Repu´blica.
+Dispon´ıvelem:https://noticias.unb.br/artigos-main
+/6150-a-proclamacao-da-republica-brasileira-sob-o-signo-das-
+forcas-armadasAcessoem:08jun.2025.
+(A) Identifique o elemento que caracteriza
+uma longa permaneˆncia na cena pol´ıtica
+republicana brasileira e indique um
+episo´dioqueilustreatesedahistoriadora.
+(B) Apresente um argumento histo´rico que
+ajude a explicar a presenc¸a das Forc¸as
+Armadas em todas as crises que
+culminaram em mudanc¸as de regime
+no pa´ıs e uma HIPO´TESE para a
+permaneˆncia desse risco de intervenc¸a˜o
+mesmo apo´s a redemocratizac¸a˜o.
+Pa´gina 1
+QUESTA˜O 2.
+“Eu acho que essa guerra ja´ marcou um
+paradigmaquee´ oseguinte: no´stivemosofim
+da Guerra Fria com o final da Unia˜o Sovie´tica,
+depois tivemos um per´ıodo po´s-Guerra Fria
+que foi mais ou menos de aproximac¸a˜o.
+Aquelemundobipolarhaviaacabado,aRu´ssia
+na˜o era mais comunista e se aproximou do
+Ocidente nos anos 1990 com o [Boris] Yeltsin.
+Isso continuou de certa maneira no per´ıodo
+inicial de [Vladimir] Putin, mas pouco a pouco
+foram se criando tenso˜es. E essas tenso˜es
+foram aumentando ate´ eclodir nessa guerra
+aberta, que formalmente e´ entre Ru´ssia e
+Ucraˆnia, mas que na verdade esta´ afetando o
+bloco da Otan. O conflito [na Ucraˆnia] parece
+marcar o final do per´ıodo po´s-Guerra Fria”.
+Dispon´ıvelem:https://oglobo.globo.com/mundo/noticia
+/2023/02/o-conflito-na-ucrania-parece-marcar-o-final-do-periodo
+-pos-guerra-fria-afirma-historiador.ghtmlAcessoem16jun.
+2025.
+O comenta´rio acima, feito pelo historiador
+Angelo Segrillo em entrevista ao jornal O
+Globo, refere-se a` Guerra entre Ru´ssia e
+Ucraˆnia, que se tornou mais violenta apo´s a
+amplainvasa˜odoLestedaUcraˆniapelaRu´ssia
+em 2022. Acerca de temas levantados pelo
+historiador no fragmento, responda.
+(A) Ao dizer que o confronto em questa˜o
+“formalmente e´ entre Ru´ssia e Ucraˆnia”,
+Segrillo indica que ha´ outras poteˆncias
+envolvidas nessa guerra, mesmo que
+indiretamente. Apresente um conflito, do
+contexto da Guerra Fria, que exemplifique
+a hipo´tese levantada pelo historiador.
+(B) Explique, apresentando um exemplo, o
+que o historiador quer dizer ao expressar
+que o “per´ıodo po´s-Guerra Fria (...) foi
+mais ou menos de aproximac¸a˜o”.
+13 de 17
+
+=== PDF 16 ===
+QUESTA˜O 3.
+‘Se tudo der errado, viro CLT’: o que esta´
+por tra´s da aversa˜o dos jovens ao trabalho
+com carteira assinada
+Crianc¸as e adolescentes associam modelo a
+rotina dura, com oˆnibus lotado e bronca de
+chefe, enquanto influenciadores aproveitam
+para vender ideia de sucesso fa´cil na internet.
+(...) Fabiana Sobrinho, de Mogi das Cruzes
+(SP), foi uma das pessoas que levantou esse
+alertanasredessociaisnosu´ltimosmeses,ao
+perceberquesuafilhade12anosviaaCLTde
+formanegativa,equeotermoja´ eraate´ usado
+como ofensa entre os adolescentes. “Ela
+dizia: ‘Vou estudar para na˜o virar um CLT.’ (...)
+Perguntei o que ela achava que era ser CLT
+e por que via isso como algo ruim. Conversei
+comoutrosadolescentesetodosteˆmomesmo
+pensamento: dequeserCLTe´ serfracassado.”
+(...) Para Paulo Fontes, professor do Instituto
+de Histo´ria da Universidade Federal do Rio
+de Janeiro, “E´ totalmente leg´ıtimo que os
+trabalhadores queiram mais autonomia, na˜o
+pegar oˆnibus lotado todo dia... O problema e´
+que a culpa de tudo isso na˜o e´ da CLT”, diz.
+O professor ainda afirma: “E´ ilusa˜o achar que,
+aoatacaraCLT,voceˆ vaiconquistardireitos. E´
+justamente o contra´rio”.
+Dispon´ıvelem:https://g1.globo.com/trabalho-e-carreira/noticia
+/2025/05/24/medo-jovens-clt-o-que-esta-por-tras.ghtml.Acesso
+em:17jun.2025.
+Na mate´ria de jornal acima, e´ poss´ıvel
+identificar, em meio a` aversa˜o dos jovens
+a` CLT, posicionamentos distintos, como as
+ponderac¸o˜es do professor e historiador Paulo
+Fontes. Imagine-se na posic¸a˜o de um
+historiador e responda o que se pede:
+(A) Contextualize o momento pol´ıtico e social
+de criac¸a˜o da CLT e relacione com a
+aquisic¸a˜o dos direitos sociais.
+(B) Explique uma mudanc¸a no mundo do
+trabalho atualmente e sua implicac¸a˜o
+sobre os direitos sociais.
+Pa´gina 1
+QUESTA˜O 4.
+Leia o texto abaixo sobre a cobertura da m´ıdia
+no escaˆndalo do “Mensala˜o” ocorrido em 2005
+e responda as questo˜es a seguir.
+Com frequeˆncia, o comportamento da
+imprensa em episo´dios deste tipo (e no caso
+do “mensala˜o”em particular) e´ lido como
+“incendia´rio”. A imprensa alimentaria as
+crises pol´ıticas, de maneira irresponsa´vel, na
+busca desenfreada por melhores manchetes.
+[...] A partir da ana´lise de o´rga˜os da
+imprensa brasileira ao longo da crise de 2005,
+[constatou-se] como a crise e´ constitu´ıda
+enquanto “desvio” a ser corrigido pela punic¸a˜o
+ou exclusa˜o de determinados atores e
+comportamentos, impedindo que se coloque
+emquesta˜oosfundamentosdoregimepol´ıtico.
+Assim, a m´ıdia pode ser “incendia´ria” na
+conjuntura, mas a perspectiva que apresenta
+desinfla os elementos potencialmente mais
+explosivos da crise enquanto possibilidade de
+contestac¸a˜o ao sistema.
+Fonte:MIGUEL,L.F.;COUTINHO,A.DEA.Acriseesuas
+fronteiras:oitomesesde“mensala˜o”noseditoriaisdosjornais.
+Opinia˜oPu´blica,v.13,n.1,p.97–123,jun.2007,p.98-99.
+(A) Explique a adjetivac¸a˜o da m´ıdia como
+“incendia´ria” na pol´ıtica brasileira a partir
+de um exemplo histo´rico diferente do
+citado no texto.
+(B) Aocriticaremaideiadecrisepol´ıticacomo
+desvio, os autores do texto argumentam
+que ela e´ tradicional na vida pol´ıtica
+brasileira. Tendo como recorte inicial
+a redemocratizac¸a˜o apo´s a Ditadura
+Civil-Militar, apresente um fato pol´ıtico
+anterior e um fato pol´ıtico posterior ao
+“Mensala˜o” que confirme a hipo´tese dos
+autores.
+14 de 17
+
+=== PDF 17 ===
+Filosofia - Discursivas
+QUESTA˜O 1.
+Argumentos lo´gicos va´lidos caracterizam-se
+pelo fato de que, se a premissa do argumento
+e´ verdadeira, enta˜o a conclusa˜o deve
+ser verdadeira. Os argumentos dedutivos
+possuem este cara´ter. O princ´ıpio de induc¸a˜o
+certamente se justificaria se argumentos
+indutivos tambe´m o possu´ıssem. Mas eles
+na˜o o possuem. Os argumentos indutivos na˜o
+sa˜o argumentos logicamente va´lidos.
+Fonte:CHALMERS,A.F.Oquee´ cieˆncia,afinal?.Sa˜oPaulo:
+Brasiliense,1993,p.37.
+A cr´ıtica mais conhecida a` induc¸a˜o foi
+formulada pelo filo´sofo escoceˆs David
+Hume no se´culo XVIII, que demonstrou a
+impossibilidade de justificativa da induc¸a˜o
+com fundamentos puramente racionais.
+Argumentos indutivos na˜o possuem a mesma
+validade lo´gica dos argumentos dedutivos.
+(A) Diferencie deduc¸a˜o de induc¸a˜o.
+(B) Explique por que argumentos indutivos
+na˜o sa˜o logicamente va´lidos como os
+argumentos dedutivos.
+QUESTA˜O 2.
+E´ verdadeiro dizer que, apesar da enorme
+influeˆncia da cieˆncia experimental, a distinc¸a˜o
+entre cieˆncia e filosofia na˜o era clara para os
+filo´sofos do tempo de Descartes. O pro´prio
+Pa´gina 1
+Descartes – apesar de grande conhecedor de
+f´ısica e de ser um auteˆntico geˆnio matema´tico
+– demorou para perceber a diferenc¸a. No
+entanto, ele chegou a acreditar que, conforme
+disse, o conhecimento e´ uma a´rvore, cujo
+tronco e´ a f´ısica e a raiz, a metaf´ısica. E´
+somente pela expressa˜o da metaf´ısica que
+a base do conhecimento humano pode ser
+discernida. E ‘para fazer filosofia direito (...),
+e´ preciso tomar o ma´ximo de cuidado para
+na˜o admitir como verdade alguma coisa que
+na˜o possamos provar ser verdade’. Devemos,
+portanto, adotar um ‘me´todo da du´vida’, a fim
+de chegarmos a proposic¸o˜es que na˜o possam
+ser razoavelmente postas em du´vida.
+Fonte:SCRUTON,Roger.Umabrevehisto´riadafilosofia
+moderna:deDescartesaWittgenstein.RiodeJaneiro:Jose´
+Olympio,2008,p.46-47
+Descartes, filo´sofo franceˆs que viveu no
+se´culo XVII, e´ considerado um dos primeiros
+representantes da filosofia moderna e seu
+nome foi associado a uma corrente de
+pensamento que confia mais na raza˜o do que
+na experieˆncia sensorial.
+(A) Qual foi a proposic¸a˜o metaf´ısica
+fundamentala` qualDescarteschegoucom
+base no uso meto´dico da du´vida?
+(B) Explique por que, na visa˜o cartesiana, a
+metaf´ısica e´ mais fundamental do que a
+cieˆncia experimental.
+15 de 17
+
+=== PDF 18 ===
+Pa´gina 1
+16 de 17
+
+=== PDF 19 ===
+Pa´gina 1
+17 de 17

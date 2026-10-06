@@ -1,0 +1,342 @@
+[
+  {
+    "number": 1,
+    "subject": "Física",
+    "text": "Um termômetro infravermelho mede a radiação térmica emitida, cuja intensidade é modelada por I=εσT⁴. Qual condição pode afetar sua leitura?",
+    "options": [
+      "A intensidade se mede em graus Celsius.",
+      "A temperatura pode ser medida através de qualquer vidro ou plástico sem perda de precisão.",
+      "Só seres vivos podem ter a temperatura medida.",
+      "O termômetro emite radiação que necessariamente provoca câncer.",
+      "Um objeto quente próximo pode interferir na temperatura indicada."
+    ],
+    "answer": "E",
+    "support": "Redação adaptada para estudo; numeração e ordem das alternativas preservadas. Textos de apoio resumidos. Consulte a questão e os textos integrais no caderno oficial. Explicação autoral, não publicada pela banca. As 20 questões objetivas são comuns às quatro áreas; o link abre o caderno de Humanas. As discursivas não integram este cadastro.",
+    "support_image": null,
+    "explanation": "Gabarito oficial: E. A radiação emitida por um objeto quente próximo pode contaminar a medição, alterando a temperatura indicada pelo termômetro infravermelho.",
+    "page": 3
+  },
+  {
+    "number": 2,
+    "subject": "Física",
+    "text": "Fogões de indução são, uma alternativa ecológica ao fogão a gás convencional, pois funcionam com a indução de corrente elétrica no fundo da panela pela presença de uma bobina dentro do fogão. A bobina fica paralela ao fundo da panela e é ligada a uma fonte de corrente alternada. Entre a bobina e a panela, existe uma placa de vidro, de modo que a bobina não encosta na panela. Por simplicidade, considere que a bobina do fogão é formada por um solenoide de diâmetro D, conforme mostra a figura a seguir. O fundo da panela, neste caso, pode ser considerado como uma espira de uma volta. Para melhorar o projeto do conjunto fogão de indução/panela descrito acima, pensando em aumentar a eficiência no aquecimento da panela, sem aquecer o fogão, pode-se",
+    "options": [
+      "aumentar a distância entre a panela e a bobina.",
+      "aumentar o diâmetro D da bobina interna do fogão.",
+      "utilizar apenas metais ferromagnéticos na construção da bobina interna.",
+      "utilizar metais com maior resistividade na fabricação da panela.",
+      "reduzir a frequência da fonte de corrente."
+    ],
+    "answer": "D",
+    "support": "Redação adaptada para estudo; numeração e ordem das alternativas preservadas. Textos de apoio resumidos. Consulte a questão e os textos integrais no caderno oficial. Explicação autoral, não publicada pela banca. As 20 questões objetivas são comuns às quatro áreas; o link abre o caderno de Humanas. As discursivas não integram este cadastro.",
+    "support_image": "/pism-iii-2025-dia-2-questao-2.png",
+    "explanation": "Gabarito oficial: D. No modelo idealizado do enunciado, maior resistividade no fundo da panela aumenta a dissipação Joule para a corrente induzida considerada. A energia deve ser dissipada na panela, não na bobina.",
+    "page": 3
+  },
+  {
+    "number": 3,
+    "subject": "Física",
+    "text": "Um casal de irmãos gêmeos, Alice e Bob, têm à sua disposição duas naves espaciais que os levarão a um planeta distante recém descoberto. Em determinado instante, quando ambos possuíam a mesma idade, Alice parte em direção ao planeta. Bob fica ainda na Terra e só depois de certo tempo, viaja também. Considere as velocidades das naves altas o suficiente (próximas à velocidade da luz), e que ambos chegam juntos ao planeta. Nesse caso,",
+    "options": [
+      "a relatividade especial não permite distinguir qual dos dois será o mais velho ao fim da viagem.",
+      "pode-se concluir que, ao fim da viagem, Alice será mais velha do que Bob.",
+      "como ambos percorreram a mesma distância, eles chegarão com a mesma idade.",
+      "os efeitos de dilatação temporal são detectados apenas no referencial de partida dos irmãos.",
+      "os tempos gastos por Alice e Bob medidos no referencial da Terra são os mesmos para completar a viagem devido à dilatação temporal."
+    ],
+    "answer": "B",
+    "support": "Redação adaptada para estudo; numeração e ordem das alternativas preservadas. Textos de apoio resumidos. Consulte a questão e os textos integrais no caderno oficial. Explicação autoral, não publicada pela banca. As 20 questões objetivas são comuns às quatro áreas; o link abre o caderno de Humanas. As discursivas não integram este cadastro.",
+    "support_image": null,
+    "explanation": "Gabarito oficial: B. Para chegarem juntos, Bob percorre a mesma distância em menos tempo terrestre e, portanto, a maior velocidade. Seu tempo próprio acumulado é menor: ao final, Alice é mais velha.",
+    "page": 4
+  },
+  {
+    "number": 4,
+    "subject": "Física",
+    "text": "O efeito Doppler corresponde à alteração do comprimento de onda detectada por um observador quando uma fonte de ondas sonoras se desloca em relação ao observador. Este efeito não é somente restrito ao som. Ele também ocorre com a luz, sendo utilizado em astronomia e cosmologia observacional para estudar o universo em larga escala. E bem sabido que galáxias distantes estão se afastando de nós. Logo, a luz, no espectro visível, oriunda de uma determinada galáxia distante, ao ser detectada na Terra,",
+    "options": [
+      "não experimenta o efeito Doppler, que só é detectável no referencial da galáxia.",
+      "sofre alteração na sua velocidade, pois há alteração no comprimento de onda.",
+      "terá a energia dos seus fótons aumentada.",
+      "não sofre mudança em sua frequência, que é uma grandeza absoluta.",
+      "sofre um desvio para o vermelho (ou seja, aumento do comprimento de onda)."
+    ],
+    "answer": "E",
+    "support": "Redação adaptada para estudo; numeração e ordem das alternativas preservadas. Textos de apoio resumidos. Consulte a questão e os textos integrais no caderno oficial. Explicação autoral, não publicada pela banca. As 20 questões objetivas são comuns às quatro áreas; o link abre o caderno de Humanas. As discursivas não integram este cadastro.",
+    "support_image": null,
+    "explanation": "Gabarito oficial: E. A luz de uma galáxia que se afasta apresenta desvio para comprimentos de onda maiores, chamado desvio para o vermelho; no vácuo a velocidade da luz permanece c.",
+    "page": 4
+  },
+  {
+    "number": 5,
+    "subject": "Física",
+    "text": "Para substituir um resistor de 1,5 kΩ, estão disponíveis R₁=1 kΩ, R₂=2 kΩ e R₃=3 kΩ. Qual associação produz a resistência desejada?",
+    "options": [
+      "Os três em série.",
+      "Os três em paralelo.",
+      "R₁ e R₂ em série, e o conjunto em paralelo com R₃.",
+      "R₂ e R₃ em paralelo, e o conjunto em série com R₁.",
+      "R₁ e R₃ em série, e o conjunto em paralelo com R₂."
+    ],
+    "answer": "C",
+    "support": "Redação adaptada para estudo; numeração e ordem das alternativas preservadas. Textos de apoio resumidos. Consulte a questão e os textos integrais no caderno oficial. Explicação autoral, não publicada pela banca. As 20 questões objetivas são comuns às quatro áreas; o link abre o caderno de Humanas. As discursivas não integram este cadastro.",
+    "support_image": null,
+    "explanation": "Gabarito oficial: C. R₁+R₂ = 3 kΩ. Esse conjunto em paralelo com R₃ = 3 kΩ produz R equivalente = (3·3)/(3+3) = 1,5 kΩ.",
+    "page": 4
+  },
+  {
+    "number": 6,
+    "subject": "Química",
+    "text": "Na produção de carbeto de cálcio: CaCO₃(s)→CaO(s)+CO₂(g), ΔH=+177,5 kJ/mol; depois CaO(s)+3C(grafita)→CaC₂(s)+CO(g). Qual afirmação está correta?",
+    "options": [
+      "a decomposição do carbonato de cálcio é acelerada pela diminuição da temperatura.",
+      "a primeira e a segunda etapas envolvem reações de oxi-redução.",
+      "em ambas as etapas, há produção de gás carbônico, que é prejudicial ao meio ambiente.",
+      "na primeira etapa, há formação de um gás que, ao reagir com água, diminui o pH do meio.",
+      "o calcário, quando em meio aquoso, tem a sua solubilidade alterada somente pelo pH."
+    ],
+    "answer": "D",
+    "support": "Redação adaptada para estudo; numeração e ordem das alternativas preservadas. Textos de apoio resumidos. Consulte a questão e os textos integrais no caderno oficial. Explicação autoral, não publicada pela banca. As 20 questões objetivas são comuns às quatro áreas; o link abre o caderno de Humanas. As discursivas não integram este cadastro.",
+    "support_image": null,
+    "explanation": "Gabarito oficial: D. A primeira reação libera CO₂. Dissolvido em água, esse gás estabelece equilíbrios associados à formação de ácido carbônico e à redução do pH.",
+    "page": 4
+  },
+  {
+    "number": 7,
+    "subject": "Química",
+    "text": "O esmalte contém hidroxiapatita. No equilíbrio Ca₅(PO₄)₃OH(s) ⇌ 5Ca²⁺(aq)+3PO₄³⁻(aq)+OH⁻(aq), a reação direta desmineraliza e a inversa remineraliza. Que condição favorece sua preservação?",
+    "options": [
+      "aumento da basicidade do meio em que ocorre a reação.",
+      "diminuição da concentração de íons Ca2+.",
+      "manutenção do equilíbrio pela retirada contínua dos íons.",
+      "neutralização do íon OH−, tornando o meio mais básico.",
+      "redução do pH da boca, tornando a saliva mais ácida."
+    ],
+    "answer": "A",
+    "support": "Redação adaptada para estudo; numeração e ordem das alternativas preservadas. Textos de apoio resumidos. Consulte a questão e os textos integrais no caderno oficial. Explicação autoral, não publicada pela banca. As 20 questões objetivas são comuns às quatro áreas; o link abre o caderno de Humanas. As discursivas não integram este cadastro.",
+    "support_image": null,
+    "explanation": "Gabarito oficial: A. Aumentar a basicidade fornece OH⁻ e favorece o deslocamento do equilíbrio para o sólido, ajudando a preservar a hidroxiapatita do esmalte.",
+    "page": 5
+  },
+  {
+    "number": 8,
+    "subject": "Química",
+    "text": "O etanol combustível (CH3CH2OH), popularmente chamado de “álcool de posto” faz parte da matriz energética brasileira e é considerado um biocombustível. Diferentes processos industriais podem ser utilizados para a obtenção de etanol combustível, mas o mais utilizado é o processo de primeira geração, que utiliza como matéria prima o suco da cana-de-açúcar. Sobre a produção de etanol, indique a alternativa CORRETA.",
+    "options": [
+      "A produção de álcool ocorre na etapa de produção do melado.",
+      "Na etapa de fermentação ocorre a transformação dos lipídeos em etanol.",
+      "O álcool é retirado da mistura bruta através de destilação.",
+      "Na indústria da cana-de-açúcar o etanol é o único produto gerado.",
+      "A cana-de-açúcar é a única fonte de produção de etanol."
+    ],
+    "answer": "C",
+    "support": "Redação adaptada para estudo; numeração e ordem das alternativas preservadas. Textos de apoio resumidos. Consulte a questão e os textos integrais no caderno oficial. Explicação autoral, não publicada pela banca. As 20 questões objetivas são comuns às quatro áreas; o link abre o caderno de Humanas. As discursivas não integram este cadastro.",
+    "support_image": null,
+    "explanation": "Gabarito oficial: C. A fermentação transforma açúcares em etanol; a destilação separa o álcool da mistura obtida, aproveitando diferenças de volatilidade.",
+    "page": 5
+  },
+  {
+    "number": 9,
+    "subject": "Química",
+    "text": "Observe a fórmula estrutural do metilfenidato. Qual afirmação sobre a molécula é correta?",
+    "options": [
+      "Há três carbonos assimétricos.",
+      "Sua fórmula molecular é C₁₄H₁₈NO₂.",
+      "Apresenta amida, éster e anel aromático.",
+      "Uma de suas funções orgânicas pode ser hidrolisada.",
+      "Há quatro pares de elétrons π entre átomos de carbono."
+    ],
+    "answer": "D",
+    "support": "Redação adaptada para estudo; numeração e ordem das alternativas preservadas. Textos de apoio resumidos. Consulte a questão e os textos integrais no caderno oficial. Explicação autoral, não publicada pela banca. As 20 questões objetivas são comuns às quatro áreas; o link abre o caderno de Humanas. As discursivas não integram este cadastro.",
+    "support_image": "/pism-iii-2025-dia-2-questao-9.png",
+    "explanation": "Gabarito oficial: D. O metilfenidato possui função éster, que pode sofrer hidrólise. Não possui função amida; seu nitrogênio integra uma amina.",
+    "page": 5
+  },
+  {
+    "number": 10,
+    "subject": "Química",
+    "text": "Para 2NO(g)+2H₂(g)→N₂(g)+2H₂O(g), a 1000 K, três experimentos apresentam [NO], [H₂] e velocidade inicial: (1,0; 0,5; 3,0×10⁴), (1,0; 1,0; 6,0×10⁴), (2,0; 0,5; 12,0×10⁴). Concentrações em mol/L e velocidade em mol/(L·s). Qual a lei de velocidade?",
+    "options": [
+      "v=k[NO]²[H₂]",
+      "v=2k[NO][H₂]",
+      "v=k[NO]²[H₂]²",
+      "v=k[N₂][H₂O]²",
+      "v=k[N₂][H₂O]²/([NO]²[H₂]²)"
+    ],
+    "answer": "A",
+    "support": "Redação adaptada para estudo; numeração e ordem das alternativas preservadas. Textos de apoio resumidos. Consulte a questão e os textos integrais no caderno oficial. Explicação autoral, não publicada pela banca. As 20 questões objetivas são comuns às quatro áreas; o link abre o caderno de Humanas. As discursivas não integram este cadastro.",
+    "support_image": null,
+    "explanation": "Gabarito oficial: A. Dobrar H₂, mantendo NO, dobra a velocidade: primeira ordem em H₂. Dobrar NO quadruplica a velocidade: segunda ordem em NO. Assim, v=k[NO]²[H₂].",
+    "page": 5
+  },
+  {
+    "number": 11,
+    "subject": "Geografia",
+    "text": "Uma notícia de maio de 2024 registra o reconhecimento da Palestina por Espanha, Noruega e Irlanda. Qual é sua condição junto à ONU no contexto da prova?",
+    "options": [
+      "não é reconhecida pela ONU.",
+      "trata-se de um Estado antissemita.",
+      "trata-se de Estado observador não membro.",
+      "trata-se de Estado reconhecido apenas por não membros.",
+      "trata-se de um membro da Organização das Nações e Povos Não Representados."
+    ],
+    "answer": "C",
+    "support": "Redação adaptada para estudo; numeração e ordem das alternativas preservadas. Textos de apoio resumidos. Consulte a questão e os textos integrais no caderno oficial. Explicação autoral, não publicada pela banca. As 20 questões objetivas são comuns às quatro áreas; o link abre o caderno de Humanas. As discursivas não integram este cadastro.\n\nReportagem resumida. A questão se refere ao período do caderno de 2025.",
+    "support_image": null,
+    "explanation": "Gabarito oficial: C. No contexto cobrado pela prova, a Palestina possui na ONU a condição de Estado observador não membro, diferente da condição de membro pleno.",
+    "page": 6
+  },
+  {
+    "number": 12,
+    "subject": "Geografia",
+    "text": "Em 2023, estimativas da ONU apontaram a Índia como o país mais populoso, superando a China. Qual fator das últimas décadas ajuda a explicar essa mudança?",
+    "options": [
+      "a emigração da China por motivos de perseguição política.",
+      "a política de restrição ao número de filhos permitido por casal na China.",
+      "a Índia completar o seu processo de transição demográfica há muitas décadas.",
+      "o papel que a Índia tem ocupado como pólo de atração de imigrantes qualificados.",
+      "a Índia implantar políticas de natalidade que incentivam o aumento das taxas de fecundidade."
+    ],
+    "answer": "B",
+    "support": "Redação adaptada para estudo; numeração e ordem das alternativas preservadas. Textos de apoio resumidos. Consulte a questão e os textos integrais no caderno oficial. Explicação autoral, não publicada pela banca. As 20 questões objetivas são comuns às quatro áreas; o link abre o caderno de Humanas. As discursivas não integram este cadastro.\n\nDados do texto-base resumidos: Índia, cerca de 1,4286 bilhão; China, cerca de 1,4257 bilhão em 2023.",
+    "support_image": null,
+    "explanation": "Gabarito oficial: B. A política chinesa de restrição de nascimentos reduziu a fecundidade por décadas, contribuindo para a mudança de posição populacional em relação à Índia.",
+    "page": 6
+  },
+  {
+    "number": 13,
+    "subject": "Geografia",
+    "text": "Um relatório da ONU de 2024 apontou avanço insuficiente das metas dos ODS, previstas para 2030. Que fator ajuda a explicar as dificuldades de implementação?",
+    "options": [
+      "as razões que levaram a elaboração dos ODS em 2015 não são mais um problema atualmente.",
+      "os países europeus não conseguiram cumprir as metas estabelecidas porque a estes foram impostas medidas mais rigorosas.",
+      "a desvalorização das commodities agrícolas prejudicou a capacidade dos países em desenvolvimento de tomar medidas em defesa do meio ambiente.",
+      "o conjunto de medidas adotadas pelas empresas foi suficiente para a resolução dos problemas apontados, tornando desnecessária a ação dos Estados.",
+      "os ODS subestimaram as assimetrias entre países emergentes e desenvolvidos na capacidade fiscal e política de implementar as medidas recomendadas."
+    ],
+    "answer": "E",
+    "support": "Redação adaptada para estudo; numeração e ordem das alternativas preservadas. Textos de apoio resumidos. Consulte a questão e os textos integrais no caderno oficial. Explicação autoral, não publicada pela banca. As 20 questões objetivas são comuns às quatro áreas; o link abre o caderno de Humanas. As discursivas não integram este cadastro.",
+    "support_image": null,
+    "explanation": "Gabarito oficial: E. Diferenças de recursos fiscais, capacidade institucional e poder político dificultam a implementação dos ODS e afetam desigualmente os países.",
+    "page": 7
+  },
+  {
+    "number": 14,
+    "subject": "Geografia",
+    "text": "O caderno discute a ampliação do BRICS anunciada em 2023 e seus efeitos geopolíticos. Como se caracteriza esse agrupamento?",
+    "options": [
+      "União Aduaneira, com o objetivo de zerar as tarifas alfandegárias entre os países membros.",
+      "bloco econômico, com o objetivo de fortalecer a integração econômica entre os países membros.",
+      "aliança militar, com o objetivo de contrapor o poder da Organização do Tratado do Atlântico Norte (OTAN).",
+      "tratado comercial, com o objetivo de promover o livre-comércio entre os países membros e desses diante dos outros países.",
+      "organização política entre países emergentes, com o objetivo de ampliar o poder geopolítico desses países no cenário global."
+    ],
+    "answer": "E",
+    "support": "Redação adaptada para estudo; numeração e ordem das alternativas preservadas. Textos de apoio resumidos. Consulte a questão e os textos integrais no caderno oficial. Explicação autoral, não publicada pela banca. As 20 questões objetivas são comuns às quatro áreas; o link abre o caderno de Humanas. As discursivas não integram este cadastro.\n\nO enunciado original inclui a Arábia Saudita entre os ingressantes. A questão é respondida pela natureza política do BRICS, sem depender de transformar o anúncio em confirmação de adesão.",
+    "support_image": null,
+    "explanation": "Gabarito oficial: E. O BRICS é um mecanismo de coordenação política entre países emergentes, buscando maior influência internacional. Não é uma união aduaneira nem uma aliança militar.",
+    "page": 7
+  },
+  {
+    "number": 15,
+    "subject": "Geografia",
+    "text": "Brasil, Índia, Alemanha e Japão propuseram ampliar o Conselho de Segurança da ONU. Que fator ajuda a explicar a oposição chinesa à proposta?",
+    "options": [
+      "Rússia têm conflitos militares com a Alemanha desde o final da Segunda Guerra Mundial.",
+      "China tem litígios fronteiriços com a Índia e uma rivalidade histórica com o Japão.",
+      "Rússia e China disputam com a Índia a liderança da tecnologia do 5G aplicado à indústria bélica.",
+      "Rússia e China impõem restrições aos quatro países devido ao não cumprimento de acordos ambientais.",
+      "Rússia e China discordam dos quatro países devido à posição destes frente ao conflito PalestinaIsrael. HISTORIA - OBJETIVAS"
+    ],
+    "answer": "B",
+    "support": "Redação adaptada para estudo; numeração e ordem das alternativas preservadas. Textos de apoio resumidos. Consulte a questão e os textos integrais no caderno oficial. Explicação autoral, não publicada pela banca. As 20 questões objetivas são comuns às quatro áreas; o link abre o caderno de Humanas. As discursivas não integram este cadastro.\n\nO texto-base aborda a proposta do G4 e rivalidades geopolíticas entre candidatos e membros permanentes.",
+    "support_image": null,
+    "explanation": "Gabarito oficial: B. A China possui litígios fronteiriços com a Índia e rivalidades históricas com o Japão, fatores que ajudam a explicar a resistência à proposta do G4.",
+    "page": 8
+  },
+  {
+    "number": 16,
+    "subject": "História",
+    "text": "Em artigo de 1927, Aleksandra Kollontai destacou as numerosas mulheres que atuaram na Revolução de Outubro. Qual é o valor histórico desse testemunho?",
+    "options": [
+      "uma publicação questionável, pois não se conhece a autoria das centenas de mulheres que participaram do movimento revolucionário russo de 1917.",
+      "um documento que compromete a verdadeira história da Rússia, ao marginalizar os operários e camponeses no processo revolucionário.",
+      "um artigo sem valor histórico, pois foi produzido posteriormente à eclosão da Revolução de Outubro, que ocorreu em 1917.",
+      "uma fonte que amplia os estudos históricos sobre a Revolução Russa, ao evidenciar a participação das mulheres no movimento revolucionário.",
+      "um discurso que pouco contribui para o estudo da história, pois revela a visão parcial de uma mulher que participou da Revolução de Outubro."
+    ],
+    "answer": "D",
+    "support": "Redação adaptada para estudo; numeração e ordem das alternativas preservadas. Textos de apoio resumidos. Consulte a questão e os textos integrais no caderno oficial. Explicação autoral, não publicada pela banca. As 20 questões objetivas são comuns às quatro áreas; o link abre o caderno de Humanas. As discursivas não integram este cadastro.\n\nResumo do artigo citado na prova: mulheres participavam de manifestações, reuniões e mobilizações revolucionárias.",
+    "support_image": null,
+    "explanation": "Gabarito oficial: D. O relato evidencia o protagonismo das mulheres e amplia a investigação histórica da Revolução Russa. Autoria situada e produção posterior não anulam seu valor como fonte.",
+    "page": 8
+  },
+  {
+    "number": 17,
+    "subject": "História",
+    "text": "Cartazes da Ação Integralista Brasileira e do Partido Comunista ilustram a Era Vargas. Qual alternativa interpreta a atuação desses movimentos?",
+    "options": [
+      "A trajetória dos dois movimentos foi marcada por grande apoio popular baseado em valores tradicionais, defesa da ordem e da disciplina, representados pela tríade Deus, Pátria e Família.",
+      "A atuação do Partido Comunista por meio da Aliança Nacional Libertadora foi vitoriosa na Intentona Comunista, conseguindo apoio de Vargas em contraposição às pressões dos Integralistas.",
+      "Do ponto de vista econômico ambos os movimentos apoiavam pautas liberais, como a modernização econômica e a criação de grandes empresas estatais, bem como políticas intervencionistas e planejadas.",
+      "Representam dois importantes movimentos políticos do período republicano brasileiro e caracterizavam-se por fortes influências do cenário internacional, tais como o ideário fascista e a expansão socialista da União Soviética.",
+      "O Partido Comunista Brasileiro que integrou a Aliança Nacional Libertadora e os Integralistas por meio da Ação Integralista Brasileira receberam apoio do governo Vargas para a construção de suas pautas trabalhistas."
+    ],
+    "answer": "D",
+    "support": "Redação adaptada para estudo; numeração e ordem das alternativas preservadas. Textos de apoio resumidos. Consulte a questão e os textos integrais no caderno oficial. Explicação autoral, não publicada pela banca. As 20 questões objetivas são comuns às quatro áreas; o link abre o caderno de Humanas. As discursivas não integram este cadastro.\n\nDescrição das fontes: propaganda integralista e comunista, representando movimentos de orientação ideológica distinta. Imagens no caderno oficial.",
+    "support_image": null,
+    "explanation": "Gabarito oficial: D. Integralismo e comunismo recebem influências internacionais distintas: fascismo e expansão do socialismo soviético, respectivamente. Não defendem a mesma pauta.",
+    "page": 9
+  },
+  {
+    "number": 18,
+    "subject": "História",
+    "text": "Uma reportagem reúne relatos de vigilância, censura e perseguição de professores depois do golpe de 1964. Qual afirmação corresponde às características da ditadura civil-militar?",
+    "options": [
+      "A censura prévia era organizada por uma equipe de professores qualificados de cada escola que avaliavam o conteúdo dos livros didáticos e outras publicações a serviço do governo.",
+      "O autoritarismo era marcado pela tortura e outras formas de violências que tinham como objetivo controlar, punir e desencorajar as manifestações dos professores contra o governo.",
+      "A centralização política era própria dos governos militares que respeitavam a autonomia e liberdade ilimitada dos professores, mas vigiavam e perseguiam as escolas e os jornais estudantis.",
+      "A supressão dos direitos civis e constitucionais era mantida para evitar a propaganda de novas ideologias, autorizando a discussão nas escolas, mas instalando a desconfiança entre os professores.",
+      "A tortura era uma prática exercida pelas instituições militares que deviam incentivar a participação dos professores sem limitações, principalmente, aos temas políticos."
+    ],
+    "answer": "B",
+    "support": "Redação adaptada para estudo; numeração e ordem das alternativas preservadas. Textos de apoio resumidos. Consulte a questão e os textos integrais no caderno oficial. Explicação autoral, não publicada pela banca. As 20 questões objetivas são comuns às quatro áreas; o link abre o caderno de Humanas. As discursivas não integram este cadastro.",
+    "support_image": null,
+    "explanation": "Gabarito oficial: B. Censura, vigilância, perseguição e violência foram instrumentos de repressão e de controle dos professores durante a ditadura civil-militar.",
+    "page": 10
+  },
+  {
+    "number": 19,
+    "subject": "História",
+    "text": "Em entrevista de 2024, Leonardo Padura comentou carências materiais e falta de esperança em Cuba. Que contexto histórico ajuda a explicar o cenário?",
+    "options": [
+      "fortalecimento do imperialismo norte-americano na Ilha, a partir do incremento dos negócios das empresas favorecendo a internacionalização da economia.",
+      "tensões entre o governo Cubano e os Estados Unidos, iniciado desde os anos da guerra fria em 1960 e ao fim dos subsídios da União Soviética após o seu colapso.",
+      "ampliação das relações comerciais com a América Latina e Caribe, que acabaram por gerar descontentamentos entre a maioria da população excluída desses benefícios;",
+      "restrições impostas pelo governo dos EUA, aprofundando as sanções comerciais e fechamento da embaixada americana em Havana;",
+      "pressões da nova ordem mundial marcada pela expansão tecnológica e liderada pelos interesses chineses na América Latina."
+    ],
+    "answer": "B",
+    "support": "Redação adaptada para estudo; numeração e ordem das alternativas preservadas. Textos de apoio resumidos. Consulte a questão e os textos integrais no caderno oficial. Explicação autoral, não publicada pela banca. As 20 questões objetivas são comuns às quatro áreas; o link abre o caderno de Humanas. As discursivas não integram este cadastro.\n\nEntrevista resumida, com referência ao contexto de 2024.",
+    "support_image": null,
+    "explanation": "Gabarito oficial: B. O contexto relaciona tensões com os EUA e o embargo à perda de apoio econômico soviético após o colapso da URSS, com efeitos persistentes na economia cubana.",
+    "page": 10
+  },
+  {
+    "number": 20,
+    "subject": "História",
+    "text": "Um discurso de Giorgia Meloni enfatiza nacionalismo, rejeição da imigração e oposição a direitos de minorias. Que tradição política é evocada na interpretação da questão?",
+    "options": [
+      "traços do fascismo, um movimento político ultranacionalista, que defende um Estado forte, uma identidade étnica e a rejeição aos imigrantes e a outras culturas.",
+      "influências do liberalismo, uma ordem política mundial que valoriza as liberdades individuais, o livre mercado e o fim das fronteiras comerciais.",
+      "características do nazismo, uma ideologia europeia, imperialista e belicista a favor das grandes empresas internacionais e da união dos europeus.",
+      "aspectos do socialismo, uma filosofia política, social e econômica que luta pela propriedade social dos meios de produção, de forma coletiva.",
+      "marcas do absolutismo, uma doutrina secular de centralização do poder que investe na manipulação do sistema político e eleitoral."
+    ],
+    "answer": "A",
+    "support": "Redação adaptada para estudo; numeração e ordem das alternativas preservadas. Textos de apoio resumidos. Consulte a questão e os textos integrais no caderno oficial. Explicação autoral, não publicada pela banca. As 20 questões objetivas são comuns às quatro áreas; o link abre o caderno de Humanas. As discursivas não integram este cadastro.\n\nDiscurso resumido para estudo; original e referência no caderno.",
+    "support_image": null,
+    "explanation": "Gabarito oficial: A. O discurso combina ultranacionalismo, exclusão de minorias e rejeição da imigração, características associadas à tradição fascista na interpretação cobrada.",
+    "page": 10
+  }
+]

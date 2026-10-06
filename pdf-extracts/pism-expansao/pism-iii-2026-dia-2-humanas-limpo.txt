@@ -1,0 +1,829 @@
+F́isica - Objetivas
+QUESTÃO 1.
+Imagine um próton atingindo a magnetosfera
+comumcertoângulo,comomostradonafigura
+abaixo. A ampliação da região retangular
+destacada mostra, de uma forma simplificada,
+a situação na qual estamos interessados:
+um campo magnético uniforme, apontando no
+sentido positivo de y, e o vetor velocidade (⃗v)
+forma um ângulo de 30° com o eixo y, à sua
+esquerda.
+Sobre a trajetória da part́icula, considerando
+um campo
+magnético uniforme, indique a opção
+CORRETA.
+(A) Apart́iculaincidentenãosofrerá mudança
+em sua trajetória e irá manter seu
+movimento retiĺineo inicial.
+(B) A trajetória da part́icula será em forma
+de espiral em direção ao polo norte
+geográfico e, em relação à posição
+mostrada na figura, a part́icula irá girar
+inicialmente para dentro da folha.
+(C) A trajetória da part́icula será em forma
+de espiral em direção ao polo norte
+geográfico e, em relação à posição
+mostrada na figura, a part́icula irá girar
+inicialmente para fora da folha.
+(D) A trajetória da part́icula será um ćirculo
+e, em relação à posição mostrada na
+figura, a part́icula irá girar inicialmente
+para dentro da folha.
+(E) A trajetória da part́icula será um ćirculo e,
+em relação à posição mostrada na figura,
+a part́icula irá girar inicialmente para fora
+da folha.
+Página
+QUESTÃO 2.
+A figura abaixo ilustra um fio condutor
+posicionado acima de uma bússola, distante
+de alguns poucos cent́imetros dela. Em
+um primeiro momento não existe corrente
+passando pelo fio e o ponteiro da bússola
+aponta para uma posição entre os indicadores
+1 e 2, como mostrado na figura, em direção
+ao polo norte geográfico da Terra. Em um
+segundo momento, uma corrente i é aplicada
+ao fio, com o sentido da esquerda para a
+direita.
+Considerando que o campo magnético
+induzido pela corrente em suas redondezas é
+muito maior que o campo magnético terrestre,
+qual será a nova orientação do ponteiro da
+bússola após o acionamento da corrente
+elétrica?
+(A) O ponteiro apontará para a posição 1.
+(B) O ponteiro apontará para a posição 2.
+(C) O ponteiro apontará para a posição 3.
+(D) O ponteiro apontará para a posição 4.
+(E) O ponteiro permanecerá na mesma
+posição indicada na figura.
+1 de 17
+QUESTÃO 3.
+Recentemente, o carro elétrico foi inserido
+nos mercados mundo afora. No entanto,
+o prinćipio de funcionamento de um motor
+elétricoexistedesdeoséculoXIXapartirdalei
+de Faraday-Neumann. No Brasil, por exemplo,
+o primeiro bonde elétrico foi inaugurado em
+1892.
+A figura abaixo ilustra um motor elétrico
+simples, que consiste em uma espira cuja
+área está no plano do papel e posicionada
+entre os polos norte (N) e sul (S) de um imã
+permanente, e por onde passa uma corrente
+i. É necessário que a espira fique girando
+permanentemente na mesma direção.
+Sobre as condições de funcionamento deste
+motor e o movimento da espira a partir da
+posiçãoinicialesentidodacorrentemostrados
+na figura, marque a alternativa CORRETA.
+(A) A corrente deve ter um sentido único e a
+seçãodaespiraidentificadapelaletraAirá
+semovimentarinicialmenteparadentrodo
+plano do papel.
+(B) A corrente deve ter seu sentido invertido
+sempre que o plano da espira for
+perpendicularaoplanodopapeleaseção
+da espira identificada pela letra A irá
+se movimentar inicialmente para fora do
+plano do papel.
+(C) A corrente deve ter seu sentido invertido
+sempre que o plano da espira for
+perpendicularaoplanodopapeleaseção
+da espira identificada pela letra A irá se
+movimentar inicialmente para dentro do
+plano do papel.
+(D) A corrente deve ter seu sentido invertido
+sempre que o plano da espira estiver
+no plano do papel e a seção da espira
+identificada pela letra A irá se movimentar
+inicialmente para fora do plano do papel.
+(E) A corrente deve ter seu sentido invertido
+sempre que o plano da espira estiver
+no plano do papel e a seção da espira
+identificada pela letra A irá se movimentar
+inicialmente para dentro do plano do
+papel.
+Página
+QUESTÃO 4.
+O efeito fotoelétrico é um fenômeno quântico
+descobertoacidentalmentepelof́isicoHeinrich
+Hertz ao final do século XIX. A investigação
+deste efeito foi então complementada pelos
+f́isicos Philipp Lenard e finalizada por Albert
+Einstein. Einstein ganhou o Prêmio Nobel de
+F́isica em 1905 por este trabalho.
+PhilippLenardconstruiuumsistemacomduas
+placas metálicas submetidas a uma diferença
+depotencialnointeriordeumaampoladevidro
+mantida no vácuo. Externamente, uma fonte
+de luz foi direcionada para uma das placas e,
+com um microampeŕimetro, a corrente elétrica
+circulando no sistema foi medida. A figura
+abaixo ilustra este sistema.
+Fonte:Modernasuperação!F́isica/R.H.Doca,R.Fogo;editor
+resp.F.M.Leonardo;1.ed.Moderna,2024,p.420.
+Emrelaçãoaoefeitofotoelétrico,considerando
+o sistema descrito acima, marque a alternativa
+CORRETA.
+(A) A energia cinética máxima adquirida pelo
+elétron emitido é influenciada tanto pela
+intensidade como pelo comprimento de
+onda da luz emitida.
+(B) Emumasituaçãoondealuzincidentenão
+gera corrente elétrica no sistema, deve-se
+aumentar a intensidade do feixe de luz
+para que o efeito fotoelétrico ocorra.
+(C) Quantomaioraintensidadedofeixedeluz
+incidente, maior a corrente medida.
+(D) Quantomaioraintensidadedofeixedeluz
+incidente,maioraenergiacinéticamáxima
+adquirida pelo elétron emitido.
+(E) Quanto maior o comprimento de onda
+da luz incidente, maior a energia cinética
+máxima adquirida pelo elétron emitido.
+2 de 17
+QUESTÃO 5.
+As leis de Newton (1643-1727) fornecem
+descrição precisa e útil para situações
+de corpos que viajam com velocidades
+relacionadas ao nosso cotidiano, como,
+por exemplo, em velocidades de meios de
+transporte terrestre. No entanto, conforme
+a velocidade de um corpo se aproxima da
+velocidadedaluz,essasleiscomeçamafalhar
+enecessitamosusarateoriadarelatividadede
+Einstein (1879-1955).
+CombasenateoriadarelatividadedeEinstein,
+selecione a alternativa CORRETA.
+(A) As leis da F́isica são diferentes em
+relação a dois referenciais inerciais com
+velocidades distintas.
+(B) A velocidade da luz no vácuo varia
+dependendodavelocidadedoobservador.
+(C) O espaço será menor para quem está
+em movimento com velocidade próxima
+à velocidade da luz em relação a um
+observador em repouso.
+(D) O tempo passa mais rápido para quem
+está em movimento com velocidade
+próxima a velocidade da luz em relação a
+um observador em repouso.
+(E) Um corpo qualquer pode se movimentar
+com velocidade acima da velocidade da
+luz no vácuo.
+QÚIMICA - Objetivas
+A tabela periódica se encontra ao final da
+prova
+Página
+QUESTÃO 6.
+Durante uma investigação experimental,
+estudantes compararam a velocidade de
+reaçãoentrecomprimidosefervescentes,água
+e vinagre. Para isso, repetiram a reação
+variando o volume de vinagre, a temperatura
+daáguaeoscomprimidosinteirosetriturados.
+Qual alternativa descreve CORRETAMENTE
+os fatores que influenciaram a velocidade da
+reação observada pelos estudantes?
+(A) A elevação da temperatura diminuiu a
+frequência das colisões entre reagentes e
+diminuiu a velocidade da reação.
+(B) A elevação da temperatura e da superf́icie
+de contato aumentou as colisões e
+aumentou a velocidade da reação.
+(C) A variação da concentração do vinagre
+não afetou a velocidade da reação.
+(D) O aumento da massa total dos reagentes
+alterou a velocidade da reação.
+(E) O uso de comprimido inteiro acelerou
+a velocidade da reação por aumentar a
+superf́iciedecontatoemcomparaçãocom
+o comprimido triturado.
+QUESTÃO 7.
+Duranteamanutençãodeestruturasmetálicas
+expostas à umidade, uma equipe técnica
+observou a formação de oxidação em suas
+superf́icies. Esse processo ocorre por uma
+reação de oxirredução, em que o metal doa
+elétrons ao reagir com espécies oxidantes,
+sendo convertido eḿions.
+Qual equação a seguir representa
+CORRETAMENTEumareaçãodeoxirredução
+balanceada?
+(A) Fe (s) +2 O (g) → FeO (s)
+2 2
+(B) 2 Fe (s) + 3 O (g) → 2 Fe O (s)
+2 3 4
+(C) Fe(s) + Cu2+ (aq) → Fe2+ (aq) + Cu(s)
+(D) Cu (s) + 2 H+ (aq) → Cu2+ (aq) +
+H O (ℓ)
+2
+(E) Zn (s) + Cℓ (g) → ZnCl (s)
+2
+3 de 17
+QUESTÃO 8.
+Durante a śintese da amônia pelo processo
+de Haber-Bosch, utiliza-se um catalisador
+metálico para acelerar a reação entre
+nitrogênio e hidrogênio.
+N (g) + 3 H (g) ⇌ 2 NH (g) ∆H < 0
+2 2 3
+Considerando as teorias sobre equiĺibrio
+qúimico, é CORRETO afirmar que o
+catalisador
+(A) acelera a reação direta e retarda a
+reação inversa, favorecendo a formação
+de produtos.
+(B) aumenta a velocidade de ambas as
+reações (direta e inversa), sem alterar a
+posição do equiĺibrio.
+(C) consome parte dos reagentes,
+promovendo um novo equiĺibrio mais
+favorável aos produtos.
+(D) desloca o equiĺibrio qúimico para o lado
+queliberacalor,aumentandoorendimento
+da reação.
+(E) diminui a energia dos reagentes e, por
+isso, aumenta a formação dos produtos.
+QUESTÃO 9.
+AnaliseafórmulaeletrônicadeLewisdoBF e
+3
+assinale a alternativa CORRETA.
+(A) A fórmula eletrônica do BF mostra que o
+3
+B eoF alcançamaestabilidade,comoos
+gases nobres, completando a camada de
+valência.
+(B) A fórmula eletrônica de Lewis mostra que
+o boro não obedece à regra do octeto no
+BF .
+3
+(C) A ligação qúimica, representada na
+fórmula eletrônica do BF , é a iônica,
+3
+uma vez que o Flúor é o átomo mais
+eletronegativo.
+(D) O alto valor de eletronegatividade do flúor
+gera uma polaridade na molécula BF ,
+3
+tornando-a polar.
+Página
+(E) Osátomosdeboroeflúor,paraseligarem,
+seguem a regra do octeto, pois, se não a
+seguissem, a ligação não se manteria.
+QUESTÃO 10.
+Na retina, uma camada que fica na
+parte posterior do olho, existem células
+fotorreceptoras contendo uma substância
+chamada cis retinal. Ao incidir a luz ocorre
+a transformação de cis retinal em trans retinal,
+gerandoumimpulsoelétrico,queé enviadoao
+cérebro, possibilitando a interpretação do que
+é visto.
+Sobreassubstânciascis-retinal etrans-retinal,
+assinale a alternativa CORRETA.
+(A) A substância cis retinal é um isômero
+geométrico da trans retinal e elas
+possuem propriedades f́isicas diferentes.
+(B) A substância cis retinal é um isômero
+ópticodatransretinal,já quealuzinterfere
+na posição dos átomos na cadeia.
+(C) A substância cis retinal se converte
+em seu isômero trans retinal porque as
+ligações duplas mudaram de posição na
+cadeia.
+(D) A substância trans retinal apresenta o
+substituinte no mesmo lado do eixo
+traçado ao longo das ligações duplas.
+(E) A substância trans retinal é produzida a
+partir da incidência de luz, sem que haja
+modificação da posição no espaço dos
+substituintes presentes nos carbonos da
+dupla ligação.
+4 de 17
+Geografia - Objetivas
+QUESTÃO 11.
+Observe a charge abaixo.
+Dispońivelem:
+http://crabjelly.zip.net/arch2009-01-012009-01-31.html.Acesso
+em:15jun.2025.
+A charge acima utiliza o humor irônico
+para destacar os desafios enfrentados por
+organizações internacionais, como a ONU,
+na promoção da cooperação entre páises.
+No cenário global, essas instituições são
+formadas por diversos Estados que buscam
+atuar juntos para enfrentar problemas comuns
+einfluenciardecisõesqueimpactamospáises,
+especialmente em questões que ultrapassam
+suas fronteiras nacionais.
+Assinale a alternativa CORRETA que
+apresenta um dos principais desafios
+enfrentadospelasorganizaçõesinternacionais.
+(A) As organizações internacionais têm total
+autonomiaparaagirsemprecisarnegociar
+com os páises membros.
+(B) As organizações internacionais possuem
+poder legal e podem impor suas decisões
+a todos os páises membros.
+(C) As diferenças de prioridades poĺiticas,
+econômicas e sociais entre os Estados
+não influenciam a atuação das
+organizações internacionais.
+(D) Como as organizações internacionais são
+totalmente independentes dos páises,
+não enfrentam problemas financeiros para
+manterem suas atividades.
+(E) Alguns páises-membros têm mais
+influência do que outros nas decisões
+tomadaspelasorganizaçõesinternacionais,
+dificultando a representação justa de
+todos.
+Página
+QUESTÃO 12.
+Leia o excerto abaixo.
+Com escassas opções militares à mão,
+o Irã voltou a ameaçar fechar o estreito
+de Ormuz neste domingo (22), após ser
+alvejado diretamente pelos Estados Unidos
+pelaprimeiraveznos46anosdehistóriacomo
+República Islâmica.
+Dispońivelem:https://encurtador.com.br/AHjWW.Acessoem:
+22jun.2025.
+Nomêsdejunhode2025,IsraeleIrã iniciaram
+umaguerraquefoiacirradacomaentradados
+Estados Unidos no conflito. Após o ataque
+americano, o páis do Oriente Médio ameaçou
+retaliar e fechar o estreito de Ormuz.
+O estreito de Ormuz se configura como uma
+importante arma geopoĺitica do Irã porque
+(A) corresponde à localização ideal para
+instalação de bases militares.
+(B) correspondeaumadasprincipaisrotasde
+exportação de petróleo.
+(C) corresponde à principal rota loǵistica de
+comunicação com o Ocidente.
+(D) corresponde à área privilegiada para
+exportação de minerais metálicos.
+(E) corresponde à localização da principal
+plataforma produtora de petróleo.
+5 de 17
+QUESTÃO 13.
+Analise a manchete a seguir.
+Fonte:MARINHO,AnaClara.FernandodeNoronhapassaa
+controlarnúmerodevisitantescombasenosdadosdeturistas
+noParqueNacionalMarinho.G1,Pernambuco,21ago.2023.
+Fernando de Noronha é um destino tuŕistico
+muito procurado devido às suas belezas
+naturais e biodiversidade.
+Com base na manchete e nos conhecimentos
+sobre os fluxos tuŕisticos contemporâneos,
+assinale a alternativa CORRETA.
+(A) A limitação do turismo tem como principal
+objetivoampliaroacessodapopulaçãode
+baixa renda ao arquipélago.
+(B) A cultura local não sofre alterações
+significativas com o turismo, pois os
+visitantes permanecem isolados das
+comunidades residentes.
+(C) A atividade tuŕistica em Fernando de
+Noronha não causa impactos relevantes,
+pois é praticada em áreas protegidas e
+com fiscalização constante.
+(D) O turismo de massa é incentivado no
+arquipélago como estratégia oficial para
+aumentar a arrecadação pública, sem
+considerar limites ambientais.
+(E) O controle da entrada de turistas
+em Fernando de Noronha busca
+equilibrar a preservação ambiental e o
+desenvolvimento econômico sustentável.
+Página
+QUESTÃO 14.
+Analise a representação a seguir.
+Fonte:THÉRY,Hervé;THÉRY,NeliAparecidadeMello.Atlas
+doBrasil:disparidadesedinâmicasdoterritório.Edusp-
+EditoradaUniversidadedeSãoPaulo,2018,p.127.
+A distribuição da população pelo território
+brasileiro não é homogênea. Algumas áreas
+sãomuitopovoadas,enquantooutraspossuem
+baix́issima densidade populacional.
+Uma importante área de baixo contingente
+demográfico no Brasil associa-se à (ao)
+(A) espaço rural.
+(B) região amazônica.
+(C) recôncavo baiano.
+(D) extensão litorânea.
+(E) planalto setentrional.
+6 de 17
+QUESTÃO 15.
+Leia o excerto abaixo.
+A vida dos imigrantes brasileiros pode ficar
+mais dif́icil no páis com o aumento da
+participação poĺitica da AfD no Bundetag
+(Câmara Baixa do Parlamento Alemão).
+Dispońivelem:https://encurtador.com.br/iLQ5d.Acessoem:26
+jun.2025.
+A AfD é um partido que tem ganhado força
+nas eleições parlamentares da Alemanha,
+principalmente com discursos contrários à
+imigração e com pautas nacionalistas.
+Com base nesse contexto, marque a
+alternativa CORRETA.
+(A) A participação da AfD no Budestag não
+temimpactosobreaspoĺiticasmigratórias,
+pois a Alemanha mantém uma postura
+neutra e técnica com relação à entrada de
+estrangeiros.
+(B) O crescimento da AfD no Parlamento
+Alemão está associado a uma postura
+cŕiticaà globalizaçãoetendeaintensificar
+a xenofobia, dificultando a vida dos
+imigrantes, inclusive brasileiros.
+(C) A ascensão da AfD indica uma
+estabilidade democrática, pois expressa
+a diversidade ideológica e garante a
+inclusão de perspectivas alternativas
+ao debate público sobre imigração e
+identidade nacional.
+(D) O aumento da representatividade da AfD
+indica o sucesso da poĺitica multicultural
+alemã, que tem gerado tensões apenas
+em grupos recém chegados e não
+afeta a comunidade de imigrantes já
+estabelecidas.
+(E) O fortalecimento de partidos como a AfD
+não representa uma preocupação para
+imigrantes brasileiros, pois o foco maior
+das cŕiticas desses poĺiticos recai sobre
+migrantes do norte da África e do Oriente
+Médio.
+Página
+História - Objetivas
+QUESTÃO 16.
+Leiaotextoabaixoqueapresentaumareflexão
+sobre modos de manifestação e efeitos do
+fascismo.
+Em 1974, Pasolini desenvolverá amplamente
+seutemado“genoćidiocultural”. O“verdadeiro
+fascismo”, diz ele, é aquele que tem por alvo
+osvalores,asalmas,aslinguagens,osgestos,
+os corpos do povo”. É aquele que “conduz,
+sem carrascos nem execuções em massa,
+à supressão de grandes porções da própria
+sociedade”, e é por isso que é preciso chamar
+degenoćidio“essaassimilação(total)aomodo
+e à qualidade de vida da burguesia”. Em
+1975, perto de escrever seu texto sobre o
+desaparecimento dos vaga-lumes, o cineasta
+dedicar-se-á ao tema – trágico e apocaĺiptico
+– de um desaparecimento do humano no
+coração da sociedade atual.
+Fonte:DIDI-HUBERMAN,Georges.Sobrevivênciados
+vaga-lumes.BeloHorizonte:EditoraUFMG,2011,p.29.
+Sobre as relações entre fascismo, artes e
+cultura, é CORRETO afirmar, com base no
+texto, que
+(A) ao definir de forma arbitrária a
+humanidade do humano, as artes se
+associam ao fascismo na produção do
+genoćidio cultural que permanece no séc.
+XXI.
+(B) a resistência ao fascismo por meio das
+artes só era posśivel no contexto do
+fascismo histórico, que se inicia na Itália
+e se encerra ao fim da Segunda Guerra
+Mundial.
+(C) as artes são imunes à violência fascista
+por mobilizarem linguagens verbais e não
+verbais imposśiveis de serem capturadas
+de forma objetiva no tempo e no espaço.
+(D) o genoćidio cultural que resulta da
+permanência hegemônica do modo
+de vida burguês faz do fascismo um
+fenômeno de longa duração e atrelado ao
+capitalismo.
+(E) os valores fascistas vêm sendo
+contestados pelas artes desde a segunda
+metadedoséculoXX,eaculturadoséculo
+XXI apresenta total ruptura com esses
+valores.
+7 de 17
+QUESTÃO 17.
+Guerra por procuração (ou guerra proxy),
+um conflito militar no qual uma ou mais
+terceiraspartesapoiamdiretaouindiretamente
+um ou mais Estados ou atores não estatais
+beligerantes, com o objetivo de influenciar o
+desfecho do conflito e, assim, promover seus
+próprios interesses estratégicos ou minar os
+de seus adversários. As terceiras partes em
+uma guerra por procuração não participam
+dos combates de forma significativa – ou não
+participaram de modo nenhum. Guerras por
+procuração permitem que grandes potências
+evitem o confronto direto entre si enquanto
+competem por influência e recursos. Os
+meios de apoio direto incluem assistência
+militar, treinamento, ajuda econômica e,
+ocasionalmente, operações militares limitadas
+com forças substitutas (surrogates). Já os
+meios indiretos abrangem bloqueios, sanções,
+embargos comerciais e outras estratégias
+destinadas a frustrar as ambições do rival.
+Dispońivelem:TraduzidodeBritannicaEncyclopedia.“Proxy
+war”.https://www.britannica.com/topic/proxy-war.Acessoem:
+17jun.2025(adaptado).
+O trecho acima foi retirado da Enciclopédia
+Britânica, e apresenta um conceito que pode
+ser utilizado na análise de conflitos históricos:
+guerra por procuração (ou, proxy war).
+É posśivel pensar em eventos históricos
+concretos que poderiam ser interpretados
+como “guerras por procuração”, como
+(A) no caso da Guerra Fria, exemplificada
+em conflitos como a Guerra do Vietnã e
+a Guerra das Coreias, que mobilizaram,
+para além dos atores locais, interesses de
+potências capitalistas e comunistas.
+(B) as lutas por independência na África
+na segunda metade do século XX, que
+se explicam mais pela interferência de
+potências estrangeiras do que pelas
+circunstâncias locais.
+(C) a Guerra do Paraguai, que exemplifica
+a manipulação de jovens nações
+sul-americanas (Paraguai, Brasil,
+Argentina e Uruguai) pela Inglaterra,
+grandepotênciaeconômicadoséculoXIX.
+(D) no caso da Revolução Cubana, um
+processo bastante documentado sobre o
+expansionismo soviético nas Américas,
+Página
+em oposição à influência dos Estados
+Unidos na região.
+(E) a chamada Guerra dos Boxers, que
+expressaainfluênciajaponesanaChina–
+mobilizandoresistênciamilitarchinesaaos
+interesses imperialistas ocidentais no final
+do século XIX.
+QUESTÃO 18.
+Leiaotextoabaixosobrerelaçõesentrepáises
+africanoseeuropeusnopós-independênciado
+século XX.
+Aliada à expansão agŕicola africana, a
+criação do Mercado Comum Europeu, em
+1957, foi outro entrave para as exportações
+dos produtos primários brasileiros. Sob a
+liderança francesa, os territórios ultramarinos
+foram inclúidos no sistema fechado de
+comércio seletivo em que se constitúia
+esse Mercado. Posteriormente, com a
+independência de algumas colônias, os novos
+Estados puderam associar-se em um sistema
+que estabelecia regime preferencial, um fundo
+dedesenvolvimento,anãodiscriminaçãoentre
+os Seis (França, Alemanha Ocidental, Itália,
+Bélgica, Páises Baixos e Luxemburgo) e seus
+associados e um Conselho de Ministros e
+uma Corte de Justiça próprios. Na prática,
+a participação de páises africanos significou
+o acesso de seus produtos a esse mercado
+sem a incidência de tarifas aduaneiras, o que
+barateava o preço dos mesmos e gerava, por
+sua vez, uma concorrência desleal para os
+produtos brasileiros.
+Fonte:ALMEIDA,E.L.de.Dooutroladodoatlântico:as
+relaçõespoĺiticaseeconômicasentreoBrasileospáises
+africanosdesdeoséculoXX.CadernosdoCEAS:Revista
+cŕiticadehumanidades,Salvador,BA,Brasil,n.241,p.447,
+2017.
+8 de 17
+Os efeitos das relações
+econômicas entre a Europa e as
+recém-independentes nações africanas são
+caracterizados
+(A) pela permanência de
+relações econômicas com rastros
+coloniais entre Europa e África,
+prejudiciais à economia brasileira por
+dificultar a entrada de produtos brasileiros
+na Europa e acordos econômicos entre o
+Brasil e páises africanos.
+(B) como forma de reparação histórica
+em função das barbáries coloniais
+empreendidasaospáisesafricanos,já que
+ospáiseseuropeusofereceramvantagens
+econômicasàssuasex-colônias,incluindo
+os páises sul-americanos, como o Brasil.
+(C) pela abertura de mercados feita por
+França, Alemanha Ocidental, Itália,
+Bélgica, Páises Baixos, Luxemburgo e
+pelo Brasil, uma vez que o páis é carente
+desses produtos e também colonizou
+páises africanos.
+(D) por benef́icios econômicos oferecidos
+pelos europeus aos páises africanos que
+experimentaram uma expansão agŕicola,
+condicionados a se manterem como
+colônias, o que favoreceu os produtos
+brasileiros no mercado europeu.
+(E) pelo processo de independências de
+colônias africanas, que contou com o
+apoio econômico brasileiro, gerando
+reclamações do Brasil quando esses
+páises priorizaram estabelecer relações
+comerciais com os ex-colonizadores
+europeus.
+Página
+QUESTÃO 19.
+Leia os Textos 1 e 2, que foram publicados,
+respectivamente, no jornal El Pais e no jornal
+CNN Brasil em 2025.
+Texto 1
+Entre a “violação” do estatuto e os
+antecedentes poĺiticos: águas divididas no
+Nacional pelos desaparecidos
+Os jogadores do elenco principal assumiram o
+comando no domingo e, na entrada da partida
+contra o Defensor Sporting, apareceram
+vestindo uma camisa com a inscrição “Somos
+todos faḿilia” no peito, em referência à causa
+que apóia os detidos e desaparecidos durante
+a ditadura uruguaia.
+Dispońivelem:https://www.elpais.com.uy/
+ovacion/futbol/entre-la
+-violacion-de-estatuto-y-los-antecedentes-politicos-aguas-
+divididas-en-nacional-por-los-desaparecidos.Acessoem:23
+jun.2025(traduçãolivre).
+Texto 2
+Clubes da Argentina recordam aniversário
+de golpe militar: “Nunca mais”
+Golpe militar completa 45 anos na Argentina e
+clubes se manifestam contra ditadura
+Em 24 de março é celebrado o Dia da
+Memória Pela Verdade e Justiça na Argentina,
+com diversas manifestações em memória às
+cerca de 30 mil v́itimas do regime. Como
+fazem costumeiramente na data, os principais
+clubes de futebol argentinos se uniram em
+manifestações nas redes sociais para lembrar
+— e condenar — o golpe. Em todas, as
+equipes usam a expressão “Nunca Mais”.
+Dispońivelem:https://www.cnnbrasil.com.br/esportes/futebol/
+futebol-internacional/clubes-da-argentina-recordam-aniversario
+-de-golpe-militar-nunca-mais/.Acessoem:23jun.2025.
+9 de 17
+Do ponto de vista histórico, as manifestações
+realizadas pelo time uruguaio, Nacional, e
+pelos clubes argentinos neste ano de 2025
+indicam
+(A) a aproximação dos clubes às pautas
+dos movimentos poĺiticos de páises da
+América Latina que lutam pela memória
+dos perseguidos poĺiticos e buscam
+respostas aos mortos e desaparecidos
+pelas ditaduras sul-americanas do século
+XX.
+(B) a recusa dos clubes de futebol do Uruguai
+e da Argentina em superar as reparações
+históricasrealizadasduranteocontextode
+abertura poĺitica pelos governos militares
+sul-americanos, que reconheceram as
+violações cometidas.
+(C) a solidariedade do Nacional, clube
+uruguaio, aos páises da América Latina
+que foram submetidos à repressão de
+regimes militares, pois o Uruguai foi o
+único páis democrático durante a vigência
+das ditaduras do Cone Sul no século XX.
+(D) uma rivalidade esportiva entre os clubes
+da Argentina e do Uruguai, que se
+relaciona com suas disputas pelo doḿinio
+militar, poĺitico e econômico na América
+Latina desde o contexto de abertura
+poĺitica e de transição democrática.
+(E) uma tradição dos clubes de futebol
+da América Latina mantida desde a
+criação da Operação Condor, quando os
+governos militares garantiram a liberdade
+de expressão poĺitica aos times de futebol
+latino-americanos.
+
+QUESTÃO 20.
+Texto 1
+De Lá Pra Cá
+O mal veio de caravela com
+sobrenome Cabral diretamente
+da Europa, vulgo: Portugal
+Trazendo armas e fardas
+convertendo e matando, isso
+vem acontecendo há mais de
+500 anos
+Escravizando nosso povo, toda
+uma nação; prefeito burguês
+querendo trocar merenda
+por ração
+E a mesma arma que mata é a
+mesma que converte, a ḿidia
+manipula pra vocês “jogarem”
+confete.
+Então confere, o caráter nos
+caracteres, somos erro 404 no
+programa desses vermes
+Fonte:SlamdaGuilhermina.SlamInterescolar:dasruaspara
+asescolasdasescolasparaasruas.SãoPaulo:Literarua,
+2021,p.147.
+Texto 2
+No Brasil, o Slam chegou em 2008 [e]
+o movimento se espalhou pelo Brasil. (...)
+Essa ferramenta que é o Slam, além de
+ser uma impulsionadora de empoderamento
+individual, de superação de barreiras como
+a timidez ou mesmo a falta de espaço para
+expor sua poesia, é também uma ferramenta
+de organização poĺitica coletiva. O movimento
+é hoje um forte aliado das causas sociais, um
+grandepropulsordevisibilidadeparaaspautas
+negras, ind́igenas, LGBTQI+, feministas,
+pessoas com deficiência, anticapitalista,
+ambiental, etc.
+Dispońivelem:https://jornal.usp.br/ciencias/ciencias
+-humanas/slam-e-voz-de-identidade-e-resistencia-dos-poetas
+-contemporaneos/.Acessoem:17jun.2025(adaptado).
+10 de 17
+O Texto 1 é um slam poesia de Jow Nogueira,
+estudante de 17 anos, enquanto o Texto 2
+contextualiza o movimento do Slam.
+Reconhecido como um fenômeno cultural
+da juventude contemporânea, o slam poesia
+caracteriza-se por ser
+(A) umaestratégiadedenúnciadesatualizada,
+pois o poder militar, simbolizado pelas
+armas e fardas, foi destitúido no Brasil
+desde meados da década de 1980, com a
+redemocratização do páis.
+(B) ilustrativa da criatividade da juventude
+contemporânea,quefazusosinadequados
+do passado com a finalidade de elaborar
+poesias comprometidas apenas com a
+adequação entre mensagem e rima.
+(C) incentivadora do individualismo entre
+a juventude contemporânea, pois trata
+de temáticas que se relacionam aos
+interesses de grupos espećificos, como
+a juventude negra, ind́igena e LGBTQI+.
+(D) reveladoradoprotagonismoeorganização
+da juventude das periferias urbanas,
+que se utiliza de temas históricos para
+denunciar as discriminações vividas pelos
+jovens no presente.
+(E) uma manifestação cultural desligada das
+pautas da juventude contemporânea, pois
+suas cŕiticas são dirigidas às experiências
+históricas de violência do Estado e de
+segregação social do século XVI.
+Geografia - Discursivas
+QUESTÃO 1.
+Observe a charge abaixo.
+
+Dispońivelem:https://l1nq.com/mt1u3Acessoem:22jun.2025.
+Em peŕiodos de crise, os jovens têm mais
+chances de perder o emprego do que os
+adultosemaisdificuldadesparaencontraruma
+nova vaga. Por isso, muitos se submetem
+a condições de trabalho precarizadas. A
+“uberização” do trabalho é exemplo disso, e
+vai além dos serviços de transporte: ela se
+estende aos serviços de entrega, faxina e
+muitos outros serviços.
+Dispońivelem:https://encurtador.com.br/R4JuT.Acessoem:15
+jun.2025.
+A imagem e a citação retratam a realidade
+enfrentada pelos trabalhadores de aplicativos.
+Em 2020, esses trabalhadores organizaram
+um movimento nacional chamado “Breque
+dos App” como forma de luta, por meio do
+qual denunciaram as dificuldades enfrentadas
+no exerćicio da atividade e reivindicaram
+melhores condições de trabalho. Essa
+mobilização reacendeu debates sobre os
+impactos da globalização nas dinâmicas
+do mundo do trabalho, cada vez mais
+influenciadas pelo avanço tecnológico e pela
+flexibilização dos v́inculos empregat́icios.
+Considerando as transformações no mundo
+do trabalho, associadas ao desenvolvimento
+do capitalismo globalizado:
+(A) Cite duas qualidades ou habilidades
+exigidas dos trabalhadores na atualidade,
+associadas ao desenvolvimento do
+capitalismo globalizado.
+(B) Cite e explique como a lógica da
+uberização afeta a qualidade de vida e as
+condições de trabalho dos trabalhadores
+das periferias.
+11 de 17

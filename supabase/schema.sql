@@ -16,7 +16,7 @@ create table if not exists public.questions (
   support text,
   support_image text,
   options jsonb not null,
-  answer text not null check (answer in ('A', 'B', 'C', 'D', 'E')),
+  answer text not null check (answer ~ '^[A-E](/[A-E])*$'),
   explanation text,
   created_at timestamptz not null default now(),
   unique (exam_id, number)
@@ -93,12 +93,14 @@ create policy "Users can create their attempts" on public.attempts for insert wi
 
 insert into public.exams (slug, title, source, year)
 values
-  ('pism-2025-1', 'PISM 2025-1', 'pism', '2025-1'),
-  ('pism-2025-2', 'PISM 2025-2', 'pism', '2025-2'),
-  ('pism-2024-1', 'PISM 2024-1', 'pism', '2024-1'),
-  ('pism-2024-2', 'PISM 2024-2', 'pism', '2024-2'),
-  ('pism-2023-1', 'PISM 2023-1', 'pism', '2023-1'),
-  ('pism-2023-2', 'PISM 2023-2', 'pism', '2023-2'),
+  ('pism-ii-2025-dia-1', 'PISM II 2025 - 1º dia', 'pism', '2025-1'),
+  ('pism-ii-2025-dia-2', 'PISM II 2025 - 2º dia', 'pism', '2025-2'),
+  ('pism-2025-1', 'PISM I 2026 - 1º dia', 'pism', '2026-1'),
+  ('pism-2025-2', 'PISM I 2026 - 2º dia', 'pism', '2026-2'),
+  ('pism-2024-1', 'PISM I 2025 - 1º dia', 'pism', '2025-1'),
+  ('pism-2024-2', 'PISM I 2025 - 2º dia', 'pism', '2025-2'),
+  ('pism-2023-1', 'PISM I 2024 - 1º dia', 'pism', '2024-1'),
+  ('pism-2023-2', 'PISM I 2024 - 2º dia', 'pism', '2024-2'),
   ('bb-2022-a-comercial', 'Banco do Brasil 2022 - Agente Comercial (Prova A)', 'bb', '2022-A'),
   ('bb-2021-a-comercial', 'Banco do Brasil 2021 - Agente Comercial (Prova A)', 'bb', '2021-A'),
   ('bb-2022-tecnologia', 'Banco do Brasil 2022 - Agente de Tecnologia (Microrregião 158 - TI)', 'bb', '2022'),

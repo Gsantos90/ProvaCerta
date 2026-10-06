@@ -1,0 +1,754 @@
+=== PDF 1 ===
+PRÓ-REITORIA DE GRADUAÇÃO - PROGRAD
+COORDENAÇÃO GERAL DE PROCESSOS SELETIVOS – COPESE
+PISM - PROGRAMAS DE INGRESSO 2024
+Caderno de Provas: 2º DIA – MÓDULO III - Área: Humanas
+(TRIÊNIO 2021-2023)
+ORIENTAÇÕES GERAIS:
+(cid:1) A duração total desta prova, incluindo o preenchimento da Folha de Respostas, é de 4 horas. A saída do local
+de provas só é permitida após 1 hora e 30 minutos.
+(cid:1) Será excluído do processo seletivo quem for flagrado mantendo consigo aparelho celular ou qualquer outro
+aparelho, dispositivo ou componente eletrônico. Esses dispositivos devem ser DESLIGADOS e
+acondicionados em saco plástico próprio e assim devem permanecer até a saída do local de prova.
+(cid:1) Não use em sala de prova boné, chapéu, chaveiros de qualquer tipo, óculos escuros ou relógio.
+(cid:1) Se você possui cabelos compridos deve mantê-los presos, deixando as orelhas descobertas.
+(cid:1) Em cima da mesa ou carteira permitem-se apenas: documento de identificação; caneta preta ou azul de corpo
+transparente e régua transparente; medicamentos; alimentos, água ou outra bebida em recipiente de corpo
+transparente sem o rótulo. Todos os demais pertences, incluindo lápis, devem ser acondicionados no saco
+plástico disponibilizado, que deve ter a ponta amarrada e ser mantido embaixo da cadeira ou carteira do
+candidato.
+INÍCIO DA PROVA:
+(cid:1) Se solicitado pelo fiscal, assine a Ata de Sala.
+(cid:1) CONFIRA, SOMENTE APÓS AUTORIZADO O INÍCIO DAS PROVAS, se este Caderno de Provas contém 20 páginas
+numeradas de questões, sendo 20 questões objetivas (provas de Física, Química, Geografia e História) e 10
+questões discursivas (provas de Geografia, História e Filosofia). Se houver algum problema, solicite ao fiscal a
+IMEDIATA substituição do Caderno de Provas.
+(cid:1) Receba a Folha de Respostas, CONFIRA se o NOME e CPF coincidem com o seu e assine-a IMEDIATAMENTE.
+o ATENÇÃO: Nenhuma anotação efetuada neste Caderno de Provas será considerada para correção!
+Todas as respostas, sejam das questões objetivas ou discursivas, deverão ser anotadas em local
+apropriado na Folha de Resposta.
+DURANTE A PROVA:
+(cid:1) Não desgrampeie e não retire nenhuma página deste caderno.
+(cid:1) Assine a Lista de Presença com assinatura idêntica à do documento de identificação apresentado.
+(cid:1) Comunique ao fiscal qualquer irregularidade que for observada. Não sendo tomadas pelo fiscal as providências
+devidas, solicite a presença do Coordenador do Setor na sala ou vá à coordenação do setor depois do final das
+provas.
+FINAL DA PROVA:
+(cid:1) Preste MUITA ATENÇÃO ao marcar suas respostas corretamente na Folha de Respostas. Ela não será
+substituída em nenhuma hipótese.
+(cid:1) Entregue sua Folha de Respostas, ela é o único documento que será utilizado para correção. Você poderá
+levar consigo este Caderno de Provas.
+(cid:1) Os 3 (três) últimos candidatos permanecem até o final das provas para assinar a Ata de Sala.
+NOME LEGÍVEL: ............................................................................................................
+ASSINATURA: ................................................................................................................
+INSCRIÇÃO: -
+
+=== PDF 2 ===
+---------------- ANOTE AQUI O RASCUNHO DE SUAS RESPOSTAS OBJETIVAS --------------
+* LEMBRE-SE de anotar suas respostas, tanto objetivas quanto discursivas, na Folha de Respostas, único documento que será utilizado para correção.
+01 02 03 04 05 06 07 08 09 10
+11 12 13 14 15 16 17 18 19 20
+
+=== PDF 3 ===
+PRÓ-REITORIA DE GRADUAÇÃO
+COORDENAÇÃO GERAL DE PROCESSOS SELETIVOS
+PISM 2024 – 2º Dia – Módulo III – Área: Humanas
+QUESTÕES OBJETIVAS
+FÍSICA
+Objetivas
+Questões de 01 a 05
+QUESTÃO 01 - O campo magnético da Terra protege nosso planeta dos raios cósmicos, permitindo a existência de
+vida. Contudo, pesquisas recentes mostram a possibilidade de alteração na sua intensidade e mudança na sua
+orientação no espaço.
+Em relação à origem mais provável do campo magnético da Terra, temos que ele é produzido
+como resultado do movimento de translação da Terra em torno do Sol.
+pelo movimento das cargas elétricas resultantes das colisões dos raios cósmicos com a atmosfera terrestre.
+pelo movimento de cargas elétricas em sua superfície.
+por um grande ímã permanente de ferro que há no centro da Terra.
+por cargas elétricas em movimento em seu interior.
+QUESTÃO 02 - O galvanômetro é um aparelho capaz de medir pequenas correntes elétricas que passam por ele.
+Entretanto, as correntes elétricas em circuitos cotidianos geralmente são muito maiores do que o galvanômetro
+suporta diretamente. Modificações podem ser feitas no galvanômetro com a associação de um resistor, de forma
+apropriada, para permitir fazê-lo funcionar como um voltímetro ou como um amperímetro. Este resistor pode ter
+resistência grande ou pequena, relativamente à resistência interna do galvanômetro.
+Assinale a alternativa que representa a associação apropriada do resistor com o galvanômetro, a partir do
+funcionamento CORRETO do voltímetro e do amperímetro.
+Amperímetro é um galvanômetro com uma grande resistência em paralelo.
+Amperímetro é um galvanômetro com uma grande resistência em série.
+Amperímetro é um galvanômetro com uma pequena resistência em série.
+Voltímetro é um galvanômetro com uma grande resistência em série.
+Voltímetro é um galvanômetro com uma grande resistência em paralelo.
+Página 1 de 20
+
+=== PDF 4 ===
+PRÓ-REITORIA DE GRADUAÇÃO
+COORDENAÇÃO GERAL DE PROCESSOS SELETIVOS
+PISM 2024 – 2º Dia – Módulo III – Área: Humanas
+QUESTÃO 03 - Na eletrostática, objetos neutros podem ser eletrizados por atrito, por contato e por indução, e podem
+ser classificados simplificadamente como condutores ou isolantes.
+Em relação à eletrização de objetos, assinale a afirmativa CORRETA.
+Ao ser carregado por atrito, um objeto neutro ficará sempre com o mesmo sinal de carga elétrica, devido ao
+material do qual ele é feito.
+As cargas que dois objetos neutros adquirem, após o atrito entre ambos, dependem da facilidade de um ceder
+elétrons ao outro.
+Quando dois objetos condutores neutros, de materiais diferentes, são atritados entre si, ambos podem ficar
+com cargas elétricas de mesmo sinal, pois possuem elétrons livres.
+Somente objetos condutores carregados podem interagir por indução, pois necessitam de cargas livres.
+Somente objetos isolantes podem ser carregados por contato com outro objeto carregado.
+QUESTÃO 04 - Um observador fixo na Terra vê duas naves espaciais deslocarem-se muito rapidamente em sua
+direção, ambas aproximando-se da Terra em linha reta, e decide medir suas velocidades e comprimentos aparentes.
+A primeira das naves, que tem comprimento próprio (ou seja, medido em repouso) conhecido de 6,0 m, tem
+velocidade medida de módulo 0,6 c, em que c é a velocidade da luz no vácuo. A segunda nave tem comprimento
+próprio desconhecido e velocidade medida de módulo 0,8 c, mas aparenta ter o dobro do comprimento aparente da
+primeira para o observador fixo. Contrações relativísticas ocorrem por um fator de (cid:1)1−(cid:4)(cid:5)/(cid:7)(cid:5).
+Qual é o comprimento próprio da segunda nave?
+4,8 m
+8,0 m
+9,6 m
+12,0 m
+16,0 m
+QUESTÃO 05 - Considere as seguintes afirmações relacionadas ao tema da dualidade onda-partícula:
+I – Elétrons podem difratar-se.
+II – Fótons não têm massa de repouso, portanto, sua energia é nula.
+III – Os efeitos Compton e fotoelétrico podem ser compreendidos como manifestações da natureza corpuscular da
+onda eletromagnética.
+Assinale a alternativa CORRETA a respeito dessas afirmações.
+Somente I é verdadeira.
+Somente II é verdadeira.
+Somente III é verdadeira.
+Somente I e III são verdadeiras.
+I, II e III são verdadeiras.
+Página 2 de 20
+
+=== PDF 5 ===
+PRÓ-REITORIA DE GRADUAÇÃO
+CCOOOORRDDEENNAAÇÇÃÃOO GGEERRAALL DDEE PPRROOCCEESSSSOOSS SSEELLEETTIIVVOOSS
+PISM 2024 – 2º Dia – Módulo III – ÁÁrreeaa:: HHuummaannaass
+QUÍMICA
+Objetivas
+Questões de 06 a 10
+QUESTÃO 06 - UUmmaa ssoolluuççããoo aaqquuoossaa ssaattuurraaddaa ddee cclloorreettoo ddee ssóóddiioo ((NNaaCl)) éé mmaannttiiddaa eemm uumm rreecciippiieennttee ffeecchhaaddoo ee eemm
+tteemmppeerraattuurraa ccoonnssttaannttee.. QQuuaannddoo oo rreecciippiieennttee éé aabbeerrttoo,, iinniicciiaa-ssee aa eevvaappoorraaççããoo ddoo ssoollvveennttee ee ssuurrggee oo eeqquuiillííbbrriioo qquuíímmiiccoo
+representado pela equação abaixo.
+NaCl ⇌ Na+ + Cl-
+(s) (aq) (aq)
+Em relação aos fenômenos envoollvviiddooss nnoo pprroocceessssoo ddeessccrriittoo,, aassssiinnaallee aa aalltteerrnnaattiivvaa IINNCCOORRRREETTAA.
+AAA ddduuuppplllaaa ssseeetttaaa iiinnndddiiicccaaa qqquuueee aaa dddiiissssssooollluuuçççãããooo dddooo ccclllooorrreeetttooo dddeee sssóóódddiiiooo sssóóóllliiidddooo eee aaa rrreeecccrrriiissstttaaallliiizzzaaaçççãããooo dddooosss íííooonnnsss sssooolllvvvaaatttaaadddooosss ooocccooorrrrrreeemmm
+durante o equilíbrio químico.
+AA ssaattuurraaççããoo ddaa ssoolluuççããoo ooccoorrrree qquuaannddoo ooss ííoonnss ssóóddiioo ee cclloorreettoo aattiinnggeemm ccoonncceennttrraaççããoo mmááxxiimmaa,, nnaass ccoonnddiiççõõeess
+descritas.
+AAA sssooolllvvvaaatttaaaçççãããooo dddooo ccclllooorrreeetttooo dddeee sssóóódddiiiooo ooocccooorrrrrreee qqquuuaaannndddooo ooosss íííooonnnsss sssóóódddiiiooo eee ccclllooorrreeetttooo fffiiicccaaammm llliiigggaaadddooosss eee eeennnvvvooollltttooosss pppooorrr mmmooolllééécccuuulllaaasss
+de água.
+NNaa mmeeddiiddaa eemm qquuee aa áágguuaa eevvaappoorraa ooccoorrrree oo ddeessllooccaammeennttoo ddoo eeqquuiillííbbrriioo,, aauummeennttaannddoo aa mmaassssaa ddoo cclloorreettoo ddee
+sódio sólido.
+OOO eeeqqquuuiiilllíííbbbrrriiiooo qqquuuííímmmiiicccooo ééé ssseeemmmppprrreee uuummm ppprrroooccceeessssssooo dddiiinnnâââmmmiiicccooo,,, iiissstttooo ééé,,, aaa rrreeeaaaçççãããooo ooocccooorrrrrreee nnnooosss dddoooiiisss ssseeennntttiiidddooosss,,, mmmeeesssmmmooo qqquuueee aaa
+temperatura fique constante.
+Página 3 de 20
+
+=== PDF 6 ===
+PRÓ-REITORIA DE GRADUAÇÃO
+COORDENAÇÃO GERAL DE PROCESSOS SELETIVOS
+PISM 2024 – 2º Dia – Módulo III – Área: Humanas
+QUESTÃO 07 - Os açúcares são também conhecidos como sacarídeos, glicídios ou carboidratos, tendo fórmula geral
+(CH O) e são considerados nossos combustíveis biológicos, por disponibilizarem grandes quantidades de energia
+2 n
+para as células vivas.
+Sobre essa classe de substâncias, suas propriedades e ações biológicas, identifique a resposta INCORRETA.
+A celulose é um carboidrato, sendo o principal responsável pela estruturação das células vegetais.
+A glicose, presente no sangue humano, sofre oxidação para produção de energia necessária ao metabolismo.
+A respiração celular é a conversão da glicose em gás carbônico e água e ocorre nas células de animais, mas não
+das plantas.
+A sacarose é o principal carboidrato obtido da cana-de-açúcar e é formado pela ligação química entre a glicose
+e a frutose.
+O amido é um polímero de glicose, que pode ser convertido em energia quando necessário.
+QUESTÃO 08 - A panela de pressão é comumente empregada para agilizar o cozimento de alimentos. Quando levada
+ao fogo faz com que a temperatura de ebulição da água se eleve acima de 100 oC, devido ao aumento da pressão
+interna.
+Com base na teoria das colisões, indique a resposta CORRETA.
+Com o aumento da pressão dentro da panela, as colisões entre as moléculas e íons diminuem fazendo com que
+o processo de cozimento seja mais rápido.
+A pressão interna da panela diminui a concentração de moléculas e íons aumentando a velocidade das reações
+químicas envolvidas durante o cozimento.
+A superfície de contato dos alimentos durante o cozimento diminui devido à elevação da pressão aumentando
+a velocidade de cozimento dos alimentos.
+A velocidade de cozimento na panela de pressão é maior, pois a energia cinética média das moléculas e íons é
+maior.
+O aumento da temperatura de ebulição não altera a energia cinética média das moléculas, acelerando o
+processo de cozimento.
+QUESTÃO 09 - O petróleo é classificado como uma mistura de compostos derivados de carbono com propriedades
+físicas diferentes, segundo o tamanho das cadeias carbônicas. Por exemplo, a gasolina (C -C ) possui de cinco a doze
+5 12
+átomos de carbono em sua estrutura. Outras frações do petróleo são o GLP (gás liquefeito de petróleo, C -C ), o
+1 4
+querosene (C -C ), o óleo diesel (C C ) e o óleo lubrificante (C -C ). A separação desses compostos se dá por
+10 16 14- 20 20 50
+destilação fracionada após a extração do petróleo, sendo esse processo conhecido como refino.
+Em relação ao processo de refino é CORRETO afirmar que
+a gasolina é destilada depois do óleo diesel.
+o GLP é a última fração a ser destilada.
+o óleo diesel é a fração destilada antes do querosene.
+o óleo lubrificante constitui a fração destilada antes da gasolina.
+o querosene constitui a fração destilada após a gasolina.
+Página 4 de 20
+
+=== PDF 7 ===
+PRÓ-REITORIA DE GRADUAÇÃO
+COORDENAÇÃO GERAL DE PROCESSOS SELETIVOS
+PISM 2024 – 2º Dia – Módulo III – Área: Humanas
+QUESTÃO 10 - Com a proximidade do verão, o uso recreativo das piscinas em clubes, condomínios e casas aumenta
+consideravelmente e, com isso, a frequência de limpeza da água também. O método de limpeza mais comum faz uso
+da adição de hipoclorito de cálcio Ca(Cl O) na piscina. Contudo, o método mais moderno utiliza a eletrólise de uma
+2
+solução aquosa de NaCl. Nesse caso, o sal é adicionado à piscina, e, através de um sistema de bombas e eletrodos,
+ocorre a eletrólise da solução e a espécie ativa ClO- (íon hipoclorito) é formada. A eletrólise é um processo no qual as
+espécies químicas são reduzidas e oxidadas, na presença de eletrodos e passagem de corrente elétrica.
+Abaixo estão representadas as semi-reações envolvidas no processo de eletrólise da solução de NaCl (i e ii) assim
+como a reação de formação do íon hipoclorito (iii):
+i. 2 Cl- Cl + 2 e-
+(g) 2(aq)
+ii. 2 H O + 2 e- H + 2 OH-
+2 (l) 2(g) (aq)
+iii. Cl + 2 OH- Cl- + ClO- + H O
+2(g) (aq) (aq) (aq) 2 (l)
+Analise as sentenças a seguir:
+I. Durante o processo de limpeza são formadas espécies de cloro oxidadas e reduzidas.
+II. A produção de gás cloro ocorre no catodo.
+III. Ocorre a formação da espécie ativa (ClO-) tanto na presença quanto na ausência de íons OH-.
+IV. Para que a eletrólise ocorra é preciso dois eletrodos: um será o catodo e o outro o anodo.
+Marque a alternativa que apresenta apenas as sentenças CORRETAS.
+(I) e (II)
+(II) e (III)
+(III) e (IV)
+(I) e (IV)
+(II) e (IV)
+Página 5 de 20
+
+=== PDF 8 ===
+PRÓ-REITORIA DE GRADUAÇÃO
+CCOOOORRDDEENNAAÇÇÃÃOO GGEERRAALL DDEE PPRROOCCEESSSSOOSS SSEELLEETTIIVVOOSS
+PISM 2024 – 2º Dia – Módulo III – ÁÁrreeaa:: HHuummaannaass
+GEOGRAFIA
+Objetivas
+Questões de 11 a 15
+QUESTÃO 11 – AAA fffiiiggguuurrraaa aaabbbaaaiiixxxooo aaappprrreeessseeennntttaaa ooosss cccaaabbbooosss sssuuubbbmmmaaarrriiinnnooosss iiinnnssstttaaalllaaadddooosss pppaaarrraaa pppeeerrrmmmiiitttiiirrr aaa aaaccceeessssssiiibbbiiillliiidddaaadddeee ààà iiinnnttteeerrrnnneeettt...
+CCoonnssiiddeerraannddoo aa aattuuaall iinntteeggrraaççããoo ddooss ppaaíísseess ppoorr rreeddeess .
+mmaatteerriiaaiiss ee iimmaatteerriiaaiiss,, aassssiinnaallee aa aalltteerrnnaattiivvaa CORRETA:
+Expõe-ssee uummaa rreeddee ddee ttrraannssppoorrttee,, ppoossttoo qquuee aa
+iinnffoorrmmaaççããoo ee aa ccoommuunniiccaaççããoo ssããoo bbeennss qquuee
+pprreecciissaamm eessttaarr eemm fflluuxxoo ppaarraa sseerreemm eeffiicciieenntteess.
+Apresenta-ssee uummaa rreeddee mmaatteerriiaall ddee fflluuxxooss
+iimmaatteerriiaaiiss,, eessppeecciiffiiccaammeennttee ddee iinnffoorrmmaaççããoo ee
+ccoommuunniiccaaççããoo,, qquuee rreepprroodduuzz aa llóóggiiccaa ddaa aattuuaall
+ordem mundial.
+Nota-ssee nnaa iimmaaggeemm aa ddiiffuussããoo ddee rreeddeess ddee
+ccoommuunniiccaaççããoo ee ddee ttrraannssppoorrttee,, rreessppeeccttiivvaammeennttee
+material e imaterial, tteennddeennddoo aa eeqquuiilliibbrraarr aass
+relações internacionais.
+AA rreedduuzziiddaa ccoonneexxããoo eennttrree AAmméérriiccaa LLaattiinnaa ee
+ÁÁffrriiccaa éé ppoouuccoo ssiiggnniiffiiccaattiivvaa qquuaannttoo àà aattuuaall
+oorrddeemm mmuunnddiiaall,, ppooiiss ooss cceennttrrooss ddee ddiiffuussããoo ddaa
+iinntteerrnneett eessttããoo llooccaalliizzaaddooss aappeennaass eemm ppaaíísseess ddoo
+Atlântico Norte.
+Fonte: hhttttppss::////wwwwww..ssuubbmmaarriinneeccaabblleemmaapp..ccoom/ Adaptado. Acesso em
+Visualizam-ssee nnaa iimmaaggeemm rroottaass sseemmeellhhaanntteess ààss
+05 jun. 2023
+ddoo ppeerrííooddoo ccoolloonniiaall qquuee ccoonneeccttaavvaamm aass ttrrooccaass
+ddee mmeerrccaaddoorriiaass eennttrree AAmméérriiccaa LLaattiinnaa ee EEssttaaddooss
+UUnniiddooss,, aassssiimm ccoommoo aass rroottaass ddee ttrrááffiiccoo eennttrree
+este país e os países africanos.
+QUESTÃO 12 – Leia a manchete abaixo:
+CCCiiisssjjjooorrrdddââânnniiiaaa::: ooo qqquuueee eeexxxpppllliiicccaaa pppiiiooorrr ooonnndddaaa dddeee vvviiiooolllêêênnnccciiiaaa eeennntttrrreee IIIsssrrraaaeeelll eee pppaaallleeessstttiiinnnooosss eeemmm 222000 aaannnooosss
+BBC – 04/07/2023
+Israel iniciou na segunda-ffeeiirraa ((33//77)),, nnoo ccaammppoo ddee rreeffuuggiiaaddooss ddee JJeenniinn,, aa mmaaiioorr ooppeerraaççããoo mmiilliittaarr nnaa CCiissjjoorrddâânniiaa nnooss
+úúúllltttiiimmmooosss 222000 aaannnooosss,,, ooo qqquuueee rrreeesssuuullltttooouuu nnnaaa mmmooorrrttteee dddeee pppeeelllooo mmmeeennnooosss 111222 pppaaallleeessstttiiinnnooosss eee uuummm sssooollldddaaadddooo iiisssrrraaaeeellleeennnssseee...
+Fonte: hhttttppss::////wwwwww..bbbbcc..ccoomm//ppoorrttuugguueessee//aarrttiicclleess//ccrrgg99yyllpp11nn0022oo AAcceessssoo eemm 0066 jjuull ddee 22002233..
+Assinale a alternativa CORRETA qqquuueee iiinnndddiiicccaaa ooo ppprrriiinnnccciiipppaaalll mmmoootttiiivvvooo dddooosss cccooonnnfffllliiitttooosss eeennntttrrreee IIIsssrrraaaeeelll eee PPPaaallleeessstttiiinnnaaa:
+As ações do Estado Islâmico.
+A instituição da religião judaica.
+O controle dos poços de petróleo.
+OO aassssaassssiinnaattoo ddee lliiddeerraannççaass iissrraaeelleennsseess.
+A ocupação de territórios ppaalleessttiinnooss ppoorr IIssrraaeell.
+Página 6 de 20
+
+=== PDF 9 ===
+PRÓ-REITORIA DE GRADUAÇÃO
+COORDENAÇÃO GERAL DE PROCESSOS SELETIVOS
+PISM 2024 – 2º Dia – Módulo III – Área: Humanas
+QUESTÃO 13 – Leia o trecho de reportagem abaixo:
+Argentina reforça crítica feita por Lula ao acordo entre Mercosul e UE: ‘algumas assimetrias’
+Em cúpula do grupo sul-americano, Alberto Fernandez disse estar de acordo com o presidente brasileiro na questão
+das compras governamentais.
+Fernandez defendeu a integração comercial como fator essencial para o desenvolvimento da região. Ele mencionou
+ainda que ‘ninguém pode nos condenar a ser apenas fornecedores’.
+Fonte: https://oglobo.globo.com/mundo/noticia/2023/07/argentina-reforca-critica-feita-por-lula-ao-acordo-entre-mercosul-e-ue-algumas-
+assimetrias.ghtml Adaptado. Acesso em 05 jul de 2023
+Assinale a alternativa CORRETA:
+A defesa da integração comercial, por ambos os presidentes, faz referência ao novo passo a ser dado pelo
+Mercosul com o intuito de reduzir as barreiras entre cidadãos sul-americanos.
+A possível condenação dos países do Mercosul a serem apenas fornecedores se deve à manutenção de regras
+protecionistas, por parte de alguns países da UE, que exporiam pequenas e médias empresas sul-americanas.
+A recente negociação entre Mercosul e UE tende a intensificar as mudanças na ordem mundial ao fortalecer as
+indústrias sul-americanas por meio da ampliação da exportação de produtos de maior valor agregado.
+O presidente da Argentina, ao se referir à importância da integração comercial, demonstra sua discordância
+com o Chile, que tem buscado manter negociações autônomas mesmo sendo um membro do Mercosul.
+A questão das compras governamentais, sobre a qual há concordância entre os presidentes do Brasil e da
+Argentina, refere-se à constituição de uma nova moeda para a América do Sul que substituiria às moedas
+nacionais.
+QUESTÃO 14 – Com o avanço da produção de carros elétricos, o lítio vem se tornando um dos minerais de maior
+interesse do mercado internacional. Usado para fabricação de baterias, seu preço de mercado teve forte variação a
+partir de meados de 2021, como mostra o gráfico abaixo:
+Fonte: https://www.bloomberglinea.com.br/2023/04/05/o-que-precos-mais-altos-do-petroleo-significam-para-a-transicao-energetica/ acesso
+em 02 jun.2023
+Sobre o mercado do lítio, é CORRETO afirmar que:
+Mesmo com a crescente demanda pelo mineral para fabricação de baterias de veículos elétricos, o preço do
+lítio caiu nos primeiros meses de 2023.
+Apesar da continuidade dos conflitos na Ucrânia e sua reverberação no mercado do petróleo, os preços do lítio
+continuam em ascensão.
+O Brasil perde uma importante chance de aumentar exportações e ampliar o superávit da balança comercial ao
+não se inserir no mercado do lítio.
+O aumento no preço do lítio no início de 2023 representou uma expansão da produção de carros elétricos
+devido à insegurança do mercado.
+A diminuição do preço das baterias impulsionou o mercado de carros elétricos no Brasil, que já detém a maior
+parcela de vendas desse setor.
+Página 7 de 20
+
+=== PDF 10 ===
+PRÓ-REITORIA DE GRADUAÇÃO
+COORDENAÇÃO GERAL DE PROCESSOS SELETIVOS
+PISM 2024 – 2º Dia – Módulo III – Área: Humanas
+QUESTÃO 15 – Leia os dois textos abaixo:
+TEXTO I
+África: Lula destaca potencial de parceria no desenvolvimento agrário
+Ingrid Soares - 09/08/2023 - 20:25
+O presidente Luiz Inácio Lula da Silva (PT) se reuniu nesta quarta-feira (9/8) com o presidente do Congo, Denis
+Sassou N'guesso, após a Cúpula da Amazônia, em Belém. O chefe do Executivo brasileiro reforçou a intenção de
+fazer com que o Brasil retome o diálogo com os países africanos e citou potencial de parceria na preservação
+ambiental e no desenvolvimento agrário.
+Mais cedo, o chefe do Executivo também conversou com o presidente da República Democrática do Congo (RDC),
+Félix Tshisekedi, e destacou a necessidade de avanços nas áreas de cooperação e intercâmbio cultural e econômico.
+Fonte: https://www.correiobraziliense.com.br/politica/2023/08/5115789-africa-lula-destaca-potencial-de-parceria-no-desenvolvimento-
+agrario.html Adaptado. Acesso em 10 ago de 2023.
+TEXTO II
+Migrantes africanos vagam, no limite de suas forças, no deserto entre Tunísia e Líbia
+AFPi - 31/07/2023 - 10:02
+Caminhando até a exaustão, centenas de migrantes africanos entram todos os dias na Líbia, depois de terem sido
+abandonados na fronteira, no meio do deserto, pelas forças de segurança tunisianas, segundo os seus depoimentos
+e os da Guarda fronteiriça da Líbia.
+Cem migrantes foram resgatados por guardas líbios no domingo (30), enquanto vagavam em uma zona árida
+desabitada perto de Sebjat al Magta, um lago salgado, ao longo da fronteira entre Tunísia e Líbia.
+Fonte: https://istoe.com.br/migrantes-africanos-vagam-no-limite-de-suas-forcas-no-deserto-entre-tunisia-e-libia/ Adaptado. Acesso em 10 ago
+de 2023.
+Considerando a regionalização do continente africano pelo critério de localização, que o subdivide em cinco regiões,
+assinale a alternativa que indica corretamente as regiões nas quais se localizam os países envolvidos nas duas
+reportagens:
+1) Magreb | 2) Sahel
+1) Sahel | 2) África Setentrional
+1) África Meridional | 2) Magreb
+1) África Ocidental | 2) África Oriental
+1) África Central | 2) África Setentrional
+Página 8 de 20
+
+=== PDF 11 ===
+PRÓ-REITORIA DE GRADUAÇÃO
+COORDENAÇÃO GERAL DE PROCESSOS SELETIVOS
+PISM 2024 – 2º Dia – Módulo III – Área: Humanas
+HISTÓRIA
+Objetivas
+Questões de 16 a 20
+Questão 16 – Leia os textos a seguir:
+Texto I
+O postulado do racismo biológico poderia representar um obstáculo para alguns observadores, tal como a atitude
+ateia do regime nazista. Já desde as primeiras glosas do triunfo de Hitler que os fascistas espanhóis salientavam que
+o antissemitismo biológico-genético era a grande característica que diferenciava o “hitlerismo” dos outros
+movimentos fascistas, e afastavam-se dessa concepção de raça. No entanto, assinalavam, ao mesmo tempo, que os
+espanhóis também não gostavam dos judeus e que, portanto, compreendiam a interpretação racial que o nacional-
+socialismo dava a um problema universal, que noutras latitudes (Espanha e Itália) tinha adquirido apenas
+características confessionais.
+Fonte: SEIXAS, Xosé M. N. Ecos de Berlim: a influência do nacional-socialismo alemão no fascismo espanhol (1930-1940). Estudos Ibero-
+Americanos, 2015, p. 46
+Texto II
+Quem são os Yomus, grupo de ultras fascistas que começou os atos racistas contra Vini Jr.
+Os torcedores localizados atrás do gol defendido por Mamardashvili, do Valência, durante o segundo tempo, foram
+os responsáveis por iniciarem os atos racistas contra o atacante Vinicius Junior, no último domingo, no estádio
+Mestalla. Aquele setor da arena é onde fica o grupo Ultra Yomus, uma torcida organizada considerada
+ideologicamente fascista e de ideologia nacionalista espanhola. O grupo Yomus surgiu em 1983 num contexto
+político muito marcado pela agitação e violência. Na década de 1990, diversos jovens com pensamentos neonazistas
+entraram nos Yomus e ficou cada vez mais comum vermos nos jogos bandeiras identificadas com o nazismo, o
+orgulho celta e o franquismo.
+Fonte: https://oglobo.globo.com/esportes/futebol-internacional/noticia/2023/05/quem-sao-os-yomus-grupo-de-ultrafascistas-que-comecou-
+os-atos-racistas-contra-vini-jr.ghtml. Acessado em 13 jun de 2023
+A partir dos dois textos, compreende-se que a nefasta adesão ao racismo na Espanha
+foi juridicamente estabelecida no contexto de institucionalização do regime fascista espanhol no final do século
+XIX.
+foi um fenômeno em ascensão nos anos finais do século XX, sem relação direta com o fascismo
+espanhol.
+não possui relação com o fascismo espanhol porque esse regime se diferenciava do nazismo no tocante à
+questão racial.
+possui vinculação com o contexto de emergência do fascismo espanhol, com repercussão em práticas sociais
+atuais.
+é explicada pela aproximação recente entre torcidas organizadas de times espanhóis e de times alemães que
+compartilham ideais fascistas.
+Página 9 de 20
+
+=== PDF 12 ===
+PRÓ-REITORIA DE GRADUAÇÃO
+CCOOOORRDDEENNAAÇÇÃÃOO GGEERRAALL DDEE PPRROOCCEESSSSOOSS SSEELLEETTIIVVOOSS
+PISM 2024 – 2º Dia – Módulo III – ÁÁrreeaa:: HHuummaannaass
+QUESTÃO 17 - OObbsseerrvvee aa iimmaaggeemm ee lleeiiaa oo tteexxttoo aa sseegguuiirr::
+EEmm 11992288,, ddooiiss ccoommuunniissttaass ddoo BBllooccoo OOppeerráárriioo ee CCaammppoonnêêss ffoorraamm eelleeiittooss ppaarraa oo CCoonnsseellhhoo MMuunniicciippaall ddoo DDiissttrriittoo
+Federal.
+“““[[[.........]]] sssóóó nnnooosss dddeeevvveeemmm eeennnccchhheeerrr dddeee sssaaatttiiisssfffaaaçççãããooo aaasss nnnooovvvaaasss dddiiirrreeetttiiivvvaaasss qqquuueee vvvêêêmmm aaadddoootttaaannndddooo ooo mmmooovvviiimmmeeennntttooo ppprrrooollleeetttááárrriiiooo eeennntttrrreee nnnóóósss,,,
+aaarrrrrreeegggiiimmmeeennntttaaannndddooo sssuuuaaasss fffooorrrçççaaasss pppaaarrraaa fffuuutttuuurrraaasss bbbaaatttaaalllhhhaaasss eeellleeeiiitttooorrraaaiiisss,,, qqquuueee iiinnnaaauuuggguuurrraaarrrãããooo uuummmaaa fffaaassseee nnnaaa pppooolllííítttiiicccaaa,,, fffaaazzzeeennndddo com que
+ooo ppprrrooollleeetttaaarrriiiaaadddooo eeennntttrrreee eeemmm ccceeennnaaa,,, iiinnndddeeepppeeennndddeeennnttteee dddooosss ccchhhooorrrrrriiilllhhhooosss pppooolllííítttiiicccooosss dddaaa bbbuuurrrggguuueeesssiiiaaa (((.........))) ssseeerrrááá uuummm dddooosss mmmuuuiiitttooosss mmmeeeiiiooosss dddeee
+aaalllaaarrrgggaaarrr sssuuuaaa llluuutttaaa gggeeerrraaalll cccooonnntttrrraaa ooosss eeexxxppplllooorrraaadddooorrreeesss,,, cccrrriiiaaannndddooo uuummmaaa nnnooovvvaaa fffrrreeennnttteee dddeee cccooommmbbbaaattteee eee ppprrreeepppaaarrraaannndddooo cccooommm eeelllaaa nnnooovvvaaasss
+bases para um mais largggooo mmmooovvviiimmmeeennntttooo dddeee mmmaaassssssaaasss cccaaapppaaazzz dddeee dddeeerrrrrruuubbbaaarrr dddeeefffiiinnniiitttiiivvvaaammmeeennnttteee ooosss ssseeeuuusss eeexxxppplllooorrraaadddooorrreeesss eee llleeevvvááá-los à
+ddeeffiinniittiivvaa vviittóórriiaa ccoonnttrraa ooss sseeuuss iinniimmiiggooss sseeccuullaarreess””.
+Fonte: tttrrreeeccchhhooo dddooo jjjooorrrnnnaaalll “““AAA EEEsssqqquuueeerrrdddaaa”””,,, pppuuubbbllliiicccaaadddooo nnnooo RRRiiiooo dddeee JJJaaannneeeiiirrrooo eeemmm fffeeevvveeerrreeeiiirrrooo dddeee 111999222888... CCCiiitttaaadddooo pppooorrr BBBaaatttaaalllhhhaaa,,, CCC. Formação da classe operária e
+ppprrrooojjjeeetttooosss dddeee iiidddeeennntttiiidddaaadddeee cccooollleeetttiiivvvaaa... IIInnn::: FFFEEERRRRRREEEIIIRRRAAA,,, JJJ... eee DDDEEELLLGGGAAADDDOOO,,, LLL...NNN... (((ooorrrggg)))... OOO BBBrrraaasssiiilll RRReeepppuuubbbllliiicccaaannnooo,,, VVVooolll 111... RRRiiiooo dddeee JJJaaannneeeiiirrrooo,,, CCCiiivvviiillliiização Brasileira, 2008.
+p. 181
+A partir do texto e da imagem, observa-ssee
+a rrreeejjjeeeiiiçççãããooo dddooosss AAAnnnaaarrrqqquuuiiissstttaaasss eeemmm rrreeelllaaaçççãããooo aaa ppprrroooccceeedddiiimmmeeennntttooosss eee iiinnnssstttiiitttuuuiiiçççõõõeeesss pppooolllííítttiiicccooo-parlamentares típicos da
+democracia liberal.
+a crítica das oligarquias aaaooo sssiiisssttteeemmmaaa eeellleeeiiitttooorrraaalll vvviiigggeeennnttteee,,, eeemmm qqquuueee sssóóó vvvoootttaaavvvaaammm hhhooommmeeennnsss aaalllfffaaabbbeeetttiiizzzaaadddooosss e maiores de 21
+anos.
+a visão dos SSoocciiaalliissttaass nnoo sseennttiiddoo ddee ddeeffeennddeerr o processo eelleeiittoorraall ccoommoo pprriinncciippaall mmeeiioo ddee ccoonnqquuiissttaarr ddiirreeiittooss
+sociais.
+a dddeeefffeeesssaaa dddeee uuummmaaa rrreeefffooorrrmmmaaa iiimmmeeedddiiiaaatttaaa dddooo sssiiisssttteeemmmaaa eeellleeeiiitttooorrraaalll dddaaa PPPrrriiimmmeeeiiirrraaa RRReeepppúúúbbbllliiicccaaa,,, vvviiisssaaannndddooo pppeeerrrmmmiiitttiiirrr aaa cccaaannndddiiidddaaatttuuurrraaa
+ddee mmeemmbbrrooss ddaa ccllaassssee ttrraabbaallhhaaddoorraa.
+a pppooosssiiiçççãããooo dddooosss CCCooommmuuunnniiissstttaaasss eeemmm dddeeefffeeesssaaa dddaaa pppaaarrrtttiiiccciiipppaaaçççãããooo nnnooo ppprrroooccceeessssssooo eeellleeeiiitttooorrraaalll,,, cccooommmppprrreeeeeennndddiiidddooo cccooommmooo uuummm eeessspppaaaçççooo dddeee
+luta política dentre outros.
+Página 10 de 20
+
+=== PDF 13 ===
+PRÓ-REITORIA DE GRADUAÇÃO
+COORDENAÇÃO GERAL DE PROCESSOS SELETIVOS
+PISM 2024 – 2º Dia – Módulo III – Área: Humanas
+QUESTÃO 18 - Observe a imagem a seguir:
+Fig. 1: Capa de Superman (n. 17. Julho-agosto). Disponível em: h+ps://m.media-amazon.com/images/I/51usOys22zL.jpg
+acesso em 26 jun. 2023.
+Sobre a participação dos EUA na Segunda Guerra Mundial e dos usos políticos da indústria cultural, é CORRETO
+afirmar que:
+Os EUA participaram da Segunda Guerra Mundial, principalmente a partir da política cultural, por isso, filmes,
+desenhos animados e história em quadrinhos foram utilizados à exaustão.
+A utilização das histórias em quadrinhos tinha como objetivo primordial o alistamento de soldados, assim como
+justificar a presença de mulheres jovens nos campos de batalha no território europeu.
+A capa de Superman reforçava o uso da indústria cultural, como forma de representar a participação dos EUA
+na Segunda Guerra Mundial, e valorizar a presença americana como solucionadora do conflito.
+A participação dos EUA na Segunda Guerra Mundial não foi consenso entre as forças aliadas, por essa razão, a
+indústria cultural foi um instrumento para justificar a necessidade da incursão militar.
+A entrada dos EUA na Segunda Guerra Mundial representou o momento de criação da indústria cultural, sendo
+que filmes, histórias em quadrinhos e desenhos animados surgiram no contexto da guerra.
+Página 11 de 20
+
+=== PDF 14 ===
+PRÓ-REITORIA DE GRADUAÇÃO
+COORDENAÇÃO GERAL DE PROCESSOS SELETIVOS
+PISM 2024 – 2º Dia – Módulo III – Área: Humanas
+QUESTÃO 19 - Leia o texto a seguir:
+As grandes redes de TV surgiam com programação em âmbito nacional, estimuladas pela criação da Embratel, do
+Ministério das Comunicações e de outros investimentos governamentais em telecomunicação, que buscavam a
+integração e a segurança do território brasileiro. Ganhavam vulto diversas instituições estatais de incremento à
+cultura, como a Embrafilme, a Funarte e o Conselho Federal de Cultura. À sombra de apoio do Estado, floresceu
+também a iniciativa privada: criou-se uma indústria cultural, não só televisiva, mas também fonográfica, editorial, de
+agências de publicidade etc.
+Fonte: RIDENTI, Marcelo. Cultura e Política. In: FERREIRA, J. e DELGADO, L.A.N. O Brasil Republicano, vol 4, p. 155)
+Entre as alternativas abaixo, assinale aquela que corresponde ao contexto político-cultural a que se refere o autor:
+Primeira República, quando artistas e intelectuais ligados ao movimento modernista e antropofágico
+defenderam a ideia de aglutinação e integração das culturas e a “devoração crítica das influências culturais”
+estrangeiras.
+Contrução do Estado Novo, quando intelectuais se inseriram na organização político-ideológica do Estado,
+participando da construção do projeto político-pedagógico de implementação, popularização e difusão da
+ideologia do regime.
+Aos chamados Anos Dourados, quando as políticas do governo de Juscelino Kubitschek, baseadas no
+nascionalismo e no desenvolvimentismo, deram suporte a projetos culturais de caráter inclusivo e
+universalista.
+Ditadura Militar, quando, paralelamente à censura, observa-se um esforço governamental modernizador nas
+áreas de comunicação e cultura, incentivando o investimento privado e a ação estatal direcionada, inclusive, a
+integração nacional.
+Redemocratização, quando, apesar da criação de órgãos de incentivo à cultura, como a ANCINE, verifica-se um
+declínio da participação estatal na cultura e um incremento da propaganda governamental como meio de
+assegurar a segurança nacional.
+QUESTÃO 20 - Leia o texto a seguir:
+Também conhecida como Aliança Atlântica, a Organização do Tratado do Atlântico Norte (Otan) foi fundada em
+1949 com o objetivo, em primeiro lugar, de atuar como um obstáculo à ameaça de expansão soviética na Europa
+após a Segunda Guerra Mundial. Além disso, os Estados Unidos a viram como uma ferramenta para impedir o
+ressurgimento de tendências nacionalistas na Europa e promover a integração política no continente. [...] Em maio
+de 2022, motivados pela invasão da Ucrânia pela Rússia, os governos da Finlândia e da Suécia apoiaram a adesão de
+ambos os países à Otan, sinalizando uma mudança em suas políticas de décadas de não alinhamento militar. O
+secretário-geral da Otan, Jens Stoltenberg, afirmou que seria possível permitir que Finlândia e Suécia aderissem à
+aliança rapidamente.
+Fonte: MUDGE, Rob. O que é a Otan e por que ela foi criada. Deutsch Welle, 17/05/2022. https://www.dw.com/pt-br/o-que-%E9-a-otan-e-por-
+que-ela-foi-criada/a-60701303
+Sobre a Otan e as relações internacionais, é CORRETO afirmar que:
+A Guerra da Ucrânia teve início após a sinalização de Finlândia e Suécia em aderir à Otan, após pertencerem ao
+bloco geopolítico russo.
+A fundação da Otan foi articulada pela Convenção Geral da Organização das Nações Unidas, como a unidade
+militar da entidade, com objetivos expansionistas.
+A Otan surge no contexto da Segunda Guerra Mundial, como um produto das articulações do Tratado de
+Versalhes, buscando solucionar os conflitos bélicos.
+A Otan foi fundada como uma resposta à institucionalização do Pacto de Varsóvia, que foi articulado no
+contexto do fim da Segunda Guerra Mundial e início da Guerra Fria.
+Um dos elementos centrais da tensão entre Rússia e Ucrânia se dá pela disposição da Ucrânia em integrar a
+Otan e aos interesses geopolíticos do bloco liderado pelos EUA.
+Página 12 de 20
+
+=== PDF 15 ===
+PRÓ-REITORIA DE GRADUAÇÃO
+COORDENAÇÃO GERAL DE PROCESSOS SELETIVOS
+PISM 2024 – 2º Dia – Módulo III – Área: Humanas
+QUESTÕES DISCURSIVAS
+* Lembre-se: este Caderno de Provas não será usado para correção, motivo pelo qual você poderá levá-lo para casa
+ao término da prova. Para cada uma das questões a seguir há um local apropriado na Folha de Respostas (único
+documento que será utilizado para correção, tanto das questões objetivas quanto das questões discursivas).
+GEOGRAFIA
+Discursivas (4 questões)
+QUESTÃO 1 – Leia o trecho da reportagem abaixo:
+Ambientalistas no calcanhar da Shell
+Isto É – 26/05/2023
+A relação entre multinacionais petrolíferas e ambientalistas nunca foi das melhores, mas os atritos entre a anglo-
+holandesa Shell e ONGs de proteção do meio ambiente ganharam escalas cinematográficas na semana passada.
+Durante assembleia de acionistas na terça-feira (23), ativistas do clima invadiram o centro de convenções da
+companhia, em Londres, e forçaram a suspensão da reunião. A revolta começou depois que 20% dos acionistas
+votaram contra a estratégia de descarbonização e transição energética da Shell para fontes limpas [...].
+A assembleia de acionistas, palco dos embates, foi a primeira sob o comando de Sawan, que assumiu o cargo em
+janeiro. Ele encarou a missão sob um intenso tiroteio entre os acionistas, que divergiam sobre a viabilidade de a
+companhia conseguir reduzir suas emissões e diminuir a dependência do petróleo. O plano, apresentado em 2021,
+previa corte acima de 30% até 2030, um objetivo ousado para uma empresa de petróleo [...].
+No Brasil, as petrolíferas — incluindo a Shell — também estão no alvo de ambientalistas em organizações como
+Greenpeace, com mais intensidade desde o ano passado. Isso porque o governo concedeu, em abril de 2022, 59
+áreas para exploração de petróleo no País, em leilão que arrecadou R$ 422,4 milhões. Do total arrecadado, 98%
+foram oferecidos por Shell, Ecopetrol e Total pela concessão de oito áreas na Bacia de Santos [...].
+Fonte: https://istoedinheiro.com.br/ambientalistas-no-calcanhar-da-shell/. acesso em 2 jun.2023
+A) Cite três motivos que explicam a resistência de empresas petrolíferas em assumir compromissos de
+investimentos nas chamadas “energias limpas”.
+B) No mundo globalizado, mesmo com o avanço na transição energética de países como a Alemanha e a
+Dinamarca, o movimento ambientalista continua exigindo esforços dos países com maior PIB no investimento
+e promoção de energia limpa nos países pobres. Explique as motivações dessa exigência.
+QUESTÃO 2 – Leia o trecho da reportagem abaixo:
+Resort de grupo espanhol tem conflito acirrado na APA de Maricá
+Indígenas Guarani bloqueiam obras do Projeto Maraey, megaempreendimento com parceiros de peso como a rede
+internacional de hotéis Marriott e a marca de festivais Rock in Rio
+((o))Eco - ELIZABETH OLIVEIRA - 20 de abril de 2023
+Alvo de resistência do movimento ambientalista e de cientistas que atuam, há décadas, com estudos em várias áreas
+do conhecimento na Área de Proteção Ambiental (APA) de Maricá, o Projeto Maraey amanheceu nesta segunda-
+feira (17) com o canteiro de obras bloqueado por um grupo da comunidade Mata Verde Bonita, onde vivem
+Página 13 de 20
+
+=== PDF 16 ===
+PRÓ-REITORIA DE GRADUAÇÃO
+COORDENAÇÃO GERAL DE PROCESSOS SELETIVOS
+PISM 2024 – 2º Dia – Módulo III – Área: Humanas
+indígenas Guarani. Com cartazes expressando a oposição ao megaempreendimento turístico-residencial nessa
+unidade de conservação estadual, eles garantem que vão continuar em mobilização para barrar a construção. Tanto
+que nesta terça-feira (18) fixaram um “embargo simbólico” na placa que anuncia o projeto, comunicando o ato de
+protesto até que haja uma manifestação do Ministério Público sobre o caso. O movimento é liderado pelo cacique
+Darci Tupã [...].
+Com a proposta de ocupar 6,6% de uma área de 840 hectares com infraestrutura residencial, de hotelaria e lazer,
+investindo R$ 11 bilhões de capital privado, em 14 anos, o Projeto Maraey já anunciou grandes parcerias, dentre as
+quais, a proposta de criação do Rock in Rio Maraey Resort, o primeiro hotel temático do mundo contendo a marca
+desse famoso festival de música. A iniciativa foi divulgada em setembro de 2019, em evento que contou com a
+presença da vice-presidente do Rock in Rio, Roberta Medina. A parceria com a rede internacional de Hotéis Marriott
+foi anunciada em 2023, quando foi mencionado que o acordo previa a construção de três hotéis na área do Projeto
+Maraey: Ritz-Carlton Reserve, JW Marriott e Rock in Rio Autograph Collection. Juntos, os três empreendimentos
+devem ter mais de 1,1 mil quartos, segundo divulgado [...].
+Fonte: https://oeco.org.br/reportagens/resort-de-grupo-espanhol-tem-conflito-acirrado-na-apa-de-marica/
+O turismo relacionado ao uso e contemplação das belezas naturais de determinada área (como o turismo de
+aventura, o turismo ecológico, o turismo rural etc.) está intimamente ligado às características do meio físico.
+Enquanto uma das atividades econômicas que mais cresce no Brasil e no mundo, tem levantado diversas e complexas
+questões sobre o meio ambiente e a vida social, cultural e econômica das áreas receptoras.
+A) Cite dois impactos positivos da atividade turística para o desenvolvimento local.
+B) Explique dois aspectos que justificam a emergência de conflitos socioambientais entre comunidades
+indígenas e empreendimentos turísticos, como o citado na reportagem.
+QUESTÃO 3 – Considerando as questões sócio-culturais, leia os textos e observe a imagem abaixo:
+“A historiadora Beatriz Nascimento denuncia, em seus escritos, o cruel alijamento da existência negra e de sua
+historiografia no Brasil. Para ela, existe ainda aqui uma cultura própria, uma forma de vida específica, que não
+emerge como pauta relevante (sobretudo academicamente), anão ser pelo viés da subalternidade. Uma produção
+de conhecimento que seja politicamente comprometida e engajada com a democratização e ampliação de direitos
+na cidade precisa urgente e criticamente revisar a forma e o intuito das investigações realizadas. A presença negra
+na cidade não pode ser compreendida apenas pela ótica do “problema”, que em geral é formulado a partir de uma
+miríade de conceitos e racionalidades descontextualizadas, estranhas aos próprios “sujeitos-problemas” e às formas
+como, ao longo dos anos, vêm resolvendo suas vidas nas cidades.”
+Fonte: LEANDRO, Gabriela (Gaia). Direito à cidade e questões raciais. COLETIVA. Revista de divulgação científica. Dossiê 24, Direito à cidade, fev-
+mai, 2019.
+Praça da Liberdade, em São Paulo, muda nome para ‘Liberdade África-Japão’ em homenagem à resistência negra
+Michel Fonseca – 02/06/2023
+A Liberdade hoje é muito conhecida por ser um dos principais lugares que preserva a cultura japonesa em São Paulo.
+Logo no início há um Torii, portal japonês, lojas e restaurantes tradicionais e outras lojas (e pessoas) voltadas para o
+mundo dos animes.
+Mas nem sempre foi um lugar sobre a imigração japonesa, mas sim sobre a resistência negra.
+Na época da escravidão, a praça era conhecida como Largo da Forca, por ser o lugar onde negros escravizados
+acusados de algum crime ou fugitivos eram levados para sofrer enforcamento público.
+Página 14 de 20
+
+=== PDF 17 ===
+PRÓ-REITORIA DE GRADUAÇÃO
+CCOOOORRDDEENNAAÇÇÃÃOO GGEERRAALL DDEE PPRROOCCEESSSSOOSS SSEELLEETTIIVVOOSS
+PISM 2024 – 2º Dia – Módulo III – ÁÁrreeaa:: HHuummaannaass
+Fonte: https://mundonegro.inf.br/praca-da-lliibbeerrddaaddee-em-sao-paulo-muda-nome-para-liberdade-africa-jjaappaaoo-em-homenagem-a-resistencia-
+negrraa// ((AAddaappttaaddoo)) AAcceessssoo eemm 0055 jjuunn..2023.
+A) EEExxxpppllliiiqqquuueee dddeee qqquuueee mmmaaannneeeiiirrraaa aaa pppooopppuuulllaaaçççãããooo nnneeegggrrraaa dddiiiaaassspppóóórrriiicccaaa ééé pppaaauuutttaaadddaaa “““pppeeelllooo vvviiiééésss dddaaa sssuuubbbaaalllttteeerrrnnniiidddaaadddeee””” nnnooo pppeeerrríííooodddooo
+aattuuaall ee iinnddiiqquuee dduuaass ppoossssíívveeiiss aabboorrddaaggeennss ccoonnttrraa-hegemônicas a essa narrativa.
+B) EExxpplliiqquuee ddee qquuee mmaanneeiirraa aa aalltteerraaççããoo ddoo nnoommee ddaa PPrraaççaa ppaarraa LLiibbeerrddaade África-JJaappããoo ppooddee aammpplliiaarr ooss ddiirreeiittooss
+da população negra brasileira.
+QUESTÃO 4 - OObbsseerrvvee aa cchhaarrggee aabbaaiixxoo ee lleeiiaa oo eexxcceerrttoo ddaa rreeppoorrttaaggeemm::
+Fonte: https://www.brasil247.com/charges/r-i-p-rraaiinnhhaa-elizabeth-iiAcesso em 06 jul. 2023.
+Página 15 de 20
+
+=== PDF 18 ===
+PRÓ-REITORIA DE GRADUAÇÃO
+COORDENAÇÃO GERAL DE PROCESSOS SELETIVOS
+PISM 2024 – 2º Dia – Módulo III – Área: Humanas
+“Muitos nas antigas colônias britânicas saudaram abertamente a memória da rainha, enquanto outros
+compartilharam fotos da monarca durante visitas aos seus respectivos países. Mas a admiração não é unânime. Para
+alguns, sua morte reacendeu memórias da sangrenta história colonial britânica. Tuítes postados pela professora
+americana de origem nigeriana Uju Anya horas após a morte da rainha geraram um grande debate. Ela escreveu: ‘Se
+alguém espera que eu expresse qualquer coisa além de desprezo pela monarca que orientou um governo que
+patrocinou o genocídio que massacrou e deslocou metade da minha família e cujas consequências aqueles ainda
+vivos ainda tentam superar, pode ficar desejando uma estrela.”
+Fonte: https://www.bbc.com/portuguese/internacional-62871616 Adaptado. Acesso em 06 jul de 2023.
+Considerando o processo de constituição do modo de produção capitalista e o papel do Reino Unido na Divisão
+Internacional do Trabalho, responda:
+A) Cite duas funções importantes do Reino Unido na origem da organização da Divisão Internacional do
+Trabalho.
+B) Qual é o nome do conflito nigeriano mencionado no texto? Indique um motivador do conflito e qual a
+implicação da Coroa Britânica nele.
+HISTÓRIA
+Discursivas (4 questões)
+QUESTÃO 1 - Leia os textos a seguir:
+Texto I
+Para a população negra, nesse contexto deveras adverso, ser cidadão significava ter direitos iguais – e não ser vista
+como inferior. Porém, diante da inclusão marginal e das práticas de discriminação racial e tratamento diferenciado
+em relação à população branca, a cidadania plena continuava sendo um sonho. Para transformá-lo em realidade, um
+grupo de “pessoas de cor” logo percebeu que era necessário unir-se e lutar coletivamente, por meio de
+reivindicações e projetos, pela conquista de respeito, reconhecimento, dignidade, empoderamento, participação
+política, emprego, educação, terra. Dessas bandeiras de luta, uma das prioritárias foi a defesa da educação.
+Fonte: DOMINGUES, Petrônio. Um “templo de luz”: Frente Negra Brasileira (1931-1937) e a questão da educação. Revista Brasileira de
+Educação, 2008, p. 517-518
+Texto II
+LEI Nº 10.639, DE 9 DE JANEIRO DE 2003.
+Art.26-A. Nos estabelecimentos de ensino fundamental e médio, oficiais e particulares, torna-se obrigatório o ensino
+sobre História e Cultura Afro-Brasileira.
+§1º. O conteúdo programático a que se refere o caput deste artigo incluirá o estudo da História da África e dos
+Africanos, a luta dos negros no Brasil, a cultura negra brasileira e o negro na formação da sociedade nacional,
+resgatando a contribuição do povo negro nas áreas social, econômica e política pertinentes à História do Brasil.
+Página 16 de 20
+
+=== PDF 19 ===
+PRÓ-REITORIA DE GRADUAÇÃO
+COORDENAÇÃO GERAL DE PROCESSOS SELETIVOS
+PISM 2024 – 2º Dia – Módulo III – Área: Humanas
+A Frente Negra Brasileira (FNB) foi uma associação que existiu entre 1931 e 1937 e mobilizou milhares de negros e
+negras para lutarem por seus direitos.
+A) Explique de que forma a noção de cidadania hegemonizada naquele período do Varguismo mostrava-se
+excludente em relação às demandas da população negra.
+B) Ainda que a FNB tenha existido apenas até 1937, a luta da população negra, com foco na educação, teve
+continuidade através de outros movimentos sociais. Explique a importância da Lei 10639/2003 para a
+conquista da cidadania desejada pela FNB.
+QUESTÃO 2 - Leia os textos a seguir:
+Texto I
+Os bolcheviques acreditavam que o capitalismo havia criado uma nova contradição, sentida de forma mais dura
+pelas mulheres, entre as demandas do trabalho e as necessidades da família. [...] Um rápido olhar pelas janelas
+imundas de qualquer dormitório de fábrica na Rússia do século XIX proporcionava amplo apoio para esse ponto de
+vista. As mulheres haviam ingressado na força de trabalho, mas ainda eram responsáveis por criar os filhos, cozinhar,
+limpar, costurar, remendar – o trabalho penoso e mecânico essencial para a família. As responsabilidades
+domésticas das mulheres impediam-nas de ingressar nos domínios públicos do trabalho, da política e de
+empreitadas criativas em pé de igualdade com os homens. O capitalismo, de acordo com os bolcheviques, jamais
+seria capaz de fornecer uma solução sistemática para a dupla carga que as mulheres carregavam.
+Fonte: GOLDMAN, Wendy. Mulher, Estado e Revolução. São Paulo: Boitempo, 2013, p. 17
+Texto II
+Com o início da Primeira Guerra Mundial em 1914, as manifestações femininas durante o mês de março se tornaram
+também uma forma de protestar pelo término do conflito e pela paz. No período da guerra, um episódio definido
+pelo protagonismo feminino marcou o início do processo que colocou fim a 300 anos de monarquia na Rússia. A
+Revolução Russa, evento que transformou o mundo em 1917, teve nas mobilizações do Dia Internacional da Mulher
+um dos seus primeiros atos propulsores. Naquele 8 de março, mulheres saíram às ruas de São Petersburgo para
+pedir por pão, melhores condições de vida e pela saída da Rússia da Primeira Guerra Mundial (BATISTA, Liz. 8 de
+Março: como surgiu o Dia Internacional da Mulher. Estado de São Paulo.
+Fonte: http://m.acervo.estadao.com.br/noticias/acervo,8-de-marco-como-surgiu-o-dia-internacional-da-mulher,70004001064,0.htm. Acesso
+em 2 jun.2023.
+Com base nos textos, responda sobre as demandas femininas e a revolução russa de Outubro de 1917.
+A) Qual a relação entre as mobilizações das mulheres russas em 1914 e a revolução russa em 1917?
+B) Na perspectiva dos bolcheviques, de que maneira as reivindicações das mulheres russas se enquadravam no
+contexto da revolução russa de 1917?
+Página 17 de 20
+
+=== PDF 20 ===
+PRÓ-REITORIA DE GRADUAÇÃO
+COORDENAÇÃO GERAL DE PROCESSOS SELETIVOS
+PISM 2024 – 2º Dia – Módulo III – Área: Humanas
+QUESTÃO 3 – Leia os textos a seguir:
+Texto I
+Objetivamente, justiça de transição pode ser considerada como o conjunto de mecanismos que um país que tenha
+passado por um regime autoritário e/ou por um período de grandes violações de direitos humanos instrumentaliza,
+implementa, para fortalecer o novo regime democrático e reconstruir seu Estado Democrático de Direito.
+Fonte: GALLO, Carlos Artur. A justiça das transições: uma proposta de análise para Portugal, Espanha, Argentina e Brasil. Revista Brasileira de
+Ciência Política, nº 38, p. 1-31, 2002
+Texto II
+Era sábado, 30 de abril de 1977, quando 14 mulheres vestiram um lenço branco na cabeça e foram à Praça de Maio,
+no centro de Buenos Aires. Elas buscavam informações sobre seus filhos, desaparecidos durante a ditadura militar
+instaurada na Argentina no ano anterior. Não demorou até que mais mulheres se juntassem. Para não serem
+repreendidas, já que era proibido se agrupar nas ruas, as mães caminhavam em torno do monumento da praça. Com
+chuva ou sol, a partir daquele 30 de abril, as “Mães da Praça de Maio” estariam lá toda quinta-feira, às 15h30.
+Fonte: Entenda o movimento de mães e avós na Praça de Maio na Argentina. Revista Galileu, 30/abril/2021
+Sobre o fim das ditaduras militares e a Justiça de Transição, responda:
+A) Apresente um dispositivo jurídico que possa ser enquadrado como mecanismo de justiça de transição no caso
+brasileiro
+B) Que relação pode ser estabelecida entre o movimento “Mães da Praça de Maio” e a justiça de transição no
+caso argentino?
+QUESTÃO 4 - Leia os textos a seguir:
+Texto I
+Em 1904, o presidente Theodore Roosevelt elaborou um corolário, uma reinterpretação da Doutrina Monroe (...) Se
+a Doutrina Monroe proibia às potências estrangeiras estender seus domínios no Novo Mundo, o Corolário Roosevelt
+afirmava o direito norte-americano de intervir nos negócios dos países latino-americanos. Em 1932, Franklin Delano
+Roosevelt foi eleito presidente dos Estados Unidos. Ele acreditava que a política agressiva de intervenções diretas
+adotadas por seus antecessores necessitava de alterações (...) os mecanismos utilizados para exercer a dominação
+econômica deveriam ser mais sutis e sofisticados. As novas práticas consolidaram o pleno domínio de Washington
+sobre os territórios da América Latina, debaixo da aparência de relação cordial entre amigos. Entretanto, após a
+Segunda Guerra Mundial, foi sepultada a política de boa vizinhança. A América Latina não tardaria a sentir os efeitos
+dessas alterações da política externa dos Estados Unidos durante a Guerra Fria.
+Fonte: Mota, M.B. e Braick, P, R. História. São Paulo, Ed. Moderna, 1998. p. 330
+Página 18 de 20
+
+=== PDF 21 ===
+PRÓ-REITORIA DE GRADUAÇÃO
+COORDENAÇÃO GERAL DE PROCESSOS SELETIVOS
+PISM 2024 – 2º Dia – Módulo III – Área: Humanas
+Texto II
+A política externa de Trump foi marcada por um isolacionismo arrogante. Com o desprezo às “organizações
+multilaterais” e até mesmo a aliados tradicionais dos EUA, como Alemanha e França. No entanto, foi na
+administração Trump que se iniciou a nominada “Guerra Comercial à China”. A partir da eleição de Trump, em 2016,
+formou-se um consenso no Departamento de Estado (...) de que o grande desafio dos EUA não é mais o “terrorismo”
+e, sim, a China, e que é preciso contê-la tenazmente.
+O governo Biden, após a desastrosa retirada dos EUA do Afeganistão, começou finalmente a realizar o outrora
+esboçado pivô para o Pacífico, a fim de conter a expansão da China ().
+Fonte: COSTA Junior, Pedro. A política externa dos EUA para a China. Disponível em https://jornal.usp.br/artigos/a-politica-externa-dos-eua-
+para-a-china/ Acessado em 20 jun. 2023
+O primeiro texto refere-se à política externa dos Estados Unidos no século XX e o segundo analisa a política externa
+dos Estados Unidos no século XXI.
+A) A) Indique um traço de continuidade na política externa norte-americana desde o início do século XX até os
+dias atuais.
+B) B) Explique uma dimensão política dos efeitos a que se refere o autor na frase: “A América Latina não tardaria
+a sentir os efeitos das alterações da política externa dos Estados Unidos durante a Guerra Fria”.
+FILOSOFIA
+Discursivas (2 questões)
+Leia o texto abaixo e responda as questões:
+“Durante o inverno de 1919-1920, essas considerações me levaram a conclusões que posso agora reformular da
+seguinte maneira: (1) É fácil obter confirmações ou verificações para quase toda teoria – desde que as procuremos.
+(2) As confirmações só devem ser consideradas se resultarem de predições arriscadas. (3) Toda teoria científica
+“boa” é uma proibição: ela proíbe certas coisas de acontecer. Quanto mais uma teoria proíbe, melhor ela é. (4) A
+teoria que não for refutada por qualquer acontecimento concebível não é científica. A irrefutabilidade não é uma
+virtude, como freqüentemente se pensa, mas um vício”
+Fonte: POPPER, Karl. Conjecturas e Refutações. Brasília: Ed. Universidade de Brasília, 1982, p. 66. Adaptado
+QUESTÃO 1 – Para que um discurso seja reconhecido como conhecimento é preciso que tenha um objeto de
+conhecimento definido, método adequado ao objeto de conhecimento e critério de verdade, também, adequado ao
+objeto de conhecimento. Qual a diferença entre o objeto de conhecimento científico e o objeto de conhecimento
+filosófico?
+QUESTÃO 2 - Explique sucintamente o que é critério de verdade, como ele garante a objetividade da ciência e da
+moralidade (ex: direitos humanos), e a diferença entre a objetividade do conhecimento científico e a objetividade dos
+princípios morais.
+Página 19 de 20
+
+=== PDF 22 ===
+PRÓ-REITORIA DE GRADUAÇÃO
+COORDENAÇÃO GERAL DE PROCESSOS SELETIVOS
+PISM 2024 – 2º Dia – Módulo III – Área: Humanas
+Página 20 de 20

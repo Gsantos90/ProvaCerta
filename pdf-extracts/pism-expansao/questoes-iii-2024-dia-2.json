@@ -1,0 +1,342 @@
+[
+  {
+    "number": 1,
+    "subject": "Física",
+    "text": "O campo magnético da Terra protege nosso planeta dos raios cósmicos, permitindo a existência de vida. Contudo, pesquisas recentes mostram a possibilidade de alteração na sua intensidade e mudança na sua orientação no espaço. Em relação à origem mais provável do campo magnético da Terra, temos que ele é produzido",
+    "options": [
+      "como resultado do movimento de translação da Terra em torno do Sol.",
+      "pelo movimento das cargas elétricas resultantes das colisões dos raios cósmicos com a atmosfera terrestre.",
+      "pelo movimento de cargas elétricas em sua superfície.",
+      "por um grande ímã permanente de ferro que há no centro da Terra.",
+      "por cargas elétricas em movimento em seu interior."
+    ],
+    "answer": "E",
+    "support": "Redação adaptada para estudo; numeração e ordem das alternativas preservadas. Textos de apoio resumidos. Consulte a questão e os textos integrais no caderno oficial. Explicação autoral, não publicada pela banca. As 20 questões objetivas são comuns às quatro áreas; o link abre o caderno de Humanas. As discursivas não integram este cadastro.",
+    "support_image": null,
+    "explanation": "Gabarito oficial: E. O campo magnético terrestre é explicado pelo geodínamo: movimento de material condutor no interior da Terra, associado a cargas elétricas em movimento.",
+    "page": 3
+  },
+  {
+    "number": 2,
+    "subject": "Física",
+    "text": "O galvanômetro é um aparelho capaz de medir pequenas correntes elétricas que passam por ele. Entretanto, as correntes elétricas em circuitos cotidianos geralmente são muito maiores do que o galvanômetro suporta diretamente. Modificações podem ser feitas no galvanômetro com a associação de um resistor, de forma apropriada, para permitir fazê-lo funcionar como um voltímetro ou como um amperímetro. Este resistor pode ter resistência grande ou pequena, relativamente à resistência interna do galvanômetro. Assinale a alternativa que representa a associação apropriada do resistor com o galvanômetro, a partir do funcionamento CORRETO do voltímetro e do amperímetro.",
+    "options": [
+      "Amperímetro é um galvanômetro com uma grande resistência em paralelo.",
+      "Amperímetro é um galvanômetro com uma grande resistência em série.",
+      "Amperímetro é um galvanômetro com uma pequena resistência em série.",
+      "Voltímetro é um galvanômetro com uma grande resistência em série.",
+      "Voltímetro é um galvanômetro com uma grande resistência em paralelo."
+    ],
+    "answer": "D",
+    "support": "Redação adaptada para estudo; numeração e ordem das alternativas preservadas. Textos de apoio resumidos. Consulte a questão e os textos integrais no caderno oficial. Explicação autoral, não publicada pela banca. As 20 questões objetivas são comuns às quatro áreas; o link abre o caderno de Humanas. As discursivas não integram este cadastro.",
+    "support_image": null,
+    "explanation": "Gabarito oficial: D. O voltímetro deve ter resistência elevada para reduzir a corrente que retira do circuito. Constrói-se adicionando grande resistência em série ao galvanômetro.",
+    "page": 3
+  },
+  {
+    "number": 3,
+    "subject": "Física",
+    "text": "Na eletrostática, objetos neutros podem ser eletrizados por atrito, por contato e por indução, e podem ser classificados simplificadamente como condutores ou isolantes. Em relação à eletrização de objetos, assinale a afirmativa CORRETA.",
+    "options": [
+      "Ao ser carregado por atrito, um objeto neutro ficará sempre com o mesmo sinal de carga elétrica, devido ao material do qual ele é feito.",
+      "As cargas que dois objetos neutros adquirem, após o atrito entre ambos, dependem da facilidade de um ceder elétrons ao outro.",
+      "Quando dois objetos condutores neutros, de materiais diferentes, são atritados entre si, ambos podem ficar com cargas elétricas de mesmo sinal, pois possuem elétrons livres.",
+      "Somente objetos condutores carregados podem interagir por indução, pois necessitam de cargas livres.",
+      "Somente objetos isolantes podem ser carregados por contato com outro objeto carregado."
+    ],
+    "answer": "B",
+    "support": "Redação adaptada para estudo; numeração e ordem das alternativas preservadas. Textos de apoio resumidos. Consulte a questão e os textos integrais no caderno oficial. Explicação autoral, não publicada pela banca. As 20 questões objetivas são comuns às quatro áreas; o link abre o caderno de Humanas. As discursivas não integram este cadastro.",
+    "support_image": null,
+    "explanation": "Gabarito oficial: B. A eletrização por atrito transfere elétrons entre os materiais. Os sinais adquiridos dependem da facilidade relativa de doar e receber elétrons.",
+    "page": 4
+  },
+  {
+    "number": 4,
+    "subject": "Física",
+    "text": "Uma nave de comprimento próprio 6 m aproxima-se da Terra a 0,6c. Outra nave, a 0,8c, apresenta ao observador terrestre o dobro do comprimento observado da primeira. Usando L=L₀√(1−v²/c²), qual o comprimento próprio da segunda?",
+    "options": [
+      "4,8 m",
+      "8,0 m",
+      "9,6 m",
+      "12,0 m",
+      "16,0 m"
+    ],
+    "answer": "E",
+    "support": "Redação adaptada para estudo; numeração e ordem das alternativas preservadas. Textos de apoio resumidos. Consulte a questão e os textos integrais no caderno oficial. Explicação autoral, não publicada pela banca. As 20 questões objetivas são comuns às quatro áreas; o link abre o caderno de Humanas. As discursivas não integram este cadastro.",
+    "support_image": null,
+    "explanation": "Gabarito oficial: E. A primeira nave é observada com L = 6√(1−0,6²) = 4,8 m. A segunda tem comprimento observado 9,6 m e fator √(1−0,8²) = 0,6. Seu comprimento próprio é 9,6/0,6 = 16 m.",
+    "page": 4
+  },
+  {
+    "number": 5,
+    "subject": "Física",
+    "text": "Considere as seguintes afirmações relacionadas ao tema da dualidade onda-partícula: I – Elétrons podem difratar-se. II – Fótons não têm massa de repouso, portanto, sua energia é nula. III – Os efeitos Compton e fotoelétrico podem ser compreendidos como manifestações da natureza corpuscular da onda eletromagnética. Assinale a alternativa CORRETA a respeito dessas afirmações.",
+    "options": [
+      "Somente I é verdadeira.",
+      "Somente II é verdadeira.",
+      "Somente III é verdadeira.",
+      "Somente I e III são verdadeiras.",
+      "I, II e III são verdadeiras."
+    ],
+    "answer": "D",
+    "support": "Redação adaptada para estudo; numeração e ordem das alternativas preservadas. Textos de apoio resumidos. Consulte a questão e os textos integrais no caderno oficial. Explicação autoral, não publicada pela banca. As 20 questões objetivas são comuns às quatro áreas; o link abre o caderno de Humanas. As discursivas não integram este cadastro.",
+    "support_image": null,
+    "explanation": "Gabarito oficial: D. Elétrons apresentam difração, e os efeitos Compton e fotoelétrico evidenciam o comportamento corpuscular da luz. Fótons têm energia E = hf, mesmo sem massa de repouso.",
+    "page": 4
+  },
+  {
+    "number": 6,
+    "subject": "Química",
+    "text": "Uma solução saturada de NaCl evapora à temperatura constante e estabelece o equilíbrio NaCl(s) ⇌ Na⁺(aq)+Cl⁻(aq). Qual afirmativa sobre esse processo é INCORRETA?",
+    "options": [
+      "A dupla seta indica que a dissolução do cloreto de sódio sólido e a recristalização dos íons solvatados ocorrem durante o equilíbrio químico.",
+      "A saturação da solução ocorre quando os íons sódio e cloreto atingem concentração máxima, nas condições descritas.",
+      "A solvatação do cloreto de sódio ocorre quando os íons sódio e cloreto ficam ligados e envoltos por moléculas de água.",
+      "Na medida em que a água evapora ocorre o deslocamento do equilíbrio, aumentando a massa do cloreto de sódio sólido.",
+      "O equilíbrio químico é sempre um processo dinâmico, isto é, a reação ocorre nos dois sentidos, mesmo que a temperatura fique constante."
+    ],
+    "answer": "C",
+    "support": "Redação adaptada para estudo; numeração e ordem das alternativas preservadas. Textos de apoio resumidos. Consulte a questão e os textos integrais no caderno oficial. Explicação autoral, não publicada pela banca. As 20 questões objetivas são comuns às quatro áreas; o link abre o caderno de Humanas. As discursivas não integram este cadastro.",
+    "support_image": null,
+    "explanation": "Gabarito oficial: C. A solvatação separa os íons do retículo cristalino e envolve cada um por moléculas de água. A alternativa C é incorreta ao afirmar que sódio e cloreto ficam ligados entre si na solução.",
+    "page": 5
+  },
+  {
+    "number": 7,
+    "subject": "Química",
+    "text": "Carboidratos, de fórmula geral aproximada (CH₂O)n, participam da estrutura e do metabolismo celular. Qual afirmativa é INCORRETA?",
+    "options": [
+      "A celulose é um carboidrato, sendo o principal responsável pela estruturação das células vegetais.",
+      "A glicose, presente no sangue humano, sofre oxidação para produção de energia necessária ao metabolismo.",
+      "A respiração celular é a conversão da glicose em gás carbônico e água e ocorre nas células de animais, mas não das plantas.",
+      "A sacarose é o principal carboidrato obtido da cana-de-açúcar e é formado pela ligação química entre a glicose e a frutose.",
+      "O amido é um polímero de glicose, que pode ser convertido em energia quando necessário."
+    ],
+    "answer": "C",
+    "support": "Redação adaptada para estudo; numeração e ordem das alternativas preservadas. Textos de apoio resumidos. Consulte a questão e os textos integrais no caderno oficial. Explicação autoral, não publicada pela banca. As 20 questões objetivas são comuns às quatro áreas; o link abre o caderno de Humanas. As discursivas não integram este cadastro.",
+    "support_image": null,
+    "explanation": "Gabarito oficial: C. Plantas também realizam respiração celular, oxidando compostos orgânicos para obter energia. A alternativa C é incorreta ao restringir esse processo aos animais.",
+    "page": 6
+  },
+  {
+    "number": 8,
+    "subject": "Química",
+    "text": "A panela de pressão é comumente empregada para agilizar o cozimento de alimentos. Quando levada ao fogo faz com que a temperatura de ebulição da água se eleve acima de 100 oC, devido ao aumento da pressão interna. Com base na teoria das colisões, indique a resposta CORRETA.",
+    "options": [
+      "Com o aumento da pressão dentro da panela, as colisões entre as moléculas e íons diminuem fazendo com que o processo de cozimento seja mais rápido.",
+      "A pressão interna da panela diminui a concentração de moléculas e íons aumentando a velocidade das reações químicas envolvidas durante o cozimento.",
+      "A superfície de contato dos alimentos durante o cozimento diminui devido à elevação da pressão aumentando a velocidade de cozimento dos alimentos.",
+      "A velocidade de cozimento na panela de pressão é maior, pois a energia cinética média das moléculas e íons é maior.",
+      "O aumento da temperatura de ebulição não altera a energia cinética média das moléculas, acelerando o processo de cozimento."
+    ],
+    "answer": "D",
+    "support": "Redação adaptada para estudo; numeração e ordem das alternativas preservadas. Textos de apoio resumidos. Consulte a questão e os textos integrais no caderno oficial. Explicação autoral, não publicada pela banca. As 20 questões objetivas são comuns às quatro áreas; o link abre o caderno de Humanas. As discursivas não integram este cadastro.",
+    "support_image": null,
+    "explanation": "Gabarito oficial: D. A maior temperatura aumenta a energia cinética média e a proporção de colisões eficazes, acelerando as transformações que cozinham os alimentos.",
+    "page": 6
+  },
+  {
+    "number": 9,
+    "subject": "Química",
+    "text": "Frações de petróleo incluem GLP (C₁–C₄), gasolina (C₅–C₁₂), querosene (C₁₀–C₁₆), diesel (C₁₄–C₂₀) e óleo lubrificante (C₂₀–C₅₀). Qual sequência é compatível com a destilação fracionada?",
+    "options": [
+      "a gasolina é destilada depois do óleo diesel.",
+      "o GLP é a última fração a ser destilada.",
+      "o óleo diesel é a fração destilada antes do querosene.",
+      "o óleo lubrificante constitui a fração destilada antes da gasolina.",
+      "o querosene constitui a fração destilada após a gasolina."
+    ],
+    "answer": "E",
+    "support": "Redação adaptada para estudo; numeração e ordem das alternativas preservadas. Textos de apoio resumidos. Consulte a questão e os textos integrais no caderno oficial. Explicação autoral, não publicada pela banca. As 20 questões objetivas são comuns às quatro áreas; o link abre o caderno de Humanas. As discursivas não integram este cadastro.",
+    "support_image": null,
+    "explanation": "Gabarito oficial: E. Na destilação fracionada, as frações são separadas segundo suas faixas de ebulição. O querosene tem cadeias maiores e é separado depois da gasolina.",
+    "page": 6
+  },
+  {
+    "number": 10,
+    "subject": "Química",
+    "text": "Na limpeza eletrolítica de piscinas: i — 2Cl⁻ → Cl₂+2e⁻; ii — 2H₂O+2e⁻ → H₂+2OH⁻; iii — Cl₂+2OH⁻ → Cl⁻+ClO⁻+H₂O. Analise: I — formam-se espécies de cloro oxidadas e reduzidas; II — Cl₂ se forma no cátodo; III — ClO⁻ se forma mesmo sem OH⁻; IV — são necessários cátodo e ânodo. Quais são corretas?",
+    "options": [
+      "(I) e (II)",
+      "(II) e (III)",
+      "(III) e (IV)",
+      "(I) e (IV)",
+      "(II) e (IV)"
+    ],
+    "answer": "D",
+    "support": "Redação adaptada para estudo; numeração e ordem das alternativas preservadas. Textos de apoio resumidos. Consulte a questão e os textos integrais no caderno oficial. Explicação autoral, não publicada pela banca. As 20 questões objetivas são comuns às quatro áreas; o link abre o caderno de Humanas. As discursivas não integram este cadastro.",
+    "support_image": null,
+    "explanation": "Gabarito oficial: D. Cloro pode ser oxidado e reduzido nas reações, e a eletrólise exige ânodo e cátodo: I e IV corretas. Cl₂ é produzido por oxidação no ânodo; a formação de hipoclorito representada depende de OH⁻.",
+    "page": 7
+  },
+  {
+    "number": 11,
+    "subject": "Geografia",
+    "text": "A figura abaixo apresenta os cabos submarinos instalados para permitir a acessibilidade à internet. Considerando a atual integração dos países por redes . materiais e imateriais, assinale a alternativa CORRETA:",
+    "options": [
+      "A rede é apenas de transporte de mercadorias.",
+      "Cabos constituem uma rede material para fluxos imateriais de informação e comunicação.",
+      "Redes materiais e imateriais equilibram automaticamente as relações internacionais.",
+      "A baixa conexão entre América Latina e África é irrelevante, pois todos os centros estão no Atlântico Norte.",
+      "As rotas atuais correspondem às antigas rotas de tráfico entre Estados Unidos e África."
+    ],
+    "answer": "B",
+    "support": "Redação adaptada para estudo; numeração e ordem das alternativas preservadas. Textos de apoio resumidos. Consulte a questão e os textos integrais no caderno oficial. Explicação autoral, não publicada pela banca. As 20 questões objetivas são comuns às quatro áreas; o link abre o caderno de Humanas. As discursivas não integram este cadastro.",
+    "support_image": "/pism-iii-2024-dia-2-questao-11.png",
+    "explanation": "Gabarito oficial: B. Os cabos são infraestrutura material que permite fluxos imateriais de informações. Sua distribuição desigual expressa a organização econômica e política mundial.",
+    "page": 8
+  },
+  {
+    "number": 12,
+    "subject": "Geografia",
+    "text": "Uma notícia sobre Jenin e a Cisjordânia, publicada em julho de 2023, contextualiza a questão. Qual fator territorial é central nos conflitos entre Israel e Palestina?",
+    "options": [
+      "As ações do Estado Islâmico.",
+      "A instituição da religião judaica.",
+      "O controle dos poços de petróleo.",
+      "O assassinato de lideranças israelenses.",
+      "A ocupação de territórios palestinos por Israel."
+    ],
+    "answer": "E",
+    "support": "Redação adaptada para estudo; numeração e ordem das alternativas preservadas. Textos de apoio resumidos. Consulte a questão e os textos integrais no caderno oficial. Explicação autoral, não publicada pela banca. As 20 questões objetivas são comuns às quatro áreas; o link abre o caderno de Humanas. As discursivas não integram este cadastro.\n\nNotícia da BBC resumida. Responda no contexto histórico indicado pela prova.",
+    "support_image": null,
+    "explanation": "Gabarito oficial: E. O enunciado cobra a ocupação de territórios palestinos por Israel como elemento central da disputa territorial, sem reduzir o conflito a petróleo ou religião.",
+    "page": 8
+  },
+  {
+    "number": 13,
+    "subject": "Geografia",
+    "text": "Em julho de 2023, lideranças de Argentina e Brasil discutiram assimetrias nas negociações Mercosul–União Europeia, com receio de manter a região como fornecedora de produtos primários. Qual afirmação corresponde a esse debate?",
+    "options": [
+      "A defesa da integração comercial, por ambos os presidentes, faz referência ao novo passo a ser dado pelo Mercosul com o intuito de reduzir as barreiras entre cidadãos sul-americanos.",
+      "A possível condenação dos países do Mercosul a serem apenas fornecedores se deve à manutenção de regras protecionistas, por parte de alguns países da UE, que exporiam pequenas e médias empresas sul-americanas.",
+      "A recente negociação entre Mercosul e UE tende a intensificar as mudanças na ordem mundial ao fortalecer as indústrias sul-americanas por meio da ampliação da exportação de produtos de maior valor agregado.",
+      "O presidente da Argentina, ao se referir à importância da integração comercial, demonstra sua discordância com o Chile, que tem buscado manter negociações autônomas mesmo sendo um membro do Mercosul.",
+      "A questão das compras governamentais, sobre a qual há concordância entre os presidentes do Brasil e da Argentina, refere-se à constituição de uma nova moeda para a América do Sul que substituiria às moedas nacionais."
+    ],
+    "answer": "B",
+    "support": "Redação adaptada para estudo; numeração e ordem das alternativas preservadas. Textos de apoio resumidos. Consulte a questão e os textos integrais no caderno oficial. Explicação autoral, não publicada pela banca. As 20 questões objetivas são comuns às quatro áreas; o link abre o caderno de Humanas. As discursivas não integram este cadastro.",
+    "support_image": null,
+    "explanation": "Gabarito oficial: B. A assimetria discutida envolve protecionismo e regras comerciais que podem manter países sul-americanos como fornecedores de produtos primários e expor empresas locais.",
+    "page": 9
+  },
+  {
+    "number": 14,
+    "subject": "Geografia",
+    "text": "Com o avanço da produção de carros elétricos, o lítio vem se tornando um dos minerais de maior interesse do mercado internacional. Usado para fabricação de baterias, seu preço de mercado teve forte variação a partir de meados de 2021, como mostra o gráfico abaixo: Fonte: https://www.bloomberglinea.com.br/2023/04/05/o-que-precos-mais-altos-do-petroleo-significam-para-a-transicao-energetica/ acesso em 02 jun.2023 Sobre o mercado do lítio, é CORRETO afirmar que:",
+    "options": [
+      "Mesmo com a crescente demanda pelo mineral para fabricação de baterias de veículos elétricos, o preço do lítio caiu nos primeiros meses de 2023.",
+      "Apesar da continuidade dos conflitos na Ucrânia e sua reverberação no mercado do petróleo, os preços do lítio continuam em ascensão.",
+      "O Brasil perde uma importante chance de aumentar exportações e ampliar o superávit da balança comercial ao não se inserir no mercado do lítio.",
+      "O aumento no preço do lítio no início de 2023 representou uma expansão da produção de carros elétricos devido à insegurança do mercado.",
+      "A diminuição do preço das baterias impulsionou o mercado de carros elétricos no Brasil, que já detém a maior parcela de vendas desse setor."
+    ],
+    "answer": "A",
+    "support": "Redação adaptada para estudo; numeração e ordem das alternativas preservadas. Textos de apoio resumidos. Consulte a questão e os textos integrais no caderno oficial. Explicação autoral, não publicada pela banca. As 20 questões objetivas são comuns às quatro áreas; o link abre o caderno de Humanas. As discursivas não integram este cadastro.",
+    "support_image": "/pism-iii-2024-dia-2-questao-14.png",
+    "explanation": "Gabarito oficial: A. O gráfico mostra queda do preço do lítio no início de 2023, apesar da demanda por baterias. A conclusão deve acompanhar os dados do período apresentado.",
+    "page": 9
+  },
+  {
+    "number": 15,
+    "subject": "Geografia",
+    "text": "Duas reportagens tratam de cooperação com a República do Congo e a República Democrática do Congo e de migração na fronteira entre Tunísia e Líbia. Em que regiões africanas se localizam, respectivamente, os países desses dois casos?",
+    "options": [
+      "1) Magreb | 2) Sahel",
+      "1) Sahel | 2) África Setentrional",
+      "1) África Meridional | 2) Magreb",
+      "1) África Ocidental | 2) África Oriental",
+      "1) África Central | 2) África Setentrional"
+    ],
+    "answer": "E",
+    "support": "Redação adaptada para estudo; numeração e ordem das alternativas preservadas. Textos de apoio resumidos. Consulte a questão e os textos integrais no caderno oficial. Explicação autoral, não publicada pela banca. As 20 questões objetivas são comuns às quatro áreas; o link abre o caderno de Humanas. As discursivas não integram este cadastro.\n\nReportagens resumidas. Use a regionalização africana em cinco regiões adotada no caderno.",
+    "support_image": null,
+    "explanation": "Gabarito oficial: E. República do Congo e República Democrática do Congo pertencem à África Central; Tunísia e Líbia, à África Setentrional.",
+    "page": 10
+  },
+  {
+    "number": 16,
+    "subject": "História",
+    "text": "Um estudo sobre fascismo espanhol e uma notícia sobre racismo contra Vinicius Junior em 2023 permitem relacionar passado e presente. O que essa comparação evidencia?",
+    "options": [
+      "foi juridicamente estabelecida no contexto de institucionalização do regime fascista espanhol no final do século XIX.",
+      "foi um fenômeno em ascensão nos anos finais do século XX, sem relação direta com o fascismo espanhol.",
+      "não possui relação com o fascismo espanhol porque esse regime se diferenciava do nazismo no tocante à questão racial.",
+      "possui vinculação com o contexto de emergência do fascismo espanhol, com repercussão em práticas sociais atuais.",
+      "é explicada pela aproximação recente entre torcidas organizadas de times espanhóis e de times alemães que compartilham ideais fascistas."
+    ],
+    "answer": "D",
+    "support": "Redação adaptada para estudo; numeração e ordem das alternativas preservadas. Textos de apoio resumidos. Consulte a questão e os textos integrais no caderno oficial. Explicação autoral, não publicada pela banca. As 20 questões objetivas são comuns às quatro áreas; o link abre o caderno de Humanas. As discursivas não integram este cadastro.\n\nO estudo aborda vínculos entre fascismo espanhol e nazismo. A notícia descreve uma torcida organizada vinculada a referências ultranacionalistas e racistas. Leia os textos originais no caderno.",
+    "support_image": null,
+    "explanation": "Gabarito oficial: D. Os textos relacionam o fascismo espanhol histórico a práticas racistas contemporâneas, evidenciando continuidade de discursos e sociabilidades autoritárias.",
+    "page": 11
+  },
+  {
+    "number": 17,
+    "subject": "História",
+    "text": "Em 1928, o Bloco Operário e Camponês elegeu representantes. Um jornal comunista defendia a participação eleitoral como nova frente, somada à mobilização de massas. Que posição o texto expressa?",
+    "options": [
+      "a rejeição dos Anarquistas em relação a procedimentos e instituições político-parlamentares típicos da democracia liberal.",
+      "a crítica das oligarquias ao sistema eleitoral vigente, em que só votavam homens alfabetizados e maiores de 21 anos.",
+      "a visão dos Socialistas no sentido de defender o processo eleitoral como principal meio de conquistar direitos sociais.",
+      "a defesa de uma reforma imediata do sistema eleitoral da Primeira República, visando permitir a candidatura de membros da classe trabalhadora.",
+      "a posição dos Comunistas em defesa da participação no processo eleitoral, compreendido como um espaço de luta política dentre outros."
+    ],
+    "answer": "E",
+    "support": "Redação adaptada para estudo; numeração e ordem das alternativas preservadas. Textos de apoio resumidos. Consulte a questão e os textos integrais no caderno oficial. Explicação autoral, não publicada pela banca. As 20 questões objetivas são comuns às quatro áreas; o link abre o caderno de Humanas. As discursivas não integram este cadastro.\n\nResumo do texto e da imagem histórica do caderno.",
+    "support_image": null,
+    "explanation": "Gabarito oficial: E. Os comunistas tratam a disputa eleitoral como uma das frentes da luta política, articulada a outras formas de mobilização, e não como caminho exclusivo.",
+    "page": 12
+  },
+  {
+    "number": 18,
+    "subject": "História",
+    "text": "Uma capa de Superman publicada durante a Segunda Guerra mostra o herói enfrentando líderes do Eixo. Qual interpretação explica seu uso político?",
+    "options": [
+      "Os EUA participaram da Segunda Guerra Mundial, principalmente a partir da política cultural, por isso, filmes, desenhos animados e história em quadrinhos foram utilizados à exaustão.",
+      "A utilização das histórias em quadrinhos tinha como objetivo primordial o alistamento de soldados, assim como justificar a presença de mulheres jovens nos campos de batalha no território europeu.",
+      "A capa de Superman reforçava o uso da indústria cultural, como forma de representar a participação dos EUA na Segunda Guerra Mundial, e valorizar a presença americana como solucionadora do conflito.",
+      "A participação dos EUA na Segunda Guerra Mundial não foi consenso entre as forças aliadas, por essa razão, a indústria cultural foi um instrumento para justificar a necessidade da incursão militar.",
+      "A entrada dos EUA na Segunda Guerra Mundial representou o momento de criação da indústria cultural, sendo que filmes, histórias em quadrinhos e desenhos animados surgiram no contexto da guerra."
+    ],
+    "answer": "C",
+    "support": "Redação adaptada para estudo; numeração e ordem das alternativas preservadas. Textos de apoio resumidos. Consulte a questão e os textos integrais no caderno oficial. Explicação autoral, não publicada pela banca. As 20 questões objetivas são comuns às quatro áreas; o link abre o caderno de Humanas. As discursivas não integram este cadastro.\n\nDescrição da capa de Superman nº 17. Consulte a imagem original no caderno oficial.",
+    "support_image": null,
+    "explanation": "Gabarito oficial: C. A representação de Superman enfrentando líderes do Eixo associa entretenimento à propaganda de guerra e valoriza a intervenção americana.",
+    "page": 13
+  },
+  {
+    "number": 19,
+    "subject": "História",
+    "text": "Um texto de Marcelo Ridenti descreve investimentos estatais em telecomunicações, Embratel e instituições culturais, acompanhados de expansão privada e controle político. A que período se refere?",
+    "options": [
+      "Primeira República, quando artistas e intelectuais ligados ao movimento modernista e antropofágico defenderam a ideia de aglutinação e integração das culturas e a “devoração crítica das influências culturais” estrangeiras.",
+      "Contrução do Estado Novo, quando intelectuais se inseriram na organização político-ideológica do Estado, participando da construção do projeto político-pedagógico de implementação, popularização e difusão da ideologia do regime.",
+      "Aos chamados Anos Dourados, quando as políticas do governo de Juscelino Kubitschek, baseadas no nascionalismo e no desenvolvimentismo, deram suporte a projetos culturais de caráter inclusivo e universalista.",
+      "Ditadura Militar, quando, paralelamente à censura, observa-se um esforço governamental modernizador nas áreas de comunicação e cultura, incentivando o investimento privado e a ação estatal direcionada, inclusive, a integração nacional.",
+      "Redemocratização, quando, apesar da criação de órgãos de incentivo à cultura, como a ANCINE, verifica-se um declínio da participação estatal na cultura e um incremento da propaganda governamental como meio de assegurar a segurança nacional."
+    ],
+    "answer": "D",
+    "support": "Redação adaptada para estudo; numeração e ordem das alternativas preservadas. Textos de apoio resumidos. Consulte a questão e os textos integrais no caderno oficial. Explicação autoral, não publicada pela banca. As 20 questões objetivas são comuns às quatro áreas; o link abre o caderno de Humanas. As discursivas não integram este cadastro.",
+    "support_image": null,
+    "explanation": "Gabarito oficial: D. Na ditadura militar, a censura coexistiu com investimentos em telecomunicações e instituições culturais, voltados à modernização e à integração nacional.",
+    "page": 14
+  },
+  {
+    "number": 20,
+    "subject": "História",
+    "text": "A OTAN foi criada em 1949. Uma reportagem de maio de 2022 relaciona a invasão da Ucrânia aos pedidos de adesão de Finlândia e Suécia. Qual afirmação interpreta corretamente essas relações?",
+    "options": [
+      "A Guerra da Ucrânia teve início após a sinalização de Finlândia e Suécia em aderir à Otan, após pertencerem ao bloco geopolítico russo.",
+      "A fundação da Otan foi articulada pela Convenção Geral da Organização das Nações Unidas, como a unidade militar da entidade, com objetivos expansionistas.",
+      "A Otan surge no contexto da Segunda Guerra Mundial, como um produto das articulações do Tratado de Versalhes, buscando solucionar os conflitos bélicos.",
+      "A Otan foi fundada como uma resposta à institucionalização do Pacto de Varsóvia, que foi articulado no contexto do fim da Segunda Guerra Mundial e início da Guerra Fria.",
+      "Um dos elementos centrais da tensão entre Rússia e Ucrânia se dá pela disposição da Ucrânia em integrar a Otan e aos interesses geopolíticos do bloco liderado pelos EUA."
+    ],
+    "answer": "E",
+    "support": "Redação adaptada para estudo; numeração e ordem das alternativas preservadas. Textos de apoio resumidos. Consulte a questão e os textos integrais no caderno oficial. Explicação autoral, não publicada pela banca. As 20 questões objetivas são comuns às quatro áreas; o link abre o caderno de Humanas. As discursivas não integram este cadastro.\n\nReportagem resumida; considere o contexto temporal da prova, sem tratar informações de 2022 como notícias atuais.",
+    "support_image": null,
+    "explanation": "Gabarito oficial: E. A possibilidade de aproximação da Ucrânia com a OTAN é parte das tensões geopolíticas com a Rússia. A OTAN foi fundada em 1949, antes do Pacto de Varsóvia, de 1955.",
+    "page": 14
+  }
+]

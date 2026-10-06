@@ -1,0 +1,890 @@
+FÍSICA - OBJETIVAS
+Questão 1.
+Termômetros infravermelhos utilizados em hospitais
+saõdispositivosutilizadosparamedirtemperaturade
+pessoas sem contato direto com elas. Seu funciona-
+mento se baseia no princípio físico de que qualquer
+material com temperatura da ordem de 36(cid:176)C emite
+radiac¸ão infravermelha, cuja intensidade total da ra-
+diac¸ão emitida (I (T)) aumenta com a tempera-
+rad
+tura do objeto, conforme a equação:
+I (T) = ϵσT4.
+rad
+σ = 5,7 Wm−2K−4 é um valor constante chamado
+de constante de Stefan-Boltzman e ϵé um parâmetro
+adimensional que pode assumir valores entre 0 e 1,
+dependendodascaracterísticasdomaterial,chamada
+de emissividade. Para a pele humana, por exemplo,
+ϵ é da ordem de 0,98. Para o plástico claro, ϵ é igual
+a 0,94.
+Alguns termômetros de infravermelho possuem
+uma mira laser para sinalizar o local onde a tem-
+peratura será realizada.
+(A) aintensidadedaradiaçãoinfravermelhapodeser
+medida em graus Celsius.
+(B) a temperatura de uma pessoa pode ser medida
+com este tipo de termômetro, sem perda de pre-
+cisão, através de materiais transparentes, como
+vidro e plástico.
+(C) só é possível medir a medida de temperatura de
+seres vivos.
+(D) devido à radiação não podem ser utiliza-
+dos indiscriminadamente, pois podem provocar
+câncer.
+(E) um objeto quente próximo ao ponto de medic¸ão
+pode interferir no valor da temperatura forne-
+cido pelo termômetro.
+Questão 2.
+Fogões de indução são, uma alternativa ecológica
+ao fogão a gás convencional, pois funcionam com a
+induc¸ão de corrente elétrica no fundo da panela pela
+presença de uma bobina dentro do fogão. A bo-
+bina fica paralela ao fundo da panela e é ligada a
+uma fonte de corrente alternada. Entre a bobina
+e a panela, existe uma placa de vidro, de modo
+que a bobina não encosta na panela. Por simpli-
+cidade, considere que a bobina do fogão é formada
+por um solenoide de diâmetro D, conforme mostra
+a figura a seguir. O fundo da panela, neste caso,
+pode ser considerado como uma espira de uma volta.
+Para melhorar o projeto do conjunto fogão de
+induc¸ão/panela descrito acima, pensando em aumen-
+tar a eficiência no aquecimento da panela, sem aque-
+cer o fogão, pode-se
+(A) aumentar a distância entre a panela e a bobina.
+(B) aumentar o diâmetro D da bobina interna do
+fogão.
+(C) utilizar apenas metais ferromagnéticos na cons-
+trução da bobina interna.
+(D) utilizar metais com maior resistividade na fa-
+bricação da panela.
+(E) reduzir a frequência da fonte de corrente.
+Questão 3.
+Um casal de irmãos gêmeos, Alice e Bob, têm à sua
+disposic¸ão duas naves espaciais que os levarão a um
+planeta distante recém descoberto. Em determinado
+instante, quando ambos possuíam a mesma idade,
+Alice parte em direc¸ão ao planeta. Bob fica ainda
+na Terra e sod́epois de certo tempo, viaja também.
+Considere as velocidades das naves altas o suficiente
+(próximas à velocidade da luz), e que ambos chegam
+juntos ao planeta. Nesse caso,
+(A) a relatividade especial não permite distinguir
+qual dos dois será o mais velho ao fim da via-
+gem.
+(B) pode-se concluir que, ao fim da viagem, Alice
+será mais velha do que Bob.
+(C) como ambos percorreram a mesma distância,
+eles chegarão com a mesma idade.
+(D) os efeitos de dilatac¸ão temporal são detectados
+apenas no referencial de partida dos irmãos.
+(E) os tempos gastos por Alice e Bob medidos no re-
+ferencialdaTerrasãoosmesmosparacompletar
+a viagem devido à dilatação temporal.
+Questão 4.
+O efeito Doppler corresponde à alterac¸ão do compri-
+mento de onda detectada por um observador quando
+uma fonte de ondas sonoras se desloca em relac¸ão
+ao observador. Este efeito não é somente restrito ao
+som. Ele também ocorre com a luz, sendo utilizado
+em astronomia e cosmologia observacional para estu-
+dar o universo em larga escala. Eb́em sabido que
+galáxias distantes estão se afastando de nós. Logo, a
+luz, no espectro visível, oriunda de uma determinada
+galáxia distante, ao ser detectada na Terra,
+(A) não experimenta o efeito Doppler, que só é de-
+tectável no referencial da galáxia.
+(B) sofre alteração na sua velocidade, pois há al-
+teração no comprimento de onda.
+(C) terá a energia dos seus fótons aumentada.
+(D) nãosofremudançaemsuafrequência,queéuma
+grandeza absoluta.
+(E) sofre um desvio para o vermelho (ou seja, au-
+mento do comprimento de onda).
+Questão 5.
+Um reparo de um dispositivo eletrônico demanda de
+um técnico a substituição de um resistor com re-
+sistência dada por 1,5 kΩ. Para fazer a troca, o
+técnico tem à sua disposição outros três resistores
+com resistências dadas por R = 1 kΩ, R = 2 kΩ e
+1 2
+R = 3 kΩ. A associação entre os três que fornece o
+3
+valor de resistência necessária ao reparo é dada
+(A) pelos três resistores associados em série.
+(B) pelos três resistores associados em paralelo.
+(C) por R e R associados em série, ligados em pa-
+1 2
+ralelo com R .
+3
+(D) por R e R associados em paralelo, ligados em
+2 3
+série com R .
+1
+(E) por R e R associados em série, ligados em pa-
+1 3
+ralelo com R .
+2
+QUÍMICA - OBJETIVAS
+A tabela periódica se encontra no final da prova.
+Questão 6.
+A induśtria carboquímica utiliza o carbono para ge-
+rar diferentes produtos. Na produção do carbeto de
+cálcio, CaC , o carbonato de cálcio (calcário) é de-
+2
+composto na primeira etapa da reação, como mostra
+a equação química a seguir:
+CaCO (s)→CaO(s)+CO (g) ∆H = +177,5 kJ/mol
+3 2
+Na segunda etapa, o óxido de cálcio (cal virgem) re-
+age com a grafita através da reação química:
+CaO(s)+3C(grafita) → CaC (s)+CO(g)
+2
+Analisando as duas equações químicas, pode-se afir-
+mar que
+(A) a decomposição do carbonato de cálcio é acele-
+rada pela diminuição da temperatura.
+(B) a primeira e a segunda etapas envolvem reac¸ões
+de oxi-redução.
+(C) em ambas as etapas, há produção de gás
+carbônico, que é prejudicial ao meio ambiente.
+(D) na primeira etapa, há formação de um gás que,
+ao reagir com água, diminui o pH do meio.
+(E) o calcário, quando em meio aquoso, tem a sua
+solubilidade alterada somente pelo pH.
+Questão 7.
+Ahidroxiapatita[Ca (PO ) (OH)]éumasubstância
+5 4 3
+que compõe o esmalte dos dentes. Na boca, ocorrem
+osprocessosdedesmineralizaçãoeremineralizaçãoda
+hidroxiapatitasimultaneamente. Aequac¸ãoquímica,
+a seguir, apresenta esses processos, sendo a desmine-
+ralização representada pela reac¸ão direta e a remine-
+ralização pela reação inversa.
+Ca (PO ) OH(s)⇌5Ca2+(aq)+3PO3−(aq)+OH−(aq)
+5 4 3 4
+O esmalte dos dentes será preservado quando hou-
+ver
+(A) aumento da basicidade do meio em que ocorre a
+reação.
+(B) diminuição da concentrac¸ão deíons Ca2+.
+(C) manutenção do equilíbrio pela retirada contínua
+dosíons.
+(D) neutralizac¸ão do íon OH−, tornando o meio
+mais básico.
+(E) reduc¸ão do pH da boca, tornando a saliva mais
+ácida.
+Questão 8.
+O etanol combustível (CH CH OH), popularmente
+3 2
+chamado de “álcool de posto” faz parte da matriz
+energética brasileira e é considerado um biocom-
+bustível. Diferentes processos industriais podem ser
+utilizadosparaaobtençãodeetanolcombustível,mas
+omaisutilizadoéoprocessodeprimeirageração,que
+utilizacomomatériaprimaosucodacana-de-açućar.
+Sobre a produção de etanol, indique a alternativa
+CORRETA.
+(A) A produc¸ão de álcool ocorre na etapa de
+produc¸ão do melado.
+(B) Naetapadefermentaçãoocorreatransformação
+dos lipídeos em etanol.
+(C) O álcool é retirado da mistura bruta através de
+destilação.
+(D) Na induśtria da cana-de-ac¸ućar o etanol é o
+uńico produto gerado.
+(E) Acana-de-açućaréauńicafontedeproduçãode
+etanol.
+Questão 9.
+Ometilfenidatoéutilizadocomofármacodeprimeira
+escolha no tratamento do transtorno do déficit de
+atenção e hiperatividade.
+Metilfenidato
+O metilfenidato é uma molécula que possui
+(A) três átomos de carbono assimétricos.
+(B) fórmula molecular C H NO .
+14 18 2
+(C) as func¸ões orgânicas amida, éster e anel
+aromático.
+(D) uma função orgânica que pode ser hidrolisada.
+(E) quatroparesdeelétronspiligantesentreátomos
+de carbono.
+Questão 10.
+Foram realizados três experimentos para o estudo da
+velocidade de reac¸ão entre o óxido nítrico (NO) e o
+gás hidrogênio (H ) formando o gás nitrogênio (N )
+2 2
+e água, na temperatura de 1000 K, como mostrado
+na equação química a seguir.
+2 NO(g)+2 H (g) → N (g)+2 H O(g)
+2 2 2
+Os resultados obtidos nos experimentos estão descri-
+tos na tabela abaixo:
+Experimento [NO] [H ] Vel inicial
+2
+(mol/L) (mol/L) (mol/L · s)
+1 1,0 0,5 3,0 (cid:214) 104
+2 1,0 1,0 6,0 (cid:214) 104
+3 2,0 0,5 12,0 (cid:214) 104
+Assinale a alternativa que representa a lei de velo-
+cidade (v) para essa reac¸ão de acordo com os experi-
+mentos é:
+(A) v = k·[NO]2·[H ]
+2
+(B) v = k·2·[NO]·[H ]
+2
+(C) v = k·[NO]2·[H ]2
+2
+(D) v = k·[N ]·[H O]2
+2 2
+[N ]·[H O]2
+2 2
+(E) v = k·
+[NO]2·[H ]2
+2
+GEOGRAFIA - OBJETIVAS
+Questão 11.
+Leia o excerto a seguir:
+Nesta quarta-feira (22), Espanha, Noru-
+ega e Irlanda anunciaram em conjunto que
+vão reconhecer a Palestina como Estado na
+próxima semana. Desde o início da guerra
+entre Hamas e Israel, já são oito países que
+deramostatusoficialparaospalestinos. Os
+três europeus se somam a Bahamas, Barba-
+dos, Jamaica, México e Trinidad e Tobago.
+Fonte: Adaptadodehttps://encurtador.com.br/1lJgXAcessoem
+02jul.2024.
+Sobre a situac¸ão atual da Palestina junto à ONU
+(Organizac¸ão das Nações Unidas), é CORRETO
+afirmar que:
+(A) não é reconhecida pela ONU.
+(B) trata-se de um Estado antissemita.
+(C) trata-se de Estado observador não membro.
+(D) trata-se de Estado reconhecido apenas por não
+membros.
+(E) trata-se de um membro da Organização das
+Nações e Povos Não Representados.
+Questão 12.
+Leia o excerto e analise o gráfico a seguir:
+Índia supera China e se torna o país mais
+populoso
+Estimativas foram divulgadas em relatório das Orga-
+nizações das Nações Unidas (ONU)
+Com a virada do mês de abril para maio de 2023,
+a Índia se tornou o país mais populoso do mundo,
+alcançando um total estimado de 1.428.600.000 pes-
+soas (1,4286 bilhão), segundo o “Relatório sobre a
+situação da população mundial”, do Fundo de Po-
+pulac¸ãodasNaçõesUnidas(Unfpa), publicadoem19
+de abril. Com isso, a população indiana ultrapassou
+a da China (1.425.700.000 de pessoas), que mantinha
+a primeira posição desde o início da publicação do
+estudo, em 1950.
+Fonte: Adaptadodehttps://encurtador.com.br/RReidAcessoem
+04dejul. de2024.
+Fonte: Adaptadodehttps://encurtador.com.br/WWBW1Acesso
+em12deago. de2024.
+Considerando os uĺtimos 40 anos e, levando em
+conta as dinâmicas populacionais de Índia e China,
+um fator determinante para a troca de posição entre
+os dois países na condic¸ão de nação mais populosa do
+mundo foi:
+(A) a emigrac¸ão da China por motivos de perse-
+guição política.
+(B) a política de restric¸ão ao nuḿero de filhos per-
+mitido por casal na China.
+(C) a Índia completar o seu processo de transic¸ão
+demográfica há muitas décadas.
+(D) o papel que a Índia tem ocupado como pólo de
+atração de imigrantes qualificados.
+(E) aÍndia implantar políticas de natalidade que in-
+centivam o aumento das taxas de fecundidade.
+Questão 13.
+Leia o excerto a seguir:
+Com menos de um quinto das metas ca-
+minhando na direc¸ão correta, o mundo não
+está conseguindo cumprir a promessa dos
+Objetivos de Desenvolvimento Sustentável,
+alerta novo relatório da ONU.
+(...)
+Orelatóriorevelaqueapenas17%dasmetas
+dos ODS estão atualmente na direção cor-
+retaparaseremcumpridas,sendoquequase
+metade apresenta progresso mínimo ou mo-
+derado e mais de um terço está estagnado
+ou regredindo.
+Fonte: Adaptadodehttps://encurtador.com.br/ELgp9. Acessoem
+26jun. 2024.
+OsObjetivosdeDesenvolvimentoSustentável(ODS)
+formamumconjuntodemetaspactuadaspelospaíses
+membros da Organizac¸ão das Nações Unidas (ONU)
+em 2015 com a finalidade de serem cumpridas até
+2030. No entanto, conforme apontado em relatório
+de 2024, o cumprimento dos ODS estão aquém do
+projetado.
+Sobre as causas deste progresso pouco satisfatório,
+é CORRETO afirmar que:
+(A) as razoẽs que levaram a elaboração dos ODS em
+2015 não saõ mais um problema atualmente.
+(B) os países europeus não conseguiram cumprir as
+metasestabelecidasporqueaestesforamimpos-
+tas medidas mais rigorosas.
+(C) a desvalorização das commodities agrícolas pre-
+judicou a capacidade dos países em desenvolvi-
+mento de tomar medidas em defesa do meio am-
+biente.
+(D) o conjunto de medidas adotadas pelas empre-
+sas foi suficiente para a resolução dos proble-
+mas apontados, tornando desnecessária a ac¸ão
+dos Estados.
+(E) os ODS subestimaram as assimetrias entre
+paísesemergentesedesenvolvidosnacapacidade
+fiscal e política de implementar as medidas reco-
+mendadas.
+Questão 14.
+Leia o excerto a seguir:
+...a incorporação dos seis novos mem-
+bros do BRICS significa uma verdadeira
+“explosão sistêmica” da ordem internacio-
+nal construída e controlada pelos europeus
+e seus descendentes diretos há, pelos me-
+nos, três séculos. Mas seus efeitos e con-
+sequências mais importantes não serão ime-
+diatos, e irão se manifestar na forma de on-
+das sucessivas, e cada vez mais fortes.
+Fonte: Adaptadodehttps://encurtador.com.br/XvcjC.Acessoem
+30jun. 2024.
+O excerto expressa uma alteração na geopolítica con-
+temporânea a partir do ingresso de Arábia Saudita,
+Irã, Egito, Emirados Aŕabes e Etiópia (a Argentina
+seria o sexto membro, mas, posteriormente, optou
+pelo não ingresso). Estes países somaram-se a Brasil,
+Ruśsia, Índia, China e Af́rica do Sul para compor o
+agora BRICS+.
+Sobre o BRICS+, é CORRETO afirmar que se
+trata de um/a:
+(A) União Aduaneira, com o objetivo de zerar as ta-
+rifas alfandegárias entre os países membros.
+(B) bloco econômico, com o objetivo de fortalecer a
+integração econômica entre os países membros.
+(C) aliança militar, com o objetivo de contrapor o
+poder da Organização do Tratado do Atlântico
+Norte (OTAN).
+(D) tratadocomercial, comoobjetivodepromovero
+livre-comércio entre os países membros e desses
+diante dos outros países.
+(E) organização política entre países emergentes,
+com o objetivo de ampliar o poder geopolítico
+desses países no cenário global.
+Questão 15.
+Leia o excerto a seguir:
+O governo brasileiro apresenta, ao lado
+de seus aliados, um projeto de reforma do
+Conselho de Seguranc¸a, ampliando o atual
+órgão para que tenha um total de 25 ou
+26 membros, onze a mais que o atual for-
+mato. O veto, hoje usado para impedir de-
+cisões,naõseriausadoporumperíodode15
+anos pelos novos membros. Numa reunião
+nestaquinta-feira,nasededaONUemNova
+Iorque, a proposta foi submetida pelo G4,
+grupo formado por Brasil,Índia, Alemanha
+e Japão
+Fonte: Adaptadodehttps://encurtador.com.br/5DI2n. Acessoem
+08jul. 2024.
+O excerto trata da proposta de reforma do Conse-
+lho de Segurança da Organizac¸ão das Nac¸ões Unidas
+(ONU) apresentada por Brasil, Índia, Alemanha e
+Japão. No entanto, a proposta já foi rechac¸ada de
+imediato por Ruśsia e China.
+Pode-se afirmar que, dentre as razões desta nega-
+tiva por parte dos dois países, estão:
+(A) Ruśsia têm conflitos militares com a Alemanha
+desde o final da Segunda Guerra Mundial.
+(B) Chinatemlitígiosfronteiric¸oscomaÍndiaeuma
+rivalidade histórica com o Japão.
+(C) RuśsiaeChinadisputamcomaÍndiaaliderança
+da tecnologia do 5G aplicado à induśtria bélica.
+(D) Ruśsia e China impõem restric¸ões aos quatro
+países devido ao não cumprimento de acordos
+ambientais.
+(E) Ruśsia e China discordam dos quatro países de-
+vidoàposiçãodestesfrenteaoconflitoPalestina-
+Israel.
+HISTOŔIA - OBJETIVAS
+Questão 16.
+Na Ruśsia de 1927, a escritora, jornalista e revo-
+lucionária russa, Aleksandra Mikháilovna Kollontai,
+publicava na Revista das Mulheres o artigo “As com-
+batentesnodiadograndeOutubro”. OTextoabaixo
+apresenta fragmentos do referido artigo.
+AS COMBATENTES NO DIA DO
+GRANDE OUTUBRO
+Para a Grande Revolução de Outubro, quem fo-
+ram elas? Indivíduos? Não, uma massa, dezenas,
+centenas de milhares de heroínas anônimas que ca-
+minharam lado a lado com operários e camponeses
+em nome da bandeira vermelha, com o lema dos so-
+vietes, através das ruínas do odioso passado religioso
+e tsarista em direção a um novo futuro...
+Se olharmos para o passado, veremos essas mas-
+sas de heroínas anônimas nos dias de Outubro em
+cidades famélicas, em vilas destituídas e espoliadas
+pela guerra. (...) Para onde quer que se olhe, por
+toda parte há mulheres: nos comícios, reuniões, ma-
+nifestações...
+(...) Algum dia os historiadores escreverão sobre
+o que fizeram essas heroínas anônimas, mortas no
+front, executadas pelos brancos. (...) E quantas
+“anônimas”?
+Fonte: SCHNEIDER,Graziela. ARevoluçãodasMulheres:
+emancipaçãofemininanaRuśsiaSoviética. SãoPaulo: Boitempo
+Editorial,2017,pp. 265-270.
+Sobreovalorhistóricodoartigo,éCORRETOafir-
+mar que se trata de:
+(A) uma publicação questionável, pois não se co-
+nhece a autoria das centenas de mulheres que
+participaramdomovimentorevolucionáriorusso
+de 1917.
+(B) um documento que compromete a verdadeira
+história da Ruśsia, ao marginalizar os operários
+e camponeses no processo revolucionário.
+(C) um artigo sem valor histórico, pois foi produ-
+zido posteriormente à eclosão da Revolução de
+Outubro, que ocorreu em 1917.
+(D) umafontequeampliaosestudoshistóricossobre
+a Revolução Russa, ao evidenciar a participação
+das mulheres no movimento revolucionário.
+(E) um discurso que pouco contribui para o estudo
+da história, pois revela a visão parcial de uma
+mulher que participou da Revolução de Outu-
+bro.
+Questão 17.
+Observe as imagens abaixo:
+Cartaz da Ac¸ão Integralista Brasileira
+Disponívelem: https://imagohistoria.blogspot.com/2009/03/era-
+vargas-3-de-4.html-acessoem08ago. 2024.
+Cartaz do Partido Comunista
+Disponívelem: https://documentosrevelados.com.br/cartazes-e-
+panfletos-da-alianca-nacional-libertadora-anl/-acessoem08ago.
+2024.
+Sobre o contexto histórico de atuac¸ão dos dois movi-
+mentos na Era Vargas, representados pelos cartazes,
+assinale a alternativa CORRETA:
+(A) A trajetória dos dois movimentos foi marcada
+por grande apoio popular baseado em valores
+tradicionais, defesa da ordem e da disciplina, re-
+presentados pela tríade Deus, Pátria e Família.
+(B) A atuac¸ão do Partido Comunista por meio da
+AliançaNacionalLibertadorafoivitoriosanaIn-
+tentona Comunista, conseguindo apoio de Var-
+gas em contraposição às pressões dos Integralis-
+tas.
+(C) Do ponto de vista econômico ambos os movi-
+mentos apoiavam pautas liberais, como a mo-
+dernizaçãoeconômicaeacriac¸ãodegrandesem-
+presas estatais, bem como políticas intervencio-
+nistas e planejadas.
+(D) Representam dois importantes movimentos
+políticos do período republicano brasileiro e
+caracterizavam-se por fortes influências do
+cenário internacional, tais como o ideário fas-
+cista e a expansão socialista da União Soviética.
+(E) O Partido Comunista Brasileiro que integrou a
+Aliança Nacional Libertadora e os Integralistas
+por meio da Ação Integralista Brasileira recebe-
+ram apoio do governo Vargas para a construc¸ão
+de suas pautas trabalhistas.
+Questão 18.
+O texto abaixo descreve relatos apresentados pelo
+diretor da Feteerj, Antônio Rodrigues, sobre perse-
+guic¸ão, demissões e censura de professores persegui-
+dos pelo regime civil-militar que se instalou após o
+golpe de 1964.
+“ Ah,issoaquifoiseupaiqueescreveu”.
+E cortava o texto. Ela não gostava de te-
+mas políticos. Até que os alunos, entre eles
+(Carlos) Minc e (Alfredo) Sirkis, por exem-
+plo, zangaram-se tanto que um dia publi-
+caram uma edição do jornal em branco, só
+com uma faixa preta na transversal com a
+palavra “Censurientac¸ão”.
+“ Não precisava de ditadura lá fora; ela
+já estava dentro da escola. (...)”
+“ Acharam que Regina era da luta ar-
+mada. Não era ligada a nada! O Dops foi
+ao colégio, e ela não estava. Liguei para
+ela e disse para me ver no dia seguinte, mas
+nãofalarcomigo. Euandariaatrásdelacon-
+tandotudo, eaReginaCéliasóouviria. Ela
+foi se esconder e queimou outros desenhos
+que poderiam gerar suspeita, como um de
+crianças da Af́rica”.
+Disponívelem: https://www.sinprominas.org.br/contee-na-rede-
+perseguicao-a-professores-na-ditadura-incluiu-escutas-em-sala/.
+Acessoem21jun. 2024.
+Apósaleituradostrechosdareportagemsobreasca-
+racterísticas políticas da ditadura civil-militar, mar-
+que a alternativa CORRETA:
+(A) Acensurapréviaeraorganizadaporumaequipe
+de professores qualificados de cada escola que
+avaliavam o conteud́o dos livros didáticos e ou-
+tras publicações a servic¸o do governo.
+(B) O autoritarismo era marcado pela tortura e ou-
+tras formas de violências que tinham como ob-
+jetivo controlar, punir e desencorajar as mani-
+festações dos professores contra o governo.
+(C) Acentralizac¸ãopolíticaeraprópriadosgovernos
+militares que respeitavam a autonomia e liber-
+dade ilimitada dos professores, mas vigiavam e
+perseguiam as escolas e os jornais estudantis.
+(D) A supressão dos direitos civis e constitucionais
+era mantida para evitar a propaganda de novas
+ideologias, autorizando a discussão nas escolas,
+mas instalando a desconfiança entre os professo-
+res.
+(E) A tortura era uma prática exercida pelas insti-
+tuições militares que deviam incentivar a parti-
+cipação dos professores sem limitac¸ões, princi-
+palmente, aos temas políticos.
+Questão 19.
+Leonardo Padura, considerado o maior nome da li-
+teratura cubana no mundo, disse em reportagem a
+Jamil Chade no site do UOL
+“Nesse momento falta combustível em
+Cuba, falta alimento, falta remédio. Mas
+o que mais falta é esperança. E uma
+sociedade sem esperança é uma sociedade
+que tem um grande problema de funciona-
+mento.”
+Disponívelem: https://noticias.uol.com.br/colunas/jamil-
+chade/2024/03/03/o-que-mais-falta-em-cuba-e-esperanca-diz-
+escritor-leonardo-padura.htm. Acessoem11jun. 2024.
+O depoimento do escritor se relaciona ao contexto
+histórico de:
+(A) fortalecimento do imperialismo norte-americano
+na Ilha, a partir do incremento dos negócios das
+empresas favorecendo a internacionalizac¸ão da
+economia.
+(B) tensões entre o governo Cubano e os Estados
+Unidos, iniciado desde os anos da guerra fria em
+1960 e ao fim dos subsídios da União Soviética
+após o seu colapso.
+(C) ampliação das relações comerciais com a
+América Latina e Caribe, que acabaram por ge-
+rar descontentamentos entre a maioria da po-
+pulac¸ão excluída desses benefícios;
+(D) restriçõesimpostaspelogovernodosEUA,apro-
+fundando as sanc¸ões comerciais e fechamento da
+embaixada americana em Havana;
+(E) pressões da nova ordem mundial marcada pela
+expansão tecnológica e liderada pelos interesses
+chineses na América Latina.
+Questão 20.
+Leia o fragmento de discurso político da Georgia Me-
+loni, primeira ministra da Itália.
+“Ou você diz ‘sim’ ou diz ‘não’. ‘Sim’
+à família natural, ‘não’ aos lobistas LGBT.
+‘Sim’ à identidade sexual, ‘não’ à ideologia
+de gênero”.
+‘Sim’ à cultura da vida, ‘não’ ao abismo da
+morte, ‘sim’ à universalidade da cruz, ‘não’
+à violência islâmica”.
+‘Sim’àsegurançadasfronteiras,‘não’àimi-
+gração em massa. ‘Sim’ ao trabalho de nos-
+sos cidadãos, ‘não’ às grandes finanças in-
+ternacionais. ‘Sim’ à soberania dos povos,
+‘não’ aos burocratas de Bruxelas. E ‘sim’
+à nossa civilização e ‘não’ aos que querem
+destruí-la”.
+Disponívelem:
+https://www.cnnbrasil.com.br/internacional/mussolini-foi-um-
+bom-politico-e-outras-situacoes-polemicas-de-giorgia-meloni/
+Acessoem: 21jun. 2024.
+Podemos identificar nas frases de Giorgia Meloni,
+primeira ministra da Itália, que elas se referem a:
+(A) traçosdofascismo,ummovimentopolíticoultra-
+nacionalista, que defende um Estado forte, uma
+identidade étnica e a rejeição aos imigrantes e a
+outras culturas.
+(B) influências do liberalismo, uma ordem política
+mundialquevalorizaasliberdadesindividuais, o
+livre mercado e o fim das fronteiras comerciais.
+(C) características do nazismo, uma ideologia euro-
+peia, imperialista e belicista a favor das grandes
+empresasinternacionaisedauniãodoseuropeus.
+(D) aspectosdosocialismo,umafilosofiapolítica,so-
+cialeeconômicaquelutapelapropriedadesocial
+dos meios de produc¸ão, de forma coletiva.
+(E) marcas do absolutismo, uma doutrina secular
+de centralização do poder que investe na ma-
+nipulac¸ão do sistema político e eleitoral.
+GEOGRAFIA - DISSERTATIVAS
+1) Observe a charge abaixo, leia o excerto da repor-
+tagem e responda as questões:
+Fonte: https://encurtador.com.br/bCAuR.Acessoem20set.
+2024.
+“As eleições para o Parlamento
+da União Europeia causaram tremores
+políticos e ganharam as manchetes dos
+jornais de todo o mundo, muitas de-
+las surpresas com o avanc¸o da extrema
+direita. Mas para analistas ouvidos
+pelo Brasil de Fato, mais do que ga-
+nhos práticos, a grande vitória da ul-
+tradireita europeiaé ter aumentado sua
+visibilidade e movido o eixo de gravi-
+dade político, ao atrair o centro para
+sua direção.”
+Fonte: https://encurtador.com.br/StKeaAcessoem02jul.
+2024.
+(A) Considerando o cenário político recente da
+Europa, Estados Unidos e Brasil, o que a
+charge acima representa?
+(B) Cite duas consequências da ascensão da
+extrema-direita pelo mundo.
+2) Leia o excerto a seguir:
+Por que a Coreia do Sul poupa seusídolos
+do k-pop do serviço militar
+Na Coreia do Sul, todo homem saudável entre 18
+e 28 anos deve passar por cerca de 20 meses pelo
+serviçomilitardopaís. KimSeok-jin, tambémco-
+nhecido como Jin do grupo de k-pop BTS, com-
+pleta 28 anos nesta sexta-feira (4), e precisaria
+deixar a boyband para se alistar.
+No entanto, nesta terça-feira (1”), a Assembleia
+Nacional editou o Ato de Servic¸o Militar permi-
+tindo que o artista possa cumprir a obrigac¸ão até
+os 30 anos de idade. A expectativa é de que
+o presidente Moon Jae-in assine a mudança nas
+próximas semanas. Esse aditamento abrac¸a ape-
+nas artistas de k-pop que receberam medalhas do
+governoporajudaradivulgarainfluênciacultural
+e linguística do país para o resto do mundo. Os
+sete membros do grupo BTS ganharam a Ordem
+do Mérito Cultural em 2018.
+Fonte: https://encurtador.com.br/1yW5p. Acessoem01jul.
+2024.
+(A) Identifique e explique, com base no texto
+acima, qual a estratégia geopolítica adotada
+pela Coreia do Sul para influenciar outros
+países.
+(B) Cite dois exemplos do uso dessa estratégia
+por diferentes países.
+3) Observe a charge abaixo e respondas as questões:
+Fonte: https://encurtador.com.br/E12Of. Acessoem05jul.
+2024.
+Considerando a charge acima, responda:
+(A) Quais acontecimentos a charge satiriza? Por
+que um dos personagens retratados utiliza o
+termo “brochou”?
+(B) Por que a sátira se dá sobre tanques de
+guerra?
+4) Leia o trecho abaixo:
+... a transic¸ão socioecológica deixou de ser uma
+questão restrita a grupos de ativistas e cientis-
+tas para se tornar o eixo central das agendas
+políticas e econômicas contemporâneas. Entre-
+tanto, duas questões importantes surgem aqui.
+Primeiro, diante da urgência da descarbonização,
+há uma tendência de reduzir a transic¸ão socioe-
+cológica – cujo entendimento integral deve abran-
+ger os níveis energético, produtivo, alimentar e
+urbano – à transic¸ão energética. A segunda
+questão está associada à forma como a transic¸ão
+energética é realizada e quem pagará os custos.
+A transic¸aõ energética, impulsionada principal-
+mente por grandes corporac¸ões, fundações e go-
+vernos do Norte Global e dos países emergentes
+em direção aènergia supostamente “limpa”, está
+exercendoumapressãocadavezmaiorsobreoSul
+Global. Para que a China, os Estados Unidos e
+a Europa avancem em direc¸ão à desfossilizac¸ão,
+novas zonas de sacrifício estão sendo criadas nas
+periferias globais.
+Fonte: https://encurtador.com.br/bQmtA.Acessoem13jun.
+2024.(Adaptado)
+O excerto acima trata do processo e das con-
+tradições da transic¸ão energética em curso atu-
+almente no mundo.
+A respeito desse processo, responda:
+(A) O que é desfossilização?
+(B) Dê um exemplo de processos associados à
+desfossilização em países do Sul Global com
+impactos socioambientais negativos. Expli-
+que o exemplo dado.
+HISTOŔIA - DISSERTATIVAS
+1) Leia o trecho do samba “Os Sertões” composto
+por Edeor de Paula em 1976 :
+Marcado pela própria natureza
+O Nordeste do meu Brasil
+Oh! solitário sertão
+De sofrimento e solidão
+A terra é seca
+(...)
+Foi no século passado
+No interior da Bahia
+O Homem revoltado com a sorte
+do mundo em que vivia
+Ocultou-se no sertão
+espalhando a rebeldia
+Se revoltando contra a lei
+Que a sociedade oferecia
+Os Jagunços lutaram
+Até o final
+Defendendo Canudos (bis)
+Naquela guerra fatal.
+Disponívelem: letras.mus.br/em-cima-da-hora/867181/acesso
+em: 09ago. 2024.
+(A) Identifique a qual movimento social a muśica
+se refere e apresente uma característica do
+contexto histórico do período.
+(B) Citeeanalisedoistraçosdaculturasertaneja
+do movimento.
+2) Leia a chamada do jornal abaixo em uma man-
+chete online do dia 29/09/2023:
+MIGRAC¸AÕ EUROPA
+Mais de 2.500 migrantes morreram no Medi-
+terrâneoem2023. Nuḿerodemortosnatravessia
+já é 48% maior que no mesmo período de 2022.
+Cerca de 186 mil migrantes chegaram à Europa
+partindo da costa do Norte da Af́rica, maioria de-
+sembarcou na Itália.”
+“DW”DeutscheWelleéumaemissorainternacionalda
+Alemanhaquetransmiteprogramasdetelevisaõ,rad́ioeonline
+paratodoomundo.
+Disponívelem:
+https://www.dw.com/pt-br/mais-de-2500-migrantes-morreram-
+no-mediterr%C3%A2neo-em-2023/a-66966632. Acessoem: em
+17jun. 2024.
+Responda ao que se pede:
+(A) Analise como o processo caracterizado pelos
+interessesimperialistasdofinaldoséculoXIX
+e a posterior política de descolonizac¸ão se re-
+lacionam com o atual continente africano
+(B) Analise como esse processo ajuda a explicar
+oquadroatualdemonstradopelareportagem
+acima.
+3) Leia os textos I e II a seguir e responda ao que se
+pede.
+Texto I
+OsPovosIndígenasexistentesnoBrasil, represen-
+tados na UNIAÕ DAS NAC¸OES INDÍGENAS -
+UNI, [se posicionam] perante as autoridades cons-
+tituídas, à opinião pub́lica e em especial perante
+os Membros do Congresso Nacional para informar
+e exigir o seguinte:
+(...) Nesta reunião decidimos PARTICIPAR DA
+ELABORAC¸AÕ DA NOVA CONSTITUIC¸AÕ,
+POIS ESTA LEI TRATA DE QUESTOẼS
+DE INTERESSE IMEDIATO DOS POVOS
+INDÍGENAS, tais como: o direito a terra e a in-
+corporac¸ãodosíndiosàsociedadenacionalecomo
+habitamosoterritóriobrasileiro,nossentimosnão
+só no direito, mas no dever de influir na forma de
+organizaçãodoEstadobrasileiro, paraqueeleres-
+peite os Povos Indígenas e garanta a liberdade e
+participac¸ão de todos os brasileiros, nas decisões
+estatais, inclusive quanto à correta e justa uti-
+lização e distribuição das riquezas.
+Goiânia-GO,11deoutubrode1986-UNIAÕDASNAC¸OES
+INDÍGENASHECK;SILVA;FEITOSA(orgs). Povos
+indígenas: aquelesquedevemviver–Manifestocontraos
+decretosdeextermínio. Brasília: Cimi–ConselhoIndigenista
+Missionário,2012,pp.101-102.
+Texto II
+Para estar na política, mulheres indígenas
+enfrentam desafios como falta de apoio e
+preconceito
+Apesardoaumentodascandidaturasindígenasde
+2016 para 2020, ainda há uma sub-representação
+nas câmaras municipais. Pré candidatas
+indígenas, no Paraná,(...) apontam os desafios
+para se manterem na política como mulheres
+indígenas. (...) Jovina Renhga, Kaingang, da
+Aldeia Kakané Porã, de Curitiba, é escritora da
+literatura indígena e pré-candidata (...) e afirma
+que decidiu se candidatar porque quer defender
+seupovoquevivenapobrezaedefendertambéma
+pautaambiental. “Somosumpovoquesofredesde
+ainvasão,em1500. Comovereadora,acreditoque
+posso defender meu povo que, hoje, vive na po-
+breza. E, claro, lutar pela Mãe Terra que vem
+sofrendo com a destruição da floresta e o aqueci-
+mento global,” diz. (...) “Acho que o primeiro
+desafio é ter coragem para estar e se manter sem-
+pre na luta em defesa de espaço para as mulheres
+indígenas e contra o racismo, diz Jovina Renhga.
+Disponívelem:
+https://www.brasildefatopr.com.br/2024/06/13/para-estar-na-
+politica-mulheres-indigenas-enfrentam-desafios-como-falta-de-
+apoio-e-preconceito. Acessoem: 17/06/2024.
+(A) A partir do texto I, explique como se deu
+a participação dos povos indígenas na ela-
+borac¸ão da Constituição de 1988.
+(B) A partir do Texto II, identifique UMA mu-
+dançaeUMAcontinuidadeemrelaçãoàpar-
+ticipaçãopolíticadospovosindígenasnoBra-
+sil desde a redemocratização até os dias atu-
+ais.
+4) Leia os textos abaixo.
+Texto I
+Rap do motoboy (Emicida e Fióti)
+Eśempre a vida sobre duas roda (...)
+O sol nasceu, nóis se benze e vai embora (...)
+A fluir pela via, fui entre as faixa (...)
+Et́oda uma vida sofrida, corrida,
+nessas avenida, relaxa
+Saltos em vertigem (...)
+O tempo que passaé sempre pouco (...)
+Como é que tá? Massa? Firmão?
+Irmão, motoboy é verbo de ligac¸ão.
+FONTE:EMICIDA;FIOT́I.Rapdomotoboy. Disponívelem:
+https://www.letras.mus.br/emicida/rap-do-motoboy-part-
+fioti/. Acessoem: 14/06/24.
+Texto II
+Estamos presenciando o advento e a expansão
+monumental do novo proletariado da era digi-
+tal, cujos trabalhos, mais ou menos intermitentes
+[nãocontínuos],maisoumenosconstantes,ganha-
+ram novo impulso. (...) Estamos vivenciando o
+crescimento exponencial do novo proletariado de
+serviços, uma variante global do que se pode de-
+nominar escravidão digital. (...) A terceirizac¸ão,
+a informalidade e a flexibilidade se tornaram par-
+tes inseparáveis do léxico da empresa corporativa.
+Assim, movida por essa lógica que se expande em
+escalaglobal,estamospresenciandoaexpansãodo
+que podemos denominar uberização do trabalho.
+ANTUNES,Ricardo. Oprivilégiodaservidaõ: onovo
+proletariadodeserviçosnaeradigital. SaõPaulo: Boitempo,
+2018. pp.30-37. [textocomadaptações]
+A partir da leitura do Texto I e do Texto II, res-
+ponda ao que se pede:
+(A) Identifique e explique UMA característica do
+“novo proletariado de serviços”.
+(B) Relacione a economia capitalista globalizada
+ao processo de “uberizac¸ão do trabalho”.
+FILOSOFIA - DISSERTATIVAS
+1) “Negar aquilo que é, ou afirmar aquilo que não é,
+é falso, ao passo que o verdadeiroé afirmar aquilo
+que é ou negar aquilo que não é”.
+Aristóteles(Metafísica. 1011b25)
+(A) Defina Realidade, Verdade e Conhecimento.
+Se desejar, você pode fazer referência direta
+a um filośofo que tenha estudado.
+(B) Mostre a diferença entre esses conceitos com
+um exemplo.
+2) Considere as seguintes premissas:
+A – Liberdade pressupõe responsabilidade. Ser li-
+vreéresponderplenamentepeloquesefaz,epelos
+resultados positivos ou negativos de suas ações.
+B–Et́icaéaciênciaqueinvestigaaadequac¸ãodas
+açoẽs, se boas ou más, morais ou imorais, justas
+ou injustas.
+Considerando essas premissas, disserte breve-
+mente sobre a validade e as consequências do re-
+lativismo ético-moral, isto é, a crença de que não
+existe certo ou errado, bem ou mal.

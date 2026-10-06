@@ -6,7 +6,7 @@
 -- ============================================================
 
 insert into public.exams (slug, title, source, year)
-values ('pism-2025-1', 'PISM 2025-1', 'pism', '2025-1')
+values ('pism-2025-1', 'PISM I 2026 - 1º dia', 'pism', '2026-1')
 on conflict (slug) do update set title = excluded.title;
 
 -- Texto 1 (Língua Portuguesa Q1-Q2)
@@ -279,7 +279,7 @@ on conflict (exam_id, number) do update set subject = excluded.subject, text = e
 -- ============================================================
 
 insert into public.exams (slug, title, source, year)
-values ('pism-2025-2', 'PISM 2025-2', 'pism', '2025-2')
+values ('pism-2025-2', 'PISM I 2026 - 2º dia', 'pism', '2026-2')
 on conflict (slug) do update set title = excluded.title;
 
 insert into public.questions (exam_id, number, subject, text, support, support_image, options, answer)

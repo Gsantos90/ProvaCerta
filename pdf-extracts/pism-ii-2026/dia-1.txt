@@ -1,0 +1,1015 @@
+=== PAGINA PDF 1 ===
+DIA 1
+ORIENTAC¸O˜ES GERAIS:
+A durac¸a˜o total desta prova, incluindo o preenchimento da Folha de Respostas, e´ de 4 horas. A sa´ıda do
+local de provas so´ e´ permitida apo´s 1 hora e 30 minutos.
+Sera´ exclu´ıdo do processo seletivo quem for flagrado mantendo consigo aparelho celular, smartwatch ou
+qualquer outro aparelho, dispositivo ou componente eletroˆnico. Esses dispositivos devem ser DESLIGADOS e
+acondicionados em saco pla´stico pro´prio e assim devem permanecer ate´ a sa´ıda do local de prova.
+Na˜o use em sala de prova: bone´, chape´u, chaveiros de qualquer tipo, o´culos escuros ou relo´gio. Se voceˆ
+possui cabelos compridos deve manteˆ-los presos, deixando as orelhas descobertas.
+Em cima da mesa ou carteira permitem-se apenas: caneta preta ou azul de corpo transparente e re´gua
+reta transparente; medicamentos; alimentos, a´gua ou outra bebida em recipiente de corpo transparente sem o
+ro´tulo.
+Todososdemaispertences,incluindola´pis,devemseracondicionadosnosacopla´sticodisponibilizado,que
+deve ter a ponta amarrada e ser mantido embaixo da cadeira ou carteira do candidato.
+IN´ICIO DA PROVA:
+CONFIRA, SOMENTE APO´S AUTORIZADO O IN´ICIO DAS PROVAS, se este Caderno de Provas conte´m
+15 pa´ginas numeradas de questo˜es, sendo 20 questo˜es objetivas (Portugueˆs, Geografia, Matema´tica e
+Qu´ımica ) e 8 questo˜es discursivas (Portugueˆs, Geografia, Matema´tica e Qu´ımica ). Se houver algum
+problema, solicite ao fiscal a IMEDIATA substituic¸a˜o do Caderno de Provas.
+Na Folha de Respostas, CONFIRA se o NOME e CPF coincidem com o seu e assine-a IMEDIATAMENTE.
+ATENC¸A˜O: Nenhuma anotac¸a˜o efetuada neste Caderno de Provas sera´ considerada para correc¸a˜o! Todas as
+respostas,sejamdasquesto˜esobjetivasoudiscursivas,devera˜oseranotadasemlocalapropriadonaFolhade
+Resposta.
+DURANTE A PROVA:
+Na˜odesgrampeieena˜oretirenenhumapa´ginadestecaderno. Comuniqueaofiscalqualquerirregularidade
+que for observada.
+Na˜o sendo tomadas pelo fiscal as provideˆncias devidas, solicite a presenc¸a do Coordenador do Setor na
+sala ou va´ a` coordenac¸a˜o do setor depois do final das provas.
+FINAL DA PROVA:
+Preste MUITA ATENC¸A˜O ao marcar suas respostas corretamente na Folha de Respostas. Ela na˜o sera´
+substitu´ıda em nenhuma hipo´tese.
+Entregue sua Folha de Respostas, ela e´ o u´nico documento que sera´ utilizado para correc¸a˜o. Voceˆ podera´
+levar consigo este Caderno de Provas.
+Os 3 (treˆs) u´ltimos candidatos permanecem ate´ o final das provas para assinar a Ata de Sala.
+
+=== PAGINA PDF 2 ===
+
+
+=== PAGINA PDF 3 ===
+Pro´ Reitoria de Graduac¸a˜o
+Coordenac¸a˜o Geral de Processos Seletivos
+PISM 2026 - Mo´dulo II - 1º Dia
+L´INGUA PORTUGUESA - Objetivas Fonte:BRASIL.IAGenerativanoservic¸opu´blico:
+definic¸o˜es,usoseboaspra´ticas.Bras´ılia:Ministe´rioda
+Gesta˜oedaInovac¸a˜oemServic¸osPu´blicos,2025.
+TEXTO 1
+GUIA
+IA GENERATIVA NO SERVIC¸O PU´BLICO: QUESTA˜O 1.
+DEFINIC¸O˜ES, USOS E BOAS PRA´TICAS
+O Texto 1, “IA Generativa no Servic¸o Pu´blico:
+definic¸o˜es, usos e boas pra´ticas”, apresenta
+[...] Riscos
+va´rios subt´ıtulos em negrito.
+Antes de utilizar ferramentas de IAG
+(Inteligeˆncia Artificial Generativa) em
+Qual a relac¸a˜o entre esses subt´ıtulos e os
+processos de trabalho, e´ necessa´rio analisar
+para´grafos que se seguem a cada um deles?
+os benef´ıcios e riscos associados a cada caso
+de uso. A identificac¸a˜o das vulnerabilidades
+(A) Cadasubt´ıtuloapresentaumassuntoaser
+espec´ıficas e a implementac¸a˜o de medidas
+contrapostopelaporc¸a˜odetextoseguinte.
+de mitigac¸a˜o sa˜o passos indispensa´veis para
+garantir que as ferramentas sejam usadas de (B) Cadasubt´ıtuloapresentaumquestionamento
+formae´ticaesegura. OusodeIAGesta´ sujeito que sera´ respondido na porc¸a˜o de texto
+a riscos inerentes, como: seguinte.
+(C) Cada subt´ıtulo apresenta um tema a ser
+1. Alucinac¸o˜es na IA Generativa
+abordado e a porc¸a˜o de texto seguinte
+Modelos de IAG sa˜o treinados em
+explica esse tema.
+grandes volumes de dados e podem produzir
+respostas “criativas” baseadas em padro˜es
+(D) Cada subt´ıtulo apresenta uma explicac¸a˜o
+e informac¸o˜es aprendidas durante um longo
+e a porc¸a˜o de texto seguinte detalha essa
+processo de treinamento. Entretanto, essa
+explicac¸a˜o.
+criatividade sinte´tica pode desencadear
+alucinac¸o˜es–situac¸o˜esemqueummodelode (E) Cada subt´ıtulo apresenta uma exposic¸a˜o
+inteligeˆnciaartificialgerainformac¸o˜esinexatas, que sera´ exemplificada pela porc¸a˜o de
+irrelevantes ou totalmente fabricadas, mesmo texto seguinte.
+que parec¸am confia´veis e coerentes. Esse
+comportamento surge devido a limitac¸o˜es nos
+dados de treinamento, dados de entrada e na
+QUESTA˜O 2.
+arquitetura do modelo, tais como:
+A partir da leitura integral do segundo
+para´grafo do Texto 1, podemos afirmar que,
+Perguntas mal formuladas
+no trecho “Modelos de IAG sa˜o treinados
+Questo˜es amb´ıguas ou abertas podem levar a
+em grandes volumes de dados e podem
+respostas imprecisas.
+produzir respostas ‘criativas’ baseadas em
+padro˜eseinformac¸o˜esaprendidasdurante um
+Dados incompletos ou enviesados
+longo processo de treinamento”, a palavra
+O modelo pode basear sua resposta em
+“criativas”foiutilizadacomsentidoquepoderia
+informac¸o˜eslimitadasoudistorcidaspresentes
+ser substitu´ıdo, sem preju´ızo, pela seguinte
+no conjunto de dados.
+expressa˜o:
+Tendeˆncia a completar informac¸o˜es (A) desfavora´veis em relac¸a˜o a`quelas
+Quando na˜o encontra uma resposta clara,
+inicialmente pretendidas.
+o modelo pode “criar” com base em dados
+relacionados. (B) equivalentes em relac¸a˜o a`quelas
+inicialmente pretendidas.
+Falta de atualizac¸a˜o
+(C) ideˆnticas em relac¸a˜o a`quelas inicialmente
+Os modelos sa˜o treinados com dados
+pretendidas.
+dispon´ıveis ate´ uma determinada data e, apo´s
+isso, na˜o conseguem incluir automaticamente
+(D) opostas em relac¸a˜o a`quelas inicialmente
+informac¸o˜es mais recentes. Isso significa
+pretendidas.
+que, para assuntos contemporaˆneos ou em
+constante evoluc¸a˜o, as respostas podem estar (E) superiores em relac¸a˜o a`quelas
+desatualizadas. [...] inicialmente pretendidas.
+Pa´gina 1 de 15
+
+=== PAGINA PDF 4 ===
+Pro´ Reitoria de Graduac¸a˜o
+Coordenac¸a˜o Geral de Processos Seletivos
+PISM 2026 - Mo´dulo II - 1º Dia
+A resposta, no entanto, e´ mais complexa.
+QUESTA˜O 3. O crescente uso da IA em diversos setores da
+economia pode gerar tanto impactos positivos
+No Texto 1, o uso de “entretanto” estabelece,
+quanto negativos no coˆmputo do balanc¸o da
+entre os trechos “Modelos de IAG sa˜o
+agenda de desenvolvimento sustenta´vel. O
+treinados em grandes volumes de dados e
+desafio do pa´ıs e´ aproveitar as oportunidades
+podem produzir respostas ‘criativas’ baseadas
+do avanc¸o tecnolo´gico, minimizando seus
+empadro˜eseinformac¸o˜esaprendidasdurante
+efeitos negativos. O objetivo e´ assegurar
+um longo processo de treinamento” e “essa
+uma governanc¸a da IA em benef´ıcio do
+criatividade sinte´tica pode desencadear
+interesse pu´blico, promovendo o respeito a`
+alucinac¸o˜es–situac¸o˜esemqueummodelode
+diversidade ambiental e cultural, ale´m de
+inteligeˆnciaartificialgerainformac¸o˜esinexatas,
+apoiar o desenvolvimento sustenta´vel. Para
+irrelevantes ou totalmente fabricadas, mesmo
+isso, e´ necessa´rio criar pol´ıticas pu´blicas que
+que parec¸am confia´veis e coerentes”, uma
+orientem o uso da IA alinhado aos objetivos
+relac¸a˜o de
+do desenvolvimento sustenta´vel, dentro do
+(A) adic¸a˜o. roteiro para a Agenda 2030, abalado pelos
+acontecimentos da u´ltima de´cada, mas ainda
+(B) conclusa˜o. assim a plataforma que dispomos na trajeto´ria
+para um futuro comum.
+(C) consequeˆncia.
+[...] A IA pode tambe´m acarretar impactos
+(D) contrariedade. negativos, tanto sociais quanto ambientais.
+Entre as preocupac¸o˜es principais esta˜o as
+(E) explicac¸a˜o.
+quantidades excessivas de eletricidade e
+a´gua necessa´rios para operar os datacenters
+usados no processamento e treinamento de
+grandes volumes de dados. Como todas as
+TEXTO 2
+tecnologias, a evoluc¸a˜o da IA se beneficiaria
+deumareflexa˜opermanentesobreostermose
+ARTIGO DISCUTE IA, SUSTENTABILIDADE
+rumosdeseudesenvolvimento. Suaregulac¸a˜o
+E COP-30
+e´ um princ´ıpio chave a ser considerado neste
+esforc¸o, caso se pretenda que a IA priorize o
+Artigo de autoria dos professores
+bem-estar social e humano.
+Virg´ılio Almeida (DCC/UFMG) e Francisco
+[...] O Brasil esta´ ocupando um
+Gaetani (EBAPE/FGV) e´ publicado no Valor
+lugar singular no calenda´rio da agenda de
+Global, leia abaixo o texto.
+desenvolvimento. Ate´ novembro coordena o
+[...] O futuro digital e a preocupac¸a˜o
+G20. Nofinaldoano,assumeapresideˆnciado
+com a emergeˆncia clima´tica sa˜o objetos
+BRICS+. O ano de 2025 sera´ marcado pelas
+de atenc¸a˜o de todos pa´ıses e sociedades
+negociac¸o˜es preparato´rias para a COP-30,
+contemporaˆneas. A sobreposic¸a˜o destas duas
+que tratara´ dos compromissos nacionais e
+tema´ticas abre possibilidades instigantes, em
+globaisrelacionadoscomamudanc¸aclima´tica.
+especial para o Brasil, dada a centralidade
+Introduziradiscussa˜odaIAnocaminhocr´ıtico
+da posic¸a˜o do pa´ıs no debate global
+das deciso˜es relacionadas a` emergeˆncia
+sobre mudanc¸a clima´tica. Uma pergunta,
+clima´tica pode trazer enormes benef´ıcios a`s
+aparentemente simples, que se coloca no
+duas agendas.
+momento e´ “de que forma o ra´pido avanc¸o
+[...] A canalizac¸a˜o da atenc¸a˜o, dos
+das tecnologias de inteligeˆncia artificial (IA)
+recursos, da criatividade, da energia e
+pode acelerar o progresso do Brasil rumo
+dos esforc¸os nacionais para esta agenda
+a objetivos de desenvolvimento pautados
+e´ uma oportunidade extraordina´ria do pa´ıs
+pela sustentabilidade?” Se a IA e´ uma
+potencializar os ganhos que tem alcanc¸ado na
+tecnologiadeusogeral, compossibilidadesde
+conjunturapresente–crescimentosignificativo
+transformar significativamente os resultados
+edesempregocadente–eparacontribuirpara
+econoˆmicos e sociais em diversas a´reas,
+o esforc¸o global rumo a` construc¸a˜o de um
+por que na˜o canalizar esse potencial para
+futuro melhor.
+atingir objetivos relacionados aos objetivos
+de desenvolvimento sustenta´vel (DOS),
+Dispon´ıvelem:
+especialmente no enfrentamento do desafio
+https://dcc.ufmg.br/artigo-discute-ia-sustentabilidade-e-cop30/.
+das mudanc¸as clima´ticas no Brasil? Acessoem:01jul.2025.(adaptado)
+Pa´gina 2 de 15
+
+=== PAGINA PDF 5 ===
+Pro´ Reitoria de Graduac¸a˜o
+Coordenac¸a˜o Geral de Processos Seletivos
+PISM 2026 - Mo´dulo II - 1º Dia
+Glossa´rio: Em 2024, especialistas alertaram que o setor
+COP-30: a COP-30 e´ a 30ª Confereˆncia pode consumir mais energia do que toda a
+das Nac¸o˜es Unidas sobre Mudanc¸a do minerac¸a˜o de bitcoin ate´ o final do ano.
+Clima (Confereˆncia das Partes), um No ano passado, uma reportagem do
+encontro global anual onde l´ıderes mundiais, Washington Post revelou que a gerac¸a˜o de
+cientistas, organizac¸o˜es na˜o governamentais um e-mail de 100 palavras usando o GPT-4
+e representantes da sociedade civil discutem consumiria mais de uma garrafa de a´gua —
+ac¸o˜es para combater as mudanc¸as do clima. e que esse gasto varia de acordo com a
+E´ considerado um dos principais eventos do localizac¸a˜o dos datacenters.
+tema no mundo. A COP-30 ocorrera´ em 2025, O uso de a´gua acontece principalmente no
+no Brasil. resfriamentodosservidoresqueprocessamos
+pedidos enviados aos modelos de IA.
+Dispon´ıvelem: Regio˜es com clima mais seco ou com
+https://www.gov.br/planalto/pt-br/agenda-internacional/ menosinfraestruturah´ıdricatendemasermais
+cop30/faq-cop-30-no-brasil.Acessoem:01jul.2025. impactadas por esse tipo de consumo.
+Datacenters: corresponde a um local f´ısico
+Dispon´ıvelem:https://exame.com/inteligencia
+que armazena ma´quinas de computac¸a˜o e
+-artificial/cada-pergunta-no-chatgpt-consome-uma
+seusequipamentosdehardware relacionados.
+-fraca-de-uma-colher-de-cha-de-agua-diz-sam-altman/.Acesso
+Dispon´ıvelem:https://aws.amazon.com/pt/what-is/data-center/. em:01jul.2025.
+Acessoem:01jul.2025.
+Glossa´rio:
+Bitcoin: e´ uma forma de dinheiro eletroˆnico
+peer-to-peer (ponto a ponto) que pode ser
+TEXTO 3
+transferida sem o interme´dio de instituic¸o˜es
+CADA PERGUNTA NO CHATGPT
+CONSOME ‘UMA FRAC¸A˜O DE UMA financeiras.
+COLHER DE CHA´’ DE A´GUA, DIZ SAM
+Dinspon´ıvelem:https://www.infomoney.com.br/guias
+ALTMAN
+/o-que-e-bitcoin/.Acessoem:01jul.2025.
+Sam Altman minimiza o consumo do
+ChatGPT, mas pesquisas indicam que a IA
+pode superar a minerac¸a˜o de bitcoin em gasto
+de energia
+Sam Altman, CEO da OpenAI, afirmou que
+cada pergunta feita ao ChatGPT consome, em
+me´dia, apenas 0,000085 galo˜es de a´gua, o
+equivalente a cerca de um quinze avos de
+uma colher de cha´. A declarac¸a˜o foi publicada
+no blog do CEO na terc¸a-feira, 10, em meio
+a uma discussa˜o mais ampla sobre o futuro
+da inteligeˆncia artificial e seus impactos no
+mundo.
+Altman tambe´m disse que uma interac¸a˜o
+me´dia com o ChatGPT consome cerca de
+0,34 watt-hora de energia. Para efeito de
+comparac¸a˜o, isso equivale ao que um forno
+ele´trico usa em pouco mais de um segundo
+ou ao que uma laˆmpada econoˆmica consome
+em alguns minutos. Segundo ele, no longo
+prazo, o custo da inteligeˆncia artificial deve se
+aproximar do custo da eletricidade.
+Apesar do tom otimista, os dados na˜o
+foram detalhados no blog e a OpenAI na˜o
+comentouimediatamentecomoAltmanchegou
+a esses nu´meros. Empresas de IA teˆm
+sido cada vez mais pressionadas a divulgar
+os impactos ambientais de suas tecnologias.
+Pa´gina 3 de 15
+
+=== PAGINA PDF 6 ===
+Pro´ Reitoria de Graduac¸a˜o
+Coordenac¸a˜o Geral de Processos Seletivos
+PISM 2026 - Mo´dulo II - 1º Dia
+QUESTA˜O 4. QUESTA˜O 5.
+Todo texto sustenta um ato de linguagem que Os trechos a seguir foram retirados dos textos
+se realiza por meio de diferentes construc¸o˜es. 2 e 3. Sobre eles, e´ CORRETO afirmar que
+Considerando este pressuposto, podemos (A) o trecho “Para isso, e´ necessa´rio
+dizer que criar pol´ıticas pu´blicas que orientem o
+uso da IA alinhado aos objetivos do
+(A) o artigo de opinia˜o (Texto 2) e´
+desenvolvimento sustenta´vel, dentro
+predominantemente dialogal, pois a
+do roteiro para a Agenda 2030” (Texto
+estrutura e´ composta por perguntas,
+2) pode ser entendido como de cara´ter
+as quais devem ser respondidas
+subjetivo, pois pretende dar visibilidade a`
+durante a leitura para a progressa˜o da
+ideia de associar o uso da Inteligeˆncia
+compreensa˜o, ja´ a reportagem (Texto 3)
+Artificial a`s preocupac¸o˜es ambientais, sob
+e´ predominantementeargumentativa,uma
+o ponto de vista do enunciador.
+vez que traz um problema ambiental e
+dados cientificamente embasados sobre (B) o trecho “Sam Altman, CEO da OpenAI,
+ele. afirmou que cada pergunta feita ao
+ChatGPT consome, em me´dia, apenas
+(B) o artigo de opinia˜o (Texto 2) e´
+0,000085 galo˜es de a´gua, o equivalente
+predominantemente um texto expositivo,
+a cerca de um quinze avos de uma
+pois apresenta e discute de forma
+colher de cha´” (Texto 3) pode ser
+aprofundada e dida´tica os conceitos
+entendido como de cara´ter objetivo, pois
+e informac¸o˜es sobre a COP-30
+pretende criar um efeito de subjetividade
+e sustenta o ato de informar o
+ao mostrar que este dado e´ uma opinia˜o
+leitor, ja´ a reportagem (Texto 3) e´
+do enunciador sobre a realidade.
+predominantemente argumentativa por ter
+como propo´sito descredibilizar os perigos
+(C) o trecho “Altman tambe´m disse que
+ambientaisqueaIApromovea` sociedade.
+uma interac¸a˜o me´dia com o ChatGPT
+consome cerca de 0,34 watt-hora de
+(C) o artigo de opinia˜o (Texto 2) e´ um texto
+energia” (Texto 3) pode ser entendido
+predominantemente argumentativo, pois
+como de cara´ter subjetivo, pois se trata de
+discute sobre a relac¸a˜o entre IA, meio
+uma opinia˜o sobre o consumo de energia
+ambiente e como a COP-30 pode chamar
+pelasferramentasdeInteligeˆnciaArtificial,
+atenc¸a˜o para esse tema, ja´ a reportagem
+visto que o emprego da expressa˜o
+(Texto3)e´ predominantementeexpositiva,
+“tambe´m disse” revela um ju´ızo de valor.
+pois apresenta diferentes dados sobre os
+impactos da utilizac¸a˜o excessiva da IA
+(D) o trecho “No ano passado, uma
+para o meio ambiente.
+reportagem do Washington Post
+(D) o artigo de opinia˜o (Texto 2) e´ um revelou que a gerac¸a˜o de um e-mail
+texto predominantemente descritivo, de 100 palavras usando o GPT-4
+pois sustenta o ato de descrever consumiria mais de uma garrafa de
+minuciosamente os detalhes da COP-30 a´gua [...]” (Texto 3) pode ser entendido
+para o leitor, ja´ a reportagem (Texto como de cara´ter subjetivo, pois pretende
+3) e´ um texto predominantemente sustentar uma opinia˜o do Washington
+argumentativo, por apresentar dados Post relacionada ao consumo de a´gua ao
+cient´ıficos sobre os impactos ambientais enviar um e-mail.
+advindos da utilizac¸a˜o excessiva da IA.
+(E) o trecho “O Brasil esta´ ocupando um
+(E) o artigo de opinia˜o (Texto 2) e´ um lugar singular no calenda´rio da agenda
+texto predominantemente narrativo, visto de desenvolvimento. Ate´ novembro
+que sustenta o ato de sugerir que seu coordena o G20. No final do ano,
+interlocutor acompanhe a discussa˜o da assume a presideˆncia do BRICS+”
+COP-30, ja´ a reportagem (Texto 3) e´ (Texto 2) pode ser entendido como de
+um texto predominantemente expositivo, cara´ter objetivo, pois apresenta fatos
+pois fala de um fato e seu propo´sito comprecisa˜o,semnenhumamanifestac¸a˜o
+e´ apresentar dados sobre os impactos de opinia˜o, imprimindo um tom de
+ambientais da utilizac¸a˜o excessiva da IA. neutralidade.
+Pa´gina 4 de 15
+
+=== PAGINA PDF 7 ===
+Pro´ Reitoria de Graduac¸a˜o
+Coordenac¸a˜o Geral de Processos Seletivos
+PISM 2026 - Mo´dulo II - 1º Dia
+(E) Construc¸a˜o de casas populares em
+terrenos de menor custo, ainda que
+GEOGRAFIA - Objetivas afastados dos centros e das redes de
+servic¸os essenciais.
+QUESTA˜O 6.
+Leia o excerto abaixo.
+QUESTA˜O 7.
+“Voceˆ pode promover a compra da casa Leia a manchete abaixo.
+pro´pria por via hipoteca´ria, mas isso na˜o
+“Com 64 parques tecnolo´gicos, desafio do
+e´ um modelo u´nico que serve para tudo.
+Brasil agora e´ interiorizac¸a˜o”
+Particularmente para os mais pobres, na˜o
+serve. E´ preciso ter outras pol´ıticas, inclusive
+Fonte:https://encurtador.com.br/U2FGE.Acessoem:18jun.
+pol´ıticas que entendam a dimensa˜o social 2025.
+da moradia e a moradia como um direito
+Muitasempresasinovadorasdetecnologiasda
+humano. Voceˆ na˜opodesubmeteratotalidade
+informac¸a˜o, semicondutores, novos materiais,
+dapol´ıticahabitacionaleurbanadospa´ısesa`s
+biotecnologia, entre outras, se concentram
+necessidades de remunerac¸a˜o do capital.”
+nos parques cient´ıficos e tecnolo´gicos. No
+caso do Brasil, a maioria esta´ em regio˜es
+Dispon´ıvelem:https://encr.pw/EP6D0.Acessoem:10jun.
+metropolitanas do Sul e do Sudeste.
+2025.
+A fala da arquiteta e urbanista Raquel Rolnik Sobre os fatores que influenciam na
+destaca a limitac¸a˜o de modelos habitacionais localizac¸a˜odosparquestecnolo´gicos,assinale
+baseados exclusivamente em soluc¸o˜es de a alternativa CORRETA.
+mercado, especialmente quando se trata das
+(A) A localizac¸a˜o priorita´ria de parques
+populac¸o˜es de baixa renda. Nas grandes
+tecnolo´gicos se da´ em a´reas rurais
+cidades brasileiras, o acesso a` moradia digna
+com abundaˆncia de recursos naturais
+continua sendo um dos principais desafios
+renova´veis, visando integrar a pesquisa
+urbanos, impulsionando a expansa˜o das
+a` produc¸a˜o agr´ıcola sustenta´vel e
+periferias, a ocupac¸a˜o de a´reas de risco e a
+descentralizar a economia.
+intensificac¸a˜o da segregac¸a˜o socioespacial.
+Nessecena´rio,movimentossociaisurbanosse
+(B) A localizac¸a˜o de um tecnopolo esta´
+organizam e reivindicam reformas estruturais
+relacionada a` disponibilidade de pessoal
+queincluamodireitoa` moradia,ousosocialda
+altamente qualificado, a` infraestrutura de
+terraeaconstruc¸a˜odenovosarranjosurbanos
+pesquisa e desenvolvimento (P&D), ao
+justos e integrados.
+suporte de universidades e a`s pol´ıticas de
+financiamento.
+AssinaleaalternativaCORRETAqueexpressa
+uma ac¸a˜o coerente com a promoc¸a˜o do direito (C) Tecnopolos prosperam em localidades
+a` moradiaecomasuperac¸a˜odafragmentac¸a˜o com baixa densidade demogra´fica e custo
+socioespacial. devidareduzido,propiciandooisolamento
+de pesquisadores e empresas para se
+(A) Est´ımulo a regularizac¸a˜o fundia´ria em evitar a concorreˆncia e o excesso de
+regio˜es consolidadas, mesmo sem regulamentac¸a˜o.
+melhorias urbanas necessa´rias.
+(D) O fator principal para localizac¸a˜o de um
+(B) Implantac¸a˜o de programas habitacionais parque tecnolo´gico reside na proximidade
+com infraestrutura urbana e participac¸a˜o comgrandescentrosdeconsumopopular,
+ativa da comunidade. facilitando a distribuic¸a˜o em massa de
+produtos com baixo valor agregado.
+(C) Iniciativas privadas de habitac¸a˜o popular,
+sem participac¸a˜o popular, visando (E) A localizac¸a˜o ideal de tecnopolos
+acelerar o processo de construc¸a˜o. no Brasil depende exclusivamente da
+existeˆncia de grandes portos e aeroportos
+(D) Criac¸a˜o de conjuntos habitacionais em internacionais, com o objetivo de facilitar
+periferias, priorizando o nu´mero de a exportac¸a˜o de produtos tecnolo´gicos
+unidades em detrimento da infraestrutura. semiacabados.
+Pa´gina 5 de 15
+
+=== PAGINA PDF 8 ===
+Pro´ Reitoria de Graduac¸a˜o
+Coordenac¸a˜o Geral de Processos Seletivos
+PISM 2026 - Mo´dulo II - 1º Dia
+QUESTA˜O 8. QUESTA˜O 9.
+O crescimento acelerado do e-commerce faz Leia o excerto a seguir.
+parte de uma tendeˆncia que foi acelerada
+pela pandemia de Covid-19, impactando Assim, com elevado nu´mero de inovac¸o˜es
+na reorganizac¸a˜o do espac¸o geogra´fico, para a produc¸a˜o agr´ıcola, tornou-se poss´ıvel
+sobretudo das me´dias e grandes cidades. mudar a base te´cnica dessa atividade, que
+passou a utilizar, cada vez mais, produtos
+Qual das alternativas abaixo descreve uma industrializados como fatores fundamentais
+consequeˆncia desse fenoˆmeno nas cidades paraproduc¸a˜o,adaptando-sea`snecessidades
+brasileiras? de maior rentabilidade dos capitais investidos
+no setor. A partir das de´cadas de 1960 e de
+(A) Uma das consequeˆncias do crescimento
+1970, de forma intensiva, grande parte dos
+do e-commerce e´ a sua adesa˜o em
+insumos para produc¸a˜o agropecua´ria regional
+massa por parte da populac¸a˜o, bem
+na˜o mais provinha do laborato´rio natural, mas
+como a homogeneizac¸a˜o dos padro˜es de
+simdaproduc¸a˜osocialcomandadapelocapital
+consumo em todas as regio˜es.
+industrial,mostrandoquenaproduc¸a˜oagr´ıcola
+dessa regia˜o nada mais acontece somente de
+(B) O incremento do e-commerce implica na
+acordo com as forc¸as da natureza.
+fuga de capitais para outros pa´ıses, onde
+a ma˜o-de-obra e´ mais barata, o que tem
+Fonte:ELIAS,Denise.Globalizac¸a˜oeAgricultura:aregia˜ode
+funcionado como um importante fator do
+Ribeira˜oPreto/SP.Sa˜oPaulo:EditoradaUniversidadedeSa˜o
+processo de desindustrializac¸a˜o.
+Paulo,2003,pp.74-75.
+(C) A partir do crescimento do e-commerce,
+a populac¸a˜o tem deixado de se deslocar As transformac¸o˜es descritas no texto sa˜o
+para compras em centros tradicionais de representativas da Reestruturac¸a˜o Produtiva
+consumo, diminuindo o fluxo de ve´ıculos da Agropecua´ria.
+nas ruas e reduzindo a poluic¸a˜o.
+Considerando o modelo agr´ıcola descrito
+(D) A popularizac¸a˜o do come´rcio digital acima, qual alternativa representa uma
+tem desencadeado um processo intenso desvantagem para o pequeno agricultor?
+de fechamento de lojas nos centros
+comerciais, resultando em processos de (A) Elevac¸a˜o do custo de cultivo.
+esvaziamento das a´reas centrais.
+(B) Reduc¸a˜o do emprego formal.
+(E) O crescimento do e-commerce tem
+(C) Restric¸a˜o do controle de pragas.
+implicado em uma reorganizac¸a˜o log´ıstica
+no territo´rio, com a proliferac¸a˜o de (D) Estagnac¸a˜o da atividade agroindustrial.
+grandes centros de distribuic¸a˜o em a´reas
+urbanas e pro´ximos a importantes eixos (E) Diminuic¸a˜o da lavoura de monocultura.
+rodovia´rios.
+Pa´gina 6 de 15
+
+=== PAGINA PDF 9 ===
+Pro´ Reitoria de Graduac¸a˜o
+Coordenac¸a˜o Geral de Processos Seletivos
+PISM 2026 - Mo´dulo II - 1º Dia
+QUESTA˜O 10.
+Analise o gra´fico a seguir.
+MATEMA´TICA - Objetivas
+QUESTA˜O 11.
+O gra´fico abaixo apresenta as notas dos 100
+candidatos que participaram da primeira fase
+de um concurso pu´blico.
+Fonte:RAMOS,Marien.Desempregoentremulheresnegrase´
+odobrodehomensna˜onegros,dizlevantamento.CNNBrasil,
+20nov.2024.
+Asmulheresnegrasenfrentamodobrodataxa
+de desemprego em comparac¸a˜o aos homens
+na˜onegrosnoBrasil. Mesmocomavanc¸osnas
+pol´ıticas de inclusa˜o, essa realidade evidencia
+a permaneˆncia de desigualdades estruturais
+que afetam o acesso ao trabalho de forma
+equitativa.
+A partir da ana´lise do fenoˆmeno retratado, Sa˜o considerados aprovados para a segunda
+assinale a alternativa CORRETA. fase desse concurso somente os candidatos
+com nota superior a` me´dia das notas de todos
+(A) As dificuldades de inserc¸a˜o das mulheres
+os candidatos que participaram da primeira
+negras no mercado formal se devem,
+fase.
+principalmente, a` concentrac¸a˜o dessas
+profissionais em regio˜es de baixo
+Quantos candidatos foram aprovados para a
+dinamismo econoˆmico.
+segunda fase desse concurso?
+(B) A ocupac¸a˜o das mulheres negras no
+mercado informal e em empregos de (A) 15
+baixa qualificac¸a˜o decorre de fatores
+(B) 45
+individuais, como escolarizac¸a˜o tardia e
+pouca experieˆncia profissional. (C) 50
+(C) As mulheres negras apresentam maior
+(D) 55
+taxa de desemprego por optarem,
+culturalmente,porsetorescomootrabalho (E) 100
+dome´stico, que tradicionalmente oferecem
+menor remunerac¸a˜o.
+(D) A elevada taxa de desemprego entre
+mulheres negras e´ pontual e reflete o
+momento atual da economia brasileira,
+caracterizado por crises econoˆmicas e
+oscilac¸o˜es no mercado de trabalho.
+(E) A desigualdade salarial enfrentada por
+mulheres negras pode ser compreendida
+a partir da interseccionalidade entre
+rac¸a, classe e geˆnero, que reforc¸a a
+marginalizac¸a˜o histo´rica desse grupo.
+Pa´gina 7 de 15
+
+=== PAGINA PDF 10 ===
+Pro´ Reitoria de Graduac¸a˜o
+Coordenac¸a˜o Geral de Processos Seletivos
+PISM 2026 - Mo´dulo II - 1º Dia
+QUESTA˜O 12. QUESTA˜O 13.
+A figura abaixo apresenta, de forma Apo´s a realizac¸a˜o de uma obra, a areia que
+simplificada, os n´ıveis de progesterona ao sobrou ficou empilhada, em formato de um
+longo de um ciclo menstrual t´ıpico de 28 dias. cone circular reto cujo raio da base mede 5 m
+e, cuja altura, mede 3 m. Essa areia sera´
+armazenada em barris de formato cil´ındrico
+cujas bases possuem diaˆmetro medindo 1 m e
+altura medindo 80 cm.
+Qual e´ a quantidade m´ınima de barris que
+sera˜o utilizados para armazenar toda essa
+areia?
+(A) 19
+(B) 32
+O ciclo se caracteriza por duas fases, a (C) 125
+saber: folicular e lu´tea, cada uma com
+durac¸a˜o aproximada de 14 dias, separadas (D) 375
+peloprocessodeovulac¸a˜oqueocorrenomeio
+(E) 1 125
+do ciclo. Durante a primeira fase, os n´ıveis
+sa˜o baixos, em torno de 1 nanograma por
+mililitro (ng/mL). Na segunda fase, os n´ıveis
+aumentam progressivamente ate´ atingir um QUESTA˜O 14.
+pico de 25 ng/mL, no meio da durac¸a˜o desta Um marceneiro formou um bloco retangular
+fase. com 18 cubos ideˆnticos, de cor branca, e
+Para descrever a variac¸a˜o dos n´ıveis de pintou toda a superf´ıcie externa desse bloco
+progesterona ao longo do ciclo, considere na cor cinza, conforme ilustrado na figura 1,
+x como a varia´vel que representa o tempo, gastando 21 mililitros de tinta.
+expresso na unidade dia, e H(x) como
+a func¸a˜o que fornece a concentrac¸a˜o de
+progesterona, expressa de forma cont´ınua
+durante o ciclo.
+Na primeira fase, isto e´, para valores de x
+entreosdias1e14,osn´ıveissa˜opro´ximosde
+1 ng/mL e consideramos H(x) constante igual
+a 1. Para a segunda fase, correspondente
+aos valores de x entre 14 e 28, buscou-se
+expressar H(x) como uma func¸a˜o do tipo Em seguida, removeu 4 cubos, resultando o
+A + B · sen[C(x+D)], sendo A, B, C e D so´lido ilustrado na figura 2.
+constantes reais. Para finalizar seu trabalho, precisa pintar, com
+a mesma tinta de cor cinza, a parte em branco
+A func¸a˜o que melhor descreve H(x) na fase do so´lido da figura 2 e as faces em branco de
+lu´tea e´ cada cubo removido.
+(cid:104)π (cid:105)
+(A) H(x) = 25·sen (x−14) Quantosmililitrosdessatinta,nom´ınimo,sera˜o
+7
+utilizados para finalizar seu trabalho?
+(cid:104) π (cid:105)
+(B) H(x) = 25·sen (x−14)
+14 (A) 4
+(cid:104)π (cid:105)
+(C) H(x) = 1+24·sen (x−14) (B) 8
+7
+(C) 12
+(cid:104)π (cid:105)
+(D) H(x) = 1+25·sen (x−14)
+7
+(D) 16
+(cid:104) π (cid:105)
+(E) H(x) = 1+24·sen (x−14) (E) 54
+14
+Pa´gina 8 de 15
+
+=== PAGINA PDF 11 ===
+Pro´ Reitoria de Graduac¸a˜o
+Coordenac¸a˜o Geral de Processos Seletivos
+PISM 2026 - Mo´dulo II - 1º Dia
+QUESTA˜O 15.
+Uma pesquisa sobre a prefereˆncia por
+QU´IMICA - Objetivas
+modalidade esportiva foi realizada com 200
+estudantes do ensino me´dio de uma escola.
+Todos responderam escolhendo somente uma A tabela perio´dica se encontra ao final da
+dentre as seguintes modalidades: natac¸a˜o, prova
+basquete, voˆlei e futebol. O gra´fico abaixo
+mostraadistribuic¸a˜oporsexodospesquisados
+por modalidade esportiva escolhida. QUESTA˜O 16.
+Os tensoativos utilizados em sabo˜es,
+detergentesexampussa˜ocompostosporuma
+longa cadeia carboˆnica (orgaˆnica) com uma
+extremidade carregada, geralmente um grupo
+carboxilato (COO−) ligado a` um ca´tion como o
+so´dio (Na+) ou pota´ssio (K+). Uma empresa
+de cosme´ticos investigou a eficieˆncia de
+diferentes tensoativos presentes em xampus,
+observando que alguns removem melhor
+gordura(o´leos)docourocabeludopormeioda
+formac¸a˜o de micelas em meio aquoso. Para
+compreender esse processo, e´ necessa´rio
+correlacionar as interac¸o˜es intermoleculares
+envolvidas com os fenoˆmenos observados.
+Sobre as interac¸o˜es intermoleculares
+envolvidas na ac¸a˜o dos xampus no couro
+cabeludo, e´ CORRETO afirmar que
+Ja´ o gra´fico de setores abaixo informa a
+prefereˆncia dos pesquisados por modalidade (A) a extremidade apolar do tensoativo repele
+esportiva. a a´gua e interage com a gordura por meio
+deinterac¸o˜esintermolecularesdotipoVan
+der Waals (ou dispersa˜o de London).
+(B) aextremidadepolardotensoativointerage
+com a a´gua por meio da interac¸a˜o
+intermolecular do tipo dipolo - dipolo
+induzido.
+(C) a formac¸a˜o de micelas dependem
+somente da temperatura e na˜o das
+interac¸o˜es intermoleculares.
+(D) a micela se forma por interac¸o˜es
+intermoleculares do tipo ´ıon - ´ıon entre
+a a´gua e as mole´culas apolares.
+Quantas mulheres pesquisadas preferem (E) a solvatac¸a˜o ocorre quando as mole´culas
+voˆlei?
+de a´gua quebram as interac¸o˜es
+intermoleculares do tipo ligac¸o˜es de
+(A) 24
+hidrogeˆnio presentes nas gorduras.
+(B) 32
+(C) 36
+(D) 48
+(E) 60
+Pa´gina 9 de 15
+
+=== PAGINA PDF 12 ===
+Pro´ Reitoria de Graduac¸a˜o
+Coordenac¸a˜o Geral de Processos Seletivos
+PISM 2026 - Mo´dulo II - 1º Dia
+QUESTA˜O 17. QUESTA˜O 19.
+A massa de a´tomos e mole´culas e´ medida A equac¸a˜o qu´ımica NA˜O balanceada
+em func¸a˜o da massa do 12C, e e´ expressa em apresentada, a seguir, representa a obtenc¸a˜o
+unidadedemassaatoˆmica. Quandoutilizamos de etanol (C H O) a partir da sacarose
+2 6
+o conceito de quantidade de mate´ria, a massa (C H O ) sob oxidac¸a˜o enzima´tica:
+12 22 11
+dessas espe´cies passa a ser expressa em
+gramas por mol. Essa correlac¸a˜o facilita C H O (aq) + H O (ℓ) →
+12 22 11 2
+muito o trabalho em laborato´rio como, por C H O (aq) + CO (g)
+2 6 2
+exemplo, o uso de balanc¸as de precisa˜o
+para medirmos a massa de substaˆncias Dado: 1 mol = 6,0 x 1023
+(quantidades macrosco´picas) e na˜o a massa
+de a´tomos individuais. Apo´s o balanceamento da equac¸a˜o 1 mol de
+C H O produzira´
+12 22 11
+Assim,1moldeAℓ O possui,aproximadamente
+2 3
+(A) 6,0×1023 mole´culas de CO .
+2
+(A) 27 g de alum´ınio.
+(B) 7,2×1024 mole´culas de CO .
+2
+(B) 50 g de massa molar.
+(C) 6,0×1023 mole´culas de C H O.
+2 6
+(C) 102 g de massa molar.
+(D) 2,4×1024 mole´culas de C H O.
+2 6
+(D) 113 g de massa molar.
+(E) 3,6×1024 mole´culas de C H O.
+2 6
+(E) 24 g de oxigeˆnio.
+QUESTA˜O 20.
+QUESTA˜O 18. Durante queimadas em a´rea de vegetac¸a˜o,
+a combusta˜o do metano (CH ) e´ uma
+Durante uma feira de cieˆncias, um grupo 4
+das reac¸o˜es envolvidas, liberando energia e
+de estudantes demonstra como e´ poss´ıvel
+contribuindo para o aquecimento do ambiente.
+produzir um refrigerante caseiro misturando
+Considere a seguinte reac¸a˜o balanceada:
+bicarbonato de so´dio (NaHCO ) com
+3
+suco de lima˜o, que conte´m a´cido c´ıtrico
+CH (g) + 2 O (g) → CO (g) + 2 H O (g)
+(C H O ). A reac¸a˜o libera ga´s carboˆnico 4 2 2 2
+6 8 7
+(CO ), responsa´vel pela presenc¸a de ga´s no
+2 A variac¸a˜o de entalpia dessa reac¸a˜o (∆H)
+refrigerante, segundo a equac¸a˜o balanceada:
+pode ser estimada utilizando-se a tabela de
+entalpia me´dia de dissociac¸a˜o de ligac¸a˜o D
+3 NaHCO 3 (s) + C 6 H 8 O 7 (aq) → (em kJ/mol):
+3 CO (g)+ 3 H O (ℓ) + Na C H O (aq)
+2 2 3 6 5 7
+Ligac¸a˜o D (kJ ·mol−1)
+Suponhaqueosalunosutilizaram12,6gramas C – H 412
+de bicarbonato de so´dio, e que havia a´cido O = O 498
+c´ıtrico em excesso. Dados: Massa molar do C = O 799
+NaHCO = 84 g/mol; Massa molar do CO =
+3 2 O – H 463
+44g/mol;1moldega´s,naCNTPocupa22,4 L.
+Com base nos dados fornecidos, o valor
+Considerando a reac¸a˜o completa, qual o
+aproximado da variac¸a˜o de entalpia (∆H) da
+volume de ga´s carboˆnico liberado em CNTP?
+reac¸a˜o e´
+(A) 1,78 L (A) −806 kJ ·mol−1
+(B) 3,36 L (B) −235 kJ ·mol−1
+(C) 3,54 L (C) −120 kJ ·mol−1
+(D) 10,08 L (D) +120 kJ ·mol−1
+(E) 149,3 L (E) +806 kJ ·mol−1
+Pa´gina 10 de 15
+
+=== PAGINA PDF 13 ===
+Pro´ Reitoria de Graduac¸a˜o
+Coordenac¸a˜o Geral de Processos Seletivos
+PISM 2026 - Mo´dulo II - 1º Dia
+L´INGUA PORTUGUESA - Discursivas de 10 vezes ao dia, segundo pesquisa da
+GlobalWebIndex (2023). Ale´mdisso,37%dos
+TEXTO 1 entrevistados afirmaram sentir a necessidade
+VEJA COMO A HIPERCONECTIVIDADE de responder mensagens imediatamente,
+AFETA A SAU´DE MENTAL mesmo quando esta˜o realizando outras
+atividades.
+Comportamento tem contribu´ıdo para o “O bombardeio incessante de informac¸o˜es
+aumento de transtornos como FOMO, FOLO nas redes sociais tem um impacto significativo
+e nomofobia na sau´de mental, contribuindo para o
+aumento do imediatismo, da inseguranc¸a e
+Jornal Estado de Minas
+da insatisfac¸a˜o pessoal”, diz o psico´logo.
+Segundo Vagner Arau´jo, esse problema
+O uso excessivo de dispositivos mo´veis
+tambe´m pode afetar as relac¸o˜es sociais.
+e a constante conexa˜o digital teˆm impactado
+“O excesso de conectividade pode levar ao
+diretamente a sau´de mental da populac¸a˜o.
+isolamento social, pois, muitas vezes, as
+Dados da pesquisa We Are Social e Hootsuite
+interac¸o˜es virtuais substituem os encontros
+(2023) apontam que o Brasil esta´ entre os
+presenciais”, afirma.
+pa´ıses com maior tempo de tela do mundo,
+Os impactos na sau´de sa˜o diversos. “Isso
+com uma me´dia de 9 horas e 32 minutos
+compromete habilidades sociais, prejudica
+dia´rios dedicados ao uso da internet em
+relac¸o˜es interpessoais e contribui para
+dispositivos mo´veis.
+quadros de depressa˜o e ansiedade”, explica
+Esse padra˜o de comportamento tem
+o profissional. [...]
+contribu´ıdo para o aumento de transtornos
+relacionados a` sau´de mental, como FOMO,
+Dispon´ıvelem:https://www.em.com.br/saude/2025/04/
+FOLO e nomofobia, causados pelo excesso
+7104232-fomo-folo-e-nomofobia-hiperconexa˜o-pode-afetar-a
+de conectividade. FOMO (Fear of Missing
+-saude-mental.html.Acessoem:02jul.2025(adaptado).
+Out) esta´ ligado ao medo de perder algo ou
+a necessidade constante de se atualizar nas
+redes sociais para saber o que as pessoas QUESTA˜O 1.
+esta˜o fazendo. O FOLO (Fear of Living Leiainformac¸a˜oaseguirerespondaaquesta˜o
+Offline), por sua vez, reflete a dificuldade de proposta.
+se desconectar, devido ao receio de perder A modalizac¸a˜o e´ um recurso lingu´ıstico e
+algo que esta´ acontecendo na internet. A discursivo que permite expressar opinio˜es,
+nomofobia e´ o medo de ficar sem o celular du´vidas, certezas ou suavizar afirmac¸o˜es.
+ou de na˜o conseguir utiliza´-lo. Uma de suas func¸o˜es e´ atenuar o conteu´do
+Vagner Vinicius Morais de Arau´jo, do enunciado, evitando declarac¸o˜es absolutas
+profissional da a´rea de psicologia, [...] explica ou catego´ricas.
+que as condic¸o˜es FOMO, FOLO e nomofobia Sabendo disso, reescreva um trecho do
+esta˜o ligadas a uma compulsa˜o pelo uso Texto 1, logo a seguir, utilizando estrate´gias
+da tecnologia. “A necessidade constante de modalizac¸a˜o necessa´rias para suavizar o
+de verificac¸a˜o de redes sociais e aplicativos tom das afirmac¸o˜es:
+gera ansiedade, insoˆnia e dificuldades de “Isso compromete habilidades sociais,
+concentrac¸a˜o”, explica. prejudica relac¸o˜es interpessoais e contribui
+para quadros de depressa˜o e ansiedade”.
+Impacto da hiperconectividade na sau´de
+mental
+O estudo Panorama Mobile Time/Opinion QUESTA˜O 2.
+Box (2023) revelou que 43% dos brasileiros Suponha que voceˆ precisa complementar
+sentem ansiedade ao ficar sem acesso a reportagem do Jornal Estado de Minas
+ao celular, enquanto 54% checam suas (Texto 1).
+mensagens assim que acordam. O A partir dessa informac¸a˜o, elabore treˆs “dicas”
+comportamento reflete uma relac¸a˜o de para o leitor desenvolver estrate´gias de modo
+dependeˆncia psicolo´gica e a dificuldade de areduzirosimpactosdahiperconectividadena
+estabelecer limites sauda´veis para o uso das sau´de mental das pessoas.
+telas. As “dicas” devem ser precedidas de um
+Outro dado relevante e´ que 58% dos enunciado, ter paralelismo sinta´tico e
+brasileiros verificam suas redes sociais mais semaˆnticoeosverbosdevemvirnoimperativo.
+Pa´gina 11 de 15
+
+=== PAGINA PDF 14 ===
+Pro´ Reitoria de Graduac¸a˜o
+Coordenac¸a˜o Geral de Processos Seletivos
+PISM 2026 - Mo´dulo II - 1º Dia
+QUESTA˜O 2.
+Geografia - Discursivas Analise a charge a seguir.
+QUESTA˜O 1.
+Leia as manchetes abaixo:
+“Como a Inteligeˆncia Artificial otimiza e
+transforma o agronego´cio em Santa Catarina:
+Roboˆs, sensores e drones permitem que o
+agronego´cio tenha mais precisa˜o”.
+Dispon´ıvelem:https://l1nk.dev/ZJm3r.Acessoem:15jun.2025.
+“Modernizac¸a˜o da agricultura oferece
+oportunidadesparaquemdominaatecnologia:
+Nos pro´ximos dois anos, o agronego´cio
+brasileiro vai abrir mais de 100 mil vagas no
+Fonte:Imagemgeradaatrave´sdoChatGPT,comcomando
+setor de novas tecnologias. Por isso, muitos
+humano,18jun.2025.
+trabalhadores do campo esta˜o em busca de
+qualificac¸a˜o”.
+A Inteligeˆncia Artificial (IA) tem transformado
+as dinaˆmicas produtivas em escala global,
+Dispon´ıvelem:https://l1nk.dev/wsmE8.Acessoem:15jun.
+promovendo avanc¸os tecnolo´gicos nas
+2025.
+indu´strias e reorganizando a ocupac¸a˜o dos
+“MERCADO AGRO: Participac¸a˜o do pa´ıses nas cadeias globais de produc¸a˜o.
+agronego´cio no Mercado de Capitais cresce Esse processo influencia diretamente a
+8% em um ano”. Divisa˜o Internacional do Trabalho (DIT),
+acentuando desigualdades ou criando
+Dispon´ıvelem:https://l1nk.dev/xRhV5.Acessoem:15jun. novas oportunidades conforme o grau
+2025. de desenvolvimento tecnolo´gico e de
+infraestrutura de cada pa´ıs. Considerando a
+Ao longo da histo´ria, as relac¸o˜es entre cidade
+relac¸a˜o entre IA e a DIT:
+e campo foram muitas vezes tratadas como
+realidades opostas e desconectadas. As
+(A) Explique como a Inteligeˆncia Artificial
+manchetes acima, no entanto, revelam o
+(IA) tem transformado a atual Divisa˜o
+quanto, no Brasil atual, o campo na˜o e´ apenas
+Internacional do Trabalho (DIT).
+um espac¸o de produc¸a˜o agr´ıcola tradicional.
+Ao mesmo tempo, as cidades dependem
+(B) Cite dois impactos socioeconoˆmicos
+diretamente da produc¸a˜o agropecua´ria bem
+dessa
+como sa˜o fortemente impactadas pelas
+transformac¸a˜o para pa´ıses perife´ricos.
+mudanc¸as recentes no campo. Esse cena´rio
+revela contradic¸o˜es e desafios na forma como
+ambos os espac¸os sa˜o produzidos, utilizados
+e valorizados no Brasil contemporaˆneo. Matema´tica - Discursivas
+Considerando as relac¸o˜es entre campo e
+QUESTA˜O 1.
+cidade no Brasil atual, responda.
+Considere uma progressa˜o aritme´tica em que
+(A) Citedoiselementosquemostramcomoas 3π
+oterceirotermo(a )e´ eoquintotermo(a )
+transformac¸o˜es recentes no campo 3 4 5
+17π
+brasileiro reforc¸am a relac¸a˜o de e´ .
+interdependeˆncia entre campo e cidade. 12
+(B) Explique como as mudanc¸as recentes (A) Determineotermogeraldessaprogressa˜o
+no campo afetam a sociedade e o aritme´tica. Justifique sua resposta.
+meio ambiente nas cidades, destacando
+as desigualdades causadas por estas (B) Determine o valor de sen(a ). Justifique
+66
+mudanc¸as. sua resposta.
+Pa´gina 12 de 15
+
+=== PAGINA PDF 15 ===
+Pro´ Reitoria de Graduac¸a˜o
+Coordenac¸a˜o Geral de Processos Seletivos
+PISM 2026 - Mo´dulo II - 1º Dia
+(B) Apo´s o preparo da soluc¸a˜o, uma
+QUESTA˜O 2. padronizac¸a˜o (titulac¸a˜o) foi feita da
+seguinte forma: uma al´ıquota de 10 mL
+Um observador se posiciona no ponto P, topo
+da soluc¸a˜o preparada foi adicionada
+de uma rampa com 15° de inclinac¸a˜o com a
+a um Erlenmeyer juntamente com
+horizontal, enquanto um segundo observador
+30 mL de a´gua destilada e foram
+se posiciona no ponto Q, na base dessa
+necessa´rios 4,4 mL de NaOH 0,5 mol/L
+rampa, cujo comprimento e´ de 100 metros. No
+para neutralizac¸a˜o total do a´cido. Calcule
+instante em que um drone esta´ parado no ar
+a concentrac¸a˜o, em mol/L, da soluc¸a˜o de
+sobre o observador posicionado no ponto Q, a
+HCℓ preparada e compare com o valor
+uma altura h, o observador em P avista esse
+inicialmente previsto.
+drone, sob umaˆngulode 30°com ahorizontal,
+conforme ilustrado na figura abaixo, sendo
+(C) Explique porque, durante a titulac¸a˜o, e´
+desprezadas as alturas dos observadores.
+permitida a adic¸a˜o de a´gua destilada a`
+soluc¸a˜opreparadaaserpadronizada,sem
+que haja interfereˆncia no resultado da
+ana´lise.
+QUESTA˜O 2.
+Os compostos orgaˆnicos esta˜o presentes
+em diversos produtos e processos do nosso
+cotidiano, como os combust´ıveis, os alimentos
+industrializados e os produtos de limpeza.
+(A) Determine a medida do aˆngulo de visa˜o A estrutura qu´ımica desses compostos
+β que o drone tem dos observadores define suas propriedades f´ısicas, qu´ımicas
+posicionados nos pontos P e Q. Justifique e biolo´gicas. Analise as situac¸o˜es abaixo e
+sua resposta. responda:
+(B) Determine a altura h que o drone se
+(A) O a´cido benzo´ico e´ amplamente
+encontra do observador posicionado no
+utilizado como conservante pela indu´stria
+ponto Q. Justifique sua resposta.
+aliment´ıcia. Escreva a fo´rmula estrutural
+do a´cido benzo´ico utilizando a fo´rmula de
+Qu´ımica - Discursivas linha.
+(B) O removedor de esmalte e´ composto por
+QUESTA˜O 1.
+uma mistura de propanona e acetato de
+Uma equipe de estudantes foi desafiada
+etila. Indique qual a func¸a˜o orgaˆnica
+a preparar e padronizar 250 mL de uma
+esta´ presente em cada uma dessas
+soluc¸a˜o aquosa de a´cido clor´ıdrico (HCℓ),
+substaˆncias.
+com concentrac¸a˜o 0,20 mol/L, a partir de uma
+soluc¸a˜o estoque de concentrac¸a˜o 1,0 mol/L. (C) Foi observado em um post no TikTok
+Com base nesse contexto, responda as que o nome atribu´ıdo a (CH CH ) NH
+3 2 2
+questo˜es a seguir. era etilamida. Esse nome esta´ correto?
+Justifique sua resposta utilizando as
+(A) Determine o volume da soluc¸a˜o
+regras de nomenclatura da IUPAC.
+concentrada, em litro, necessa´rio para
+preparar 250 mL de soluc¸a˜o com
+concentrac¸a˜o 0,20 mol/L, utilizando os
+dados fornecidos.
+Pa´gina 13 de 15
+
+=== PAGINA PDF 16 ===
+Pro´ Reitoria de Graduac¸a˜o
+Coordenac¸a˜o Geral de Processos Seletivos
+PISM 2026 - Mo´dulo II - 1º Dia
+Pa´gina 14 de 15
+
+=== PAGINA PDF 17 ===
+Pro´ Reitoria de Graduac¸a˜o
+Coordenac¸a˜o Geral de Processos Seletivos
+PISM 2026 - Mo´dulo II - 1º Dia
+Pa´gina 15 de 15

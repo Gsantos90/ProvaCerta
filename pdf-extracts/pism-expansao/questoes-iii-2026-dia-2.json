@@ -1,0 +1,342 @@
+[
+  {
+    "number": 1,
+    "subject": "Física",
+    "text": "Um próton entra em um campo magnético uniforme que aponta no sentido +y. Sua velocidade forma 30° com esse eixo, à esquerda dele, como na figura. Como será a trajetória?",
+    "options": [
+      "Reta sem alteração.",
+      "Hélice rumo ao norte, entrando inicialmente na folha.",
+      "Hélice rumo ao norte, saindo inicialmente da folha.",
+      "Círculo, entrando na folha.",
+      "Círculo, saindo da folha."
+    ],
+    "answer": "B",
+    "support": "Redação adaptada para estudo; numeração e ordem das alternativas preservadas. Textos de apoio resumidos. Consulte a questão e os textos integrais no caderno oficial. Explicação autoral, não publicada pela banca. As 20 questões objetivas são comuns às quatro áreas; o link abre o caderno de Humanas. As discursivas não integram este cadastro.",
+    "support_image": "/pism-iii-2026-dia-2-questao-1.png",
+    "explanation": "Gabarito oficial: B. A velocidade tem componentes paralela e perpendicular ao campo. A paralela produz avanço e a perpendicular movimento circular, compondo uma hélice. Para um próton, q(v×B) aponta inicialmente para dentro da folha na configuração mostrada.",
+    "page": 3
+  },
+  {
+    "number": 2,
+    "subject": "Física",
+    "text": "Um fio acima de uma bússola recebe corrente da esquerda para a direita. Seu campo domina o terrestre. Segundo a figura, para qual indicador aponta a agulha?",
+    "options": [
+      "Posição 1.",
+      "Posição 2.",
+      "Posição 3.",
+      "Posição 4.",
+      "Permanece entre 1 e 2."
+    ],
+    "answer": "A",
+    "support": "Redação adaptada para estudo; numeração e ordem das alternativas preservadas. Textos de apoio resumidos. Consulte a questão e os textos integrais no caderno oficial. Explicação autoral, não publicada pela banca. As 20 questões objetivas são comuns às quatro áreas; o link abre o caderno de Humanas. As discursivas não integram este cadastro.",
+    "support_image": "/pism-iii-2026-dia-2-questao-2.png",
+    "explanation": "Gabarito oficial: A. Pela regra da mão direita aplicada ao fio e à corrente indicada, o campo na posição da bússola aponta para o indicador 1. Como esse campo domina o terrestre, a agulha se alinha a ele.",
+    "page": 3
+  },
+  {
+    "number": 3,
+    "subject": "Física",
+    "text": "Uma espira com corrente está entre polos N e S, inicialmente no plano do papel. Qual condição mantém a rotação, e qual o movimento inicial da seção A da figura?",
+    "options": [
+      "Corrente fixa; A entra no papel.",
+      "Inverter corrente com a espira perpendicular ao papel; A sai do papel.",
+      "Inverter corrente com a espira perpendicular ao papel; A entra no papel.",
+      "Inverter corrente quando a espira estiver no plano do papel; A sai do papel.",
+      "Inverter corrente quando a espira estiver no plano do papel; A entra no papel."
+    ],
+    "answer": "C",
+    "support": "Redação adaptada para estudo; numeração e ordem das alternativas preservadas. Textos de apoio resumidos. Consulte a questão e os textos integrais no caderno oficial. Explicação autoral, não publicada pela banca. As 20 questões objetivas são comuns às quatro áreas; o link abre o caderno de Humanas. As discursivas não integram este cadastro.",
+    "support_image": "/pism-iii-2026-dia-2-questao-3.png",
+    "explanation": "Gabarito oficial: C. A força magnética na seção A aponta inicialmente para dentro do papel. O comutador inverte a corrente a cada meia volta, quando a espira está perpendicular ao plano do papel, mantendo o sentido do torque.",
+    "page": 4
+  },
+  {
+    "number": 4,
+    "subject": "Física",
+    "text": "No dispositivo fotoelétrico da figura, luz incide em uma placa metálica e a corrente é medida. Qual afirmativa é correta?",
+    "options": [
+      "A energia cinética máxima depende tanto da intensidade quanto do comprimento de onda.",
+      "Se a frequência não gera emissão, basta aumentar a intensidade.",
+      "Maior intensidade do feixe aumenta a corrente medida.",
+      "Maior intensidade aumenta a energia cinética máxima.",
+      "Maior comprimento de onda aumenta a energia cinética máxima."
+    ],
+    "answer": "C",
+    "support": "Redação adaptada para estudo; numeração e ordem das alternativas preservadas. Textos de apoio resumidos. Consulte a questão e os textos integrais no caderno oficial. Explicação autoral, não publicada pela banca. As 20 questões objetivas são comuns às quatro áreas; o link abre o caderno de Humanas. As discursivas não integram este cadastro.\n\nConsidere luz de frequência acima do limiar e as demais condições mantidas. A introdução histórica original apresenta o ano do Nobel incorretamente; veja a explicação.",
+    "support_image": "/pism-iii-2026-dia-2-questao-4.png",
+    "explanation": "Gabarito oficial: C. Quando a frequência supera o limiar e as demais condições são mantidas, maior intensidade significa mais fótons e mais elétrons emitidos por unidade de tempo, aumentando a corrente. A energia máxima depende da frequência, não da intensidade. Einstein recebeu o Nobel de Física de 1921, não de 1905 como afirma a introdução original. Referência: https://www.nobelprize.org/prizes/physics/1921/summary/",
+    "page": 4
+  },
+  {
+    "number": 5,
+    "subject": "Física",
+    "text": "Segundo a relatividade especial, que efeito é observado para um corpo com velocidade próxima à da luz?",
+    "options": [
+      "Leis físicas diferentes entre referenciais inerciais.",
+      "Velocidade da luz no vácuo variável com o observador.",
+      "Contração do comprimento na direção do movimento.",
+      "Tempo próprio passando mais rápido.",
+      "Movimento de um corpo material acima da velocidade da luz."
+    ],
+    "answer": "C",
+    "support": "Redação adaptada para estudo; numeração e ordem das alternativas preservadas. Textos de apoio resumidos. Consulte a questão e os textos integrais no caderno oficial. Explicação autoral, não publicada pela banca. As 20 questões objetivas são comuns às quatro áreas; o link abre o caderno de Humanas. As discursivas não integram este cadastro.",
+    "support_image": null,
+    "explanation": "Gabarito oficial: C. A relatividade prevê contração do comprimento na direção do movimento, no referencial em que o corpo se desloca. Também prevê dilatação temporal e invariância da velocidade da luz no vácuo.",
+    "page": 5
+  },
+  {
+    "number": 6,
+    "subject": "Química",
+    "text": "Estudantes variam temperatura, quantidade de vinagre e uso de comprimidos inteiros ou triturados em reações efervescentes. Que fatores podem acelerar a reação?",
+    "options": [
+      "Maior temperatura reduz as colisões.",
+      "Maior temperatura e superfície de contato aumentam as colisões e a velocidade.",
+      "A concentração do vinagre nunca interfere.",
+      "A massa total, isoladamente, determina a velocidade.",
+      "O comprimido inteiro tem maior superfície que o triturado."
+    ],
+    "answer": "B",
+    "support": "Redação adaptada para estudo; numeração e ordem das alternativas preservadas. Textos de apoio resumidos. Consulte a questão e os textos integrais no caderno oficial. Explicação autoral, não publicada pela banca. As 20 questões objetivas são comuns às quatro áreas; o link abre o caderno de Humanas. As discursivas não integram este cadastro.",
+    "support_image": null,
+    "explanation": "Gabarito oficial: B. Temperatura maior aumenta a frequência e a eficácia das colisões; triturar o comprimido aumenta a área de contato. Ambos podem acelerar a reação.",
+    "page": 5
+  },
+  {
+    "number": 7,
+    "subject": "Química",
+    "text": "Qual equação representa uma oxirredução corretamente balanceada?",
+    "options": [
+      "Fe(s)+2O₂(g) → FeO₂(s)",
+      "2Fe(s)+3O₂(g) → 2Fe₃O₄(s)",
+      "Fe(s)+Cu²⁺(aq) → Fe²⁺(aq)+Cu(s)",
+      "Cu(s)+2H⁺(aq) → Cu²⁺(aq)+H₂O(l)",
+      "Zn(s)+Cl(g) → ZnCl₂(s)"
+    ],
+    "answer": "C",
+    "support": "Redação adaptada para estudo; numeração e ordem das alternativas preservadas. Textos de apoio resumidos. Consulte a questão e os textos integrais no caderno oficial. Explicação autoral, não publicada pela banca. As 20 questões objetivas são comuns às quatro áreas; o link abre o caderno de Humanas. As discursivas não integram este cadastro.",
+    "support_image": null,
+    "explanation": "Gabarito oficial: C. Fe+Cu²⁺→Fe²⁺+Cu conserva os átomos e a carga. O ferro perde dois elétrons e o cobre os recebe, caracterizando oxirredução.",
+    "page": 5
+  },
+  {
+    "number": 8,
+    "subject": "Química",
+    "text": "Na síntese N₂(g)+3H₂(g) ⇌ 2NH₃(g), ΔH<0, qual o efeito de um catalisador?",
+    "options": [
+      "Acelera só a reação direta e favorece produtos.",
+      "Acelera ambas as reações sem alterar a posição do equilíbrio.",
+      "Consome reagentes e cria outro equilíbrio.",
+      "Desloca o equilíbrio para o lado exotérmico.",
+      "Reduz a energia dos reagentes e aumenta o rendimento."
+    ],
+    "answer": "B",
+    "support": "Redação adaptada para estudo; numeração e ordem das alternativas preservadas. Textos de apoio resumidos. Consulte a questão e os textos integrais no caderno oficial. Explicação autoral, não publicada pela banca. As 20 questões objetivas são comuns às quatro áreas; o link abre o caderno de Humanas. As discursivas não integram este cadastro.",
+    "support_image": null,
+    "explanation": "Gabarito oficial: B. O catalisador reduz a energia de ativação das reações direta e inversa. Acelera a chegada ao equilíbrio sem modificar sua constante ou composição final.",
+    "page": 6
+  },
+  {
+    "number": 9,
+    "subject": "Química",
+    "text": "Observe a fórmula de Lewis do BF₃. Qual afirmativa é correta?",
+    "options": [
+      "B e F completam o octeto.",
+      "O boro não obedece ao octeto no BF₃.",
+      "A ligação é iônica devido à eletronegatividade do flúor.",
+      "A molécula é polar por conter flúor.",
+      "A ligação só seria possível se todos completassem o octeto."
+    ],
+    "answer": "B",
+    "support": "Redação adaptada para estudo; numeração e ordem das alternativas preservadas. Textos de apoio resumidos. Consulte a questão e os textos integrais no caderno oficial. Explicação autoral, não publicada pela banca. As 20 questões objetivas são comuns às quatro áreas; o link abre o caderno de Humanas. As discursivas não integram este cadastro.",
+    "support_image": "/pism-iii-2026-dia-2-questao-9.png",
+    "explanation": "Gabarito oficial: B. No BF₃, o boro forma três ligações e fica com seis elétrons na camada de valência. É uma exceção à regra do octeto; a geometria trigonal plana também torna a molécula apolar.",
+    "page": 6
+  },
+  {
+    "number": 10,
+    "subject": "Química",
+    "text": "Na visão, luz converte cis-retinal em trans-retinal. Qual relação existe entre essas substâncias?",
+    "options": [
+      "Isômeros geométricos com propriedades físicas diferentes.",
+      "Isômeros ópticos.",
+      "Mudança da posição das duplas ligações.",
+      "Trans mantém substituintes no mesmo lado.",
+      "Conversão sem mudança espacial dos substituintes da dupla."
+    ],
+    "answer": "A",
+    "support": "Redação adaptada para estudo; numeração e ordem das alternativas preservadas. Textos de apoio resumidos. Consulte a questão e os textos integrais no caderno oficial. Explicação autoral, não publicada pela banca. As 20 questões objetivas são comuns às quatro áreas; o link abre o caderno de Humanas. As discursivas não integram este cadastro.",
+    "support_image": null,
+    "explanation": "Gabarito oficial: A. Cis e trans são isômeros geométricos: diferem na disposição espacial dos grupos associados à ligação dupla e podem apresentar propriedades físicas diferentes.",
+    "page": 6
+  },
+  {
+    "number": 11,
+    "subject": "Geografia",
+    "text": "Uma charge ironiza dificuldades da ONU. Qual desafio afeta a cooperação nas organizações internacionais?",
+    "options": [
+      "Autonomia total, sem negociação.",
+      "Poder para impor todas as decisões a todos os membros.",
+      "Ausência de efeito das diferenças entre os Estados.",
+      "Independência financeira completa.",
+      "Influência desigual dos membros dificulta representação justa."
+    ],
+    "answer": "E",
+    "support": "Redação adaptada para estudo; numeração e ordem das alternativas preservadas. Textos de apoio resumidos. Consulte a questão e os textos integrais no caderno oficial. Explicação autoral, não publicada pela banca. As 20 questões objetivas são comuns às quatro áreas; o link abre o caderno de Humanas. As discursivas não integram este cadastro.\n\nA charge pode ser consultada no caderno. A questão discute assimetrias de poder entre Estados.",
+    "support_image": null,
+    "explanation": "Gabarito oficial: E. A desigualdade de poder entre Estados afeta as decisões de organizações internacionais e limita a representação equilibrada dos interesses de seus membros.",
+    "page": 7
+  },
+  {
+    "number": 12,
+    "subject": "Geografia",
+    "text": "Em junho de 2025, o Irã ameaçou fechar o estreito de Ormuz. Por que essa passagem tem importância geopolítica?",
+    "options": [
+      "Local ideal de todas as bases militares.",
+      "Uma das principais rotas de exportação de petróleo.",
+      "Principal rota de comunicação com o Ocidente.",
+      "Área exclusiva para exportação de metais.",
+      "Local da principal plataforma produtora de petróleo."
+    ],
+    "answer": "B",
+    "support": "Redação adaptada para estudo; numeração e ordem das alternativas preservadas. Textos de apoio resumidos. Consulte a questão e os textos integrais no caderno oficial. Explicação autoral, não publicada pela banca. As 20 questões objetivas são comuns às quatro áreas; o link abre o caderno de Humanas. As discursivas não integram este cadastro.\n\nNotícia resumida; considere o evento histórico de junho de 2025 referido pela prova.",
+    "support_image": null,
+    "explanation": "Gabarito oficial: B. O estreito de Ormuz é uma passagem estratégica para as exportações de petróleo do Golfo, de modo que seu bloqueio ameaça fluxos energéticos internacionais.",
+    "page": 7
+  },
+  {
+    "number": 13,
+    "subject": "Geografia",
+    "text": "Fernando de Noronha passou a controlar o número de visitantes. Qual objetivo relaciona turismo e sustentabilidade?",
+    "options": [
+      "Garantir principalmente o acesso de baixa renda.",
+      "Evitar qualquer interação com residentes.",
+      "Reconhecer que o turismo não causa impactos.",
+      "Incentivar turismo de massa sem limite ambiental.",
+      "Equilibrar preservação ambiental e desenvolvimento econômico."
+    ],
+    "answer": "E",
+    "support": "Redação adaptada para estudo; numeração e ordem das alternativas preservadas. Textos de apoio resumidos. Consulte a questão e os textos integrais no caderno oficial. Explicação autoral, não publicada pela banca. As 20 questões objetivas são comuns às quatro áreas; o link abre o caderno de Humanas. As discursivas não integram este cadastro.\n\nResumo da manchete de 2023 citada no caderno.",
+    "support_image": null,
+    "explanation": "Gabarito oficial: E. Controlar o número de visitantes busca compatibilizar a atividade econômica com a capacidade ambiental do arquipélago, reduzindo pressões do turismo.",
+    "page": 8
+  },
+  {
+    "number": 14,
+    "subject": "Geografia",
+    "text": "O mapa mostra a distribuição desigual da população brasileira. Qual área extensa se associa a baixo contingente demográfico?",
+    "options": [
+      "Todo espaço rural.",
+      "Região amazônica.",
+      "Recôncavo baiano.",
+      "Faixa litorânea.",
+      "Planalto setentrional."
+    ],
+    "answer": "B",
+    "support": "Redação adaptada para estudo; numeração e ordem das alternativas preservadas. Textos de apoio resumidos. Consulte a questão e os textos integrais no caderno oficial. Explicação autoral, não publicada pela banca. As 20 questões objetivas são comuns às quatro áreas; o link abre o caderno de Humanas. As discursivas não integram este cadastro.",
+    "support_image": "/pism-iii-2026-dia-2-questao-14.png",
+    "explanation": "Gabarito oficial: B. A Amazônia apresenta extensas áreas com baixa densidade populacional; a concentração demográfica brasileira é maior em outras regiões, sobretudo no litoral.",
+    "page": 8
+  },
+  {
+    "number": 15,
+    "subject": "Geografia",
+    "text": "A ampliação da presença da AfD no Parlamento alemão é discutida em uma notícia de 2025. Que efeito seu discurso pode ter sobre imigrantes?",
+    "options": [
+      "Nenhum efeito, pois a política migratória é neutra.",
+      "Pode intensificar xenofobia e dificuldades, inclusive para brasileiros.",
+      "Garante inclusão de todas as perspectivas.",
+      "Comprova sucesso da política multicultural e só afeta recém-chegados.",
+      "Não afeta brasileiros, apenas africanos e pessoas do Oriente Médio."
+    ],
+    "answer": "B",
+    "support": "Redação adaptada para estudo; numeração e ordem das alternativas preservadas. Textos de apoio resumidos. Consulte a questão e os textos integrais no caderno oficial. Explicação autoral, não publicada pela banca. As 20 questões objetivas são comuns às quatro áreas; o link abre o caderno de Humanas. As discursivas não integram este cadastro.\n\nA notícia é resumida para estudo no contexto temporal do caderno.",
+    "support_image": null,
+    "explanation": "Gabarito oficial: B. O discurso nacionalista e contrário à imigração pode intensificar xenofobia e restrições que afetam diferentes comunidades de imigrantes, inclusive brasileiros.",
+    "page": 9
+  },
+  {
+    "number": 16,
+    "subject": "História",
+    "text": "Didi-Huberman retoma a crítica de Pasolini à homogeneização cultural e à assimilação ao modo de vida burguês. Que interpretação corresponde ao texto?",
+    "options": [
+      "As artes necessariamente produzem genocídio cultural.",
+      "Só existiu resistência artística durante o fascismo histórico.",
+      "As artes são imunes à violência fascista.",
+      "A dominação cultural relaciona fascismo de longa duração e capitalismo.",
+      "A cultura do século XXI rompeu totalmente com o fascismo."
+    ],
+    "answer": "D",
+    "support": "Redação adaptada para estudo; numeração e ordem das alternativas preservadas. Textos de apoio resumidos. Consulte a questão e os textos integrais no caderno oficial. Explicação autoral, não publicada pela banca. As 20 questões objetivas são comuns às quatro áreas; o link abre o caderno de Humanas. As discursivas não integram este cadastro.\n\nResumo do excerto de Sobrevivência dos vaga-lumes; original no caderno.",
+    "support_image": null,
+    "explanation": "Gabarito oficial: D. Na interpretação do texto, a homogeneização de valores e modos de vida prolonga formas de dominação cultural, relacionando fascismo, capitalismo e duração histórica.",
+    "page": 9
+  },
+  {
+    "number": 17,
+    "subject": "História",
+    "text": "Guerras por procuração envolvem apoio de potências externas a atores beligerantes, evitando o confronto direto entre patrocinadores. Que exemplo se relaciona a esse conceito? Questão anulada após recursos.",
+    "options": [
+      "Conflitos da Guerra Fria, como Vietnã e Coreia, com interesses de potências capitalistas e comunistas.",
+      "Independências africanas explicadas mais pela interferência externa do que por fatores locais.",
+      "Guerra do Paraguai como simples manipulação britânica.",
+      "Revolução Cubana como expansionismo soviético documentado.",
+      "Revolta dos Boxers como resistência conduzida pela influência japonesa."
+    ],
+    "answer": "A/B/C/D/E",
+    "support": "Redação adaptada para estudo; numeração e ordem das alternativas preservadas. Textos de apoio resumidos. Consulte a questão e os textos integrais no caderno oficial. Explicação autoral, não publicada pela banca. As 20 questões objetivas são comuns às quatro áreas; o link abre o caderno de Humanas. As discursivas não integram este cadastro.\n\nQUESTÃO ANULADA pela UFJF. Ponto automático mesmo sem resposta. Conceito do texto da Britannica resumido; alternativas mantidas em forma adaptada para consulta histórica.",
+    "support_image": null,
+    "explanation": "Questão anulada. Questão anulada pela UFJF no gabarito após recursos. Seu ponto é atribuído automaticamente, mesmo em branco. O documento não publica uma justificativa da anulação; não se apresenta uma alternativa como correta definitiva.",
+    "page": 10
+  },
+  {
+    "number": 18,
+    "subject": "História",
+    "text": "Após a criação do Mercado Comum Europeu em 1957, antigas colônias africanas receberam acesso comercial preferencial. Que efeito histórico caracteriza essas relações?",
+    "options": [
+      "Persistência de vínculos coloniais entre Europa e África, com desvantagens para produtos brasileiros.",
+      "Reparação estendida às ex-colônias sul-americanas.",
+      "Abertura conjunta feita também pelo Brasil, que colonizou países africanos.",
+      "Preferências condicionadas à permanência colonial, favorecendo o Brasil.",
+      "Independências financiadas pelo Brasil e depois contrariadas."
+    ],
+    "answer": "A",
+    "support": "Redação adaptada para estudo; numeração e ordem das alternativas preservadas. Textos de apoio resumidos. Consulte a questão e os textos integrais no caderno oficial. Explicação autoral, não publicada pela banca. As 20 questões objetivas são comuns às quatro áreas; o link abre o caderno de Humanas. As discursivas não integram este cadastro.\n\nResumo do estudo citado sobre relações econômicas entre Brasil, África e Europa.",
+    "support_image": null,
+    "explanation": "Gabarito oficial: A. A preferência comercial europeia por antigas colônias africanas mantém vínculos econômicos coloniais e desvantagens competitivas para produtos brasileiros.",
+    "page": 10
+  },
+  {
+    "number": 19,
+    "subject": "História",
+    "text": "Clubes de futebol uruguaios e argentinos se manifestaram em memória de vítimas das ditaduras. Historicamente, o que essas ações indicam?",
+    "options": [
+      "Aproximação das lutas por memória dos perseguidos, mortos e desaparecidos.",
+      "Recusa de superar reparações realizadas pelos militares.",
+      "Solidariedade de um Uruguai que nunca teve ditadura.",
+      "Rivalidade esportiva por domínio militar.",
+      "Liberdade política garantida pela Operação Condor."
+    ],
+    "answer": "A",
+    "support": "Redação adaptada para estudo; numeração e ordem das alternativas preservadas. Textos de apoio resumidos. Consulte a questão e os textos integrais no caderno oficial. Explicação autoral, não publicada pela banca. As 20 questões objetivas são comuns às quatro áreas; o link abre o caderno de Humanas. As discursivas não integram este cadastro.\n\nAs reportagens relatam manifestações do Nacional e de clubes argentinos pela memória e contra a violência das ditaduras. Originais no caderno.",
+    "support_image": null,
+    "explanation": "Gabarito oficial: A. As manifestações dos clubes se aproximam das lutas por memória, verdade e justiça, contra o apagamento das vítimas das ditaduras sul-americanas.",
+    "page": 11
+  },
+  {
+    "number": 20,
+    "subject": "História",
+    "text": "Um poema de slam denuncia a violência colonial e a relaciona à discriminação atual. Outro texto descreve o slam como expressão e organização coletiva. Como se caracteriza esse movimento?",
+    "options": [
+      "Denúncia ultrapassada porque a redemocratização encerrou a violência.",
+      "Criatividade voltada apenas à rima.",
+      "Individualismo sem ação coletiva.",
+      "Protagonismo da juventude periférica, articulando história e denúncias atuais.",
+      "Manifestação sem relação com pautas contemporâneas."
+    ],
+    "answer": "D",
+    "support": "Redação adaptada para estudo; numeração e ordem das alternativas preservadas. Textos de apoio resumidos. Consulte a questão e os textos integrais no caderno oficial. Explicação autoral, não publicada pela banca. As 20 questões objetivas são comuns às quatro áreas; o link abre o caderno de Humanas. As discursivas não integram este cadastro.\n\nPoema de Jow Nogueira e reportagem sobre slam resumidos. Leia os textos integrais no caderno; a composição poética não é reproduzida aqui.",
+    "support_image": null,
+    "explanation": "Gabarito oficial: D. O slam associa expressão cultural, organização da juventude periférica e denúncia de desigualdades presentes, usando a história como instrumento de crítica.",
+    "page": 12
+  }
+]
