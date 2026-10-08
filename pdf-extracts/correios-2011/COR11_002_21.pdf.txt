@@ -1,0 +1,987 @@
+--- PAGE 1 ---
+
+
+--- PAGE 2 ---
+                                                                                CESPE/UnB – ECT
+
+C   Nas questões a seguir, marque, para cada uma, a única opção correta, de acordo com o respectivo comando. Para as devidas
+    marcações, use a Folha de Respostas, único documento válido para a correção das suas respostas.
+C   Nas questões que avaliam conhecimentos de informática, a menos que seja explicitamente informado o contrário, considere que todos
+    os programas mencionados estão em configuração padrão, em português, que o mouse está configurado para pessoas destras, que
+    expressões como clicar, clique simples e clique duplo referem-se a cliques com o botão esquerdo do mouse e que teclar corresponde
+    à operação de pressionar uma tecla e, rapidamente, liberá-la, acionando-a apenas uma vez. Considere também que não há restrições
+    de proteção, de funcionamento e de uso em relação aos programas, arquivos, diretórios, recursos e equipamentos mencionados.
+                     DISCIPLINA: INFORMÁTICA
+
+ QUESTÃO 1
+
+
+
+
+
+Com base na figura acima, que ilustra uma janela em que estão listados cinco arquivos armazenados no disco rígido de um computador,
+e considerando que o ícone associado a cada um desses arquivos indica corretamente o programa utilizado na criação do arquivo, assinale
+a opção correspondente ao arquivo que pode ser corretamente aberto, editado e salvo em seu formato original com o programa Microsoft
+PowerPoint.
+
+A  arquivo-e.ppt
+B  arquivo-a.doc
+C  arquivo-b.pdf
+D   arquivo-c.txt
+E  arquivo-d.xls
+
+ QUESTÃO 2
+
+
+
+
+
+Entre os componentes de informática mostrados na figura acima, comumente utilizados em conjunto com um computador, aquele que
+corresponde a um periférico usado para entrada de dados é
+
+A  o alto-falante.
+B  o teclado.
+C  o conector RJ45.
+D  a impressora.
+E  o monitor LCD.
+
+
+
+Cargo: Agente dos Correios – Atividade 2: Carteiro                 Caderno 21-VERDE                                                          – 1 –
+
+--- PAGE 3 ---
+                                                                                CESPE/UnB – ECT
+
+
+
+ QUESTÃO 3                                              QUESTÃO 6
+
+Na computação  básica, os computadores realizam operações
+de acordo com um sistema de numeração embasado nos números
+0 e 1. Esse sistema é denominado
+
+A   binário.
+B   octal.
+C  quântico.
+D  decimal.
+E  hexadecimal.
+
+
+ QUESTÃO 4
+
+
+
+
+
+                                       A figura acima apresenta a janela Opções da Internet, em execução
+O componente apresentado na  figura acima, encontrado em  em um computador com o sistema operacional Windows. Essa
+qualquer computador moderno, é denominado                       janela pode ser acessada a partir do navegador
+
+A  memória RAM.                       A   Safari.
+B  disco rígido.                        B   Internet Explorer.
+C  pendrive.                          C  Opera.
+D  CPU risk.                          D  Mozila Firefox.
+E  disco CISC.                         E  Google Chrome.
+
+ QUESTÃO 5                                              QUESTÃO 7
+
+
+
+
+
+                                                   As informações apresentadas na figura acima, que podem ser
+                                                                   obtidas por meio de procedimento adequado realizado quando se
+Na  janela  ilustrada na  figura acima,  identifica-se o sistema    inicializa um computador, são disponibilizadas pela ferramenta
+operacional Windows XP versão                              denominada
+
+A  Home com Service Pack 3.                  A  ISA.
+B  Enterprise com Service Pack 1.                B  DB9.
+C  Professional com Service Pack 2.               C  BIOS.
+D  Enterprise com Service Pack 2.                D  PCI.
+E  Professional com Service Pack 3.               E  VESA.
+
+
+
+Cargo: Agente dos Correios – Atividade 2: Carteiro                 Caderno 21-VERDE                                                          – 2 –
+
+--- PAGE 4 ---
+                                                                                CESPE/UnB – ECT
+
+
+
+ QUESTÃO 8                                             QUESTÃO 11
+
+No Windows XP, um ambiente no qual podem ser organizados                                                       Caso se deseje efetuar cópias de segurança com a utilização de
+ícones e que permite o acesso a determinado programa, a partir da
+                                                             apenas uma mídia que comporte, no mínimo, 600 megabytes deaplicação de um clique duplo do mouse no ícone associado a esse
+programa, é a área de                                         dados  e  contenha  recurso  para  regravação,  a  unidade  de
+
+                                                         armazenamento mais adequada, entre as listadas a seguir, é o
+A   pixel.
+
+B  memória.
+                                A  BD-R.C   trabalho.
+D   transferência.                        B  disquete de 3,5".
+E   controle.
+                                C  CD-R.
+
+ QUESTÃO 9
+                                D  DVD-R.
+O Microsoft Word é um aplicativo que permite editar arquivos com
+                                E  CD-RW.
+diferentes extensões, como html, doc e rtf. O Word também permite
+abrir arquivos com extensão do tipo
+                                                       QUESTÃO 12
+
+A   txt.                                   A respeito da memória RAM utilizada em computadores, assinale
+B   bin.                                                              a opção correta.
+C  com.
+
+D   src.
+                                A  Os dados gravados nessa memória são apagados quando seE  exe.
+                                                                         desliga o computador.
+ QUESTÃO 10
+
+                                B  Essa memória permite, principalmente, aumentar a capacidade
+
+                                                              de armazenamento do disco rígido.
+
+                                C  Há incompatibilidade no uso compartilhado desse tipo de
+
+                                                           memória com placas de vídeo.
+
+                                D  Somente  computadores  com  grande  capacidade  de
+
+                                                                 processamento fazem uso adequado desse tipo de memória.
+
+                                E A gravação de dados nesse tipo de memória é mais lenta que
+
+                                                 em um disco rígido do padrão SATA.
+
+
+
+                                                       QUESTÃO 13
+
+
+                                                       Se um computador possui dois sistemas operacionais instalados,
+
+                                                                então ele
+
+A figura acima ilustra uma janela do navegador Internet Explorer
+em que há indicação de acesso à Internet por meio de conexão  A   limita em 50% o uso de memória RAM para cada sistema
+segura. Assinale a opção em que é apresentado navegador também                                                                        operacional.
+capaz de acessar páginas web através de conexões seguras.
+                                B  deve disponibilizar, no processo de inicialização, suporte para
+
+A  Mozilla Firefox                                                a escolha do sistema operacional a ser inicializado.
+B  Windows Viewer
+                                C  não suporta sistema de arquivos do tipo FAT.
+C  Oracle Listener
+                                D  deve ter, obrigatoriamente, três ou mais discos rígidos.D  Google
+
+E  Mac OS                          E  não permite ao usuário o acesso à Internet.
+
+
+
+Cargo: Agente dos Correios – Atividade 2: Carteiro                 Caderno 21-VERDE                                                          – 3 –
+
+--- PAGE 5 ---
+                                                                                CESPE/UnB – ECT
+
+
+
+ QUESTÃO 14                                             QUESTÃO 17
+
+O sistema operacional Windows XP                   A respeito do Microsoft PowerPoint 2007, assinale a opção correta.
+
+A   disponibiliza, por meio do Windows Explorer, o recurso de
+                                A O PowerPoint é capaz de manipular grandes bancos de dados
+    exibição de arquivos em modo lista, em que são mostrados o
+                                                                  e gerar automaticamente gráficos e tabelas associados a esses     tipo, o tamanho e a data de alteração dos arquivos.
+B  possui o programa Windows Media Player para navegação na       bancos.
+     Internet, por meio do qual é possível visualizar emails e  B  Os arquivos que contenham apresentações criadas na versão
+    acessar sítios web.                                                          2003 do PowerPoint não são carregados pelo PowerPoint
+C  possui o aplicativo Windows Messenger, que se encarrega de                                                                 2007.
+    organizar e eliminar arquivos antigos armazenados no disco
+                                C Um eslaide pode conter texto e fotografia, mas não, gráfico ou     rígido do computador.
+D  contém a pasta padrão denominada Minhas imagens, que permite        filme.
+    a  organização de  arquivos de imagens,  adicionando-se,  D  Para a visualização dos eslaides como eles serão apresentados,
+    excluindo-se ou classificando-se esses arquivos.                 ou seja, apenas um eslaide por tela, deve-se utilizar o modo de
+E  contém o recurso de copiar e colar dados para a área de                                                                      exibição denominado Classificação.
+     transferência, apenas na versão profissional.
+                                E O  eslaide mestre serve de modelo para os  eslaides da
+ QUESTÃO 15                                                          apresentação, de modo que modificações feitas na estrutura
+Em relação ao sistema operacional Windows Vista, assinale a opção       desse  eslaide  refletirão em todos os outros  eslaides da
+correta.                                                               apresentação.
+
+A  Esse sistema não disponibiliza recursos para sincronização    QUESTÃO 18
+   com dispositivos móveis, como celulares e tocadores de
+                                                            Considerando que, em uma planilha do Microsoft Excel, as células
+    música portáteis.
+                                                                   A1, A2 e A3 contenham somente valores numéricos, assinale a opçãoB O Windows Vista disponibiliza o modo de hibernação, que
+    permite fechar os aplicativos que estejam em uso, desligar o   correspondente à expressão matemática que permite, no Excel,
+    computador e, quando este for religado, carregar os mesmos    dividir o resultado da soma dos valores contidos nas células A1 e A2
+     aplicativos fechados anteriormente.                           pelo valor contido na célula A3.
+C A opção de desligamento logoff permite encerrar a sessão
+     atual, fechar todos os arquivos e programas e desligar o                                A  =(A1+A2)/A3
+    computador.                                B  =(A1*A2)+A3
+D A ferramenta Windows Aero, própria desse sistema, fornece  C  =(A1/A2)+A3
+    proteção contra programas mal intencionados.         D  =(A1-A2)*A3
+E A opção Itens Recentes mostra uma lista contendo o nome dos  E  =(A1-A2)/A3
+    últimos programas removidos do computador.
+                                                       QUESTÃO 19
+ QUESTÃO 16
+                                      O serviço que, oferecido via Internet, disponibiliza recursos para a
+                                                                      criação, o envio e a leitura de mensagens de correio eletrônico para
+                                                              os usuários é o de
+
+
+                                A   salas de bate-papo.
+                                B  webmail.
+                                C   leilão eletrônico.
+                                D   Internet banking.
+                                E  rádio online.
+
+
+                                                       QUESTÃO 20
+
+                                      O modo protegido do Internet Explorer permiteA figura acima ilustra um tipo de cabo padrão que pode ser usado
+para a conexão de impressoras a um computador, sendo, para isso,
+necessária a existência de uma porta               A  o gerenciamento do histórico de navegação na Internet.
+                                B  a proteção do computador de sítios que contenham programas
+A  HDMI.
+                                                                      mal-intencionados.
+B  VGA.
+                                C  a pesquisa de sítios por meio da barra de ferramentas.C  PCI.
+D  microusb.                          D  a organização de arquivos temporários.
+E   paralela.                          E  o gerenciamento dos sítios favoritos da Internet.
+
+
+
+Cargo: Agente dos Correios – Atividade 2: Carteiro                 Caderno 21-VERDE                                                          – 4 –
+
+--- PAGE 6 ---
+                                                                                CESPE/UnB – ECT
+
+                      DISCIPLINA: MATEMÁTICA
+Texto para as questões 21 e 22
+                                                       QUESTÃO 24
+      Além da missão de entregar correspondências, os carteiros
+                                                          Nos Correios, são utilizados vários tipos de caixas para o
+são também responsáveis pela difusão de importantes campanhas
+                                                              envio de encomendas,  entre  elas, a caixa do  tipo 4B, um
+de conscientização da população e promoção da cidadania. Um
+                                                                 paralelepípedo retângulo, em papel ondulado, com arestas medindo
+exemplo de ação de caráter social que envolve os carteiros e que
+                                                       360 mm, 270 mm e 180 mm.
+tem tido grande receptividade é o projeto Papai Noel dos Correios.
+Em 2009, foram adotados 21% das 1.981.000 cartas recebidas pelos
+                                      O volume dessa caixa, em dm3, é
+Correios. O projeto contou com o apoio e a participação de 3.818
+voluntários internos, 669 voluntários externos e 462 parcerias.
+                                A  superior a 18 e inferior a 21.
+                                                           Internet: <www.correios.com.br> (com adaptações).  B  superior a 21 e inferior a 24.
+                                C  superior a 24. QUESTÃO 21
+                                D   inferior a 15.
+Com base no texto, é correto afirmar que, em 2009, a quantidade de
+                                E  superior a 15 e inferior a 18.
+cartas que não foram adotadas pelo projeto Papai Noel dos
+                                                      RASCUNHO
+Correios foi
+
+
+A  superior a 1,2 milhão e inferior a 1,3 milhão.
+
+B  superior a 1,3 milhão e inferior a 1,4 milhão.
+
+C  superior a 1,4 milhão e inferior a 1,5 milhão.
+
+D  superior a 1,5 milhão.
+
+E   inferior a 1,2 milhão.
+
+
+ QUESTÃO 22
+
+Se, em 2010, o projeto Papai Noel dos Correios contou com 22.435
+voluntários, e se foi mantida a mesma proporção de voluntários
+externos e internos verificada em 2009, então a quantidade de
+voluntários internos em 2010 foi
+
+
+A  superior a 19.050 e inferior a 19.100.
+
+B  superior a 19.100 e inferior a 19.150.
+
+C  superior a 19.150.
+
+D   inferior a 19.000.
+
+E  superior a 19.000 e inferior a 19.050.
+
+
+ QUESTÃO 23
+
+     Em 2008, nos 200 anos do Banco do Brasil, os Correios
+lançaram um selo comemorativo com uma tiragem de 1.020.000
+unidades. No selo, cujo formato é de um retângulo medindo
+40 mm × 30 mm, a estampa ocupa um retângulo que mede
+35 mm × 25 mm.
+
+
+Dadas essas condições, é correto afirmar que a área do retângulo da
+estampa é
+
+
+A  superior a 90% da área do retângulo do selo.
+
+B   inferior a 75% da área do retângulo do selo.
+
+C  superior a 75% e inferior a 80% da área do retângulo do selo.
+
+D  superior a 80% e inferior a 85% da área do retângulo do selo.
+
+E  superior a 85% e inferior a 90% da área do retângulo do selo.
+
+
+
+Cargo: Agente dos Correios – Atividade 2: Carteiro                 Caderno 21-VERDE                                                          – 5 –
+
+--- PAGE 7 ---
+                                                                                CESPE/UnB – ECT
+
+
+
+ QUESTÃO 25                                             QUESTÃO 27
+
+     Em 1.o/1/2011, os Correios lançaram selo comemorativo   Se em 1.º/3/2011, 1 dólar valia R$ 1,64, então, nessa data, de
+de data histórica, com tiragem de 900.000 unidades. Do dia 1.o   acordo com o texto, uma ação da Apple valia
+ao dia 10 de janeiro, foram vendidas 210.630 unidades desses selos,
+                                A  mais de R$ 500,00 e menos de R$ 600,00.das quais 1.958 foram vendidas apenas no dia 4, primeiro dia de
+                                B  mais de R$ 600,00 e menos de R$ 700,00.comercialização do selo via Internet. O prazo de comercialização
+                                C  mais de R$ 700,00 e menos de R$ 800,00.desse selo pelos Correios vigorará até 31/12/2014.
+                                D  mais de R$ 800,00.
+                                                            Internet: <www.correios.com.br> (com adaptações).  E  menos de R$ 500,00.
+
+                                                      RASCUNHO
+Com base nas informações do texto acima e considerando-se que o
+ritmo de venda do selo tenha sido mantido ao longo do mês de
+janeiro de 2011, é correto afirmar que a quantidade de selos
+vendidos, em milhares de unidades, até o dia 30 do referido mês, foi
+
+
+A  superior a 640.
+B   inferior a 610.
+C  superior a 610 e inferior a 620.
+D  superior a 620 e inferior a 630.
+E  superior a 630 e inferior a 640.
+
+Texto para as questões 26 e 27
+
+
+     Em 2/3/2011, Steve Jobs, executivo-chefe da Apple,
+apresentou em São Francisco o iPad2, o segundo modelo do seu
+tablet iPad. Lançado em abril de 2010, o iPad tornou-se o mais
+bem-sucedido produto eletrônico de consumo da história, com
+14,8 milhões de unidades vendidas em apenas um ano. Entre as
+inovações  presentes no iPad2,  destaca-se a redução de sua
+espessura, que passou de 13,4 mm para 8,8 mm. O impacto do
+lançamento do iPad2 fez que as ações da Apple na Nasdaq, a bolsa
+de tecnologia de Nova York, subissem 1% no dia do lançamento,
+tendo alcançado 352 dólares.
+
+
+                                                           Veja, 9/3/2011, p. 74-5 (com adaptações).
+
+ QUESTÃO 26
+
+De acordo com as informações do texto, a espessura do iPad2, em
+relação à espessura do iPad lançado em 2010, foi reduzida em
+
+
+          1
+A  mais de    e menos de 1 .
+          4
+                     3
+
+                     1
+B  mais de 1 e menos de     .
+                     2
+           3
+
+          1C  mais de     .
+          2
+
+           1D  menos de     .
+           5
+
+          1
+E  mais de   e menos de 1 .
+          5
+                     4
+
+
+
+Cargo: Agente dos Correios – Atividade 2: Carteiro                 Caderno 21-VERDE                                                          – 6 –
+
+--- PAGE 8 ---
+                                                                                CESPE/UnB – ECT
+
+Texto para as questões de 28 a 30
+                                                       QUESTÃO 32
+
+     O piso de uma sala retangular, medindo 3,52 m × 4,16 m,   Se o  valor de  comercialização de cada  tipo de  caixa  for
+será revestido com ladrilhos quadrados, de mesma dimensão,   proporcional ao seu volume e se uma caixa do tipo 2 custar
+inteiros, de forma que não fique espaço vazio entre ladrilhos  R$ 4,50, então uma caixa do tipo 4 custará
+vizinhos. Os ladrilhos serão escolhidos de modo que tenham a
+maior dimensão possível.                     A  R$ 16,00.
+                                B  R$ 18,00.
+ QUESTÃO 28
+                                C  R$ 20,00.
+Na situação apresentada, o lado do ladrilho deverá medir                                D  R$ 22,00.
+                                E  R$ 14,00.
+A  mais de 30 cm.
+B  menos de 15 cm.                                      RASCUNHO
+C  mais de 15 cm e menos de 20 cm.
+D  mais de 20 cm e menos de 25 cm.
+E  mais de 25 cm e menos de 30 cm.
+
+ QUESTÃO 29
+
+Se, para assentar os ladrilhos, são utilizados 2 kg de argamassa por
+m2 e se a argamassa é vendida em sacos de 3 kg, então a quantidade
+necessária de sacos de argamassa para completar o serviço é igual a
+
+A   9.
+B  10.
+C   6.
+D   7.
+E   8.
+
+ QUESTÃO 30
+
+Suponha que a despesa com mão de obra e materiais necessários
+para assentar os ladrilhos tenha sido orçada em R$ 1.000,00 o m2 e
+que o proprietário da sala disponha de apenas R$ 10.000,00. Nesse
+caso, o proprietário poderá obter o montante necessário aplicando
+o capital disponível à taxa de juros simples de 8% ao mês durante
+
+A  6 meses.
+B  7 meses.
+C  8 meses.
+D  4 meses.
+E  5 meses.
+Texto para as questões 31 e 32
+
+
+        Para o envio de pequenas encomendas, os Correios
+comercializam caixas de papelão, na forma de paralelepípedo
+retângulo, de dois tipos: tipo 2, com arestas medindo 27 cm, 18 cm,
+e 9 cm; e tipo 4, com arestas medindo 36 cm, 27 cm e 18 cm.
+
+ QUESTÃO 31
+
+Se um escritor deseja enviar livros de sua autoria a outro estado e
+se cada livro mede 23 cm × 16 cm × 1,2 cm, então a quantidade
+máxima desses livros que poderá ser enviada em uma caixa do tipo
+2, sem que sejam danificados ou deformados, é igual a
+
+A   9.
+B   5.
+C   6.
+D   7.
+E   8.
+
+
+
+
+Cargo: Agente dos Correios – Atividade 2: Carteiro                 Caderno 21-VERDE                                                          – 7 –
+
+--- PAGE 9 ---
+                                                                                CESPE/UnB – ECT
+
+
+                                                      RASCUNHO
+ QUESTÃO 33
+
+     Em um bairro onde as casas foram todas construídas de
+acordo com um projeto padrão, os lotes têm 12 metros de frente, em
+cada lote a caixa de correspondências fica sempre na mesma
+posição e os postes de iluminação pública são espaçados em
+50 metros. O carteiro que entrega correspondências nesse bairro
+percebeu que a caixa de correspondências da primeira casa de uma
+rua bastante longa fica exatamente atrás de um poste de iluminação.
+
+
+Nesse caso, caminhando nessa rua e desconsiderando os possíveis
+espaços entre dois lotes vizinhos, até que encontre a próxima caixa
+de correspondências atrás do poste de iluminação, o carteiro deverá
+percorrer uma distância igual a
+
+A  210 metros.
+B  255 metros.
+C  300 metros.
+D  120 metros.
+E  165 metros.
+
+
+ QUESTÃO 34
+
+       Das correspondências que deveria entregar, o carteiro
+            7Carlos passou      delas para o carteiro Jorge; dessas, Jorge
+            10
+       3repassou   para o carteiro Marcos.
+       5
+
+
+Nesse caso, com relação à quantidade de correspondências que
+Carlos deveria entregar, a quantidade que coube a Marcos é igual a
+
+    3A          .
+    10
+
+    2B        .
+    5
+
+    21C          .
+    50
+
+    10D          .
+    15
+
+    1E          .
+    10
+
+
+ QUESTÃO 35
+
+Se a agência dos Correios de uma pequena cidade  presta,
+diariamente, 40 atendimentos em média, e se, em razão de festas na
+cidade, a média de atendimentos diários passar a 52, então, nesse
+caso, haverá um aumento percentual de atendimentos de
+
+A  40%.
+B  52%.
+C  90%.
+D  12%.
+E  30%.
+
+
+
+Cargo: Agente dos Correios – Atividade 2: Carteiro                 Caderno 21-VERDE                                                          – 8 –
+
+--- PAGE 10 ---
+                                                                                CESPE/UnB – ECT
+
+Texto para as questões 36 e 37
+
+      As tarifas dos serviços postais e telegráficos, nacionais e internacionais, prestados pelos Correios sofrerão reajuste, conforme
+portaria assinada pelo ministro interino da Fazenda e publicada no Diário Oficial da União.
+      Os novos valores já foram anunciados pelo Ministério da Fazenda, mas ainda não podem ser cobrados, pois devem ser aprovados
+pelo Ministério das Comunicações.
+     O primeiro porte da carta não comercial (pessoa física), segundo o Ministério da Fazenda, terá o valor elevado de R$ 0,70 para
+até R$ 0,75, com um crescimento de até 7,14%. O primeiro porte da carta comercial (pessoa jurídica) terá o valor reajustado de R$ 1,05
+para até R$ 1,10, com uma variação de 4,76%, se implementado o reajuste em sua totalidade.
+     O primeiro porte do chamado franqueamento autorizado de cartas (FAC), que é um contrato para a remessa de grandes
+quantidades de cartas comerciais, passará de R$ 0,92 para até R$ 0,98, um crescimento de 6,52%, se totalmente implementado o reajuste.
+     O preço mínimo dos telegramas nacionais contratados nas agências dos Correios, sem contar a taxação do imposto sobre
+circulação de mercadorias e serviços (ICMS) estadual, subirá de R$ 6,30 para até R$ 6,70, um aumento de 6,34%. O preço do telegrama
+internacional também subirá. O valor mínimo por palavra avançará de R$ 0,80 para até R$ 0,85, um reajuste de 6,25%, se integralmente
+implementado.
+
+
+                                                                                                                                                                              Internet: <http://pe360graus.globo.com> (com adaptações).
+
+ QUESTÃO 36
+
+Caso os referidos reajustes atinjam os valores máximos indicados no texto, entre os serviços postais e telegráficos, aquele que terá o maior
+reajuste relativo será o
+
+A  primeiro porte da carta comercial (pessoa jurídica).
+B  primeiro porte do FAC.
+C  telegrama nacional.
+D  telegrama internacional.
+E  primeiro porte da carta não comercial (pessoa física).
+
+ QUESTÃO 37
+
+Caso os reajustes mencionados no texto sejam aprovados daqui a exatamente três meses, o aumento máximo previsto para o primeiro porte
+do FAC corresponderá a uma taxa de juros simples mensal de
+
+A  2,11%.
+B  2,17%.
+C  2,38%.
+D  1,59%.
+E  2,08%.
+
+ RASCUNHO
+
+
+
+
+
+Cargo: Agente dos Correios – Atividade 2: Carteiro                 Caderno 21-VERDE                                                          – 9 –
+
+--- PAGE 11 ---
+                                                                                CESPE/UnB – ECT
+
+Texto para as questões 38 e 39
+                                                   QUESTÃO 39
+
+                                                           Matheus pagou R$ 26,80 para enviar, de Brasília – DF a São     O cálculo do preço para o envio de encomendas por
+                                                        Paulo – SP, uma encomenda de 1 kg, e Lucas pagou R$ 31,40 pelo envio,
+SEDEX depende das localidades de origem e destino e da
+                                                      de Brasília a São Paulo, de uma encomenda de 2 kg.
+massa da encomenda. Fixados a origem e o destino, o valor é
+calculado somando-se uma  parcela  fixa a uma quantia   Nesse caso, a parcela fixa cobrada pelo envio de encomendas de Brasília
+proporcional à massa da encomenda, medida em quilogramas.   para São Paulo é igual a
+
+ QUESTÃO 38                        A  R$ 22,00.
+Suponha que, no envio, por SEDEX, de encomendas entre as  B  R$ 21,80.
+                              C  R$ 21,60.cidades de São Paulo – SP e Rio Branco – AC, a parcela fixa
+                              D  R$ 21,40.seja de R$ 35,10 e a  constante de  proporcionalidade,
+                              E  R$ 22,20.R$ 13,20. Com base nessa situação, considere o envio, por
+SEDEX, de duas encomendas de 3 kg cada uma e quatro    QUESTÃO 40
+encomendas de 2 kg cada uma, todas para pessoas diferentes,                                                        Considere que 12 carteiros levem 21 minutos na triagem de certa
+de  São  Paulo  para  Rio  Branco.  Assinale  a  opção   quantidade de correspondências e que todos os carteiros trabalhem com
+correspondente à expressão numérica que representa o valor   a mesma eficiência. Nesse caso, se a esses carteiros forem agrupados
+a ser pago pelo envio dessas encomendas.                     outros dois, com igual eficiência, então o tempo necessário para a
+                                                           triagem da mesma quantidade de correspondências será igual a
+
+A  [35,10 + 13,20 × 3] × 2 + [35,10 + 13,20 × 2] × 4
+                              A  19 minutos.
+B  [35,10 + 13,20] × 3 × 2 + [35,10 + 13,20] × 2 × 4                              B  18 minutos.
+C  [35,10 + 13,20 × 3] + [35,10 + 13,20 × 2]        C  15 minutos.
+D  [35,10 + 13,20] × [3 × 2 + 2 × 4]            D  14 minutos.
+E  35,10 × 3 × 2 + 13,20 × 2 × 4              E  12 minutos.
+
+ RASCUNHO
+
+
+
+
+
+Cargo: Agente dos Correios – Atividade 2: Carteiro                 Caderno 21-VERDE                                                         – 10 –
+
+--- PAGE 12 ---
+                                                                                CESPE/UnB – ECT
+
+                      DISCIPLINA: PORTUGUÊS
+Texto para as questões de 41 a 45
+                                                       QUESTÃO 43
+
+                                                                 Assinale a opção em que a reescrita do primeiro período do texto
+  1      O novo  estatuto dos Correios permite à  estatal
+                                                    mantém a coerência das ideias do texto original e a correção
+    associar-se a companhias públicas e privadas, aplicar recursos                                                                    gramatical.
+
+   em grandes projetos, como no do trem-bala, e até abrir
+  4  agências no exterior. O presidente da empresa avisa que as  A O novo regulamento dos Correios, ao facilitar que a estatal seja
+                                                                     associada à companhias públicas, além das privadas, permitem
+    perspectivas são quase ilimitadas e que, no horizonte, está a
+                                                             que a empresa seja financiada por grandes projetos, como o do
+    necessidade de adaptação a tempos mais competitivos e de
+                                                                         trem-bala, criando filiais em países estrangeiros.
+  7  ampliação de lucros.
+                                B O novo estatuto dos Correios permite que a empresa se associe
+       O balanço da empresa, que será publicado pela                                                                  a companhias públicas e privadas, invista recursos em grandes
+    primeira vez, mostrará que 2010 foi um bom ano para os        projetos, como, por exemplo, no do trem-bala, e tenha
+
+ 10  Correios. O faturamento chegou a R$ 13 bilhões, e a receita        sucursais no exterior.
+     líquida, a R$ 800 milhões. O resultado positivo ajudará a  C O novo estatuto dos Correios permite a estatal a associação a
+                                                             companhias públicas e privadas, à aplicação de recursos em
+    engordar um caixa robusto, que atualmente conta com cerca de
+                                                                   grandes projetos do trem-bala e até à abertura de filiais no
+ 13  R$ 4 bilhões  livres para investimento. O presidente dos
+                                                      mundo exterior.
+    Correios adverte que os recursos serão utilizados conforme os
+                                D A nova  lei possibilita que os Correios seja associado as
+     interesses da empresa e sob regras de governança típicas de                                                              companhias públicas e privadas, apliquem recursos em grandes
+ 16  companhias de capital aberto. Lançar-se no mercado, no        projetos, como trem-bala e até conquiste agências estrangeiras.
+
+    entanto, está fora de cogitação.                E O novo regulamento dos Correios assumindo que a empresa
+
+                                                                         associe-se a outras companhias, públicas e privadas, investe
+
+                                                  Correio Braziliense, 20/2/2011 (com adaptações).        recursos em grandes  projetos como o  trem-bala e  crie
+
+                                                                         possibilidades de ampliação em outros países.
+ QUESTÃO 41
+
+                                                       QUESTÃO 44
+De acordo com o texto, há expectativa de que os Correios
+                                       A locução “no entanto”, empregada no último período do texto,
+
+                                                                poderia ser substituída, com correção gramatical e sem prejuízo
+A  sejam o financiador oficial dos projetos do governo federal.
+                                                                para a coerência textual, por
+B  se tornem mais competitivos e lucrativos.
+
+C  se desvinculem do poder público.               A  contudo.
+
+D  se transformem em uma agência privada internacional.     B  por essa razão.
+                                C   pois.
+E  se convertam em uma instituição financeira de grande porte.
+                                D  embora.
+ QUESTÃO 42                          E  portanto.
+
+De acordo com o texto, o balanço da empresa mostrará que “2010    QUESTÃO 45
+
+foi um bom ano para os Correios” (R.9-10), porque a estatal                                       A palavra “trem-bala” é composta por justaposição, tal qual o
+
+                                                            vocábulo
+
+A  obteve alto faturamento e elevado rendimento.
+                                A  governança.
+B  sobressaiu na imprensa como instituição confiável.
+                                B   ilimitado.
+C   utilizou seus recursos em companhias de capital aberto.
+                                C  passatempo.
+D  apresentou, pela primeira vez, resultados financeiros positivos.
+                                D  superprodução.
+E   investiu bilhões no mercado de capital.            E  faturamento.
+
+
+Cargo: Agente dos Correios – Atividade 2: Carteiro                 Caderno 21-VERDE                                                         – 11 –
+
+--- PAGE 13 ---
+                                                                                CESPE/UnB – ECT
+
+
+
+ QUESTÃO 46                                         QUESTÃO 48
+
+     Em 1979, Mandy, uma garota de 13 anos de idade,       O primeiro selo do mundo, conhecido como Penny Black, surgiu
+                                                      na Inglaterra, em 6/5/1840, como parte do processo de reorganização
+participou de uma excursão em uma ilha da Escócia. Lá,                                                    promovido no serviço postal daquele país. Até essa data, o pagamento
+resolveu colocar uma carta em uma garrafa e jogá-la ao mar.   pela prestação do serviço de transporte e entrega de correspondências era
+                                                                      feito pelo destinatário. A chegada do selo foi fundamental para o sucessoNo bilhete, ela dizia que precisava de um penpal — um amigo
+                                                      da reforma postal, que revolucionou os correios no mundo inteiro.
+por correspondência.
+       Dois anos depois, o pequeno Richard, então com                                                                           Internet: <www.correios.com.br> (com adaptações).
+6 anos, encontrou a garrafa no  litoral. Maravilhado, o   Assinale a opção correta de acordo com as ideias do texto acima.
+garotinho resolveu responder a Mandy, dizendo que queria ser
+                              A  Até  o  final  do  século  XIX,  o  destinatário  assumia  total
+o amigo de correspondência da menina, que, por causa da                                                                 responsabilidade pelo transporte e pela entrega de correspondências.
+diferença de idade, não lhe respondeu.            B  Na primeira década do século XIX, uma revolução inglesa provocou
+       Mandy, que, hoje, tem 45 anos, é mãe de três filhos        verdadeira reviravolta nos serviços postais do mundo.
+                              C  Antes da invenção do selo, o remetente não se responsabilizava
+e vive em Beverley, na Inglaterra, revirava suas coisas quando
+                                                                   pelas correspondências que encaminhava.
+encontrou o cartão-postal que recebera de Richard, em 1981.  D A invenção do selo representou um avanço para os serviços
+Ela resolveu mostrá-lo a seu atual namorado, que também se        prestados pelos correios no mundo todo.
+                              E A  prestação  dos  serviços  de   transporte  e  entrega  dechama Richard e tem 36 anos de idade. Ao ler o postal,
+                                                               correspondências era bastante precária no século passado.
+Richard, surpreso, reconheceu-se como o garotinho que
+                                                    Texto para as questões de 49 a 51
+escrevera a Mandy.
+      Ao jornal The Sun, Mandy falou sobre a incrível
+
+coincidência: “Foi maravilhoso. Eu então percebi que ele era
+
+o pequeno garotinho que me mandou aquele cartão-postal há
+
+tantos anos. Eu fiquei chocada, quase desmaiei. É doido
+
+pensar que foi Richard quem escreveu para mim. É como se
+
+nós, que crescemos a quilômetros de distância um do outro,
+
+tivéssemos passado a vida toda juntos”, contou.
+
+
+                                                 Internet: <www.hojeemdia.com.br> (com adaptações).
+
+
+Da leitura do texto acima entende-se que
+
+
+A  Mandy guardou segredo sobre a carta que recebera de
+
+    Richard, durante 44 anos, para não magoar o namorado.
+
+B  Mandy, na adolescência, não queria corresponder-se com
+    meninos mais novos que ela.                                                                      O Estado de S.Paulo, 7/3/2006.
+C  Mandy descobriu que vivera a vida toda perto de Richard.    QUESTÃO 49
+D  Richard, que se apaixonara por Mandy, adiou por  O efeito de humor da tirinha acima é evidenciado
+
+    dois anos a resposta à carta recebida.                              A  no conteúdo inesperado da mensagem contida no cartão.
+E  Richard utilizou a mesma estratégia usada por Mandy  B  na expressão do Tigrão, ao dizer que Susi iria adorar o cartão.
+                              C  na reação do Tigrão, que considera Susi uma gatinha.    para responder à menina.
+                              D  no emprego das expressões “coraçãozão vermelho” e “botar renda
+ QUESTÃO 47                                     em volta”.
+                              E  no capricho de Calvin, que decide recortar e enfeitar o cartão.
+São acentuados graficamente de acordo com a mesma regra de
+                                                   QUESTÃO 50
+acentuação gráfica os vocábulos
+                                                            Assinale a opção correspondente ao trecho em que há mais de uma
+                                                             oração.
+A  também e coincidência.
+                              A  “Aposto que ela vai adorar.”B  quilômetros e tivéssemos.
+                              B  “Vou mandar um cartão de dia dos namorados para a Susi Derkins.”
+C  jogá-la e incrível.                              C  “Ela é uma gatinha.”
+D  Escócia e nós.                     D  “Eu fiz um coraçãozão vermelho.”
+                              E  “Agora vou botar renda em volta.”E  correspondência e três.
+
+
+Cargo: Agente dos Correios – Atividade 2: Carteiro                 Caderno 21-VERDE                                                         – 12 –
+
+--- PAGE 14 ---
+                                                                                CESPE/UnB – ECT
+
+
+
+ QUESTÃO 51                                             QUESTÃO 53
+
+Assinale a opção em que o verbo da oração tem dois complementos.   Assinale a opção em que é apresentado trecho do texto seguido de
+                                                                proposta de alteração com a correta equivalência de sentido.
+A  “Ela é uma gatinha.”
+B  “Eu fiz um coraçãozão vermelho.”              A  “daqui a quatro dias terás lá a melhor carta” (R.28-29) / daqui
+                                                               há quatro dias lerás aí a melhor notíciaC  “Agora vou botar renda em volta.”
+D  “Eu te odeio.”                        B  “Achei conveniente comunicar-te  isto” (R.14-15)  / Achei
+E  “Vou mandar um cartão de dia dos namorados para a Susi       indevido comunicar-te isso
+    Derkins.”                          C  “Já mo disseste tanta vez” (R.21) / Já me disseste isso tantas
+                                                                   vezesTexto para as questões 52 e 53
+                                D  “um livro que eu acabei de ler há dias” (R.23) / um livro que eu
+                                                                     acabei de ler durante dias
+           Rio de Janeiro, 2 de março de 1869.
+                                E  “Hei de comprar um exemplar para lermos” (R.24) / Vamos
+                                                              comprar um livro para lermos
+          Minha Carola.
+                                                         Texto para as questões 54 e 55
+  1           Já a esta hora deves ter em mão a carta que te mandei
+    hoje mesmo, em resposta às duas que ontem recebi. Nela foi                 Arrancar a máscara
+    explicada a razão de não teres carta no domingo; deves ter
+  4  recebido duas na segunda-feira.                                                1          “Arrancar a máscara” é evidenciar a verdadeira face,
+           Queres saber o que fiz no domingo? Trabalhei e estive       revelando a expressão legítima, oculta pelo disfarce. Tornar
+   em casa. Saudades de minha C., tive-as como podes imaginar,       público o escondido.
+                                                         Na Grécia e em Roma, os atores representavam  7  e mais ainda, estive aflito, como te contei, por não ter tido       4
+                                                             sempre mascarados. A máscara denunciava o caráter do     cartas tuas durante dois dias. Afirmo-te que foi um dos mais
+                                                             personagem em cena. Não se via o rosto do artista que vivia o     tristes que tenho passado.
+                                                                    papel humorístico ou trágico. A máscara, impassível, valia 10         Contou-me hoje o Araújo que, encontrando-se, num       7
+                                                              permanentemente pela figura. Quando o ator trabalhava mal,    dos carros que fazem viagem para Botafogo e Laranjeiras, com
+                                                                            irritando os espectadores pelo desempenho inferior e falso, a    o Miguel, este lhe dissera que andava procurando casa por ter
+                                                                                                 10  assistência, grega ou romana, podia exigir que ele tirasse a
+ 13  alugado a outra. Não sei se essa casa que ele procura é só para
+                                                               máscara do rosto, exibindo-se, para que recebesse diretamente
+     ele ou se para toda a família. Achei conveniente comunicar-te
+                                                                  a demonstração do desagrado coletivo. Se algum ator era
+     isto; não sei se já sabes alguma coisa a este respeito. No                                                                                                 13  obrigado a arrancar a máscara, subentendia-se a infelicidade da
+ 16  entanto, espero também a tua resposta ao que te mandei dizer                                                                         interpretação artística. Estava, pelo menos naquela ocasião,
+    na carta de ontem, relativamente à mudança.                                                                       repelido das simpatias e dos aplausos.
+            Dizes que, quando lês algum livro, ouves unicamente      16           Identificava-se, portanto, o responsável pelo fracasso
+ 19  as minhas palavras, e que eu te apareço em tudo e em toda a                                                               na legitimidade das feições. Já desapareceu, há duzentos anos,
+    parte? É então certo que eu ocupo o teu pensamento e a tua                                                          o uso da máscara nos palcos, mas a frase “Arrancar a máscara”,
+    vida? Já mo disseste tanta vez, e eu sempre a perguntar-te a      19  nascida de um milenar direito do auditório, continua sendo
+ 22  mesma cousa, tamanha me parece esta felicidade. Pois, olha; eu       aplicada a situações inteiramente alheias ao teatro.
+    queria que lesses um livro que eu acabei de ler há dias; intitula-           É uma das contemporaneidades do milênio.
+     se: A Família. Hei de comprar um exemplar para lermos em
+ 25  nossa casa como uma espécie de Bíblia sagrada. É um livro                                                            LuísSão Paulo:da CâmaraGlobal,Cascudo.2009, p.Coisas34 (comqueadaptações).o povo diz.
+     sério, elevado e profundo; a simples leitura dele dá vontade de
+     casar.                                               QUESTÃO 54
+ 28          Faltam quatro dias; daqui a quatro dias terás lá                                                                      Infere-se da leitura do texto que, no teatro grego e no romano, o
+    a melhor carta que eu te poderei mandar, que é a minha própria    ator
+    pessoa, e ao mesmo tempo lerei o melhor...
+                          MACHADINHO    A  que atuasse mal em uma cena seria rejeitado em todas as
+                                                                      ocasiões em que se apresentasse.
+                           Museu da República. Arquivo histórico. Versão digitada do manuscrito
+                                         original.  Internet: <www.revistaepoca.globo.com> (com adaptações).  B  que  tirava a máscara interrompia a cena e  isso gerava
+                                                                           insatisfação coletiva.
+ QUESTÃO 52
+                                C  representava frequentemente uma única figura.
+Acerca das ideias contidas na carta apresentada acima, assinale a  D  usava a máscara para esconder seu verdadeiro caráter.
+opção correta.                          E  com boa atuação no palco recebia aplausos e contava com a
+                                                                      simpatia do público.
+A  Como o remetente e sua companheira pretendiam mudar-se de
+     casa, ele aguardava uma resposta dela a respeito desse assunto.    QUESTÃO 55
+B  Machadinho conta que comprou um livro que só pretendia ler  Na frase “Identificava-se, portanto, o responsável pelo fracasso na
+   com Carola quando estivessem morando juntos.                legitimidade das feições” (R.16-17), a palavra sublinhada expressa
+C  Na carta, Machadinho menciona seu encontro com Araújo, que   o sentido de
+    havia alugado uma casa para a família.
+D  Nas duas cartas que enviou a Carola em uma segunda-feira,  A  condição.
+    Machadinho justifica por que não escreveu a ela no domingo.  B  oposição.
+E  Nessa carta, o remetente relata à sua amada que estava  C  explicação.
+    melancólico e angustiado no domingo por não ter recebido  D  conclusão.
+    correspondência dela nos últimos dias.            E   finalidade.
+
+
+Cargo: Agente dos Correios – Atividade 2: Carteiro                 Caderno 21-VERDE                                                         – 13 –
+
+--- PAGE 15 ---
+                                                                                CESPE/UnB – ECT
+
+
+Texto para as questões de 56 a 58                                                       QUESTÃO 58
+
+                                             No trecho “Se as cartas de amor são ridículas, como preceituava
+  1      A  epístola  é um  implacável  recurso  narrativo,
+                                                           Fernando Pessoa, mais ridículo é quem as despreza. É uma arma de
+    pressupõe o diálogo com outrem, comove e se impõe pela
+                                                                           insistência. Uma tática da devoção” (R.9-11), o autor compara a
+    interlocução direta e sincera.                                                                       carta de amor a “arma” e “tática”. Ao utilizar essas palavras, o autor
+  4         Mariana Alcoforado usou a correspondência para                                                                     constrói uma representação da ação de conquista do ser amado,
+    atenuar a saudade do conde de Chamilly e, não fosse o casal   comparando-a a
+     perfeito papel-tinta, o amor proibido da freira portuguesa pelo
+  7  capitão de cavalaria francês, uma das histórias mais fascinantes  A  uma aposta.
+    de arrebatamento, nunca seria conhecido.           B  um investimento.
+           Se as cartas de amor são ridículas, como preceituava  C  uma doença.
+ 10  Fernando Pessoa, mais ridículo é quem as despreza. É uma  D  uma batalha.
+    arma de insistência. Uma tática da devoção. Foi um bilhete  E  uma provação.
+    posto furtivamente no casaco que baqueou o coração da
+ 13  escritora  Martha  Medeiros,  autora  do  poema  Cartas    QUESTÃO 59
+    Extraviadas. “Sou da era pré-Internet, então já escrevi e recebi       Um carteiro chega ao portão do hospício e grita:
+                               — Carta para o 9.326!!!    inúmeras cartas, e guardo a maioria delas. Hoje me rendo ao
+                                          Um louco pega o envelope, abre-o e vê que a carta está em 16  email, que é um facilitador de contatos. Nada tenho contra a
+                                                                 branco, e um outro pergunta:
+    instantaneidade, mas reconheço que as emoções hoje andam
+                               — Quem te mandou essa carta?
+    tão efêmeras que mal rendem um parágrafo, quanto mais uma
+                               — Minha irmã.
+ 19  lauda toda manuscrita”, confessa a autora.
+                               — Mas por que não está escrito nada?
+                                   Fabrício  Carpinejar. Cartas  e  literatura: um amor por  escrito.     — Ah, porque nós brigamos e não estamos nos falando!
+                                       In: Revista da Cultura, edição 12, jul./2008, p. 12-4 (com adaptações).
+                                                                                                                                                                           Internet: <www.humortadela.com.br/piada> (com adaptações).
+
+ QUESTÃO 56
+                                      O efeito surpresa e de humor que se extrai do texto acima decorre
+Considerando que, no texto, o autor utiliza diferentes formas para
+se referir a correspondências, assinale a opção em que a palavra ou                                A  da identificação numérica atribuída ao louco.
+expressão do texto está em sentido figurado.                                B  da expressão utilizada pelo carteiro ao entregar a carta no
+                                                                         hospício.
+A  “bilhete” (R.11)                                C  do fato de outro louco querer saber quem enviou a carta.
+B  ‘email’ (R.16)                        D  da explicação dada pelo louco para a carta em branco.
+C  “epístola” (R.1)                       E  do fato de a irmã do louco ter brigado com ele.
+D  “casal perfeito papel-tinta” (R.5-6)
+                                                       QUESTÃO 60
+E  “cartas” (R.9)
+                                          Um homem se dirige à recepcionista de uma clínica:
+ QUESTÃO 57                          — Por favor, quero falar com o dr. Pedro.
+                               — O senhor tem hora?
+Assinale a opção correta de acordo com as ideias do texto.
+                                           O sujeito olha para o relógio e diz:
+                               — Sim. São duas e meia.
+A  Embora as cartas constituam importante recurso narrativo, essa
+                               — Não, não... Eu quero saber se o senhor é paciente.
+    forma de comunicação, para o autor do texto, carece de                               — O que a senhora acha? Faz seis meses que ele não me
+     instantaneidade,  visto que o  diálogo  entre  remetente  e   paga o aluguel do consultório...
+     destinatário não é direto.                                                                                                                       Internet: <www.humortadela.com.br/piada> (com adaptações).
+B O relacionamento amoroso entre a freira Mariana Alcoforado
+    e o capitão de cavalaria conde de Chamilly tornou-se público  No texto acima, a recepcionista dirige-se duas vezes ao homem para
+                                                                 saber se ele    devido à descoberta das cartas de amor que o casal trocava.
+C  Hoje, a desvalorização das cartas de amor é resultado do
+                                A  verificou o horário de chegada e está sob os cuidados do dr.
+    surgimento da  Internet, que tornou efêmero o modo de
+                                                                    Pedro.
+    relacionamento entre os amantes.
+                                B  pode indicar-lhe as horas e decidiu esperar o pagamento do
+D O autor do texto, tal como Fernando Pessoa, despreza as cartas                                                                          aluguel.
+    de amor ridículas.                                C  tem relógio e sabe esperar.
+E A escritora citada no texto rendeu-se ao uso do email por  D  marcou consulta e está calmo.
+    considerar as cartas um meio pouco prático de expressar  E  marcou consulta para aquele dia e está sob os cuidados do dr.
+    emoções.                                                       Pedro.
+
+
+Cargo: Agente dos Correios – Atividade 2: Carteiro                 Caderno 21-VERDE                                                         – 14 –
+
+--- PAGE 16 ---

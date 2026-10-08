@@ -1,0 +1,2011 @@
+[
+  {
+    "slug": "correios-2011-operador-triagem",
+    "number": 1,
+    "subject": "Informática",
+    "text": "Na figura acima, identifica-se o componente de hardware, normalmente encontrado em computadores modernos, denominado",
+    "support": "",
+    "support_image": "",
+    "options": [
+      "disco rígido (HD).",
+      "pendrive.",
+      "nobreak.",
+      "gravador de DVD.",
+      "placa-mãe."
+    ],
+    "answer": "E",
+    "explanation": "Gabarito definitivo do CESPE/UnB, Correios 2011, Tipo I: alternativa E.",
+    "page": 2,
+    "rect": [
+      25.0,
+      160.31167602539062,
+      302.8999938964844,
+      493.7516174316406
+    ],
+    "images": [
+      [
+        33.36000061035156,
+        167.88002014160156,
+        286.0059814453125,
+        370.9200134277344
+      ]
+    ],
+    "raw": "Na  figura  acima,  identifica-se o componente de hardware,\nnormalmente encontrado em computadores modernos, denominado\n\n\nA  disco rígido (HD).\nB  pendrive.\nC  nobreak.\nD  gravador de DVD.\nE  placa-mãe."
+  },
+  {
+    "slug": "correios-2011-operador-triagem",
+    "number": 2,
+    "subject": "Informática",
+    "text": "É responsável pela realização de cálculos matemáticos em um computador o componente de hardware denominado",
+    "support": "",
+    "support_image": "",
+    "options": [
+      "barramento do sistema.",
+      "teclado.",
+      "processador.",
+      "byte.",
+      "disquete."
+    ],
+    "answer": "C",
+    "explanation": "Gabarito definitivo do CESPE/UnB, Correios 2011, Tipo I: alternativa C.",
+    "page": 2,
+    "rect": [
+      25.0,
+      504.71160888671875,
+      302.8999938964844,
+      629.231689453125
+    ],
+    "images": [],
+    "raw": "É responsável pela realização de cálculos matemáticos em um\ncomputador o componente de hardware denominado\n\n\nA  barramento do sistema.\nB   teclado.\nC  processador.\nD   byte.\nE  disquete."
+  },
+  {
+    "slug": "correios-2011-operador-triagem",
+    "number": 3,
+    "subject": "Informática",
+    "text": "A transferência, para um computador local, de arquivos disponibilizados na Internet é possível com a utilização de protocolos. Assinale a opção que apresenta o nome de um dos protocolos comumente utilizados nessa transferência.",
+    "support": "",
+    "support_image": "",
+    "options": [
+      "email",
+      "FTP",
+      "chat",
+      "Orkut",
+      "browser"
+    ],
+    "answer": "B",
+    "explanation": "Gabarito definitivo do CESPE/UnB, Correios 2011, Tipo I: alternativa B.",
+    "page": 2,
+    "rect": [
+      25.0,
+      640.1917114257812,
+      302.8999938964844,
+      802.0
+    ],
+    "images": [],
+    "raw": "A  transferência,  para um  computador  local,  de  arquivos\ndisponibilizados na  Internet é possível com a  utilização de\nprotocolos. Assinale a opção que apresenta o nome de um dos\nprotocolos comumente utilizados nessa transferência.\n\nA  email\nB  FTP\nC  chat\nD  Orkut\nE  browser"
+  },
+  {
+    "slug": "correios-2011-operador-triagem",
+    "number": 4,
+    "subject": "Informática",
+    "text": "A porta padrão que corresponde ao símbolo representado na figura acima — utilizada para a conexão de pendrive em um computador — é denominada",
+    "support": "",
+    "support_image": "",
+    "options": [
+      "USB.",
+      "PS2.",
+      "DB9.",
+      "DIMM.",
+      "HDMI."
+    ],
+    "answer": "A",
+    "explanation": "Gabarito definitivo do CESPE/UnB, Correios 2011, Tipo I: alternativa A.",
+    "page": 2,
+    "rect": [
+      302.8999938964844,
+      160.31167602539062,
+      570.0,
+      328.751708984375
+    ],
+    "images": [
+      [
+        402.0,
+        167.52001953125,
+        464.97198486328125,
+        214.08001708984375
+      ]
+    ],
+    "raw": "A porta padrão que corresponde ao símbolo representado na figura\nacima — utilizada para a conexão de pendrive em um computador\n— é denominada\n\nA  USB.\nB  PS2.\nC  DB9.\nD  DIMM.\nE  HDMI."
+  },
+  {
+    "slug": "correios-2011-operador-triagem",
+    "number": 5,
+    "subject": "Informática",
+    "text": "Entre os componentes periféricos de um computador, constituem, respectivamente, exemplos de dispositivos de entrada e de saída de dados de um computador",
+    "support": "",
+    "support_image": "",
+    "options": [
+      "o mouse e o teclado.",
+      "a impressora e o microfone.",
+      "a impressora e o monitor LCD.",
+      "o teclado e o microfone.",
+      "o mouse e o monitor LCD. A figura a seguir, que mostra a janela de um aplicativo do Windows XP, serve de base para as questões 6 e 7."
+    ],
+    "answer": "E",
+    "explanation": "Gabarito definitivo do CESPE/UnB, Correios 2011, Tipo I: alternativa E.",
+    "page": 2,
+    "rect": [
+      302.8999938964844,
+      339.7117004394531,
+      570.0,
+      674.231689453125
+    ],
+    "images": [
+      [
+        315.1199951171875,
+        482.4000244140625,
+        556.6109619140625,
+        668.8800048828125
+      ]
+    ],
+    "raw": "Entre os componentes periféricos de um computador, constituem,\nrespectivamente, exemplos de dispositivos de entrada e de saída de\ndados de um computador\n\nA  o mouse e o teclado.\nB  a impressora e o microfone.\nC  a impressora e o monitor LCD.\nD  o teclado e o microfone.\nE  o mouse e o monitor LCD.\n\nA figura a seguir, que mostra a janela de um aplicativo do Windows\nXP, serve de base para as questões 6 e 7."
+  },
+  {
+    "slug": "correios-2011-operador-triagem",
+    "number": 6,
+    "subject": "Informática",
+    "text": "A figura em questão mostra uma janela correspondente ao aplicativo",
+    "support": "",
+    "support_image": "",
+    "options": [
+      "Windows Media.",
+      "Windows Player.",
+      "Windows Paint.",
+      "Windows Explorer.",
+      "Windows WordPad."
+    ],
+    "answer": "D",
+    "explanation": "Gabarito definitivo do CESPE/UnB, Correios 2011, Tipo I: alternativa D.",
+    "page": 2,
+    "rect": [
+      302.8999938964844,
+      685.1917114257812,
+      570.0,
+      802.0
+    ],
+    "images": [],
+    "raw": "A  figura em questão mostra uma  janela correspondente ao\naplicativo\n\nA  Windows Media.\nB  Windows Player.\nC  Windows Paint.\nD  Windows Explorer.\nE  Windows WordPad."
+  },
+  {
+    "slug": "correios-2011-operador-triagem",
+    "number": 7,
+    "subject": "Informática",
+    "text": "Considerando a janela mostrada na figura, assinale a opção correta.",
+    "support": "",
+    "support_image": "",
+    "options": [
+      "Os atalhos, cuja função é facilitar o acesso rápido a arquivos e pastas e, ainda, permitir que seja associado resumo a esses arquivos e pastas, podem ser devidamente configurados utilizando-se os recursos disponibilizados no menu Favoritos dessa janela.",
+      "O aplicativo do Windows a que se refere a janela tem por função principal exibir a estrutura hierárquica de arquivos contidos na memória RAM do computador bem como das unidades de rede que foram mapeadas para letras A, C, D, E, F e G e associadas às unidades físicas do computador.",
+      "É possível a criação de uma nova subpasta dentro da pasta Meu computador por meio de opção encontrada no menu Ferramentas dessa janela.",
+      "Para se copiarem e colarem arquivos por meio da janela mostrada, é correto o uso dos recursos disponibilizados no menu Arquivo.",
+      "Por meio do aplicativo do Windows a que se refere a janela, é possível abrir uma pasta que contenha determinado arquivo e realizar operações que permitem mover esse arquivo para outra pasta."
+    ],
+    "answer": "E",
+    "explanation": "Gabarito definitivo do CESPE/UnB, Correios 2011, Tipo I: alternativa E.",
+    "page": 3,
+    "rect": [
+      25.0,
+      63.351715087890625,
+      270.739990234375,
+      398.1116943359375
+    ],
+    "images": [],
+    "raw": "Considerando a janela mostrada na figura, assinale a opção\ncorreta.\n\n\nA  Os atalhos, cuja função é facilitar o acesso rápido a\n    arquivos e pastas e, ainda, permitir que seja associado\n    resumo  a  esses  arquivos  e  pastas, podem  ser\n    devidamente configurados utilizando-se os recursos\n    disponibilizados no menu Favoritos dessa janela.\nB O aplicativo do Windows a que se refere a janela tem\n    por função principal exibir a estrutura hierárquica de\n    arquivos contidos na memória RAM do computador\n   bem como das unidades de rede que foram mapeadas\n    para letras A, C, D, E, F e G e associadas às unidades\n     físicas do computador.\nC  É possível a criação de uma nova subpasta dentro da\n    pasta Meu computador por meio de opção encontrada no\n   menu Ferramentas dessa janela.\nD  Para se copiarem e colarem arquivos por meio da\n     janela  mostrada,  é  correto o  uso  dos  recursos\n    disponibilizados no menu Arquivo.\nE  Por meio do aplicativo do Windows a que se refere a\n     janela, é  possível  abrir uma  pasta que contenha\n    determinado arquivo e realizar operações que permitem\n    mover esse arquivo para outra pasta."
+  },
+  {
+    "slug": "correios-2011-operador-triagem",
+    "number": 8,
+    "subject": "Informática",
+    "text": "A janela Painel de controle do Windows XP disponibiliza ao usuário aplicativos capazes de auxiliá-lo na realização de tarefas que permitem personalizar o seu computador. Entre essas tarefas inclui-se a de instalar novos dispositivos de entrada e saída no computador, como placa de vídeo, placa de rede e placa de som, cujo assistente pode ser inicializado ao se aplicar clique duplo sobre o ícone",
+    "support": "",
+    "support_image": "",
+    "options": [
+      ".",
+      ".",
+      ".",
+      ".",
+      "."
+    ],
+    "answer": "C",
+    "explanation": "Gabarito definitivo do CESPE/UnB, Correios 2011, Tipo I: alternativa C.",
+    "page": 3,
+    "rect": [
+      25.0,
+      409.0716857910156,
+      270.739990234375,
+      802.0
+    ],
+    "images": [
+      [
+        46.68000030517578,
+        521.8800048828125,
+        97.98600006103516,
+        561.47998046875
+      ],
+      [
+        46.68000030517578,
+        573.3599853515625,
+        101.61500549316406,
+        613.0799560546875
+      ],
+      [
+        46.560001373291016,
+        625.0800170898438,
+        78.04299926757812,
+        665.6400146484375
+      ],
+      [
+        46.68000030517578,
+        677.760009765625,
+        89.93499755859375,
+        728.4000244140625
+      ],
+      [
+        46.68000030517578,
+        742.7999877929688,
+        89.802001953125,
+        785.1599731445312
+      ]
+    ],
+    "raw": "A janela Painel de controle do Windows XP disponibiliza ao\nusuário aplicativos capazes de auxiliá-lo na realização de\ntarefas que permitem personalizar o seu computador. Entre\nessas tarefas inclui-se a de instalar novos dispositivos de\nentrada e saída no computador, como placa de vídeo, placa\nde rede e placa de som, cujo assistente pode ser inicializado\nao se aplicar clique duplo sobre o ícone\n\n\n\n\nA                        .\n\n\n\n\nB                         .\n\n\n\n\nC                .\n\n\n\n\n\nD                     .\n\n\n\n\nE                     ."
+  },
+  {
+    "slug": "correios-2011-operador-triagem",
+    "number": 9,
+    "subject": "Informática",
+    "text": "A figura acima ilustra parte de uma janela em execução em um computador no qual está instalado o sistema operacional Windows XP. Essa janela, que apresenta uma lista de programas em execução no computador, corresponde ao aplicativo denominado",
+    "support": "",
+    "support_image": "",
+    "options": [
+      "Gerenciador de tarefas do Windows.",
+      "Painel de controle do Windows.",
+      "Barra de ferramentas do Windows.",
+      "menu Iniciar do Windows.",
+      "Gerenciador de utilitários do Windows."
+    ],
+    "answer": "A",
+    "explanation": "Gabarito definitivo do CESPE/UnB, Correios 2011, Tipo I: alternativa A.",
+    "page": 3,
+    "rect": [
+      270.739990234375,
+      63.351715087890625,
+      570.0,
+      405.31170654296875
+    ],
+    "images": [
+      [
+        322.55999755859375,
+        70.55998229980469,
+        519.6690063476562,
+        279.47998046875
+      ]
+    ],
+    "raw": "A figura acima ilustra parte de uma janela em execução em um computador\nno qual está instalado o sistema operacional Windows XP. Essa janela, que\napresenta uma lista de programas em execução no computador, corresponde\nao aplicativo denominado\n\nA  Gerenciador de tarefas do Windows.\nB   Painel de controle do Windows.\nC   Barra de ferramentas do Windows.\nD  menu Iniciar do Windows.\nE  Gerenciador de utilitários do Windows."
+  },
+  {
+    "slug": "correios-2011-operador-triagem",
+    "number": 10,
+    "subject": "Informática",
+    "text": "Considerando a figura acima, que ilustra parte de uma janela do Microsoft Excel 2007 com uma planilha em processo de edição, assinale a opção correta.",
+    "support": "",
+    "support_image": "",
+    "options": [
+      "As informações contidas na janela mostrada evidenciam que o valor contido na célula D3 foi inserido por meio de digitação direta de valor pelo usuário, não podendo ter surgido como resultado da aplicação de fórmula.",
+      "Por meio do botão , é possível criar bordas para as células com formato de texto; bordas para células com formato de números devem ser criadas por meio do botão .",
+      "Para se alterar a orientação do conteúdo em determinada célula, como, por exemplo, na direção de uma das diagonais da célula, é correto o uso do botão .",
+      "As informações representadas pelos ícones evidenciam que essa planilha Excel está configurada para a inserção apenas de texto e de números, e não, de figuras e imagens.",
+      "Na situação da planilha mostrada, a célula D2 pode conter uma fórmula do tipo =C2*B2."
+    ],
+    "answer": "E",
+    "explanation": "Gabarito definitivo do CESPE/UnB, Correios 2011, Tipo I: alternativa E.",
+    "page": 3,
+    "rect": [
+      270.739990234375,
+      416.2716979980469,
+      570.0,
+      802.0
+    ],
+    "images": [
+      [
+        307.44000244140625,
+        422.5199890136719,
+        535.009033203125,
+        534.0
+      ],
+      [
+        369.7200012207031,
+        631.5599365234375,
+        391.37701416015625,
+        645.8399658203125
+      ],
+      [
+        413.6400146484375,
+        659.0399780273438,
+        429.2400207519531,
+        673.7999877929688
+      ],
+      [
+        346.55999755859375,
+        702.9600219726562,
+        363.0,
+        720.0
+      ],
+      [
+        471.3599853515625,
+        723.5999755859375,
+        500.1269836425781,
+        737.8800048828125
+      ]
+    ],
+    "raw": "Considerando a figura acima, que ilustra parte de uma janela do Microsoft\nExcel 2007 com uma planilha em processo de edição, assinale a opção\ncorreta.\n\nA  As informações contidas na janela mostrada evidenciam que o valor\n    contido na célula D3 foi inserido por meio de digitação direta de valor\n    pelo usuário, não podendo ter surgido como resultado da aplicação de\n    fórmula.\n\nB  Por meio do botão          , é possível criar bordas para as células com\n    formato de texto; bordas para células com formato de números devem\n\n     ser criadas por meio do botão       .\nC  Para se alterar a orientação do conteúdo em determinada célula, como,\n    por exemplo, na direção de uma das diagonais da célula, é correto o\n\n    uso do botão       .\n\nD  As informações representadas pelos ícones        evidenciam que\n    essa planilha Excel está configurada para a inserção apenas de texto e\n    de números, e não, de figuras e imagens.\nE  Na situação da planilha mostrada, a célula D2 pode conter uma fórmula\n    do tipo =C2*B2."
+  },
+  {
+    "slug": "correios-2011-operador-triagem",
+    "number": 11,
+    "subject": "Informática",
+    "text": "Considerando a figura acima, que mostra parte de uma planilha em processo de edição no Microsoft Excel 2007, assinale a opção correta.",
+    "support": "",
+    "support_image": "",
+    "options": [
+      "No Excel, após a criação de um gráfico, não é possível alterar o seu estilo, sendo apenas possível alterar a posição de suas linhas por meio da ferramenta .",
+      "A ferramenta possibilita a criação de um modelo em memória RAM para ser reutilizado na planilha em edição até o fechamento da janela do Excel que contém a planilha em edição, sem que se tenha acesso a esse modelo a partir de outras planilhas em futuras sessões de uso do Excel.",
+      "A planilha contém um gráfico do tipo barras com linhas irregulares.",
+      "Para a criação do gráfico mostrado na figura, é necessário, inicialmente, selecionar as três linhas da planilha que contêm as células de A1 a G3.",
+      "O conteúdo correspondente às células de A4 a G4 não está representado no gráfico mostrado na planilha."
+    ],
+    "answer": "E",
+    "explanation": "Gabarito definitivo do CESPE/UnB, Correios 2011, Tipo I: alternativa E.",
+    "page": 4,
+    "rect": [
+      25.0,
+      63.351715087890625,
+      300.6199951171875,
+      506.5916748046875
+    ],
+    "images": [
+      [
+        63.0,
+        69.48001098632812,
+        256.3599853515625,
+        221.8800048828125
+      ],
+      [
+        168.60000610351562,
+        292.44000244140625,
+        209.22900390625,
+        333.6000061035156
+      ],
+      [
+        99.95999908447266,
+        336.239990234375,
+        141.33799743652344,
+        376.32000732421875
+      ]
+    ],
+    "raw": "Considerando a figura acima, que mostra parte de uma planilha em\nprocesso de edição no Microsoft Excel 2007, assinale a opção\ncorreta.\n\nA  No Excel, após a criação de um gráfico, não é possível alterar\n    o seu estilo, sendo apenas possível alterar a posição de suas\n\n\n\n     linhas por meio da ferramenta                 .\n\n\n\nB A ferramenta            possibilita a criação de um modelo em\n    memória RAM para ser reutilizado na planilha em edição até\n    o fechamento da janela do Excel que contém a planilha em\n    edição, sem que se tenha acesso a esse modelo a partir de\n     outras planilhas em futuras sessões de uso do Excel.\nC A planilha contém um gráfico do tipo barras com linhas\n     irregulares.\nD  Para a criação do gráfico mostrado na figura, é necessário,\n     inicialmente, selecionar as três linhas da planilha que contêm\n    as células de A1 a G3.\nE O conteúdo correspondente às células de A4 a G4 não está\n    representado no gráfico mostrado na planilha."
+  },
+  {
+    "slug": "correios-2011-operador-triagem",
+    "number": 12,
+    "subject": "Informática",
+    "text": "A figura acima ilustra parte de uma janela do Excel, na qual se destaca a ferramenta AutoSoma, recurso que pode ser corretamente utilizado, entre outras funcionalidades,",
+    "support": "",
+    "support_image": "",
+    "options": [
+      "para se classificarem, em ordem crescente ou decrescente, dados numéricos que constituam o conteúdo de células previamente selecionadas.",
+      "para se proteger o conteúdo de células previamente selecionadas contra alterações não autorizadas, utilizando-se recursos de software antivírus.",
+      "para se realizarem testes de integridade do conteúdo de células previamente selecionadas, antes que uma fórmula seja aplicada ao conjunto dessas células.",
+      "para se calcular a soma ou a média aritmética dos conteúdos numéricos de células adjacentes previamente selecionadas em uma coluna ou em uma linha da planilha.",
+      "para que sejam preenchidos automaticamente os conteúdos de um conjunto de células adjacentes, seguindo-se um padrão estabelecido por outro conjunto de células previamente selecionadas."
+    ],
+    "answer": "D",
+    "explanation": "Gabarito definitivo do CESPE/UnB, Correios 2011, Tipo I: alternativa D.",
+    "page": 4,
+    "rect": [
+      25.0,
+      517.5516967773438,
+      300.6199951171875,
+      802.0
+    ],
+    "images": [
+      [
+        109.91999816894531,
+        523.7999877929688,
+        210.02899169921875,
+        563.8800048828125
+      ]
+    ],
+    "raw": "A figura acima ilustra parte de uma janela do Excel, na qual se\ndestaca a ferramenta AutoSoma, recurso que pode ser corretamente\nutilizado, entre outras funcionalidades,\n\nA  para se classificarem, em ordem crescente ou decrescente,\n    dados numéricos que constituam o conteúdo de  células\n    previamente selecionadas.\nB  para  se  proteger  o  conteúdo  de  células  previamente\n    selecionadas contra alterações não autorizadas, utilizando-se\n    recursos de software antivírus.\nC  para se realizarem testes de integridade do conteúdo de células\n    previamente selecionadas, antes que uma fórmula seja aplicada\n    ao conjunto dessas células.\nD  para se calcular a soma ou a média aritmética dos conteúdos\n    numéricos de células adjacentes previamente selecionadas em\n   uma coluna ou em uma linha da planilha.\nE  para que sejam preenchidos automaticamente os conteúdos de\n   um conjunto de células adjacentes, seguindo-se um padrão\n    estabelecido por  outro conjunto de  células previamente\n     selecionadas."
+  },
+  {
+    "slug": "correios-2011-operador-triagem",
+    "number": 13,
+    "subject": "Informática",
+    "text": "Com base na janela do Microsoft Word 2007 ilustrada no texto, assinale a opção correta.",
+    "support": "A figura abaixo mostra uma janela do Microsoft Word\n2007, em execução em um computador com sistema operacional\nWindows XP. Essa janela contém um documento em processo de\nedição, no qual o trecho “Serviço internacional” está selecionado.",
+    "support_image": "",
+    "options": [
+      "Para se numerarem as linhas do parágrafo do documento em edição que contém o trecho selecionado, é suficiente pressionar simultaneamente e manter pressionadas as teclas e ; clicar o botão e liberar finalmente as teclas pressionadas.",
+      "Na situação considerada, ao se clicar o botão , o trecho selecionado ficará com a cor do texto alterada para vermelho.",
+      "Na situação considerada, ao se clicar o botão , o trecho selecionado será alterado e aparecerá em itálico e sublinhado, ou seja, ficará na seguinte forma: Serviço internacional.",
+      "Para se mover o trecho selecionado, de sua posição atual para uma nova posição no documento em edição, é correto realizar a seguinte sequência de ações: clicar o botão , para recortar o trecho selecionado; posicionar o ponto de inserção no local para onde se deseja mover o trecho selecionado; clicar o botão Colar, em sua parte superior — —, para colar o texto na nova posição.",
+      "Na situação mostrada, ao se clicar o botão , o parágrafo do documento em edição que contém o trecho selecionado ficará alinhado tanto à direita, quanto à esquerda."
+    ],
+    "answer": "D",
+    "explanation": "Gabarito definitivo do CESPE/UnB, Correios 2011, Tipo I: alternativa D.",
+    "page": 4,
+    "rect": [
+      300.6199951171875,
+      276.7117004394531,
+      570.0,
+      620.231689453125
+    ],
+    "images": [
+      [
+        376.9200134277344,
+        359.8800048828125,
+        400.20001220703125,
+        379.67999267578125
+      ],
+      [
+        507.8399963378906,
+        384.0,
+        528.5999755859375,
+        403.9200134277344
+      ],
+      [
+        509.2799987792969,
+        418.79998779296875,
+        528.3599853515625,
+        435.8399963378906
+      ],
+      [
+        496.44000244140625,
+        485.6399841308594,
+        512.52001953125,
+        505.55999755859375
+      ],
+      [
+        445.79998779296875,
+        530.8800048828125,
+        469.1999816894531,
+        553.6799926757812
+      ],
+      [
+        487.0799865722656,
+        568.4400024414062,
+        505.55999755859375,
+        588.3599853515625
+      ]
+    ],
+    "raw": "Com base na janela do Microsoft Word 2007 ilustrada no texto,\nassinale a opção correta.\n\nA  Para se numerarem as linhas do parágrafo do documento em\n    edição que contém o trecho selecionado, é suficiente pressionar\n\n    simultaneamente e manter pressionadas as teclas       e       ;\n\n     clicar o botão      e liberar finalmente as teclas pressionadas.\n\nB  Na situação considerada, ao se clicar o botão         , o trecho\n    selecionado ficará com a cor do texto alterada para vermelho.\n\nC  Na situação considerada, ao se clicar o botão         , o trecho\n    selecionado será alterado e aparecerá em itálico e sublinhado,\n    ou seja, ficará na seguinte forma: Serviço internacional.\nD  Para se mover o trecho selecionado, de sua posição atual para\n   uma nova posição no documento em edição, é correto realizar\n\n    a seguinte sequência de ações: clicar o botão       , para recortar\n    o trecho selecionado; posicionar o ponto de inserção no local\n    para onde se deseja mover o trecho selecionado; clicar o botão\n\n     Colar, em sua parte superior —    —, para colar o texto na\n    nova posição.\n\nE  Na situação mostrada, ao se clicar o botão        , o parágrafo do\n    documento em edição que contém o trecho selecionado ficará\n    alinhado tanto à direita, quanto à esquerda.",
+    "shared": {
+      "text": "A figura abaixo mostra uma janela do Microsoft Word\n2007, em execução em um computador com sistema operacional\nWindows XP. Essa janela contém um documento em processo de\nedição, no qual o trecho “Serviço internacional” está selecionado.",
+      "page": 4,
+      "images": [
+        [
+          304.44000244140625,
+          115.20001220703125,
+          561.7160034179688,
+          256.32000732421875
+        ]
+      ]
+    }
+  },
+  {
+    "slug": "correios-2011-operador-triagem",
+    "number": 14,
+    "subject": "Informática",
+    "text": "Na janela do Microsoft Word 2007 ilustrada no texto, o campo informa",
+    "support": "A figura abaixo mostra uma janela do Microsoft Word\n2007, em execução em um computador com sistema operacional\nWindows XP. Essa janela contém um documento em processo de\nedição, no qual o trecho “Serviço internacional” está selecionado.",
+    "support_image": "",
+    "options": [
+      "a intensidade da cor da fonte utilizada nas palavras que compõem o trecho selecionado.",
+      "o tamanho da fonte utilizada no trecho selecionado.",
+      "o espaçamento entre as linhas do parágrafo em que se encontra o trecho selecionado.",
+      "a largura da coluna do parágrafo em que se encontra o trecho selecionado.",
+      "o tamanho da margem direita do parágrafo em que se encontra o trecho selecionado."
+    ],
+    "answer": "B",
+    "explanation": "Gabarito definitivo do CESPE/UnB, Correios 2011, Tipo I: alternativa B.",
+    "page": 4,
+    "rect": [
+      300.6199951171875,
+      631.1917114257812,
+      570.0,
+      802.0
+    ],
+    "images": [
+      [
+        304.44000244140625,
+        649.5599975585938,
+        336.78900146484375,
+        661.3200073242188
+      ]
+    ],
+    "raw": "Na janela do Microsoft Word 2007 ilustrada no texto, o campo\n        informa\n\nA  a intensidade da cor da fonte utilizada nas palavras que\n   compõem o trecho selecionado.\nB  o tamanho da fonte utilizada no trecho selecionado.\nC  o espaçamento entre as linhas do parágrafo em que se encontra\n    o trecho selecionado.\nD  a largura da coluna do parágrafo em que se encontra o trecho\n    selecionado.\nE  o tamanho da margem direita do parágrafo em que se encontra\n    o trecho selecionado.",
+    "shared": {
+      "text": "A figura abaixo mostra uma janela do Microsoft Word\n2007, em execução em um computador com sistema operacional\nWindows XP. Essa janela contém um documento em processo de\nedição, no qual o trecho “Serviço internacional” está selecionado.",
+      "page": 4,
+      "images": [
+        [
+          304.44000244140625,
+          115.20001220703125,
+          561.7160034179688,
+          256.32000732421875
+        ]
+      ]
+    }
+  },
+  {
+    "slug": "correios-2011-operador-triagem",
+    "number": 15,
+    "subject": "Informática",
+    "text": "Na situação da janela do Microsoft Word 2007 mostrada no texto, o uso do botão permite",
+    "support": "A figura abaixo mostra uma janela do Microsoft Word\n2007, em execução em um computador com sistema operacional\nWindows XP. Essa janela contém um documento em processo de\nedição, no qual o trecho “Serviço internacional” está selecionado.",
+    "support_image": "",
+    "options": [
+      "aplicar realce no trecho selecionado, utilizando-se a cor predefinida no conjunto de botões .",
+      "excluir do documento em edição o trecho selecionado, sendo o espaço que era ocupado por esse trecho substituído por caracteres em branco.",
+      "colorir, com a cor previamente definida por meio do conjunto de botões , o plano de fundo do trecho selecionado.",
+      "aplicar aos caracteres do trecho selecionado a cor definida pelo conjunto de botões .",
+      "copiar a formatação utilizada no local do documento onde o trecho selecionado se encontra e aplicá-la em outro local do documento."
+    ],
+    "answer": "E",
+    "explanation": "Gabarito definitivo do CESPE/UnB, Correios 2011, Tipo I: alternativa E.",
+    "page": 5,
+    "rect": [
+      25.0,
+      63.351715087890625,
+      300.6199951171875,
+      322.751708984375
+    ],
+    "images": [
+      [
+        89.63999938964844,
+        83.64002227783203,
+        108.5999984741211,
+        104.52001953125
+      ],
+      [
+        185.27999877929688,
+        135.96002197265625,
+        214.67999267578125,
+        155.6400146484375
+      ],
+      [
+        87.36000061035156,
+        216.1199951171875,
+        116.76000213623047,
+        235.79998779296875
+      ],
+      [
+        124.80000305175781,
+        256.3199768066406,
+        148.9199981689453,
+        270.719970703125
+      ]
+    ],
+    "raw": "Na situação da janela do Microsoft Word 2007 mostrada no texto,\n\n\no uso do botão      permite\n\n\nA   aplicar realce no trecho selecionado, utilizando-se a cor\n\n    predefinida no conjunto de botões             .\n\nB  excluir do documento em edição o trecho selecionado, sendo\n    o espaço que era ocupado por esse trecho substituído por\n     caracteres em branco.\nC   colorir, com a cor previamente definida por meio do conjunto\n\n    de botões             , o plano de fundo do trecho selecionado.\n\nD   aplicar aos caracteres do trecho selecionado a cor definida pelo\n\n    conjunto de botões           .\nE  copiar a formatação utilizada no local do documento onde o\n    trecho selecionado se encontra e aplicá-la em outro local do\n    documento.",
+    "shared": {
+      "text": "A figura abaixo mostra uma janela do Microsoft Word\n2007, em execução em um computador com sistema operacional\nWindows XP. Essa janela contém um documento em processo de\nedição, no qual o trecho “Serviço internacional” está selecionado.",
+      "page": 4,
+      "images": [
+        [
+          304.44000244140625,
+          115.20001220703125,
+          561.7160034179688,
+          256.32000732421875
+        ]
+      ]
+    }
+  },
+  {
+    "slug": "correios-2011-operador-triagem",
+    "number": 16,
+    "subject": "Informática",
+    "text": "Considere que, para imprimir o conteúdo do documento em edição na janela do Microsoft Word 2007 ilustrada no texto, pretenda-se utilizar recursos desse aplicativo disponibilizados por meio do conjunto de botões . Nesse caso, para o acesso a esse conjunto de botões, visualizando-o na janela do Word, é suficiente, na referida janela do aplicativo, clicar",
+    "support": "A figura abaixo mostra uma janela do Microsoft Word\n2007, em execução em um computador com sistema operacional\nWindows XP. Essa janela contém um documento em processo de\nedição, no qual o trecho “Serviço internacional” está selecionado.",
+    "support_image": "",
+    "options": [
+      "o botão .",
+      "o botão .",
+      "o menu .",
+      "o campo .",
+      "o menu ."
+    ],
+    "answer": "B",
+    "explanation": "Gabarito definitivo do CESPE/UnB, Correios 2011, Tipo I: alternativa B.",
+    "page": 5,
+    "rect": [
+      25.0,
+      333.7117004394531,
+      300.6199951171875,
+      569.231689453125
+    ],
+    "images": [
+      [
+        103.31999969482422,
+        379.79998779296875,
+        188.81100463867188,
+        403.55999755859375
+      ],
+      [
+        79.08000183105469,
+        447.1199951171875,
+        93.4800033569336,
+        462.239990234375
+      ],
+      [
+        79.08000183105469,
+        469.08001708984375,
+        106.91999816894531,
+        498.4800109863281
+      ],
+      [
+        78.4800033569336,
+        508.20001220703125,
+        116.04000854492188,
+        520.3200073242188
+      ],
+      [
+        83.27999877929688,
+        526.4400024414062,
+        168.1199951171875,
+        537.1199951171875
+      ],
+      [
+        78.4800033569336,
+        542.760009765625,
+        106.32000732421875,
+        557.1600341796875
+      ]
+    ],
+    "raw": "Considere que, para imprimir o conteúdo do documento em edição\nna janela do Microsoft Word 2007 ilustrada no texto, pretenda-se\nutilizar recursos desse aplicativo disponibilizados por meio do\n\n\nconjunto de botões                                  . Nesse caso, para o acesso\na esse conjunto de botões, visualizando-o na janela do Word, é\nsuficiente, na referida janela do aplicativo, clicar\n\n\nA  o botão       .\n\n\n\nB  o botão            .\n\nC  o menu                .\n\nD  o campo                                   .\n\nE  o menu            .",
+    "shared": {
+      "text": "A figura abaixo mostra uma janela do Microsoft Word\n2007, em execução em um computador com sistema operacional\nWindows XP. Essa janela contém um documento em processo de\nedição, no qual o trecho “Serviço internacional” está selecionado.",
+      "page": 4,
+      "images": [
+        [
+          304.44000244140625,
+          115.20001220703125,
+          561.7160034179688,
+          256.32000732421875
+        ]
+      ]
+    }
+  },
+  {
+    "slug": "correios-2011-operador-triagem",
+    "number": 17,
+    "subject": "Informática",
+    "text": "Em uma apresentação que esteja em edição no Microsoft PowerPoint 2007,",
+    "support": "",
+    "support_image": "",
+    "options": [
+      "para se inserir uma tabela em um eslaide, deve-se, inicialmente, criá-la por meio do aplicativo Microsoft Excel.",
+      "ocultar um eslaide significa excluí-lo do documento referente a essa apresentação.",
+      "para se inserir texto no formato sobrescrito ou subscrito em um eslaide, deve-se utilizar o recurso denominado SmartArt.",
+      "é possível inserir, em um eslaide, uma imagem criada a partir do aplicativo Paint, disponibilizado como acessório do Windows XP.",
+      "para se inserir um clip-art em um eslaide, é necessário, previamente, associar o conteúdo do clip-art a um hiperlink direcionado para uma página da Internet."
+    ],
+    "answer": "D",
+    "explanation": "Gabarito definitivo do CESPE/UnB, Correios 2011, Tipo I: alternativa D.",
+    "page": 5,
+    "rect": [
+      25.0,
+      580.1917114257812,
+      300.6199951171875,
+      802.0
+    ],
+    "images": [],
+    "raw": "Em uma  apresentação que  esteja em  edição no  Microsoft\nPowerPoint 2007,\n\nA  para se inserir uma tabela em um eslaide, deve-se, inicialmente,\n     criá-la por meio do aplicativo Microsoft Excel.\nB  ocultar um eslaide significa excluí-lo do documento referente\n    a essa apresentação.\nC  para se inserir texto no formato sobrescrito ou subscrito em um\n     eslaide, deve-se utilizar o recurso denominado SmartArt.\nD  é possível inserir, em um eslaide, uma imagem criada a partir\n    do  aplicativo  Paint,  disponibilizado como  acessório do\n   Windows XP.\nE  para se inserir um clip-art em um eslaide, é necessário,\n    previamente, associar o conteúdo do clip-art a um hiperlink\n    direcionado para uma página da Internet."
+  },
+  {
+    "slug": "correios-2011-operador-triagem",
+    "number": 18,
+    "subject": "Informática",
+    "text": "Com relação a conceitos, tecnologias e serviços associados à Internet, assinale a opção correta.",
+    "support": "",
+    "support_image": "",
+    "options": [
+      "O Mozilla Firefox é um navegador web que permite o acesso a conteúdo disponibilizado em páginas e sítios da Internet.",
+      "O Microsoft Office Access é um tipo de firewall que impede que redes de computadores que façam parte da Internet sejam invadidas.",
+      "Serviços de webmail consistem no uso compartilhado de software de grupo de discussão instalado em computador pertencente a uma rede local (LAN) para uso exclusivo, e em segurança, dos computadores pertencentes a essa LAN.",
+      "Na conexão denominada banda larga, para que usuários residenciais tenham acesso a recursos da Internet, exige-se o uso de cabos ópticos entre as residências dos usuários e seus provedores de Internet.",
+      "O protocolo TCP/IP é utilizado na Internet para operações de transferência de arquivos quando se deseja garantir segurança sem o uso de software antivírus."
+    ],
+    "answer": "A",
+    "explanation": "Gabarito definitivo do CESPE/UnB, Correios 2011, Tipo I: alternativa A.",
+    "page": 5,
+    "rect": [
+      300.6199951171875,
+      63.351715087890625,
+      570.0,
+      280.3917236328125
+    ],
+    "images": [],
+    "raw": "Com relação a conceitos, tecnologias e serviços associados à\nInternet, assinale a opção correta.\nA O Mozilla Firefox é um navegador web que permite o acesso\n    a conteúdo disponibilizado em páginas e sítios da Internet.\nB O Microsoft Office Access é um tipo de firewall que impede\n    que redes de computadores que façam parte da Internet sejam\n     invadidas.\nC  Serviços de webmail consistem no uso compartilhado de\n    software de grupo de discussão instalado em computador\n    pertencente a uma rede local (LAN) para uso exclusivo, e em\n    segurança, dos computadores pertencentes a essa LAN.\nD  Na conexão denominada banda  larga, para que usuários\n     residenciais tenham acesso a recursos da Internet, exige-se o\n    uso de cabos ópticos entre as residências dos usuários e seus\n    provedores de Internet.\nE O protocolo TCP/IP é utilizado na Internet para operações de\n     transferência de arquivos quando se deseja garantir segurança\n   sem o uso de software antivírus."
+  },
+  {
+    "slug": "correios-2011-operador-triagem",
+    "number": 19,
+    "subject": "Informática",
+    "text": "Assinale a opção em que a expressão apresentada possui estrutura correta de endereço de correio eletrônico.",
+    "support": "",
+    "support_image": "",
+    "options": [
+      "servidor:br.usuario.edu",
+      "usuario@servidor.org.br",
+      "usuario/servidor/com/br",
+      "servidor#usuario.org",
+      "usuario&servidor.gov.br"
+    ],
+    "answer": "B",
+    "explanation": "Gabarito definitivo do CESPE/UnB, Correios 2011, Tipo I: alternativa B.",
+    "page": 5,
+    "rect": [
+      300.6199951171875,
+      291.3517150878906,
+      570.0,
+      389.4717102050781
+    ],
+    "images": [],
+    "raw": "Assinale a opção em que a expressão apresentada possui estrutura\ncorreta de endereço de correio eletrônico.\n\nA  servidor:br.usuario.edu\nB  usuario@servidor.org.br\nC  usuario/servidor/com/br\nD  servidor#usuario.org\nE  usuario&servidor.gov.br"
+  },
+  {
+    "slug": "correios-2011-operador-triagem",
+    "number": 20,
+    "subject": "Informática",
+    "text": "Considerando que a figura acima ilustre uma janela do Internet Explorer 8 (IE8) durante uma sessão de uso em um computador com sistema operacional Windows XP e que tenha sido realizada uma solicitação de conexão a uma página web cujo conteúdo ainda não tenha sido carregado na área de páginas do IE8, assinale a opção correta.",
+    "support": "",
+    "support_image": "",
+    "options": [
+      "O uso do botão , na barra de ferramentas do IE8, permite interromper o processo de carregamento da referida página.",
+      "O uso do botão , na barra de ferramentas do IE8, permite ativar o modo de operação do IE8 denominado banda larga, que acelera o processo de carregamento da referida página.",
+      "Por meio do menu , é possível ativar o bloqueador de pop-ups do IE8, o que impede que a referida página, ao ser completamente carregada, infecte o computador com vírus e outros aplicativos maliciosos.",
+      "Por meio do conjunto de botões , na barra de ferramentas do IE8, é possível ajustar o tamanho da fonte que será utilizada no conteúdo da referida página, quando ela for apresentada na área de páginas do IE8, após o término do seu carregamento.",
+      "As informações contidas na janela do IE8 são suficientes para se concluir corretamente que a página que está sendo carregada é a página inicial do IE8."
+    ],
+    "answer": "A",
+    "explanation": "Gabarito definitivo do CESPE/UnB, Correios 2011, Tipo I: alternativa A.",
+    "page": 5,
+    "rect": [
+      300.6199951171875,
+      400.43170166015625,
+      570.0,
+      802.0
+    ],
+    "images": [
+      [
+        329.3999938964844,
+        406.67999267578125,
+        542.3170166015625,
+        488.5199890136719
+      ],
+      [
+        385.32000732421875,
+        561.47998046875,
+        404.1600036621094,
+        582.5999755859375
+      ],
+      [
+        385.20001220703125,
+        595.4400024414062,
+        404.0400085449219,
+        615.1199951171875
+      ],
+      [
+        395.3999938964844,
+        638.8800048828125,
+        444.9599914550781,
+        651.0
+      ],
+      [
+        477.0,
+        686.2799682617188,
+        504.8399963378906,
+        706.6799926757812
+      ]
+    ],
+    "raw": "Considerando que a figura acima ilustre uma janela do Internet\nExplorer 8 (IE8) durante uma sessão de uso em um computador\ncom sistema operacional Windows XP e que tenha sido realizada\numa solicitação de conexão a uma página web cujo conteúdo ainda\nnão tenha sido carregado na área de páginas do IE8, assinale a\nopção correta.\n\n\nA O uso do botão         , na barra de ferramentas do IE8, permite\n    interromper o processo de carregamento da referida página.\n\nB O uso do botão         , na barra de ferramentas do IE8, permite\n     ativar o modo de operação do IE8 denominado banda larga,\n    que acelera o processo de carregamento da referida página.\nC  Por meio do menu                     , é possível ativar o bloqueador\n    de pop-ups do IE8, o que impede que a referida página, ao ser\n    completamente carregada, infecte o computador com vírus e\n    outros aplicativos maliciosos.\n\nD  Por meio do conjunto de  botões              , na  barra de\n    ferramentas do IE8, é possível ajustar o tamanho da fonte que\n     será utilizada no conteúdo da referida página, quando ela for\n    apresentada na área de páginas do IE8, após o término do seu\n    carregamento.\nE  As informações contidas na janela do IE8 são suficientes para\n    se concluir corretamente que a página que está sendo carregada\n    é a página inicial do IE8."
+  },
+  {
+    "slug": "correios-2011-operador-triagem",
+    "number": 21,
+    "subject": "Matemática",
+    "text": "Considerando-se que 25% dos referidos cartões tenham sido enviados a moradores de cidades do estado de São Paulo, é correto afirmar que o número que expressa a quantidade de cartões enviada a esse estado está entre",
+    "support": "Em 2010, entre 2% e 6% da população de uma cidade\ncom 30.000 habitantes enviaram, por ocasião das festividades\nnatalinas, cartões de felicitações a parentes e amigos. Sabe-se que\ncada habitante enviou, no máximo, um cartão.",
+    "support_image": "",
+    "options": [
+      "900 e 1.300.",
+      "1.300 e 1.700.",
+      "1.700 e 2.100.",
+      "100 e 500.",
+      "500 e 900."
+    ],
+    "answer": "D",
+    "explanation": "Gabarito definitivo do CESPE/UnB, Correios 2011, Tipo I: alternativa D.",
+    "page": 6,
+    "rect": [
+      25.0,
+      148.19168090820312,
+      305.17999267578125,
+      275.71173095703125
+    ],
+    "images": [],
+    "raw": "Considerando-se que 25% dos referidos cartões tenham sido\nenviados a moradores de cidades do estado de São Paulo, é correto\nafirmar que o número que expressa a quantidade de cartões\nenviada a esse estado está entre\n\nA  900 e 1.300.\nB  1.300 e 1.700.\nC  1.700 e 2.100.\nD  100 e 500.\nE  500 e 900.",
+    "shared": {
+      "text": "Em 2010, entre 2% e 6% da população de uma cidade\ncom 30.000 habitantes enviaram, por ocasião das festividades\nnatalinas, cartões de felicitações a parentes e amigos. Sabe-se que\ncada habitante enviou, no máximo, um cartão.",
+      "page": 6,
+      "images": []
+    }
+  },
+  {
+    "slug": "correios-2011-operador-triagem",
+    "number": 22,
+    "subject": "Matemática",
+    "text": "Considerando-se que 45 dos cartões enviados pela população da referida cidade tenham sido devolvidos ao remetente, por erro no endereçamento, e que esse número corresponda a 5% dos cartões enviados, é correto afirmar que a porcentagem de habitantes que enviaram cartões de felicitações é igual a",
+    "support": "Em 2010, entre 2% e 6% da população de uma cidade\ncom 30.000 habitantes enviaram, por ocasião das festividades\nnatalinas, cartões de felicitações a parentes e amigos. Sabe-se que\ncada habitante enviou, no máximo, um cartão.",
+    "support_image": "",
+    "options": [
+      "6%.",
+      "2%.",
+      "3%.",
+      "4%.",
+      "5%."
+    ],
+    "answer": "C",
+    "explanation": "Gabarito definitivo do CESPE/UnB, Correios 2011, Tipo I: alternativa C.",
+    "page": 6,
+    "rect": [
+      25.0,
+      286.6717224121094,
+      305.17999267578125,
+      425.2317199707031
+    ],
+    "images": [],
+    "raw": "Considerando-se que 45 dos cartões enviados pela população da\nreferida cidade tenham sido devolvidos ao remetente, por erro no\nendereçamento, e que esse número corresponda a 5% dos cartões\nenviados, é correto afirmar que a porcentagem de habitantes que\nenviaram cartões de felicitações é igual a\n\nA  6%.\nB  2%.\nC  3%.\nD  4%.\nE  5%.",
+    "shared": {
+      "text": "Em 2010, entre 2% e 6% da população de uma cidade\ncom 30.000 habitantes enviaram, por ocasião das festividades\nnatalinas, cartões de felicitações a parentes e amigos. Sabe-se que\ncada habitante enviou, no máximo, um cartão.",
+      "page": 6,
+      "images": []
+    }
+  },
+  {
+    "slug": "correios-2011-operador-triagem",
+    "number": 23,
+    "subject": "Matemática",
+    "text": "Se 4 selos do tipo A e 4 selos do tipo B custam R$ 7,00 e se um selo do tipo A custa 50% a mais que um selo do tipo B, então 8 selos do tipo A custam",
+    "support": "",
+    "support_image": "",
+    "options": [
+      "R$ 9,00.",
+      "R$ 10,50.",
+      "R$ 12,00.",
+      "R$ 12,60.",
+      "R$ 8,40."
+    ],
+    "answer": "E",
+    "explanation": "Gabarito definitivo do CESPE/UnB, Correios 2011, Tipo I: alternativa E.",
+    "page": 6,
+    "rect": [
+      25.0,
+      436.19171142578125,
+      305.17999267578125,
+      565.7310180664062
+    ],
+    "images": [],
+    "raw": "Se 4 selos do tipo A e 4 selos do tipo B custam R$ 7,00 e se um\nselo do tipo A custa 50% a mais que um selo do tipo B, então\n8 selos do tipo A custam\n\nA  R$ 9,00.\nB  R$ 10,50.\nC  R$ 12,00.\nD  R$ 12,60.\nE  R$ 8,40."
+  },
+  {
+    "slug": "correios-2011-operador-triagem",
+    "number": 24,
+    "subject": "Matemática",
+    "text": "Com base nas informações do texto, é correto afirmar que, se todos os pacotes tiverem o mesmo peso e se esse peso for inferior a 10 kg, então cada pacote pesará",
+    "support": "Uma empresa confeccionou catálogos dos tipos A e B\npara presentear seus clientes. Um catálogo do tipo A pesa 240 g e\num do tipo B, 350 g. Os catálogos foram organizados em pacotes,\ncontendo cada um deles apenas catálogos de um mesmo tipo.",
+    "support_image": "",
+    "options": [
+      "8,3 kg.",
+      "8,4 kg.",
+      "8 kg.",
+      "8,1 kg.",
+      "8,2 kg."
+    ],
+    "answer": "B",
+    "explanation": "Gabarito definitivo do CESPE/UnB, Correios 2011, Tipo I: alternativa B.",
+    "page": 6,
+    "rect": [
+      25.0,
+      660.4717407226562,
+      305.17999267578125,
+      802.0
+    ],
+    "images": [],
+    "raw": "Com base nas informações do texto, é correto afirmar que, se\ntodos os pacotes tiverem o mesmo peso e se esse peso for inferior\na 10 kg, então cada pacote pesará\n\nA  8,3 kg.\nB  8,4 kg.\nC  8 kg.\nD  8,1 kg.\nE  8,2 kg.",
+    "shared": {
+      "text": "Uma empresa confeccionou catálogos dos tipos A e B\npara presentear seus clientes. Um catálogo do tipo A pesa 240 g e\num do tipo B, 350 g. Os catálogos foram organizados em pacotes,\ncontendo cada um deles apenas catálogos de um mesmo tipo.",
+      "page": 6,
+      "images": []
+    }
+  },
+  {
+    "slug": "correios-2011-operador-triagem",
+    "number": 25,
+    "subject": "Matemática",
+    "text": "Se 540 catálogos do tipo A e 340 do tipo B forem separados em lotes, de modo que cada lote contenha catálogos dos dois tipos e a mesma quantidade de catálogos de cada tipo, então a quantidade máxima de lotes em que poderão ser separados esses catálogos será igual a",
+    "support": "Uma empresa confeccionou catálogos dos tipos A e B\npara presentear seus clientes. Um catálogo do tipo A pesa 240 g e\num do tipo B, 350 g. Os catálogos foram organizados em pacotes,\ncontendo cada um deles apenas catálogos de um mesmo tipo.",
+    "support_image": "",
+    "options": [
+      "20.",
+      "34.",
+      "54.",
+      "10.",
+      "17."
+    ],
+    "answer": "ANULADA",
+    "explanation": "Gabarito definitivo do CESPE/UnB, Correios 2011, Tipo I: questão anulada.",
+    "page": 6,
+    "rect": [
+      305.17999267578125,
+      82.07168579101562,
+      570.0,
+      802.0
+    ],
+    "images": [],
+    "raw": "Se 540 catálogos do tipo A e 340 do tipo B forem separados em\n\nlotes, de modo que cada lote contenha catálogos dos dois tipos e\n\na mesma quantidade de catálogos de cada tipo, então a quantidade\n\nmáxima de lotes em que poderão ser separados esses catálogos\n\nserá igual a\n\n\nA  20.\n\nB  34.\n\nC  54.\n\nD  10.\n\nE  17.",
+    "shared": {
+      "text": "Uma empresa confeccionou catálogos dos tipos A e B\npara presentear seus clientes. Um catálogo do tipo A pesa 240 g e\num do tipo B, 350 g. Os catálogos foram organizados em pacotes,\ncontendo cada um deles apenas catálogos de um mesmo tipo.",
+      "page": 6,
+      "images": []
+    }
+  },
+  {
+    "slug": "correios-2011-operador-triagem",
+    "number": 26,
+    "subject": "Matemática",
+    "text": "Considere que, das correspondências que um carteiro deveria entregar em determinado dia, foram entregues pela manhã, à tarde e 14 ficaram para ser entregues no dia seguinte. Nessa situação, a quantidade de correspondências entregue pelo carteiro naquele dia foi igual a",
+    "support": "",
+    "support_image": "",
+    "options": [
+      "98.",
+      "112.",
+      "26.",
+      "66.",
+      "82."
+    ],
+    "answer": "D",
+    "explanation": "Gabarito definitivo do CESPE/UnB, Correios 2011, Tipo I: alternativa D.",
+    "page": 7,
+    "rect": [
+      25.0,
+      63.351715087890625,
+      305.17999267578125,
+      222.91168212890625
+    ],
+    "images": [],
+    "raw": "Considere que, das correspondências que um carteiro deveria\n\nentregar em determinado dia,   foram entregues pela manhã,   à\n\ntarde e 14 ficaram para ser entregues no dia seguinte. Nessa\nsituação, a quantidade de correspondências entregue pelo carteiro\nnaquele dia foi igual a\n\nA  98.\nB  112.\nC  26.\nD  66.\nE  82."
+  },
+  {
+    "slug": "correios-2011-operador-triagem",
+    "number": 27,
+    "subject": "Matemática",
+    "text": "Estima-se que, em uma agência dos Correios, um grupo de 6 funcionários igualmente eficientes atenda 100 clientes em 45 minutos. Nessa situação, se outros 4 funcionários, com a mesma eficiência dos primeiros, forem adicionados ao grupo, então essas 100 pessoas serão atendidas em",
+    "support": "",
+    "support_image": "",
+    "options": [
+      "27 minutos.",
+      "30 minutos.",
+      "35 minutos.",
+      "40 minutos.",
+      "18 minutos."
+    ],
+    "answer": "A",
+    "explanation": "Gabarito definitivo do CESPE/UnB, Correios 2011, Tipo I: alternativa A.",
+    "page": 7,
+    "rect": [
+      25.0,
+      233.87167358398438,
+      305.17999267578125,
+      381.43170166015625
+    ],
+    "images": [],
+    "raw": "Estima-se que, em uma agência dos Correios, um grupo de\n6 funcionários igualmente eficientes atenda 100 clientes em\n45 minutos. Nessa situação, se outros 4 funcionários, com a\nmesma eficiência dos primeiros, forem adicionados ao grupo,\nentão essas 100 pessoas serão atendidas em\n\nA  27 minutos.\nB  30 minutos.\nC  35 minutos.\nD  40 minutos.\nE  18 minutos."
+  },
+  {
+    "slug": "correios-2011-operador-triagem",
+    "number": 28,
+    "subject": "Matemática",
+    "text": "Considerando-se que duas caixas, A e B, tenham, ambas, a forma de um paralelepípedo retângulo, que a caixa A tenha arestas que meçam 27 cm, 18 cm e 9 cm, e a caixa B tenha arestas medindo o dobro das arestas da caixa A, é correto afirmar que o volume da caixa B corresponde a",
+    "support": "",
+    "support_image": "",
+    "options": [
+      "8 vezes o volume da caixa A.",
+      "2 vezes o volume da caixa A.",
+      "3 vezes o volume da caixa A.",
+      "4 vezes o volume da caixa A.",
+      "6 vezes o volume da caixa A."
+    ],
+    "answer": "A",
+    "explanation": "Gabarito definitivo do CESPE/UnB, Correios 2011, Tipo I: alternativa A.",
+    "page": 7,
+    "rect": [
+      25.0,
+      392.3916931152344,
+      305.17999267578125,
+      534.2896118164062
+    ],
+    "images": [],
+    "raw": "Considerando-se que duas caixas, A e B, tenham, ambas, a forma\nde um paralelepípedo retângulo, que a caixa A tenha arestas que\nmeçam 27 cm, 18 cm e 9 cm, e a caixa B tenha arestas medindo o\ndobro das arestas da caixa A, é correto afirmar que o volume da\ncaixa B corresponde a\n\nA  8 vezes o volume da caixa A.\nB  2 vezes o volume da caixa A.\nC  3 vezes o volume da caixa A.\nD  4 vezes o volume da caixa A.\nE  6 vezes o volume da caixa A."
+  },
+  {
+    "slug": "correios-2011-operador-triagem",
+    "number": 29,
+    "subject": "Matemática",
+    "text": "Com base na situação descrita no texto, é correto afirmar que, se um boleto da referida rede de lojas, com valor de face de R$ 650,00, for pago com 10 dias úteis de atraso, o valor a ser pago será igual a",
+    "support": "Em convênio firmado com o Banco Postal, uma rede de\nlojas autorizou esse estabelecimento a receber pagamentos de\nboletos de clientes da rede. Nos termos do referido convênio, o\nbanco deve cobrar juros simples de 1% a cada dia útil de atraso no\npagamento e usar essa mesma taxa para desconto sobre o valor no\nboleto, denominado valor de face, para cada dia útil de pagamento\nantecipado.",
+    "support_image": "",
+    "options": [
+      "R$ 660,00.",
+      "R$ 715,00.",
+      "R$ 718,00.",
+      "R$ 651,00.",
+      "R$ 656,50."
+    ],
+    "answer": "B",
+    "explanation": "Gabarito definitivo do CESPE/UnB, Correios 2011, Tipo I: alternativa B.",
+    "page": 7,
+    "rect": [
+      25.0,
+      657.9517211914062,
+      305.17999267578125,
+      802.0
+    ],
+    "images": [],
+    "raw": "Com base na situação descrita no texto, é correto afirmar que, se\num boleto da referida rede de lojas, com valor de face de\nR$ 650,00, for pago com 10 dias úteis de atraso, o valor a ser pago\nserá igual a\n\nA  R$ 660,00.\nB  R$ 715,00.\nC  R$ 718,00.\nD  R$ 651,00.\nE  R$ 656,50.",
+    "shared": {
+      "text": "Em convênio firmado com o Banco Postal, uma rede de\nlojas autorizou esse estabelecimento a receber pagamentos de\nboletos de clientes da rede. Nos termos do referido convênio, o\nbanco deve cobrar juros simples de 1% a cada dia útil de atraso no\npagamento e usar essa mesma taxa para desconto sobre o valor no\nboleto, denominado valor de face, para cada dia útil de pagamento\nantecipado.",
+      "page": 7,
+      "images": []
+    }
+  },
+  {
+    "slug": "correios-2011-operador-triagem",
+    "number": 30,
+    "subject": "Matemática",
+    "text": "De acordo com as informações do texto, se um boleto com valor de face de R$ 150,00 for pago 6 dias úteis antes do vencimento, o valor a ser pago será igual a",
+    "support": "Em convênio firmado com o Banco Postal, uma rede de\nlojas autorizou esse estabelecimento a receber pagamentos de\nboletos de clientes da rede. Nos termos do referido convênio, o\nbanco deve cobrar juros simples de 1% a cada dia útil de atraso no\npagamento e usar essa mesma taxa para desconto sobre o valor no\nboleto, denominado valor de face, para cada dia útil de pagamento\nantecipado.",
+    "support_image": "",
+    "options": [
+      "R$ 141,00.",
+      "R$ 141,50.",
+      "R$ 144,00.",
+      "R$ 149,00.",
+      "R$ 138,00."
+    ],
+    "answer": "A",
+    "explanation": "Gabarito definitivo do CESPE/UnB, Correios 2011, Tipo I: alternativa A.",
+    "page": 7,
+    "rect": [
+      305.17999267578125,
+      63.351715087890625,
+      570.0,
+      802.0
+    ],
+    "images": [],
+    "raw": "De acordo com as informações do texto, se um boleto com valor\nde face de R$ 150,00 for pago 6 dias úteis antes do vencimento,\no valor a ser pago será igual a\n\nA  R$ 141,00.\nB  R$ 141,50.\nC  R$ 144,00.\nD  R$ 149,00.\nE  R$ 138,00.",
+    "shared": {
+      "text": "Em convênio firmado com o Banco Postal, uma rede de\nlojas autorizou esse estabelecimento a receber pagamentos de\nboletos de clientes da rede. Nos termos do referido convênio, o\nbanco deve cobrar juros simples de 1% a cada dia útil de atraso no\npagamento e usar essa mesma taxa para desconto sobre o valor no\nboleto, denominado valor de face, para cada dia útil de pagamento\nantecipado.",
+      "page": 7,
+      "images": []
+    }
+  },
+  {
+    "slug": "correios-2011-operador-triagem",
+    "number": 31,
+    "subject": "Matemática",
+    "text": "Craque aposentado Ronaldo, o Fenômeno, está certo em parar agora? Sim: 84% Não: 16% Enquete em Veja.com. In: Veja, 23/2/2011, p. 38 (com adaptações). Essa enquete está representada no diagrama retangular de 12 cm de altura, ilustrado abaixo, em que x corresponde ao comprimento da base do retângulo que representa os entrevistados que responderam sim à pergunta; o comprimento da base do retângulo correspondente aos entrevistados que responderam não à pergunta é igual a 4 cm. não sim 12 cm 4 cm x cm Com base nesses dados, é correto afirmar que o valor de x é",
+    "support": "",
+    "support_image": "",
+    "options": [
+      "superior a 26 e inferior a 29.",
+      "superior a 29.",
+      "inferior a 20.",
+      "superior a 20 e inferior a 23.",
+      "superior a 23 e inferior a 26."
+    ],
+    "answer": "D",
+    "explanation": "Gabarito definitivo do CESPE/UnB, Correios 2011, Tipo I: alternativa D.",
+    "page": 8,
+    "rect": [
+      25.0,
+      63.351715087890625,
+      305.17999267578125,
+      524.6892700195312
+    ],
+    "images": [],
+    "raw": "Craque aposentado\n\n\n        Ronaldo, o Fenômeno, está certo em parar agora?\n\n\n                Sim: 84%     Não: 16%\n\n\n\n                                 Enquete em Veja.com. In: Veja, 23/2/2011, p. 38 (com adaptações).\n\n\n        Essa enquete está representada no diagrama retangular de\n12 cm de altura, ilustrado abaixo, em que x corresponde ao\n\ncomprimento da base do retângulo que representa os entrevistados\n\nque responderam sim à pergunta; o comprimento da base do\n\nretângulo correspondente aos entrevistados que responderam não\n\nà pergunta é igual a 4 cm.\n\n\n\n\n           não          sim              12 cm\n\n\n                  4 cm                     x cm\n\n\nCom base nesses dados, é correto afirmar que o valor de x é\n\n\nA  superior a 26 e inferior a 29.\n\nB  superior a 29.\n\nC   inferior a 20.\n\nD  superior a 20 e inferior a 23.\n\nE  superior a 23 e inferior a 26."
+  },
+  {
+    "slug": "correios-2011-operador-triagem",
+    "number": 32,
+    "subject": "Matemática",
+    "text": "Considere que, independentemente de outros fatores, os valores de tarifa cobrada sobre o valor declarado e o valor declarado sejam números diretamente proporcionais. Nesse caso, se um cidadão paga R$ 180,35 ao postar uma correspondência com valor declarado de R$ 1.500,00, em uma caixa de encomenda idêntica à citada no texto, com o mesmo valor do aviso de recebimento, com a mesma origem e o mesmo destino, o valor do frete é",
+    "support": "Cálculo de preços e prazos de entrega\n\n\n\n\n\n                            Origem                 Destino\n\nCEP:                    XXXXX–XXX          YYYYYY–YYY\n\nEndereço                   A                  Rua B\n\nBairro                    C                D\n\nCidade/UF                   E               G\n\nPrazo de entrega        dia da postagem + 2 dias úteis\n\nValor do frete        R$ 136,90\n\n                         aviso de recebimento: R$ 2,80\nServiços opcionais      valor declarado: R$ 1.200,00 – Tarifa: R$ 11,00\n                         caixa de encomenda (54 cm x 36 cm x 27 cm): R$ 14,45\n\nValor total          R$ 165,15\n\n                                 Figura  adaptada, com informações  hipotéticas, em um simulador\n                              de  preços  e  prazos  de  entrega, no  sítio  www.correios.com.br.",
+    "support_image": "",
+    "options": [
+      "superior a R$ 150,00 e inferior a R$ 155,00.",
+      "superior a R$ 155,00 e inferior a R$ 160,00.",
+      "superior a R$ 160,00 e inferior a R$ 165,00.",
+      "superior a R$ 165,00.",
+      "inferior a R$ 150,00."
+    ],
+    "answer": "E",
+    "explanation": "Gabarito definitivo do CESPE/UnB, Correios 2011, Tipo I: alternativa E.",
+    "page": 8,
+    "rect": [
+      305.17999267578125,
+      63.351715087890625,
+      570.0,
+      233.71173095703125
+    ],
+    "images": [],
+    "raw": "Considere que, independentemente de outros fatores, os valores de\ntarifa cobrada sobre o valor declarado e o valor declarado sejam\nnúmeros diretamente proporcionais. Nesse caso, se um cidadão\npaga R$ 180,35 ao postar uma correspondência com valor\ndeclarado de R$ 1.500,00, em uma caixa de encomenda idêntica\nà citada no texto, com o mesmo valor do aviso de recebimento,\ncom a mesma origem e o mesmo destino, o valor do frete é\n\nA  superior a R$ 150,00 e inferior a R$ 155,00.\nB  superior a R$ 155,00 e inferior a R$ 160,00.\nC  superior a R$ 160,00 e inferior a R$ 165,00.\nD  superior a R$ 165,00.\nE   inferior a R$ 150,00.",
+    "shared": {
+      "text": "Cálculo de preços e prazos de entrega\n\n\n\n\n\n                            Origem                 Destino\n\nCEP:                    XXXXX–XXX          YYYYYY–YYY\n\nEndereço                   A                  Rua B\n\nBairro                    C                D\n\nCidade/UF                   E               G\n\nPrazo de entrega        dia da postagem + 2 dias úteis\n\nValor do frete        R$ 136,90\n\n                         aviso de recebimento: R$ 2,80\nServiços opcionais      valor declarado: R$ 1.200,00 – Tarifa: R$ 11,00\n                         caixa de encomenda (54 cm x 36 cm x 27 cm): R$ 14,45\n\nValor total          R$ 165,15\n\n                                 Figura  adaptada, com informações  hipotéticas, em um simulador\n                              de  preços  e  prazos  de  entrega, no  sítio  www.correios.com.br.",
+      "page": 8,
+      "images": [
+        [
+          197.27999877929688,
+          579.2400512695312,
+          245.76300048828125,
+          596.280029296875
+        ],
+        [
+          244.44000244140625,
+          579.2400512695312,
+          283.1310119628906,
+          596.280029296875
+        ],
+        [
+          132.72000122070312,
+          601.9199829101562,
+          182.23300170898438,
+          618.8399658203125
+        ]
+      ]
+    }
+  },
+  {
+    "slug": "correios-2011-operador-triagem",
+    "number": 33,
+    "subject": "Matemática",
+    "text": "Se a caixa de encomenda citada no texto tiver a forma de um paralelepípedo retângulo, cujas arestas tenham as medidas apresentadas, então a área lateral dessa caixa será igual a",
+    "support": "Cálculo de preços e prazos de entrega\n\n\n\n\n\n                            Origem                 Destino\n\nCEP:                    XXXXX–XXX          YYYYYY–YYY\n\nEndereço                   A                  Rua B\n\nBairro                    C                D\n\nCidade/UF                   E               G\n\nPrazo de entrega        dia da postagem + 2 dias úteis\n\nValor do frete        R$ 136,90\n\n                         aviso de recebimento: R$ 2,80\nServiços opcionais      valor declarado: R$ 1.200,00 – Tarifa: R$ 11,00\n                         caixa de encomenda (54 cm x 36 cm x 27 cm): R$ 14,45\n\nValor total          R$ 165,15\n\n                                 Figura  adaptada, com informações  hipotéticas, em um simulador\n                              de  preços  e  prazos  de  entrega, no  sítio  www.correios.com.br.",
+    "support_image": "",
+    "options": [
+      "0,008748 m2.",
+      "87,48 dm2.",
+      "8.748.000 mm2.",
+      "87.480 cm2.",
+      "0,08748 m2."
+    ],
+    "answer": "ANULADA",
+    "explanation": "Gabarito definitivo do CESPE/UnB, Correios 2011, Tipo I: questão anulada.",
+    "page": 8,
+    "rect": [
+      305.17999267578125,
+      244.67172241210938,
+      570.0,
+      802.0
+    ],
+    "images": [],
+    "raw": "Se a caixa de encomenda citada no texto tiver a forma de um\nparalelepípedo  retângulo,  cujas  arestas tenham  as medidas\napresentadas, então a área lateral dessa caixa será igual a\n\nA  0,008748 m2.\nB  87,48 dm2.\nC  8.748.000 mm2.\nD  87.480 cm2.\nE  0,08748 m2.",
+    "shared": {
+      "text": "Cálculo de preços e prazos de entrega\n\n\n\n\n\n                            Origem                 Destino\n\nCEP:                    XXXXX–XXX          YYYYYY–YYY\n\nEndereço                   A                  Rua B\n\nBairro                    C                D\n\nCidade/UF                   E               G\n\nPrazo de entrega        dia da postagem + 2 dias úteis\n\nValor do frete        R$ 136,90\n\n                         aviso de recebimento: R$ 2,80\nServiços opcionais      valor declarado: R$ 1.200,00 – Tarifa: R$ 11,00\n                         caixa de encomenda (54 cm x 36 cm x 27 cm): R$ 14,45\n\nValor total          R$ 165,15\n\n                                 Figura  adaptada, com informações  hipotéticas, em um simulador\n                              de  preços  e  prazos  de  entrega, no  sítio  www.correios.com.br.",
+      "page": 8,
+      "images": [
+        [
+          197.27999877929688,
+          579.2400512695312,
+          245.76300048828125,
+          596.280029296875
+        ],
+        [
+          244.44000244140625,
+          579.2400512695312,
+          283.1310119628906,
+          596.280029296875
+        ],
+        [
+          132.72000122070312,
+          601.9199829101562,
+          182.23300170898438,
+          618.8399658203125
+        ]
+      ]
+    }
+  },
+  {
+    "slug": "correios-2011-operador-triagem",
+    "number": 34,
+    "subject": "Matemática",
+    "text": "Em determinado dia, todas as correspondências recebidas na agência dos Correios da cidade Alfa destinavam-se apenas a moradores dos bairros X, Y e Z. Ao bairro X foi destinada metade das correspondências recebidas na agência menos 30 correspondências; ao bairro Y foi destinada a terça parte das correspondências restantes, isto é, depois de retiradas as do bairro X, e mais 70 correspondências; o bairro Z recebeu 180 correspondências. O total de correspondências recebidas, nesse dia, na agência dos Correios da cidade Alfa foi",
+    "support": "",
+    "support_image": "",
+    "options": [
+      "superior a 680 e inferior a 700.",
+      "superior a 700 e inferior a 720.",
+      "superior a 720.",
+      "inferior a 660.",
+      "superior a 660 e inferior a 680."
+    ],
+    "answer": "A",
+    "explanation": "Gabarito definitivo do CESPE/UnB, Correios 2011, Tipo I: alternativa A.",
+    "page": 9,
+    "rect": [
+      25.0,
+      63.351715087890625,
+      595.0,
+      274.6317138671875
+    ],
+    "images": [],
+    "raw": "Em determinado dia, todas as correspondências recebidas\nna agência dos Correios da cidade Alfa destinavam-se apenas a\nmoradores dos bairros X, Y e Z. Ao bairro X foi destinada metade\ndas  correspondências  recebidas  na  agência  menos\n30 correspondências; ao bairro Y foi destinada a terça parte das\ncorrespondências restantes, isto é, depois de retiradas as do\nbairro X, e mais 70 correspondências; o bairro Z recebeu\n180 correspondências.\n\nO total de correspondências recebidas, nesse dia, na agência dos\nCorreios da cidade Alfa foi\n\nA  superior a 680 e inferior a 700.\nB  superior a 700 e inferior a 720.\nC  superior a 720.\nD   inferior a 660.\nE  superior a 660 e inferior a 680."
+  },
+  {
+    "slug": "correios-2011-operador-triagem",
+    "number": 35,
+    "subject": "Matemática",
+    "text": "Na compra de 2 frascos de tira-manchas, cada um deles ao custo de R$ 9,00; 6 frascos de limpador multiuso, cada um deles ao custo de R$ 2,00; 4 litros de desinfetante, cada um deles ao custo de R$ 1,50; e de 6 unidades de esponja dupla face, cada uma delas ao custo de R$ 2,00; um cliente pagou com 3 notas de R$ 20,00, tendo recebido R$ 19,20 de troco. Nesse caso, o cliente recebeu desconto de",
+    "support": "",
+    "support_image": "",
+    "options": [
+      "13%.",
+      "14%.",
+      "15%.",
+      "16%.",
+      "12%."
+    ],
+    "answer": "C",
+    "explanation": "Gabarito definitivo do CESPE/UnB, Correios 2011, Tipo I: alternativa C.",
+    "page": 9,
+    "rect": [
+      25.0,
+      285.5917053222656,
+      595.0,
+      462.55169677734375
+    ],
+    "images": [],
+    "raw": "Na compra de 2 frascos de tira-manchas, cada um deles\nao custo de R$ 9,00; 6 frascos de limpador multiuso, cada um\ndeles ao custo de R$ 2,00; 4 litros de desinfetante, cada um deles\nao custo de R$ 1,50; e de 6 unidades de esponja dupla face, cada\numa delas ao custo de R$ 2,00; um cliente pagou com 3 notas de\nR$ 20,00, tendo recebido R$ 19,20 de troco.\n\nNesse caso, o cliente recebeu desconto de\n\nA  13%.\nB  14%.\nC  15%.\nD  16%.\nE  12%."
+  },
+  {
+    "slug": "correios-2011-operador-triagem",
+    "number": 36,
+    "subject": "Matemática",
+    "text": "Vários jornais e revistas anunciaram, nos últimos meses, que o preço do quilo de picanha, corte preferido para o preparo de um bom churrasco, subiu 42%. Nesse caso, se um consumidor de picanha decidir manter o mesmo gasto mensal com a compra desse alimento, ele deverá diminuir o consumo em",
+    "support": "",
+    "support_image": "",
+    "options": [
+      "mais de 40% e menos de 44%.",
+      "mais de 44% e menos de 48%.",
+      "mais de 28% e menos de 32%.",
+      "mais de 32% e menos de 36%.",
+      "mais de 36% e menos de 40%."
+    ],
+    "answer": "C",
+    "explanation": "Gabarito definitivo do CESPE/UnB, Correios 2011, Tipo I: alternativa C.",
+    "page": 9,
+    "rect": [
+      25.0,
+      473.5116882324219,
+      595.0,
+      639.1917114257812
+    ],
+    "images": [],
+    "raw": "Vários jornais e revistas anunciaram, nos últimos meses,\nque o preço do quilo de picanha, corte preferido para o preparo de\num bom churrasco, subiu 42%.\n\nNesse caso, se um consumidor de picanha decidir manter o mesmo\ngasto mensal com a compra desse alimento, ele deverá diminuir o\nconsumo em\n\nA  mais de 40% e menos de 44%.\nB  mais de 44% e menos de 48%.\nC  mais de 28% e menos de 32%.\nD  mais de 32% e menos de 36%.\nE  mais de 36% e menos de 40%."
+  },
+  {
+    "slug": "correios-2011-operador-triagem",
+    "number": 37,
+    "subject": "Matemática",
+    "text": "Considere que, em um investimento em caderneta de poupança, a taxa de juros seja de 0,6% ao mês. Nesse caso, se uma pessoa depositar R$ 1.000,00 em uma conta de poupança no dia 1.o/6/2011 e não fizer nenhuma retirada, o montante, no aniversário de dois meses desse depósito, será",
+    "support": "",
+    "support_image": "",
+    "options": [
+      "superior a R$ 1.014,00 e inferior a R$ 1.015,00.",
+      "superior a R$ 1.015,00 e inferior a R$ 1.016,00.",
+      "superior a R$ 1.016,00.",
+      "inferior a R$ 1.013,00.",
+      "superior a R$ 1.013,00 e inferior a R$ 1.014,00."
+    ],
+    "answer": "D",
+    "explanation": "Gabarito definitivo do CESPE/UnB, Correios 2011, Tipo I: alternativa D.",
+    "page": 9,
+    "rect": [
+      25.0,
+      650.1517333984375,
+      595.0,
+      802.0
+    ],
+    "images": [],
+    "raw": "Considere que, em um investimento em caderneta de poupança, a\ntaxa de juros seja de 0,6% ao mês. Nesse caso, se uma pessoa\ndepositar R$ 1.000,00 em uma conta de poupança no dia\n1.o/6/2011  e não  fizer nenhuma  retirada, o  montante, no\naniversário de dois meses desse depósito, será\n\nA  superior a R$ 1.014,00 e inferior a R$ 1.015,00.\nB  superior a R$ 1.015,00 e inferior a R$ 1.016,00.\nC  superior a R$ 1.016,00.\nD   inferior a R$ 1.013,00.\nE  superior a R$ 1.013,00 e inferior a R$ 1.014,00."
+  },
+  {
+    "slug": "correios-2011-operador-triagem",
+    "number": 38,
+    "subject": "Matemática",
+    "text": "Considere que sejam cobrados R$ 5,00 para o envio de uma carta comercial simples e uma carta comercial registrada, ambas de até 20 g, e R$ 11,10 para o envio de 3 cartas comerciais simples e 2 registradas, todas de até 20 g. Nessa situação, a diferença entre o preço cobrado para o envio de uma carta comercial registrada e o cobrado para o envio de uma carta comercial simples, ambas de até 20 g, é de",
+    "support": "",
+    "support_image": "",
+    "options": [
+      "R$ 2,60.",
+      "R$ 2,70.",
+      "R$ 2,80.",
+      "R$ 2,90.",
+      "R$ 2,50."
+    ],
+    "answer": "C",
+    "explanation": "Gabarito definitivo do CESPE/UnB, Correios 2011, Tipo I: alternativa C.",
+    "page": 10,
+    "rect": [
+      25.0,
+      63.351715087890625,
+      595.0,
+      225.55169677734375
+    ],
+    "images": [],
+    "raw": "Considere que sejam cobrados R$ 5,00 para o envio de uma carta\ncomercial simples e uma carta comercial registrada, ambas de até\n20 g, e R$ 11,10 para o envio de 3 cartas comerciais simples e\n2 registradas, todas de até 20 g. Nessa situação, a diferença entre\no preço cobrado para o envio de uma carta comercial registrada e\no cobrado para o envio de uma carta comercial simples, ambas de\naté 20 g, é de\n\nA  R$ 2,60.\nB  R$ 2,70.\nC  R$ 2,80.\nD  R$ 2,90.\nE  R$ 2,50."
+  },
+  {
+    "slug": "correios-2011-operador-triagem",
+    "number": 39,
+    "subject": "Matemática",
+    "text": "10 m 6 m 10 m 6 m 2 m 6 m Sabendo-se que todos os ângulos dos vértices do terreno ilustrado na figura acima medem 90o e que o metro quadrado do terreno custa R$ 120,00, é correto afirmar que o preço desse terreno é",
+    "support": "",
+    "support_image": "",
+    "options": [
+      "superior a R$ 9.900,00 e inferior a R$ 10.100,00.",
+      "superior a R$ 10.100,00.",
+      "inferior a R$ 9.500,00.",
+      "superior a R$ 9.500,00 e inferior a R$ 9.700,00.",
+      "superior a R$ 9.700,00 e inferior a R$ 9.900,00."
+    ],
+    "answer": "D",
+    "explanation": "Gabarito definitivo do CESPE/UnB, Correios 2011, Tipo I: alternativa D.",
+    "page": 10,
+    "rect": [
+      25.0,
+      236.51168823242188,
+      595.0,
+      544.51171875
+    ],
+    "images": [],
+    "raw": "10 m\n\n\n\n\n\n                                                6 m\n\n\n\n       10 m\n                                   6 m\n\n\n\n\n\n                                   2 m\n\n\n                     6 m\n\nSabendo-se que todos os ângulos dos vértices do terreno ilustrado\nna figura acima medem 90o e que o metro quadrado do terreno\ncusta R$ 120,00, é correto afirmar que o preço desse terreno é\n\nA  superior a R$ 9.900,00 e inferior a R$ 10.100,00.\nB  superior a R$ 10.100,00.\nC   inferior a R$ 9.500,00.\nD  superior a R$ 9.500,00 e inferior a R$ 9.700,00.\nE  superior a R$ 9.700,00 e inferior a R$ 9.900,00."
+  },
+  {
+    "slug": "correios-2011-operador-triagem",
+    "number": 40,
+    "subject": "Matemática",
+    "text": "As remunerações brutas mensais — isto é, sem qualquer desconto — dos empregados de determinada empresa são calculadas com base na soma das seguintes quantidades: • salário fixo, no valor de R$ 2.400,00, correspondente a 160 horas trabalhadas no mês; • horas extras, definidas como a remuneração correspondente à quantidade de horas e(ou) fração de hora que ultrapassar as 160 horas exigidas, multiplicada pelo valor de cada hora completa, que é igual a R$ 15,00. Com base nessa situação hipotética e considerando-se que, em determinado mês, a remuneração bruta de um empregado dessa empresa foi igual a R$ 2.750,00, é correto afirmar que, nesse mês, esse empregado trabalhou durante 183 horas e",
+    "support": "",
+    "support_image": "",
+    "options": [
+      "20 minutos.",
+      "25 minutos.",
+      "30 minutos.",
+      "10 minutos.",
+      "15 minutos."
+    ],
+    "answer": "A",
+    "explanation": "Gabarito definitivo do CESPE/UnB, Correios 2011, Tipo I: alternativa A.",
+    "page": 10,
+    "rect": [
+      25.0,
+      555.4717407226562,
+      595.0,
+      802.0
+    ],
+    "images": [],
+    "raw": "As remunerações brutas mensais — isto é, sem qualquer\ndesconto — dos empregados de determinada empresa são\ncalculadas com base na soma das seguintes quantidades:\n•    salário fixo, no valor de R$ 2.400,00, correspondente a\n    160 horas trabalhadas no mês;\n•   horas extras, definidas como a remuneração correspondente\n    à quantidade de horas e(ou) fração de hora que ultrapassar as\n    160 horas exigidas, multiplicada pelo valor de cada hora\n    completa, que é igual a R$ 15,00.\nCom base nessa situação hipotética e considerando-se que, em\ndeterminado mês, a remuneração bruta de um empregado dessa\nempresa foi igual a R$ 2.750,00, é correto afirmar que, nesse mês,\nesse empregado trabalhou durante 183 horas e\n\nA  20 minutos.\nB  25 minutos.\nC  30 minutos.\nD  10 minutos.\nE  15 minutos."
+  },
+  {
+    "slug": "correios-2011-operador-triagem",
+    "number": 41,
+    "subject": "Língua Portuguesa",
+    "text": "Quem observa a trajetória dos Correios brasileiros há de notar dois movimentos de sentidos opostos que se completam entre si: um de reforma, outro de preservação; um conectado aos vertiginosos avanços das comunicações do mundo globalizado; outro voltado para a conservação da memória nacional e do valioso patrimônio arquitetônico e cultural que lhes serve de suporte. Afinal, não é toda empresa que tem atrás de si um passado de mais de três séculos e meio de história. A preocupação dos Correios em preservar um patrimônio histórico, que é de todo o povo brasileiro, revela-se por meio da restauração e reforma de seus prédios em diversas capitais brasileiras, transformando-os em importantes centros de preservação e promoção cultural. Internet: <www.correios.com.br> (com adaptações). Depreende-se das ideias do texto que os Correios brasileiros",
+    "support": "",
+    "support_image": "",
+    "options": [
+      "preenchem a lacuna deixada pelo povo brasileiro, que não se importa com a conservação dos prédios de seu país.",
+      "ignoram os avanços das comunicações do mundo globalizado.",
+      "procuram constante substituição do seu patrimônio arquitetônico por prédios mais modernos.",
+      "têm uma história de mais de 350 anos.",
+      "efetuam dois movimentos contraditórios: conservação da memória e promoção cultural."
+    ],
+    "answer": "D",
+    "explanation": "Gabarito definitivo do CESPE/UnB, Correios 2011, Tipo I: alternativa D.",
+    "page": 11,
+    "rect": [
+      25.0,
+      81.11172485351562,
+      300.6199951171875,
+      476.1116943359375
+    ],
+    "images": [],
+    "raw": "Quem observa a trajetória dos Correios brasileiros há de\nnotar dois movimentos de sentidos opostos que se completam entre\nsi: um de reforma, outro de preservação; um conectado aos\nvertiginosos avanços das comunicações do mundo globalizado;\noutro voltado para a conservação da memória nacional e do valioso\npatrimônio arquitetônico e cultural que lhes serve de suporte.\nAfinal, não é toda empresa que tem atrás de si um passado de mais\nde três séculos e meio de história.\n     A preocupação dos Correios em preservar um patrimônio\nhistórico, que é de todo o povo brasileiro, revela-se por meio da\nrestauração e reforma de seus prédios em  diversas  capitais\nbrasileiras,  transformando-os  em  importantes  centros  de\npreservação e promoção cultural.\n\n\n\n                                                            Internet: <www.correios.com.br> (com adaptações).\n\n\nDepreende-se das ideias do texto que os Correios brasileiros\n\n\nA  preenchem a lacuna deixada pelo povo brasileiro, que não se\n    importa com a conservação dos prédios de seu país.\n\nB  ignoram os avanços das comunicações do mundo globalizado.\n\nC  procuram   constante   substituição  do  seu  patrimônio\n     arquitetônico por prédios mais modernos.\n\nD  têm uma história de mais de 350 anos.\n\nE  efetuam dois movimentos  contraditórios: conservação da\n    memória e promoção cultural."
+  },
+  {
+    "slug": "correios-2011-operador-triagem",
+    "number": 42,
+    "subject": "Língua Portuguesa",
+    "text": "1 Em menos de um mês de campanha, os Correios arrecadaram 103 toneladas de donativos para as vítimas das enchentes no Rio de Janeiro. A campanha Correios 4 Solidariedade Expressa, iniciada em 24 de janeiro, encerrou-se em 16 de fevereiro. Nesse período, as agências dos Correios de todo o Brasil aceitaram a postagem gratuita de donativos: 7 alimentos não perecíveis, vestuário, roupas de cama, mesa e banho, calçados, tendas e barracas. Os produtos foram encaminhados à Defesa Civil do Rio de Janeiro. Idem, ibidem. As vírgulas nas linhas 7 e 8 são empregadas para separar",
+    "support": "",
+    "support_image": "",
+    "options": [
+      "substantivos comuns que funcionam como sujeito.",
+      "termos de uma enumeração.",
+      "adjuntos adverbiais de modo.",
+      "palavras que complementam o sentido do substantivo “postagem” (R.6).",
+      "palavras que exercem função de aposto."
+    ],
+    "answer": "ANULADA",
+    "explanation": "Gabarito definitivo do CESPE/UnB, Correios 2011, Tipo I: questão anulada.",
+    "page": 11,
+    "rect": [
+      25.0,
+      487.0716857910156,
+      300.6199951171875,
+      802.0
+    ],
+    "images": [],
+    "raw": "1      Em menos de um mês de campanha, os Correios\n    arrecadaram 103 toneladas de donativos para as vítimas das\n    enchentes  no  Rio  de  Janeiro. A  campanha  Correios\n  4  Solidariedade Expressa, iniciada em 24 de janeiro, encerrou-se\n   em 16 de fevereiro. Nesse período, as agências dos Correios de\n    todo o Brasil aceitaram a postagem gratuita de donativos:\n  7  alimentos não perecíveis, vestuário, roupas de cama, mesa e\n    banho,  calçados,  tendas e  barracas. Os produtos foram\n    encaminhados à Defesa Civil do Rio de Janeiro.\n\n\n                                                                                     Idem, ibidem.\n\n\nAs vírgulas nas linhas 7 e 8 são empregadas para separar\n\n\nA  substantivos comuns que funcionam como sujeito.\n\nB  termos de uma enumeração.\n\nC  adjuntos adverbiais de modo.\n\nD  palavras  que  complementam  o  sentido  do  substantivo\n    “postagem” (R.6).\n\nE  palavras que exercem função de aposto."
+  },
+  {
+    "slug": "correios-2011-operador-triagem",
+    "number": 43,
+    "subject": "Língua Portuguesa",
+    "text": "1 O transcorrer da história postal corresponde à crescente transformação histórica do próprio país, razão pela qual conhecer os principais fatos ligados à implementação e ao 4 aperfeiçoamento dos serviços postais fornece um panorama do desenvolvimento histórico brasileiro. Idem, ibidem. Emprega-se o sinal indicativo de crase em “corresponde à crescente transformação histórica” (R.1-2) porque",
+    "support": "",
+    "support_image": "",
+    "options": [
+      "a expressão “história postal” (R.1) exige complemento antecedido por artigo definido feminino.",
+      "a forma verbal “corresponde” exige complemento regido da preposição a, e a expressão que a complementa é precedida do artigo definido a.",
+      "a expressão “transformação histórica” deve ser imediatamente precedida da preposição a.",
+      "a forma verbal “transcorrer” exige complemento regido da preposição a.",
+      "a forma verbal “transcorrer” (R.1) foi transformada em substantivo pela anteposição do artigo “O”."
+    ],
+    "answer": "B",
+    "explanation": "Gabarito definitivo do CESPE/UnB, Correios 2011, Tipo I: alternativa B.",
+    "page": 11,
+    "rect": [
+      300.6199951171875,
+      81.11172485351562,
+      570.0,
+      357.31170654296875
+    ],
+    "images": [],
+    "raw": "1      O  transcorrer  da   história  postal  corresponde\n    à crescente transformação histórica do próprio país, razão pela\n    qual conhecer os principais fatos ligados à implementação e ao\n  4  aperfeiçoamento dos serviços postais fornece um panorama do\n    desenvolvimento histórico brasileiro.\n\n\n                                                                                     Idem, ibidem.\n\nEmprega-se o sinal indicativo de crase em “corresponde à crescente\ntransformação histórica” (R.1-2) porque\n\nA  a  expressão  “história  postal”  (R.1)  exige  complemento\n    antecedido por artigo definido feminino.\nB  a forma verbal “corresponde” exige complemento regido da\n    preposição a, e a expressão que a complementa é precedida do\n     artigo definido a.\nC  a expressão “transformação histórica” deve ser imediatamente\n    precedida da preposição a.\nD  a forma verbal “transcorrer” exige complemento regido da\n    preposição a.\nE  a forma  verbal  “transcorrer”  (R.1)  foi transformada em\n    substantivo pela anteposição do artigo “O”."
+  },
+  {
+    "slug": "correios-2011-operador-triagem",
+    "number": 44,
+    "subject": "Língua Portuguesa",
+    "text": "Nas opções a seguir, são apresentados trechos adaptados de texto extraído do sítio dos Correios na Internet. Assinale a opção em que o trecho está gramaticalmente correto.",
+    "support": "",
+    "support_image": "",
+    "options": [
+      "Com a chegada de Pedro Álvares Cabral ao Brasil, em 1500, surgiu a primeira correspondência oficial ligada ao país. Nessa carta, Pero Vaz de Caminha relatava ao rei de Portugal, com notório entusiasmo, o descortinar de uma nova terra. Com esse acontecimento, eternizado na história brasileira, estava sendo escrita a primeira página da história do correio no Brasil.",
+      "Os primórdios dos serviços postais no Brasil Colônia reporta ao correio de Portugal e à sua atuação nesse novo território. Durante os primeiros tempos da colonização, os portugueses não dispunha de um sistema postal bem organizado, tendo, às vezes, que recorrer ao de nações vizinhas.",
+      "Nem a criação do Correio-Mor das Cartas do Mar, em 1673, resolveram o problema de ligação postal entre a nova terra com a metrópole. Assim, a dificuldade na comunicação entre Portugal e o então Brasil Colônia fez com que fosse instituído, definitiva e oficialmente, em 1798, os Correios Marítimos. Anos depois, surgiu a necessidade de se promover a expansão desses serviços para o interior da Colônia.",
+      "O progresso comercial advindo da chegada da família real no novo mundo abriu caminhos afim de que o serviço postal se desenvolvesse. Esse fato permitiu a elaboração do primeiro Regulamento Postal do Brasil, o funcionamento regular dos Correios Marítimos e a emissão de novos decretos que criassem os Correios Interiores.",
+      "Com o retorno de D. João VI, a Portugal, houveram períodos bastantes conturbados, que culminou com a independência do Brasil em 1822, quando os Correios desempenhou o importante papel de trazerem informações do Velho Mundo e aglutinarem aqui as forças em prol do rompimento com Portugal."
+    ],
+    "answer": "A",
+    "explanation": "Gabarito definitivo do CESPE/UnB, Correios 2011, Tipo I: alternativa A.",
+    "page": 11,
+    "rect": [
+      300.6199951171875,
+      368.2716979980469,
+      570.0,
+      802.0
+    ],
+    "images": [],
+    "raw": "Nas opções a seguir, são apresentados trechos adaptados de texto\nextraído do sítio dos Correios na Internet. Assinale a opção em que\no trecho está gramaticalmente correto.\n\nA  Com a chegada de Pedro Álvares Cabral ao Brasil, em 1500,\n    surgiu a primeira correspondência oficial ligada ao país. Nessa\n     carta, Pero Vaz de Caminha relatava ao rei de Portugal, com\n    notório entusiasmo, o descortinar de uma nova terra. Com esse\n    acontecimento, eternizado na história brasileira, estava sendo\n     escrita a primeira página da história do correio no Brasil.\nB  Os primórdios dos serviços postais no Brasil Colônia reporta\n    ao correio de Portugal e à sua atuação nesse novo território.\n    Durante os primeiros tempos da colonização, os portugueses\n    não dispunha de um sistema postal bem organizado, tendo, às\n    vezes, que recorrer ao de nações vizinhas.\nC  Nem a criação do Correio-Mor das Cartas do Mar, em 1673,\n    resolveram o problema de ligação postal entre a nova terra com\n    a metrópole. Assim, a dificuldade na comunicação entre\n    Portugal e o então Brasil Colônia fez com que fosse instituído,\n     definitiva  e  oficialmente,  em  1798,  os  Correios\n    Marítimos. Anos depois, surgiu a necessidade de se promover\n    a expansão desses serviços para o interior da Colônia.\nD O progresso comercial advindo da chegada da família real no\n    novo mundo abriu caminhos afim de que o serviço postal se\n    desenvolvesse. Esse fato permitiu a elaboração do primeiro\n    Regulamento Postal do Brasil, o funcionamento regular dos\n    Correios Marítimos e a emissão de novos decretos que\n    criassem os Correios Interiores.\nE  Com o retorno de D. João VI, a Portugal, houveram períodos\n     bastantes conturbados, que culminou com a independência do\n     Brasil em  1822,  quando  os  Correios  desempenhou  o\n    importante papel de trazerem informações do Velho Mundo e\n    aglutinarem aqui as forças em prol do rompimento com\n     Portugal."
+  },
+  {
+    "slug": "correios-2011-operador-triagem",
+    "number": 45,
+    "subject": "Língua Portuguesa",
+    "text": "O texto permaneceria correto se a expressão “Foi estabelecido” (R.8) fosse substituída por",
+    "support": "1          Durante o período imperial, os Correios do Brasil\n   foram reorganizados, dando-se início ao processo de criação de\n   administrações de correios nas províncias. Sob as ordens de\n 4  D. Pedro II, as reformas postais instituíram o pagamento prévio\n   de franquia unificada, lançaram os primeiros selos postais,\n   criaram o quadro de carteiros, as caixas postais e de coleta e o\n 7  serviço de distribuição domiciliária de correspondência na\n    corte e nas províncias. Foi estabelecido o serviço telegráfico,\n   e o Brasil aderiu, por tratados, aos organismos internacionais\n10  de telecomunicações recém-criados.\n\n\n                                                                                    Idem, ibidem.",
+    "support_image": "",
+    "options": [
+      "Estabeleceriam-se.",
+      "Estabelecendo.",
+      "Estabeleceu-se.",
+      "Estabeleceram-se.",
+      "Estabelecer-se-iam."
+    ],
+    "answer": "C",
+    "explanation": "Gabarito definitivo do CESPE/UnB, Correios 2011, Tipo I: alternativa C.",
+    "page": 12,
+    "rect": [
+      25.0,
+      238.67172241210938,
+      300.6199951171875,
+      361.0317077636719
+    ],
+    "images": [],
+    "raw": "O texto permaneceria correto se a expressão “Foi estabelecido”\n(R.8) fosse substituída por\n\nA  Estabeleceriam-se.\nB  Estabelecendo.\nC  Estabeleceu-se.\nD  Estabeleceram-se.\nE  Estabelecer-se-iam.",
+    "shared": {
+      "text": "1          Durante o período imperial, os Correios do Brasil\n   foram reorganizados, dando-se início ao processo de criação de\n   administrações de correios nas províncias. Sob as ordens de\n 4  D. Pedro II, as reformas postais instituíram o pagamento prévio\n   de franquia unificada, lançaram os primeiros selos postais,\n   criaram o quadro de carteiros, as caixas postais e de coleta e o\n 7  serviço de distribuição domiciliária de correspondência na\n    corte e nas províncias. Foi estabelecido o serviço telegráfico,\n   e o Brasil aderiu, por tratados, aos organismos internacionais\n10  de telecomunicações recém-criados.\n\n\n                                                                                    Idem, ibidem.",
+      "page": 12,
+      "images": []
+    }
+  },
+  {
+    "slug": "correios-2011-operador-triagem",
+    "number": 46,
+    "subject": "Língua Portuguesa",
+    "text": "Com base nas informações do texto, assinale a opção correta.",
+    "support": "1          Durante o período imperial, os Correios do Brasil\n   foram reorganizados, dando-se início ao processo de criação de\n   administrações de correios nas províncias. Sob as ordens de\n 4  D. Pedro II, as reformas postais instituíram o pagamento prévio\n   de franquia unificada, lançaram os primeiros selos postais,\n   criaram o quadro de carteiros, as caixas postais e de coleta e o\n 7  serviço de distribuição domiciliária de correspondência na\n    corte e nas províncias. Foi estabelecido o serviço telegráfico,\n   e o Brasil aderiu, por tratados, aos organismos internacionais\n10  de telecomunicações recém-criados.\n\n\n                                                                                    Idem, ibidem.",
+    "support_image": "",
+    "options": [
+      "A criação, no Brasil, do quadro dos carteiros resultou das reformas postais implementadas ainda no período imperial.",
+      "As inovações no serviço de distribuição domiciliar de correspondência contribuíram para a autonomia das províncias brasileiras.",
+      "Embora os Correios brasileiros datem do período imperial, é recente a adesão do Brasil aos organismos internacionais de comunicações.",
+      "Com as reformas postais, surgiu o primeiro modelo de correspondência na corte portuguesa.",
+      "A criação do serviço telegráfico foi determinante para a adesão do Brasil aos organismos internacionais de comunicações."
+    ],
+    "answer": "A",
+    "explanation": "Gabarito definitivo do CESPE/UnB, Correios 2011, Tipo I: alternativa A.",
+    "page": 12,
+    "rect": [
+      25.0,
+      371.99169921875,
+      300.6199951171875,
+      566.1157836914062
+    ],
+    "images": [],
+    "raw": "Com base nas informações do texto, assinale a opção correta.\n\nA A criação, no Brasil, do quadro dos carteiros resultou das\n    reformas postais implementadas ainda no período imperial.\nB  As  inovações no  serviço de  distribuição  domiciliar de\n    correspondência contribuíram para a autonomia das províncias\n     brasileiras.\nC  Embora os Correios brasileiros datem do período imperial, é\n    recente a adesão do Brasil aos organismos internacionais de\n    comunicações.\nD  Com as reformas  postais, surgiu o primeiro modelo de\n    correspondência na corte portuguesa.\nE A criação do serviço telegráfico foi determinante para a adesão\n    do Brasil aos organismos internacionais de comunicações.",
+    "shared": {
+      "text": "1          Durante o período imperial, os Correios do Brasil\n   foram reorganizados, dando-se início ao processo de criação de\n   administrações de correios nas províncias. Sob as ordens de\n 4  D. Pedro II, as reformas postais instituíram o pagamento prévio\n   de franquia unificada, lançaram os primeiros selos postais,\n   criaram o quadro de carteiros, as caixas postais e de coleta e o\n 7  serviço de distribuição domiciliária de correspondência na\n    corte e nas províncias. Foi estabelecido o serviço telegráfico,\n   e o Brasil aderiu, por tratados, aos organismos internacionais\n10  de telecomunicações recém-criados.\n\n\n                                                                                    Idem, ibidem.",
+      "page": 12,
+      "images": []
+    }
+  },
+  {
+    "slug": "correios-2011-operador-triagem",
+    "number": 47,
+    "subject": "Língua Portuguesa",
+    "text": "Depreende-se das ideias do texto que",
+    "support": "1          Para atender a um país com dimensões continentais\n   como o Brasil e fazer a entrega dos 8,3 bilhões de objetos\n   por ano, a Empresa Brasileira de Correios e Telégrafos (ECT)\n 4  emprega mais de 56 mil carteiros, o que representa mais da\n   metade do efetivo da empresa. Desse total, cerca de 10% são\n   mulheres. Juntos, os carteiros do Brasil percorrem, por dia,\n 7  cerca de 390 mil quilômetros, o equivalente a quase 10 voltas\n   completas ao redor da Terra. Antes de sair às ruas para entregar\n    as correspondências, os carteiros realizam uma parte do seu\n10  trabalho em centros de distribuição domiciliária (local onde a\n   carga postal é separada por ordem de ruas e de numeração) e\n  em agências de correio com distribuição domiciliária (agências\n13  pequenas).\n\n\n                                                                                    Idem, ibidem.",
+    "support_image": "",
+    "options": [
+      "os carteiros entregam as correspondências nos centros de distribuição domiciliária.",
+      "os carteiros exercem outras funções além da entrega de correspondências.",
+      "cada carteiro percorre, diariamente, quase 400 quilômetros.",
+      "menos de 50% dos funcionários da ECT são carteiros.",
+      "a maior proporção de carteiros da ECT é formada de mulheres."
+    ],
+    "answer": "B",
+    "explanation": "Gabarito definitivo do CESPE/UnB, Correios 2011, Tipo I: alternativa B.",
+    "page": 12,
+    "rect": [
+      300.6199951171875,
+      63.351715087890625,
+      570.0,
+      227.1116943359375
+    ],
+    "images": [],
+    "raw": "Depreende-se das ideias do texto que\n\n\nA  os carteiros entregam as correspondências nos centros de\n\n     distribuição domiciliária.\n\nB  os carteiros exercem outras funções além da entrega de\n\n    correspondências.\n\nC  cada carteiro percorre, diariamente, quase 400 quilômetros.\n\nD  menos de 50% dos funcionários da ECT são carteiros.\n\nE  a maior proporção de carteiros da ECT é formada de mulheres.",
+    "shared": {
+      "text": "1          Para atender a um país com dimensões continentais\n   como o Brasil e fazer a entrega dos 8,3 bilhões de objetos\n   por ano, a Empresa Brasileira de Correios e Telégrafos (ECT)\n 4  emprega mais de 56 mil carteiros, o que representa mais da\n   metade do efetivo da empresa. Desse total, cerca de 10% são\n   mulheres. Juntos, os carteiros do Brasil percorrem, por dia,\n 7  cerca de 390 mil quilômetros, o equivalente a quase 10 voltas\n   completas ao redor da Terra. Antes de sair às ruas para entregar\n    as correspondências, os carteiros realizam uma parte do seu\n10  trabalho em centros de distribuição domiciliária (local onde a\n   carga postal é separada por ordem de ruas e de numeração) e\n  em agências de correio com distribuição domiciliária (agências\n13  pequenas).\n\n\n                                                                                    Idem, ibidem.",
+      "page": 12,
+      "images": []
+    }
+  },
+  {
+    "slug": "correios-2011-operador-triagem",
+    "number": 48,
+    "subject": "Língua Portuguesa",
+    "text": "Em “Para atender” (R.1), o termo “Para” introduz oração que expressa, no período, sentido de",
+    "support": "1          Para atender a um país com dimensões continentais\n   como o Brasil e fazer a entrega dos 8,3 bilhões de objetos\n   por ano, a Empresa Brasileira de Correios e Telégrafos (ECT)\n 4  emprega mais de 56 mil carteiros, o que representa mais da\n   metade do efetivo da empresa. Desse total, cerca de 10% são\n   mulheres. Juntos, os carteiros do Brasil percorrem, por dia,\n 7  cerca de 390 mil quilômetros, o equivalente a quase 10 voltas\n   completas ao redor da Terra. Antes de sair às ruas para entregar\n    as correspondências, os carteiros realizam uma parte do seu\n10  trabalho em centros de distribuição domiciliária (local onde a\n   carga postal é separada por ordem de ruas e de numeração) e\n  em agências de correio com distribuição domiciliária (agências\n13  pequenas).\n\n\n                                                                                    Idem, ibidem.",
+    "support_image": "",
+    "options": [
+      "oposição.",
+      "causa.",
+      "conclusão.",
+      "finalidade.",
+      "condição."
+    ],
+    "answer": "D",
+    "explanation": "Gabarito definitivo do CESPE/UnB, Correios 2011, Tipo I: alternativa D.",
+    "page": 12,
+    "rect": [
+      300.6199951171875,
+      238.07168579101562,
+      570.0,
+      386.2317199707031
+    ],
+    "images": [],
+    "raw": "Em “Para atender” (R.1), o termo “Para” introduz oração que\n\nexpressa, no período, sentido de\n\n\nA  oposição.\n\nB  causa.\n\nC  conclusão.\n\nD   finalidade.\n\nE  condição.",
+    "shared": {
+      "text": "1          Para atender a um país com dimensões continentais\n   como o Brasil e fazer a entrega dos 8,3 bilhões de objetos\n   por ano, a Empresa Brasileira de Correios e Telégrafos (ECT)\n 4  emprega mais de 56 mil carteiros, o que representa mais da\n   metade do efetivo da empresa. Desse total, cerca de 10% são\n   mulheres. Juntos, os carteiros do Brasil percorrem, por dia,\n 7  cerca de 390 mil quilômetros, o equivalente a quase 10 voltas\n   completas ao redor da Terra. Antes de sair às ruas para entregar\n    as correspondências, os carteiros realizam uma parte do seu\n10  trabalho em centros de distribuição domiciliária (local onde a\n   carga postal é separada por ordem de ruas e de numeração) e\n  em agências de correio com distribuição domiciliária (agências\n13  pequenas).\n\n\n                                                                                    Idem, ibidem.",
+      "page": 12,
+      "images": []
+    }
+  },
+  {
+    "slug": "correios-2011-operador-triagem",
+    "number": 49,
+    "subject": "Língua Portuguesa",
+    "text": "As opções a seguir contêm trechos adaptados de texto extraído do sítio dos Correios na Internet. Assinale a opção em que o trecho apresentado está gramaticalmente correto.",
+    "support": "",
+    "support_image": "",
+    "options": [
+      "Exemplo de ação de caráter social que envolve os carteiros e tem tido grande recepitividade é o Papai Noel nos Correios. Desde 1997, quando se transformou em projeto corporativo, passou a ser desenvolvido em todas 28 diretorias regionais.",
+      "Em 2009, dois estados testaram um novo modelo para o projeto, segundo o qual só podem participar crianças que cursam até o último ano da 1.ª etapa do ensino fundamental (ou seja, até o 4.º ou 5.º ano) de instituições de ensino públicas (municipais, estaduais ou federais), além de crexes e abrigos.",
+      "A intenção é contribuir para o alcance do 2.º objetivo de desenvolvimento do milenio da ONU: educação basica de qualidade para todos.",
+      "Em 2009, os Correios receberam 1.981.000 cartas, de todos os estados brasileiros, sendo que 21% foi adotado e atendido, por pessoas, que desejavam colaborar para um Natal mais solidário.",
+      "Os presentes são recebidos nas agências e entregues, em regiões carentes dos grandes centros urbanos, por carteiros ou outros empregados dos Correios, às crianças que escreveram as cartas."
+    ],
+    "answer": "E",
+    "explanation": "Gabarito definitivo do CESPE/UnB, Correios 2011, Tipo I: alternativa E.",
+    "page": 12,
+    "rect": [
+      300.6199951171875,
+      397.19171142578125,
+      570.0,
+      802.0
+    ],
+    "images": [],
+    "raw": "As opções a seguir contêm trechos adaptados de texto extraído do\n\nsítio dos Correios na Internet. Assinale a opção em que o trecho\n\napresentado está gramaticalmente correto.\n\n\nA  Exemplo de ação de caráter social que envolve os carteiros e\n\n    tem tido grande recepitividade é o Papai Noel nos Correios.\n\n    Desde 1997, quando se transformou em projeto corporativo,\n\n    passou a ser desenvolvido em todas 28 diretorias regionais.\n\nB Em 2009, dois estados testaram um novo modelo para o\n\n     projeto, segundo o qual só podem participar crianças que\n\n    cursam até o último ano da 1.ª etapa do ensino fundamental (ou\n\n     seja, até o 4.º ou 5.º ano) de instituições de ensino públicas\n\n    (municipais, estaduais ou federais), além de crexes e abrigos.\n\nC A intenção é contribuir para o alcance do 2.º objetivo de\n\n    desenvolvimento do milenio da ONU: educação basica de\n\n    qualidade para todos.\n\nD Em 2009, os Correios receberam 1.981.000 cartas, de todos\n\n    os estados brasileiros, sendo que 21% foi adotado e atendido,\n\n    por pessoas, que desejavam colaborar para um Natal mais\n\n     solidário.\n\nE  Os presentes são recebidos nas agências e entregues, em\n\n    regiões carentes dos grandes centros urbanos, por carteiros ou\n\n    outros empregados dos Correios, às crianças que escreveram\n\n    as cartas."
+  },
+  {
+    "slug": "correios-2011-operador-triagem",
+    "number": 50,
+    "subject": "Língua Portuguesa",
+    "text": "Com o desenvolvimento dos setores produtivos do Brasil na década de 60 do século XX, tornou-se necessária a reorganização do serviço postal por meio de um modelo mais moderno que o do Departamento de Correios e Telégrafos, subordinado ao Ministério da Viação e Obras Públicas, que não apresentava infraestrutura compatível com as necessidades dos usuários. Idem, ibidem. Assinale a opção em que o trecho apresentado constitui continuação coerente e gramaticalmente correta para o trecho acima.",
+    "support": "",
+    "support_image": "",
+    "options": [
+      "Mesmo assim, nesse período a ECT consolidava, seu papel como importante agente da ação social do governo, atuando no pagamento de pensões e aposentadorias; na distribuição de livros escolares; no transporte de doações em casos de calamidade.",
+      "Apesar disso, o surgimento da ECT correspondia à uma nova postura por parte dos poderes públicos, com relação a importância das comunicações e, particularmente os serviços postais e telegráficos, para o desenvolvimento do pais.",
+      "Portanto paralelamente, a partir de 1980, se intensificavam a preocupação com a ação cultural e o desenvolvimento de ações voltado a preservação do patrimônio cultural do Brasil, sobretudo no que referia-se a memória postal.",
+      "Entretanto, esse ciclo de desenvolvimento correspondeu as novas necessidades de uma clientela que pouco a pouco, viram as distâncias ser encurtadas e percorridas graças ao serviço postal, que se estruturou e passou a desenvolver e oferecer produtos e serviços, de acordo com a realidade do mercado e as necessidades de sua clientela.",
+      "No sentido de alcançar essa reorganização, foi criada, em 20 de março de 1969, pela Lei n.º 509, a ECT, empresa pública vinculada ao Ministério das Comunicações."
+    ],
+    "answer": "E",
+    "explanation": "Gabarito definitivo do CESPE/UnB, Correios 2011, Tipo I: alternativa E.",
+    "page": 13,
+    "rect": [
+      25.0,
+      63.351715087890625,
+      320.17999267578125,
+      539.9243774414062
+    ],
+    "images": [],
+    "raw": "Com o desenvolvimento dos setores produtivos do Brasil na\ndécada de 60 do século XX, tornou-se necessária a reorganização do\nserviço postal por meio de um modelo mais moderno que o do\nDepartamento de Correios e Telégrafos, subordinado ao Ministério da\nViação e Obras Públicas, que não apresentava infraestrutura compatível\ncom as necessidades dos usuários.\n\n\n                                                                                            Idem, ibidem.\n\n\nAssinale a opção em que o trecho apresentado constitui continuação\ncoerente e gramaticalmente correta para o trecho acima.\n\n\nA  Mesmo assim, nesse período a ECT consolidava, seu papel como\n    importante agente da ação social do governo, atuando no pagamento\n    de pensões e aposentadorias; na distribuição de livros escolares; no\n     transporte de doações em casos de calamidade.\nB  Apesar disso, o surgimento da ECT correspondia à uma nova\n    postura por parte dos poderes públicos, com relação a importância\n    das  comunicações  e,  particularmente  os  serviços  postais  e\n     telegráficos, para o desenvolvimento do pais.\nC  Portanto paralelamente, a partir de 1980, se intensificavam a\n    preocupação com a ação cultural e o desenvolvimento de ações\n    voltado a preservação do patrimônio cultural do Brasil, sobretudo\n    no que referia-se a memória postal.\nD  Entretanto, esse ciclo de desenvolvimento correspondeu as novas\n    necessidades de uma clientela que pouco a pouco, viram as\n     distâncias ser encurtadas e percorridas graças ao serviço postal, que\n    se estruturou e passou a desenvolver e oferecer produtos e serviços,\n    de acordo com a realidade do mercado e as necessidades de sua\n     clientela.\nE  No sentido de alcançar essa reorganização, foi criada, em 20 de\n    março de 1969, pela Lei n.º 509, a ECT, empresa pública vinculada\n    ao Ministério das Comunicações."
+  },
+  {
+    "slug": "correios-2011-operador-triagem",
+    "number": 51,
+    "subject": "Língua Portuguesa",
+    "text": "Com relação às ideias do texto, assinale a opção correta.",
+    "support": "1         Fumantes que diminuem o número de cigarros podem não\n    estar necessariamente reduzindo a quantidade de toxinas que inalam.\n  Um estudo realizado por Dorothy Hatsukami e outros pesquisadores\n 4  da Universidade de Minnesota revelou que fumantes inveterados\n   que diminuem a frequência de suas tragadas ainda assim respiram\n   duas vezes mais toxinas por cigarro que as pessoas que fumam\n 7  menos. Quando eles acendem menos cigarros, compensam os níveis\n   menores de nicotina inalando a fumaça de forma mais profunda ou\n   demorada. O estudo é consistente com trabalhos epidemiológicos\n10  anteriores, que revelaram que indivíduos que diminuíram o número\n   de cigarros fumados não reduziram riscos à saúde. Moral da\n    história: “pode não haver benefício em fumar menos”, conclui a\n13  pesquisadora. “Se os fumantes querem mesmo diminuir o risco de\n   câncer e doenças”, ela acrescenta, “precisam é parar de fumar”.\n\n\n\n                                                    Scientific American Brasil, n.º 4, 2010, p. 11 (com adaptações).",
+    "support_image": "",
+    "options": [
+      "Pode-se afirmar, com base no texto, que fumar menos é a melhor alternativa para quem não consegue parar de fumar.",
+      "Os cientistas descobriram que a maneira como se traga a fumaça do cigarro não interfere na quantidade de nicotina inalada pelo fumante.",
+      "Cientistas comprovam que o número de cigarros acesos é diretamente proporcional à quantidade de nicotina absorvida pelos pulmões dos fumantes.",
+      "De acordo com pesquisa realizada, fumantes inveterados que passam a consumir menos cigarros efetuam tragadas mais prolongadas.",
+      "Depreende-se da leitura do texto que quem fuma pouco tem menos riscos de adquirir câncer e doenças respiratórias que os fumantes que consomem muitos cigarros."
+    ],
+    "answer": "D",
+    "explanation": "Gabarito definitivo do CESPE/UnB, Correios 2011, Tipo I: alternativa D.",
+    "page": 13,
+    "rect": [
+      320.17999267578125,
+      63.351715087890625,
+      570.0,
+      467.95172119140625
+    ],
+    "images": [],
+    "raw": "Com relação às ideias do texto, assinale a opção correta.\n\n\n\nA  Pode-se afirmar, com base no texto, que fumar menos é a\n\n    melhor alternativa para quem não consegue parar de\n\n    fumar.\n\nB  Os cientistas descobriram que a maneira como se traga a\n\n    fumaça do cigarro não interfere na quantidade de nicotina\n\n    inalada pelo fumante.\n\nC   Cientistas comprovam que o número de cigarros acesos é\n\n    diretamente  proporcional  à  quantidade  de  nicotina\n\n    absorvida pelos pulmões dos fumantes.\n\nD  De acordo com pesquisa realizada, fumantes inveterados\n\n    que passam a consumir menos cigarros efetuam tragadas\n\n    mais prolongadas.\n\nE  Depreende-se da leitura do texto que quem fuma pouco\n\n    tem  menos  riscos  de  adquirir  câncer  e  doenças\n\n     respiratórias que os fumantes que consomem muitos\n\n     cigarros.",
+    "shared": {
+      "text": "1         Fumantes que diminuem o número de cigarros podem não\n    estar necessariamente reduzindo a quantidade de toxinas que inalam.\n  Um estudo realizado por Dorothy Hatsukami e outros pesquisadores\n 4  da Universidade de Minnesota revelou que fumantes inveterados\n   que diminuem a frequência de suas tragadas ainda assim respiram\n   duas vezes mais toxinas por cigarro que as pessoas que fumam\n 7  menos. Quando eles acendem menos cigarros, compensam os níveis\n   menores de nicotina inalando a fumaça de forma mais profunda ou\n   demorada. O estudo é consistente com trabalhos epidemiológicos\n10  anteriores, que revelaram que indivíduos que diminuíram o número\n   de cigarros fumados não reduziram riscos à saúde. Moral da\n    história: “pode não haver benefício em fumar menos”, conclui a\n13  pesquisadora. “Se os fumantes querem mesmo diminuir o risco de\n   câncer e doenças”, ela acrescenta, “precisam é parar de fumar”.\n\n\n\n                                                    Scientific American Brasil, n.º 4, 2010, p. 11 (com adaptações).",
+      "page": 13,
+      "images": []
+    }
+  },
+  {
+    "slug": "correios-2011-operador-triagem",
+    "number": 52,
+    "subject": "Língua Portuguesa",
+    "text": "Com relação aos sentidos e aspectos gramaticais do texto, assinale a opção correta.",
+    "support": "1         Fumantes que diminuem o número de cigarros podem não\n    estar necessariamente reduzindo a quantidade de toxinas que inalam.\n  Um estudo realizado por Dorothy Hatsukami e outros pesquisadores\n 4  da Universidade de Minnesota revelou que fumantes inveterados\n   que diminuem a frequência de suas tragadas ainda assim respiram\n   duas vezes mais toxinas por cigarro que as pessoas que fumam\n 7  menos. Quando eles acendem menos cigarros, compensam os níveis\n   menores de nicotina inalando a fumaça de forma mais profunda ou\n   demorada. O estudo é consistente com trabalhos epidemiológicos\n10  anteriores, que revelaram que indivíduos que diminuíram o número\n   de cigarros fumados não reduziram riscos à saúde. Moral da\n    história: “pode não haver benefício em fumar menos”, conclui a\n13  pesquisadora. “Se os fumantes querem mesmo diminuir o risco de\n   câncer e doenças”, ela acrescenta, “precisam é parar de fumar”.\n\n\n\n                                                    Scientific American Brasil, n.º 4, 2010, p. 11 (com adaptações).",
+    "support_image": "",
+    "options": [
+      "Seriam mantidas a correção gramatical e a coerência do texto caso a palavra ‘Se’ (R.13) fosse substituída por Caso.",
+      "A substituição da forma verbal “revelou” (R.4) por revelaram manteria a correção gramatical e o sentido original do texto.",
+      "Estaria mantido o sentido do texto caso a palavra recentes fosse empregada no lugar de “inveterados” (R.4).",
+      "A supressão da vírgula após a palavra “cigarros” (R.7) não prejudicaria a correção gramatical do período.",
+      "As aspas empregadas no texto delimitam citação."
+    ],
+    "answer": "E",
+    "explanation": "Gabarito definitivo do CESPE/UnB, Correios 2011, Tipo I: alternativa E.",
+    "page": 13,
+    "rect": [
+      320.17999267578125,
+      478.9117126464844,
+      570.0,
+      802.0
+    ],
+    "images": [],
+    "raw": "Com relação aos sentidos e aspectos gramaticais do texto,\n\nassinale a opção correta.\n\n\n\nA  Seriam mantidas a correção gramatical e a coerência do\n\n     texto caso a palavra ‘Se’ (R.13) fosse substituída por\n\n    Caso.\n\nB A  substituição da forma verbal “revelou”  (R.4) por\n\n    revelaram manteria a correção gramatical e o sentido\n\n     original do texto.\n\nC  Estaria mantido o sentido do texto caso a palavra recentes\n\n    fosse empregada no lugar de “inveterados” (R.4).\n\nD A supressão da vírgula após a palavra “cigarros” (R.7) não\n\n     prejudicaria a correção gramatical do período.\n\nE  As aspas empregadas no texto delimitam citação.",
+    "shared": {
+      "text": "1         Fumantes que diminuem o número de cigarros podem não\n    estar necessariamente reduzindo a quantidade de toxinas que inalam.\n  Um estudo realizado por Dorothy Hatsukami e outros pesquisadores\n 4  da Universidade de Minnesota revelou que fumantes inveterados\n   que diminuem a frequência de suas tragadas ainda assim respiram\n   duas vezes mais toxinas por cigarro que as pessoas que fumam\n 7  menos. Quando eles acendem menos cigarros, compensam os níveis\n   menores de nicotina inalando a fumaça de forma mais profunda ou\n   demorada. O estudo é consistente com trabalhos epidemiológicos\n10  anteriores, que revelaram que indivíduos que diminuíram o número\n   de cigarros fumados não reduziram riscos à saúde. Moral da\n    história: “pode não haver benefício em fumar menos”, conclui a\n13  pesquisadora. “Se os fumantes querem mesmo diminuir o risco de\n   câncer e doenças”, ela acrescenta, “precisam é parar de fumar”.\n\n\n\n                                                    Scientific American Brasil, n.º 4, 2010, p. 11 (com adaptações).",
+      "page": 13,
+      "images": []
+    }
+  },
+  {
+    "slug": "correios-2011-operador-triagem",
+    "number": 53,
+    "subject": "Língua Portuguesa",
+    "text": "Com relação a aspectos linguísticos do texto, assinale a opção correta.",
+    "support": "1         Normalmente as pessoas se mostram divididas em\n    relação à percepção de acontecimentos bons ou ruins. Uma\n    variação genética comum pode estar por trás dessas tendências\n 4  para o otimismo ou pessimismo. Cientistas da Universidade de\n   Essex,  na  Inglaterra,  investigaram  a  serotonina,  um\n   neurotransmissor ligado ao humor, e estudaram a preferência\n 7  de 97 voluntários relativamente a diferentes tipos de imagens.\n   Pessoas em que se identificou apenas a versão longa do gene\n   para a proteína transportadora de serotonina — que controla os\n10  níveis do neurotransmissor nas células do cérebro — tenderam\n   a prestar atenção em figuras agradáveis (como imagens de\n    chocolates) e evitaram as negativas (como fotografias de\n13  aranhas). As pessoas com a forma curta do gene apresentaram\n    preferências  opostas,  embora  não  tão  fortemente.  Os\n    resultados, que ajudam a explicar por que algumas pessoas são\n16  menos suscetíveis à ansiedade e depressão, podem inspirar\n    terapeutas a ajudar outras a ver o lado bom das coisas.\n\n\n                                                                                    Idem, ibidem.",
+    "support_image": "",
+    "options": [
+      "A oração “que controla os níveis do neurotransmissor nas células do cérebro” (R.9-10) pode ser reescrita, com correção gramatical e sem prejuízo para o sentido do texto, da seguinte forma: onde se retém os patamares neurotransmissores das células cerebrais.",
+      "Os parênteses que delimitam a expressão “como imagens de chocolates” (R.11-12) podem ser substituídos, sem prejuízo à correção do texto, por travessões.",
+      "A substituição de “embora” (R.14) por ou não prejudicaria a correção nem o sentido do texto.",
+      "Na linha 17, após o vocábulo “outras”, está subentendida a palavra “terapeutas”.",
+      "O emprego de vírgula logo após o termo “Normalmente” (R.1) prejudicaria a correção gramatical, mas não alteraria o sentido do texto."
+    ],
+    "answer": "B",
+    "explanation": "Gabarito definitivo do CESPE/UnB, Correios 2011, Tipo I: alternativa B.",
+    "page": 14,
+    "rect": [
+      25.0,
+      324.1117248535156,
+      300.6199951171875,
+      571.03173828125
+    ],
+    "images": [],
+    "raw": "Com relação a aspectos linguísticos do texto, assinale a opção\ncorreta.\n\nA A oração “que controla os níveis do neurotransmissor nas\n     células do cérebro” (R.9-10) pode ser reescrita, com correção\n    gramatical e sem prejuízo para o sentido do texto, da seguinte\n    forma: onde se retém os patamares neurotransmissores das\n     células cerebrais.\nB  Os parênteses que delimitam a expressão “como imagens de\n    chocolates” (R.11-12) podem ser substituídos, sem prejuízo à\n    correção do texto, por travessões.\nC A substituição de “embora” (R.14) por ou não prejudicaria\n    a correção nem o sentido do texto.\nD  Na linha 17, após o vocábulo “outras”, está subentendida a\n    palavra “terapeutas”.\nE O emprego de vírgula logo após o termo “Normalmente” (R.1)\n     prejudicaria a correção gramatical, mas não alteraria o sentido\n    do texto.",
+    "shared": {
+      "text": "1         Normalmente as pessoas se mostram divididas em\n    relação à percepção de acontecimentos bons ou ruins. Uma\n    variação genética comum pode estar por trás dessas tendências\n 4  para o otimismo ou pessimismo. Cientistas da Universidade de\n   Essex,  na  Inglaterra,  investigaram  a  serotonina,  um\n   neurotransmissor ligado ao humor, e estudaram a preferência\n 7  de 97 voluntários relativamente a diferentes tipos de imagens.\n   Pessoas em que se identificou apenas a versão longa do gene\n   para a proteína transportadora de serotonina — que controla os\n10  níveis do neurotransmissor nas células do cérebro — tenderam\n   a prestar atenção em figuras agradáveis (como imagens de\n    chocolates) e evitaram as negativas (como fotografias de\n13  aranhas). As pessoas com a forma curta do gene apresentaram\n    preferências  opostas,  embora  não  tão  fortemente.  Os\n    resultados, que ajudam a explicar por que algumas pessoas são\n16  menos suscetíveis à ansiedade e depressão, podem inspirar\n    terapeutas a ajudar outras a ver o lado bom das coisas.\n\n\n                                                                                    Idem, ibidem.",
+      "page": 14,
+      "images": []
+    }
+  },
+  {
+    "slug": "correios-2011-operador-triagem",
+    "number": 54,
+    "subject": "Língua Portuguesa",
+    "text": "Assinale a opção correta de acordo com as informações do texto.",
+    "support": "1         Normalmente as pessoas se mostram divididas em\n    relação à percepção de acontecimentos bons ou ruins. Uma\n    variação genética comum pode estar por trás dessas tendências\n 4  para o otimismo ou pessimismo. Cientistas da Universidade de\n   Essex,  na  Inglaterra,  investigaram  a  serotonina,  um\n   neurotransmissor ligado ao humor, e estudaram a preferência\n 7  de 97 voluntários relativamente a diferentes tipos de imagens.\n   Pessoas em que se identificou apenas a versão longa do gene\n   para a proteína transportadora de serotonina — que controla os\n10  níveis do neurotransmissor nas células do cérebro — tenderam\n   a prestar atenção em figuras agradáveis (como imagens de\n    chocolates) e evitaram as negativas (como fotografias de\n13  aranhas). As pessoas com a forma curta do gene apresentaram\n    preferências  opostas,  embora  não  tão  fortemente.  Os\n    resultados, que ajudam a explicar por que algumas pessoas são\n16  menos suscetíveis à ansiedade e depressão, podem inspirar\n    terapeutas a ajudar outras a ver o lado bom das coisas.\n\n\n                                                                                    Idem, ibidem.",
+    "support_image": "",
+    "options": [
+      "Infere-se do texto que pessoas otimistas são mais suscetíveis à depressão, porque se decepcionam mais.",
+      "De acordo com pesquisa realizada em universidade inglesa, quanto maior o nível de serotonina no cérebro, maior a disposição da pessoa para ajudar o próximo.",
+      "Segundo pesquisadores ingleses, pode haver uma explicação genética para a tendência humana ao otimismo e ao pessimismo.",
+      "Estudo científico comprova que são geralmente otimistas os indivíduos que possuem a versão curta do gene para a proteína transportadora de serotonina.",
+      "Conforme a pesquisa referida no texto, os pessimistas tendem a evitar imagens negativas e desagradáveis."
+    ],
+    "answer": "C",
+    "explanation": "Gabarito definitivo do CESPE/UnB, Correios 2011, Tipo I: alternativa C.",
+    "page": 14,
+    "rect": [
+      25.0,
+      581.9917602539062,
+      300.6199951171875,
+      802.0
+    ],
+    "images": [],
+    "raw": "Assinale a opção correta de acordo com as informações do texto.\n\nA   Infere-se do texto que pessoas otimistas são mais suscetíveis à\n    depressão, porque se decepcionam mais.\nB  De acordo com pesquisa realizada em universidade inglesa,\n    quanto maior o nível de serotonina no cérebro, maior a\n    disposição da pessoa para ajudar o próximo.\nC  Segundo pesquisadores ingleses, pode haver uma explicação\n    genética  para  a  tendência humana  ao  otimismo  e  ao\n    pessimismo.\nD  Estudo científico comprova que são geralmente otimistas os\n    indivíduos que possuem a versão curta do gene para a proteína\n    transportadora de serotonina.\nE  Conforme a pesquisa referida no texto, os pessimistas tendem\n    a evitar imagens negativas e desagradáveis.",
+    "shared": {
+      "text": "1         Normalmente as pessoas se mostram divididas em\n    relação à percepção de acontecimentos bons ou ruins. Uma\n    variação genética comum pode estar por trás dessas tendências\n 4  para o otimismo ou pessimismo. Cientistas da Universidade de\n   Essex,  na  Inglaterra,  investigaram  a  serotonina,  um\n   neurotransmissor ligado ao humor, e estudaram a preferência\n 7  de 97 voluntários relativamente a diferentes tipos de imagens.\n   Pessoas em que se identificou apenas a versão longa do gene\n   para a proteína transportadora de serotonina — que controla os\n10  níveis do neurotransmissor nas células do cérebro — tenderam\n   a prestar atenção em figuras agradáveis (como imagens de\n    chocolates) e evitaram as negativas (como fotografias de\n13  aranhas). As pessoas com a forma curta do gene apresentaram\n    preferências  opostas,  embora  não  tão  fortemente.  Os\n    resultados, que ajudam a explicar por que algumas pessoas são\n16  menos suscetíveis à ansiedade e depressão, podem inspirar\n    terapeutas a ajudar outras a ver o lado bom das coisas.\n\n\n                                                                                    Idem, ibidem.",
+      "page": 14,
+      "images": []
+    }
+  },
+  {
+    "slug": "correios-2011-operador-triagem",
+    "number": 55,
+    "subject": "Língua Portuguesa",
+    "text": "Com base nas informações do texto, é correto afirmar que",
+    "support": "1        Os dados chocam: metade dos jovens de 15 a 17 anos\n   de idade estão fora do ensino médio, informa reportagem\n   publicada na Folha, em março  deste  ano.  Parte  desse\n 4  contingente estuda, com atraso, no ensino fundamental; outra\n    parte, a face mais preocupante dessa estatística, deixou para\n    trás os bancos escolares.\n 7         “Os alunos encontram um ensino médio organizado\n  em  torno de um número muito  grande de  disciplinas,\n   sobrecarregadas de conteúdos mais voltados para vestibulares,\n10  muitos deles sem significado para suas vidas”, diz o presidente\n   da Câmara de Educação Básica do Conselho Nacional de\n   Educação.\n13      O  Conselho  Nacional  de  Educação   discute,\n   atualmente, a atualização das diretrizes curriculares para o\n   ensino médio. Um dos programas que tem servido de base para\n16  a discussão é o Ensino Médio Inovador, criado e financiado\n   pelo Ministério da Educação e implementado em 357 escolas\n   do país em 2010. De acordo com o programa, que se baseia em\n19  quatro eixos: trabalho, ciência, tecnologia e cultura, cada\n   escola criaria seu plano de ação pedagógica, podendo eleger\n  um desses eixos como principal ou misturá-los em atividades\n22  complementares, a serem desenvolvidas até fora da sala de\n    aula.  Outros  focos  são  leitura,  artes  e  atividades em\n    laboratórios. Para isso, a carga horária passaria das 2.400 horas\n25  anuais obrigatórias para 3.000 e a dedicação dos professores\n    passaria a ser integral.\n\n\n                                                          Internet: <www.folha.uol.com.br> (com adaptações).",
+    "support_image": "",
+    "options": [
+      "a exigência de dedicação integral dos professores no ensino médio constitui garantia de qualidade das aulas ministradas.",
+      "a maior parte dos jovens entre 15 e 17 anos de idade não frequenta a escola.",
+      "a sobrecarga de conteúdos que não fazem sentido para o aluno é o fator primordial da evasão escolar no ensino médio.",
+      "há necessidade de mudança no ensino médio para torná-lo mais atrativo e significativo para os jovens.",
+      "as atividades complementares propostas pelas escolas devem ser realizadas fora da sala de aula."
+    ],
+    "answer": "D",
+    "explanation": "Gabarito definitivo do CESPE/UnB, Correios 2011, Tipo I: alternativa D.",
+    "page": 14,
+    "rect": [
+      300.6199951171875,
+      427.43170166015625,
+      570.0,
+      593.3516845703125
+    ],
+    "images": [],
+    "raw": "Com base nas informações do texto, é correto afirmar que\n\nA  a exigência de dedicação integral dos professores no ensino\n    médio constitui garantia de qualidade das aulas ministradas.\nB  a maior parte dos jovens entre 15 e 17 anos de idade não\n    frequenta a escola.\nC  a sobrecarga de conteúdos que não fazem sentido para o aluno\n    é o fator primordial da evasão escolar no ensino médio.\nD  há necessidade de mudança no ensino médio para torná-lo mais\n     atrativo e significativo para os jovens.\nE  as atividades complementares propostas pelas escolas devem\n     ser realizadas fora da sala de aula.",
+    "shared": {
+      "text": "1        Os dados chocam: metade dos jovens de 15 a 17 anos\n   de idade estão fora do ensino médio, informa reportagem\n   publicada na Folha, em março  deste  ano.  Parte  desse\n 4  contingente estuda, com atraso, no ensino fundamental; outra\n    parte, a face mais preocupante dessa estatística, deixou para\n    trás os bancos escolares.\n 7         “Os alunos encontram um ensino médio organizado\n  em  torno de um número muito  grande de  disciplinas,\n   sobrecarregadas de conteúdos mais voltados para vestibulares,\n10  muitos deles sem significado para suas vidas”, diz o presidente\n   da Câmara de Educação Básica do Conselho Nacional de\n   Educação.\n13      O  Conselho  Nacional  de  Educação   discute,\n   atualmente, a atualização das diretrizes curriculares para o\n   ensino médio. Um dos programas que tem servido de base para\n16  a discussão é o Ensino Médio Inovador, criado e financiado\n   pelo Ministério da Educação e implementado em 357 escolas\n   do país em 2010. De acordo com o programa, que se baseia em\n19  quatro eixos: trabalho, ciência, tecnologia e cultura, cada\n   escola criaria seu plano de ação pedagógica, podendo eleger\n  um desses eixos como principal ou misturá-los em atividades\n22  complementares, a serem desenvolvidas até fora da sala de\n    aula.  Outros  focos  são  leitura,  artes  e  atividades em\n    laboratórios. Para isso, a carga horária passaria das 2.400 horas\n25  anuais obrigatórias para 3.000 e a dedicação dos professores\n    passaria a ser integral.\n\n\n                                                          Internet: <www.folha.uol.com.br> (com adaptações).",
+      "page": 14,
+      "images": []
+    }
+  },
+  {
+    "slug": "correios-2011-operador-triagem",
+    "number": 56,
+    "subject": "Língua Portuguesa",
+    "text": "Com relação a aspectos estruturais do texto, assinale a opção correta.",
+    "support": "1        Os dados chocam: metade dos jovens de 15 a 17 anos\n   de idade estão fora do ensino médio, informa reportagem\n   publicada na Folha, em março  deste  ano.  Parte  desse\n 4  contingente estuda, com atraso, no ensino fundamental; outra\n    parte, a face mais preocupante dessa estatística, deixou para\n    trás os bancos escolares.\n 7         “Os alunos encontram um ensino médio organizado\n  em  torno de um número muito  grande de  disciplinas,\n   sobrecarregadas de conteúdos mais voltados para vestibulares,\n10  muitos deles sem significado para suas vidas”, diz o presidente\n   da Câmara de Educação Básica do Conselho Nacional de\n   Educação.\n13      O  Conselho  Nacional  de  Educação   discute,\n   atualmente, a atualização das diretrizes curriculares para o\n   ensino médio. Um dos programas que tem servido de base para\n16  a discussão é o Ensino Médio Inovador, criado e financiado\n   pelo Ministério da Educação e implementado em 357 escolas\n   do país em 2010. De acordo com o programa, que se baseia em\n19  quatro eixos: trabalho, ciência, tecnologia e cultura, cada\n   escola criaria seu plano de ação pedagógica, podendo eleger\n  um desses eixos como principal ou misturá-los em atividades\n22  complementares, a serem desenvolvidas até fora da sala de\n    aula.  Outros  focos  são  leitura,  artes  e  atividades em\n    laboratórios. Para isso, a carga horária passaria das 2.400 horas\n25  anuais obrigatórias para 3.000 e a dedicação dos professores\n    passaria a ser integral.\n\n\n                                                          Internet: <www.folha.uol.com.br> (com adaptações).",
+    "support_image": "",
+    "options": [
+      "O termo “os bancos escolares” (R.6) exerce a função de adjunto adverbial de lugar.",
+      "O pronome ‘deles’ (R.10) está empregado em referência a ‘vestibulares’ (R.9).",
+      "O sinal de dois-pontos empregado após a palavra “eixos” (R.19) introduz uma oração explicativa.",
+      "Com a supressão da vírgula logo após a palavra “pedagógica” (R.20), seriam preservados o sentido e a correção gramatical do texto.",
+      "A forma verbal “estão” (R.2) pode ser substituída por está, sem prejuízo à correção gramatical e à coerência do texto."
+    ],
+    "answer": "E",
+    "explanation": "Gabarito definitivo do CESPE/UnB, Correios 2011, Tipo I: alternativa E.",
+    "page": 14,
+    "rect": [
+      300.6199951171875,
+      604.3117065429688,
+      570.0,
+      802.0
+    ],
+    "images": [],
+    "raw": "Com relação a aspectos estruturais do texto, assinale a opção\ncorreta.\n\nA O termo “os bancos escolares” (R.6) exerce a função de adjunto\n    adverbial de lugar.\nB O pronome ‘deles’ (R.10) está empregado em referência a\n     ‘vestibulares’ (R.9).\nC O sinal de dois-pontos empregado após a palavra “eixos” (R.19)\n    introduz uma oração explicativa.\nD  Com a supressão da vírgula logo após a palavra “pedagógica”\n     (R.20), seriam preservados o sentido e a correção gramatical do\n     texto.\nE A forma verbal “estão” (R.2) pode ser substituída por está, sem\n    prejuízo à correção gramatical e à coerência do texto.",
+    "shared": {
+      "text": "1        Os dados chocam: metade dos jovens de 15 a 17 anos\n   de idade estão fora do ensino médio, informa reportagem\n   publicada na Folha, em março  deste  ano.  Parte  desse\n 4  contingente estuda, com atraso, no ensino fundamental; outra\n    parte, a face mais preocupante dessa estatística, deixou para\n    trás os bancos escolares.\n 7         “Os alunos encontram um ensino médio organizado\n  em  torno de um número muito  grande de  disciplinas,\n   sobrecarregadas de conteúdos mais voltados para vestibulares,\n10  muitos deles sem significado para suas vidas”, diz o presidente\n   da Câmara de Educação Básica do Conselho Nacional de\n   Educação.\n13      O  Conselho  Nacional  de  Educação   discute,\n   atualmente, a atualização das diretrizes curriculares para o\n   ensino médio. Um dos programas que tem servido de base para\n16  a discussão é o Ensino Médio Inovador, criado e financiado\n   pelo Ministério da Educação e implementado em 357 escolas\n   do país em 2010. De acordo com o programa, que se baseia em\n19  quatro eixos: trabalho, ciência, tecnologia e cultura, cada\n   escola criaria seu plano de ação pedagógica, podendo eleger\n  um desses eixos como principal ou misturá-los em atividades\n22  complementares, a serem desenvolvidas até fora da sala de\n    aula.  Outros  focos  são  leitura,  artes  e  atividades em\n    laboratórios. Para isso, a carga horária passaria das 2.400 horas\n25  anuais obrigatórias para 3.000 e a dedicação dos professores\n    passaria a ser integral.\n\n\n                                                          Internet: <www.folha.uol.com.br> (com adaptações).",
+      "page": 14,
+      "images": []
+    }
+  },
+  {
+    "slug": "correios-2011-operador-triagem",
+    "number": 57,
+    "subject": "Língua Portuguesa",
+    "text": "Com base na leitura do texto, é correto afirmar que",
+    "support": "1        Que tipo de gente joga lixo na rua pela janela do carro\n   ou deixa a praia emporcalhada quando sai? Uma das respostas\n    corretas é: um tipo que está se tornando mais raro. Sim. A atual\n 4  geração de adultos foi criança em um tempo em que jogar\n   papel de bala ou caixa vazia de biscoitos pela janela do carro\n   quase nunca provocava uma bronca paterna. Foi adolescente\n 7  quando amassar o maço vazio de cigarros e chutá-lo para longe\n   não despertava, na audiência, nenhuma reação especial, além\n   de um “vai ser perna de pau assim na China”. Chegou à idade\n10  adulta dando como certo que aquelas pessoas de macacão com\n   a sigla do serviço de limpeza urbana estampada nas costas\n   precisam trabalhar e, por isso, deve contribuir sujando as ruas.\n13  Bem, isso mudou. O espírito do nosso tempo pode não impedir,\n   mas, pelo menos, não impele mais ninguém com algum grau de\n   conexão com o atual estágio civilizatório da humanidade a se\n16   livrar de detritos em lugares públicos sem que isso tenha um\n    peso, uma consequência. É feio. É um ato que contraria a ideia\n    tão prevalente da sustentabilidade do planeta e da preciosidade\n19  que são os mananciais de água limpa, as porções de terra não\n   contaminadas e as golfadas de ar puro. E, no entanto, as\n   pessoas ainda sujam, e muito, as cidades impunemente.\n\n\n\n                                                          Veja, 9/3/2011, p. 72-3 (com adaptações).",
+    "support_image": "",
+    "options": [
+      "sujar ruas, calçadas ou praias, no estágio civilizatório atual, gera implicações financeiras.",
+      "o comportamento atual do brasileiro, pautado na ideia de sustentabilidade e preservação do planeta, tem impedido o descarte de lixo em lugares inapropriados.",
+      "as novas gerações são mais conscientes da necessidade de preservar o meio ambiente.",
+      "jogar lixo nas ruas sempre foi alvo de recriminação, seja no âmbito familiar, seja no governamental.",
+      "a profissão de gari deixaria de existir se não houvesse lixo nas ruas."
+    ],
+    "answer": "C",
+    "explanation": "Gabarito definitivo do CESPE/UnB, Correios 2011, Tipo I: alternativa C.",
+    "page": 15,
+    "rect": [
+      25.0,
+      392.5116882324219,
+      300.6199951171875,
+      586.3917236328125
+    ],
+    "images": [],
+    "raw": "Com base na leitura do texto, é correto afirmar que\n\n\nA   sujar ruas, calçadas ou praias, no estágio civilizatório atual,\n    gera implicações financeiras.\nB  o comportamento atual do brasileiro, pautado na ideia de\n     sustentabilidade e preservação do planeta, tem impedido o\n    descarte de lixo em lugares inapropriados.\nC  as novas gerações são mais conscientes da necessidade de\n    preservar o meio ambiente.\nD  jogar lixo nas ruas sempre foi alvo de recriminação, seja no\n    âmbito familiar, seja no governamental.\nE  a profissão de gari deixaria de existir se não houvesse lixo nas\n     ruas.",
+    "shared": {
+      "text": "1        Que tipo de gente joga lixo na rua pela janela do carro\n   ou deixa a praia emporcalhada quando sai? Uma das respostas\n    corretas é: um tipo que está se tornando mais raro. Sim. A atual\n 4  geração de adultos foi criança em um tempo em que jogar\n   papel de bala ou caixa vazia de biscoitos pela janela do carro\n   quase nunca provocava uma bronca paterna. Foi adolescente\n 7  quando amassar o maço vazio de cigarros e chutá-lo para longe\n   não despertava, na audiência, nenhuma reação especial, além\n   de um “vai ser perna de pau assim na China”. Chegou à idade\n10  adulta dando como certo que aquelas pessoas de macacão com\n   a sigla do serviço de limpeza urbana estampada nas costas\n   precisam trabalhar e, por isso, deve contribuir sujando as ruas.\n13  Bem, isso mudou. O espírito do nosso tempo pode não impedir,\n   mas, pelo menos, não impele mais ninguém com algum grau de\n   conexão com o atual estágio civilizatório da humanidade a se\n16   livrar de detritos em lugares públicos sem que isso tenha um\n    peso, uma consequência. É feio. É um ato que contraria a ideia\n    tão prevalente da sustentabilidade do planeta e da preciosidade\n19  que são os mananciais de água limpa, as porções de terra não\n   contaminadas e as golfadas de ar puro. E, no entanto, as\n   pessoas ainda sujam, e muito, as cidades impunemente.\n\n\n\n                                                          Veja, 9/3/2011, p. 72-3 (com adaptações).",
+      "page": 15,
+      "images": []
+    }
+  },
+  {
+    "slug": "correios-2011-operador-triagem",
+    "number": 58,
+    "subject": "Língua Portuguesa",
+    "text": "Com relação aos sentidos e aspectos linguísticos do texto, assinale a opção correta.",
+    "support": "1        Que tipo de gente joga lixo na rua pela janela do carro\n   ou deixa a praia emporcalhada quando sai? Uma das respostas\n    corretas é: um tipo que está se tornando mais raro. Sim. A atual\n 4  geração de adultos foi criança em um tempo em que jogar\n   papel de bala ou caixa vazia de biscoitos pela janela do carro\n   quase nunca provocava uma bronca paterna. Foi adolescente\n 7  quando amassar o maço vazio de cigarros e chutá-lo para longe\n   não despertava, na audiência, nenhuma reação especial, além\n   de um “vai ser perna de pau assim na China”. Chegou à idade\n10  adulta dando como certo que aquelas pessoas de macacão com\n   a sigla do serviço de limpeza urbana estampada nas costas\n   precisam trabalhar e, por isso, deve contribuir sujando as ruas.\n13  Bem, isso mudou. O espírito do nosso tempo pode não impedir,\n   mas, pelo menos, não impele mais ninguém com algum grau de\n   conexão com o atual estágio civilizatório da humanidade a se\n16   livrar de detritos em lugares públicos sem que isso tenha um\n    peso, uma consequência. É feio. É um ato que contraria a ideia\n    tão prevalente da sustentabilidade do planeta e da preciosidade\n19  que são os mananciais de água limpa, as porções de terra não\n   contaminadas e as golfadas de ar puro. E, no entanto, as\n   pessoas ainda sujam, e muito, as cidades impunemente.\n\n\n\n                                                          Veja, 9/3/2011, p. 72-3 (com adaptações).",
+    "support_image": "",
+    "options": [
+      "A forma verbal “impele” (R.14) significa desencoraja.",
+      "O termo “prevalente” (R.18) poderia ser substituído, sem prejuízo à correção e ao sentido do texto, por preventiva.",
+      "O vocábulo “emporcalhada” (R.2) é formado por processo de composição.",
+      "O sujeito das orações “Foi adolescente” (R.6) e “Chegou à idade adulta” (R.9-10) remete a “A atual geração de adultos” (R.3-4).",
+      "No trecho “Chegou à idade” (R.9), é facultativo o emprego do sinal indicativo de crase."
+    ],
+    "answer": "D",
+    "explanation": "Gabarito definitivo do CESPE/UnB, Correios 2011, Tipo I: alternativa D.",
+    "page": 15,
+    "rect": [
+      25.0,
+      597.3517456054688,
+      300.6199951171875,
+      802.0
+    ],
+    "images": [],
+    "raw": "Com relação aos sentidos e aspectos linguísticos do texto, assinale\na opção correta.\n\n\nA A forma verbal “impele” (R.14) significa desencoraja.\nB O termo “prevalente” (R.18) poderia ser substituído, sem\n    prejuízo à correção e ao sentido do texto, por preventiva.\nC O vocábulo “emporcalhada” (R.2) é formado por processo de\n    composição.\nD O sujeito das orações “Foi adolescente” (R.6) e “Chegou à\n    idade adulta” (R.9-10) remete a “A atual geração de adultos”\n     (R.3-4).\nE  No trecho “Chegou à idade” (R.9), é facultativo o emprego do\n     sinal indicativo de crase.",
+    "shared": {
+      "text": "1        Que tipo de gente joga lixo na rua pela janela do carro\n   ou deixa a praia emporcalhada quando sai? Uma das respostas\n    corretas é: um tipo que está se tornando mais raro. Sim. A atual\n 4  geração de adultos foi criança em um tempo em que jogar\n   papel de bala ou caixa vazia de biscoitos pela janela do carro\n   quase nunca provocava uma bronca paterna. Foi adolescente\n 7  quando amassar o maço vazio de cigarros e chutá-lo para longe\n   não despertava, na audiência, nenhuma reação especial, além\n   de um “vai ser perna de pau assim na China”. Chegou à idade\n10  adulta dando como certo que aquelas pessoas de macacão com\n   a sigla do serviço de limpeza urbana estampada nas costas\n   precisam trabalhar e, por isso, deve contribuir sujando as ruas.\n13  Bem, isso mudou. O espírito do nosso tempo pode não impedir,\n   mas, pelo menos, não impele mais ninguém com algum grau de\n   conexão com o atual estágio civilizatório da humanidade a se\n16   livrar de detritos em lugares públicos sem que isso tenha um\n    peso, uma consequência. É feio. É um ato que contraria a ideia\n    tão prevalente da sustentabilidade do planeta e da preciosidade\n19  que são os mananciais de água limpa, as porções de terra não\n   contaminadas e as golfadas de ar puro. E, no entanto, as\n   pessoas ainda sujam, e muito, as cidades impunemente.\n\n\n\n                                                          Veja, 9/3/2011, p. 72-3 (com adaptações).",
+      "page": 15,
+      "images": []
+    }
+  },
+  {
+    "slug": "correios-2011-operador-triagem",
+    "number": 59,
+    "subject": "Língua Portuguesa",
+    "text": "No que se refere à estrutura gramatical do texto, assinale a opção correta.",
+    "support": "1           Cartão-postal brasileiro, o vasto litoral do Rio de\n    Janeiro, um patrimônio natural de 246 quilômetros de areias\n   pontilhado por montanhas, virou um caso emblemático de\n 4  regressão a estágios civilizacionais mais primitivos. Para se ter\n   uma ideia, 3.000 toneladas de lixo, só no mês de janeiro, foram\n    recolhidas das praias cariocas — guimbas de cigarro, palitos de\n 7  picolé, cocô de cachorro e restos de alimento. Empilhadas,\n   essas evidências de vida pouco inteligente lotariam cinco\n    piscinas olímpicas. Resume o historiador Marco Antonio Villa:\n10  “Ao  contrário do  cidadão dos  países  desenvolvidos, o\n    brasileiro só vê como responsabilidade sua própria casa e não\n    nutre nenhum senso de dever sobre os espaços que compartilha\n13  com os outros — um claro sinal de atraso”.\n\n\n                                                                                   Idem, ibidem.",
+    "support_image": "",
+    "options": [
+      "O vocábulo “cidadão” apresenta duas formas corretas de plural: cidadãos e cidadões.",
+      "O emprego da preposição “com” (R.13) é exigência sintática da forma verbal “compartilha” (R.12).",
+      "Na linha 12, o emprego da terceira pessoa do plural em “compartilha” — que passaria a compartilham — preservaria a correção gramatical e o sentido original do texto.",
+      "Os vocábulos “quilômetros”, “emblemático” e “picolé” são acentuados de acordo com a mesma regra de acentuação gráfica.",
+      "A substituição da preposição “por” (R.3) por de prejudica a correção gramatical e a coerência do período."
+    ],
+    "answer": "B",
+    "explanation": "Gabarito definitivo do CESPE/UnB, Correios 2011, Tipo I: alternativa B.",
+    "page": 15,
+    "rect": [
+      300.6199951171875,
+      299.2716979980469,
+      570.0,
+      533.8316650390625
+    ],
+    "images": [],
+    "raw": "No que se refere à estrutura gramatical do texto, assinale a opção\ncorreta.\n\n\nA O vocábulo “cidadão” apresenta duas formas corretas de\n     plural: cidadãos e cidadões.\nB O emprego da preposição “com” (R.13) é exigência sintática da\n    forma verbal “compartilha” (R.12).\n\nC  Na linha 12, o emprego da terceira pessoa do plural em\n    “compartilha” — que passaria a compartilham — preservaria\n    a correção gramatical e o sentido original do texto.\n\nD  Os vocábulos “quilômetros”, “emblemático” e “picolé” são\n    acentuados de acordo com a mesma regra de acentuação\n     gráfica.\nE A substituição da preposição “por” (R.3) por de prejudica a\n    correção gramatical e a coerência do período.",
+    "shared": {
+      "text": "1           Cartão-postal brasileiro, o vasto litoral do Rio de\n    Janeiro, um patrimônio natural de 246 quilômetros de areias\n   pontilhado por montanhas, virou um caso emblemático de\n 4  regressão a estágios civilizacionais mais primitivos. Para se ter\n   uma ideia, 3.000 toneladas de lixo, só no mês de janeiro, foram\n    recolhidas das praias cariocas — guimbas de cigarro, palitos de\n 7  picolé, cocô de cachorro e restos de alimento. Empilhadas,\n   essas evidências de vida pouco inteligente lotariam cinco\n    piscinas olímpicas. Resume o historiador Marco Antonio Villa:\n10  “Ao  contrário do  cidadão dos  países  desenvolvidos, o\n    brasileiro só vê como responsabilidade sua própria casa e não\n    nutre nenhum senso de dever sobre os espaços que compartilha\n13  com os outros — um claro sinal de atraso”.\n\n\n                                                                                   Idem, ibidem.",
+      "page": 15,
+      "images": []
+    }
+  },
+  {
+    "slug": "correios-2011-operador-triagem",
+    "number": 60,
+    "subject": "Língua Portuguesa",
+    "text": "Considerando as ideias e a estruturação sintática do texto, assinale a opção correta.",
+    "support": "1           Cartão-postal brasileiro, o vasto litoral do Rio de\n    Janeiro, um patrimônio natural de 246 quilômetros de areias\n   pontilhado por montanhas, virou um caso emblemático de\n 4  regressão a estágios civilizacionais mais primitivos. Para se ter\n   uma ideia, 3.000 toneladas de lixo, só no mês de janeiro, foram\n    recolhidas das praias cariocas — guimbas de cigarro, palitos de\n 7  picolé, cocô de cachorro e restos de alimento. Empilhadas,\n   essas evidências de vida pouco inteligente lotariam cinco\n    piscinas olímpicas. Resume o historiador Marco Antonio Villa:\n10  “Ao  contrário do  cidadão dos  países  desenvolvidos, o\n    brasileiro só vê como responsabilidade sua própria casa e não\n    nutre nenhum senso de dever sobre os espaços que compartilha\n13  com os outros — um claro sinal de atraso”.\n\n\n                                                                                   Idem, ibidem.",
+    "support_image": "",
+    "options": [
+      "Atribui-se ao turismo intenso na cidade do Rio de Janeiro a responsabilidade pela grande quantidade de lixo retirada das praias cariocas.",
+      "Na opinião do historiador Marco Antonio Villa, o povo brasileiro não se sente responsável pelo cuidado dos espaços que compartilha com os outros.",
+      "Na linha 6, a substituição do travessão por dois-pontos prejudicaria a correção gramatical do texto.",
+      "É possível afirmar que, em países desenvolvidos, as pessoas preocupam-se mais com a limpeza de locais públicos do que com suas próprias casas.",
+      "O sujeito da oração “Resume o historiador Marco Antonio Villa” (R.9) está oculto."
+    ],
+    "answer": "B",
+    "explanation": "Gabarito definitivo do CESPE/UnB, Correios 2011, Tipo I: alternativa B.",
+    "page": 15,
+    "rect": [
+      300.6199951171875,
+      544.7916870117188,
+      570.0,
+      802.0
+    ],
+    "images": [],
+    "raw": "Considerando as ideias e a estruturação sintática do texto, assinale\na opção correta.\n\n\nA  Atribui-se ao turismo intenso na cidade do Rio de Janeiro a\n    responsabilidade pela grande quantidade de lixo retirada das\n     praias cariocas.\n\nB  Na opinião do historiador Marco Antonio Villa, o povo\n     brasileiro não se sente responsável pelo cuidado dos espaços\n    que compartilha com os outros.\n\nC  Na linha 6, a substituição do travessão por dois-pontos\n     prejudicaria a correção gramatical do texto.\n\nD  É possível afirmar que, em países desenvolvidos, as pessoas\n    preocupam-se mais com a limpeza de locais públicos do que\n   com suas próprias casas.\n\nE O sujeito da oração “Resume o historiador Marco Antonio\n     Villa” (R.9) está oculto.",
+    "shared": {
+      "text": "1           Cartão-postal brasileiro, o vasto litoral do Rio de\n    Janeiro, um patrimônio natural de 246 quilômetros de areias\n   pontilhado por montanhas, virou um caso emblemático de\n 4  regressão a estágios civilizacionais mais primitivos. Para se ter\n   uma ideia, 3.000 toneladas de lixo, só no mês de janeiro, foram\n    recolhidas das praias cariocas — guimbas de cigarro, palitos de\n 7  picolé, cocô de cachorro e restos de alimento. Empilhadas,\n   essas evidências de vida pouco inteligente lotariam cinco\n    piscinas olímpicas. Resume o historiador Marco Antonio Villa:\n10  “Ao  contrário do  cidadão dos  países  desenvolvidos, o\n    brasileiro só vê como responsabilidade sua própria casa e não\n    nutre nenhum senso de dever sobre os espaços que compartilha\n13  com os outros — um claro sinal de atraso”.\n\n\n                                                                                   Idem, ibidem.",
+      "page": 15,
+      "images": []
+    }
+  }
+]

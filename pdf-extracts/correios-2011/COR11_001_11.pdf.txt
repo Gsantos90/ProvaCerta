@@ -1,0 +1,830 @@
+--- PAGE 1 ---
+
+
+--- PAGE 2 ---
+                                                                                CESPE/UnB – ECT
+
+C   Nas questões a seguir, marque, para cada uma, a única opção correta, de acordo com o respectivo comando. Para as devidas
+    marcações, use a Folha de Respostas, único documento válido para a correção das suas respostas.
+C   Nas questões que avaliam conhecimentos de informática, a menos que seja explicitamente informado o contrário, considere que todos
+    os programas mencionados estão em configuração padrão, em português, que o mouse está configurado para pessoas destras, que
+    expressões como clicar, clique simples e clique duplo referem-se a cliques com o botão esquerdo do mouse e que teclar corresponde
+    à operação de pressionar uma tecla e, rapidamente, liberá-la, acionando-a apenas uma vez. Considere também que não há restrições
+    de proteção, de funcionamento e de uso em relação aos programas, arquivos, diretórios, recursos e equipamentos mencionados.
+                     DISCIPLINA: INFORMÁTICA
+Texto para as questões de 1 a 3
+                                                             QUESTÃO 3
+
+     A figura abaixo ilustra uma janela do Microsoft Office Excel 2007
+com uma planilha que contém dados relativos a demandas por produtos
+e serviços da agência central dos Correios de determinado município.
+A planilha está sendo editada em um computador cujo sistema operacional
+é o Windows Vista.
+
+
+
+
+
+                                                                     Considere que, para representar graficamente a demanda por
+                                                                      produtos e serviços da mencionada agência, conforme
+                                                                       detalhado na planilha Excel ilustrada no texto, tenha sido
+                                                                         criado o gráfico do tipo pizza, em 3D, mostrado na figura
+                                                                      acima,  utilizando-se  recursos  obtidos  a   partir  de
+                                                                   determinado menu do Excel. Nesse caso, para a criação
+                                                                      desse gráfico, deve ter sido utilizado o menu
+
+                                    A                 .
+                                    B               .
+                                    C                   .
+                                    D              .
+                                    E                 .
+
+                                                             QUESTÃO 4
+
+
+
+
+
+ QUESTÃO 1
+
+Com base nas informações do texto, é correto afirmar que a célula D3
+
+A   está  com  formatação  definida  para  alinhamento  horizontal
+     centralizado.
+B   está mesclada.                                A figura acima mostra uma janela associada a uma pasta
+C   está formatada como texto.                                     denominada correiosdocs, em um computador em que se
+D  tem sua formatação definida para alinhamento vertical centralizado do    utiliza o sistema operacional Windows XP. Com relação a
+    conteúdo.                                                            essa janela e ao Windows XP, assinale a opção correta.
+E   está formatada para que haja redução automática do tamanho da fonte,
+    de forma que o seu conteúdo seja ajustado dentro da coluna da célula.  A A pasta  correiosdocs  está contida no disco C: do
+                                                                       computador.
+ QUESTÃO 2
+                                    B  Ao se clicar o botão       , os ícones associados aos
+Entre as possibilidades de se ter obtido corretamente o valor mostrado na
+                                                                            arquivos              e              serão exibidos
+célula D11 da planilha Excel ilustrada no texto, inclui-se a de, após as
+                                                         com tamanho maior que o exibido na janela.devidas formatações, clicar a referida célula e, em seguida,
+                                    C  Ao se aplicar um clique duplo no ícone                       ,
+A   digitar =SOMA(D3;D10) e teclar        .                                        será aberto o documento associado a esse ícone.
+B   digitar =SOMA(D3-D10) e teclar        .                D O arquivo associado ao ícone              ocupa
+                                                                       espaço de memória inferior a 8 mil bytes.C   digitar =D3%D10 e teclar        .
+                                    E  Ao se clicar o ícone                  e, a seguir, o botão
+D   clicar o botão         .                                                                                                                                      , o referido ícone passará a ser exibido, na janela,
+E   digitar =SOMA(D3:D10) e teclar        .                               acima do ícone                       .
+
+
+Cargo: Agente dos Correios – Atividade 1: Atendente Comercial                               Caderno 11-BRANCO                               – 1 –
+
+--- PAGE 3 ---
+                                                                                CESPE/UnB – ECT
+
+
+                                                         Texto para as questões de 9 a 12
+ QUESTÃO 5
+                                          Um arquivo de nome Relatório Periódico.pdf será enviado
+                                                          anexado a uma mensagem de correio eletrônico, utilizando-se
+                                                                   recursos de webmail, por meio do Internet Explorer 8 (IE8).
+                                       A janela do IE8 a ser utilizada nessa operação está sendo executada
+                                              em um computador cujo sistema operacional é o Windows Vista.
+                                                             Essa janela, ilustrada a seguir, foi capturada quando o ponteiro do
+
+                                                      mouse se encontrava sobre a guia                  , correspondente ao
+                                                                acesso a página do sítio www.correios.com.br, que também está
+                                                             ocorrendo na sessão de uso do IE8.
+
+Os recursos do menu  Inserir do Microsoft Office Word 2007
+disponibilizados na barra de ferramentas ilustrada, em duas partes,
+na figura acima permitem que se insira, em um documento em
+edição,
+A  equação  matemática,  por meio do  conjunto  de  botões
+
+                              .
+
+
+B  quebra de seção, por meio do conjunto de botões        .
+
+
+C  imagem armazenada no computador, por meio do botão          .
+D  texto  com   efeitos  decorativos,  como,  por  exemplo,
+
+                             , por meio do conjunto de botões                       .
+E  nova   página  em   branco,   por  meio  do  submenu
+
+                                        .                                    QUESTÃO 9
+ QUESTÃO 6                                          As informações do texto e da janela do IE8 são suficientes para se
+                                                                    concluir corretamente que
+No Microsoft Office Word 2007, o usuário encontrará recursos que                                 A  a referida mensagem de correio eletrônico será enviada para
+lhe permitem fazer e exibir comentários e ativar o controle de                                                                mais de um destinatário.
+alterações que forem feitas em um documento em edição no menu  B  os referidos recursos de webmail estão sendo acessados por
+                                                            meio de uma conexão denominada segura.
+A  Correspondências.                       C  o arquivo que será enviado tem tamanho superior a 4
+B   Revisão.                                                       megabytes.
+                                 D  o sítio www.correios.com.br é a página inicial do IE8, instaladoC   Exibição.
+                                                           no computador.
+D   Início.                                 E  o sítio que disponibiliza os referidos recursos de webmail está
+E   Referências.                                                     configurado como favorito do IE8, instalado no computador.
+
+ QUESTÃO 7                                              QUESTÃO 10
+
+Para se criar um arquivo, no formato PDF, correspondente a um   Caso se deseje visualizar, no corpo de páginas do IE8, a página
+documento criado com o Microsoft Office Word 2007, é correto o   web correspondente ao endereço www.correios.com.br, deve-se clicar
+uso dos recursos desse aplicativo disponibilizados a partir do
+                                 A  a guia                 .
+A  menu Referências, na barra de menus.             B  o botão      .
+B  menu Correspondências, na barra de menus.                                 C  o campo    do botão                .
+C  conjunto de botões Imprimir, obtido ao se clicar o botão Office.
+                                 D  o botão      .
+D  conjunto de botões Preparar, obtido ao se clicar o botão Office.
+E  menu Layout da Página, na barra de menus.           E  o botão     .
+
+                                                       QUESTÃO 11
+ QUESTÃO 8
+                                                        Caso se deseje, na sessão de uso do IE8 descrita no texto, dar inícioO modem
+                                                               a uma navegação InPrivate, buscando evitar, dessa forma, deixar
+                                                                       vestígios nos arquivos de armazenamento do IE8 acerca de
+A  é um tipo de memória semicondutora não volátil.              informações referentes a sítios visitados, é correto o uso da opção
+B  é um tipo de interface paralela que permite a comunicação sem   Navegação InPrivate, que pode ser selecionada a partir do menu
+     fio entre um computador e seus periféricos.
+                                 A                   .
+C  é um roteador wireless para redes sem fio.
+                                 B                        .
+D  tem função de garantir o fornecimento ininterrupto de energia
+                                 C                  .     elétrica ao computador.
+                                 D              .E  pode auxiliar na comunicação entre computadores através da
+    rede telefônica.                       E               .
+
+
+Cargo: Agente dos Correios – Atividade 1: Atendente Comercial                               Caderno 11-BRANCO                               – 2 –
+
+--- PAGE 4 ---
+                                                                                CESPE/UnB – ECT
+
+
+                                       A figura abaixo, que mostra uma janela do Word 2003, com um
+ QUESTÃO 12
+                                                        documento em edição, serve de base para as questões 15 e 16.
+
+
+
+
+
+                                                       QUESTÃO 15
+
+A figura acima ilustra uma janela que pode ser corretamente   Assinale a opção em que se descreve a forma correta de copiar
+acessada por meio de opção disponibilizada pelo IE8 no menu      apenas a palavra “Campanha”, no primeiro parágrafo do documento
+                                                               mostrado, em outro local desse documento, sem que ela seja
+                                                           apagada do local original.A              .
+B               .                           A  Aplicar um clique duplo na palavra “Campanha”;  teclar
+C                   .                                                     simultaneamente as teclas      e      ; aplicar um clique no
+D                        .
+                                                                            local onde se deseja copiar a palavra; clicar o botão       .
+E                  .                                B  Aplicar um clique  triplo na palavra “Campanha”;  teclar
+
+ QUESTÃO 13                                                      simultaneamente as teclas      e      ; aplicar um clique no
+
+Considerando que um usuário pretenda salvar, em memória ou em        local onde se deseja copiar a palavra; clicar o botão       .
+dispositivo de armazenamento, um arquivo com tamanho de 3  C  Selecionar a palavra “Campanha”; teclar simultaneamente as
+gigabytes, assinale a opção correta.
+                                                                              teclas      e      ; aplicar um clique no local onde se deseja
+
+A  Os discos  rígidos  externos, cuja capacidade  atual é de        copiar a palavra; clicar o botão       .
+    900 kilobytes, não são capazes de armazenar esse arquivo.   D  Selecionar a palavra “Campanha”; teclar simultaneamente as
+B  Os disquetes de 3½", cuja capacidade é de 200 gigabytes,                                                                              teclas      e      ; aplicar um clique no local onde se deseja
+   podem armazenar esse arquivo.
+                                                                      copiar a palavra; pressionar simultaneamente as teclas     e
+C  Qualquer tipo de CD-ROM tem capacidade suficiente para
+    armazenar esse arquivo.                                                                            .
+D  Os discos do tipo DVD-ROM, cuja capacidade máxima atual  E  Selecionar a palavra “Campanha”; clicar o botão       ; aplicar
+    é de 8 kilobytes, não são capazes de armazenar esse arquivo.      um clique no local onde se deseja copiar a palavra; clicar o
+E  Diversos modelos de pendrive têm capacidade suficiente para
+                                                                  botão       .    armazenar esse arquivo.
+
+                                                       QUESTÃO 16
+ QUESTÃO 14
+                                           Com relação à janela ilustrada e ao Word 2003, assinale a opçãoCom relação a mensagens de correio eletrônico, assinale a opção
+                                                                         correta.
+correta.
+
+A  Para um usuário de nome Jorge que trabalhe em uma empresa  A  Ao se clicar o botão       , a janela do Word será maximizada.
+    comercial brasileira denominada Fictícia, estará correta a  B  Ao se selecionar uma palavra do documento e se clicar o botão
+     estrutura de endereço de email @bra.com.ficticia.jorge.                                 , será aplicado negrito a essa palavra, caso ela não esteja
+B O Microsoft Office não possui aplicativo que permita ao       assim formatada.
+    usuário lidar com mensagens de correio eletrônico.
+                                C  Ao se selecionar a palavra “donativos” e clicar o botão       ,
+C O recurso Cc (cópia carbono) permite o envio de cópia de uma                                                                 apenas essa palavra será apagada do texto.
+   mensagem de correio eletrônico a múltiplos destinatários.                                D  Na primeira linha do  texto, ao se selecionar a palavra
+D  Só é possível enviar cópias de mensagens de correio eletrônico
+                                                                     “arrecada” e clicar o botão      , essa palavra será deslocada    a múltiplos usuários caso todos eles tenham acesso à lista de
+                                                                    para a posição entre as palavras “dos” e “Correios” dessa linha.    todos os que receberão cópias.
+                                E  Ao se selecionar um dos parágrafos do texto e clicar o botão
+E O programa Outlook Express 2003 possibilita a visualização
+    de mensagens de correio eletrônico, mas não, a criação e o                  , será iniciada a verificação ortográfica do parágrafo
+    envio de mensagens.                                               selecionado.
+
+
+Cargo: Agente dos Correios – Atividade 1: Atendente Comercial                               Caderno 11-BRANCO                               – 3 –
+
+--- PAGE 5 ---
+                                                                                CESPE/UnB – ECT
+
+
+
+ QUESTÃO 17                                             QUESTÃO 19
+
+
+
+
+
+                                       A janela do navegador Mozilla Firefox 3.6.15 mostrada na figura
+                                                          acima contém uma página web do sítio www.correios.com.br. Com
+                                                                   relação a essa janela e a esse navegador, assinale a opção correta.Com relação à janela do Excel 2003 mostrada na figura acima e a
+esse programa, assinale a opção correta.              A  Ao se clicar o botão      , a página do sítio www.correios.com.br,
+                                                                     exibida  atualmente,  será  recarregada,  sendo  incluídas
+A  Ao se clicar a célula B3 e, em seguida, o botão       , o conteúdo
+                                                                         atualizações que tenham sido feitas desde a última vez em que    da célula será alterado para 400.
+                                                                            ela foi carregada.B  Para se selecionar o grupo de células formado pelas células A1, A2 e
+     A3, é suficiente clicar a célula A1 e, em seguida, clicar a célula A3.   B  Ao se clicar o botão      , será mostrada a última página exibida
+C  Para se somarem os valores das células B2 e B3 e colocar o        antes da página do sítio www.correios.com.br mostrada.
+     resultado na célula B4, é suficiente clicar a célula B4, digitar                                C  Ao se clicar o menu           , será exibida a página do Google,
+    =B2+B3 e, em seguida, teclar        .                        com o URL http://www.google.com, cuja função principal é
+D  Para se multiplicarem os valores das células B2 e C2 e colocar o        fornecer ao usuário ajuda sobre o uso da página que está sendo
+     resultado na célula D2, é suficiente selecionar as células B2 e C2 e        apresentada.
+     clicar o botão      , próximo ao canto superior direito da janela.  D  Ao se clicar o menu              , será exibida uma lista de opções,
+E  Caso sejam selecionadas todas as células da planilha e se clique        incluindo-se uma que permite imprimir a página atual.
+    o botão       , será aberta uma ferramenta de revisão ortográfica  E  Ao se clicar o botão       , será aberto o programa de correio
+    que permitirá a procura de erros ortográficos nas células da                                                                          eletrônico escolhido pelo usuário como padrão, que permite a
+     planilha que contenham palavras da língua portuguesa.                                                                                    leitura, a edição e o envio de mensagens de correio eletrônico.
+
+ QUESTÃO 18
+                                                       QUESTÃO 20
+
+
+
+
+
+                                               Na figura acima, é mostrado o canto inferior esquerdo da área de
+                                                                   trabalho de um computador onde está sendo usado o sistema
+                                                                 operacional Windows XP. A respeito dessa figura e desse sistema,
+                                                                      assinale a opção correta.
+
+                                A  Para o envio do arquivo associado ao ícone      para a lixeira,
+Com relação à janela do PowerPoint 2003 mostrada na figura acima
+e a esse programa, assinale a opção correta.
+                                                                  é suficiente clicar esse ícone e, em seguida, o ícone        .
+A  Ao se clicar o botão        , será iniciado procedimento para
+     salvar o arquivo atualmente aberto, com todas as modificações  B  Ao se clicar, com o botão direito do mouse, o ícone         , será
+    nele efetuadas desde o salvamento do arquivo pela última vez.                                                                        aberta uma lista de opções, entre as quais, uma que permite
+                                                                              abrir o arquivo associado ao ícone.B  Ao se clicar o botão         , será aberto um aplicativo com a
+    função de permitir que o usuário defina a impressora padrão de
+    seu computador.                       C  Ao se clicar o ícone         e, em seguida, o botão                  ,
+                                                          o programa Mozilla Firefox será aberto.
+C O botão      permite aumentar o tamanho da fonte do texto  D  Para se proceder ao esvaziamento da lixeira do Windows, é
+    selecionado em um eslaide.
+
+D  Ao se clicar o botão       , próximo ao canto inferior esquerdo da        suficiente clicar o ícone        .
+     janela, será inserido um novo eslaide, em branco, na apresentação.
+E  Ao se clicar o botão       , será aberta a janela Abrir, que permite abrir  E  Ao se aplicar um clique sobre o ícone           , o arquivo
+   um arquivo que tenha sido salvo, anteriormente, no PowerPoint.           associado a esse ícone será aberto.
+
+
+Cargo: Agente dos Correios – Atividade 1: Atendente Comercial                               Caderno 11-BRANCO                               – 4 –
+
+--- PAGE 6 ---
+                                                                                CESPE/UnB – ECT
+
+                      DISCIPLINA: MATEMÁTICA
+
+
+ QUESTÃO 21                                             QUESTÃO 24
+
+     A primeira unidade do novo modelo de agência franqueada       Um cliente comprou, em uma agência dos Correios, selos
+dos Correios foi inaugurada em 10/2/2011, em Ourinhos, no interior   comemorativos dos 150 anos do nascimento do padre Landell de
+do estado de São Paulo. A nova agência, com 200 metros   Moura e dos 150 anos de fundação da Caixa Econômica Federal
+quadrados de área, situa-se na Vila Recreio.                     (CAIXA). Para o pagamento desses produtos, o cliente entregou certa
+                                                            Internet: <www.correios.com.br> (com adaptações).                       3                                                                     quantia em reais e notou que    dessa quantia correspondiam ao custo
+                                                                      4
+                                                              dos selos comemorativos dos 150 anos do padre Landell de Moura e
+                                                  1 , ao custo dos selos comemorativos dos 150 anos da CAIXA.
+                                                  5
+                                                          Nessa situação, com relação à quantia entregue para pagamento, o
+                                                                   troco a que faz jus o cliente corresponde a
+Considerando que essa nova agência seja composta de 2 salas, uma  A  20%.
+retangular, com lados medindo 17 m e 8 m e outra, quadrada, com  B  5%.
+lados medindo L metros, conforme ilustrado na figura acima, é  C  8%.
+correto afirmar que o valor de L é                 D  10%.
+A  superior a 5 e inferior a 7.                  E  12%.
+B  superior a 7 e inferior a 9.                               QUESTÃO 25
+C  superior a 9.
+D   inferior a 3.                                               Considere que, em uma empresa, 50% dos empregados possuam
+                                                                      nível médio de escolaridade e 5%, nível superior. Guardadas essasE  superior a 3 e inferior a 5.
+                                                                proporções, se 80 empregados dessa empresa possuem nível médio
+Texto para as questões 22 e 23                                                          de escolaridade, então a quantidade de empregados com nível
+                                                                   superior é igual a
+     O Programa Nacional do Livro Didático e o Programa
+                                A   8.Nacional do Livro Didático para o Ensino Médio são realizados
+pela ECT em parceria com o Fundo Nacional de Desenvolvimento  B  10.
+da Educação.                          C  15.
+     A operação  consiste na  entrega, todos os anos, de  D  20.
+100 milhões de livros didáticos a escolas públicas de ensino  E   5.
+fundamental e médio de todo o Brasil, volume equivalente à metade
+                                                       QUESTÃO 26
+de toda a produção gráfica do Brasil. Para a distribuição desses
+livros são realizadas viagens de carretas das editoras para os centros   Suponha que a caixa de encomenda temática da ECT possua a
+de tratamento da empresa instalados em pontos estratégicos do país.   forma de um paralelepípedo retângulo, cujas arestas tenham
+Nessas unidades, as encomendas são tratadas e, depois, entregues   comprimentos iguais a 90 mm, 270 mm e 180 mm. Nesse caso, o
+nas escolas.                                              volume dessa caixa, em 1.000 cm3, é
+                                                            Internet: <www.correios.com.br> (com adaptações).  A  superior a 29.
+ QUESTÃO 22                          B   inferior a 5.
+                                C  superior a 5 e inferior a 13.                7
+Considerando  que       e 13%  dos  livros  didáticos  sejam  D  superior a 13 e inferior a 21.
+                40                     E  superior a 21 e inferior a 29.
+distribuídos, respectivamente, para as regiões Nordeste e Norte,
+então a quantidade, em milhões, de livros didáticos destinada a    QUESTÃO 27
+essas duas regiões pelos programas mencionados no texto é
+                                                              Considerando-se que 3 caixas de encomenda do tipo 2B e 3 caixas
+A  superior a 15 e inferior a 25.                              de encomenda do tipo flex correios custem, ao todo, R$ 12,00 e que
+B  superior a 25 e inferior a 35.                             5 caixas do tipo 2B e 10 do tipo flex correios custem, ao todo,
+C  superior a 35 e inferior a 45.                         R$ 28,00, é correto afirmar que uma caixa do tipo 2B custa
+D  superior a 45.                        A  R$ 2,40.
+E   inferior a 15.                        B  R$ 3,15.
+                                C  R$ 3,20.
+ QUESTÃO 23
+                                D  R$ 1,20.
+Considere que 3 carretas façam, repetidamente, viagem de ida e  E  R$ 2,00.
+volta entre determinada editora e um centro de tratamento da ECT
+                                                       QUESTÃO 28
+em 4 dias, 5 dias e 6 dias, respectivamente, e, ao completar um
+percurso de ida e volta, elas retomem imediatamente esse percurso.   Suponha que uma pessoa compre 5 unidades de um mesmo produto,
+Se, em certo dia, as 3 carretas partirem simultaneamente da editora,   pague com uma nota de R$ 50,00 e receba R$ 15,50 de troco.
+então elas voltarão a partir juntas novamente dessa editora após     Nessa situação, cada unidade do referido produto custa
+A  45 dias.                           A  mais de R$ 7,50.
+B  60 dias.                           B  menos de R$ 3,00.
+C  10 dias.                           C  mais de R$ 3,00 e menos de R$ 4,50.
+D  15 dias.                           D  mais de R$ 4,50 e menos de R$ 6,00.
+E  30 dias.                           E  mais de R$ 6,00 e menos de R$ 7,50.
+
+
+Cargo: Agente dos Correios – Atividade 1: Atendente Comercial                               Caderno 11-BRANCO                               – 5 –
+
+--- PAGE 7 ---
+                                                                                CESPE/UnB – ECT
+
+
+ QUESTÃO 29                                             RASCUNHO
+
+Considere que, independentemente do tipo de demanda, o tempo
+gasto com o atendimento a cada cliente por um atendente, em
+minutos, seja sempre o mesmo, e que, em 4 horas de trabalho, ele
+atenda 64 clientes. Nessa situação, o tempo utilizado por esse
+atendente, no atendimento a cada cliente, é
+A  superior a 5 minutos e inferior a 6 minutos.
+B  superior a 6 minutos.
+C   inferior a 3 minutos.
+D  superior a 3 minutos e inferior a 4 minutos.
+E  superior a 4 minutos e inferior a 5 minutos.
+
+ QUESTÃO 30
+
+Se, no período de 4 meses e no regime de juros simples, a quantia
+de R$ 2.000,00 aplicada em uma instituição financeira produz o
+montante de R$ 2.720,00, então a taxa mensal de juros praticada
+por essa instituição é
+A  superior a 8%.
+B   inferior a 2%.
+C  superior a 2% e inferior a 4%.
+D  superior a 4% e inferior a 6%.
+E  superior a 6% e inferior a 8%.
+
+ QUESTÃO 31
+
+     Em uma empresa, os empregados têm direito a descanso
+remunerado de um dia a cada 15 dias trabalhados. Em determinado
+ano, os dias trabalhados e os dias de descanso somaram 224 dias.
+
+Com base nessa situação, é correto afirmar que, nesse ano, a
+quantidade de dias de descanso desses empregados foi
+A  superior a 16 e inferior a 20.
+B  superior a 20 e inferior a 24.
+C  superior a 24.
+D   inferior a 12.
+E  superior a 12 e inferior a 16.
+
+Texto para as questões 32 e 33
+     Em um escritório, a despesa mensal com os salários dos
+10 empregados é de R$  7.600,00. Nesse  escritório, alguns
+empregados recebem, individualmente, R$ 600,00 de salário mensal
+e os outros, R$ 1.000,00.
+
+ QUESTÃO 32
+
+Se, para atender a crescente demanda de serviços, o escritório
+triplicar a quantidade de empregados com salário de R$ 600,00 e
+duplicar a quantidade de empregados com salário de R$ 1.000,00,
+então  a  despesa  desse  escritório com  os  salários de  seus
+empregados passará a ser de
+A  R$ 18.800,00.
+B  R$ 18.000,00.
+C  R$ 18.200,00.
+D  R$ 18.400,00.
+E  R$ 18.600,00.
+
+ QUESTÃO 33
+
+A partir das informações do texto, considere que aos empregados
+que recebem salário mensal de R$ 600,00 seja concedido reajuste
+salarial de 10%, e aos que recebem salário de R$ 1.000,00, reajuste
+de 15%. Nesse caso, a despesa mensal do escritório com os salários
+de seus empregados aumentará entre
+A 7% e 9%.
+B 9% e 11%.
+C  11% e 13%.
+D  13% e 15%.
+E 5% e 7%.
+
+
+Cargo: Agente dos Correios – Atividade 1: Atendente Comercial                               Caderno 11-BRANCO                               – 6 –
+
+--- PAGE 8 ---
+                                                                                CESPE/UnB – ECT
+
+
+Texto para as questões 34 e 35
+                                                       QUESTÃO 39
+
+      Uma equipe de conferentes analisou os registros de   Se cada carteiro de uma agência dos Correios consegue entregar
+determinados documentos. Todos os membros dessa equipe    certa quantidade de correspondências em 8 horas, então é correto
+trabalham com a mesma eficiência, e 3 deles analisaram 60% de   afirmar que 6 carteiros entregarão essa mesma quantidade de
+todo o material.                                                 correspondências em
+
+ QUESTÃO 34                          A  1 h e 40 min.
+                                B  1 h e 50 min.Na situação apresentada, a quantidade de material analisado por
+                                C  1 h e 10 min.2 dos conferentes corresponde a
+                                D  1 h e 20 min.
+A  48% de todo material.                    E  1 h e 30 min.
+B  44% de todo material.                                  QUESTÃO 40
+C  40% de todo material.
+                                                       Se o perímetro de um terreno em forma de retângulo é igual a
+D  56% de todo material.
+                                                       180 m e se um dos lados desse retângulo mede 10 m a mais que o
+E  52% de todo material.                                                                      outro, então a área do terreno é igual a
+
+ QUESTÃO 35
+                                A  1.800 m2.
+A partir das informações do texto, infere-se que a quantidade de  B  1.600 m2.
+conferentes da equipe é igual a                  C  1.400 m2.
+                                D  1.200 m2.
+A   6.                             E  2.000 m2.
+B   7.
+                                                      RASCUNHO
+C   8.
+D   9.
+E   5.
+
+ QUESTÃO 36
+
+O trajeto de 5 km percorrido por um carteiro é formado por
+2 trechos. Sabe-se que os comprimentos desses trechos, em metros,
+são números diretamente proporcionais a 2 e 3. Nesse caso, a
+diferença, em metros, entre os comprimentos do maior trecho e do
+menor trecho é igual a
+
+A  600.
+B  1.400.
+C  1.200.
+D  1.000.
+E  800.
+Texto para as questões 37 e 38
+
+     Um investidor aplicou R$ 10.000,00, por 2 anos, à taxa de
+juros compostos anuais de 10%.
+
+ QUESTÃO 37
+
+Com base no texto, é correto afirmar que, ao final do período de
+2 anos, o juro obtido nesse investimento foi
+
+A  superior a R$ 1.300,00 e inferior a R$ 1.600,00.
+B  superior a R$ 1.600,00 e inferior a R$ 1.900,00.
+C  superior a R$ 1.900,00 e inferior a R$ 2.200,00.
+D  superior a R$ 2.200,00.
+E   inferior a R$ 1.300,00.
+
+ QUESTÃO 38
+
+O investidor obteria o mesmo montante se aplicasse o mesmo
+capital, por 3 anos, a juros simples anuais de
+
+A  7%.
+B  8%.
+C  9%.
+D  5%.
+E  6%.
+
+
+Cargo: Agente dos Correios – Atividade 1: Atendente Comercial                               Caderno 11-BRANCO                               – 7 –
+
+--- PAGE 9 ---
+                                                                                CESPE/UnB – ECT
+
+                      DISCIPLINA: PORTUGUÊS
+
+
+ QUESTÃO 41                                             QUESTÃO 43
+
+Assinale a opção em que o texto de placa que alerta para a presença  Um dos serviços prestados pelos Correios e mostrado na figura em
+de cão raivoso está corretamente pontuado.                        questão é o rastreamento de objetos. Nesse serviço, rastrear
+                                                                         significa
+A  Cão raivoso?
+    Cuidado?
+                                A  guardar o rastro do objeto.
+B  Cuidado:
+   Cão raivoso!                        B  lembrar o rastro do objeto.
+C  Cão raivoso?                        C  deixar o rastro do objeto.
+    Cuidado!                          D  fazer o rastro do objeto.
+D  Cuidado?                         E  pesquisar o rastro do objeto.
+   Cão raivoso!
+E  Cuidado:                                            QUESTÃO 44
+   Cão raivoso?
+                                             No tempo em que se andava a cavalo para entregar cartas, era
+Figura para as questões 42 e 43                                  preciso pôr arreios no cavalo, ou seja, era preciso
+
+
+                                A   arriar-se o cavalo.
+                                B   arreiar o cavalo.
+                                C   arreiar-se no cavalo.
+                                D   arrear o cavalo.
+                                E   arriar no cavalo.
+
+                                                         Texto para as questões de 45 a 48
+
+
+                                                                                                  1         Cachorro se parece mesmo é com criança: vive o
+                                                                       agora, alegra-se com o simples prazer de uma caminhada,
+                                                                            corre, pula, brinca, diariamente. Aliás, o que mais incomoda o
+      Na figura acima, que é parte de uma página da Internet       4 homem no comportamento canino é a constante alegria do seu
+(www.correios.com.br), são mostrados dois serviços prestados                                                               melhor amigo. Em geral, não estamos acostumados a viver
+pelos Correios.                                                          24 horas por dia de puro prazer, ainda mais quando levamos
+ QUESTÃO 42                                                                                7  uma vida de cachorro. Sentimo-nos, talvez, desrespeitados
+                                                                      pela  impertinência  de um  contentamento  desmesurado,Com referência à situação mostrada na figura, assinale a opção
+                                                                     principalmente quando algo ou alguém patrocinou-nos algumacorreta.
+                                                                                                 10  desventura.
+
+A   Infere-se da figura que, ao digitar, por exemplo, a palavra
+                                                                                                                                     Laudimiro Almeida  Filho. Vida de cachorro.  In: Acontessências.
+    analgésico no espaço para Busca CEP ou Endereço ou no espaço                                               Brasília: Gráfica e Editora  Positiva, 1999, p. 37 (com adaptações).
+    para Rastreamento de objetos e, em seguida, clicar um dos dois
+                                                       QUESTÃO 45
+    botões Buscar, o usuário visualizará uma lista de todas as
+    páginas da Internet que contenham a palavra analgésico.    A expressão “do seu melhor amigo” (R.4-5) remete a um ditado
+B  Embora os serviços estejam separados, infere-se da figura que   popular. Assinale a opção correspondente a esse ditado.
+    é possível buscar um objeto em Busca CEP ou Endereço ou um
+    endereço em Rastreamento de objetos.             A  Cão que ladra não morde.
+C  Se, por exemplo, o usuário digitar o endereço R Riachuelo  B  Cão picado de cobra tem medo de linguiça.
+    Lt 2 nr 25 no espaço para Busca CEP ou Endereço e, em  C  Cão feroz, dono atroz.
+    seguida, clicar o botão Buscar correspondente ao serviço, ele                                D  Quem não tem cão caça com gato.
+    não deverá obter o número do CEP correspondente a esse
+                                E O cão é o melhor amigo do homem.
+    endereço.
+D  Deduz-se da figura que, se o usuário digitar, no espaço para    QUESTÃO 46
+    Rastreamento de objetos, o código inícioSS123 e, em seguida,
+                                               De acordo com o texto, o comportamento dos cachorros
+     clicar o botão Buscar correspondente ao serviço, ele poderá
+     visualizar informações sobre todos os objetos cujos códigos
+                                A  evidencia que eles gostariam de ser crianças.
+   comecem com SS123.
+                                B  revela o carinho deles pelas crianças.E  Deduz-se da figura que, se o usuário digitar, no espaço para
+                                C  assemelha-se ao das crianças.    Rastreamento de objetos, o código SS1234567BR e, em seguida,
+     clicar o botão Buscar correspondente a esse serviço, ele poderá  D  provoca medo nas crianças.
+     visualizar informações sobre um objeto referente a esse código.  E   irrita as crianças.
+
+
+Cargo: Agente dos Correios – Atividade 1: Atendente Comercial                               Caderno 11-BRANCO                               – 8 –
+
+--- PAGE 10 ---
+                                                                                CESPE/UnB – ECT
+
+
+
+ QUESTÃO 47                                             QUESTÃO 51
+
+Assinale a opção correta de acordo com as ideias apresentadas no           Etimologicamente formada das palavras gregas philos
+texto.                                                          (amigo, amador) e atelês (franco, livre de qualquer encargo ou
+                                                                  imposto), a  filatelia  é, geralmente, definida como o ato de
+A A alegria das crianças é maior que a alegria dos cachorros.
+                                                                  colecionar selos, especialmente aqueles considerados raros. Mas,
+B  Pessoas  adultas são  felizes só quando vivem  “vida de
+                                                           muito mais do que um hobby, a filatelia é, ao mesmo tempo, uma    cachorro”.
+                                                                     ciência e uma arte que apaixona pessoas dos mais diversos lugaresC O adulto tem inveja da alegria das crianças.
+D  É mais fácil alegrar crianças que adultos.                   do mundo.
+E  Aquilo que alegra a criança não alegra o adulto.                                                                                                             Internet: <www.correios.com.br>.
+
+ QUESTÃO 48
+                                       A partir do que o texto informa sobre o vocábulo “filatelia”, deduz-
+No texto, há correspondência de sentido entre                                                                   se que aquele que coleciona selos é corretamente chamado de
+
+A  “comportamento canino” (R.4) e “vida de cachorro” (R.7).
+                                A   selotelista.B  “alegria” (R.4) e “contentamento” (R.8).
+C  “constante” (R.4) e “desmesurado” (R.8).            B   seleiro.
+D  “impertinência” (R.8) e “desventura” (R.10).          C   filatelista.
+E  “diariamente” (R.3) e “24 horas por dia” (R.6).         D   filateleiro.
+Texto para as questões 49 e 50                 E   filatório.
+
+                                                       QUESTÃO 52
+      Do que queremos transmitir ao que transmitimos
+
+  1          Aquilo que desejamos comunicar a alguém é, antes de
+     ser dito, trabalhado em nossa mente, tornando-se uma ideia.
+    Essa ideia é codificada em um sistema de sinais pelo qual a
+  4  traduzimos para outras pessoas. O sistema de código utilizado
+  —  palavras,  gestos, desenhos  etc. — deve formar uma
+    expressão que realmente transmita uma ideia.
+  7       No entanto, isso nem sempre ocorre. Com alguma
+    frequência, o que transmitimos não corresponde exatamente ao
+    que queremos transmitir.
+
+                                      Nanci  Capel  Pilares. Atendimento ao  cliente: o  recurso
+                                        esquecido. São Paulo: Nobel, 1989, p. 30 (com adaptações).
+
+ QUESTÃO 49
+
+Com referência às ideias e ao emprego de palavras e expressões no
+texto, assinale a opção correta.
+
+A A expressão “Essa ideia” (R.3) retoma o trecho “antes de ser
+     dito” (R.1-2).
+B  No texto, as expressões “sistema de sinais” (R.3) e “sistema de
+    código” (R.4) têm sentidos semelhantes.
+C  De acordo com a argumentação do texto, seria coerente
+     intitulá-lo da seguinte forma: Do que o outro recebe ao que
+    pensa que recebeu.
+D O sentido e a correção do texto seriam mantidos se, em lugar
+    de “Aquilo” (R.1), fosse usado o pronome Isso.
+E O autor do texto distancia-se do universo do leitor ao empregar
+    a primeira pessoa do plural, como se verifica no pronome
+    “nossa”  (R.2)  e  nas  formas  verbais  “desejamos”  (R.1),   Assinale a opção em que a fala de Calvin, no terceiro quadrinho da
+    “traduzimos” (R.4), “transmitimos” (R.8) e “queremos” (R.9).      tira acima, “Mas eu enganei ela! Eu dei pra ela só três moedinhas
+                                                          de dez centavos!” está reescrita de acordo com a prescrição
+ QUESTÃO 50
+                                                                  gramatical para textos escritos.
+O sentido original do texto e a sua correção gramatical seriam
+mantidos caso se substituísse o trecho                                A  Mas eu lhe enganei! Eu dei pra ela apenas três moedinhas de
+                                                               dez centavos!A  “comunicar a alguém” (R.1) por divulgar-se para um terceiro.
+                                B  Mas eu a enganei! Dei-lhe apenas três moedas de dez centavos!B  “tornando-se uma ideia” (R.2) por voltando a ser uma ideia.
+C  “tornando-se uma ideia. Essa ideia” (R.2-3) por tornando-se  C  Mas eu enganei-a! Lhe dei só três moedas de dez centavos!
+    alguma ideia, a qual ideia.                 D  Mas eu enganei-la! Eu dei-lhe só três moedas de dez centavos!
+D  “isso nem sempre ocorre” (R.7) por isso nunca acontece.    E  Mas eu enganei ela! Dei para ela apenas três moedas de dez
+E  “desejamos comunicar” (R.1) por queremos transmitir.                                                                      centavos!
+
+
+Cargo: Agente dos Correios – Atividade 1: Atendente Comercial                               Caderno 11-BRANCO                               – 9 –
+
+--- PAGE 11 ---
+                                                                                CESPE/UnB – ECT
+
+
+
+ QUESTÃO 53                                             QUESTÃO 55
+
+                Tocando em frente
+                                             No quinto verso, o pronome “a” refere-se a
+                            Almir Sater e Renato Teixeira
+
+                   1   Ando devagar
+              Porque já tive pressa              A  “carta” (v.4).
+              E levo esse sorriso
+                                B  “prova” (v.4).                   4   Porque já chorei demais
+               Hoje me sinto mais forte,                                C  “afeição” (v.4).
+               Mais feliz, quem sabe
+                   7   Eu só levo a certeza               D  “Resposta” (v.6).
+             De que muito pouco sei,
+                                E  “saudade” (v.2).            Ou nada sei
+                  10   Conhecer as manhas
+              E as manhãs                               QUESTÃO 56
+           O sabor das massas
+                  13   E das maçãs
+              É preciso amor
+                Pra poder pulsar
+                  16   É preciso paz pra poder sorrir
+              É preciso a chuva para florir
+
+A palavra “Porque” (v.2 e 4) poderia ser substituída, com correção
+gramatical e sem prejuízo para o sentido original do texto, em
+ambas as ocorrências, por
+
+A  Logo.
+B  Então.
+C  Portanto.
+D  Pois.
+E  Embora.
+
+Texto para as questões 54 e 55
+
+                 A Carta
+                               Benil Santos e Raul Sampaio
+
+       1   Escrevo-te estas mal traçadas linhas, meu amor                                                               Quino. Toda Mafalda. Trad. Andréa Stahel M. da Silva
+       Porque veio a saudade visitar meu coração                                                                                             et.  al.  São  Paulo:  Martins  Fontes,  1993,  p.  105.
+        Espero que desculpes os meus erros, por favor                                                            Considerando essa história em quadrinhos, assinale a opção correta.
+       4   Nas frases desta carta, que é uma prova de afeição.
+        Talvez tu não a leias, mas quem sabe até darás
+        Resposta imediata me chamando de “Meu Bem”.                                A  No último quadrinho, o personagem demonstra dúvida quanto
+       7  Porém o que me importa é confessar-te uma vez mais:
+      Não sei amar na vida mais ninguém.                        ao procedimento que adotará para registrar as respostas de
+
+ QUESTÃO 54                                                        todos os entrevistados.
+
+A respeito de aspectos linguísticos do texto, assinale a opção  B  Entende-se da história apresentada que o personagem agirá
+correta.
+                                                    com indiferença em relação às respostas dos entrevistados.
+
+A  No primeiro verso, a expressão “estas mal traçadas linhas” é                                C  Não seriam contrariadas as normas gramaticais caso fosse
+   um dos complementos da forma verbal “Escrevo”.
+B  As expressões “meu amor” (v.1) e “por favor” (v.3) exercem a        inserida uma vírgula logo após a palavra “armazém”, na frase
+    função de aposto.                                                          do primeiro quadrinho.
+C  No pedido de desculpa pelos erros (v.3), o autor da carta
+    comete o seguinte erro: emprego da forma verbal “desculpes”,  D  Seria mantida a correção gramatical do texto caso, no segundo
+   em vez de desculpe.
+                                                                     quadrinho, fosse suprimida a preposição “para”.
+D  Os termos “Porque” (v.2) e “Porém” (v.7) estabelecem, nos
+     respectivos trechos, semelhantes relações de sentido.      E  As atitudes do personagem representadas nos dois últimos
+E  No verso  5, os vocábulos “Talvez” e  “até” expressam
+                                                                   quadrinhos conferem humor à história.     circunstâncias de tempo.
+
+
+Cargo: Agente dos Correios – Atividade 1: Atendente Comercial                               Caderno 11-BRANCO                              – 10 –
+
+--- PAGE 12 ---
+                                                                                CESPE/UnB – ECT
+
+
+
+ QUESTÃO 57                                             QUESTÃO 58
+
+  1         Aqui tudo bem, sem novidades. Vivo uma experiência  No trecho “Em menos de um ano da implantação, grande número
+     rica ao lado desses cinquenta irmãos. A cada dia, aprendo a   de voluntários procurou o serviço” (R.7-8), a palavra “voluntários”
+    pertencer menos a mim e mais aos outros. Aqui ninguém tem    refere-se
+  4  direitos sobre a maioria. O que é de um é de todos. Temos
+    o dia todo para ouvir rádio, ler, estudar, jogar buraco ou                                A  a pessoas “carentes” (R.8).
+    bridge, conversar, contudo devemos dormir antes de 1 h e
+                                B  aos “Correios” (R.1).  7  acordar antes das 9 da manhã. Prefiro dormir às 23 h e levantar
+    entre 6 h 30 min e 7 h, assim aproveito melhor o dia.      C  ao “governo do estado de São Paulo” (R.2).
+        Com o passar do tempo, é como se tivéssemos  D  a pessoas “analfabetas” (R.5).
+ 10  escolhido viver dessa maneira. O organismo se adapta aos
+                                E  a pessoas da “população” (R.6).
+    poucos, e ocorrem em nós certas modificações curiosas. Depois
+    de certo tempo de prisão, não há nada de novo a ver e tocar.    QUESTÃO 59
+ 13  Então se aguça o sentido auditivo. Qualquer ruído exterior é
+    captado, a ponto de identificarmos a marca de um carro pelo  A correção gramatical e a coerência do texto seriam mantidas caso
+    simples barulho. Sabemos perfeitamente quando o caminhão do   se substituísse
+ 16  boião entra no presídio ou o carcereiro sobe a escada em
+    direção às celas. O embotamento de alguns sentidos faz  A  “receberam” (R.9) por recebeu.
+    despertar outros.
+                                B  “moram” (R.10) por mora.
+                                                 Frei   Betto.   Cartas  da   prisão:   1969-1973.
+                                                       In:  Internet:  <www.freibetto.org> (com  adaptações).  C  “estabelecida” (R.2) por estabelecido.
+Assinale a opção correta a respeito das relações gramaticais no  D  “onde” (R.3) por no qual.
+fragmento de texto apresentado acima.              E  “procurou” (R.8) por procuraram.
+
+A A expressão “dessa maneira” (R.10) refere-se ao que é expresso    QUESTÃO 60
+    no início do segundo parágrafo do texto.
+                                                                 Até bem pouco tempo atrás, coisa de dez ou vinte anos,
+B  Ao longo do texto, o autor emprega formas verbais na primeira
+                                                        quando a Internet não era tão popular, se recebêssemos uma carta
+    pessoa do singular e na primeira pessoa do plural, tais como
+                                                                 pelos Correios, nos sentíamos na obrigação, por cortesia e boa    “Vivo” (R.1) e “Temos” (R.4), as quais evidenciam o objetivo
+    de narrar uma história pessoal compartilhada por muitos no   educação, de respondê-la, principalmente se viesse de alguém
+    contexto apresentado.                                       conhecido. Hoje, com a Internet, recebemos dezenas de mensagens
+C  Seriam prejudicadas a correção gramatical e a coerência do   por email, de conhecidos e desconhecidos, em um volume sobre-
+     texto caso, na linha 11, o termo “em nós” fosse deslocado para   humano, muito além de nossa capacidade de conseguir ler, entender
+    imediatamente após “e”.                                                              e responder. E se antes uma carta tinha endereço certo, hoje, as
+D  No trecho “O embotamento de alguns sentidos faz despertar                                                         mensagens espalham-se em ondas, em cópias às claras ou ocultas,
+    outros” (R.17-18), o substantivo “embotamento”  significa
+                                                              e a palavra privacidade parece ter perdido o significado. O mundo
+    aguçamento dos sentidos, o qual é mencionado no trecho
+                                                                          inteiro parece ter-se tornado uma espécie de reality show, em que    “Então se aguça o sentido auditivo” (R.13).
+                                                              a intimidade fica exposta para quem quiser espiar.E  No trecho “pertencer menos a mim e mais aos outros” (R.3),
+     estaria correto o emprego de acento indicativo de crase no “a”                                                        Internet: <www.santacatarina24horas.com> (com adaptações).
+    que precede o pronome “mim”, visto que a forma verbal
+    “pertencer” rege complemento com ou sem a preposição a.                                               Da leitura do texto depreende-se que
+Texto para as questões 58 e 59
+           Experiências vencedoras do 7.º Concurso      A  os  emails  são  os  causadores da  perda de  privacidade
+        de Inovações na Gestão Pública Federal (2002)             observada, hoje, em todo o mundo.
+                                B  aumentou consideravelmente, nas duas últimas décadas, a
+  1      O Escreve Cartas é uma parceria dos Correios com o                                                                   quantidade de informações que circulam no mundo, fato que
+    governo do estado de São Paulo estabelecida com a finalidade
+                                                                            está relacionado à popularização da Internet.
+    de implantar, nas unidades do Poupatempo, estandes onde
+  4  voluntários e funcionários dos Correios e do Poupatempo  C  o envio de correspondência pelos Correios foi extinto em razão
+    auxiliam pessoas analfabetas a escreverem cartas. O programa       das facilidades oferecidas pela Internet.
+    teve grande aceitação da população e grande repercussão na  D  uma pessoa capaz de redigir muitos emails em um único dia
+  7  mídia. Em menos de um ano da implantação, grande número de                                                                     mostra-se incapaz de redigir muitas cartas nesse mesmo
+    voluntários procurou o serviço. Pessoas carentes de diversas
+                                                                   período de tempo.
+    regiões do país receberam correspondências de familiares que
+                                E  a  carta  torna  obrigatória a  resposta do  destinatário ao 10  moram em São Paulo, graças a essa iniciativa dos Correios e do
+    governo estadual.                                                 remetente, o que nunca ocorre ao se enviar mensagem por
+                                                             Internet: <inovacao.enap.gov.br> (com adaptações).        email.
+
+
+
+Cargo: Agente dos Correios – Atividade 1: Atendente Comercial                               Caderno 11-BRANCO                              – 11 –

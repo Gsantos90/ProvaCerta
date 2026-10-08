@@ -10,19 +10,17 @@ cada alternativa com o gabarito oficial e a explicação.
 O provacerta foi desenvolvido para oferecer uma experiência simples e
 intuitiva de preparação para provas. A aplicação funciona como uma SPA
 (Single-Page Application), sem cadastro obrigatório. As provas são carregadas
-do Supabase (conteúdo público) e o ENEM é carregado sob demanda pela API
-pública.
+do Supabase (conteúdo público), incluindo as provas do ENEM.
 
 Origens de prova disponíveis no catálogo:
 
 - **PISM** (UFJF);
-- **ENEM** 2009 a 2023, pela [API pública do ENEM](https://docs.enem.dev/introduction),
-  filtrável por ano, área e idioma (o ENEM 2024 completo está no banco);
+- **ENEM** 2022, 2023, 2024 e 2025, pelo Supabase, com seleção uniforme de ano, área e idioma;
 - **CNU** (Concurso Nacional Unificado);
 - **OAB** (Exame de Ordem);
 - **PMERJ**, **Polícia Civil** (incluindo Perito Criminal - Química 2022) e
    **Polícia Federal**;
-- **Correios** (Agente de Correios - Carteiro 2024);
+- **Correios** (Carteiro 2024 e 2011; Atendente Comercial e Operador de Triagem e Transbordo 2011);
 - **CAIXA** (Técnico Bancário Novo 2024);
 - **Banco do Brasil**;
 - **UERJ** (Vestibular Estadual);
@@ -73,16 +71,47 @@ questões — a prova é montada sorteando questões já cadastradas no banco.
 - Suporte a múltiplas imagens por questão (caminhos separados por vírgula no
   campo `support_image`).
 
-### Integração com a API do ENEM
+### ENEM no banco próprio
 
-O cartão do ENEM consulta o catálogo de provas em `https://api.enem.dev/v1/exams`.
-Ao iniciar uma prova, as questões do ano selecionado são carregadas em páginas
-de até 50 itens, respeitando o limite de uma requisição por segundo da API.
-Os dados ficam em cache durante a sessão e são filtrados no navegador por área
-e idioma. O simulado usa o gabarito oficial retornado em `correctAlternative`.
+O card usa exclusivamente as tabelas exams e questions do Supabase. Os quatro
+anos oferecem os mesmos três seletores: ano, área (completa, dia ou disciplina)
+e idioma. O idioma fica desabilitado quando a seleção não inclui Linguagens.
+Cada prova completa contém 180 questões; selecionar espanhol substitui as
+cinco questões de inglês, sem aumentar o total.
 
-Se a API estiver indisponível, a interface exibe a mensagem de erro; as demais
-provas, carregadas do Supabase, continuam disponíveis.
+A atualização de 2022, 2023 e 2025 foi aplicada no ProvaCerta em 7 de outubro de 2026.
+A query reexecutável está em supabase/update-enem-content-2022-2023-2025.sql.
+Ela corrige registros existentes e cadastra os que faltam, preservando IDs e
+explicações existentes. Não altera o conteúdo do ENEM 2024, o schema ou as permissões.
+Cada ano armazena 185 registros: os números internos 181–185 representam as
+questões oficiais 1–5 de espanhol, que substituem as cinco de inglês na seleção.
+A prova completa continua com 180 questões.
+
+Os cadernos usados são os amarelos da aplicação regular, com gabaritos do Inep.
+Os campos seguem o padrão das demais provas:
+
+- text: comando/enunciado da questão;
+- support: textos de apoio, contexto, tabelas transcritas e fontes;
+- support_image: apenas figuras, gráficos, mapas, fotos, charges e alternativas gráficas;
+- options: cinco alternativas em texto, com indicação da figura quando necessário.
+
+Os textos compartilhados pelas questões 6–10 de 2025 estão associados a cada
+questão. Imagens não reproduzem a questão completa. As figuras locais ficam em
+public/enem-2022, public/enem-2023 e public/enem-2025 e devem ser publicadas junto
+com o site. Podem ser ampliadas no painel de apoio. Os comentários iniciais são
+os gabaritos oficiais; as explicações que já existiam no banco são preservadas.
+Questões anuladas usam A/B/C/D/E e recebem ponto automaticamente.
+
+A aplicação não chama a antiga API e não mantém fallback para ela.
+Anos anteriores a 2022 deixam de aparecer até serem importados ao banco.
+
+Os PDFs e registros de conferência ficam em pdf-extracts/enem-migration.
+Para regenerar a importação, execute scripts/import-enem-bank.py com PyMuPDF,
+rapidfuzz, pdfplumber e Pillow disponíveis. O fluxo separa texto e figuras,
+conserva legendas e aplica as transcrições de fórmulas e tabelas conferidas.
+Verificação local: node scripts/verify-enem-bank.mjs. Conferência do banco após
+aplicar a query: node scripts/read-enem-db.mjs --verify.
+
 
 ### Integração com Supabase
 
@@ -191,7 +220,7 @@ das políticas (incluindo `attempts` restrita ao role `authenticated`) está em
 - [Lucide React](https://lucide.dev/) para os ícones;
 - [Supabase](https://supabase.com/) como banco das provas e questões (leitura pública);
 - JavaScript com módulos ES;
-- API pública do ENEM para provas e questões de 2009 a 2023;
+- Supabase para as provas do ENEM 2022 a 2025;
 - CSS responsivo sem framework visual externo.
 
 ## Requisitos
@@ -285,8 +314,7 @@ npm run build
 - o carregamento das provas a partir do Supabase (com cache em memória por
   slug);
 - o gerador de simulado personalizado (grau de ensino, matérias e quantidade);
-- as questões hardcoded do ENEM 2023 (inglês e espanhol) e a integração com a
-  API pública do ENEM;
+- o card do ENEM com filtros uniformes e carregamento exclusivo do Supabase;
 - a seleção dinâmica da prova (cards por origem: PISM, CNU, OAB, PMERJ, PC, PF,
   BB, UERJ, USP);
 - o estado da questão atual e as respostas do estudante;
@@ -537,3 +565,31 @@ As tabelas e consultas das provas objetivas permanecem independentes. Não é ne
 Execute `supabase/setup-question-reports.sql` no SQL Editor para habilitar o envio de relatos. O formulário identifica a prova e o número original da questão, inclusive nos simulados mistos. Somente o administrador consulta os relatos pelo painel ou SQL; visitantes podem apenas enviá-los. Não é necessário executar SQL para o cronômetro.
 
 Ao carregar qualquer prova ou simulado, escolha estudo livre ou modo de prova com duração de 1 a 600 minutos. O relógio usa um prazo absoluto, continua em outras abas e encerra a sessão ao esgotar o tempo, mantendo as respostas para o resultado e a revisão. Há avisos nos últimos cinco minutos e no último minuto. Finalizar antecipadamente também mostra tempo utilizado e questões em branco. Sair cancela a sessão; recarregar a página perde o progresso atual.
+
+
+### USP / FUVEST 2025 — primeira fase, V1
+Execute todo o arquivo supabase/seed-usp-2025-v1.sql no SQL Editor. Ele cadastra a edição 2025, aplicada em 17/11/2024, com 90 questões, gabarito oficial V1, figuras e 90 explicações editoriais de estudo. Pode ser reexecutado sem duplicar registros; preserva IDs e as demais provas.
+
+No card USP, selecione 2025 e a primeira fase. A edição 2026 continua disponível. A prova participa dos modos estudo livre e com cronômetro, da revisão e dos relatos de problemas. Os links levam às páginas correspondentes no caderno oficial, inclusive nas questões usadas em simulados personalizados.
+
+Os textos literários, letras de músicas e parte dos textos jornalísticos têm resumos de apoio para estudo, identificados no conteúdo. Questões de interpretação de versos, vocabulário ou recursos expressivos devem ser conferidas também no caderno oficial. As figuras foram extraídas do PDF, e as alternativas exclusivamente gráficas das questões 60 e 69 estão na imagem de apoio.
+
+Fontes: [acervo oficial](https://www.fuvest.br/acervo-vestibular-2025/), [caderno V1](https://www.fuvest.br/wp-content/uploads/fuvest2025_primeira_fase_prova_V1.pdf) e [gabarito oficial](https://www.fuvest.br/wp-content/uploads/fuvest2025_gabarito_primeira_fase.pdf).
+Materiais de conferência: pdf-extracts/usp-2025. Regeneração: scripts/import-usp-2025.py, depois scripts/generate-usp-2025.py; a revisão está em scripts/usp_2025_editorial.py.
+
+
+### Correios 2011 — três cargos, Tipo I
+
+Incluídas as provas de Carteiro, Atendente Comercial e Operador de Triagem e Transbordo, com 60 questões por cargo e gabaritos definitivos do CESPE/UnB. A seleção de cargo mantém ou ajusta automaticamente o ano para uma edição disponível.
+
+A consulta `supabase/seed-correios-2011.sql` foi aplicada ao Supabase e pode ser reexecutada sem duplicar questões; preserva IDs e comentários existentes. A prova de Carteiro 2024 permanece intacta. Os textos de apoio ficam em `support`; as figuras em `support_image`, com arquivos em `public/correios-2011/`. Ícones das alternativas foram transcritos em texto. Músicas têm resumos de apoio e acesso aos versos no caderno oficial. As quatro questões anuladas usam `A/B/C/D/E`, conforme a correção já existente no projeto.
+
+Fontes: [cadernos e gabaritos definitivos](https://cdn.cebraspe.org.br/concursos/CORREIOSAGENTE2011/). Todas as questões de 2011 têm link para sua página original, inclusive nos simulados.
+
+Verificação: `node scripts/verify-correios-2011.mjs`. Para regenerar a partir dos PDFs em `pdf-extracts/correios-2011/`, execute `scripts/import-correios-2011.py` e depois `scripts/finalize-correios-2011.py` com PyMuPDF instalado. Publique também os arquivos de imagem ao atualizar o site.
+
+O botão **Informar problema** aparece como ação de texto menor, sem fundo nem borda, com realce ao passar o mouse e foco visível pelo teclado. O formulário e o envio continuam iguais.
+
+## Login opcional e progresso
+
+O site continua acessível sem conta. Login por e-mail permite guardar resultados e consultar o histórico e o caderno de erros. A estrutura privada foi aplicada ao Supabase; veja [as configurações de URLs e envio de e-mails](supabase/LOGIN-SETUP.md) antes de publicar.

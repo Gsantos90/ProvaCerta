@@ -3,15 +3,20 @@ import { createRoot } from 'react-dom/client'
 import {
   ArrowLeft, ArrowRight, Award, BookOpen, Check, ChevronDown, ChevronUp, Clock3,
   GraduationCap, LayoutGrid, Menu, RotateCcw, Sparkles, Target, X,
-  ZoomIn, ZoomOut, Volume2, Square, Search,
+  ZoomIn, ZoomOut, Volume2, Square, Search, Moon, Sun,
 } from 'lucide-react'
 import './styles.css'
 import { supabase } from './lib/supabase'
 import { isCorrectAnswer, isAnnulledAnswer } from './lib/examAnswers'
 import { inssOfficialSource } from './lib/inssSources'
+import { correiosOfficialSource } from './lib/correiosSources'
+import { fuvestOfficialSource } from './lib/fuvestSources'
+import { enemExams, enemAreas, enemHasLanguage, selectEnemQuestions, enemOfficialSource } from './lib/enemExams'
 import { cebraspeScore, isBinaryQuestion, binaryAnswerLabel } from './lib/cebraspeScore'
 import { pismOfficialSource, pismExamDetails, pismSelectionLabel } from './lib/pismSources'
 
+import { AuthProvider, useAuth, AccountControl } from './Auth'
+import StudyAccount, { SaveResult } from './StudyAccount'
 import ExamSetup from './ExamSetup'
 import { remainingSeconds, formatDuration, reportContext } from './lib/examSession'
 const QuestionReport = React.lazy(() => import('./QuestionReport'))
@@ -70,13 +75,6 @@ const enem2023SpanishSupport = {
   9: 'TEXTO I\n?\nPorQUÉ ME CUESTA TANTO ESTUDIAR?\npORQUÉ ME CUESTA TANTO CONCENTRARME?\nPoRQUÉ......\npORQUÉ......\n?\n?\n?\n?\n..... .\nPORQUé NO CONSIGO APRENDER COMO LOS DEMÁS?',
 }
 
-const enemApiBaseUrl = 'https://api.enem.dev/v1'
-const enemSubjectLabels = {
-  'ciencias-humanas': 'Ciências Humanas',
-  'ciencias-natureza': 'Ciências da Natureza',
-  linguagens: 'Linguagens',
-  matematica: 'Matemática',
-}
 
 const catalogCategories = [
   {
@@ -109,7 +107,7 @@ const catalogCategories = [
       { id: 'inss', name: 'INSS', org: 'PREVIDÊNCIA SOCIAL', short: 'INSS', description: 'Concurso do Instituto Nacional do Seguro Social', available: true, color: 'sky', roles: ['Técnico do Seguro Social'] },
       { id: 'caixa', name: 'Caixa Econômica', org: 'BANCÁRIO', short: 'CAIXA', description: 'Concurso da Caixa Econômica Federal', available: true, color: 'sky', roles: ['Técnico Bancário Novo'] },
       { id: 'pf', name: 'Polícia Federal', org: 'Segurança', short: 'PF', description: 'Concurso da Polícia Federal', available: true, color: 'slate', roles: ['Agente', 'Escrivão', 'Delegado', 'Perito Criminal'] },
-      { id: 'correios', name: 'Correios', org: 'SERVIÇOS', short: 'CORREIOS', description: 'Concurso dos Correios', available: true, color: 'amber', roles: ['Carteiro'] },
+      { id: 'correios', name: 'Correios', org: 'SERVIÇOS', short: 'CORREIOS', description: 'Concurso dos Correios', available: true, color: 'amber', roles: ['Carteiro', 'Atendente Comercial', 'Operador de Triagem e Transbordo'] },
       { id: 'pc', name: 'Polícia Civil', org: 'Segurança', short: 'PC', description: 'Concurso da Polícia Civil', available: true, color: 'crimson', roles: ['Investigador', 'Inspetor', 'Auxiliar de Necropsia', 'Perito Legista', 'Escrivão', 'Delegado', 'Perito Criminal'] },
     ],
   },
@@ -123,23 +121,6 @@ const catalogCategories = [
   },
 ]
 
-const wait = (milliseconds) => new Promise((resolve) => setTimeout(resolve, milliseconds))
-
-const normalizeEnemQuestion = (question) => {
-  const markdownImage = question.context?.match(/!\[[^\]]*\]\(([^)]+)\)/)?.[1]
-  const support = question.context?.replace(/!\[[^\]]*\]\([^)]+\)/g, '').trim()
-  return {
-    number: question.index,
-    subject: enemSubjectLabels[question.discipline] || question.discipline,
-    discipline: question.discipline,
-    language: question.language,
-    text: question.alternativesIntroduction,
-    support,
-    supportImage: question.files?.[0] || markdownImage,
-    options: question.alternatives.map((alternative) => alternative.text),
-    answer: question.correctAlternative,
-  }
-}
 
 const subjects = [
   { name: 'Língua Portuguesa', count: 5, color: 'coral' },
@@ -214,7 +195,16 @@ const correiosRolesConfig = {
     label: 'Agente de Correios - Carteiro',
     years: [
       { value: '2024', slug: 'correios-2024-carteiro' },
+      { value: '2011', slug: 'correios-2011-carteiro' },
     ],
+  },
+  'atendente-comercial': {
+    label: 'Agente de Correios - Atendente Comercial',
+    years: [{ value: '2011', slug: 'correios-2011-atendente-comercial' }],
+  },
+  'operador-triagem': {
+    label: 'Agente de Correios - Operador de Triagem e Transbordo',
+    years: [{ value: '2011', slug: 'correios-2011-operador-triagem' }],
   },
 }
 
@@ -414,6 +404,9 @@ const uerjYearOptions = Object.keys(uerjExamsByYear).sort((a, b) => b.localeComp
 // Vestibular da USP (FUVEST), organizado por ano > prova/fase.
 // Cada edição aponta para o slug da prova cadastrada no Supabase (quando houver).
 const uspExamsByYear = {
+  '2025': [
+    { value: 'v1', label: '1ª fase - Conhecimentos Gerais', slug: 'usp-2025-v1' },
+  ],
   '2026': [
     { value: 'v1', label: '1ª fase - Conhecimentos Gerais', slug: 'usp-2026-v1' },
   ],
@@ -554,6 +547,9 @@ const shuffleArray = (items) => {
 const supabaseExamCache = new Map()
 
 function App() {
+  const { user } = useAuth()
+  const [accountTab, setAccountTab] = useState('history')
+  const openAccount = (tab) => { setAccountTab(tab); setScreen('account'); setMenuOpen(false) }
   const [screen, setScreen] = useState('home')
   const [session, setSession] = useState(null)
   const [timeLeft, setTimeLeft] = useState(0)
@@ -621,12 +617,10 @@ function App() {
   const [simuladoCatalogLoading, setSimuladoCatalogLoading] = useState(false)
   const [simuladoLoading, setSimuladoLoading] = useState(false)
   const [simuladoError, setSimuladoError] = useState('')
-  const [enemCatalog, setEnemCatalog] = useState([])
-  const [enemYear, setEnemYear] = useState('2023')
-  const [enemDiscipline, setEnemDiscipline] = useState('linguagens')
+  const [enemYear, setEnemYear] = useState('2025')
+  const [enemDiscipline, setEnemDiscipline] = useState('completa')
   const [enemLanguage, setEnemLanguage] = useState('ingles')
   const [enemQuestions, setEnemQuestions] = useState([])
-  const [enemQuestionCache, setEnemQuestionCache] = useState({})
   const [enemLoading, setEnemLoading] = useState(false)
   const [enemError, setEnemError] = useState('')
   const [current, setCurrent] = useState(0)
@@ -656,48 +650,19 @@ function App() {
     window.addEventListener('keydown', onKey)
     return () => window.removeEventListener('keydown', onKey)
   }, [lightboxImage])
-  useEffect(() => {
-    let cancelled = false
-    fetch(`${enemApiBaseUrl}/exams`)
-      .then(async (response) => {
-        if (!response.ok) throw new Error(`Não foi possível carregar as provas do ENEM (HTTP ${response.status}).`)
-        return response.json()
-      })
-      .then((data) => {
-        if (cancelled) return
-        setEnemCatalog(data)
-        const currentExam = data.find((exam) => exam.year === 2023) || data[0]
-        if (currentExam) {
-          setEnemYear(String(currentExam.year))
-          setEnemDiscipline(currentExam.disciplines.find((item) => item.value === 'linguagens')?.value || currentExam.disciplines[0]?.value || '')
-          setEnemLanguage(currentExam.languages[0]?.value || '')
-        }
-      })
-      .catch((error) => {
-        if (!cancelled) setEnemError(error.message)
-      })
-    return () => { cancelled = true }
-  }, [])
 
   const questionSets = {
     'enem-2023-1-ingles': [...enem2023EnglishQuestions, ...enem2023SpanishQuestions],
   }
-  // Provas de ENEM cadastradas no Supabase, apresentadas no mesmo seletor de ano
-  // da API. 'source: supabase' indica que a prova vem completa do banco (sem
-  // filtro por area/idioma) em vez da api.enem.dev.
-  const enemSupabaseExams = [{ year: 2024, slug: 'enem-2024', source: 'supabase', disciplines: [], languages: [] }]
-  const enemCatalogCombined = [
-    ...enemSupabaseExams.filter((item) => !enemCatalog.some((apiItem) => apiItem.year === item.year)),
-    ...enemCatalog,
-  ].sort((a, b) => b.year - a.year)
-  const activeQuestions = selectedExam === 'enem-api' || supabaseExamSlug ? enemQuestions : questionSets[selectedExam] || []
+  const enemCatalogCombined = enemExams
+  const activeQuestions = selectedExam === 'enem' || supabaseExamSlug ? enemQuestions : questionSets[selectedExam] || []
   const pismExam = pismExamDetails(supabaseExamSlug)
-  const examLabel = selectedExam === 'inss' ? 'INSS 2022 · Técnico do Seguro Social' : pismExam ? String(pismExam.year) : selectedExam === 'usp' ? `USP ${uspYear} · FUVEST` : selectedExam === 'uerj' ? `UERJ ${uerjYear} · ${(uerjExamsByYear[uerjYear] || []).find((item) => item.value === uerjEdition)?.label || ''}` : selectedExam === 'simulado' ? `Simulado · ${simuladoLevels.find((item) => item.value === simuladoLevel)?.label || 'Personalizado'}` : selectedExam === 'pism-1' ? '2025-1' : selectedExam === 'pism-2' ? '2025-2' : selectedExam === 'pism-2024-1' ? '2024-1' : selectedExam === 'pism-2024-2' ? '2024-2' : selectedExam === 'pism-2023-1' ? '2023-1' : selectedExam === 'pism-2023-2' ? '2023-2' : supabaseExamSlug === 'enem-2024' ? 'ENEM 2024 · Prova completa' : selectedExam === 'enem-api' ? `ENEM ${enemYear}` : selectedExam === 'bb' ? `Banco do Brasil ${bbYear} · ${bbRole}` : selectedExam === 'cnu' ? `CNU ${cnuYear} · Bloco ${cnuBlock.replace('bloco-', '')}` : selectedExam === 'oab' ? `OAB ${oabYear} · ${(oabExamsByYear[oabYear] || []).find((item) => item.value === oabEdition)?.label || 'Exame de Ordem'}` : selectedExam === 'pmerj' ? `PMERJ ${pmerjYear} · ${pmerjRolesConfig[pmerjRole]?.label || 'Soldado'}` : selectedExam === 'correios' ? `Correios ${correiosYear} · ${correiosRolesConfig[correiosRole]?.label || 'Carteiro'}` : selectedExam === 'caixa' ? `CAIXA ${caixaYear} · ${caixaRolesConfig[caixaRole]?.label || 'Técnico Bancário Novo'}` : selectedExam === 'pc' ? `Polícia Civil ${pcState} ${pcYear} · ${pcByState[pcState]?.roles?.[pcRole]?.label || 'Investigador'}` : selectedExam === 'pf' ? `Polícia Federal ${pfYear} · ${pfRole} · ${pfArea}` : '2023-1_Cad_Amarelo - LINGUAGENS, CÓDIGOS E SUAS TECNOLOGIAS'
+  const examLabel = selectedExam === 'inss' ? 'INSS 2022 · Técnico do Seguro Social' : pismExam ? String(pismExam.year) : selectedExam === 'usp' ? `USP ${uspYear} · FUVEST` : selectedExam === 'uerj' ? `UERJ ${uerjYear} · ${(uerjExamsByYear[uerjYear] || []).find((item) => item.value === uerjEdition)?.label || ''}` : selectedExam === 'simulado' ? `Simulado · ${simuladoLevels.find((item) => item.value === simuladoLevel)?.label || 'Personalizado'}` : selectedExam === 'pism-1' ? '2025-1' : selectedExam === 'pism-2' ? '2025-2' : selectedExam === 'pism-2024-1' ? '2024-1' : selectedExam === 'pism-2024-2' ? '2024-2' : selectedExam === 'pism-2023-1' ? '2023-1' : selectedExam === 'pism-2023-2' ? '2023-2' : selectedExam === 'enem' ? `ENEM ${enemYear}` : selectedExam === 'bb' ? `Banco do Brasil ${bbYear} · ${bbRole}` : selectedExam === 'cnu' ? `CNU ${cnuYear} · Bloco ${cnuBlock.replace('bloco-', '')}` : selectedExam === 'oab' ? `OAB ${oabYear} · ${(oabExamsByYear[oabYear] || []).find((item) => item.value === oabEdition)?.label || 'Exame de Ordem'}` : selectedExam === 'pmerj' ? `PMERJ ${pmerjYear} · ${pmerjRolesConfig[pmerjRole]?.label || 'Soldado'}` : selectedExam === 'correios' ? `Correios ${correiosYear} · ${correiosRolesConfig[correiosRole]?.label || 'Carteiro'}` : selectedExam === 'caixa' ? `CAIXA ${caixaYear} · ${caixaRolesConfig[caixaRole]?.label || 'Técnico Bancário Novo'}` : selectedExam === 'pc' ? `Polícia Civil ${pcState} ${pcYear} · ${pcByState[pcState]?.roles?.[pcRole]?.label || 'Investigador'}` : selectedExam === 'pf' ? `Polícia Federal ${pfYear} · ${pfRole} · ${pfArea}` : '2023-1_Cad_Amarelo - LINGUAGENS, CÓDIGOS E SUAS TECNOLOGIAS'
   // Tela de "início" para onde os botões de voltar da prova/resultado devem retornar:
   // simulados voltam para a tela de simulado; as demais provas, para o catálogo (todas as provas).
   const examHomeScreen = selectedExam === 'simulado' ? 'simulado' : 'catalog'
   const cnuShiftLabel = cnuYear === '2025' ? 'Conhecimentos Gerais e Específicos' : cnuShift === 'manha' ? 'Manhã · Conhecimentos Gerais' : 'Tarde · Conhecimentos Específicos'
-  const examDay = selectedExam === 'inss' ? `Prova objetiva · ${activeQuestions.length} itens (Certo/Errado)` : selectedExam === 'usp' || selectedExam === 'uerj' ? `Prova objetiva · ${activeQuestions.length} questões` : selectedExam === 'simulado' ? `Simulado personalizado · ${activeQuestions.length} questões` : supabaseExamSlug === 'enem-2024' ? 'Prova completa · 180 questões' : selectedExam === 'enem-api' ? 'Área selecionada' : selectedExam === 'bb' ? 'Prova objetiva' : selectedExam === 'oab' ? 'Prova objetiva · 1ª fase' : selectedExam === 'pmerj' || selectedExam === 'correios' || selectedExam === 'caixa' ? `Prova objetiva · ${activeQuestions.length} questões` : selectedExam === 'pc' ? `Prova objetiva · ${activeQuestions.length} questões` : selectedExam === 'pf' ? 'Conhecimentos Básicos · 50 itens (Certo/Errado)' : selectedExam === 'cnu' ? cnuShiftLabel : pismExam ? `${pismExam.day}º dia` : examLabel.endsWith('-1') ? 'Dia 1' : 'Dia 2'
+  const examDay = selectedExam === 'inss' ? `Prova objetiva · ${activeQuestions.length} itens (Certo/Errado)` : selectedExam === 'usp' || selectedExam === 'uerj' ? `Prova objetiva · ${activeQuestions.length} questões` : selectedExam === 'simulado' ? `Simulado personalizado · ${activeQuestions.length} questões` : selectedExam === 'enem' ? (enemAreas.find(item => item.value === enemDiscipline)?.label + (enemHasLanguage(enemDiscipline) ? ' · ' + (enemLanguage === 'espanhol' ? 'Espanhol' : 'Inglês') : '')) : selectedExam === 'bb' ? 'Prova objetiva' : selectedExam === 'oab' ? 'Prova objetiva · 1ª fase' : selectedExam === 'pmerj' || selectedExam === 'correios' || selectedExam === 'caixa' ? `Prova objetiva · ${activeQuestions.length} questões` : selectedExam === 'pc' ? `Prova objetiva · ${activeQuestions.length} questões` : selectedExam === 'pf' ? 'Conhecimentos Básicos · 50 itens (Certo/Errado)' : selectedExam === 'cnu' ? cnuShiftLabel : pismExam ? `${pismExam.day}º dia` : examLabel.endsWith('-1') ? 'Dia 1' : 'Dia 2'
 
   // Normaliza letras de gabarito/resposta para evitar falhas de comparação
   // por espaços, quebras de linha ou diferença de maiúsculas/minúsculas.
@@ -720,7 +685,7 @@ function App() {
     const startedAt = Date.now()
     const deadline = minutes ? startedAt + minutes * 60000 : null
     finishGuard.current = false
-    setSession({ startedAt, deadline, reason: null, endedAt: null })
+    setSession({ id: crypto.randomUUID(), ownerId: user?.id || null, startedAt, deadline, reason: null, endedAt: null })
     setTimeLeft(minutes ? minutes * 60 : 0)
     setCurrent(0)
     setAnswers({})
@@ -775,7 +740,7 @@ function App() {
       options: question.options,
       answer: question.answer,
       explanation: question.explanation,
-      sourceUrl: inssOfficialSource(supabaseSlug, question.number) || pismOfficialSource(supabaseSlug, question.number),
+      sourceUrl: correiosOfficialSource(supabaseSlug, question.number) || inssOfficialSource(supabaseSlug, question.number) || pismOfficialSource(supabaseSlug, question.number) || fuvestOfficialSource(supabaseSlug, question.number) || enemOfficialSource(supabaseSlug, question.number),
     }))
     supabaseExamCache.set(supabaseSlug, mapped)
     return mapped
@@ -1160,7 +1125,7 @@ function App() {
         options: question.options,
         answer: question.answer,
         explanation: question.explanation,
-        sourceUrl: inssOfficialSource(exams.find((exam) => exam.id === question.exam_id)?.slug, question.number) || pismOfficialSource(exams.find((exam) => exam.id === question.exam_id)?.slug, question.number),
+        sourceUrl: correiosOfficialSource(exams.find((exam) => exam.id === question.exam_id)?.slug, question.number) || inssOfficialSource(exams.find((exam) => exam.id === question.exam_id)?.slug, question.number) || pismOfficialSource(exams.find((exam) => exam.id === question.exam_id)?.slug, question.number) || fuvestOfficialSource(exams.find((exam) => exam.id === question.exam_id)?.slug, question.number) || enemOfficialSource(exams.find((exam) => exam.id === question.exam_id)?.slug, question.number),
       }))
       setEnemQuestions(questions)
       setSupabaseExamSlug('simulado')
@@ -1311,72 +1276,25 @@ function App() {
     }
   }
 
-  const loadEnemQuestions = async () => {
+  const startEnemExam = async () => {
+    const exam = enemExams.find(item => String(item.year) === enemYear)
+    if (!exam) return
     setEnemError('')
-    const cached = enemQuestionCache[enemYear]
-    if (cached) return cached
     setEnemLoading(true)
     try {
-      const questions = []
-      let offset = 0
-      let hasMore = true
-      while (hasMore) {
-        const response = await fetch(`${enemApiBaseUrl}/exams/${enemYear}/questions?limit=50&offset=${offset}`)
-        if (!response.ok) throw new Error(`Não foi possível carregar as questões do ENEM ${enemYear} (HTTP ${response.status}).`)
-        const data = await response.json()
-        questions.push(...data.questions)
-        hasMore = data.metadata?.hasMore
-        offset += data.metadata?.limit || 50
-        if (hasMore) await wait(1100)
-      }
-      const normalized = questions.map(normalizeEnemQuestion)
-      setEnemQuestionCache((old) => ({ ...old, [enemYear]: normalized }))
-      return normalized
-    } finally {
-      setEnemLoading(false)
-    }
-  }
-
-  const startEnemExam = async () => {
-    // Anos cadastrados no Supabase (ex.: 2024) carregam a prova completa do banco.
-    const supabaseExam = enemSupabaseExams.find((item) => String(item.year) === String(enemYear))
-    if (supabaseExam) {
-      setEnemError('')
-      setEnemLoading(true)
-      try {
-        const questions = await loadSupabaseExam(supabaseExam.slug)
-        setEnemQuestions(questions)
-        setSupabaseExamSlug(supabaseExam.slug)
-        setSelectedExam('enem-api')
-        setCurrent(0)
-        setAnswers({})
-        setScreen('exam-setup')
-        setMenuOpen(false)
-      } catch (error) {
-        setEnemError(`Não foi possível carregar o ENEM ${supabaseExam.year} do Supabase: ${error.message}`)
-      } finally {
-        setEnemLoading(false)
-      }
-      return
-    }
-    try {
-      const allQuestions = await loadEnemQuestions()
-      const filtered = allQuestions.filter((question) => question.discipline === enemDiscipline)
-      const questionsForLanguage = enemDiscipline === 'linguagens'
-        ? filtered.filter((question) => question.language === enemLanguage || !question.language)
-        : filtered
-      if (!questionsForLanguage.length) {
-        throw new Error('A API não retornou questões para os filtros selecionados.')
-      }
-      setEnemQuestions(questionsForLanguage)
-      setSupabaseExamSlug(null)
-      setSelectedExam('enem-api')
+      const stored = await loadSupabaseExam(exam.slug)
+      const questions = selectEnemQuestions(stored, enemDiscipline, enemLanguage)
+      setEnemQuestions(questions)
+      setSupabaseExamSlug(exam.slug)
+      setSelectedExam('enem')
       setCurrent(0)
       setAnswers({})
       setScreen('exam-setup')
       setMenuOpen(false)
     } catch (error) {
-      setEnemError(error.message)
+      setEnemError('Não foi possível carregar o ENEM ' + exam.year + ' do Supabase: ' + error.message)
+    } finally {
+      setEnemLoading(false)
     }
   }
 
@@ -1415,10 +1333,7 @@ function App() {
   const isPismAvailable = currentPismYears.length > 0
 
   const changeEnemYear = (value) => {
-    const exam = enemCatalogCombined.find((item) => String(item.year) === value)
     setEnemYear(value)
-    setEnemDiscipline(exam?.disciplines?.find((item) => item.value === 'linguagens')?.value || exam?.disciplines?.[0]?.value || '')
-    setEnemLanguage(exam?.languages?.[0]?.value || '')
     setEnemError('')
   }
 
@@ -1546,7 +1461,12 @@ function App() {
     <CorreiosCard
       roles={correiosRolesConfig}
       role={correiosRole}
-      onRoleChange={setCorreiosRole}
+      onRoleChange={(nextRole) => {
+        setCorreiosRole(nextRole)
+        const years = correiosRolesConfig[nextRole]?.years || []
+        if (!years.some((item) => item.value === correiosYear)) setCorreiosYear(years[0]?.value || '')
+        setCorreiosError('')
+      }}
       years={currentCorreiosYears}
       year={correiosYear}
       setYear={setCorreiosYear}
@@ -1667,7 +1587,7 @@ function App() {
   const featuredCards = { inss: inssCard, pism: pismCard, enem: enemCard, uerj: uerjCard, usp: uspCard, bb: bbCard, cnu: cnuCard, oab: oabCard, pmrj: pmerjCard, correios: correiosCard, caixa: caixaCard, pc: pcCard, pf: pfCard }
 
   if (screen === 'essay') {
-    return <div className="app-shell"><Header menuOpen={menuOpen} setMenuOpen={setMenuOpen} onHome={() => setScreen('home')} onSimulado={openSimulado} onCatalog={() => setScreen('catalog')} onAbout={goToAbout} onEssay={() => { setScreen('essay'); setMenuOpen(false) }} /><React.Suspense fallback={<main className="essay-page"><p role="status">Carregando a área de redação…</p></main>}><EssayPractice onBack={() => setScreen('home')} /></React.Suspense></div>
+    return <div className="app-shell"><Header onAccount={openAccount} menuOpen={menuOpen} setMenuOpen={setMenuOpen} onHome={() => setScreen('home')} onSimulado={openSimulado} onCatalog={() => setScreen('catalog')} onAbout={goToAbout} onEssay={() => { setScreen('essay'); setMenuOpen(false) }} /><React.Suspense fallback={<main className="essay-page"><p role="status">Carregando a área de redação…</p></main>}><EssayPractice onBack={() => setScreen('home')} /></React.Suspense></div>
   }
 
   if (screen === 'simulado') {
@@ -1675,7 +1595,7 @@ function App() {
     const canStart = simuladoSelected.length > 0 && !simuladoLoading
     return (
       <div className="app-shell">
-        <Header menuOpen={menuOpen} setMenuOpen={setMenuOpen} onHome={() => setScreen('home')} onSimulado={openSimulado} onCatalog={() => setScreen('catalog')} onAbout={goToAbout} onEssay={() => { setScreen('essay'); setMenuOpen(false) }} />
+        <Header onAccount={openAccount} menuOpen={menuOpen} setMenuOpen={setMenuOpen} onHome={() => setScreen('home')} onSimulado={openSimulado} onCatalog={() => setScreen('catalog')} onAbout={goToAbout} onEssay={() => { setScreen('essay'); setMenuOpen(false) }} />
         <main className="catalog-page simulado-page">
           <div className="catalog-head">
             <button className="back-link" onClick={() => setScreen('home')}><ArrowLeft size={17} /> Voltar ao início</button>
@@ -1803,7 +1723,7 @@ function App() {
   if (screen === 'catalog') {
     return (
       <div className="app-shell">
-        <Header menuOpen={menuOpen} setMenuOpen={setMenuOpen} onHome={() => setScreen('home')} onSimulado={openSimulado} onCatalog={() => setScreen('catalog')} onAbout={goToAbout} onEssay={() => { setScreen('essay'); setMenuOpen(false) }} />
+        <Header onAccount={openAccount} menuOpen={menuOpen} setMenuOpen={setMenuOpen} onHome={() => setScreen('home')} onSimulado={openSimulado} onCatalog={() => setScreen('catalog')} onAbout={goToAbout} onEssay={() => { setScreen('essay'); setMenuOpen(false) }} />
         <main className="catalog-page">
           <div className="catalog-head">
             <button className="back-link" onClick={() => setScreen('home')}><ArrowLeft size={17} /> Voltar ao início</button>
@@ -1889,9 +1809,12 @@ function App() {
   }
 
   if (screen === 'exam-setup') {
-    return <div className="app-shell"><Header onHome={() => setScreen('home')} onSimulado={openSimulado} onCatalog={() => setScreen('catalog')} onAbout={goToAbout} onEssay={() => setScreen('essay')} menuOpen={menuOpen} setMenuOpen={setMenuOpen} />
+    return <div className="app-shell"><Header onAccount={openAccount} onHome={() => setScreen('home')} onSimulado={openSimulado} onCatalog={() => setScreen('catalog')} onAbout={goToAbout} onEssay={() => setScreen('essay')} menuOpen={menuOpen} setMenuOpen={setMenuOpen} />
       <ExamSetup title={examLabel} count={activeQuestions.length} onStart={beginSession} onBack={() => examHomeScreen === 'simulado' ? openSimulado() : setScreen(examHomeScreen)} />
     </div>
+  }
+  if (screen === 'account') {
+    return <div className="app-shell"><Header onAccount={openAccount} onHome={() => setScreen('home')} onCatalog={() => setScreen('catalog')} onSimulado={openSimulado} onEssay={() => setScreen('essay')} onAbout={goToAbout} menuOpen={menuOpen} setMenuOpen={setMenuOpen} /><StudyAccount initialTab={accountTab} onBack={() => setScreen('home')} /></div>
   }
   if (screen === 'result') {
     const isInss = selectedExam === 'inss'
@@ -1899,7 +1822,7 @@ function App() {
     const percentage = activeQuestions.length ? Math.round((resultPoints / activeQuestions.length) * 100) : 0
     return (
       <div className="app-shell">
-        <Header onHome={() => setScreen('home')} onSimulado={openSimulado} onCatalog={() => setScreen('catalog')} onAbout={goToAbout} onEssay={() => { setScreen('essay'); setMenuOpen(false) }} />
+        <Header onAccount={openAccount} onHome={() => setScreen('home')} onSimulado={openSimulado} onCatalog={() => setScreen('catalog')} onAbout={goToAbout} onEssay={() => { setScreen('essay'); setMenuOpen(false) }} />
         <main className="result-page">
           <div className="result-glow" />
           <section className="result-card">
@@ -1920,6 +1843,7 @@ function App() {
               <button className="review-stat" onClick={() => { setCurrent(0); setScreen('review') }}><strong>{isInss ? inssScore.wrong : activeQuestions.length - score}</strong><span>{isInss ? "Erros · revisar" : "Para revisar"}</span></button>
               <div><strong>{isInss ? inssScore.blank : activeQuestions.length}</strong><span>{isInss ? "Em branco" : "Questões"}</span></div>
             </div>
+            <SaveResult session={session} questions={activeQuestions} answers={answers} title={examLabel} binary={isInss} />
             <div className="result-actions">
               <button className="button primary" onClick={() => { setCurrent(0); setAnswers({}); setScreen('exam-setup') }}><RotateCcw size={17} /> Refazer prova</button>
               <button className="button secondary" onClick={() => { if (examHomeScreen === 'simulado') { openSimulado() } else { setScreen(examHomeScreen) } }}>Voltar ao início</button>
@@ -1949,11 +1873,11 @@ function App() {
     }
     return (
       <div className="app-shell exam-shell">
-        <Header onHome={() => setScreen('home')} onSimulado={openSimulado} onCatalog={() => setScreen('catalog')} onAbout={goToAbout} onEssay={() => { setScreen('essay'); setMenuOpen(false) }} />
+        <Header onAccount={openAccount} hideNavigation onHome={() => setScreen('home')} onSimulado={openSimulado} onCatalog={() => setScreen('catalog')} onAbout={goToAbout} onEssay={() => { setScreen('essay'); setMenuOpen(false) }} />
         <main className="exam-page">
           <div className="exam-topline">
             <button className="back-link" onClick={() => { if (isReview) { setScreen('result') } else if (examHomeScreen === 'simulado') { openSimulado() } else { setScreen(examHomeScreen) } }}><ArrowLeft size={17} /> {isReview ? 'Voltar ao resultado' : 'Sair da prova'}</button>
-            <div className="exam-name"><span className="mini-logo">P</span><span>provacerta · {selectedExam === 'usp' || selectedExam === 'uerj' || selectedExam === 'simulado' || selectedExam === 'enem-api' || selectedExam === 'bb' || selectedExam === 'cnu' || selectedExam === 'oab' || selectedExam === 'pmerj' || selectedExam === 'pc' || selectedExam === 'pf' || selectedExam === 'inss' ? examLabel : `PISM ${examLabel}`}</span><b>·</b><span>{isReview ? 'Revisão' : selectedExam === 'usp' || selectedExam === 'uerj' || selectedExam === 'simulado' || selectedExam === 'bb' || selectedExam === 'cnu' || selectedExam === 'oab' || selectedExam === 'pmerj' || selectedExam === 'pc' || selectedExam === 'pf' || selectedExam === 'inss' ? examDay : `Módulo ${pismExam?.module || 'I'} · ${examDay}`}</span></div>
+            <div className="exam-name"><span className="mini-logo">P</span><span>provacerta · {selectedExam === 'usp' || selectedExam === 'uerj' || selectedExam === 'simulado' || selectedExam === 'enem' || selectedExam === 'bb' || selectedExam === 'cnu' || selectedExam === 'oab' || selectedExam === 'pmerj' || selectedExam === 'pc' || selectedExam === 'pf' || selectedExam === 'inss' ? examLabel : `PISM ${examLabel}`}</span><b>·</b><span>{isReview ? 'Revisão' : selectedExam === 'usp' || selectedExam === 'uerj' || selectedExam === 'simulado' || selectedExam === 'enem' || selectedExam === 'bb' || selectedExam === 'cnu' || selectedExam === 'oab' || selectedExam === 'pmerj' || selectedExam === 'pc' || selectedExam === 'pf' || selectedExam === 'inss' ? examDay : `Módulo ${pismExam?.module || 'I'} · ${examDay}`}</span></div>
             <span className="question-count">{current + 1} <i>/</i> {activeQuestions.length}</span>
           </div>
           {!isReview && session?.deadline && <div className="exam-timer">
@@ -1978,7 +1902,7 @@ function App() {
               <div className="support-stack" style={{ fontSize: `${supportScale}rem` }} onClick={(event) => { if (event.target.tagName === 'IMG' && event.target.classList.contains('support-image')) setLightboxImage({ src: event.target.src, alt: event.target.alt }) }}>
               {supabaseExamSlug
                 ? (question.support || question.supportImage) && <details className="sidebar-support" open><summary><BookOpen size={16} /><span>Texto ou imagem de apoio</span><ChevronDown size={15} /></summary><div>{renderSupportImages(question.supportImage, current + 1)}{question.support && <span>{question.support}</span>}</div></details>
-                : selectedExam === 'enem-api'
+                : selectedExam === 'enem'
                 ? (question.support || question.supportImage) && <details className="sidebar-support" open><summary><BookOpen size={16} /><span>Texto ou imagem de apoio</span><ChevronDown size={15} /></summary><div>{renderSupportImages(question.supportImage, current + 1)}{question.support && <span>{question.support}</span>}</div></details>
                 : selectedExam === 'enem-2023-1-ingles'
                 ? <details className="sidebar-support" open><summary><BookOpen size={16} /><span>Texto ou imagem de apoio</span><ChevronDown size={15} /></summary><div>{question.supportImage ? renderSupportImages(question.supportImage, current + 1) : <span>{current === 9 ? `${enem2023SpanishSupport[9]}\n\n${question.support}` : question.support || enem2023SpanishSupport[current]}</span>}</div></details>
@@ -1999,7 +1923,7 @@ function App() {
                         const reviewCorrect = isReview && isCorrectAnswer(answers[index], item.answer)
                         const reviewWrong = isReview && !reviewCorrect
                         return (
-                          <button key={item.text} className={`${index === current ? 'active' : ''} ${answers[index] ? 'answered' : ''} ${reviewCorrect ? 'review-correct' : ''} ${reviewWrong ? 'review-wrong' : ''}`} onClick={() => setCurrent(index)}>{index + 1}</button>
+                          <button key={item.questionId || index} className={`${index === current ? 'active' : ''} ${answers[index] ? 'answered' : ''} ${reviewCorrect ? 'review-correct' : ''} ${reviewWrong ? 'review-wrong' : ''}`} onClick={() => setCurrent(index)}>{index + 1}</button>
                         )
                       })}
                     </div>
@@ -2020,7 +1944,7 @@ function App() {
               <div className="question-heading"><span>Questão {String(current + 1).padStart(2, '0')}</span><Clock3 size={16} /> <small>{isReview ? 'Revisão' : session?.deadline ? 'Modo de prova' : 'Sem tempo limite'}</small>{speechSupported && <button type="button" className={`listen-button ${speakingId === 'question' ? 'active' : ''}`} onClick={() => speak('question', `${question.text}. ${question.options.map((option, index) => binary ? option : `Alternativa ${letters[index]}. ${option}`).join('. ')}`)} aria-label={speakingId === 'question' ? 'Parar leitura da questão' : 'Ouvir a questão'}>{speakingId === 'question' ? <><Square size={14} /> Parar</> : <><Volume2 size={15} /> Ouvir questão</>}</button>}</div>
               {selectedExam === 'inss' && <p className="official-source">Acerto: +1 · Erro: −1 · Em branco: 0 · Anulado: +1.</p>}
               <h1>{question.text}</h1>
-              {question.sourceUrl && <p className="official-source"><a href={question.sourceUrl} target="_blank" rel="noopener noreferrer">Abrir questão e textos no caderno oficial {question.sourceUrl.includes('cebraspe.org.br') ? 'do Cebraspe' : 'da UFJF'} ↗</a></p>}
+              {question.sourceUrl && <p className="official-source"><a href={question.sourceUrl} target="_blank" rel="noopener noreferrer">Abrir questão e textos no caderno oficial {question.sourceUrl.includes('cebraspe.org.br') ? 'do Cebraspe' : question.sourceUrl.includes('fuvest.br') ? 'da FUVEST' : question.sourceUrl.includes('inep') ? 'do Inep' : 'da UFJF'} ↗</a></p>}
               <div className="options">
                 {question.options.map((option, index) => {
                   const letter = letters[index]
@@ -2063,7 +1987,7 @@ function App() {
 
   return (
     <div className="app-shell">
-      <Header menuOpen={menuOpen} setMenuOpen={setMenuOpen} onHome={() => setScreen('home')} onSimulado={openSimulado} onCatalog={() => setScreen('catalog')} onAbout={goToAbout} onEssay={() => { setScreen('essay'); setMenuOpen(false) }} />
+      <Header onAccount={openAccount} menuOpen={menuOpen} setMenuOpen={setMenuOpen} onHome={() => setScreen('home')} onSimulado={openSimulado} onCatalog={() => setScreen('catalog')} onAbout={goToAbout} onEssay={() => { setScreen('essay'); setMenuOpen(false) }} />
       <main className="home">
         <section className="hero">
           <div className="hero-copy">
@@ -2117,7 +2041,16 @@ Acesse provas reais de concursos e faculdades federais, resolva simulados exclus
   )
 }
 
-function Header({ onHome, onSimulado, onCatalog, onAbout, onEssay, menuOpen, setMenuOpen }) {
+function Header({ onAccount, onHome, onSimulado, onCatalog, onAbout, onEssay, menuOpen, setMenuOpen, hideNavigation = false }) {
+  const [darkMode, setDarkMode] = useState(() => typeof document !== 'undefined' && document.documentElement.dataset.theme === 'dark')
+  const toggleTheme = () => {
+    const next = !darkMode
+    setDarkMode(next)
+    document.documentElement.dataset.theme = next ? 'dark' : 'light'
+    document.documentElement.style.colorScheme = next ? 'dark' : 'light'
+    document.querySelector('meta[name="theme-color"]')?.setAttribute('content', next ? '#101725' : '#f7f9fc')
+    try { window.localStorage.setItem('provacerta-theme', next ? 'dark' : 'light') } catch {}
+  }
   const handleSimulado = (event) => {
     event.preventDefault()
     setMenuOpen?.(false)
@@ -2138,24 +2071,20 @@ function Header({ onHome, onSimulado, onCatalog, onAbout, onEssay, menuOpen, set
     setMenuOpen?.(false)
     onAbout?.()
   }
-  return <header><button className="brand" onClick={onHome}><span className="brand-mark">P</span> prova<span>certa</span></button><nav className={menuOpen ? 'open' : ''}><a href="#provas" onClick={handleCatalog}>Provas</a><a href="#simulado" className="nav-cta" onClick={handleSimulado}>Crie seu simulado</a><a href="#redacao" onClick={handleEssay}>Praticar redação</a><a href="#sobre" onClick={handleAbout}>Sobre nós</a></nav><button className="menu-button" onClick={() => setMenuOpen?.(!menuOpen)}><Menu size={22} /></button></header>
+  return <header><button className="brand" onClick={onHome}><span className="brand-mark">P</span> prova<span>certa</span></button>{!hideNavigation && <nav className={menuOpen ? 'open' : ''}><a href="#provas" onClick={handleCatalog}>Provas</a><a href="#simulado" className="nav-cta" onClick={handleSimulado}>Crie seu simulado</a><a href="#redacao" onClick={handleEssay}>Praticar redação</a><a href="#sobre" onClick={handleAbout}>Sobre nós</a></nav>}<div className="header-actions"><button className="theme-toggle" onClick={toggleTheme} aria-label={darkMode ? 'Ativar modo claro' : 'Ativar modo escuro'} aria-pressed={darkMode} title={darkMode ? 'Ativar modo claro' : 'Ativar modo escuro'}>{darkMode ? <Sun size={18} /> : <Moon size={18} />}<span>{darkMode ? 'Modo claro' : 'Modo escuro'}</span></button>{!hideNavigation && <AccountControl onAccount={onAccount} />}{!hideNavigation && <button className="menu-button" aria-label="Abrir menu" onClick={() => setMenuOpen?.(!menuOpen)}><Menu size={22} /></button>}</div></header>
 }
 
 function EnemCard({ catalog, year, setYear, discipline, setDiscipline, language, setLanguage, onStart, loading, error }) {
-  const exam = catalog.find((item) => String(item.year) === year)
-  const isSupabaseExam = exam?.source === 'supabase'
-  const disciplines = exam?.disciplines || []
-  const languages = exam?.languages || []
   return (
     <article className="exam-card enem">
       <div className="card-art"><span className="art-kicker">BRASIL</span><strong>ENEM</strong><span className="art-shape">ENEM</span><div className="art-dots" /></div>
       <div className="exam-card-body">
-        <div className="card-title-row"><div><h3>ENEM</h3><p>Exame Nacional do Ensino Médio</p></div><span className={`status ${catalog.length ? 'ready' : ''}`}>{catalog.length ? 'API conectada' : 'Carregando'}</span></div>
+        <div className="card-title-row"><div><h3>ENEM</h3><p>Exame Nacional do Ensino Médio</p></div><span className={`status ${catalog.length ? 'ready' : ''}`}>{catalog.length ? 'Disponível' : 'Carregando'}</span></div>
         <div className="enem-controls">
-          <label>Ano da prova <span className="select-wrap"><select value={year} onChange={(event) => setYear(event.target.value)} disabled={!catalog.length}>{catalog.map((item) => <option key={item.year} value={item.year}>{item.source === 'supabase' ? `${item.year} (prova completa)` : item.year}</option>)}</select><ChevronDown size={16} /></span></label>
-          {!isSupabaseExam && <label>Área <span className="select-wrap"><select value={discipline} onChange={(event) => setDiscipline(event.target.value)} disabled={!disciplines.length}>{disciplines.map((item) => <option key={item.value} value={item.value}>{item.label}</option>)}</select><ChevronDown size={16} /></span></label>}
-          {!isSupabaseExam && discipline === 'linguagens' && <label>Idioma <span className="select-wrap"><select value={language} onChange={(event) => setLanguage(event.target.value)} disabled={!languages.length}>{languages.map((item) => <option key={item.value} value={item.value}>{item.label}</option>)}</select><ChevronDown size={16} /></span></label>}
-          {isSupabaseExam && <p className="enem-note">Prova completa (180 questões), com todas as áreas.</p>}
+          <label>Ano da prova <span className="select-wrap"><select value={year} onChange={(event) => setYear(event.target.value)} disabled={!catalog.length}>{catalog.map((item) => <option key={item.year} value={item.year}>{item.year}</option>)}</select><ChevronDown size={16} /></span></label>
+          <label>Área da prova <span className="select-wrap"><select value={discipline} onChange={event => setDiscipline(event.target.value)}>{enemAreas.map(item => <option key={item.value} value={item.value}>{item.label}</option>)}</select><ChevronDown size={16} /></span></label>
+          <label>Idioma <span className="select-wrap"><select value={language} onChange={event => setLanguage(event.target.value)} disabled={!enemHasLanguage(discipline)}><option value="ingles">Inglês</option><option value="espanhol">Espanhol</option></select><ChevronDown size={16} /></span></label>
+          <p className="enem-note">{enemHasLanguage(discipline) ? 'O idioma define as cinco questões de língua estrangeira.' : 'Esta área não contém questões de língua estrangeira.'}</p>
         </div>
         {error && <p className="api-error" role="alert">{error}</p>}
         <button className={`button ${catalog.length && !loading ? 'primary' : 'disabled'} full`} onClick={onStart} disabled={!catalog.length || loading}>{loading ? 'Carregando questões…' : 'Começar prova'} {!loading && catalog.length > 0 && <ArrowRight size={17} />}</button>
@@ -2325,15 +2254,15 @@ function CorreiosCard({ roles, role, onRoleChange, years, year, setYear, onStart
     <article className="exam-card color-amber">
       <div className="card-art">
         <span className="art-kicker">SERVIÇOS</span>
-        <strong>CORREIOS</strong>
-        <span className="art-shape">ECT</span>
+        <strong className="long">CORREIOS</strong>
+        <span className="art-shape">Correios</span>
         <div className="art-dots" />
       </div>
       <div className="exam-card-body">
         <div className="card-title-row">
           <div>
             <h3>Correios</h3>
-            <p>Agente de Correios - Carteiro</p>
+            <p>{roles[role]?.label || 'Agente de Correios'}</p>
           </div>
           <span className={`status ${available ? 'ready' : ''}`}>{available ? 'Disponível' : 'Em breve'}</span>
         </div>
@@ -2837,4 +2766,4 @@ function UpcomingCard({ exam }) {
 
 function MoreDots() { return <span className="more-dots"><i /><i /><i /></span> }
 
-createRoot(document.getElementById('root')).render(<App />)
+createRoot(document.getElementById('root')).render(<AuthProvider><App /></AuthProvider>)

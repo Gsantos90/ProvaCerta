@@ -1,0 +1,2305 @@
+[
+  {
+    "slug": "correios-2011-atendente-comercial",
+    "number": 1,
+    "subject": "Informática",
+    "text": "Com base nas informações do texto, é correto afirmar que a célula D3",
+    "support": "A figura abaixo ilustra uma janela do Microsoft Office Excel 2007\ncom uma planilha que contém dados relativos a demandas por produtos\ne serviços da agência central dos Correios de determinado município.\nA planilha está sendo editada em um computador cujo sistema operacional\né o Windows Vista.",
+    "support_image": "",
+    "options": [
+      "está com formatação definida para alinhamento horizontal centralizado.",
+      "está mesclada.",
+      "está formatada como texto.",
+      "tem sua formatação definida para alinhamento vertical centralizado do conteúdo.",
+      "está formatada para que haja redução automática do tamanho da fonte, de forma que o seu conteúdo seja ajustado dentro da coluna da célula."
+    ],
+    "answer": "D",
+    "explanation": "Gabarito definitivo do CESPE/UnB, Correios 2011, Tipo I: alternativa D.",
+    "page": 2,
+    "rect": [
+      25.0,
+      518.9917602539062,
+      331.4599914550781,
+      643.751708984375
+    ],
+    "images": [],
+    "raw": "Com base nas informações do texto, é correto afirmar que a célula D3\n\nA   está  com  formatação  definida  para  alinhamento  horizontal\n     centralizado.\nB   está mesclada.\nC   está formatada como texto.\nD  tem sua formatação definida para alinhamento vertical centralizado do\n    conteúdo.\nE   está formatada para que haja redução automática do tamanho da fonte,\n    de forma que o seu conteúdo seja ajustado dentro da coluna da célula.",
+    "shared": {
+      "text": "A figura abaixo ilustra uma janela do Microsoft Office Excel 2007\ncom uma planilha que contém dados relativos a demandas por produtos\ne serviços da agência central dos Correios de determinado município.\nA planilha está sendo editada em um computador cujo sistema operacional\né o Windows Vista.",
+      "page": 2,
+      "images": [
+        [
+          33.119998931884766,
+          219.239990234375,
+          315.0509948730469,
+          496.44000244140625
+        ]
+      ]
+    }
+  },
+  {
+    "slug": "correios-2011-atendente-comercial",
+    "number": 2,
+    "subject": "Informática",
+    "text": "Entre as possibilidades de se ter obtido corretamente o valor mostrado na célula D11 da planilha Excel ilustrada no texto, inclui-se a de, após as devidas formatações, clicar a referida célula e, em seguida,",
+    "support": "A figura abaixo ilustra uma janela do Microsoft Office Excel 2007\ncom uma planilha que contém dados relativos a demandas por produtos\ne serviços da agência central dos Correios de determinado município.\nA planilha está sendo editada em um computador cujo sistema operacional\né o Windows Vista.",
+    "support_image": "",
+    "options": [
+      "digitar =SOMA(D3;D10) e teclar .",
+      "digitar =SOMA(D3-D10) e teclar .",
+      "digitar =D3%D10 e teclar .",
+      "clicar o botão .",
+      "digitar =SOMA(D3:D10) e teclar ."
+    ],
+    "answer": "E",
+    "explanation": "Gabarito definitivo do CESPE/UnB, Correios 2011, Tipo I: alternativa E.",
+    "page": 2,
+    "rect": [
+      25.0,
+      654.7117309570312,
+      331.4599914550781,
+      802.0
+    ],
+    "images": [
+      [
+        103.80000305175781,
+        747.7200317382812,
+        123.55400085449219,
+        766.0800170898438
+      ]
+    ],
+    "raw": "Entre as possibilidades de se ter obtido corretamente o valor mostrado na\ncélula D11 da planilha Excel ilustrada no texto, inclui-se a de, após as\ndevidas formatações, clicar a referida célula e, em seguida,\n\nA   digitar =SOMA(D3;D10) e teclar        .\nB   digitar =SOMA(D3-D10) e teclar        .\nC   digitar =D3%D10 e teclar        .\n\nD   clicar o botão         .\n\nE   digitar =SOMA(D3:D10) e teclar        .",
+    "shared": {
+      "text": "A figura abaixo ilustra uma janela do Microsoft Office Excel 2007\ncom uma planilha que contém dados relativos a demandas por produtos\ne serviços da agência central dos Correios de determinado município.\nA planilha está sendo editada em um computador cujo sistema operacional\né o Windows Vista.",
+      "page": 2,
+      "images": [
+        [
+          33.119998931884766,
+          219.239990234375,
+          315.0509948730469,
+          496.44000244140625
+        ]
+      ]
+    }
+  },
+  {
+    "slug": "correios-2011-atendente-comercial",
+    "number": 3,
+    "subject": "Informática",
+    "text": "Considere que, para representar graficamente a demanda por produtos e serviços da mencionada agência, conforme detalhado na planilha Excel ilustrada no texto, tenha sido criado o gráfico do tipo pizza, em 3D, mostrado na figura acima, utilizando-se recursos obtidos a partir de determinado menu do Excel. Nesse caso, para a criação desse gráfico, deve ter sido utilizado o menu",
+    "support": "A figura abaixo ilustra uma janela do Microsoft Office Excel 2007\ncom uma planilha que contém dados relativos a demandas por produtos\ne serviços da agência central dos Correios de determinado município.\nA planilha está sendo editada em um computador cujo sistema operacional\né o Windows Vista.",
+    "support_image": "",
+    "options": [
+      ".",
+      ".",
+      ".",
+      ".",
+      "."
+    ],
+    "answer": "B",
+    "explanation": "Gabarito definitivo do CESPE/UnB, Correios 2011, Tipo I: alternativa B.",
+    "page": 2,
+    "rect": [
+      331.4599914550781,
+      154.91171264648438,
+      570.0,
+      430.0317077636719
+    ],
+    "images": [
+      [
+        350.760009765625,
+        161.16000366210938,
+        550.3200073242188,
+        253.20001220703125
+      ],
+      [
+        350.760009765625,
+        161.16000366210938,
+        550.5250244140625,
+        253.20001220703125
+      ],
+      [
+        351.239990234375,
+        354.4800109863281,
+        385.44000244140625,
+        365.8800048828125
+      ],
+      [
+        351.239990234375,
+        369.1199951171875,
+        379.67999267578125,
+        379.32000732421875
+      ],
+      [
+        351.239990234375,
+        382.44000244140625,
+        389.6399841308594,
+        394.32000732421875
+      ],
+      [
+        351.3599853515625,
+        397.55999755859375,
+        376.79998779296875,
+        407.0400085449219
+      ],
+      [
+        351.3599853515625,
+        410.0400085449219,
+        385.3199768066406,
+        421.44000244140625
+      ]
+    ],
+    "raw": "Considere que, para representar graficamente a demanda por\nprodutos e serviços da mencionada agência, conforme\ndetalhado na planilha Excel ilustrada no texto, tenha sido\ncriado o gráfico do tipo pizza, em 3D, mostrado na figura\nacima,  utilizando-se  recursos  obtidos  a   partir  de\ndeterminado menu do Excel. Nesse caso, para a criação\ndesse gráfico, deve ter sido utilizado o menu\n\nA                 .\nB               .\nC                   .\nD              .\nE                 .",
+    "shared": {
+      "text": "A figura abaixo ilustra uma janela do Microsoft Office Excel 2007\ncom uma planilha que contém dados relativos a demandas por produtos\ne serviços da agência central dos Correios de determinado município.\nA planilha está sendo editada em um computador cujo sistema operacional\né o Windows Vista.",
+      "page": 2,
+      "images": [
+        [
+          33.119998931884766,
+          219.239990234375,
+          315.0509948730469,
+          496.44000244140625
+        ]
+      ]
+    }
+  },
+  {
+    "slug": "correios-2011-atendente-comercial",
+    "number": 4,
+    "subject": "Informática",
+    "text": "A figura acima mostra uma janela associada a uma pasta denominada correiosdocs, em um computador em que se utiliza o sistema operacional Windows XP. Com relação a essa janela e ao Windows XP, assinale a opção correta.",
+    "support": "",
+    "support_image": "",
+    "options": [
+      "A pasta correiosdocs está contida no disco C: do computador.",
+      "Ao se clicar o botão , os ícones associados aos arquivos e serão exibidos com tamanho maior que o exibido na janela.",
+      "Ao se aplicar um clique duplo no ícone , será aberto o documento associado a esse ícone.",
+      "O arquivo associado ao ícone ocupa espaço de memória inferior a 8 mil bytes.",
+      "Ao se clicar o ícone e, a seguir, o botão , o referido ícone passará a ser exibido, na janela, acima do ícone ."
+    ],
+    "answer": "C",
+    "explanation": "Gabarito definitivo do CESPE/UnB, Correios 2011, Tipo I: alternativa C.",
+    "page": 2,
+    "rect": [
+      331.4599914550781,
+      440.99169921875,
+      570.0,
+      802.0
+    ],
+    "images": [
+      [
+        337.55999755859375,
+        448.0799865722656,
+        563.2730102539062,
+        564.47998046875
+      ],
+      [
+        442.32000732421875,
+        648.5999755859375,
+        456.69500732421875,
+        662.8800048828125
+      ],
+      [
+        386.760009765625,
+        664.7999877929688,
+        447.3600158691406,
+        676.2000122070312
+      ],
+      [
+        454.32000732421875,
+        665.8800048828125,
+        510.0,
+        677.280029296875
+      ],
+      [
+        508.67999267578125,
+        690.5999755859375,
+        564.3599853515625,
+        702.0
+      ],
+      [
+        478.55999755859375,
+        716.5199584960938,
+        539.1599731445312,
+        727.9199829101562
+      ],
+      [
+        430.67999267578125,
+        742.3199462890625,
+        491.2799987792969,
+        753.719970703125
+      ],
+      [
+        351.3599853515625,
+        755.5199584960938,
+        365.7489929199219,
+        769.7999877929688
+      ],
+      [
+        414.1199951171875,
+        771.719970703125,
+        469.79998779296875,
+        783.1199951171875
+      ]
+    ],
+    "raw": "A figura acima mostra uma janela associada a uma pasta\ndenominada correiosdocs, em um computador em que se\nutiliza o sistema operacional Windows XP. Com relação a\nessa janela e ao Windows XP, assinale a opção correta.\n\nA A pasta  correiosdocs  está contida no disco C: do\n    computador.\n\nB  Ao se clicar o botão       , os ícones associados aos\n    arquivos              e              serão exibidos\n   com tamanho maior que o exibido na janela.\nC  Ao se aplicar um clique duplo no ícone                       ,\n     será aberto o documento associado a esse ícone.\nD O arquivo associado ao ícone              ocupa\n    espaço de memória inferior a 8 mil bytes.\nE  Ao se clicar o ícone                  e, a seguir, o botão\n\n             , o referido ícone passará a ser exibido, na janela,\n    acima do ícone                       ."
+  },
+  {
+    "slug": "correios-2011-atendente-comercial",
+    "number": 5,
+    "subject": "Informática",
+    "text": "Os recursos do menu Inserir do Microsoft Office Word 2007 disponibilizados na barra de ferramentas ilustrada, em duas partes, na figura acima permitem que se insira, em um documento em edição,",
+    "support": "",
+    "support_image": "",
+    "options": [
+      "equação matemática, por meio do conjunto de botões .",
+      "quebra de seção, por meio do conjunto de botões .",
+      "imagem armazenada no computador, por meio do botão .",
+      "texto com efeitos decorativos, como, por exemplo, , por meio do conjunto de botões .",
+      "nova página em branco, por meio do submenu ."
+    ],
+    "answer": "C",
+    "explanation": "Gabarito definitivo do CESPE/UnB, Correios 2011, Tipo I: alternativa C.",
+    "page": 3,
+    "rect": [
+      25.0,
+      59.271697998046875,
+      302.17999267578125,
+      384.43170166015625
+    ],
+    "images": [
+      [
+        51.47999954223633,
+        65.64002990722656,
+        269.541015625,
+        122.4000244140625
+      ],
+      [
+        102.0,
+        125.0400161743164,
+        219.14999389648438,
+        167.6400146484375
+      ],
+      [
+        46.560001373291016,
+        231.5999755859375,
+        103.35900115966797,
+        245.03997802734375
+      ],
+      [
+        244.67999267578125,
+        248.27996826171875,
+        263.5539855957031,
+        276.719970703125
+      ],
+      [
+        266.5199890136719,
+        281.4000244140625,
+        290.7829895019531,
+        309.84002685546875
+      ],
+      [
+        47.0,
+        327.0,
+        54.0,
+        331.0
+      ],
+      [
+        65.0,
+        326.0,
+        69.0,
+        331.0
+      ],
+      [
+        69.0,
+        327.0,
+        76.0,
+        331.0
+      ],
+      [
+        87.0,
+        339.0,
+        93.0,
+        341.0
+      ],
+      [
+        235.1999969482422,
+        328.79998779296875,
+        289.67999267578125,
+        343.0799865722656
+      ],
+      [
+        46.560001373291016,
+        361.20001220703125,
+        129.6280059814453,
+        375.4800109863281
+      ]
+    ],
+    "raw": "Os recursos do menu  Inserir do Microsoft Office Word 2007\ndisponibilizados na barra de ferramentas ilustrada, em duas partes,\nna figura acima permitem que se insira, em um documento em\nedição,\nA  equação  matemática,  por meio do  conjunto  de  botões\n\n                              .\n\n\nB  quebra de seção, por meio do conjunto de botões        .\n\n\nC  imagem armazenada no computador, por meio do botão          .\nD  texto  com   efeitos  decorativos,  como,  por  exemplo,\n\n                             , por meio do conjunto de botões                       .\nE  nova   página  em   branco,   por  meio  do  submenu\n\n                                        ."
+  },
+  {
+    "slug": "correios-2011-atendente-comercial",
+    "number": 6,
+    "subject": "Informática",
+    "text": "No Microsoft Office Word 2007, o usuário encontrará recursos que lhe permitem fazer e exibir comentários e ativar o controle de alterações que forem feitas em um documento em edição no menu",
+    "support": "",
+    "support_image": "",
+    "options": [
+      "Correspondências.",
+      "Revisão.",
+      "Exibição.",
+      "Início.",
+      "Referências."
+    ],
+    "answer": "B",
+    "explanation": "Gabarito definitivo do CESPE/UnB, Correios 2011, Tipo I: alternativa B.",
+    "page": 3,
+    "rect": [
+      25.0,
+      395.3916931152344,
+      302.17999267578125,
+      516.4317016601562
+    ],
+    "images": [],
+    "raw": "No Microsoft Office Word 2007, o usuário encontrará recursos que\nlhe permitem fazer e exibir comentários e ativar o controle de\nalterações que forem feitas em um documento em edição no menu\n\nA  Correspondências.\nB   Revisão.\nC   Exibição.\nD   Início.\nE   Referências."
+  },
+  {
+    "slug": "correios-2011-atendente-comercial",
+    "number": 7,
+    "subject": "Informática",
+    "text": "Para se criar um arquivo, no formato PDF, correspondente a um documento criado com o Microsoft Office Word 2007, é correto o uso dos recursos desse aplicativo disponibilizados a partir do",
+    "support": "",
+    "support_image": "",
+    "options": [
+      "menu Referências, na barra de menus.",
+      "menu Correspondências, na barra de menus.",
+      "conjunto de botões Imprimir, obtido ao se clicar o botão Office.",
+      "conjunto de botões Preparar, obtido ao se clicar o botão Office.",
+      "menu Layout da Página, na barra de menus."
+    ],
+    "answer": "C",
+    "explanation": "Gabarito definitivo do CESPE/UnB, Correios 2011, Tipo I: alternativa C.",
+    "page": 3,
+    "rect": [
+      25.0,
+      527.3917236328125,
+      302.17999267578125,
+      648.5516967773438
+    ],
+    "images": [],
+    "raw": "Para se criar um arquivo, no formato PDF, correspondente a um\ndocumento criado com o Microsoft Office Word 2007, é correto o\nuso dos recursos desse aplicativo disponibilizados a partir do\n\nA  menu Referências, na barra de menus.\nB  menu Correspondências, na barra de menus.\nC  conjunto de botões Imprimir, obtido ao se clicar o botão Office.\nD  conjunto de botões Preparar, obtido ao se clicar o botão Office.\nE  menu Layout da Página, na barra de menus."
+  },
+  {
+    "slug": "correios-2011-atendente-comercial",
+    "number": 8,
+    "subject": "Informática",
+    "text": "O modem",
+    "support": "",
+    "support_image": "",
+    "options": [
+      "é um tipo de memória semicondutora não volátil.",
+      "é um tipo de interface paralela que permite a comunicação sem fio entre um computador e seus periféricos.",
+      "é um roteador wireless para redes sem fio.",
+      "tem função de garantir o fornecimento ininterrupto de energia elétrica ao computador.",
+      "pode auxiliar na comunicação entre computadores através da rede telefônica."
+    ],
+    "answer": "E",
+    "explanation": "Gabarito definitivo do CESPE/UnB, Correios 2011, Tipo I: alternativa E.",
+    "page": 3,
+    "rect": [
+      25.0,
+      659.51171875,
+      302.17999267578125,
+      802.0
+    ],
+    "images": [],
+    "raw": "O modem\n\nA  é um tipo de memória semicondutora não volátil.\nB  é um tipo de interface paralela que permite a comunicação sem\n     fio entre um computador e seus periféricos.\nC  é um roteador wireless para redes sem fio.\nD  tem função de garantir o fornecimento ininterrupto de energia\n     elétrica ao computador.\nE  pode auxiliar na comunicação entre computadores através da\n    rede telefônica."
+  },
+  {
+    "slug": "correios-2011-atendente-comercial",
+    "number": 9,
+    "subject": "Informática",
+    "text": "As informações do texto e da janela do IE8 são suficientes para se concluir corretamente que",
+    "support": "Um arquivo de nome Relatório Periódico.pdf será enviado\nanexado a uma mensagem de correio eletrônico, utilizando-se\nrecursos de webmail, por meio do Internet Explorer 8 (IE8).\nA janela do IE8 a ser utilizada nessa operação está sendo executada\nem um computador cujo sistema operacional é o Windows Vista.\nEssa janela, ilustrada a seguir, foi capturada quando o ponteiro do\n\nmouse se encontrava sobre a guia                  , correspondente ao\nacesso a página do sítio www.correios.com.br, que também está\nocorrendo na sessão de uso do IE8.",
+    "support_image": "",
+    "options": [
+      "a referida mensagem de correio eletrônico será enviada para mais de um destinatário.",
+      "os referidos recursos de webmail estão sendo acessados por meio de uma conexão denominada segura.",
+      "o arquivo que será enviado tem tamanho superior a 4 megabytes.",
+      "o sítio www.correios.com.br é a página inicial do IE8, instalado no computador.",
+      "o sítio que disponibiliza os referidos recursos de webmail está configurado como favorito do IE8, instalado no computador."
+    ],
+    "answer": "B",
+    "explanation": "Gabarito definitivo do CESPE/UnB, Correios 2011, Tipo I: alternativa B.",
+    "page": 3,
+    "rect": [
+      302.17999267578125,
+      373.67169189453125,
+      570.0,
+      517.1517333984375
+    ],
+    "images": [],
+    "raw": "As informações do texto e da janela do IE8 são suficientes para se\nconcluir corretamente que\n\nA  a referida mensagem de correio eletrônico será enviada para\n    mais de um destinatário.\nB  os referidos recursos de webmail estão sendo acessados por\n    meio de uma conexão denominada segura.\nC  o arquivo que será enviado tem tamanho superior a 4\n    megabytes.\nD  o sítio www.correios.com.br é a página inicial do IE8, instalado\n    no computador.\nE  o sítio que disponibiliza os referidos recursos de webmail está\n    configurado como favorito do IE8, instalado no computador.",
+    "shared": {
+      "text": "Um arquivo de nome Relatório Periódico.pdf será enviado\nanexado a uma mensagem de correio eletrônico, utilizando-se\nrecursos de webmail, por meio do Internet Explorer 8 (IE8).\nA janela do IE8 a ser utilizada nessa operação está sendo executada\nem um computador cujo sistema operacional é o Windows Vista.\nEssa janela, ilustrada a seguir, foi capturada quando o ponteiro do\n\nmouse se encontrava sobre a guia                  , correspondente ao\nacesso a página do sítio www.correios.com.br, que também está\nocorrendo na sessão de uso do IE8.",
+      "page": 3,
+      "images": [
+        [
+          446.1600036621094,
+          120.36001586914062,
+          487.6860046386719,
+          134.6400146484375
+        ],
+        [
+          308.5199890136719,
+          164.28001403808594,
+          564.822021484375,
+          357.4800109863281
+        ]
+      ]
+    }
+  },
+  {
+    "slug": "correios-2011-atendente-comercial",
+    "number": 10,
+    "subject": "Informática",
+    "text": "Caso se deseje visualizar, no corpo de páginas do IE8, a página web correspondente ao endereço www.correios.com.br, deve-se clicar",
+    "support": "Um arquivo de nome Relatório Periódico.pdf será enviado\nanexado a uma mensagem de correio eletrônico, utilizando-se\nrecursos de webmail, por meio do Internet Explorer 8 (IE8).\nA janela do IE8 a ser utilizada nessa operação está sendo executada\nem um computador cujo sistema operacional é o Windows Vista.\nEssa janela, ilustrada a seguir, foi capturada quando o ponteiro do\n\nmouse se encontrava sobre a guia                  , correspondente ao\nacesso a página do sítio www.correios.com.br, que também está\nocorrendo na sessão de uso do IE8.",
+    "support_image": "",
+    "options": [
+      "a guia .",
+      "o botão .",
+      "o campo do botão .",
+      "o botão .",
+      "o botão ."
+    ],
+    "answer": "A",
+    "explanation": "Gabarito definitivo do CESPE/UnB, Correios 2011, Tipo I: alternativa A.",
+    "page": 3,
+    "rect": [
+      302.17999267578125,
+      528.1117553710938,
+      570.0,
+      644.1116943359375
+    ],
+    "images": [
+      [
+        350.760009765625,
+        560.6400146484375,
+        392.2860107421875,
+        574.9200439453125
+      ],
+      [
+        356.6400146484375,
+        576.3599853515625,
+        369.2690124511719,
+        590.6400146484375
+      ],
+      [
+        360.8399963378906,
+        591.9599609375,
+        375.2149963378906,
+        606.239990234375
+      ],
+      [
+        414.3599853515625,
+        591.9599609375,
+        453.80596923828125,
+        606.239990234375
+      ],
+      [
+        356.760009765625,
+        607.43994140625,
+        370.2650146484375,
+        621.719970703125
+      ],
+      [
+        356.760009765625,
+        623.0399780273438,
+        368.4389953613281,
+        637.3200073242188
+      ]
+    ],
+    "raw": "Caso se deseje visualizar, no corpo de páginas do IE8, a página\nweb correspondente ao endereço www.correios.com.br, deve-se clicar\n\nA  a guia                 .\n\nB  o botão      .\n\nC  o campo    do botão                .\n\nD  o botão      .\n\nE  o botão     .",
+    "shared": {
+      "text": "Um arquivo de nome Relatório Periódico.pdf será enviado\nanexado a uma mensagem de correio eletrônico, utilizando-se\nrecursos de webmail, por meio do Internet Explorer 8 (IE8).\nA janela do IE8 a ser utilizada nessa operação está sendo executada\nem um computador cujo sistema operacional é o Windows Vista.\nEssa janela, ilustrada a seguir, foi capturada quando o ponteiro do\n\nmouse se encontrava sobre a guia                  , correspondente ao\nacesso a página do sítio www.correios.com.br, que também está\nocorrendo na sessão de uso do IE8.",
+      "page": 3,
+      "images": [
+        [
+          446.1600036621094,
+          120.36001586914062,
+          487.6860046386719,
+          134.6400146484375
+        ],
+        [
+          308.5199890136719,
+          164.28001403808594,
+          564.822021484375,
+          357.4800109863281
+        ]
+      ]
+    }
+  },
+  {
+    "slug": "correios-2011-atendente-comercial",
+    "number": 11,
+    "subject": "Informática",
+    "text": "Caso se deseje, na sessão de uso do IE8 descrita no texto, dar início a uma navegação InPrivate, buscando evitar, dessa forma, deixar vestígios nos arquivos de armazenamento do IE8 acerca de informações referentes a sítios visitados, é correto o uso da opção Navegação InPrivate, que pode ser selecionada a partir do menu",
+    "support": "Um arquivo de nome Relatório Periódico.pdf será enviado\nanexado a uma mensagem de correio eletrônico, utilizando-se\nrecursos de webmail, por meio do Internet Explorer 8 (IE8).\nA janela do IE8 a ser utilizada nessa operação está sendo executada\nem um computador cujo sistema operacional é o Windows Vista.\nEssa janela, ilustrada a seguir, foi capturada quando o ponteiro do\n\nmouse se encontrava sobre a guia                  , correspondente ao\nacesso a página do sítio www.correios.com.br, que também está\nocorrendo na sessão de uso do IE8.",
+    "support_image": "",
+    "options": [
+      ".",
+      ".",
+      ".",
+      ".",
+      "."
+    ],
+    "answer": "B",
+    "explanation": "Gabarito definitivo do CESPE/UnB, Correios 2011, Tipo I: alternativa B.",
+    "page": 3,
+    "rect": [
+      302.17999267578125,
+      655.0717163085938,
+      570.0,
+      802.0
+    ],
+    "images": [
+      [
+        324.239990234375,
+        717.8399658203125,
+        362.0059814453125,
+        729.239990234375
+      ],
+      [
+        324.239990234375,
+        730.7999877929688,
+        376.1999816894531,
+        742.3200073242188
+      ],
+      [
+        324.239990234375,
+        743.760009765625,
+        360.8399963378906,
+        755.1600341796875
+      ],
+      [
+        324.239990234375,
+        756.5999755859375,
+        349.468994140625,
+        768.0
+      ],
+      [
+        324.239990234375,
+        769.5599975585938,
+        352.67999267578125,
+        781.0800170898438
+      ]
+    ],
+    "raw": "Caso se deseje, na sessão de uso do IE8 descrita no texto, dar início\na uma navegação InPrivate, buscando evitar, dessa forma, deixar\nvestígios nos arquivos de armazenamento do IE8 acerca de\ninformações referentes a sítios visitados, é correto o uso da opção\nNavegação InPrivate, que pode ser selecionada a partir do menu\n\nA                   .\nB                        .\nC                  .\nD              .\nE               .",
+    "shared": {
+      "text": "Um arquivo de nome Relatório Periódico.pdf será enviado\nanexado a uma mensagem de correio eletrônico, utilizando-se\nrecursos de webmail, por meio do Internet Explorer 8 (IE8).\nA janela do IE8 a ser utilizada nessa operação está sendo executada\nem um computador cujo sistema operacional é o Windows Vista.\nEssa janela, ilustrada a seguir, foi capturada quando o ponteiro do\n\nmouse se encontrava sobre a guia                  , correspondente ao\nacesso a página do sítio www.correios.com.br, que também está\nocorrendo na sessão de uso do IE8.",
+      "page": 3,
+      "images": [
+        [
+          446.1600036621094,
+          120.36001586914062,
+          487.6860046386719,
+          134.6400146484375
+        ],
+        [
+          308.5199890136719,
+          164.28001403808594,
+          564.822021484375,
+          357.4800109863281
+        ]
+      ]
+    }
+  },
+  {
+    "slug": "correios-2011-atendente-comercial",
+    "number": 12,
+    "subject": "Informática",
+    "text": "A figura acima ilustra uma janela que pode ser corretamente acessada por meio de opção disponibilizada pelo IE8 no menu",
+    "support": "Um arquivo de nome Relatório Periódico.pdf será enviado\nanexado a uma mensagem de correio eletrônico, utilizando-se\nrecursos de webmail, por meio do Internet Explorer 8 (IE8).\nA janela do IE8 a ser utilizada nessa operação está sendo executada\nem um computador cujo sistema operacional é o Windows Vista.\nEssa janela, ilustrada a seguir, foi capturada quando o ponteiro do\n\nmouse se encontrava sobre a guia                  , correspondente ao\nacesso a página do sítio www.correios.com.br, que também está\nocorrendo na sessão de uso do IE8.",
+    "support_image": "",
+    "options": [
+      ".",
+      ".",
+      ".",
+      ".",
+      "."
+    ],
+    "answer": "D",
+    "explanation": "Gabarito definitivo do CESPE/UnB, Correios 2011, Tipo I: alternativa D.",
+    "page": 4,
+    "rect": [
+      25.0,
+      59.271697998046875,
+      300.6199951171875,
+      381.9117126464844
+    ],
+    "images": [
+      [
+        84.23999786376953,
+        66.1199951171875,
+        235.5360107421875,
+        259.44000244140625
+      ],
+      [
+        46.560001373291016,
+        301.0799865722656,
+        71.78900146484375,
+        312.47998046875
+      ],
+      [
+        46.560001373291016,
+        316.0799865722656,
+        75.0,
+        327.5999755859375
+      ],
+      [
+        46.560001373291016,
+        331.32000732421875,
+        84.32600402832031,
+        342.7200012207031
+      ],
+      [
+        46.560001373291016,
+        346.32000732421875,
+        98.52000427246094,
+        357.8399963378906
+      ],
+      [
+        46.560001373291016,
+        361.55999755859375,
+        83.16000366210938,
+        372.9599914550781
+      ]
+    ],
+    "raw": "A figura acima ilustra uma janela que pode ser corretamente\nacessada por meio de opção disponibilizada pelo IE8 no menu\n\nA              .\nB               .\nC                   .\nD                        .\nE                  .",
+    "shared": {
+      "text": "Um arquivo de nome Relatório Periódico.pdf será enviado\nanexado a uma mensagem de correio eletrônico, utilizando-se\nrecursos de webmail, por meio do Internet Explorer 8 (IE8).\nA janela do IE8 a ser utilizada nessa operação está sendo executada\nem um computador cujo sistema operacional é o Windows Vista.\nEssa janela, ilustrada a seguir, foi capturada quando o ponteiro do\n\nmouse se encontrava sobre a guia                  , correspondente ao\nacesso a página do sítio www.correios.com.br, que também está\nocorrendo na sessão de uso do IE8.",
+      "page": 3,
+      "images": [
+        [
+          446.1600036621094,
+          120.36001586914062,
+          487.6860046386719,
+          134.6400146484375
+        ],
+        [
+          308.5199890136719,
+          164.28001403808594,
+          564.822021484375,
+          357.4800109863281
+        ]
+      ]
+    }
+  },
+  {
+    "slug": "correios-2011-atendente-comercial",
+    "number": 13,
+    "subject": "Informática",
+    "text": "Considerando que um usuário pretenda salvar, em memória ou em dispositivo de armazenamento, um arquivo com tamanho de 3 gigabytes, assinale a opção correta.",
+    "support": "",
+    "support_image": "",
+    "options": [
+      "Os discos rígidos externos, cuja capacidade atual é de 900 kilobytes, não são capazes de armazenar esse arquivo.",
+      "Os disquetes de 3½\", cuja capacidade é de 200 gigabytes, podem armazenar esse arquivo.",
+      "Qualquer tipo de CD-ROM tem capacidade suficiente para armazenar esse arquivo.",
+      "Os discos do tipo DVD-ROM, cuja capacidade máxima atual é de 8 kilobytes, não são capazes de armazenar esse arquivo.",
+      "Diversos modelos de pendrive têm capacidade suficiente para armazenar esse arquivo."
+    ],
+    "answer": "E",
+    "explanation": "Gabarito definitivo do CESPE/UnB, Correios 2011, Tipo I: alternativa E.",
+    "page": 4,
+    "rect": [
+      25.0,
+      392.8717041015625,
+      300.6199951171875,
+      574.99169921875
+    ],
+    "images": [],
+    "raw": "Considerando que um usuário pretenda salvar, em memória ou em\ndispositivo de armazenamento, um arquivo com tamanho de 3\ngigabytes, assinale a opção correta.\n\nA  Os discos  rígidos  externos, cuja capacidade  atual é de\n    900 kilobytes, não são capazes de armazenar esse arquivo.\nB  Os disquetes de 3½\", cuja capacidade é de 200 gigabytes,\n   podem armazenar esse arquivo.\nC  Qualquer tipo de CD-ROM tem capacidade suficiente para\n    armazenar esse arquivo.\nD  Os discos do tipo DVD-ROM, cuja capacidade máxima atual\n    é de 8 kilobytes, não são capazes de armazenar esse arquivo.\nE  Diversos modelos de pendrive têm capacidade suficiente para\n    armazenar esse arquivo."
+  },
+  {
+    "slug": "correios-2011-atendente-comercial",
+    "number": 14,
+    "subject": "Informática",
+    "text": "Com relação a mensagens de correio eletrônico, assinale a opção correta.",
+    "support": "",
+    "support_image": "",
+    "options": [
+      "Para um usuário de nome Jorge que trabalhe em uma empresa comercial brasileira denominada Fictícia, estará correta a estrutura de endereço de email @bra.com.ficticia.jorge.",
+      "O Microsoft Office não possui aplicativo que permita ao usuário lidar com mensagens de correio eletrônico.",
+      "O recurso Cc (cópia carbono) permite o envio de cópia de uma mensagem de correio eletrônico a múltiplos destinatários.",
+      "Só é possível enviar cópias de mensagens de correio eletrônico a múltiplos usuários caso todos eles tenham acesso à lista de todos os que receberão cópias.",
+      "O programa Outlook Express 2003 possibilita a visualização de mensagens de correio eletrônico, mas não, a criação e o envio de mensagens."
+    ],
+    "answer": "C",
+    "explanation": "Gabarito definitivo do CESPE/UnB, Correios 2011, Tipo I: alternativa C.",
+    "page": 4,
+    "rect": [
+      25.0,
+      585.9517211914062,
+      300.6199951171875,
+      802.0
+    ],
+    "images": [],
+    "raw": "Com relação a mensagens de correio eletrônico, assinale a opção\ncorreta.\n\nA  Para um usuário de nome Jorge que trabalhe em uma empresa\n    comercial brasileira denominada Fictícia, estará correta a\n     estrutura de endereço de email @bra.com.ficticia.jorge.\nB O Microsoft Office não possui aplicativo que permita ao\n    usuário lidar com mensagens de correio eletrônico.\nC O recurso Cc (cópia carbono) permite o envio de cópia de uma\n   mensagem de correio eletrônico a múltiplos destinatários.\nD  Só é possível enviar cópias de mensagens de correio eletrônico\n    a múltiplos usuários caso todos eles tenham acesso à lista de\n    todos os que receberão cópias.\nE O programa Outlook Express 2003 possibilita a visualização\n    de mensagens de correio eletrônico, mas não, a criação e o\n    envio de mensagens."
+  },
+  {
+    "slug": "correios-2011-atendente-comercial",
+    "number": 15,
+    "subject": "Informática",
+    "text": "Assinale a opção em que se descreve a forma correta de copiar apenas a palavra “Campanha”, no primeiro parágrafo do documento mostrado, em outro local desse documento, sem que ela seja apagada do local original.",
+    "support": "",
+    "support_image": "",
+    "options": [
+      "Aplicar um clique duplo na palavra “Campanha”; teclar simultaneamente as teclas e ; aplicar um clique no local onde se deseja copiar a palavra; clicar o botão .",
+      "Aplicar um clique triplo na palavra “Campanha”; teclar simultaneamente as teclas e ; aplicar um clique no local onde se deseja copiar a palavra; clicar o botão .",
+      "Selecionar a palavra “Campanha”; teclar simultaneamente as teclas e ; aplicar um clique no local onde se deseja copiar a palavra; clicar o botão .",
+      "Selecionar a palavra “Campanha”; teclar simultaneamente as teclas e ; aplicar um clique no local onde se deseja copiar a palavra; pressionar simultaneamente as teclas e .",
+      "Selecionar a palavra “Campanha”; clicar o botão ; aplicar um clique no local onde se deseja copiar a palavra; clicar o botão ."
+    ],
+    "answer": "E",
+    "explanation": "Gabarito definitivo do CESPE/UnB, Correios 2011, Tipo I: alternativa E.",
+    "page": 4,
+    "rect": [
+      300.6199951171875,
+      258.4717102050781,
+      570.0,
+      570.0715942382812
+    ],
+    "images": [
+      [
+        531.3599853515625,
+        349.67999267578125,
+        546.3599853515625,
+        363.9599914550781
+      ],
+      [
+        531.3599853515625,
+        396.1199951171875,
+        546.3599853515625,
+        410.3999938964844
+      ],
+      [
+        449.0400085449219,
+        442.32000732421875,
+        464.8800048828125,
+        456.6000061035156
+      ],
+      [
+        518.760009765625,
+        517.679931640625,
+        534.6000366210938,
+        531.9599609375
+      ],
+      [
+        347.5199890136719,
+        547.43994140625,
+        362.5199890136719,
+        561.719970703125
+      ]
+    ],
+    "raw": "Assinale a opção em que se descreve a forma correta de copiar\napenas a palavra “Campanha”, no primeiro parágrafo do documento\nmostrado, em outro local desse documento, sem que ela seja\napagada do local original.\n\nA  Aplicar um clique duplo na palavra “Campanha”;  teclar\n\n    simultaneamente as teclas      e      ; aplicar um clique no\n\n     local onde se deseja copiar a palavra; clicar o botão       .\nB  Aplicar um clique  triplo na palavra “Campanha”;  teclar\n\n    simultaneamente as teclas      e      ; aplicar um clique no\n\n     local onde se deseja copiar a palavra; clicar o botão       .\nC  Selecionar a palavra “Campanha”; teclar simultaneamente as\n\n     teclas      e      ; aplicar um clique no local onde se deseja\n\n    copiar a palavra; clicar o botão       .\nD  Selecionar a palavra “Campanha”; teclar simultaneamente as\n\n     teclas      e      ; aplicar um clique no local onde se deseja\n\n    copiar a palavra; pressionar simultaneamente as teclas     e\n\n            .\n\nE  Selecionar a palavra “Campanha”; clicar o botão       ; aplicar\n   um clique no local onde se deseja copiar a palavra; clicar o\n\n    botão       ."
+  },
+  {
+    "slug": "correios-2011-atendente-comercial",
+    "number": 16,
+    "subject": "Informática",
+    "text": "Com relação à janela ilustrada e ao Word 2003, assinale a opção correta.",
+    "support": "",
+    "support_image": "",
+    "options": [
+      "Ao se clicar o botão , a janela do Word será maximizada.",
+      "Ao se selecionar uma palavra do documento e se clicar o botão , será aplicado negrito a essa palavra, caso ela não esteja assim formatada.",
+      "Ao se selecionar a palavra “donativos” e clicar o botão , apenas essa palavra será apagada do texto.",
+      "Na primeira linha do texto, ao se selecionar a palavra “arrecada” e clicar o botão , essa palavra será deslocada para a posição entre as palavras “dos” e “Correios” dessa linha.",
+      "Ao se selecionar um dos parágrafos do texto e clicar o botão , será iniciada a verificação ortográfica do parágrafo selecionado."
+    ],
+    "answer": "B",
+    "explanation": "Gabarito definitivo do CESPE/UnB, Correios 2011, Tipo I: alternativa B.",
+    "page": 4,
+    "rect": [
+      300.6199951171875,
+      581.0316162109375,
+      570.0,
+      802.0
+    ],
+    "images": [
+      [
+        405.239990234375,
+        620.8800048828125,
+        419.5199890136719,
+        635.1600341796875
+      ],
+      [
+        322.67999267578125,
+        649.199951171875,
+        337.79998779296875,
+        663.47998046875
+      ],
+      [
+        551.0399780273438,
+        677.2799682617188,
+        564.47998046875,
+        691.5599975585938
+      ],
+      [
+        437.2799987792969,
+        716.3999633789062,
+        449.5199890136719,
+        730.6799926757812
+      ],
+      [
+        322.67999267578125,
+        755.5199584960938,
+        336.9599914550781,
+        769.7999877929688
+      ]
+    ],
+    "raw": "Com relação à janela ilustrada e ao Word 2003, assinale a opção\ncorreta.\n\n\nA  Ao se clicar o botão       , a janela do Word será maximizada.\nB  Ao se selecionar uma palavra do documento e se clicar o botão\n\n             , será aplicado negrito a essa palavra, caso ela não esteja\n    assim formatada.\n\nC  Ao se selecionar a palavra “donativos” e clicar o botão       ,\n    apenas essa palavra será apagada do texto.\nD  Na primeira linha do  texto, ao se selecionar a palavra\n\n    “arrecada” e clicar o botão      , essa palavra será deslocada\n    para a posição entre as palavras “dos” e “Correios” dessa linha.\nE  Ao se selecionar um dos parágrafos do texto e clicar o botão\n\n             , será iniciada a verificação ortográfica do parágrafo\n    selecionado."
+  },
+  {
+    "slug": "correios-2011-atendente-comercial",
+    "number": 17,
+    "subject": "Informática",
+    "text": "Com relação à janela do Excel 2003 mostrada na figura acima e a esse programa, assinale a opção correta.",
+    "support": "",
+    "support_image": "",
+    "options": [
+      "Ao se clicar a célula B3 e, em seguida, o botão , o conteúdo da célula será alterado para 400.",
+      "Para se selecionar o grupo de células formado pelas células A1, A2 e A3, é suficiente clicar a célula A1 e, em seguida, clicar a célula A3.",
+      "Para se somarem os valores das células B2 e B3 e colocar o resultado na célula B4, é suficiente clicar a célula B4, digitar =B2+B3 e, em seguida, teclar .",
+      "Para se multiplicarem os valores das células B2 e C2 e colocar o resultado na célula D2, é suficiente selecionar as células B2 e C2 e clicar o botão , próximo ao canto superior direito da janela.",
+      "Caso sejam selecionadas todas as células da planilha e se clique o botão , será aberta uma ferramenta de revisão ortográfica que permitirá a procura de erros ortográficos nas células da planilha que contenham palavras da língua portuguesa."
+    ],
+    "answer": "C",
+    "explanation": "Gabarito definitivo do CESPE/UnB, Correios 2011, Tipo I: alternativa C.",
+    "page": 5,
+    "rect": [
+      25.0,
+      59.271697998046875,
+      300.6199951171875,
+      422.7117004394531
+    ],
+    "images": [
+      [
+        47.400001525878906,
+        66.24002075195312,
+        271.8999938964844,
+        207.84002685546875
+      ],
+      [
+        227.8800048828125,
+        241.07998657226562,
+        242.8800048828125,
+        255.3599853515625
+      ],
+      [
+        100.80000305175781,
+        351.3600158691406,
+        114.24000549316406,
+        365.6400146484375
+      ],
+      [
+        78.36000061035156,
+        378.9599914550781,
+        92.63999938964844,
+        393.239990234375
+      ]
+    ],
+    "raw": "Com relação à janela do Excel 2003 mostrada na figura acima e a\nesse programa, assinale a opção correta.\n\nA  Ao se clicar a célula B3 e, em seguida, o botão       , o conteúdo\n    da célula será alterado para 400.\nB  Para se selecionar o grupo de células formado pelas células A1, A2 e\n     A3, é suficiente clicar a célula A1 e, em seguida, clicar a célula A3.\nC  Para se somarem os valores das células B2 e B3 e colocar o\n     resultado na célula B4, é suficiente clicar a célula B4, digitar\n\n    =B2+B3 e, em seguida, teclar        .\nD  Para se multiplicarem os valores das células B2 e C2 e colocar o\n     resultado na célula D2, é suficiente selecionar as células B2 e C2 e\n\n     clicar o botão      , próximo ao canto superior direito da janela.\nE  Caso sejam selecionadas todas as células da planilha e se clique\n\n    o botão       , será aberta uma ferramenta de revisão ortográfica\n    que permitirá a procura de erros ortográficos nas células da\n     planilha que contenham palavras da língua portuguesa."
+  },
+  {
+    "slug": "correios-2011-atendente-comercial",
+    "number": 18,
+    "subject": "Informática",
+    "text": "Com relação à janela do PowerPoint 2003 mostrada na figura acima e a esse programa, assinale a opção correta.",
+    "support": "",
+    "support_image": "",
+    "options": [
+      "Ao se clicar o botão , será iniciado procedimento para salvar o arquivo atualmente aberto, com todas as modificações nele efetuadas desde o salvamento do arquivo pela última vez.",
+      "Ao se clicar o botão , será aberto um aplicativo com a função de permitir que o usuário defina a impressora padrão de seu computador.",
+      "O botão permite aumentar o tamanho da fonte do texto selecionado em um eslaide.",
+      "Ao se clicar o botão , próximo ao canto inferior esquerdo da janela, será inserido um novo eslaide, em branco, na apresentação.",
+      "Ao se clicar o botão , será aberta a janela Abrir, que permite abrir um arquivo que tenha sido salvo, anteriormente, no PowerPoint."
+    ],
+    "answer": "C",
+    "explanation": "Gabarito definitivo do CESPE/UnB, Correios 2011, Tipo I: alternativa C.",
+    "page": 5,
+    "rect": [
+      25.0,
+      433.67169189453125,
+      300.6199951171875,
+      802.0
+    ],
+    "images": [
+      [
+        49.91999816894531,
+        440.8800048828125,
+        269.3580017089844,
+        588.9600219726562
+      ],
+      [
+        136.44000244140625,
+        621.1199951171875,
+        151.9199981689453,
+        635.4000244140625
+      ],
+      [
+        134.0399932861328,
+        659.52001953125,
+        152.75999450683594,
+        676.5599975585938
+      ],
+      [
+        82.08000183105469,
+        700.4400024414062,
+        102.12000274658203,
+        717.47998046875
+      ],
+      [
+        126.95999908447266,
+        730.3199462890625,
+        141.24000549316406,
+        744.5999755859375
+      ],
+      [
+        120.4800033569336,
+        757.7999877929688,
+        135.48001098632812,
+        772.0800170898438
+      ]
+    ],
+    "raw": "Com relação à janela do PowerPoint 2003 mostrada na figura acima\ne a esse programa, assinale a opção correta.\n\nA  Ao se clicar o botão        , será iniciado procedimento para\n     salvar o arquivo atualmente aberto, com todas as modificações\n    nele efetuadas desde o salvamento do arquivo pela última vez.\n\nB  Ao se clicar o botão         , será aberto um aplicativo com a\n    função de permitir que o usuário defina a impressora padrão de\n    seu computador.\n\nC O botão      permite aumentar o tamanho da fonte do texto\n    selecionado em um eslaide.\n\nD  Ao se clicar o botão       , próximo ao canto inferior esquerdo da\n     janela, será inserido um novo eslaide, em branco, na apresentação.\n\nE  Ao se clicar o botão       , será aberta a janela Abrir, que permite abrir\n   um arquivo que tenha sido salvo, anteriormente, no PowerPoint."
+  },
+  {
+    "slug": "correios-2011-atendente-comercial",
+    "number": 19,
+    "subject": "Informática",
+    "text": "A janela do navegador Mozilla Firefox 3.6.15 mostrada na figura acima contém uma página web do sítio www.correios.com.br. Com relação a essa janela e a esse navegador, assinale a opção correta.",
+    "support": "",
+    "support_image": "",
+    "options": [
+      "Ao se clicar o botão , a página do sítio www.correios.com.br, exibida atualmente, será recarregada, sendo incluídas atualizações que tenham sido feitas desde a última vez em que ela foi carregada.",
+      "Ao se clicar o botão , será mostrada a última página exibida antes da página do sítio www.correios.com.br mostrada.",
+      "Ao se clicar o menu , será exibida a página do Google, com o URL http://www.google.com, cuja função principal é fornecer ao usuário ajuda sobre o uso da página que está sendo apresentada.",
+      "Ao se clicar o menu , será exibida uma lista de opções, incluindo-se uma que permite imprimir a página atual.",
+      "Ao se clicar o botão , será aberto o programa de correio eletrônico escolhido pelo usuário como padrão, que permite a leitura, a edição e o envio de mensagens de correio eletrônico."
+    ],
+    "answer": "D",
+    "explanation": "Gabarito definitivo do CESPE/UnB, Correios 2011, Tipo I: alternativa D.",
+    "page": 5,
+    "rect": [
+      300.6199951171875,
+      59.271697998046875,
+      570.0,
+      427.3916931152344
+    ],
+    "images": [
+      [
+        305.5199890136719,
+        65.760009765625,
+        566.032958984375,
+        187.32000732421875
+      ],
+      [
+        403.67999267578125,
+        225.72000122070312,
+        418.0799865722656,
+        238.55999755859375
+      ],
+      [
+        402.3599853515625,
+        276.1200256347656,
+        415.823974609375,
+        290.4000244140625
+      ],
+      [
+        405.0,
+        305.0400085449219,
+        430.79998779296875,
+        316.44000244140625
+      ],
+      [
+        401.2799987792969,
+        354.239990234375,
+        434.8800048828125,
+        367.0799865722656
+      ],
+      [
+        409.0799865722656,
+        381.6000061035156,
+        423.4969787597656,
+        395.8800048828125
+      ]
+    ],
+    "raw": "A janela do navegador Mozilla Firefox 3.6.15 mostrada na figura\nacima contém uma página web do sítio www.correios.com.br. Com\nrelação a essa janela e a esse navegador, assinale a opção correta.\n\nA  Ao se clicar o botão      , a página do sítio www.correios.com.br,\n    exibida  atualmente,  será  recarregada,  sendo  incluídas\n     atualizações que tenham sido feitas desde a última vez em que\n     ela foi carregada.\n\nB  Ao se clicar o botão      , será mostrada a última página exibida\n     antes da página do sítio www.correios.com.br mostrada.\nC  Ao se clicar o menu           , será exibida a página do Google,\n   com o URL http://www.google.com, cuja função principal é\n    fornecer ao usuário ajuda sobre o uso da página que está sendo\n    apresentada.\n\nD  Ao se clicar o menu              , será exibida uma lista de opções,\n     incluindo-se uma que permite imprimir a página atual.\n\nE  Ao se clicar o botão       , será aberto o programa de correio\n     eletrônico escolhido pelo usuário como padrão, que permite a\n     leitura, a edição e o envio de mensagens de correio eletrônico."
+  },
+  {
+    "slug": "correios-2011-atendente-comercial",
+    "number": 20,
+    "subject": "Informática",
+    "text": "Na figura acima, é mostrado o canto inferior esquerdo da área de trabalho de um computador onde está sendo usado o sistema operacional Windows XP. A respeito dessa figura e desse sistema, assinale a opção correta.",
+    "support": "",
+    "support_image": "",
+    "options": [
+      "Para o envio do arquivo associado ao ícone para a lixeira, é suficiente clicar esse ícone e, em seguida, o ícone .",
+      "Ao se clicar, com o botão direito do mouse, o ícone , será aberta uma lista de opções, entre as quais, uma que permite abrir o arquivo associado ao ícone.",
+      "Ao se clicar o ícone e, em seguida, o botão , o programa Mozilla Firefox será aberto.",
+      "Para se proceder ao esvaziamento da lixeira do Windows, é suficiente clicar o ícone .",
+      "Ao se aplicar um clique sobre o ícone , o arquivo associado a esse ícone será aberto."
+    ],
+    "answer": "B",
+    "explanation": "Gabarito definitivo do CESPE/UnB, Correios 2011, Tipo I: alternativa B.",
+    "page": 5,
+    "rect": [
+      300.6199951171875,
+      438.3516845703125,
+      570.0,
+      802.0
+    ],
+    "images": [
+      [
+        360.7200012207031,
+        444.8399658203125,
+        510.83502197265625,
+        528.5999755859375
+      ],
+      [
+        489.7200012207031,
+        579.3599853515625,
+        513.1199951171875,
+        600.719970703125
+      ],
+      [
+        524.52001953125,
+        602.52001953125,
+        541.6420288085938,
+        623.8800048828125
+      ],
+      [
+        525.0,
+        627.9600219726562,
+        546.573974609375,
+        649.3200073242188
+      ],
+      [
+        401.3999938964844,
+        675.3599853515625,
+        430.1999816894531,
+        696.719970703125
+      ],
+      [
+        520.7999877929688,
+        685.3199462890625,
+        564.907958984375,
+        696.719970703125
+      ],
+      [
+        420.239990234375,
+        722.6400146484375,
+        438.24200439453125,
+        744.0
+      ],
+      [
+        495.4800109863281,
+        748.0800170898438,
+        518.8800048828125,
+        769.4400024414062
+      ]
+    ],
+    "raw": "Na figura acima, é mostrado o canto inferior esquerdo da área de\ntrabalho de um computador onde está sendo usado o sistema\noperacional Windows XP. A respeito dessa figura e desse sistema,\nassinale a opção correta.\n\nA  Para o envio do arquivo associado ao ícone      para a lixeira,\n\n    é suficiente clicar esse ícone e, em seguida, o ícone        .\n\nB  Ao se clicar, com o botão direito do mouse, o ícone         , será\n     aberta uma lista de opções, entre as quais, uma que permite\n     abrir o arquivo associado ao ícone.\n\nC  Ao se clicar o ícone         e, em seguida, o botão                  ,\n    o programa Mozilla Firefox será aberto.\nD  Para se proceder ao esvaziamento da lixeira do Windows, é\n\n     suficiente clicar o ícone        .\n\nE  Ao se aplicar um clique sobre o ícone           , o arquivo\n    associado a esse ícone será aberto."
+  },
+  {
+    "slug": "correios-2011-atendente-comercial",
+    "number": 21,
+    "subject": "Matemática",
+    "text": "A primeira unidade do novo modelo de agência franqueada dos Correios foi inaugurada em 10/2/2011, em Ourinhos, no interior do estado de São Paulo. A nova agência, com 200 metros quadrados de área, situa-se na Vila Recreio. Internet: <www.correios.com.br> (com adaptações). Considerando que essa nova agência seja composta de 2 salas, uma retangular, com lados medindo 17 m e 8 m e outra, quadrada, com lados medindo L metros, conforme ilustrado na figura acima, é correto afirmar que o valor de L é",
+    "support": "",
+    "support_image": "",
+    "options": [
+      "superior a 5 e inferior a 7.",
+      "superior a 7 e inferior a 9.",
+      "superior a 9.",
+      "inferior a 3.",
+      "superior a 3 e inferior a 5."
+    ],
+    "answer": "B",
+    "explanation": "Gabarito definitivo do CESPE/UnB, Correios 2011, Tipo I: alternativa B.",
+    "page": 6,
+    "rect": [
+      25.0,
+      77.51168823242188,
+      300.6199951171875,
+      323.21051025390625
+    ],
+    "images": [
+      [
+        115.44000244140625,
+        147.24002075195312,
+        204.5279998779297,
+        216.96002197265625
+      ]
+    ],
+    "raw": "A primeira unidade do novo modelo de agência franqueada\ndos Correios foi inaugurada em 10/2/2011, em Ourinhos, no interior\ndo estado de São Paulo. A nova agência, com 200 metros\nquadrados de área, situa-se na Vila Recreio.\n\n                                                            Internet: <www.correios.com.br> (com adaptações).\n\n\n\n\n\nConsiderando que essa nova agência seja composta de 2 salas, uma\nretangular, com lados medindo 17 m e 8 m e outra, quadrada, com\nlados medindo L metros, conforme ilustrado na figura acima, é\ncorreto afirmar que o valor de L é\nA  superior a 5 e inferior a 7.\nB  superior a 7 e inferior a 9.\nC  superior a 9.\nD   inferior a 3.\nE  superior a 3 e inferior a 5."
+  },
+  {
+    "slug": "correios-2011-atendente-comercial",
+    "number": 22,
+    "subject": "Matemática",
+    "text": "7Considerando que e 13% dos livros didáticos sejam 40 distribuídos, respectivamente, para as regiões Nordeste e Norte, então a quantidade, em milhões, de livros didáticos destinada a essas duas regiões pelos programas mencionados no texto é",
+    "support": "O Programa Nacional do Livro Didático e o Programa\nNacional do Livro Didático para o Ensino Médio são realizados\npela ECT em parceria com o Fundo Nacional de Desenvolvimento\nda Educação.\n     A operação  consiste na  entrega, todos os anos, de\n100 milhões de livros didáticos a escolas públicas de ensino\nfundamental e médio de todo o Brasil, volume equivalente à metade\nde toda a produção gráfica do Brasil. Para a distribuição desses\nlivros são realizadas viagens de carretas das editoras para os centros\nde tratamento da empresa instalados em pontos estratégicos do país.\nNessas unidades, as encomendas são tratadas e, depois, entregues\nnas escolas.\n                                                            Internet: <www.correios.com.br> (com adaptações).",
+    "support_image": "",
+    "options": [
+      "superior a 15 e inferior a 25.",
+      "superior a 25 e inferior a 35.",
+      "superior a 35 e inferior a 45.",
+      "superior a 45.",
+      "inferior a 15."
+    ],
+    "answer": "B",
+    "explanation": "Gabarito definitivo do CESPE/UnB, Correios 2011, Tipo I: alternativa B.",
+    "page": 6,
+    "rect": [
+      25.0,
+      501.5915832519531,
+      300.6199951171875,
+      637.8717041015625
+    ],
+    "images": [],
+    "raw": "7Considerando  que       e 13%  dos  livros  didáticos  sejam\n                40\ndistribuídos, respectivamente, para as regiões Nordeste e Norte,\nentão a quantidade, em milhões, de livros didáticos destinada a\nessas duas regiões pelos programas mencionados no texto é\nA  superior a 15 e inferior a 25.\nB  superior a 25 e inferior a 35.\nC  superior a 35 e inferior a 45.\nD  superior a 45.\nE   inferior a 15.",
+    "shared": {
+      "text": "O Programa Nacional do Livro Didático e o Programa\nNacional do Livro Didático para o Ensino Médio são realizados\npela ECT em parceria com o Fundo Nacional de Desenvolvimento\nda Educação.\n     A operação  consiste na  entrega, todos os anos, de\n100 milhões de livros didáticos a escolas públicas de ensino\nfundamental e médio de todo o Brasil, volume equivalente à metade\nde toda a produção gráfica do Brasil. Para a distribuição desses\nlivros são realizadas viagens de carretas das editoras para os centros\nde tratamento da empresa instalados em pontos estratégicos do país.\nNessas unidades, as encomendas são tratadas e, depois, entregues\nnas escolas.\n                                                            Internet: <www.correios.com.br> (com adaptações).",
+      "page": 6,
+      "images": []
+    }
+  },
+  {
+    "slug": "correios-2011-atendente-comercial",
+    "number": 23,
+    "subject": "Matemática",
+    "text": "Considere que 3 carretas façam, repetidamente, viagem de ida e volta entre determinada editora e um centro de tratamento da ECT em 4 dias, 5 dias e 6 dias, respectivamente, e, ao completar um percurso de ida e volta, elas retomem imediatamente esse percurso. Se, em certo dia, as 3 carretas partirem simultaneamente da editora, então elas voltarão a partir juntas novamente dessa editora após",
+    "support": "O Programa Nacional do Livro Didático e o Programa\nNacional do Livro Didático para o Ensino Médio são realizados\npela ECT em parceria com o Fundo Nacional de Desenvolvimento\nda Educação.\n     A operação  consiste na  entrega, todos os anos, de\n100 milhões de livros didáticos a escolas públicas de ensino\nfundamental e médio de todo o Brasil, volume equivalente à metade\nde toda a produção gráfica do Brasil. Para a distribuição desses\nlivros são realizadas viagens de carretas das editoras para os centros\nde tratamento da empresa instalados em pontos estratégicos do país.\nNessas unidades, as encomendas são tratadas e, depois, entregues\nnas escolas.\n                                                            Internet: <www.correios.com.br> (com adaptações).",
+    "support_image": "",
+    "options": [
+      "45 dias.",
+      "60 dias.",
+      "10 dias.",
+      "15 dias.",
+      "30 dias."
+    ],
+    "answer": "B",
+    "explanation": "Gabarito definitivo do CESPE/UnB, Correios 2011, Tipo I: alternativa B.",
+    "page": 6,
+    "rect": [
+      25.0,
+      648.8317260742188,
+      300.6199951171875,
+      802.0
+    ],
+    "images": [],
+    "raw": "Considere que 3 carretas façam, repetidamente, viagem de ida e\nvolta entre determinada editora e um centro de tratamento da ECT\nem 4 dias, 5 dias e 6 dias, respectivamente, e, ao completar um\npercurso de ida e volta, elas retomem imediatamente esse percurso.\nSe, em certo dia, as 3 carretas partirem simultaneamente da editora,\nentão elas voltarão a partir juntas novamente dessa editora após\nA  45 dias.\nB  60 dias.\nC  10 dias.\nD  15 dias.\nE  30 dias.",
+    "shared": {
+      "text": "O Programa Nacional do Livro Didático e o Programa\nNacional do Livro Didático para o Ensino Médio são realizados\npela ECT em parceria com o Fundo Nacional de Desenvolvimento\nda Educação.\n     A operação  consiste na  entrega, todos os anos, de\n100 milhões de livros didáticos a escolas públicas de ensino\nfundamental e médio de todo o Brasil, volume equivalente à metade\nde toda a produção gráfica do Brasil. Para a distribuição desses\nlivros são realizadas viagens de carretas das editoras para os centros\nde tratamento da empresa instalados em pontos estratégicos do país.\nNessas unidades, as encomendas são tratadas e, depois, entregues\nnas escolas.\n                                                            Internet: <www.correios.com.br> (com adaptações).",
+      "page": 6,
+      "images": []
+    }
+  },
+  {
+    "slug": "correios-2011-atendente-comercial",
+    "number": 24,
+    "subject": "Matemática",
+    "text": "Um cliente comprou, em uma agência dos Correios, selos comemorativos dos 150 anos do nascimento do padre Landell de Moura e dos 150 anos de fundação da Caixa Econômica Federal (CAIXA). Para o pagamento desses produtos, o cliente entregou certa 3quantia em reais e notou que dessa quantia correspondiam ao custo 4 dos selos comemorativos dos 150 anos do padre Landell de Moura e 1 , ao custo dos selos comemorativos dos 150 anos da CAIXA. 5 Nessa situação, com relação à quantia entregue para pagamento, o troco a que faz jus o cliente corresponde a",
+    "support": "",
+    "support_image": "",
+    "options": [
+      "20%.",
+      "5%.",
+      "8%.",
+      "10%.",
+      "12%."
+    ],
+    "answer": "B",
+    "explanation": "Gabarito definitivo do CESPE/UnB, Correios 2011, Tipo I: alternativa B.",
+    "page": 6,
+    "rect": [
+      300.6199951171875,
+      77.51168823242188,
+      570.0,
+      280.1517333984375
+    ],
+    "images": [],
+    "raw": "Um cliente comprou, em uma agência dos Correios, selos\ncomemorativos dos 150 anos do nascimento do padre Landell de\nMoura e dos 150 anos de fundação da Caixa Econômica Federal\n(CAIXA). Para o pagamento desses produtos, o cliente entregou certa\n                    3quantia em reais e notou que    dessa quantia correspondiam ao custo\n                    4\ndos selos comemorativos dos 150 anos do padre Landell de Moura e\n1 , ao custo dos selos comemorativos dos 150 anos da CAIXA.\n5\nNessa situação, com relação à quantia entregue para pagamento, o\ntroco a que faz jus o cliente corresponde a\nA  20%.\nB  5%.\nC  8%.\nD  10%.\nE  12%."
+  },
+  {
+    "slug": "correios-2011-atendente-comercial",
+    "number": 25,
+    "subject": "Matemática",
+    "text": "Considere que, em uma empresa, 50% dos empregados possuam nível médio de escolaridade e 5%, nível superior. Guardadas essas proporções, se 80 empregados dessa empresa possuem nível médio de escolaridade, então a quantidade de empregados com nível superior é igual a",
+    "support": "",
+    "support_image": "",
+    "options": [
+      "8.",
+      "10.",
+      "15.",
+      "20.",
+      "5."
+    ],
+    "answer": "A",
+    "explanation": "Gabarito definitivo do CESPE/UnB, Correios 2011, Tipo I: alternativa A.",
+    "page": 6,
+    "rect": [
+      300.6199951171875,
+      291.1117248535156,
+      570.0,
+      417.67169189453125
+    ],
+    "images": [],
+    "raw": "Considere que, em uma empresa, 50% dos empregados possuam\nnível médio de escolaridade e 5%, nível superior. Guardadas essas\nproporções, se 80 empregados dessa empresa possuem nível médio\nde escolaridade, então a quantidade de empregados com nível\nsuperior é igual a\nA   8.\nB  10.\nC  15.\nD  20.\nE   5."
+  },
+  {
+    "slug": "correios-2011-atendente-comercial",
+    "number": 26,
+    "subject": "Matemática",
+    "text": "Suponha que a caixa de encomenda temática da ECT possua a forma de um paralelepípedo retângulo, cujas arestas tenham comprimentos iguais a 90 mm, 270 mm e 180 mm. Nesse caso, o volume dessa caixa, em 1.000 cm3, é",
+    "support": "",
+    "support_image": "",
+    "options": [
+      "superior a 29.",
+      "inferior a 5.",
+      "superior a 5 e inferior a 13.",
+      "superior a 13 e inferior a 21.",
+      "superior a 21 e inferior a 29."
+    ],
+    "answer": "B",
+    "explanation": "Gabarito definitivo do CESPE/UnB, Correios 2011, Tipo I: alternativa B.",
+    "page": 6,
+    "rect": [
+      300.6199951171875,
+      428.6316833496094,
+      570.0,
+      544.51171875
+    ],
+    "images": [],
+    "raw": "Suponha que a caixa de encomenda temática da ECT possua a\nforma de um paralelepípedo retângulo, cujas arestas tenham\ncomprimentos iguais a 90 mm, 270 mm e 180 mm. Nesse caso, o\nvolume dessa caixa, em 1.000 cm3, é\nA  superior a 29.\nB   inferior a 5.\nC  superior a 5 e inferior a 13.\nD  superior a 13 e inferior a 21.\nE  superior a 21 e inferior a 29."
+  },
+  {
+    "slug": "correios-2011-atendente-comercial",
+    "number": 27,
+    "subject": "Matemática",
+    "text": "Considerando-se que 3 caixas de encomenda do tipo 2B e 3 caixas de encomenda do tipo flex correios custem, ao todo, R$ 12,00 e que 5 caixas do tipo 2B e 10 do tipo flex correios custem, ao todo, R$ 28,00, é correto afirmar que uma caixa do tipo 2B custa",
+    "support": "",
+    "support_image": "",
+    "options": [
+      "R$ 2,40.",
+      "R$ 3,15.",
+      "R$ 3,20.",
+      "R$ 1,20.",
+      "R$ 2,00."
+    ],
+    "answer": "A",
+    "explanation": "Gabarito definitivo do CESPE/UnB, Correios 2011, Tipo I: alternativa A.",
+    "page": 6,
+    "rect": [
+      300.6199951171875,
+      555.4717407226562,
+      570.0,
+      671.4716796875
+    ],
+    "images": [],
+    "raw": "Considerando-se que 3 caixas de encomenda do tipo 2B e 3 caixas\nde encomenda do tipo flex correios custem, ao todo, R$ 12,00 e que\n5 caixas do tipo 2B e 10 do tipo flex correios custem, ao todo,\nR$ 28,00, é correto afirmar que uma caixa do tipo 2B custa\nA  R$ 2,40.\nB  R$ 3,15.\nC  R$ 3,20.\nD  R$ 1,20.\nE  R$ 2,00."
+  },
+  {
+    "slug": "correios-2011-atendente-comercial",
+    "number": 28,
+    "subject": "Matemática",
+    "text": "Suponha que uma pessoa compre 5 unidades de um mesmo produto, pague com uma nota de R$ 50,00 e receba R$ 15,50 de troco. Nessa situação, cada unidade do referido produto custa",
+    "support": "",
+    "support_image": "",
+    "options": [
+      "mais de R$ 7,50.",
+      "menos de R$ 3,00.",
+      "mais de R$ 3,00 e menos de R$ 4,50.",
+      "mais de R$ 4,50 e menos de R$ 6,00.",
+      "mais de R$ 6,00 e menos de R$ 7,50."
+    ],
+    "answer": "E",
+    "explanation": "Gabarito definitivo do CESPE/UnB, Correios 2011, Tipo I: alternativa E.",
+    "page": 6,
+    "rect": [
+      300.6199951171875,
+      682.4317016601562,
+      570.0,
+      802.0
+    ],
+    "images": [],
+    "raw": "Suponha que uma pessoa compre 5 unidades de um mesmo produto,\npague com uma nota de R$ 50,00 e receba R$ 15,50 de troco.\nNessa situação, cada unidade do referido produto custa\nA  mais de R$ 7,50.\nB  menos de R$ 3,00.\nC  mais de R$ 3,00 e menos de R$ 4,50.\nD  mais de R$ 4,50 e menos de R$ 6,00.\nE  mais de R$ 6,00 e menos de R$ 7,50."
+  },
+  {
+    "slug": "correios-2011-atendente-comercial",
+    "number": 29,
+    "subject": "Matemática",
+    "text": "Considere que, independentemente do tipo de demanda, o tempo gasto com o atendimento a cada cliente por um atendente, em minutos, seja sempre o mesmo, e que, em 4 horas de trabalho, ele atenda 64 clientes. Nessa situação, o tempo utilizado por esse atendente, no atendimento a cada cliente, é",
+    "support": "",
+    "support_image": "",
+    "options": [
+      "superior a 5 minutos e inferior a 6 minutos.",
+      "superior a 6 minutos.",
+      "inferior a 3 minutos.",
+      "superior a 3 minutos e inferior a 4 minutos.",
+      "superior a 4 minutos e inferior a 5 minutos."
+    ],
+    "answer": "D",
+    "explanation": "Gabarito definitivo do CESPE/UnB, Correios 2011, Tipo I: alternativa D.",
+    "page": 7,
+    "rect": [
+      25.0,
+      59.271697998046875,
+      595.0,
+      184.51171875
+    ],
+    "images": [],
+    "raw": "Considere que, independentemente do tipo de demanda, o tempo\ngasto com o atendimento a cada cliente por um atendente, em\nminutos, seja sempre o mesmo, e que, em 4 horas de trabalho, ele\natenda 64 clientes. Nessa situação, o tempo utilizado por esse\natendente, no atendimento a cada cliente, é\nA  superior a 5 minutos e inferior a 6 minutos.\nB  superior a 6 minutos.\nC   inferior a 3 minutos.\nD  superior a 3 minutos e inferior a 4 minutos.\nE  superior a 4 minutos e inferior a 5 minutos."
+  },
+  {
+    "slug": "correios-2011-atendente-comercial",
+    "number": 30,
+    "subject": "Matemática",
+    "text": "Se, no período de 4 meses e no regime de juros simples, a quantia de R$ 2.000,00 aplicada em uma instituição financeira produz o montante de R$ 2.720,00, então a taxa mensal de juros praticada por essa instituição é",
+    "support": "",
+    "support_image": "",
+    "options": [
+      "superior a 8%.",
+      "inferior a 2%.",
+      "superior a 2% e inferior a 4%.",
+      "superior a 4% e inferior a 6%.",
+      "superior a 6% e inferior a 8%."
+    ],
+    "answer": "A",
+    "explanation": "Gabarito definitivo do CESPE/UnB, Correios 2011, Tipo I: alternativa A.",
+    "page": 7,
+    "rect": [
+      25.0,
+      195.47171020507812,
+      595.0,
+      310.271728515625
+    ],
+    "images": [],
+    "raw": "Se, no período de 4 meses e no regime de juros simples, a quantia\nde R$ 2.000,00 aplicada em uma instituição financeira produz o\nmontante de R$ 2.720,00, então a taxa mensal de juros praticada\npor essa instituição é\nA  superior a 8%.\nB   inferior a 2%.\nC  superior a 2% e inferior a 4%.\nD  superior a 4% e inferior a 6%.\nE  superior a 6% e inferior a 8%."
+  },
+  {
+    "slug": "correios-2011-atendente-comercial",
+    "number": 31,
+    "subject": "Matemática",
+    "text": "Em uma empresa, os empregados têm direito a descanso remunerado de um dia a cada 15 dias trabalhados. Em determinado ano, os dias trabalhados e os dias de descanso somaram 224 dias. Com base nessa situação, é correto afirmar que, nesse ano, a quantidade de dias de descanso desses empregados foi",
+    "support": "",
+    "support_image": "",
+    "options": [
+      "superior a 16 e inferior a 20.",
+      "superior a 20 e inferior a 24.",
+      "superior a 24.",
+      "inferior a 12.",
+      "superior a 12 e inferior a 16."
+    ],
+    "answer": "E",
+    "explanation": "Gabarito definitivo do CESPE/UnB, Correios 2011, Tipo I: alternativa E.",
+    "page": 7,
+    "rect": [
+      25.0,
+      321.2317199707031,
+      595.0,
+      455.450439453125
+    ],
+    "images": [],
+    "raw": "Em uma empresa, os empregados têm direito a descanso\nremunerado de um dia a cada 15 dias trabalhados. Em determinado\nano, os dias trabalhados e os dias de descanso somaram 224 dias.\n\nCom base nessa situação, é correto afirmar que, nesse ano, a\nquantidade de dias de descanso desses empregados foi\nA  superior a 16 e inferior a 20.\nB  superior a 20 e inferior a 24.\nC  superior a 24.\nD   inferior a 12.\nE  superior a 12 e inferior a 16."
+  },
+  {
+    "slug": "correios-2011-atendente-comercial",
+    "number": 32,
+    "subject": "Matemática",
+    "text": "Se, para atender a crescente demanda de serviços, o escritório triplicar a quantidade de empregados com salário de R$ 600,00 e duplicar a quantidade de empregados com salário de R$ 1.000,00, então a despesa desse escritório com os salários de seus empregados passará a ser de",
+    "support": "Em um escritório, a despesa mensal com os salários dos\n10 empregados é de R$  7.600,00. Nesse  escritório, alguns\nempregados recebem, individualmente, R$ 600,00 de salário mensal\ne os outros, R$ 1.000,00.",
+    "support_image": "",
+    "options": [
+      "R$ 18.800,00.",
+      "R$ 18.000,00.",
+      "R$ 18.200,00.",
+      "R$ 18.400,00.",
+      "R$ 18.600,00."
+    ],
+    "answer": "A",
+    "explanation": "Gabarito definitivo do CESPE/UnB, Correios 2011, Tipo I: alternativa A.",
+    "page": 7,
+    "rect": [
+      25.0,
+      529.1917114257812,
+      595.0,
+      654.4317016601562
+    ],
+    "images": [],
+    "raw": "Se, para atender a crescente demanda de serviços, o escritório\ntriplicar a quantidade de empregados com salário de R$ 600,00 e\nduplicar a quantidade de empregados com salário de R$ 1.000,00,\nentão  a  despesa  desse  escritório com  os  salários de  seus\nempregados passará a ser de\nA  R$ 18.800,00.\nB  R$ 18.000,00.\nC  R$ 18.200,00.\nD  R$ 18.400,00.\nE  R$ 18.600,00.",
+    "shared": {
+      "text": "Em um escritório, a despesa mensal com os salários dos\n10 empregados é de R$  7.600,00. Nesse  escritório, alguns\nempregados recebem, individualmente, R$ 600,00 de salário mensal\ne os outros, R$ 1.000,00.",
+      "page": 7,
+      "images": []
+    }
+  },
+  {
+    "slug": "correios-2011-atendente-comercial",
+    "number": 33,
+    "subject": "Matemática",
+    "text": "A partir das informações do texto, considere que aos empregados que recebem salário mensal de R$ 600,00 seja concedido reajuste salarial de 10%, e aos que recebem salário de R$ 1.000,00, reajuste de 15%. Nesse caso, a despesa mensal do escritório com os salários de seus empregados aumentará entre",
+    "support": "Em um escritório, a despesa mensal com os salários dos\n10 empregados é de R$  7.600,00. Nesse  escritório, alguns\nempregados recebem, individualmente, R$ 600,00 de salário mensal\ne os outros, R$ 1.000,00.",
+    "support_image": "",
+    "options": [
+      "7% e 9%.",
+      "9% e 11%.",
+      "11% e 13%.",
+      "13% e 15%.",
+      "5% e 7%."
+    ],
+    "answer": "C",
+    "explanation": "Gabarito definitivo do CESPE/UnB, Correios 2011, Tipo I: alternativa C.",
+    "page": 7,
+    "rect": [
+      25.0,
+      665.3917236328125,
+      595.0,
+      802.0
+    ],
+    "images": [],
+    "raw": "A partir das informações do texto, considere que aos empregados\nque recebem salário mensal de R$ 600,00 seja concedido reajuste\nsalarial de 10%, e aos que recebem salário de R$ 1.000,00, reajuste\nde 15%. Nesse caso, a despesa mensal do escritório com os salários\nde seus empregados aumentará entre\nA 7% e 9%.\nB 9% e 11%.\nC  11% e 13%.\nD  13% e 15%.\nE 5% e 7%.",
+    "shared": {
+      "text": "Em um escritório, a despesa mensal com os salários dos\n10 empregados é de R$  7.600,00. Nesse  escritório, alguns\nempregados recebem, individualmente, R$ 600,00 de salário mensal\ne os outros, R$ 1.000,00.",
+      "page": 7,
+      "images": []
+    }
+  },
+  {
+    "slug": "correios-2011-atendente-comercial",
+    "number": 34,
+    "subject": "Matemática",
+    "text": "Na situação apresentada, a quantidade de material analisado por 2 dos conferentes corresponde a",
+    "support": "Uma equipe de conferentes analisou os registros de\ndeterminados documentos. Todos os membros dessa equipe\ntrabalham com a mesma eficiência, e 3 deles analisaram 60% de\ntodo o material.",
+    "support_image": "",
+    "options": [
+      "48% de todo material.",
+      "44% de todo material.",
+      "40% de todo material.",
+      "56% de todo material.",
+      "52% de todo material."
+    ],
+    "answer": "C",
+    "explanation": "Gabarito definitivo do CESPE/UnB, Correios 2011, Tipo I: alternativa C.",
+    "page": 8,
+    "rect": [
+      25.0,
+      126.83169555664062,
+      300.6199951171875,
+      234.19171142578125
+    ],
+    "images": [],
+    "raw": "Na situação apresentada, a quantidade de material analisado por\n2 dos conferentes corresponde a\n\nA  48% de todo material.\nB  44% de todo material.\nC  40% de todo material.\nD  56% de todo material.\nE  52% de todo material.",
+    "shared": {
+      "text": "Uma equipe de conferentes analisou os registros de\ndeterminados documentos. Todos os membros dessa equipe\ntrabalham com a mesma eficiência, e 3 deles analisaram 60% de\ntodo o material.",
+      "page": 8,
+      "images": []
+    }
+  },
+  {
+    "slug": "correios-2011-atendente-comercial",
+    "number": 35,
+    "subject": "Matemática",
+    "text": "A partir das informações do texto, infere-se que a quantidade de conferentes da equipe é igual a",
+    "support": "Uma equipe de conferentes analisou os registros de\ndeterminados documentos. Todos os membros dessa equipe\ntrabalham com a mesma eficiência, e 3 deles analisaram 60% de\ntodo o material.",
+    "support_image": "",
+    "options": [
+      "6.",
+      "7.",
+      "8.",
+      "9.",
+      "5."
+    ],
+    "answer": "E",
+    "explanation": "Gabarito definitivo do CESPE/UnB, Correios 2011, Tipo I: alternativa E.",
+    "page": 8,
+    "rect": [
+      25.0,
+      245.15170288085938,
+      300.6199951171875,
+      352.51171875
+    ],
+    "images": [],
+    "raw": "A partir das informações do texto, infere-se que a quantidade de\nconferentes da equipe é igual a\n\nA   6.\nB   7.\nC   8.\nD   9.\nE   5.",
+    "shared": {
+      "text": "Uma equipe de conferentes analisou os registros de\ndeterminados documentos. Todos os membros dessa equipe\ntrabalham com a mesma eficiência, e 3 deles analisaram 60% de\ntodo o material.",
+      "page": 8,
+      "images": []
+    }
+  },
+  {
+    "slug": "correios-2011-atendente-comercial",
+    "number": 36,
+    "subject": "Matemática",
+    "text": "O trajeto de 5 km percorrido por um carteiro é formado por 2 trechos. Sabe-se que os comprimentos desses trechos, em metros, são números diretamente proporcionais a 2 e 3. Nesse caso, a diferença, em metros, entre os comprimentos do maior trecho e do menor trecho é igual a",
+    "support": "",
+    "support_image": "",
+    "options": [
+      "600.",
+      "1.400.",
+      "1.200.",
+      "1.000.",
+      "800."
+    ],
+    "answer": "D",
+    "explanation": "Gabarito definitivo do CESPE/UnB, Correios 2011, Tipo I: alternativa D.",
+    "page": 8,
+    "rect": [
+      25.0,
+      363.4717102050781,
+      300.6199951171875,
+      500.09075927734375
+    ],
+    "images": [],
+    "raw": "O trajeto de 5 km percorrido por um carteiro é formado por\n2 trechos. Sabe-se que os comprimentos desses trechos, em metros,\nsão números diretamente proporcionais a 2 e 3. Nesse caso, a\ndiferença, em metros, entre os comprimentos do maior trecho e do\nmenor trecho é igual a\n\nA  600.\nB  1.400.\nC  1.200.\nD  1.000.\nE  800."
+  },
+  {
+    "slug": "correios-2011-atendente-comercial",
+    "number": 37,
+    "subject": "Matemática",
+    "text": "Com base no texto, é correto afirmar que, ao final do período de 2 anos, o juro obtido nesse investimento foi",
+    "support": "Um investidor aplicou R$ 10.000,00, por 2 anos, à taxa de\njuros compostos anuais de 10%.",
+    "support_image": "",
+    "options": [
+      "superior a R$ 1.300,00 e inferior a R$ 1.600,00.",
+      "superior a R$ 1.600,00 e inferior a R$ 1.900,00.",
+      "superior a R$ 1.900,00 e inferior a R$ 2.200,00.",
+      "superior a R$ 2.200,00.",
+      "inferior a R$ 1.300,00."
+    ],
+    "answer": "C",
+    "explanation": "Gabarito definitivo do CESPE/UnB, Correios 2011, Tipo I: alternativa C.",
+    "page": 8,
+    "rect": [
+      25.0,
+      562.5516967773438,
+      300.6199951171875,
+      669.9117431640625
+    ],
+    "images": [],
+    "raw": "Com base no texto, é correto afirmar que, ao final do período de\n2 anos, o juro obtido nesse investimento foi\n\nA  superior a R$ 1.300,00 e inferior a R$ 1.600,00.\nB  superior a R$ 1.600,00 e inferior a R$ 1.900,00.\nC  superior a R$ 1.900,00 e inferior a R$ 2.200,00.\nD  superior a R$ 2.200,00.\nE   inferior a R$ 1.300,00.",
+    "shared": {
+      "text": "Um investidor aplicou R$ 10.000,00, por 2 anos, à taxa de\njuros compostos anuais de 10%.",
+      "page": 8,
+      "images": []
+    }
+  },
+  {
+    "slug": "correios-2011-atendente-comercial",
+    "number": 38,
+    "subject": "Matemática",
+    "text": "O investidor obteria o mesmo montante se aplicasse o mesmo capital, por 3 anos, a juros simples anuais de",
+    "support": "Um investidor aplicou R$ 10.000,00, por 2 anos, à taxa de\njuros compostos anuais de 10%.",
+    "support_image": "",
+    "options": [
+      "7%.",
+      "8%.",
+      "9%.",
+      "5%.",
+      "6%."
+    ],
+    "answer": "A",
+    "explanation": "Gabarito definitivo do CESPE/UnB, Correios 2011, Tipo I: alternativa A.",
+    "page": 8,
+    "rect": [
+      25.0,
+      680.8717651367188,
+      300.6199951171875,
+      802.0
+    ],
+    "images": [],
+    "raw": "O investidor obteria o mesmo montante se aplicasse o mesmo\ncapital, por 3 anos, a juros simples anuais de\n\nA  7%.\nB  8%.\nC  9%.\nD  5%.\nE  6%.",
+    "shared": {
+      "text": "Um investidor aplicou R$ 10.000,00, por 2 anos, à taxa de\njuros compostos anuais de 10%.",
+      "page": 8,
+      "images": []
+    }
+  },
+  {
+    "slug": "correios-2011-atendente-comercial",
+    "number": 39,
+    "subject": "Matemática",
+    "text": "Se cada carteiro de uma agência dos Correios consegue entregar certa quantidade de correspondências em 8 horas, então é correto afirmar que 6 carteiros entregarão essa mesma quantidade de correspondências em",
+    "support": "",
+    "support_image": "",
+    "options": [
+      "1 h e 40 min.",
+      "1 h e 50 min.",
+      "1 h e 10 min.",
+      "1 h e 20 min.",
+      "1 h e 30 min."
+    ],
+    "answer": "D",
+    "explanation": "Gabarito definitivo do CESPE/UnB, Correios 2011, Tipo I: alternativa D.",
+    "page": 8,
+    "rect": [
+      300.6199951171875,
+      59.271697998046875,
+      570.0,
+      181.6317138671875
+    ],
+    "images": [],
+    "raw": "Se cada carteiro de uma agência dos Correios consegue entregar\ncerta quantidade de correspondências em 8 horas, então é correto\nafirmar que 6 carteiros entregarão essa mesma quantidade de\ncorrespondências em\n\nA  1 h e 40 min.\nB  1 h e 50 min.\nC  1 h e 10 min.\nD  1 h e 20 min.\nE  1 h e 30 min."
+  },
+  {
+    "slug": "correios-2011-atendente-comercial",
+    "number": 40,
+    "subject": "Matemática",
+    "text": "Se o perímetro de um terreno em forma de retângulo é igual a 180 m e se um dos lados desse retângulo mede 10 m a mais que o outro, então a área do terreno é igual a",
+    "support": "",
+    "support_image": "",
+    "options": [
+      "1.800 m2.",
+      "1.600 m2.",
+      "1.400 m2.",
+      "1.200 m2.",
+      "2.000 m2."
+    ],
+    "answer": "E",
+    "explanation": "Gabarito definitivo do CESPE/UnB, Correios 2011, Tipo I: alternativa E.",
+    "page": 8,
+    "rect": [
+      300.6199951171875,
+      192.59170532226562,
+      570.0,
+      802.0
+    ],
+    "images": [],
+    "raw": "Se o perímetro de um terreno em forma de retângulo é igual a\n180 m e se um dos lados desse retângulo mede 10 m a mais que o\noutro, então a área do terreno é igual a\n\nA  1.800 m2.\nB  1.600 m2.\nC  1.400 m2.\nD  1.200 m2.\nE  2.000 m2."
+  },
+  {
+    "slug": "correios-2011-atendente-comercial",
+    "number": 41,
+    "subject": "Língua Portuguesa",
+    "text": "Assinale a opção em que o texto de placa que alerta para a presença de cão raivoso está corretamente pontuado.",
+    "support": "",
+    "support_image": "",
+    "options": [
+      "Cão raivoso? Cuidado?",
+      "Cuidado: Cão raivoso!",
+      "Cão raivoso? Cuidado!",
+      "Cuidado? Cão raivoso!",
+      "Cuidado: Cão raivoso? Figura para as questões 42 e 43 Na figura acima, que é parte de uma página da Internet (www.correios.com.br), são mostrados dois serviços prestados pelos Correios."
+    ],
+    "answer": "B",
+    "explanation": "Gabarito definitivo do CESPE/UnB, Correios 2011, Tipo I: alternativa B.",
+    "page": 9,
+    "rect": [
+      25.0,
+      77.51168823242188,
+      300.6199951171875,
+      447.9117126464844
+    ],
+    "images": [
+      [
+        46.08000183105469,
+        262.79998779296875,
+        273.593017578125,
+        399.9599914550781
+      ]
+    ],
+    "raw": "Assinale a opção em que o texto de placa que alerta para a presença\nde cão raivoso está corretamente pontuado.\n\nA  Cão raivoso?\n    Cuidado?\nB  Cuidado:\n   Cão raivoso!\nC  Cão raivoso?\n    Cuidado!\nD  Cuidado?\n   Cão raivoso!\nE  Cuidado:\n   Cão raivoso?\n\nFigura para as questões 42 e 43\n\n\n\n\n\n      Na figura acima, que é parte de uma página da Internet\n(www.correios.com.br), são mostrados dois serviços prestados\npelos Correios."
+  },
+  {
+    "slug": "correios-2011-atendente-comercial",
+    "number": 42,
+    "subject": "Língua Portuguesa",
+    "text": "Com referência à situação mostrada na figura, assinale a opção correta.",
+    "support": "",
+    "support_image": "",
+    "options": [
+      "Infere-se da figura que, ao digitar, por exemplo, a palavra analgésico no espaço para Busca CEP ou Endereço ou no espaço para Rastreamento de objetos e, em seguida, clicar um dos dois botões Buscar, o usuário visualizará uma lista de todas as páginas da Internet que contenham a palavra analgésico.",
+      "Embora os serviços estejam separados, infere-se da figura que é possível buscar um objeto em Busca CEP ou Endereço ou um endereço em Rastreamento de objetos.",
+      "Se, por exemplo, o usuário digitar o endereço R Riachuelo Lt 2 nr 25 no espaço para Busca CEP ou Endereço e, em seguida, clicar o botão Buscar correspondente ao serviço, ele não deverá obter o número do CEP correspondente a esse endereço.",
+      "Deduz-se da figura que, se o usuário digitar, no espaço para Rastreamento de objetos, o código inícioSS123 e, em seguida, clicar o botão Buscar correspondente ao serviço, ele poderá visualizar informações sobre todos os objetos cujos códigos comecem com SS123.",
+      "Deduz-se da figura que, se o usuário digitar, no espaço para Rastreamento de objetos, o código SS1234567BR e, em seguida, clicar o botão Buscar correspondente a esse serviço, ele poderá visualizar informações sobre um objeto referente a esse código."
+    ],
+    "answer": "C",
+    "explanation": "Gabarito definitivo do CESPE/UnB, Correios 2011, Tipo I: alternativa C.",
+    "page": 9,
+    "rect": [
+      25.0,
+      458.8717041015625,
+      300.6199951171875,
+      802.0
+    ],
+    "images": [],
+    "raw": "Com referência à situação mostrada na figura, assinale a opção\ncorreta.\n\nA   Infere-se da figura que, ao digitar, por exemplo, a palavra\n    analgésico no espaço para Busca CEP ou Endereço ou no espaço\n    para Rastreamento de objetos e, em seguida, clicar um dos dois\n    botões Buscar, o usuário visualizará uma lista de todas as\n    páginas da Internet que contenham a palavra analgésico.\nB  Embora os serviços estejam separados, infere-se da figura que\n    é possível buscar um objeto em Busca CEP ou Endereço ou um\n    endereço em Rastreamento de objetos.\nC  Se, por exemplo, o usuário digitar o endereço R Riachuelo\n    Lt 2 nr 25 no espaço para Busca CEP ou Endereço e, em\n    seguida, clicar o botão Buscar correspondente ao serviço, ele\n    não deverá obter o número do CEP correspondente a esse\n    endereço.\nD  Deduz-se da figura que, se o usuário digitar, no espaço para\n    Rastreamento de objetos, o código inícioSS123 e, em seguida,\n     clicar o botão Buscar correspondente ao serviço, ele poderá\n     visualizar informações sobre todos os objetos cujos códigos\n   comecem com SS123.\nE  Deduz-se da figura que, se o usuário digitar, no espaço para\n    Rastreamento de objetos, o código SS1234567BR e, em seguida,\n     clicar o botão Buscar correspondente a esse serviço, ele poderá\n     visualizar informações sobre um objeto referente a esse código."
+  },
+  {
+    "slug": "correios-2011-atendente-comercial",
+    "number": 43,
+    "subject": "Língua Portuguesa",
+    "text": "Um dos serviços prestados pelos Correios e mostrado na figura em questão é o rastreamento de objetos. Nesse serviço, rastrear significa",
+    "support": "",
+    "support_image": "",
+    "options": [
+      "guardar o rastro do objeto.",
+      "lembrar o rastro do objeto.",
+      "deixar o rastro do objeto.",
+      "fazer o rastro do objeto.",
+      "pesquisar o rastro do objeto."
+    ],
+    "answer": "E",
+    "explanation": "Gabarito definitivo do CESPE/UnB, Correios 2011, Tipo I: alternativa E.",
+    "page": 9,
+    "rect": [
+      300.6199951171875,
+      77.51168823242188,
+      570.0,
+      213.91168212890625
+    ],
+    "images": [],
+    "raw": "Um dos serviços prestados pelos Correios e mostrado na figura em\nquestão é o rastreamento de objetos. Nesse serviço, rastrear\nsignifica\n\n\nA  guardar o rastro do objeto.\nB  lembrar o rastro do objeto.\nC  deixar o rastro do objeto.\nD  fazer o rastro do objeto.\nE  pesquisar o rastro do objeto."
+  },
+  {
+    "slug": "correios-2011-atendente-comercial",
+    "number": 44,
+    "subject": "Língua Portuguesa",
+    "text": "No tempo em que se andava a cavalo para entregar cartas, era preciso pôr arreios no cavalo, ou seja, era preciso",
+    "support": "",
+    "support_image": "",
+    "options": [
+      "arriar-se o cavalo.",
+      "arreiar o cavalo.",
+      "arreiar-se no cavalo.",
+      "arrear o cavalo.",
+      "arriar no cavalo."
+    ],
+    "answer": "D",
+    "explanation": "Gabarito definitivo do CESPE/UnB, Correios 2011, Tipo I: alternativa D.",
+    "page": 9,
+    "rect": [
+      300.6199951171875,
+      224.87167358398438,
+      570.0,
+      342.7693176269531
+    ],
+    "images": [],
+    "raw": "No tempo em que se andava a cavalo para entregar cartas, era\npreciso pôr arreios no cavalo, ou seja, era preciso\n\n\nA   arriar-se o cavalo.\nB   arreiar o cavalo.\nC   arreiar-se no cavalo.\nD   arrear o cavalo.\nE   arriar no cavalo."
+  },
+  {
+    "slug": "correios-2011-atendente-comercial",
+    "number": 45,
+    "subject": "Língua Portuguesa",
+    "text": "A expressão “do seu melhor amigo” (R.4-5) remete a um ditado popular. Assinale a opção correspondente a esse ditado.",
+    "support": "1         Cachorro se parece mesmo é com criança: vive o\n   agora, alegra-se com o simples prazer de uma caminhada,\n    corre, pula, brinca, diariamente. Aliás, o que mais incomoda o\n 4 homem no comportamento canino é a constante alegria do seu\n   melhor amigo. Em geral, não estamos acostumados a viver\n   24 horas por dia de puro prazer, ainda mais quando levamos\n 7  uma vida de cachorro. Sentimo-nos, talvez, desrespeitados\n   pela  impertinência  de um  contentamento  desmesurado,\n   principalmente quando algo ou alguém patrocinou-nos alguma\n10  desventura.\n\n\n                               Laudimiro Almeida  Filho. Vida de cachorro.  In: Acontessências.\n                                       Brasília: Gráfica e Editora  Positiva, 1999, p. 37 (com adaptações).",
+    "support_image": "",
+    "options": [
+      "Cão que ladra não morde.",
+      "Cão picado de cobra tem medo de linguiça.",
+      "Cão feroz, dono atroz.",
+      "Quem não tem cão caça com gato.",
+      "O cão é o melhor amigo do homem."
+    ],
+    "answer": "E",
+    "explanation": "Gabarito definitivo do CESPE/UnB, Correios 2011, Tipo I: alternativa E.",
+    "page": 9,
+    "rect": [
+      300.6199951171875,
+      545.1516723632812,
+      570.0,
+      668.5916748046875
+    ],
+    "images": [],
+    "raw": "A expressão “do seu melhor amigo” (R.4-5) remete a um ditado\npopular. Assinale a opção correspondente a esse ditado.\n\n\nA  Cão que ladra não morde.\nB  Cão picado de cobra tem medo de linguiça.\nC  Cão feroz, dono atroz.\nD  Quem não tem cão caça com gato.\nE O cão é o melhor amigo do homem.",
+    "shared": {
+      "text": "1         Cachorro se parece mesmo é com criança: vive o\n   agora, alegra-se com o simples prazer de uma caminhada,\n    corre, pula, brinca, diariamente. Aliás, o que mais incomoda o\n 4 homem no comportamento canino é a constante alegria do seu\n   melhor amigo. Em geral, não estamos acostumados a viver\n   24 horas por dia de puro prazer, ainda mais quando levamos\n 7  uma vida de cachorro. Sentimo-nos, talvez, desrespeitados\n   pela  impertinência  de um  contentamento  desmesurado,\n   principalmente quando algo ou alguém patrocinou-nos alguma\n10  desventura.\n\n\n                               Laudimiro Almeida  Filho. Vida de cachorro.  In: Acontessências.\n                                       Brasília: Gráfica e Editora  Positiva, 1999, p. 37 (com adaptações).",
+      "page": 9,
+      "images": []
+    }
+  },
+  {
+    "slug": "correios-2011-atendente-comercial",
+    "number": 46,
+    "subject": "Língua Portuguesa",
+    "text": "De acordo com o texto, o comportamento dos cachorros",
+    "support": "1         Cachorro se parece mesmo é com criança: vive o\n   agora, alegra-se com o simples prazer de uma caminhada,\n    corre, pula, brinca, diariamente. Aliás, o que mais incomoda o\n 4 homem no comportamento canino é a constante alegria do seu\n   melhor amigo. Em geral, não estamos acostumados a viver\n   24 horas por dia de puro prazer, ainda mais quando levamos\n 7  uma vida de cachorro. Sentimo-nos, talvez, desrespeitados\n   pela  impertinência  de um  contentamento  desmesurado,\n   principalmente quando algo ou alguém patrocinou-nos alguma\n10  desventura.\n\n\n                               Laudimiro Almeida  Filho. Vida de cachorro.  In: Acontessências.\n                                       Brasília: Gráfica e Editora  Positiva, 1999, p. 37 (com adaptações).",
+    "support_image": "",
+    "options": [
+      "evidencia que eles gostariam de ser crianças.",
+      "revela o carinho deles pelas crianças.",
+      "assemelha-se ao das crianças.",
+      "provoca medo nas crianças.",
+      "irrita as crianças."
+    ],
+    "answer": "C",
+    "explanation": "Gabarito definitivo do CESPE/UnB, Correios 2011, Tipo I: alternativa C.",
+    "page": 9,
+    "rect": [
+      300.6199951171875,
+      679.5516967773438,
+      570.0,
+      802.0
+    ],
+    "images": [],
+    "raw": "De acordo com o texto, o comportamento dos cachorros\n\n\nA  evidencia que eles gostariam de ser crianças.\nB  revela o carinho deles pelas crianças.\nC  assemelha-se ao das crianças.\nD  provoca medo nas crianças.\nE   irrita as crianças.",
+    "shared": {
+      "text": "1         Cachorro se parece mesmo é com criança: vive o\n   agora, alegra-se com o simples prazer de uma caminhada,\n    corre, pula, brinca, diariamente. Aliás, o que mais incomoda o\n 4 homem no comportamento canino é a constante alegria do seu\n   melhor amigo. Em geral, não estamos acostumados a viver\n   24 horas por dia de puro prazer, ainda mais quando levamos\n 7  uma vida de cachorro. Sentimo-nos, talvez, desrespeitados\n   pela  impertinência  de um  contentamento  desmesurado,\n   principalmente quando algo ou alguém patrocinou-nos alguma\n10  desventura.\n\n\n                               Laudimiro Almeida  Filho. Vida de cachorro.  In: Acontessências.\n                                       Brasília: Gráfica e Editora  Positiva, 1999, p. 37 (com adaptações).",
+      "page": 9,
+      "images": []
+    }
+  },
+  {
+    "slug": "correios-2011-atendente-comercial",
+    "number": 47,
+    "subject": "Língua Portuguesa",
+    "text": "Assinale a opção correta de acordo com as ideias apresentadas no texto.",
+    "support": "1         Cachorro se parece mesmo é com criança: vive o\n   agora, alegra-se com o simples prazer de uma caminhada,\n    corre, pula, brinca, diariamente. Aliás, o que mais incomoda o\n 4 homem no comportamento canino é a constante alegria do seu\n   melhor amigo. Em geral, não estamos acostumados a viver\n   24 horas por dia de puro prazer, ainda mais quando levamos\n 7  uma vida de cachorro. Sentimo-nos, talvez, desrespeitados\n   pela  impertinência  de um  contentamento  desmesurado,\n   principalmente quando algo ou alguém patrocinou-nos alguma\n10  desventura.\n\n\n                               Laudimiro Almeida  Filho. Vida de cachorro.  In: Acontessências.\n                                       Brasília: Gráfica e Editora  Positiva, 1999, p. 37 (com adaptações).",
+    "support_image": "",
+    "options": [
+      "A alegria das crianças é maior que a alegria dos cachorros.",
+      "Pessoas adultas são felizes só quando vivem “vida de cachorro”.",
+      "O adulto tem inveja da alegria das crianças.",
+      "É mais fácil alegrar crianças que adultos.",
+      "Aquilo que alegra a criança não alegra o adulto."
+    ],
+    "answer": "D",
+    "explanation": "Gabarito definitivo do CESPE/UnB, Correios 2011, Tipo I: alternativa D.",
+    "page": 10,
+    "rect": [
+      25.0,
+      59.271697998046875,
+      300.6199951171875,
+      175.751708984375
+    ],
+    "images": [],
+    "raw": "Assinale a opção correta de acordo com as ideias apresentadas no\ntexto.\n\nA A alegria das crianças é maior que a alegria dos cachorros.\nB  Pessoas  adultas são  felizes só quando vivem  “vida de\n    cachorro”.\nC O adulto tem inveja da alegria das crianças.\nD  É mais fácil alegrar crianças que adultos.\nE  Aquilo que alegra a criança não alegra o adulto.",
+    "shared": {
+      "text": "1         Cachorro se parece mesmo é com criança: vive o\n   agora, alegra-se com o simples prazer de uma caminhada,\n    corre, pula, brinca, diariamente. Aliás, o que mais incomoda o\n 4 homem no comportamento canino é a constante alegria do seu\n   melhor amigo. Em geral, não estamos acostumados a viver\n   24 horas por dia de puro prazer, ainda mais quando levamos\n 7  uma vida de cachorro. Sentimo-nos, talvez, desrespeitados\n   pela  impertinência  de um  contentamento  desmesurado,\n   principalmente quando algo ou alguém patrocinou-nos alguma\n10  desventura.\n\n\n                               Laudimiro Almeida  Filho. Vida de cachorro.  In: Acontessências.\n                                       Brasília: Gráfica e Editora  Positiva, 1999, p. 37 (com adaptações).",
+      "page": 9,
+      "images": []
+    }
+  },
+  {
+    "slug": "correios-2011-atendente-comercial",
+    "number": 48,
+    "subject": "Língua Portuguesa",
+    "text": "No texto, há correspondência de sentido entre",
+    "support": "1         Cachorro se parece mesmo é com criança: vive o\n   agora, alegra-se com o simples prazer de uma caminhada,\n    corre, pula, brinca, diariamente. Aliás, o que mais incomoda o\n 4 homem no comportamento canino é a constante alegria do seu\n   melhor amigo. Em geral, não estamos acostumados a viver\n   24 horas por dia de puro prazer, ainda mais quando levamos\n 7  uma vida de cachorro. Sentimo-nos, talvez, desrespeitados\n   pela  impertinência  de um  contentamento  desmesurado,\n   principalmente quando algo ou alguém patrocinou-nos alguma\n10  desventura.\n\n\n                               Laudimiro Almeida  Filho. Vida de cachorro.  In: Acontessências.\n                                       Brasília: Gráfica e Editora  Positiva, 1999, p. 37 (com adaptações).",
+    "support_image": "",
+    "options": [
+      "“comportamento canino” (R.4) e “vida de cachorro” (R.7).",
+      "“alegria” (R.4) e “contentamento” (R.8).",
+      "“constante” (R.4) e “desmesurado” (R.8).",
+      "“impertinência” (R.8) e “desventura” (R.10).",
+      "“diariamente” (R.3) e “24 horas por dia” (R.6)."
+    ],
+    "answer": "B",
+    "explanation": "Gabarito definitivo do CESPE/UnB, Correios 2011, Tipo I: alternativa B.",
+    "page": 10,
+    "rect": [
+      25.0,
+      186.71170043945312,
+      300.6199951171875,
+      279.64947509765625
+    ],
+    "images": [],
+    "raw": "No texto, há correspondência de sentido entre\n\nA  “comportamento canino” (R.4) e “vida de cachorro” (R.7).\nB  “alegria” (R.4) e “contentamento” (R.8).\nC  “constante” (R.4) e “desmesurado” (R.8).\nD  “impertinência” (R.8) e “desventura” (R.10).\nE  “diariamente” (R.3) e “24 horas por dia” (R.6).",
+    "shared": {
+      "text": "1         Cachorro se parece mesmo é com criança: vive o\n   agora, alegra-se com o simples prazer de uma caminhada,\n    corre, pula, brinca, diariamente. Aliás, o que mais incomoda o\n 4 homem no comportamento canino é a constante alegria do seu\n   melhor amigo. Em geral, não estamos acostumados a viver\n   24 horas por dia de puro prazer, ainda mais quando levamos\n 7  uma vida de cachorro. Sentimo-nos, talvez, desrespeitados\n   pela  impertinência  de um  contentamento  desmesurado,\n   principalmente quando algo ou alguém patrocinou-nos alguma\n10  desventura.\n\n\n                               Laudimiro Almeida  Filho. Vida de cachorro.  In: Acontessências.\n                                       Brasília: Gráfica e Editora  Positiva, 1999, p. 37 (com adaptações).",
+      "page": 9,
+      "images": []
+    }
+  },
+  {
+    "slug": "correios-2011-atendente-comercial",
+    "number": 49,
+    "subject": "Língua Portuguesa",
+    "text": "Com referência às ideias e ao emprego de palavras e expressões no texto, assinale a opção correta.",
+    "support": "Do que queremos transmitir ao que transmitimos\n\n1          Aquilo que desejamos comunicar a alguém é, antes de\n   ser dito, trabalhado em nossa mente, tornando-se uma ideia.\n   Essa ideia é codificada em um sistema de sinais pelo qual a\n4  traduzimos para outras pessoas. O sistema de código utilizado\n —  palavras,  gestos, desenhos  etc. — deve formar uma\n   expressão que realmente transmita uma ideia.\n7       No entanto, isso nem sempre ocorre. Com alguma\n   frequência, o que transmitimos não corresponde exatamente ao\n  que queremos transmitir.\n\n                                    Nanci  Capel  Pilares. Atendimento ao  cliente: o  recurso\n                                      esquecido. São Paulo: Nobel, 1989, p. 30 (com adaptações).",
+    "support_image": "",
+    "options": [
+      "A expressão “Essa ideia” (R.3) retoma o trecho “antes de ser dito” (R.1-2).",
+      "No texto, as expressões “sistema de sinais” (R.3) e “sistema de código” (R.4) têm sentidos semelhantes.",
+      "De acordo com a argumentação do texto, seria coerente intitulá-lo da seguinte forma: Do que o outro recebe ao que pensa que recebeu.",
+      "O sentido e a correção do texto seriam mantidos se, em lugar de “Aquilo” (R.1), fosse usado o pronome Isso.",
+      "O autor do texto distancia-se do universo do leitor ao empregar a primeira pessoa do plural, como se verifica no pronome “nossa” (R.2) e nas formas verbais “desejamos” (R.1), “traduzimos” (R.4), “transmitimos” (R.8) e “queremos” (R.9)."
+    ],
+    "answer": "B",
+    "explanation": "Gabarito definitivo do CESPE/UnB, Correios 2011, Tipo I: alternativa B.",
+    "page": 10,
+    "rect": [
+      25.0,
+      465.1116943359375,
+      300.6199951171875,
+      658.99169921875
+    ],
+    "images": [],
+    "raw": "Com referência às ideias e ao emprego de palavras e expressões no\ntexto, assinale a opção correta.\n\nA A expressão “Essa ideia” (R.3) retoma o trecho “antes de ser\n     dito” (R.1-2).\nB  No texto, as expressões “sistema de sinais” (R.3) e “sistema de\n    código” (R.4) têm sentidos semelhantes.\nC  De acordo com a argumentação do texto, seria coerente\n     intitulá-lo da seguinte forma: Do que o outro recebe ao que\n    pensa que recebeu.\nD O sentido e a correção do texto seriam mantidos se, em lugar\n    de “Aquilo” (R.1), fosse usado o pronome Isso.\nE O autor do texto distancia-se do universo do leitor ao empregar\n    a primeira pessoa do plural, como se verifica no pronome\n    “nossa”  (R.2)  e  nas  formas  verbais  “desejamos”  (R.1),\n    “traduzimos” (R.4), “transmitimos” (R.8) e “queremos” (R.9).",
+    "shared": {
+      "text": "Do que queremos transmitir ao que transmitimos\n\n1          Aquilo que desejamos comunicar a alguém é, antes de\n   ser dito, trabalhado em nossa mente, tornando-se uma ideia.\n   Essa ideia é codificada em um sistema de sinais pelo qual a\n4  traduzimos para outras pessoas. O sistema de código utilizado\n —  palavras,  gestos, desenhos  etc. — deve formar uma\n   expressão que realmente transmita uma ideia.\n7       No entanto, isso nem sempre ocorre. Com alguma\n   frequência, o que transmitimos não corresponde exatamente ao\n  que queremos transmitir.\n\n                                    Nanci  Capel  Pilares. Atendimento ao  cliente: o  recurso\n                                      esquecido. São Paulo: Nobel, 1989, p. 30 (com adaptações).",
+      "page": 10,
+      "images": []
+    }
+  },
+  {
+    "slug": "correios-2011-atendente-comercial",
+    "number": 50,
+    "subject": "Língua Portuguesa",
+    "text": "O sentido original do texto e a sua correção gramatical seriam mantidos caso se substituísse o trecho",
+    "support": "Do que queremos transmitir ao que transmitimos\n\n1          Aquilo que desejamos comunicar a alguém é, antes de\n   ser dito, trabalhado em nossa mente, tornando-se uma ideia.\n   Essa ideia é codificada em um sistema de sinais pelo qual a\n4  traduzimos para outras pessoas. O sistema de código utilizado\n —  palavras,  gestos, desenhos  etc. — deve formar uma\n   expressão que realmente transmita uma ideia.\n7       No entanto, isso nem sempre ocorre. Com alguma\n   frequência, o que transmitimos não corresponde exatamente ao\n  que queremos transmitir.\n\n                                    Nanci  Capel  Pilares. Atendimento ao  cliente: o  recurso\n                                      esquecido. São Paulo: Nobel, 1989, p. 30 (com adaptações).",
+    "support_image": "",
+    "options": [
+      "“comunicar a alguém” (R.1) por divulgar-se para um terceiro.",
+      "“tornando-se uma ideia” (R.2) por voltando a ser uma ideia.",
+      "“tornando-se uma ideia. Essa ideia” (R.2-3) por tornando-se alguma ideia, a qual ideia.",
+      "“isso nem sempre ocorre” (R.7) por isso nunca acontece.",
+      "“desejamos comunicar” (R.1) por queremos transmitir."
+    ],
+    "answer": "E",
+    "explanation": "Gabarito definitivo do CESPE/UnB, Correios 2011, Tipo I: alternativa E.",
+    "page": 10,
+    "rect": [
+      25.0,
+      669.9517211914062,
+      300.6199951171875,
+      802.0
+    ],
+    "images": [],
+    "raw": "O sentido original do texto e a sua correção gramatical seriam\nmantidos caso se substituísse o trecho\n\nA  “comunicar a alguém” (R.1) por divulgar-se para um terceiro.\nB  “tornando-se uma ideia” (R.2) por voltando a ser uma ideia.\nC  “tornando-se uma ideia. Essa ideia” (R.2-3) por tornando-se\n    alguma ideia, a qual ideia.\nD  “isso nem sempre ocorre” (R.7) por isso nunca acontece.\nE  “desejamos comunicar” (R.1) por queremos transmitir.",
+    "shared": {
+      "text": "Do que queremos transmitir ao que transmitimos\n\n1          Aquilo que desejamos comunicar a alguém é, antes de\n   ser dito, trabalhado em nossa mente, tornando-se uma ideia.\n   Essa ideia é codificada em um sistema de sinais pelo qual a\n4  traduzimos para outras pessoas. O sistema de código utilizado\n —  palavras,  gestos, desenhos  etc. — deve formar uma\n   expressão que realmente transmita uma ideia.\n7       No entanto, isso nem sempre ocorre. Com alguma\n   frequência, o que transmitimos não corresponde exatamente ao\n  que queremos transmitir.\n\n                                    Nanci  Capel  Pilares. Atendimento ao  cliente: o  recurso\n                                      esquecido. São Paulo: Nobel, 1989, p. 30 (com adaptações).",
+      "page": 10,
+      "images": []
+    }
+  },
+  {
+    "slug": "correios-2011-atendente-comercial",
+    "number": 51,
+    "subject": "Língua Portuguesa",
+    "text": "Etimologicamente formada das palavras gregas philos (amigo, amador) e atelês (franco, livre de qualquer encargo ou imposto), a filatelia é, geralmente, definida como o ato de colecionar selos, especialmente aqueles considerados raros. Mas, muito mais do que um hobby, a filatelia é, ao mesmo tempo, uma ciência e uma arte que apaixona pessoas dos mais diversos lugares do mundo. Internet: <www.correios.com.br>. A partir do que o texto informa sobre o vocábulo “filatelia”, deduz- se que aquele que coleciona selos é corretamente chamado de",
+    "support": "",
+    "support_image": "",
+    "options": [
+      "selotelista.",
+      "seleiro.",
+      "filatelista.",
+      "filateleiro.",
+      "filatório."
+    ],
+    "answer": "C",
+    "explanation": "Gabarito definitivo do CESPE/UnB, Correios 2011, Tipo I: alternativa C.",
+    "page": 10,
+    "rect": [
+      300.6199951171875,
+      59.271697998046875,
+      570.0,
+      298.1517333984375
+    ],
+    "images": [],
+    "raw": "Etimologicamente formada das palavras gregas philos\n(amigo, amador) e atelês (franco, livre de qualquer encargo ou\nimposto), a  filatelia  é, geralmente, definida como o ato de\ncolecionar selos, especialmente aqueles considerados raros. Mas,\nmuito mais do que um hobby, a filatelia é, ao mesmo tempo, uma\nciência e uma arte que apaixona pessoas dos mais diversos lugares\ndo mundo.\n\n\n                                                                               Internet: <www.correios.com.br>.\n\n\nA partir do que o texto informa sobre o vocábulo “filatelia”, deduz-\nse que aquele que coleciona selos é corretamente chamado de\n\nA   selotelista.\nB   seleiro.\nC   filatelista.\nD   filateleiro.\nE   filatório."
+  },
+  {
+    "slug": "correios-2011-atendente-comercial",
+    "number": 52,
+    "subject": "Língua Portuguesa",
+    "text": "Assinale a opção em que a fala de Calvin, no terceiro quadrinho da tira acima, “Mas eu enganei ela! Eu dei pra ela só três moedinhas de dez centavos!” está reescrita de acordo com a prescrição gramatical para textos escritos.",
+    "support": "",
+    "support_image": "",
+    "options": [
+      "Mas eu lhe enganei! Eu dei pra ela apenas três moedinhas de dez centavos!",
+      "Mas eu a enganei! Dei-lhe apenas três moedas de dez centavos!",
+      "Mas eu enganei-a! Lhe dei só três moedas de dez centavos!",
+      "Mas eu enganei-la! Eu dei-lhe só três moedas de dez centavos!",
+      "Mas eu enganei ela! Dei para ela apenas três moedas de dez centavos!"
+    ],
+    "answer": "B",
+    "explanation": "Gabarito definitivo do CESPE/UnB, Correios 2011, Tipo I: alternativa B.",
+    "page": 10,
+    "rect": [
+      300.6199951171875,
+      309.1117248535156,
+      570.0,
+      802.0
+    ],
+    "images": [
+      [
+        322.20001220703125,
+        316.44000244140625,
+        549.5599975585938,
+        459.0
+      ],
+      [
+        322.20001220703125,
+        471.6000061035156,
+        549.208984375,
+        615.0
+      ]
+    ],
+    "raw": "Assinale a opção em que a fala de Calvin, no terceiro quadrinho da\ntira acima, “Mas eu enganei ela! Eu dei pra ela só três moedinhas\nde dez centavos!” está reescrita de acordo com a prescrição\ngramatical para textos escritos.\n\nA  Mas eu lhe enganei! Eu dei pra ela apenas três moedinhas de\n    dez centavos!\nB  Mas eu a enganei! Dei-lhe apenas três moedas de dez centavos!\nC  Mas eu enganei-a! Lhe dei só três moedas de dez centavos!\nD  Mas eu enganei-la! Eu dei-lhe só três moedas de dez centavos!\nE  Mas eu enganei ela! Dei para ela apenas três moedas de dez\n    centavos!"
+  },
+  {
+    "slug": "correios-2011-atendente-comercial",
+    "number": 53,
+    "subject": "Língua Portuguesa",
+    "text": "Tocando em frente Almir Sater e Renato Teixeira 1 Ando devagar Porque já tive pressa E levo esse sorriso 4 Porque já chorei demais Hoje me sinto mais forte, Mais feliz, quem sabe 7 Eu só levo a certeza De que muito pouco sei, Ou nada sei 10 Conhecer as manhas E as manhãs O sabor das massas 13 E das maçãs É preciso amor Pra poder pulsar 16 É preciso paz pra poder sorrir É preciso a chuva para florir A palavra “Porque” (v.2 e 4) poderia ser substituída, com correção gramatical e sem prejuízo para o sentido original do texto, em ambas as ocorrências, por",
+    "support": "",
+    "support_image": "",
+    "options": [
+      "Logo.",
+      "Então.",
+      "Portanto.",
+      "Pois.",
+      "Embora."
+    ],
+    "answer": "D",
+    "explanation": "Gabarito definitivo do CESPE/UnB, Correios 2011, Tipo I: alternativa D.",
+    "page": 11,
+    "rect": [
+      25.0,
+      59.271697998046875,
+      300.6199951171875,
+      431.80975341796875
+    ],
+    "images": [],
+    "raw": "Tocando em frente\n                            Almir Sater e Renato Teixeira\n\n                   1   Ando devagar\n              Porque já tive pressa\n              E levo esse sorriso\n                   4   Porque já chorei demais\n               Hoje me sinto mais forte,\n               Mais feliz, quem sabe\n                   7   Eu só levo a certeza\n             De que muito pouco sei,\n            Ou nada sei\n                  10   Conhecer as manhas\n              E as manhãs\n           O sabor das massas\n                  13   E das maçãs\n              É preciso amor\n                Pra poder pulsar\n                  16   É preciso paz pra poder sorrir\n              É preciso a chuva para florir\n\nA palavra “Porque” (v.2 e 4) poderia ser substituída, com correção\ngramatical e sem prejuízo para o sentido original do texto, em\nambas as ocorrências, por\n\nA  Logo.\nB  Então.\nC  Portanto.\nD  Pois.\nE  Embora."
+  },
+  {
+    "slug": "correios-2011-atendente-comercial",
+    "number": 54,
+    "subject": "Língua Portuguesa",
+    "text": "A respeito de aspectos linguísticos do texto, assinale a opção correta.",
+    "support": "A Carta\n                          Benil Santos e Raul Sampaio\n\n1   Escrevo-te estas mal traçadas linhas, meu amor\n   Porque veio a saudade visitar meu coração\n   Espero que desculpes os meus erros, por favor\n4   Nas frases desta carta, que é uma prova de afeição.\n    Talvez tu não a leias, mas quem sabe até darás\n   Resposta imediata me chamando de “Meu Bem”.\n7  Porém o que me importa é confessar-te uma vez mais:\n   Não sei amar na vida mais ninguém.",
+    "support_image": "",
+    "options": [
+      "No primeiro verso, a expressão “estas mal traçadas linhas” é um dos complementos da forma verbal “Escrevo”.",
+      "As expressões “meu amor” (v.1) e “por favor” (v.3) exercem a função de aposto.",
+      "No pedido de desculpa pelos erros (v.3), o autor da carta comete o seguinte erro: emprego da forma verbal “desculpes”, em vez de desculpe.",
+      "Os termos “Porque” (v.2) e “Porém” (v.7) estabelecem, nos respectivos trechos, semelhantes relações de sentido.",
+      "No verso 5, os vocábulos “Talvez” e “até” expressam circunstâncias de tempo."
+    ],
+    "answer": "A",
+    "explanation": "Gabarito definitivo do CESPE/UnB, Correios 2011, Tipo I: alternativa A.",
+    "page": 11,
+    "rect": [
+      25.0,
+      608.8717651367188,
+      300.6199951171875,
+      802.0
+    ],
+    "images": [],
+    "raw": "A respeito de aspectos linguísticos do texto, assinale a opção\ncorreta.\n\nA  No primeiro verso, a expressão “estas mal traçadas linhas” é\n   um dos complementos da forma verbal “Escrevo”.\nB  As expressões “meu amor” (v.1) e “por favor” (v.3) exercem a\n    função de aposto.\nC  No pedido de desculpa pelos erros (v.3), o autor da carta\n    comete o seguinte erro: emprego da forma verbal “desculpes”,\n   em vez de desculpe.\nD  Os termos “Porque” (v.2) e “Porém” (v.7) estabelecem, nos\n     respectivos trechos, semelhantes relações de sentido.\nE  No verso  5, os vocábulos “Talvez” e  “até” expressam\n     circunstâncias de tempo.",
+    "shared": {
+      "text": "A Carta\n                          Benil Santos e Raul Sampaio\n\n1   Escrevo-te estas mal traçadas linhas, meu amor\n   Porque veio a saudade visitar meu coração\n   Espero que desculpes os meus erros, por favor\n4   Nas frases desta carta, que é uma prova de afeição.\n    Talvez tu não a leias, mas quem sabe até darás\n   Resposta imediata me chamando de “Meu Bem”.\n7  Porém o que me importa é confessar-te uma vez mais:\n   Não sei amar na vida mais ninguém.",
+      "page": 11,
+      "images": []
+    }
+  },
+  {
+    "slug": "correios-2011-atendente-comercial",
+    "number": 55,
+    "subject": "Língua Portuguesa",
+    "text": "No quinto verso, o pronome “a” refere-se a",
+    "support": "A Carta\n                          Benil Santos e Raul Sampaio\n\n1   Escrevo-te estas mal traçadas linhas, meu amor\n   Porque veio a saudade visitar meu coração\n   Espero que desculpes os meus erros, por favor\n4   Nas frases desta carta, que é uma prova de afeição.\n    Talvez tu não a leias, mas quem sabe até darás\n   Resposta imediata me chamando de “Meu Bem”.\n7  Porém o que me importa é confessar-te uma vez mais:\n   Não sei amar na vida mais ninguém.",
+    "support_image": "",
+    "options": [
+      "“carta” (v.4).",
+      "“prova” (v.4).",
+      "“afeição” (v.4).",
+      "“Resposta” (v.6).",
+      "“saudade” (v.2)."
+    ],
+    "answer": "A",
+    "explanation": "Gabarito definitivo do CESPE/UnB, Correios 2011, Tipo I: alternativa A.",
+    "page": 11,
+    "rect": [
+      300.6199951171875,
+      59.271697998046875,
+      570.0,
+      214.6317138671875
+    ],
+    "images": [],
+    "raw": "No quinto verso, o pronome “a” refere-se a\n\n\n\nA  “carta” (v.4).\n\nB  “prova” (v.4).\n\nC  “afeição” (v.4).\n\nD  “Resposta” (v.6).\n\nE  “saudade” (v.2).",
+    "shared": {
+      "text": "A Carta\n                          Benil Santos e Raul Sampaio\n\n1   Escrevo-te estas mal traçadas linhas, meu amor\n   Porque veio a saudade visitar meu coração\n   Espero que desculpes os meus erros, por favor\n4   Nas frases desta carta, que é uma prova de afeição.\n    Talvez tu não a leias, mas quem sabe até darás\n   Resposta imediata me chamando de “Meu Bem”.\n7  Porém o que me importa é confessar-te uma vez mais:\n   Não sei amar na vida mais ninguém.",
+      "page": 11,
+      "images": []
+    }
+  },
+  {
+    "slug": "correios-2011-atendente-comercial",
+    "number": 56,
+    "subject": "Língua Portuguesa",
+    "text": "Quino. Toda Mafalda. Trad. Andréa Stahel M. da Silva et. al. São Paulo: Martins Fontes, 1993, p. 105. Considerando essa história em quadrinhos, assinale a opção correta.",
+    "support": "",
+    "support_image": "",
+    "options": [
+      "No último quadrinho, o personagem demonstra dúvida quanto ao procedimento que adotará para registrar as respostas de todos os entrevistados.",
+      "Entende-se da história apresentada que o personagem agirá com indiferença em relação às respostas dos entrevistados.",
+      "Não seriam contrariadas as normas gramaticais caso fosse inserida uma vírgula logo após a palavra “armazém”, na frase do primeiro quadrinho.",
+      "Seria mantida a correção gramatical do texto caso, no segundo quadrinho, fosse suprimida a preposição “para”.",
+      "As atitudes do personagem representadas nos dois últimos quadrinhos conferem humor à história."
+    ],
+    "answer": "E",
+    "explanation": "Gabarito definitivo do CESPE/UnB, Correios 2011, Tipo I: alternativa E.",
+    "page": 11,
+    "rect": [
+      300.6199951171875,
+      225.59170532226562,
+      570.0,
+      802.0
+    ],
+    "images": [
+      [
+        393.239990234375,
+        239.39999389648438,
+        478.9010009765625,
+        363.8399963378906
+      ],
+      [
+        309.1199951171875,
+        239.39999389648438,
+        394.53900146484375,
+        363.8399963378906
+      ],
+      [
+        477.7200012207031,
+        239.39999389648438,
+        562.2000122070312,
+        363.8399963378906
+      ],
+      [
+        376.20001220703125,
+        365.3999938964844,
+        484.03900146484375,
+        489.8399963378906
+      ],
+      [
+        309.4800109863281,
+        365.3999938964844,
+        378.71502685546875,
+        489.8399963378906
+      ]
+    ],
+    "raw": "Quino. Toda Mafalda. Trad. Andréa Stahel M. da Silva\n                                                             et.  al.  São  Paulo:  Martins  Fontes,  1993,  p.  105.\n\nConsiderando essa história em quadrinhos, assinale a opção correta.\n\n\n\nA  No último quadrinho, o personagem demonstra dúvida quanto\n\n    ao procedimento que adotará para registrar as respostas de\n\n    todos os entrevistados.\n\nB  Entende-se da história apresentada que o personagem agirá\n\n   com indiferença em relação às respostas dos entrevistados.\n\nC  Não seriam contrariadas as normas gramaticais caso fosse\n\n     inserida uma vírgula logo após a palavra “armazém”, na frase\n\n    do primeiro quadrinho.\n\nD  Seria mantida a correção gramatical do texto caso, no segundo\n\n    quadrinho, fosse suprimida a preposição “para”.\n\nE  As atitudes do personagem representadas nos dois últimos\n\n    quadrinhos conferem humor à história."
+  },
+  {
+    "slug": "correios-2011-atendente-comercial",
+    "number": 57,
+    "subject": "Língua Portuguesa",
+    "text": "1 Aqui tudo bem, sem novidades. Vivo uma experiência rica ao lado desses cinquenta irmãos. A cada dia, aprendo a pertencer menos a mim e mais aos outros. Aqui ninguém tem 4 direitos sobre a maioria. O que é de um é de todos. Temos o dia todo para ouvir rádio, ler, estudar, jogar buraco ou bridge, conversar, contudo devemos dormir antes de 1 h e 7 acordar antes das 9 da manhã. Prefiro dormir às 23 h e levantar entre 6 h 30 min e 7 h, assim aproveito melhor o dia. Com o passar do tempo, é como se tivéssemos 10 escolhido viver dessa maneira. O organismo se adapta aos poucos, e ocorrem em nós certas modificações curiosas. Depois de certo tempo de prisão, não há nada de novo a ver e tocar. 13 Então se aguça o sentido auditivo. Qualquer ruído exterior é captado, a ponto de identificarmos a marca de um carro pelo simples barulho. Sabemos perfeitamente quando o caminhão do 16 boião entra no presídio ou o carcereiro sobe a escada em direção às celas. O embotamento de alguns sentidos faz despertar outros. Frei Betto. Cartas da prisão: 1969-1973. In: Internet: <www.freibetto.org> (com adaptações). Assinale a opção correta a respeito das relações gramaticais no fragmento de texto apresentado acima.",
+    "support": "",
+    "support_image": "",
+    "options": [
+      "A expressão “dessa maneira” (R.10) refere-se ao que é expresso no início do segundo parágrafo do texto.",
+      "Ao longo do texto, o autor emprega formas verbais na primeira pessoa do singular e na primeira pessoa do plural, tais como “Vivo” (R.1) e “Temos” (R.4), as quais evidenciam o objetivo de narrar uma história pessoal compartilhada por muitos no contexto apresentado.",
+      "Seriam prejudicadas a correção gramatical e a coerência do texto caso, na linha 11, o termo “em nós” fosse deslocado para imediatamente após “e”.",
+      "No trecho “O embotamento de alguns sentidos faz despertar outros” (R.17-18), o substantivo “embotamento” significa aguçamento dos sentidos, o qual é mencionado no trecho “Então se aguça o sentido auditivo” (R.13).",
+      "No trecho “pertencer menos a mim e mais aos outros” (R.3), estaria correto o emprego de acento indicativo de crase no “a” que precede o pronome “mim”, visto que a forma verbal “pertencer” rege complemento com ou sem a preposição a."
+    ],
+    "answer": "B",
+    "explanation": "Gabarito definitivo do CESPE/UnB, Correios 2011, Tipo I: alternativa B.",
+    "page": 12,
+    "rect": [
+      25.0,
+      59.271697998046875,
+      300.6199951171875,
+      576.769775390625
+    ],
+    "images": [],
+    "raw": "1         Aqui tudo bem, sem novidades. Vivo uma experiência\n     rica ao lado desses cinquenta irmãos. A cada dia, aprendo a\n    pertencer menos a mim e mais aos outros. Aqui ninguém tem\n  4  direitos sobre a maioria. O que é de um é de todos. Temos\n    o dia todo para ouvir rádio, ler, estudar, jogar buraco ou\n    bridge, conversar, contudo devemos dormir antes de 1 h e\n  7  acordar antes das 9 da manhã. Prefiro dormir às 23 h e levantar\n    entre 6 h 30 min e 7 h, assim aproveito melhor o dia.\n        Com o passar do tempo, é como se tivéssemos\n 10  escolhido viver dessa maneira. O organismo se adapta aos\n    poucos, e ocorrem em nós certas modificações curiosas. Depois\n    de certo tempo de prisão, não há nada de novo a ver e tocar.\n 13  Então se aguça o sentido auditivo. Qualquer ruído exterior é\n    captado, a ponto de identificarmos a marca de um carro pelo\n    simples barulho. Sabemos perfeitamente quando o caminhão do\n 16  boião entra no presídio ou o carcereiro sobe a escada em\n    direção às celas. O embotamento de alguns sentidos faz\n    despertar outros.\n\n                                                 Frei   Betto.   Cartas  da   prisão:   1969-1973.\n                                                       In:  Internet:  <www.freibetto.org> (com  adaptações).\n\nAssinale a opção correta a respeito das relações gramaticais no\nfragmento de texto apresentado acima.\n\nA A expressão “dessa maneira” (R.10) refere-se ao que é expresso\n    no início do segundo parágrafo do texto.\nB  Ao longo do texto, o autor emprega formas verbais na primeira\n    pessoa do singular e na primeira pessoa do plural, tais como\n    “Vivo” (R.1) e “Temos” (R.4), as quais evidenciam o objetivo\n    de narrar uma história pessoal compartilhada por muitos no\n    contexto apresentado.\nC  Seriam prejudicadas a correção gramatical e a coerência do\n     texto caso, na linha 11, o termo “em nós” fosse deslocado para\n    imediatamente após “e”.\nD  No trecho “O embotamento de alguns sentidos faz despertar\n    outros” (R.17-18), o substantivo “embotamento”  significa\n    aguçamento dos sentidos, o qual é mencionado no trecho\n    “Então se aguça o sentido auditivo” (R.13).\nE  No trecho “pertencer menos a mim e mais aos outros” (R.3),\n     estaria correto o emprego de acento indicativo de crase no “a”\n    que precede o pronome “mim”, visto que a forma verbal\n    “pertencer” rege complemento com ou sem a preposição a."
+  },
+  {
+    "slug": "correios-2011-atendente-comercial",
+    "number": 58,
+    "subject": "Língua Portuguesa",
+    "text": "No trecho “Em menos de um ano da implantação, grande número de voluntários procurou o serviço” (R.7-8), a palavra “voluntários” refere-se",
+    "support": "Experiências vencedoras do 7.º Concurso\n        de Inovações na Gestão Pública Federal (2002)\n\n  1      O Escreve Cartas é uma parceria dos Correios com o\n    governo do estado de São Paulo estabelecida com a finalidade\n    de implantar, nas unidades do Poupatempo, estandes onde\n  4  voluntários e funcionários dos Correios e do Poupatempo\n    auxiliam pessoas analfabetas a escreverem cartas. O programa\n    teve grande aceitação da população e grande repercussão na\n  7  mídia. Em menos de um ano da implantação, grande número de\n    voluntários procurou o serviço. Pessoas carentes de diversas\n    regiões do país receberam correspondências de familiares que\n 10  moram em São Paulo, graças a essa iniciativa dos Correios e do\n    governo estadual.\n\n                                                             Internet: <inovacao.enap.gov.br> (com adaptações).",
+    "support_image": "",
+    "options": [
+      "a pessoas “carentes” (R.8).",
+      "aos “Correios” (R.1).",
+      "ao “governo do estado de São Paulo” (R.2).",
+      "a pessoas “analfabetas” (R.5).",
+      "a pessoas da “população” (R.6)."
+    ],
+    "answer": "E",
+    "explanation": "Gabarito definitivo do CESPE/UnB, Correios 2011, Tipo I: alternativa E.",
+    "page": 12,
+    "rect": [
+      300.6199951171875,
+      59.271697998046875,
+      570.0,
+      204.67169189453125
+    ],
+    "images": [],
+    "raw": "No trecho “Em menos de um ano da implantação, grande número\nde voluntários procurou o serviço” (R.7-8), a palavra “voluntários”\nrefere-se\n\n\nA  a pessoas “carentes” (R.8).\nB  aos “Correios” (R.1).\nC  ao “governo do estado de São Paulo” (R.2).\nD  a pessoas “analfabetas” (R.5).\nE  a pessoas da “população” (R.6).",
+    "shared": {
+      "text": "Experiências vencedoras do 7.º Concurso\n        de Inovações na Gestão Pública Federal (2002)\n\n  1      O Escreve Cartas é uma parceria dos Correios com o\n    governo do estado de São Paulo estabelecida com a finalidade\n    de implantar, nas unidades do Poupatempo, estandes onde\n  4  voluntários e funcionários dos Correios e do Poupatempo\n    auxiliam pessoas analfabetas a escreverem cartas. O programa\n    teve grande aceitação da população e grande repercussão na\n  7  mídia. Em menos de um ano da implantação, grande número de\n    voluntários procurou o serviço. Pessoas carentes de diversas\n    regiões do país receberam correspondências de familiares que\n 10  moram em São Paulo, graças a essa iniciativa dos Correios e do\n    governo estadual.\n\n                                                             Internet: <inovacao.enap.gov.br> (com adaptações).",
+      "page": 12,
+      "images": []
+    }
+  },
+  {
+    "slug": "correios-2011-atendente-comercial",
+    "number": 59,
+    "subject": "Língua Portuguesa",
+    "text": "A correção gramatical e a coerência do texto seriam mantidas caso se substituísse",
+    "support": "Experiências vencedoras do 7.º Concurso\n        de Inovações na Gestão Pública Federal (2002)\n\n  1      O Escreve Cartas é uma parceria dos Correios com o\n    governo do estado de São Paulo estabelecida com a finalidade\n    de implantar, nas unidades do Poupatempo, estandes onde\n  4  voluntários e funcionários dos Correios e do Poupatempo\n    auxiliam pessoas analfabetas a escreverem cartas. O programa\n    teve grande aceitação da população e grande repercussão na\n  7  mídia. Em menos de um ano da implantação, grande número de\n    voluntários procurou o serviço. Pessoas carentes de diversas\n    regiões do país receberam correspondências de familiares que\n 10  moram em São Paulo, graças a essa iniciativa dos Correios e do\n    governo estadual.\n\n                                                             Internet: <inovacao.enap.gov.br> (com adaptações).",
+    "support_image": "",
+    "options": [
+      "“receberam” (R.9) por recebeu.",
+      "“moram” (R.10) por mora.",
+      "“estabelecida” (R.2) por estabelecido.",
+      "“onde” (R.3) por no qual.",
+      "“procurou” (R.8) por procuraram."
+    ],
+    "answer": "E",
+    "explanation": "Gabarito definitivo do CESPE/UnB, Correios 2011, Tipo I: alternativa E.",
+    "page": 12,
+    "rect": [
+      300.6199951171875,
+      215.63168334960938,
+      570.0,
+      347.8316955566406
+    ],
+    "images": [],
+    "raw": "A correção gramatical e a coerência do texto seriam mantidas caso\nse substituísse\n\n\nA  “receberam” (R.9) por recebeu.\nB  “moram” (R.10) por mora.\nC  “estabelecida” (R.2) por estabelecido.\nD  “onde” (R.3) por no qual.\nE  “procurou” (R.8) por procuraram.",
+    "shared": {
+      "text": "Experiências vencedoras do 7.º Concurso\n        de Inovações na Gestão Pública Federal (2002)\n\n  1      O Escreve Cartas é uma parceria dos Correios com o\n    governo do estado de São Paulo estabelecida com a finalidade\n    de implantar, nas unidades do Poupatempo, estandes onde\n  4  voluntários e funcionários dos Correios e do Poupatempo\n    auxiliam pessoas analfabetas a escreverem cartas. O programa\n    teve grande aceitação da população e grande repercussão na\n  7  mídia. Em menos de um ano da implantação, grande número de\n    voluntários procurou o serviço. Pessoas carentes de diversas\n    regiões do país receberam correspondências de familiares que\n 10  moram em São Paulo, graças a essa iniciativa dos Correios e do\n    governo estadual.\n\n                                                             Internet: <inovacao.enap.gov.br> (com adaptações).",
+      "page": 12,
+      "images": []
+    }
+  },
+  {
+    "slug": "correios-2011-atendente-comercial",
+    "number": 60,
+    "subject": "Língua Portuguesa",
+    "text": "Até bem pouco tempo atrás, coisa de dez ou vinte anos, quando a Internet não era tão popular, se recebêssemos uma carta pelos Correios, nos sentíamos na obrigação, por cortesia e boa educação, de respondê-la, principalmente se viesse de alguém conhecido. Hoje, com a Internet, recebemos dezenas de mensagens por email, de conhecidos e desconhecidos, em um volume sobre- humano, muito além de nossa capacidade de conseguir ler, entender e responder. E se antes uma carta tinha endereço certo, hoje, as mensagens espalham-se em ondas, em cópias às claras ou ocultas, e a palavra privacidade parece ter perdido o significado. O mundo inteiro parece ter-se tornado uma espécie de reality show, em que a intimidade fica exposta para quem quiser espiar. Internet: <www.santacatarina24horas.com> (com adaptações). Da leitura do texto depreende-se que",
+    "support": "",
+    "support_image": "",
+    "options": [
+      "os emails são os causadores da perda de privacidade observada, hoje, em todo o mundo.",
+      "aumentou consideravelmente, nas duas últimas décadas, a quantidade de informações que circulam no mundo, fato que está relacionado à popularização da Internet.",
+      "o envio de correspondência pelos Correios foi extinto em razão das facilidades oferecidas pela Internet.",
+      "uma pessoa capaz de redigir muitos emails em um único dia mostra-se incapaz de redigir muitas cartas nesse mesmo período de tempo.",
+      "a carta torna obrigatória a resposta do destinatário ao remetente, o que nunca ocorre ao se enviar mensagem por email."
+    ],
+    "answer": "B",
+    "explanation": "Gabarito definitivo do CESPE/UnB, Correios 2011, Tipo I: alternativa B.",
+    "page": 12,
+    "rect": [
+      300.6199951171875,
+      358.79168701171875,
+      570.0,
+      802.0
+    ],
+    "images": [],
+    "raw": "Até bem pouco tempo atrás, coisa de dez ou vinte anos,\nquando a Internet não era tão popular, se recebêssemos uma carta\npelos Correios, nos sentíamos na obrigação, por cortesia e boa\neducação, de respondê-la, principalmente se viesse de alguém\nconhecido. Hoje, com a Internet, recebemos dezenas de mensagens\npor email, de conhecidos e desconhecidos, em um volume sobre-\nhumano, muito além de nossa capacidade de conseguir ler, entender\ne responder. E se antes uma carta tinha endereço certo, hoje, as\nmensagens espalham-se em ondas, em cópias às claras ou ocultas,\ne a palavra privacidade parece ter perdido o significado. O mundo\ninteiro parece ter-se tornado uma espécie de reality show, em que\na intimidade fica exposta para quem quiser espiar.\n\n\n                                                  Internet: <www.santacatarina24horas.com> (com adaptações).\n\n\nDa leitura do texto depreende-se que\n\n\nA  os  emails  são  os  causadores da  perda de  privacidade\n    observada, hoje, em todo o mundo.\nB  aumentou consideravelmente, nas duas últimas décadas, a\n    quantidade de informações que circulam no mundo, fato que\n     está relacionado à popularização da Internet.\nC  o envio de correspondência pelos Correios foi extinto em razão\n    das facilidades oferecidas pela Internet.\nD  uma pessoa capaz de redigir muitos emails em um único dia\n    mostra-se incapaz de redigir muitas cartas nesse mesmo\n    período de tempo.\nE  a  carta  torna  obrigatória a  resposta do  destinatário ao\n    remetente, o que nunca ocorre ao se enviar mensagem por\n    email."
+  }
+]

@@ -1,0 +1,1080 @@
+--- PAGE 1 ---
+
+
+--- PAGE 2 ---
+                                                                                CESPE/UnB – ECT
+
+C   Nas questões a seguir, marque, para cada uma, a única opção correta, de acordo com o respectivo comando. Para as devidas
+    marcações, use a Folha de Respostas, único documento válido para a correção das suas respostas.
+C   Nas questões que avaliam conhecimentos de informática, a menos que seja explicitamente informado o contrário, considere que todos
+    os programas mencionados estão em configuração padrão, em português, que o mouse está configurado para pessoas destras, que
+    expressões como clicar, clique simples e clique duplo referem-se a cliques com o botão esquerdo do mouse e que teclar corresponde
+    à operação de pressionar uma tecla e, rapidamente, liberá-la, acionando-a apenas uma vez. Considere também que não há restrições
+    de proteção, de funcionamento e de uso em relação aos programas, arquivos, diretórios, recursos e equipamentos mencionados.
+                     DISCIPLINA: INFORMÁTICA
+
+
+ QUESTÃO 1                                              QUESTÃO 4
+
+
+
+
+
+                                       A porta padrão que corresponde ao símbolo representado na figura
+                                                          acima — utilizada para a conexão de pendrive em um computador
+                            — é denominada
+
+                                A  USB.
+                                B  PS2.
+                                C  DB9.
+                                D  DIMM.
+                                E  HDMI.
+
+                                                        QUESTÃO 5
+
+                                                                Entre os componentes periféricos de um computador, constituem,
+                                                                  respectivamente, exemplos de dispositivos de entrada e de saída de
+                                                           dados de um computador
+Na  figura  acima,  identifica-se o componente de hardware,
+normalmente encontrado em computadores modernos, denominado  A  o mouse e o teclado.
+                                B  a impressora e o microfone.
+                                C  a impressora e o monitor LCD.A  disco rígido (HD).
+                                D  o teclado e o microfone.B  pendrive.                                E  o mouse e o monitor LCD.
+C  nobreak.
+D  gravador de DVD.                          A figura a seguir, que mostra a janela de um aplicativo do Windows
+                                                      XP, serve de base para as questões 6 e 7.
+E  placa-mãe.
+
+
+ QUESTÃO 2
+
+É responsável pela realização de cálculos matemáticos em um
+computador o componente de hardware denominado
+
+
+A  barramento do sistema.
+B   teclado.
+C  processador.
+D   byte.
+E  disquete.
+
+
+ QUESTÃO 3
+
+A  transferência,  para um  computador  local,  de  arquivos
+disponibilizados na  Internet é possível com a  utilização de
+protocolos. Assinale a opção que apresenta o nome de um dos    QUESTÃO 6
+protocolos comumente utilizados nessa transferência.                                       A  figura em questão mostra uma  janela correspondente ao
+                                                                      aplicativo
+A  email
+                                A  Windows Media.B  FTP
+                                B  Windows Player.
+C  chat
+                                C  Windows Paint.
+D  Orkut                            D  Windows Explorer.
+E  browser                          E  Windows WordPad.
+
+
+
+Cargo: Agente dos Correios – Atividade 3: Operador de Triagem e Transbordo                          Caderno 31-CINZA                          – 1 –
+
+--- PAGE 3 ---
+                                                                                CESPE/UnB – ECT
+
+
+ QUESTÃO 7                                        QUESTÃO 9
+
+Considerando a janela mostrada na figura, assinale a opção
+correta.
+
+
+A  Os atalhos, cuja função é facilitar o acesso rápido a
+    arquivos e pastas e, ainda, permitir que seja associado
+    resumo  a  esses  arquivos  e  pastas, podem  ser
+    devidamente configurados utilizando-se os recursos
+    disponibilizados no menu Favoritos dessa janela.
+B O aplicativo do Windows a que se refere a janela tem
+    por função principal exibir a estrutura hierárquica de
+    arquivos contidos na memória RAM do computador
+   bem como das unidades de rede que foram mapeadas
+    para letras A, C, D, E, F e G e associadas às unidades
+     físicas do computador.
+C  É possível a criação de uma nova subpasta dentro da
+    pasta Meu computador por meio de opção encontrada no
+   menu Ferramentas dessa janela.               A figura acima ilustra parte de uma janela em execução em um computador
+                                                 no qual está instalado o sistema operacional Windows XP. Essa janela, que
+D  Para se copiarem e colarem arquivos por meio da                                                           apresenta uma lista de programas em execução no computador, corresponde
+     janela  mostrada,  é  correto o  uso  dos  recursos   ao aplicativo denominado
+    disponibilizados no menu Arquivo.
+E  Por meio do aplicativo do Windows a que se refere a  A  Gerenciador de tarefas do Windows.
+     janela, é  possível  abrir uma  pasta que contenha  B   Painel de controle do Windows.
+                             C   Barra de ferramentas do Windows.    determinado arquivo e realizar operações que permitem
+                             D  menu Iniciar do Windows.    mover esse arquivo para outra pasta.
+                             E  Gerenciador de utilitários do Windows.
+ QUESTÃO 8
+                                                 QUESTÃO 10
+A janela Painel de controle do Windows XP disponibiliza ao
+usuário aplicativos capazes de auxiliá-lo na realização de
+tarefas que permitem personalizar o seu computador. Entre
+essas tarefas inclui-se a de instalar novos dispositivos de
+entrada e saída no computador, como placa de vídeo, placa
+de rede e placa de som, cujo assistente pode ser inicializado
+ao se aplicar clique duplo sobre o ícone
+
+
+
+                                                     Considerando a figura acima, que ilustra parte de uma janela do Microsoft
+A                        .                                      Excel 2007 com uma planilha em processo de edição, assinale a opção
+                                                                 correta.
+
+                             A  As informações contidas na janela mostrada evidenciam que o valor
+                                                              contido na célula D3 foi inserido por meio de digitação direta de valor
+B                         .                                                             pelo usuário, não podendo ter surgido como resultado da aplicação de
+                                                               fórmula.
+
+                             B  Por meio do botão          , é possível criar bordas para as células com
+                                                           formato de texto; bordas para células com formato de números devem
+C                .
+                                                                    ser criadas por meio do botão       .
+                             C  Para se alterar a orientação do conteúdo em determinada célula, como,
+                                                           por exemplo, na direção de uma das diagonais da célula, é correto o
+
+                                                         uso do botão       .
+D                     .
+                             D  As informações representadas pelos ícones        evidenciam que
+                                                                essa planilha Excel está configurada para a inserção apenas de texto e
+                                                        de números, e não, de figuras e imagens.
+                             E  Na situação da planilha mostrada, a célula D2 pode conter uma fórmula
+E                     .                                        do tipo =C2*B2.
+
+
+
+Cargo: Agente dos Correios – Atividade 3: Operador de Triagem e Transbordo                          Caderno 31-CINZA                          – 2 –
+
+--- PAGE 4 ---
+                                                                                CESPE/UnB – ECT
+
+                                                         Texto para as questões de 13 a 16
+ QUESTÃO 11
+                                            A figura abaixo mostra uma janela do Microsoft Word
+                                                            2007, em execução em um computador com sistema operacional
+                                                   Windows XP. Essa janela contém um documento em processo de
+                                                                   edição, no qual o trecho “Serviço internacional” está selecionado.
+
+
+
+
+
+Considerando a figura acima, que mostra parte de uma planilha em
+processo de edição no Microsoft Excel 2007, assinale a opção
+correta.
+
+                                                       QUESTÃO 13
+A  No Excel, após a criação de um gráfico, não é possível alterar
+    o seu estilo, sendo apenas possível alterar a posição de suas  Com base na janela do Microsoft Word 2007 ilustrada no texto,
+                                                                      assinale a opção correta.
+
+                                A  Para se numerarem as linhas do parágrafo do documento em
+     linhas por meio da ferramenta                 .                          edição que contém o trecho selecionado, é suficiente pressionar
+
+                                                                  simultaneamente e manter pressionadas as teclas       e       ;
+
+B A ferramenta            possibilita a criação de um modelo em                                                                                clicar o botão      e liberar finalmente as teclas pressionadas.
+    memória RAM para ser reutilizado na planilha em edição até
+    o fechamento da janela do Excel que contém a planilha em
+                                B  Na situação considerada, ao se clicar o botão         , o trecho
+    edição, sem que se tenha acesso a esse modelo a partir de
+                                                                     selecionado ficará com a cor do texto alterada para vermelho.     outras planilhas em futuras sessões de uso do Excel.
+C A planilha contém um gráfico do tipo barras com linhas                                C  Na situação considerada, ao se clicar o botão         , o trecho
+     irregulares.                                                                     selecionado será alterado e aparecerá em itálico e sublinhado,
+D  Para a criação do gráfico mostrado na figura, é necessário,                                                           ou seja, ficará na seguinte forma: Serviço internacional.
+     inicialmente, selecionar as três linhas da planilha que contêm
+                                D  Para se mover o trecho selecionado, de sua posição atual para    as células de A1 a G3.
+                                                    uma nova posição no documento em edição, é correto realizarE O conteúdo correspondente às células de A4 a G4 não está
+    representado no gráfico mostrado na planilha.
+                                                                  a seguinte sequência de ações: clicar o botão       , para recortar
+ QUESTÃO 12                                                o trecho selecionado; posicionar o ponto de inserção no local
+                                                                    para onde se deseja mover o trecho selecionado; clicar o botão
+
+                                                                                  Colar, em sua parte superior —    —, para colar o texto na
+                                                             nova posição.
+A figura acima ilustra parte de uma janela do Excel, na qual se
+destaca a ferramenta AutoSoma, recurso que pode ser corretamente  E  Na situação mostrada, ao se clicar o botão        , o parágrafo do
+utilizado, entre outras funcionalidades,                                                            documento em edição que contém o trecho selecionado ficará
+                                                                     alinhado tanto à direita, quanto à esquerda.
+A  para se classificarem, em ordem crescente ou decrescente,
+    dados numéricos que constituam o conteúdo de  células    QUESTÃO 14
+    previamente selecionadas.
+                                               Na janela do Microsoft Word 2007 ilustrada no texto, o campoB  para  se  proteger  o  conteúdo  de  células  previamente
+    selecionadas contra alterações não autorizadas, utilizando-se           informa
+    recursos de software antivírus.
+                                A  a intensidade da cor da fonte utilizada nas palavras queC  para se realizarem testes de integridade do conteúdo de células
+    previamente selecionadas, antes que uma fórmula seja aplicada      compõem o trecho selecionado.
+    ao conjunto dessas células.                  B  o tamanho da fonte utilizada no trecho selecionado.
+D  para se calcular a soma ou a média aritmética dos conteúdos  C  o espaçamento entre as linhas do parágrafo em que se encontra
+    numéricos de células adjacentes previamente selecionadas em      o trecho selecionado.
+   uma coluna ou em uma linha da planilha.                                D  a largura da coluna do parágrafo em que se encontra o trecho
+E  para que sejam preenchidos automaticamente os conteúdos de                                                                       selecionado.
+   um conjunto de células adjacentes, seguindo-se um padrão
+                                E  o tamanho da margem direita do parágrafo em que se encontra    estabelecido por  outro conjunto de  células previamente
+     selecionadas.                                            o trecho selecionado.
+
+
+
+Cargo: Agente dos Correios – Atividade 3: Operador de Triagem e Transbordo                          Caderno 31-CINZA                          – 3 –
+
+--- PAGE 5 ---
+                                                                                CESPE/UnB – ECT
+
+
+ QUESTÃO 15                                              QUESTÃO 18
+
+Na situação da janela do Microsoft Word 2007 mostrada no texto,  Com relação a conceitos, tecnologias e serviços associados à
+                                                                          Internet, assinale a opção correta.
+o uso do botão      permite                   A O Mozilla Firefox é um navegador web que permite o acesso
+                                                                  a conteúdo disponibilizado em páginas e sítios da Internet.
+                                B O Microsoft Office Access é um tipo de firewall que impedeA   aplicar realce no trecho selecionado, utilizando-se a cor
+                                                             que redes de computadores que façam parte da Internet sejam
+                                                                        invadidas.
+    predefinida no conjunto de botões             .                                C  Serviços de webmail consistem no uso compartilhado de
+B  excluir do documento em edição o trecho selecionado, sendo       software de grupo de discussão instalado em computador
+    o espaço que era ocupado por esse trecho substituído por        pertencente a uma rede local (LAN) para uso exclusivo, e em
+                                                                      segurança, dos computadores pertencentes a essa LAN.     caracteres em branco.
+                                D  Na conexão denominada banda  larga, para que usuários
+C   colorir, com a cor previamente definida por meio do conjunto                                                                           residenciais tenham acesso a recursos da Internet, exige-se o
+                                                                uso de cabos ópticos entre as residências dos usuários e seus
+    de botões             , o plano de fundo do trecho selecionado.         provedores de Internet.
+D   aplicar aos caracteres do trecho selecionado a cor definida pelo  E O protocolo TCP/IP é utilizado na Internet para operações de
+                                                                           transferência de arquivos quando se deseja garantir segurança
+    conjunto de botões           .                                sem o uso de software antivírus.
+E  copiar a formatação utilizada no local do documento onde o    QUESTÃO 19
+    trecho selecionado se encontra e aplicá-la em outro local do
+                                                                 Assinale a opção em que a expressão apresentada possui estrutura
+    documento.
+                                                                     correta de endereço de correio eletrônico.
+
+ QUESTÃO 16                          A  servidor:br.usuario.edu
+                                B  usuario@servidor.org.brConsidere que, para imprimir o conteúdo do documento em edição
+                                C  usuario/servidor/com/br
+na janela do Microsoft Word 2007 ilustrada no texto, pretenda-se
+                                D  servidor#usuario.org
+utilizar recursos desse aplicativo disponibilizados por meio do
+                                E  usuario&servidor.gov.br
+
+                                                       QUESTÃO 20
+conjunto de botões                                  . Nesse caso, para o acesso
+a esse conjunto de botões, visualizando-o na janela do Word, é
+suficiente, na referida janela do aplicativo, clicar
+
+
+A  o botão       .
+
+
+B  o botão            .                                          Considerando que a figura acima ilustre uma janela do Internet
+                                                               Explorer 8 (IE8) durante uma sessão de uso em um computador
+C  o menu                .                                 com sistema operacional Windows XP e que tenha sido realizada
+                                                 uma solicitação de conexão a uma página web cujo conteúdo aindaD  o campo                                   .
+                                                         não tenha sido carregado na área de páginas do IE8, assinale a
+E  o menu            .                                         opção correta.
+
+ QUESTÃO 17                          A O uso do botão         , na barra de ferramentas do IE8, permite
+                                                                     interromper o processo de carregamento da referida página.Em uma  apresentação que  esteja em  edição no  Microsoft
+PowerPoint 2007,
+                                B O uso do botão         , na barra de ferramentas do IE8, permite
+                                                                              ativar o modo de operação do IE8 denominado banda larga,
+A  para se inserir uma tabela em um eslaide, deve-se, inicialmente,       que acelera o processo de carregamento da referida página.
+     criá-la por meio do aplicativo Microsoft Excel.        C  Por meio do menu                     , é possível ativar o bloqueador
+B  ocultar um eslaide significa excluí-lo do documento referente       de pop-ups do IE8, o que impede que a referida página, ao ser
+    a essa apresentação.                                          completamente carregada, infecte o computador com vírus e
+                                                                       outros aplicativos maliciosos.
+C  para se inserir texto no formato sobrescrito ou subscrito em um
+     eslaide, deve-se utilizar o recurso denominado SmartArt.                                D  Por meio do conjunto de  botões              , na  barra de
+D  é possível inserir, em um eslaide, uma imagem criada a partir        ferramentas do IE8, é possível ajustar o tamanho da fonte que
+    do  aplicativo  Paint,  disponibilizado como  acessório do        será utilizada no conteúdo da referida página, quando ela for
+                                                                     apresentada na área de páginas do IE8, após o término do seu   Windows XP.
+                                                                    carregamento.
+E  para se inserir um clip-art em um eslaide, é necessário,                                E  As informações contidas na janela do IE8 são suficientes para
+    previamente, associar o conteúdo do clip-art a um hiperlink        se concluir corretamente que a página que está sendo carregada
+    direcionado para uma página da Internet.                         é a página inicial do IE8.
+
+
+
+Cargo: Agente dos Correios – Atividade 3: Operador de Triagem e Transbordo                          Caderno 31-CINZA                          – 4 –
+
+--- PAGE 6 ---
+                                                                                CESPE/UnB – ECT
+
+                     DISCIPLINA: MATEMÁTICA
+
+Texto para as questões 21 e 22
+                                                        QUESTÃO 25
+
+     Em 2010, entre 2% e 6% da população de uma cidade                                                        Se 540 catálogos do tipo A e 340 do tipo B forem separados em
+com 30.000 habitantes enviaram, por ocasião das festividades
+natalinas, cartões de felicitações a parentes e amigos. Sabe-se que      lotes, de modo que cada lote contenha catálogos dos dois tipos e
+cada habitante enviou, no máximo, um cartão.                      a mesma quantidade de catálogos de cada tipo, então a quantidade
+
+ QUESTÃO 21                                           máxima de lotes em que poderão ser separados esses catálogos
+Considerando-se que 25% dos referidos cartões tenham sido      será igual a
+enviados a moradores de cidades do estado de São Paulo, é correto
+afirmar que o número que expressa a quantidade de cartões
+                                 A  20.enviada a esse estado está entre
+                                 B  34.
+A  900 e 1.300.
+                                 C  54.B  1.300 e 1.700.
+C  1.700 e 2.100.                        D  10.
+D  100 e 500.
+                                 E  17.
+E  500 e 900.
+                                                       RASCUNHO
+ QUESTÃO 22
+
+Considerando-se que 45 dos cartões enviados pela população da
+referida cidade tenham sido devolvidos ao remetente, por erro no
+endereçamento, e que esse número corresponda a 5% dos cartões
+enviados, é correto afirmar que a porcentagem de habitantes que
+enviaram cartões de felicitações é igual a
+
+A  6%.
+B  2%.
+C  3%.
+D  4%.
+E  5%.
+
+ QUESTÃO 23
+
+Se 4 selos do tipo A e 4 selos do tipo B custam R$ 7,00 e se um
+selo do tipo A custa 50% a mais que um selo do tipo B, então
+8 selos do tipo A custam
+
+A  R$ 9,00.
+B  R$ 10,50.
+C  R$ 12,00.
+D  R$ 12,60.
+E  R$ 8,40.
+
+Texto para as questões 24 e 25
+
+
+     Uma empresa confeccionou catálogos dos tipos A e B
+para presentear seus clientes. Um catálogo do tipo A pesa 240 g e
+um do tipo B, 350 g. Os catálogos foram organizados em pacotes,
+contendo cada um deles apenas catálogos de um mesmo tipo.
+
+ QUESTÃO 24
+
+Com base nas informações do texto, é correto afirmar que, se
+todos os pacotes tiverem o mesmo peso e se esse peso for inferior
+a 10 kg, então cada pacote pesará
+
+A  8,3 kg.
+B  8,4 kg.
+C  8 kg.
+D  8,1 kg.
+E  8,2 kg.
+
+
+
+Cargo: Agente dos Correios – Atividade 3: Operador de Triagem e Transbordo                          Caderno 31-CINZA                          – 5 –
+
+--- PAGE 7 ---
+                                                                                CESPE/UnB – ECT
+
+
+ QUESTÃO 26                                              QUESTÃO 30
+
+Considere que, das correspondências que um carteiro deveria    De acordo com as informações do texto, se um boleto com valor
+                                                          de face de R$ 150,00 for pago 6 dias úteis antes do vencimento,entregar em determinado dia,   foram entregues pela manhã,   à
+                                                        o valor a ser pago será igual a
+tarde e 14 ficaram para ser entregues no dia seguinte. Nessa
+situação, a quantidade de correspondências entregue pelo carteiro   A  R$ 141,00.
+naquele dia foi igual a                       B  R$ 141,50.
+                                 C  R$ 144,00.
+A  98.                             D  R$ 149,00.
+B  112.                             E  R$ 138,00.
+C  26.
+D  66.                                                 RASCUNHO
+E  82.
+
+ QUESTÃO 27
+
+Estima-se que, em uma agência dos Correios, um grupo de
+6 funcionários igualmente eficientes atenda 100 clientes em
+45 minutos. Nessa situação, se outros 4 funcionários, com a
+mesma eficiência dos primeiros, forem adicionados ao grupo,
+então essas 100 pessoas serão atendidas em
+
+A  27 minutos.
+B  30 minutos.
+C  35 minutos.
+D  40 minutos.
+E  18 minutos.
+
+ QUESTÃO 28
+
+Considerando-se que duas caixas, A e B, tenham, ambas, a forma
+de um paralelepípedo retângulo, que a caixa A tenha arestas que
+meçam 27 cm, 18 cm e 9 cm, e a caixa B tenha arestas medindo o
+dobro das arestas da caixa A, é correto afirmar que o volume da
+caixa B corresponde a
+
+A  8 vezes o volume da caixa A.
+B  2 vezes o volume da caixa A.
+C  3 vezes o volume da caixa A.
+D  4 vezes o volume da caixa A.
+E  6 vezes o volume da caixa A.
+Texto para as questões 29 e 30
+
+     Em convênio firmado com o Banco Postal, uma rede de
+lojas autorizou esse estabelecimento a receber pagamentos de
+boletos de clientes da rede. Nos termos do referido convênio, o
+banco deve cobrar juros simples de 1% a cada dia útil de atraso no
+pagamento e usar essa mesma taxa para desconto sobre o valor no
+boleto, denominado valor de face, para cada dia útil de pagamento
+antecipado.
+
+ QUESTÃO 29
+
+Com base na situação descrita no texto, é correto afirmar que, se
+um boleto da referida rede de lojas, com valor de face de
+R$ 650,00, for pago com 10 dias úteis de atraso, o valor a ser pago
+será igual a
+
+A  R$ 660,00.
+B  R$ 715,00.
+C  R$ 718,00.
+D  R$ 651,00.
+E  R$ 656,50.
+
+
+
+Cargo: Agente dos Correios – Atividade 3: Operador de Triagem e Transbordo                          Caderno 31-CINZA                          – 6 –
+
+--- PAGE 8 ---
+                                                                                CESPE/UnB – ECT
+
+
+ QUESTÃO 31                                              QUESTÃO 32
+
+                                                              Considere que, independentemente de outros fatores, os valores de
+                Craque aposentado
+                                                                               tarifa cobrada sobre o valor declarado e o valor declarado sejam
+                                                          números diretamente proporcionais. Nesse caso, se um cidadão
+                                                            paga R$ 180,35 ao postar uma correspondência com valor        Ronaldo, o Fenômeno, está certo em parar agora?
+                                                                 declarado de R$ 1.500,00, em uma caixa de encomenda idêntica
+                                                               à citada no texto, com o mesmo valor do aviso de recebimento,
+                Sim: 84%     Não: 16%                 com a mesma origem e o mesmo destino, o valor do frete é
+
+                                 A  superior a R$ 150,00 e inferior a R$ 155,00.
+                                 Enquete em Veja.com. In: Veja, 23/2/2011, p. 38 (com adaptações).   B  superior a R$ 155,00 e inferior a R$ 160,00.
+                                 C  superior a R$ 160,00 e inferior a R$ 165,00.
+        Essa enquete está representada no diagrama retangular de   D  superior a R$ 165,00.
+12 cm de altura, ilustrado abaixo, em que x corresponde ao   E   inferior a R$ 150,00.
+
+comprimento da base do retângulo que representa os entrevistados     QUESTÃO 33
+que responderam sim à pergunta; o comprimento da base do     Se a caixa de encomenda citada no texto tiver a forma de um
+                                                                  paralelepípedo  retângulo,  cujas  arestas tenham  as medidas
+retângulo correspondente aos entrevistados que responderam não                                                                    apresentadas, então a área lateral dessa caixa será igual a
+à pergunta é igual a 4 cm.
+                                 A  0,008748 m2.
+                                 B  87,48 dm2.
+                                 C  8.748.000 mm2.
+                                 D  87.480 cm2.           não          sim              12 cm
+                                 E  0,08748 m2.
+                  4 cm                     x cm
+                                                       RASCUNHO
+
+
+Com base nesses dados, é correto afirmar que o valor de x é
+
+
+A  superior a 26 e inferior a 29.
+
+B  superior a 29.
+
+C   inferior a 20.
+
+D  superior a 20 e inferior a 23.
+
+E  superior a 23 e inferior a 26.
+
+Texto para as questões 32 e 33
+
+
+
+          Cálculo de preços e prazos de entrega
+
+
+
+
+
+                             Origem                 Destino
+
+ CEP:                    XXXXX–XXX          YYYYYY–YYY
+
+ Endereço                   A                  Rua B
+
+ Bairro                    C                D
+
+ Cidade/UF                   E               G
+
+ Prazo de entrega        dia da postagem + 2 dias úteis
+
+ Valor do frete        R$ 136,90
+
+                          aviso de recebimento: R$ 2,80
+ Serviços opcionais      valor declarado: R$ 1.200,00 – Tarifa: R$ 11,00
+                          caixa de encomenda (54 cm x 36 cm x 27 cm): R$ 14,45
+
+ Valor total          R$ 165,15
+
+                                  Figura  adaptada, com informações  hipotéticas, em um simulador
+                               de  preços  e  prazos  de  entrega, no  sítio  www.correios.com.br.
+
+
+
+Cargo: Agente dos Correios – Atividade 3: Operador de Triagem e Transbordo                          Caderno 31-CINZA                          – 7 –
+
+--- PAGE 9 ---
+                                                                                CESPE/UnB – ECT
+
+
+                                                       RASCUNHO
+ QUESTÃO 34
+
+     Em determinado dia, todas as correspondências recebidas
+na agência dos Correios da cidade Alfa destinavam-se apenas a
+moradores dos bairros X, Y e Z. Ao bairro X foi destinada metade
+das  correspondências  recebidas  na  agência  menos
+30 correspondências; ao bairro Y foi destinada a terça parte das
+correspondências restantes, isto é, depois de retiradas as do
+bairro X, e mais 70 correspondências; o bairro Z recebeu
+180 correspondências.
+
+O total de correspondências recebidas, nesse dia, na agência dos
+Correios da cidade Alfa foi
+
+A  superior a 680 e inferior a 700.
+B  superior a 700 e inferior a 720.
+C  superior a 720.
+D   inferior a 660.
+E  superior a 660 e inferior a 680.
+
+ QUESTÃO 35
+
+      Na compra de 2 frascos de tira-manchas, cada um deles
+ao custo de R$ 9,00; 6 frascos de limpador multiuso, cada um
+deles ao custo de R$ 2,00; 4 litros de desinfetante, cada um deles
+ao custo de R$ 1,50; e de 6 unidades de esponja dupla face, cada
+uma delas ao custo de R$ 2,00; um cliente pagou com 3 notas de
+R$ 20,00, tendo recebido R$ 19,20 de troco.
+
+Nesse caso, o cliente recebeu desconto de
+
+A  13%.
+B  14%.
+C  15%.
+D  16%.
+E  12%.
+
+ QUESTÃO 36
+
+        Vários jornais e revistas anunciaram, nos últimos meses,
+que o preço do quilo de picanha, corte preferido para o preparo de
+um bom churrasco, subiu 42%.
+
+Nesse caso, se um consumidor de picanha decidir manter o mesmo
+gasto mensal com a compra desse alimento, ele deverá diminuir o
+consumo em
+
+A  mais de 40% e menos de 44%.
+B  mais de 44% e menos de 48%.
+C  mais de 28% e menos de 32%.
+D  mais de 32% e menos de 36%.
+E  mais de 36% e menos de 40%.
+
+ QUESTÃO 37
+
+Considere que, em um investimento em caderneta de poupança, a
+taxa de juros seja de 0,6% ao mês. Nesse caso, se uma pessoa
+depositar R$ 1.000,00 em uma conta de poupança no dia
+1.o/6/2011  e não  fizer nenhuma  retirada, o  montante, no
+aniversário de dois meses desse depósito, será
+
+A  superior a R$ 1.014,00 e inferior a R$ 1.015,00.
+B  superior a R$ 1.015,00 e inferior a R$ 1.016,00.
+C  superior a R$ 1.016,00.
+D   inferior a R$ 1.013,00.
+E  superior a R$ 1.013,00 e inferior a R$ 1.014,00.
+
+
+
+Cargo: Agente dos Correios – Atividade 3: Operador de Triagem e Transbordo                          Caderno 31-CINZA                          – 8 –
+
+--- PAGE 10 ---
+                                                                                CESPE/UnB – ECT
+
+
+                                                       RASCUNHO
+ QUESTÃO 38
+
+Considere que sejam cobrados R$ 5,00 para o envio de uma carta
+comercial simples e uma carta comercial registrada, ambas de até
+20 g, e R$ 11,10 para o envio de 3 cartas comerciais simples e
+2 registradas, todas de até 20 g. Nessa situação, a diferença entre
+o preço cobrado para o envio de uma carta comercial registrada e
+o cobrado para o envio de uma carta comercial simples, ambas de
+até 20 g, é de
+
+A  R$ 2,60.
+B  R$ 2,70.
+C  R$ 2,80.
+D  R$ 2,90.
+E  R$ 2,50.
+
+ QUESTÃO 39
+
+                            10 m
+
+
+
+
+
+                                                6 m
+
+
+
+       10 m
+                                   6 m
+
+
+
+
+
+                                   2 m
+
+
+                     6 m
+
+Sabendo-se que todos os ângulos dos vértices do terreno ilustrado
+na figura acima medem 90o e que o metro quadrado do terreno
+custa R$ 120,00, é correto afirmar que o preço desse terreno é
+
+A  superior a R$ 9.900,00 e inferior a R$ 10.100,00.
+B  superior a R$ 10.100,00.
+C   inferior a R$ 9.500,00.
+D  superior a R$ 9.500,00 e inferior a R$ 9.700,00.
+E  superior a R$ 9.700,00 e inferior a R$ 9.900,00.
+
+ QUESTÃO 40
+
+      As remunerações brutas mensais — isto é, sem qualquer
+desconto — dos empregados de determinada empresa são
+calculadas com base na soma das seguintes quantidades:
+•    salário fixo, no valor de R$ 2.400,00, correspondente a
+    160 horas trabalhadas no mês;
+•   horas extras, definidas como a remuneração correspondente
+    à quantidade de horas e(ou) fração de hora que ultrapassar as
+    160 horas exigidas, multiplicada pelo valor de cada hora
+    completa, que é igual a R$ 15,00.
+Com base nessa situação hipotética e considerando-se que, em
+determinado mês, a remuneração bruta de um empregado dessa
+empresa foi igual a R$ 2.750,00, é correto afirmar que, nesse mês,
+esse empregado trabalhou durante 183 horas e
+
+A  20 minutos.
+B  25 minutos.
+C  30 minutos.
+D  10 minutos.
+E  15 minutos.
+
+
+
+Cargo: Agente dos Correios – Atividade 3: Operador de Triagem e Transbordo                          Caderno 31-CINZA                          – 9 –
+
+--- PAGE 11 ---
+                                                                                CESPE/UnB – ECT
+
+                      DISCIPLINA: PORTUGUÊS
+
+
+ QUESTÃO 41                                             QUESTÃO 43
+
+      Quem observa a trajetória dos Correios brasileiros há de       1      O  transcorrer  da   história  postal  corresponde
+                                                                  à crescente transformação histórica do próprio país, razão pela
+notar dois movimentos de sentidos opostos que se completam entre
+                                                                    qual conhecer os principais fatos ligados à implementação e ao
+si: um de reforma, outro de preservação; um conectado aos       4  aperfeiçoamento dos serviços postais fornece um panorama do
+vertiginosos avanços das comunicações do mundo globalizado;       desenvolvimento histórico brasileiro.
+outro voltado para a conservação da memória nacional e do valioso
+                                                                                                                                                                                          Idem, ibidem.
+patrimônio arquitetônico e cultural que lhes serve de suporte.
+Afinal, não é toda empresa que tem atrás de si um passado de mais   Emprega-se o sinal indicativo de crase em “corresponde à crescente
+de três séculos e meio de história.                                transformação histórica” (R.1-2) porque
+     A preocupação dos Correios em preservar um patrimônio
+                                A  a  expressão  “história  postal”  (R.1)  exige  complemento
+histórico, que é de todo o povo brasileiro, revela-se por meio da                                                                    antecedido por artigo definido feminino.
+restauração e reforma de seus prédios em  diversas  capitais  B  a forma verbal “corresponde” exige complemento regido da
+brasileiras,  transformando-os  em  importantes  centros  de       preposição a, e a expressão que a complementa é precedida do
+preservação e promoção cultural.                                          artigo definido a.
+                                C  a expressão “transformação histórica” deve ser imediatamente
+                                                            Internet: <www.correios.com.br> (com adaptações).       precedida da preposição a.
+                                D  a forma verbal “transcorrer” exige complemento regido da
+                                                                    preposição a.Depreende-se das ideias do texto que os Correios brasileiros
+                                E  a forma  verbal  “transcorrer”  (R.1)  foi transformada em
+                                                                        substantivo pela anteposição do artigo “O”.
+A  preenchem a lacuna deixada pelo povo brasileiro, que não se
+    importa com a conservação dos prédios de seu país.           QUESTÃO 44
+B  ignoram os avanços das comunicações do mundo globalizado.   Nas opções a seguir, são apresentados trechos adaptados de texto
+                                                                   extraído do sítio dos Correios na Internet. Assinale a opção em que
+C  procuram   constante   substituição  do  seu  patrimônio
+                                                       o trecho está gramaticalmente correto.
+     arquitetônico por prédios mais modernos.
+D  têm uma história de mais de 350 anos.            A  Com a chegada de Pedro Álvares Cabral ao Brasil, em 1500,
+                                                                       surgiu a primeira correspondência oficial ligada ao país. Nessa
+E  efetuam dois movimentos  contraditórios: conservação da
+                                                                                carta, Pero Vaz de Caminha relatava ao rei de Portugal, com
+    memória e promoção cultural.                                                                       notório entusiasmo, o descortinar de uma nova terra. Com esse
+                                                                    acontecimento, eternizado na história brasileira, estava sendo
+ QUESTÃO 42
+                                                                               escrita a primeira página da história do correio no Brasil.
+  1      Em menos de um mês de campanha, os Correios  B  Os primórdios dos serviços postais no Brasil Colônia reporta
+                                                              ao correio de Portugal e à sua atuação nesse novo território.    arrecadaram 103 toneladas de donativos para as vítimas das
+                                                                Durante os primeiros tempos da colonização, os portugueses
+    enchentes  no  Rio  de  Janeiro. A  campanha  Correios
+                                                             não dispunha de um sistema postal bem organizado, tendo, às
+  4  Solidariedade Expressa, iniciada em 24 de janeiro, encerrou-se                                                                        vezes, que recorrer ao de nações vizinhas.
+   em 16 de fevereiro. Nesse período, as agências dos Correios de  C  Nem a criação do Correio-Mor das Cartas do Mar, em 1673,
+    todo o Brasil aceitaram a postagem gratuita de donativos:       resolveram o problema de ligação postal entre a nova terra com
+                                                                  a metrópole. Assim, a dificuldade na comunicação entre  7  alimentos não perecíveis, vestuário, roupas de cama, mesa e
+                                                                      Portugal e o então Brasil Colônia fez com que fosse instituído,
+    banho,  calçados,  tendas e  barracas. Os produtos foram
+                                                                         definitiva  e  oficialmente,  em  1798,  os  Correios
+    encaminhados à Defesa Civil do Rio de Janeiro.                                                                   Marítimos. Anos depois, surgiu a necessidade de se promover
+                                                                  a expansão desses serviços para o interior da Colônia.
+                                                                                     Idem, ibidem.  D O progresso comercial advindo da chegada da família real no
+                                                          novo mundo abriu caminhos afim de que o serviço postal se
+As vírgulas nas linhas 7 e 8 são empregadas para separar                desenvolvesse. Esse fato permitiu a elaboração do primeiro
+                                                             Regulamento Postal do Brasil, o funcionamento regular dos
+                                                                    Correios Marítimos e a emissão de novos decretos que
+A  substantivos comuns que funcionam como sujeito.
+                                                                    criassem os Correios Interiores.
+B  termos de uma enumeração.                 E  Com o retorno de D. João VI, a Portugal, houveram períodos
+C  adjuntos adverbiais de modo.                                       bastantes conturbados, que culminou com a independência do
+                                                                          Brasil em  1822,  quando  os  Correios  desempenhou  oD  palavras  que  complementam  o  sentido  do  substantivo
+                                                                    importante papel de trazerem informações do Velho Mundo e
+    “postagem” (R.6).                                                                     aglutinarem aqui as forças em prol do rompimento com
+E  palavras que exercem função de aposto.                             Portugal.
+
+
+
+Cargo: Agente dos Correios – Atividade 3: Operador de Triagem e Transbordo                          Caderno 31-CINZA                         – 10 –
+
+--- PAGE 12 ---
+                                                                                CESPE/UnB – ECT
+
+Texto para as questões 45 e 46
+                                                       QUESTÃO 47
+
+  1          Durante o período imperial, os Correios do Brasil   Depreende-se das ideias do texto que
+    foram reorganizados, dando-se início ao processo de criação de
+    administrações de correios nas províncias. Sob as ordens de
+                                A  os carteiros entregam as correspondências nos centros de
+  4  D. Pedro II, as reformas postais instituíram o pagamento prévio
+                                                                           distribuição domiciliária.    de franquia unificada, lançaram os primeiros selos postais,
+    criaram o quadro de carteiros, as caixas postais e de coleta e o  B  os carteiros exercem outras funções além da entrega de
+  7  serviço de distribuição domiciliária de correspondência na                                                                      correspondências.
+    corte e nas províncias. Foi estabelecido o serviço telegráfico,
+                                C  cada carteiro percorre, diariamente, quase 400 quilômetros.
+    e o Brasil aderiu, por tratados, aos organismos internacionais
+ 10  de telecomunicações recém-criados.             D  menos de 50% dos funcionários da ECT são carteiros.
+
+                                E  a maior proporção de carteiros da ECT é formada de mulheres.
+                                                                                     Idem, ibidem.
+
+ QUESTÃO 45                                             QUESTÃO 48
+
+O texto permaneceria correto se a expressão “Foi estabelecido”  Em “Para atender” (R.1), o termo “Para” introduz oração que
+(R.8) fosse substituída por                                                                   expressa, no período, sentido de
+
+A  Estabeleceriam-se.
+                                A  oposição.B  Estabelecendo.
+C  Estabeleceu-se.                       B  causa.
+D  Estabeleceram-se.                      C  conclusão.
+E  Estabelecer-se-iam.                                D   finalidade.
+
+ QUESTÃO 46                          E  condição.
+
+Com base nas informações do texto, assinale a opção correta.
+                                                       QUESTÃO 49
+
+A A criação, no Brasil, do quadro dos carteiros resultou das   As opções a seguir contêm trechos adaptados de texto extraído do
+    reformas postais implementadas ainda no período imperial.                                                                               sítio dos Correios na Internet. Assinale a opção em que o trecho
+B  As  inovações no  serviço de  distribuição  domiciliar de
+                                                                apresentado está gramaticalmente correto.
+    correspondência contribuíram para a autonomia das províncias
+     brasileiras.
+C  Embora os Correios brasileiros datem do período imperial, é  A  Exemplo de ação de caráter social que envolve os carteiros e
+    recente a adesão do Brasil aos organismos internacionais de       tem tido grande recepitividade é o Papai Noel nos Correios.
+    comunicações.                                            Desde 1997, quando se transformou em projeto corporativo,
+D  Com as reformas  postais, surgiu o primeiro modelo de                                                                 passou a ser desenvolvido em todas 28 diretorias regionais.
+    correspondência na corte portuguesa.
+                                B Em 2009, dois estados testaram um novo modelo para o
+E A criação do serviço telegráfico foi determinante para a adesão
+    do Brasil aos organismos internacionais de comunicações.           projeto, segundo o qual só podem participar crianças que
+Texto para as questões 47 e 48                                   cursam até o último ano da 1.ª etapa do ensino fundamental (ou
+                                                                                 seja, até o 4.º ou 5.º ano) de instituições de ensino públicas
+  1          Para atender a um país com dimensões continentais        (municipais, estaduais ou federais), além de crexes e abrigos.
+   como o Brasil e fazer a entrega dos 8,3 bilhões de objetos
+                                C A intenção é contribuir para o alcance do 2.º objetivo de
+    por ano, a Empresa Brasileira de Correios e Telégrafos (ECT)
+                                                                 desenvolvimento do milenio da ONU: educação basica de  4  emprega mais de 56 mil carteiros, o que representa mais da
+    metade do efetivo da empresa. Desse total, cerca de 10% são       qualidade para todos.
+    mulheres. Juntos, os carteiros do Brasil percorrem, por dia,                                D Em 2009, os Correios receberam 1.981.000 cartas, de todos
+  7  cerca de 390 mil quilômetros, o equivalente a quase 10 voltas
+                                                                  os estados brasileiros, sendo que 21% foi adotado e atendido,
+    completas ao redor da Terra. Antes de sair às ruas para entregar
+                                                                  por pessoas, que desejavam colaborar para um Natal mais    as correspondências, os carteiros realizam uma parte do seu
+ 10  trabalho em centros de distribuição domiciliária (local onde a         solidário.
+    carga postal é separada por ordem de ruas e de numeração) e                                E  Os presentes são recebidos nas agências e entregues, em
+   em agências de correio com distribuição domiciliária (agências
+                                                                        regiões carentes dos grandes centros urbanos, por carteiros ou
+ 13  pequenas).
+                                                                       outros empregados dos Correios, às crianças que escreveram
+                                                                                     Idem, ibidem.        as cartas.
+
+
+
+Cargo: Agente dos Correios – Atividade 3: Operador de Triagem e Transbordo                          Caderno 31-CINZA                         – 11 –
+
+--- PAGE 13 ---
+                                                                                CESPE/UnB – ECT
+
+
+ QUESTÃO 50                                                 QUESTÃO 51
+
+     Com o desenvolvimento dos setores produtivos do Brasil na
+                                              Com relação às ideias do texto, assinale a opção correta.
+década de 60 do século XX, tornou-se necessária a reorganização do
+serviço postal por meio de um modelo mais moderno que o do
+Departamento de Correios e Telégrafos, subordinado ao Ministério da
+                                   A  Pode-se afirmar, com base no texto, que fumar menos é a
+Viação e Obras Públicas, que não apresentava infraestrutura compatível
+com as necessidades dos usuários.                                      melhor alternativa para quem não consegue parar de
+
+                                                                                            Idem, ibidem.       fumar.
+
+                                   B  Os cientistas descobriram que a maneira como se traga a
+Assinale a opção em que o trecho apresentado constitui continuação
+coerente e gramaticalmente correta para o trecho acima.                   fumaça do cigarro não interfere na quantidade de nicotina
+
+                                                                            inalada pelo fumante.A  Mesmo assim, nesse período a ECT consolidava, seu papel como
+    importante agente da ação social do governo, atuando no pagamento                                   C   Cientistas comprovam que o número de cigarros acesos é
+    de pensões e aposentadorias; na distribuição de livros escolares; no
+     transporte de doações em casos de calamidade.                         diretamente  proporcional  à  quantidade  de  nicotina
+B  Apesar disso, o surgimento da ECT correspondia à uma nova                                                                         absorvida pelos pulmões dos fumantes.
+    postura por parte dos poderes públicos, com relação a importância
+    das  comunicações  e,  particularmente  os  serviços  postais  e  D  De acordo com pesquisa realizada, fumantes inveterados
+     telegráficos, para o desenvolvimento do pais.
+                                                                 que passam a consumir menos cigarros efetuam tragadas
+C  Portanto paralelamente, a partir de 1980, se intensificavam a
+    preocupação com a ação cultural e o desenvolvimento de ações       mais prolongadas.
+    voltado a preservação do patrimônio cultural do Brasil, sobretudo
+                                   E  Depreende-se da leitura do texto que quem fuma pouco
+    no que referia-se a memória postal.
+D  Entretanto, esse ciclo de desenvolvimento correspondeu as novas      tem  menos  riscos  de  adquirir  câncer  e  doenças
+    necessidades de uma clientela que pouco a pouco, viram as
+                                                                                  respiratórias que os fumantes que consomem muitos
+     distâncias ser encurtadas e percorridas graças ao serviço postal, que
+    se estruturou e passou a desenvolver e oferecer produtos e serviços,        cigarros.
+    de acordo com a realidade do mercado e as necessidades de sua
+     clientela.                                                QUESTÃO 52
+E  No sentido de alcançar essa reorganização, foi criada, em 20 de
+                                              Com relação aos sentidos e aspectos gramaticais do texto,    março de 1969, pela Lei n.º 509, a ECT, empresa pública vinculada
+    ao Ministério das Comunicações.                                                                           assinale a opção correta.
+
+
+Texto para as questões 51 e 52
+                                   A  Seriam mantidas a correção gramatical e a coerência do
+  1         Fumantes que diminuem o número de cigarros podem não
+                                                                               texto caso a palavra ‘Se’ (R.13) fosse substituída por     estar necessariamente reduzindo a quantidade de toxinas que inalam.
+  Um estudo realizado por Dorothy Hatsukami e outros pesquisadores       Caso.
+  4  da Universidade de Minnesota revelou que fumantes inveterados
+    que diminuem a frequência de suas tragadas ainda assim respiram  B A  substituição da forma verbal “revelou”  (R.4) por
+    duas vezes mais toxinas por cigarro que as pessoas que fumam
+                                                                 revelaram manteria a correção gramatical e o sentido
+  7  menos. Quando eles acendem menos cigarros, compensam os níveis
+    menores de nicotina inalando a fumaça de forma mais profunda ou        original do texto.
+    demorada. O estudo é consistente com trabalhos epidemiológicos
+                                   C  Estaria mantido o sentido do texto caso a palavra recentes
+ 10  anteriores, que revelaram que indivíduos que diminuíram o número
+    de cigarros fumados não reduziram riscos à saúde. Moral da        fosse empregada no lugar de “inveterados” (R.4).
+     história: “pode não haver benefício em fumar menos”, conclui a
+                                   D A supressão da vírgula após a palavra “cigarros” (R.7) não 13  pesquisadora. “Se os fumantes querem mesmo diminuir o risco de
+    câncer e doenças”, ela acrescenta, “precisam é parar de fumar”.                                                                               prejudicaria a correção gramatical do período.
+
+                                                     Scientific American Brasil, n.º 4, 2010, p. 11 (com adaptações).  E  As aspas empregadas no texto delimitam citação.
+
+
+
+Cargo: Agente dos Correios – Atividade 3: Operador de Triagem e Transbordo                          Caderno 31-CINZA                         – 12 –
+
+--- PAGE 14 ---
+                                                                                CESPE/UnB – ECT
+
+Texto para as questões 53 e 54                              Texto para as questões 55 e 56
+
+  1         Normalmente as pessoas se mostram divididas em       1        Os dados chocam: metade dos jovens de 15 a 17 anos
+    relação à percepção de acontecimentos bons ou ruins. Uma       de idade estão fora do ensino médio, informa reportagem
+    variação genética comum pode estar por trás dessas tendências       publicada na Folha, em março  deste  ano.  Parte  desse
+  4  para o otimismo ou pessimismo. Cientistas da Universidade de       4  contingente estuda, com atraso, no ensino fundamental; outra
+    Essex,  na  Inglaterra,  investigaram  a  serotonina,  um        parte, a face mais preocupante dessa estatística, deixou para
+    neurotransmissor ligado ao humor, e estudaram a preferência         trás os bancos escolares.
+  7  de 97 voluntários relativamente a diferentes tipos de imagens.       7         “Os alunos encontram um ensino médio organizado
+                                                 em  torno de um número muito  grande de  disciplinas,    Pessoas em que se identificou apenas a versão longa do gene
+                                                                    sobrecarregadas de conteúdos mais voltados para vestibulares,    para a proteína transportadora de serotonina — que controla os
+                                                                  muitos deles sem significado para suas vidas”, diz o presidente 10  níveis do neurotransmissor nas células do cérebro — tenderam      10
+                                                              da Câmara de Educação Básica do Conselho Nacional de    a prestar atenção em figuras agradáveis (como imagens de
+                                                                Educação.    chocolates) e evitaram as negativas (como fotografias de
+                                                                                                 13      O  Conselho  Nacional  de  Educação   discute, 13  aranhas). As pessoas com a forma curta do gene apresentaram
+                                                                      atualmente, a atualização das diretrizes curriculares para o
+    preferências  opostas,  embora  não  tão  fortemente.  Os
+                                                                    ensino médio. Um dos programas que tem servido de base para
+     resultados, que ajudam a explicar por que algumas pessoas são
+                                                                                                 16  a discussão é o Ensino Médio Inovador, criado e financiado
+ 16  menos suscetíveis à ansiedade e depressão, podem inspirar
+                                                                    pelo Ministério da Educação e implementado em 357 escolas
+    terapeutas a ajudar outras a ver o lado bom das coisas.
+                                                          do país em 2010. De acordo com o programa, que se baseia em
+                                                                                     Idem, ibidem.      19  quatro eixos: trabalho, ciência, tecnologia e cultura, cada
+                                                                       escola criaria seu plano de ação pedagógica, podendo eleger
+ QUESTÃO 53
+                                               um desses eixos como principal ou misturá-los em atividades
+Com relação a aspectos linguísticos do texto, assinale a opção      22  complementares, a serem desenvolvidas até fora da sala de
+correta.                                                                     aula.  Outros  focos  são  leitura,  artes  e  atividades em
+                                                                            laboratórios. Para isso, a carga horária passaria das 2.400 horas
+A A oração “que controla os níveis do neurotransmissor nas      25  anuais obrigatórias para 3.000 e a dedicação dos professores
+     células do cérebro” (R.9-10) pode ser reescrita, com correção        passaria a ser integral.
+    gramatical e sem prejuízo para o sentido do texto, da seguinte
+                                                                                                                                                                                     Internet: <www.folha.uol.com.br> (com adaptações).
+    forma: onde se retém os patamares neurotransmissores das
+     células cerebrais.                                      QUESTÃO 55
+B  Os parênteses que delimitam a expressão “como imagens de  Com base nas informações do texto, é correto afirmar que
+    chocolates” (R.11-12) podem ser substituídos, sem prejuízo à
+    correção do texto, por travessões.               A  a exigência de dedicação integral dos professores no ensino
+C A substituição de “embora” (R.14) por ou não prejudicaria      médio constitui garantia de qualidade das aulas ministradas.
+    a correção nem o sentido do texto.              B  a maior parte dos jovens entre 15 e 17 anos de idade não
+D  Na linha 17, após o vocábulo “outras”, está subentendida a        frequenta a escola.
+    palavra “terapeutas”.                    C  a sobrecarga de conteúdos que não fazem sentido para o aluno
+                                                                  é o fator primordial da evasão escolar no ensino médio.E O emprego de vírgula logo após o termo “Normalmente” (R.1)
+                                D  há necessidade de mudança no ensino médio para torná-lo mais     prejudicaria a correção gramatical, mas não alteraria o sentido
+                                                                             atrativo e significativo para os jovens.    do texto.
+                                E  as atividades complementares propostas pelas escolas devem
+ QUESTÃO 54                                                               ser realizadas fora da sala de aula.
+Assinale a opção correta de acordo com as informações do texto.    QUESTÃO 56
+
+A   Infere-se do texto que pessoas otimistas são mais suscetíveis à  Com relação a aspectos estruturais do texto, assinale a opção
+                                                                         correta.    depressão, porque se decepcionam mais.
+B  De acordo com pesquisa realizada em universidade inglesa,
+                                A O termo “os bancos escolares” (R.6) exerce a função de adjunto
+    quanto maior o nível de serotonina no cérebro, maior a
+                                                                       adverbial de lugar.
+    disposição da pessoa para ajudar o próximo.
+                                B O pronome ‘deles’ (R.10) está empregado em referência a
+C  Segundo pesquisadores ingleses, pode haver uma explicação
+                                                                            ‘vestibulares’ (R.9).
+    genética  para  a  tendência humana  ao  otimismo  e  ao
+                                C O sinal de dois-pontos empregado após a palavra “eixos” (R.19)
+    pessimismo.
+                                                                       introduz uma oração explicativa.
+D  Estudo científico comprova que são geralmente otimistas os
+                                D  Com a supressão da vírgula logo após a palavra “pedagógica”
+    indivíduos que possuem a versão curta do gene para a proteína
+                                                                                  (R.20), seriam preservados o sentido e a correção gramatical do
+    transportadora de serotonina.
+                                                                               texto.
+E  Conforme a pesquisa referida no texto, os pessimistas tendem                                E A forma verbal “estão” (R.2) pode ser substituída por está, sem
+    a evitar imagens negativas e desagradáveis.                                                                        prejuízo à correção gramatical e à coerência do texto.
+
+
+
+Cargo: Agente dos Correios – Atividade 3: Operador de Triagem e Transbordo                          Caderno 31-CINZA                         – 13 –
+
+--- PAGE 15 ---
+                                                                                CESPE/UnB – ECT
+
+Texto para as questões 57 e 58                              Texto para as questões 59 e 60
+
+  1        Que tipo de gente joga lixo na rua pela janela do carro       1           Cartão-postal brasileiro, o vasto litoral do Rio de
+    ou deixa a praia emporcalhada quando sai? Uma das respostas        Janeiro, um patrimônio natural de 246 quilômetros de areias
+    corretas é: um tipo que está se tornando mais raro. Sim. A atual                                                                     pontilhado por montanhas, virou um caso emblemático de
+  4  geração de adultos foi criança em um tempo em que jogar       4  regressão a estágios civilizacionais mais primitivos. Para se ter
+    papel de bala ou caixa vazia de biscoitos pela janela do carro
+                                                    uma ideia, 3.000 toneladas de lixo, só no mês de janeiro, foram
+    quase nunca provocava uma bronca paterna. Foi adolescente
+                                                                        recolhidas das praias cariocas — guimbas de cigarro, palitos de
+  7  quando amassar o maço vazio de cigarros e chutá-lo para longe
+                                                                                                  7  picolé, cocô de cachorro e restos de alimento. Empilhadas,
+    não despertava, na audiência, nenhuma reação especial, além
+                                                                       essas evidências de vida pouco inteligente lotariam cinco
+    de um “vai ser perna de pau assim na China”. Chegou à idade
+                                                                         piscinas olímpicas. Resume o historiador Marco Antonio Villa:
+ 10  adulta dando como certo que aquelas pessoas de macacão com
+                                                                                                 10  “Ao  contrário do  cidadão dos  países  desenvolvidos, o    a sigla do serviço de limpeza urbana estampada nas costas
+                                                                              brasileiro só vê como responsabilidade sua própria casa e não    precisam trabalhar e, por isso, deve contribuir sujando as ruas.
+ 13  Bem, isso mudou. O espírito do nosso tempo pode não impedir,        nutre nenhum senso de dever sobre os espaços que compartilha
+    mas, pelo menos, não impele mais ninguém com algum grau de      13  com os outros — um claro sinal de atraso”.
+    conexão com o atual estágio civilizatório da humanidade a se
+                                                                                                                                                                                          Idem, ibidem. 16   livrar de detritos em lugares públicos sem que isso tenha um
+    peso, uma consequência. É feio. É um ato que contraria a ideia    QUESTÃO 59
+    tão prevalente da sustentabilidade do planeta e da preciosidade
+                                             No que se refere à estrutura gramatical do texto, assinale a opção
+ 19  que são os mananciais de água limpa, as porções de terra não
+                                                                         correta.
+    contaminadas e as golfadas de ar puro. E, no entanto, as
+    pessoas ainda sujam, e muito, as cidades impunemente.
+                                A O vocábulo “cidadão” apresenta duas formas corretas de
+                                                           Veja, 9/3/2011, p. 72-3 (com adaptações).         plural: cidadãos e cidadões.
+ QUESTÃO 57                          B O emprego da preposição “com” (R.13) é exigência sintática da
+                                                              forma verbal “compartilha” (R.12).
+Com base na leitura do texto, é correto afirmar que
+                                C  Na linha 12, o emprego da terceira pessoa do plural em
+A   sujar ruas, calçadas ou praias, no estágio civilizatório atual,       “compartilha” — que passaria a compartilham — preservaria
+    gera implicações financeiras.                                    a correção gramatical e o sentido original do texto.
+B  o comportamento atual do brasileiro, pautado na ideia de  D  Os vocábulos “quilômetros”, “emblemático” e “picolé” são
+     sustentabilidade e preservação do planeta, tem impedido o       acentuados de acordo com a mesma regra de acentuação
+    descarte de lixo em lugares inapropriados.                             gráfica.
+C  as novas gerações são mais conscientes da necessidade de  E A substituição da preposição “por” (R.3) por de prejudica a
+    preservar o meio ambiente.                                       correção gramatical e a coerência do período.
+D  jogar lixo nas ruas sempre foi alvo de recriminação, seja no
+                                                       QUESTÃO 60
+    âmbito familiar, seja no governamental.
+E  a profissão de gari deixaria de existir se não houvesse lixo nas   Considerando as ideias e a estruturação sintática do texto, assinale
+     ruas.                                                      a opção correta.
+
+ QUESTÃO 58
+                                A  Atribui-se ao turismo intenso na cidade do Rio de Janeiro a
+Com relação aos sentidos e aspectos linguísticos do texto, assinale
+                                                                      responsabilidade pela grande quantidade de lixo retirada das
+a opção correta.
+                                                                          praias cariocas.
+
+                                B  Na opinião do historiador Marco Antonio Villa, o povo
+A A forma verbal “impele” (R.14) significa desencoraja.
+                                                                              brasileiro não se sente responsável pelo cuidado dos espaços
+B O termo “prevalente” (R.18) poderia ser substituído, sem
+                                                             que compartilha com os outros.
+    prejuízo à correção e ao sentido do texto, por preventiva.
+                                C  Na linha 6, a substituição do travessão por dois-pontosC O vocábulo “emporcalhada” (R.2) é formado por processo de
+                                                                          prejudicaria a correção gramatical do texto.    composição.
+D O sujeito das orações “Foi adolescente” (R.6) e “Chegou à  D  É possível afirmar que, em países desenvolvidos, as pessoas
+    idade adulta” (R.9-10) remete a “A atual geração de adultos”       preocupam-se mais com a limpeza de locais públicos do que
+     (R.3-4).                                            com suas próprias casas.
+E  No trecho “Chegou à idade” (R.9), é facultativo o emprego do  E O sujeito da oração “Resume o historiador Marco Antonio
+     sinal indicativo de crase.                                            Villa” (R.9) está oculto.
+
+
+
+Cargo: Agente dos Correios – Atividade 3: Operador de Triagem e Transbordo                          Caderno 31-CINZA                         – 14 –
+
+--- PAGE 16 ---

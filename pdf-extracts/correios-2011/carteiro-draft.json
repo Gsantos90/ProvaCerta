@@ -1,0 +1,1785 @@
+[
+  {
+    "slug": "correios-2011-carteiro",
+    "number": 1,
+    "subject": "Informática",
+    "text": "Com base na figura acima, que ilustra uma janela em que estão listados cinco arquivos armazenados no disco rígido de um computador, e considerando que o ícone associado a cada um desses arquivos indica corretamente o programa utilizado na criação do arquivo, assinale a opção correspondente ao arquivo que pode ser corretamente aberto, editado e salvo em seu formato original com o programa Microsoft PowerPoint.",
+    "support": "",
+    "support_image": "",
+    "options": [
+      "arquivo-e.ppt",
+      "arquivo-a.doc",
+      "arquivo-b.pdf",
+      "arquivo-c.txt",
+      "arquivo-d.xls"
+    ],
+    "answer": "A",
+    "explanation": "Gabarito definitivo do CESPE/UnB, Correios 2011, Tipo I: alternativa A.",
+    "page": 2,
+    "rect": [
+      25.0,
+      162.47171020507812,
+      595.0,
+      484.631591796875
+    ],
+    "images": [
+      [
+        184.1999969482422,
+        168.95999145507812,
+        411.2449951171875,
+        347.3999938964844
+      ]
+    ],
+    "raw": "Com base na figura acima, que ilustra uma janela em que estão listados cinco arquivos armazenados no disco rígido de um computador,\ne considerando que o ícone associado a cada um desses arquivos indica corretamente o programa utilizado na criação do arquivo, assinale\na opção correspondente ao arquivo que pode ser corretamente aberto, editado e salvo em seu formato original com o programa Microsoft\nPowerPoint.\n\nA  arquivo-e.ppt\nB  arquivo-a.doc\nC  arquivo-b.pdf\nD   arquivo-c.txt\nE  arquivo-d.xls"
+  },
+  {
+    "slug": "correios-2011-carteiro",
+    "number": 2,
+    "subject": "Informática",
+    "text": "Entre os componentes de informática mostrados na figura acima, comumente utilizados em conjunto com um computador, aquele que corresponde a um periférico usado para entrada de dados é",
+    "support": "",
+    "support_image": "",
+    "options": [
+      "o alto-falante.",
+      "o teclado.",
+      "o conector RJ45.",
+      "a impressora.",
+      "o monitor LCD."
+    ],
+    "answer": "B",
+    "explanation": "Gabarito definitivo do CESPE/UnB, Correios 2011, Tipo I: alternativa B.",
+    "page": 2,
+    "rect": [
+      25.0,
+      495.5915832519531,
+      595.0,
+      802.0
+    ],
+    "images": [
+      [
+        164.16000366210938,
+        503.39996337890625,
+        432.0509948730469,
+        678.8399658203125
+      ]
+    ],
+    "raw": "Entre os componentes de informática mostrados na figura acima, comumente utilizados em conjunto com um computador, aquele que\ncorresponde a um periférico usado para entrada de dados é\n\nA  o alto-falante.\nB  o teclado.\nC  o conector RJ45.\nD  a impressora.\nE  o monitor LCD."
+  },
+  {
+    "slug": "correios-2011-carteiro",
+    "number": 3,
+    "subject": "Informática",
+    "text": "Na computação básica, os computadores realizam operações de acordo com um sistema de numeração embasado nos números 0 e 1. Esse sistema é denominado",
+    "support": "",
+    "support_image": "",
+    "options": [
+      "binário.",
+      "octal.",
+      "quântico.",
+      "decimal.",
+      "hexadecimal."
+    ],
+    "answer": "A",
+    "explanation": "Gabarito definitivo do CESPE/UnB, Correios 2011, Tipo I: alternativa A.",
+    "page": 3,
+    "rect": [
+      25.0,
+      67.91171264648438,
+      302.8999938964844,
+      200.71173095703125
+    ],
+    "images": [],
+    "raw": "Na computação  básica, os computadores realizam operações\nde acordo com um sistema de numeração embasado nos números\n0 e 1. Esse sistema é denominado\n\nA   binário.\nB   octal.\nC  quântico.\nD  decimal.\nE  hexadecimal."
+  },
+  {
+    "slug": "correios-2011-carteiro",
+    "number": 4,
+    "subject": "Informática",
+    "text": "O componente apresentado na figura acima, encontrado em qualquer computador moderno, é denominado",
+    "support": "",
+    "support_image": "",
+    "options": [
+      "memória RAM.",
+      "disco rígido.",
+      "pendrive.",
+      "CPU risk.",
+      "disco CISC."
+    ],
+    "answer": "A",
+    "explanation": "Gabarito definitivo do CESPE/UnB, Correios 2011, Tipo I: alternativa A.",
+    "page": 3,
+    "rect": [
+      25.0,
+      211.67172241210938,
+      302.8999938964844,
+      438.67169189453125
+    ],
+    "images": [
+      [
+        89.5199966430664,
+        219.5999755859375,
+        229.23199462890625,
+        311.15997314453125
+      ]
+    ],
+    "raw": "O componente apresentado na  figura acima, encontrado em\nqualquer computador moderno, é denominado\n\nA  memória RAM.\nB  disco rígido.\nC  pendrive.\nD  CPU risk.\nE  disco CISC."
+  },
+  {
+    "slug": "correios-2011-carteiro",
+    "number": 5,
+    "subject": "Informática",
+    "text": "Na janela ilustrada na figura acima, identifica-se o sistema operacional Windows XP versão",
+    "support": "",
+    "support_image": "",
+    "options": [
+      "Home com Service Pack 3.",
+      "Enterprise com Service Pack 1.",
+      "Professional com Service Pack 2.",
+      "Enterprise com Service Pack 2.",
+      "Professional com Service Pack 3."
+    ],
+    "answer": "E",
+    "explanation": "Gabarito definitivo do CESPE/UnB, Correios 2011, Tipo I: alternativa E.",
+    "page": 3,
+    "rect": [
+      25.0,
+      449.6316833496094,
+      302.8999938964844,
+      802.0
+    ],
+    "images": [
+      [
+        32.880001068115234,
+        457.91998291015625,
+        285.8399963378906,
+        666.47998046875
+      ]
+    ],
+    "raw": "Na  janela  ilustrada na  figura acima,  identifica-se o sistema\noperacional Windows XP versão\n\nA  Home com Service Pack 3.\nB  Enterprise com Service Pack 1.\nC  Professional com Service Pack 2.\nD  Enterprise com Service Pack 2.\nE  Professional com Service Pack 3."
+  },
+  {
+    "slug": "correios-2011-carteiro",
+    "number": 6,
+    "subject": "Informática",
+    "text": "A figura acima apresenta a janela Opções da Internet, em execução em um computador com o sistema operacional Windows. Essa janela pode ser acessada a partir do navegador",
+    "support": "",
+    "support_image": "",
+    "options": [
+      "Safari.",
+      "Internet Explorer.",
+      "Opera.",
+      "Mozila Firefox.",
+      "Google Chrome."
+    ],
+    "answer": "B",
+    "explanation": "Gabarito definitivo do CESPE/UnB, Correios 2011, Tipo I: alternativa B.",
+    "page": 3,
+    "rect": [
+      302.8999938964844,
+      67.91171264648438,
+      570.0,
+      437.95172119140625
+    ],
+    "images": [
+      [
+        348.0,
+        75.84001159667969,
+        523.8049926757812,
+        298.20001220703125
+      ]
+    ],
+    "raw": "A figura acima apresenta a janela Opções da Internet, em execução\nem um computador com o sistema operacional Windows. Essa\njanela pode ser acessada a partir do navegador\n\nA   Safari.\nB   Internet Explorer.\nC  Opera.\nD  Mozila Firefox.\nE  Google Chrome."
+  },
+  {
+    "slug": "correios-2011-carteiro",
+    "number": 7,
+    "subject": "Informática",
+    "text": "As informações apresentadas na figura acima, que podem ser obtidas por meio de procedimento adequado realizado quando se inicializa um computador, são disponibilizadas pela ferramenta denominada",
+    "support": "",
+    "support_image": "",
+    "options": [
+      "ISA.",
+      "DB9.",
+      "BIOS.",
+      "PCI.",
+      "VESA."
+    ],
+    "answer": "C",
+    "explanation": "Gabarito definitivo do CESPE/UnB, Correios 2011, Tipo I: alternativa C.",
+    "page": 3,
+    "rect": [
+      302.8999938964844,
+      448.9117126464844,
+      570.0,
+      802.0
+    ],
+    "images": [
+      [
+        309.239990234375,
+        457.08001708984375,
+        562.8599853515625,
+        643.0800170898438
+      ]
+    ],
+    "raw": "As informações apresentadas na figura acima, que podem ser\nobtidas por meio de procedimento adequado realizado quando se\ninicializa um computador, são disponibilizadas pela ferramenta\ndenominada\n\nA  ISA.\nB  DB9.\nC  BIOS.\nD  PCI.\nE  VESA."
+  },
+  {
+    "slug": "correios-2011-carteiro",
+    "number": 8,
+    "subject": "Informática",
+    "text": "No Windows XP, um ambiente no qual podem ser organizados ícones e que permite o acesso a determinado programa, a partir da aplicação de um clique duplo do mouse no ícone associado a esse programa, é a área de",
+    "support": "",
+    "support_image": "",
+    "options": [
+      "pixel.",
+      "memória.",
+      "trabalho.",
+      "transferência.",
+      "controle."
+    ],
+    "answer": "C",
+    "explanation": "Gabarito definitivo do CESPE/UnB, Correios 2011, Tipo I: alternativa C.",
+    "page": 4,
+    "rect": [
+      25.0,
+      67.91171264648438,
+      300.6199951171875,
+      232.51171875
+    ],
+    "images": [],
+    "raw": "No Windows XP, um ambiente no qual podem ser organizados\nícones e que permite o acesso a determinado programa, a partir da\naplicação de um clique duplo do mouse no ícone associado a esse\nprograma, é a área de\n\n\nA   pixel.\n\nB  memória.\n\nC   trabalho.\n\nD   transferência.\n\nE   controle."
+  },
+  {
+    "slug": "correios-2011-carteiro",
+    "number": 9,
+    "subject": "Informática",
+    "text": "O Microsoft Word é um aplicativo que permite editar arquivos com diferentes extensões, como html, doc e rtf. O Word também permite abrir arquivos com extensão do tipo",
+    "support": "",
+    "support_image": "",
+    "options": [
+      "txt.",
+      "bin.",
+      "com.",
+      "src.",
+      "exe."
+    ],
+    "answer": "A",
+    "explanation": "Gabarito definitivo do CESPE/UnB, Correios 2011, Tipo I: alternativa A.",
+    "page": 4,
+    "rect": [
+      25.0,
+      243.47171020507812,
+      300.6199951171875,
+      393.67169189453125
+    ],
+    "images": [],
+    "raw": "O Microsoft Word é um aplicativo que permite editar arquivos com\ndiferentes extensões, como html, doc e rtf. O Word também permite\nabrir arquivos com extensão do tipo\n\n\nA   txt.\n\nB   bin.\n\nC  com.\n\nD   src.\n\nE  exe."
+  },
+  {
+    "slug": "correios-2011-carteiro",
+    "number": 10,
+    "subject": "Informática",
+    "text": "A figura acima ilustra uma janela do navegador Internet Explorer em que há indicação de acesso à Internet por meio de conexão segura. Assinale a opção em que é apresentado navegador também capaz de acessar páginas web através de conexões seguras.",
+    "support": "",
+    "support_image": "",
+    "options": [
+      "Mozilla Firefox",
+      "Windows Viewer",
+      "Oracle Listener",
+      "Google",
+      "Mac OS"
+    ],
+    "answer": "A",
+    "explanation": "Gabarito definitivo do CESPE/UnB, Correios 2011, Tipo I: alternativa A.",
+    "page": 4,
+    "rect": [
+      25.0,
+      404.6316833496094,
+      300.6199951171875,
+      802.0
+    ],
+    "images": [
+      [
+        33.0,
+        414.60003662109375,
+        284.8800048828125,
+        623.52001953125
+      ]
+    ],
+    "raw": "A figura acima ilustra uma janela do navegador Internet Explorer\nem que há indicação de acesso à Internet por meio de conexão\nsegura. Assinale a opção em que é apresentado navegador também\ncapaz de acessar páginas web através de conexões seguras.\n\n\nA  Mozilla Firefox\n\nB  Windows Viewer\n\nC  Oracle Listener\n\nD  Google\n\nE  Mac OS"
+  },
+  {
+    "slug": "correios-2011-carteiro",
+    "number": 11,
+    "subject": "Informática",
+    "text": "Caso se deseje efetuar cópias de segurança com a utilização de apenas uma mídia que comporte, no mínimo, 600 megabytes de dados e contenha recurso para regravação, a unidade de armazenamento mais adequada, entre as listadas a seguir, é o",
+    "support": "",
+    "support_image": "",
+    "options": [
+      "BD-R.",
+      "disquete de 3,5\".",
+      "CD-R.",
+      "DVD-R.",
+      "CD-RW."
+    ],
+    "answer": "E",
+    "explanation": "Gabarito definitivo do CESPE/UnB, Correios 2011, Tipo I: alternativa E.",
+    "page": 4,
+    "rect": [
+      300.6199951171875,
+      67.91171264648438,
+      570.0,
+      286.3917236328125
+    ],
+    "images": [],
+    "raw": "Caso se deseje efetuar cópias de segurança com a utilização de\n\napenas uma mídia que comporte, no mínimo, 600 megabytes de\n\ndados  e  contenha  recurso  para  regravação,  a  unidade  de\n\narmazenamento mais adequada, entre as listadas a seguir, é o\n\n\n\nA  BD-R.\n\nB  disquete de 3,5\".\n\nC  CD-R.\n\nD  DVD-R.\n\nE  CD-RW."
+  },
+  {
+    "slug": "correios-2011-carteiro",
+    "number": 12,
+    "subject": "Informática",
+    "text": "A respeito da memória RAM utilizada em computadores, assinale a opção correta.",
+    "support": "",
+    "support_image": "",
+    "options": [
+      "Os dados gravados nessa memória são apagados quando se desliga o computador.",
+      "Essa memória permite, principalmente, aumentar a capacidade de armazenamento do disco rígido.",
+      "Há incompatibilidade no uso compartilhado desse tipo de memória com placas de vídeo.",
+      "Somente computadores com grande capacidade de processamento fazem uso adequado desse tipo de memória.",
+      "A gravação de dados nesse tipo de memória é mais lenta que em um disco rígido do padrão SATA."
+    ],
+    "answer": "A",
+    "explanation": "Gabarito definitivo do CESPE/UnB, Correios 2011, Tipo I: alternativa A.",
+    "page": 4,
+    "rect": [
+      300.6199951171875,
+      297.3517150878906,
+      570.0,
+      572.8316650390625
+    ],
+    "images": [],
+    "raw": "A respeito da memória RAM utilizada em computadores, assinale\n\na opção correta.\n\n\n\nA  Os dados gravados nessa memória são apagados quando se\n\n     desliga o computador.\n\nB  Essa memória permite, principalmente, aumentar a capacidade\n\n    de armazenamento do disco rígido.\n\nC  Há incompatibilidade no uso compartilhado desse tipo de\n\n    memória com placas de vídeo.\n\nD  Somente  computadores  com  grande  capacidade  de\n\n    processamento fazem uso adequado desse tipo de memória.\n\nE A gravação de dados nesse tipo de memória é mais lenta que\n\n   em um disco rígido do padrão SATA."
+  },
+  {
+    "slug": "correios-2011-carteiro",
+    "number": 13,
+    "subject": "Informática",
+    "text": "Se um computador possui dois sistemas operacionais instalados, então ele",
+    "support": "",
+    "support_image": "",
+    "options": [
+      "limita em 50% o uso de memória RAM para cada sistema operacional.",
+      "deve disponibilizar, no processo de inicialização, suporte para a escolha do sistema operacional a ser inicializado.",
+      "não suporta sistema de arquivos do tipo FAT.",
+      "deve ter, obrigatoriamente, três ou mais discos rígidos.",
+      "não permite ao usuário o acesso à Internet."
+    ],
+    "answer": "B",
+    "explanation": "Gabarito definitivo do CESPE/UnB, Correios 2011, Tipo I: alternativa B.",
+    "page": 4,
+    "rect": [
+      300.6199951171875,
+      583.7916870117188,
+      570.0,
+      802.0
+    ],
+    "images": [],
+    "raw": "Se um computador possui dois sistemas operacionais instalados,\n\nentão ele\n\n\n\nA   limita em 50% o uso de memória RAM para cada sistema\n\n    operacional.\n\nB  deve disponibilizar, no processo de inicialização, suporte para\n\n    a escolha do sistema operacional a ser inicializado.\n\nC  não suporta sistema de arquivos do tipo FAT.\n\nD  deve ter, obrigatoriamente, três ou mais discos rígidos.\n\nE  não permite ao usuário o acesso à Internet."
+  },
+  {
+    "slug": "correios-2011-carteiro",
+    "number": 14,
+    "subject": "Informática",
+    "text": "O sistema operacional Windows XP",
+    "support": "",
+    "support_image": "",
+    "options": [
+      "disponibiliza, por meio do Windows Explorer, o recurso de exibição de arquivos em modo lista, em que são mostrados o tipo, o tamanho e a data de alteração dos arquivos.",
+      "possui o programa Windows Media Player para navegação na Internet, por meio do qual é possível visualizar emails e acessar sítios web.",
+      "possui o aplicativo Windows Messenger, que se encarrega de organizar e eliminar arquivos antigos armazenados no disco rígido do computador.",
+      "contém a pasta padrão denominada Minhas imagens, que permite a organização de arquivos de imagens, adicionando-se, excluindo-se ou classificando-se esses arquivos.",
+      "contém o recurso de copiar e colar dados para a área de transferência, apenas na versão profissional."
+    ],
+    "answer": "D",
+    "explanation": "Gabarito definitivo do CESPE/UnB, Correios 2011, Tipo I: alternativa D.",
+    "page": 5,
+    "rect": [
+      25.0,
+      67.91171264648438,
+      300.6199951171875,
+      274.51171875
+    ],
+    "images": [],
+    "raw": "O sistema operacional Windows XP\n\nA   disponibiliza, por meio do Windows Explorer, o recurso de\n    exibição de arquivos em modo lista, em que são mostrados o\n     tipo, o tamanho e a data de alteração dos arquivos.\nB  possui o programa Windows Media Player para navegação na\n     Internet, por meio do qual é possível visualizar emails e\n    acessar sítios web.\nC  possui o aplicativo Windows Messenger, que se encarrega de\n    organizar e eliminar arquivos antigos armazenados no disco\n     rígido do computador.\nD  contém a pasta padrão denominada Minhas imagens, que permite\n    a  organização de  arquivos de imagens,  adicionando-se,\n    excluindo-se ou classificando-se esses arquivos.\nE  contém o recurso de copiar e colar dados para a área de\n     transferência, apenas na versão profissional."
+  },
+  {
+    "slug": "correios-2011-carteiro",
+    "number": 15,
+    "subject": "Informática",
+    "text": "Em relação ao sistema operacional Windows Vista, assinale a opção correta.",
+    "support": "",
+    "support_image": "",
+    "options": [
+      "Esse sistema não disponibiliza recursos para sincronização com dispositivos móveis, como celulares e tocadores de música portáteis.",
+      "O Windows Vista disponibiliza o modo de hibernação, que permite fechar os aplicativos que estejam em uso, desligar o computador e, quando este for religado, carregar os mesmos aplicativos fechados anteriormente.",
+      "A opção de desligamento logoff permite encerrar a sessão atual, fechar todos os arquivos e programas e desligar o computador.",
+      "A ferramenta Windows Aero, própria desse sistema, fornece proteção contra programas mal intencionados.",
+      "A opção Itens Recentes mostra uma lista contendo o nome dos últimos programas removidos do computador."
+    ],
+    "answer": "B",
+    "explanation": "Gabarito definitivo do CESPE/UnB, Correios 2011, Tipo I: alternativa B.",
+    "page": 5,
+    "rect": [
+      25.0,
+      285.4717102050781,
+      300.6199951171875,
+      503.8316650390625
+    ],
+    "images": [],
+    "raw": "Em relação ao sistema operacional Windows Vista, assinale a opção\ncorreta.\n\nA  Esse sistema não disponibiliza recursos para sincronização\n   com dispositivos móveis, como celulares e tocadores de\n    música portáteis.\nB O Windows Vista disponibiliza o modo de hibernação, que\n    permite fechar os aplicativos que estejam em uso, desligar o\n    computador e, quando este for religado, carregar os mesmos\n     aplicativos fechados anteriormente.\nC A opção de desligamento logoff permite encerrar a sessão\n     atual, fechar todos os arquivos e programas e desligar o\n    computador.\nD A ferramenta Windows Aero, própria desse sistema, fornece\n    proteção contra programas mal intencionados.\nE A opção Itens Recentes mostra uma lista contendo o nome dos\n    últimos programas removidos do computador."
+  },
+  {
+    "slug": "correios-2011-carteiro",
+    "number": 16,
+    "subject": "Informática",
+    "text": "A figura acima ilustra um tipo de cabo padrão que pode ser usado para a conexão de impressoras a um computador, sendo, para isso, necessária a existência de uma porta",
+    "support": "",
+    "support_image": "",
+    "options": [
+      "HDMI.",
+      "VGA.",
+      "PCI.",
+      "microusb.",
+      "paralela."
+    ],
+    "answer": "E",
+    "explanation": "Gabarito definitivo do CESPE/UnB, Correios 2011, Tipo I: alternativa E.",
+    "page": 5,
+    "rect": [
+      25.0,
+      514.7916870117188,
+      300.6199951171875,
+      802.0
+    ],
+    "images": [
+      [
+        74.5199966430664,
+        521.1600341796875,
+        246.11599731445312,
+        675.0
+      ]
+    ],
+    "raw": "A figura acima ilustra um tipo de cabo padrão que pode ser usado\npara a conexão de impressoras a um computador, sendo, para isso,\nnecessária a existência de uma porta\n\nA  HDMI.\nB  VGA.\nC  PCI.\nD  microusb.\nE   paralela."
+  },
+  {
+    "slug": "correios-2011-carteiro",
+    "number": 17,
+    "subject": "Informática",
+    "text": "A respeito do Microsoft PowerPoint 2007, assinale a opção correta.",
+    "support": "",
+    "support_image": "",
+    "options": [
+      "O PowerPoint é capaz de manipular grandes bancos de dados e gerar automaticamente gráficos e tabelas associados a esses bancos.",
+      "Os arquivos que contenham apresentações criadas na versão 2003 do PowerPoint não são carregados pelo PowerPoint 2007.",
+      "Um eslaide pode conter texto e fotografia, mas não, gráfico ou filme.",
+      "Para a visualização dos eslaides como eles serão apresentados, ou seja, apenas um eslaide por tela, deve-se utilizar o modo de exibição denominado Classificação.",
+      "O eslaide mestre serve de modelo para os eslaides da apresentação, de modo que modificações feitas na estrutura desse eslaide refletirão em todos os outros eslaides da apresentação."
+    ],
+    "answer": "E",
+    "explanation": "Gabarito definitivo do CESPE/UnB, Correios 2011, Tipo I: alternativa E.",
+    "page": 5,
+    "rect": [
+      300.6199951171875,
+      67.91171264648438,
+      570.0,
+      326.3517150878906
+    ],
+    "images": [],
+    "raw": "A respeito do Microsoft PowerPoint 2007, assinale a opção correta.\n\n\nA O PowerPoint é capaz de manipular grandes bancos de dados\n    e gerar automaticamente gráficos e tabelas associados a esses\n    bancos.\nB  Os arquivos que contenham apresentações criadas na versão\n    2003 do PowerPoint não são carregados pelo PowerPoint\n    2007.\nC Um eslaide pode conter texto e fotografia, mas não, gráfico ou\n     filme.\nD  Para a visualização dos eslaides como eles serão apresentados,\n    ou seja, apenas um eslaide por tela, deve-se utilizar o modo de\n    exibição denominado Classificação.\nE O  eslaide mestre serve de modelo para os  eslaides da\n    apresentação, de modo que modificações feitas na estrutura\n    desse  eslaide  refletirão em todos os outros  eslaides da\n    apresentação."
+  },
+  {
+    "slug": "correios-2011-carteiro",
+    "number": 18,
+    "subject": "Informática",
+    "text": "Considerando que, em uma planilha do Microsoft Excel, as células A1, A2 e A3 contenham somente valores numéricos, assinale a opção correspondente à expressão matemática que permite, no Excel, dividir o resultado da soma dos valores contidos nas células A1 e A2 pelo valor contido na célula A3.",
+    "support": "",
+    "support_image": "",
+    "options": [
+      "=(A1+A2)/A3",
+      "=(A1*A2)+A3",
+      "=(A1/A2)+A3",
+      "=(A1-A2)*A3",
+      "=(A1-A2)/A3"
+    ],
+    "answer": "A",
+    "explanation": "Gabarito definitivo do CESPE/UnB, Correios 2011, Tipo I: alternativa A.",
+    "page": 5,
+    "rect": [
+      300.6199951171875,
+      337.31170654296875,
+      570.0,
+      494.5917053222656
+    ],
+    "images": [],
+    "raw": "Considerando que, em uma planilha do Microsoft Excel, as células\nA1, A2 e A3 contenham somente valores numéricos, assinale a opção\ncorrespondente à expressão matemática que permite, no Excel,\ndividir o resultado da soma dos valores contidos nas células A1 e A2\npelo valor contido na célula A3.\n\n\nA  =(A1+A2)/A3\nB  =(A1*A2)+A3\nC  =(A1/A2)+A3\nD  =(A1-A2)*A3\nE  =(A1-A2)/A3"
+  },
+  {
+    "slug": "correios-2011-carteiro",
+    "number": 19,
+    "subject": "Informática",
+    "text": "O serviço que, oferecido via Internet, disponibiliza recursos para a criação, o envio e a leitura de mensagens de correio eletrônico para os usuários é o de",
+    "support": "",
+    "support_image": "",
+    "options": [
+      "salas de bate-papo.",
+      "webmail.",
+      "leilão eletrônico.",
+      "Internet banking.",
+      "rádio online."
+    ],
+    "answer": "B",
+    "explanation": "Gabarito definitivo do CESPE/UnB, Correios 2011, Tipo I: alternativa B.",
+    "page": 5,
+    "rect": [
+      300.6199951171875,
+      505.55169677734375,
+      570.0,
+      652.1517333984375
+    ],
+    "images": [],
+    "raw": "O serviço que, oferecido via Internet, disponibiliza recursos para a\ncriação, o envio e a leitura de mensagens de correio eletrônico para\nos usuários é o de\n\n\nA   salas de bate-papo.\nB  webmail.\nC   leilão eletrônico.\nD   Internet banking.\nE  rádio online."
+  },
+  {
+    "slug": "correios-2011-carteiro",
+    "number": 20,
+    "subject": "Informática",
+    "text": "O modo protegido do Internet Explorer permite",
+    "support": "",
+    "support_image": "",
+    "options": [
+      "o gerenciamento do histórico de navegação na Internet.",
+      "a proteção do computador de sítios que contenham programas mal-intencionados.",
+      "a pesquisa de sítios por meio da barra de ferramentas.",
+      "a organização de arquivos temporários.",
+      "o gerenciamento dos sítios favoritos da Internet."
+    ],
+    "answer": "B",
+    "explanation": "Gabarito definitivo do CESPE/UnB, Correios 2011, Tipo I: alternativa B.",
+    "page": 5,
+    "rect": [
+      300.6199951171875,
+      663.1117553710938,
+      570.0,
+      802.0
+    ],
+    "images": [],
+    "raw": "O modo protegido do Internet Explorer permite\n\n\nA  o gerenciamento do histórico de navegação na Internet.\nB  a proteção do computador de sítios que contenham programas\n    mal-intencionados.\nC  a pesquisa de sítios por meio da barra de ferramentas.\nD  a organização de arquivos temporários.\nE  o gerenciamento dos sítios favoritos da Internet."
+  },
+  {
+    "slug": "correios-2011-carteiro",
+    "number": 21,
+    "subject": "Matemática",
+    "text": "Com base no texto, é correto afirmar que, em 2009, a quantidade de cartas que não foram adotadas pelo projeto Papai Noel dos Correios foi",
+    "support": "Além da missão de entregar correspondências, os carteiros\nsão também responsáveis pela difusão de importantes campanhas\nde conscientização da população e promoção da cidadania. Um\nexemplo de ação de caráter social que envolve os carteiros e que\ntem tido grande receptividade é o projeto Papai Noel dos Correios.\nEm 2009, foram adotados 21% das 1.981.000 cartas recebidas pelos\nCorreios. O projeto contou com o apoio e a participação de 3.818\nvoluntários internos, 669 voluntários externos e 462 parcerias.\n\n\n\n                                                           Internet: <www.correios.com.br> (com adaptações).",
+    "support_image": "",
+    "options": [
+      "superior a 1,2 milhão e inferior a 1,3 milhão.",
+      "superior a 1,3 milhão e inferior a 1,4 milhão.",
+      "superior a 1,4 milhão e inferior a 1,5 milhão.",
+      "superior a 1,5 milhão.",
+      "inferior a 1,2 milhão."
+    ],
+    "answer": "D",
+    "explanation": "Gabarito definitivo do CESPE/UnB, Correios 2011, Tipo I: alternativa D.",
+    "page": 6,
+    "rect": [
+      25.0,
+      240.23171997070312,
+      300.6199951171875,
+      388.8717041015625
+    ],
+    "images": [],
+    "raw": "Com base no texto, é correto afirmar que, em 2009, a quantidade de\ncartas que não foram adotadas pelo projeto Papai Noel dos\nCorreios foi\n\n\nA  superior a 1,2 milhão e inferior a 1,3 milhão.\n\nB  superior a 1,3 milhão e inferior a 1,4 milhão.\n\nC  superior a 1,4 milhão e inferior a 1,5 milhão.\n\nD  superior a 1,5 milhão.\n\nE   inferior a 1,2 milhão.",
+    "shared": {
+      "text": "Além da missão de entregar correspondências, os carteiros\nsão também responsáveis pela difusão de importantes campanhas\nde conscientização da população e promoção da cidadania. Um\nexemplo de ação de caráter social que envolve os carteiros e que\ntem tido grande receptividade é o projeto Papai Noel dos Correios.\nEm 2009, foram adotados 21% das 1.981.000 cartas recebidas pelos\nCorreios. O projeto contou com o apoio e a participação de 3.818\nvoluntários internos, 669 voluntários externos e 462 parcerias.\n\n\n\n                                                           Internet: <www.correios.com.br> (com adaptações).",
+      "page": 6,
+      "images": []
+    }
+  },
+  {
+    "slug": "correios-2011-carteiro",
+    "number": 22,
+    "subject": "Matemática",
+    "text": "Se, em 2010, o projeto Papai Noel dos Correios contou com 22.435 voluntários, e se foi mantida a mesma proporção de voluntários externos e internos verificada em 2009, então a quantidade de voluntários internos em 2010 foi",
+    "support": "Além da missão de entregar correspondências, os carteiros\nsão também responsáveis pela difusão de importantes campanhas\nde conscientização da população e promoção da cidadania. Um\nexemplo de ação de caráter social que envolve os carteiros e que\ntem tido grande receptividade é o projeto Papai Noel dos Correios.\nEm 2009, foram adotados 21% das 1.981.000 cartas recebidas pelos\nCorreios. O projeto contou com o apoio e a participação de 3.818\nvoluntários internos, 669 voluntários externos e 462 parcerias.\n\n\n\n                                                           Internet: <www.correios.com.br> (com adaptações).",
+    "support_image": "",
+    "options": [
+      "superior a 19.050 e inferior a 19.100.",
+      "superior a 19.100 e inferior a 19.150.",
+      "superior a 19.150.",
+      "inferior a 19.000.",
+      "superior a 19.000 e inferior a 19.050."
+    ],
+    "answer": "A",
+    "explanation": "Gabarito definitivo do CESPE/UnB, Correios 2011, Tipo I: alternativa A.",
+    "page": 6,
+    "rect": [
+      25.0,
+      399.8316955566406,
+      300.6199951171875,
+      562.631591796875
+    ],
+    "images": [],
+    "raw": "Se, em 2010, o projeto Papai Noel dos Correios contou com 22.435\nvoluntários, e se foi mantida a mesma proporção de voluntários\nexternos e internos verificada em 2009, então a quantidade de\nvoluntários internos em 2010 foi\n\n\nA  superior a 19.050 e inferior a 19.100.\n\nB  superior a 19.100 e inferior a 19.150.\n\nC  superior a 19.150.\n\nD   inferior a 19.000.\n\nE  superior a 19.000 e inferior a 19.050.",
+    "shared": {
+      "text": "Além da missão de entregar correspondências, os carteiros\nsão também responsáveis pela difusão de importantes campanhas\nde conscientização da população e promoção da cidadania. Um\nexemplo de ação de caráter social que envolve os carteiros e que\ntem tido grande receptividade é o projeto Papai Noel dos Correios.\nEm 2009, foram adotados 21% das 1.981.000 cartas recebidas pelos\nCorreios. O projeto contou com o apoio e a participação de 3.818\nvoluntários internos, 669 voluntários externos e 462 parcerias.\n\n\n\n                                                           Internet: <www.correios.com.br> (com adaptações).",
+      "page": 6,
+      "images": []
+    }
+  },
+  {
+    "slug": "correios-2011-carteiro",
+    "number": 23,
+    "subject": "Matemática",
+    "text": "Em 2008, nos 200 anos do Banco do Brasil, os Correios lançaram um selo comemorativo com uma tiragem de 1.020.000 unidades. No selo, cujo formato é de um retângulo medindo 40 mm × 30 mm, a estampa ocupa um retângulo que mede 35 mm × 25 mm. Dadas essas condições, é correto afirmar que a área do retângulo da estampa é",
+    "support": "",
+    "support_image": "",
+    "options": [
+      "superior a 90% da área do retângulo do selo.",
+      "inferior a 75% da área do retângulo do selo.",
+      "superior a 75% e inferior a 80% da área do retângulo do selo.",
+      "superior a 80% e inferior a 85% da área do retângulo do selo.",
+      "superior a 85% e inferior a 90% da área do retângulo do selo."
+    ],
+    "answer": "B",
+    "explanation": "Gabarito definitivo do CESPE/UnB, Correios 2011, Tipo I: alternativa B.",
+    "page": 6,
+    "rect": [
+      25.0,
+      573.5916137695312,
+      300.6199951171875,
+      802.0
+    ],
+    "images": [],
+    "raw": "Em 2008, nos 200 anos do Banco do Brasil, os Correios\nlançaram um selo comemorativo com uma tiragem de 1.020.000\nunidades. No selo, cujo formato é de um retângulo medindo\n40 mm × 30 mm, a estampa ocupa um retângulo que mede\n35 mm × 25 mm.\n\n\nDadas essas condições, é correto afirmar que a área do retângulo da\nestampa é\n\n\nA  superior a 90% da área do retângulo do selo.\n\nB   inferior a 75% da área do retângulo do selo.\n\nC  superior a 75% e inferior a 80% da área do retângulo do selo.\n\nD  superior a 80% e inferior a 85% da área do retângulo do selo.\n\nE  superior a 85% e inferior a 90% da área do retângulo do selo."
+  },
+  {
+    "slug": "correios-2011-carteiro",
+    "number": 24,
+    "subject": "Matemática",
+    "text": "Nos Correios, são utilizados vários tipos de caixas para o envio de encomendas, entre elas, a caixa do tipo 4B, um paralelepípedo retângulo, em papel ondulado, com arestas medindo 360 mm, 270 mm e 180 mm. O volume dessa caixa, em dm3, é",
+    "support": "",
+    "support_image": "",
+    "options": [
+      "superior a 18 e inferior a 21.",
+      "superior a 21 e inferior a 24.",
+      "superior a 24.",
+      "inferior a 15.",
+      "superior a 15 e inferior a 18."
+    ],
+    "answer": "E",
+    "explanation": "Gabarito definitivo do CESPE/UnB, Correios 2011, Tipo I: alternativa E.",
+    "page": 6,
+    "rect": [
+      300.6199951171875,
+      86.15170288085938,
+      570.0,
+      802.0
+    ],
+    "images": [],
+    "raw": "Nos Correios, são utilizados vários tipos de caixas para o\nenvio de encomendas,  entre  elas, a caixa do  tipo 4B, um\nparalelepípedo retângulo, em papel ondulado, com arestas medindo\n360 mm, 270 mm e 180 mm.\n\n\nO volume dessa caixa, em dm3, é\n\n\nA  superior a 18 e inferior a 21.\n\nB  superior a 21 e inferior a 24.\n\nC  superior a 24.\n\nD   inferior a 15.\n\nE  superior a 15 e inferior a 18."
+  },
+  {
+    "slug": "correios-2011-carteiro",
+    "number": 25,
+    "subject": "Matemática",
+    "text": "Em 1.o/1/2011, os Correios lançaram selo comemorativo de data histórica, com tiragem de 900.000 unidades. Do dia 1.o ao dia 10 de janeiro, foram vendidas 210.630 unidades desses selos, das quais 1.958 foram vendidas apenas no dia 4, primeiro dia de comercialização do selo via Internet. O prazo de comercialização desse selo pelos Correios vigorará até 31/12/2014. Internet: <www.correios.com.br> (com adaptações). Com base nas informações do texto acima e considerando-se que o ritmo de venda do selo tenha sido mantido ao longo do mês de janeiro de 2011, é correto afirmar que a quantidade de selos vendidos, em milhares de unidades, até o dia 30 do referido mês, foi",
+    "support": "",
+    "support_image": "",
+    "options": [
+      "superior a 640.",
+      "inferior a 610.",
+      "superior a 610 e inferior a 620.",
+      "superior a 620 e inferior a 630.",
+      "superior a 630 e inferior a 640."
+    ],
+    "answer": "E",
+    "explanation": "Gabarito definitivo do CESPE/UnB, Correios 2011, Tipo I: alternativa E.",
+    "page": 7,
+    "rect": [
+      25.0,
+      67.91171264648438,
+      300.6199951171875,
+      338.758544921875
+    ],
+    "images": [],
+    "raw": "Em 1.o/1/2011, os Correios lançaram selo comemorativo\nde data histórica, com tiragem de 900.000 unidades. Do dia 1.o\nao dia 10 de janeiro, foram vendidas 210.630 unidades desses selos,\ndas quais 1.958 foram vendidas apenas no dia 4, primeiro dia de\ncomercialização do selo via Internet. O prazo de comercialização\ndesse selo pelos Correios vigorará até 31/12/2014.\n\n\n\n                                                            Internet: <www.correios.com.br> (com adaptações).\n\n\nCom base nas informações do texto acima e considerando-se que o\nritmo de venda do selo tenha sido mantido ao longo do mês de\njaneiro de 2011, é correto afirmar que a quantidade de selos\nvendidos, em milhares de unidades, até o dia 30 do referido mês, foi\n\n\nA  superior a 640.\nB   inferior a 610.\nC  superior a 610 e inferior a 620.\nD  superior a 620 e inferior a 630.\nE  superior a 630 e inferior a 640."
+  },
+  {
+    "slug": "correios-2011-carteiro",
+    "number": 26,
+    "subject": "Matemática",
+    "text": "De acordo com as informações do texto, a espessura do iPad2, em relação à espessura do iPad lançado em 2010, foi reduzida em 1 A mais de e menos de 1 . 4 3 1 B mais de 1 e menos de . 2 3 1C mais de . 2 1D menos de . 5 1 E mais de e menos de 1 . 5 4",
+    "support": "Em 2/3/2011, Steve Jobs, executivo-chefe da Apple,\napresentou em São Francisco o iPad2, o segundo modelo do seu\ntablet iPad. Lançado em abril de 2010, o iPad tornou-se o mais\nbem-sucedido produto eletrônico de consumo da história, com\n14,8 milhões de unidades vendidas em apenas um ano. Entre as\ninovações  presentes no iPad2,  destaca-se a redução de sua\nespessura, que passou de 13,4 mm para 8,8 mm. O impacto do\nlançamento do iPad2 fez que as ações da Apple na Nasdaq, a bolsa\nde tecnologia de Nova York, subissem 1% no dia do lançamento,\ntendo alcançado 352 dólares.\n\n\n                                                           Veja, 9/3/2011, p. 74-5 (com adaptações).",
+    "support_image": "",
+    "options": [],
+    "answer": "B",
+    "explanation": "Gabarito definitivo do CESPE/UnB, Correios 2011, Tipo I: alternativa B.",
+    "page": 7,
+    "rect": [
+      25.0,
+      544.7916870117188,
+      300.6199951171875,
+      802.0
+    ],
+    "images": [],
+    "raw": "De acordo com as informações do texto, a espessura do iPad2, em\nrelação à espessura do iPad lançado em 2010, foi reduzida em\n\n\n          1\nA  mais de    e menos de 1 .\n          4\n                     3\n\n                     1\nB  mais de 1 e menos de     .\n                     2\n           3\n\n          1C  mais de     .\n          2\n\n           1D  menos de     .\n           5\n\n          1\nE  mais de   e menos de 1 .\n          5\n                     4",
+    "shared": {
+      "text": "Em 2/3/2011, Steve Jobs, executivo-chefe da Apple,\napresentou em São Francisco o iPad2, o segundo modelo do seu\ntablet iPad. Lançado em abril de 2010, o iPad tornou-se o mais\nbem-sucedido produto eletrônico de consumo da história, com\n14,8 milhões de unidades vendidas em apenas um ano. Entre as\ninovações  presentes no iPad2,  destaca-se a redução de sua\nespessura, que passou de 13,4 mm para 8,8 mm. O impacto do\nlançamento do iPad2 fez que as ações da Apple na Nasdaq, a bolsa\nde tecnologia de Nova York, subissem 1% no dia do lançamento,\ntendo alcançado 352 dólares.\n\n\n                                                           Veja, 9/3/2011, p. 74-5 (com adaptações).",
+      "page": 7,
+      "images": []
+    }
+  },
+  {
+    "slug": "correios-2011-carteiro",
+    "number": 27,
+    "subject": "Matemática",
+    "text": "Se em 1.º/3/2011, 1 dólar valia R$ 1,64, então, nessa data, de acordo com o texto, uma ação da Apple valia",
+    "support": "Em 2/3/2011, Steve Jobs, executivo-chefe da Apple,\napresentou em São Francisco o iPad2, o segundo modelo do seu\ntablet iPad. Lançado em abril de 2010, o iPad tornou-se o mais\nbem-sucedido produto eletrônico de consumo da história, com\n14,8 milhões de unidades vendidas em apenas um ano. Entre as\ninovações  presentes no iPad2,  destaca-se a redução de sua\nespessura, que passou de 13,4 mm para 8,8 mm. O impacto do\nlançamento do iPad2 fez que as ações da Apple na Nasdaq, a bolsa\nde tecnologia de Nova York, subissem 1% no dia do lançamento,\ntendo alcançado 352 dólares.\n\n\n                                                           Veja, 9/3/2011, p. 74-5 (com adaptações).",
+    "support_image": "",
+    "options": [
+      "mais de R$ 500,00 e menos de R$ 600,00.",
+      "mais de R$ 600,00 e menos de R$ 700,00.",
+      "mais de R$ 700,00 e menos de R$ 800,00.",
+      "mais de R$ 800,00.",
+      "menos de R$ 500,00."
+    ],
+    "answer": "A",
+    "explanation": "Gabarito definitivo do CESPE/UnB, Correios 2011, Tipo I: alternativa A.",
+    "page": 7,
+    "rect": [
+      300.6199951171875,
+      67.91171264648438,
+      570.0,
+      802.0
+    ],
+    "images": [],
+    "raw": "Se em 1.º/3/2011, 1 dólar valia R$ 1,64, então, nessa data, de\nacordo com o texto, uma ação da Apple valia\n\nA  mais de R$ 500,00 e menos de R$ 600,00.\nB  mais de R$ 600,00 e menos de R$ 700,00.\nC  mais de R$ 700,00 e menos de R$ 800,00.\nD  mais de R$ 800,00.\nE  menos de R$ 500,00.",
+    "shared": {
+      "text": "Em 2/3/2011, Steve Jobs, executivo-chefe da Apple,\napresentou em São Francisco o iPad2, o segundo modelo do seu\ntablet iPad. Lançado em abril de 2010, o iPad tornou-se o mais\nbem-sucedido produto eletrônico de consumo da história, com\n14,8 milhões de unidades vendidas em apenas um ano. Entre as\ninovações  presentes no iPad2,  destaca-se a redução de sua\nespessura, que passou de 13,4 mm para 8,8 mm. O impacto do\nlançamento do iPad2 fez que as ações da Apple na Nasdaq, a bolsa\nde tecnologia de Nova York, subissem 1% no dia do lançamento,\ntendo alcançado 352 dólares.\n\n\n                                                           Veja, 9/3/2011, p. 74-5 (com adaptações).",
+      "page": 7,
+      "images": []
+    }
+  },
+  {
+    "slug": "correios-2011-carteiro",
+    "number": 28,
+    "subject": "Matemática",
+    "text": "Na situação apresentada, o lado do ladrilho deverá medir",
+    "support": "O piso de uma sala retangular, medindo 3,52 m × 4,16 m,\nserá revestido com ladrilhos quadrados, de mesma dimensão,\ninteiros, de forma que não fique espaço vazio entre ladrilhos\nvizinhos. Os ladrilhos serão escolhidos de modo que tenham a\nmaior dimensão possível.",
+    "support_image": "",
+    "options": [
+      "mais de 30 cm.",
+      "menos de 15 cm.",
+      "mais de 15 cm e menos de 20 cm.",
+      "mais de 20 cm e menos de 25 cm.",
+      "mais de 25 cm e menos de 30 cm."
+    ],
+    "answer": "A",
+    "explanation": "Gabarito definitivo do CESPE/UnB, Correios 2011, Tipo I: alternativa A.",
+    "page": 8,
+    "rect": [
+      25.0,
+      153.35171508789062,
+      300.6199951171875,
+      257.1116943359375
+    ],
+    "images": [],
+    "raw": "Na situação apresentada, o lado do ladrilho deverá medir\n\nA  mais de 30 cm.\nB  menos de 15 cm.\nC  mais de 15 cm e menos de 20 cm.\nD  mais de 20 cm e menos de 25 cm.\nE  mais de 25 cm e menos de 30 cm.",
+    "shared": {
+      "text": "O piso de uma sala retangular, medindo 3,52 m × 4,16 m,\nserá revestido com ladrilhos quadrados, de mesma dimensão,\ninteiros, de forma que não fique espaço vazio entre ladrilhos\nvizinhos. Os ladrilhos serão escolhidos de modo que tenham a\nmaior dimensão possível.",
+      "page": 8,
+      "images": []
+    }
+  },
+  {
+    "slug": "correios-2011-carteiro",
+    "number": 29,
+    "subject": "Matemática",
+    "text": "Se, para assentar os ladrilhos, são utilizados 2 kg de argamassa por m2 e se a argamassa é vendida em sacos de 3 kg, então a quantidade necessária de sacos de argamassa para completar o serviço é igual a",
+    "support": "O piso de uma sala retangular, medindo 3,52 m × 4,16 m,\nserá revestido com ladrilhos quadrados, de mesma dimensão,\ninteiros, de forma que não fique espaço vazio entre ladrilhos\nvizinhos. Os ladrilhos serão escolhidos de modo que tenham a\nmaior dimensão possível.",
+    "support_image": "",
+    "options": [
+      "9.",
+      "10.",
+      "6.",
+      "7.",
+      "8."
+    ],
+    "answer": "B",
+    "explanation": "Gabarito definitivo do CESPE/UnB, Correios 2011, Tipo I: alternativa B.",
+    "page": 8,
+    "rect": [
+      25.0,
+      268.0716857910156,
+      300.6199951171875,
+      396.55169677734375
+    ],
+    "images": [],
+    "raw": "Se, para assentar os ladrilhos, são utilizados 2 kg de argamassa por\nm2 e se a argamassa é vendida em sacos de 3 kg, então a quantidade\nnecessária de sacos de argamassa para completar o serviço é igual a\n\nA   9.\nB  10.\nC   6.\nD   7.\nE   8.",
+    "shared": {
+      "text": "O piso de uma sala retangular, medindo 3,52 m × 4,16 m,\nserá revestido com ladrilhos quadrados, de mesma dimensão,\ninteiros, de forma que não fique espaço vazio entre ladrilhos\nvizinhos. Os ladrilhos serão escolhidos de modo que tenham a\nmaior dimensão possível.",
+      "page": 8,
+      "images": []
+    }
+  },
+  {
+    "slug": "correios-2011-carteiro",
+    "number": 30,
+    "subject": "Matemática",
+    "text": "Suponha que a despesa com mão de obra e materiais necessários para assentar os ladrilhos tenha sido orçada em R$ 1.000,00 o m2 e que o proprietário da sala disponha de apenas R$ 10.000,00. Nesse caso, o proprietário poderá obter o montante necessário aplicando o capital disponível à taxa de juros simples de 8% ao mês durante",
+    "support": "O piso de uma sala retangular, medindo 3,52 m × 4,16 m,\nserá revestido com ladrilhos quadrados, de mesma dimensão,\ninteiros, de forma que não fique espaço vazio entre ladrilhos\nvizinhos. Os ladrilhos serão escolhidos de modo que tenham a\nmaior dimensão possível.",
+    "support_image": "",
+    "options": [
+      "6 meses.",
+      "7 meses.",
+      "8 meses.",
+      "4 meses.",
+      "5 meses."
+    ],
+    "answer": "ANULADA",
+    "explanation": "Gabarito definitivo do CESPE/UnB, Correios 2011, Tipo I: questão anulada.",
+    "page": 8,
+    "rect": [
+      25.0,
+      407.5116882324219,
+      300.6199951171875,
+      555.1190795898438
+    ],
+    "images": [],
+    "raw": "Suponha que a despesa com mão de obra e materiais necessários\npara assentar os ladrilhos tenha sido orçada em R$ 1.000,00 o m2 e\nque o proprietário da sala disponha de apenas R$ 10.000,00. Nesse\ncaso, o proprietário poderá obter o montante necessário aplicando\no capital disponível à taxa de juros simples de 8% ao mês durante\n\nA  6 meses.\nB  7 meses.\nC  8 meses.\nD  4 meses.\nE  5 meses.",
+    "shared": {
+      "text": "O piso de uma sala retangular, medindo 3,52 m × 4,16 m,\nserá revestido com ladrilhos quadrados, de mesma dimensão,\ninteiros, de forma que não fique espaço vazio entre ladrilhos\nvizinhos. Os ladrilhos serão escolhidos de modo que tenham a\nmaior dimensão possível.",
+      "page": 8,
+      "images": []
+    }
+  },
+  {
+    "slug": "correios-2011-carteiro",
+    "number": 31,
+    "subject": "Matemática",
+    "text": "Se um escritor deseja enviar livros de sua autoria a outro estado e se cada livro mede 23 cm × 16 cm × 1,2 cm, então a quantidade máxima desses livros que poderá ser enviada em uma caixa do tipo 2, sem que sejam danificados ou deformados, é igual a",
+    "support": "Para o envio de pequenas encomendas, os Correios\ncomercializam caixas de papelão, na forma de paralelepípedo\nretângulo, de dois tipos: tipo 2, com arestas medindo 27 cm, 18 cm,\ne 9 cm; e tipo 4, com arestas medindo 36 cm, 27 cm e 18 cm.",
+    "support_image": "",
+    "options": [
+      "9.",
+      "5.",
+      "6.",
+      "7.",
+      "8."
+    ],
+    "answer": "D",
+    "explanation": "Gabarito definitivo do CESPE/UnB, Correios 2011, Tipo I: alternativa D.",
+    "page": 8,
+    "rect": [
+      25.0,
+      648.2317504882812,
+      300.6199951171875,
+      802.0
+    ],
+    "images": [],
+    "raw": "Se um escritor deseja enviar livros de sua autoria a outro estado e\nse cada livro mede 23 cm × 16 cm × 1,2 cm, então a quantidade\nmáxima desses livros que poderá ser enviada em uma caixa do tipo\n2, sem que sejam danificados ou deformados, é igual a\n\nA   9.\nB   5.\nC   6.\nD   7.\nE   8.",
+    "shared": {
+      "text": "Para o envio de pequenas encomendas, os Correios\ncomercializam caixas de papelão, na forma de paralelepípedo\nretângulo, de dois tipos: tipo 2, com arestas medindo 27 cm, 18 cm,\ne 9 cm; e tipo 4, com arestas medindo 36 cm, 27 cm e 18 cm.",
+      "page": 8,
+      "images": []
+    }
+  },
+  {
+    "slug": "correios-2011-carteiro",
+    "number": 32,
+    "subject": "Matemática",
+    "text": "Se o valor de comercialização de cada tipo de caixa for proporcional ao seu volume e se uma caixa do tipo 2 custar R$ 4,50, então uma caixa do tipo 4 custará",
+    "support": "Para o envio de pequenas encomendas, os Correios\ncomercializam caixas de papelão, na forma de paralelepípedo\nretângulo, de dois tipos: tipo 2, com arestas medindo 27 cm, 18 cm,\ne 9 cm; e tipo 4, com arestas medindo 36 cm, 27 cm e 18 cm.",
+    "support_image": "",
+    "options": [
+      "R$ 16,00.",
+      "R$ 18,00.",
+      "R$ 20,00.",
+      "R$ 22,00.",
+      "R$ 14,00."
+    ],
+    "answer": "B",
+    "explanation": "Gabarito definitivo do CESPE/UnB, Correios 2011, Tipo I: alternativa B.",
+    "page": 8,
+    "rect": [
+      300.6199951171875,
+      67.91171264648438,
+      570.0,
+      802.0
+    ],
+    "images": [],
+    "raw": "Se o  valor de  comercialização de cada  tipo de  caixa  for\nproporcional ao seu volume e se uma caixa do tipo 2 custar\nR$ 4,50, então uma caixa do tipo 4 custará\n\nA  R$ 16,00.\nB  R$ 18,00.\nC  R$ 20,00.\nD  R$ 22,00.\nE  R$ 14,00.",
+    "shared": {
+      "text": "Para o envio de pequenas encomendas, os Correios\ncomercializam caixas de papelão, na forma de paralelepípedo\nretângulo, de dois tipos: tipo 2, com arestas medindo 27 cm, 18 cm,\ne 9 cm; e tipo 4, com arestas medindo 36 cm, 27 cm e 18 cm.",
+      "page": 8,
+      "images": []
+    }
+  },
+  {
+    "slug": "correios-2011-carteiro",
+    "number": 33,
+    "subject": "Matemática",
+    "text": "Em um bairro onde as casas foram todas construídas de acordo com um projeto padrão, os lotes têm 12 metros de frente, em cada lote a caixa de correspondências fica sempre na mesma posição e os postes de iluminação pública são espaçados em 50 metros. O carteiro que entrega correspondências nesse bairro percebeu que a caixa de correspondências da primeira casa de uma rua bastante longa fica exatamente atrás de um poste de iluminação. Nesse caso, caminhando nessa rua e desconsiderando os possíveis espaços entre dois lotes vizinhos, até que encontre a próxima caixa de correspondências atrás do poste de iluminação, o carteiro deverá percorrer uma distância igual a",
+    "support": "",
+    "support_image": "",
+    "options": [
+      "210 metros.",
+      "255 metros.",
+      "300 metros.",
+      "120 metros.",
+      "165 metros."
+    ],
+    "answer": "C",
+    "explanation": "Gabarito definitivo do CESPE/UnB, Correios 2011, Tipo I: alternativa C.",
+    "page": 9,
+    "rect": [
+      25.0,
+      67.91171264648438,
+      595.0,
+      317.231689453125
+    ],
+    "images": [],
+    "raw": "Em um bairro onde as casas foram todas construídas de\nacordo com um projeto padrão, os lotes têm 12 metros de frente, em\ncada lote a caixa de correspondências fica sempre na mesma\nposição e os postes de iluminação pública são espaçados em\n50 metros. O carteiro que entrega correspondências nesse bairro\npercebeu que a caixa de correspondências da primeira casa de uma\nrua bastante longa fica exatamente atrás de um poste de iluminação.\n\n\nNesse caso, caminhando nessa rua e desconsiderando os possíveis\nespaços entre dois lotes vizinhos, até que encontre a próxima caixa\nde correspondências atrás do poste de iluminação, o carteiro deverá\npercorrer uma distância igual a\n\nA  210 metros.\nB  255 metros.\nC  300 metros.\nD  120 metros.\nE  165 metros."
+  },
+  {
+    "slug": "correios-2011-carteiro",
+    "number": 34,
+    "subject": "Matemática",
+    "text": "Das correspondências que deveria entregar, o carteiro 7Carlos passou delas para o carteiro Jorge; dessas, Jorge 10 3repassou para o carteiro Marcos. 5 Nesse caso, com relação à quantidade de correspondências que Carlos deveria entregar, a quantidade que coube a Marcos é igual a 3A . 10 2B . 5 21C . 50 10D . 15 1E . 10",
+    "support": "",
+    "support_image": "",
+    "options": [],
+    "answer": "C",
+    "explanation": "Gabarito definitivo do CESPE/UnB, Correios 2011, Tipo I: alternativa C.",
+    "page": 9,
+    "rect": [
+      25.0,
+      328.1916809082031,
+      595.0,
+      635.231689453125
+    ],
+    "images": [],
+    "raw": "Das correspondências que deveria entregar, o carteiro\n            7Carlos passou      delas para o carteiro Jorge; dessas, Jorge\n            10\n       3repassou   para o carteiro Marcos.\n       5\n\n\nNesse caso, com relação à quantidade de correspondências que\nCarlos deveria entregar, a quantidade que coube a Marcos é igual a\n\n    3A          .\n    10\n\n    2B        .\n    5\n\n    21C          .\n    50\n\n    10D          .\n    15\n\n    1E          .\n    10"
+  },
+  {
+    "slug": "correios-2011-carteiro",
+    "number": 35,
+    "subject": "Matemática",
+    "text": "Se a agência dos Correios de uma pequena cidade presta, diariamente, 40 atendimentos em média, e se, em razão de festas na cidade, a média de atendimentos diários passar a 52, então, nesse caso, haverá um aumento percentual de atendimentos de",
+    "support": "",
+    "support_image": "",
+    "options": [
+      "40%.",
+      "52%.",
+      "90%.",
+      "12%.",
+      "30%."
+    ],
+    "answer": "E",
+    "explanation": "Gabarito definitivo do CESPE/UnB, Correios 2011, Tipo I: alternativa E.",
+    "page": 9,
+    "rect": [
+      25.0,
+      646.1917114257812,
+      595.0,
+      802.0
+    ],
+    "images": [],
+    "raw": "Se a agência dos Correios de uma pequena cidade  presta,\ndiariamente, 40 atendimentos em média, e se, em razão de festas na\ncidade, a média de atendimentos diários passar a 52, então, nesse\ncaso, haverá um aumento percentual de atendimentos de\n\nA  40%.\nB  52%.\nC  90%.\nD  12%.\nE  30%."
+  },
+  {
+    "slug": "correios-2011-carteiro",
+    "number": 36,
+    "subject": "Matemática",
+    "text": "Caso os referidos reajustes atinjam os valores máximos indicados no texto, entre os serviços postais e telegráficos, aquele que terá o maior reajuste relativo será o",
+    "support": "As tarifas dos serviços postais e telegráficos, nacionais e internacionais, prestados pelos Correios sofrerão reajuste, conforme\nportaria assinada pelo ministro interino da Fazenda e publicada no Diário Oficial da União.\n      Os novos valores já foram anunciados pelo Ministério da Fazenda, mas ainda não podem ser cobrados, pois devem ser aprovados\npelo Ministério das Comunicações.\n     O primeiro porte da carta não comercial (pessoa física), segundo o Ministério da Fazenda, terá o valor elevado de R$ 0,70 para\naté R$ 0,75, com um crescimento de até 7,14%. O primeiro porte da carta comercial (pessoa jurídica) terá o valor reajustado de R$ 1,05\npara até R$ 1,10, com uma variação de 4,76%, se implementado o reajuste em sua totalidade.\n     O primeiro porte do chamado franqueamento autorizado de cartas (FAC), que é um contrato para a remessa de grandes\nquantidades de cartas comerciais, passará de R$ 0,92 para até R$ 0,98, um crescimento de 6,52%, se totalmente implementado o reajuste.\n     O preço mínimo dos telegramas nacionais contratados nas agências dos Correios, sem contar a taxação do imposto sobre\ncirculação de mercadorias e serviços (ICMS) estadual, subirá de R$ 6,30 para até R$ 6,70, um aumento de 6,34%. O preço do telegrama\ninternacional também subirá. O valor mínimo por palavra avançará de R$ 0,80 para até R$ 0,85, um reajuste de 6,25%, se integralmente\nimplementado.\n\n\n                                                                                                                                                                              Internet: <http://pe360graus.globo.com> (com adaptações).",
+    "support_image": "",
+    "options": [
+      "primeiro porte da carta comercial (pessoa jurídica).",
+      "primeiro porte do FAC.",
+      "telegrama nacional.",
+      "telegrama internacional.",
+      "primeiro porte da carta não comercial (pessoa física)."
+    ],
+    "answer": "E",
+    "explanation": "Gabarito definitivo do CESPE/UnB, Correios 2011, Tipo I: alternativa E.",
+    "page": 10,
+    "rect": [
+      25.0,
+      242.03170776367188,
+      595.0,
+      343.99169921875
+    ],
+    "images": [],
+    "raw": "Caso os referidos reajustes atinjam os valores máximos indicados no texto, entre os serviços postais e telegráficos, aquele que terá o maior\nreajuste relativo será o\n\nA  primeiro porte da carta comercial (pessoa jurídica).\nB  primeiro porte do FAC.\nC  telegrama nacional.\nD  telegrama internacional.\nE  primeiro porte da carta não comercial (pessoa física).",
+    "shared": {
+      "text": "As tarifas dos serviços postais e telegráficos, nacionais e internacionais, prestados pelos Correios sofrerão reajuste, conforme\nportaria assinada pelo ministro interino da Fazenda e publicada no Diário Oficial da União.\n      Os novos valores já foram anunciados pelo Ministério da Fazenda, mas ainda não podem ser cobrados, pois devem ser aprovados\npelo Ministério das Comunicações.\n     O primeiro porte da carta não comercial (pessoa física), segundo o Ministério da Fazenda, terá o valor elevado de R$ 0,70 para\naté R$ 0,75, com um crescimento de até 7,14%. O primeiro porte da carta comercial (pessoa jurídica) terá o valor reajustado de R$ 1,05\npara até R$ 1,10, com uma variação de 4,76%, se implementado o reajuste em sua totalidade.\n     O primeiro porte do chamado franqueamento autorizado de cartas (FAC), que é um contrato para a remessa de grandes\nquantidades de cartas comerciais, passará de R$ 0,92 para até R$ 0,98, um crescimento de 6,52%, se totalmente implementado o reajuste.\n     O preço mínimo dos telegramas nacionais contratados nas agências dos Correios, sem contar a taxação do imposto sobre\ncirculação de mercadorias e serviços (ICMS) estadual, subirá de R$ 6,30 para até R$ 6,70, um aumento de 6,34%. O preço do telegrama\ninternacional também subirá. O valor mínimo por palavra avançará de R$ 0,80 para até R$ 0,85, um reajuste de 6,25%, se integralmente\nimplementado.\n\n\n                                                                                                                                                                              Internet: <http://pe360graus.globo.com> (com adaptações).",
+      "page": 10,
+      "images": []
+    }
+  },
+  {
+    "slug": "correios-2011-carteiro",
+    "number": 37,
+    "subject": "Matemática",
+    "text": "Caso os reajustes mencionados no texto sejam aprovados daqui a exatamente três meses, o aumento máximo previsto para o primeiro porte do FAC corresponderá a uma taxa de juros simples mensal de",
+    "support": "As tarifas dos serviços postais e telegráficos, nacionais e internacionais, prestados pelos Correios sofrerão reajuste, conforme\nportaria assinada pelo ministro interino da Fazenda e publicada no Diário Oficial da União.\n      Os novos valores já foram anunciados pelo Ministério da Fazenda, mas ainda não podem ser cobrados, pois devem ser aprovados\npelo Ministério das Comunicações.\n     O primeiro porte da carta não comercial (pessoa física), segundo o Ministério da Fazenda, terá o valor elevado de R$ 0,70 para\naté R$ 0,75, com um crescimento de até 7,14%. O primeiro porte da carta comercial (pessoa jurídica) terá o valor reajustado de R$ 1,05\npara até R$ 1,10, com uma variação de 4,76%, se implementado o reajuste em sua totalidade.\n     O primeiro porte do chamado franqueamento autorizado de cartas (FAC), que é um contrato para a remessa de grandes\nquantidades de cartas comerciais, passará de R$ 0,92 para até R$ 0,98, um crescimento de 6,52%, se totalmente implementado o reajuste.\n     O preço mínimo dos telegramas nacionais contratados nas agências dos Correios, sem contar a taxação do imposto sobre\ncirculação de mercadorias e serviços (ICMS) estadual, subirá de R$ 6,30 para até R$ 6,70, um aumento de 6,34%. O preço do telegrama\ninternacional também subirá. O valor mínimo por palavra avançará de R$ 0,80 para até R$ 0,85, um reajuste de 6,25%, se integralmente\nimplementado.\n\n\n                                                                                                                                                                              Internet: <http://pe360graus.globo.com> (com adaptações).",
+    "support_image": "",
+    "options": [
+      "2,11%.",
+      "2,17%.",
+      "2,38%.",
+      "1,59%.",
+      "2,08%."
+    ],
+    "answer": "B",
+    "explanation": "Gabarito definitivo do CESPE/UnB, Correios 2011, Tipo I: alternativa B.",
+    "page": 10,
+    "rect": [
+      25.0,
+      354.9516906738281,
+      595.0,
+      802.0
+    ],
+    "images": [],
+    "raw": "Caso os reajustes mencionados no texto sejam aprovados daqui a exatamente três meses, o aumento máximo previsto para o primeiro porte\ndo FAC corresponderá a uma taxa de juros simples mensal de\n\nA  2,11%.\nB  2,17%.\nC  2,38%.\nD  1,59%.\nE  2,08%.",
+    "shared": {
+      "text": "As tarifas dos serviços postais e telegráficos, nacionais e internacionais, prestados pelos Correios sofrerão reajuste, conforme\nportaria assinada pelo ministro interino da Fazenda e publicada no Diário Oficial da União.\n      Os novos valores já foram anunciados pelo Ministério da Fazenda, mas ainda não podem ser cobrados, pois devem ser aprovados\npelo Ministério das Comunicações.\n     O primeiro porte da carta não comercial (pessoa física), segundo o Ministério da Fazenda, terá o valor elevado de R$ 0,70 para\naté R$ 0,75, com um crescimento de até 7,14%. O primeiro porte da carta comercial (pessoa jurídica) terá o valor reajustado de R$ 1,05\npara até R$ 1,10, com uma variação de 4,76%, se implementado o reajuste em sua totalidade.\n     O primeiro porte do chamado franqueamento autorizado de cartas (FAC), que é um contrato para a remessa de grandes\nquantidades de cartas comerciais, passará de R$ 0,92 para até R$ 0,98, um crescimento de 6,52%, se totalmente implementado o reajuste.\n     O preço mínimo dos telegramas nacionais contratados nas agências dos Correios, sem contar a taxação do imposto sobre\ncirculação de mercadorias e serviços (ICMS) estadual, subirá de R$ 6,30 para até R$ 6,70, um aumento de 6,34%. O preço do telegrama\ninternacional também subirá. O valor mínimo por palavra avançará de R$ 0,80 para até R$ 0,85, um reajuste de 6,25%, se integralmente\nimplementado.\n\n\n                                                                                                                                                                              Internet: <http://pe360graus.globo.com> (com adaptações).",
+      "page": 10,
+      "images": []
+    }
+  },
+  {
+    "slug": "correios-2011-carteiro",
+    "number": 38,
+    "subject": "Matemática",
+    "text": "Suponha que, no envio, por SEDEX, de encomendas entre as cidades de São Paulo – SP e Rio Branco – AC, a parcela fixa seja de R$ 35,10 e a constante de proporcionalidade, R$ 13,20. Com base nessa situação, considere o envio, por SEDEX, de duas encomendas de 3 kg cada uma e quatro encomendas de 2 kg cada uma, todas para pessoas diferentes, de São Paulo para Rio Branco. Assinale a opção correspondente à expressão numérica que representa o valor a ser pago pelo envio dessas encomendas.",
+    "support": "O cálculo do preço para o envio de encomendas por\nSEDEX depende das localidades de origem e destino e da\nmassa da encomenda. Fixados a origem e o destino, o valor é\ncalculado somando-se uma  parcela  fixa a uma quantia\nproporcional à massa da encomenda, medida em quilogramas.",
+    "support_image": "",
+    "options": [
+      "[35,10 + 13,20 × 3] × 2 + [35,10 + 13,20 × 2] × 4",
+      "[35,10 + 13,20] × 3 × 2 + [35,10 + 13,20] × 2 × 4",
+      "[35,10 + 13,20 × 3] + [35,10 + 13,20 × 2]",
+      "[35,10 + 13,20] × [3 × 2 + 2 × 4]",
+      "35,10 × 3 × 2 + 13,20 × 2 × 4"
+    ],
+    "answer": "A",
+    "explanation": "Gabarito definitivo do CESPE/UnB, Correios 2011, Tipo I: alternativa A.",
+    "page": 11,
+    "rect": [
+      25.0,
+      163.31167602539062,
+      279.739990234375,
+      802.0
+    ],
+    "images": [],
+    "raw": "Suponha que, no envio, por SEDEX, de encomendas entre as\ncidades de São Paulo – SP e Rio Branco – AC, a parcela fixa\nseja de R$ 35,10 e a  constante de  proporcionalidade,\nR$ 13,20. Com base nessa situação, considere o envio, por\nSEDEX, de duas encomendas de 3 kg cada uma e quatro\nencomendas de 2 kg cada uma, todas para pessoas diferentes,\nde  São  Paulo  para  Rio  Branco.  Assinale  a  opção\ncorrespondente à expressão numérica que representa o valor\na ser pago pelo envio dessas encomendas.\n\n\nA  [35,10 + 13,20 × 3] × 2 + [35,10 + 13,20 × 2] × 4\nB  [35,10 + 13,20] × 3 × 2 + [35,10 + 13,20] × 2 × 4\nC  [35,10 + 13,20 × 3] + [35,10 + 13,20 × 2]\nD  [35,10 + 13,20] × [3 × 2 + 2 × 4]\nE  35,10 × 3 × 2 + 13,20 × 2 × 4",
+    "shared": {
+      "text": "O cálculo do preço para o envio de encomendas por\nSEDEX depende das localidades de origem e destino e da\nmassa da encomenda. Fixados a origem e o destino, o valor é\ncalculado somando-se uma  parcela  fixa a uma quantia\nproporcional à massa da encomenda, medida em quilogramas.",
+      "page": 11,
+      "images": []
+    }
+  },
+  {
+    "slug": "correios-2011-carteiro",
+    "number": 39,
+    "subject": "Matemática",
+    "text": "Matheus pagou R$ 26,80 para enviar, de Brasília – DF a São Paulo – SP, uma encomenda de 1 kg, e Lucas pagou R$ 31,40 pelo envio, de Brasília a São Paulo, de uma encomenda de 2 kg. Nesse caso, a parcela fixa cobrada pelo envio de encomendas de Brasília para São Paulo é igual a",
+    "support": "O cálculo do preço para o envio de encomendas por\nSEDEX depende das localidades de origem e destino e da\nmassa da encomenda. Fixados a origem e o destino, o valor é\ncalculado somando-se uma  parcela  fixa a uma quantia\nproporcional à massa da encomenda, medida em quilogramas.",
+    "support_image": "",
+    "options": [
+      "R$ 22,00.",
+      "R$ 21,80.",
+      "R$ 21,60.",
+      "R$ 21,40.",
+      "R$ 22,20."
+    ],
+    "answer": "E",
+    "explanation": "Gabarito definitivo do CESPE/UnB, Correios 2011, Tipo I: alternativa E.",
+    "page": 11,
+    "rect": [
+      279.739990234375,
+      67.91171264648438,
+      570.0,
+      226.6317138671875
+    ],
+    "images": [],
+    "raw": "Matheus pagou R$ 26,80 para enviar, de Brasília – DF a São\nPaulo – SP, uma encomenda de 1 kg, e Lucas pagou R$ 31,40 pelo envio,\nde Brasília a São Paulo, de uma encomenda de 2 kg.\n\nNesse caso, a parcela fixa cobrada pelo envio de encomendas de Brasília\npara São Paulo é igual a\n\nA  R$ 22,00.\nB  R$ 21,80.\nC  R$ 21,60.\nD  R$ 21,40.\nE  R$ 22,20.",
+    "shared": {
+      "text": "O cálculo do preço para o envio de encomendas por\nSEDEX depende das localidades de origem e destino e da\nmassa da encomenda. Fixados a origem e o destino, o valor é\ncalculado somando-se uma  parcela  fixa a uma quantia\nproporcional à massa da encomenda, medida em quilogramas.",
+      "page": 11,
+      "images": []
+    }
+  },
+  {
+    "slug": "correios-2011-carteiro",
+    "number": 40,
+    "subject": "Matemática",
+    "text": "Considere que 12 carteiros levem 21 minutos na triagem de certa quantidade de correspondências e que todos os carteiros trabalhem com a mesma eficiência. Nesse caso, se a esses carteiros forem agrupados outros dois, com igual eficiência, então o tempo necessário para a triagem da mesma quantidade de correspondências será igual a",
+    "support": "",
+    "support_image": "",
+    "options": [
+      "19 minutos.",
+      "18 minutos.",
+      "15 minutos.",
+      "14 minutos.",
+      "12 minutos."
+    ],
+    "answer": "B",
+    "explanation": "Gabarito definitivo do CESPE/UnB, Correios 2011, Tipo I: alternativa B.",
+    "page": 11,
+    "rect": [
+      279.739990234375,
+      237.59170532226562,
+      570.0,
+      802.0
+    ],
+    "images": [],
+    "raw": "Considere que 12 carteiros levem 21 minutos na triagem de certa\nquantidade de correspondências e que todos os carteiros trabalhem com\na mesma eficiência. Nesse caso, se a esses carteiros forem agrupados\noutros dois, com igual eficiência, então o tempo necessário para a\ntriagem da mesma quantidade de correspondências será igual a\n\nA  19 minutos.\nB  18 minutos.\nC  15 minutos.\nD  14 minutos.\nE  12 minutos."
+  },
+  {
+    "slug": "correios-2011-carteiro",
+    "number": 41,
+    "subject": "Língua Portuguesa",
+    "text": "De acordo com o texto, há expectativa de que os Correios",
+    "support": "1      O novo  estatuto dos Correios permite à  estatal\n\n    associar-se a companhias públicas e privadas, aplicar recursos\n\n  em grandes projetos, como no do trem-bala, e até abrir\n\n 4  agências no exterior. O presidente da empresa avisa que as\n\n    perspectivas são quase ilimitadas e que, no horizonte, está a\n\n   necessidade de adaptação a tempos mais competitivos e de\n\n 7  ampliação de lucros.\n\n       O balanço da empresa, que será publicado pela\n\n    primeira vez, mostrará que 2010 foi um bom ano para os\n\n10  Correios. O faturamento chegou a R$ 13 bilhões, e a receita\n\n    líquida, a R$ 800 milhões. O resultado positivo ajudará a\n\n   engordar um caixa robusto, que atualmente conta com cerca de\n\n13  R$ 4 bilhões  livres para investimento. O presidente dos\n\n   Correios adverte que os recursos serão utilizados conforme os\n\n    interesses da empresa e sob regras de governança típicas de\n\n16  companhias de capital aberto. Lançar-se no mercado, no\n\n    entanto, está fora de cogitação.\n\n\n\n                                                 Correio Braziliense, 20/2/2011 (com adaptações).",
+    "support_image": "",
+    "options": [
+      "sejam o financiador oficial dos projetos do governo federal.",
+      "se tornem mais competitivos e lucrativos.",
+      "se desvinculem do poder público.",
+      "se transformem em uma agência privada internacional.",
+      "se convertam em uma instituição financeira de grande porte."
+    ],
+    "answer": "B",
+    "explanation": "Gabarito definitivo do CESPE/UnB, Correios 2011, Tipo I: alternativa B.",
+    "page": 12,
+    "rect": [
+      25.0,
+      461.6316833496094,
+      300.6199951171875,
+      616.271728515625
+    ],
+    "images": [],
+    "raw": "De acordo com o texto, há expectativa de que os Correios\n\n\nA  sejam o financiador oficial dos projetos do governo federal.\n\nB  se tornem mais competitivos e lucrativos.\n\nC  se desvinculem do poder público.\n\nD  se transformem em uma agência privada internacional.\n\nE  se convertam em uma instituição financeira de grande porte.",
+    "shared": {
+      "text": "1      O novo  estatuto dos Correios permite à  estatal\n\n    associar-se a companhias públicas e privadas, aplicar recursos\n\n  em grandes projetos, como no do trem-bala, e até abrir\n\n 4  agências no exterior. O presidente da empresa avisa que as\n\n    perspectivas são quase ilimitadas e que, no horizonte, está a\n\n   necessidade de adaptação a tempos mais competitivos e de\n\n 7  ampliação de lucros.\n\n       O balanço da empresa, que será publicado pela\n\n    primeira vez, mostrará que 2010 foi um bom ano para os\n\n10  Correios. O faturamento chegou a R$ 13 bilhões, e a receita\n\n    líquida, a R$ 800 milhões. O resultado positivo ajudará a\n\n   engordar um caixa robusto, que atualmente conta com cerca de\n\n13  R$ 4 bilhões  livres para investimento. O presidente dos\n\n   Correios adverte que os recursos serão utilizados conforme os\n\n    interesses da empresa e sob regras de governança típicas de\n\n16  companhias de capital aberto. Lançar-se no mercado, no\n\n    entanto, está fora de cogitação.\n\n\n\n                                                 Correio Braziliense, 20/2/2011 (com adaptações).",
+      "page": 12,
+      "images": []
+    }
+  },
+  {
+    "slug": "correios-2011-carteiro",
+    "number": 42,
+    "subject": "Língua Portuguesa",
+    "text": "De acordo com o texto, o balanço da empresa mostrará que “2010 foi um bom ano para os Correios” (R.9-10), porque a estatal",
+    "support": "1      O novo  estatuto dos Correios permite à  estatal\n\n    associar-se a companhias públicas e privadas, aplicar recursos\n\n  em grandes projetos, como no do trem-bala, e até abrir\n\n 4  agências no exterior. O presidente da empresa avisa que as\n\n    perspectivas são quase ilimitadas e que, no horizonte, está a\n\n   necessidade de adaptação a tempos mais competitivos e de\n\n 7  ampliação de lucros.\n\n       O balanço da empresa, que será publicado pela\n\n    primeira vez, mostrará que 2010 foi um bom ano para os\n\n10  Correios. O faturamento chegou a R$ 13 bilhões, e a receita\n\n    líquida, a R$ 800 milhões. O resultado positivo ajudará a\n\n   engordar um caixa robusto, que atualmente conta com cerca de\n\n13  R$ 4 bilhões  livres para investimento. O presidente dos\n\n   Correios adverte que os recursos serão utilizados conforme os\n\n    interesses da empresa e sob regras de governança típicas de\n\n16  companhias de capital aberto. Lançar-se no mercado, no\n\n    entanto, está fora de cogitação.\n\n\n\n                                                 Correio Braziliense, 20/2/2011 (com adaptações).",
+    "support_image": "",
+    "options": [
+      "obteve alto faturamento e elevado rendimento.",
+      "sobressaiu na imprensa como instituição confiável.",
+      "utilizou seus recursos em companhias de capital aberto.",
+      "apresentou, pela primeira vez, resultados financeiros positivos.",
+      "investiu bilhões no mercado de capital."
+    ],
+    "answer": "A",
+    "explanation": "Gabarito definitivo do CESPE/UnB, Correios 2011, Tipo I: alternativa A.",
+    "page": 12,
+    "rect": [
+      25.0,
+      627.2317504882812,
+      300.6199951171875,
+      802.0
+    ],
+    "images": [],
+    "raw": "De acordo com o texto, o balanço da empresa mostrará que “2010\n\nfoi um bom ano para os Correios” (R.9-10), porque a estatal\n\n\nA  obteve alto faturamento e elevado rendimento.\n\nB  sobressaiu na imprensa como instituição confiável.\n\nC   utilizou seus recursos em companhias de capital aberto.\n\nD  apresentou, pela primeira vez, resultados financeiros positivos.\n\nE   investiu bilhões no mercado de capital.",
+    "shared": {
+      "text": "1      O novo  estatuto dos Correios permite à  estatal\n\n    associar-se a companhias públicas e privadas, aplicar recursos\n\n  em grandes projetos, como no do trem-bala, e até abrir\n\n 4  agências no exterior. O presidente da empresa avisa que as\n\n    perspectivas são quase ilimitadas e que, no horizonte, está a\n\n   necessidade de adaptação a tempos mais competitivos e de\n\n 7  ampliação de lucros.\n\n       O balanço da empresa, que será publicado pela\n\n    primeira vez, mostrará que 2010 foi um bom ano para os\n\n10  Correios. O faturamento chegou a R$ 13 bilhões, e a receita\n\n    líquida, a R$ 800 milhões. O resultado positivo ajudará a\n\n   engordar um caixa robusto, que atualmente conta com cerca de\n\n13  R$ 4 bilhões  livres para investimento. O presidente dos\n\n   Correios adverte que os recursos serão utilizados conforme os\n\n    interesses da empresa e sob regras de governança típicas de\n\n16  companhias de capital aberto. Lançar-se no mercado, no\n\n    entanto, está fora de cogitação.\n\n\n\n                                                 Correio Braziliense, 20/2/2011 (com adaptações).",
+      "page": 12,
+      "images": []
+    }
+  },
+  {
+    "slug": "correios-2011-carteiro",
+    "number": 43,
+    "subject": "Língua Portuguesa",
+    "text": "Assinale a opção em que a reescrita do primeiro período do texto mantém a coerência das ideias do texto original e a correção gramatical.",
+    "support": "1      O novo  estatuto dos Correios permite à  estatal\n\n    associar-se a companhias públicas e privadas, aplicar recursos\n\n  em grandes projetos, como no do trem-bala, e até abrir\n\n 4  agências no exterior. O presidente da empresa avisa que as\n\n    perspectivas são quase ilimitadas e que, no horizonte, está a\n\n   necessidade de adaptação a tempos mais competitivos e de\n\n 7  ampliação de lucros.\n\n       O balanço da empresa, que será publicado pela\n\n    primeira vez, mostrará que 2010 foi um bom ano para os\n\n10  Correios. O faturamento chegou a R$ 13 bilhões, e a receita\n\n    líquida, a R$ 800 milhões. O resultado positivo ajudará a\n\n   engordar um caixa robusto, que atualmente conta com cerca de\n\n13  R$ 4 bilhões  livres para investimento. O presidente dos\n\n   Correios adverte que os recursos serão utilizados conforme os\n\n    interesses da empresa e sob regras de governança típicas de\n\n16  companhias de capital aberto. Lançar-se no mercado, no\n\n    entanto, está fora de cogitação.\n\n\n\n                                                 Correio Braziliense, 20/2/2011 (com adaptações).",
+    "support_image": "",
+    "options": [
+      "O novo regulamento dos Correios, ao facilitar que a estatal seja associada à companhias públicas, além das privadas, permitem que a empresa seja financiada por grandes projetos, como o do trem-bala, criando filiais em países estrangeiros.",
+      "O novo estatuto dos Correios permite que a empresa se associe a companhias públicas e privadas, invista recursos em grandes projetos, como, por exemplo, no do trem-bala, e tenha sucursais no exterior.",
+      "O novo estatuto dos Correios permite a estatal a associação a companhias públicas e privadas, à aplicação de recursos em grandes projetos do trem-bala e até à abertura de filiais no mundo exterior.",
+      "A nova lei possibilita que os Correios seja associado as companhias públicas e privadas, apliquem recursos em grandes projetos, como trem-bala e até conquiste agências estrangeiras.",
+      "O novo regulamento dos Correios assumindo que a empresa associe-se a outras companhias, públicas e privadas, investe recursos em grandes projetos como o trem-bala e crie possibilidades de ampliação em outros países."
+    ],
+    "answer": "B",
+    "explanation": "Gabarito definitivo do CESPE/UnB, Correios 2011, Tipo I: alternativa B.",
+    "page": 12,
+    "rect": [
+      300.6199951171875,
+      85.91171264648438,
+      570.0,
+      467.4717102050781
+    ],
+    "images": [],
+    "raw": "Assinale a opção em que a reescrita do primeiro período do texto\n\nmantém a coerência das ideias do texto original e a correção\n\ngramatical.\n\n\nA O novo regulamento dos Correios, ao facilitar que a estatal seja\n\n    associada à companhias públicas, além das privadas, permitem\n\n    que a empresa seja financiada por grandes projetos, como o do\n\n     trem-bala, criando filiais em países estrangeiros.\n\nB O novo estatuto dos Correios permite que a empresa se associe\n\n    a companhias públicas e privadas, invista recursos em grandes\n\n     projetos, como, por exemplo, no do trem-bala, e tenha\n\n     sucursais no exterior.\n\nC O novo estatuto dos Correios permite a estatal a associação a\n\n    companhias públicas e privadas, à aplicação de recursos em\n\n    grandes projetos do trem-bala e até à abertura de filiais no\n\n   mundo exterior.\n\nD A nova  lei possibilita que os Correios seja associado as\n\n    companhias públicas e privadas, apliquem recursos em grandes\n\n     projetos, como trem-bala e até conquiste agências estrangeiras.\n\nE O novo regulamento dos Correios assumindo que a empresa\n\n     associe-se a outras companhias, públicas e privadas, investe\n\n    recursos em grandes  projetos como o  trem-bala e  crie\n\n     possibilidades de ampliação em outros países.",
+    "shared": {
+      "text": "1      O novo  estatuto dos Correios permite à  estatal\n\n    associar-se a companhias públicas e privadas, aplicar recursos\n\n  em grandes projetos, como no do trem-bala, e até abrir\n\n 4  agências no exterior. O presidente da empresa avisa que as\n\n    perspectivas são quase ilimitadas e que, no horizonte, está a\n\n   necessidade de adaptação a tempos mais competitivos e de\n\n 7  ampliação de lucros.\n\n       O balanço da empresa, que será publicado pela\n\n    primeira vez, mostrará que 2010 foi um bom ano para os\n\n10  Correios. O faturamento chegou a R$ 13 bilhões, e a receita\n\n    líquida, a R$ 800 milhões. O resultado positivo ajudará a\n\n   engordar um caixa robusto, que atualmente conta com cerca de\n\n13  R$ 4 bilhões  livres para investimento. O presidente dos\n\n   Correios adverte que os recursos serão utilizados conforme os\n\n    interesses da empresa e sob regras de governança típicas de\n\n16  companhias de capital aberto. Lançar-se no mercado, no\n\n    entanto, está fora de cogitação.\n\n\n\n                                                 Correio Braziliense, 20/2/2011 (com adaptações).",
+      "page": 12,
+      "images": []
+    }
+  },
+  {
+    "slug": "correios-2011-carteiro",
+    "number": 44,
+    "subject": "Língua Portuguesa",
+    "text": "A locução “no entanto”, empregada no último período do texto, poderia ser substituída, com correção gramatical e sem prejuízo para a coerência textual, por",
+    "support": "1      O novo  estatuto dos Correios permite à  estatal\n\n    associar-se a companhias públicas e privadas, aplicar recursos\n\n  em grandes projetos, como no do trem-bala, e até abrir\n\n 4  agências no exterior. O presidente da empresa avisa que as\n\n    perspectivas são quase ilimitadas e que, no horizonte, está a\n\n   necessidade de adaptação a tempos mais competitivos e de\n\n 7  ampliação de lucros.\n\n       O balanço da empresa, que será publicado pela\n\n    primeira vez, mostrará que 2010 foi um bom ano para os\n\n10  Correios. O faturamento chegou a R$ 13 bilhões, e a receita\n\n    líquida, a R$ 800 milhões. O resultado positivo ajudará a\n\n   engordar um caixa robusto, que atualmente conta com cerca de\n\n13  R$ 4 bilhões  livres para investimento. O presidente dos\n\n   Correios adverte que os recursos serão utilizados conforme os\n\n    interesses da empresa e sob regras de governança típicas de\n\n16  companhias de capital aberto. Lançar-se no mercado, no\n\n    entanto, está fora de cogitação.\n\n\n\n                                                 Correio Braziliense, 20/2/2011 (com adaptações).",
+    "support_image": "",
+    "options": [
+      "contudo.",
+      "por essa razão.",
+      "pois.",
+      "embora.",
+      "portanto."
+    ],
+    "answer": "A",
+    "explanation": "Gabarito definitivo do CESPE/UnB, Correios 2011, Tipo I: alternativa A.",
+    "page": 12,
+    "rect": [
+      300.6199951171875,
+      478.43170166015625,
+      570.0,
+      641.711669921875
+    ],
+    "images": [],
+    "raw": "A locução “no entanto”, empregada no último período do texto,\n\npoderia ser substituída, com correção gramatical e sem prejuízo\n\npara a coerência textual, por\n\n\nA  contudo.\n\nB  por essa razão.\n\nC   pois.\n\nD  embora.\n\nE  portanto.",
+    "shared": {
+      "text": "1      O novo  estatuto dos Correios permite à  estatal\n\n    associar-se a companhias públicas e privadas, aplicar recursos\n\n  em grandes projetos, como no do trem-bala, e até abrir\n\n 4  agências no exterior. O presidente da empresa avisa que as\n\n    perspectivas são quase ilimitadas e que, no horizonte, está a\n\n   necessidade de adaptação a tempos mais competitivos e de\n\n 7  ampliação de lucros.\n\n       O balanço da empresa, que será publicado pela\n\n    primeira vez, mostrará que 2010 foi um bom ano para os\n\n10  Correios. O faturamento chegou a R$ 13 bilhões, e a receita\n\n    líquida, a R$ 800 milhões. O resultado positivo ajudará a\n\n   engordar um caixa robusto, que atualmente conta com cerca de\n\n13  R$ 4 bilhões  livres para investimento. O presidente dos\n\n   Correios adverte que os recursos serão utilizados conforme os\n\n    interesses da empresa e sob regras de governança típicas de\n\n16  companhias de capital aberto. Lançar-se no mercado, no\n\n    entanto, está fora de cogitação.\n\n\n\n                                                 Correio Braziliense, 20/2/2011 (com adaptações).",
+      "page": 12,
+      "images": []
+    }
+  },
+  {
+    "slug": "correios-2011-carteiro",
+    "number": 45,
+    "subject": "Língua Portuguesa",
+    "text": "A palavra “trem-bala” é composta por justaposição, tal qual o vocábulo",
+    "support": "1      O novo  estatuto dos Correios permite à  estatal\n\n    associar-se a companhias públicas e privadas, aplicar recursos\n\n  em grandes projetos, como no do trem-bala, e até abrir\n\n 4  agências no exterior. O presidente da empresa avisa que as\n\n    perspectivas são quase ilimitadas e que, no horizonte, está a\n\n   necessidade de adaptação a tempos mais competitivos e de\n\n 7  ampliação de lucros.\n\n       O balanço da empresa, que será publicado pela\n\n    primeira vez, mostrará que 2010 foi um bom ano para os\n\n10  Correios. O faturamento chegou a R$ 13 bilhões, e a receita\n\n    líquida, a R$ 800 milhões. O resultado positivo ajudará a\n\n   engordar um caixa robusto, que atualmente conta com cerca de\n\n13  R$ 4 bilhões  livres para investimento. O presidente dos\n\n   Correios adverte que os recursos serão utilizados conforme os\n\n    interesses da empresa e sob regras de governança típicas de\n\n16  companhias de capital aberto. Lançar-se no mercado, no\n\n    entanto, está fora de cogitação.\n\n\n\n                                                 Correio Braziliense, 20/2/2011 (com adaptações).",
+    "support_image": "",
+    "options": [
+      "governança.",
+      "ilimitado.",
+      "passatempo.",
+      "superprodução.",
+      "faturamento."
+    ],
+    "answer": "C",
+    "explanation": "Gabarito definitivo do CESPE/UnB, Correios 2011, Tipo I: alternativa C.",
+    "page": 12,
+    "rect": [
+      300.6199951171875,
+      652.6716918945312,
+      570.0,
+      802.0
+    ],
+    "images": [],
+    "raw": "A palavra “trem-bala” é composta por justaposição, tal qual o\n\nvocábulo\n\n\nA  governança.\n\nB   ilimitado.\n\nC  passatempo.\n\nD  superprodução.\n\nE  faturamento.",
+    "shared": {
+      "text": "1      O novo  estatuto dos Correios permite à  estatal\n\n    associar-se a companhias públicas e privadas, aplicar recursos\n\n  em grandes projetos, como no do trem-bala, e até abrir\n\n 4  agências no exterior. O presidente da empresa avisa que as\n\n    perspectivas são quase ilimitadas e que, no horizonte, está a\n\n   necessidade de adaptação a tempos mais competitivos e de\n\n 7  ampliação de lucros.\n\n       O balanço da empresa, que será publicado pela\n\n    primeira vez, mostrará que 2010 foi um bom ano para os\n\n10  Correios. O faturamento chegou a R$ 13 bilhões, e a receita\n\n    líquida, a R$ 800 milhões. O resultado positivo ajudará a\n\n   engordar um caixa robusto, que atualmente conta com cerca de\n\n13  R$ 4 bilhões  livres para investimento. O presidente dos\n\n   Correios adverte que os recursos serão utilizados conforme os\n\n    interesses da empresa e sob regras de governança típicas de\n\n16  companhias de capital aberto. Lançar-se no mercado, no\n\n    entanto, está fora de cogitação.\n\n\n\n                                                 Correio Braziliense, 20/2/2011 (com adaptações).",
+      "page": 12,
+      "images": []
+    }
+  },
+  {
+    "slug": "correios-2011-carteiro",
+    "number": 46,
+    "subject": "Língua Portuguesa",
+    "text": "Em 1979, Mandy, uma garota de 13 anos de idade, participou de uma excursão em uma ilha da Escócia. Lá, resolveu colocar uma carta em uma garrafa e jogá-la ao mar. No bilhete, ela dizia que precisava de um penpal — um amigo por correspondência. Dois anos depois, o pequeno Richard, então com 6 anos, encontrou a garrafa no litoral. Maravilhado, o garotinho resolveu responder a Mandy, dizendo que queria ser o amigo de correspondência da menina, que, por causa da diferença de idade, não lhe respondeu. Mandy, que, hoje, tem 45 anos, é mãe de três filhos e vive em Beverley, na Inglaterra, revirava suas coisas quando encontrou o cartão-postal que recebera de Richard, em 1981. Ela resolveu mostrá-lo a seu atual namorado, que também se chama Richard e tem 36 anos de idade. Ao ler o postal, Richard, surpreso, reconheceu-se como o garotinho que escrevera a Mandy. Ao jornal The Sun, Mandy falou sobre a incrível coincidência: “Foi maravilhoso. Eu então percebi que ele era o pequeno garotinho que me mandou aquele cartão-postal há tantos anos. Eu fiquei chocada, quase desmaiei. É doido pensar que foi Richard quem escreveu para mim. É como se nós, que crescemos a quilômetros de distância um do outro, tivéssemos passado a vida toda juntos”, contou. Internet: <www.hojeemdia.com.br> (com adaptações). Da leitura do texto acima entende-se que",
+    "support": "",
+    "support_image": "",
+    "options": [
+      "Mandy guardou segredo sobre a carta que recebera de Richard, durante 44 anos, para não magoar o namorado.",
+      "Mandy, na adolescência, não queria corresponder-se com meninos mais novos que ela.",
+      "Mandy descobriu que vivera a vida toda perto de Richard.",
+      "Richard, que se apaixonara por Mandy, adiou por dois anos a resposta à carta recebida.",
+      "Richard utilizou a mesma estratégia usada por Mandy para responder à menina."
+    ],
+    "answer": "B",
+    "explanation": "Gabarito definitivo do CESPE/UnB, Correios 2011, Tipo I: alternativa B.",
+    "page": 13,
+    "rect": [
+      25.0,
+      67.91171264648438,
+      279.739990234375,
+      646.99169921875
+    ],
+    "images": [],
+    "raw": "Em 1979, Mandy, uma garota de 13 anos de idade,\n\nparticipou de uma excursão em uma ilha da Escócia. Lá,\n\nresolveu colocar uma carta em uma garrafa e jogá-la ao mar.\n\nNo bilhete, ela dizia que precisava de um penpal — um amigo\n\npor correspondência.\n       Dois anos depois, o pequeno Richard, então com\n\n6 anos, encontrou a garrafa no  litoral. Maravilhado, o\n\ngarotinho resolveu responder a Mandy, dizendo que queria ser\n\no amigo de correspondência da menina, que, por causa da\n\ndiferença de idade, não lhe respondeu.\n       Mandy, que, hoje, tem 45 anos, é mãe de três filhos\n\ne vive em Beverley, na Inglaterra, revirava suas coisas quando\n\nencontrou o cartão-postal que recebera de Richard, em 1981.\n\nEla resolveu mostrá-lo a seu atual namorado, que também se\n\nchama Richard e tem 36 anos de idade. Ao ler o postal,\n\nRichard, surpreso, reconheceu-se como o garotinho que\n\nescrevera a Mandy.\n      Ao jornal The Sun, Mandy falou sobre a incrível\n\ncoincidência: “Foi maravilhoso. Eu então percebi que ele era\n\no pequeno garotinho que me mandou aquele cartão-postal há\n\ntantos anos. Eu fiquei chocada, quase desmaiei. É doido\n\npensar que foi Richard quem escreveu para mim. É como se\n\nnós, que crescemos a quilômetros de distância um do outro,\n\ntivéssemos passado a vida toda juntos”, contou.\n\n\n                                                 Internet: <www.hojeemdia.com.br> (com adaptações).\n\n\nDa leitura do texto acima entende-se que\n\n\nA  Mandy guardou segredo sobre a carta que recebera de\n\n    Richard, durante 44 anos, para não magoar o namorado.\n\nB  Mandy, na adolescência, não queria corresponder-se com\n\n    meninos mais novos que ela.\n\nC  Mandy descobriu que vivera a vida toda perto de Richard.\n\nD  Richard, que se apaixonara por Mandy, adiou por\n\n    dois anos a resposta à carta recebida.\n\nE  Richard utilizou a mesma estratégia usada por Mandy\n\n    para responder à menina."
+  },
+  {
+    "slug": "correios-2011-carteiro",
+    "number": 47,
+    "subject": "Língua Portuguesa",
+    "text": "São acentuados graficamente de acordo com a mesma regra de acentuação gráfica os vocábulos",
+    "support": "",
+    "support_image": "",
+    "options": [
+      "também e coincidência.",
+      "quilômetros e tivéssemos.",
+      "jogá-la e incrível.",
+      "Escócia e nós.",
+      "correspondência e três."
+    ],
+    "answer": "B",
+    "explanation": "Gabarito definitivo do CESPE/UnB, Correios 2011, Tipo I: alternativa B.",
+    "page": 13,
+    "rect": [
+      25.0,
+      657.9517211914062,
+      279.739990234375,
+      802.0
+    ],
+    "images": [],
+    "raw": "São acentuados graficamente de acordo com a mesma regra de\n\nacentuação gráfica os vocábulos\n\n\nA  também e coincidência.\n\nB  quilômetros e tivéssemos.\n\nC  jogá-la e incrível.\n\nD  Escócia e nós.\n\nE  correspondência e três."
+  },
+  {
+    "slug": "correios-2011-carteiro",
+    "number": 48,
+    "subject": "Língua Portuguesa",
+    "text": "O primeiro selo do mundo, conhecido como Penny Black, surgiu na Inglaterra, em 6/5/1840, como parte do processo de reorganização promovido no serviço postal daquele país. Até essa data, o pagamento pela prestação do serviço de transporte e entrega de correspondências era feito pelo destinatário. A chegada do selo foi fundamental para o sucesso da reforma postal, que revolucionou os correios no mundo inteiro. Internet: <www.correios.com.br> (com adaptações). Assinale a opção correta de acordo com as ideias do texto acima.",
+    "support": "",
+    "support_image": "",
+    "options": [
+      "Até o final do século XIX, o destinatário assumia total responsabilidade pelo transporte e pela entrega de correspondências.",
+      "Na primeira década do século XIX, uma revolução inglesa provocou verdadeira reviravolta nos serviços postais do mundo.",
+      "Antes da invenção do selo, o remetente não se responsabilizava pelas correspondências que encaminhava.",
+      "A invenção do selo representou um avanço para os serviços prestados pelos correios no mundo todo.",
+      "A prestação dos serviços de transporte e entrega de correspondências era bastante precária no século passado."
+    ],
+    "answer": "D",
+    "explanation": "Gabarito definitivo do CESPE/UnB, Correios 2011, Tipo I: alternativa D.",
+    "page": 13,
+    "rect": [
+      279.739990234375,
+      67.91171264648438,
+      570.0,
+      306.2394104003906
+    ],
+    "images": [],
+    "raw": "O primeiro selo do mundo, conhecido como Penny Black, surgiu\nna Inglaterra, em 6/5/1840, como parte do processo de reorganização\npromovido no serviço postal daquele país. Até essa data, o pagamento\npela prestação do serviço de transporte e entrega de correspondências era\nfeito pelo destinatário. A chegada do selo foi fundamental para o sucesso\nda reforma postal, que revolucionou os correios no mundo inteiro.\n\n\n                                                                     Internet: <www.correios.com.br> (com adaptações).\n\nAssinale a opção correta de acordo com as ideias do texto acima.\n\nA  Até  o  final  do  século  XIX,  o  destinatário  assumia  total\n    responsabilidade pelo transporte e pela entrega de correspondências.\nB  Na primeira década do século XIX, uma revolução inglesa provocou\n    verdadeira reviravolta nos serviços postais do mundo.\nC  Antes da invenção do selo, o remetente não se responsabilizava\n     pelas correspondências que encaminhava.\nD A invenção do selo representou um avanço para os serviços\n    prestados pelos correios no mundo todo.\nE A  prestação  dos  serviços  de   transporte  e  entrega  de\n    correspondências era bastante precária no século passado."
+  },
+  {
+    "slug": "correios-2011-carteiro",
+    "number": 49,
+    "subject": "Língua Portuguesa",
+    "text": "O efeito de humor da tirinha acima é evidenciado",
+    "support": "O Estado de S.Paulo, 7/3/2006.",
+    "support_image": "",
+    "options": [
+      "no conteúdo inesperado da mensagem contida no cartão.",
+      "na expressão do Tigrão, ao dizer que Susi iria adorar o cartão.",
+      "na reação do Tigrão, que considera Susi uma gatinha.",
+      "no emprego das expressões “coraçãozão vermelho” e “botar renda em volta”.",
+      "no capricho de Calvin, que decide recortar e enfeitar o cartão."
+    ],
+    "answer": "A",
+    "explanation": "Gabarito definitivo do CESPE/UnB, Correios 2011, Tipo I: alternativa A.",
+    "page": 13,
+    "rect": [
+      279.739990234375,
+      569.3917236328125,
+      570.0,
+      674.5916748046875
+    ],
+    "images": [],
+    "raw": "O efeito de humor da tirinha acima é evidenciado\n\nA  no conteúdo inesperado da mensagem contida no cartão.\nB  na expressão do Tigrão, ao dizer que Susi iria adorar o cartão.\nC  na reação do Tigrão, que considera Susi uma gatinha.\nD  no emprego das expressões “coraçãozão vermelho” e “botar renda\n   em volta”.\nE  no capricho de Calvin, que decide recortar e enfeitar o cartão.",
+    "shared": {
+      "text": "O Estado de S.Paulo, 7/3/2006.",
+      "page": 13,
+      "images": [
+        [
+          340.20001220703125,
+          324.8399963378906,
+          511.1650085449219,
+          433.67999267578125
+        ],
+        [
+          340.20001220703125,
+          433.4399719238281,
+          510.42999267578125,
+          543.8399658203125
+        ]
+      ]
+    }
+  },
+  {
+    "slug": "correios-2011-carteiro",
+    "number": 50,
+    "subject": "Língua Portuguesa",
+    "text": "Assinale a opção correspondente ao trecho em que há mais de uma oração.",
+    "support": "O Estado de S.Paulo, 7/3/2006.",
+    "support_image": "",
+    "options": [
+      "“Aposto que ela vai adorar.”",
+      "“Vou mandar um cartão de dia dos namorados para a Susi Derkins.”",
+      "“Ela é uma gatinha.”",
+      "“Eu fiz um coraçãozão vermelho.”",
+      "“Agora vou botar renda em volta.”"
+    ],
+    "answer": "A",
+    "explanation": "Gabarito definitivo do CESPE/UnB, Correios 2011, Tipo I: alternativa A.",
+    "page": 13,
+    "rect": [
+      279.739990234375,
+      685.5516967773438,
+      570.0,
+      802.0
+    ],
+    "images": [],
+    "raw": "Assinale a opção correspondente ao trecho em que há mais de uma\noração.\n\nA  “Aposto que ela vai adorar.”\nB  “Vou mandar um cartão de dia dos namorados para a Susi Derkins.”\nC  “Ela é uma gatinha.”\nD  “Eu fiz um coraçãozão vermelho.”\nE  “Agora vou botar renda em volta.”",
+    "shared": {
+      "text": "O Estado de S.Paulo, 7/3/2006.",
+      "page": 13,
+      "images": [
+        [
+          340.20001220703125,
+          324.8399963378906,
+          511.1650085449219,
+          433.67999267578125
+        ],
+        [
+          340.20001220703125,
+          433.4399719238281,
+          510.42999267578125,
+          543.8399658203125
+        ]
+      ]
+    }
+  },
+  {
+    "slug": "correios-2011-carteiro",
+    "number": 51,
+    "subject": "Língua Portuguesa",
+    "text": "Assinale a opção em que o verbo da oração tem dois complementos.",
+    "support": "O Estado de S.Paulo, 7/3/2006.",
+    "support_image": "",
+    "options": [
+      "“Ela é uma gatinha.”",
+      "“Eu fiz um coraçãozão vermelho.”",
+      "“Agora vou botar renda em volta.”",
+      "“Eu te odeio.”",
+      "“Vou mandar um cartão de dia dos namorados para a Susi Derkins.”"
+    ],
+    "answer": "E",
+    "explanation": "Gabarito definitivo do CESPE/UnB, Correios 2011, Tipo I: alternativa E.",
+    "page": 14,
+    "rect": [
+      25.0,
+      67.91171264648438,
+      300.6199951171875,
+      168.6000518798828
+    ],
+    "images": [],
+    "raw": "Assinale a opção em que o verbo da oração tem dois complementos.\n\nA  “Ela é uma gatinha.”\nB  “Eu fiz um coraçãozão vermelho.”\nC  “Agora vou botar renda em volta.”\nD  “Eu te odeio.”\nE  “Vou mandar um cartão de dia dos namorados para a Susi\n    Derkins.”",
+    "shared": {
+      "text": "O Estado de S.Paulo, 7/3/2006.",
+      "page": 13,
+      "images": [
+        [
+          340.20001220703125,
+          324.8399963378906,
+          511.1650085449219,
+          433.67999267578125
+        ],
+        [
+          340.20001220703125,
+          433.4399719238281,
+          510.42999267578125,
+          543.8399658203125
+        ]
+      ]
+    }
+  },
+  {
+    "slug": "correios-2011-carteiro",
+    "number": 52,
+    "subject": "Língua Portuguesa",
+    "text": "Acerca das ideias contidas na carta apresentada acima, assinale a opção correta.",
+    "support": "Rio de Janeiro, 2 de março de 1869.\n\n          Minha Carola.\n\n 1           Já a esta hora deves ter em mão a carta que te mandei\n   hoje mesmo, em resposta às duas que ontem recebi. Nela foi\n   explicada a razão de não teres carta no domingo; deves ter\n 4  recebido duas na segunda-feira.\n           Queres saber o que fiz no domingo? Trabalhei e estive\n  em casa. Saudades de minha C., tive-as como podes imaginar,\n 7  e mais ainda, estive aflito, como te contei, por não ter tido\n    cartas tuas durante dois dias. Afirmo-te que foi um dos mais\n    tristes que tenho passado.\n10         Contou-me hoje o Araújo que, encontrando-se, num\n   dos carros que fazem viagem para Botafogo e Laranjeiras, com\n   o Miguel, este lhe dissera que andava procurando casa por ter\n13  alugado a outra. Não sei se essa casa que ele procura é só para\n    ele ou se para toda a família. Achei conveniente comunicar-te\n    isto; não sei se já sabes alguma coisa a este respeito. No\n16  entanto, espero também a tua resposta ao que te mandei dizer\n   na carta de ontem, relativamente à mudança.\n           Dizes que, quando lês algum livro, ouves unicamente\n19  as minhas palavras, e que eu te apareço em tudo e em toda a\n    parte? É então certo que eu ocupo o teu pensamento e a tua\n   vida? Já mo disseste tanta vez, e eu sempre a perguntar-te a\n22  mesma cousa, tamanha me parece esta felicidade. Pois, olha; eu\n    queria que lesses um livro que eu acabei de ler há dias; intitula-\n    se: A Família. Hei de comprar um exemplar para lermos em\n25  nossa casa como uma espécie de Bíblia sagrada. É um livro\n    sério, elevado e profundo; a simples leitura dele dá vontade de\n    casar.\n28          Faltam quatro dias; daqui a quatro dias terás lá\n   a melhor carta que eu te poderei mandar, que é a minha própria\n    pessoa, e ao mesmo tempo lerei o melhor...\n                         MACHADINHO\n\n\n                          Museu da República. Arquivo histórico. Versão digitada do manuscrito\n                                       original.  Internet: <www.revistaepoca.globo.com> (com adaptações).",
+    "support_image": "",
+    "options": [
+      "Como o remetente e sua companheira pretendiam mudar-se de casa, ele aguardava uma resposta dela a respeito desse assunto.",
+      "Machadinho conta que comprou um livro que só pretendia ler com Carola quando estivessem morando juntos.",
+      "Na carta, Machadinho menciona seu encontro com Araújo, que havia alugado uma casa para a família.",
+      "Nas duas cartas que enviou a Carola em uma segunda-feira, Machadinho justifica por que não escreveu a ela no domingo.",
+      "Nessa carta, o remetente relata à sua amada que estava melancólico e angustiado no domingo por não ter recebido correspondência dela nos últimos dias."
+    ],
+    "answer": "E",
+    "explanation": "Gabarito definitivo do CESPE/UnB, Correios 2011, Tipo I: alternativa E.",
+    "page": 14,
+    "rect": [
+      25.0,
+      624.4717407226562,
+      300.6199951171875,
+      802.0
+    ],
+    "images": [],
+    "raw": "Acerca das ideias contidas na carta apresentada acima, assinale a\nopção correta.\n\nA  Como o remetente e sua companheira pretendiam mudar-se de\n     casa, ele aguardava uma resposta dela a respeito desse assunto.\nB  Machadinho conta que comprou um livro que só pretendia ler\n   com Carola quando estivessem morando juntos.\nC  Na carta, Machadinho menciona seu encontro com Araújo, que\n    havia alugado uma casa para a família.\nD  Nas duas cartas que enviou a Carola em uma segunda-feira,\n    Machadinho justifica por que não escreveu a ela no domingo.\nE  Nessa carta, o remetente relata à sua amada que estava\n    melancólico e angustiado no domingo por não ter recebido\n    correspondência dela nos últimos dias.",
+    "shared": {
+      "text": "Rio de Janeiro, 2 de março de 1869.\n\n          Minha Carola.\n\n 1           Já a esta hora deves ter em mão a carta que te mandei\n   hoje mesmo, em resposta às duas que ontem recebi. Nela foi\n   explicada a razão de não teres carta no domingo; deves ter\n 4  recebido duas na segunda-feira.\n           Queres saber o que fiz no domingo? Trabalhei e estive\n  em casa. Saudades de minha C., tive-as como podes imaginar,\n 7  e mais ainda, estive aflito, como te contei, por não ter tido\n    cartas tuas durante dois dias. Afirmo-te que foi um dos mais\n    tristes que tenho passado.\n10         Contou-me hoje o Araújo que, encontrando-se, num\n   dos carros que fazem viagem para Botafogo e Laranjeiras, com\n   o Miguel, este lhe dissera que andava procurando casa por ter\n13  alugado a outra. Não sei se essa casa que ele procura é só para\n    ele ou se para toda a família. Achei conveniente comunicar-te\n    isto; não sei se já sabes alguma coisa a este respeito. No\n16  entanto, espero também a tua resposta ao que te mandei dizer\n   na carta de ontem, relativamente à mudança.\n           Dizes que, quando lês algum livro, ouves unicamente\n19  as minhas palavras, e que eu te apareço em tudo e em toda a\n    parte? É então certo que eu ocupo o teu pensamento e a tua\n   vida? Já mo disseste tanta vez, e eu sempre a perguntar-te a\n22  mesma cousa, tamanha me parece esta felicidade. Pois, olha; eu\n    queria que lesses um livro que eu acabei de ler há dias; intitula-\n    se: A Família. Hei de comprar um exemplar para lermos em\n25  nossa casa como uma espécie de Bíblia sagrada. É um livro\n    sério, elevado e profundo; a simples leitura dele dá vontade de\n    casar.\n28          Faltam quatro dias; daqui a quatro dias terás lá\n   a melhor carta que eu te poderei mandar, que é a minha própria\n    pessoa, e ao mesmo tempo lerei o melhor...\n                         MACHADINHO\n\n\n                          Museu da República. Arquivo histórico. Versão digitada do manuscrito\n                                       original.  Internet: <www.revistaepoca.globo.com> (com adaptações).",
+      "page": 14,
+      "images": []
+    }
+  },
+  {
+    "slug": "correios-2011-carteiro",
+    "number": 53,
+    "subject": "Língua Portuguesa",
+    "text": "Assinale a opção em que é apresentado trecho do texto seguido de proposta de alteração com a correta equivalência de sentido.",
+    "support": "Rio de Janeiro, 2 de março de 1869.\n\n          Minha Carola.\n\n 1           Já a esta hora deves ter em mão a carta que te mandei\n   hoje mesmo, em resposta às duas que ontem recebi. Nela foi\n   explicada a razão de não teres carta no domingo; deves ter\n 4  recebido duas na segunda-feira.\n           Queres saber o que fiz no domingo? Trabalhei e estive\n  em casa. Saudades de minha C., tive-as como podes imaginar,\n 7  e mais ainda, estive aflito, como te contei, por não ter tido\n    cartas tuas durante dois dias. Afirmo-te que foi um dos mais\n    tristes que tenho passado.\n10         Contou-me hoje o Araújo que, encontrando-se, num\n   dos carros que fazem viagem para Botafogo e Laranjeiras, com\n   o Miguel, este lhe dissera que andava procurando casa por ter\n13  alugado a outra. Não sei se essa casa que ele procura é só para\n    ele ou se para toda a família. Achei conveniente comunicar-te\n    isto; não sei se já sabes alguma coisa a este respeito. No\n16  entanto, espero também a tua resposta ao que te mandei dizer\n   na carta de ontem, relativamente à mudança.\n           Dizes que, quando lês algum livro, ouves unicamente\n19  as minhas palavras, e que eu te apareço em tudo e em toda a\n    parte? É então certo que eu ocupo o teu pensamento e a tua\n   vida? Já mo disseste tanta vez, e eu sempre a perguntar-te a\n22  mesma cousa, tamanha me parece esta felicidade. Pois, olha; eu\n    queria que lesses um livro que eu acabei de ler há dias; intitula-\n    se: A Família. Hei de comprar um exemplar para lermos em\n25  nossa casa como uma espécie de Bíblia sagrada. É um livro\n    sério, elevado e profundo; a simples leitura dele dá vontade de\n    casar.\n28          Faltam quatro dias; daqui a quatro dias terás lá\n   a melhor carta que eu te poderei mandar, que é a minha própria\n    pessoa, e ao mesmo tempo lerei o melhor...\n                         MACHADINHO\n\n\n                          Museu da República. Arquivo histórico. Versão digitada do manuscrito\n                                       original.  Internet: <www.revistaepoca.globo.com> (com adaptações).",
+    "support_image": "",
+    "options": [
+      "“daqui a quatro dias terás lá a melhor carta” (R.28-29) / daqui há quatro dias lerás aí a melhor notícia",
+      "“Achei conveniente comunicar-te isto” (R.14-15) / Achei indevido comunicar-te isso",
+      "“Já mo disseste tanta vez” (R.21) / Já me disseste isso tantas vezes",
+      "“um livro que eu acabei de ler há dias” (R.23) / um livro que eu acabei de ler durante dias",
+      "“Hei de comprar um exemplar para lermos” (R.24) / Vamos comprar um livro para lermos"
+    ],
+    "answer": "C",
+    "explanation": "Gabarito definitivo do CESPE/UnB, Correios 2011, Tipo I: alternativa C.",
+    "page": 14,
+    "rect": [
+      300.6199951171875,
+      67.91171264648438,
+      570.0,
+      222.4792022705078
+    ],
+    "images": [],
+    "raw": "Assinale a opção em que é apresentado trecho do texto seguido de\nproposta de alteração com a correta equivalência de sentido.\n\nA  “daqui a quatro dias terás lá a melhor carta” (R.28-29) / daqui\n    há quatro dias lerás aí a melhor notícia\nB  “Achei conveniente comunicar-te  isto” (R.14-15)  / Achei\n    indevido comunicar-te isso\nC  “Já mo disseste tanta vez” (R.21) / Já me disseste isso tantas\n    vezes\nD  “um livro que eu acabei de ler há dias” (R.23) / um livro que eu\n    acabei de ler durante dias\nE  “Hei de comprar um exemplar para lermos” (R.24) / Vamos\n    comprar um livro para lermos",
+    "shared": {
+      "text": "Rio de Janeiro, 2 de março de 1869.\n\n          Minha Carola.\n\n 1           Já a esta hora deves ter em mão a carta que te mandei\n   hoje mesmo, em resposta às duas que ontem recebi. Nela foi\n   explicada a razão de não teres carta no domingo; deves ter\n 4  recebido duas na segunda-feira.\n           Queres saber o que fiz no domingo? Trabalhei e estive\n  em casa. Saudades de minha C., tive-as como podes imaginar,\n 7  e mais ainda, estive aflito, como te contei, por não ter tido\n    cartas tuas durante dois dias. Afirmo-te que foi um dos mais\n    tristes que tenho passado.\n10         Contou-me hoje o Araújo que, encontrando-se, num\n   dos carros que fazem viagem para Botafogo e Laranjeiras, com\n   o Miguel, este lhe dissera que andava procurando casa por ter\n13  alugado a outra. Não sei se essa casa que ele procura é só para\n    ele ou se para toda a família. Achei conveniente comunicar-te\n    isto; não sei se já sabes alguma coisa a este respeito. No\n16  entanto, espero também a tua resposta ao que te mandei dizer\n   na carta de ontem, relativamente à mudança.\n           Dizes que, quando lês algum livro, ouves unicamente\n19  as minhas palavras, e que eu te apareço em tudo e em toda a\n    parte? É então certo que eu ocupo o teu pensamento e a tua\n   vida? Já mo disseste tanta vez, e eu sempre a perguntar-te a\n22  mesma cousa, tamanha me parece esta felicidade. Pois, olha; eu\n    queria que lesses um livro que eu acabei de ler há dias; intitula-\n    se: A Família. Hei de comprar um exemplar para lermos em\n25  nossa casa como uma espécie de Bíblia sagrada. É um livro\n    sério, elevado e profundo; a simples leitura dele dá vontade de\n    casar.\n28          Faltam quatro dias; daqui a quatro dias terás lá\n   a melhor carta que eu te poderei mandar, que é a minha própria\n    pessoa, e ao mesmo tempo lerei o melhor...\n                         MACHADINHO\n\n\n                          Museu da República. Arquivo histórico. Versão digitada do manuscrito\n                                       original.  Internet: <www.revistaepoca.globo.com> (com adaptações).",
+      "page": 14,
+      "images": []
+    }
+  },
+  {
+    "slug": "correios-2011-carteiro",
+    "number": 54,
+    "subject": "Língua Portuguesa",
+    "text": "Infere-se da leitura do texto que, no teatro grego e no romano, o ator",
+    "support": "Arrancar a máscara\n\n 1          “Arrancar a máscara” é evidenciar a verdadeira face,\n   revelando a expressão legítima, oculta pelo disfarce. Tornar\n   público o escondido.\n 4        Na Grécia e em Roma, os atores representavam\n   sempre mascarados. A máscara denunciava o caráter do\n   personagem em cena. Não se via o rosto do artista que vivia o\n 7  papel humorístico ou trágico. A máscara, impassível, valia\n   permanentemente pela figura. Quando o ator trabalhava mal,\n    irritando os espectadores pelo desempenho inferior e falso, a\n10  assistência, grega ou romana, podia exigir que ele tirasse a\n   máscara do rosto, exibindo-se, para que recebesse diretamente\n   a demonstração do desagrado coletivo. Se algum ator era\n13  obrigado a arrancar a máscara, subentendia-se a infelicidade da\n    interpretação artística. Estava, pelo menos naquela ocasião,\n    repelido das simpatias e dos aplausos.\n16           Identificava-se, portanto, o responsável pelo fracasso\n   na legitimidade das feições. Já desapareceu, há duzentos anos,\n   o uso da máscara nos palcos, mas a frase “Arrancar a máscara”,\n19  nascida de um milenar direito do auditório, continua sendo\n   aplicada a situações inteiramente alheias ao teatro.\n        É uma das contemporaneidades do milênio.\n\n                                                     Luís da Câmara Cascudo. Coisas que o povo diz.\n                                             São Paulo: Global, 2009, p. 34 (com adaptações).",
+    "support_image": "",
+    "options": [
+      "que atuasse mal em uma cena seria rejeitado em todas as ocasiões em que se apresentasse.",
+      "que tirava a máscara interrompia a cena e isso gerava insatisfação coletiva.",
+      "representava frequentemente uma única figura.",
+      "usava a máscara para esconder seu verdadeiro caráter.",
+      "com boa atuação no palco recebia aplausos e contava com a simpatia do público."
+    ],
+    "answer": "E",
+    "explanation": "Gabarito definitivo do CESPE/UnB, Correios 2011, Tipo I: alternativa E.",
+    "page": 14,
+    "rect": [
+      300.6199951171875,
+      536.1516723632812,
+      570.0,
+      671.8317260742188
+    ],
+    "images": [],
+    "raw": "Infere-se da leitura do texto que, no teatro grego e no romano, o\nator\n\nA  que atuasse mal em uma cena seria rejeitado em todas as\n    ocasiões em que se apresentasse.\nB  que  tirava a máscara interrompia a cena e  isso gerava\n     insatisfação coletiva.\nC  representava frequentemente uma única figura.\nD  usava a máscara para esconder seu verdadeiro caráter.\nE  com boa atuação no palco recebia aplausos e contava com a\n    simpatia do público.",
+    "shared": {
+      "text": "Arrancar a máscara\n\n 1          “Arrancar a máscara” é evidenciar a verdadeira face,\n   revelando a expressão legítima, oculta pelo disfarce. Tornar\n   público o escondido.\n 4        Na Grécia e em Roma, os atores representavam\n   sempre mascarados. A máscara denunciava o caráter do\n   personagem em cena. Não se via o rosto do artista que vivia o\n 7  papel humorístico ou trágico. A máscara, impassível, valia\n   permanentemente pela figura. Quando o ator trabalhava mal,\n    irritando os espectadores pelo desempenho inferior e falso, a\n10  assistência, grega ou romana, podia exigir que ele tirasse a\n   máscara do rosto, exibindo-se, para que recebesse diretamente\n   a demonstração do desagrado coletivo. Se algum ator era\n13  obrigado a arrancar a máscara, subentendia-se a infelicidade da\n    interpretação artística. Estava, pelo menos naquela ocasião,\n    repelido das simpatias e dos aplausos.\n16           Identificava-se, portanto, o responsável pelo fracasso\n   na legitimidade das feições. Já desapareceu, há duzentos anos,\n   o uso da máscara nos palcos, mas a frase “Arrancar a máscara”,\n19  nascida de um milenar direito do auditório, continua sendo\n   aplicada a situações inteiramente alheias ao teatro.\n        É uma das contemporaneidades do milênio.\n\n                                                     Luís da Câmara Cascudo. Coisas que o povo diz.\n                                             São Paulo: Global, 2009, p. 34 (com adaptações).",
+      "page": 14,
+      "images": []
+    }
+  },
+  {
+    "slug": "correios-2011-carteiro",
+    "number": 55,
+    "subject": "Língua Portuguesa",
+    "text": "Na frase “Identificava-se, portanto, o responsável pelo fracasso na legitimidade das feições” (R.16-17), a palavra sublinhada expressa o sentido de",
+    "support": "Arrancar a máscara\n\n 1          “Arrancar a máscara” é evidenciar a verdadeira face,\n   revelando a expressão legítima, oculta pelo disfarce. Tornar\n   público o escondido.\n 4        Na Grécia e em Roma, os atores representavam\n   sempre mascarados. A máscara denunciava o caráter do\n   personagem em cena. Não se via o rosto do artista que vivia o\n 7  papel humorístico ou trágico. A máscara, impassível, valia\n   permanentemente pela figura. Quando o ator trabalhava mal,\n    irritando os espectadores pelo desempenho inferior e falso, a\n10  assistência, grega ou romana, podia exigir que ele tirasse a\n   máscara do rosto, exibindo-se, para que recebesse diretamente\n   a demonstração do desagrado coletivo. Se algum ator era\n13  obrigado a arrancar a máscara, subentendia-se a infelicidade da\n    interpretação artística. Estava, pelo menos naquela ocasião,\n    repelido das simpatias e dos aplausos.\n16           Identificava-se, portanto, o responsável pelo fracasso\n   na legitimidade das feições. Já desapareceu, há duzentos anos,\n   o uso da máscara nos palcos, mas a frase “Arrancar a máscara”,\n19  nascida de um milenar direito do auditório, continua sendo\n   aplicada a situações inteiramente alheias ao teatro.\n        É uma das contemporaneidades do milênio.\n\n                                                     Luís da Câmara Cascudo. Coisas que o povo diz.\n                                             São Paulo: Global, 2009, p. 34 (com adaptações).",
+    "support_image": "",
+    "options": [
+      "condição.",
+      "oposição.",
+      "explicação.",
+      "conclusão.",
+      "finalidade."
+    ],
+    "answer": "D",
+    "explanation": "Gabarito definitivo do CESPE/UnB, Correios 2011, Tipo I: alternativa D.",
+    "page": 14,
+    "rect": [
+      300.6199951171875,
+      682.791748046875,
+      570.0,
+      802.0
+    ],
+    "images": [],
+    "raw": "Na frase “Identificava-se, portanto, o responsável pelo fracasso na\nlegitimidade das feições” (R.16-17), a palavra sublinhada expressa\no sentido de\n\nA  condição.\nB  oposição.\nC  explicação.\nD  conclusão.\nE   finalidade.",
+    "shared": {
+      "text": "Arrancar a máscara\n\n 1          “Arrancar a máscara” é evidenciar a verdadeira face,\n   revelando a expressão legítima, oculta pelo disfarce. Tornar\n   público o escondido.\n 4        Na Grécia e em Roma, os atores representavam\n   sempre mascarados. A máscara denunciava o caráter do\n   personagem em cena. Não se via o rosto do artista que vivia o\n 7  papel humorístico ou trágico. A máscara, impassível, valia\n   permanentemente pela figura. Quando o ator trabalhava mal,\n    irritando os espectadores pelo desempenho inferior e falso, a\n10  assistência, grega ou romana, podia exigir que ele tirasse a\n   máscara do rosto, exibindo-se, para que recebesse diretamente\n   a demonstração do desagrado coletivo. Se algum ator era\n13  obrigado a arrancar a máscara, subentendia-se a infelicidade da\n    interpretação artística. Estava, pelo menos naquela ocasião,\n    repelido das simpatias e dos aplausos.\n16           Identificava-se, portanto, o responsável pelo fracasso\n   na legitimidade das feições. Já desapareceu, há duzentos anos,\n   o uso da máscara nos palcos, mas a frase “Arrancar a máscara”,\n19  nascida de um milenar direito do auditório, continua sendo\n   aplicada a situações inteiramente alheias ao teatro.\n        É uma das contemporaneidades do milênio.\n\n                                                     Luís da Câmara Cascudo. Coisas que o povo diz.\n                                             São Paulo: Global, 2009, p. 34 (com adaptações).",
+      "page": 14,
+      "images": []
+    }
+  },
+  {
+    "slug": "correios-2011-carteiro",
+    "number": 56,
+    "subject": "Língua Portuguesa",
+    "text": "Considerando que, no texto, o autor utiliza diferentes formas para se referir a correspondências, assinale a opção em que a palavra ou expressão do texto está em sentido figurado.",
+    "support": "1      A  epístola  é um  implacável  recurso  narrativo,\n   pressupõe o diálogo com outrem, comove e se impõe pela\n    interlocução direta e sincera.\n 4         Mariana Alcoforado usou a correspondência para\n    atenuar a saudade do conde de Chamilly e, não fosse o casal\n    perfeito papel-tinta, o amor proibido da freira portuguesa pelo\n 7  capitão de cavalaria francês, uma das histórias mais fascinantes\n   de arrebatamento, nunca seria conhecido.\n          Se as cartas de amor são ridículas, como preceituava\n10  Fernando Pessoa, mais ridículo é quem as despreza. É uma\n   arma de insistência. Uma tática da devoção. Foi um bilhete\n   posto furtivamente no casaco que baqueou o coração da\n13  escritora  Martha  Medeiros,  autora  do  poema  Cartas\n   Extraviadas. “Sou da era pré-Internet, então já escrevi e recebi\n   inúmeras cartas, e guardo a maioria delas. Hoje me rendo ao\n16  email, que é um facilitador de contatos. Nada tenho contra a\n    instantaneidade, mas reconheço que as emoções hoje andam\n    tão efêmeras que mal rendem um parágrafo, quanto mais uma\n19  lauda toda manuscrita”, confessa a autora.\n\n                                  Fabrício  Carpinejar. Cartas  e  literatura: um amor por  escrito.\n                                      In: Revista da Cultura, edição 12, jul./2008, p. 12-4 (com adaptações).",
+    "support_image": "",
+    "options": [
+      "“bilhete” (R.11)",
+      "‘email’ (R.16)",
+      "“epístola” (R.1)",
+      "“casal perfeito papel-tinta” (R.5-6)",
+      "“cartas” (R.9)"
+    ],
+    "answer": "D",
+    "explanation": "Gabarito definitivo do CESPE/UnB, Correios 2011, Tipo I: alternativa D.",
+    "page": 15,
+    "rect": [
+      25.0,
+      385.9117126464844,
+      300.6199951171875,
+      530.8316650390625
+    ],
+    "images": [],
+    "raw": "Considerando que, no texto, o autor utiliza diferentes formas para\nse referir a correspondências, assinale a opção em que a palavra ou\nexpressão do texto está em sentido figurado.\n\n\nA  “bilhete” (R.11)\nB  ‘email’ (R.16)\nC  “epístola” (R.1)\nD  “casal perfeito papel-tinta” (R.5-6)\nE  “cartas” (R.9)",
+    "shared": {
+      "text": "1      A  epístola  é um  implacável  recurso  narrativo,\n   pressupõe o diálogo com outrem, comove e se impõe pela\n    interlocução direta e sincera.\n 4         Mariana Alcoforado usou a correspondência para\n    atenuar a saudade do conde de Chamilly e, não fosse o casal\n    perfeito papel-tinta, o amor proibido da freira portuguesa pelo\n 7  capitão de cavalaria francês, uma das histórias mais fascinantes\n   de arrebatamento, nunca seria conhecido.\n          Se as cartas de amor são ridículas, como preceituava\n10  Fernando Pessoa, mais ridículo é quem as despreza. É uma\n   arma de insistência. Uma tática da devoção. Foi um bilhete\n   posto furtivamente no casaco que baqueou o coração da\n13  escritora  Martha  Medeiros,  autora  do  poema  Cartas\n   Extraviadas. “Sou da era pré-Internet, então já escrevi e recebi\n   inúmeras cartas, e guardo a maioria delas. Hoje me rendo ao\n16  email, que é um facilitador de contatos. Nada tenho contra a\n    instantaneidade, mas reconheço que as emoções hoje andam\n    tão efêmeras que mal rendem um parágrafo, quanto mais uma\n19  lauda toda manuscrita”, confessa a autora.\n\n                                  Fabrício  Carpinejar. Cartas  e  literatura: um amor por  escrito.\n                                      In: Revista da Cultura, edição 12, jul./2008, p. 12-4 (com adaptações).",
+      "page": 15,
+      "images": []
+    }
+  },
+  {
+    "slug": "correios-2011-carteiro",
+    "number": 57,
+    "subject": "Língua Portuguesa",
+    "text": "Assinale a opção correta de acordo com as ideias do texto.",
+    "support": "1      A  epístola  é um  implacável  recurso  narrativo,\n   pressupõe o diálogo com outrem, comove e se impõe pela\n    interlocução direta e sincera.\n 4         Mariana Alcoforado usou a correspondência para\n    atenuar a saudade do conde de Chamilly e, não fosse o casal\n    perfeito papel-tinta, o amor proibido da freira portuguesa pelo\n 7  capitão de cavalaria francês, uma das histórias mais fascinantes\n   de arrebatamento, nunca seria conhecido.\n          Se as cartas de amor são ridículas, como preceituava\n10  Fernando Pessoa, mais ridículo é quem as despreza. É uma\n   arma de insistência. Uma tática da devoção. Foi um bilhete\n   posto furtivamente no casaco que baqueou o coração da\n13  escritora  Martha  Medeiros,  autora  do  poema  Cartas\n   Extraviadas. “Sou da era pré-Internet, então já escrevi e recebi\n   inúmeras cartas, e guardo a maioria delas. Hoje me rendo ao\n16  email, que é um facilitador de contatos. Nada tenho contra a\n    instantaneidade, mas reconheço que as emoções hoje andam\n    tão efêmeras que mal rendem um parágrafo, quanto mais uma\n19  lauda toda manuscrita”, confessa a autora.\n\n                                  Fabrício  Carpinejar. Cartas  e  literatura: um amor por  escrito.\n                                      In: Revista da Cultura, edição 12, jul./2008, p. 12-4 (com adaptações).",
+    "support_image": "",
+    "options": [
+      "Embora as cartas constituam importante recurso narrativo, essa forma de comunicação, para o autor do texto, carece de instantaneidade, visto que o diálogo entre remetente e destinatário não é direto.",
+      "O relacionamento amoroso entre a freira Mariana Alcoforado e o capitão de cavalaria conde de Chamilly tornou-se público devido à descoberta das cartas de amor que o casal trocava.",
+      "Hoje, a desvalorização das cartas de amor é resultado do surgimento da Internet, que tornou efêmero o modo de relacionamento entre os amantes.",
+      "O autor do texto, tal como Fernando Pessoa, despreza as cartas de amor ridículas.",
+      "A escritora citada no texto rendeu-se ao uso do email por considerar as cartas um meio pouco prático de expressar emoções."
+    ],
+    "answer": "B",
+    "explanation": "Gabarito definitivo do CESPE/UnB, Correios 2011, Tipo I: alternativa B.",
+    "page": 15,
+    "rect": [
+      25.0,
+      541.7916870117188,
+      300.6199951171875,
+      802.0
+    ],
+    "images": [],
+    "raw": "Assinale a opção correta de acordo com as ideias do texto.\n\n\nA  Embora as cartas constituam importante recurso narrativo, essa\n    forma de comunicação, para o autor do texto, carece de\n     instantaneidade,  visto que o  diálogo  entre  remetente  e\n     destinatário não é direto.\nB O relacionamento amoroso entre a freira Mariana Alcoforado\n    e o capitão de cavalaria conde de Chamilly tornou-se público\n    devido à descoberta das cartas de amor que o casal trocava.\nC  Hoje, a desvalorização das cartas de amor é resultado do\n    surgimento da  Internet, que tornou efêmero o modo de\n    relacionamento entre os amantes.\nD O autor do texto, tal como Fernando Pessoa, despreza as cartas\n    de amor ridículas.\nE A escritora citada no texto rendeu-se ao uso do email por\n    considerar as cartas um meio pouco prático de expressar\n    emoções.",
+    "shared": {
+      "text": "1      A  epístola  é um  implacável  recurso  narrativo,\n   pressupõe o diálogo com outrem, comove e se impõe pela\n    interlocução direta e sincera.\n 4         Mariana Alcoforado usou a correspondência para\n    atenuar a saudade do conde de Chamilly e, não fosse o casal\n    perfeito papel-tinta, o amor proibido da freira portuguesa pelo\n 7  capitão de cavalaria francês, uma das histórias mais fascinantes\n   de arrebatamento, nunca seria conhecido.\n          Se as cartas de amor são ridículas, como preceituava\n10  Fernando Pessoa, mais ridículo é quem as despreza. É uma\n   arma de insistência. Uma tática da devoção. Foi um bilhete\n   posto furtivamente no casaco que baqueou o coração da\n13  escritora  Martha  Medeiros,  autora  do  poema  Cartas\n   Extraviadas. “Sou da era pré-Internet, então já escrevi e recebi\n   inúmeras cartas, e guardo a maioria delas. Hoje me rendo ao\n16  email, que é um facilitador de contatos. Nada tenho contra a\n    instantaneidade, mas reconheço que as emoções hoje andam\n    tão efêmeras que mal rendem um parágrafo, quanto mais uma\n19  lauda toda manuscrita”, confessa a autora.\n\n                                  Fabrício  Carpinejar. Cartas  e  literatura: um amor por  escrito.\n                                      In: Revista da Cultura, edição 12, jul./2008, p. 12-4 (com adaptações).",
+      "page": 15,
+      "images": []
+    }
+  },
+  {
+    "slug": "correios-2011-carteiro",
+    "number": 58,
+    "subject": "Língua Portuguesa",
+    "text": "No trecho “Se as cartas de amor são ridículas, como preceituava Fernando Pessoa, mais ridículo é quem as despreza. É uma arma de insistência. Uma tática da devoção” (R.9-11), o autor compara a carta de amor a “arma” e “tática”. Ao utilizar essas palavras, o autor constrói uma representação da ação de conquista do ser amado, comparando-a a",
+    "support": "1      A  epístola  é um  implacável  recurso  narrativo,\n   pressupõe o diálogo com outrem, comove e se impõe pela\n    interlocução direta e sincera.\n 4         Mariana Alcoforado usou a correspondência para\n    atenuar a saudade do conde de Chamilly e, não fosse o casal\n    perfeito papel-tinta, o amor proibido da freira portuguesa pelo\n 7  capitão de cavalaria francês, uma das histórias mais fascinantes\n   de arrebatamento, nunca seria conhecido.\n          Se as cartas de amor são ridículas, como preceituava\n10  Fernando Pessoa, mais ridículo é quem as despreza. É uma\n   arma de insistência. Uma tática da devoção. Foi um bilhete\n   posto furtivamente no casaco que baqueou o coração da\n13  escritora  Martha  Medeiros,  autora  do  poema  Cartas\n   Extraviadas. “Sou da era pré-Internet, então já escrevi e recebi\n   inúmeras cartas, e guardo a maioria delas. Hoje me rendo ao\n16  email, que é um facilitador de contatos. Nada tenho contra a\n    instantaneidade, mas reconheço que as emoções hoje andam\n    tão efêmeras que mal rendem um parágrafo, quanto mais uma\n19  lauda toda manuscrita”, confessa a autora.\n\n                                  Fabrício  Carpinejar. Cartas  e  literatura: um amor por  escrito.\n                                      In: Revista da Cultura, edição 12, jul./2008, p. 12-4 (com adaptações).",
+    "support_image": "",
+    "options": [
+      "uma aposta.",
+      "um investimento.",
+      "uma doença.",
+      "uma batalha.",
+      "uma provação."
+    ],
+    "answer": "D",
+    "explanation": "Gabarito definitivo do CESPE/UnB, Correios 2011, Tipo I: alternativa D.",
+    "page": 15,
+    "rect": [
+      300.6199951171875,
+      67.91171264648438,
+      570.0,
+      241.271728515625
+    ],
+    "images": [],
+    "raw": "No trecho “Se as cartas de amor são ridículas, como preceituava\nFernando Pessoa, mais ridículo é quem as despreza. É uma arma de\ninsistência. Uma tática da devoção” (R.9-11), o autor compara a\ncarta de amor a “arma” e “tática”. Ao utilizar essas palavras, o autor\nconstrói uma representação da ação de conquista do ser amado,\ncomparando-a a\n\nA  uma aposta.\nB  um investimento.\nC  uma doença.\nD  uma batalha.\nE  uma provação.",
+    "shared": {
+      "text": "1      A  epístola  é um  implacável  recurso  narrativo,\n   pressupõe o diálogo com outrem, comove e se impõe pela\n    interlocução direta e sincera.\n 4         Mariana Alcoforado usou a correspondência para\n    atenuar a saudade do conde de Chamilly e, não fosse o casal\n    perfeito papel-tinta, o amor proibido da freira portuguesa pelo\n 7  capitão de cavalaria francês, uma das histórias mais fascinantes\n   de arrebatamento, nunca seria conhecido.\n          Se as cartas de amor são ridículas, como preceituava\n10  Fernando Pessoa, mais ridículo é quem as despreza. É uma\n   arma de insistência. Uma tática da devoção. Foi um bilhete\n   posto furtivamente no casaco que baqueou o coração da\n13  escritora  Martha  Medeiros,  autora  do  poema  Cartas\n   Extraviadas. “Sou da era pré-Internet, então já escrevi e recebi\n   inúmeras cartas, e guardo a maioria delas. Hoje me rendo ao\n16  email, que é um facilitador de contatos. Nada tenho contra a\n    instantaneidade, mas reconheço que as emoções hoje andam\n    tão efêmeras que mal rendem um parágrafo, quanto mais uma\n19  lauda toda manuscrita”, confessa a autora.\n\n                                  Fabrício  Carpinejar. Cartas  e  literatura: um amor por  escrito.\n                                      In: Revista da Cultura, edição 12, jul./2008, p. 12-4 (com adaptações).",
+      "page": 15,
+      "images": []
+    }
+  },
+  {
+    "slug": "correios-2011-carteiro",
+    "number": 59,
+    "subject": "Língua Portuguesa",
+    "text": "Um carteiro chega ao portão do hospício e grita: — Carta para o 9.326!!! Um louco pega o envelope, abre-o e vê que a carta está em branco, e um outro pergunta: — Quem te mandou essa carta? — Minha irmã. — Mas por que não está escrito nada? — Ah, porque nós brigamos e não estamos nos falando! Internet: <www.humortadela.com.br/piada> (com adaptações). O efeito surpresa e de humor que se extrai do texto acima decorre",
+    "support": "",
+    "support_image": "",
+    "options": [
+      "da identificação numérica atribuída ao louco.",
+      "da expressão utilizada pelo carteiro ao entregar a carta no hospício.",
+      "do fato de outro louco querer saber quem enviou a carta.",
+      "da explicação dada pelo louco para a carta em branco.",
+      "do fato de a irmã do louco ter brigado com ele."
+    ],
+    "answer": "D",
+    "explanation": "Gabarito definitivo do CESPE/UnB, Correios 2011, Tipo I: alternativa D.",
+    "page": 15,
+    "rect": [
+      300.6199951171875,
+      252.23171997070312,
+      570.0,
+      500.5917053222656
+    ],
+    "images": [],
+    "raw": "Um carteiro chega ao portão do hospício e grita:\n    — Carta para o 9.326!!!\n     Um louco pega o envelope, abre-o e vê que a carta está em\nbranco, e um outro pergunta:\n    — Quem te mandou essa carta?\n    — Minha irmã.\n    — Mas por que não está escrito nada?\n    — Ah, porque nós brigamos e não estamos nos falando!\n\n                                                 Internet: <www.humortadela.com.br/piada> (com adaptações).\n\n\nO efeito surpresa e de humor que se extrai do texto acima decorre\n\nA  da identificação numérica atribuída ao louco.\nB  da expressão utilizada pelo carteiro ao entregar a carta no\n     hospício.\nC  do fato de outro louco querer saber quem enviou a carta.\nD  da explicação dada pelo louco para a carta em branco.\nE  do fato de a irmã do louco ter brigado com ele."
+  },
+  {
+    "slug": "correios-2011-carteiro",
+    "number": 60,
+    "subject": "Língua Portuguesa",
+    "text": "Um homem se dirige à recepcionista de uma clínica: — Por favor, quero falar com o dr. Pedro. — O senhor tem hora? O sujeito olha para o relógio e diz: — Sim. São duas e meia. — Não, não... Eu quero saber se o senhor é paciente. — O que a senhora acha? Faz seis meses que ele não me paga o aluguel do consultório... Internet: <www.humortadela.com.br/piada> (com adaptações). No texto acima, a recepcionista dirige-se duas vezes ao homem para saber se ele",
+    "support": "",
+    "support_image": "",
+    "options": [
+      "verificou o horário de chegada e está sob os cuidados do dr. Pedro.",
+      "pode indicar-lhe as horas e decidiu esperar o pagamento do aluguel.",
+      "tem relógio e sabe esperar.",
+      "marcou consulta e está calmo.",
+      "marcou consulta para aquele dia e está sob os cuidados do dr. Pedro."
+    ],
+    "answer": "E",
+    "explanation": "Gabarito definitivo do CESPE/UnB, Correios 2011, Tipo I: alternativa E.",
+    "page": 15,
+    "rect": [
+      300.6199951171875,
+      511.55169677734375,
+      570.0,
+      802.0
+    ],
+    "images": [],
+    "raw": "Um homem se dirige à recepcionista de uma clínica:\n    — Por favor, quero falar com o dr. Pedro.\n    — O senhor tem hora?\n     O sujeito olha para o relógio e diz:\n    — Sim. São duas e meia.\n    — Não, não... Eu quero saber se o senhor é paciente.\n    — O que a senhora acha? Faz seis meses que ele não me\npaga o aluguel do consultório...\n\n                                                 Internet: <www.humortadela.com.br/piada> (com adaptações).\n\n\nNo texto acima, a recepcionista dirige-se duas vezes ao homem para\nsaber se ele\n\nA  verificou o horário de chegada e está sob os cuidados do dr.\n    Pedro.\nB  pode indicar-lhe as horas e decidiu esperar o pagamento do\n     aluguel.\nC  tem relógio e sabe esperar.\nD  marcou consulta e está calmo.\nE  marcou consulta para aquele dia e está sob os cuidados do dr.\n    Pedro."
+  }
+]
