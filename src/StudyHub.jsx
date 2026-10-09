@@ -5,8 +5,11 @@ import { supabase } from './lib/supabase'
 import { studyTopics, reviewGroups } from './lib/studyTopics'
 import { studySummaries, summarySubjects } from './lib/studySummaries'
 import { essayGuidanceSource } from './lib/essaySummaries'
-import { loadTopicQuestions, loadStudyReview } from './lib/studyData'
+import { loadTopicQuestions, loadStudyReview, loadAuthorQuestions } from './lib/studyData'
+import { rememberAuthorRound } from './lib/authorPractice'
 import './studyHub.css'
+import StudyLessonContent from './StudyLessonContent'
+import MathStudyLesson from './MathStudyLesson'
 
 const tabs = [['questions', 'Questões por assunto', ListChecks], ['summaries', 'Resumos', BookOpen], ['review', 'Minha revisão', RotateCcw]]
 const topicIcons = { percent: Percent, calculator: Calculator, 'text-search': TextSearch }
@@ -42,14 +45,15 @@ export default function StudyHub({ onBack, onStart, tab = 'questions', onTabChan
   const ownReview = user && review.owner === user.id
   const groups = reviewGroups(ownReview ? review.rows : [])
   const openSummary = selected => { setTopicId(selected.id); onTabChange('summaries'); setPractice({ loading: null, error: '' }); request.current++ }
-  const start = async (selected, savedQuestions) => {
+  const start = async (selected, savedQuestions, authored = false) => {
     const token = ++request.current
     const userId = user?.id
     setPractice({ loading: selected.key || selected.id, error: '' })
     try {
-      const questions = savedQuestions || await loadTopicQuestions(supabase, selected)
+      const questions = savedQuestions || await (authored ? loadAuthorQuestions(supabase, selected) : loadTopicQuestions(supabase, selected))
       if (request.current !== token || owner.current !== userId) return
       if (!questions.length) throw new Error('Não há questões disponíveis para este assunto.')
+      if (authored) rememberAuthorRound(selected.id, questions)
       onStart(questions, `${savedQuestions ? 'Revisão' : 'Estudo'} · ${selected.title || selected.label}`)
     } catch (error) {
       if (request.current === token && owner.current === userId) setPractice({ loading: null, error: error.message || 'Não foi possível abrir as questões.' })
@@ -69,21 +73,22 @@ export default function StudyHub({ onBack, onStart, tab = 'questions', onTabChan
     <div className="study-hub-tabs" role="tablist" aria-label="Opções de estudo">{tabs.map(([value, label, Icon], index) => <button key={value} id={`${id}-tab-${value}`} role="tab" aria-selected={tab === value} aria-controls={`${id}-${value}`} tabIndex={tab === value ? 0 : -1} onKeyDown={event => handleTabKey(event, index)} onClick={() => changeTab(value)}><Icon size={18} />{label}</button>)}</div>
     {practice.error && <p className="study-hub-error" role="alert">{practice.error}</p>}
     <section id={`${id}-questions`} role="tabpanel" aria-labelledby={`${id}-tab-questions`} hidden={tab !== 'questions'}>
-      <div className="study-hub-section"><div><h2>O que você quer praticar?</h2><p>{studyTopics.length} assuntos · {studyTopics.reduce((total, item) => total + item.questions.length, 0)} questões selecionadas de provas reais.</p></div><span>Acesso livre, sem login</span></div>
+      <div className="study-hub-section"><div><h2>O que você quer praticar?</h2><p>{studyTopics.length} assuntos · {studyTopics.reduce((total, item) => total + item.authoredCount, 0)} questões autorais com gabarito comentado.</p></div><span>Acesso livre, sem login</span></div>
       <div className="study-practice-filters">
         <label className="study-subject-filter">Matéria para praticar<select value={practiceTopic.subject} onChange={event => selectPractice(studyTopics.find(item => item.subject === event.target.value))}>{practiceSubjects.map(subject => <option key={subject} value={subject}>{subject}</option>)}</select></label>
         <label className="study-subject-filter">Assunto para praticar<select value={practiceTopic.id} onChange={event => selectPractice(studyTopics.find(item => item.id === event.target.value))}>{practiceOptions.map(item => <option key={item.id} value={item.id}>{item.title}</option>)}</select></label>
       </div>
       <article className="study-topic study-selected-topic">
         <div className={`study-topic-cover ${practiceTopic.color}`}><span>{practiceTopic.subject}</span><h3>{practiceTopic.title}</h3><PracticeIcon aria-hidden="true" /></div>
-        <div className="study-topic-body"><p>{practiceTopic.description}</p><span>{practiceTopic.questions.length} {practiceTopic.questions.length === 1 ? 'questão selecionada' : 'questões selecionadas'} · {new Set(practiceTopic.questions.map(ref => ref.slug)).size} {new Set(practiceTopic.questions.map(ref => ref.slug)).size === 1 ? 'prova' : 'provas'}</span><button className="button primary full" disabled={Boolean(practice.loading)} onClick={() => start(practiceTopic)}>{practice.loading === practiceTopic.id ? 'Carregando questões…' : 'Praticar assunto'}<ArrowRight size={17} /></button><button className="study-text-button" onClick={() => openSummary(practiceTopic)}>Ler resumo primeiro</button></div>
+        <div className="study-topic-body"><p>{practiceTopic.description}</p><span>{practiceTopic.authoredCount} questões autorais · 10 por rodada</span><p>Questões sorteadas a cada prática, sem repetir as da rodada anterior.</p><button className="button primary full" disabled={Boolean(practice.loading)} onClick={() => start(practiceTopic, undefined, true)}>{practice.loading === practiceTopic.id ? 'Carregando questões…' : 'Praticar assunto'}<ArrowRight size={17} /></button><button className="study-text-button" onClick={() => openSummary(practiceTopic)}>Ler resumo primeiro</button></div>
       </article>
     </section>
     <section id={`${id}-summaries`} role="tabpanel" aria-labelledby={`${id}-tab-summaries`} hidden={tab !== 'summaries'}>
       <div className="study-hub-section"><div><h2>Aprenda antes de praticar</h2><p>{studySummaries.length} resumos para ENEM e vestibulares, com exemplos e erros comuns.</p></div><span>Acesso livre, sem login</span></div>
       <div className="study-summary-layout"><div className="study-summary-navigation"><label className="study-subject-filter">Matéria<select value={topic.subject} onChange={event => openSummary(studySummaries.find(item => item.subject === event.target.value))}>{summarySubjects.map(subject => <option value={subject} key={subject}>{subject}</option>)}</select></label><div className="study-summary-list" role="group" aria-label={`Resumos de ${topic.subject}`}>{summariesForSubject.map(item => <button key={item.id} aria-pressed={topic.id === item.id} onClick={() => openSummary(item)}>{item.title}</button>)}</div></div>
-        <article className="study-lesson"><p className="eyebrow">{topic.subject}</p><h2>{topic.title}</h2><p>{topic.intro}</p>{topic.concepts.map(([title, text]) => <div key={title}><h3>{title}</h3><p>{text}</p></div>)}<div className="study-example"><strong>{topic.subject === 'Redação' ? 'Exemplo de aplicação' : 'Exemplo resolvido'}</strong><p>{topic.example}</p></div><h3>Erro comum</h3><p>{topic.commonMistake}</p><h3>{topic.subject === 'Redação' ? 'Antes de entregar sua redação' : 'Antes de marcar a resposta'}</h3><ul>{topic.checklist.map(item => <li key={item}>{item}</li>)}</ul>
-          {topic.subject === 'Redação' ? <><button className="button primary" onClick={onEssay}>Praticar redação<ArrowRight size={17} /></button><p className="study-essay-source">Orientações para o ENEM: <a href={essayGuidanceSource} target="_blank" rel="noopener noreferrer">Cartilha de redação do Inep ↗</a></p></> : topic.questions?.length ? <button className="button primary" disabled={Boolean(practice.loading)} onClick={() => start(topic)}>{practice.loading ? 'Carregando questões…' : 'Praticar este assunto'}<ArrowRight size={17} /></button> : <button className="button primary" onClick={onCatalog}>Explorar provas de ENEM e vestibulares<ArrowRight size={17} /></button>}
+        <article className={`study-lesson${topic.subject === 'História' ? ' study-lesson-history' : ''}`}><p className="eyebrow">{topic.subject}</p><h2>{topic.title}</h2>
+          {topic.mathLesson ? <MathStudyLesson key={topic.id} lesson={topic.mathLesson} topicId={topic.id} /> : topic.lesson ? <StudyLessonContent lesson={topic.lesson} active={tab === 'summaries'} /> : <><p>{topic.intro}</p>{topic.concepts.map(([title, text]) => <div key={title}><h3>{title}</h3><p>{text}</p></div>)}<div className="study-example"><strong>{topic.subject === 'Redação' ? 'Exemplo de aplicação' : 'Exemplo resolvido'}</strong><p>{topic.example}</p></div><h3>Erro comum</h3><p>{topic.commonMistake}</p><h3>{topic.subject === 'Redação' ? 'Antes de entregar sua redação' : 'Antes de marcar a resposta'}</h3><ul>{topic.checklist.map(item => <li key={item}>{item}</li>)}</ul></>}
+          {topic.subject === 'Redação' ? <><button className="button primary" onClick={onEssay}>Praticar redação<ArrowRight size={17} /></button><p className="study-essay-source">Orientações para o ENEM: <a href={essayGuidanceSource} target="_blank" rel="noopener noreferrer">Cartilha de redação do Inep ↗</a></p></> : topic.questions?.length ? <button className="button primary" disabled={Boolean(practice.loading)} onClick={() => start(topic)}>{practice.loading ? 'Carregando questões…' : topic.lesson ? 'Praticar questões de provas reais' : 'Praticar este assunto'}<ArrowRight size={17} /></button> : <button className="button primary" onClick={onCatalog}>Explorar provas de ENEM e vestibulares<ArrowRight size={17} /></button>}
         </article>
       </div>
     </section>

@@ -9,6 +9,60 @@ import { studyTopics, topicForQuestion, reviewGroups } from '../src/lib/studyTop
 import { studySummaries } from '../src/lib/studySummaries.js'
 import { loadTopicQuestions, loadStudyReview } from '../src/lib/studyData.js'
 import { attemptPayload } from '../src/lib/studyHistory.js'
+import { gradePilotQuiz } from '../src/lib/pilotQuiz.js'
+import { studyPodcasts } from '../src/lib/studyPodcasts.js'
+import { mathLessons } from '../src/lib/mathLessons.js'
+import { describeData, urnChances, evaluateFunction } from '../src/lib/mathExplorers.js'
+
+assert.deepEqual(describeData([12, 3, 2, 3]), { ordered: [2,3,3,12], mean: 5, median: 3, modes: [3], range: 10 })
+assert.equal(describeData([-10, 0, 10]).median, 0)
+assert.deepEqual(describeData([1,2,3]).modes, [])
+assert.deepEqual(describeData([2,2,3,3,4]).modes, [2,3])
+assert.equal(describeData([]), null)
+assert.equal(describeData([NaN]), null)
+assert.ok(Math.abs(urnChances(3,2,false).blueBlue - 0.3) < 1e-10)
+assert.ok(Math.abs(urnChances(3,2,true).blueBlue - 0.36) < 1e-10)
+assert.equal(urnChances(0,0,true), null)
+assert.equal(urnChances(1,0,false), null)
+assert.equal(urnChances(0,2,false).redRed, 1)
+assert.equal(evaluateFunction(8,2,6,0,false), 22)
+assert.equal(evaluateFunction(3,1,-6,5,true), -4)
+assert.equal(studySummaries.find(summary => summary.id === 'porcentagem').mathLesson, undefined)
+
+for (const [summaryId, podcast] of Object.entries(studyPodcasts)) {
+  const audioAsset = readFileSync(`public/${podcast.src}`)
+  assert.equal(audioAsset.toString('ascii', 4, 8), 'ftyp', 'O arquivo de podcast deve ser um contêiner M4A válido')
+  assert.ok(audioAsset.length > 1000000)
+  assert.equal(studySummaries.find(summary => summary.id === summaryId).lesson.podcast.id, podcast.id)
+}
+
+const pilot = JSON.parse(readFileSync('src/lib/studyPilot.json', 'utf8'))
+assert.equal(pilot.modules.length, 5)
+const pilotQuestions = pilot.modules.flatMap(module => module.questions)
+assert.equal(pilotQuestions.length, 11)
+assert.equal(new Set(pilotQuestions.map(question => question.id)).size, 11)
+for (const module of pilot.modules) {
+  assert.ok(module.content.length)
+  assert.equal(module.podcast, undefined, 'As transcrições não devem compor os resumos')
+  const summary = studySummaries.find(summary => summary.id === module.id)
+  assert.equal(summary.subject, module.subject)
+  assert.equal(summary.lesson.questions.length, module.questions.length)
+  if (module.subject === 'História') {
+    assert.equal(summary.lesson.details.length, 6)
+    assert.ok(summary.lesson.details.every(([title, ...paragraphs]) => title && paragraphs.length >= 2 && paragraphs.every(p => p.length > 150)))
+  }
+  for (const question of module.questions) {
+    assert.equal(question.options.length, 4)
+    assert.match(question.answer, /^[A-D]$/)
+    assert.ok(question.explanation)
+  }
+}
+assert.deepEqual(gradePilotQuiz(pilotQuestions, {}), { answered: 0, complete: false, correct: 0, total: 11 })
+const correctAnswers = Object.fromEntries(pilotQuestions.map(question => [question.id, question.answer.charCodeAt(0) - 65]))
+assert.deepEqual(gradePilotQuiz(pilotQuestions, correctAnswers), { answered: 11, complete: true, correct: 11, total: 11 })
+const wrongAnswers = Object.fromEntries(pilotQuestions.map(question => [question.id, (correctAnswers[question.id] + 1) % 4]))
+assert.equal(gradePilotQuiz(pilotQuestions, wrongAnswers).correct, 0)
+assert.equal(gradePilotQuiz(pilotQuestions, { [pilotQuestions[0].id]: 99 }).answered, 0)
 
 const topic = studyTopics[0]
 assert.equal(new Set(studySummaries.map(summary => summary.id)).size, studySummaries.length)
@@ -48,15 +102,78 @@ const auth = { user: null, loading: false, openAuth() {} }
 const mod = { exports: {} }
 new Function('module', 'exports', 'require', 'testAuth', code)(mod, mod.exports, createRequire(import.meta.url), auth)
 const originalState = React.useState
-function render(props, review) {
+function render(props, review, topicId) {
   let index = 0
-  React.useState = initial => originalState(index++ === 2 && review ? review : initial)
+  React.useState = initial => {
+    const stateIndex = index++
+    return originalState(stateIndex === 0 && topicId ? topicId : stateIndex === 2 && review ? review : initial)
+  }
   try { return renderToStaticMarkup(React.createElement(mod.exports.default, { onTabChange() {}, ...props })) }
   finally { React.useState = originalState }
 }
 assert.ok(render({ tab: 'questions' }).includes('Acesso livre, sem login'))
-assert.ok(render({ tab: 'summaries' }).includes('Exemplo resolvido'))
+const summariesMarkup = render({ tab: 'summaries' })
+assert.ok(summariesMarkup.includes('Exemplos resolvidos'))
+assert.ok(summariesMarkup.includes('Conferir respostas'))
+assert.ok(summariesMarkup.includes('Praticar questões de provas reais'))
+assert.ok(!summariesMarkup.includes('Roteiro de podcast'))
+assert.ok(!summariesMarkup.includes('Pacote piloto'))
+for (const module of pilot.modules.filter(module => module.subject === 'História')) {
+  const markup = render({ tab: 'summaries' }, null, module.id)
+  assert.ok(markup.includes(module.title))
+  assert.ok(markup.includes('Pontos que o aluno precisa dominar'))
+  assert.ok(!markup.includes('Pratique com questões autorais'))
+  assert.ok(!markup.includes('pilot-quiz'))
+  assert.ok(!markup.includes('Roteiro de podcast'))
+  if (module.id === 'brasil-colonia') {
+    assert.ok(markup.includes(studyPodcasts['brasil-colonia'].title))
+    assert.ok(markup.includes('audio/brasil-colonia-geopolitica.m4a'))
+    assert.ok(markup.includes('preload="metadata"'))
+    assert.ok(!markup.includes('autoPlay'))
+    assert.ok(markup.includes('Posição do áudio'))
+    assert.ok(markup.includes('Velocidade de reprodução'))
+    assert.ok(markup.includes('Voltar 15 segundos'))
+    assert.ok(markup.includes('Avançar 15 segundos'))
+  } else {
+    assert.ok(!markup.includes('audio/brasil-colonia-geopolitica.m4a'))
+    const podcast = studyPodcasts[module.id]
+    if (podcast) {
+      assert.ok(markup.includes(podcast.title))
+      assert.ok(markup.includes(podcast.src))
+      assert.ok(markup.includes(podcast.label))
+      assert.ok(markup.includes('podcast-cover-title'))
+      assert.ok(!markup.includes('is-square'))
+    }
+  }
+  for (const [title, paragraph] of studySummaries.find(summary => summary.id === module.id).lesson.details) {
+    assert.ok(markup.includes(title))
+    assert.ok(markup.includes(paragraph))
+  }
+}
 assert.ok(render({ tab: 'review' }).includes('Entrar ou criar conta'))
+const medievalMarkup = render({ tab: 'summaries' }, null, 'idade-media')
+assert.ok(medievalMarkup.includes('Idade Média'))
+assert.ok(medievalMarkup.includes('study-lesson-history'))
+assert.ok(medievalMarkup.includes('476 d.C. e seu término'), 'A abreviação d.C. não deve dividir o parágrafo')
+assert.ok(medievalMarkup.includes('Como a Peste Negra destruiu o feudalismo'))
+assert.ok(medievalMarkup.includes('audio/idade-media-peste-negra.m4a'))
+assert.ok(!medievalMarkup.includes('pilot-quiz'), 'Resumos sem questões não devem mostrar quiz vazio')
+const medievalLesson = studySummaries.find(summary => summary.id === 'idade-media').lesson
+assert.equal(medievalLesson.content.filter(p => /^\d\. /.test(p)).length, 5)
+assert.ok(medievalLesson.content.every(p => !p.includes('*')))
+for (const [topicId, lesson] of Object.entries(mathLessons)) {
+  assert.equal(lesson.sections.length, 5)
+  assert.ok(lesson.sections.every(section => section.paragraphs.length >= 2 && section.formula))
+  assert.equal(lesson.examples.length, 2)
+  assert.ok(lesson.examples.every(example => example.steps.length >= 3 && example.answer))
+  assert.equal(lesson.challenges.length, 3)
+  assert.ok(lesson.challenges.every(question => question.options[question.answer] && question.explanation))
+  const markup = render({ tab: 'summaries' }, null, topicId)
+  assert.ok(markup.includes('Explore na prática'))
+  assert.ok(markup.includes('Exemplos práticos resolvidos'))
+  assert.ok(markup.includes('Confira o que você aprendeu'))
+  assert.ok(markup.includes('math-diagram'))
+}
 auth.user = { id: 'student' }
 assert.ok(render({ tab: 'review' }, { owner: 'student', rows, loading: false }).includes('2 erros registrados'))
 assert.ok(!render({ tab: 'review' }, { owner: 'another-user', rows, loading: false }).includes('2 erros registrados'))

@@ -1,0 +1,42 @@
+export const studyPodcasts = {
+  'idade-media': {
+    id: 'idade-media-peste-negra',
+    title: 'Como a Peste Negra destruiu o feudalismo',
+    description: 'Ouça o episódio e aprofunde sua revisão com os pontos do resumo.',
+    src: 'audio/idade-media-peste-negra.m4a',
+    subject: 'História',
+    label: 'Idade Média',
+  },
+  'ditadura-redemocratizacao': {
+    id: 'ditadura-constituicao-1988',
+    title: 'Da ditadura à Constituição de 1988',
+    description: 'Ouça o episódio e aprofunde sua revisão com os pontos do resumo.',
+    src: 'audio/ditadura-constituicao-1988.m4a',
+    subject: 'História do Brasil',
+    label: 'Ditadura Militar e redemocratização',
+  },
+  'republica-vargas': {
+    id: 'era-vargas-pai-dos-pobres',
+    title: 'Como Vargas virou o Pai dos Pobres',
+    description: 'Ouça o episódio e aprofunde sua revisão com os pontos do resumo.',
+    src: 'audio/era-vargas-pai-dos-pobres.m4a',
+    subject: 'História do Brasil',
+    label: 'República Velha e Era Vargas',
+  },
+  'imperio-abolicao': {
+    id: 'imperio-raizes-desigualdade',
+    title: 'As raízes da desigualdade no Brasil Império',
+    description: 'Ouça o episódio e aprofunde sua revisão com os pontos do resumo.',
+    src: 'audio/imperio-raizes-desigualdade.m4a',
+    subject: 'História do Brasil',
+    label: 'Império, café, escravidão e Abolição',
+  },
+  'brasil-colonia': {
+    id: 'brasil-colonia-geopolitica',
+    title: 'O jogo geopolítico do Brasil Colônia',
+    description: 'Ouça o episódio e aprofunde sua revisão com os pontos do resumo.',
+    src: 'audio/brasil-colonia-geopolitica.m4a',
+    subject: 'História do Brasil',
+    label: 'Brasil Colônia',
+  },
+}

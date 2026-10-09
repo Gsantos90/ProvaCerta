@@ -1945,7 +1945,7 @@ function App() {
                 })}
               </div>
               {isReview && isAnnulledAnswer(question.answer) && <p className="official-source">Questão anulada · ponto atribuído automaticamente.</p>}
-              {isReview && (question.sourceUrl || !isCorrectAnswer(selected, question.answer)) && question.explanation && (
+              {isReview && (question.origin === 'author' || question.sourceUrl || !isCorrectAnswer(selected, question.answer)) && question.explanation && (
                 <div className="answer-explanation">
                   <div className="answer-explanation-head"><Sparkles size={15} /> <b>{isAnnulledAnswer(question.answer) ? 'Questão anulada · ponto atribuído automaticamente' : `Como chegar na resposta correta (${binary ? binaryAnswerLabel(question.answer) : question.answer})`}</b></div>
                   <p>{question.explanation}</p>
@@ -2005,9 +2005,10 @@ Acesse provas reais de concursos e faculdades federais, resolva simulados exclus
         <section className="exams-section" id="provas">
           <div className="section-heading"><div><p className="eyebrow">Escolha seu desafio</p><h2>Provas em destaque</h2></div><button className="view-all" onClick={() => setScreen('catalog')}><LayoutGrid size={17} /> Todas as provas</button></div>
           <ExamProgressProvider onHistory={openAccount}>
-          <div className="exam-cards">
+          <div className="exam-cards trio">
             <ExamPicker exam={catalogCategories.flatMap(category => category.exams).find(exam => exam.id === 'cnu')}>{cnuCard}</ExamPicker>
             <ExamPicker exam={catalogCategories.flatMap(category => category.exams).find(exam => exam.id === 'enem')}>{enemCard}</ExamPicker>
+            <ExamPicker exam={catalogCategories.flatMap(category => category.exams).find(exam => exam.id === 'oab')}>{oabCard}</ExamPicker>
           </div>
           </ExamProgressProvider>
         </section>

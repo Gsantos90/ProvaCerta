@@ -78,9 +78,15 @@ export const studyTopics = [
     commonMistake: 'Não confunda intensidade com frequência: um som mais intenso não precisa ser mais agudo. Verifique as unidades de potência e distância.',
     checklist: ['Identifique o tipo de onda e o meio.', 'Converta os dados para unidades compatíveis.', 'Distinga frequência, comprimento e intensidade.'],
   },
-]
+  { id: 'brasil-colonia', title: 'Brasil Colônia, escravidão e resistências', subject: 'História', color: 'language', description: 'Colonização, economia e resistências à escravidão.', questions: [] },
+  { id: 'imperio-abolicao', title: 'Império, café, escravidão e Abolição', subject: 'História', color: 'language', description: 'Monarquia, cafeicultura e a luta pela liberdade.', questions: [] },
+  { id: 'republica-vargas', title: 'República Velha e Era Vargas', subject: 'História', color: 'language', description: 'Oligarquias, transformações políticas e direitos trabalhistas.', questions: [] },
+  { id: 'ditadura-redemocratizacao', title: 'Ditadura Militar e redemocratização', subject: 'História', color: 'language', description: 'Autoritarismo, resistência e a Constituição de 1988.', questions: [] },
+  { id: 'idade-media', title: 'Idade Média', subject: 'História', color: 'language', description: 'Feudalismo, sociedade medieval e a crise do século XIV.', questions: [] },
+].map(topic => ({ ...topic, authoredCount: 20 }))
 
 export function topicForQuestion(question) {
+  if (question.origin === 'author' && question.examSlug === `author:${question.topicId}`) return studyTopics.find(topic => topic.id === question.topicId) || null
   return studyTopics.find(topic => topic.questions.some(ref => ref.slug === question.examSlug && ref.number === Number(question.number || question.questionNumber))) || null
 }
 

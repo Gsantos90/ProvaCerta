@@ -793,3 +793,63 @@ Antes de disponibilizar cadastros, confira o [guia de configuração do Supabase
 Auth](supabase/LOGIN-SETUP.md). O código e a estrutura privada foram enviados à
 `main`; a publicação e o envio real dos e-mails precisam ser verificados no
 ambiente de produção.
+
+## Conteúdos do pacote de estudos em Resumos
+
+O documento `Prova_Certa_Pacote_Estudos_Piloto.docx` foi integrado em
+**Estudar → Resumos**, nas matérias correspondentes. Porcentagem fica em
+Matemática; Brasil Colônia, Império e Abolição, República Velha e Era Vargas
+e Ditadura Militar e redemocratização ficam em História.
+As entradas existentes de Porcentagem e Brasil Colônia foram enriquecidas,
+sem duplicar assuntos. As referências de questões reais de Porcentagem
+continuam disponíveis. O conteúdo inclui teoria, exemplos e 11 exercícios
+autorais com gabarito comentado. Os quatro resumos de História apresentam
+24 pontos detalhados, com contexto, relações históricas e orientações de prova.
+
+O quiz funciona sem login ou conexão ao banco. A correção aparece depois de
+responder todas as questões do módulo. As respostas reiniciam ao trocar de
+resumo e não são registradas no histórico de provas. A aba separada do pacote
+e as transcrições de podcast foram removidas.
+
+O resumo de Brasil Colônia inclui o episódio **O jogo geopolítico do Brasil
+Colônia**, em um card com capa, reprodução e pausa, progresso com busca,
+saltos de 15 segundos, velocidade ajustável, controle de som e download.
+O player carrega inicialmente apenas metadados e não inicia automaticamente.
+A reprodução pausa ao sair da aba Resumos ou ao trocar de assunto.
+O arquivo está em `public/audio/brasil-colonia-geopolitica.m4a`; a associação
+entre episódio e resumo está em `src/lib/studyPodcasts.js`.
+
+Os resumos de **República Velha e Era Vargas**, **Império, café, escravidão
+e Abolição** e **Ditadura Militar e redemocratização** também incluem os
+episódios enviados pelo usuário. Os quatro podcasts usam o mesmo card
+alinhado à esquerda, com o nome do tema em uma faixa verde superior e
+controles sobre fundo claro. Eles funcionam sem transcrição e sem reprodução
+automática.
+
+**Idade Média**, em História, reúne o material fornecido pelo usuário em
+cinco seções, sem marcadores de asterisco, e o podcast **Como a Peste Negra
+destruiu o feudalismo**. O conteúdo está em `src/lib/medievalSummary.js`.
+Como o material não inclui exercícios, esse resumo não apresenta um quiz vazio.
+
+Os resumos de História exibem teoria e podcast, sem a seção de exercícios
+autorais. Em Matemática, os exercícios de Porcentagem continuam disponíveis.
+Em Idade Média, o botão de exploração de provas tem espaço adicional acima.
+
+Os cinco resumos de Matemática além de Porcentagem incluem cinco seções
+de teoria, dois exemplos resolvidos e três atividades comentadas cada.
+As imagens são diagramas que se atualizam com os controles: proporcionalidade,
+gráficos de funções, figuras geométricas, estatísticas de uma lista e urna
+com ou sem reposição. Os dados estão em `src/lib/mathLessons.js` e o componente
+em `src/MathStudyLesson.jsx`. Porcentagem e as referências de provas reais
+foram preservadas. As atividades de fixação não são salvas no histórico.
+
+Os dados estão em `src/lib/studyPilot.json` e as explicações complementares
+em `src/lib/studyPilotDetails.js`. Para reproduzir a importação a
+partir dos parágrafos extraídos do documento, execute
+`node scripts/import-study-pilot.mjs`. Valide com
+`node scripts/verify-study-hub.mjs` e `npm run build`.
+# Prática por assunto — questões autorais
+
+A prática usa `study_author_questions` no Supabase: 300 questões com quatro alternativas e explicação, distribuídas em 15 assuntos, incluindo cinco de História. Cada rodada contém 10 questões embaralhadas, priorizando as que não apareceram na rodada anterior do mesmo assunto. A última seleção é guardada neste navegador; depois de duas rodadas, questões anteriores podem voltar.
+
+O conteúdo editável está em `src/lib/authorQuestionBank.js`. `node scripts/generate-author-seed.mjs` recria o arquivo de carga `supabase/study-author-seed.sql`, que atualiza as questões por identificador estável. A estrutura e a política de leitura pública estão em `supabase/study-author-questions.sql`. A carga já foi aplicada ao banco do projeto. `node scripts/verify-author-practice.mjs` verifica conteúdo, sorteio e leitura pública no banco configurado.

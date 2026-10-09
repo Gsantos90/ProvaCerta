@@ -1,5 +1,10 @@
 import { studyTopics } from './studyTopics.js'
 import { essaySummaries } from './essaySummaries.js'
+import pilot from './studyPilot.json' with { type: 'json' }
+import { studyPilotDetails } from './studyPilotDetails.js'
+import { studyPodcasts } from './studyPodcasts.js'
+import { medievalSummary } from './medievalSummary.js'
+import { mathLessons } from './mathLessons.js'
 
 // Resumos autorais. A existência de um resumo não indica uma rodada de questões curada.
 const additionalSummaries = [
@@ -196,18 +201,6 @@ const additionalSummaries = [
     checklist: ['Situe o documento no tempo e no espaço.', 'Identifique os grupos e seus interesses.', 'Relacione exploração, poder e resistência.'],
   },
   {
-    id: 'republica-cidadania', title: 'República brasileira e cidadania', subject: 'História',
-    intro: 'A história republicana brasileira reúne mudanças políticas, disputas sociais e transformações nos direitos. Cidadania envolve participação política e acesso a direitos civis e sociais.',
-    concepts: [
-      ['Primeira República', 'Entre 1889 e 1930, práticas oligárquicas, coronelismo e restrições à participação coexistiram com conflitos e movimentos sociais. O sistema político não representava igualmente toda a população.'],
-      ['Autoritarismo e democracia', 'O Estado Novo, de 1937 a 1945, e a ditadura militar, de 1964 a 1985, envolveram repressão e restrições políticas em contextos diferentes. Examine também as formas de resistência e as disputas pelo poder.'],
-      ['Direitos e participação', 'A Constituição de 1988 marcou a redemocratização e ampliou garantias de direitos. Direitos previstos em lei e seu acesso efetivo podem diferir, tornando importante a análise das desigualdades e da mobilização social.'],
-    ],
-    example: 'Ao comparar uma fonte sobre censura com outra sobre liberdade de expressão, observe o período e a relação entre poder político, participação e direitos.',
-    commonMistake: 'Não confunda períodos autoritários distintos nem suponha que uma mudança constitucional elimine imediatamente as desigualdades.',
-    checklist: ['Localize o período histórico.', 'Diferencie direitos civis, políticos e sociais.', 'Observe quem podia participar e quais grupos eram excluídos.'],
-  },
-  {
     id: 'urbanizacao', title: 'Urbanização e desigualdades', subject: 'Geografia',
     intro: 'Urbanização envolve o aumento da participação da população urbana e transformações na organização do espaço. Transporte, moradia, trabalho e acesso a serviços revelam desigualdades dentro das cidades.',
     concepts: [
@@ -236,5 +229,24 @@ const additionalSummaries = [
 // Uma única entrada por assunto, mantendo as referências de prática e o resumo completo.
 const summaries = new Map(studyTopics.map(topic => [topic.id, topic]))
 for (const summary of [...additionalSummaries, ...essaySummaries]) summaries.set(summary.id, { ...summaries.get(summary.id), ...summary })
+for (const module of pilot.modules) {
+  const existing = summaries.get(module.id)
+  const details = studyPilotDetails[module.id] || []
+  summaries.set(module.id, {
+    ...existing,
+    id: module.id,
+    title: module.title,
+    subject: module.subject,
+    intro: existing?.intro || module.content[0].split(/\.(?=[A-ZÁÉÍÓÚ])/)[0] + '.',
+    concepts: existing?.concepts || details.map(([title, ...paragraphs]) => [title, paragraphs.join(' ')]),
+    checklist: existing?.checklist || details.map(([title]) => title),
+    lesson: { ...module, details, podcast: studyPodcasts[module.id] },
+  })
+}
+summaries.set(medievalSummary.id, { ...summaries.get(medievalSummary.id), ...medievalSummary, lesson: { ...medievalSummary.lesson, podcast: studyPodcasts[medievalSummary.id] } })
+for (const [id, mathLesson] of Object.entries(mathLessons)) {
+  const summary = summaries.get(id)
+  summaries.set(id, { ...summary, mathLesson, concepts: mathLesson.sections.map(section => [section.title, section.paragraphs.join(' ')]) })
+}
 export const studySummaries = [...summaries.values()]
 export const summarySubjects = [...new Set(studySummaries.map(topic => topic.subject))]

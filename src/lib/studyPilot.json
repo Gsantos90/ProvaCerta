@@ -1,0 +1,260 @@
+{
+  "title": "Pacote piloto de estudos",
+  "source": "Prova_Certa_Pacote_Estudos_Piloto.docx",
+  "historyIntro": "Seleção editorial para preparação de ENEM e vestibulares, baseada em eixos historicamente recorrentes e de alta utilidade pedagógica. Não é um ranking estatístico oficial de incidência. O foco está em interpretação de processos históricos, relações de poder, cidadania, trabalho, cultura e permanências sociais — competências muito exploradas em provas.",
+  "modules": [
+    {
+      "id": "porcentagem",
+      "title": "Porcentagem",
+      "subject": "Matemática",
+      "content": [
+        "Objetivo: interpretar percentuais, calcular aumentos e descontos, resolver variações sucessivas e conectar porcentagem a frações, decimais e situações cotidianas.",
+        "1. Conceito fundamental",
+        "Porcentagem significa “por cento”: uma razão cujo denominador é 100. Assim, 25% = 25/100 = 1/4 = 0,25. Para calcular p% de um valor V, usamos (p/100) × V. Essa equivalência permite alternar entre três linguagens: percentual, fração e decimal.",
+        "Atalhos úteis: 10% = dividir por 10; 1% = dividir por 100; 50% = metade; 25% = quarta parte; 75% = três quartos.",
+        "2. Exemplos resolvidos",
+        "Exemplo 1 — percentual de uma quantidade",
+        "Quanto é 18% de R$ 250?",
+        "Resolução: 18/100 × 250 = 45. Portanto, 18% de R$ 250 é R$ 45.",
+        "Exemplo 2 — descobrir o percentual",
+        "Uma turma tem 40 alunos e 14 faltaram. Qual foi o percentual de faltas?",
+        "Resolução: 14/40 = 0,35. Multiplicando por 100: 35%.",
+        "Exemplo 3 — aumento percentual",
+        "Um produto de R$ 800 aumenta 12%.",
+        "Resolução: Aumento = 0,12 × 800 = 96. Novo preço = 800 + 96 = R$ 896.",
+        "Exemplo 4 — desconto",
+        "Uma mensalidade de R$ 1.200 recebe desconto de 15%.",
+        "Resolução: Desconto = 180. Valor final = 1.200 − 180 = R$ 1.020.",
+        "Exemplo 5 — percentuais sucessivos",
+        "Um preço sobe 20% e depois cai 20%. Ele volta ao valor inicial?",
+        "Resolução: Não. Se começa em 100, sobe para 120; depois cai 20% de 120, isto é, 24, chegando a 96. Houve queda líquida de 4%.",
+        "Exemplo 6 — variação percentual",
+        "Uma nota passa de 60 para 75 pontos.",
+        "Resolução: Variação = 15. Em relação ao valor inicial: 15/60 × 100 = 25%.",
+        "3. Estratégias e erros comuns",
+        "Sempre identifique a base sobre a qual o percentual é calculado. Em aumentos e descontos sucessivos, a base muda. Não some percentuais automaticamente quando eles incidem sobre valores diferentes. Diferencie também “aumentou 20%” de “aumentou 20 pontos percentuais”."
+      ],
+      "questions": [
+        {
+          "id": "piloto-porcentagem-1",
+          "number": 1,
+          "text": "Uma prova custa R$ 80 para inscrição. Durante uma campanha, há desconto de 15%. Qual é o novo valor?",
+          "options": [
+            "R$ 64",
+            "R$ 68",
+            "R$ 70",
+            "R$ 72"
+          ],
+          "answer": "B",
+          "explanation": "15% de 80 = 12; 80 − 12 = 68."
+        },
+        {
+          "id": "piloto-porcentagem-2",
+          "number": 2,
+          "text": "Em um simulado, Gabriel acertou 36 de 45 questões. Qual foi seu percentual de acertos?",
+          "options": [
+            "75%",
+            "78%",
+            "80%",
+            "85%"
+          ],
+          "answer": "C",
+          "explanation": "36/45 = 0,8 = 80%."
+        },
+        {
+          "id": "piloto-porcentagem-3",
+          "number": 3,
+          "text": "Um material de R$ 200 sofre aumento de 10% e depois desconto de 10%. Qual o valor final?",
+          "options": [
+            "R$ 198",
+            "R$ 200",
+            "R$ 202",
+            "R$ 180"
+          ],
+          "answer": "A",
+          "explanation": "200 × 1,10 = 220; 220 × 0,90 = 198."
+        },
+        {
+          "id": "piloto-porcentagem-4",
+          "number": 4,
+          "text": "A taxa de aprovação passou de 40% para 50%. Qual foi o aumento relativo?",
+          "options": [
+            "10%",
+            "20%",
+            "25%",
+            "50%"
+          ],
+          "answer": "C",
+          "explanation": "O aumento foi de 10 pontos sobre uma base de 40: 10/40 = 25%."
+        },
+        {
+          "id": "piloto-porcentagem-5",
+          "number": 5,
+          "text": "Após desconto de 20%, um livro custa R$ 96. Qual era o preço original?",
+          "options": [
+            "R$ 110",
+            "R$ 115",
+            "R$ 120",
+            "R$ 125"
+          ],
+          "answer": "C",
+          "explanation": "96 corresponde a 80% do original: 96/0,8 = 120."
+        }
+      ]
+    },
+    {
+      "id": "brasil-colonia",
+      "title": "Brasil Colônia, escravidão e resistências",
+      "subject": "História",
+      "content": [
+        "A colonização portuguesa na América foi estruturada para integrar o território aos interesses econômicos do império português. A produção açucareira, especialmente no Nordeste, combinou grandes propriedades, monocultura, produção voltada ao exterior e uso intensivo de trabalho escravizado. Antes e durante a expansão da escravidão africana, povos indígenas também sofreram guerras, deslocamentos, escravização e processos de catequese.A escravidão africana não deve ser estudada apenas como mão de obra: ela organizou relações sociais, econômicas, jurídicas e culturais durante séculos. Pessoas escravizadas criaram redes de solidariedade, preservaram e transformaram práticas culturais e resistiram de diversas maneiras — fugas, quilombos, negociações, revoltas, preservação religiosa e estratégias cotidianas.A mineração do século XVIII intensificou a urbanização e a circulação interna, ampliou o controle fiscal da Coroa e ajudou a deslocar o eixo econômico para o Centro-Sul. Movimentos como a Inconfidência Mineira precisam ser entendidos no contexto do Iluminismo, da crise do sistema colonial e dos interesses específicos das elites locais.",
+        "Pontos que o aluno precisa dominar",
+        "• economia açucareira e pacto colonial",
+        "• escravidão africana e indígena",
+        "• quilombos e formas de resistência",
+        "• mineração e fiscalização portuguesa",
+        "• religiosidade e cultura afro-brasileira",
+        "• crise do sistema colonial",
+        "Como esse tema costuma aparecer em prova",
+        "Mais do que cobrar datas isoladas, questões tendem a apresentar textos, imagens, charges, leis, discursos ou dados e pedir que o estudante relacione a fonte ao contexto histórico. Priorize causa e consequência, interesses de grupos sociais, permanências e mudanças, além da comparação entre discurso oficial e experiência social."
+      ],
+      "questions": [
+        {
+          "id": "piloto-historia-1",
+          "number": 1,
+          "text": "Ao analisar quilombos no período colonial, a interpretação historicamente mais adequada é entendê-los como:",
+          "options": [
+            "espaços exclusivamente militares sem vida econômica",
+            "formas diversas de resistência e organização social",
+            "instituições criadas pela Coroa para controlar escravizados",
+            "comunidades formadas apenas após a Abolição"
+          ],
+          "answer": "B",
+          "explanation": "Quilombos assumiram diferentes formas e constituíram importantes experiências de resistência e organização."
+        }
+      ]
+    },
+    {
+      "id": "imperio-abolicao",
+      "title": "Império, café, escravidão e Abolição",
+      "subject": "História",
+      "content": [
+        "A independência de 1822 rompeu o vínculo político formal com Portugal, mas preservou importantes estruturas sociais, como a escravidão e a concentração de poder. O Primeiro Reinado foi marcado por conflitos entre centralização e autonomia. O Período Regencial aprofundou disputas e assistiu a revoltas de diferentes grupos e regiões.No Segundo Reinado, o café ganhou enorme peso econômico e político. A expansão cafeeira esteve inicialmente associada ao trabalho escravizado e, posteriormente, à imigração e a diferentes formas de trabalho livre. A pressão contra o tráfico atlântico, a mobilização abolicionista, as resistências dos próprios escravizados e transformações econômicas contribuíram para o processo que culminou na Lei Áurea em 1888.A Abolição encerrou juridicamente a escravidão, mas não foi acompanhada por políticas amplas de inclusão econômica, acesso à terra ou reparação. Essa ausência ajuda a compreender permanências da desigualdade racial no Brasil.",
+        "Pontos que o aluno precisa dominar",
+        "• Independência e permanências sociais",
+        "• Período Regencial e revoltas",
+        "• Segundo Reinado",
+        "• economia cafeeira",
+        "• movimento abolicionista",
+        "• pós-abolição e desigualdade",
+        "Como esse tema costuma aparecer em prova",
+        "Mais do que cobrar datas isoladas, questões tendem a apresentar textos, imagens, charges, leis, discursos ou dados e pedir que o estudante relacione a fonte ao contexto histórico. Priorize causa e consequência, interesses de grupos sociais, permanências e mudanças, além da comparação entre discurso oficial e experiência social."
+      ],
+      "questions": [
+        {
+          "id": "piloto-historia-2",
+          "number": 2,
+          "text": "A Abolição de 1888 não eliminou a desigualdade racial porque:",
+          "options": [
+            "a escravidão continuou legal até 1930",
+            "todos os libertos receberam terras, mas perderam-nas",
+            "o fim jurídico da escravidão não veio acompanhado de ampla inclusão social e econômica",
+            "a imigração europeia foi proibida"
+          ],
+          "answer": "C",
+          "explanation": "A liberdade jurídica não foi acompanhada por políticas abrangentes de terra, renda, educação e reparação."
+        }
+      ]
+    },
+    {
+      "id": "republica-vargas",
+      "title": "República Velha e Era Vargas",
+      "subject": "História",
+      "content": [
+        "A Primeira República, de 1889 a 1930, combinou instituições republicanas com forte poder das oligarquias regionais. Coronelismo, clientelismo e mecanismos de controle eleitoral limitaram a participação política efetiva. A economia continuou fortemente ligada às exportações, sobretudo de café.O período também foi marcado por conflitos sociais no campo e nas cidades. Canudos e Contestado revelam tensões relacionadas à terra, autoridade estatal, religião e exclusão. Nas cidades, industrialização e crescimento do operariado favoreceram greves e movimentos trabalhistas.A Revolução de 1930 levou Getúlio Vargas ao poder. Entre 1930 e 1945, o Estado ampliou sua presença na economia e nas relações de trabalho. O Estado Novo, iniciado em 1937, foi uma ditadura: concentrou poder, censurou opositores e utilizou propaganda política. Ao mesmo tempo, a legislação trabalhista tornou-se elemento central da relação entre Estado e trabalhadores. Em provas, é importante analisar simultaneamente direitos sociais, controle político e propaganda.",
+        "Pontos que o aluno precisa dominar",
+        "• coronelismo e poder oligárquico",
+        "• Canudos e Contestado",
+        "• movimento operário",
+        "• Revolução de 1930",
+        "• Estado Novo e autoritarismo",
+        "• trabalhismo e propaganda",
+        "Como esse tema costuma aparecer em prova",
+        "Mais do que cobrar datas isoladas, questões tendem a apresentar textos, imagens, charges, leis, discursos ou dados e pedir que o estudante relacione a fonte ao contexto histórico. Priorize causa e consequência, interesses de grupos sociais, permanências e mudanças, além da comparação entre discurso oficial e experiência social."
+      ],
+      "questions": [
+        {
+          "id": "piloto-historia-3",
+          "number": 3,
+          "text": "Na Primeira República, o coronelismo relacionava-se principalmente:",
+          "options": [
+            "à ampliação do voto secreto",
+            "a redes locais de poder e controle político",
+            "ao fim das oligarquias estaduais",
+            "à eleição direta de governadores por sufrágio universal"
+          ],
+          "answer": "B",
+          "explanation": "Chefes locais articulavam influência econômica, relações clientelistas e controle político."
+        },
+        {
+          "id": "piloto-historia-4",
+          "number": 4,
+          "text": "Uma análise equilibrada da Era Vargas deve considerar:",
+          "options": [
+            "apenas a criação de direitos trabalhistas",
+            "apenas a repressão política",
+            "simultaneamente políticas sociais, centralização, propaganda e autoritarismo em diferentes fases",
+            "ausência de participação estatal na economia"
+          ],
+          "answer": "C",
+          "explanation": "O período combina expansão estatal e legislação social com autoritarismo, especialmente no Estado Novo."
+        }
+      ]
+    },
+    {
+      "id": "ditadura-redemocratizacao",
+      "title": "Ditadura Militar e redemocratização",
+      "subject": "História",
+      "content": [
+        "O golpe de 1964 derrubou o governo de João Goulart e inaugurou uma ditadura que durou até 1985. O regime restringiu direitos políticos, perseguiu opositores e utilizou instrumentos institucionais de exceção. O Ato Institucional nº 5, de 1968, aprofundou a repressão e a censura.O período também teve transformações econômicas. O chamado “milagre econômico” apresentou altas taxas de crescimento em parte do regime, mas esteve associado a concentração de renda, endividamento e desigualdades. Diferentes setores resistiram à ditadura: estudantes, artistas, trabalhadores, organizações políticas, movimentos sociais e grupos armados, entre outros.A abertura política ocorreu gradualmente. A campanha das Diretas Já, em 1983–1984, tornou-se símbolo da mobilização pela democracia, embora a eleição presidencial de 1985 ainda tenha sido indireta. A Constituição de 1988 ampliou direitos civis, políticos e sociais e é um marco fundamental da redemocratização brasileira.",
+        "Pontos que o aluno precisa dominar",
+        "• golpe de 1964",
+        "• AI-5, censura e repressão",
+        "• milagre econômico e desigualdade",
+        "• resistências culturais e políticas",
+        "• Diretas Já",
+        "• Constituição de 1988 e cidadania",
+        "Como esse tema costuma aparecer em prova",
+        "Mais do que cobrar datas isoladas, questões tendem a apresentar textos, imagens, charges, leis, discursos ou dados e pedir que o estudante relacione a fonte ao contexto histórico. Priorize causa e consequência, interesses de grupos sociais, permanências e mudanças, além da comparação entre discurso oficial e experiência social."
+      ],
+      "questions": [
+        {
+          "id": "piloto-historia-5",
+          "number": 5,
+          "text": "O AI-5, decretado em 1968, é associado:",
+          "options": [
+            "à redemocratização imediata",
+            "ao aprofundamento da repressão e das restrições políticas",
+            "à Constituição de 1988",
+            "ao início das Diretas Já"
+          ],
+          "answer": "B",
+          "explanation": "O AI-5 ampliou instrumentos repressivos e marcou uma fase mais dura da ditadura."
+        },
+        {
+          "id": "piloto-historia-6",
+          "number": 6,
+          "text": "A Constituição de 1988 é central na história recente do Brasil porque:",
+          "options": [
+            "restaurou a monarquia",
+            "extinguiu direitos sociais",
+            "consolidou instituições democráticas e ampliou garantias de cidadania",
+            "encerrou o voto direto"
+          ],
+          "answer": "C",
+          "explanation": "A Constituição tornou-se marco da redemocratização e da ampliação de direitos."
+        }
+      ]
+    }
+  ]
+}

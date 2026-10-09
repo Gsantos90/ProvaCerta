@@ -3,6 +3,22 @@ import { enemOfficialSource } from './enemExams.js'
 import { pismOfficialSource } from './pismSources.js'
 import { inssOfficialSource } from './inssSources.js'
 import { fuvestOfficialSource } from './fuvestSources.js'
+import { previousAuthorRound, selectAuthorRound } from './authorPractice.js'
+
+export async function loadAuthorQuestions(client, topic) {
+  if (!client) throw new Error('Não foi possível conectar ao banco de questões.')
+  const { data, error } = await client.from('study_author_questions')
+    .select('id,authored_id,topic_id,number,subject,text,options,answer,explanation')
+    .eq('topic_id', topic.id).order('number')
+  if (error) throw new Error('Não foi possível carregar as questões autorais. Tente novamente.')
+  const questions = (data || []).map(q => ({
+    questionId: q.id, authoredId: q.authored_id, topicId: q.topic_id,
+    number: q.number, subject: q.subject, text: q.text, options: q.options,
+    answer: q.answer, explanation: q.explanation, origin: 'author',
+    examSlug: `author:${topic.id}`, examTitle: `Questões autorais · ${topic.title}`, sourceUrl: null,
+  }))
+  return selectAuthorRound(questions, previousAuthorRound(topic.id))
+}
 
 export async function loadTopicQuestions(client, topic) {
   if (!client) throw new Error('Não foi possível conectar ao banco de questões.')
