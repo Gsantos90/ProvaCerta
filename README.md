@@ -12,6 +12,10 @@ intuitiva de preparação para provas. A aplicação funciona como uma SPA
 (Single-Page Application), sem cadastro obrigatório. As provas são carregadas
 do Supabase (conteúdo público), incluindo as provas do ENEM.
 
+O login é opcional: provas, simulados, redação, resultados e revisão continuam
+acessíveis sem conta. Quem entra pode guardar tentativas, consultar o histórico
+e revisar as questões respondidas incorretamente no caderno de erros.
+
 Origens de prova disponíveis no catálogo:
 
 - **PISM** (UFJF);
@@ -32,9 +36,100 @@ questões — a prova é montada sorteando questões já cadastradas no banco.
 
 ## Funcionalidades
 
-### Simulados
+### Conta e login opcional
+
+- Círculo de login no canto superior direito, ao lado do controle de tema;
+- Entrada e cadastro com e-mail e senha, com confirmação por e-mail;
+- Recuperação de senha por link e formulário para escolher a nova senha;
+- Menu da conta com **Meu progresso**, **Minha conta** e **Sair**;
+- Acesso completo ao estudo sem cadastro obrigatório;
+- Convite **Entre ou crie uma conta** no resultado do visitante, sem esconder a
+  nota ou a revisão.
+
+Para criar uma conta, clique no círculo, escolha **Criar conta**, informe o
+e-mail e uma senha de pelo menos oito caracteres e repita a senha. Confirme o
+cadastro pelo link enviado por e-mail. Para entrar em uma conta existente,
+use **Entrar**; para recuperar o acesso, escolha **Esqueci minha senha**.
+
+### Meu progresso e caderno de erros
+
+Ao concluir uma prova com a conta conectada, o resultado é salvo automaticamente.
+O histórico mostra prova, data, modo de estudo, pontuação e quantidades de
+acertos, erros, questões em branco e anuladas. Um identificador por tentativa
+evita duplicar o resultado ao abrir a revisão e voltar.
+
+O visitante pode escolher guardar a tentativa na tela de resultado e entrar
+sem refazer a prova. Essa escolha preserva temporariamente a última tentativa
+no navegador, inclusive quando a confirmação por e-mail abre outra aba. Após
+o salvamento, a cópia temporária é removida. A tentativa fica vinculada à
+primeira conta que entra; resultados de uma conta não são transferidos para outra.
+
+No menu da conta, **Meu progresso** abre as abas **Histórico**, **Caderno de
+erros** e **Minha conta**. Histórico e caderno usam páginas de 20 tentativas.
+O caderno reúne os erros das tentativas da página selecionada e permite abrir
+cada questão para consultar apoio, figuras, alternativas, resposta marcada,
+gabarito, explicação e link oficial, quando disponíveis. O conteúdo é preservado
+como estava na conclusão da prova. Questões em branco e anuladas aparecem
+nos totais do histórico, sem entrar no caderno.
+
+Os dados salvos podem ser consultados em outros dispositivos usando a mesma
+conta. Em caso de falha de conexão, a interface oferece **Tentar novamente**.
+Tentativas anteriores à implementação não são importadas automaticamente.
+Redações continuam com armazenamento local; esta versão não inclui login
+Google ou sincronização de redações entre dispositivos.
+
+### Tema e navegação
+
+- Opção de modo claro/escuro, com preferência guardada no navegador;
+- Interface de login e progresso compatível com os dois temas;
+- Menu superior e círculo da conta ocultos durante a prova e a revisão;
+- Controle de tema disponível durante o estudo;
+- Ação **Informar problema** discreta, com foco visível para navegação por teclado.
+
+### Área Estudar
+
+- Opção **Estudar** no menu superior, com questões por assunto, resumos e revisão.
+- Práticas com seletores de matéria e assunto, exibindo apenas uma opção por vez:
+  10 assuntos e 27 questões reais já cadastradas no Supabase. Inclui porcentagem,
+  proporções, interpretação, funções, geometria, estatística, probabilidade,
+  química orgânica, eletricidade e ondas, com questões de ENEM, Correios, CNU e PMERJ.
+- **Aprenda antes de praticar** oferece 28 resumos, selecionados por matéria:
+  Matemática, Português, Biologia, Química, Física, História, Geografia e Redação.
+  Inclui funções, geometria, probabilidade, estatística, gêneros textuais,
+  variação linguística, ecologia, genética, evolução, estequiometria, soluções,
+  química orgânica, cinemática, energia, eletricidade, Brasil colonial,
+  República e cidadania, urbanização, clima e energia e ondas.
+- Redação tem cinco resumos: planejamento, introdução, argumentação e repertório,
+  conclusão e intervenção no ENEM, coesão e revisão. Inclui exemplos, checklist,
+  referência às [orientações do Inep](https://www.gov.br/inep/pt-br/centrais-de-conteudo/noticias/enem/enem-2026-cartilha-da-redacao-esta-disponivel)
+  e botão para a prática de redação existente. Exigências de vestibulares devem
+  seguir a proposta de cada prova.
+- Resumos autorais em `src/lib/studySummaries.js`, com conceitos, exemplos,
+  erros comuns e lista de revisão. Resumos sem questões curadas levam ao
+  catálogo de provas. A curadoria das práticas fica em `src/lib/studyTopics.js`.
+- Referência para a organização das áreas: [Matrizes de Referência do ENEM,
+  Inep](https://www.gov.br/inep/pt-br/centrais-de-conteudo/acervo-linha-editorial/publicacoes-institucionais/avaliacoes-e-exames-da-educacao-basica/matrizes-de-referencia-enem/).
+- Questões e resumos disponíveis sem login. As práticas utilizam a tela de
+  prova existente, com estudo livre ou cronômetro, resultado e explicações.
+- **Minha revisão** consulta os erros das últimas 100 tentativas da própria
+  conta. Questões da curadoria são agrupadas por assunto; as demais, por matéria.
+  A contagem representa ocorrências de erros no histórico, não um percentual
+  de domínio nem uma lista de erros ainda não superados. Questões repetidas
+  entram uma vez em cada rodada de revisão.
+- Resultados das práticas são salvos em `exam_attempts` com `exam_source = 'study'`.
+  A revisão usa as permissões privadas já existentes; não exige nova tabela
+  ou query de instalação. Os resumos não dependem de IA.
+
+### Provas e simulados
 
 - Catálogo de provas por origem, com seleção de ano, cargo, bloco ou edição;
+- Cards com capa colorida no topo, nome, descrição curta e anos das edições;
+  animação suave ao passar o mouse, respeitando a preferência por movimento reduzido; **Escolher
+  prova** abre os seletores em uma janela, sem ocupar espaço no catálogo;
+- Última tentativa e pontuação no card para quem está logado, com acesso ao
+  histórico; o resultado se refere à última edição praticada daquela origem;
+- Cards em uma coluna no celular, categorias recolhíveis, busca acessível e
+  botão para limpar filtros; seletores e botões adaptados ao toque;
 - Simulado personalizado por grau de ensino, matérias e quantidade de questões;
 - Organização das questões por disciplina;
 - Navegação pelas questões usando os botões anterior e próxima;
@@ -73,8 +168,8 @@ questões — a prova é montada sorteando questões já cadastradas no banco.
 
 ### ENEM no banco próprio
 
-O card usa exclusivamente as tabelas exams e questions do Supabase. Os quatro
-anos oferecem os mesmos três seletores: ano, área (completa, dia ou disciplina)
+O card usa exclusivamente as tabelas exams e questions do Supabase. **Escolher
+prova** abre os mesmos três seletores para os quatro anos: ano, área (completa, dia ou disciplina)
 e idioma. O idioma fica desabilitado quando a seleção não inclui Linguagens.
 Cada prova completa contém 180 questões; selecionar espanhol substitui as
 cinco questões de inglês, sem aumentar o total.
@@ -115,9 +210,10 @@ aplicar a query: node scripts/read-enem-db.mjs --verify.
 
 ### Integração com Supabase
 
-O projeto usa o cliente browser do Supabase para carregar as provas e as
-questões cadastradas no banco. A aplicação é somente leitura: usa a chave
-anon/publishable e não grava dados nem exige login.
+O projeto usa o cliente browser do Supabase para ler provas e questões públicas,
+autenticar contas e gravar resultados privados. Também permite enviar relatos
+de problemas. A chave anon/publishable é usada com permissões e políticas RLS;
+o login continua opcional para acessar o conteúdo de estudo.
 
 As variáveis ficam em `.env.local` usando os nomes `VITE_SUPABASE_URL` e
 `VITE_SUPABASE_PUBLISHABLE_KEY`. Nunca use uma chave `service_role` no
@@ -129,6 +225,7 @@ Para configurar o banco, execute no SQL Editor do Supabase, na ordem:
 supabase/schema.sql     # tabelas, RLS e slugs cadastrados
 supabase/policies.sql   # políticas RLS recomendadas (opcional, re-executável)
 supabase/indexes.sql    # índices de performance (recomendado)
+supabase/setup-study-history.sql # histórico privado e caderno de erros
 ```
 
 Depois, carregue as provas executando os seeds desejados (um arquivo por prova,
@@ -136,12 +233,21 @@ no padrão `supabase/seed-<slug>.sql`). Todos usam
 `on conflict (exam_id, number) do update`, então são seguros de re-executar.
 
 As políticas RLS permitem leitura pública de provas e questões e restringem a
-tabela `attempts` ao usuário autenticado que criou cada tentativa. Recomenda-se
+tabela `exam_attempts` ao usuário autenticado que criou cada tentativa. A tabela
+legada `attempts` permanece no schema, mas não é usada pelo novo histórico. Recomenda-se
 ativar no painel o "Automatically enable RLS on new tables".
+
+As contas são gerenciadas pelo **Supabase Auth**, em `auth.users`; consulte-as
+em **Authentication → Users**. O frontend não grava senhas nas tabelas públicas.
+Confirmação de cadastro e recuperação dependem da configuração de URLs e do
+serviço de e-mail. Veja o [guia de configuração do login](supabase/LOGIN-SETUP.md),
+que inclui o endereço publicado na Vercel e o roteiro de teste com uma conta real.
 
 ## Estrutura do banco de dados
 
-O banco é composto por três tabelas com RLS habilitado.
+As tabelas principais de provas e progresso estão descritas abaixo. O projeto
+também usa `essay_themes` para temas de redação e `question_reports` para relatos
+de problemas. As contas ficam no schema `auth`, separado das tabelas públicas.
 
 ### Tabela `exams`
 
@@ -156,9 +262,8 @@ Representa uma prova cadastrada.
 | `year` | `text` | Ano/edição da prova, ex: `2025-1`. |
 | `created_at` | `timestamptz` | Data de criação, preenchida automaticamente. |
 
-A lista completa de slugs cadastrados está em `supabase/schema.sql`, cobrindo
-PISM, BB, CNU, OAB, PMERJ, PC, PF, UERJ, USP e ENEM 2024. O campo `source`
-identifica a origem de cada prova.
+Os slugs iniciais estão em `supabase/schema.sql`; os seeds também cadastram
+provas e novas edições. O campo `source` identifica a origem de cada prova.
 
 ### Tabela `questions`
 
@@ -173,19 +278,65 @@ Representa uma questão objetiva de uma prova.
 | `text` | `text` | Enunciado completo da questão. |
 | `support` | `text` | Texto de apoio exibido na lateral da prova (opcional). |
 | `support_image` | `text` | Caminho da imagem em `/public/`, ex: `/texto-3-cerrado.png` (opcional). |
-| `options` | `jsonb` | Array JSON com as cinco alternativas, ordem A–E. |
-| `answer` | `text` | Gabarito oficial: `A`, `B`, `C`, `D` ou `E`. |
+| `options` | `jsonb` | Array JSON de alternativas A–E; itens Certo/Errado usam duas opções, A/B. |
+| `answer` | `text` | Gabarito oficial, com uma ou mais letras A–E separadas por `/`. |
 | `explanation` | `text` | Explicação da resposta, exibida na revisão (opcional). |
 | `created_at` | `timestamptz` | Data de criação, preenchida automaticamente. |
 
 A combinação `(exam_id, number)` é única. A coluna `answer` aceita apenas
-as letras `A`–`E`. Cada questão carrega seu próprio texto e imagem de apoio —
+as letras `A`–`E`, inclusive respostas múltiplas como `A/B` e a anulação
+`A/B/C/D/E`. Cada questão carrega seu próprio texto e imagem de apoio —
 o painel lateral é exibido quando ao menos um desses campos está preenchido.
 A `explanation`, quando presente, aparece na revisão da questão.
 
-### Tabela `attempts`
+### Contas em `auth.users`
 
-Registra uma tentativa concluída por um estudante autenticado.
+Gerenciada pelo Supabase Auth. Guarda o identificador da conta, o e-mail e os
+dados de autenticação, incluindo a senha protegida por hash. A aplicação usa
+as operações de cadastro, entrada, recuperação e saída do Auth, sem consultar
+essa tabela diretamente pelo cliente público. O `id` da conta é usado como
+`user_id` nos resultados privados.
+
+### Tabela `exam_attempts`
+
+Usada pelo histórico e pelo caderno de erros. Criada por
+`supabase/setup-study-history.sql`, já aplicado ao banco ProvaCerta.
+
+| Coluna | Tipo | Descrição |
+| --- | --- | --- |
+| `id` | `uuid` PK | Identificador gerado pelo navegador no início da tentativa; evita salvamento duplicado. |
+| `user_id` | `uuid` FK → `auth.users.id` | Conta dona do resultado. |
+| `exam_title` | `text` | Nome da prova ou do simulado na conclusão. |
+| `exam_source` | `text` | Origem da tentativa, como `enem`, `pism` ou `correios`, usada no progresso dos cards; opcional para registros anteriores. |
+| `total` | `integer` | Total de questões, entre 1 e 500. |
+| `correct` | `integer` | Respostas corretas, sem contar anuladas. |
+| `wrong` | `integer` | Respostas incorretas. |
+| `blank` | `integer` | Questões sem resposta, excluindo anuladas. |
+| `annulled` | `integer` | Questões anuladas, que recebem ponto. |
+| `points` | `integer` | Pontuação final; pode ser negativa no INSS. |
+| `scoring` | `text` | `standard` ou `cebraspe`. |
+| `started_at` | `timestamptz` | Início da tentativa. |
+| `completed_at` | `timestamptz` | Conclusão da tentativa. |
+| `timed` | `boolean` | Indica se havia limite de tempo. |
+| `mistakes` | `jsonb` | Cópias das questões erradas, incluindo resposta marcada e materiais de revisão. |
+| `created_at` | `timestamptz` | Data de gravação no banco. |
+
+A soma de acertos, erros, brancos e anuladas deve corresponder ao total. A
+pontuação padrão é `correct + annulled`; no INSS, é
+`correct + annulled - wrong`. O número de itens em `mistakes` corresponde a
+`wrong`. O banco valida essas regras e indexa os resultados por usuário e data.
+
+O catálogo consulta apenas os dados de identificação e pontuação, sem carregar
+as cópias das questões erradas. Para bases com o histórico anterior, a coluna
+de origem é adicionada por `supabase/update-study-history-exam-source.sql`, já
+aplicado ao ProvaCerta. Tentativas antigas são reconhecidas pelo título quando
+possível; simulados personalizados não são atribuídos a um card de instituição.
+
+### Tabela legada `attempts`
+
+Estrutura anterior mantida por compatibilidade em `supabase/schema.sql`.
+A implementação atual salva e consulta resultados em `exam_attempts`; não há
+migração automática do conteúdo desta tabela para o novo histórico.
 
 | Coluna | Tipo | Descrição |
 | --- | --- | --- |
@@ -204,6 +355,9 @@ Registra uma tentativa concluída por um estudante autenticado.
 | --- | --- | --- |
 | `exams` | leitura pública | `for select using (true)` |
 | `questions` | leitura pública | `for select using (true)` |
+| `exam_attempts` | leitura própria | Somente `authenticated`, com `auth.uid() = user_id`. |
+| `exam_attempts` | criação própria | Somente `authenticated`, com `auth.uid() = user_id`. |
+| `exam_attempts` | exclusão própria | Somente `authenticated`, com `auth.uid() = user_id`; sem botão de exclusão na interface atual. |
 | `attempts` | leitura própria | `for select ... using (auth.uid() = user_id)` |
 | `attempts` | criação própria | `for insert ... with check (auth.uid() = user_id)` |
 
@@ -212,13 +366,18 @@ habilitado, isso impede qualquer alteração via chave anon. A versão recomenda
 das políticas (incluindo `attempts` restrita ao role `authenticated`) está em
 `supabase/policies.sql`.
 
+As políticas do novo histórico ficam em `supabase/setup-study-history.sql`.
+Visitantes não têm acesso à tabela `exam_attempts`, e usuários não podem ler,
+criar ou excluir resultados de outra conta. Atualizações de resultados não são
+permitidas pelo cliente público. Provas e questões continuam com leitura pública.
+
 ## Tecnologias utilizadas
 
 - [React](https://react.dev/) 18;
 - [Vite](https://vite.dev/) 6;
 - [React DOM](https://react.dev/reference/react-dom);
 - [Lucide React](https://lucide.dev/) para os ícones;
-- [Supabase](https://supabase.com/) como banco das provas e questões (leitura pública);
+- [Supabase](https://supabase.com/) para provas públicas, autenticação e histórico privado;
 - JavaScript com módulos ES;
 - Supabase para as provas do ENEM 2022 a 2025;
 - CSS responsivo sem framework visual externo.
@@ -276,6 +435,9 @@ arquivos do projeto são alterados.
 | `npm run dev` | Inicia o servidor de desenvolvimento do Vite. |
 | `npm run build` | Gera a versão otimizada para produção na pasta `dist/`. |
 | `npm run preview` | Executa localmente uma prévia da versão gerada em `dist/`. |
+| `node scripts/verify-study-account.mjs` | Verifica login opcional, fluxos de Auth com cliente simulado, pontuação, histórico e caderno de erros. |
+| `node scripts/verify-exam-picker.mjs` | Verifica cards compactos, seleção, edições, progresso privado e filtros recolhíveis. |
+| `node scripts/verify-study-hub.mjs` | Verifica curadoria, agrupamento dos erros, resultado e isolamento entre contas. Use `--live` para conferir as questões no banco e o bloqueio do histórico sem login. |
 
 Para validar uma alteração antes de publicá-la:
 
@@ -290,13 +452,22 @@ npm run build
 ├── public/                 # imagens de apoio (servidas por caminhos "/...")
 ├── src/
 │   ├── lib/
-│   │   └── supabase.js     # cliente Supabase + preconnect
+│   │   ├── studyHistory.js # montagem e salvamento das tentativas
+│   │   ├── catalogProgress.js # identificação e consulta do progresso no catálogo
+│   │   └── supabase.js     # cliente Supabase + preconnect + identificação de recuperação
+│   ├── Auth.jsx            # sessão, formulários e círculo da conta
+│   ├── StudyAccount.jsx    # histórico, caderno de erros e salvamento no resultado
+│   ├── account.css         # conta e login, nos temas claro/escuro
+│   ├── ExamPicker.jsx      # cards compactos, janela de seleção e filtros móveis
+│   ├── examPicker.css      # catálogo responsivo e janela de seleção
 │   ├── main.jsx            # aplicação (estado, provas, simulado, resultado, revisão)
 │   └── styles.css          # identidade visual e layout
 ├── supabase/
 │   ├── schema.sql          # tabelas, RLS e slugs cadastrados
 │   ├── policies.sql        # políticas RLS recomendadas
 │   ├── indexes.sql         # índices de performance
+│   ├── setup-study-history.sql # tabela e RLS do histórico privado
+│   ├── LOGIN-SETUP.md       # URLs, e-mails e validação do login
 │   └── seed-<slug>.sql     # um arquivo de seed por prova
 ├── pdf-extracts/           # material de conferência (não usado em runtime)
 ├── index.html
@@ -321,6 +492,18 @@ npm run build
 - a tela de resultado e o modo de revisão (com explicações);
 - os controles de acessibilidade (zoom e leitura em áudio);
 - a renderização dos textos e imagens de apoio.
+
+Também integra o provedor de autenticação, o menu da conta e o salvamento
+opcional dos resultados, mantendo o fluxo das provas acessível aos visitantes.
+
+#### `src/Auth.jsx`, `src/StudyAccount.jsx` e `src/lib/studyHistory.js`
+
+`Auth.jsx` acompanha a sessão do Supabase Auth, exibe os formulários e gerencia
+a tentativa temporária do visitante que escolheu guardar o resultado.
+`StudyAccount.jsx` apresenta histórico, caderno de erros e informações da conta,
+além do aviso de salvamento na tela de resultado. `studyHistory.js` calcula os
+totais e salva cada tentativa sem duplicar registros. Os estilos ficam em
+`src/account.css`.
 
 As questões e os textos de apoio das provas vêm do Supabase. Se o banco não
 estiver configurado ou não tiver a prova cadastrada, o card correspondente
@@ -370,6 +553,9 @@ tempo de execução, mas ajudam na conferência e manutenção do conteúdo.
 6. A aplicação calcula os acertos e exibe o resultado.
 7. O estudante pode abrir a revisão e navegar questão por questão.
 8. Na revisão, a resposta escolhida e a alternativa correta ficam destacadas.
+9. Com login, a tentativa concluída é salva no histórico; sem login, o estudante
+   pode escolher entrar ou criar conta para guardar o resultado.
+10. O menu da conta abre o progresso, com histórico e revisão das questões erradas.
 
 ## Adicionando uma nova prova
 
@@ -423,6 +609,15 @@ npm run build
 
 O resultado será criado em `dist/`. A configuração de publicação pode variar
 conforme o serviço escolhido.
+
+O endereço do ProvaCerta é [prova-certa-dusky.vercel.app](https://prova-certa-dusky.vercel.app/).
+Ao publicar a versão com login, mantenha as variáveis do Supabase no ambiente
+da Vercel e confira **Site URL**, **Redirect URLs** e SMTP no painel do Supabase.
+Essas etapas são necessárias para os links de confirmação e recuperação dos
+alunos. Siga o [guia de configuração do login](supabase/LOGIN-SETUP.md) e teste
+cadastro, confirmação, entrada, conclusão de uma prova, histórico e recuperação
+com um e-mail seu. A atualização do código, por si só, não configura o envio
+de e-mails.
 
 ## Contribuição
 
@@ -592,4 +787,9 @@ O botão **Informar problema** aparece como ação de texto menor, sem fundo nem
 
 ## Login opcional e progresso
 
-O site continua acessível sem conta. Login por e-mail permite guardar resultados e consultar o histórico e o caderno de erros. A estrutura privada foi aplicada ao Supabase; veja [as configurações de URLs e envio de e-mails](supabase/LOGIN-SETUP.md) antes de publicar.
+Os recursos estão descritos em [Conta e login opcional](#conta-e-login-opcional)
+e [Meu progresso e caderno de erros](#meu-progresso-e-caderno-de-erros).
+Antes de disponibilizar cadastros, confira o [guia de configuração do Supabase
+Auth](supabase/LOGIN-SETUP.md). O código e a estrutura privada foram enviados à
+`main`; a publicação e o envio real dos e-mails precisam ser verificados no
+ambiente de produção.

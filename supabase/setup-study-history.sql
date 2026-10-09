@@ -2,6 +2,7 @@
 create table if not exists public.exam_attempts (
   id uuid primary key,
   user_id uuid not null references auth.users(id) on delete cascade,
+  exam_source text check (exam_source ~ '^[a-z][a-z0-9-]{0,49}$'),
   exam_title text not null check (char_length(exam_title) between 1 and 300),
   total integer not null check (total between 1 and 500),
   correct integer not null check (correct >= 0),
@@ -20,6 +21,8 @@ create table if not exists public.exam_attempts (
   check (jsonb_array_length(mistakes) = wrong),
   check (pg_column_size(mistakes) <= 4000000)
 );
+-- Permite atualizar também uma instalação que já tenha o histórico anterior.
+alter table public.exam_attempts add column if not exists exam_source text check (exam_source ~ '^[a-z][a-z0-9-]{0,49}$');
 create index if not exists exam_attempts_user_completed_idx on public.exam_attempts(user_id, completed_at desc);
 alter table public.exam_attempts enable row level security;
 revoke all on public.exam_attempts from anon, authenticated;

@@ -109,8 +109,6 @@
 
 
 /* Crie seu simulado */
-.nav-cta{color:var(--coral)!important;font-weight:700!important}
-.nav-cta:hover{color:var(--theme-text-e85b47,#e85b47)!important}
 .hero-buttons{display:flex;flex-wrap:wrap;gap:12px}
 .hero-buttons .button.secondary{box-shadow:0 7px 20px var(--theme-shadow-e9edf4,#e9edf4)}
 

@@ -86,5 +86,5 @@ for (const n of [1,38,60,69,73,74,86,90]) {
 const setup = render({ ...base, screen:'exam-setup' })
 assert.ok(setup.includes('90') && setup.includes('Modo de prova') && setup.includes('Estudo livre'))
 const catalog = render({ screen:'catalog', catalogSearch:'USP', uspYear:'2025', uspEdition:'v1' })
-assert.ok(catalog.includes('value="2025" selected') && catalog.includes('value="2026"'))
+assert.ok(catalog.includes('Escolher prova') && catalog.includes('Edições: 2026 · 2025') && !catalog.includes('<select'))
 console.log('FUVEST 2025: 90 questões e gabaritos oficiais, 90 explicações, 41 figuras, SQL, símbolos, links, seletor, modo de prova e revisão verificados.')

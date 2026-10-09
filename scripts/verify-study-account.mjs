@@ -13,9 +13,10 @@ const questions = [
   { text: 'Anulada', options: ['A', 'B', 'C', 'D', 'E'], answer: 'A/B/C/D/E' },
 ]
 const session = { id: 'attempt', ownerId: 'student', startedAt: 1000, endedAt: 61000, deadline: 61000 }
-const input = { session, questions, answers: { 0: 'A', 1: 'A' }, title: 'Teste', userId: 'student' }
+const input = { session, questions, answers: { 0: 'A', 1: 'A' }, title: 'Teste', userId: 'student', source: 'pmerj' }
 const original = JSON.stringify(input)
 const standard = attemptPayload(input)
+assert.equal(standard.exam_source, 'pmrj')
 assert.deepEqual([standard.correct, standard.wrong, standard.blank, standard.annulled, standard.points], [1, 1, 1, 1, 2])
 assert.equal(standard.mistakes.length, 1)
 assert.equal(standard.mistakes[0].number, 42)
@@ -52,6 +53,9 @@ assert.ok(exam.includes('Acerto') && !exam.includes('Entrar na minha conta') && 
 const result = render({ ...base, screen: 'result' })
 assert.ok(result.includes('Quer guardar este resultado?') && result.includes('Refazer prova') && result.includes('Para revisar'))
 assert.ok(render({ screen: 'account' }).includes('continuar fazendo provas sem conta'))
+const studyExam = render({ ...base, screen: 'exam', selectedExam: 'study', supabaseExamSlug: 'study', studyPracticeTitle: 'Estudo · Porcentagem' })
+assert.ok(studyExam.includes('Estudo · Porcentagem') && studyExam.includes('Prática por assunto') && !studyExam.includes('PISM Estudo'))
+assert.ok(render({ screen: 'home' }).includes('href="#estudar"') && !render({ screen: 'home' }).includes('nav-cta'))
 
 // Exercise the real form handlers without sending emails or creating accounts.
 let authSource = readFileSync('src/Auth.jsx', 'utf8').replace("import { supabase, isRecoveryLink } from './lib/supabase'", 'const supabase = testClient; const isRecoveryLink = false') + '\nexport { AuthDialog }'

@@ -17,11 +17,14 @@ import { pismOfficialSource, pismExamDetails, pismSelectionLabel } from './lib/p
 
 import { AuthProvider, useAuth, AccountControl } from './Auth'
 import StudyAccount, { SaveResult } from './StudyAccount'
+import ExamPicker, { ExamProgressProvider, CatalogFilters } from './ExamPicker'
 import ExamSetup from './ExamSetup'
+import './studyHub.css'
 import { remainingSeconds, formatDuration, reportContext } from './lib/examSession'
 const QuestionReport = React.lazy(() => import('./QuestionReport'))
 
 const EssayPractice = React.lazy(() => import('./EssayPractice'))
+const StudyHub = React.lazy(() => import('./StudyHub'))
 
 const enem2023EnglishQuestions = [
   {
@@ -551,6 +554,19 @@ function App() {
   const [accountTab, setAccountTab] = useState('history')
   const openAccount = (tab) => { setAccountTab(tab); setScreen('account'); setMenuOpen(false) }
   const [screen, setScreen] = useState('home')
+  const [studyTab, setStudyTab] = useState('questions')
+  const [studyPracticeTitle, setStudyPracticeTitle] = useState('Estudo por assunto')
+  const openStudy = () => { setScreen('study'); setMenuOpen(false) }
+  const startStudy = (questions, title) => {
+    setEnemQuestions(questions)
+    setSupabaseExamSlug('study')
+    setSelectedExam('study')
+    setStudyPracticeTitle(title)
+    setCurrent(0)
+    setAnswers({})
+    setScreen('exam-setup')
+    setMenuOpen(false)
+  }
   const [session, setSession] = useState(null)
   const [timeLeft, setTimeLeft] = useState(0)
   const [report, setReport] = useState(null)
@@ -657,12 +673,12 @@ function App() {
   const enemCatalogCombined = enemExams
   const activeQuestions = selectedExam === 'enem' || supabaseExamSlug ? enemQuestions : questionSets[selectedExam] || []
   const pismExam = pismExamDetails(supabaseExamSlug)
-  const examLabel = selectedExam === 'inss' ? 'INSS 2022 · Técnico do Seguro Social' : pismExam ? String(pismExam.year) : selectedExam === 'usp' ? `USP ${uspYear} · FUVEST` : selectedExam === 'uerj' ? `UERJ ${uerjYear} · ${(uerjExamsByYear[uerjYear] || []).find((item) => item.value === uerjEdition)?.label || ''}` : selectedExam === 'simulado' ? `Simulado · ${simuladoLevels.find((item) => item.value === simuladoLevel)?.label || 'Personalizado'}` : selectedExam === 'pism-1' ? '2025-1' : selectedExam === 'pism-2' ? '2025-2' : selectedExam === 'pism-2024-1' ? '2024-1' : selectedExam === 'pism-2024-2' ? '2024-2' : selectedExam === 'pism-2023-1' ? '2023-1' : selectedExam === 'pism-2023-2' ? '2023-2' : selectedExam === 'enem' ? `ENEM ${enemYear}` : selectedExam === 'bb' ? `Banco do Brasil ${bbYear} · ${bbRole}` : selectedExam === 'cnu' ? `CNU ${cnuYear} · Bloco ${cnuBlock.replace('bloco-', '')}` : selectedExam === 'oab' ? `OAB ${oabYear} · ${(oabExamsByYear[oabYear] || []).find((item) => item.value === oabEdition)?.label || 'Exame de Ordem'}` : selectedExam === 'pmerj' ? `PMERJ ${pmerjYear} · ${pmerjRolesConfig[pmerjRole]?.label || 'Soldado'}` : selectedExam === 'correios' ? `Correios ${correiosYear} · ${correiosRolesConfig[correiosRole]?.label || 'Carteiro'}` : selectedExam === 'caixa' ? `CAIXA ${caixaYear} · ${caixaRolesConfig[caixaRole]?.label || 'Técnico Bancário Novo'}` : selectedExam === 'pc' ? `Polícia Civil ${pcState} ${pcYear} · ${pcByState[pcState]?.roles?.[pcRole]?.label || 'Investigador'}` : selectedExam === 'pf' ? `Polícia Federal ${pfYear} · ${pfRole} · ${pfArea}` : '2023-1_Cad_Amarelo - LINGUAGENS, CÓDIGOS E SUAS TECNOLOGIAS'
+  const examLabel = selectedExam === 'study' ? studyPracticeTitle : selectedExam === 'inss' ? 'INSS 2022 · Técnico do Seguro Social' : pismExam ? String(pismExam.year) : selectedExam === 'usp' ? `USP ${uspYear} · FUVEST` : selectedExam === 'uerj' ? `UERJ ${uerjYear} · ${(uerjExamsByYear[uerjYear] || []).find((item) => item.value === uerjEdition)?.label || ''}` : selectedExam === 'simulado' ? `Simulado · ${simuladoLevels.find((item) => item.value === simuladoLevel)?.label || 'Personalizado'}` : selectedExam === 'pism-1' ? '2025-1' : selectedExam === 'pism-2' ? '2025-2' : selectedExam === 'pism-2024-1' ? '2024-1' : selectedExam === 'pism-2024-2' ? '2024-2' : selectedExam === 'pism-2023-1' ? '2023-1' : selectedExam === 'pism-2023-2' ? '2023-2' : selectedExam === 'enem' ? `ENEM ${enemYear}` : selectedExam === 'bb' ? `Banco do Brasil ${bbYear} · ${bbRole}` : selectedExam === 'cnu' ? `CNU ${cnuYear} · Bloco ${cnuBlock.replace('bloco-', '')}` : selectedExam === 'oab' ? `OAB ${oabYear} · ${(oabExamsByYear[oabYear] || []).find((item) => item.value === oabEdition)?.label || 'Exame de Ordem'}` : selectedExam === 'pmerj' ? `PMERJ ${pmerjYear} · ${pmerjRolesConfig[pmerjRole]?.label || 'Soldado'}` : selectedExam === 'correios' ? `Correios ${correiosYear} · ${correiosRolesConfig[correiosRole]?.label || 'Carteiro'}` : selectedExam === 'caixa' ? `CAIXA ${caixaYear} · ${caixaRolesConfig[caixaRole]?.label || 'Técnico Bancário Novo'}` : selectedExam === 'pc' ? `Polícia Civil ${pcState} ${pcYear} · ${pcByState[pcState]?.roles?.[pcRole]?.label || 'Investigador'}` : selectedExam === 'pf' ? `Polícia Federal ${pfYear} · ${pfRole} · ${pfArea}` : '2023-1_Cad_Amarelo - LINGUAGENS, CÓDIGOS E SUAS TECNOLOGIAS'
   // Tela de "início" para onde os botões de voltar da prova/resultado devem retornar:
   // simulados voltam para a tela de simulado; as demais provas, para o catálogo (todas as provas).
-  const examHomeScreen = selectedExam === 'simulado' ? 'simulado' : 'catalog'
+  const examHomeScreen = selectedExam === 'study' ? 'study' : selectedExam === 'simulado' ? 'simulado' : 'catalog'
   const cnuShiftLabel = cnuYear === '2025' ? 'Conhecimentos Gerais e Específicos' : cnuShift === 'manha' ? 'Manhã · Conhecimentos Gerais' : 'Tarde · Conhecimentos Específicos'
-  const examDay = selectedExam === 'inss' ? `Prova objetiva · ${activeQuestions.length} itens (Certo/Errado)` : selectedExam === 'usp' || selectedExam === 'uerj' ? `Prova objetiva · ${activeQuestions.length} questões` : selectedExam === 'simulado' ? `Simulado personalizado · ${activeQuestions.length} questões` : selectedExam === 'enem' ? (enemAreas.find(item => item.value === enemDiscipline)?.label + (enemHasLanguage(enemDiscipline) ? ' · ' + (enemLanguage === 'espanhol' ? 'Espanhol' : 'Inglês') : '')) : selectedExam === 'bb' ? 'Prova objetiva' : selectedExam === 'oab' ? 'Prova objetiva · 1ª fase' : selectedExam === 'pmerj' || selectedExam === 'correios' || selectedExam === 'caixa' ? `Prova objetiva · ${activeQuestions.length} questões` : selectedExam === 'pc' ? `Prova objetiva · ${activeQuestions.length} questões` : selectedExam === 'pf' ? 'Conhecimentos Básicos · 50 itens (Certo/Errado)' : selectedExam === 'cnu' ? cnuShiftLabel : pismExam ? `${pismExam.day}º dia` : examLabel.endsWith('-1') ? 'Dia 1' : 'Dia 2'
+  const examDay = selectedExam === 'study' ? `Prática por assunto · ${activeQuestions.length} questões` : selectedExam === 'inss' ? `Prova objetiva · ${activeQuestions.length} itens (Certo/Errado)` : selectedExam === 'usp' || selectedExam === 'uerj' ? `Prova objetiva · ${activeQuestions.length} questões` : selectedExam === 'simulado' ? `Simulado personalizado · ${activeQuestions.length} questões` : selectedExam === 'enem' ? (enemAreas.find(item => item.value === enemDiscipline)?.label + (enemHasLanguage(enemDiscipline) ? ' · ' + (enemLanguage === 'espanhol' ? 'Espanhol' : 'Inglês') : '')) : selectedExam === 'bb' ? 'Prova objetiva' : selectedExam === 'oab' ? 'Prova objetiva · 1ª fase' : selectedExam === 'pmerj' || selectedExam === 'correios' || selectedExam === 'caixa' ? `Prova objetiva · ${activeQuestions.length} questões` : selectedExam === 'pc' ? `Prova objetiva · ${activeQuestions.length} questões` : selectedExam === 'pf' ? 'Conhecimentos Básicos · 50 itens (Certo/Errado)' : selectedExam === 'cnu' ? cnuShiftLabel : pismExam ? `${pismExam.day}º dia` : examLabel.endsWith('-1') ? 'Dia 1' : 'Dia 2'
 
   // Normaliza letras de gabarito/resposta para evitar falhas de comparação
   // por espaços, quebras de linha ou diferença de maiúsculas/minúsculas.
@@ -1587,7 +1603,7 @@ function App() {
   const featuredCards = { inss: inssCard, pism: pismCard, enem: enemCard, uerj: uerjCard, usp: uspCard, bb: bbCard, cnu: cnuCard, oab: oabCard, pmrj: pmerjCard, correios: correiosCard, caixa: caixaCard, pc: pcCard, pf: pfCard }
 
   if (screen === 'essay') {
-    return <div className="app-shell"><Header onAccount={openAccount} menuOpen={menuOpen} setMenuOpen={setMenuOpen} onHome={() => setScreen('home')} onSimulado={openSimulado} onCatalog={() => setScreen('catalog')} onAbout={goToAbout} onEssay={() => { setScreen('essay'); setMenuOpen(false) }} /><React.Suspense fallback={<main className="essay-page"><p role="status">Carregando a área de redação…</p></main>}><EssayPractice onBack={() => setScreen('home')} /></React.Suspense></div>
+    return <div className="app-shell"><Header onStudy={openStudy} activeScreen={screen} onAccount={openAccount} menuOpen={menuOpen} setMenuOpen={setMenuOpen} onHome={() => setScreen('home')} onSimulado={openSimulado} onCatalog={() => setScreen('catalog')} onAbout={goToAbout} onEssay={() => { setScreen('essay'); setMenuOpen(false) }} /><React.Suspense fallback={<main className="essay-page"><p role="status">Carregando a área de redação…</p></main>}><EssayPractice onBack={() => setScreen('home')} /></React.Suspense></div>
   }
 
   if (screen === 'simulado') {
@@ -1595,7 +1611,7 @@ function App() {
     const canStart = simuladoSelected.length > 0 && !simuladoLoading
     return (
       <div className="app-shell">
-        <Header onAccount={openAccount} menuOpen={menuOpen} setMenuOpen={setMenuOpen} onHome={() => setScreen('home')} onSimulado={openSimulado} onCatalog={() => setScreen('catalog')} onAbout={goToAbout} onEssay={() => { setScreen('essay'); setMenuOpen(false) }} />
+        <Header onStudy={openStudy} activeScreen={screen} onAccount={openAccount} menuOpen={menuOpen} setMenuOpen={setMenuOpen} onHome={() => setScreen('home')} onSimulado={openSimulado} onCatalog={() => setScreen('catalog')} onAbout={goToAbout} onEssay={() => { setScreen('essay'); setMenuOpen(false) }} />
         <main className="catalog-page simulado-page">
           <div className="catalog-head">
             <button className="back-link" onClick={() => setScreen('home')}><ArrowLeft size={17} /> Voltar ao início</button>
@@ -1723,7 +1739,7 @@ function App() {
   if (screen === 'catalog') {
     return (
       <div className="app-shell">
-        <Header onAccount={openAccount} menuOpen={menuOpen} setMenuOpen={setMenuOpen} onHome={() => setScreen('home')} onSimulado={openSimulado} onCatalog={() => setScreen('catalog')} onAbout={goToAbout} onEssay={() => { setScreen('essay'); setMenuOpen(false) }} />
+        <Header onStudy={openStudy} activeScreen={screen} onAccount={openAccount} menuOpen={menuOpen} setMenuOpen={setMenuOpen} onHome={() => setScreen('home')} onSimulado={openSimulado} onCatalog={() => setScreen('catalog')} onAbout={goToAbout} onEssay={() => { setScreen('essay'); setMenuOpen(false) }} />
         <main className="catalog-page">
           <div className="catalog-head">
             <button className="back-link" onClick={() => setScreen('home')}><ArrowLeft size={17} /> Voltar ao início</button>
@@ -1732,7 +1748,7 @@ function App() {
             <p className="catalog-subtitle">Escolha uma prova por categoria. Novas provas serão adicionadas em breve.</p>
           </div>
 
-          <div className="catalog-filters">
+          <CatalogFilters search={catalogSearch} setSearch={setCatalogSearch} category={catalogCategory} setCategory={setCatalogCategory} categories={catalogCategories}>
             <div className="catalog-search">
               <Search size={17} />
               <input
@@ -1744,14 +1760,9 @@ function App() {
               />
               {catalogSearch && <button className="catalog-search-clear" onClick={() => setCatalogSearch('')} aria-label="Limpar busca"><X size={15} /></button>}
             </div>
-            <div className="catalog-chips">
-              <button className={`catalog-chip ${catalogCategory === 'todas' ? 'active' : ''}`} onClick={() => setCatalogCategory('todas')}>Todas</button>
-              {catalogCategories.map((category) => (
-                <button key={category.id} className={`catalog-chip ${catalogCategory === category.id ? 'active' : ''}`} onClick={() => setCatalogCategory(category.id)}>{category.title}</button>
-              ))}
-            </div>
-          </div>
+          </CatalogFilters>
 
+          <ExamProgressProvider onHistory={openAccount}>
           {(() => {
             const term = catalogSearch.trim().toLowerCase()
             const matches = (exam) => !term || exam.name.toLowerCase().includes(term) || (exam.description || '').toLowerCase().includes(term)
@@ -1765,43 +1776,17 @@ function App() {
             }
 
             return visibleCategories.map((category) => {
-              const featured = category.exams.filter((exam) => featuredCards[exam.id])
-              const upcoming = category.exams.filter((exam) => !featuredCards[exam.id])
-              // Nos concursos e nas faculdades publicas, os cards funcionais usam o mesmo
-              // grid compacto (trio) dos demais para manter todos com o mesmo tamanho:
-              // 3 por linha e o que sobrar na linha de baixo.
-              const useUnifiedGrid = category.kind === 'concurso' || category.id === 'faculdades' || category.id === 'oab'
               return (
                 <section className="catalog-category" key={category.id}>
-                  <div className="catalog-category-head">
-                    <h2>{category.title}</h2>
-                    <p>{category.description}</p>
+                  <div className="catalog-category-head"><h2>{category.title}</h2><p>{category.description}</p></div>
+                  <div className="exam-cards trio">
+                    {category.exams.map(exam => <ExamPicker key={exam.id} exam={exam}>{featuredCards[exam.id]}</ExamPicker>)}
                   </div>
-                  {useUnifiedGrid ? (
-                    (featured.length > 0 || upcoming.length > 0) && (
-                      <div className="exam-cards trio">
-                        {featured.map((exam) => <React.Fragment key={exam.id}>{featuredCards[exam.id]}</React.Fragment>)}
-                        {upcoming.map((exam) => <UpcomingCard key={exam.id} exam={exam} />)}
-                      </div>
-                    )
-                  ) : (
-                    <>
-                      {featured.length > 0 && (
-                        <div className="exam-cards">
-                          {featured.map((exam) => <React.Fragment key={exam.id}>{featuredCards[exam.id]}</React.Fragment>)}
-                        </div>
-                      )}
-                      {upcoming.length > 0 && (
-                        <div className="exam-cards trio">
-                          {upcoming.map((exam) => <UpcomingCard key={exam.id} exam={exam} />)}
-                        </div>
-                      )}
-                    </>
-                  )}
                 </section>
               )
             })
           })()}
+          </ExamProgressProvider>
         </main>
         <footer><span className="brand"><span className="brand-mark">P</span> prova<span>certa</span></span><span>Feito para quem quer chegar mais longe.</span><span>© 2025 provacerta</span></footer>
       </div>
@@ -1809,12 +1794,17 @@ function App() {
   }
 
   if (screen === 'exam-setup') {
-    return <div className="app-shell"><Header onAccount={openAccount} onHome={() => setScreen('home')} onSimulado={openSimulado} onCatalog={() => setScreen('catalog')} onAbout={goToAbout} onEssay={() => setScreen('essay')} menuOpen={menuOpen} setMenuOpen={setMenuOpen} />
+    return <div className="app-shell"><Header onStudy={openStudy} activeScreen={screen} onAccount={openAccount} onHome={() => setScreen('home')} onSimulado={openSimulado} onCatalog={() => setScreen('catalog')} onAbout={goToAbout} onEssay={() => setScreen('essay')} menuOpen={menuOpen} setMenuOpen={setMenuOpen} />
       <ExamSetup title={examLabel} count={activeQuestions.length} onStart={beginSession} onBack={() => examHomeScreen === 'simulado' ? openSimulado() : setScreen(examHomeScreen)} />
     </div>
   }
   if (screen === 'account') {
-    return <div className="app-shell"><Header onAccount={openAccount} onHome={() => setScreen('home')} onCatalog={() => setScreen('catalog')} onSimulado={openSimulado} onEssay={() => setScreen('essay')} onAbout={goToAbout} menuOpen={menuOpen} setMenuOpen={setMenuOpen} /><StudyAccount initialTab={accountTab} onBack={() => setScreen('home')} /></div>
+    return <div className="app-shell"><Header onStudy={openStudy} activeScreen={screen} onAccount={openAccount} onHome={() => setScreen('home')} onCatalog={() => setScreen('catalog')} onSimulado={openSimulado} onEssay={() => setScreen('essay')} onAbout={goToAbout} menuOpen={menuOpen} setMenuOpen={setMenuOpen} /><StudyAccount initialTab={accountTab} onBack={() => setScreen('home')} /></div>
+  }
+  if (screen === 'study') {
+    return <div className="app-shell"><Header onStudy={openStudy} activeScreen={screen} onAccount={openAccount} onHome={() => setScreen('home')} onCatalog={() => setScreen('catalog')} onSimulado={openSimulado} onEssay={() => setScreen('essay')} onAbout={goToAbout} menuOpen={menuOpen} setMenuOpen={setMenuOpen} />
+      <React.Suspense fallback={<main className="study-hub" role="status">Abrindo seus conteúdos de estudo…</main>}><StudyHub onBack={() => setScreen('home')} onStart={startStudy} tab={studyTab} onTabChange={setStudyTab} onHistory={openAccount} onCatalog={() => setScreen('catalog')} onEssay={() => setScreen('essay')} /></React.Suspense>
+    </div>
   }
   if (screen === 'result') {
     const isInss = selectedExam === 'inss'
@@ -1822,7 +1812,7 @@ function App() {
     const percentage = activeQuestions.length ? Math.round((resultPoints / activeQuestions.length) * 100) : 0
     return (
       <div className="app-shell">
-        <Header onAccount={openAccount} onHome={() => setScreen('home')} onSimulado={openSimulado} onCatalog={() => setScreen('catalog')} onAbout={goToAbout} onEssay={() => { setScreen('essay'); setMenuOpen(false) }} />
+        <Header onStudy={openStudy} activeScreen={screen} onAccount={openAccount} menuOpen={menuOpen} setMenuOpen={setMenuOpen} onHome={() => setScreen('home')} onSimulado={openSimulado} onCatalog={() => setScreen('catalog')} onAbout={goToAbout} onEssay={() => { setScreen('essay'); setMenuOpen(false) }} />
         <main className="result-page">
           <div className="result-glow" />
           <section className="result-card">
@@ -1843,7 +1833,7 @@ function App() {
               <button className="review-stat" onClick={() => { setCurrent(0); setScreen('review') }}><strong>{isInss ? inssScore.wrong : activeQuestions.length - score}</strong><span>{isInss ? "Erros · revisar" : "Para revisar"}</span></button>
               <div><strong>{isInss ? inssScore.blank : activeQuestions.length}</strong><span>{isInss ? "Em branco" : "Questões"}</span></div>
             </div>
-            <SaveResult session={session} questions={activeQuestions} answers={answers} title={examLabel} binary={isInss} />
+            <SaveResult source={selectedExam} session={session} questions={activeQuestions} answers={answers} title={examLabel} binary={isInss} />
             <div className="result-actions">
               <button className="button primary" onClick={() => { setCurrent(0); setAnswers({}); setScreen('exam-setup') }}><RotateCcw size={17} /> Refazer prova</button>
               <button className="button secondary" onClick={() => { if (examHomeScreen === 'simulado') { openSimulado() } else { setScreen(examHomeScreen) } }}>Voltar ao início</button>
@@ -1873,11 +1863,11 @@ function App() {
     }
     return (
       <div className="app-shell exam-shell">
-        <Header onAccount={openAccount} hideNavigation onHome={() => setScreen('home')} onSimulado={openSimulado} onCatalog={() => setScreen('catalog')} onAbout={goToAbout} onEssay={() => { setScreen('essay'); setMenuOpen(false) }} />
+        <Header onStudy={openStudy} activeScreen={screen} onAccount={openAccount} hideNavigation onHome={() => setScreen('home')} onSimulado={openSimulado} onCatalog={() => setScreen('catalog')} onAbout={goToAbout} onEssay={() => { setScreen('essay'); setMenuOpen(false) }} />
         <main className="exam-page">
           <div className="exam-topline">
             <button className="back-link" onClick={() => { if (isReview) { setScreen('result') } else if (examHomeScreen === 'simulado') { openSimulado() } else { setScreen(examHomeScreen) } }}><ArrowLeft size={17} /> {isReview ? 'Voltar ao resultado' : 'Sair da prova'}</button>
-            <div className="exam-name"><span className="mini-logo">P</span><span>provacerta · {selectedExam === 'usp' || selectedExam === 'uerj' || selectedExam === 'simulado' || selectedExam === 'enem' || selectedExam === 'bb' || selectedExam === 'cnu' || selectedExam === 'oab' || selectedExam === 'pmerj' || selectedExam === 'pc' || selectedExam === 'pf' || selectedExam === 'inss' ? examLabel : `PISM ${examLabel}`}</span><b>·</b><span>{isReview ? 'Revisão' : selectedExam === 'usp' || selectedExam === 'uerj' || selectedExam === 'simulado' || selectedExam === 'enem' || selectedExam === 'bb' || selectedExam === 'cnu' || selectedExam === 'oab' || selectedExam === 'pmerj' || selectedExam === 'pc' || selectedExam === 'pf' || selectedExam === 'inss' ? examDay : `Módulo ${pismExam?.module || 'I'} · ${examDay}`}</span></div>
+            <div className="exam-name"><span className="mini-logo">P</span><span>provacerta · {selectedExam === 'study' || selectedExam === 'usp' || selectedExam === 'uerj' || selectedExam === 'simulado' || selectedExam === 'enem' || selectedExam === 'bb' || selectedExam === 'cnu' || selectedExam === 'oab' || selectedExam === 'pmerj' || selectedExam === 'pc' || selectedExam === 'pf' || selectedExam === 'inss' ? examLabel : `PISM ${examLabel}`}</span><b>·</b><span>{isReview ? 'Revisão' : selectedExam === 'study' || selectedExam === 'usp' || selectedExam === 'uerj' || selectedExam === 'simulado' || selectedExam === 'enem' || selectedExam === 'bb' || selectedExam === 'cnu' || selectedExam === 'oab' || selectedExam === 'pmerj' || selectedExam === 'pc' || selectedExam === 'pf' || selectedExam === 'inss' ? examDay : `Módulo ${pismExam?.module || 'I'} · ${examDay}`}</span></div>
             <span className="question-count">{current + 1} <i>/</i> {activeQuestions.length}</span>
           </div>
           {!isReview && session?.deadline && <div className="exam-timer">
@@ -1941,6 +1931,7 @@ function App() {
             <section className="question-content">
               <button type="button" className="report-trigger" onClick={() => setReport(reportContext(question, current, examLabel, supabaseExamSlug))}>Informar problema</button>
               <div className={`subject-tag ${subjects.find((item) => item.name === question.subject)?.color}`}>{question.subject}</div>
+              {selectedExam === 'study' && <p className="official-source">{question.examTitle} · Questão {question.number}</p>}
               <div className="question-heading"><span>Questão {String(current + 1).padStart(2, '0')}</span><Clock3 size={16} /> <small>{isReview ? 'Revisão' : session?.deadline ? 'Modo de prova' : 'Sem tempo limite'}</small>{speechSupported && <button type="button" className={`listen-button ${speakingId === 'question' ? 'active' : ''}`} onClick={() => speak('question', `${question.text}. ${question.options.map((option, index) => binary ? option : `Alternativa ${letters[index]}. ${option}`).join('. ')}`)} aria-label={speakingId === 'question' ? 'Parar leitura da questão' : 'Ouvir a questão'}>{speakingId === 'question' ? <><Square size={14} /> Parar</> : <><Volume2 size={15} /> Ouvir questão</>}</button>}</div>
               {selectedExam === 'inss' && <p className="official-source">Acerto: +1 · Erro: −1 · Em branco: 0 · Anulado: +1.</p>}
               <h1>{question.text}</h1>
@@ -1987,7 +1978,7 @@ function App() {
 
   return (
     <div className="app-shell">
-      <Header onAccount={openAccount} menuOpen={menuOpen} setMenuOpen={setMenuOpen} onHome={() => setScreen('home')} onSimulado={openSimulado} onCatalog={() => setScreen('catalog')} onAbout={goToAbout} onEssay={() => { setScreen('essay'); setMenuOpen(false) }} />
+      <Header onStudy={openStudy} activeScreen={screen} onAccount={openAccount} menuOpen={menuOpen} setMenuOpen={setMenuOpen} onHome={() => setScreen('home')} onSimulado={openSimulado} onCatalog={() => setScreen('catalog')} onAbout={goToAbout} onEssay={() => { setScreen('essay'); setMenuOpen(false) }} />
       <main className="home">
         <section className="hero">
           <div className="hero-copy">
@@ -2013,10 +2004,12 @@ Acesse provas reais de concursos e faculdades federais, resolva simulados exclus
         <section className="trust-row"><div><BookOpen size={18} /><span>Conteúdo selecionado<br /><b>por especialistas</b></span></div><div><GraduationCap size={20} /><span>Prepare-se para<br /><b>o seu futuro</b></span></div><div><Sparkles size={18} /><span>Estude no seu<br /><b>próprio ritmo</b></span></div></section>
         <section className="exams-section" id="provas">
           <div className="section-heading"><div><p className="eyebrow">Escolha seu desafio</p><h2>Provas em destaque</h2></div><button className="view-all" onClick={() => setScreen('catalog')}><LayoutGrid size={17} /> Todas as provas</button></div>
+          <ExamProgressProvider onHistory={openAccount}>
           <div className="exam-cards">
-            {cnuCard}
-            {enemCard}
+            <ExamPicker exam={catalogCategories.flatMap(category => category.exams).find(exam => exam.id === 'cnu')}>{cnuCard}</ExamPicker>
+            <ExamPicker exam={catalogCategories.flatMap(category => category.exams).find(exam => exam.id === 'enem')}>{enemCard}</ExamPicker>
           </div>
+          </ExamProgressProvider>
         </section>
         <section className="about-section" id="sobre">
           <div className="section-heading"><div><p className="eyebrow">Sobre nós</p><h2>O que é o Provacerta</h2></div></div>
@@ -2041,7 +2034,7 @@ Acesse provas reais de concursos e faculdades federais, resolva simulados exclus
   )
 }
 
-function Header({ onAccount, onHome, onSimulado, onCatalog, onAbout, onEssay, menuOpen, setMenuOpen, hideNavigation = false }) {
+function Header({ onStudy, activeScreen, onAccount, onHome, onSimulado, onCatalog, onAbout, onEssay, menuOpen, setMenuOpen, hideNavigation = false }) {
   const [darkMode, setDarkMode] = useState(() => typeof document !== 'undefined' && document.documentElement.dataset.theme === 'dark')
   const toggleTheme = () => {
     const next = !darkMode
@@ -2071,7 +2064,12 @@ function Header({ onAccount, onHome, onSimulado, onCatalog, onAbout, onEssay, me
     setMenuOpen?.(false)
     onAbout?.()
   }
-  return <header><button className="brand" onClick={onHome}><span className="brand-mark">P</span> prova<span>certa</span></button>{!hideNavigation && <nav className={menuOpen ? 'open' : ''}><a href="#provas" onClick={handleCatalog}>Provas</a><a href="#simulado" className="nav-cta" onClick={handleSimulado}>Crie seu simulado</a><a href="#redacao" onClick={handleEssay}>Praticar redação</a><a href="#sobre" onClick={handleAbout}>Sobre nós</a></nav>}<div className="header-actions"><button className="theme-toggle" onClick={toggleTheme} aria-label={darkMode ? 'Ativar modo claro' : 'Ativar modo escuro'} aria-pressed={darkMode} title={darkMode ? 'Ativar modo claro' : 'Ativar modo escuro'}>{darkMode ? <Sun size={18} /> : <Moon size={18} />}<span>{darkMode ? 'Modo claro' : 'Modo escuro'}</span></button>{!hideNavigation && <AccountControl onAccount={onAccount} />}{!hideNavigation && <button className="menu-button" aria-label="Abrir menu" onClick={() => setMenuOpen?.(!menuOpen)}><Menu size={22} /></button>}</div></header>
+  const handleStudy = (event) => {
+    event.preventDefault()
+    setMenuOpen?.(false)
+    onStudy?.()
+  }
+  return <header><button className="brand" onClick={onHome}><span className="brand-mark">P</span> prova<span>certa</span></button>{!hideNavigation && <nav className={menuOpen ? 'open' : ''}><a href="#provas" aria-current={activeScreen === 'catalog' ? 'page' : undefined} onClick={handleCatalog}>Provas</a><a href="#simulado" aria-current={activeScreen === 'simulado' ? 'page' : undefined} onClick={handleSimulado}>Crie seu simulado</a><a href="#estudar" aria-current={activeScreen === 'study' ? 'page' : undefined} onClick={handleStudy}>Estudar</a><a href="#redacao" aria-current={activeScreen === 'essay' ? 'page' : undefined} onClick={handleEssay}>Praticar redação</a><a href="#sobre" onClick={handleAbout}>Sobre nós</a></nav>}<div className="header-actions"><button className="theme-toggle" onClick={toggleTheme} aria-label={darkMode ? 'Ativar modo claro' : 'Ativar modo escuro'} aria-pressed={darkMode} title={darkMode ? 'Ativar modo claro' : 'Ativar modo escuro'}>{darkMode ? <Sun size={18} /> : <Moon size={18} />}<span>{darkMode ? 'Modo claro' : 'Modo escuro'}</span></button>{!hideNavigation && <AccountControl onAccount={onAccount} />}{!hideNavigation && <button className="menu-button" aria-label="Abrir menu" onClick={() => setMenuOpen?.(!menuOpen)}><Menu size={22} /></button>}</div></header>
 }
 
 function EnemCard({ catalog, year, setYear, discipline, setDiscipline, language, setLanguage, onStart, loading, error }) {

@@ -3,11 +3,11 @@ import { useAuth } from './Auth'
 import { supabase } from './lib/supabase'
 import { attemptPayload, saveAttempt } from './lib/studyHistory'
 
-export function SaveResult({ session, questions, answers, title, binary }) {
+export function SaveResult({ session, questions, answers, title, binary, source }) {
   const { user, loading, openAuth } = useAuth()
   const [status, setStatus] = useState('')
   const [retry, setRetry] = useState(0)
-  const payload = useMemo(() => attemptPayload({ session, questions, answers, title, binary, userId: user?.id }), [session, questions, answers, title, binary, user?.id])
+  const payload = useMemo(() => attemptPayload({ session, questions, answers, title, binary, userId: user?.id, source }), [session, questions, answers, title, binary, user?.id, source])
   useEffect(() => {
     let alive = true
     setStatus('')
