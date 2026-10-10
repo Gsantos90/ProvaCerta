@@ -2,6 +2,7 @@ import React, { useEffect, useMemo, useState } from 'react'
 import { useAuth } from './Auth'
 import { supabase } from './lib/supabase'
 import { attemptPayload, saveAttempt } from './lib/studyHistory'
+import { safeWebUrl, supportImageUrls } from './lib/safeUrls'
 
 export function SaveResult({ session, questions, answers, title, binary, source }) {
   const { user, loading, openAuth } = useAuth()
@@ -36,12 +37,7 @@ export function SaveResult({ session, questions, answers, title, binary, source 
 }
 
 function SupportImages({ value }) {
-  let images = value
-  if (typeof images === 'string') {
-    try { images = JSON.parse(images) } catch { images = images.split(',').map(url => url.trim()) }
-  }
-  if (!Array.isArray(images)) images = images ? [images] : []
-  return images.filter(url => typeof url === 'string' && (/^https?:\/\//.test(url) || url.startsWith('/'))).map((url, i) => <img key={i} src={url} alt={`Imagem de apoio ${i + 1}`} loading="lazy" />)
+  return supportImageUrls(value).map((url, i) => <img key={i} src={url} alt={`Imagem de apoio ${i + 1}`} loading="lazy" />)
 }
 
 export default function StudyAccount({ initialTab = 'history', onBack }) {
@@ -62,7 +58,7 @@ export default function StudyAccount({ initialTab = 'history', onBack }) {
     return () => { alive = false }
   }, [user?.id, page, retry])
   const rows = result.owner === user?.id ? result.rows : []
-  const mistakes = rows.flatMap(attempt => attempt.mistakes.filter(q => q && typeof q.text === 'string' && typeof q.answer === 'string' && Array.isArray(q.options) && q.options.every(option => typeof option === 'string')).map(q => ({ ...q, attemptId: attempt.id, title: attempt.exam_title, date: attempt.completed_at })))
+  const mistakes = rows.flatMap(attempt => (Array.isArray(attempt.mistakes) ? attempt.mistakes : []).filter(q => q && typeof q.text === 'string' && typeof q.answer === 'string' && Array.isArray(q.options) && q.options.every(option => typeof option === 'string')).map(q => ({ ...q, sourceUrl: safeWebUrl(q.sourceUrl), attemptId: attempt.id, title: attempt.exam_title, date: attempt.completed_at })))
   return <main className="study-account">
     <button className="account-back" onClick={onBack}>← Voltar às provas</button>
     <h1>Seu espaço de estudo</h1><p>Consulte suas tentativas e revise o que precisa de atenção.</p>

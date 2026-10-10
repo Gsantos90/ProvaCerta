@@ -1,3 +1,5 @@
+import { safeWebUrl } from './safeUrls.js'
+
 // Curadoria por prova e número: não infere o assunto a partir de palavras soltas.
 export const studyTopics = [
   {
@@ -103,7 +105,7 @@ export function reviewGroups(rows) {
       group.count++
       group.latest = group.latest > attempt.completed_at ? group.latest : attempt.completed_at
       const identity = question.questionId || `${question.examSlug || attempt.exam_title}:${question.number || question.position}:${question.text}`
-      if (!group.questions.some(item => item.identity === identity)) group.questions.push({ identity, ...question, examTitle: question.examTitle || attempt.exam_title })
+      if (!group.questions.some(item => item.identity === identity)) group.questions.push({ identity, ...question, sourceUrl: safeWebUrl(question.sourceUrl), examTitle: question.examTitle || attempt.exam_title })
     }
   }
   return [...groups.values()].sort((a, b) => b.count - a.count || b.latest.localeCompare(a.latest))

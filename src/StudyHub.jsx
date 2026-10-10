@@ -80,7 +80,7 @@ export default function StudyHub({ onBack, onStart, tab = 'questions', onTabChan
       </div>
       <article className="study-topic study-selected-topic">
         <div className={`study-topic-cover ${practiceTopic.color}`}><span>{practiceTopic.subject}</span><h3>{practiceTopic.title}</h3><PracticeIcon aria-hidden="true" /></div>
-        <div className="study-topic-body"><p>{practiceTopic.description}</p><span>{practiceTopic.authoredCount} questões autorais · 10 por rodada</span><p>Questões sorteadas a cada prática, sem repetir as da rodada anterior.</p><button className="button primary full" disabled={Boolean(practice.loading)} onClick={() => start(practiceTopic, undefined, true)}>{practice.loading === practiceTopic.id ? 'Carregando questões…' : 'Praticar assunto'}<ArrowRight size={17} /></button><button className="study-text-button" onClick={() => openSummary(practiceTopic)}>Ler resumo primeiro</button></div>
+        <div className="study-topic-body"><p>{practiceTopic.description}</p><button className="button primary full" disabled={Boolean(practice.loading)} onClick={() => start(practiceTopic, undefined, true)}>{practice.loading === practiceTopic.id ? 'Carregando questões…' : 'Praticar assunto'}<ArrowRight size={17} /></button><button className="study-text-button" onClick={() => openSummary(practiceTopic)}>Ler resumo primeiro</button></div>
       </article>
     </section>
     <section id={`${id}-summaries`} role="tabpanel" aria-labelledby={`${id}-tab-summaries`} hidden={tab !== 'summaries'}>

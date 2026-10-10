@@ -41,9 +41,9 @@ assert.ok(sql.trim().endsWith('commit;'))
 assert.ok(sql.includes('on conflict (exam_id,number) do update'))
 
 // Renderiza o card para detectar falhas que a compilação JSX sozinha não captura.
-const main = readFileSync(new URL('../src/main.jsx', import.meta.url), 'utf8')
-const cardSource = main.slice(main.indexOf('function InssCard('), main.indexOf('function CaixaCard('))
-const cardCode = transformSync(cardSource, { loader: 'jsx', format: 'cjs' }).code
+const main = readFileSync(new URL('../src/ExamCards.jsx', import.meta.url), 'utf8')
+const cardSource = main.slice(main.indexOf('export function InssCard('), main.indexOf('export function CaixaCard('))
+const cardCode = transformSync(cardSource.replace('export function ', 'function '), { loader: 'jsx', format: 'cjs' }).code
 const Card = new Function('React', 'ArrowRight', 'ChevronDown', cardCode + '\nreturn InssCard')(React, ArrowRight, ChevronDown)
 const ready = renderToStaticMarkup(React.createElement(Card, { onStart() {}, loading: false, error: '' }))
 assert.ok(ready.includes('INSS') && ready.includes('2022') && ready.includes('120 itens') && ready.includes('Começar prova'))

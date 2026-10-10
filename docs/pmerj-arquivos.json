@@ -1,0 +1,638 @@
+[
+  {
+    "slug": "pmerj-2010-soldado",
+    "role": "Soldado",
+    "title": "PMERJ 2010 — Soldado Policial Militar",
+    "year": "2010",
+    "files": [
+      "https://arquivos.qconcursos.com/prova/arquivo_prova/31964/crsp-pmrj-2010-pm-rj-soldado-da-policia-militar-prova.pdf",
+      "https://arquivos.qconcursos.com/prova/arquivo_gabarito/31964/crsp-pmrj-2010-pm-rj-soldado-da-policia-militar-gabarito.pdf"
+    ],
+    "question_count": 40,
+    "explanations": "Published answer key comments; not official worked solutions."
+  },
+  {
+    "slug": "pmerj-2017-oficial",
+    "role": "Oficial",
+    "title": "PMERJ 2017 — Oficial Policial Militar — QOPM Masculino",
+    "year": "2017",
+    "files": [
+      "https://arquivos.qconcursos.com/prova/arquivo_prova/52755/ibade-2017-pm-rj-aspirante-da-policia-militar-prova.pdf",
+      "https://arquivos.qconcursos.com/prova/arquivo_gabarito/52755/ibade-2017-pm-rj-aspirante-da-policia-militar-gabarito.pdf"
+    ],
+    "question_count": 60,
+    "explanations": "Published answer key comments; not official worked solutions."
+  },
+  {
+    "slug": "pmerj-2019-oficial",
+    "role": "Oficial",
+    "title": "PMERJ 2019 — Oficial Policial Militar — QOPM",
+    "year": "2019",
+    "files": [
+      "https://arquivos.qconcursos.com/prova/arquivo_prova/60243/ibade-2019-pm-rj-aspirante-da-policia-militar-prova.pdf",
+      "https://arquivos.qconcursos.com/prova/arquivo_gabarito/60243/ibade-2019-pm-rj-aspirante-da-policia-militar-gabarito.pdf"
+    ],
+    "question_count": 60,
+    "explanations": "Published answer key comments; not official worked solutions."
+  },
+  {
+    "slug": "pmerj-2010-enfermagem-geral",
+    "role": "Enfermagem Geral",
+    "title": "PMERJ 2010 — Oficial de Saúde — Enfermagem Geral",
+    "year": "2010",
+    "files": [
+      "https://arquivos.qconcursos.com/prova/arquivo_prova/8558/crsp-pmrj-2010-pm-rj-1-tenente-enfermagem-geral-prova.pdf",
+      "https://arquivos.qconcursos.com/prova/arquivo_gabarito/8558/crsp-pmrj-2010-pm-rj-1-tenente-enfermagem-geral-gabarito.pdf"
+    ],
+    "question_count": 50,
+    "explanations": "Published answer key comments; not official worked solutions."
+  },
+  {
+    "slug": "pmerj-2010-odontologia-protese-dental",
+    "role": "Odontologia Prótese Dental",
+    "title": "PMERJ 2010 — Oficial — Odontologia Prótese Dental",
+    "year": "2010",
+    "files": [
+      "https://arquivos.qconcursos.com/prova/arquivo_prova/8906/crsp-pmrj-2010-pm-rj-1-tenente-odontologia-protese-dental-prova.pdf",
+      "https://arquivos.qconcursos.com/prova/arquivo_gabarito/8906/crsp-pmrj-2010-pm-rj-1-tenente-odontologia-protese-dental-gabarito.pdf"
+    ],
+    "question_count": 50,
+    "explanations": "Published answer key comments; not official worked solutions."
+  },
+  {
+    "slug": "pmerj-2010-psicologia",
+    "role": "Psicologia",
+    "title": "PMERJ 2010 — Oficial — Psicologia",
+    "year": "2010",
+    "files": [
+      "https://arquivos.qconcursos.com/prova/arquivo_prova/8907/crsp-pmrj-2010-pm-rj-1-tenente-psicologia-prova.pdf",
+      "https://arquivos.qconcursos.com/prova/arquivo_gabarito/8907/crsp-pmrj-2010-pm-rj-1-tenente-psicologia-gabarito.pdf"
+    ],
+    "question_count": 50,
+    "explanations": "Published answer key comments; not official worked solutions."
+  },
+  {
+    "slug": "pmerj-2010-medico-psiquiatria",
+    "role": "Médico Psiquiatria",
+    "title": "PMERJ 2010 — Oficial — Médico Psiquiatria",
+    "year": "2010",
+    "files": [
+      "https://arquivos.qconcursos.com/prova/arquivo_prova/8908/crsp-pmrj-2010-pm-rj-1-tenente-medico-psiquiatria-prova.pdf",
+      "https://arquivos.qconcursos.com/prova/arquivo_gabarito/8908/crsp-pmrj-2010-pm-rj-1-tenente-medico-psiquiatria-gabarito.pdf"
+    ],
+    "question_count": 50,
+    "explanations": "Published answer key comments; not official worked solutions."
+  },
+  {
+    "slug": "pmerj-2010-medico-radiologia",
+    "role": "Médico Radiologia",
+    "title": "PMERJ 2010 — Oficial — Médico Radiologia",
+    "year": "2010",
+    "files": [
+      "https://arquivos.qconcursos.com/prova/arquivo_prova/8909/crsp-pmrj-2010-pm-rj-1-tenente-medico-radiologia-prova.pdf",
+      "https://arquivos.qconcursos.com/prova/arquivo_gabarito/8909/crsp-pmrj-2010-pm-rj-1-tenente-medico-radiologia-gabarito.pdf"
+    ],
+    "question_count": 50,
+    "explanations": "Published answer key comments; not official worked solutions."
+  },
+  {
+    "slug": "pmerj-2010-medico-reumatologia",
+    "role": "Médico Reumatologia",
+    "title": "PMERJ 2010 — Oficial — Médico Reumatologia",
+    "year": "2010",
+    "files": [
+      "https://arquivos.qconcursos.com/prova/arquivo_prova/8910/crsp-pmrj-2010-pm-rj-1-tenente-medico-reumatologia-prova.pdf",
+      "https://arquivos.qconcursos.com/prova/arquivo_gabarito/8910/crsp-pmrj-2010-pm-rj-1-tenente-medico-reumatologia-gabarito.pdf"
+    ],
+    "question_count": 50,
+    "explanations": "Published answer key comments; not official worked solutions."
+  },
+  {
+    "slug": "pmerj-2010-assistente-social",
+    "role": "Assistente Social",
+    "title": "PMERJ 2010 — Oficial — Assistente Social",
+    "year": "2010",
+    "files": [
+      "https://arquivos.qconcursos.com/prova/arquivo_prova/8911/crsp-pmrj-2010-pm-rj-1-tenente-assistente-social-prova.pdf",
+      "https://arquivos.qconcursos.com/prova/arquivo_gabarito/8911/crsp-pmrj-2010-pm-rj-1-tenente-assistente-social-gabarito.pdf"
+    ],
+    "question_count": 50,
+    "explanations": "Published answer key comments; not official worked solutions."
+  },
+  {
+    "slug": "pmerj-2010-enfermagem-terapia-intensiva-de-adulto",
+    "role": "Enfermagem Terapia Intensiva De Adulto",
+    "title": "PMERJ 2010 — Oficial — Enfermagem Terapia Intensiva De Adulto",
+    "year": "2010",
+    "files": [
+      "https://arquivos.qconcursos.com/prova/arquivo_prova/8912/crsp-pmrj-2010-pm-rj-1-tenente-enfermagem-terapia-intensiva-de-adulto-prova.pdf",
+      "https://arquivos.qconcursos.com/prova/arquivo_gabarito/8912/crsp-pmrj-2010-pm-rj-1-tenente-enfermagem-terapia-intensiva-de-adulto-gabarito.pdf"
+    ],
+    "question_count": 50,
+    "explanations": "Published answer key comments; not official worked solutions."
+  },
+  {
+    "slug": "pmerj-2010-enfermagem-terapia-intensiva-neonatal",
+    "role": "Enfermagem Terapia Intensiva Neonatal",
+    "title": "PMERJ 2010 — Oficial — Enfermagem Terapia Intensiva Neonatal",
+    "year": "2010",
+    "files": [
+      "https://arquivos.qconcursos.com/prova/arquivo_prova/8913/crsp-pmrj-2010-pm-rj-1-tenente-enfermagem-terapia-intensiva-neonatal-prova.pdf",
+      "https://arquivos.qconcursos.com/prova/arquivo_gabarito/8913/crsp-pmrj-2010-pm-rj-1-tenente-enfermagem-terapia-intensiva-neonatal-gabarito.pdf"
+    ],
+    "question_count": 50,
+    "explanations": "Published answer key comments; not official worked solutions."
+  },
+  {
+    "slug": "pmerj-2010-medico-urologia",
+    "role": "Médico Urologia",
+    "title": "PMERJ 2010 — Oficial — Médico Urologia",
+    "year": "2010",
+    "files": [
+      "https://arquivos.qconcursos.com/prova/arquivo_prova/8914/crsp-pmrj-2010-pm-rj-1-tenente-medico-urologia-prova.pdf",
+      "https://arquivos.qconcursos.com/prova/arquivo_gabarito/8914/crsp-pmrj-2010-pm-rj-1-tenente-medico-urologia-gabarito.pdf"
+    ],
+    "question_count": 50,
+    "explanations": "Published answer key comments; not official worked solutions."
+  },
+  {
+    "slug": "pmerj-2010-medico-dermatologia",
+    "role": "Médico Dermatologia",
+    "title": "PMERJ 2010 — Oficial — Médico Dermatologia",
+    "year": "2010",
+    "files": [
+      "https://arquivos.qconcursos.com/prova/arquivo_prova/8554/crsp-pmrj-2010-pm-rj-1-tenente-medico-dermatologia-prova.pdf",
+      "https://arquivos.qconcursos.com/prova/arquivo_gabarito/8554/crsp-pmrj-2010-pm-rj-1-tenente-medico-dermatologia-gabarito.pdf"
+    ],
+    "question_count": 50,
+    "explanations": "Published answer key comments; not official worked solutions."
+  },
+  {
+    "slug": "pmerj-2010-medico-endocrinologia",
+    "role": "Médico Endocrinologia",
+    "title": "PMERJ 2010 — Oficial — Médico Endocrinologia",
+    "year": "2010",
+    "files": [
+      "https://arquivos.qconcursos.com/prova/arquivo_prova/8555/crsp-pmrj-2010-pm-rj-1-tenente-medico-endocrinologia-prova.pdf",
+      "https://arquivos.qconcursos.com/prova/arquivo_gabarito/8555/crsp-pmrj-2010-pm-rj-1-tenente-medico-endocrinologia-gabarito.pdf"
+    ],
+    "question_count": 50,
+    "explanations": "Published answer key comments; not official worked solutions."
+  },
+  {
+    "slug": "pmerj-2010-odontologia-endodontia",
+    "role": "Odontologia Endodontia",
+    "title": "PMERJ 2010 — Oficial — Odontologia Endodontia",
+    "year": "2010",
+    "files": [
+      "https://arquivos.qconcursos.com/prova/arquivo_prova/8556/crsp-pmrj-2010-pm-rj-1-tenente-odontologia-endodontia-prova.pdf",
+      "https://arquivos.qconcursos.com/prova/arquivo_gabarito/8556/crsp-pmrj-2010-pm-rj-1-tenente-odontologia-endodontia-gabarito.pdf"
+    ],
+    "question_count": 50,
+    "explanations": "Published answer key comments; not official worked solutions."
+  },
+  {
+    "slug": "pmerj-2010-medico-endoscopia-digestiva",
+    "role": "Médico Endoscopia Digestiva",
+    "title": "PMERJ 2010 — Oficial — Médico Endoscopia Digestiva",
+    "year": "2010",
+    "files": [
+      "https://arquivos.qconcursos.com/prova/arquivo_prova/8557/crsp-pmrj-2010-pm-rj-1-tenente-medico-endoscopia-digestiva-prova.pdf",
+      "https://arquivos.qconcursos.com/prova/arquivo_gabarito/8557/crsp-pmrj-2010-pm-rj-1-tenente-medico-endoscopia-digestiva-gabarito.pdf"
+    ],
+    "question_count": 50,
+    "explanations": "Published answer key comments; not official worked solutions."
+  },
+  {
+    "slug": "pmerj-2010-farmacia-bioquimica",
+    "role": "Farmácia Bioquímica",
+    "title": "PMERJ 2010 — Oficial — Farmácia Bioquímica",
+    "year": "2010",
+    "files": [
+      "https://arquivos.qconcursos.com/prova/arquivo_prova/8559/crsp-pmrj-2010-pm-rj-1-tenente-farmacia-bioquimica-prova.pdf",
+      "https://arquivos.qconcursos.com/prova/arquivo_gabarito/8559/crsp-pmrj-2010-pm-rj-1-tenente-farmacia-bioquimica-gabarito.pdf"
+    ],
+    "question_count": 50,
+    "explanations": "Published answer key comments; not official worked solutions."
+  },
+  {
+    "slug": "pmerj-2010-farmacia-hospitalar",
+    "role": "Farmácia Hospitalar",
+    "title": "PMERJ 2010 — Oficial — Farmácia Hospitalar",
+    "year": "2010",
+    "files": [
+      "https://arquivos.qconcursos.com/prova/arquivo_prova/8560/crsp-pmrj-2010-pm-rj-1-tenente-farmacia-hospitalar-prova.pdf",
+      "https://arquivos.qconcursos.com/prova/arquivo_gabarito/8560/crsp-pmrj-2010-pm-rj-1-tenente-farmacia-hospitalar-gabarito.pdf"
+    ],
+    "question_count": 50,
+    "explanations": "Published answer key comments; not official worked solutions."
+  },
+  {
+    "slug": "pmerj-2010-farmacia-industrial",
+    "role": "Farmácia Industrial",
+    "title": "PMERJ 2010 — Oficial — Farmácia Industrial",
+    "year": "2010",
+    "files": [
+      "https://arquivos.qconcursos.com/prova/arquivo_prova/8561/crsp-pmrj-2010-pm-rj-1-tenente-farmacia-industrial-prova.pdf",
+      "https://arquivos.qconcursos.com/prova/arquivo_gabarito/8561/crsp-pmrj-2010-pm-rj-1-tenente-farmacia-industrial-gabarito.pdf"
+    ],
+    "question_count": 50,
+    "explanations": "Published answer key comments; not official worked solutions."
+  },
+  {
+    "slug": "pmerj-2010-medico-fisiatria",
+    "role": "Médico Fisiatria",
+    "title": "PMERJ 2010 — Oficial — Médico Fisiatria",
+    "year": "2010",
+    "files": [
+      "https://arquivos.qconcursos.com/prova/arquivo_prova/8562/crsp-pmrj-2010-pm-rj-1-tenente-medico-fisiatria-prova.pdf",
+      "https://arquivos.qconcursos.com/prova/arquivo_gabarito/8562/crsp-pmrj-2010-pm-rj-1-tenente-medico-fisiatria-gabarito.pdf"
+    ],
+    "question_count": 50,
+    "explanations": "Published answer key comments; not official worked solutions."
+  },
+  {
+    "slug": "pmerj-2010-fisioterapia-cardiopulmonar",
+    "role": "Fisioterapia Cardiopulmonar",
+    "title": "PMERJ 2010 — Oficial — Fisioterapia Cardiopulmonar",
+    "year": "2010",
+    "files": [
+      "https://arquivos.qconcursos.com/prova/arquivo_prova/8563/crsp-pmrj-2010-pm-rj-1-tenente-fisioterapia-cardiopulmonar-prova.pdf",
+      "https://arquivos.qconcursos.com/prova/arquivo_gabarito/8563/crsp-pmrj-2010-pm-rj-1-tenente-fisioterapia-cardiopulmonar-gabarito.pdf"
+    ],
+    "question_count": 50,
+    "explanations": "Published answer key comments; not official worked solutions."
+  },
+  {
+    "slug": "pmerj-2010-fisioterapia-neurologica",
+    "role": "Fisioterapia Neurológica",
+    "title": "PMERJ 2010 — Oficial — Fisioterapia Neurológica",
+    "year": "2010",
+    "files": [
+      "https://arquivos.qconcursos.com/prova/arquivo_prova/8564/crsp-pmrj-2010-pm-rj-1-tenente-fisioterapia-neurologica-prova.pdf",
+      "https://arquivos.qconcursos.com/prova/arquivo_gabarito/8564/crsp-pmrj-2010-pm-rj-1-tenente-fisioterapia-neurologica-gabarito.pdf"
+    ],
+    "question_count": 50,
+    "explanations": "Published answer key comments; not official worked solutions."
+  },
+  {
+    "slug": "pmerj-2010-fisioterapia-pediatrica-neonatal",
+    "role": "Fisioterapia Pediátrica Neonatal",
+    "title": "PMERJ 2010 — Oficial — Fisioterapia Pediátrica Neonatal",
+    "year": "2010",
+    "files": [
+      "https://arquivos.qconcursos.com/prova/arquivo_prova/8565/crsp-pmrj-2010-pm-rj-1-tenente-fisioterapia-pediatrica-neonatal-prova.pdf",
+      "https://arquivos.qconcursos.com/prova/arquivo_gabarito/8565/crsp-pmrj-2010-pm-rj-1-tenente-fisioterapia-pediatrica-neonatal-gabarito.pdf"
+    ],
+    "question_count": 50,
+    "explanations": "Published answer key comments; not official worked solutions."
+  },
+  {
+    "slug": "pmerj-2010-fisioterapia-traumato-ortopedia",
+    "role": "Fisioterapia Traumato Ortopedia",
+    "title": "PMERJ 2010 — Oficial — Fisioterapia Traumato Ortopedia",
+    "year": "2010",
+    "files": [
+      "https://arquivos.qconcursos.com/prova/arquivo_prova/8566/crsp-pmrj-2010-pm-rj-1-tenente-fisioterapia-traumato-ortopedia-prova.pdf",
+      "https://arquivos.qconcursos.com/prova/arquivo_gabarito/8566/crsp-pmrj-2010-pm-rj-1-tenente-fisioterapia-traumato-ortopedia-gabarito.pdf"
+    ],
+    "question_count": 50,
+    "explanations": "Published answer key comments; not official worked solutions."
+  },
+  {
+    "slug": "pmerj-2010-fonoaudiologia",
+    "role": "Fonoaudiologia",
+    "title": "PMERJ 2010 — Oficial — Fonoaudiologia",
+    "year": "2010",
+    "files": [
+      "https://arquivos.qconcursos.com/prova/arquivo_prova/8567/crsp-pmrj-2010-pm-rj-1-tenente-fonoaudiologia-prova.pdf",
+      "https://arquivos.qconcursos.com/prova/arquivo_gabarito/8567/crsp-pmrj-2010-pm-rj-1-tenente-fonoaudiologia-gabarito.pdf"
+    ],
+    "question_count": 50,
+    "explanations": "Published answer key comments; not official worked solutions."
+  },
+  {
+    "slug": "pmerj-2010-medico-gastroenterologia",
+    "role": "Médico Gastroenterologia",
+    "title": "PMERJ 2010 — Oficial — Médico Gastroenterologia",
+    "year": "2010",
+    "files": [
+      "https://arquivos.qconcursos.com/prova/arquivo_prova/8568/crsp-pmrj-2010-pm-rj-1-tenente-medico-gastroenterologia-prova.pdf",
+      "https://arquivos.qconcursos.com/prova/arquivo_gabarito/8568/crsp-pmrj-2010-pm-rj-1-tenente-medico-gastroenterologia-gabarito.pdf"
+    ],
+    "question_count": 50,
+    "explanations": "Published answer key comments; not official worked solutions."
+  },
+  {
+    "slug": "pmerj-2010-medico-ginecologia",
+    "role": "Médico Ginecologia",
+    "title": "PMERJ 2010 — Oficial — Médico Ginecologia",
+    "year": "2010",
+    "files": [
+      "https://arquivos.qconcursos.com/prova/arquivo_prova/8569/crsp-pmrj-2010-pm-rj-1-tenente-medico-ginecologia-prova.pdf",
+      "https://arquivos.qconcursos.com/prova/arquivo_gabarito/8569/crsp-pmrj-2010-pm-rj-1-tenente-medico-ginecologia-gabarito.pdf"
+    ],
+    "question_count": 50,
+    "explanations": "Published answer key comments; not official worked solutions."
+  },
+  {
+    "slug": "pmerj-2010-medico-hematologia",
+    "role": "Médico Hematologia",
+    "title": "PMERJ 2010 — Oficial — Médico Hematologia",
+    "year": "2010",
+    "files": [
+      "https://arquivos.qconcursos.com/prova/arquivo_prova/8570/crsp-pmrj-2010-pm-rj-1-tenente-medico-hematologia-prova.pdf",
+      "https://arquivos.qconcursos.com/prova/arquivo_gabarito/8570/crsp-pmrj-2010-pm-rj-1-tenente-medico-hematologia-gabarito.pdf"
+    ],
+    "question_count": 50,
+    "explanations": "Published answer key comments; not official worked solutions."
+  },
+  {
+    "slug": "pmerj-2010-medico-hemodinamica",
+    "role": "Médico Hemodinâmica",
+    "title": "PMERJ 2010 — Oficial — Médico Hemodinâmica",
+    "year": "2010",
+    "files": [
+      "https://arquivos.qconcursos.com/prova/arquivo_prova/8571/crsp-pmrj-2010-pm-rj-1-tenente-medico-hemodinamica-prova.pdf",
+      "https://arquivos.qconcursos.com/prova/arquivo_gabarito/8571/crsp-pmrj-2010-pm-rj-1-tenente-medico-hemodinamica-gabarito.pdf"
+    ],
+    "question_count": 50,
+    "explanations": "Published answer key comments; not official worked solutions."
+  },
+  {
+    "slug": "pmerj-2010-medico-hemoterapia",
+    "role": "Médico Hemoterapia",
+    "title": "PMERJ 2010 — Oficial — Médico Hemoterapia",
+    "year": "2010",
+    "files": [
+      "https://arquivos.qconcursos.com/prova/arquivo_prova/8572/crsp-pmrj-2010-pm-rj-1-tenente-medico-hemoterapia-prova.pdf",
+      "https://arquivos.qconcursos.com/prova/arquivo_gabarito/8572/crsp-pmrj-2010-pm-rj-1-tenente-medico-hemoterapia-gabarito.pdf"
+    ],
+    "question_count": 50,
+    "explanations": "Published answer key comments; not official worked solutions."
+  },
+  {
+    "slug": "pmerj-2010-medico-infectologia",
+    "role": "Médico Infectologia",
+    "title": "PMERJ 2010 — Oficial — Médico Infectologia",
+    "year": "2010",
+    "files": [
+      "https://arquivos.qconcursos.com/prova/arquivo_prova/8573/crsp-pmrj-2010-pm-rj-1-tenente-medico-infectologia-prova.pdf",
+      "https://arquivos.qconcursos.com/prova/arquivo_gabarito/8573/crsp-pmrj-2010-pm-rj-1-tenente-medico-infectologia-gabarito.pdf"
+    ],
+    "question_count": 50,
+    "explanations": "Published answer key comments; not official worked solutions."
+  },
+  {
+    "slug": "pmerj-2010-medico-mastologia",
+    "role": "Médico Mastologia",
+    "title": "PMERJ 2010 — Oficial — Médico Mastologia",
+    "year": "2010",
+    "files": [
+      "https://arquivos.qconcursos.com/prova/arquivo_prova/8574/crsp-pmrj-2010-pm-rj-1-tenente-medico-mastologia-prova.pdf",
+      "https://arquivos.qconcursos.com/prova/arquivo_gabarito/8574/crsp-pmrj-2010-pm-rj-1-tenente-medico-mastologia-gabarito.pdf"
+    ],
+    "question_count": 50,
+    "explanations": "Published answer key comments; not official worked solutions."
+  },
+  {
+    "slug": "pmerj-2010-medico-nefrologia",
+    "role": "Médico Nefrologia",
+    "title": "PMERJ 2010 — Oficial — Médico Nefrologia",
+    "year": "2010",
+    "files": [
+      "https://arquivos.qconcursos.com/prova/arquivo_prova/8575/crsp-pmrj-2010-pm-rj-1-tenente-medico-nefrologia-prova.pdf",
+      "https://arquivos.qconcursos.com/prova/arquivo_gabarito/8575/crsp-pmrj-2010-pm-rj-1-tenente-medico-nefrologia-gabarito.pdf"
+    ],
+    "question_count": 50,
+    "explanations": "Published answer key comments; not official worked solutions."
+  },
+  {
+    "slug": "pmerj-2010-medico-neurocirurgia",
+    "role": "Médico Neurocirurgia",
+    "title": "PMERJ 2010 — Oficial — Médico Neurocirurgia",
+    "year": "2010",
+    "files": [
+      "https://arquivos.qconcursos.com/prova/arquivo_prova/8576/crsp-pmrj-2010-pm-rj-1-tenente-medico-neurocirurgia-prova.pdf",
+      "https://arquivos.qconcursos.com/prova/arquivo_gabarito/8576/crsp-pmrj-2010-pm-rj-1-tenente-medico-neurocirurgia-gabarito.pdf"
+    ],
+    "question_count": 50,
+    "explanations": "Published answer key comments; not official worked solutions."
+  },
+  {
+    "slug": "pmerj-2010-medico-neurologia",
+    "role": "Médico Neurologia",
+    "title": "PMERJ 2010 — Oficial — Médico Neurologia",
+    "year": "2010",
+    "files": [
+      "https://arquivos.qconcursos.com/prova/arquivo_prova/8577/crsp-pmrj-2010-pm-rj-1-tenente-medico-neurologia-prova.pdf",
+      "https://arquivos.qconcursos.com/prova/arquivo_gabarito/8577/crsp-pmrj-2010-pm-rj-1-tenente-medico-neurologia-gabarito.pdf"
+    ],
+    "question_count": 50,
+    "explanations": "Published answer key comments; not official worked solutions."
+  },
+  {
+    "slug": "pmerj-2010-medico-neurologia-pediatrica",
+    "role": "Médico Neurologia Pediátrica",
+    "title": "PMERJ 2010 — Oficial — Médico Neurologia Pediátrica",
+    "year": "2010",
+    "files": [
+      "https://arquivos.qconcursos.com/prova/arquivo_prova/8578/crsp-pmrj-2010-pm-rj-1-tenente-medico-neurologia-pediatrica-prova.pdf",
+      "https://arquivos.qconcursos.com/prova/arquivo_gabarito/8578/crsp-pmrj-2010-pm-rj-1-tenente-medico-neurologia-pediatrica-gabarito.pdf"
+    ],
+    "question_count": 50,
+    "explanations": "Published answer key comments; not official worked solutions."
+  },
+  {
+    "slug": "pmerj-2010-medico-obstetricia",
+    "role": "Médico Obstetrícia",
+    "title": "PMERJ 2010 — Oficial — Médico Obstetrícia",
+    "year": "2010",
+    "files": [
+      "https://arquivos.qconcursos.com/prova/arquivo_prova/8580/crsp-pmrj-2010-pm-rj-1-tenente-medico-obstetricia-prova.pdf",
+      "https://arquivos.qconcursos.com/prova/arquivo_gabarito/8580/crsp-pmrj-2010-pm-rj-1-tenente-medico-obstetricia-gabarito.pdf"
+    ],
+    "question_count": 50,
+    "explanations": "Published answer key comments; not official worked solutions."
+  },
+  {
+    "slug": "pmerj-2010-odontologia-clinica-geral",
+    "role": "Odontologia Clínica Geral",
+    "title": "PMERJ 2010 — Oficial — Odontologia Clínica Geral",
+    "year": "2010",
+    "files": [
+      "https://arquivos.qconcursos.com/prova/arquivo_prova/8581/crsp-pmrj-2010-pm-rj-1-tenente-odontologia-clinica-geral-prova.pdf",
+      "https://arquivos.qconcursos.com/prova/arquivo_gabarito/8581/crsp-pmrj-2010-pm-rj-1-tenente-odontologia-clinica-geral-gabarito.pdf"
+    ],
+    "question_count": 50,
+    "explanations": "Published answer key comments; not official worked solutions."
+  },
+  {
+    "slug": "pmerj-2010-medico-oftalmologia",
+    "role": "Médico Oftalmologia",
+    "title": "PMERJ 2010 — Oficial — Médico Oftalmologia",
+    "year": "2010",
+    "files": [
+      "https://arquivos.qconcursos.com/prova/arquivo_prova/8582/crsp-pmrj-2010-pm-rj-1-tenente-medico-oftalmologia-prova.pdf",
+      "https://arquivos.qconcursos.com/prova/arquivo_gabarito/8582/crsp-pmrj-2010-pm-rj-1-tenente-medico-oftalmologia-gabarito.pdf"
+    ],
+    "question_count": 50,
+    "explanations": "Published answer key comments; not official worked solutions."
+  },
+  {
+    "slug": "pmerj-2010-odontologia-ortodontia",
+    "role": "Odontologia Ortodontia",
+    "title": "PMERJ 2010 — Oficial — Odontologia Ortodontia",
+    "year": "2010",
+    "files": [
+      "https://arquivos.qconcursos.com/prova/arquivo_prova/8584/crsp-pmrj-2010-pm-rj-1-tenente-odontologia-ortodontia-prova.pdf",
+      "https://arquivos.qconcursos.com/prova/arquivo_gabarito/8584/crsp-pmrj-2010-pm-rj-1-tenente-odontologia-ortodontia-gabarito.pdf"
+    ],
+    "question_count": 50,
+    "explanations": "Published answer key comments; not official worked solutions."
+  },
+  {
+    "slug": "pmerj-2010-medico-ortopedia",
+    "role": "Médico Ortopedia",
+    "title": "PMERJ 2010 — Oficial — Médico Ortopedia",
+    "year": "2010",
+    "files": [
+      "https://arquivos.qconcursos.com/prova/arquivo_prova/8585/crsp-pmrj-2010-pm-rj-1-tenente-medico-ortopedia-prova.pdf",
+      "https://arquivos.qconcursos.com/prova/arquivo_gabarito/8585/crsp-pmrj-2010-pm-rj-1-tenente-medico-ortopedia-gabarito.pdf"
+    ],
+    "question_count": 50,
+    "explanations": "Published answer key comments; not official worked solutions."
+  },
+  {
+    "slug": "pmerj-2010-medico-otorrinolaringologia",
+    "role": "Médico Otorrinolaringologia",
+    "title": "PMERJ 2010 — Oficial — Médico Otorrinolaringologia",
+    "year": "2010",
+    "files": [
+      "https://arquivos.qconcursos.com/prova/arquivo_prova/8586/crsp-pmrj-2010-pm-rj-1-tenente-medico-otorrinolaringologia-prova.pdf",
+      "https://arquivos.qconcursos.com/prova/arquivo_gabarito/8586/crsp-pmrj-2010-pm-rj-1-tenente-medico-otorrinolaringologia-gabarito.pdf"
+    ],
+    "question_count": 50,
+    "explanations": "Published answer key comments; not official worked solutions."
+  },
+  {
+    "slug": "pmerj-2010-medico-patologia-clinica",
+    "role": "Médico Patologia Clínica",
+    "title": "PMERJ 2010 — Oficial — Médico Patologia Clínica",
+    "year": "2010",
+    "files": [
+      "https://arquivos.qconcursos.com/prova/arquivo_prova/8587/crsp-pmrj-2010-pm-rj-1-tenente-medico-patologia-clinica-prova.pdf",
+      "https://arquivos.qconcursos.com/prova/arquivo_gabarito/8587/crsp-pmrj-2010-pm-rj-1-tenente-medico-patologia-clinica-gabarito.pdf"
+    ],
+    "question_count": 50,
+    "explanations": "Published answer key comments; not official worked solutions."
+  },
+  {
+    "slug": "pmerj-2010-medico-pediatria",
+    "role": "Médico Pediatria",
+    "title": "PMERJ 2010 — Oficial — Médico Pediatria",
+    "year": "2010",
+    "files": [
+      "https://arquivos.qconcursos.com/prova/arquivo_prova/8588/crsp-pmrj-2010-pm-rj-1-tenente-medico-pediatria-prova.pdf",
+      "https://arquivos.qconcursos.com/prova/arquivo_gabarito/8588/crsp-pmrj-2010-pm-rj-1-tenente-medico-pediatria-gabarito.pdf"
+    ],
+    "question_count": 50,
+    "explanations": "Published answer key comments; not official worked solutions."
+  },
+  {
+    "slug": "pmerj-2010-medico-pneumologia",
+    "role": "Médico Pneumologia",
+    "title": "PMERJ 2010 — Oficial — Médico Pneumologia",
+    "year": "2010",
+    "files": [
+      "https://arquivos.qconcursos.com/prova/arquivo_prova/8589/crsp-pmrj-2010-pm-rj-1-tenente-medico-pneumologia-prova.pdf",
+      "https://arquivos.qconcursos.com/prova/arquivo_gabarito/8589/crsp-pmrj-2010-pm-rj-1-tenente-medico-pneumologia-gabarito.pdf"
+    ],
+    "question_count": 50,
+    "explanations": "Published answer key comments; not official worked solutions."
+  },
+  {
+    "slug": "pmerj-2010-pedagogia",
+    "role": "Pedagogia",
+    "title": "PMERJ 2010 — Oficial — Pedagogia",
+    "year": "2010",
+    "files": [
+      "https://arquivos.qconcursos.com/prova/arquivo_prova/8917/crsp-pmrj-2010-pm-rj-1-tenente-pedagogia-prova.pdf",
+      "https://arquivos.qconcursos.com/prova/arquivo_gabarito/8917/crsp-pmrj-2010-pm-rj-1-tenente-pedagogia-gabarito.pdf"
+    ],
+    "question_count": 40,
+    "explanations": "Published answer key comments; not official worked solutions."
+  },
+  {
+    "slug": "pmerj-2014-soldado",
+    "role": "Soldado",
+    "title": "PMERJ 2014 — Soldado Policial Militar — Branca",
+    "year": "2014",
+    "files": [
+      "https://arquivos.qconcursos.com/prova/arquivo_prova/49472/exatus-2014-pm-rj-soldado-da-policia-militar-prova.pdf",
+      "https://arquivos.qconcursos.com/prova/arquivo_gabarito/49472/exatus-2014-pm-rj-soldado-da-policia-militar-gabarito.pdf"
+    ],
+    "question_count": 40,
+    "explanations": "Published answer key comments; not official worked solutions."
+  },
+  {
+    "slug": "pmerj-2009-soldado",
+    "role": "Soldado",
+    "title": "PMERJ 2009 — Soldado Policial Militar — Prova A",
+    "year": "2009",
+    "files": [
+      "https://arquivos.qconcursos.com/prova/arquivo_prova/49471/crsp-pmrj-2009-pm-rj-soldado-da-policia-militar-prova.pdf",
+      "https://arquivos.qconcursos.com/prova/arquivo_gabarito/49471/crsp-pmrj-2009-pm-rj-soldado-da-policia-militar-gabarito.pdf"
+    ],
+    "question_count": 40,
+    "explanations": "Published answer key comments; not official worked solutions."
+  },
+  {
+    "slug": "pmerj-2012-oficial-ingles",
+    "role": "Oficial — Inglês",
+    "title": "PMERJ 2012 — Oficial Policial Militar — Inglês",
+    "year": "2012",
+    "files": [
+      "https://arquivos.qconcursos.com/prova/arquivo_prova/30966/ibfc-2012-pm-rj-aspirante-da-policia-militar-ingles-prova.pdf",
+      "https://arquivos.qconcursos.com/prova/arquivo_gabarito/30966/ibfc-2012-pm-rj-aspirante-da-policia-militar-ingles-gabarito.pdf"
+    ],
+    "question_count": 80,
+    "explanations": "Published answer key comments; not official worked solutions."
+  },
+  {
+    "slug": "pmerj-2014-oficial-espanhol",
+    "role": "Oficial — Espanhol",
+    "title": "PMERJ 2014 — Oficial Policial Militar — Espanhol",
+    "year": "2014",
+    "files": [
+      "https://arquivos.qconcursos.com/prova/arquivo_prova/39534/exatus-2014-pm-rj-aspirante-da-policia-militar-prova.pdf",
+      "https://arquivos.qconcursos.com/prova/arquivo_gabarito/39534/exatus-2014-pm-rj-aspirante-da-policia-militar-gabarito.pdf"
+    ],
+    "question_count": 80,
+    "explanations": "Published answer key comments; not official worked solutions."
+  },
+  {
+    "slug": "pmerj-2014-oficial-frances",
+    "role": "Oficial — Francês",
+    "title": "PMERJ 2014 — Oficial Policial Militar — Francês",
+    "year": "2014",
+    "files": [
+      "https://arquivos.qconcursos.com/prova/arquivo_prova/39534/exatus-2014-pm-rj-aspirante-da-policia-militar-prova.pdf",
+      "https://arquivos.qconcursos.com/prova/arquivo_gabarito/39534/exatus-2014-pm-rj-aspirante-da-policia-militar-gabarito.pdf"
+    ],
+    "question_count": 80,
+    "explanations": "Published answer key comments; not official worked solutions."
+  },
+  {
+    "slug": "pmerj-2014-oficial-ingles",
+    "role": "Oficial — Inglês",
+    "title": "PMERJ 2014 — Oficial Policial Militar — Inglês",
+    "year": "2014",
+    "files": [
+      "https://arquivos.qconcursos.com/prova/arquivo_prova/39534/exatus-2014-pm-rj-aspirante-da-policia-militar-prova.pdf",
+      "https://arquivos.qconcursos.com/prova/arquivo_gabarito/39534/exatus-2014-pm-rj-aspirante-da-policia-militar-gabarito.pdf"
+    ],
+    "question_count": 80,
+    "explanations": "Published answer key comments; not official worked solutions."
+  }
+]
