@@ -1,0 +1,5240 @@
+[
+  {
+    "page": 3,
+    "width": 595,
+    "height": 842,
+    "lines": [
+      {
+        "text": "QUESTÕES OBJETIVAS",
+        "top": 65,
+        "bottom": 73.12,
+        "x0": 207.72,
+        "x1": 387.53,
+        "column": 0
+      },
+      {
+        "text": "FÍSICA",
+        "top": 82.42,
+        "bottom": 94.42,
+        "x0": 281.4,
+        "x1": 312.67,
+        "column": 0
+      },
+      {
+        "text": "Objetivas",
+        "top": 96.76,
+        "bottom": 105.76,
+        "x0": 279.84,
+        "x1": 314.08,
+        "column": 0
+      },
+      {
+        "text": "Questões de 01 a 05",
+        "top": 112.37,
+        "bottom": 123.41,
+        "x0": 251.52,
+        "x1": 343.75,
+        "column": 0
+      },
+      {
+        "text": "QUESTÃO 01 - O campo magnético da Terra protege nosso planeta dos raios cósmicos, permitindo a existência de",
+        "top": 143.93,
+        "bottom": 154.97,
+        "x0": 33.96,
+        "x1": 561.33,
+        "column": 0
+      },
+      {
+        "text": "vida. Contudo, pesquisas recentes mostram a possibilidade de alteração na sua intensidade e mudança na sua",
+        "top": 158.69,
+        "bottom": 169.73,
+        "x0": 33.96,
+        "x1": 561.24,
+        "column": 0
+      },
+      {
+        "text": "orientação no espaço.",
+        "top": 173.45,
+        "bottom": 184.49,
+        "x0": 33.96,
+        "x1": 132.74,
+        "column": 0
+      },
+      {
+        "text": "Em relação à origem mais provável do campo magnético da Terra, temos que ele é produzido",
+        "top": 208.97,
+        "bottom": 220.01,
+        "x0": 33.96,
+        "x1": 450.77,
+        "column": 0
+      },
+      {
+        "text": "como resultado do movimento de translação da Terra em torno do Sol.",
+        "top": 250.37,
+        "bottom": 261.41,
+        "x0": 61.32,
+        "x1": 378.74,
+        "column": 0
+      },
+      {
+        "text": "pelo movimento das cargas elétricas resultantes das colisões dos raios cósmicos com a atmosfera terrestre.",
+        "top": 276.41,
+        "bottom": 287.45,
+        "x0": 61.32,
+        "x1": 541.1,
+        "column": 0
+      },
+      {
+        "text": "pelo movimento de cargas elétricas em sua superfície.",
+        "top": 302.57,
+        "bottom": 313.61,
+        "x0": 61.32,
+        "x1": 303.62,
+        "column": 0
+      },
+      {
+        "text": "por um grande ímã permanente de ferro que há no centro da Terra.",
+        "top": 329.57,
+        "bottom": 340.61,
+        "x0": 61.32,
+        "x1": 364.58,
+        "column": 0
+      },
+      {
+        "text": "por cargas elétricas em movimento em seu interior.",
+        "top": 356.09,
+        "bottom": 367.13,
+        "x0": 61.32,
+        "x1": 292.46,
+        "column": 0
+      },
+      {
+        "text": "QUESTÃO 02 - O galvanômetro é um aparelho capaz de medir pequenas correntes elétricas que passam por ele.",
+        "top": 388.49,
+        "bottom": 399.53,
+        "x0": 33.96,
+        "x1": 561.38,
+        "column": 0
+      },
+      {
+        "text": "Entretanto, as correntes elétricas em circuitos cotidianos geralmente são muito maiores do que o galvanômetro",
+        "top": 403.37,
+        "bottom": 414.41,
+        "x0": 33.96,
+        "x1": 561.29,
+        "column": 0
+      },
+      {
+        "text": "suporta diretamente. Modificações podem ser feitas no galvanômetro com a associação de um resistor, de forma",
+        "top": 418.13,
+        "bottom": 429.17,
+        "x0": 33.96,
+        "x1": 561.37,
+        "column": 0
+      },
+      {
+        "text": "apropriada, para permitir fazê-lo funcionar como um voltímetro ou como um amperímetro. Este resistor pode ter",
+        "top": 432.89,
+        "bottom": 443.93,
+        "x0": 33.96,
+        "x1": 561.37,
+        "column": 0
+      },
+      {
+        "text": "resistência grande ou pequena, relativamente à resistência interna do galvanômetro.",
+        "top": 447.65,
+        "bottom": 458.69,
+        "x0": 33.96,
+        "x1": 414.26,
+        "column": 0
+      },
+      {
+        "text": "Assinale a alternativa que representa a associação apropriada do resistor com o galvanômetro, a partir do",
+        "top": 483.17,
+        "bottom": 494.21,
+        "x0": 33.96,
+        "x1": 561.29,
+        "column": 0
+      },
+      {
+        "text": "funcionamento CORRETO do voltímetro e do amperímetro.",
+        "top": 497.93,
+        "bottom": 508.97,
+        "x0": 33.96,
+        "x1": 299.18,
+        "column": 0
+      },
+      {
+        "text": "Amperímetro é um galvanômetro com uma grande resistência em paralelo.",
+        "top": 539.33,
+        "bottom": 550.37,
+        "x0": 61.32,
+        "x1": 398.3,
+        "column": 0
+      },
+      {
+        "text": "Amperímetro é um galvanômetro com uma grande resistência em série.",
+        "top": 565.37,
+        "bottom": 576.41,
+        "x0": 61.32,
+        "x1": 383.42,
+        "column": 0
+      },
+      {
+        "text": "Amperímetro é um galvanômetro com uma pequena resistência em série.",
+        "top": 591.65,
+        "bottom": 602.69,
+        "x0": 61.32,
+        "x1": 391.46,
+        "column": 0
+      },
+      {
+        "text": "Voltímetro é um galvanômetro com uma grande resistência em série.",
+        "top": 618.53,
+        "bottom": 629.57,
+        "x0": 61.32,
+        "x1": 371.42,
+        "column": 0
+      },
+      {
+        "text": "Voltímetro é um galvanômetro com uma grande resistência em paralelo.",
+        "top": 645.17,
+        "bottom": 656.21,
+        "x0": 61.32,
+        "x1": 386.18,
+        "column": 0
+      },
+      {
+        "text": "Página 1 de 20",
+        "top": 789.52,
+        "bottom": 800.56,
+        "x0": 496.08,
+        "x1": 561.31,
+        "column": 0
+      }
+    ],
+    "images": [
+      {
+        "x0": 35.16,
+        "x1": 49.32,
+        "top": 247.56,
+        "bottom": 263.28
+      },
+      {
+        "x0": 35.16,
+        "x1": 50.52,
+        "top": 273.84,
+        "bottom": 289.44
+      },
+      {
+        "x0": 35.16,
+        "x1": 50.52,
+        "top": 300.72,
+        "bottom": 316.32
+      },
+      {
+        "x0": 35.16,
+        "x1": 49.32,
+        "top": 327.24,
+        "bottom": 342.96
+      },
+      {
+        "x0": 35.16,
+        "x1": 50.52,
+        "top": 353.64,
+        "bottom": 369.24
+      },
+      {
+        "x0": 35.16,
+        "x1": 49.32,
+        "top": 536.52,
+        "bottom": 552.24
+      },
+      {
+        "x0": 35.16,
+        "x1": 50.52,
+        "top": 562.8,
+        "bottom": 578.4
+      },
+      {
+        "x0": 35.16,
+        "x1": 50.52,
+        "top": 589.68,
+        "bottom": 605.28
+      },
+      {
+        "x0": 35.16,
+        "x1": 49.32,
+        "top": 616.32,
+        "bottom": 631.92
+      },
+      {
+        "x0": 35.16,
+        "x1": 50.52,
+        "top": 642.6,
+        "bottom": 658.2
+      }
+    ],
+    "rects": [
+      {
+        "x0": 207.72,
+        "x1": 387.48,
+        "top": 73.8,
+        "bottom": 74.64
+      },
+      {
+        "x0": 28.8,
+        "x1": 565.32,
+        "top": 76.92,
+        "bottom": 110.52
+      },
+      {
+        "x0": 33.96,
+        "x1": 560.16,
+        "top": 76.92,
+        "bottom": 95.64
+      },
+      {
+        "x0": 33.96,
+        "x1": 560.16,
+        "top": 95.64,
+        "bottom": 110.52
+      },
+      {
+        "x0": 28.32,
+        "x1": 28.8,
+        "top": 76.44,
+        "bottom": 76.92
+      },
+      {
+        "x0": 28.32,
+        "x1": 28.8,
+        "top": 76.44,
+        "bottom": 76.92
+      },
+      {
+        "x0": 28.8,
+        "x1": 565.32,
+        "top": 76.44,
+        "bottom": 76.92
+      },
+      {
+        "x0": 565.32,
+        "x1": 565.8,
+        "top": 76.44,
+        "bottom": 76.92
+      },
+      {
+        "x0": 565.32,
+        "x1": 565.8,
+        "top": 76.44,
+        "bottom": 76.92
+      },
+      {
+        "x0": 28.32,
+        "x1": 28.8,
+        "top": 76.92,
+        "bottom": 110.64
+      },
+      {
+        "x0": 28.32,
+        "x1": 28.8,
+        "top": 110.64,
+        "bottom": 111.12
+      },
+      {
+        "x0": 28.32,
+        "x1": 28.8,
+        "top": 110.64,
+        "bottom": 111.12
+      },
+      {
+        "x0": 28.8,
+        "x1": 565.32,
+        "top": 110.64,
+        "bottom": 111.12
+      },
+      {
+        "x0": 565.32,
+        "x1": 565.8,
+        "top": 76.92,
+        "bottom": 110.64
+      },
+      {
+        "x0": 565.32,
+        "x1": 565.8,
+        "top": 110.64,
+        "bottom": 111.12
+      },
+      {
+        "x0": 565.32,
+        "x1": 565.8,
+        "top": 110.64,
+        "bottom": 111.12
+      },
+      {
+        "x0": 105.0,
+        "x1": 148.92,
+        "top": 508.2,
+        "bottom": 508.92
+      }
+    ],
+    "curves": []
+  },
+  {
+    "page": 4,
+    "width": 595,
+    "height": 842,
+    "lines": [
+      {
+        "text": "QUESTÃO 03 - Na eletrostática, objetos neutros podem ser eletrizados por atrito, por contato e por indução, e podem",
+        "top": 65,
+        "bottom": 69.05,
+        "x0": 33.96,
+        "x1": 561.3,
+        "column": 0
+      },
+      {
+        "text": "ser classificados simplificadamente como condutores ou isolantes.",
+        "top": 72.89,
+        "bottom": 83.93,
+        "x0": 33.96,
+        "x1": 330.38,
+        "column": 0
+      },
+      {
+        "text": "Em relação à eletrização de objetos, assinale a afirmativa CORRETA.",
+        "top": 87.65,
+        "bottom": 98.69,
+        "x0": 33.96,
+        "x1": 337.1,
+        "column": 0
+      },
+      {
+        "text": "Ao ser carregado por atrito, um objeto neutro ficará sempre com o mesmo sinal de carga elétrica, devido ao",
+        "top": 111.29,
+        "bottom": 122.33,
+        "x0": 61.32,
+        "x1": 560.21,
+        "column": 0
+      },
+      {
+        "text": "material do qual ele é feito.",
+        "top": 124.73,
+        "bottom": 135.77,
+        "x0": 61.32,
+        "x1": 184.58,
+        "column": 0
+      },
+      {
+        "text": "As cargas que dois objetos neutros adquirem, após o atrito entre ambos, dependem da facilidade de um ceder",
+        "top": 144.17,
+        "bottom": 155.21,
+        "x0": 61.32,
+        "x1": 560.29,
+        "column": 0
+      },
+      {
+        "text": "elétrons ao outro.",
+        "top": 157.49,
+        "bottom": 168.53,
+        "x0": 61.32,
+        "x1": 142.1,
+        "column": 0
+      },
+      {
+        "text": "Quando dois objetos condutores neutros, de materiais diferentes, são atritados entre si, ambos podem ficar",
+        "top": 176.93,
+        "bottom": 187.97,
+        "x0": 61.32,
+        "x1": 560.29,
+        "column": 0
+      },
+      {
+        "text": "com cargas elétricas de mesmo sinal, pois possuem elétrons livres.",
+        "top": 190.37,
+        "bottom": 201.41,
+        "x0": 61.32,
+        "x1": 358.7,
+        "column": 0
+      },
+      {
+        "text": "Somente objetos condutores carregados podem interagir por indução, pois necessitam de cargas livres.",
+        "top": 209.81,
+        "bottom": 220.85,
+        "x0": 61.32,
+        "x1": 523.34,
+        "column": 0
+      },
+      {
+        "text": "Somente objetos isolantes podem ser carregados por contato com outro objeto carregado.",
+        "top": 236.45,
+        "bottom": 247.49,
+        "x0": 61.32,
+        "x1": 467.9,
+        "column": 0
+      },
+      {
+        "text": "QUESTÃO 04 - Um observador fixo na Terra vê duas naves espaciais deslocarem-se muito rapidamente em sua",
+        "top": 268.85,
+        "bottom": 279.89,
+        "x0": 33.96,
+        "x1": 561.36,
+        "column": 0
+      },
+      {
+        "text": "direção, ambas aproximando-se da Terra em linha reta, e decide medir suas velocidades e comprimentos aparentes.",
+        "top": 283.61,
+        "bottom": 294.65,
+        "x0": 33.96,
+        "x1": 561.38,
+        "column": 0
+      },
+      {
+        "text": "A primeira das naves, que tem comprimento próprio (ou seja, medido em repouso) conhecido de 6,0 m, tem",
+        "top": 298.37,
+        "bottom": 309.41,
+        "x0": 33.96,
+        "x1": 561.3,
+        "column": 0
+      },
+      {
+        "text": "velocidade medida de módulo 0,6 c, em que c é a velocidade da luz no vácuo. A segunda nave tem comprimento",
+        "top": 313.13,
+        "bottom": 324.17,
+        "x0": 33.96,
+        "x1": 561.29,
+        "column": 0
+      },
+      {
+        "text": "próprio desconhecido e velocidade medida de módulo 0,8 c, mas aparenta ter o dobro do comprimento aparente da",
+        "top": 327.89,
+        "bottom": 338.93,
+        "x0": 33.96,
+        "x1": 561.36,
+        "column": 0
+      },
+      {
+        "text": "primeira para o observador fixo. Contrações relativísticas ocorrem por um fator de (cid:1)1 − (cid:4)(cid:5)/(cid:7)(cid:5).",
+        "top": 344.96,
+        "bottom": 357.19,
+        "x0": 33.96,
+        "x1": 463.1,
+        "column": 0
+      },
+      {
+        "text": "Qual é o comprimento próprio da segunda nave?",
+        "top": 363.05,
+        "bottom": 374.09,
+        "x0": 33.96,
+        "x1": 253.15,
+        "column": 0
+      },
+      {
+        "text": "4,8 m",
+        "top": 386.69,
+        "bottom": 397.73,
+        "x0": 61.32,
+        "x1": 86.58,
+        "column": 0
+      },
+      {
+        "text": "8,0 m",
+        "top": 412.73,
+        "bottom": 423.77,
+        "x0": 61.32,
+        "x1": 86.58,
+        "column": 0
+      },
+      {
+        "text": "9,6 m",
+        "top": 438.89,
+        "bottom": 449.93,
+        "x0": 61.32,
+        "x1": 86.58,
+        "column": 0
+      },
+      {
+        "text": "12,0 m",
+        "top": 465.77,
+        "bottom": 476.81,
+        "x0": 61.32,
+        "x1": 92.1,
+        "column": 0
+      },
+      {
+        "text": "16,0 m",
+        "top": 492.41,
+        "bottom": 503.45,
+        "x0": 61.32,
+        "x1": 92.1,
+        "column": 0
+      },
+      {
+        "text": "QUESTÃO 05 - Considere as seguintes afirmações relacionadas ao tema da dualidade onda-partícula:",
+        "top": 530.81,
+        "bottom": 541.85,
+        "x0": 33.96,
+        "x1": 483.55,
+        "column": 0
+      },
+      {
+        "text": "I – Elétrons podem difratar-se.",
+        "top": 548.57,
+        "bottom": 559.61,
+        "x0": 33.96,
+        "x1": 170.06,
+        "column": 0
+      },
+      {
+        "text": "II – Fótons não têm massa de repouso, portanto, sua energia é nula.",
+        "top": 566.33,
+        "bottom": 577.37,
+        "x0": 33.96,
+        "x1": 337.7,
+        "column": 0
+      },
+      {
+        "text": "III – Os efeitos Compton e fotoelétrico podem ser compreendidos como manifestações da natureza corpuscular da",
+        "top": 584.21,
+        "bottom": 595.25,
+        "x0": 33.96,
+        "x1": 561.36,
+        "column": 0
+      },
+      {
+        "text": "onda eletromagnética.",
+        "top": 598.97,
+        "bottom": 610.01,
+        "x0": 33.96,
+        "x1": 135.38,
+        "column": 0
+      },
+      {
+        "text": "Assinale a alternativa CORRETA a respeito dessas afirmações.",
+        "top": 628.49,
+        "bottom": 639.53,
+        "x0": 33.96,
+        "x1": 308.42,
+        "column": 0
+      },
+      {
+        "text": "Somente I é verdadeira.",
+        "top": 652.13,
+        "bottom": 663.17,
+        "x0": 61.32,
+        "x1": 168.14,
+        "column": 0
+      },
+      {
+        "text": "Somente II é verdadeira.",
+        "top": 678.17,
+        "bottom": 689.21,
+        "x0": 61.32,
+        "x1": 171.02,
+        "column": 0
+      },
+      {
+        "text": "Somente III é verdadeira.",
+        "top": 704.33,
+        "bottom": 715.37,
+        "x0": 61.32,
+        "x1": 173.78,
+        "column": 0
+      },
+      {
+        "text": "Somente I e III são verdadeiras.",
+        "top": 731.33,
+        "bottom": 742.37,
+        "x0": 61.32,
+        "x1": 201.02,
+        "column": 0
+      },
+      {
+        "text": "I, II e III são verdadeiras.",
+        "top": 757.84,
+        "bottom": 768.88,
+        "x0": 61.32,
+        "x1": 169.34,
+        "column": 0
+      },
+      {
+        "text": "Página 2 de 20",
+        "top": 789.52,
+        "bottom": 800.56,
+        "x0": 496.08,
+        "x1": 561.31,
+        "column": 0
+      }
+    ],
+    "images": [
+      {
+        "x0": 35.16,
+        "x1": 49.32,
+        "top": 108.48,
+        "bottom": 124.08
+      },
+      {
+        "x0": 35.16,
+        "x1": 50.52,
+        "top": 141.48,
+        "bottom": 157.08
+      },
+      {
+        "x0": 35.16,
+        "x1": 50.52,
+        "top": 175.08,
+        "bottom": 190.68
+      },
+      {
+        "x0": 35.16,
+        "x1": 49.32,
+        "top": 207.6,
+        "bottom": 223.2
+      },
+      {
+        "x0": 35.16,
+        "x1": 50.52,
+        "top": 233.88,
+        "bottom": 249.48
+      },
+      {
+        "x0": 35.16,
+        "x1": 49.32,
+        "top": 383.88,
+        "bottom": 399.48
+      },
+      {
+        "x0": 35.16,
+        "x1": 50.52,
+        "top": 410.04,
+        "bottom": 425.76
+      },
+      {
+        "x0": 35.16,
+        "x1": 50.52,
+        "top": 437.04,
+        "bottom": 452.64
+      },
+      {
+        "x0": 35.16,
+        "x1": 49.32,
+        "top": 463.56,
+        "bottom": 479.28
+      },
+      {
+        "x0": 35.16,
+        "x1": 50.52,
+        "top": 489.84,
+        "bottom": 505.56
+      },
+      {
+        "x0": 35.16,
+        "x1": 49.32,
+        "top": 649.32,
+        "bottom": 664.92
+      },
+      {
+        "x0": 35.16,
+        "x1": 50.52,
+        "top": 675.48,
+        "bottom": 691.2
+      },
+      {
+        "x0": 35.16,
+        "x1": 50.52,
+        "top": 702.48,
+        "bottom": 718.08
+      },
+      {
+        "x0": 35.16,
+        "x1": 49.32,
+        "top": 729.0,
+        "bottom": 744.72
+      },
+      {
+        "x0": 35.16,
+        "x1": 50.52,
+        "top": 755.28,
+        "bottom": 771.0
+      }
+    ],
+    "rects": [
+      {
+        "x0": 291.24,
+        "x1": 334.32,
+        "top": 97.92,
+        "bottom": 98.64
+      },
+      {
+        "x0": 413.28,
+        "x1": 460.32,
+        "top": 343.44,
+        "bottom": 344.16
+      },
+      {
+        "x0": 131.64,
+        "x1": 174.72,
+        "top": 638.76,
+        "bottom": 639.48
+      }
+    ],
+    "curves": []
+  },
+  {
+    "page": 5,
+    "width": 595,
+    "height": 842,
+    "lines": [
+      {
+        "text": "QUÍMICA",
+        "top": 65,
+        "bottom": 74.74,
+        "x0": 273.72,
+        "x1": 320.35,
+        "column": 0
+      },
+      {
+        "text": "Objetivas",
+        "top": 76.96,
+        "bottom": 85.96,
+        "x0": 279.84,
+        "x1": 314.08,
+        "column": 0
+      },
+      {
+        "text": "Questões de 06 a 10",
+        "top": 92.57,
+        "bottom": 103.61,
+        "x0": 251.52,
+        "x1": 343.75,
+        "column": 0
+      },
+      {
+        "text": "QUESTÃO 06 - Uma solução aquosa saturada de cloreto de sódio (NaCl) é mantida em um recipiente fechado e em",
+        "top": 422.45,
+        "bottom": 434.08,
+        "x0": 33.96,
+        "x1": 561.3,
+        "column": 0
+      },
+      {
+        "text": "temperatura constante. Quando o recipiente é aberto, inicia-se a evaporação do solvente e surge o equilíbrio químico",
+        "top": 437.21,
+        "bottom": 448.25,
+        "x0": 33.96,
+        "x1": 561.29,
+        "column": 0
+      },
+      {
+        "text": "representado pela equação abaixo.",
+        "top": 451.97,
+        "bottom": 463.01,
+        "x0": 33.96,
+        "x1": 191.3,
+        "column": 0
+      },
+      {
+        "text": "NaCl ⇌ Na+ + Cl-",
+        "top": 477.04,
+        "bottom": 490.87,
+        "x0": 238.32,
+        "x1": 345.57,
+        "column": 0
+      },
+      {
+        "text": "(s) (aq) (aq)",
+        "top": 483.41,
+        "bottom": 490.6,
+        "x0": 260.52,
+        "x1": 356.71,
+        "column": 0
+      },
+      {
+        "text": "Em relação aos fenômenos envolvidos no processo descrito, assinale a alternativa INCORRETA.",
+        "top": 505.61,
+        "bottom": 516.65,
+        "x0": 33.96,
+        "x1": 457.58,
+        "column": 0
+      },
+      {
+        "text": "A dupla seta indica que a dissolução do cloreto de sódio sólido e a recristalização dos íons solvatados ocorrem",
+        "top": 529.25,
+        "bottom": 540.29,
+        "x0": 61.32,
+        "x1": 560.21,
+        "column": 0
+      },
+      {
+        "text": "durante o equilíbrio químico.",
+        "top": 542.69,
+        "bottom": 553.73,
+        "x0": 61.32,
+        "x1": 191.42,
+        "column": 0
+      },
+      {
+        "text": "A saturação da solução ocorre quando os íons sódio e cloreto atingem concentração máxima, nas condições",
+        "top": 562.01,
+        "bottom": 573.05,
+        "x0": 61.32,
+        "x1": 560.27,
+        "column": 0
+      },
+      {
+        "text": "descritas.",
+        "top": 575.45,
+        "bottom": 586.49,
+        "x0": 61.32,
+        "x1": 104.06,
+        "column": 0
+      },
+      {
+        "text": "A solvatação do cloreto de sódio ocorre quando os íons sódio e cloreto ficam ligados e envoltos por moléculas",
+        "top": 594.89,
+        "bottom": 605.93,
+        "x0": 61.32,
+        "x1": 560.15,
+        "column": 0
+      },
+      {
+        "text": "de água.",
+        "top": 608.33,
+        "bottom": 619.37,
+        "x0": 61.32,
+        "x1": 99.38,
+        "column": 0
+      },
+      {
+        "text": "Na medida em que a água evapora ocorre o deslocamento do equilíbrio, aumentando a massa do cloreto de",
+        "top": 627.77,
+        "bottom": 638.81,
+        "x0": 61.32,
+        "x1": 560.25,
+        "column": 0
+      },
+      {
+        "text": "sódio sólido.",
+        "top": 641.21,
+        "bottom": 652.25,
+        "x0": 61.32,
+        "x1": 117.62,
+        "column": 0
+      },
+      {
+        "text": "O equilíbrio químico é sempre um processo dinâmico, isto é, a reação ocorre nos dois sentidos, mesmo que a",
+        "top": 660.65,
+        "bottom": 671.69,
+        "x0": 61.32,
+        "x1": 560.28,
+        "column": 0
+      },
+      {
+        "text": "temperatura fique constante.",
+        "top": 674.09,
+        "bottom": 685.13,
+        "x0": 61.32,
+        "x1": 193.34,
+        "column": 0
+      },
+      {
+        "text": "Página 3 de 20",
+        "top": 789.52,
+        "bottom": 800.56,
+        "x0": 496.08,
+        "x1": 561.31,
+        "column": 0
+      }
+    ],
+    "images": [
+      {
+        "x0": 35.52,
+        "x1": 559.32,
+        "top": 118.32,
+        "bottom": 406.68
+      },
+      {
+        "x0": 35.16,
+        "x1": 49.32,
+        "top": 526.44,
+        "bottom": 542.04
+      },
+      {
+        "x0": 35.16,
+        "x1": 50.52,
+        "top": 559.44,
+        "bottom": 575.04
+      },
+      {
+        "x0": 35.16,
+        "x1": 50.52,
+        "top": 592.92,
+        "bottom": 608.64
+      },
+      {
+        "x0": 35.16,
+        "x1": 49.32,
+        "top": 625.56,
+        "bottom": 641.16
+      },
+      {
+        "x0": 35.16,
+        "x1": 50.52,
+        "top": 658.08,
+        "bottom": 673.68
+      },
+      {
+        "x0": 35.52,
+        "x1": 559.32,
+        "top": 118.32,
+        "bottom": 406.68
+      },
+      {
+        "x0": 35.52,
+        "x1": 559.32,
+        "top": 118.32,
+        "bottom": 406.68
+      }
+    ],
+    "rects": [
+      {
+        "x0": 28.8,
+        "x1": 215.16,
+        "top": 57.24,
+        "bottom": 90.84
+      },
+      {
+        "x0": 33.96,
+        "x1": 215.16,
+        "top": 57.24,
+        "bottom": 75.84
+      },
+      {
+        "x0": 33.96,
+        "x1": 215.16,
+        "top": 75.84,
+        "bottom": 90.84
+      },
+      {
+        "x0": 28.32,
+        "x1": 28.8,
+        "top": 56.64,
+        "bottom": 57.12
+      },
+      {
+        "x0": 28.32,
+        "x1": 28.8,
+        "top": 56.64,
+        "bottom": 57.12
+      },
+      {
+        "x0": 28.8,
+        "x1": 215.16,
+        "top": 56.64,
+        "bottom": 57.12
+      },
+      {
+        "x0": 28.32,
+        "x1": 28.8,
+        "top": 57.12,
+        "bottom": 90.84
+      },
+      {
+        "x0": 28.32,
+        "x1": 28.8,
+        "top": 90.84,
+        "bottom": 91.32
+      },
+      {
+        "x0": 28.32,
+        "x1": 28.8,
+        "top": 90.84,
+        "bottom": 91.32
+      },
+      {
+        "x0": 28.8,
+        "x1": 215.16,
+        "top": 90.84,
+        "bottom": 91.32
+      },
+      {
+        "x0": 215.16,
+        "x1": 430.32,
+        "top": 57.24,
+        "bottom": 90.84
+      },
+      {
+        "x0": 215.16,
+        "x1": 430.32,
+        "top": 57.24,
+        "bottom": 75.84
+      },
+      {
+        "x0": 215.16,
+        "x1": 430.32,
+        "top": 75.84,
+        "bottom": 90.84
+      },
+      {
+        "x0": 215.16,
+        "x1": 430.32,
+        "top": 56.64,
+        "bottom": 57.12
+      },
+      {
+        "x0": 215.16,
+        "x1": 430.32,
+        "top": 90.84,
+        "bottom": 91.32
+      },
+      {
+        "x0": 401.4,
+        "x1": 430.32,
+        "top": 515.88,
+        "bottom": 516.6
+      },
+      {
+        "x0": 430.32,
+        "x1": 565.32,
+        "top": 57.24,
+        "bottom": 90.84
+      },
+      {
+        "x0": 430.32,
+        "x1": 560.16,
+        "top": 57.24,
+        "bottom": 75.84
+      },
+      {
+        "x0": 430.32,
+        "x1": 560.16,
+        "top": 75.84,
+        "bottom": 90.84
+      },
+      {
+        "x0": 430.32,
+        "x1": 565.32,
+        "top": 56.64,
+        "bottom": 57.12
+      },
+      {
+        "x0": 565.32,
+        "x1": 565.8,
+        "top": 56.64,
+        "bottom": 57.12
+      },
+      {
+        "x0": 565.32,
+        "x1": 565.8,
+        "top": 56.64,
+        "bottom": 57.12
+      },
+      {
+        "x0": 430.32,
+        "x1": 565.32,
+        "top": 90.84,
+        "bottom": 91.32
+      },
+      {
+        "x0": 565.32,
+        "x1": 565.8,
+        "top": 57.12,
+        "bottom": 90.84
+      },
+      {
+        "x0": 565.32,
+        "x1": 565.8,
+        "top": 90.84,
+        "bottom": 91.32
+      },
+      {
+        "x0": 565.32,
+        "x1": 565.8,
+        "top": 90.84,
+        "bottom": 91.32
+      },
+      {
+        "x0": 430.32,
+        "x1": 454.8,
+        "top": 515.88,
+        "bottom": 516.6
+      }
+    ],
+    "curves": [
+      {
+        "x0": 34.56,
+        "x1": 560.28,
+        "top": 117.36,
+        "bottom": 407.64
+      },
+      {
+        "x0": 35.04,
+        "x1": 559.8,
+        "top": 117.84,
+        "bottom": 407.16
+      },
+      {
+        "x0": 34.56,
+        "x1": 560.28,
+        "top": 117.36,
+        "bottom": 407.64
+      },
+      {
+        "x0": 35.04,
+        "x1": 559.8,
+        "top": 117.84,
+        "bottom": 407.16
+      },
+      {
+        "x0": 34.56,
+        "x1": 560.28,
+        "top": 117.36,
+        "bottom": 407.64
+      },
+      {
+        "x0": 35.04,
+        "x1": 559.8,
+        "top": 117.84,
+        "bottom": 407.16
+      }
+    ]
+  },
+  {
+    "page": 6,
+    "width": 595,
+    "height": 842,
+    "lines": [
+      {
+        "text": "QUESTÃO 07 - Os açúcares são também conhecidos como sacarídeos, glicídios ou carboidratos, tendo fórmula geral",
+        "top": 65,
+        "bottom": 69.05,
+        "x0": 33.96,
+        "x1": 561.37,
+        "column": 0
+      },
+      {
+        "text": "(CH O) e são considerados nossos combustíveis biológicos, por disponibilizarem grandes quantidades de energia",
+        "top": 72.89,
+        "bottom": 83.93,
+        "x0": 33.96,
+        "x1": 561.36,
+        "column": 0
+      },
+      {
+        "text": "2 n",
+        "top": 77.8,
+        "bottom": 84.76,
+        "x0": 50.04,
+        "x1": 67.85,
+        "column": 0
+      },
+      {
+        "text": "para as células vivas.",
+        "top": 87.65,
+        "bottom": 98.69,
+        "x0": 33.96,
+        "x1": 126.62,
+        "column": 0
+      },
+      {
+        "text": "Sobre essa classe de substâncias, suas propriedades e ações biológicas, identifique a resposta INCORRETA.",
+        "top": 105.41,
+        "bottom": 116.45,
+        "x0": 33.96,
+        "x1": 509.78,
+        "column": 0
+      },
+      {
+        "text": "A celulose é um carboidrato, sendo o principal responsável pela estruturação das células vegetais.",
+        "top": 129.05,
+        "bottom": 140.09,
+        "x0": 61.32,
+        "x1": 498.74,
+        "column": 0
+      },
+      {
+        "text": "A glicose, presente no sangue humano, sofre oxidação para produção de energia necessária ao metabolismo.",
+        "top": 155.09,
+        "bottom": 166.13,
+        "x0": 61.32,
+        "x1": 548.66,
+        "column": 0
+      },
+      {
+        "text": "A respiração celular é a conversão da glicose em gás carbônico e água e ocorre nas células de animais, mas não",
+        "top": 181.25,
+        "bottom": 192.29,
+        "x0": 61.32,
+        "x1": 560.21,
+        "column": 0
+      },
+      {
+        "text": "das plantas.",
+        "top": 194.69,
+        "bottom": 205.73,
+        "x0": 61.32,
+        "x1": 114.62,
+        "column": 0
+      },
+      {
+        "text": "A sacarose é o principal carboidrato obtido da cana-de-açúcar e é formado pela ligação química entre a glicose",
+        "top": 214.13,
+        "bottom": 225.17,
+        "x0": 61.32,
+        "x1": 560.25,
+        "column": 0
+      },
+      {
+        "text": "e a frutose.",
+        "top": 227.57,
+        "bottom": 238.61,
+        "x0": 61.32,
+        "x1": 112.22,
+        "column": 0
+      },
+      {
+        "text": "O amido é um polímero de glicose, que pode ser convertido em energia quando necessário.",
+        "top": 247.01,
+        "bottom": 258.05,
+        "x0": 61.32,
+        "x1": 470.66,
+        "column": 0
+      },
+      {
+        "text": "QUESTÃO 08 - A panela de pressão é comumente empregada para agilizar o cozimento de alimentos. Quando levada",
+        "top": 285.41,
+        "bottom": 296.45,
+        "x0": 33.96,
+        "x1": 561.37,
+        "column": 0
+      },
+      {
+        "text": "ao fogo faz com que a temperatura de ebulição da água se eleve acima de 100 oC, devido ao aumento da pressão",
+        "top": 298.48,
+        "bottom": 311.21,
+        "x0": 33.96,
+        "x1": 561.29,
+        "column": 0
+      },
+      {
+        "text": "interna.",
+        "top": 314.93,
+        "bottom": 325.97,
+        "x0": 33.96,
+        "x1": 69.14,
+        "column": 0
+      },
+      {
+        "text": "Com base na teoria das colisões, indique a resposta CORRETA.",
+        "top": 332.69,
+        "bottom": 343.73,
+        "x0": 33.96,
+        "x1": 312.14,
+        "column": 0
+      },
+      {
+        "text": "Com o aumento da pressão dentro da panela, as colisões entre as moléculas e íons diminuem fazendo com que",
+        "top": 356.33,
+        "bottom": 367.37,
+        "x0": 61.32,
+        "x1": 560.25,
+        "column": 0
+      },
+      {
+        "text": "o processo de cozimento seja mais rápido.",
+        "top": 369.77,
+        "bottom": 380.81,
+        "x0": 61.32,
+        "x1": 250.58,
+        "column": 0
+      },
+      {
+        "text": "A pressão interna da panela diminui a concentração de moléculas e íons aumentando a velocidade das reações",
+        "top": 389.21,
+        "bottom": 400.25,
+        "x0": 61.32,
+        "x1": 560.27,
+        "column": 0
+      },
+      {
+        "text": "químicas envolvidas durante o cozimento.",
+        "top": 402.65,
+        "bottom": 413.69,
+        "x0": 61.32,
+        "x1": 249.5,
+        "column": 0
+      },
+      {
+        "text": "A superfície de contato dos alimentos durante o cozimento diminui devido à elevação da pressão aumentando",
+        "top": 422.09,
+        "bottom": 433.13,
+        "x0": 61.32,
+        "x1": 560.21,
+        "column": 0
+      },
+      {
+        "text": "a velocidade de cozimento dos alimentos.",
+        "top": 435.53,
+        "bottom": 446.57,
+        "x0": 61.32,
+        "x1": 248.3,
+        "column": 0
+      },
+      {
+        "text": "A velocidade de cozimento na panela de pressão é maior, pois a energia cinética média das moléculas e íons é",
+        "top": 459.17,
+        "bottom": 470.21,
+        "x0": 61.32,
+        "x1": 560.25,
+        "column": 0
+      },
+      {
+        "text": "maior.",
+        "top": 472.61,
+        "bottom": 483.65,
+        "x0": 61.32,
+        "x1": 90.38,
+        "column": 0
+      },
+      {
+        "text": "O aumento da temperatura de ebulição não altera a energia cinética média das moléculas, acelerando o",
+        "top": 492.05,
+        "bottom": 503.09,
+        "x0": 61.32,
+        "x1": 560.21,
+        "column": 0
+      },
+      {
+        "text": "processo de cozimento.",
+        "top": 505.49,
+        "bottom": 516.53,
+        "x0": 61.32,
+        "x1": 167.3,
+        "column": 0
+      },
+      {
+        "text": "QUESTÃO 09 - O petróleo é classificado como uma mistura de compostos derivados de carbono com propriedades",
+        "top": 557.81,
+        "bottom": 568.85,
+        "x0": 33.96,
+        "x1": 561.35,
+        "column": 0
+      },
+      {
+        "text": "físicas diferentes, segundo o tamanho das cadeias carbônicas. Por exemplo, a gasolina (C -C ) possui de cinco a doze",
+        "top": 572.57,
+        "bottom": 583.61,
+        "x0": 33.96,
+        "x1": 561.33,
+        "column": 0
+      },
+      {
+        "text": "5 12",
+        "top": 577.48,
+        "bottom": 584.44,
+        "x0": 434.4,
+        "x1": 454.13,
+        "column": 0
+      },
+      {
+        "text": "átomos de carbono em sua estrutura. Outras frações do petróleo são o GLP (gás liquefeito de petróleo, C -C ), o",
+        "top": 587.33,
+        "bottom": 598.37,
+        "x0": 33.96,
+        "x1": 561.29,
+        "column": 0
+      },
+      {
+        "text": "1 4",
+        "top": 592.24,
+        "bottom": 599.2,
+        "x0": 529.08,
+        "x1": 545.33,
+        "column": 0
+      },
+      {
+        "text": "querosene (C -C ), o óleo diesel (C C ) e o óleo lubrificante (C -C ). A separação desses compostos se dá por",
+        "top": 602.09,
+        "bottom": 613.13,
+        "x0": 33.96,
+        "x1": 561.37,
+        "column": 0
+      },
+      {
+        "text": "10 16 14- 20 20 50",
+        "top": 607.0,
+        "bottom": 613.96,
+        "x0": 94.92,
+        "x1": 360.65,
+        "column": 0
+      },
+      {
+        "text": "destilação fracionada após a extração do petróleo, sendo esse processo conhecido como refino.",
+        "top": 616.85,
+        "bottom": 627.89,
+        "x0": 33.96,
+        "x1": 462.26,
+        "column": 0
+      },
+      {
+        "text": "Em relação ao processo de refino é CORRETO afirmar que",
+        "top": 634.61,
+        "bottom": 645.65,
+        "x0": 33.96,
+        "x1": 291.57,
+        "column": 0
+      },
+      {
+        "text": "a gasolina é destilada depois do óleo diesel.",
+        "top": 658.25,
+        "bottom": 669.29,
+        "x0": 61.32,
+        "x1": 256.58,
+        "column": 0
+      },
+      {
+        "text": "o GLP é a última fração a ser destilada.",
+        "top": 684.29,
+        "bottom": 695.33,
+        "x0": 61.32,
+        "x1": 234.14,
+        "column": 0
+      },
+      {
+        "text": "o óleo diesel é a fração destilada antes do querosene.",
+        "top": 710.57,
+        "bottom": 721.61,
+        "x0": 61.32,
+        "x1": 301.34,
+        "column": 0
+      },
+      {
+        "text": "o óleo lubrificante constitui a fração destilada antes da gasolina.",
+        "top": 737.44,
+        "bottom": 748.48,
+        "x0": 61.32,
+        "x1": 348.14,
+        "column": 0
+      },
+      {
+        "text": "o querosene constitui a fração destilada após a gasolina.",
+        "top": 764.08,
+        "bottom": 775.12,
+        "x0": 61.32,
+        "x1": 313.34,
+        "column": 0
+      },
+      {
+        "text": "Página 4 de 20",
+        "top": 789.52,
+        "bottom": 800.56,
+        "x0": 496.08,
+        "x1": 561.31,
+        "column": 0
+      }
+    ],
+    "images": [
+      {
+        "x0": 35.16,
+        "x1": 49.32,
+        "top": 126.24,
+        "bottom": 141.84
+      },
+      {
+        "x0": 35.16,
+        "x1": 50.52,
+        "top": 152.4,
+        "bottom": 168.12
+      },
+      {
+        "x0": 35.16,
+        "x1": 50.52,
+        "top": 179.28,
+        "bottom": 195.0
+      },
+      {
+        "x0": 35.16,
+        "x1": 49.32,
+        "top": 211.92,
+        "bottom": 227.52
+      },
+      {
+        "x0": 35.16,
+        "x1": 50.52,
+        "top": 244.44,
+        "bottom": 260.04
+      },
+      {
+        "x0": 35.16,
+        "x1": 49.32,
+        "top": 353.64,
+        "bottom": 369.24
+      },
+      {
+        "x0": 35.16,
+        "x1": 50.52,
+        "top": 386.64,
+        "bottom": 402.24
+      },
+      {
+        "x0": 35.16,
+        "x1": 50.52,
+        "top": 420.12,
+        "bottom": 435.84
+      },
+      {
+        "x0": 35.16,
+        "x1": 49.32,
+        "top": 456.96,
+        "bottom": 472.56
+      },
+      {
+        "x0": 35.16,
+        "x1": 50.52,
+        "top": 489.48,
+        "bottom": 505.2
+      },
+      {
+        "x0": 35.16,
+        "x1": 49.32,
+        "top": 655.44,
+        "bottom": 671.16
+      },
+      {
+        "x0": 35.16,
+        "x1": 50.52,
+        "top": 681.72,
+        "bottom": 697.32
+      },
+      {
+        "x0": 35.16,
+        "x1": 50.52,
+        "top": 708.6,
+        "bottom": 724.2
+      },
+      {
+        "x0": 35.16,
+        "x1": 49.32,
+        "top": 735.24,
+        "bottom": 750.84
+      },
+      {
+        "x0": 35.16,
+        "x1": 50.52,
+        "top": 761.52,
+        "bottom": 777.12
+      }
+    ],
+    "rects": [
+      {
+        "x0": 453.72,
+        "x1": 507.0,
+        "top": 115.68,
+        "bottom": 116.4
+      },
+      {
+        "x0": 266.16,
+        "x1": 309.36,
+        "top": 342.96,
+        "bottom": 343.68
+      },
+      {
+        "x0": 192.96,
+        "x1": 236.88,
+        "top": 644.88,
+        "bottom": 645.6
+      }
+    ],
+    "curves": []
+  },
+  {
+    "page": 7,
+    "width": 595,
+    "height": 842,
+    "lines": [
+      {
+        "text": "QUESTÃO 10 - Com a proximidade do verão, o uso recreativo das piscinas em clubes, condomínios e casas aumenta",
+        "top": 65,
+        "bottom": 69.05,
+        "x0": 33.96,
+        "x1": 561.36,
+        "column": 0
+      },
+      {
+        "text": "consideravelmente e, com isso, a frequência de limpeza da água também. O método de limpeza mais comum faz uso",
+        "top": 72.89,
+        "bottom": 83.93,
+        "x0": 33.96,
+        "x1": 561.29,
+        "column": 0
+      },
+      {
+        "text": "da adição de hipoclorito de cálcio Ca(Cl O) na piscina. Contudo, o método mais moderno utiliza a eletrólise de uma",
+        "top": 87.65,
+        "bottom": 99.28,
+        "x0": 33.96,
+        "x1": 561.36,
+        "column": 0
+      },
+      {
+        "text": "2",
+        "top": 92.56,
+        "bottom": 99.52,
+        "x0": 227.76,
+        "x1": 231.29,
+        "column": 0
+      },
+      {
+        "text": "solução aquosa de NaCl. Nesse caso, o sal é adicionado à piscina, e, através de um sistema de bombas e eletrodos,",
+        "top": 102.41,
+        "bottom": 114.04,
+        "x0": 33.96,
+        "x1": 561.36,
+        "column": 0
+      },
+      {
+        "text": "ocorre a eletrólise da solução e a espécie ativa ClO- (íon hipoclorito) é formada. A eletrólise é um processo no qual as",
+        "top": 115.48,
+        "bottom": 128.8,
+        "x0": 33.96,
+        "x1": 561.23,
+        "column": 0
+      },
+      {
+        "text": "espécies químicas são reduzidas e oxidadas, na presença de eletrodos e passagem de corrente elétrica.",
+        "top": 131.93,
+        "bottom": 142.97,
+        "x0": 33.96,
+        "x1": 494.06,
+        "column": 0
+      },
+      {
+        "text": "Abaixo estão representadas as semi-reações envolvidas no processo de eletrólise da solução de NaCl (i e ii) assim",
+        "top": 158.69,
+        "bottom": 170.32,
+        "x0": 33.96,
+        "x1": 561.29,
+        "column": 0
+      },
+      {
+        "text": "como a reação de formação do íon hipoclorito (iii):",
+        "top": 173.45,
+        "bottom": 184.49,
+        "x0": 33.96,
+        "x1": 260.12,
+        "column": 0
+      },
+      {
+        "text": "i. 2 Cl- Cl + 2 e-",
+        "top": 189.52,
+        "bottom": 202.84,
+        "x0": 57.0,
+        "x1": 198.93,
+        "column": 0
+      },
+      {
+        "text": "(g) 2(aq)",
+        "top": 196.12,
+        "bottom": 203.08,
+        "x0": 106.2,
+        "x1": 172.63,
+        "column": 0
+      },
+      {
+        "text": "ii. 2 H O + 2 e- H + 2 OH-",
+        "top": 207.28,
+        "bottom": 220.01,
+        "x0": 54.48,
+        "x1": 234.21,
+        "column": 0
+      },
+      {
+        "text": "2 (l) 2(g) (aq)",
+        "top": 213.88,
+        "bottom": 220.84,
+        "x0": 98.64,
+        "x1": 245.47,
+        "column": 0
+      },
+      {
+        "text": "iii. Cl + 2 OH- Cl- + ClO- + H O",
+        "top": 225.04,
+        "bottom": 238.36,
+        "x0": 51.96,
+        "x1": 291.82,
+        "column": 0
+      },
+      {
+        "text": "2(g) (aq) (aq) (aq) 2 (l)",
+        "top": 231.64,
+        "bottom": 238.6,
+        "x0": 93.48,
+        "x1": 297.67,
+        "column": 0
+      },
+      {
+        "text": "Analise as sentenças a seguir:",
+        "top": 253.49,
+        "bottom": 264.53,
+        "x0": 36.48,
+        "x1": 168.2,
+        "column": 0
+      },
+      {
+        "text": "I. Durante o processo de limpeza são formadas espécies de cloro oxidadas e reduzidas.",
+        "top": 271.37,
+        "bottom": 282.41,
+        "x0": 56.76,
+        "x1": 462.26,
+        "column": 0
+      },
+      {
+        "text": "II. A produção de gás cloro ocorre no catodo.",
+        "top": 289.13,
+        "bottom": 300.17,
+        "x0": 54.0,
+        "x1": 273.62,
+        "column": 0
+      },
+      {
+        "text": "III. Ocorre a formação da espécie ativa (ClO-) tanto na presença quanto na ausência de íons OH-.",
+        "top": 305.2,
+        "bottom": 318.52,
+        "x0": 51.24,
+        "x1": 498.98,
+        "column": 0
+      },
+      {
+        "text": "IV. Para que a eletrólise ocorra é preciso dois eletrodos: um será o catodo e o outro o anodo.",
+        "top": 324.65,
+        "bottom": 335.69,
+        "x0": 50.52,
+        "x1": 484.46,
+        "column": 0
+      },
+      {
+        "text": "Marque a alternativa que apresenta apenas as sentenças CORRETAS.",
+        "top": 360.17,
+        "bottom": 371.21,
+        "x0": 33.96,
+        "x1": 342.26,
+        "column": 0
+      },
+      {
+        "text": "(I) e (II)",
+        "top": 377.93,
+        "bottom": 388.97,
+        "x0": 61.32,
+        "x1": 93.58,
+        "column": 0
+      },
+      {
+        "text": "(II) e (III)",
+        "top": 400.61,
+        "bottom": 411.65,
+        "x0": 61.32,
+        "x1": 99.1,
+        "column": 0
+      },
+      {
+        "text": "(III) e (IV)",
+        "top": 423.29,
+        "bottom": 434.33,
+        "x0": 61.32,
+        "x1": 102.58,
+        "column": 0
+      },
+      {
+        "text": "(I) e (IV)",
+        "top": 446.09,
+        "bottom": 457.13,
+        "x0": 61.32,
+        "x1": 96.94,
+        "column": 0
+      },
+      {
+        "text": "(II) e (IV)",
+        "top": 468.77,
+        "bottom": 479.81,
+        "x0": 61.32,
+        "x1": 99.82,
+        "column": 0
+      },
+      {
+        "text": "Página 5 de 20",
+        "top": 789.52,
+        "bottom": 800.56,
+        "x0": 496.08,
+        "x1": 561.31,
+        "column": 0
+      }
+    ],
+    "images": [
+      {
+        "x0": 35.16,
+        "x1": 49.32,
+        "top": 381.0,
+        "bottom": 396.72
+      },
+      {
+        "x0": 35.16,
+        "x1": 50.52,
+        "top": 403.92,
+        "bottom": 419.52
+      },
+      {
+        "x0": 35.16,
+        "x1": 50.52,
+        "top": 427.32,
+        "bottom": 442.92
+      },
+      {
+        "x0": 35.16,
+        "x1": 49.32,
+        "top": 449.64,
+        "bottom": 465.36
+      },
+      {
+        "x0": 35.16,
+        "x1": 50.52,
+        "top": 472.08,
+        "bottom": 487.68
+      }
+    ],
+    "rects": [
+      {
+        "x0": 117.84,
+        "x1": 136.56,
+        "top": 197.76,
+        "bottom": 198.12
+      },
+      {
+        "x0": 149.64,
+        "x1": 168.36,
+        "top": 215.52,
+        "bottom": 215.88
+      },
+      {
+        "x0": 158.52,
+        "x1": 177.24,
+        "top": 233.28,
+        "bottom": 233.64
+      },
+      {
+        "x0": 291.12,
+        "x1": 339.48,
+        "top": 370.44,
+        "bottom": 371.16
+      }
+    ],
+    "curves": [
+      {
+        "x0": 135.72,
+        "x1": 141.48,
+        "top": 196.8,
+        "bottom": 198.96
+      },
+      {
+        "x0": 135.72,
+        "x1": 141.48,
+        "top": 196.8,
+        "bottom": 198.96
+      },
+      {
+        "x0": 167.52,
+        "x1": 173.28,
+        "top": 214.56,
+        "bottom": 216.72
+      },
+      {
+        "x0": 167.52,
+        "x1": 173.28,
+        "top": 214.56,
+        "bottom": 216.72
+      },
+      {
+        "x0": 176.4,
+        "x1": 182.16,
+        "top": 232.32,
+        "bottom": 234.48
+      },
+      {
+        "x0": 176.4,
+        "x1": 182.16,
+        "top": 232.32,
+        "bottom": 234.48
+      }
+    ]
+  },
+  {
+    "page": 8,
+    "width": 595,
+    "height": 842,
+    "lines": [
+      {
+        "text": "GEOGRAFIA",
+        "top": 65,
+        "bottom": 74.74,
+        "x0": 267.36,
+        "x1": 326.71,
+        "column": 0
+      },
+      {
+        "text": "Objetivas",
+        "top": 76.96,
+        "bottom": 85.96,
+        "x0": 279.84,
+        "x1": 314.08,
+        "column": 0
+      },
+      {
+        "text": "Questões de 11 a 15",
+        "top": 92.57,
+        "bottom": 103.61,
+        "x0": 251.52,
+        "x1": 343.75,
+        "column": 0
+      },
+      {
+        "text": "QUESTÃO 11 – A figura abaixo apresenta os cabos submarinos instalados para permitir a acessibilidade à internet.",
+        "top": 118.13,
+        "bottom": 129.17,
+        "x0": 33.96,
+        "x1": 543.5,
+        "column": 0
+      },
+      {
+        "text": "Considerando a atual integração dos países por redes .",
+        "top": 147.64,
+        "bottom": 158.93,
+        "x0": 33.96,
+        "x1": 557.51,
+        "column": 0
+      },
+      {
+        "text": "materiais e imateriais, assinale a alternativa CORRETA:",
+        "top": 162.65,
+        "bottom": 173.69,
+        "x0": 33.96,
+        "x1": 278.12,
+        "column": 0
+      },
+      {
+        "text": "Expõe-se uma rede de transporte, posto que a",
+        "top": 186.29,
+        "bottom": 197.33,
+        "x0": 67.8,
+        "x1": 285.12,
+        "column": 0
+      },
+      {
+        "text": "informação e a comunicação são bens que",
+        "top": 199.73,
+        "bottom": 210.77,
+        "x0": 67.8,
+        "x1": 285.09,
+        "column": 0
+      },
+      {
+        "text": "precisam estar em fluxo para serem eficientes.",
+        "top": 213.17,
+        "bottom": 224.21,
+        "x0": 67.8,
+        "x1": 276.62,
+        "column": 0
+      },
+      {
+        "text": "Apresenta-se uma rede material de fluxos",
+        "top": 232.61,
+        "bottom": 243.65,
+        "x0": 67.8,
+        "x1": 285.11,
+        "column": 0
+      },
+      {
+        "text": "imateriais, especificamente de informação e",
+        "top": 246.05,
+        "bottom": 257.09,
+        "x0": 67.8,
+        "x1": 285.09,
+        "column": 0
+      },
+      {
+        "text": "comunicação, que reproduz a lógica da atual",
+        "top": 259.49,
+        "bottom": 270.53,
+        "x0": 67.8,
+        "x1": 285.13,
+        "column": 0
+      },
+      {
+        "text": "ordem mundial.",
+        "top": 272.93,
+        "bottom": 283.97,
+        "x0": 67.8,
+        "x1": 139.22,
+        "column": 0
+      },
+      {
+        "text": "Nota-se na imagem a difusão de redes de",
+        "top": 292.37,
+        "bottom": 303.41,
+        "x0": 67.8,
+        "x1": 285.09,
+        "column": 0
+      },
+      {
+        "text": "comunicação e de transporte, respectivamente",
+        "top": 305.69,
+        "bottom": 316.73,
+        "x0": 67.8,
+        "x1": 285.09,
+        "column": 0
+      },
+      {
+        "text": "material e imaterial, tendendo a equilibrar as",
+        "top": 319.13,
+        "bottom": 330.17,
+        "x0": 67.8,
+        "x1": 285.11,
+        "column": 0
+      },
+      {
+        "text": "relações internacionais.",
+        "top": 332.57,
+        "bottom": 343.61,
+        "x0": 67.8,
+        "x1": 173.78,
+        "column": 0
+      },
+      {
+        "text": "A reduzida conexão entre América Latina e",
+        "top": 352.01,
+        "bottom": 363.05,
+        "x0": 67.8,
+        "x1": 285.09,
+        "column": 0
+      },
+      {
+        "text": "África é pouco significativa quanto à atual",
+        "top": 365.45,
+        "bottom": 376.49,
+        "x0": 67.8,
+        "x1": 285.13,
+        "column": 0
+      },
+      {
+        "text": "ordem mundial, pois os centros de difusão da",
+        "top": 378.89,
+        "bottom": 389.93,
+        "x0": 67.8,
+        "x1": 285.12,
+        "column": 0
+      },
+      {
+        "text": "internet estão localizados apenas em países do",
+        "top": 392.33,
+        "bottom": 403.37,
+        "x0": 67.8,
+        "x1": 285.05,
+        "column": 0
+      },
+      {
+        "text": "Atlântico Norte.",
+        "top": 405.77,
+        "bottom": 416.81,
+        "x0": 67.8,
+        "x1": 139.34,
+        "column": 0
+      },
+      {
+        "text": "Fonte: https://www.submarinecablemap.com/ Adaptado. Acesso em",
+        "top": 421.36,
+        "bottom": 430.36,
+        "x0": 301.2,
+        "x1": 557.51,
+        "column": 0
+      },
+      {
+        "text": "Visualizam-se na imagem rotas semelhantes às",
+        "top": 425.21,
+        "bottom": 436.25,
+        "x0": 67.8,
+        "x1": 285.11,
+        "column": 0
+      },
+      {
+        "text": "05 jun. 2023",
+        "top": 433.48,
+        "bottom": 442.48,
+        "x0": 301.2,
+        "x1": 346.44,
+        "column": 0
+      },
+      {
+        "text": "do período colonial que conectavam as trocas",
+        "top": 438.65,
+        "bottom": 449.69,
+        "x0": 67.8,
+        "x1": 285.11,
+        "column": 0
+      },
+      {
+        "text": "de mercadorias entre América Latina e Estados",
+        "top": 451.97,
+        "bottom": 463.01,
+        "x0": 67.8,
+        "x1": 285.11,
+        "column": 0
+      },
+      {
+        "text": "Unidos, assim como as rotas de tráfico entre",
+        "top": 465.41,
+        "bottom": 476.45,
+        "x0": 67.8,
+        "x1": 285.09,
+        "column": 0
+      },
+      {
+        "text": "este país e os países africanos.",
+        "top": 478.85,
+        "bottom": 489.89,
+        "x0": 67.8,
+        "x1": 203.9,
+        "column": 0
+      },
+      {
+        "text": "QUESTÃO 12 – Leia a manchete abaixo:",
+        "top": 504.41,
+        "bottom": 515.45,
+        "x0": 33.96,
+        "x1": 210.8,
+        "column": 0
+      },
+      {
+        "text": "Cisjordânia: o que explica pior onda de violência entre Israel e palestinos em 20 anos",
+        "top": 522.65,
+        "bottom": 533.69,
+        "x0": 102.36,
+        "x1": 489.08,
+        "column": 0
+      },
+      {
+        "text": "BBC – 04/07/2023",
+        "top": 549.41,
+        "bottom": 560.45,
+        "x0": 474.84,
+        "x1": 557.59,
+        "column": 0
+      },
+      {
+        "text": "Israel iniciou na segunda-feira (3/7), no campo de refugiados de Jenin, a maior operação militar na Cisjordânia nos",
+        "top": 576.29,
+        "bottom": 587.33,
+        "x0": 33.96,
+        "x1": 557.63,
+        "column": 0
+      },
+      {
+        "text": "últimos 20 anos, o que resultou na morte de pelo menos 12 palestinos e um soldado israelense.",
+        "top": 591.05,
+        "bottom": 602.09,
+        "x0": 33.96,
+        "x1": 461.66,
+        "column": 0
+      },
+      {
+        "text": "Fonte: https://www.bbc.com/portuguese/articles/crg9ylp1n02o Acesso em 06 jul de 2023.",
+        "top": 609.04,
+        "bottom": 618.04,
+        "x0": 228.72,
+        "x1": 561.11,
+        "column": 0
+      },
+      {
+        "text": "Assinale a alternativa CORRETA que indica o principal motivo dos conflitos entre Israel e Palestina:",
+        "top": 633.41,
+        "bottom": 644.45,
+        "x0": 33.96,
+        "x1": 473.36,
+        "column": 0
+      },
+      {
+        "text": "As ações do Estado Islâmico.",
+        "top": 657.05,
+        "bottom": 668.09,
+        "x0": 61.32,
+        "x1": 188.66,
+        "column": 0
+      },
+      {
+        "text": "A instituição da religião judaica.",
+        "top": 683.09,
+        "bottom": 694.13,
+        "x0": 61.32,
+        "x1": 203.06,
+        "column": 0
+      },
+      {
+        "text": "O controle dos poços de petróleo.",
+        "top": 709.25,
+        "bottom": 720.29,
+        "x0": 61.32,
+        "x1": 213.38,
+        "column": 0
+      },
+      {
+        "text": "O assassinato de lideranças israelenses.",
+        "top": 736.12,
+        "bottom": 747.16,
+        "x0": 61.32,
+        "x1": 238.1,
+        "column": 0
+      },
+      {
+        "text": "A ocupação de territórios palestinos por Israel.",
+        "top": 762.76,
+        "bottom": 773.8,
+        "x0": 61.32,
+        "x1": 270.14,
+        "column": 0
+      },
+      {
+        "text": "Página 6 de 20",
+        "top": 789.52,
+        "bottom": 800.56,
+        "x0": 496.08,
+        "x1": 561.31,
+        "column": 0
+      }
+    ],
+    "images": [
+      {
+        "x0": 42.84,
+        "x1": 57.0,
+        "top": 183.48,
+        "bottom": 199.2
+      },
+      {
+        "x0": 42.84,
+        "x1": 58.2,
+        "top": 229.92,
+        "bottom": 245.64
+      },
+      {
+        "x0": 42.84,
+        "x1": 58.2,
+        "top": 290.4,
+        "bottom": 306.0
+      },
+      {
+        "x0": 42.84,
+        "x1": 57.0,
+        "top": 349.8,
+        "bottom": 365.4
+      },
+      {
+        "x0": 42.84,
+        "x1": 58.2,
+        "top": 422.64,
+        "bottom": 438.24
+      },
+      {
+        "x0": 35.16,
+        "x1": 49.32,
+        "top": 654.24,
+        "bottom": 669.84
+      },
+      {
+        "x0": 35.16,
+        "x1": 50.52,
+        "top": 680.4,
+        "bottom": 696.12
+      },
+      {
+        "x0": 35.16,
+        "x1": 50.52,
+        "top": 707.28,
+        "bottom": 723.0
+      },
+      {
+        "x0": 35.16,
+        "x1": 49.32,
+        "top": 733.92,
+        "bottom": 749.52
+      },
+      {
+        "x0": 35.16,
+        "x1": 50.52,
+        "top": 760.2,
+        "bottom": 775.92
+      },
+      {
+        "x0": 308.16,
+        "x1": 549.6,
+        "top": 178.68,
+        "bottom": 411.24
+      },
+      {
+        "x0": 308.16,
+        "x1": 549.6,
+        "top": 178.68,
+        "bottom": 411.24
+      }
+    ],
+    "rects": [
+      {
+        "x0": 28.8,
+        "x1": 215.16,
+        "top": 57.24,
+        "bottom": 90.84
+      },
+      {
+        "x0": 33.96,
+        "x1": 215.16,
+        "top": 57.24,
+        "bottom": 75.84
+      },
+      {
+        "x0": 33.96,
+        "x1": 215.16,
+        "top": 75.84,
+        "bottom": 90.84
+      },
+      {
+        "x0": 28.32,
+        "x1": 28.8,
+        "top": 56.64,
+        "bottom": 57.12
+      },
+      {
+        "x0": 28.32,
+        "x1": 28.8,
+        "top": 56.64,
+        "bottom": 57.12
+      },
+      {
+        "x0": 28.8,
+        "x1": 215.16,
+        "top": 56.64,
+        "bottom": 57.12
+      },
+      {
+        "x0": 28.32,
+        "x1": 28.8,
+        "top": 57.12,
+        "bottom": 90.84
+      },
+      {
+        "x0": 28.32,
+        "x1": 28.8,
+        "top": 90.84,
+        "bottom": 91.32
+      },
+      {
+        "x0": 28.32,
+        "x1": 28.8,
+        "top": 90.84,
+        "bottom": 91.32
+      },
+      {
+        "x0": 28.8,
+        "x1": 215.16,
+        "top": 90.84,
+        "bottom": 91.32
+      },
+      {
+        "x0": 28.32,
+        "x1": 28.8,
+        "top": 520.8,
+        "bottom": 521.28
+      },
+      {
+        "x0": 28.32,
+        "x1": 28.8,
+        "top": 520.8,
+        "bottom": 521.28
+      },
+      {
+        "x0": 28.8,
+        "x1": 215.16,
+        "top": 520.8,
+        "bottom": 521.28
+      },
+      {
+        "x0": 28.32,
+        "x1": 28.8,
+        "top": 521.28,
+        "bottom": 607.44
+      },
+      {
+        "x0": 28.32,
+        "x1": 28.8,
+        "top": 607.44,
+        "bottom": 607.92
+      },
+      {
+        "x0": 28.32,
+        "x1": 28.8,
+        "top": 607.44,
+        "bottom": 607.92
+      },
+      {
+        "x0": 28.8,
+        "x1": 215.16,
+        "top": 607.44,
+        "bottom": 607.92
+      },
+      {
+        "x0": 131.64,
+        "x1": 174.72,
+        "top": 643.68,
+        "bottom": 644.4
+      },
+      {
+        "x0": 215.16,
+        "x1": 430.32,
+        "top": 57.24,
+        "bottom": 90.84
+      },
+      {
+        "x0": 215.16,
+        "x1": 430.32,
+        "top": 57.24,
+        "bottom": 75.84
+      },
+      {
+        "x0": 215.16,
+        "x1": 430.32,
+        "top": 75.84,
+        "bottom": 90.84
+      },
+      {
+        "x0": 215.16,
+        "x1": 430.32,
+        "top": 56.64,
+        "bottom": 57.12
+      },
+      {
+        "x0": 215.16,
+        "x1": 430.32,
+        "top": 90.84,
+        "bottom": 91.32
+      },
+      {
+        "x0": 232.08,
+        "x1": 275.16,
+        "top": 172.92,
+        "bottom": 173.64
+      },
+      {
+        "x0": 215.16,
+        "x1": 430.32,
+        "top": 520.8,
+        "bottom": 521.28
+      },
+      {
+        "x0": 215.16,
+        "x1": 430.32,
+        "top": 607.44,
+        "bottom": 607.92
+      },
+      {
+        "x0": 430.32,
+        "x1": 565.32,
+        "top": 57.24,
+        "bottom": 90.84
+      },
+      {
+        "x0": 430.32,
+        "x1": 560.16,
+        "top": 57.24,
+        "bottom": 75.84
+      },
+      {
+        "x0": 430.32,
+        "x1": 560.16,
+        "top": 75.84,
+        "bottom": 90.84
+      },
+      {
+        "x0": 430.32,
+        "x1": 565.32,
+        "top": 56.64,
+        "bottom": 57.12
+      },
+      {
+        "x0": 565.32,
+        "x1": 565.8,
+        "top": 56.64,
+        "bottom": 57.12
+      },
+      {
+        "x0": 565.32,
+        "x1": 565.8,
+        "top": 56.64,
+        "bottom": 57.12
+      },
+      {
+        "x0": 430.32,
+        "x1": 565.32,
+        "top": 90.84,
+        "bottom": 91.32
+      },
+      {
+        "x0": 565.32,
+        "x1": 565.8,
+        "top": 57.12,
+        "bottom": 90.84
+      },
+      {
+        "x0": 565.32,
+        "x1": 565.8,
+        "top": 90.84,
+        "bottom": 91.32
+      },
+      {
+        "x0": 565.32,
+        "x1": 565.8,
+        "top": 90.84,
+        "bottom": 91.32
+      },
+      {
+        "x0": 430.32,
+        "x1": 562.68,
+        "top": 520.8,
+        "bottom": 521.28
+      },
+      {
+        "x0": 562.68,
+        "x1": 563.16,
+        "top": 520.8,
+        "bottom": 521.28
+      },
+      {
+        "x0": 562.68,
+        "x1": 563.16,
+        "top": 520.8,
+        "bottom": 521.28
+      },
+      {
+        "x0": 430.32,
+        "x1": 562.68,
+        "top": 607.44,
+        "bottom": 607.92
+      },
+      {
+        "x0": 562.68,
+        "x1": 563.16,
+        "top": 521.28,
+        "bottom": 607.44
+      },
+      {
+        "x0": 562.68,
+        "x1": 563.16,
+        "top": 607.44,
+        "bottom": 607.92
+      },
+      {
+        "x0": 562.68,
+        "x1": 563.16,
+        "top": 607.44,
+        "bottom": 607.92
+      }
+    ],
+    "curves": []
+  },
+  {
+    "page": 9,
+    "width": 595,
+    "height": 842,
+    "lines": [
+      {
+        "text": "QUESTÃO 13 – Leia o trecho de reportagem abaixo:",
+        "top": 65,
+        "bottom": 69.05,
+        "x0": 33.96,
+        "x1": 265.16,
+        "column": 0
+      },
+      {
+        "text": "Argentina reforça crítica feita por Lula ao acordo entre Mercosul e UE: ‘algumas assimetrias’",
+        "top": 73.37,
+        "bottom": 84.41,
+        "x0": 84.36,
+        "x1": 507.09,
+        "column": 0
+      },
+      {
+        "text": "Em cúpula do grupo sul-americano, Alberto Fernandez disse estar de acordo com o presidente brasileiro na questão",
+        "top": 88.13,
+        "bottom": 99.17,
+        "x0": 33.96,
+        "x1": 557.57,
+        "column": 0
+      },
+      {
+        "text": "das compras governamentais.",
+        "top": 102.89,
+        "bottom": 113.93,
+        "x0": 33.96,
+        "x1": 167.66,
+        "column": 0
+      },
+      {
+        "text": "Fernandez defendeu a integração comercial como fator essencial para o desenvolvimento da região. Ele mencionou",
+        "top": 117.65,
+        "bottom": 128.69,
+        "x0": 33.96,
+        "x1": 557.55,
+        "column": 0
+      },
+      {
+        "text": "ainda que ‘ninguém pode nos condenar a ser apenas fornecedores’.",
+        "top": 132.41,
+        "bottom": 143.45,
+        "x0": 33.96,
+        "x1": 337.1,
+        "column": 0
+      },
+      {
+        "text": "Fonte: https://oglobo.globo.com/mundo/noticia/2023/07/argentina-reforca-critica-feita-por-lula-ao-acordo-entre-mercosul-e-ue-algumas-",
+        "top": 147.4,
+        "bottom": 156.4,
+        "x0": 51.36,
+        "x1": 561.11,
+        "column": 0
+      },
+      {
+        "text": "assimetrias.ghtml Adaptado. Acesso em 05 jul de 2023",
+        "top": 159.52,
+        "bottom": 168.52,
+        "x0": 361.8,
+        "x1": 561.12,
+        "column": 0
+      },
+      {
+        "text": "Assinale a alternativa CORRETA:",
+        "top": 171.89,
+        "bottom": 182.93,
+        "x0": 33.96,
+        "x1": 177.68,
+        "column": 0
+      },
+      {
+        "text": "A defesa da integração comercial, por ambos os presidentes, faz referência ao novo passo a ser dado pelo",
+        "top": 192.53,
+        "bottom": 203.57,
+        "x0": 61.32,
+        "x1": 560.21,
+        "column": 0
+      },
+      {
+        "text": "Mercosul com o intuito de reduzir as barreiras entre cidadãos sul-americanos.",
+        "top": 205.97,
+        "bottom": 217.01,
+        "x0": 61.32,
+        "x1": 409.46,
+        "column": 0
+      },
+      {
+        "text": "A possível condenação dos países do Mercosul a serem apenas fornecedores se deve à manutenção de regras",
+        "top": 225.41,
+        "bottom": 236.45,
+        "x0": 61.32,
+        "x1": 560.27,
+        "column": 0
+      },
+      {
+        "text": "protecionistas, por parte de alguns países da UE, que exporiam pequenas e médias empresas sul-americanas.",
+        "top": 238.85,
+        "bottom": 249.89,
+        "x0": 61.32,
+        "x1": 549.38,
+        "column": 0
+      },
+      {
+        "text": "A recente negociação entre Mercosul e UE tende a intensificar as mudanças na ordem mundial ao fortalecer as",
+        "top": 258.17,
+        "bottom": 269.21,
+        "x0": 61.32,
+        "x1": 560.27,
+        "column": 0
+      },
+      {
+        "text": "indústrias sul-americanas por meio da ampliação da exportação de produtos de maior valor agregado.",
+        "top": 271.61,
+        "bottom": 282.65,
+        "x0": 61.32,
+        "x1": 517.46,
+        "column": 0
+      },
+      {
+        "text": "O presidente da Argentina, ao se referir à importância da integração comercial, demonstra sua discordância",
+        "top": 291.05,
+        "bottom": 302.09,
+        "x0": 61.32,
+        "x1": 560.29,
+        "column": 0
+      },
+      {
+        "text": "com o Chile, que tem buscado manter negociações autônomas mesmo sendo um membro do Mercosul.",
+        "top": 304.49,
+        "bottom": 315.53,
+        "x0": 61.32,
+        "x1": 526.1,
+        "column": 0
+      },
+      {
+        "text": "A questão das compras governamentais, sobre a qual há concordância entre os presidentes do Brasil e da",
+        "top": 323.93,
+        "bottom": 334.97,
+        "x0": 61.32,
+        "x1": 560.28,
+        "column": 0
+      },
+      {
+        "text": "Argentina, refere-se à constituição de uma nova moeda para a América do Sul que substituiria às moedas",
+        "top": 337.37,
+        "bottom": 348.41,
+        "x0": 61.32,
+        "x1": 560.27,
+        "column": 0
+      },
+      {
+        "text": "nacionais.",
+        "top": 350.81,
+        "bottom": 361.85,
+        "x0": 61.32,
+        "x1": 106.1,
+        "column": 0
+      },
+      {
+        "text": "QUESTÃO 14 – Com o avanço da produção de carros elétricos, o lítio vem se tornando um dos minerais de maior",
+        "top": 376.37,
+        "bottom": 387.41,
+        "x0": 33.96,
+        "x1": 561.37,
+        "column": 0
+      },
+      {
+        "text": "interesse do mercado internacional. Usado para fabricação de baterias, seu preço de mercado teve forte variação a",
+        "top": 391.13,
+        "bottom": 402.17,
+        "x0": 33.96,
+        "x1": 561.37,
+        "column": 0
+      },
+      {
+        "text": "partir de meados de 2021, como mostra o gráfico abaixo:",
+        "top": 405.89,
+        "bottom": 416.93,
+        "x0": 33.96,
+        "x1": 289.88,
+        "column": 0
+      },
+      {
+        "text": "Fonte: https://www.bloomberglinea.com.br/2023/04/05/o-que-precos-mais-altos-do-petroleo-significam-para-a-transicao-energetica/ acesso",
+        "top": 579.88,
+        "bottom": 588.88,
+        "x0": 37.08,
+        "x1": 558.06,
+        "column": 0
+      },
+      {
+        "text": "em 02 jun.2023",
+        "top": 592.0,
+        "bottom": 601.0,
+        "x0": 269.04,
+        "x1": 325.92,
+        "column": 0
+      },
+      {
+        "text": "Sobre o mercado do lítio, é CORRETO afirmar que:",
+        "top": 607.37,
+        "bottom": 618.41,
+        "x0": 33.96,
+        "x1": 258.8,
+        "column": 0
+      },
+      {
+        "text": "Mesmo com a crescente demanda pelo mineral para fabricação de baterias de veículos elétricos, o preço do",
+        "top": 628.01,
+        "bottom": 639.05,
+        "x0": 61.32,
+        "x1": 560.21,
+        "column": 0
+      },
+      {
+        "text": "lítio caiu nos primeiros meses de 2023.",
+        "top": 641.45,
+        "bottom": 652.49,
+        "x0": 61.32,
+        "x1": 235.1,
+        "column": 0
+      },
+      {
+        "text": "Apesar da continuidade dos conflitos na Ucrânia e sua reverberação no mercado do petróleo, os preços do lítio",
+        "top": 660.89,
+        "bottom": 671.93,
+        "x0": 61.32,
+        "x1": 560.22,
+        "column": 0
+      },
+      {
+        "text": "continuam em ascensão.",
+        "top": 674.33,
+        "bottom": 685.37,
+        "x0": 61.32,
+        "x1": 172.34,
+        "column": 0
+      },
+      {
+        "text": "O Brasil perde uma importante chance de aumentar exportações e ampliar o superávit da balança comercial ao",
+        "top": 693.65,
+        "bottom": 704.69,
+        "x0": 61.32,
+        "x1": 560.21,
+        "column": 0
+      },
+      {
+        "text": "não se inserir no mercado do lítio.",
+        "top": 707.09,
+        "bottom": 718.13,
+        "x0": 61.32,
+        "x1": 213.86,
+        "column": 0
+      },
+      {
+        "text": "O aumento no preço do lítio no início de 2023 representou uma expansão da produção de carros elétricos",
+        "top": 726.53,
+        "bottom": 737.57,
+        "x0": 61.32,
+        "x1": 560.27,
+        "column": 0
+      },
+      {
+        "text": "devido à insegurança do mercado.",
+        "top": 739.97,
+        "bottom": 751.01,
+        "x0": 61.32,
+        "x1": 214.82,
+        "column": 0
+      },
+      {
+        "text": "A diminuição do preço das baterias impulsionou o mercado de carros elétricos no Brasil, que já detém a maior",
+        "top": 759.4,
+        "bottom": 770.44,
+        "x0": 61.32,
+        "x1": 560.29,
+        "column": 0
+      },
+      {
+        "text": "parcela de vendas desse setor.",
+        "top": 772.84,
+        "bottom": 783.88,
+        "x0": 61.32,
+        "x1": 198.26,
+        "column": 0
+      },
+      {
+        "text": "Página 7 de 20",
+        "top": 789.52,
+        "bottom": 800.56,
+        "x0": 496.08,
+        "x1": 561.31,
+        "column": 0
+      }
+    ],
+    "images": [
+      {
+        "x0": 35.16,
+        "x1": 49.32,
+        "top": 189.72,
+        "bottom": 205.32
+      },
+      {
+        "x0": 35.16,
+        "x1": 50.52,
+        "top": 222.72,
+        "bottom": 238.32
+      },
+      {
+        "x0": 35.16,
+        "x1": 50.52,
+        "top": 256.32,
+        "bottom": 271.92
+      },
+      {
+        "x0": 35.16,
+        "x1": 49.32,
+        "top": 288.84,
+        "bottom": 304.44
+      },
+      {
+        "x0": 35.16,
+        "x1": 50.52,
+        "top": 321.36,
+        "bottom": 337.08
+      },
+      {
+        "x0": 35.16,
+        "x1": 49.32,
+        "top": 625.2,
+        "bottom": 640.8
+      },
+      {
+        "x0": 35.16,
+        "x1": 50.52,
+        "top": 658.2,
+        "bottom": 673.8
+      },
+      {
+        "x0": 35.16,
+        "x1": 50.52,
+        "top": 691.8,
+        "bottom": 707.4
+      },
+      {
+        "x0": 35.16,
+        "x1": 49.32,
+        "top": 724.32,
+        "bottom": 739.92
+      },
+      {
+        "x0": 35.16,
+        "x1": 50.52,
+        "top": 756.84,
+        "bottom": 772.56
+      },
+      {
+        "x0": 158.04,
+        "x1": 438.96,
+        "top": 431.4,
+        "bottom": 569.88
+      }
+    ],
+    "rects": [
+      {
+        "x0": 28.32,
+        "x1": 28.8,
+        "top": 71.52,
+        "bottom": 72.0
+      },
+      {
+        "x0": 28.32,
+        "x1": 28.8,
+        "top": 71.52,
+        "bottom": 72.0
+      },
+      {
+        "x0": 28.8,
+        "x1": 562.68,
+        "top": 71.52,
+        "bottom": 72.0
+      },
+      {
+        "x0": 562.68,
+        "x1": 563.16,
+        "top": 71.52,
+        "bottom": 72.0
+      },
+      {
+        "x0": 562.68,
+        "x1": 563.16,
+        "top": 71.52,
+        "bottom": 72.0
+      },
+      {
+        "x0": 28.32,
+        "x1": 28.8,
+        "top": 72.0,
+        "bottom": 145.8
+      },
+      {
+        "x0": 28.32,
+        "x1": 28.8,
+        "top": 145.8,
+        "bottom": 146.28
+      },
+      {
+        "x0": 28.32,
+        "x1": 28.8,
+        "top": 145.8,
+        "bottom": 146.28
+      },
+      {
+        "x0": 28.8,
+        "x1": 562.68,
+        "top": 145.8,
+        "bottom": 146.28
+      },
+      {
+        "x0": 562.68,
+        "x1": 563.16,
+        "top": 72.0,
+        "bottom": 145.8
+      },
+      {
+        "x0": 562.68,
+        "x1": 563.16,
+        "top": 145.8,
+        "bottom": 146.28
+      },
+      {
+        "x0": 562.68,
+        "x1": 563.16,
+        "top": 145.8,
+        "bottom": 146.28
+      },
+      {
+        "x0": 131.64,
+        "x1": 174.72,
+        "top": 182.16,
+        "bottom": 182.88
+      },
+      {
+        "x0": 157.08,
+        "x1": 201.0,
+        "top": 617.64,
+        "bottom": 618.36
+      }
+    ],
+    "curves": []
+  },
+  {
+    "page": 10,
+    "width": 595,
+    "height": 842,
+    "lines": [
+      {
+        "text": "QUESTÃO 15 – Leia os dois textos abaixo:",
+        "top": 65,
+        "bottom": 69.05,
+        "x0": 33.96,
+        "x1": 219.32,
+        "column": 0
+      },
+      {
+        "text": "TEXTO I",
+        "top": 75.89,
+        "bottom": 86.93,
+        "x0": 279.96,
+        "x1": 315.19,
+        "column": 0
+      },
+      {
+        "text": "África: Lula destaca potencial de parceria no desenvolvimento agrário",
+        "top": 91.13,
+        "bottom": 102.17,
+        "x0": 136.56,
+        "x1": 454.98,
+        "column": 0
+      },
+      {
+        "text": "Ingrid Soares - 09/08/2023 - 20:25",
+        "top": 105.89,
+        "bottom": 116.93,
+        "x0": 402.0,
+        "x1": 557.59,
+        "column": 0
+      },
+      {
+        "text": "O presidente Luiz Inácio Lula da Silva (PT) se reuniu nesta quarta-feira (9/8) com o presidente do Congo, Denis",
+        "top": 120.65,
+        "bottom": 131.69,
+        "x0": 33.96,
+        "x1": 557.63,
+        "column": 0
+      },
+      {
+        "text": "Sassou N'guesso, após a Cúpula da Amazônia, em Belém. O chefe do Executivo brasileiro reforçou a intenção de",
+        "top": 135.41,
+        "bottom": 146.45,
+        "x0": 33.96,
+        "x1": 557.49,
+        "column": 0
+      },
+      {
+        "text": "fazer com que o Brasil retome o diálogo com os países africanos e citou potencial de parceria na preservação",
+        "top": 150.17,
+        "bottom": 161.21,
+        "x0": 33.96,
+        "x1": 557.57,
+        "column": 0
+      },
+      {
+        "text": "ambiental e no desenvolvimento agrário.",
+        "top": 164.93,
+        "bottom": 175.97,
+        "x0": 33.96,
+        "x1": 217.82,
+        "column": 0
+      },
+      {
+        "text": "Mais cedo, o chefe do Executivo também conversou com o presidente da República Democrática do Congo (RDC),",
+        "top": 179.69,
+        "bottom": 190.73,
+        "x0": 33.96,
+        "x1": 557.64,
+        "column": 0
+      },
+      {
+        "text": "Félix Tshisekedi, e destacou a necessidade de avanços nas áreas de cooperação e intercâmbio cultural e econômico.",
+        "top": 194.45,
+        "bottom": 205.49,
+        "x0": 33.96,
+        "x1": 551.3,
+        "column": 0
+      },
+      {
+        "text": "Fonte: https://www.correiobraziliense.com.br/politica/2023/08/5115789-africa-lula-destaca-potencial-de-parceria-no-desenvolvimento-",
+        "top": 209.56,
+        "bottom": 218.56,
+        "x0": 59.64,
+        "x1": 561.23,
+        "column": 0
+      },
+      {
+        "text": "agrario.html Adaptado. Acesso em 10 ago de 2023.",
+        "top": 221.56,
+        "bottom": 230.56,
+        "x0": 374.64,
+        "x1": 561.23,
+        "column": 0
+      },
+      {
+        "text": "TEXTO II",
+        "top": 248.69,
+        "bottom": 259.73,
+        "x0": 278.52,
+        "x1": 316.75,
+        "column": 0
+      },
+      {
+        "text": "Migrantes africanos vagam, no limite de suas forças, no deserto entre Tunísia e Líbia",
+        "top": 263.93,
+        "bottom": 274.97,
+        "x0": 103.32,
+        "x1": 488.33,
+        "column": 0
+      },
+      {
+        "text": "AFPi - 31/07/2023 - 10:02",
+        "top": 278.81,
+        "bottom": 289.85,
+        "x0": 441.12,
+        "x1": 557.59,
+        "column": 0
+      },
+      {
+        "text": "Caminhando até a exaustão, centenas de migrantes africanos entram todos os dias na Líbia, depois de terem sido",
+        "top": 293.57,
+        "bottom": 304.61,
+        "x0": 33.96,
+        "x1": 557.57,
+        "column": 0
+      },
+      {
+        "text": "abandonados na fronteira, no meio do deserto, pelas forças de segurança tunisianas, segundo os seus depoimentos",
+        "top": 308.33,
+        "bottom": 319.37,
+        "x0": 33.96,
+        "x1": 557.63,
+        "column": 0
+      },
+      {
+        "text": "e os da Guarda fronteiriça da Líbia.",
+        "top": 323.09,
+        "bottom": 334.13,
+        "x0": 33.96,
+        "x1": 189.74,
+        "column": 0
+      },
+      {
+        "text": "Cem migrantes foram resgatados por guardas líbios no domingo (30), enquanto vagavam em uma zona árida",
+        "top": 337.85,
+        "bottom": 348.89,
+        "x0": 33.96,
+        "x1": 557.52,
+        "column": 0
+      },
+      {
+        "text": "desabitada perto de Sebjat al Magta, um lago salgado, ao longo da fronteira entre Tunísia e Líbia.",
+        "top": 352.61,
+        "bottom": 363.65,
+        "x0": 33.96,
+        "x1": 467.78,
+        "column": 0
+      },
+      {
+        "text": "Fonte: https://istoe.com.br/migrantes-africanos-vagam-no-limite-de-suas-forcas-no-deserto-entre-tunisia-e-libia/ Adaptado. Acesso em 10 ago",
+        "top": 367.6,
+        "bottom": 376.6,
+        "x0": 36.84,
+        "x1": 561.18,
+        "column": 0
+      },
+      {
+        "text": "de 2023.",
+        "top": 379.72,
+        "bottom": 388.72,
+        "x0": 529.44,
+        "x1": 561.11,
+        "column": 0
+      },
+      {
+        "text": "Considerando a regionalização do continente africano pelo critério de localização, que o subdivide em cinco regiões,",
+        "top": 433.73,
+        "bottom": 444.77,
+        "x0": 33.96,
+        "x1": 561.36,
+        "column": 0
+      },
+      {
+        "text": "assinale a alternativa que indica corretamente as regiões nas quais se localizam os países envolvidos nas duas",
+        "top": 448.49,
+        "bottom": 459.53,
+        "x0": 33.96,
+        "x1": 561.35,
+        "column": 0
+      },
+      {
+        "text": "reportagens:",
+        "top": 463.25,
+        "bottom": 474.29,
+        "x0": 33.96,
+        "x1": 91.4,
+        "column": 0
+      },
+      {
+        "text": "1) Magreb | 2) Sahel",
+        "top": 496.01,
+        "bottom": 507.05,
+        "x0": 61.32,
+        "x1": 153.37,
+        "column": 0
+      },
+      {
+        "text": "1) Sahel | 2) África Setentrional",
+        "top": 522.05,
+        "bottom": 533.09,
+        "x0": 61.32,
+        "x1": 201.73,
+        "column": 0
+      },
+      {
+        "text": "1) África Meridional | 2) Magreb",
+        "top": 548.21,
+        "bottom": 559.25,
+        "x0": 61.32,
+        "x1": 206.55,
+        "column": 0
+      },
+      {
+        "text": "1) África Ocidental | 2) África Oriental",
+        "top": 575.09,
+        "bottom": 586.13,
+        "x0": 61.32,
+        "x1": 230.53,
+        "column": 0
+      },
+      {
+        "text": "1) África Central | 2) África Setentrional",
+        "top": 601.73,
+        "bottom": 612.77,
+        "x0": 61.32,
+        "x1": 238.57,
+        "column": 0
+      },
+      {
+        "text": "Página 8 de 20",
+        "top": 789.52,
+        "bottom": 800.56,
+        "x0": 496.08,
+        "x1": 561.31,
+        "column": 0
+      }
+    ],
+    "images": [
+      {
+        "x0": 35.16,
+        "x1": 49.32,
+        "top": 493.2,
+        "bottom": 508.8
+      },
+      {
+        "x0": 35.16,
+        "x1": 50.52,
+        "top": 519.36,
+        "bottom": 534.96
+      },
+      {
+        "x0": 35.16,
+        "x1": 50.52,
+        "top": 546.24,
+        "bottom": 561.96
+      },
+      {
+        "x0": 35.16,
+        "x1": 49.32,
+        "top": 572.88,
+        "bottom": 588.48
+      },
+      {
+        "x0": 35.16,
+        "x1": 50.52,
+        "top": 599.16,
+        "bottom": 614.76
+      }
+    ],
+    "rects": [
+      {
+        "x0": 28.32,
+        "x1": 28.8,
+        "top": 89.28,
+        "bottom": 89.76
+      },
+      {
+        "x0": 28.32,
+        "x1": 28.8,
+        "top": 89.28,
+        "bottom": 89.76
+      },
+      {
+        "x0": 28.8,
+        "x1": 562.68,
+        "top": 89.28,
+        "bottom": 89.76
+      },
+      {
+        "x0": 562.68,
+        "x1": 563.16,
+        "top": 89.28,
+        "bottom": 89.76
+      },
+      {
+        "x0": 562.68,
+        "x1": 563.16,
+        "top": 89.28,
+        "bottom": 89.76
+      },
+      {
+        "x0": 28.32,
+        "x1": 28.8,
+        "top": 89.76,
+        "bottom": 207.96
+      },
+      {
+        "x0": 28.32,
+        "x1": 28.8,
+        "top": 207.96,
+        "bottom": 208.44
+      },
+      {
+        "x0": 28.32,
+        "x1": 28.8,
+        "top": 207.96,
+        "bottom": 208.44
+      },
+      {
+        "x0": 28.8,
+        "x1": 562.68,
+        "top": 207.96,
+        "bottom": 208.44
+      },
+      {
+        "x0": 562.68,
+        "x1": 563.16,
+        "top": 89.76,
+        "bottom": 207.96
+      },
+      {
+        "x0": 562.68,
+        "x1": 563.16,
+        "top": 207.96,
+        "bottom": 208.44
+      },
+      {
+        "x0": 562.68,
+        "x1": 563.16,
+        "top": 207.96,
+        "bottom": 208.44
+      },
+      {
+        "x0": 28.32,
+        "x1": 28.8,
+        "top": 262.08,
+        "bottom": 262.56
+      },
+      {
+        "x0": 28.32,
+        "x1": 28.8,
+        "top": 262.08,
+        "bottom": 262.56
+      },
+      {
+        "x0": 28.8,
+        "x1": 562.68,
+        "top": 262.08,
+        "bottom": 262.56
+      },
+      {
+        "x0": 562.68,
+        "x1": 563.16,
+        "top": 262.08,
+        "bottom": 262.56
+      },
+      {
+        "x0": 562.68,
+        "x1": 563.16,
+        "top": 262.08,
+        "bottom": 262.56
+      },
+      {
+        "x0": 28.32,
+        "x1": 28.8,
+        "top": 262.56,
+        "bottom": 366.0
+      },
+      {
+        "x0": 28.32,
+        "x1": 28.8,
+        "top": 366.0,
+        "bottom": 366.48
+      },
+      {
+        "x0": 28.32,
+        "x1": 28.8,
+        "top": 366.0,
+        "bottom": 366.48
+      },
+      {
+        "x0": 28.8,
+        "x1": 562.68,
+        "top": 366.0,
+        "bottom": 366.48
+      },
+      {
+        "x0": 562.68,
+        "x1": 563.16,
+        "top": 262.56,
+        "bottom": 366.0
+      },
+      {
+        "x0": 562.68,
+        "x1": 563.16,
+        "top": 366.0,
+        "bottom": 366.48
+      },
+      {
+        "x0": 562.68,
+        "x1": 563.16,
+        "top": 366.0,
+        "bottom": 366.48
+      }
+    ],
+    "curves": []
+  },
+  {
+    "page": 11,
+    "width": 595,
+    "height": 842,
+    "lines": [
+      {
+        "text": "HISTÓRIA",
+        "top": 65,
+        "bottom": 74.74,
+        "x0": 273.12,
+        "x1": 320.95,
+        "column": 0
+      },
+      {
+        "text": "Objetivas",
+        "top": 76.96,
+        "bottom": 85.96,
+        "x0": 279.84,
+        "x1": 314.08,
+        "column": 0
+      },
+      {
+        "text": "Questões de 16 a 20",
+        "top": 92.57,
+        "bottom": 103.61,
+        "x0": 251.52,
+        "x1": 343.75,
+        "column": 0
+      },
+      {
+        "text": "Questão 16 – Leia os textos a seguir:",
+        "top": 118.13,
+        "bottom": 129.17,
+        "x0": 33.96,
+        "x1": 197.72,
+        "column": 0
+      },
+      {
+        "text": "Texto I",
+        "top": 144.89,
+        "bottom": 155.93,
+        "x0": 282.0,
+        "x1": 313.27,
+        "column": 0
+      },
+      {
+        "text": "O postulado do racismo biológico poderia representar um obstáculo para alguns observadores, tal como a atitude",
+        "top": 175.13,
+        "bottom": 186.17,
+        "x0": 33.96,
+        "x1": 557.61,
+        "column": 0
+      },
+      {
+        "text": "ateia do regime nazista. Já desde as primeiras glosas do triunfo de Hitler que os fascistas espanhóis salientavam que",
+        "top": 189.89,
+        "bottom": 200.93,
+        "x0": 33.96,
+        "x1": 557.49,
+        "column": 0
+      },
+      {
+        "text": "o antissemitismo biológico-genético era a grande característica que diferenciava o “hitlerismo” dos outros",
+        "top": 204.77,
+        "bottom": 215.81,
+        "x0": 33.96,
+        "x1": 557.63,
+        "column": 0
+      },
+      {
+        "text": "movimentos fascistas, e afastavam-se dessa concepção de raça. No entanto, assinalavam, ao mesmo tempo, que os",
+        "top": 219.53,
+        "bottom": 230.57,
+        "x0": 33.96,
+        "x1": 557.63,
+        "column": 0
+      },
+      {
+        "text": "espanhóis também não gostavam dos judeus e que, portanto, compreendiam a interpretação racial que o nacional-",
+        "top": 234.29,
+        "bottom": 245.33,
+        "x0": 33.96,
+        "x1": 557.54,
+        "column": 0
+      },
+      {
+        "text": "socialismo dava a um problema universal, que noutras latitudes (Espanha e Itália) tinha adquirido apenas",
+        "top": 249.05,
+        "bottom": 260.09,
+        "x0": 33.96,
+        "x1": 557.64,
+        "column": 0
+      },
+      {
+        "text": "características confessionais.",
+        "top": 263.81,
+        "bottom": 274.85,
+        "x0": 33.96,
+        "x1": 163.1,
+        "column": 0
+      },
+      {
+        "text": "Fonte: SEIXAS, Xosé M. N. Ecos de Berlim: a influência do nacional-socialismo alemão no fascismo espanhol (1930-1940). Estudos Ibero-",
+        "top": 281.8,
+        "bottom": 290.8,
+        "x0": 66.36,
+        "x1": 561.23,
+        "column": 0
+      },
+      {
+        "text": "Americanos, 2015, p. 46",
+        "top": 293.92,
+        "bottom": 302.92,
+        "x0": 473.4,
+        "x1": 561.24,
+        "column": 0
+      },
+      {
+        "text": "Texto II",
+        "top": 318.29,
+        "bottom": 329.33,
+        "x0": 280.56,
+        "x1": 314.71,
+        "column": 0
+      },
+      {
+        "text": "Quem são os Yomus, grupo de ultras fascistas que começou os atos racistas contra Vini Jr.",
+        "top": 348.53,
+        "bottom": 359.57,
+        "x0": 91.08,
+        "x1": 500.35,
+        "column": 0
+      },
+      {
+        "text": "Os torcedores localizados atrás do gol defendido por Mamardashvili, do Valência, durante o segundo tempo, foram",
+        "top": 375.29,
+        "bottom": 386.33,
+        "x0": 33.96,
+        "x1": 557.46,
+        "column": 0
+      },
+      {
+        "text": "os responsáveis por iniciarem os atos racistas contra o atacante Vinicius Junior, no último domingo, no estádio",
+        "top": 390.05,
+        "bottom": 401.09,
+        "x0": 33.96,
+        "x1": 557.58,
+        "column": 0
+      },
+      {
+        "text": "Mestalla. Aquele setor da arena é onde fica o grupo Ultra Yomus, uma torcida organizada considerada",
+        "top": 404.81,
+        "bottom": 415.85,
+        "x0": 33.96,
+        "x1": 557.53,
+        "column": 0
+      },
+      {
+        "text": "ideologicamente fascista e de ideologia nacionalista espanhola. O grupo Yomus surgiu em 1983 num contexto",
+        "top": 419.57,
+        "bottom": 430.61,
+        "x0": 33.96,
+        "x1": 557.57,
+        "column": 0
+      },
+      {
+        "text": "político muito marcado pela agitação e violência. Na década de 1990, diversos jovens com pensamentos neonazistas",
+        "top": 434.33,
+        "bottom": 445.37,
+        "x0": 33.96,
+        "x1": 557.63,
+        "column": 0
+      },
+      {
+        "text": "entraram nos Yomus e ficou cada vez mais comum vermos nos jogos bandeiras identificadas com o nazismo, o",
+        "top": 449.09,
+        "bottom": 460.13,
+        "x0": 33.96,
+        "x1": 557.57,
+        "column": 0
+      },
+      {
+        "text": "orgulho celta e o franquismo.",
+        "top": 463.85,
+        "bottom": 474.89,
+        "x0": 33.96,
+        "x1": 165.62,
+        "column": 0
+      },
+      {
+        "text": "Fonte: https://oglobo.globo.com/esportes/futebol-internacional/noticia/2023/05/quem-sao-os-yomus-grupo-de-ultrafascistas-que-comecou-",
+        "top": 481.96,
+        "bottom": 490.96,
+        "x0": 41.52,
+        "x1": 561.35,
+        "column": 0
+      },
+      {
+        "text": "os-atos-racistas-contra-vini-jr.ghtml. Acessado em 13 jun de 2023",
+        "top": 493.96,
+        "bottom": 502.96,
+        "x0": 321.72,
+        "x1": 561.12,
+        "column": 0
+      },
+      {
+        "text": "A partir dos dois textos, compreende-se que a nefasta adesão ao racismo na Espanha",
+        "top": 518.33,
+        "bottom": 529.37,
+        "x0": 33.96,
+        "x1": 414.48,
+        "column": 0
+      },
+      {
+        "text": "foi juridicamente estabelecida no contexto de institucionalização do regime fascista espanhol no final do século",
+        "top": 541.97,
+        "bottom": 553.01,
+        "x0": 61.32,
+        "x1": 560.21,
+        "column": 0
+      },
+      {
+        "text": "XIX.",
+        "top": 555.41,
+        "bottom": 566.45,
+        "x0": 61.32,
+        "x1": 78.38,
+        "column": 0
+      },
+      {
+        "text": "foi um fenômeno em ascensão nos anos finais do século XX, sem relação direta com o fascismo",
+        "top": 574.85,
+        "bottom": 585.89,
+        "x0": 61.32,
+        "x1": 560.22,
+        "column": 0
+      },
+      {
+        "text": "espanhol.",
+        "top": 588.29,
+        "bottom": 599.33,
+        "x0": 61.32,
+        "x1": 104.9,
+        "column": 0
+      },
+      {
+        "text": "não possui relação com o fascismo espanhol porque esse regime se diferenciava do nazismo no tocante à",
+        "top": 607.73,
+        "bottom": 618.77,
+        "x0": 61.32,
+        "x1": 560.28,
+        "column": 0
+      },
+      {
+        "text": "questão racial.",
+        "top": 621.17,
+        "bottom": 632.21,
+        "x0": 61.32,
+        "x1": 126.86,
+        "column": 0
+      },
+      {
+        "text": "possui vinculação com o contexto de emergência do fascismo espanhol, com repercussão em práticas sociais",
+        "top": 640.61,
+        "bottom": 651.65,
+        "x0": 61.32,
+        "x1": 560.27,
+        "column": 0
+      },
+      {
+        "text": "atuais.",
+        "top": 653.93,
+        "bottom": 664.97,
+        "x0": 61.32,
+        "x1": 90.98,
+        "column": 0
+      },
+      {
+        "text": "é explicada pela aproximação recente entre torcidas organizadas de times espanhóis e de times alemães que",
+        "top": 673.37,
+        "bottom": 684.41,
+        "x0": 61.32,
+        "x1": 560.25,
+        "column": 0
+      },
+      {
+        "text": "compartilham ideais fascistas.",
+        "top": 686.81,
+        "bottom": 697.85,
+        "x0": 61.32,
+        "x1": 195.38,
+        "column": 0
+      },
+      {
+        "text": "Página 9 de 20",
+        "top": 789.52,
+        "bottom": 800.56,
+        "x0": 496.08,
+        "x1": 561.31,
+        "column": 0
+      }
+    ],
+    "images": [
+      {
+        "x0": 35.16,
+        "x1": 49.32,
+        "top": 539.16,
+        "bottom": 554.88
+      },
+      {
+        "x0": 35.16,
+        "x1": 50.52,
+        "top": 572.16,
+        "bottom": 587.88
+      },
+      {
+        "x0": 35.16,
+        "x1": 50.52,
+        "top": 605.76,
+        "bottom": 621.36
+      },
+      {
+        "x0": 35.16,
+        "x1": 49.32,
+        "top": 638.28,
+        "bottom": 654.0
+      },
+      {
+        "x0": 35.16,
+        "x1": 50.52,
+        "top": 670.92,
+        "bottom": 686.52
+      }
+    ],
+    "rects": [
+      {
+        "x0": 28.8,
+        "x1": 565.32,
+        "top": 57.24,
+        "bottom": 90.84
+      },
+      {
+        "x0": 33.96,
+        "x1": 560.16,
+        "top": 57.24,
+        "bottom": 75.84
+      },
+      {
+        "x0": 33.96,
+        "x1": 560.16,
+        "top": 75.84,
+        "bottom": 90.84
+      },
+      {
+        "x0": 28.32,
+        "x1": 28.8,
+        "top": 56.64,
+        "bottom": 57.12
+      },
+      {
+        "x0": 28.32,
+        "x1": 28.8,
+        "top": 56.64,
+        "bottom": 57.12
+      },
+      {
+        "x0": 28.8,
+        "x1": 565.32,
+        "top": 56.64,
+        "bottom": 57.12
+      },
+      {
+        "x0": 565.32,
+        "x1": 565.8,
+        "top": 56.64,
+        "bottom": 57.12
+      },
+      {
+        "x0": 565.32,
+        "x1": 565.8,
+        "top": 56.64,
+        "bottom": 57.12
+      },
+      {
+        "x0": 28.32,
+        "x1": 28.8,
+        "top": 57.12,
+        "bottom": 90.84
+      },
+      {
+        "x0": 28.32,
+        "x1": 28.8,
+        "top": 90.84,
+        "bottom": 91.32
+      },
+      {
+        "x0": 28.32,
+        "x1": 28.8,
+        "top": 90.84,
+        "bottom": 91.32
+      },
+      {
+        "x0": 28.8,
+        "x1": 565.32,
+        "top": 90.84,
+        "bottom": 91.32
+      },
+      {
+        "x0": 565.32,
+        "x1": 565.8,
+        "top": 57.12,
+        "bottom": 90.84
+      },
+      {
+        "x0": 565.32,
+        "x1": 565.8,
+        "top": 90.84,
+        "bottom": 91.32
+      },
+      {
+        "x0": 565.32,
+        "x1": 565.8,
+        "top": 90.84,
+        "bottom": 91.32
+      },
+      {
+        "x0": 28.32,
+        "x1": 28.8,
+        "top": 161.28,
+        "bottom": 161.76
+      },
+      {
+        "x0": 28.32,
+        "x1": 28.8,
+        "top": 161.28,
+        "bottom": 161.76
+      },
+      {
+        "x0": 28.8,
+        "x1": 562.68,
+        "top": 161.28,
+        "bottom": 161.76
+      },
+      {
+        "x0": 562.68,
+        "x1": 563.16,
+        "top": 161.28,
+        "bottom": 161.76
+      },
+      {
+        "x0": 562.68,
+        "x1": 563.16,
+        "top": 161.28,
+        "bottom": 161.76
+      },
+      {
+        "x0": 28.32,
+        "x1": 28.8,
+        "top": 161.76,
+        "bottom": 280.2
+      },
+      {
+        "x0": 28.32,
+        "x1": 28.8,
+        "top": 280.2,
+        "bottom": 280.68
+      },
+      {
+        "x0": 28.32,
+        "x1": 28.8,
+        "top": 280.2,
+        "bottom": 280.68
+      },
+      {
+        "x0": 28.8,
+        "x1": 562.68,
+        "top": 280.2,
+        "bottom": 280.68
+      },
+      {
+        "x0": 562.68,
+        "x1": 563.16,
+        "top": 161.76,
+        "bottom": 280.2
+      },
+      {
+        "x0": 562.68,
+        "x1": 563.16,
+        "top": 280.2,
+        "bottom": 280.68
+      },
+      {
+        "x0": 562.68,
+        "x1": 563.16,
+        "top": 280.2,
+        "bottom": 280.68
+      },
+      {
+        "x0": 28.32,
+        "x1": 28.8,
+        "top": 334.68,
+        "bottom": 335.16
+      },
+      {
+        "x0": 28.32,
+        "x1": 28.8,
+        "top": 334.68,
+        "bottom": 335.16
+      },
+      {
+        "x0": 28.8,
+        "x1": 562.68,
+        "top": 334.68,
+        "bottom": 335.16
+      },
+      {
+        "x0": 562.68,
+        "x1": 563.16,
+        "top": 334.68,
+        "bottom": 335.16
+      },
+      {
+        "x0": 562.68,
+        "x1": 563.16,
+        "top": 334.68,
+        "bottom": 335.16
+      },
+      {
+        "x0": 28.32,
+        "x1": 28.8,
+        "top": 335.16,
+        "bottom": 480.36
+      },
+      {
+        "x0": 28.32,
+        "x1": 28.8,
+        "top": 480.36,
+        "bottom": 480.84
+      },
+      {
+        "x0": 28.32,
+        "x1": 28.8,
+        "top": 480.36,
+        "bottom": 480.84
+      },
+      {
+        "x0": 28.8,
+        "x1": 562.68,
+        "top": 480.36,
+        "bottom": 480.84
+      },
+      {
+        "x0": 562.68,
+        "x1": 563.16,
+        "top": 335.16,
+        "bottom": 480.36
+      },
+      {
+        "x0": 562.68,
+        "x1": 563.16,
+        "top": 480.36,
+        "bottom": 480.84
+      },
+      {
+        "x0": 562.68,
+        "x1": 563.16,
+        "top": 480.36,
+        "bottom": 480.84
+      }
+    ],
+    "curves": []
+  },
+  {
+    "page": 12,
+    "width": 595,
+    "height": 842,
+    "lines": [
+      {
+        "text": "QUESTÃO 17 - Observe a imagem e leia o texto a seguir:",
+        "top": 65,
+        "bottom": 69.05,
+        "x0": 33.96,
+        "x1": 284.96,
+        "column": 0
+      },
+      {
+        "text": "Em 1928, dois comunistas do Bloco Operário e Camponês foram eleitos para o Conselho Municipal do Distrito",
+        "top": 307.37,
+        "bottom": 318.41,
+        "x0": 33.96,
+        "x1": 557.57,
+        "column": 0
+      },
+      {
+        "text": "Federal.",
+        "top": 322.13,
+        "bottom": 333.17,
+        "x0": 33.96,
+        "x1": 70.22,
+        "column": 0
+      },
+      {
+        "text": "“[...] só nos devem encher de satisfação as novas diretivas que vêm adotando o movimento proletário entre nós,",
+        "top": 348.89,
+        "bottom": 359.93,
+        "x0": 33.96,
+        "x1": 557.64,
+        "column": 0
+      },
+      {
+        "text": "arregimentando suas forças para futuras batalhas eleitorais, que inaugurarão uma fase na política, fazendo com que",
+        "top": 363.65,
+        "bottom": 374.69,
+        "x0": 33.96,
+        "x1": 557.49,
+        "column": 0
+      },
+      {
+        "text": "o proletariado entre em cena, independente dos chorrilhos políticos da burguesia (...) será um dos muitos meios de",
+        "top": 378.41,
+        "bottom": 389.45,
+        "x0": 33.96,
+        "x1": 557.61,
+        "column": 0
+      },
+      {
+        "text": "alargar sua luta geral contra os exploradores, criando uma nova frente de combate e preparando com ela novas",
+        "top": 393.17,
+        "bottom": 404.21,
+        "x0": 33.96,
+        "x1": 557.63,
+        "column": 0
+      },
+      {
+        "text": "bases para um mais largo movimento de massas capaz de derrubar definitivamente os seus exploradores e levá-los à",
+        "top": 407.93,
+        "bottom": 418.97,
+        "x0": 33.96,
+        "x1": 557.52,
+        "column": 0
+      },
+      {
+        "text": "definitiva vitória contra os seus inimigos seculares”.",
+        "top": 422.69,
+        "bottom": 433.73,
+        "x0": 33.96,
+        "x1": 264.86,
+        "column": 0
+      },
+      {
+        "text": "Fonte: trecho do jornal “A Esquerda”, publicado no Rio de Janeiro em fevereiro de 1928. Citado por Batalha, C. Formação da classe operária e",
+        "top": 446.8,
+        "bottom": 455.8,
+        "x0": 43.92,
+        "x1": 561.28,
+        "column": 0
+      },
+      {
+        "text": "projetos de identidade coletiva. In: FERREIRA, J. e DELGADO, L.N. (org). O Brasil Republicano, Vol 1. Rio de Janeiro, Civilização Brasileira, 2008.",
+        "top": 458.8,
+        "bottom": 467.8,
+        "x0": 41.64,
+        "x1": 561.23,
+        "column": 0
+      },
+      {
+        "text": "p. 181",
+        "top": 470.92,
+        "bottom": 479.92,
+        "x0": 538.56,
+        "x1": 561.24,
+        "column": 0
+      },
+      {
+        "text": "A partir do texto e da imagem, observa-se",
+        "top": 510.05,
+        "bottom": 521.09,
+        "x0": 33.96,
+        "x1": 221.61,
+        "column": 0
+      },
+      {
+        "text": "a rejeição dos Anarquistas em relação a procedimentos e instituições político-parlamentares típicos da",
+        "top": 533.69,
+        "bottom": 544.73,
+        "x0": 61.32,
+        "x1": 560.28,
+        "column": 0
+      },
+      {
+        "text": "democracia liberal.",
+        "top": 547.13,
+        "bottom": 558.17,
+        "x0": 61.32,
+        "x1": 146.66,
+        "column": 0
+      },
+      {
+        "text": "a crítica das oligarquias ao sistema eleitoral vigente, em que só votavam homens alfabetizados e maiores de 21",
+        "top": 566.57,
+        "bottom": 577.61,
+        "x0": 61.32,
+        "x1": 560.24,
+        "column": 0
+      },
+      {
+        "text": "anos.",
+        "top": 580.01,
+        "bottom": 591.05,
+        "x0": 61.32,
+        "x1": 85.34,
+        "column": 0
+      },
+      {
+        "text": "a visão dos Socialistas no sentido de defender o processo eleitoral como principal meio de conquistar direitos",
+        "top": 599.45,
+        "bottom": 610.49,
+        "x0": 61.32,
+        "x1": 560.27,
+        "column": 0
+      },
+      {
+        "text": "sociais.",
+        "top": 612.77,
+        "bottom": 623.81,
+        "x0": 61.32,
+        "x1": 93.62,
+        "column": 0
+      },
+      {
+        "text": "a defesa de uma reforma imediata do sistema eleitoral da Primeira República, visando permitir a candidatura",
+        "top": 632.21,
+        "bottom": 643.25,
+        "x0": 61.32,
+        "x1": 560.29,
+        "column": 0
+      },
+      {
+        "text": "de membros da classe trabalhadora.",
+        "top": 645.65,
+        "bottom": 656.69,
+        "x0": 61.32,
+        "x1": 223.82,
+        "column": 0
+      },
+      {
+        "text": "a posição dos Comunistas em defesa da participação no processo eleitoral, compreendido como um espaço de",
+        "top": 665.09,
+        "bottom": 676.13,
+        "x0": 61.32,
+        "x1": 560.25,
+        "column": 0
+      },
+      {
+        "text": "luta política dentre outros.",
+        "top": 678.53,
+        "bottom": 689.57,
+        "x0": 61.32,
+        "x1": 180.98,
+        "column": 0
+      },
+      {
+        "text": "Página 10 de 20",
+        "top": 789.52,
+        "bottom": 800.56,
+        "x0": 490.56,
+        "x1": 561.31,
+        "column": 0
+      }
+    ],
+    "images": [
+      {
+        "x0": 35.16,
+        "x1": 49.32,
+        "top": 530.88,
+        "bottom": 546.6
+      },
+      {
+        "x0": 35.16,
+        "x1": 50.52,
+        "top": 563.88,
+        "bottom": 579.6
+      },
+      {
+        "x0": 35.16,
+        "x1": 50.52,
+        "top": 597.48,
+        "bottom": 613.08
+      },
+      {
+        "x0": 35.16,
+        "x1": 49.32,
+        "top": 630.0,
+        "bottom": 645.72
+      },
+      {
+        "x0": 35.16,
+        "x1": 50.52,
+        "top": 662.52,
+        "bottom": 678.24
+      },
+      {
+        "x0": 84.72,
+        "x1": 511.56,
+        "top": 92.16,
+        "bottom": 268.08
+      },
+      {
+        "x0": 84.72,
+        "x1": 511.56,
+        "top": 92.16,
+        "bottom": 268.08
+      },
+      {
+        "x0": 84.72,
+        "x1": 511.56,
+        "top": 92.16,
+        "bottom": 268.08
+      }
+    ],
+    "rects": [
+      {
+        "x0": 28.32,
+        "x1": 28.8,
+        "top": 293.52,
+        "bottom": 294.0
+      },
+      {
+        "x0": 28.32,
+        "x1": 28.8,
+        "top": 293.52,
+        "bottom": 294.0
+      },
+      {
+        "x0": 28.8,
+        "x1": 215.16,
+        "top": 293.52,
+        "bottom": 294.0
+      },
+      {
+        "x0": 28.32,
+        "x1": 28.8,
+        "top": 294.0,
+        "bottom": 439.2
+      },
+      {
+        "x0": 28.32,
+        "x1": 28.8,
+        "top": 439.2,
+        "bottom": 439.68
+      },
+      {
+        "x0": 28.32,
+        "x1": 28.8,
+        "top": 439.2,
+        "bottom": 439.68
+      },
+      {
+        "x0": 28.8,
+        "x1": 215.16,
+        "top": 439.2,
+        "bottom": 439.68
+      },
+      {
+        "x0": 215.16,
+        "x1": 430.32,
+        "top": 293.52,
+        "bottom": 294.0
+      },
+      {
+        "x0": 215.16,
+        "x1": 430.32,
+        "top": 439.2,
+        "bottom": 439.68
+      },
+      {
+        "x0": 430.32,
+        "x1": 562.68,
+        "top": 293.52,
+        "bottom": 294.0
+      },
+      {
+        "x0": 562.68,
+        "x1": 563.16,
+        "top": 293.52,
+        "bottom": 294.0
+      },
+      {
+        "x0": 562.68,
+        "x1": 563.16,
+        "top": 293.52,
+        "bottom": 294.0
+      },
+      {
+        "x0": 430.32,
+        "x1": 562.68,
+        "top": 439.2,
+        "bottom": 439.68
+      },
+      {
+        "x0": 562.68,
+        "x1": 563.16,
+        "top": 294.0,
+        "bottom": 439.2
+      },
+      {
+        "x0": 562.68,
+        "x1": 563.16,
+        "top": 439.2,
+        "bottom": 439.68
+      },
+      {
+        "x0": 562.68,
+        "x1": 563.16,
+        "top": 439.2,
+        "bottom": 439.68
+      }
+    ],
+    "curves": []
+  },
+  {
+    "page": 13,
+    "width": 595,
+    "height": 842,
+    "lines": [
+      {
+        "text": "QUESTÃO 18 - Observe a imagem a seguir:",
+        "top": 65,
+        "bottom": 69.05,
+        "x0": 33.96,
+        "x1": 224.59,
+        "column": 0
+      },
+      {
+        "text": "Fig. 1: Capa de Superman (n. 17. Julho-agosto). Disponível em: h+ps://m.media-amazon.com/images/I/51usOys22zL.jpg",
+        "top": 445.72,
+        "bottom": 454.72,
+        "x0": 123.6,
+        "x1": 561.28,
+        "column": 0
+      },
+      {
+        "text": "acesso em 26 jun. 2023.",
+        "top": 460.84,
+        "bottom": 469.84,
+        "x0": 473.52,
+        "x1": 561.11,
+        "column": 0
+      },
+      {
+        "text": "Sobre a participação dos EUA na Segunda Guerra Mundial e dos usos políticos da indústria cultural, é CORRETO",
+        "top": 485.09,
+        "bottom": 496.13,
+        "x0": 33.96,
+        "x1": 561.38,
+        "column": 0
+      },
+      {
+        "text": "afirmar que:",
+        "top": 499.97,
+        "bottom": 511.01,
+        "x0": 33.96,
+        "x1": 89.36,
+        "column": 0
+      },
+      {
+        "text": "Os EUA participaram da Segunda Guerra Mundial, principalmente a partir da política cultural, por isso, filmes,",
+        "top": 523.61,
+        "bottom": 534.65,
+        "x0": 61.32,
+        "x1": 560.28,
+        "column": 0
+      },
+      {
+        "text": "desenhos animados e história em quadrinhos foram utilizados à exaustão.",
+        "top": 536.93,
+        "bottom": 547.97,
+        "x0": 61.32,
+        "x1": 392.06,
+        "column": 0
+      },
+      {
+        "text": "A utilização das histórias em quadrinhos tinha como objetivo primordial o alistamento de soldados, assim como",
+        "top": 556.37,
+        "bottom": 567.41,
+        "x0": 61.32,
+        "x1": 560.21,
+        "column": 0
+      },
+      {
+        "text": "justificar a presença de mulheres jovens nos campos de batalha no território europeu.",
+        "top": 569.81,
+        "bottom": 580.85,
+        "x0": 61.31,
+        "x1": 446.3,
+        "column": 0
+      },
+      {
+        "text": "A capa de Superman reforçava o uso da indústria cultural, como forma de representar a participação dos EUA",
+        "top": 589.25,
+        "bottom": 600.29,
+        "x0": 61.32,
+        "x1": 560.31,
+        "column": 0
+      },
+      {
+        "text": "na Segunda Guerra Mundial, e valorizar a presença americana como solucionadora do conflito.",
+        "top": 602.69,
+        "bottom": 613.73,
+        "x0": 61.32,
+        "x1": 484.82,
+        "column": 0
+      },
+      {
+        "text": "A participação dos EUA na Segunda Guerra Mundial não foi consenso entre as forças aliadas, por essa razão, a",
+        "top": 622.13,
+        "bottom": 633.17,
+        "x0": 61.32,
+        "x1": 560.16,
+        "column": 0
+      },
+      {
+        "text": "indústria cultural foi um instrumento para justificar a necessidade da incursão militar.",
+        "top": 635.57,
+        "bottom": 646.61,
+        "x0": 61.32,
+        "x1": 443.54,
+        "column": 0
+      },
+      {
+        "text": "A entrada dos EUA na Segunda Guerra Mundial representou o momento de criação da indústria cultural, sendo",
+        "top": 655.01,
+        "bottom": 666.05,
+        "x0": 61.32,
+        "x1": 560.21,
+        "column": 0
+      },
+      {
+        "text": "que filmes, histórias em quadrinhos e desenhos animados surgiram no contexto da guerra.",
+        "top": 668.45,
+        "bottom": 679.49,
+        "x0": 61.32,
+        "x1": 466.58,
+        "column": 0
+      },
+      {
+        "text": "Página 11 de 20",
+        "top": 789.52,
+        "bottom": 800.56,
+        "x0": 490.56,
+        "x1": 561.31,
+        "column": 0
+      }
+    ],
+    "images": [
+      {
+        "x0": 35.16,
+        "x1": 49.32,
+        "top": 520.8,
+        "bottom": 536.4
+      },
+      {
+        "x0": 35.16,
+        "x1": 50.52,
+        "top": 553.8,
+        "bottom": 569.4
+      },
+      {
+        "x0": 35.16,
+        "x1": 50.52,
+        "top": 587.28,
+        "bottom": 603.0
+      },
+      {
+        "x0": 35.16,
+        "x1": 49.32,
+        "top": 619.92,
+        "bottom": 635.52
+      },
+      {
+        "x0": 35.16,
+        "x1": 50.52,
+        "top": 652.44,
+        "bottom": 668.04
+      },
+      {
+        "x0": 174.6,
+        "x1": 409.8,
+        "top": 82.8,
+        "bottom": 435.6
+      }
+    ],
+    "rects": [
+      {
+        "x0": 517.56,
+        "x1": 561.24,
+        "top": 495.36,
+        "bottom": 496.08
+      }
+    ],
+    "curves": []
+  },
+  {
+    "page": 14,
+    "width": 595,
+    "height": 842,
+    "lines": [
+      {
+        "text": "QUESTÃO 19 - Leia o texto a seguir:",
+        "top": 65,
+        "bottom": 69.05,
+        "x0": 33.96,
+        "x1": 193.27,
+        "column": 0
+      },
+      {
+        "text": "As grandes redes de TV surgiam com programação em âmbito nacional, estimuladas pela criação da Embratel, do",
+        "top": 76.37,
+        "bottom": 87.41,
+        "x0": 33.96,
+        "x1": 557.57,
+        "column": 0
+      },
+      {
+        "text": "Ministério das Comunicações e de outros investimentos governamentais em telecomunicação, que buscavam a",
+        "top": 91.13,
+        "bottom": 102.17,
+        "x0": 33.96,
+        "x1": 557.64,
+        "column": 0
+      },
+      {
+        "text": "integração e a segurança do território brasileiro. Ganhavam vulto diversas instituições estatais de incremento à",
+        "top": 105.89,
+        "bottom": 116.93,
+        "x0": 33.96,
+        "x1": 557.65,
+        "column": 0
+      },
+      {
+        "text": "cultura, como a Embrafilme, a Funarte e o Conselho Federal de Cultura. À sombra de apoio do Estado, floresceu",
+        "top": 120.65,
+        "bottom": 131.69,
+        "x0": 33.96,
+        "x1": 557.67,
+        "column": 0
+      },
+      {
+        "text": "também a iniciativa privada: criou-se uma indústria cultural, não só televisiva, mas também fonográfica, editorial, de",
+        "top": 135.41,
+        "bottom": 146.45,
+        "x0": 33.96,
+        "x1": 557.62,
+        "column": 0
+      },
+      {
+        "text": "agências de publicidade etc.",
+        "top": 150.17,
+        "bottom": 161.21,
+        "x0": 33.96,
+        "x1": 159.62,
+        "column": 0
+      },
+      {
+        "text": "Fonte: RIDENTI, Marcelo. Cultura e Política. In: FERREIRA, J. e DELGADO, L.A.N. O Brasil Republicano, vol 4, p. 155)",
+        "top": 168.16,
+        "bottom": 177.16,
+        "x0": 145.32,
+        "x1": 561.33,
+        "column": 0
+      },
+      {
+        "text": "Entre as alternativas abaixo, assinale aquela que corresponde ao contexto político-cultural a que se refere o autor:",
+        "top": 183.53,
+        "bottom": 194.57,
+        "x0": 33.96,
+        "x1": 545.48,
+        "column": 0
+      },
+      {
+        "text": "Primeira República, quando artistas e intelectuais ligados ao movimento modernista e antropofágico",
+        "top": 201.17,
+        "bottom": 212.21,
+        "x0": 61.32,
+        "x1": 560.21,
+        "column": 0
+      },
+      {
+        "text": "defenderam a ideia de aglutinação e integração das culturas e a “devoração crítica das influências culturais”",
+        "top": 214.61,
+        "bottom": 225.65,
+        "x0": 61.32,
+        "x1": 560.21,
+        "column": 0
+      },
+      {
+        "text": "estrangeiras.",
+        "top": 228.05,
+        "bottom": 239.09,
+        "x0": 61.32,
+        "x1": 119.18,
+        "column": 0
+      },
+      {
+        "text": "Contrução do Estado Novo, quando intelectuais se inseriram na organização político-ideológica do Estado,",
+        "top": 247.49,
+        "bottom": 258.53,
+        "x0": 61.32,
+        "x1": 560.28,
+        "column": 0
+      },
+      {
+        "text": "participando da construção do projeto político-pedagógico de implementação, popularização e difusão da",
+        "top": 260.93,
+        "bottom": 271.97,
+        "x0": 61.32,
+        "x1": 560.29,
+        "column": 0
+      },
+      {
+        "text": "ideologia do regime.",
+        "top": 274.37,
+        "bottom": 285.41,
+        "x0": 61.32,
+        "x1": 152.9,
+        "column": 0
+      },
+      {
+        "text": "Aos chamados Anos Dourados, quando as políticas do governo de Juscelino Kubitschek, baseadas no",
+        "top": 293.81,
+        "bottom": 304.85,
+        "x0": 61.32,
+        "x1": 560.21,
+        "column": 0
+      },
+      {
+        "text": "nascionalismo e no desenvolvimentismo, deram suporte a projetos culturais de caráter inclusivo e",
+        "top": 307.25,
+        "bottom": 318.29,
+        "x0": 61.32,
+        "x1": 560.25,
+        "column": 0
+      },
+      {
+        "text": "universalista.",
+        "top": 320.57,
+        "bottom": 331.61,
+        "x0": 61.32,
+        "x1": 120.5,
+        "column": 0
+      },
+      {
+        "text": "Ditadura Militar, quando, paralelamente à censura, observa-se um esforço governamental modernizador nas",
+        "top": 340.01,
+        "bottom": 351.05,
+        "x0": 61.32,
+        "x1": 560.15,
+        "column": 0
+      },
+      {
+        "text": "áreas de comunicação e cultura, incentivando o investimento privado e a ação estatal direcionada, inclusive, a",
+        "top": 353.45,
+        "bottom": 364.49,
+        "x0": 61.32,
+        "x1": 560.28,
+        "column": 0
+      },
+      {
+        "text": "integração nacional.",
+        "top": 366.89,
+        "bottom": 377.93,
+        "x0": 61.32,
+        "x1": 151.82,
+        "column": 0
+      },
+      {
+        "text": "Redemocratização, quando, apesar da criação de órgãos de incentivo à cultura, como a ANCINE, verifica-se um",
+        "top": 386.33,
+        "bottom": 397.37,
+        "x0": 61.32,
+        "x1": 560.22,
+        "column": 0
+      },
+      {
+        "text": "declínio da participação estatal na cultura e um incremento da propaganda governamental como meio de",
+        "top": 399.77,
+        "bottom": 410.81,
+        "x0": 61.32,
+        "x1": 560.25,
+        "column": 0
+      },
+      {
+        "text": "assegurar a segurança nacional.",
+        "top": 413.21,
+        "bottom": 424.25,
+        "x0": 61.32,
+        "x1": 203.3,
+        "column": 0
+      },
+      {
+        "text": "QUESTÃO 20 - Leia o texto a seguir:",
+        "top": 438.77,
+        "bottom": 449.81,
+        "x0": 33.96,
+        "x1": 193.28,
+        "column": 0
+      },
+      {
+        "text": "Também conhecida como Aliança Atlântica, a Organização do Tratado do Atlântico Norte (Otan) foi fundada em",
+        "top": 457.01,
+        "bottom": 468.05,
+        "x0": 33.96,
+        "x1": 557.46,
+        "column": 0
+      },
+      {
+        "text": "1949 com o objetivo, em primeiro lugar, de atuar como um obstáculo à ameaça de expansão soviética na Europa",
+        "top": 471.77,
+        "bottom": 482.81,
+        "x0": 33.96,
+        "x1": 557.52,
+        "column": 0
+      },
+      {
+        "text": "após a Segunda Guerra Mundial. Além disso, os Estados Unidos a viram como uma ferramenta para impedir o",
+        "top": 486.53,
+        "bottom": 497.57,
+        "x0": 33.96,
+        "x1": 557.57,
+        "column": 0
+      },
+      {
+        "text": "ressurgimento de tendências nacionalistas na Europa e promover a integração política no continente. [...] Em maio",
+        "top": 501.29,
+        "bottom": 512.33,
+        "x0": 33.96,
+        "x1": 557.33,
+        "column": 0
+      },
+      {
+        "text": "de 2022, motivados pela invasão da Ucrânia pela Rússia, os governos da Finlândia e da Suécia apoiaram a adesão de",
+        "top": 516.05,
+        "bottom": 527.09,
+        "x0": 33.96,
+        "x1": 557.49,
+        "column": 0
+      },
+      {
+        "text": "ambos os países à Otan, sinalizando uma mudança em suas políticas de décadas de não alinhamento militar. O",
+        "top": 530.81,
+        "bottom": 541.85,
+        "x0": 33.96,
+        "x1": 557.62,
+        "column": 0
+      },
+      {
+        "text": "secretário-geral da Otan, Jens Stoltenberg, afirmou que seria possível permitir que Finlândia e Suécia aderissem à",
+        "top": 545.57,
+        "bottom": 556.61,
+        "x0": 33.96,
+        "x1": 557.64,
+        "column": 0
+      },
+      {
+        "text": "aliança rapidamente.",
+        "top": 560.45,
+        "bottom": 571.49,
+        "x0": 33.96,
+        "x1": 128.3,
+        "column": 0
+      },
+      {
+        "text": "Fonte: MUDGE, Rob. O que é a Otan e por que ela foi criada. Deutsch Welle, 17/05/2022. https://www.dw.com/pt-br/o-que-%E9-a-otan-e-por-",
+        "top": 578.44,
+        "bottom": 587.44,
+        "x0": 37.08,
+        "x1": 561.23,
+        "column": 0
+      },
+      {
+        "text": "que-ela-foi-criada/a-60701303",
+        "top": 590.56,
+        "bottom": 599.56,
+        "x0": 449.28,
+        "x1": 561.24,
+        "column": 0
+      },
+      {
+        "text": "Sobre a Otan e as relações internacionais, é CORRETO afirmar que:",
+        "top": 605.81,
+        "bottom": 616.85,
+        "x0": 33.96,
+        "x1": 332.6,
+        "column": 0
+      },
+      {
+        "text": "A Guerra da Ucrânia teve início após a sinalização de Finlândia e Suécia em aderir à Otan, após pertencerem ao",
+        "top": 626.45,
+        "bottom": 637.49,
+        "x0": 61.32,
+        "x1": 560.21,
+        "column": 0
+      },
+      {
+        "text": "bloco geopolítico russo.",
+        "top": 639.89,
+        "bottom": 650.93,
+        "x0": 61.32,
+        "x1": 167.54,
+        "column": 0
+      },
+      {
+        "text": "A fundação da Otan foi articulada pela Convenção Geral da Organização das Nações Unidas, como a unidade",
+        "top": 659.33,
+        "bottom": 670.37,
+        "x0": 61.32,
+        "x1": 560.25,
+        "column": 0
+      },
+      {
+        "text": "militar da entidade, com objetivos expansionistas.",
+        "top": 672.77,
+        "bottom": 683.81,
+        "x0": 61.32,
+        "x1": 285.14,
+        "column": 0
+      },
+      {
+        "text": "A Otan surge no contexto da Segunda Guerra Mundial, como um produto das articulações do Tratado de",
+        "top": 692.21,
+        "bottom": 703.25,
+        "x0": 61.32,
+        "x1": 560.25,
+        "column": 0
+      },
+      {
+        "text": "Versalhes, buscando solucionar os conflitos bélicos.",
+        "top": 705.65,
+        "bottom": 716.69,
+        "x0": 61.32,
+        "x1": 291.62,
+        "column": 0
+      },
+      {
+        "text": "A Otan foi fundada como uma resposta à institucionalização do Pacto de Varsóvia, que foi articulado no",
+        "top": 725.09,
+        "bottom": 736.13,
+        "x0": 61.32,
+        "x1": 560.21,
+        "column": 0
+      },
+      {
+        "text": "contexto do fim da Segunda Guerra Mundial e início da Guerra Fria.",
+        "top": 738.53,
+        "bottom": 749.57,
+        "x0": 61.32,
+        "x1": 363.14,
+        "column": 0
+      },
+      {
+        "text": "Um dos elementos centrais da tensão entre Rússia e Ucrânia se dá pela disposição da Ucrânia em integrar a",
+        "top": 757.96,
+        "bottom": 769.0,
+        "x0": 61.32,
+        "x1": 560.16,
+        "column": 0
+      },
+      {
+        "text": "Otan e aos interesses geopolíticos do bloco liderado pelos EUA.",
+        "top": 771.28,
+        "bottom": 782.32,
+        "x0": 61.32,
+        "x1": 344.54,
+        "column": 0
+      },
+      {
+        "text": "Página 12 de 20",
+        "top": 789.52,
+        "bottom": 800.56,
+        "x0": 490.56,
+        "x1": 561.31,
+        "column": 0
+      }
+    ],
+    "images": [
+      {
+        "x0": 35.16,
+        "x1": 49.32,
+        "top": 204.36,
+        "bottom": 220.08
+      },
+      {
+        "x0": 35.16,
+        "x1": 50.52,
+        "top": 244.8,
+        "bottom": 260.52
+      },
+      {
+        "x0": 35.16,
+        "x1": 50.52,
+        "top": 291.84,
+        "bottom": 307.44
+      },
+      {
+        "x0": 35.16,
+        "x1": 49.32,
+        "top": 337.8,
+        "bottom": 353.4
+      },
+      {
+        "x0": 35.16,
+        "x1": 50.52,
+        "top": 383.76,
+        "bottom": 399.48
+      },
+      {
+        "x0": 35.16,
+        "x1": 49.32,
+        "top": 623.64,
+        "bottom": 639.36
+      },
+      {
+        "x0": 35.16,
+        "x1": 50.52,
+        "top": 656.76,
+        "bottom": 672.36
+      },
+      {
+        "x0": 35.16,
+        "x1": 50.52,
+        "top": 690.24,
+        "bottom": 705.96
+      },
+      {
+        "x0": 35.16,
+        "x1": 49.32,
+        "top": 722.76,
+        "bottom": 738.48
+      },
+      {
+        "x0": 35.16,
+        "x1": 50.52,
+        "top": 755.4,
+        "bottom": 771.0
+      }
+    ],
+    "rects": [
+      {
+        "x0": 28.32,
+        "x1": 28.8,
+        "top": 74.52,
+        "bottom": 75.0
+      },
+      {
+        "x0": 28.32,
+        "x1": 28.8,
+        "top": 74.52,
+        "bottom": 75.0
+      },
+      {
+        "x0": 28.8,
+        "x1": 562.68,
+        "top": 74.52,
+        "bottom": 75.0
+      },
+      {
+        "x0": 562.68,
+        "x1": 563.16,
+        "top": 74.52,
+        "bottom": 75.0
+      },
+      {
+        "x0": 562.68,
+        "x1": 563.16,
+        "top": 74.52,
+        "bottom": 75.0
+      },
+      {
+        "x0": 28.32,
+        "x1": 28.8,
+        "top": 75.0,
+        "bottom": 166.56
+      },
+      {
+        "x0": 28.32,
+        "x1": 28.8,
+        "top": 166.56,
+        "bottom": 167.04
+      },
+      {
+        "x0": 28.32,
+        "x1": 28.8,
+        "top": 166.56,
+        "bottom": 167.04
+      },
+      {
+        "x0": 28.8,
+        "x1": 562.68,
+        "top": 166.56,
+        "bottom": 167.04
+      },
+      {
+        "x0": 562.68,
+        "x1": 563.16,
+        "top": 75.0,
+        "bottom": 166.56
+      },
+      {
+        "x0": 562.68,
+        "x1": 563.16,
+        "top": 166.56,
+        "bottom": 167.04
+      },
+      {
+        "x0": 562.68,
+        "x1": 563.16,
+        "top": 166.56,
+        "bottom": 167.04
+      },
+      {
+        "x0": 28.32,
+        "x1": 28.8,
+        "top": 455.16,
+        "bottom": 455.64
+      },
+      {
+        "x0": 28.32,
+        "x1": 28.8,
+        "top": 455.16,
+        "bottom": 455.64
+      },
+      {
+        "x0": 28.8,
+        "x1": 562.68,
+        "top": 455.16,
+        "bottom": 455.64
+      },
+      {
+        "x0": 562.68,
+        "x1": 563.16,
+        "top": 455.16,
+        "bottom": 455.64
+      },
+      {
+        "x0": 562.68,
+        "x1": 563.16,
+        "top": 455.16,
+        "bottom": 455.64
+      },
+      {
+        "x0": 28.32,
+        "x1": 28.8,
+        "top": 455.64,
+        "bottom": 576.84
+      },
+      {
+        "x0": 28.32,
+        "x1": 28.8,
+        "top": 576.84,
+        "bottom": 577.32
+      },
+      {
+        "x0": 28.32,
+        "x1": 28.8,
+        "top": 576.84,
+        "bottom": 577.32
+      },
+      {
+        "x0": 28.8,
+        "x1": 562.68,
+        "top": 576.84,
+        "bottom": 577.32
+      },
+      {
+        "x0": 562.68,
+        "x1": 563.16,
+        "top": 455.64,
+        "bottom": 576.84
+      },
+      {
+        "x0": 562.68,
+        "x1": 563.16,
+        "top": 576.84,
+        "bottom": 577.32
+      },
+      {
+        "x0": 562.68,
+        "x1": 563.16,
+        "top": 576.84,
+        "bottom": 577.32
+      },
+      {
+        "x0": 230.88,
+        "x1": 274.8,
+        "top": 616.08,
+        "bottom": 616.8
+      }
+    ],
+    "curves": []
+  }
+]

@@ -1,0 +1,5456 @@
+[
+  {
+    "page": 3,
+    "width": 595.276,
+    "height": 841.89,
+    "lines": [
+      {
+        "text": "PORTUGUÊS - OBJETIVAS",
+        "top": 68.5,
+        "bottom": 79.41,
+        "x0": 87.16,
+        "x1": 250.28,
+        "column": 0
+      },
+      {
+        "text": "Leia o Texto I a seguir, uma letra de canção",
+        "top": 91.51,
+        "bottom": 102.42,
+        "x0": 43.65,
+        "x1": 293.79,
+        "column": 0
+      },
+      {
+        "text": "do rapper Emicida, para resolver as questões",
+        "top": 105.06,
+        "bottom": 115.97,
+        "x0": 43.65,
+        "x1": 293.79,
+        "column": 0
+      },
+      {
+        "text": "1 e 2.",
+        "top": 118.61,
+        "bottom": 129.52,
+        "x0": 43.65,
+        "x1": 73.8,
+        "column": 0
+      },
+      {
+        "text": "TEXTO I",
+        "top": 141.63,
+        "bottom": 152.54,
+        "x0": 141.95,
+        "x1": 195.49,
+        "column": 0
+      },
+      {
+        "text": "A ordem natural das coisas",
+        "top": 164.65,
+        "bottom": 175.56,
+        "x0": 93.8,
+        "x1": 243.64,
+        "column": 0
+      },
+      {
+        "text": "Emicida",
+        "top": 178.2,
+        "bottom": 189.11,
+        "x0": 149.25,
+        "x1": 188.19,
+        "column": 0
+      },
+      {
+        "text": "A merendeira desce, o ônibus sai",
+        "top": 201.21,
+        "bottom": 212.12,
+        "x0": 65.47,
+        "x1": 221.78,
+        "column": 0
+      },
+      {
+        "text": "Dona Maria já se foi, só depois é que o Sol",
+        "top": 214.76,
+        "bottom": 225.67,
+        "x0": 65.47,
+        "x1": 271.97,
+        "column": 0
+      },
+      {
+        "text": "nasce",
+        "top": 228.31,
+        "bottom": 239.22,
+        "x0": 81.83,
+        "x1": 107.35,
+        "column": 0
+      },
+      {
+        "text": "De madruga é que as aranha tece no breu",
+        "top": 241.86,
+        "bottom": 252.77,
+        "x0": 65.47,
+        "x1": 265.17,
+        "column": 0
+      },
+      {
+        "text": "E amantes ofegantes vão pro mundo de Mor-",
+        "top": 255.41,
+        "bottom": 266.32,
+        "x0": 65.47,
+        "x1": 271.97,
+        "column": 0
+      },
+      {
+        "text": "feu",
+        "top": 268.96,
+        "bottom": 279.87,
+        "x0": 81.83,
+        "x1": 96.08,
+        "column": 0
+      },
+      {
+        "text": "E o Sol só vem depois",
+        "top": 296.06,
+        "bottom": 306.97,
+        "x0": 65.47,
+        "x1": 170.29,
+        "column": 0
+      },
+      {
+        "text": "O Sol só vem depois",
+        "top": 309.61,
+        "bottom": 320.52,
+        "x0": 65.47,
+        "x1": 162.26,
+        "column": 0
+      },
+      {
+        "text": "É o astro rei, ok, mas vem depois",
+        "top": 323.16,
+        "bottom": 334.07,
+        "x0": 65.47,
+        "x1": 225.26,
+        "column": 0
+      },
+      {
+        "text": "O Sol só vem depois",
+        "top": 336.71,
+        "bottom": 347.62,
+        "x0": 65.47,
+        "x1": 162.26,
+        "column": 0
+      },
+      {
+        "text": "Anunciado no latir dos cães, no cantar dos",
+        "top": 363.81,
+        "bottom": 374.71,
+        "x0": 65.47,
+        "x1": 271.98,
+        "column": 0
+      },
+      {
+        "text": "galos",
+        "top": 377.35,
+        "bottom": 388.26,
+        "x0": 81.83,
+        "x1": 105.53,
+        "column": 0
+      },
+      {
+        "text": "Na calma das mães, que quer o rebento cem",
+        "top": 390.9,
+        "bottom": 401.81,
+        "x0": 65.47,
+        "x1": 271.97,
+        "column": 0
+      },
+      {
+        "text": "por cento",
+        "top": 404.45,
+        "bottom": 415.36,
+        "x0": 81.83,
+        "x1": 126.71,
+        "column": 0
+      },
+      {
+        "text": "E diz: Leva o documento, son",
+        "top": 418.0,
+        "bottom": 428.91,
+        "x0": 65.47,
+        "x1": 207.96,
+        "column": 0
+      },
+      {
+        "text": "Na São Paulo das manhã que tem lá seus",
+        "top": 431.55,
+        "bottom": 442.46,
+        "x0": 65.47,
+        "x1": 271.97,
+        "column": 0
+      },
+      {
+        "text": "Vietnã",
+        "top": 445.1,
+        "bottom": 456.01,
+        "x0": 81.83,
+        "x1": 113.65,
+        "column": 0
+      },
+      {
+        "text": "Na vela que o vento apaga, afaga quando",
+        "top": 458.65,
+        "bottom": 469.56,
+        "x0": 65.47,
+        "x1": 271.97,
+        "column": 0
+      },
+      {
+        "text": "passa",
+        "top": 472.2,
+        "bottom": 483.11,
+        "x0": 81.83,
+        "x1": 107.41,
+        "column": 0
+      },
+      {
+        "text": "A brasa dorme fria e só quem dança é a",
+        "top": 485.75,
+        "bottom": 496.66,
+        "x0": 65.47,
+        "x1": 271.97,
+        "column": 0
+      },
+      {
+        "text": "fumaça",
+        "top": 499.3,
+        "bottom": 510.21,
+        "x0": 81.83,
+        "x1": 116.08,
+        "column": 0
+      },
+      {
+        "text": "Orvalho é o pranto dessas planta no sereno",
+        "top": 512.85,
+        "bottom": 523.76,
+        "x0": 65.47,
+        "x1": 270.96,
+        "column": 0
+      },
+      {
+        "text": "A Lua já tá no Japão, como esse mundo é",
+        "top": 539.94,
+        "bottom": 550.85,
+        "x0": 65.47,
+        "x1": 271.97,
+        "column": 0
+      },
+      {
+        "text": "pequeno",
+        "top": 553.49,
+        "bottom": 564.4,
+        "x0": 81.83,
+        "x1": 121.23,
+        "column": 0
+      },
+      {
+        "text": "Farelos de um sonho bobinho que a luz con-",
+        "top": 567.04,
+        "bottom": 577.95,
+        "x0": 65.47,
+        "x1": 271.97,
+        "column": 0
+      },
+      {
+        "text": "torna",
+        "top": 580.59,
+        "bottom": 591.5,
+        "x0": 81.83,
+        "x1": 107.32,
+        "column": 0
+      },
+      {
+        "text": "Dar um tapa no quartinho, esse ano sai a",
+        "top": 594.14,
+        "bottom": 605.05,
+        "x0": 65.47,
+        "x1": 271.97,
+        "column": 0
+      },
+      {
+        "text": "reforma",
+        "top": 607.69,
+        "bottom": 618.6,
+        "x0": 81.83,
+        "x1": 118.56,
+        "column": 0
+      },
+      {
+        "text": "O som das criança indo pra escola convence",
+        "top": 621.24,
+        "bottom": 632.15,
+        "x0": 65.47,
+        "x1": 271.97,
+        "column": 0
+      },
+      {
+        "text": "O feijão germina no algodão, a vida sempre",
+        "top": 634.79,
+        "bottom": 645.7,
+        "x0": 65.47,
+        "x1": 271.97,
+        "column": 0
+      },
+      {
+        "text": "vence",
+        "top": 648.34,
+        "bottom": 659.25,
+        "x0": 81.83,
+        "x1": 107.89,
+        "column": 0
+      },
+      {
+        "text": "As nuvens curiosas, como são",
+        "top": 661.89,
+        "bottom": 672.8,
+        "x0": 65.47,
+        "x1": 205.81,
+        "column": 0
+      },
+      {
+        "text": "Se vestem de cabelo crespo, ancião",
+        "top": 675.44,
+        "bottom": 686.35,
+        "x0": 65.47,
+        "x1": 231.69,
+        "column": 0
+      },
+      {
+        "text": "Caminham lento, lá pra cima, o firmamento",
+        "top": 688.99,
+        "bottom": 699.89,
+        "x0": 65.47,
+        "x1": 271.98,
+        "column": 0
+      },
+      {
+        "text": "Pois no fundo ela se finge de neblina",
+        "top": 702.53,
+        "bottom": 713.44,
+        "x0": 65.47,
+        "x1": 239.68,
+        "column": 0
+      },
+      {
+        "text": "Pra ver o amor dos dois mundos",
+        "top": 716.08,
+        "bottom": 726.99,
+        "x0": 65.47,
+        "x1": 220.14,
+        "column": 0
+      },
+      {
+        "text": "Fonte: EMICIDA. Disponível em:",
+        "top": 741.47,
+        "bottom": 749.44,
+        "x0": 168.88,
+        "x1": 293.79,
+        "column": 0
+      },
+      {
+        "text": "https://www.letras.mus.br/emicida/a-ordem-natural-das-coisas-",
+        "top": 755.02,
+        "bottom": 762.99,
+        "x0": 56.84,
+        "x1": 293.79,
+        "column": 0
+      },
+      {
+        "text": "part-mc-tha/. Acesso em: 08 jul. 2024.",
+        "top": 768.57,
+        "bottom": 776.54,
+        "x0": 148.32,
+        "x1": 293.79,
+        "column": 0
+      },
+      {
+        "text": "Questão 1.",
+        "top": 68.89,
+        "bottom": 79.8,
+        "x0": 303.75,
+        "x1": 362.55,
+        "column": 1
+      },
+      {
+        "text": "A partir da letra da música de Emicida “A ordem",
+        "top": 84.04,
+        "bottom": 94.95,
+        "x0": 303.75,
+        "x1": 553.88,
+        "column": 1
+      },
+      {
+        "text": "natural das coisas”, infere-se que:",
+        "top": 97.59,
+        "bottom": 108.5,
+        "x0": 303.75,
+        "x1": 463.45,
+        "column": 1
+      },
+      {
+        "text": "(A) a Dona Maria pode ser interpretada como uma",
+        "top": 120.02,
+        "bottom": 130.93,
+        "x0": 304.13,
+        "x1": 553.89,
+        "column": 1
+      },
+      {
+        "text": "referência a todas as mulheres simples que saem",
+        "top": 133.57,
+        "bottom": 144.48,
+        "x0": 326.25,
+        "x1": 553.89,
+        "column": 1
+      },
+      {
+        "text": "para trabalhar pela manhã bem cedo em serviços",
+        "top": 147.12,
+        "bottom": 158.03,
+        "x0": 326.25,
+        "x1": 553.89,
+        "column": 1
+      },
+      {
+        "text": "considerados de menor prestígio social, como di-",
+        "top": 160.67,
+        "bottom": 171.58,
+        "x0": 326.25,
+        "x1": 553.89,
+        "column": 1
+      },
+      {
+        "text": "aristas, merendeiras, garis.",
+        "top": 174.22,
+        "bottom": 185.13,
+        "x0": 326.25,
+        "x1": 453.29,
+        "column": 1
+      },
+      {
+        "text": "(B) a repetição da expressão “só vem depois”, na",
+        "top": 196.7,
+        "bottom": 207.61,
+        "x0": 304.59,
+        "x1": 553.89,
+        "column": 1
+      },
+      {
+        "text": "segunda estrofe, sugere que Dona Maria, e to-",
+        "top": 210.25,
+        "bottom": 221.16,
+        "x0": 326.25,
+        "x1": 553.88,
+        "column": 1
+      },
+      {
+        "text": "das(os) que ela representa, são de importância",
+        "top": 223.8,
+        "bottom": 234.71,
+        "x0": 326.25,
+        "x1": 553.89,
+        "column": 1
+      },
+      {
+        "text": "igual ou maior que o Sol, uma vez que o dia só",
+        "top": 237.35,
+        "bottom": 248.25,
+        "x0": 326.25,
+        "x1": 553.89,
+        "column": 1
+      },
+      {
+        "text": "amanhece se elas(es) forem trabalhar.",
+        "top": 250.89,
+        "bottom": 261.8,
+        "x0": 326.25,
+        "x1": 506.22,
+        "column": 1
+      },
+      {
+        "text": "(C) ao afirmar que São Paulo tem “Vietnã”, meta-",
+        "top": 273.38,
+        "bottom": 284.29,
+        "x0": 304.44,
+        "x1": 553.89,
+        "column": 1
+      },
+      {
+        "text": "foricamente o autor faz referência ao serviço mi-",
+        "top": 286.93,
+        "bottom": 297.83,
+        "x0": 326.25,
+        "x1": 553.89,
+        "column": 1
+      },
+      {
+        "text": "litar obrigatório de adolescentes do sexo mascu-",
+        "top": 300.47,
+        "bottom": 311.38,
+        "x0": 326.25,
+        "x1": 553.88,
+        "column": 1
+      },
+      {
+        "text": "lino no Brasil, o que justifica a orientação da",
+        "top": 314.02,
+        "bottom": 324.93,
+        "x0": 326.25,
+        "x1": 553.89,
+        "column": 1
+      },
+      {
+        "text": "mãe para seu filho levar documento.",
+        "top": 327.57,
+        "bottom": 338.48,
+        "x0": 326.25,
+        "x1": 498.8,
+        "column": 1
+      },
+      {
+        "text": "(D) o autor ameniza a desigualdade social na música,",
+        "top": 350.06,
+        "bottom": 360.96,
+        "x0": 303.98,
+        "x1": 553.9,
+        "column": 1
+      },
+      {
+        "text": "o que é reforçado pelo título “A ordem natural",
+        "top": 363.6,
+        "bottom": 374.51,
+        "x0": 326.25,
+        "x1": 553.89,
+        "column": 1
+      },
+      {
+        "text": "das coisas”, cujo tema principal é o cotidiano da",
+        "top": 377.15,
+        "bottom": 388.06,
+        "x0": 326.25,
+        "x1": 553.89,
+        "column": 1
+      },
+      {
+        "text": "cidade de São Paulo, com trabalhadores indo de",
+        "top": 390.7,
+        "bottom": 401.61,
+        "x0": 326.25,
+        "x1": 553.89,
+        "column": 1
+      },
+      {
+        "text": "ônibus para seus trabalhos bem cedo.",
+        "top": 404.25,
+        "bottom": 415.16,
+        "x0": 326.25,
+        "x1": 505.04,
+        "column": 1
+      },
+      {
+        "text": "(E) o autor ironiza os sonhos da população mais",
+        "top": 426.73,
+        "bottom": 437.64,
+        "x0": 304.89,
+        "x1": 553.89,
+        "column": 1
+      },
+      {
+        "text": "vulnerável economicamente, como reformar um",
+        "top": 440.28,
+        "bottom": 451.19,
+        "x0": 326.25,
+        "x1": 553.88,
+        "column": 1
+      },
+      {
+        "text": "cômodo da casa, ao utilizar a palavra “farelos”",
+        "top": 453.83,
+        "bottom": 464.74,
+        "x0": 326.25,
+        "x1": 553.89,
+        "column": 1
+      },
+      {
+        "text": "em “Farelos de um sonho bobinho que a luz con-",
+        "top": 467.38,
+        "bottom": 478.29,
+        "x0": 326.25,
+        "x1": 553.89,
+        "column": 1
+      },
+      {
+        "text": "torna”.",
+        "top": 480.93,
+        "bottom": 491.84,
+        "x0": 326.25,
+        "x1": 360.22,
+        "column": 1
+      },
+      {
+        "text": "Questão 2.",
+        "top": 512.52,
+        "bottom": 523.43,
+        "x0": 303.75,
+        "x1": 362.55,
+        "column": 1
+      },
+      {
+        "text": "O uso dos dois pontos em “E diz: Leva o documento,",
+        "top": 527.67,
+        "bottom": 538.58,
+        "x0": 303.75,
+        "x1": 553.89,
+        "column": 1
+      },
+      {
+        "text": "son” indica a inserção de:",
+        "top": 541.22,
+        "bottom": 552.13,
+        "x0": 303.75,
+        "x1": 425.72,
+        "column": 1
+      },
+      {
+        "text": "(A) estrangeirismo, devido à utilização do termo",
+        "top": 563.65,
+        "bottom": 574.56,
+        "x0": 304.13,
+        "x1": 553.89,
+        "column": 1
+      },
+      {
+        "text": "“son”, uma gíria de centros urbanos para “fi-",
+        "top": 577.2,
+        "bottom": 588.11,
+        "x0": 326.25,
+        "x1": 553.89,
+        "column": 1
+      },
+      {
+        "text": "lho”.",
+        "top": 590.75,
+        "bottom": 601.66,
+        "x0": 326.25,
+        "x1": 349.28,
+        "column": 1
+      },
+      {
+        "text": "(B) discurso indireto, por fazer referência a como as",
+        "top": 613.23,
+        "bottom": 624.14,
+        "x0": 304.59,
+        "x1": 553.89,
+        "column": 1
+      },
+      {
+        "text": "mães falam com seus filhos em São Paulo.",
+        "top": 626.78,
+        "bottom": 637.69,
+        "x0": 326.25,
+        "x1": 526.65,
+        "column": 1
+      },
+      {
+        "text": "(C) discurso indireto, pois há uma opinião do autor",
+        "top": 649.26,
+        "bottom": 660.17,
+        "x0": 304.44,
+        "x1": 553.89,
+        "column": 1
+      },
+      {
+        "text": "sobre a calma das mães na criação de seus filhos.",
+        "top": 662.81,
+        "bottom": 673.72,
+        "x0": 326.25,
+        "x1": 553.89,
+        "column": 1
+      },
+      {
+        "text": "(D) discurso direto, na medida em que há a in-",
+        "top": 685.29,
+        "bottom": 696.2,
+        "x0": 303.98,
+        "x1": 553.88,
+        "column": 1
+      },
+      {
+        "text": "trodução da fala literal da mãe em orientação",
+        "top": 698.84,
+        "bottom": 709.75,
+        "x0": 326.25,
+        "x1": 553.9,
+        "column": 1
+      },
+      {
+        "text": "ao filho.",
+        "top": 712.39,
+        "bottom": 723.3,
+        "x0": 326.25,
+        "x1": 364.43,
+        "column": 1
+      },
+      {
+        "text": "(E) discurso direto, ao fazer a introdução de um pen-",
+        "top": 734.87,
+        "bottom": 745.78,
+        "x0": 304.89,
+        "x1": 553.89,
+        "column": 1
+      },
+      {
+        "text": "samento de preocupação da mãe com seu filho.",
+        "top": 748.42,
+        "bottom": 759.33,
+        "x0": 326.25,
+        "x1": 550.04,
+        "column": 1
+      }
+    ],
+    "images": [
+      {
+        "x0": 43.65,
+        "x1": 242.08,
+        "top": 779.06,
+        "bottom": 835.75
+      },
+      {
+        "x0": 327.12,
+        "x1": 525.54,
+        "top": 779.06,
+        "bottom": 835.75
+      }
+    ],
+    "rects": [],
+    "curves": []
+  },
+  {
+    "page": 4,
+    "width": 595.276,
+    "height": 841.89,
+    "lines": [
+      {
+        "text": "Leia o post a seguir, Texto II, e relacione-o",
+        "top": 68.5,
+        "bottom": 79.41,
+        "x0": 54.56,
+        "x1": 293.79,
+        "column": 0
+      },
+      {
+        "text": "à letra de canção de Emicida para responder",
+        "top": 82.05,
+        "bottom": 92.96,
+        "x0": 43.65,
+        "x1": 293.79,
+        "column": 0
+      },
+      {
+        "text": "a Questão 3.",
+        "top": 95.6,
+        "bottom": 106.5,
+        "x0": 43.65,
+        "x1": 112.22,
+        "column": 0
+      },
+      {
+        "text": "TEXTO II",
+        "top": 121.1,
+        "bottom": 132.01,
+        "x0": 139.4,
+        "x1": 198.04,
+        "column": 0
+      },
+      {
+        "text": "Fonte: https://x.com/maxmacieldf/status/130185",
+        "top": 284.81,
+        "bottom": 292.78,
+        "x0": 108.41,
+        "x1": 293.79,
+        "column": 0
+      },
+      {
+        "text": "1089407561728?t=q7z9woZ4a6CCgeoq-LT Jg&s=19. Acesso em:",
+        "top": 298.36,
+        "bottom": 306.33,
+        "x0": 53.97,
+        "x1": 293.79,
+        "column": 0
+      },
+      {
+        "text": "08 jul. 2024.",
+        "top": 311.91,
+        "bottom": 319.88,
+        "x0": 247.45,
+        "x1": 293.79,
+        "column": 0
+      },
+      {
+        "text": "Questão 3.",
+        "top": 337.43,
+        "bottom": 348.34,
+        "x0": 43.65,
+        "x1": 102.46,
+        "column": 0
+      },
+      {
+        "text": "A letra de canção de Emicida, Texto I, e o post, Texto",
+        "top": 352.58,
+        "bottom": 363.49,
+        "x0": 43.65,
+        "x1": 293.79,
+        "column": 0
+      },
+      {
+        "text": "II, aproximam-se com relação à temática.",
+        "top": 366.13,
+        "bottom": 377.04,
+        "x0": 43.65,
+        "x1": 241.65,
+        "column": 0
+      },
+      {
+        "text": "O trecho metafórico do Texto I que confirma essa",
+        "top": 379.68,
+        "bottom": 390.59,
+        "x0": 54.56,
+        "x1": 293.79,
+        "column": 0
+      },
+      {
+        "text": "afirmação é:",
+        "top": 393.23,
+        "bottom": 404.13,
+        "x0": 43.65,
+        "x1": 101.26,
+        "column": 0
+      },
+      {
+        "text": "(A) “A brasa dorme fria e só quem dança é a",
+        "top": 418.73,
+        "bottom": 429.64,
+        "x0": 44.03,
+        "x1": 293.79,
+        "column": 0
+      },
+      {
+        "text": "fumaça”.",
+        "top": 432.28,
+        "bottom": 443.19,
+        "x0": 66.15,
+        "x1": 108.89,
+        "column": 0
+      },
+      {
+        "text": "(B) “As nuvens curiosas, como são / Se vestem de",
+        "top": 454.79,
+        "bottom": 465.7,
+        "x0": 44.49,
+        "x1": 293.79,
+        "column": 0
+      },
+      {
+        "text": "cabelo crespo, ancião”.",
+        "top": 468.34,
+        "bottom": 479.25,
+        "x0": 66.15,
+        "x1": 175.33,
+        "column": 0
+      },
+      {
+        "text": "(C) “De madruga é que as aranha tece no breu”.",
+        "top": 490.86,
+        "bottom": 501.77,
+        "x0": 44.33,
+        "x1": 279.79,
+        "column": 0
+      },
+      {
+        "text": "(D) “E amantes ofegantes vão pro mundo de Mor-",
+        "top": 513.38,
+        "bottom": 524.28,
+        "x0": 43.88,
+        "x1": 293.79,
+        "column": 0
+      },
+      {
+        "text": "feu”.",
+        "top": 526.92,
+        "bottom": 537.83,
+        "x0": 66.15,
+        "x1": 88.88,
+        "column": 0
+      },
+      {
+        "text": "(E) “Na São Paulo das manhã que tem lá seus Vi-",
+        "top": 549.44,
+        "bottom": 560.35,
+        "x0": 44.79,
+        "x1": 293.79,
+        "column": 0
+      },
+      {
+        "text": "etnã”.",
+        "top": 562.99,
+        "bottom": 573.9,
+        "x0": 66.15,
+        "x1": 95.25,
+        "column": 0
+      },
+      {
+        "text": "A seguir, são apresentados quatro relatos",
+        "top": 595.27,
+        "bottom": 606.18,
+        "x0": 54.56,
+        "x1": 293.79,
+        "column": 0
+      },
+      {
+        "text": "retirados da dissertação de Mestrado intitu-",
+        "top": 608.82,
+        "bottom": 619.73,
+        "x0": 43.65,
+        "x1": 293.79,
+        "column": 0
+      },
+      {
+        "text": "lada “A reconfiguração da experiência de ser",
+        "top": 622.37,
+        "bottom": 633.28,
+        "x0": 43.65,
+        "x1": 293.79,
+        "column": 0
+      },
+      {
+        "text": "doméstica através da página ‘Eu, empregada",
+        "top": 635.92,
+        "bottom": 646.82,
+        "x0": 43.65,
+        "x1": 293.79,
+        "column": 0
+      },
+      {
+        "text": "doméstica’”, de Enise de Castro Silva, textos",
+        "top": 649.46,
+        "bottom": 660.37,
+        "x0": 43.65,
+        "x1": 293.79,
+        "column": 0
+      },
+      {
+        "text": "III, IV e V. Leia-os, para resolver as questões",
+        "top": 663.01,
+        "bottom": 673.92,
+        "x0": 43.65,
+        "x1": 293.79,
+        "column": 0
+      },
+      {
+        "text": "4 e 5.",
+        "top": 676.56,
+        "bottom": 687.47,
+        "x0": 43.65,
+        "x1": 73.8,
+        "column": 0
+      },
+      {
+        "text": "TEXTO III",
+        "top": 68.5,
+        "bottom": 79.41,
+        "x0": 396.94,
+        "x1": 460.7,
+        "column": 1
+      },
+      {
+        "text": "[...] Filhos sem educação que faziam de mim gato e",
+        "top": 94.37,
+        "bottom": 105.28,
+        "x0": 314.66,
+        "x1": 553.89,
+        "column": 1
+      },
+      {
+        "text": "sapato a filha dessa minha patroa tinha minha idade",
+        "top": 107.92,
+        "bottom": 118.83,
+        "x0": 303.75,
+        "x1": 553.89,
+        "column": 1
+      },
+      {
+        "text": "14 anos a época e ela até me batia mas isso eu não",
+        "top": 121.47,
+        "bottom": 132.38,
+        "x0": 303.75,
+        "x1": 553.89,
+        "column": 1
+      },
+      {
+        "text": "deixava revidava então era uma brigaiada mas como",
+        "top": 135.02,
+        "bottom": 145.92,
+        "x0": 303.75,
+        "x1": 553.89,
+        "column": 1
+      },
+      {
+        "text": "eles não podiam perder a escravinha não me manda-",
+        "top": 148.56,
+        "bottom": 159.47,
+        "x0": 303.75,
+        "x1": 553.89,
+        "column": 1
+      },
+      {
+        "text": "vam embora só ameaçavam!",
+        "top": 162.11,
+        "bottom": 173.02,
+        "x0": 303.75,
+        "x1": 436.88,
+        "column": 1
+      },
+      {
+        "text": "TEXTO IV",
+        "top": 198.62,
+        "bottom": 209.53,
+        "x0": 397.31,
+        "x1": 460.33,
+        "column": 1
+      },
+      {
+        "text": "Sem falar em outro doutorzinho que expõe sua em-",
+        "top": 221.43,
+        "bottom": 232.34,
+        "x0": 314.66,
+        "x1": 553.89,
+        "column": 1
+      },
+      {
+        "text": "pregada ao ridículo lá no meu trabalho ele sai mos-",
+        "top": 234.98,
+        "bottom": 245.88,
+        "x0": 303.75,
+        "x1": 553.89,
+        "column": 1
+      },
+      {
+        "text": "trando a foto do perfil dela do whatsap para seus",
+        "top": 248.52,
+        "bottom": 259.43,
+        "x0": 303.75,
+        "x1": 553.89,
+        "column": 1
+      },
+      {
+        "text": "outros colegas e debochando. Olha só essa foto que",
+        "top": 262.07,
+        "bottom": 272.98,
+        "x0": 303.75,
+        "x1": 553.88,
+        "column": 1
+      },
+      {
+        "text": "cara de pobre que pose de vagabunda só podia ser",
+        "top": 275.62,
+        "bottom": 286.53,
+        "x0": 303.75,
+        "x1": 553.9,
+        "column": 1
+      },
+      {
+        "text": "doméstica mesmo!",
+        "top": 289.17,
+        "bottom": 300.08,
+        "x0": 303.75,
+        "x1": 390.55,
+        "column": 1
+      },
+      {
+        "text": "TEXTO V",
+        "top": 325.68,
+        "bottom": 336.59,
+        "x0": 399.69,
+        "x1": 457.95,
+        "column": 1
+      },
+      {
+        "text": "[...] a D. da casa é uma dondoca mesquinha que",
+        "top": 348.48,
+        "bottom": 359.39,
+        "x0": 314.66,
+        "x1": 553.89,
+        "column": 1
+      },
+      {
+        "text": "vive pra gastar o dinheiro do marido e ser servida.",
+        "top": 362.03,
+        "bottom": 372.94,
+        "x0": 303.75,
+        "x1": 553.89,
+        "column": 1
+      },
+      {
+        "text": "Um dia na hora do jantar usei um pouco de pimenta",
+        "top": 375.58,
+        "bottom": 386.49,
+        "x0": 303.75,
+        "x1": 553.89,
+        "column": 1
+      },
+      {
+        "text": "do reino dela para colocar no meu prato. A mulher",
+        "top": 389.13,
+        "bottom": 400.04,
+        "x0": 303.75,
+        "x1": 553.89,
+        "column": 1
+      },
+      {
+        "text": "fez um escândalo disse que aquilo era muito caro que",
+        "top": 402.68,
+        "bottom": 413.59,
+        "x0": 303.75,
+        "x1": 553.89,
+        "column": 1
+      },
+      {
+        "text": "aquelas pimentas era dela e da família dela. Não era",
+        "top": 416.23,
+        "bottom": 427.14,
+        "x0": 303.75,
+        "x1": 553.89,
+        "column": 1
+      },
+      {
+        "text": "pra eu usar na comida da empregada. Onde já se viu?",
+        "top": 429.78,
+        "bottom": 440.69,
+        "x0": 303.75,
+        "x1": 553.89,
+        "column": 1
+      },
+      {
+        "text": "Uma pimenta de 17 reais (só porque vinha naqueles",
+        "top": 443.33,
+        "bottom": 454.24,
+        "x0": 303.75,
+        "x1": 553.89,
+        "column": 1
+      },
+      {
+        "text": "moedores) a empregadinha colocar no prato. No dia",
+        "top": 456.88,
+        "bottom": 467.79,
+        "x0": 303.75,
+        "x1": 553.89,
+        "column": 1
+      },
+      {
+        "text": "seguinte comprei as pimentas com moedor mais caras",
+        "top": 470.43,
+        "bottom": 481.34,
+        "x0": 303.75,
+        "x1": 553.89,
+        "column": 1
+      },
+      {
+        "text": "do supermercado levei pra casa dela. Usava em todas",
+        "top": 483.98,
+        "bottom": 494.89,
+        "x0": 303.75,
+        "x1": 553.89,
+        "column": 1
+      },
+      {
+        "text": "as comidas da casa colocava na mesa a minha pimenta",
+        "top": 497.53,
+        "bottom": 508.43,
+        "x0": 303.75,
+        "x1": 553.89,
+        "column": 1
+      },
+      {
+        "text": "oferecia para os convidados dela usava a rodo. Eu",
+        "top": 511.07,
+        "bottom": 521.98,
+        "x0": 303.75,
+        "x1": 553.89,
+        "column": 1
+      },
+      {
+        "text": "sentia o constrangimento e a raiva dela mas ela não",
+        "top": 524.62,
+        "bottom": 535.53,
+        "x0": 303.75,
+        "x1": 553.9,
+        "column": 1
+      },
+      {
+        "text": "podia fazer nada eu estava sendo legal. Uns 3 anos",
+        "top": 538.17,
+        "bottom": 549.08,
+        "x0": 303.75,
+        "x1": 553.89,
+        "column": 1
+      },
+      {
+        "text": "depois vocês não sabem o que eu encontro vencida",
+        "top": 551.72,
+        "bottom": 562.63,
+        "x0": 303.75,
+        "x1": 553.89,
+        "column": 1
+      },
+      {
+        "text": "bem escondidinha. AS PIMENTAS. Era tão caras e",
+        "top": 565.27,
+        "bottom": 576.18,
+        "x0": 303.75,
+        "x1": 553.89,
+        "column": 1
+      },
+      {
+        "text": "ela deixou apodrecer.",
+        "top": 578.82,
+        "bottom": 589.73,
+        "x0": 303.75,
+        "x1": 405.33,
+        "column": 1
+      },
+      {
+        "text": "Trechos retirados de SILVA, Enise de Castro. A reconfiguração da",
+        "top": 607.13,
+        "bottom": 615.1,
+        "x0": 308.35,
+        "x1": 553.89,
+        "column": 1
+      },
+      {
+        "text": "experiência de ser doméstica através da página “Eu, empregada",
+        "top": 620.68,
+        "bottom": 628.65,
+        "x0": 317.43,
+        "x1": 553.89,
+        "column": 1
+      },
+      {
+        "text": "doméstica”. Dissertação (Mestrado) – Universidade Federal de",
+        "top": 634.23,
+        "bottom": 642.2,
+        "x0": 321.71,
+        "x1": 553.89,
+        "column": 1
+      },
+      {
+        "text": "Minas Gerais, Faculdade de Filosofia e Ciências Humanas, 2019, p.",
+        "top": 647.78,
+        "bottom": 655.75,
+        "x0": 305.68,
+        "x1": 553.89,
+        "column": 1
+      },
+      {
+        "text": "71-88. Textos adaptados para fins didáticos.",
+        "top": 661.33,
+        "bottom": 669.3,
+        "x0": 389.97,
+        "x1": 553.89,
+        "column": 1
+      },
+      {
+        "text": "O Texto VI a seguir é um trecho do livro",
+        "top": 684.83,
+        "bottom": 695.74,
+        "x0": 319.66,
+        "x1": 553.89,
+        "column": 1
+      },
+      {
+        "text": "“Da fala para a escrita – atividades de re-",
+        "top": 698.38,
+        "bottom": 709.29,
+        "x0": 303.75,
+        "x1": 553.89,
+        "column": 1
+      },
+      {
+        "text": "textualização”, escrito pelo linguista brasileiro",
+        "top": 711.93,
+        "bottom": 722.84,
+        "x0": 303.75,
+        "x1": 553.89,
+        "column": 1
+      },
+      {
+        "text": "Luiz Antônio Marcuschi acerca da relação en-",
+        "top": 725.48,
+        "bottom": 736.39,
+        "x0": 303.75,
+        "x1": 553.89,
+        "column": 1
+      },
+      {
+        "text": "tre gêneros de textos orais e escritos. Leia-o",
+        "top": 739.03,
+        "bottom": 749.94,
+        "x0": 303.75,
+        "x1": 553.89,
+        "column": 1
+      },
+      {
+        "text": "com atenção para responder a Questão 4.",
+        "top": 752.58,
+        "bottom": 763.49,
+        "x0": 303.75,
+        "x1": 531.63,
+        "column": 1
+      }
+    ],
+    "images": [
+      {
+        "x0": 43.65,
+        "x1": 293.79,
+        "top": 142.84,
+        "bottom": 265.73
+      },
+      {
+        "x0": 43.65,
+        "x1": 242.08,
+        "top": 779.06,
+        "bottom": 835.75
+      },
+      {
+        "x0": 327.12,
+        "x1": 525.54,
+        "top": 779.06,
+        "bottom": 835.75
+      }
+    ],
+    "rects": [],
+    "curves": []
+  },
+  {
+    "page": 5,
+    "width": 595.276,
+    "height": 841.89,
+    "lines": [
+      {
+        "text": "TEXTO VI",
+        "top": 68.5,
+        "bottom": 79.41,
+        "x0": 137.21,
+        "x1": 200.23,
+        "column": 0
+      },
+      {
+        "text": "Da fala para a escrita – atividades de",
+        "top": 96.62,
+        "bottom": 107.53,
+        "x0": 66.15,
+        "x1": 271.29,
+        "column": 0
+      },
+      {
+        "text": "retextualização",
+        "top": 110.17,
+        "bottom": 121.08,
+        "x0": 127.37,
+        "x1": 210.07,
+        "column": 0
+      },
+      {
+        "text": "Luiz Antônio Marcuschi",
+        "top": 137.86,
+        "bottom": 148.77,
+        "x0": 179.0,
+        "x1": 293.79,
+        "column": 0
+      },
+      {
+        "text": "A hipótese que defendemos supõe que: as dife-",
+        "top": 165.54,
+        "bottom": 176.45,
+        "x0": 54.56,
+        "x1": 293.79,
+        "column": 0
+      },
+      {
+        "text": "renças entre fala e escrita se dão dentro do conti-",
+        "top": 179.09,
+        "bottom": 190.0,
+        "x0": 43.65,
+        "x1": 293.79,
+        "column": 0
+      },
+      {
+        "text": "nuum tipológico das práticas sociais de produção dos",
+        "top": 192.64,
+        "bottom": 203.55,
+        "x0": 43.65,
+        "x1": 293.79,
+        "column": 0
+      },
+      {
+        "text": "gêneros textuais e não na relação dicotômica [oposta]",
+        "top": 206.19,
+        "bottom": 217.1,
+        "x0": 43.65,
+        "x1": 293.79,
+        "column": 0
+      },
+      {
+        "text": "de dois polos opostos. [...] Na realidade, temos uma",
+        "top": 219.74,
+        "bottom": 230.65,
+        "x0": 43.65,
+        "x1": 293.79,
+        "column": 0
+      },
+      {
+        "text": "série de textos produzidos em condições naturais e es-",
+        "top": 233.29,
+        "bottom": 244.2,
+        "x0": 43.65,
+        "x1": 293.79,
+        "column": 0
+      },
+      {
+        "text": "pontâneas nos mais diversos domínios discursivos das",
+        "top": 246.84,
+        "bottom": 257.75,
+        "x0": 43.65,
+        "x1": 293.79,
+        "column": 0
+      },
+      {
+        "text": "duas modalidades da língua – oral e escrita. Com",
+        "top": 260.39,
+        "bottom": 271.3,
+        "x0": 43.65,
+        "x1": 293.79,
+        "column": 0
+      },
+      {
+        "text": "isto, descobrimos que, comparando uma carta pes-",
+        "top": 273.94,
+        "bottom": 284.85,
+        "x0": 43.65,
+        "x1": 293.79,
+        "column": 0
+      },
+      {
+        "text": "soal em estilo descontraído (texto escrito) com uma",
+        "top": 287.49,
+        "bottom": 298.39,
+        "x0": 43.65,
+        "x1": 293.8,
+        "column": 0
+      },
+      {
+        "text": "narrativa oral espontânea (texto oral), haverá menos",
+        "top": 301.03,
+        "bottom": 311.94,
+        "x0": 43.65,
+        "x1": 293.79,
+        "column": 0
+      },
+      {
+        "text": "diferenças do que entre a narrativa oral e um texto",
+        "top": 314.58,
+        "bottom": 325.49,
+        "x0": 43.65,
+        "x1": 293.79,
+        "column": 0
+      },
+      {
+        "text": "acadêmico escrito. Por outro lado, uma conferência",
+        "top": 328.13,
+        "bottom": 339.04,
+        "x0": 43.65,
+        "x1": 293.79,
+        "column": 0
+      },
+      {
+        "text": "universitária preparada com cuidado terá maior se-",
+        "top": 341.68,
+        "bottom": 352.59,
+        "x0": 43.65,
+        "x1": 293.79,
+        "column": 0
+      },
+      {
+        "text": "melhança com textos escritos do que com uma con-",
+        "top": 355.23,
+        "bottom": 366.14,
+        "x0": 43.65,
+        "x1": 293.79,
+        "column": 0
+      },
+      {
+        "text": "versação espontânea. Os textos se entrecruzam sob",
+        "top": 368.78,
+        "bottom": 379.69,
+        "x0": 43.65,
+        "x1": 293.8,
+        "column": 0
+      },
+      {
+        "text": "muitos aspectos e por vezes constituem domínios mis-",
+        "top": 382.33,
+        "bottom": 393.24,
+        "x0": 43.65,
+        "x1": 293.79,
+        "column": 0
+      },
+      {
+        "text": "tos, mesclando aspectos da oralidade em textos escri-",
+        "top": 395.88,
+        "bottom": 406.79,
+        "x0": 43.65,
+        "x1": 293.79,
+        "column": 0
+      },
+      {
+        "text": "tos e da escrita em textos orais. [...] Com isso, toda",
+        "top": 409.43,
+        "bottom": 420.34,
+        "x0": 43.65,
+        "x1": 293.79,
+        "column": 0
+      },
+      {
+        "text": "vez que emprego a palavra língua não me refiro a",
+        "top": 422.98,
+        "bottom": 433.89,
+        "x0": 43.65,
+        "x1": 293.79,
+        "column": 0
+      },
+      {
+        "text": "um sistema de regras determinado, abstrato, regu-",
+        "top": 436.53,
+        "bottom": 447.44,
+        "x0": 43.65,
+        "x1": 293.79,
+        "column": 0
+      },
+      {
+        "text": "lar e homogêneo, nem a relações linguísticas imanen-",
+        "top": 450.08,
+        "bottom": 460.98,
+        "x0": 43.65,
+        "x1": 293.79,
+        "column": 0
+      },
+      {
+        "text": "tes. Ao contrário, minha concepção de língua pres-",
+        "top": 463.63,
+        "bottom": 474.53,
+        "x0": 43.65,
+        "x1": 293.79,
+        "column": 0
+      },
+      {
+        "text": "supõe um fenômeno heterogêneo (com múltiplas for-",
+        "top": 477.17,
+        "bottom": 488.08,
+        "x0": 43.65,
+        "x1": 293.8,
+        "column": 0
+      },
+      {
+        "text": "mas de manifestação), variável (dinâmico, suscetível",
+        "top": 490.72,
+        "bottom": 501.63,
+        "x0": 43.65,
+        "x1": 293.8,
+        "column": 0
+      },
+      {
+        "text": "a mudanças), histórico e social (fruto de práticas",
+        "top": 504.27,
+        "bottom": 515.18,
+        "x0": 43.65,
+        "x1": 293.79,
+        "column": 0
+      },
+      {
+        "text": "sociais e históricas), indeterminado sob o ponto de",
+        "top": 517.82,
+        "bottom": 528.73,
+        "x0": 43.65,
+        "x1": 293.79,
+        "column": 0
+      },
+      {
+        "text": "vista semântico e sintático (submetido às condições",
+        "top": 531.37,
+        "bottom": 542.28,
+        "x0": 43.65,
+        "x1": 293.79,
+        "column": 0
+      },
+      {
+        "text": "de produção) e que se manifesta em situações de uso",
+        "top": 544.92,
+        "bottom": 555.83,
+        "x0": 43.65,
+        "x1": 293.79,
+        "column": 0
+      },
+      {
+        "text": "concretas como texto e discurso. [...]",
+        "top": 558.47,
+        "bottom": 569.38,
+        "x0": 43.65,
+        "x1": 218.14,
+        "column": 0
+      },
+      {
+        "text": "Fonte: MARCUSCHI, Luiz Antônio. Da fala para a escrita –",
+        "top": 584.88,
+        "bottom": 592.85,
+        "x0": 67.27,
+        "x1": 293.79,
+        "column": 0
+      },
+      {
+        "text": "atividades de retextualização. São Paulo: Cortez, 2010. p. 37-38.",
+        "top": 594.34,
+        "bottom": 602.31,
+        "x0": 51.56,
+        "x1": 293.79,
+        "column": 0
+      },
+      {
+        "text": "Texto adaptado para fins didáticos.",
+        "top": 603.81,
+        "bottom": 611.78,
+        "x0": 162.43,
+        "x1": 293.79,
+        "column": 0
+      },
+      {
+        "text": "Questão 4.",
+        "top": 631.51,
+        "bottom": 642.42,
+        "x0": 43.65,
+        "x1": 102.46,
+        "column": 0
+      },
+      {
+        "text": "Marcuschi, autor do texto VI, defende uma hipótese",
+        "top": 647.09,
+        "bottom": 658.0,
+        "x0": 43.65,
+        "x1": 293.79,
+        "column": 0
+      },
+      {
+        "text": "sobre a linguagem. Sabendo disso, pode-se afirmar",
+        "top": 660.64,
+        "bottom": 671.55,
+        "x0": 43.65,
+        "x1": 293.79,
+        "column": 0
+      },
+      {
+        "text": "que os textos III, IV, V - escritos por empregadas",
+        "top": 674.19,
+        "bottom": 685.1,
+        "x0": 43.65,
+        "x1": 293.8,
+        "column": 0
+      },
+      {
+        "text": "domésticas na página de rede social “Eu, empre-",
+        "top": 687.74,
+        "bottom": 698.65,
+        "x0": 43.65,
+        "x1": 293.79,
+        "column": 0
+      },
+      {
+        "text": "gada”:",
+        "top": 701.29,
+        "bottom": 712.2,
+        "x0": 43.65,
+        "x1": 74.56,
+        "column": 0
+      },
+      {
+        "text": "(A) justificam a tese do autor de que oralidade e es-",
+        "top": 725.55,
+        "bottom": 736.46,
+        "x0": 44.03,
+        "x1": 293.79,
+        "column": 0
+      },
+      {
+        "text": "crita situam-se em sistemas linguísticos diversos,",
+        "top": 739.1,
+        "bottom": 750.01,
+        "x0": 66.15,
+        "x1": 293.79,
+        "column": 0
+      },
+      {
+        "text": "já que não se percebem aspectos da fala nos tex-",
+        "top": 752.65,
+        "bottom": 763.56,
+        "x0": 66.15,
+        "x1": 293.8,
+        "column": 0
+      },
+      {
+        "text": "tos escritos pelas empregadas em rede social.",
+        "top": 766.2,
+        "bottom": 777.11,
+        "x0": 66.15,
+        "x1": 280.55,
+        "column": 0
+      },
+      {
+        "text": "(B) exemplificam o posicionamento central do autor",
+        "top": 68.5,
+        "bottom": 79.41,
+        "x0": 304.59,
+        "x1": 553.89,
+        "column": 1
+      },
+      {
+        "text": "de que aspectos da linguagem oral e escrita se",
+        "top": 82.05,
+        "bottom": 92.96,
+        "x0": 326.25,
+        "x1": 553.89,
+        "column": 1
+      },
+      {
+        "text": "mesclam a depender do gênero textual e da si-",
+        "top": 95.6,
+        "bottom": 106.5,
+        "x0": 326.25,
+        "x1": 553.89,
+        "column": 1
+      },
+      {
+        "text": "tuação comunicativa, pois há características de",
+        "top": 109.14,
+        "bottom": 120.05,
+        "x0": 326.25,
+        "x1": 553.89,
+        "column": 1
+      },
+      {
+        "text": "oralidade nos textos citados.",
+        "top": 122.69,
+        "bottom": 133.6,
+        "x0": 326.25,
+        "x1": 461.92,
+        "column": 1
+      },
+      {
+        "text": "(C) destoam da explicação do autor sobre um mesmo",
+        "top": 143.79,
+        "bottom": 154.7,
+        "x0": 304.44,
+        "x1": 553.89,
+        "column": 1
+      },
+      {
+        "text": "sistema da língua oral e escrita, visto que os tex-",
+        "top": 157.34,
+        "bottom": 168.25,
+        "x0": 326.25,
+        "x1": 553.89,
+        "column": 1
+      },
+      {
+        "text": "tos das empregadas apresentam variações de lin-",
+        "top": 170.89,
+        "bottom": 181.8,
+        "x0": 326.25,
+        "x1": 553.89,
+        "column": 1
+      },
+      {
+        "text": "guagem não permitidas em relatos escritos em",
+        "top": 184.44,
+        "bottom": 195.35,
+        "x0": 326.25,
+        "x1": 553.89,
+        "column": 1
+      },
+      {
+        "text": "rede social.",
+        "top": 197.99,
+        "bottom": 208.9,
+        "x0": 326.25,
+        "x1": 379.37,
+        "column": 1
+      },
+      {
+        "text": "(D) contrariam a justificativa do autor de que a",
+        "top": 219.09,
+        "bottom": 229.99,
+        "x0": 303.98,
+        "x1": 553.89,
+        "column": 1
+      },
+      {
+        "text": "língua é um fenômeno histórico e social, visto",
+        "top": 232.63,
+        "bottom": 243.54,
+        "x0": 326.25,
+        "x1": 553.89,
+        "column": 1
+      },
+      {
+        "text": "que não há indicações de variações sociais nos",
+        "top": 246.18,
+        "bottom": 257.09,
+        "x0": 326.25,
+        "x1": 553.89,
+        "column": 1
+      },
+      {
+        "text": "textos citados, os quais estão conforme a norma",
+        "top": 259.73,
+        "bottom": 270.64,
+        "x0": 326.25,
+        "x1": 553.89,
+        "column": 1
+      },
+      {
+        "text": "padrão.",
+        "top": 273.28,
+        "bottom": 284.19,
+        "x0": 326.25,
+        "x1": 362.04,
+        "column": 1
+      },
+      {
+        "text": "(E) confirmam a teoria do autor de que fala e es-",
+        "top": 294.38,
+        "bottom": 305.29,
+        "x0": 304.89,
+        "x1": 553.88,
+        "column": 1
+      },
+      {
+        "text": "crita constituem dois polos distintos da língua,",
+        "top": 307.93,
+        "bottom": 318.84,
+        "x0": 326.25,
+        "x1": 553.89,
+        "column": 1
+      },
+      {
+        "text": "pois os relatos das empregadas demonstram ca-",
+        "top": 321.48,
+        "bottom": 332.39,
+        "x0": 326.25,
+        "x1": 553.89,
+        "column": 1
+      },
+      {
+        "text": "racterísticas da linguagem próprias a textos es-",
+        "top": 335.03,
+        "bottom": 345.94,
+        "x0": 326.25,
+        "x1": 553.88,
+        "column": 1
+      },
+      {
+        "text": "critos formais.",
+        "top": 348.58,
+        "bottom": 359.49,
+        "x0": 326.25,
+        "x1": 394.01,
+        "column": 1
+      },
+      {
+        "text": "Questão 5.",
+        "top": 376.71,
+        "bottom": 387.62,
+        "x0": 303.75,
+        "x1": 362.55,
+        "column": 1
+      },
+      {
+        "text": "Em relação aos efeitos de sentido construídos pela",
+        "top": 391.86,
+        "bottom": 402.77,
+        "x0": 303.75,
+        "x1": 553.89,
+        "column": 1
+      },
+      {
+        "text": "utilização do sufixo “inha/inho” empregado em pa-",
+        "top": 405.41,
+        "bottom": 416.31,
+        "x0": 303.75,
+        "x1": 553.88,
+        "column": 1
+      },
+      {
+        "text": "lavras presentes nos textos III, IV, V, pode-se inferir",
+        "top": 418.95,
+        "bottom": 429.86,
+        "x0": 303.75,
+        "x1": 553.89,
+        "column": 1
+      },
+      {
+        "text": "que:",
+        "top": 432.5,
+        "bottom": 443.41,
+        "x0": 303.75,
+        "x1": 323.45,
+        "column": 1
+      },
+      {
+        "text": "(A) no texto III, no trecho “mas como eles não po-",
+        "top": 451.47,
+        "bottom": 462.38,
+        "x0": 304.13,
+        "x1": 553.88,
+        "column": 1
+      },
+      {
+        "text": "diam perder a escravinha não me mandavam em-",
+        "top": 465.02,
+        "bottom": 475.93,
+        "x0": 326.25,
+        "x1": 553.89,
+        "column": 1
+      },
+      {
+        "text": "bora só ameaçavam”, o uso do diminutivo atri-",
+        "top": 478.57,
+        "bottom": 489.48,
+        "x0": 326.25,
+        "x1": 553.89,
+        "column": 1
+      },
+      {
+        "text": "bui valor pejorativo à pessoa referida.",
+        "top": 492.12,
+        "bottom": 503.03,
+        "x0": 326.25,
+        "x1": 506.2,
+        "column": 1
+      },
+      {
+        "text": "(B) no texto IV, o uso do diminutivo no trecho “Sem",
+        "top": 513.22,
+        "bottom": 524.13,
+        "x0": 304.59,
+        "x1": 553.89,
+        "column": 1
+      },
+      {
+        "text": "falar em outro doutorzinho” demonstra a relação",
+        "top": 526.77,
+        "bottom": 537.68,
+        "x0": 326.25,
+        "x1": 553.89,
+        "column": 1
+      },
+      {
+        "text": "de cordialidade e respeito, por parte da empre-",
+        "top": 540.32,
+        "bottom": 551.23,
+        "x0": 326.25,
+        "x1": 553.89,
+        "column": 1
+      },
+      {
+        "text": "gada, em relação ao seu empregador.",
+        "top": 553.87,
+        "bottom": 564.78,
+        "x0": 326.25,
+        "x1": 502.16,
+        "column": 1
+      },
+      {
+        "text": "(C) no texto V, a empregada era jovem e tratada",
+        "top": 574.96,
+        "bottom": 585.87,
+        "x0": 304.44,
+        "x1": 553.89,
+        "column": 1
+      },
+      {
+        "text": "de forma cordial e afetiva pela família para a",
+        "top": 588.51,
+        "bottom": 599.42,
+        "x0": 326.25,
+        "x1": 553.9,
+        "column": 1
+      },
+      {
+        "text": "qual trabalhava, uma vez que era chamada pela",
+        "top": 602.06,
+        "bottom": 612.97,
+        "x0": 326.25,
+        "x1": 553.89,
+        "column": 1
+      },
+      {
+        "text": "patroa com o uso do diminutivo em “emprega-",
+        "top": 615.61,
+        "bottom": 626.52,
+        "x0": 326.25,
+        "x1": 553.89,
+        "column": 1
+      },
+      {
+        "text": "dinha”.",
+        "top": 629.16,
+        "bottom": 640.07,
+        "x0": 326.25,
+        "x1": 361.41,
+        "column": 1
+      },
+      {
+        "text": "(D) no texto V, a palavra “escondidinha” está no di-",
+        "top": 650.26,
+        "bottom": 661.17,
+        "x0": 303.98,
+        "x1": 553.89,
+        "column": 1
+      },
+      {
+        "text": "minutivo para se referir ao tamanho da pimenta,",
+        "top": 663.81,
+        "bottom": 674.72,
+        "x0": 326.25,
+        "x1": 553.89,
+        "column": 1
+      },
+      {
+        "text": "a qual, por ser pequena, estava escondida e quase",
+        "top": 677.36,
+        "bottom": 688.27,
+        "x0": 326.25,
+        "x1": 553.89,
+        "column": 1
+      },
+      {
+        "text": "imperceptível para as pessoas.",
+        "top": 690.91,
+        "bottom": 701.81,
+        "x0": 326.25,
+        "x1": 470.19,
+        "column": 1
+      },
+      {
+        "text": "(E) no texto V, em “a D. da casa é uma dondoca",
+        "top": 712.0,
+        "bottom": 722.91,
+        "x0": 304.89,
+        "x1": 553.89,
+        "column": 1
+      },
+      {
+        "text": "mesquinha”, o uso do diminutivo sugere que a",
+        "top": 725.55,
+        "bottom": 736.46,
+        "x0": 326.25,
+        "x1": 553.89,
+        "column": 1
+      },
+      {
+        "text": "doméstica não trata sua patroa com respeito por",
+        "top": 739.1,
+        "bottom": 750.01,
+        "x0": 326.25,
+        "x1": 553.89,
+        "column": 1
+      },
+      {
+        "text": "referir-se a ela diminuindo sua aparência física,",
+        "top": 752.65,
+        "bottom": 763.56,
+        "x0": 326.25,
+        "x1": 553.89,
+        "column": 1
+      },
+      {
+        "text": "isto é, sua estatura.",
+        "top": 766.2,
+        "bottom": 777.11,
+        "x0": 326.25,
+        "x1": 419.8,
+        "column": 1
+      }
+    ],
+    "images": [
+      {
+        "x0": 43.65,
+        "x1": 242.08,
+        "top": 779.06,
+        "bottom": 835.75
+      },
+      {
+        "x0": 327.12,
+        "x1": 525.54,
+        "top": 779.06,
+        "bottom": 835.75
+      }
+    ],
+    "rects": [],
+    "curves": []
+  },
+  {
+    "page": 6,
+    "width": 595.276,
+    "height": 841.89,
+    "lines": [
+      {
+        "text": "GEOGRAFIA - OBJETIVAS",
+        "top": 68.5,
+        "bottom": 79.41,
+        "x0": 87.69,
+        "x1": 249.76,
+        "column": 0
+      },
+      {
+        "text": "Questão 6.",
+        "top": 103.08,
+        "bottom": 113.99,
+        "x0": 43.65,
+        "x1": 102.46,
+        "column": 0
+      },
+      {
+        "text": "Analise as imagens a seguir:",
+        "top": 119.57,
+        "bottom": 130.48,
+        "x0": 43.65,
+        "x1": 177.56,
+        "column": 0
+      },
+      {
+        "text": "Figura 1",
+        "top": 153.1,
+        "bottom": 164.01,
+        "x0": 145.55,
+        "x1": 191.89,
+        "column": 0
+      },
+      {
+        "text": "Fonte: https://encurtador.com.br/Z9uWG Acesso em 24 de jun. de",
+        "top": 737.71,
+        "bottom": 745.68,
+        "x0": 43.65,
+        "x1": 293.79,
+        "column": 0
+      },
+      {
+        "text": "2024.",
+        "top": 751.26,
+        "bottom": 759.23,
+        "x0": 274.5,
+        "x1": 293.79,
+        "column": 0
+      },
+      {
+        "text": "Figura 2",
+        "top": 68.5,
+        "bottom": 79.41,
+        "x0": 405.65,
+        "x1": 451.99,
+        "column": 1
+      },
+      {
+        "text": "Fonte: INMET, 2024.",
+        "top": 369.04,
+        "bottom": 377.01,
+        "x0": 473.71,
+        "x1": 553.89,
+        "column": 1
+      },
+      {
+        "text": "A Figura 1 representa as massas de ar que atuam",
+        "top": 388.42,
+        "bottom": 399.33,
+        "x0": 314.66,
+        "x1": 553.89,
+        "column": 1
+      },
+      {
+        "text": "sobre a América do Sul. Já a Figura 2 representa o",
+        "top": 401.97,
+        "bottom": 412.88,
+        "x0": 303.75,
+        "x1": 553.89,
+        "column": 1
+      },
+      {
+        "text": "acumulado de chuvas em milímetros em 15 dias no",
+        "top": 415.52,
+        "bottom": 426.43,
+        "x0": 303.75,
+        "x1": 553.89,
+        "column": 1
+      },
+      {
+        "text": "Brasil entre 21/04/2024 e 06/05/2024. O elevado",
+        "top": 429.07,
+        "bottom": 439.98,
+        "x0": 303.75,
+        "x1": 553.89,
+        "column": 1
+      },
+      {
+        "text": "nível de chuvas sobre o estado do Rio Grande do",
+        "top": 442.62,
+        "bottom": 453.52,
+        "x0": 303.75,
+        "x1": 553.9,
+        "column": 1
+      },
+      {
+        "text": "Sul pode ser considerado como um evento extremo",
+        "top": 456.16,
+        "bottom": 467.07,
+        "x0": 303.75,
+        "x1": 553.89,
+        "column": 1
+      },
+      {
+        "text": "causado por uma conjunção de fenômenos meteo-",
+        "top": 469.71,
+        "bottom": 480.62,
+        "x0": 303.75,
+        "x1": 553.89,
+        "column": 1
+      },
+      {
+        "text": "rológicos.",
+        "top": 483.26,
+        "bottom": 494.17,
+        "x0": 303.75,
+        "x1": 348.09,
+        "column": 1
+      },
+      {
+        "text": "É CORRETO afirmar como uma das causas deste",
+        "top": 496.81,
+        "bottom": 507.72,
+        "x0": 314.66,
+        "x1": 553.89,
+        "column": 1
+      },
+      {
+        "text": "evento extremo que:",
+        "top": 510.36,
+        "bottom": 521.27,
+        "x0": 303.75,
+        "x1": 399.84,
+        "column": 1
+      },
+      {
+        "text": "(A) a Massa Polar Atlântica, fria e úmida, se man-",
+        "top": 532.11,
+        "bottom": 543.02,
+        "x0": 304.13,
+        "x1": 553.89,
+        "column": 1
+      },
+      {
+        "text": "teve sobre o Rio Grande do Sul devido ao blo-",
+        "top": 545.66,
+        "bottom": 556.57,
+        "x0": 326.25,
+        "x1": 553.89,
+        "column": 1
+      },
+      {
+        "text": "queio atmosférico no Centro-Sul do Brasil.",
+        "top": 559.21,
+        "bottom": 570.12,
+        "x0": 326.25,
+        "x1": 529.04,
+        "column": 1
+      },
+      {
+        "text": "(B) a Massa Tropical Atlântica, quente e úmida, não",
+        "top": 580.47,
+        "bottom": 591.38,
+        "x0": 304.59,
+        "x1": 553.89,
+        "column": 1
+      },
+      {
+        "text": "atingiu o Rio Grande do Sul devido ao enfraque-",
+        "top": 594.02,
+        "bottom": 604.93,
+        "x0": 326.25,
+        "x1": 553.89,
+        "column": 1
+      },
+      {
+        "text": "cimento da Zona de Alta pressão Atlântica.",
+        "top": 607.57,
+        "bottom": 618.48,
+        "x0": 326.25,
+        "x1": 533.99,
+        "column": 1
+      },
+      {
+        "text": "(C) o aquecimento global ainda não atingiu o estado",
+        "top": 628.83,
+        "bottom": 639.74,
+        "x0": 304.44,
+        "x1": 553.89,
+        "column": 1
+      },
+      {
+        "text": "do Rio Grande do Sul, o que provocou tempera-",
+        "top": 642.38,
+        "bottom": 653.29,
+        "x0": 326.25,
+        "x1": 553.89,
+        "column": 1
+      },
+      {
+        "text": "turas abaixo da média e chuvas intensas.",
+        "top": 655.93,
+        "bottom": 666.84,
+        "x0": 326.25,
+        "x1": 520.77,
+        "column": 1
+      },
+      {
+        "text": "(D) a massa Equatorial Continental, quente e úmida,",
+        "top": 677.19,
+        "bottom": 688.1,
+        "x0": 303.98,
+        "x1": 553.89,
+        "column": 1
+      },
+      {
+        "text": "deslocou-se para o Nordeste brasileiro em de-",
+        "top": 690.74,
+        "bottom": 701.65,
+        "x0": 326.25,
+        "x1": 553.88,
+        "column": 1
+      },
+      {
+        "text": "corrência das baixas precipitações na Amazônia.",
+        "top": 704.29,
+        "bottom": 715.2,
+        "x0": 326.25,
+        "x1": 553.89,
+        "column": 1
+      },
+      {
+        "text": "(E) o Fenômeno El Ninõ provocou a diminuição das",
+        "top": 725.55,
+        "bottom": 736.46,
+        "x0": 304.89,
+        "x1": 553.89,
+        "column": 1
+      },
+      {
+        "text": "temperaturas no Centro-Sul do Brasil, atraindo",
+        "top": 739.1,
+        "bottom": 750.01,
+        "x0": 326.25,
+        "x1": 553.89,
+        "column": 1
+      },
+      {
+        "text": "a Massa Tropical Continental, quente e seca,",
+        "top": 752.65,
+        "bottom": 763.56,
+        "x0": 326.25,
+        "x1": 553.89,
+        "column": 1
+      },
+      {
+        "text": "para esta área.",
+        "top": 766.2,
+        "bottom": 777.11,
+        "x0": 326.25,
+        "x1": 396.68,
+        "column": 1
+      }
+    ],
+    "images": [
+      {
+        "x0": 43.65,
+        "x1": 293.8,
+        "top": 165.01,
+        "bottom": 711.94
+      },
+      {
+        "x0": 303.75,
+        "x1": 553.9,
+        "top": 80.41,
+        "bottom": 353.72
+      },
+      {
+        "x0": 43.65,
+        "x1": 242.08,
+        "top": 779.06,
+        "bottom": 835.75
+      },
+      {
+        "x0": 327.12,
+        "x1": 525.54,
+        "top": 779.06,
+        "bottom": 835.75
+      }
+    ],
+    "rects": [],
+    "curves": []
+  },
+  {
+    "page": 7,
+    "width": 595.276,
+    "height": 841.89,
+    "lines": [
+      {
+        "text": "Fonte: IBGE, 2024.",
+        "top": 362.45,
+        "bottom": 370.42,
+        "x0": 132.42,
+        "x1": 205.02,
+        "column": 0
+      },
+      {
+        "text": "Questão 7.",
+        "top": 385.16,
+        "bottom": 396.07,
+        "x0": 43.65,
+        "x1": 102.46,
+        "column": 0
+      },
+      {
+        "text": "No dia 09 de março de 2024, o IBGE (Instituto Bra-",
+        "top": 400.31,
+        "bottom": 411.22,
+        "x0": 43.65,
+        "x1": 293.79,
+        "column": 0
+      },
+      {
+        "text": "sileiro de Geografia e Estatísticas) divulgou a nova",
+        "top": 413.86,
+        "bottom": 424.77,
+        "x0": 43.65,
+        "x1": 293.79,
+        "column": 0
+      },
+      {
+        "text": "versão do mapa-múndi, o que gerou muita polêmica",
+        "top": 427.41,
+        "bottom": 438.32,
+        "x0": 43.65,
+        "x1": 293.79,
+        "column": 0
+      },
+      {
+        "text": "nas redes sociais. O motivo da controvérsia: o desta-",
+        "top": 440.96,
+        "bottom": 451.87,
+        "x0": 43.65,
+        "x1": 293.79,
+        "column": 0
+      },
+      {
+        "text": "que dado ao Brasil, que ocupou uma posição central",
+        "top": 454.51,
+        "bottom": 465.42,
+        "x0": 43.65,
+        "x1": 293.79,
+        "column": 0
+      },
+      {
+        "text": "no mapa, diferente das divulgações cartográficas con-",
+        "top": 468.06,
+        "bottom": 478.97,
+        "x0": 43.65,
+        "x1": 293.79,
+        "column": 0
+      },
+      {
+        "text": "vencionais.",
+        "top": 481.61,
+        "bottom": 492.51,
+        "x0": 43.65,
+        "x1": 95.23,
+        "column": 0
+      },
+      {
+        "text": "Sobre o novo mapa-múndi do IBGE e o processo",
+        "top": 495.15,
+        "bottom": 506.06,
+        "x0": 54.56,
+        "x1": 293.79,
+        "column": 0
+      },
+      {
+        "text": "de elaboração de mapas, marque a alternativa COR-",
+        "top": 508.7,
+        "bottom": 519.61,
+        "x0": 43.65,
+        "x1": 293.79,
+        "column": 0
+      },
+      {
+        "text": "RETA.",
+        "top": 522.25,
+        "bottom": 533.16,
+        "x0": 43.65,
+        "x1": 77.29,
+        "column": 0
+      },
+      {
+        "text": "(A) A projeção cônica seria a mais indicada para re-",
+        "top": 542.43,
+        "bottom": 553.33,
+        "x0": 44.03,
+        "x1": 293.79,
+        "column": 0
+      },
+      {
+        "text": "presentar as áreas próximas à linha do Equador.",
+        "top": 555.97,
+        "bottom": 566.88,
+        "x0": 66.15,
+        "x1": 293.79,
+        "column": 0
+      },
+      {
+        "text": "(B) O mapa do IBGE desconsidera o Meridiano de",
+        "top": 577.55,
+        "bottom": 588.46,
+        "x0": 44.49,
+        "x1": 293.79,
+        "column": 0
+      },
+      {
+        "text": "Greenwich alterando os valores das longitudes",
+        "top": 591.1,
+        "bottom": 602.01,
+        "x0": 66.15,
+        "x1": 293.79,
+        "column": 0
+      },
+      {
+        "text": "do Brasil.",
+        "top": 604.65,
+        "bottom": 615.56,
+        "x0": 66.15,
+        "x1": 112.15,
+        "column": 0
+      },
+      {
+        "text": "(C) O Meridiano de Greenwich é o único meridiano",
+        "top": 626.23,
+        "bottom": 637.14,
+        "x0": 44.33,
+        "x1": 293.8,
+        "column": 0
+      },
+      {
+        "text": "central, devendo sempre ser grafado no centro",
+        "top": 639.78,
+        "bottom": 650.69,
+        "x0": 66.15,
+        "x1": 293.79,
+        "column": 0
+      },
+      {
+        "text": "dos mapas.",
+        "top": 653.33,
+        "bottom": 664.24,
+        "x0": 66.15,
+        "x1": 119.0,
+        "column": 0
+      },
+      {
+        "text": "(D) As projeções perpassam escolhas e o IBGE optou",
+        "top": 674.91,
+        "bottom": 685.81,
+        "x0": 43.88,
+        "x1": 293.79,
+        "column": 0
+      },
+      {
+        "text": "por uma representação que evita distorções das",
+        "top": 688.46,
+        "bottom": 699.36,
+        "x0": 66.15,
+        "x1": 293.79,
+        "column": 0
+      },
+      {
+        "text": "superfícies.",
+        "top": 702.0,
+        "bottom": 712.91,
+        "x0": 66.15,
+        "x1": 118.43,
+        "column": 0
+      },
+      {
+        "text": "(E) Projeções cartográficas não são simplesmente",
+        "top": 723.58,
+        "bottom": 734.49,
+        "x0": 44.79,
+        "x1": 293.79,
+        "column": 0
+      },
+      {
+        "text": "soluções matemáticas, mas, também, produtos",
+        "top": 737.13,
+        "bottom": 748.04,
+        "x0": 66.15,
+        "x1": 293.79,
+        "column": 0
+      },
+      {
+        "text": "políticos e culturais.",
+        "top": 750.68,
+        "bottom": 761.59,
+        "x0": 66.15,
+        "x1": 162.36,
+        "column": 0
+      },
+      {
+        "text": "Questão 8.",
+        "top": 373.43,
+        "bottom": 384.34,
+        "x0": 303.75,
+        "x1": 362.55,
+        "column": 1
+      },
+      {
+        "text": "Leia o excerto a seguir:",
+        "top": 388.58,
+        "bottom": 399.49,
+        "x0": 303.75,
+        "x1": 414.63,
+        "column": 1
+      },
+      {
+        "text": "Riscos ambientais da PEC das Praias",
+        "top": 411.85,
+        "bottom": 422.76,
+        "x0": 326.16,
+        "x1": 531.48,
+        "column": 1
+      },
+      {
+        "text": "Essa faixa costeira é fundamental na contenção da",
+        "top": 425.4,
+        "bottom": 436.31,
+        "x0": 308.49,
+        "x1": 549.15,
+        "column": 1
+      },
+      {
+        "text": "erosão",
+        "top": 438.95,
+        "bottom": 449.86,
+        "x0": 413.93,
+        "x1": 443.71,
+        "column": 1
+      },
+      {
+        "text": "A Proposta de Emenda Constitucional 3/2022, a",
+        "top": 462.22,
+        "bottom": 473.13,
+        "x0": 303.75,
+        "x1": 553.89,
+        "column": 1
+      },
+      {
+        "text": "PEC das Praias, tem sido debatida nos últimos dias,",
+        "top": 475.77,
+        "bottom": 486.68,
+        "x0": 303.75,
+        "x1": 553.89,
+        "column": 1
+      },
+      {
+        "text": "especialmente sob a ótica econômica e social. Gos-",
+        "top": 489.32,
+        "bottom": 500.23,
+        "x0": 303.75,
+        "x1": 553.89,
+        "column": 1
+      },
+      {
+        "text": "taríamos de incluir aqui alguns argumentos ambien-",
+        "top": 502.87,
+        "bottom": 513.78,
+        "x0": 303.75,
+        "x1": 553.89,
+        "column": 1
+      },
+      {
+        "text": "tais a partir de nossa pesquisa em biologia marinha.",
+        "top": 516.42,
+        "bottom": 527.33,
+        "x0": 303.75,
+        "x1": 553.9,
+        "column": 1
+      },
+      {
+        "text": "O objetivo principal dessa PEC é a concessão pri-",
+        "top": 529.97,
+        "bottom": 540.87,
+        "x0": 303.75,
+        "x1": 553.89,
+        "column": 1
+      },
+      {
+        "text": "vada de terrenos de marinha. Há um entendimento",
+        "top": 543.52,
+        "bottom": 554.42,
+        "x0": 303.75,
+        "x1": 553.9,
+        "column": 1
+      },
+      {
+        "text": "de que essa faixa se localize acima de 33 metros da",
+        "top": 557.06,
+        "bottom": 567.97,
+        "x0": 303.75,
+        "x1": 553.89,
+        "column": 1
+      },
+      {
+        "text": "linha d’água, o que exclui as praias. Há outro enten-",
+        "top": 570.61,
+        "bottom": 581.52,
+        "x0": 303.75,
+        "x1": 553.89,
+        "column": 1
+      },
+      {
+        "text": "dimento que cita que essas áreas vão até onde se faça",
+        "top": 584.16,
+        "bottom": 595.07,
+        "x0": 303.75,
+        "x1": 553.89,
+        "column": 1
+      },
+      {
+        "text": "sentir a influência da maré. Só nessa duplicidade de",
+        "top": 597.71,
+        "bottom": 608.62,
+        "x0": 303.75,
+        "x1": 553.89,
+        "column": 1
+      },
+      {
+        "text": "interpretações já há margem para conflitos.",
+        "top": 611.26,
+        "bottom": 622.17,
+        "x0": 303.75,
+        "x1": 510.66,
+        "column": 1
+      },
+      {
+        "text": "Essa faixa costeira é fundamental na contenção da",
+        "top": 624.81,
+        "bottom": 635.72,
+        "x0": 314.66,
+        "x1": 553.89,
+        "column": 1
+      },
+      {
+        "text": "erosão litorânea e das mudanças climáticas. Elas são",
+        "top": 638.36,
+        "bottom": 649.27,
+        "x0": 303.75,
+        "x1": 553.89,
+        "column": 1
+      },
+      {
+        "text": "partes do patrimônio nacional, devendo ser geridas",
+        "top": 651.91,
+        "bottom": 662.82,
+        "x0": 303.75,
+        "x1": 553.89,
+        "column": 1
+      },
+      {
+        "text": "pelo interesse público. Por mais que não privatize",
+        "top": 665.46,
+        "bottom": 676.37,
+        "x0": 303.75,
+        "x1": 553.89,
+        "column": 1
+      },
+      {
+        "text": "praias, a PEC 3/2022 resultará em degradação ambi-",
+        "top": 679.01,
+        "bottom": 689.92,
+        "x0": 303.75,
+        "x1": 553.89,
+        "column": 1
+      },
+      {
+        "text": "ental, expulsão de pescadores artesanais, dificuldade",
+        "top": 692.56,
+        "bottom": 703.47,
+        "x0": 303.75,
+        "x1": 553.89,
+        "column": 1
+      },
+      {
+        "text": "de acesso à praia e especulação imobiliária.",
+        "top": 706.11,
+        "bottom": 717.01,
+        "x0": 303.75,
+        "x1": 509.75,
+        "column": 1
+      },
+      {
+        "text": "https://www.correiobraziliense.com.br/opiniao/2024/06/6878577-",
+        "top": 731.75,
+        "bottom": 739.72,
+        "x0": 310.3,
+        "x1": 553.89,
+        "column": 1
+      },
+      {
+        "text": "riscos-ambientais-da-pec-das-praias.html Acesso em: 16 de jun. de",
+        "top": 745.3,
+        "bottom": 753.27,
+        "x0": 307.97,
+        "x1": 553.89,
+        "column": 1
+      },
+      {
+        "text": "2024.",
+        "top": 758.85,
+        "bottom": 766.82,
+        "x0": 534.6,
+        "x1": 553.89,
+        "column": 1
+      }
+    ],
+    "images": [
+      {
+        "x0": 43.65,
+        "x1": 553.96,
+        "top": 78.28,
+        "bottom": 355.33
+      },
+      {
+        "x0": 43.65,
+        "x1": 242.08,
+        "top": 779.06,
+        "bottom": 835.75
+      },
+      {
+        "x0": 327.12,
+        "x1": 525.54,
+        "top": 779.06,
+        "bottom": 835.75
+      }
+    ],
+    "rects": [],
+    "curves": []
+  },
+  {
+    "page": 8,
+    "width": 595.276,
+    "height": 841.89,
+    "lines": [
+      {
+        "text": "Sobre a vegetação litorânea ameaçada pela priva-",
+        "top": 68.5,
+        "bottom": 79.41,
+        "x0": 54.56,
+        "x1": 293.79,
+        "column": 0
+      },
+      {
+        "text": "tização de áreas à beira-mar, assinale a alternativa",
+        "top": 82.05,
+        "bottom": 92.96,
+        "x0": 43.65,
+        "x1": 293.79,
+        "column": 0
+      },
+      {
+        "text": "CORRETA.",
+        "top": 95.6,
+        "bottom": 106.5,
+        "x0": 43.65,
+        "x1": 109.4,
+        "column": 0
+      },
+      {
+        "text": "(A) Em sua localização original, a Mata Atlântica",
+        "top": 115.8,
+        "bottom": 126.71,
+        "x0": 44.03,
+        "x1": 293.79,
+        "column": 0
+      },
+      {
+        "text": "estendia-se desde o litoral nordestino ao litoral",
+        "top": 129.35,
+        "bottom": 140.26,
+        "x0": 66.15,
+        "x1": 293.79,
+        "column": 0
+      },
+      {
+        "text": "da região Sul.",
+        "top": 142.9,
+        "bottom": 153.81,
+        "x0": 66.15,
+        "x1": 131.63,
+        "column": 0
+      },
+      {
+        "text": "(B) As restingas são espécies constituídas por ve-",
+        "top": 164.49,
+        "bottom": 175.4,
+        "x0": 44.49,
+        "x1": 293.79,
+        "column": 0
+      },
+      {
+        "text": "getações densas, de porte exuberante, com pre-",
+        "top": 178.04,
+        "bottom": 188.95,
+        "x0": 66.15,
+        "x1": 293.79,
+        "column": 0
+      },
+      {
+        "text": "dominância de arbustos.",
+        "top": 191.59,
+        "bottom": 202.5,
+        "x0": 66.15,
+        "x1": 182.07,
+        "column": 0
+      },
+      {
+        "text": "(C) Os mangues se formam nas áreas de estuários,",
+        "top": 213.18,
+        "bottom": 224.09,
+        "x0": 44.34,
+        "x1": 293.79,
+        "column": 0
+      },
+      {
+        "text": "baías ou reentrâncias onde há uma transição en-",
+        "top": 226.73,
+        "bottom": 237.64,
+        "x0": 66.15,
+        "x1": 293.79,
+        "column": 0
+      },
+      {
+        "text": "tre a terra firme e o mar.",
+        "top": 240.28,
+        "bottom": 251.19,
+        "x0": 66.15,
+        "x1": 186.31,
+        "column": 0
+      },
+      {
+        "text": "(D) No Nordeste, a caatinga se destaca pela",
+        "top": 261.87,
+        "bottom": 272.78,
+        "x0": 43.88,
+        "x1": 293.79,
+        "column": 0
+      },
+      {
+        "text": "ocorrência de árvores baixas, com troncos tor-",
+        "top": 275.42,
+        "bottom": 286.33,
+        "x0": 66.15,
+        "x1": 293.79,
+        "column": 0
+      },
+      {
+        "text": "tuosos, presença de espinhos e raízes longas.",
+        "top": 288.97,
+        "bottom": 299.88,
+        "x0": 66.15,
+        "x1": 276.95,
+        "column": 0
+      },
+      {
+        "text": "(E) Os campos limpos são caracterizados por",
+        "top": 310.56,
+        "bottom": 321.47,
+        "x0": 44.79,
+        "x1": 293.79,
+        "column": 0
+      },
+      {
+        "text": "extensões de terras recobertas por plantas",
+        "top": 324.11,
+        "bottom": 335.02,
+        "x0": 66.15,
+        "x1": 293.79,
+        "column": 0
+      },
+      {
+        "text": "herbáceas, principalmente gramíneas, e sem ma-",
+        "top": 337.66,
+        "bottom": 348.57,
+        "x0": 66.15,
+        "x1": 293.79,
+        "column": 0
+      },
+      {
+        "text": "tas.",
+        "top": 351.21,
+        "bottom": 362.12,
+        "x0": 66.15,
+        "x1": 83.18,
+        "column": 0
+      },
+      {
+        "text": "Questão 9.",
+        "top": 380.58,
+        "bottom": 391.49,
+        "x0": 43.65,
+        "x1": 102.46,
+        "column": 0
+      },
+      {
+        "text": "Fonte: https://institutopristino.org.br/inicio-do-projeto-",
+        "top": 603.69,
+        "bottom": 611.66,
+        "x0": 84.86,
+        "x1": 293.79,
+        "column": 0
+      },
+      {
+        "text": "geotecnologias-para-gestao-hidrica-do-sinclinal-moeda-mg-2/.",
+        "top": 617.24,
+        "bottom": 625.21,
+        "x0": 68.05,
+        "x1": 293.79,
+        "column": 0
+      },
+      {
+        "text": "Acesso em: 16 de jun. de 2024.",
+        "top": 630.79,
+        "bottom": 638.76,
+        "x0": 177.97,
+        "x1": 293.79,
+        "column": 0
+      },
+      {
+        "text": "A imagem acima apresenta a área usualmente co-",
+        "top": 651.15,
+        "bottom": 662.06,
+        "x0": 54.56,
+        "x1": 293.79,
+        "column": 0
+      },
+      {
+        "text": "nhecida como Quadrilátero Ferrífero. Entretanto,",
+        "top": 664.7,
+        "bottom": 675.61,
+        "x0": 43.65,
+        "x1": 293.79,
+        "column": 0
+      },
+      {
+        "text": "pesquisas têm apontado que o termo mais indicado",
+        "top": 678.25,
+        "bottom": 689.16,
+        "x0": 43.65,
+        "x1": 293.79,
+        "column": 0
+      },
+      {
+        "text": "seria Quadrilátero Aquífero-Ferrífero, já que a área",
+        "top": 691.8,
+        "bottom": 702.71,
+        "x0": 43.65,
+        "x1": 293.79,
+        "column": 0
+      },
+      {
+        "text": "abriga o Aquífero Cauê, com alta capacidade de ar-",
+        "top": 705.35,
+        "bottom": 716.26,
+        "x0": 43.65,
+        "x1": 293.79,
+        "column": 0
+      },
+      {
+        "text": "mazenamento de água.",
+        "top": 718.9,
+        "bottom": 729.8,
+        "x0": 43.65,
+        "x1": 152.44,
+        "column": 0
+      },
+      {
+        "text": "Esta capacidade se explica em decorrência das",
+        "top": 732.44,
+        "bottom": 743.35,
+        "x0": 54.56,
+        "x1": 275.87,
+        "column": 0
+      },
+      {
+        "text": "(A) características mineralógicas dos minerais ferru-",
+        "top": 752.65,
+        "bottom": 763.56,
+        "x0": 44.03,
+        "x1": 293.79,
+        "column": 0
+      },
+      {
+        "text": "ginosos.",
+        "top": 766.2,
+        "bottom": 777.11,
+        "x0": 66.15,
+        "x1": 103.24,
+        "column": 0
+      },
+      {
+        "text": "(B) características do relevo, com baixa variação nas",
+        "top": 68.5,
+        "bottom": 79.41,
+        "x0": 304.59,
+        "x1": 553.89,
+        "column": 1
+      },
+      {
+        "text": "altitudes.",
+        "top": 82.05,
+        "bottom": 92.96,
+        "x0": 326.25,
+        "x1": 370.56,
+        "column": 1
+      },
+      {
+        "text": "(C) obras de engenharia humana, particularmente as",
+        "top": 104.01,
+        "bottom": 114.91,
+        "x0": 304.44,
+        "x1": 553.88,
+        "column": 1
+      },
+      {
+        "text": "barragens.",
+        "top": 117.55,
+        "bottom": 128.46,
+        "x0": 326.25,
+        "x1": 375.47,
+        "column": 1
+      },
+      {
+        "text": "(D) fraturas nas rochas metamórficas, nas quais a",
+        "top": 139.51,
+        "bottom": 150.42,
+        "x0": 303.98,
+        "x1": 553.89,
+        "column": 1
+      },
+      {
+        "text": "água é armazenada.",
+        "top": 153.06,
+        "bottom": 163.97,
+        "x0": 326.25,
+        "x1": 420.83,
+        "column": 1
+      },
+      {
+        "text": "(E) das propriedades químicas do Ferro (Fe), abun-",
+        "top": 175.02,
+        "bottom": 185.93,
+        "x0": 304.89,
+        "x1": 553.89,
+        "column": 1
+      },
+      {
+        "text": "dantes nos Itabiritos.",
+        "top": 188.57,
+        "bottom": 199.48,
+        "x0": 326.25,
+        "x1": 427.07,
+        "column": 1
+      },
+      {
+        "text": "Questão 10.",
+        "top": 218.86,
+        "bottom": 229.77,
+        "x0": 303.75,
+        "x1": 368.83,
+        "column": 1
+      },
+      {
+        "text": "Fonte: https://encurtador.com.br/D88lc Acesso em 15 de junho de",
+        "top": 437.14,
+        "bottom": 445.11,
+        "x0": 305.34,
+        "x1": 553.89,
+        "column": 1
+      },
+      {
+        "text": "2024.",
+        "top": 450.69,
+        "bottom": 458.66,
+        "x0": 534.6,
+        "x1": 553.89,
+        "column": 1
+      },
+      {
+        "text": "O mapa acima representa uma proposta de trajeto",
+        "top": 472.15,
+        "bottom": 483.06,
+        "x0": 303.75,
+        "x1": 553.89,
+        "column": 1
+      },
+      {
+        "text": "para a Ferrovia Transoceânica, projeto que prevê",
+        "top": 485.7,
+        "bottom": 496.61,
+        "x0": 303.75,
+        "x1": 553.88,
+        "column": 1
+      },
+      {
+        "text": "uma maior integração entre América do Sul e Ásia,",
+        "top": 499.25,
+        "bottom": 510.16,
+        "x0": 303.75,
+        "x1": 553.89,
+        "column": 1
+      },
+      {
+        "text": "sobretudo para o transporte de produtos agrícolas",
+        "top": 512.8,
+        "bottom": 523.71,
+        "x0": 303.75,
+        "x1": 553.89,
+        "column": 1
+      },
+      {
+        "text": "e minerais, tornando as exportações possíveis tanto",
+        "top": 526.35,
+        "bottom": 537.26,
+        "x0": 303.75,
+        "x1": 553.89,
+        "column": 1
+      },
+      {
+        "text": "pelo Oceano Atlântico quanto pelo Oceano Pacífico.",
+        "top": 539.9,
+        "bottom": 550.81,
+        "x0": 303.75,
+        "x1": 551.78,
+        "column": 1
+      },
+      {
+        "text": "Considerando os trajetos representados no mapa",
+        "top": 553.45,
+        "bottom": 564.36,
+        "x0": 314.66,
+        "x1": 553.89,
+        "column": 1
+      },
+      {
+        "text": "em território nacional, e levando em conta uma so-",
+        "top": 567.0,
+        "bottom": 577.91,
+        "x0": 303.75,
+        "x1": 553.89,
+        "column": 1
+      },
+      {
+        "text": "breposição aos principais Domínios Morfoclimáticos",
+        "top": 580.55,
+        "bottom": 591.46,
+        "x0": 303.75,
+        "x1": 553.89,
+        "column": 1
+      },
+      {
+        "text": "do Brasil e as faixas de transição entre eles, defini-",
+        "top": 594.1,
+        "bottom": 605.01,
+        "x0": 303.75,
+        "x1": 553.89,
+        "column": 1
+      },
+      {
+        "text": "dos pelo geógrafo Aziz Ab’Saber, identifica-se a se-",
+        "top": 607.65,
+        "bottom": 618.55,
+        "x0": 303.75,
+        "x1": 553.89,
+        "column": 1
+      },
+      {
+        "text": "guinte sequência, do Oceano Atlântico em direção ao",
+        "top": 621.19,
+        "bottom": 632.1,
+        "x0": 303.75,
+        "x1": 553.9,
+        "column": 1
+      },
+      {
+        "text": "Pacífico, de Domínios cortados pela ferrovia:",
+        "top": 634.74,
+        "bottom": 645.65,
+        "x0": 303.75,
+        "x1": 516.39,
+        "column": 1
+      },
+      {
+        "text": "(A) Cerrado, Pantanal e Amazônico.",
+        "top": 658.58,
+        "bottom": 669.49,
+        "x0": 304.13,
+        "x1": 481.31,
+        "column": 1
+      },
+      {
+        "text": "(B) Cerrado, Chaco Central e Pantanal.",
+        "top": 680.54,
+        "bottom": 691.45,
+        "x0": 304.59,
+        "x1": 497.71,
+        "column": 1
+      },
+      {
+        "text": "(C) Mar de Morros, Araucárias e Cerrado.",
+        "top": 702.5,
+        "bottom": 713.4,
+        "x0": 304.43,
+        "x1": 509.31,
+        "column": 1
+      },
+      {
+        "text": "(D) Mar de Morros, Cerrado e Amazônico.",
+        "top": 724.45,
+        "bottom": 735.36,
+        "x0": 303.98,
+        "x1": 510.41,
+        "column": 1
+      },
+      {
+        "text": "(E) Chapadões Florestados, Caatinga e Cerrado.",
+        "top": 746.41,
+        "bottom": 757.32,
+        "x0": 304.89,
+        "x1": 539.1,
+        "column": 1
+      }
+    ],
+    "images": [
+      {
+        "x0": 43.65,
+        "x1": 293.8,
+        "top": 395.4,
+        "bottom": 587.38
+      },
+      {
+        "x0": 303.75,
+        "x1": 553.89,
+        "top": 233.68,
+        "bottom": 419.73
+      },
+      {
+        "x0": 43.65,
+        "x1": 242.08,
+        "top": 779.06,
+        "bottom": 835.75
+      },
+      {
+        "x0": 327.12,
+        "x1": 525.54,
+        "top": 779.06,
+        "bottom": 835.75
+      }
+    ],
+    "rects": [],
+    "curves": []
+  },
+  {
+    "page": 9,
+    "width": 595.276,
+    "height": 841.89,
+    "lines": [
+      {
+        "text": "MATEMÁTICA - OBJETIVAS",
+        "top": 68.5,
+        "bottom": 79.41,
+        "x0": 81.53,
+        "x1": 255.92,
+        "column": 0
+      },
+      {
+        "text": "Questão 11.",
+        "top": 92.14,
+        "bottom": 103.05,
+        "x0": 43.65,
+        "x1": 108.73,
+        "column": 0
+      },
+      {
+        "text": "Fixe os seguintes números reais : a = π , b = 3",
+        "top": 107.29,
+        "bottom": 118.2,
+        "x0": 43.65,
+        "x1": 269.41,
+        "column": 0
+      },
+      {
+        "text": "e c = 3,2.",
+        "top": 120.84,
+        "bottom": 131.75,
+        "x0": 43.65,
+        "x1": 89.58,
+        "column": 0
+      },
+      {
+        "text": "Assinale a alternativa que representa a ordenação",
+        "top": 134.39,
+        "bottom": 145.29,
+        "x0": 54.56,
+        "x1": 293.79,
+        "column": 0
+      },
+      {
+        "text": "dos números a, b e c na reta real IR:",
+        "top": 147.93,
+        "bottom": 158.84,
+        "x0": 43.65,
+        "x1": 216.46,
+        "column": 0
+      },
+      {
+        "text": "a b c",
+        "top": 184.53,
+        "bottom": 198.31,
+        "x0": 91.87,
+        "x1": 153.8,
+        "column": 0
+      },
+      {
+        "text": "(A)",
+        "top": 191.04,
+        "bottom": 201.95,
+        "x0": 44.03,
+        "x1": 60.7,
+        "column": 0
+      },
+      {
+        "text": "b a c",
+        "top": 228.08,
+        "bottom": 241.87,
+        "x0": 92.41,
+        "x1": 153.8,
+        "column": 0
+      },
+      {
+        "text": "(B)",
+        "top": 234.6,
+        "bottom": 245.51,
+        "x0": 44.49,
+        "x1": 60.7,
+        "column": 0
+      },
+      {
+        "text": "b c a",
+        "top": 271.64,
+        "bottom": 285.42,
+        "x0": 92.41,
+        "x1": 154.33,
+        "column": 0
+      },
+      {
+        "text": "(C)",
+        "top": 278.15,
+        "bottom": 289.06,
+        "x0": 44.34,
+        "x1": 60.7,
+        "column": 0
+      },
+      {
+        "text": "a = b c",
+        "top": 315.19,
+        "bottom": 328.98,
+        "x0": 91.61,
+        "x1": 144.17,
+        "column": 0
+      },
+      {
+        "text": "(D)",
+        "top": 321.71,
+        "bottom": 332.62,
+        "x0": 43.88,
+        "x1": 60.7,
+        "column": 0
+      },
+      {
+        "text": "b a = c",
+        "top": 358.75,
+        "bottom": 372.54,
+        "x0": 101.76,
+        "x1": 154.32,
+        "column": 0
+      },
+      {
+        "text": "(E)",
+        "top": 365.26,
+        "bottom": 376.17,
+        "x0": 44.79,
+        "x1": 60.7,
+        "column": 0
+      },
+      {
+        "text": "Questão 12.",
+        "top": 395.68,
+        "bottom": 406.59,
+        "x0": 43.65,
+        "x1": 108.73,
+        "column": 0
+      },
+      {
+        "text": "Considere a função quadrática f(x) = x2 + 2x − 24.",
+        "top": 409.24,
+        "bottom": 421.74,
+        "x0": 43.65,
+        "x1": 293.79,
+        "column": 0
+      },
+      {
+        "text": "Defina r pela maior raiz de f(x) e r pela menor raiz",
+        "top": 424.38,
+        "bottom": 435.29,
+        "x0": 43.65,
+        "x1": 293.79,
+        "column": 0
+      },
+      {
+        "text": "1 2",
+        "top": 428.38,
+        "bottom": 436.35,
+        "x0": 82.19,
+        "x1": 217.69,
+        "column": 0
+      },
+      {
+        "text": "de f(x).",
+        "top": 437.93,
+        "bottom": 448.83,
+        "x0": 43.65,
+        "x1": 82.47,
+        "column": 0
+      },
+      {
+        "text": "Quanto vale a razão r /r ?",
+        "top": 451.47,
+        "bottom": 462.38,
+        "x0": 54.56,
+        "x1": 187.54,
+        "column": 0
+      },
+      {
+        "text": "1 2",
+        "top": 455.48,
+        "bottom": 463.45,
+        "x0": 158.91,
+        "x1": 178.25,
+        "column": 0
+      },
+      {
+        "text": "(A) 3/2",
+        "top": 472.73,
+        "bottom": 483.64,
+        "x0": 44.03,
+        "x1": 82.52,
+        "column": 0
+      },
+      {
+        "text": "(B) 2/3",
+        "top": 493.83,
+        "bottom": 504.74,
+        "x0": 44.49,
+        "x1": 82.52,
+        "column": 0
+      },
+      {
+        "text": "(C) -2/3",
+        "top": 514.93,
+        "bottom": 525.84,
+        "x0": 44.33,
+        "x1": 86.15,
+        "column": 0
+      },
+      {
+        "text": "(D) -1",
+        "top": 536.03,
+        "bottom": 546.94,
+        "x0": 43.88,
+        "x1": 75.24,
+        "column": 0
+      },
+      {
+        "text": "(E) -3/2",
+        "top": 557.13,
+        "bottom": 568.04,
+        "x0": 44.79,
+        "x1": 86.15,
+        "column": 0
+      },
+      {
+        "text": "Questão 13.",
+        "top": 587.55,
+        "bottom": 598.45,
+        "x0": 43.65,
+        "x1": 108.73,
+        "column": 0
+      },
+      {
+        "text": "Considere um triângulo retângulo com hipotenusa",
+        "top": 602.69,
+        "bottom": 613.6,
+        "x0": 43.65,
+        "x1": 293.79,
+        "column": 0
+      },
+      {
+        "text": "√",
+        "top": 607.22,
+        "bottom": 618.13,
+        "x0": 87.7,
+        "x1": 96.79,
+        "column": 0
+      },
+      {
+        "text": "medindo 58 e catetos medindo x − 2 e x + 2, sendo",
+        "top": 616.24,
+        "bottom": 627.15,
+        "x0": 43.65,
+        "x1": 293.79,
+        "column": 0
+      },
+      {
+        "text": "x um número real.",
+        "top": 629.79,
+        "bottom": 640.7,
+        "x0": 43.65,
+        "x1": 132.38,
+        "column": 0
+      },
+      {
+        "text": "O seno do menor ângulo desse triângulo é",
+        "top": 643.34,
+        "bottom": 654.25,
+        "x0": 54.56,
+        "x1": 254.2,
+        "column": 0
+      },
+      {
+        "text": "(A) 7/3",
+        "top": 664.59,
+        "bottom": 675.5,
+        "x0": 44.03,
+        "x1": 82.52,
+        "column": 0
+      },
+      {
+        "text": "√",
+        "top": 676.67,
+        "bottom": 687.58,
+        "x0": 75.85,
+        "x1": 84.94,
+        "column": 0
+      },
+      {
+        "text": "(B) (7 58)/58",
+        "top": 685.69,
+        "bottom": 696.6,
+        "x0": 44.49,
+        "x1": 116.46,
+        "column": 0
+      },
+      {
+        "text": "(C) 3/7",
+        "top": 706.79,
+        "bottom": 717.7,
+        "x0": 44.33,
+        "x1": 82.52,
+        "column": 0
+      },
+      {
+        "text": "√",
+        "top": 718.87,
+        "bottom": 729.78,
+        "x0": 75.85,
+        "x1": 84.94,
+        "column": 0
+      },
+      {
+        "text": "(D) (3 58)/58",
+        "top": 727.89,
+        "bottom": 738.8,
+        "x0": 43.88,
+        "x1": 116.46,
+        "column": 0
+      },
+      {
+        "text": "√",
+        "top": 739.97,
+        "bottom": 750.88,
+        "x0": 66.15,
+        "x1": 75.24,
+        "column": 0
+      },
+      {
+        "text": "(E) 58/58",
+        "top": 748.99,
+        "bottom": 759.9,
+        "x0": 44.79,
+        "x1": 102.52,
+        "column": 0
+      },
+      {
+        "text": "Questão 14.",
+        "top": 68.89,
+        "bottom": 79.8,
+        "x0": 303.75,
+        "x1": 368.83,
+        "column": 1
+      },
+      {
+        "text": "Considere a função exponencial f(x) = 2x . Seja a",
+        "top": 82.45,
+        "bottom": 94.95,
+        "x0": 303.75,
+        "x1": 553.89,
+        "column": 1
+      },
+      {
+        "text": "um número real.",
+        "top": 97.59,
+        "bottom": 108.5,
+        "x0": 303.75,
+        "x1": 382.61,
+        "column": 1
+      },
+      {
+        "text": "f(a)(f(a + 2) + 4)",
+        "top": 120.32,
+        "bottom": 131.22,
+        "x0": 353.58,
+        "x1": 441.18,
+        "column": 1
+      },
+      {
+        "text": "Então, é igual a",
+        "top": 127.7,
+        "bottom": 138.6,
+        "x0": 314.66,
+        "x1": 489.34,
+        "column": 1
+      },
+      {
+        "text": "4f(a + 2)(f(a) + 1)",
+        "top": 135.18,
+        "bottom": 146.09,
+        "x0": 350.86,
+        "x1": 443.9,
+        "column": 1
+      },
+      {
+        "text": "(A) 1/4",
+        "top": 156.05,
+        "bottom": 166.96,
+        "x0": 304.13,
+        "x1": 342.62,
+        "column": 1
+      },
+      {
+        "text": "(B) 1/2",
+        "top": 178.57,
+        "bottom": 189.48,
+        "x0": 304.59,
+        "x1": 342.62,
+        "column": 1
+      },
+      {
+        "text": "(C) 1",
+        "top": 201.08,
+        "bottom": 211.99,
+        "x0": 304.44,
+        "x1": 331.71,
+        "column": 1
+      },
+      {
+        "text": "(D) 2",
+        "top": 223.6,
+        "bottom": 234.51,
+        "x0": 303.98,
+        "x1": 331.71,
+        "column": 1
+      },
+      {
+        "text": "(E) 4",
+        "top": 246.11,
+        "bottom": 257.02,
+        "x0": 304.89,
+        "x1": 331.71,
+        "column": 1
+      },
+      {
+        "text": "Questão 15.",
+        "top": 277.79,
+        "bottom": 288.7,
+        "x0": 303.75,
+        "x1": 368.83,
+        "column": 1
+      },
+      {
+        "text": "Deseja-se construir uma piscina retangular com lados",
+        "top": 292.94,
+        "bottom": 303.85,
+        "x0": 303.75,
+        "x1": 553.89,
+        "column": 1
+      },
+      {
+        "text": "medindo x e y em um terreno. A parte do terreno dis-",
+        "top": 306.49,
+        "bottom": 317.4,
+        "x0": 303.75,
+        "x1": 553.88,
+        "column": 1
+      },
+      {
+        "text": "ponível para a construção da piscina tem o formato",
+        "top": 320.04,
+        "bottom": 330.94,
+        "x0": 303.75,
+        "x1": 553.89,
+        "column": 1
+      },
+      {
+        "text": "de um triângulo retângulo de lados 6, 8 e 10 me-",
+        "top": 333.58,
+        "bottom": 344.49,
+        "x0": 303.75,
+        "x1": 553.89,
+        "column": 1
+      },
+      {
+        "text": "tros. A piscina deve ser construída de forma que um",
+        "top": 347.13,
+        "bottom": 358.04,
+        "x0": 303.75,
+        "x1": 553.89,
+        "column": 1
+      },
+      {
+        "text": "de seus lados esteja sobre a hipotenusa do triângulo",
+        "top": 360.68,
+        "bottom": 371.59,
+        "x0": 303.75,
+        "x1": 553.89,
+        "column": 1
+      },
+      {
+        "text": "retângulo.",
+        "top": 374.23,
+        "bottom": 385.14,
+        "x0": 303.75,
+        "x1": 351.66,
+        "column": 1
+      },
+      {
+        "text": "Qual é a área máxima possível do retângulo for-",
+        "top": 387.78,
+        "bottom": 398.69,
+        "x0": 314.66,
+        "x1": 553.89,
+        "column": 1
+      },
+      {
+        "text": "mado pela piscina?",
+        "top": 401.33,
+        "bottom": 412.24,
+        "x0": 303.75,
+        "x1": 394.72,
+        "column": 1
+      },
+      {
+        "text": "(A) 24 m2",
+        "top": 425.25,
+        "bottom": 437.74,
+        "x0": 304.13,
+        "x1": 354.61,
+        "column": 1
+      },
+      {
+        "text": "(B) 20 m2",
+        "top": 447.76,
+        "bottom": 460.26,
+        "x0": 304.59,
+        "x1": 354.61,
+        "column": 1
+      },
+      {
+        "text": "(C) 16 m2",
+        "top": 470.28,
+        "bottom": 482.78,
+        "x0": 304.43,
+        "x1": 354.61,
+        "column": 1
+      },
+      {
+        "text": "(D) 12 m2",
+        "top": 492.79,
+        "bottom": 505.29,
+        "x0": 303.98,
+        "x1": 354.61,
+        "column": 1
+      },
+      {
+        "text": "(E) 8 m2",
+        "top": 515.31,
+        "bottom": 527.81,
+        "x0": 304.89,
+        "x1": 349.16,
+        "column": 1
+      },
+      {
+        "text": "’",
+        "top": 766.2,
+        "bottom": 777.11,
+        "x0": 314.66,
+        "x1": 317.69,
+        "column": 1
+      }
+    ],
+    "images": [
+      {
+        "x0": 43.65,
+        "x1": 242.08,
+        "top": 779.06,
+        "bottom": 835.75
+      },
+      {
+        "x0": 327.12,
+        "x1": 525.54,
+        "top": 779.06,
+        "bottom": 835.75
+      }
+    ],
+    "rects": [],
+    "curves": [
+      {
+        "x0": 177.98,
+        "x1": 179.59,
+        "top": 183.02,
+        "bottom": 186.45
+      },
+      {
+        "x0": 93.75,
+        "x1": 95.75,
+        "top": 183.74,
+        "bottom": 185.73
+      },
+      {
+        "x0": 122.1,
+        "x1": 124.09,
+        "top": 183.74,
+        "bottom": 185.73
+      },
+      {
+        "x0": 150.45,
+        "x1": 152.44,
+        "top": 183.74,
+        "bottom": 185.73
+      },
+      {
+        "x0": 177.98,
+        "x1": 179.59,
+        "top": 226.58,
+        "bottom": 230.01
+      },
+      {
+        "x0": 93.75,
+        "x1": 95.75,
+        "top": 227.3,
+        "bottom": 229.29
+      },
+      {
+        "x0": 122.1,
+        "x1": 124.09,
+        "top": 227.3,
+        "bottom": 229.29
+      },
+      {
+        "x0": 150.45,
+        "x1": 152.44,
+        "top": 227.3,
+        "bottom": 229.29
+      },
+      {
+        "x0": 177.98,
+        "x1": 179.59,
+        "top": 270.13,
+        "bottom": 273.56
+      },
+      {
+        "x0": 93.75,
+        "x1": 95.75,
+        "top": 270.85,
+        "bottom": 272.84
+      },
+      {
+        "x0": 122.1,
+        "x1": 124.09,
+        "top": 270.85,
+        "bottom": 272.84
+      },
+      {
+        "x0": 150.45,
+        "x1": 152.44,
+        "top": 270.85,
+        "bottom": 272.84
+      },
+      {
+        "x0": 177.98,
+        "x1": 179.59,
+        "top": 313.69,
+        "bottom": 317.12
+      },
+      {
+        "x0": 103.11,
+        "x1": 105.1,
+        "top": 314.41,
+        "bottom": 316.4
+      },
+      {
+        "x0": 140.81,
+        "x1": 142.8,
+        "top": 314.41,
+        "bottom": 316.4
+      },
+      {
+        "x0": 177.98,
+        "x1": 179.59,
+        "top": 357.24,
+        "bottom": 360.67
+      },
+      {
+        "x0": 103.11,
+        "x1": 105.1,
+        "top": 357.96,
+        "bottom": 359.95
+      },
+      {
+        "x0": 140.81,
+        "x1": 142.8,
+        "top": 357.96,
+        "bottom": 359.95
+      }
+    ]
+  },
+  {
+    "page": 10,
+    "width": 595.276,
+    "height": 841.89,
+    "lines": [
+      {
+        "text": "QUÍMICA - OBJETIVAS",
+        "top": 68.5,
+        "bottom": 79.41,
+        "x0": 97.37,
+        "x1": 240.07,
+        "column": 0
+      },
+      {
+        "text": "A tabela periódica se encontra disponível para",
+        "top": 82.05,
+        "bottom": 92.96,
+        "x0": 57.86,
+        "x1": 279.59,
+        "column": 0
+      },
+      {
+        "text": "consulta no final da prova.",
+        "top": 95.6,
+        "bottom": 106.5,
+        "x0": 105.34,
+        "x1": 232.1,
+        "column": 0
+      },
+      {
+        "text": "Questão 16.",
+        "top": 120.5,
+        "bottom": 131.41,
+        "x0": 43.65,
+        "x1": 108.73,
+        "column": 0
+      },
+      {
+        "text": "Muitos livros didáticos representam as espécies",
+        "top": 135.65,
+        "bottom": 146.55,
+        "x0": 43.65,
+        "x1": 293.79,
+        "column": 0
+      },
+      {
+        "text": "químicas (elétrons, núcleos, íons, átomos e moléculas)",
+        "top": 149.19,
+        "bottom": 160.1,
+        "x0": 43.65,
+        "x1": 293.79,
+        "column": 0
+      },
+      {
+        "text": "por meio de círculos. Para diferenciar cada uma de-",
+        "top": 162.74,
+        "bottom": 173.65,
+        "x0": 43.65,
+        "x1": 293.79,
+        "column": 0
+      },
+      {
+        "text": "las, os círculos apresentam algumas diferenças, como",
+        "top": 176.29,
+        "bottom": 187.2,
+        "x0": 43.65,
+        "x1": 293.79,
+        "column": 0
+      },
+      {
+        "text": "por exemplo cor, textura e contorno.",
+        "top": 189.84,
+        "bottom": 200.75,
+        "x0": 43.65,
+        "x1": 218.92,
+        "column": 0
+      },
+      {
+        "text": "Na figura apresentada, os círculos estão represen-",
+        "top": 203.39,
+        "bottom": 214.3,
+        "x0": 54.56,
+        "x1": 293.79,
+        "column": 0
+      },
+      {
+        "text": "tando espécies em uma reação química hipotética.",
+        "top": 216.94,
+        "bottom": 227.85,
+        "x0": 43.65,
+        "x1": 282.59,
+        "column": 0
+      },
+      {
+        "text": "A partir da figura, o modelo atômico que explica a",
+        "top": 395.02,
+        "bottom": 405.93,
+        "x0": 54.56,
+        "x1": 293.79,
+        "column": 0
+      },
+      {
+        "text": "reação química hipotética apresentada é aquele pro-",
+        "top": 408.57,
+        "bottom": 419.48,
+        "x0": 43.65,
+        "x1": 293.8,
+        "column": 0
+      },
+      {
+        "text": "posto por",
+        "top": 422.12,
+        "bottom": 433.03,
+        "x0": 43.65,
+        "x1": 89.2,
+        "column": 0
+      },
+      {
+        "text": "(A) Dalton, já que os círculos 1 e 2 representam o",
+        "top": 447.62,
+        "bottom": 458.53,
+        "x0": 44.03,
+        "x1": 293.79,
+        "column": 0
+      },
+      {
+        "text": "núcleo do átomo e o círculo 3, os elétrons.",
+        "top": 461.17,
+        "bottom": 472.08,
+        "x0": 66.15,
+        "x1": 266.95,
+        "column": 0
+      },
+      {
+        "text": "(B) Dalton, já que todos os círculos são representa-",
+        "top": 483.69,
+        "bottom": 494.6,
+        "x0": 44.49,
+        "x1": 293.79,
+        "column": 0
+      },
+      {
+        "text": "dos como esferas maciças e indivisíveis.",
+        "top": 497.24,
+        "bottom": 508.15,
+        "x0": 66.15,
+        "x1": 253.22,
+        "column": 0
+      },
+      {
+        "text": "(C) Rutherford, já que o círculo 3 representa os",
+        "top": 519.75,
+        "bottom": 530.66,
+        "x0": 44.33,
+        "x1": 293.79,
+        "column": 0
+      },
+      {
+        "text": "elétrons e, por isso, é menor que os círculos 1",
+        "top": 533.3,
+        "bottom": 544.21,
+        "x0": 66.15,
+        "x1": 293.79,
+        "column": 0
+      },
+      {
+        "text": "e 2.",
+        "top": 546.85,
+        "bottom": 557.76,
+        "x0": 66.15,
+        "x1": 83.12,
+        "column": 0
+      },
+      {
+        "text": "(D) Thomson, já que os círculos 1 e 2 representam",
+        "top": 569.37,
+        "bottom": 580.28,
+        "x0": 43.88,
+        "x1": 293.79,
+        "column": 0
+      },
+      {
+        "text": "as cargas positivas e o círculo 3, a carga negativa",
+        "top": 582.92,
+        "bottom": 593.82,
+        "x0": 66.15,
+        "x1": 293.8,
+        "column": 0
+      },
+      {
+        "text": "do átomo.",
+        "top": 596.46,
+        "bottom": 607.37,
+        "x0": 66.15,
+        "x1": 114.03,
+        "column": 0
+      },
+      {
+        "text": "(E) Thomson, já que os círculos que representam os",
+        "top": 618.98,
+        "bottom": 629.89,
+        "x0": 44.79,
+        "x1": 293.79,
+        "column": 0
+      },
+      {
+        "text": "reagentes permanecem os mesmos nos produtos.",
+        "top": 632.53,
+        "bottom": 643.44,
+        "x0": 66.15,
+        "x1": 293.79,
+        "column": 0
+      },
+      {
+        "text": "Questão 17.",
+        "top": 68.89,
+        "bottom": 79.8,
+        "x0": 303.75,
+        "x1": 368.83,
+        "column": 1
+      },
+      {
+        "text": "O solo tem, em sua composição, substâncias sólidas,",
+        "top": 84.04,
+        "bottom": 94.95,
+        "x0": 303.75,
+        "x1": 553.89,
+        "column": 1
+      },
+      {
+        "text": "líquidas e gasosas. Entre as substâncias gasosas estão",
+        "top": 97.59,
+        "bottom": 108.5,
+        "x0": 303.75,
+        "x1": 553.89,
+        "column": 1
+      },
+      {
+        "text": "o gás carbônico, o óxido nítrico e o metano.",
+        "top": 111.14,
+        "bottom": 122.05,
+        "x0": 303.75,
+        "x1": 512.67,
+        "column": 1
+      },
+      {
+        "text": "Sobre esses gases presentes no solo, assinale a al-",
+        "top": 124.69,
+        "bottom": 135.6,
+        "x0": 314.66,
+        "x1": 553.89,
+        "column": 1
+      },
+      {
+        "text": "ternativa CORRETA.",
+        "top": 138.24,
+        "bottom": 149.14,
+        "x0": 303.75,
+        "x1": 415.89,
+        "column": 1
+      },
+      {
+        "text": "(A) A pecuária é uma atividade que contribui para a",
+        "top": 163.74,
+        "bottom": 174.65,
+        "x0": 304.13,
+        "x1": 553.88,
+        "column": 1
+      },
+      {
+        "text": "poluição do solo e do ar, devido, exclusivamente,",
+        "top": 177.29,
+        "bottom": 188.2,
+        "x0": 326.25,
+        "x1": 553.89,
+        "column": 1
+      },
+      {
+        "text": "à liberação de gás carbônico pelos animais.",
+        "top": 190.84,
+        "bottom": 201.75,
+        "x0": 326.25,
+        "x1": 531.34,
+        "column": 1
+      },
+      {
+        "text": "(B) O gás carbônico, ao reagir com água e formar",
+        "top": 213.35,
+        "bottom": 224.26,
+        "x0": 304.59,
+        "x1": 553.89,
+        "column": 1
+      },
+      {
+        "text": "um ácido, tem sua concentração diminuída, o",
+        "top": 226.9,
+        "bottom": 237.81,
+        "x0": 326.25,
+        "x1": 553.89,
+        "column": 1
+      },
+      {
+        "text": "que torna o solo mais fértil.",
+        "top": 240.45,
+        "bottom": 251.36,
+        "x0": 326.25,
+        "x1": 457.96,
+        "column": 1
+      },
+      {
+        "text": "(C) O metano é um gás que, ao chegar à atmosfera,",
+        "top": 262.97,
+        "bottom": 273.88,
+        "x0": 304.43,
+        "x1": 553.89,
+        "column": 1
+      },
+      {
+        "text": "pode contribuir para o efeito estufa, aumentando",
+        "top": 276.52,
+        "bottom": 287.43,
+        "x0": 326.25,
+        "x1": 553.89,
+        "column": 1
+      },
+      {
+        "text": "a temperatura do planeta.",
+        "top": 290.07,
+        "bottom": 300.98,
+        "x0": 326.25,
+        "x1": 451.47,
+        "column": 1
+      },
+      {
+        "text": "(D) O nitrogênio que forma o óxido nítrico tem pro-",
+        "top": 312.58,
+        "bottom": 323.49,
+        "x0": 303.98,
+        "x1": 553.89,
+        "column": 1
+      },
+      {
+        "text": "priedades diferentes daquele presente nos fertili-",
+        "top": 326.13,
+        "bottom": 337.04,
+        "x0": 326.25,
+        "x1": 553.89,
+        "column": 1
+      },
+      {
+        "text": "zantes.",
+        "top": 339.68,
+        "bottom": 350.59,
+        "x0": 326.25,
+        "x1": 358.73,
+        "column": 1
+      },
+      {
+        "text": "(E) O óxido nítrico é um poluente específico do solo,",
+        "top": 362.2,
+        "bottom": 373.11,
+        "x0": 304.89,
+        "x1": 553.89,
+        "column": 1
+      },
+      {
+        "text": "pois ele é produzido pelos microrganismos pre-",
+        "top": 375.75,
+        "bottom": 386.65,
+        "x0": 326.25,
+        "x1": 553.89,
+        "column": 1
+      },
+      {
+        "text": "sentes nele.",
+        "top": 389.29,
+        "bottom": 400.2,
+        "x0": 326.25,
+        "x1": 380.01,
+        "column": 1
+      },
+      {
+        "text": "Questão 18.",
+        "top": 423.96,
+        "bottom": 434.87,
+        "x0": 303.75,
+        "x1": 368.83,
+        "column": 1
+      },
+      {
+        "text": "Os fenômenos observados no meio ambiente e as ações",
+        "top": 439.11,
+        "bottom": 450.02,
+        "x0": 303.75,
+        "x1": 553.89,
+        "column": 1
+      },
+      {
+        "text": "humanas que podem afetar estes eventos podem ser",
+        "top": 452.66,
+        "bottom": 463.57,
+        "x0": 303.75,
+        "x1": 553.89,
+        "column": 1
+      },
+      {
+        "text": "classificados como transformações químicas ou pro-",
+        "top": 466.21,
+        "bottom": 477.12,
+        "x0": 303.75,
+        "x1": 553.89,
+        "column": 1
+      },
+      {
+        "text": "cessos físicos. Considere os seguintes fenômenos:",
+        "top": 479.76,
+        "bottom": 490.66,
+        "x0": 303.75,
+        "x1": 534.39,
+        "column": 1
+      },
+      {
+        "text": "1. precipitação de chuvas;",
+        "top": 493.3,
+        "bottom": 504.21,
+        "x0": 303.75,
+        "x1": 427.18,
+        "column": 1
+      },
+      {
+        "text": "2. evaporação da água;",
+        "top": 506.85,
+        "bottom": 517.76,
+        "x0": 303.75,
+        "x1": 414.09,
+        "column": 1
+      },
+      {
+        "text": "3. destruição da camada de ozônio;",
+        "top": 520.4,
+        "bottom": 531.31,
+        "x0": 303.75,
+        "x1": 472.33,
+        "column": 1
+      },
+      {
+        "text": "4. aquecimento global devido ao efeito estufa e",
+        "top": 533.95,
+        "bottom": 544.86,
+        "x0": 303.75,
+        "x1": 527.76,
+        "column": 1
+      },
+      {
+        "text": "5. queima de combustíveis fósseis.",
+        "top": 547.5,
+        "bottom": 558.41,
+        "x0": 303.75,
+        "x1": 466.18,
+        "column": 1
+      },
+      {
+        "text": "Dentre esses fenômenos, são consideradas trans-",
+        "top": 561.05,
+        "bottom": 571.96,
+        "x0": 314.66,
+        "x1": 553.89,
+        "column": 1
+      },
+      {
+        "text": "formações químicas:",
+        "top": 574.6,
+        "bottom": 585.51,
+        "x0": 303.75,
+        "x1": 399.06,
+        "column": 1
+      },
+      {
+        "text": "(A) 1 e 4",
+        "top": 600.1,
+        "bottom": 611.01,
+        "x0": 304.13,
+        "x1": 349.29,
+        "column": 1
+      },
+      {
+        "text": "(B) 1 e 3",
+        "top": 622.62,
+        "bottom": 633.53,
+        "x0": 304.59,
+        "x1": 349.29,
+        "column": 1
+      },
+      {
+        "text": "(C) 2 e 4",
+        "top": 645.14,
+        "bottom": 656.04,
+        "x0": 304.44,
+        "x1": 349.29,
+        "column": 1
+      },
+      {
+        "text": "(D) 3 e 5",
+        "top": 667.65,
+        "bottom": 678.56,
+        "x0": 303.98,
+        "x1": 349.29,
+        "column": 1
+      },
+      {
+        "text": "(E) 2 e 5",
+        "top": 690.17,
+        "bottom": 701.08,
+        "x0": 304.89,
+        "x1": 349.29,
+        "column": 1
+      }
+    ],
+    "images": [
+      {
+        "x0": 43.65,
+        "x1": 293.79,
+        "top": 240.8,
+        "bottom": 378.31
+      },
+      {
+        "x0": 43.65,
+        "x1": 242.08,
+        "top": 779.06,
+        "bottom": 835.75
+      },
+      {
+        "x0": 327.12,
+        "x1": 525.54,
+        "top": 779.06,
+        "bottom": 835.75
+      }
+    ],
+    "rects": [],
+    "curves": []
+  },
+  {
+    "page": 11,
+    "width": 595.276,
+    "height": 841.89,
+    "lines": [
+      {
+        "text": "Questão 19.",
+        "top": 68.89,
+        "bottom": 79.8,
+        "x0": 43.65,
+        "x1": 108.73,
+        "column": 0
+      },
+      {
+        "text": "Atualmente, o Brasil tem sofrido com longos períodos",
+        "top": 84.04,
+        "bottom": 94.95,
+        "x0": 43.65,
+        "x1": 293.79,
+        "column": 0
+      },
+      {
+        "text": "de seca no norte do país e grandes enchentes na região",
+        "top": 97.59,
+        "bottom": 108.5,
+        "x0": 43.65,
+        "x1": 293.79,
+        "column": 0
+      },
+      {
+        "text": "sul. Assim, a água potável no nosso dia a dia tem se",
+        "top": 111.14,
+        "bottom": 122.05,
+        "x0": 43.65,
+        "x1": 293.8,
+        "column": 0
+      },
+      {
+        "text": "tornado cada vez mais importante para a população.",
+        "top": 124.69,
+        "bottom": 135.6,
+        "x0": 43.65,
+        "x1": 293.8,
+        "column": 0
+      },
+      {
+        "text": "Durante o processo de tratamento de água para a",
+        "top": 138.24,
+        "bottom": 149.14,
+        "x0": 54.56,
+        "x1": 293.8,
+        "column": 0
+      },
+      {
+        "text": "produção de água potável,",
+        "top": 151.79,
+        "bottom": 162.69,
+        "x0": 43.65,
+        "x1": 169.74,
+        "column": 0
+      },
+      {
+        "text": "(A) a etapa de desinfecção gera um precipitado que",
+        "top": 173.97,
+        "bottom": 184.88,
+        "x0": 44.03,
+        "x1": 293.79,
+        "column": 0
+      },
+      {
+        "text": "mata os microorganismos.",
+        "top": 187.52,
+        "bottom": 198.43,
+        "x0": 66.15,
+        "x1": 190.34,
+        "column": 0
+      },
+      {
+        "text": "(B) galhos, folhas, terra e outras impurezas são se-",
+        "top": 208.93,
+        "bottom": 219.84,
+        "x0": 44.49,
+        "x1": 293.79,
+        "column": 0
+      },
+      {
+        "text": "parados da água na etapa de desinfecção.",
+        "top": 222.48,
+        "bottom": 233.39,
+        "x0": 66.15,
+        "x1": 263.57,
+        "column": 0
+      },
+      {
+        "text": "(C) o flúor é adicionado com a finalidade de eliminar",
+        "top": 243.89,
+        "bottom": 254.8,
+        "x0": 44.33,
+        "x1": 293.79,
+        "column": 0
+      },
+      {
+        "text": "microorganismos, como as bactérias.",
+        "top": 257.44,
+        "bottom": 268.34,
+        "x0": 66.15,
+        "x1": 240.12,
+        "column": 0
+      },
+      {
+        "text": "(D) ocorrem várias etapas, entre elas a floculação, a",
+        "top": 278.84,
+        "bottom": 289.75,
+        "x0": 43.88,
+        "x1": 293.79,
+        "column": 0
+      },
+      {
+        "text": "decantação e a destilação.",
+        "top": 292.39,
+        "bottom": 303.3,
+        "x0": 66.15,
+        "x1": 189.55,
+        "column": 0
+      },
+      {
+        "text": "(E) o sulfato de alumínio é utilizado para formar flo-",
+        "top": 313.8,
+        "bottom": 324.71,
+        "x0": 44.79,
+        "x1": 293.79,
+        "column": 0
+      },
+      {
+        "text": "cos com partículas de impurezas.",
+        "top": 327.35,
+        "bottom": 338.26,
+        "x0": 66.15,
+        "x1": 223.36,
+        "column": 0
+      },
+      {
+        "text": "Questão 20.",
+        "top": 358.7,
+        "bottom": 369.61,
+        "x0": 43.65,
+        "x1": 108.73,
+        "column": 0
+      },
+      {
+        "text": "A atmosfera é uma mistura complexa de gases e seu",
+        "top": 373.85,
+        "bottom": 384.75,
+        "x0": 43.65,
+        "x1": 293.8,
+        "column": 0
+      },
+      {
+        "text": "componente majoritário é o gás nitrogênio (N ). É",
+        "top": 387.39,
+        "bottom": 398.3,
+        "x0": 43.65,
+        "x1": 293.79,
+        "column": 0
+      },
+      {
+        "text": "2",
+        "top": 391.4,
+        "bottom": 399.37,
+        "x0": 267.2,
+        "x1": 271.43,
+        "column": 0
+      },
+      {
+        "text": "possível passar o N gasoso para o estado líquido",
+        "top": 400.94,
+        "bottom": 411.85,
+        "x0": 43.65,
+        "x1": 293.79,
+        "column": 0
+      },
+      {
+        "text": "2",
+        "top": 404.95,
+        "bottom": 412.92,
+        "x0": 141.25,
+        "x1": 145.48,
+        "column": 0
+      },
+      {
+        "text": "através da diminuição de temperatura.",
+        "top": 414.49,
+        "bottom": 425.4,
+        "x0": 43.65,
+        "x1": 228.65,
+        "column": 0
+      },
+      {
+        "text": "Assinale a alternativa que descreve CORRETA-",
+        "top": 428.04,
+        "bottom": 438.95,
+        "x0": 54.56,
+        "x1": 293.79,
+        "column": 0
+      },
+      {
+        "text": "MENTE as moléculas de N nos diferentes estados",
+        "top": 441.59,
+        "bottom": 452.5,
+        "x0": 43.65,
+        "x1": 293.79,
+        "column": 0
+      },
+      {
+        "text": "2",
+        "top": 445.6,
+        "bottom": 453.57,
+        "x0": 181.51,
+        "x1": 185.74,
+        "column": 0
+      },
+      {
+        "text": "de agregação.",
+        "top": 455.14,
+        "bottom": 466.05,
+        "x0": 43.65,
+        "x1": 107.93,
+        "column": 0
+      },
+      {
+        "text": "(A) A energia cinética das moléculas de N é muito",
+        "top": 477.33,
+        "bottom": 488.23,
+        "x0": 44.03,
+        "x1": 293.79,
+        "column": 0
+      },
+      {
+        "text": "2",
+        "top": 481.33,
+        "bottom": 489.3,
+        "x0": 249.05,
+        "x1": 253.28,
+        "column": 0
+      },
+      {
+        "text": "maior no estado gasoso do que no líquido e as in-",
+        "top": 490.87,
+        "bottom": 501.78,
+        "x0": 66.15,
+        "x1": 293.79,
+        "column": 0
+      },
+      {
+        "text": "terações intermoleculares são mínimas no estado",
+        "top": 504.42,
+        "bottom": 515.33,
+        "x0": 66.15,
+        "x1": 293.79,
+        "column": 0
+      },
+      {
+        "text": "gasoso.",
+        "top": 517.97,
+        "bottom": 528.88,
+        "x0": 66.15,
+        "x1": 99.61,
+        "column": 0
+      },
+      {
+        "text": "(B) As moléculas de N estão mais próximas entre",
+        "top": 539.38,
+        "bottom": 550.29,
+        "x0": 44.49,
+        "x1": 293.79,
+        "column": 0
+      },
+      {
+        "text": "2",
+        "top": 543.39,
+        "bottom": 551.36,
+        "x0": 157.74,
+        "x1": 161.97,
+        "column": 0
+      },
+      {
+        "text": "si no estado líquido que no estado gasoso, pois",
+        "top": 552.93,
+        "bottom": 563.84,
+        "x0": 66.15,
+        "x1": 293.79,
+        "column": 0
+      },
+      {
+        "text": "a interações intermoleculares são mais fracas no",
+        "top": 566.48,
+        "bottom": 577.39,
+        "x0": 66.15,
+        "x1": 293.79,
+        "column": 0
+      },
+      {
+        "text": "líquido que no gás.",
+        "top": 580.03,
+        "bottom": 590.94,
+        "x0": 66.15,
+        "x1": 155.91,
+        "column": 0
+      },
+      {
+        "text": "(C) Quando aquecemos o N líquido, fornecemos",
+        "top": 601.44,
+        "bottom": 612.35,
+        "x0": 44.34,
+        "x1": 293.79,
+        "column": 0
+      },
+      {
+        "text": "2",
+        "top": 605.44,
+        "bottom": 613.41,
+        "x0": 187.69,
+        "x1": 191.93,
+        "column": 0
+      },
+      {
+        "text": "energia para quebrar ligações químicas covalen-",
+        "top": 614.99,
+        "bottom": 625.9,
+        "x0": 66.15,
+        "x1": 293.79,
+        "column": 0
+      },
+      {
+        "text": "tes entre os átomos de nitrogênio, fazendo com",
+        "top": 628.54,
+        "bottom": 639.45,
+        "x0": 66.15,
+        "x1": 293.79,
+        "column": 0
+      },
+      {
+        "text": "que ocorra a passagem para o estado gasoso.",
+        "top": 642.09,
+        "bottom": 653.0,
+        "x0": 66.15,
+        "x1": 279.27,
+        "column": 0
+      },
+      {
+        "text": "(D) As moléculas de N têm menor energia cinética",
+        "top": 663.5,
+        "bottom": 674.4,
+        "x0": 43.88,
+        "x1": 293.79,
+        "column": 0
+      },
+      {
+        "text": "2",
+        "top": 667.5,
+        "bottom": 675.47,
+        "x0": 155.74,
+        "x1": 159.97,
+        "column": 0
+      },
+      {
+        "text": "no estado líquido do que no gasoso e por isso",
+        "top": 677.04,
+        "bottom": 687.95,
+        "x0": 66.15,
+        "x1": 293.79,
+        "column": 0
+      },
+      {
+        "text": "é preciso o resfriamento para passar ao estado",
+        "top": 690.59,
+        "bottom": 701.5,
+        "x0": 66.16,
+        "x1": 293.79,
+        "column": 0
+      },
+      {
+        "text": "gasoso.",
+        "top": 704.14,
+        "bottom": 715.05,
+        "x0": 66.15,
+        "x1": 99.61,
+        "column": 0
+      },
+      {
+        "text": "(E) As moléculas de N são as mesmas no estado",
+        "top": 725.55,
+        "bottom": 736.46,
+        "x0": 44.79,
+        "x1": 293.79,
+        "column": 0
+      },
+      {
+        "text": "2",
+        "top": 729.56,
+        "bottom": 737.53,
+        "x0": 159.69,
+        "x1": 163.93,
+        "column": 0
+      },
+      {
+        "text": "líquido e gasoso e por isso o efeito das interações",
+        "top": 739.1,
+        "bottom": 750.01,
+        "x0": 66.15,
+        "x1": 293.79,
+        "column": 0
+      },
+      {
+        "text": "intermoleculares é o mesmo em ambos os estados",
+        "top": 752.65,
+        "bottom": 763.56,
+        "x0": 66.15,
+        "x1": 293.8,
+        "column": 0
+      },
+      {
+        "text": "físicos.",
+        "top": 766.2,
+        "bottom": 777.11,
+        "x0": 66.15,
+        "x1": 97.49,
+        "column": 0
+      },
+      {
+        "text": "PORTUGUÊS - DISSERTATIVAS",
+        "top": 68.5,
+        "bottom": 79.41,
+        "x0": 333.28,
+        "x1": 524.37,
+        "column": 1
+      },
+      {
+        "text": "Leia com atenção a reportagem abaixo,",
+        "top": 96.61,
+        "bottom": 107.52,
+        "x0": 314.66,
+        "x1": 553.89,
+        "column": 1
+      },
+      {
+        "text": "texto I, para resolver as questões 1 e 2.",
+        "top": 110.16,
+        "bottom": 121.07,
+        "x0": 303.75,
+        "x1": 519.96,
+        "column": 1
+      },
+      {
+        "text": "TEXTO I",
+        "top": 138.79,
+        "bottom": 149.7,
+        "x0": 402.05,
+        "x1": 455.59,
+        "column": 1
+      },
+      {
+        "text": "Quem consegue ter babá? Quando o celular",
+        "top": 166.41,
+        "bottom": 177.32,
+        "x0": 308.34,
+        "x1": 549.3,
+        "column": 1
+      },
+      {
+        "text": "vira babysitter",
+        "top": 179.96,
+        "bottom": 190.87,
+        "x0": 388.34,
+        "x1": 469.31,
+        "column": 1
+      },
+      {
+        "text": "Você já parou para pensar em quanto custa criar",
+        "top": 208.07,
+        "bottom": 218.98,
+        "x0": 314.66,
+        "x1": 553.89,
+        "column": 1
+      },
+      {
+        "text": "um filho no Brasil em 2024? Ou, então, em quanto",
+        "top": 221.62,
+        "bottom": 232.53,
+        "x0": 303.75,
+        "x1": 553.89,
+        "column": 1
+      },
+      {
+        "text": "custa fazer isso praticamente sozinha? Alimentação,",
+        "top": 235.17,
+        "bottom": 246.08,
+        "x0": 303.75,
+        "x1": 553.89,
+        "column": 1
+      },
+      {
+        "text": "moradia, creche, saúde, lazer, cultura, rede de apoio",
+        "top": 248.72,
+        "bottom": 259.63,
+        "x0": 303.75,
+        "x1": 553.89,
+        "column": 1
+      },
+      {
+        "text": "que às vezes também é paga... Quem arca com a",
+        "top": 262.27,
+        "bottom": 273.18,
+        "x0": 303.75,
+        "x1": 553.89,
+        "column": 1
+      },
+      {
+        "text": "conta das despesas da parentalidade, afinal?",
+        "top": 275.82,
+        "bottom": 286.73,
+        "x0": 303.75,
+        "x1": 514.33,
+        "column": 1
+      },
+      {
+        "text": "Os dados nos dão uma pista: em sua grande mai-",
+        "top": 289.89,
+        "bottom": 300.8,
+        "x0": 314.66,
+        "x1": 553.89,
+        "column": 1
+      },
+      {
+        "text": "oria, mulheres, chefes de família, com renda de até",
+        "top": 303.44,
+        "bottom": 314.35,
+        "x0": 303.75,
+        "x1": 553.89,
+        "column": 1
+      },
+      {
+        "text": "três salários mínimos e sem auxílio dos pais dessas",
+        "top": 316.99,
+        "bottom": 327.9,
+        "x0": 303.75,
+        "x1": 553.89,
+        "column": 1
+      },
+      {
+        "text": "crianças. A maternidade solo tem um preço – e ele é",
+        "top": 330.54,
+        "bottom": 341.45,
+        "x0": 303.75,
+        "x1": 553.89,
+        "column": 1
+      },
+      {
+        "text": "alto dos pontos de vista econômico, profissional e de",
+        "top": 344.09,
+        "bottom": 355.0,
+        "x0": 303.75,
+        "x1": 553.89,
+        "column": 1
+      },
+      {
+        "text": "saúde mental. “Eu desafio qualquer homem a criar",
+        "top": 357.64,
+        "bottom": 368.55,
+        "x0": 303.75,
+        "x1": 553.89,
+        "column": 1
+      },
+      {
+        "text": "um filho com R$ 500 de pensão nesta cidade” – Eli-",
+        "top": 369.67,
+        "bottom": 382.1,
+        "x0": 303.75,
+        "x1": 553.89,
+        "column": 1
+      },
+      {
+        "text": "sangela Costa, Osasco.",
+        "top": 384.74,
+        "bottom": 395.64,
+        "x0": 303.75,
+        "x1": 411.88,
+        "column": 1
+      },
+      {
+        "text": "[...]",
+        "top": 398.81,
+        "bottom": 409.72,
+        "x0": 314.66,
+        "x1": 329.81,
+        "column": 1
+      },
+      {
+        "text": "A conta do “quem cuida do meu filho enquanto eu",
+        "top": 412.88,
+        "bottom": 423.79,
+        "x0": 314.66,
+        "x1": 553.89,
+        "column": 1
+      },
+      {
+        "text": "trabalho” também não entra na grande maioria dos",
+        "top": 426.43,
+        "bottom": 437.34,
+        "x0": 303.75,
+        "x1": 553.89,
+        "column": 1
+      },
+      {
+        "text": "acordos financeiros. Existe um custo operacional, de",
+        "top": 439.98,
+        "bottom": 450.88,
+        "x0": 303.75,
+        "x1": 553.89,
+        "column": 1
+      },
+      {
+        "text": "atenção e de logística que, uma vez pago, fica im-",
+        "top": 453.52,
+        "bottom": 464.43,
+        "x0": 303.75,
+        "x1": 553.89,
+        "column": 1
+      },
+      {
+        "text": "possível de ser custeado pela maior parte das mães",
+        "top": 467.07,
+        "bottom": 477.98,
+        "x0": 303.75,
+        "x1": 553.89,
+        "column": 1
+      },
+      {
+        "text": "solo no Brasil. Nesse contexto, recorrer à família – se",
+        "top": 480.62,
+        "bottom": 491.53,
+        "x0": 303.75,
+        "x1": 553.89,
+        "column": 1
+      },
+      {
+        "text": "for possível – é a única saída.",
+        "top": 494.17,
+        "bottom": 505.08,
+        "x0": 303.75,
+        "x1": 443.97,
+        "column": 1
+      },
+      {
+        "text": "Mesmo para Elisângela, que pôde contar com a",
+        "top": 508.24,
+        "bottom": 519.15,
+        "x0": 314.66,
+        "x1": 553.89,
+        "column": 1
+      },
+      {
+        "text": "ajuda da mãe idosa na rotina com os filhos, foi um",
+        "top": 521.79,
+        "bottom": 532.7,
+        "x0": 303.75,
+        "x1": 553.89,
+        "column": 1
+      },
+      {
+        "text": "desafio convencer a família de que as crianças, mesmo",
+        "top": 535.34,
+        "bottom": 546.25,
+        "x0": 303.75,
+        "x1": 553.9,
+        "column": 1
+      },
+      {
+        "text": "“maiores” e com escola, ainda precisavam de super-",
+        "top": 548.89,
+        "bottom": 559.8,
+        "x0": 303.75,
+        "x1": 553.89,
+        "column": 1
+      },
+      {
+        "text": "visão de um adulto. “É surreal, mas passou dos 5",
+        "top": 562.44,
+        "bottom": 573.35,
+        "x0": 303.75,
+        "x1": 553.89,
+        "column": 1
+      },
+      {
+        "text": "anos as pessoas enxergam eles como adultos. Quando",
+        "top": 575.99,
+        "bottom": 586.9,
+        "x0": 303.75,
+        "x1": 553.89,
+        "column": 1
+      },
+      {
+        "text": "eu descobri que ia ser mãe solo, sinto que demorou",
+        "top": 589.54,
+        "bottom": 600.45,
+        "x0": 303.75,
+        "x1": 553.89,
+        "column": 1
+      },
+      {
+        "text": "para que todo mundo entendesse que alguém ia pre-",
+        "top": 603.09,
+        "bottom": 614.0,
+        "x0": 303.75,
+        "x1": 553.89,
+        "column": 1
+      },
+      {
+        "text": "cisar ficar com os meus filhos para que eu fosse traba-",
+        "top": 616.64,
+        "bottom": 627.55,
+        "x0": 303.75,
+        "x1": 553.89,
+        "column": 1
+      },
+      {
+        "text": "lhar. Minha filha não existe só antes das 8h quando",
+        "top": 630.19,
+        "bottom": 641.1,
+        "x0": 303.75,
+        "x1": 553.89,
+        "column": 1
+      },
+      {
+        "text": "eu me arrumo para sair para trabalhar e volta a exis-",
+        "top": 643.74,
+        "bottom": 654.64,
+        "x0": 303.75,
+        "x1": 553.89,
+        "column": 1
+      },
+      {
+        "text": "tir só depois das 19h, quando eu chego em casa. Ela",
+        "top": 657.28,
+        "bottom": 668.19,
+        "x0": 303.75,
+        "x1": 553.9,
+        "column": 1
+      },
+      {
+        "text": "precisa de alguém o tempo todo: para deixar na es-",
+        "top": 670.83,
+        "bottom": 681.74,
+        "x0": 303.75,
+        "x1": 553.89,
+        "column": 1
+      },
+      {
+        "text": "cola, para buscar, para fazer tarefa. E o irmão mais",
+        "top": 684.38,
+        "bottom": 695.29,
+        "x0": 303.75,
+        "x1": 553.89,
+        "column": 1
+      },
+      {
+        "text": "novo ajuda, mas não pode e nem deve deixar de ser",
+        "top": 697.93,
+        "bottom": 708.84,
+        "x0": 303.75,
+        "x1": 553.89,
+        "column": 1
+      },
+      {
+        "text": "criança também.”",
+        "top": 711.48,
+        "bottom": 722.39,
+        "x0": 303.75,
+        "x1": 388.33,
+        "column": 1
+      },
+      {
+        "text": "Mas e se essa mãe não tiver uma rede de apoio fa-",
+        "top": 725.55,
+        "bottom": 736.46,
+        "x0": 314.66,
+        "x1": 553.88,
+        "column": 1
+      },
+      {
+        "text": "miliar para ajudar? O custo de se ter uma babá no",
+        "top": 739.1,
+        "bottom": 750.01,
+        "x0": 303.75,
+        "x1": 553.89,
+        "column": 1
+      },
+      {
+        "text": "Brasil pode chegar a até R$ 3.000 em grandes cen-",
+        "top": 751.13,
+        "bottom": 763.56,
+        "x0": 303.75,
+        "x1": 553.88,
+        "column": 1
+      },
+      {
+        "text": "tros urbanos. A psicopedagoga Marileide Ziza explica",
+        "top": 766.2,
+        "bottom": 777.11,
+        "x0": 303.75,
+        "x1": 553.89,
+        "column": 1
+      }
+    ],
+    "images": [
+      {
+        "x0": 43.65,
+        "x1": 242.08,
+        "top": 779.06,
+        "bottom": 835.75
+      },
+      {
+        "x0": 327.12,
+        "x1": 525.54,
+        "top": 779.06,
+        "bottom": 835.75
+      }
+    ],
+    "rects": [],
+    "curves": []
+  }
+]

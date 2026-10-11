@@ -1,0 +1,5779 @@
+[
+  {
+    "page": 3,
+    "width": 595.276,
+    "height": 841.89,
+    "lines": [
+      {
+        "text": "LÍNGUA PORTUGUESA - Objetivas",
+        "top": 81.56,
+        "bottom": 92.52,
+        "x0": 79.84,
+        "x1": 260.32,
+        "column": 0
+      },
+      {
+        "text": "TEXTO 1",
+        "top": 116.79,
+        "bottom": 127.75,
+        "x0": 147.46,
+        "x1": 192.7,
+        "column": 0
+      },
+      {
+        "text": "INTEGRIDADE ACADÊMICA",
+        "top": 142.7,
+        "bottom": 153.65,
+        "x0": 97.77,
+        "x1": 242.39,
+        "column": 0
+      },
+      {
+        "text": "Universidades brasileiras discutem regras",
+        "top": 168.6,
+        "bottom": 179.56,
+        "x0": 59.92,
+        "x1": 280.24,
+        "column": 0
+      },
+      {
+        "text": "de uso de inteligência artificial",
+        "top": 181.55,
+        "bottom": 192.51,
+        "x0": 90.18,
+        "x1": 249.98,
+        "column": 0
+      },
+      {
+        "text": "Diante de incertezas por parte de estudantes",
+        "top": 207.41,
+        "bottom": 218.37,
+        "x0": 60.3,
+        "x1": 279.86,
+        "column": 0
+      },
+      {
+        "text": "e pesquisadores, instituições debatem quais",
+        "top": 220.36,
+        "bottom": 231.32,
+        "x0": 62.35,
+        "x1": 277.81,
+        "column": 0
+      },
+      {
+        "text": "seriam os limites éticos do uso dessas",
+        "top": 233.31,
+        "bottom": 244.27,
+        "x0": 76.51,
+        "x1": 263.65,
+        "column": 0
+      },
+      {
+        "text": "ferramentas na escrita e na pesquisa",
+        "top": 246.26,
+        "bottom": 257.22,
+        "x0": 80.07,
+        "x1": 260.09,
+        "column": 0
+      },
+      {
+        "text": "científica.",
+        "top": 259.21,
+        "bottom": 270.17,
+        "x0": 146.93,
+        "x1": 193.22,
+        "column": 0
+      },
+      {
+        "text": "Instituições científicas e de ensino superior",
+        "top": 284.37,
+        "bottom": 295.33,
+        "x0": 73.63,
+        "x1": 283.47,
+        "column": 0
+      },
+      {
+        "text": "do Brasil começam a formular recomendações",
+        "top": 297.32,
+        "bottom": 308.28,
+        "x0": 56.69,
+        "x1": 283.46,
+        "column": 0
+      },
+      {
+        "text": "para o uso de inteligência artificial (IA),",
+        "top": 310.27,
+        "bottom": 321.23,
+        "x0": 56.69,
+        "x1": 283.47,
+        "column": 0
+      },
+      {
+        "text": "especialmente a generativa, no ensino, na",
+        "top": 323.22,
+        "bottom": 334.18,
+        "x0": 56.69,
+        "x1": 283.47,
+        "column": 0
+      },
+      {
+        "text": "pesquisa e na extensão. A popularização",
+        "top": 336.17,
+        "bottom": 347.13,
+        "x0": 56.69,
+        "x1": 283.47,
+        "column": 0
+      },
+      {
+        "text": "de softwares como o ChatGPT, capazes",
+        "top": 349.13,
+        "bottom": 360.08,
+        "x0": 56.69,
+        "x1": 283.47,
+        "column": 0
+      },
+      {
+        "text": "de gerar texto, imagens e dados, tem",
+        "top": 362.08,
+        "bottom": 373.04,
+        "x0": 56.69,
+        "x1": 283.47,
+        "column": 0
+      },
+      {
+        "text": "levantado dúvidas sobre limites éticos no uso",
+        "top": 375.03,
+        "bottom": 385.99,
+        "x0": 56.69,
+        "x1": 283.46,
+        "column": 0
+      },
+      {
+        "text": "dessas tecnologias, principalmente na escrita",
+        "top": 387.98,
+        "bottom": 398.94,
+        "x0": 56.69,
+        "x1": 283.47,
+        "column": 0
+      },
+      {
+        "text": "acadêmica. Professores têm procurado novas",
+        "top": 400.93,
+        "bottom": 411.89,
+        "x0": 56.69,
+        "x1": 283.46,
+        "column": 0
+      },
+      {
+        "text": "formas de avaliar trabalhos de alunos, tentando",
+        "top": 413.88,
+        "bottom": 424.84,
+        "x0": 56.69,
+        "x1": 283.47,
+        "column": 0
+      },
+      {
+        "text": "contornar os riscos de uso indevido de IA.",
+        "top": 426.83,
+        "bottom": 437.79,
+        "x0": 56.69,
+        "x1": 283.47,
+        "column": 0
+      },
+      {
+        "text": "De maneira geral, as orientações pedem que",
+        "top": 439.79,
+        "bottom": 450.74,
+        "x0": 56.69,
+        "x1": 283.46,
+        "column": 0
+      },
+      {
+        "text": "seu uso seja transparente e alertam para",
+        "top": 452.74,
+        "bottom": 463.7,
+        "x0": 56.69,
+        "x1": 283.47,
+        "column": 0
+      },
+      {
+        "text": "o perigo de ferir direitos autorais, praticar",
+        "top": 465.69,
+        "bottom": 476.65,
+        "x0": 56.69,
+        "x1": 283.47,
+        "column": 0
+      },
+      {
+        "text": "plágio, gerar desinformação e replicar vieses",
+        "top": 478.64,
+        "bottom": 489.6,
+        "x0": 56.69,
+        "x1": 283.47,
+        "column": 0
+      },
+      {
+        "text": "discriminatórios que essas ferramentas podem",
+        "top": 491.59,
+        "bottom": 502.55,
+        "x0": 56.69,
+        "x1": 283.46,
+        "column": 0
+      },
+      {
+        "text": "reproduzir.",
+        "top": 504.54,
+        "bottom": 515.5,
+        "x0": 56.69,
+        "x1": 108.52,
+        "column": 0
+      },
+      {
+        "text": "Em fevereiro, o Centro Universitário Senai",
+        "top": 517.54,
+        "bottom": 528.5,
+        "x0": 73.63,
+        "x1": 283.47,
+        "column": 0
+      },
+      {
+        "text": "Cimatec, na Bahia, publicou um guia para",
+        "top": 530.5,
+        "bottom": 541.45,
+        "x0": 56.69,
+        "x1": 283.47,
+        "column": 0
+      },
+      {
+        "text": "orientar sua comunidade acadêmica quanto",
+        "top": 543.45,
+        "bottom": 554.41,
+        "x0": 56.69,
+        "x1": 283.46,
+        "column": 0
+      },
+      {
+        "text": "à IA generativa. Ele segue três princípios:",
+        "top": 556.4,
+        "bottom": 567.36,
+        "x0": 56.69,
+        "x1": 283.46,
+        "column": 0
+      },
+      {
+        "text": "transparência; “centralidade na pessoa",
+        "top": 569.35,
+        "bottom": 580.31,
+        "x0": 56.69,
+        "x1": 283.46,
+        "column": 0
+      },
+      {
+        "text": "humana”, ou seja, que o controle humano seja",
+        "top": 582.3,
+        "bottom": 593.26,
+        "x0": 56.69,
+        "x1": 283.47,
+        "column": 0
+      },
+      {
+        "text": "preservado sobre as informações geradas por",
+        "top": 595.25,
+        "bottom": 606.21,
+        "x0": 56.69,
+        "x1": 283.47,
+        "column": 0
+      },
+      {
+        "text": "IA, já que ela deve ser usada de forma benéfica",
+        "top": 608.2,
+        "bottom": 619.16,
+        "x0": 56.69,
+        "x1": 283.47,
+        "column": 0
+      },
+      {
+        "text": "à sociedade; e atenção à privacidade de",
+        "top": 621.16,
+        "bottom": 632.11,
+        "x0": 56.69,
+        "x1": 283.47,
+        "column": 0
+      },
+      {
+        "text": "dados, sobretudo em atividades que envolvam",
+        "top": 634.11,
+        "bottom": 645.07,
+        "x0": 56.69,
+        "x1": 283.47,
+        "column": 0
+      },
+      {
+        "text": "contratos com empresas por meio de parcerias",
+        "top": 647.06,
+        "bottom": 658.02,
+        "x0": 56.69,
+        "x1": 283.47,
+        "column": 0
+      },
+      {
+        "text": "para desenvolvimento e transferência de",
+        "top": 660.01,
+        "bottom": 670.97,
+        "x0": 56.69,
+        "x1": 283.46,
+        "column": 0
+      },
+      {
+        "text": "tecnologias. Ocorre que as informações",
+        "top": 672.96,
+        "bottom": 683.92,
+        "x0": 56.69,
+        "x1": 283.46,
+        "column": 0
+      },
+      {
+        "text": "compartilhadas em plataformas de IA podem",
+        "top": 685.91,
+        "bottom": 696.87,
+        "x0": 56.69,
+        "x1": 283.47,
+        "column": 0
+      },
+      {
+        "text": "ser armazenadas pela ferramenta, quebrando",
+        "top": 698.86,
+        "bottom": 709.82,
+        "x0": 56.69,
+        "x1": 283.47,
+        "column": 0
+      },
+      {
+        "text": "o sigilo de dados. “Não podemos nos esquecer",
+        "top": 711.82,
+        "bottom": 722.77,
+        "x0": 56.69,
+        "x1": 283.46,
+        "column": 0
+      },
+      {
+        "text": "de que, se nós aprendemos com essas",
+        "top": 724.77,
+        "bottom": 735.73,
+        "x0": 56.69,
+        "x1": 283.46,
+        "column": 0
+      },
+      {
+        "text": "ferramentas, elas também aprendem com a",
+        "top": 737.72,
+        "bottom": 748.68,
+        "x0": 56.69,
+        "x1": 283.47,
+        "column": 0
+      },
+      {
+        "text": "gente”, ressalta a engenheira civil Tatiana",
+        "top": 750.67,
+        "bottom": 761.63,
+        "x0": 56.69,
+        "x1": 283.47,
+        "column": 0
+      },
+      {
+        "text": "Ferraz, pró-reitora administrativo-financeira",
+        "top": 763.62,
+        "bottom": 774.58,
+        "x0": 56.69,
+        "x1": 283.47,
+        "column": 0
+      },
+      {
+        "text": "do Senai Cimatec e coordenadora do guia.",
+        "top": 776.57,
+        "bottom": 787.53,
+        "x0": 56.69,
+        "x1": 283.47,
+        "column": 0
+      },
+      {
+        "text": "Uma atualização do regulamento disciplinar",
+        "top": 65,
+        "bottom": 69.99,
+        "x0": 311.81,
+        "x1": 538.59,
+        "column": 1
+      },
+      {
+        "text": "da instituição passou a prever punições para",
+        "top": 71.98,
+        "bottom": 82.94,
+        "x0": 311.81,
+        "x1": 538.59,
+        "column": 1
+      },
+      {
+        "text": "estudantes que quebrarem as regras. [...]",
+        "top": 84.93,
+        "bottom": 95.89,
+        "x0": 311.81,
+        "x1": 513.06,
+        "column": 1
+      },
+      {
+        "text": "O guia autoriza professores a usarem",
+        "top": 111.55,
+        "bottom": 122.5,
+        "x0": 328.75,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "softwares de detecção de plágio quando",
+        "top": 124.5,
+        "bottom": 135.46,
+        "x0": 311.81,
+        "x1": 538.59,
+        "column": 1
+      },
+      {
+        "text": "julgarem necessário, embora não sejam 100%",
+        "top": 137.45,
+        "bottom": 148.41,
+        "x0": 311.81,
+        "x1": 538.59,
+        "column": 1
+      },
+      {
+        "text": "precisos ao indicar conteúdo produzido por IA.",
+        "top": 150.4,
+        "bottom": 161.36,
+        "x0": 311.81,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "As ferramentas não podem ser citadas como",
+        "top": 163.35,
+        "bottom": 174.31,
+        "x0": 311.81,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "coautoras de trabalhos acadêmicos, mas sua",
+        "top": 176.3,
+        "bottom": 187.26,
+        "x0": 311.81,
+        "x1": 538.59,
+        "column": 1
+      },
+      {
+        "text": "aplicação para auxiliar processos de pesquisa",
+        "top": 189.25,
+        "bottom": 200.21,
+        "x0": 311.81,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "e ajustes de escrita acadêmica é permitida.",
+        "top": 202.21,
+        "bottom": 213.16,
+        "x0": 311.81,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "Para isso, todos os comandos utilizados –",
+        "top": 215.16,
+        "bottom": 226.12,
+        "x0": 311.81,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "as perguntas e direcionamentos dados à",
+        "top": 228.11,
+        "bottom": 239.07,
+        "x0": 311.81,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "ferramenta, também chamados de prompts – e",
+        "top": 241.06,
+        "bottom": 252.02,
+        "x0": 311.81,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "as informações originais geradas por IA devem",
+        "top": 254.01,
+        "bottom": 264.97,
+        "x0": 311.81,
+        "x1": 538.59,
+        "column": 1
+      },
+      {
+        "text": "ser descritos na metodologia do trabalho e",
+        "top": 266.96,
+        "bottom": 277.92,
+        "x0": 311.81,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "anexados como material suplementar.",
+        "top": 279.91,
+        "bottom": 290.87,
+        "x0": 311.81,
+        "x1": 496.86,
+        "column": 1
+      },
+      {
+        "text": "[...]",
+        "top": 306.53,
+        "bottom": 317.49,
+        "x0": 328.75,
+        "x1": 343.98,
+        "column": 1
+      },
+      {
+        "text": "Conceitos que resumem as orientações",
+        "top": 357.76,
+        "bottom": 368.72,
+        "x0": 321.66,
+        "x1": 528.73,
+        "column": 1
+      },
+      {
+        "text": "Transparência",
+        "top": 382.67,
+        "bottom": 393.63,
+        "x0": 319.03,
+        "x1": 393.07,
+        "column": 1
+      },
+      {
+        "text": "Quando o uso dessas ferramentas for",
+        "top": 395.57,
+        "bottom": 406.53,
+        "x0": 319.03,
+        "x1": 531.37,
+        "column": 1
+      },
+      {
+        "text": "permitido, ele deve ser declarado e indicado",
+        "top": 408.53,
+        "bottom": 419.49,
+        "x0": 319.03,
+        "x1": 531.37,
+        "column": 1
+      },
+      {
+        "text": "na seção de metodologia dos trabalhos e",
+        "top": 421.48,
+        "bottom": 432.44,
+        "x0": 319.03,
+        "x1": 531.37,
+        "column": 1
+      },
+      {
+        "text": "artigos acadêmicos.",
+        "top": 434.43,
+        "bottom": 445.39,
+        "x0": 319.03,
+        "x1": 416.75,
+        "column": 1
+      },
+      {
+        "text": "Proteção de dados",
+        "top": 460.38,
+        "bottom": 471.33,
+        "x0": 319.03,
+        "x1": 416.86,
+        "column": 1
+      },
+      {
+        "text": "É preciso avaliar quais dados podem",
+        "top": 473.28,
+        "bottom": 484.24,
+        "x0": 319.03,
+        "x1": 531.37,
+        "column": 1
+      },
+      {
+        "text": "ser trabalhados com ferramentas de IA.",
+        "top": 486.23,
+        "bottom": 497.19,
+        "x0": 319.03,
+        "x1": 531.37,
+        "column": 1
+      },
+      {
+        "text": "Informações sensíveis ou inéditas não",
+        "top": 499.19,
+        "bottom": 510.15,
+        "x0": 319.03,
+        "x1": 531.36,
+        "column": 1
+      },
+      {
+        "text": "devem ser compartilhadas.",
+        "top": 512.14,
+        "bottom": 523.1,
+        "x0": 319.03,
+        "x1": 450.25,
+        "column": 1
+      },
+      {
+        "text": "Autoria",
+        "top": 538.08,
+        "bottom": 549.04,
+        "x0": 319.03,
+        "x1": 357.06,
+        "column": 1
+      },
+      {
+        "text": "A inteligência artificial generativa não",
+        "top": 550.99,
+        "bottom": 561.95,
+        "x0": 319.03,
+        "x1": 531.36,
+        "column": 1
+      },
+      {
+        "text": "pode ser considerada autora dos trabalhos",
+        "top": 563.94,
+        "bottom": 574.9,
+        "x0": 319.03,
+        "x1": 531.37,
+        "column": 1
+      },
+      {
+        "text": "acadêmicos e artigos científicos. O",
+        "top": 576.89,
+        "bottom": 587.85,
+        "x0": 319.03,
+        "x1": 531.36,
+        "column": 1
+      },
+      {
+        "text": "autor humano é o único responsável pela",
+        "top": 589.85,
+        "bottom": 600.81,
+        "x0": 319.03,
+        "x1": 531.36,
+        "column": 1
+      },
+      {
+        "text": "integridade das informações produzidas",
+        "top": 602.8,
+        "bottom": 613.76,
+        "x0": 319.03,
+        "x1": 531.37,
+        "column": 1
+      },
+      {
+        "text": "com o auxílio da ferramenta.",
+        "top": 615.75,
+        "bottom": 626.71,
+        "x0": 319.03,
+        "x1": 457.46,
+        "column": 1
+      },
+      {
+        "text": "Clareza",
+        "top": 641.7,
+        "bottom": 652.65,
+        "x0": 319.03,
+        "x1": 358.01,
+        "column": 1
+      },
+      {
+        "text": "As ementas das disciplinas devem definir o",
+        "top": 654.6,
+        "bottom": 665.56,
+        "x0": 319.03,
+        "x1": 531.37,
+        "column": 1
+      },
+      {
+        "text": "que os estudantes podem ou não fazer com",
+        "top": 667.55,
+        "bottom": 678.51,
+        "x0": 319.03,
+        "x1": 531.36,
+        "column": 1
+      },
+      {
+        "text": "ferramentas de inteligência artificial.",
+        "top": 680.51,
+        "bottom": 691.47,
+        "x0": 319.03,
+        "x1": 493.82,
+        "column": 1
+      },
+      {
+        "text": "Vieses",
+        "top": 706.45,
+        "bottom": 717.41,
+        "x0": 319.03,
+        "x1": 353.76,
+        "column": 1
+      },
+      {
+        "text": "As plataformas de IA podem reproduzir",
+        "top": 719.36,
+        "bottom": 730.32,
+        "x0": 319.03,
+        "x1": 531.37,
+        "column": 1
+      },
+      {
+        "text": "desinformação, preconceitos e",
+        "top": 732.31,
+        "bottom": 743.27,
+        "x0": 319.03,
+        "x1": 531.37,
+        "column": 1
+      },
+      {
+        "text": "discriminação. É preciso avaliar com",
+        "top": 745.26,
+        "bottom": 756.22,
+        "x0": 319.03,
+        "x1": 531.37,
+        "column": 1
+      },
+      {
+        "text": "cuidado e atenção os dados que elas",
+        "top": 758.21,
+        "bottom": 769.17,
+        "x0": 319.03,
+        "x1": 531.36,
+        "column": 1
+      },
+      {
+        "text": "fornecem.",
+        "top": 771.17,
+        "bottom": 782.13,
+        "x0": 319.03,
+        "x1": 367.7,
+        "column": 1
+      }
+    ],
+    "images": [],
+    "rects": [],
+    "curves": [
+      {
+        "x0": 311.81,
+        "x1": 538.59,
+        "top": 352.84,
+        "bottom": 785.2
+      },
+      {
+        "x0": 312.21,
+        "x1": 538.19,
+        "top": 353.23,
+        "bottom": 784.8
+      }
+    ]
+  },
+  {
+    "page": 4,
+    "width": 595.276,
+    "height": 841.89,
+    "lines": [
+      {
+        "text": "[...]",
+        "top": 65,
+        "bottom": 69.99,
+        "x0": 73.63,
+        "x1": 88.86,
+        "column": 0
+      },
+      {
+        "text": "Nesse cenário, há casos de professores",
+        "top": 71.98,
+        "bottom": 82.94,
+        "x0": 73.63,
+        "x1": 283.46,
+        "column": 0
+      },
+      {
+        "text": "que passaram a pedir aos alunos que fizessem",
+        "top": 84.93,
+        "bottom": 95.89,
+        "x0": 56.69,
+        "x1": 283.47,
+        "column": 0
+      },
+      {
+        "text": "apresentações orais, trabalhos dentro da sala",
+        "top": 97.88,
+        "bottom": 108.84,
+        "x0": 56.69,
+        "x1": 283.46,
+        "column": 0
+      },
+      {
+        "text": "de aula ou mesmo feitos à mão, no papel.",
+        "top": 110.83,
+        "bottom": 121.79,
+        "x0": 56.69,
+        "x1": 283.46,
+        "column": 0
+      },
+      {
+        "text": "Godoy, da USP, que costumava pedir trabalhos",
+        "top": 123.78,
+        "bottom": 134.74,
+        "x0": 56.69,
+        "x1": 283.47,
+        "column": 0
+      },
+      {
+        "text": "escritos sobre artigos estudados, passou a",
+        "top": 136.74,
+        "bottom": 147.7,
+        "x0": 56.69,
+        "x1": 283.47,
+        "column": 0
+      },
+      {
+        "text": "exigir que os alunos apresentassem esquemas",
+        "top": 149.69,
+        "bottom": 160.65,
+        "x0": 56.69,
+        "x1": 283.47,
+        "column": 0
+      },
+      {
+        "text": "com mapas mentais que mostrem as conexões",
+        "top": 162.64,
+        "bottom": 173.6,
+        "x0": 56.69,
+        "x1": 283.46,
+        "column": 0
+      },
+      {
+        "text": "entre os textos estudados em aula.",
+        "top": 175.59,
+        "bottom": 186.55,
+        "x0": 56.69,
+        "x1": 226.93,
+        "column": 0
+      },
+      {
+        "text": "Disponível em:",
+        "top": 202.85,
+        "bottom": 210.82,
+        "x0": 230.96,
+        "x1": 283.47,
+        "column": 0
+      },
+      {
+        "text": "https://revistapesquisa.fapesp.br/universidades-brasileiras-",
+        "top": 215.8,
+        "bottom": 223.77,
+        "x0": 76.84,
+        "x1": 283.47,
+        "column": 0
+      },
+      {
+        "text": "discutem-regras-de-uso-de-inteligencia-artificial/. Acesso em:",
+        "top": 228.75,
+        "bottom": 236.72,
+        "x0": 66.65,
+        "x1": 283.47,
+        "column": 0
+      },
+      {
+        "text": "20 jun. 2025 (adaptado).",
+        "top": 241.7,
+        "bottom": 249.67,
+        "x0": 196.1,
+        "x1": 283.47,
+        "column": 0
+      },
+      {
+        "text": "QUESTÃO 1.",
+        "top": 280.0,
+        "bottom": 290.96,
+        "x0": 56.69,
+        "x1": 125.65,
+        "column": 0
+      },
+      {
+        "text": "A partir da leitura da reportagem",
+        "top": 294.15,
+        "bottom": 305.1,
+        "x0": 56.69,
+        "x1": 283.47,
+        "column": 0
+      },
+      {
+        "text": "“Universidades brasileiras discutem regras",
+        "top": 307.1,
+        "bottom": 318.06,
+        "x0": 56.69,
+        "x1": 283.47,
+        "column": 0
+      },
+      {
+        "text": "de uso de inteligência artificial” (Texto 1),",
+        "top": 320.05,
+        "bottom": 331.01,
+        "x0": 56.69,
+        "x1": 283.46,
+        "column": 0
+      },
+      {
+        "text": "podemos compreender que um guia foi",
+        "top": 333.0,
+        "bottom": 343.96,
+        "x0": 56.69,
+        "x1": 283.47,
+        "column": 0
+      },
+      {
+        "text": "publicado pelo Centro Universitário Senai",
+        "top": 345.95,
+        "bottom": 356.91,
+        "x0": 56.69,
+        "x1": 283.47,
+        "column": 0
+      },
+      {
+        "text": "Cimatec, na Bahia, com o objetivo principal",
+        "top": 358.9,
+        "bottom": 369.86,
+        "x0": 56.69,
+        "x1": 283.47,
+        "column": 0
+      },
+      {
+        "text": "de",
+        "top": 371.85,
+        "bottom": 382.81,
+        "x0": 56.69,
+        "x1": 68.88,
+        "column": 0
+      },
+      {
+        "text": "(A) desestimular os professores universitários",
+        "top": 396.76,
+        "bottom": 407.72,
+        "x0": 57.91,
+        "x1": 283.47,
+        "column": 0
+      },
+      {
+        "text": "a aceitarem o uso inteligência artificial",
+        "top": 409.71,
+        "bottom": 420.67,
+        "x0": 77.97,
+        "x1": 283.46,
+        "column": 0
+      },
+      {
+        "text": "(IA), pelos universitários, em trabalhos",
+        "top": 422.66,
+        "bottom": 433.62,
+        "x0": 77.97,
+        "x1": 283.46,
+        "column": 0
+      },
+      {
+        "text": "acadêmicos.",
+        "top": 435.62,
+        "bottom": 446.57,
+        "x0": 77.97,
+        "x1": 139.32,
+        "column": 0
+      },
+      {
+        "text": "(B) desincentivar o uso da inteligência artificial",
+        "top": 457.53,
+        "bottom": 468.49,
+        "x0": 57.91,
+        "x1": 283.47,
+        "column": 0
+      },
+      {
+        "text": "(IA) em trabalhos acadêmicos para",
+        "top": 470.48,
+        "bottom": 481.44,
+        "x0": 77.97,
+        "x1": 283.47,
+        "column": 0
+      },
+      {
+        "text": "garantir a ausência total da desinformação",
+        "top": 483.44,
+        "bottom": 494.4,
+        "x0": 77.97,
+        "x1": 283.46,
+        "column": 0
+      },
+      {
+        "text": "e os plágios no meio universitário.",
+        "top": 496.39,
+        "bottom": 507.35,
+        "x0": 77.97,
+        "x1": 243.09,
+        "column": 0
+      },
+      {
+        "text": "(C) elucidar a comunidade acadêmica quanto",
+        "top": 518.31,
+        "bottom": 529.26,
+        "x0": 57.31,
+        "x1": 283.46,
+        "column": 0
+      },
+      {
+        "text": "ao uso devido da inteligência artificial (IA)",
+        "top": 531.26,
+        "bottom": 542.22,
+        "x0": 77.97,
+        "x1": 283.46,
+        "column": 0
+      },
+      {
+        "text": "para evitar a desinformação e os plágios",
+        "top": 544.21,
+        "bottom": 555.17,
+        "x0": 77.97,
+        "x1": 283.46,
+        "column": 0
+      },
+      {
+        "text": "em trabalhos acadêmicos.",
+        "top": 557.16,
+        "bottom": 568.12,
+        "x0": 77.97,
+        "x1": 205.6,
+        "column": 0
+      },
+      {
+        "text": "(D) incentivar que os universitários usem",
+        "top": 579.08,
+        "bottom": 590.04,
+        "x0": 57.31,
+        "x1": 283.46,
+        "column": 0
+      },
+      {
+        "text": "obrigatoriamente os recursos da",
+        "top": 592.03,
+        "bottom": 602.99,
+        "x0": 77.97,
+        "x1": 283.46,
+        "column": 0
+      },
+      {
+        "text": "inteligência artificial (IA) em trabalhos",
+        "top": 604.98,
+        "bottom": 615.94,
+        "x0": 77.97,
+        "x1": 283.46,
+        "column": 0
+      },
+      {
+        "text": "acadêmicos, com a devida orientação.",
+        "top": 617.93,
+        "bottom": 628.89,
+        "x0": 77.97,
+        "x1": 264.19,
+        "column": 0
+      },
+      {
+        "text": "(E) orientar os professores universitários a",
+        "top": 639.85,
+        "bottom": 650.81,
+        "x0": 57.91,
+        "x1": 283.46,
+        "column": 0
+      },
+      {
+        "text": "solicitarem apresentações orais como",
+        "top": 652.8,
+        "bottom": 663.76,
+        "x0": 77.97,
+        "x1": 283.47,
+        "column": 0
+      },
+      {
+        "text": "forma de evitar o uso da inteligência",
+        "top": 665.75,
+        "bottom": 676.71,
+        "x0": 77.97,
+        "x1": 283.46,
+        "column": 0
+      },
+      {
+        "text": "artificial (IA) em trabalhos acadêmicos.",
+        "top": 678.7,
+        "bottom": 689.66,
+        "x0": 77.97,
+        "x1": 266.92,
+        "column": 0
+      },
+      {
+        "text": "QUESTÃO 2.",
+        "top": 74.77,
+        "bottom": 85.73,
+        "x0": 311.81,
+        "x1": 380.76,
+        "column": 1
+      },
+      {
+        "text": "A partir da leitura do Texto 1, subentende-se",
+        "top": 88.92,
+        "bottom": 99.87,
+        "x0": 311.81,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "que as informações presentes no quadro",
+        "top": 101.87,
+        "bottom": 112.83,
+        "x0": 311.81,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "(“Conceitos que resumem as orientações”)",
+        "top": 114.82,
+        "bottom": 125.78,
+        "x0": 311.81,
+        "x1": 519.64,
+        "column": 1
+      },
+      {
+        "text": "(A) convergem para a reflexão sobre como",
+        "top": 139.72,
+        "bottom": 150.68,
+        "x0": 313.03,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "a IA ganha protagonismo no ambiente",
+        "top": 152.68,
+        "bottom": 163.64,
+        "x0": 333.09,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "universitário, em nível equivalente ao",
+        "top": 165.63,
+        "bottom": 176.59,
+        "x0": 333.09,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "pesquisador humano, substituindo sua",
+        "top": 178.58,
+        "bottom": 189.54,
+        "x0": 333.09,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "força de trabalho.",
+        "top": 191.53,
+        "bottom": 202.49,
+        "x0": 333.09,
+        "x1": 417.5,
+        "column": 1
+      },
+      {
+        "text": "(B) convergem, pois todas trazem orientações",
+        "top": 213.45,
+        "bottom": 224.41,
+        "x0": 313.03,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "bastante cautelosas acerca da utilização",
+        "top": 226.4,
+        "bottom": 237.36,
+        "x0": 333.09,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "livre da IA, desde que os comandos sejam",
+        "top": 239.35,
+        "bottom": 250.31,
+        "x0": 333.09,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "bem feitos e, assim, impeçam totalmente",
+        "top": 252.3,
+        "bottom": 263.26,
+        "x0": 333.09,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "o compartilhamento de informações",
+        "top": 265.25,
+        "bottom": 276.21,
+        "x0": 333.09,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "sensíveis.",
+        "top": 278.21,
+        "bottom": 289.16,
+        "x0": 333.09,
+        "x1": 381.37,
+        "column": 1
+      },
+      {
+        "text": "(C) convergem, pois trazem orientações sobre",
+        "top": 300.12,
+        "bottom": 311.08,
+        "x0": 312.43,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "a possibilidade de uso adequado da",
+        "top": 313.07,
+        "bottom": 324.03,
+        "x0": 333.09,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "IA generativa no ambiente universitário,",
+        "top": 326.03,
+        "bottom": 336.99,
+        "x0": 333.09,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "desde que citada corretamente e avaliados",
+        "top": 338.98,
+        "bottom": 349.94,
+        "x0": 333.09,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "os dados fornecidos.",
+        "top": 351.93,
+        "bottom": 362.89,
+        "x0": 333.09,
+        "x1": 433.99,
+        "column": 1
+      },
+      {
+        "text": "(D) divergem, pois alguns tópicos trazem a",
+        "top": 373.85,
+        "bottom": 384.81,
+        "x0": 312.43,
+        "x1": 538.59,
+        "column": 1
+      },
+      {
+        "text": "ideia de que a IA deve ser utilizada",
+        "top": 386.8,
+        "bottom": 397.76,
+        "x0": 333.09,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "em trabalhos acadêmicos e que toda",
+        "top": 399.75,
+        "bottom": 410.71,
+        "x0": 333.09,
+        "x1": 538.59,
+        "column": 1
+      },
+      {
+        "text": "informação deva ser publicizada, desde",
+        "top": 412.7,
+        "bottom": 423.66,
+        "x0": 333.09,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "que citada corretamente.",
+        "top": 425.65,
+        "bottom": 436.61,
+        "x0": 333.09,
+        "x1": 454.14,
+        "column": 1
+      },
+      {
+        "text": "(E) divergem sobre a ideia de que a IA,",
+        "top": 447.57,
+        "bottom": 458.53,
+        "x0": 313.03,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "no ambiente universitário, será utilizada",
+        "top": 460.52,
+        "bottom": 471.48,
+        "x0": 333.09,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "somente se permitida pelos professores, já",
+        "top": 473.47,
+        "bottom": 484.43,
+        "x0": 333.09,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "que não deve ser sobreposta às fontes de",
+        "top": 486.42,
+        "bottom": 497.38,
+        "x0": 333.09,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "pesquisas geradas por humanos.",
+        "top": 499.38,
+        "bottom": 510.34,
+        "x0": 333.09,
+        "x1": 494.84,
+        "column": 1
+      }
+    ],
+    "images": [],
+    "rects": [
+      {
+        "x0": 56.69,
+        "x1": 283.46,
+        "top": 268.63,
+        "bottom": 272.88
+      },
+      {
+        "x0": 311.81,
+        "x1": 538.58,
+        "top": 63.4,
+        "bottom": 67.65
+      }
+    ],
+    "curves": []
+  },
+  {
+    "page": 5,
+    "width": 595.276,
+    "height": 841.89,
+    "lines": [
+      {
+        "text": "TEXTO 2",
+        "top": 65,
+        "bottom": 70.03,
+        "x0": 147.46,
+        "x1": 192.7,
+        "column": 0
+      },
+      {
+        "text": "Do luto ao amor digital: americana cria",
+        "top": 72.02,
+        "bottom": 82.98,
+        "x0": 68.62,
+        "x1": 271.54,
+        "column": 0
+      },
+      {
+        "text": "“marido perfeito” com inteligência artificial",
+        "top": 84.97,
+        "bottom": 95.93,
+        "x0": 57.66,
+        "x1": 282.5,
+        "column": 0
+      },
+      {
+        "text": "e vive relacionamento completo com bot",
+        "top": 97.93,
+        "bottom": 108.88,
+        "x0": 64.11,
+        "x1": 276.05,
+        "column": 0
+      },
+      {
+        "text": "Após perder o amor da sua vida, a",
+        "top": 351.59,
+        "bottom": 362.55,
+        "x0": 73.63,
+        "x1": 283.46,
+        "column": 0
+      },
+      {
+        "text": "americana Alaina Winters acreditava que",
+        "top": 364.54,
+        "bottom": 375.5,
+        "x0": 56.69,
+        "x1": 283.47,
+        "column": 0
+      },
+      {
+        "text": "jamais voltaria a viver uma história de",
+        "top": 377.49,
+        "bottom": 388.45,
+        "x0": 56.69,
+        "x1": 283.46,
+        "column": 0
+      },
+      {
+        "text": "amor. Mas bastou um clique — e uma",
+        "top": 390.44,
+        "bottom": 401.4,
+        "x0": 56.69,
+        "x1": 283.47,
+        "column": 0
+      },
+      {
+        "text": "inteligência artificial — para transformar sua",
+        "top": 403.4,
+        "bottom": 414.35,
+        "x0": 56.69,
+        "x1": 283.46,
+        "column": 0
+      },
+      {
+        "text": "vida completamente. Ela recorreu a um",
+        "top": 416.35,
+        "bottom": 427.31,
+        "x0": 56.69,
+        "x1": 283.47,
+        "column": 0
+      },
+      {
+        "text": "aplicativo que usa IA para criar companheiros",
+        "top": 429.3,
+        "bottom": 440.26,
+        "x0": 56.69,
+        "x1": 283.47,
+        "column": 0
+      },
+      {
+        "text": "virtuais e, com base em suas preferências,",
+        "top": 442.25,
+        "bottom": 453.21,
+        "x0": 56.69,
+        "x1": 283.46,
+        "column": 0
+      },
+      {
+        "text": "desenvolveu o “marido ideal”. O resultado?",
+        "top": 455.2,
+        "bottom": 466.16,
+        "x0": 56.69,
+        "x1": 283.47,
+        "column": 0
+      },
+      {
+        "text": "Um relacionamento tão intenso quanto real.",
+        "top": 468.15,
+        "bottom": 479.11,
+        "x0": 56.69,
+        "x1": 269.27,
+        "column": 0
+      },
+      {
+        "text": "Hoje, Alaina vive um casamento digital,",
+        "top": 481.1,
+        "bottom": 492.06,
+        "x0": 73.63,
+        "x1": 283.47,
+        "column": 0
+      },
+      {
+        "text": "com direito a DR, jantares comemorativos,",
+        "top": 494.06,
+        "bottom": 505.01,
+        "x0": 56.69,
+        "x1": 283.47,
+        "column": 0
+      },
+      {
+        "text": "carinhos [...]. “Ele me entende melhor do que",
+        "top": 507.01,
+        "bottom": 517.97,
+        "x0": 56.69,
+        "x1": 283.47,
+        "column": 0
+      },
+      {
+        "text": "qualquer pessoa já entendeu”, declarou.",
+        "top": 519.96,
+        "bottom": 530.92,
+        "x0": 56.69,
+        "x1": 252.84,
+        "column": 0
+      },
+      {
+        "text": "Amor 5.0: tendência ou fuga da realidade?",
+        "top": 545.91,
+        "bottom": 556.86,
+        "x0": 56.69,
+        "x1": 278.48,
+        "column": 0
+      },
+      {
+        "text": "Apesar de parecer enredo de filme ou",
+        "top": 571.76,
+        "bottom": 582.72,
+        "x0": 73.63,
+        "x1": 283.47,
+        "column": 0
+      },
+      {
+        "text": "episódio de Black Mirror, a história de Alaina",
+        "top": 584.72,
+        "bottom": 595.67,
+        "x0": 56.69,
+        "x1": 283.47,
+        "column": 0
+      },
+      {
+        "text": "não é um caso isolado. Uma pesquisa recente",
+        "top": 597.67,
+        "bottom": 608.63,
+        "x0": 56.69,
+        "x1": 283.47,
+        "column": 0
+      },
+      {
+        "text": "apontou que 83% da Geração Z aceitaria se",
+        "top": 610.62,
+        "bottom": 621.58,
+        "x0": 56.69,
+        "x1": 283.47,
+        "column": 0
+      },
+      {
+        "text": "casar com um parceiro criado por inteligência",
+        "top": 623.57,
+        "bottom": 634.53,
+        "x0": 56.69,
+        "x1": 283.46,
+        "column": 0
+      },
+      {
+        "text": "artificial. Para muitos, a IA representa uma",
+        "top": 636.52,
+        "bottom": 647.48,
+        "x0": 56.69,
+        "x1": 283.47,
+        "column": 0
+      },
+      {
+        "text": "forma de preenchimento emocional, segurança",
+        "top": 649.47,
+        "bottom": 660.43,
+        "x0": 56.69,
+        "x1": 283.47,
+        "column": 0
+      },
+      {
+        "text": "afetiva e uma fuga das frustrações das",
+        "top": 662.42,
+        "bottom": 673.38,
+        "x0": 56.69,
+        "x1": 283.46,
+        "column": 0
+      },
+      {
+        "text": "relações humanas. Já outros especialistas",
+        "top": 675.38,
+        "bottom": 686.33,
+        "x0": 56.69,
+        "x1": 283.46,
+        "column": 0
+      },
+      {
+        "text": "alertam para os riscos de isolamento, vício em",
+        "top": 688.33,
+        "bottom": 699.29,
+        "x0": 56.69,
+        "x1": 283.47,
+        "column": 0
+      },
+      {
+        "text": "conexões virtuais e impactos psicológicos de",
+        "top": 701.28,
+        "bottom": 712.24,
+        "x0": 56.69,
+        "x1": 283.46,
+        "column": 0
+      },
+      {
+        "text": "longo prazo.[...]",
+        "top": 714.23,
+        "bottom": 725.19,
+        "x0": 56.69,
+        "x1": 131.52,
+        "column": 0
+      },
+      {
+        "text": "Disponível em:",
+        "top": 740.07,
+        "bottom": 748.04,
+        "x0": 230.96,
+        "x1": 283.47,
+        "column": 0
+      },
+      {
+        "text": "https://www.ptnnews.com.br/do-luto-ao-amor-digital-americana",
+        "top": 753.02,
+        "bottom": 760.99,
+        "x0": 62.21,
+        "x1": 283.47,
+        "column": 0
+      },
+      {
+        "text": "-cria-marido-perfeito-com-inteligencia-artificial-e-vive-relaciona",
+        "top": 765.97,
+        "bottom": 773.94,
+        "x0": 62.82,
+        "x1": 283.47,
+        "column": 0
+      },
+      {
+        "text": "mento-completo-com-bot/. Acesso em: 03 jul. 2025 (adaptado).",
+        "top": 778.92,
+        "bottom": 786.89,
+        "x0": 58.63,
+        "x1": 283.47,
+        "column": 0
+      },
+      {
+        "text": "Glossário:",
+        "top": 65,
+        "bottom": 70.03,
+        "x0": 311.81,
+        "x1": 366.01,
+        "column": 1
+      },
+      {
+        "text": "Bot: é versão abreviada da palavra de",
+        "top": 71.98,
+        "bottom": 82.98,
+        "x0": 311.81,
+        "x1": 538.59,
+        "column": 1
+      },
+      {
+        "text": "língua inglesa robot. Resumidamente, é",
+        "top": 84.93,
+        "bottom": 95.89,
+        "x0": 311.81,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "uma ferramenta automatizada que executa",
+        "top": 97.88,
+        "bottom": 108.84,
+        "x0": 311.81,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "uma série de funções pré-programadas.",
+        "top": 110.83,
+        "bottom": 121.79,
+        "x0": 311.81,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "Normalmente, está associada a uma",
+        "top": 123.78,
+        "bottom": 134.74,
+        "x0": 311.81,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "inteligência artificial e busca interagir",
+        "top": 136.74,
+        "bottom": 147.7,
+        "x0": 311.81,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "simulando a forma de pensar humana.",
+        "top": 149.69,
+        "bottom": 160.65,
+        "x0": 311.81,
+        "x1": 499.25,
+        "column": 1
+      },
+      {
+        "text": "Disponível em:",
+        "top": 176.95,
+        "bottom": 184.92,
+        "x0": 486.08,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "https://www.weeke.com.br/blog/o-que-e-um-bot-entenda-como",
+        "top": 189.9,
+        "bottom": 197.87,
+        "x0": 318.55,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "-funciona/. Acesso em: 03 jul. 2025.",
+        "top": 202.85,
+        "bottom": 210.82,
+        "x0": 410.31,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "QUESTÃO 3.",
+        "top": 241.15,
+        "bottom": 252.11,
+        "x0": 311.81,
+        "x1": 380.76,
+        "column": 1
+      },
+      {
+        "text": "A partir da leitura do Texto 2, pode-se",
+        "top": 255.29,
+        "bottom": 266.25,
+        "x0": 311.81,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "considerar que",
+        "top": 268.24,
+        "bottom": 279.2,
+        "x0": 311.81,
+        "x1": 384.18,
+        "column": 1
+      },
+      {
+        "text": "(A) a expressão “marido perfeito” entre aspas,",
+        "top": 293.15,
+        "bottom": 304.11,
+        "x0": 313.03,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "presente no título, sugere um tom reflexivo",
+        "top": 306.1,
+        "bottom": 317.06,
+        "x0": 333.09,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "sobre a atitude de Alaina ter embarcado",
+        "top": 319.05,
+        "bottom": 330.01,
+        "x0": 333.09,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "em um relacionamento amoroso com uma",
+        "top": 332.0,
+        "bottom": 342.96,
+        "x0": 333.09,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "IA.",
+        "top": 344.96,
+        "bottom": 355.91,
+        "x0": 333.09,
+        "x1": 346.49,
+        "column": 1
+      },
+      {
+        "text": "(B) a indagação no subtítulo “Amor 5.0:",
+        "top": 366.87,
+        "bottom": 377.83,
+        "x0": 313.03,
+        "x1": 538.59,
+        "column": 1
+      },
+      {
+        "text": "tendência ou fuga da realidade?”",
+        "top": 379.82,
+        "bottom": 390.78,
+        "x0": 333.09,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "considera que as pessoas com mais de",
+        "top": 392.78,
+        "bottom": 403.73,
+        "x0": 333.09,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "50 anos de idade não têm o interesse de",
+        "top": 405.73,
+        "bottom": 416.69,
+        "x0": 333.09,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "iniciar um relacionamento amoroso.",
+        "top": 418.68,
+        "bottom": 429.64,
+        "x0": 333.09,
+        "x1": 506.22,
+        "column": 1
+      },
+      {
+        "text": "(C) o questionamento “IA: Um novo cupido?”",
+        "top": 440.6,
+        "bottom": 451.56,
+        "x0": 312.43,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "ressalta a possibilidade de mais uma",
+        "top": 453.55,
+        "bottom": 464.51,
+        "x0": 333.09,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "função relacionada à IA, que além de",
+        "top": 466.5,
+        "bottom": 477.46,
+        "x0": 333.09,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "ser um par amoroso, pode principalmente",
+        "top": 479.45,
+        "bottom": 490.41,
+        "x0": 333.09,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "“unir” pessoas no contexto atual.",
+        "top": 492.4,
+        "bottom": 503.36,
+        "x0": 333.09,
+        "x1": 491.74,
+        "column": 1
+      },
+      {
+        "text": "(D) o relato pessoal presente no trecho “Ele",
+        "top": 514.32,
+        "bottom": 525.28,
+        "x0": 312.43,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "me entende melhor do que qualquer",
+        "top": 527.27,
+        "bottom": 538.23,
+        "x0": 333.09,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "pessoa já entendeu” é um discurso direto",
+        "top": 540.22,
+        "bottom": 551.18,
+        "x0": 333.09,
+        "x1": 538.59,
+        "column": 1
+      },
+      {
+        "text": "de Alaina utilizado para convencer o leitor",
+        "top": 553.17,
+        "bottom": 564.13,
+        "x0": 333.09,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "a se relacionar com uma IA.",
+        "top": 566.13,
+        "bottom": 577.08,
+        "x0": 333.09,
+        "x1": 469.52,
+        "column": 1
+      },
+      {
+        "text": "(E) o trecho “Hoje, Alaina vive um casamento",
+        "top": 588.04,
+        "bottom": 599.0,
+        "x0": 313.03,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "digital, com direito a DR, jantares",
+        "top": 601.0,
+        "bottom": 611.95,
+        "x0": 333.09,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "comemorativos [...]” reforça que o",
+        "top": 613.95,
+        "bottom": 624.91,
+        "x0": 333.09,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "relacionamento amoroso de Alaina com",
+        "top": 626.9,
+        "bottom": 637.86,
+        "x0": 333.09,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "uma IA é distinto de um namoro com um",
+        "top": 639.85,
+        "bottom": 650.81,
+        "x0": 333.09,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "humano.",
+        "top": 652.8,
+        "bottom": 663.76,
+        "x0": 333.09,
+        "x1": 375.29,
+        "column": 1
+      }
+    ],
+    "images": [
+      {
+        "x0": 73.63,
+        "x1": 255.06,
+        "top": 120.34,
+        "bottom": 347.26
+      }
+    ],
+    "rects": [
+      {
+        "x0": 311.81,
+        "x1": 538.58,
+        "top": 229.78,
+        "bottom": 234.03
+      }
+    ],
+    "curves": []
+  },
+  {
+    "page": 6,
+    "width": 595.276,
+    "height": 841.89,
+    "lines": [
+      {
+        "text": "TEXTO 3",
+        "top": 65,
+        "bottom": 70.03,
+        "x0": 147.46,
+        "x1": 192.7,
+        "column": 0
+      },
+      {
+        "text": "Fonte: GALVÃO, Jean. Folha de São Paulo, 29 jun. 2025.",
+        "top": 257.53,
+        "bottom": 265.53,
+        "x0": 75.79,
+        "x1": 283.47,
+        "column": 0
+      },
+      {
+        "text": "QUESTÃO 4.",
+        "top": 295.82,
+        "bottom": 306.78,
+        "x0": 56.69,
+        "x1": 125.65,
+        "column": 0
+      },
+      {
+        "text": "O Texto 3, de Jean Galvão, utiliza elementos",
+        "top": 309.97,
+        "bottom": 320.93,
+        "x0": 56.69,
+        "x1": 283.47,
+        "column": 0
+      },
+      {
+        "text": "visuais e verbais para construir efeitos de",
+        "top": 322.92,
+        "bottom": 333.88,
+        "x0": 56.69,
+        "x1": 283.47,
+        "column": 0
+      },
+      {
+        "text": "sentido sobre a situação ambiental do Cerrado.",
+        "top": 335.87,
+        "bottom": 346.83,
+        "x0": 56.69,
+        "x1": 283.46,
+        "column": 0
+      },
+      {
+        "text": "A partir dessa informação, assinale a",
+        "top": 361.77,
+        "bottom": 372.73,
+        "x0": 56.69,
+        "x1": 283.46,
+        "column": 0
+      },
+      {
+        "text": "alternativa que evidencia a relação de sentido",
+        "top": 374.72,
+        "bottom": 385.68,
+        "x0": 56.69,
+        "x1": 283.46,
+        "column": 0
+      },
+      {
+        "text": "estabelecida entre os elementos do texto.",
+        "top": 387.68,
+        "bottom": 398.64,
+        "x0": 56.69,
+        "x1": 258.78,
+        "column": 0
+      },
+      {
+        "text": "(A) A reação dos cientistas indica que os",
+        "top": 409.59,
+        "bottom": 420.55,
+        "x0": 57.91,
+        "x1": 283.47,
+        "column": 0
+      },
+      {
+        "text": "dados gerados são imprecisos e causam",
+        "top": 422.55,
+        "bottom": 433.5,
+        "x0": 77.97,
+        "x1": 283.46,
+        "column": 0
+      },
+      {
+        "text": "pânico, criticando o uso alarmista das",
+        "top": 435.5,
+        "bottom": 446.46,
+        "x0": 77.97,
+        "x1": 283.46,
+        "column": 0
+      },
+      {
+        "text": "imagens de satélite.",
+        "top": 448.45,
+        "bottom": 459.41,
+        "x0": 77.97,
+        "x1": 175.26,
+        "column": 0
+      },
+      {
+        "text": "(B) A representação do fogo extrapolando a",
+        "top": 470.37,
+        "bottom": 481.33,
+        "x0": 57.91,
+        "x1": 283.47,
+        "column": 0
+      },
+      {
+        "text": "imagem do satélite simboliza a gravidade",
+        "top": 483.32,
+        "bottom": 494.28,
+        "x0": 77.97,
+        "x1": 283.47,
+        "column": 0
+      },
+      {
+        "text": "real dos incêndios, denunciando a",
+        "top": 496.27,
+        "bottom": 507.23,
+        "x0": 77.97,
+        "x1": 283.47,
+        "column": 0
+      },
+      {
+        "text": "urgência da crise ambiental no Cerrado.",
+        "top": 509.22,
+        "bottom": 520.18,
+        "x0": 77.97,
+        "x1": 272.49,
+        "column": 0
+      },
+      {
+        "text": "(C) As imagens de satélite e dos personagens",
+        "top": 531.14,
+        "bottom": 542.1,
+        "x0": 57.31,
+        "x1": 283.46,
+        "column": 0
+      },
+      {
+        "text": "reforçam o caráter técnico e imparcial dos",
+        "top": 544.09,
+        "bottom": 555.05,
+        "x0": 77.97,
+        "x1": 283.46,
+        "column": 0
+      },
+      {
+        "text": "dados ambientais, mostrando que o papel",
+        "top": 557.04,
+        "bottom": 568.0,
+        "x0": 77.97,
+        "x1": 283.46,
+        "column": 0
+      },
+      {
+        "text": "dos cientistas é observacional.",
+        "top": 569.99,
+        "bottom": 580.95,
+        "x0": 77.97,
+        "x1": 227.25,
+        "column": 0
+      },
+      {
+        "text": "(D) O incêndio representado na tela indica que",
+        "top": 591.91,
+        "bottom": 602.87,
+        "x0": 57.31,
+        "x1": 283.47,
+        "column": 0
+      },
+      {
+        "text": "os satélites estão interferindo diretamente",
+        "top": 604.86,
+        "bottom": 615.82,
+        "x0": 77.97,
+        "x1": 283.46,
+        "column": 0
+      },
+      {
+        "text": "na destruição ambiental do Cerrado,",
+        "top": 617.81,
+        "bottom": 628.77,
+        "x0": 77.97,
+        "x1": 283.46,
+        "column": 0
+      },
+      {
+        "text": "justificando o alarde entre os cientistas.",
+        "top": 630.76,
+        "bottom": 641.72,
+        "x0": 77.97,
+        "x1": 269.68,
+        "column": 0
+      },
+      {
+        "text": "(E) O texto mostra neutralidade ao relatar",
+        "top": 652.68,
+        "bottom": 663.64,
+        "x0": 57.91,
+        "x1": 283.47,
+        "column": 0
+      },
+      {
+        "text": "que há incêndios no Cerrado, sem",
+        "top": 665.63,
+        "bottom": 676.59,
+        "x0": 77.97,
+        "x1": 283.47,
+        "column": 0
+      },
+      {
+        "text": "emitir julgamento ou criar metáforas que",
+        "top": 678.59,
+        "bottom": 689.54,
+        "x0": 77.97,
+        "x1": 283.46,
+        "column": 0
+      },
+      {
+        "text": "influenciem o leitor.",
+        "top": 691.54,
+        "bottom": 702.5,
+        "x0": 77.97,
+        "x1": 171.82,
+        "column": 0
+      },
+      {
+        "text": "TEXTO 4",
+        "top": 65,
+        "bottom": 70.03,
+        "x0": 402.58,
+        "x1": 447.82,
+        "column": 1
+      },
+      {
+        "text": "Charge",
+        "top": 83.93,
+        "bottom": 94.89,
+        "x0": 407.23,
+        "x1": 443.16,
+        "column": 1
+      },
+      {
+        "text": "Disponível em:",
+        "top": 284.79,
+        "bottom": 292.76,
+        "x0": 486.08,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "https://blogdoaftm.com.br/charge-inteligencia-artificial/. Acesso",
+        "top": 297.74,
+        "bottom": 305.71,
+        "x0": 316.43,
+        "x1": 538.59,
+        "column": 1
+      },
+      {
+        "text": "em: 01 jul. 2025.",
+        "top": 310.7,
+        "bottom": 318.67,
+        "x0": 478.61,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "TEXTO 5",
+        "top": 355.21,
+        "bottom": 366.17,
+        "x0": 402.58,
+        "x1": 447.82,
+        "column": 1
+      },
+      {
+        "text": "Imagem retirada de um artigo de opinião",
+        "top": 380.08,
+        "bottom": 391.03,
+        "x0": 326.36,
+        "x1": 524.03,
+        "column": 1
+      },
+      {
+        "text": "Disponível em:",
+        "top": 549.89,
+        "bottom": 557.86,
+        "x0": 486.08,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "https://www.verdict.co.uk/wp-content/uploads/2025/01/shutterstock",
+        "top": 562.84,
+        "bottom": 570.81,
+        "x0": 311.81,
+        "x1": 546.32,
+        "column": 1
+      },
+      {
+        "text": "2312717889-1.jpg. Acesso em: 01 jul. 2025.",
+        "top": 575.79,
+        "bottom": 583.76,
+        "x0": 381.06,
+        "x1": 538.59,
+        "column": 1
+      }
+    ],
+    "images": [
+      {
+        "x0": 73.63,
+        "x1": 291.33,
+        "top": 80.81,
+        "bottom": 225.94
+      },
+      {
+        "x0": 311.81,
+        "x1": 538.59,
+        "top": 95.99,
+        "bottom": 266.16
+      },
+      {
+        "x0": 311.81,
+        "x1": 538.59,
+        "top": 392.13,
+        "bottom": 518.31
+      }
+    ],
+    "rects": [
+      {
+        "x0": 56.69,
+        "x1": 283.46,
+        "top": 284.45,
+        "bottom": 288.7
+      },
+      {
+        "x0": 311.81,
+        "x1": 538.58,
+        "top": 337.62,
+        "bottom": 341.88
+      }
+    ],
+    "curves": []
+  },
+  {
+    "page": 7,
+    "width": 595.276,
+    "height": 841.89,
+    "lines": [
+      {
+        "text": "QUESTÃO 5.",
+        "top": 74.77,
+        "bottom": 85.73,
+        "x0": 56.69,
+        "x1": 125.65,
+        "column": 0
+      },
+      {
+        "text": "A partir de uma interpretação conjunta do Texto",
+        "top": 88.92,
+        "bottom": 99.87,
+        "x0": 56.69,
+        "x1": 283.47,
+        "column": 0
+      },
+      {
+        "text": "4 e do Texto 5, pode-se dizer que a relação de",
+        "top": 101.87,
+        "bottom": 112.83,
+        "x0": 56.69,
+        "x1": 283.46,
+        "column": 0
+      },
+      {
+        "text": "sentidos que se estabelece entre eles é de",
+        "top": 114.82,
+        "bottom": 125.78,
+        "x0": 56.69,
+        "x1": 265.03,
+        "column": 0
+      },
+      {
+        "text": "(A) complementariedade, pois ambos os",
+        "top": 139.72,
+        "bottom": 150.68,
+        "x0": 57.91,
+        "x1": 283.47,
+        "column": 0
+      },
+      {
+        "text": "textos relatam que a inteligência artificial",
+        "top": 152.68,
+        "bottom": 163.64,
+        "x0": 77.97,
+        "x1": 283.47,
+        "column": 0
+      },
+      {
+        "text": "(IA) e o comportamento humano não",
+        "top": 165.63,
+        "bottom": 176.59,
+        "x0": 77.97,
+        "x1": 283.46,
+        "column": 0
+      },
+      {
+        "text": "são concorrentes, uma vez que o",
+        "top": 178.58,
+        "bottom": 189.54,
+        "x0": 77.97,
+        "x1": 283.46,
+        "column": 0
+      },
+      {
+        "text": "homem, assim como a IA, sobrevive sem",
+        "top": 191.53,
+        "bottom": 202.49,
+        "x0": 77.97,
+        "x1": 283.46,
+        "column": 0
+      },
+      {
+        "text": "alimentação e renda.",
+        "top": 204.48,
+        "bottom": 215.44,
+        "x0": 77.97,
+        "x1": 180.31,
+        "column": 0
+      },
+      {
+        "text": "(B) confluência, pois ambos os textos",
+        "top": 226.4,
+        "bottom": 237.36,
+        "x0": 57.91,
+        "x1": 283.46,
+        "column": 0
+      },
+      {
+        "text": "criticam o uso da inteligência artificial",
+        "top": 239.35,
+        "bottom": 250.31,
+        "x0": 77.97,
+        "x1": 283.46,
+        "column": 0
+      },
+      {
+        "text": "(IA) em detrimento do trabalho humano,",
+        "top": 252.3,
+        "bottom": 263.26,
+        "x0": 77.97,
+        "x1": 283.46,
+        "column": 0
+      },
+      {
+        "text": "demostrando que a IA compete com",
+        "top": 265.25,
+        "bottom": 276.21,
+        "x0": 77.97,
+        "x1": 283.46,
+        "column": 0
+      },
+      {
+        "text": "homem em diferentes postos do mercado",
+        "top": 278.21,
+        "bottom": 289.16,
+        "x0": 77.97,
+        "x1": 283.46,
+        "column": 0
+      },
+      {
+        "text": "de trabalho.",
+        "top": 291.16,
+        "bottom": 302.12,
+        "x0": 77.97,
+        "x1": 135.3,
+        "column": 0
+      },
+      {
+        "text": "(C) contraposição, pois ambos os textos",
+        "top": 313.07,
+        "bottom": 324.03,
+        "x0": 57.31,
+        "x1": 283.46,
+        "column": 0
+      },
+      {
+        "text": "relatam que, entre a inteligência artificial",
+        "top": 326.03,
+        "bottom": 336.99,
+        "x0": 77.97,
+        "x1": 283.46,
+        "column": 0
+      },
+      {
+        "text": "(IA) e o comportamento humano, há",
+        "top": 338.98,
+        "bottom": 349.94,
+        "x0": 77.97,
+        "x1": 283.47,
+        "column": 0
+      },
+      {
+        "text": "disputa, uma vez que o homem, assim",
+        "top": 351.93,
+        "bottom": 362.89,
+        "x0": 77.97,
+        "x1": 283.46,
+        "column": 0
+      },
+      {
+        "text": "como a IA, sobrevive em condições",
+        "top": 364.88,
+        "bottom": 375.84,
+        "x0": 77.97,
+        "x1": 283.46,
+        "column": 0
+      },
+      {
+        "text": "precárias de trabalho.",
+        "top": 377.83,
+        "bottom": 388.79,
+        "x0": 77.97,
+        "x1": 183.57,
+        "column": 0
+      },
+      {
+        "text": "(D) discordância, pois ambos os textos",
+        "top": 399.75,
+        "bottom": 410.71,
+        "x0": 57.31,
+        "x1": 283.46,
+        "column": 0
+      },
+      {
+        "text": "comparam a eficiência da Iinteligência",
+        "top": 412.7,
+        "bottom": 423.66,
+        "x0": 77.97,
+        "x1": 283.46,
+        "column": 0
+      },
+      {
+        "text": "artificial (IA) ao trabalho humano,",
+        "top": 425.65,
+        "bottom": 436.61,
+        "x0": 77.97,
+        "x1": 283.46,
+        "column": 0
+      },
+      {
+        "text": "demostrando que a IA compete de igual",
+        "top": 438.6,
+        "bottom": 449.56,
+        "x0": 77.97,
+        "x1": 283.46,
+        "column": 0
+      },
+      {
+        "text": "maneira com homem no contexto laboral.",
+        "top": 451.56,
+        "bottom": 462.51,
+        "x0": 77.97,
+        "x1": 279.02,
+        "column": 0
+      },
+      {
+        "text": "(E) distanciamento, pois ambos os textos",
+        "top": 473.47,
+        "bottom": 484.43,
+        "x0": 57.91,
+        "x1": 283.47,
+        "column": 0
+      },
+      {
+        "text": "satirizam a relação de trabalho entre o",
+        "top": 486.42,
+        "bottom": 497.38,
+        "x0": 77.97,
+        "x1": 283.46,
+        "column": 0
+      },
+      {
+        "text": "humano e a inteligência artificial (IA),",
+        "top": 499.38,
+        "bottom": 510.34,
+        "x0": 77.97,
+        "x1": 283.47,
+        "column": 0
+      },
+      {
+        "text": "confirmando que o homem é superior à IA,",
+        "top": 512.33,
+        "bottom": 523.29,
+        "x0": 77.97,
+        "x1": 283.46,
+        "column": 0
+      },
+      {
+        "text": "já que trabalha, mesmo sem alimentação e",
+        "top": 525.28,
+        "bottom": 536.24,
+        "x0": 77.97,
+        "x1": 283.46,
+        "column": 0
+      },
+      {
+        "text": "renda.",
+        "top": 538.23,
+        "bottom": 549.19,
+        "x0": 77.97,
+        "x1": 109.04,
+        "column": 0
+      },
+      {
+        "text": "GEOGRAFIA - Objetivas",
+        "top": 79.15,
+        "bottom": 90.11,
+        "x0": 362.58,
+        "x1": 487.81,
+        "column": 1
+      },
+      {
+        "text": "QUESTÃO 6.",
+        "top": 113.76,
+        "bottom": 124.72,
+        "x0": 311.81,
+        "x1": 380.76,
+        "column": 1
+      },
+      {
+        "text": "Em uma viagem de estudo um grupo de",
+        "top": 127.9,
+        "bottom": 138.86,
+        "x0": 311.81,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "estudantes visitou duas cidades brasileiras,",
+        "top": 140.85,
+        "bottom": 151.81,
+        "x0": 311.81,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "ambas localizadas em latitudes semelhantes.",
+        "top": 153.81,
+        "bottom": 164.77,
+        "x0": 311.81,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "Eles observaram que a cidade litorânea A",
+        "top": 166.76,
+        "bottom": 177.72,
+        "x0": 311.81,
+        "x1": 538.59,
+        "column": 1
+      },
+      {
+        "text": "apresentava temperaturas amenas e menor",
+        "top": 179.71,
+        "bottom": 190.67,
+        "x0": 311.81,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "variação térmica ao longo do dia, enquanto",
+        "top": 192.66,
+        "bottom": 203.62,
+        "x0": 311.81,
+        "x1": 538.59,
+        "column": 1
+      },
+      {
+        "text": "a cidade B, localizada no interior do país,",
+        "top": 205.61,
+        "bottom": 216.57,
+        "x0": 311.81,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "possuía temperaturas mais extremas, com dias",
+        "top": 218.56,
+        "bottom": 229.52,
+        "x0": 311.81,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "muito quentes e noites frias.",
+        "top": 231.51,
+        "bottom": 242.47,
+        "x0": 311.81,
+        "x1": 448.75,
+        "column": 1
+      },
+      {
+        "text": "Assinale a alternativa CORRETA que",
+        "top": 257.42,
+        "bottom": 268.42,
+        "x0": 311.81,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "identifique o fator climático que explique",
+        "top": 270.37,
+        "bottom": 281.33,
+        "x0": 311.81,
+        "x1": 538.59,
+        "column": 1
+      },
+      {
+        "text": "corretamente as diferenças de temperatura",
+        "top": 283.32,
+        "bottom": 294.28,
+        "x0": 311.81,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "entre as cidades visitadas.",
+        "top": 296.27,
+        "bottom": 307.23,
+        "x0": 311.81,
+        "x1": 440.78,
+        "column": 1
+      },
+      {
+        "text": "(A) Correntes marítimas, pois as águas do",
+        "top": 318.19,
+        "bottom": 329.15,
+        "x0": 313.03,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "Atlântico Sul são mais frias próximas à",
+        "top": 331.14,
+        "bottom": 342.1,
+        "x0": 333.09,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "cidade A.",
+        "top": 344.09,
+        "bottom": 355.05,
+        "x0": 333.09,
+        "x1": 378.78,
+        "column": 1
+      },
+      {
+        "text": "(B) Maritimidade e Continentalidade, pois",
+        "top": 366.01,
+        "bottom": 376.97,
+        "x0": 313.03,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "regulam o armazenamento e a liberação",
+        "top": 378.96,
+        "bottom": 389.92,
+        "x0": 333.09,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "de calor.",
+        "top": 391.91,
+        "bottom": 402.87,
+        "x0": 333.09,
+        "x1": 374.57,
+        "column": 1
+      },
+      {
+        "text": "(C) Vegetação, pois interfere nas dinâmicas",
+        "top": 413.83,
+        "bottom": 424.79,
+        "x0": 312.43,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "das massas de ar e na regulação da",
+        "top": 426.78,
+        "bottom": 437.74,
+        "x0": 333.09,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "temperatura local.",
+        "top": 439.73,
+        "bottom": 450.69,
+        "x0": 333.09,
+        "x1": 420.57,
+        "column": 1
+      },
+      {
+        "text": "(D) Atuação das massas de ar, pois são",
+        "top": 461.65,
+        "bottom": 472.61,
+        "x0": 312.43,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "responsáveis pela umidade e pela",
+        "top": 474.6,
+        "bottom": 485.56,
+        "x0": 333.09,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "variação térmica.",
+        "top": 487.55,
+        "bottom": 498.51,
+        "x0": 333.09,
+        "x1": 416.68,
+        "column": 1
+      },
+      {
+        "text": "(E) Latitude, pois determina a incidência solar",
+        "top": 509.47,
+        "bottom": 520.43,
+        "x0": 313.03,
+        "x1": 538.59,
+        "column": 1
+      },
+      {
+        "text": "e afeta diretamente a distribuição térmica.",
+        "top": 522.42,
+        "bottom": 533.38,
+        "x0": 333.09,
+        "x1": 537.02,
+        "column": 1
+      }
+    ],
+    "images": [],
+    "rects": [
+      {
+        "x0": 56.69,
+        "x1": 283.46,
+        "top": 63.4,
+        "bottom": 67.65
+      },
+      {
+        "x0": 311.81,
+        "x1": 538.58,
+        "top": 102.39,
+        "bottom": 106.64
+      }
+    ],
+    "curves": []
+  },
+  {
+    "page": 8,
+    "width": 595.276,
+    "height": 841.89,
+    "lines": [
+      {
+        "text": "QUESTÃO 7.",
+        "top": 65,
+        "bottom": 70.79,
+        "x0": 56.69,
+        "x1": 125.65,
+        "column": 0
+      },
+      {
+        "text": "Observe a imagem a seguir.",
+        "top": 73.98,
+        "bottom": 84.94,
+        "x0": 56.69,
+        "x1": 193.84,
+        "column": 0
+      },
+      {
+        "text": "Disponível em: https://encr.pw/4BoRq. Acesso em: 09 jun.",
+        "top": 246.15,
+        "bottom": 254.12,
+        "x0": 76.95,
+        "x1": 283.47,
+        "column": 0
+      },
+      {
+        "text": "2025.",
+        "top": 255.61,
+        "bottom": 263.58,
+        "x0": 263.52,
+        "x1": 283.47,
+        "column": 0
+      },
+      {
+        "text": "A classificação do relevo brasileiro, proposta",
+        "top": 278.22,
+        "bottom": 289.18,
+        "x0": 56.69,
+        "x1": 283.46,
+        "column": 0
+      },
+      {
+        "text": "pelo geógrafo Jurandir Ross, apresenta 28",
+        "top": 291.17,
+        "bottom": 302.13,
+        "x0": 56.69,
+        "x1": 283.47,
+        "column": 0
+      },
+      {
+        "text": "unidades geomorfológicas.",
+        "top": 304.12,
+        "bottom": 315.08,
+        "x0": 56.69,
+        "x1": 187.16,
+        "column": 0
+      },
+      {
+        "text": "Considerando a imagem acima, da Serra",
+        "top": 330.03,
+        "bottom": 340.98,
+        "x0": 56.69,
+        "x1": 283.47,
+        "column": 0
+      },
+      {
+        "text": "da Canastra, localizada em Minas Gerais,",
+        "top": 342.98,
+        "bottom": 353.94,
+        "x0": 56.69,
+        "x1": 283.47,
+        "column": 0
+      },
+      {
+        "text": "marque a alternativa CORRETA quanto a",
+        "top": 355.93,
+        "bottom": 366.93,
+        "x0": 56.69,
+        "x1": 283.47,
+        "column": 0
+      },
+      {
+        "text": "sua respectiva unidade do relevo e suas",
+        "top": 368.88,
+        "bottom": 379.84,
+        "x0": 56.69,
+        "x1": 283.47,
+        "column": 0
+      },
+      {
+        "text": "características.",
+        "top": 381.83,
+        "bottom": 392.79,
+        "x0": 56.69,
+        "x1": 130.11,
+        "column": 0
+      },
+      {
+        "text": "(A) Os Planaltos e Serras de Goiás-Minas",
+        "top": 403.79,
+        "bottom": 414.75,
+        "x0": 57.91,
+        "x1": 283.47,
+        "column": 0
+      },
+      {
+        "text": "são caracterizados por terrenos",
+        "top": 416.74,
+        "bottom": 427.7,
+        "x0": 77.97,
+        "x1": 283.46,
+        "column": 0
+      },
+      {
+        "text": "predominantemente cristalinos, de",
+        "top": 429.7,
+        "bottom": 440.65,
+        "x0": 77.97,
+        "x1": 283.46,
+        "column": 0
+      },
+      {
+        "text": "formação antiga, que se configuram como",
+        "top": 442.65,
+        "bottom": 453.61,
+        "x0": 77.97,
+        "x1": 283.46,
+        "column": 0
+      },
+      {
+        "text": "serras residuais.",
+        "top": 455.6,
+        "bottom": 466.56,
+        "x0": 77.97,
+        "x1": 158.08,
+        "column": 0
+      },
+      {
+        "text": "(B) A Depressão Sertaneja e do São",
+        "top": 477.56,
+        "bottom": 488.52,
+        "x0": 57.91,
+        "x1": 283.46,
+        "column": 0
+      },
+      {
+        "text": "Francisco apresenta uma extensa",
+        "top": 490.51,
+        "bottom": 501.47,
+        "x0": 77.97,
+        "x1": 283.46,
+        "column": 0
+      },
+      {
+        "text": "área rebaixada e predominantemente",
+        "top": 503.46,
+        "bottom": 514.42,
+        "x0": 77.97,
+        "x1": 283.46,
+        "column": 0
+      },
+      {
+        "text": "aplanada, com inúmeros trechos",
+        "top": 516.41,
+        "bottom": 527.37,
+        "x0": 77.97,
+        "x1": 283.46,
+        "column": 0
+      },
+      {
+        "text": "com ocorrência de relevos residuais",
+        "top": 529.37,
+        "bottom": 540.33,
+        "x0": 77.97,
+        "x1": 283.47,
+        "column": 0
+      },
+      {
+        "text": "constituindo inselbergs.",
+        "top": 542.32,
+        "bottom": 553.28,
+        "x0": 77.97,
+        "x1": 192.32,
+        "column": 0
+      },
+      {
+        "text": "(C) Os Planaltos e Chapadas da Bacia do",
+        "top": 564.28,
+        "bottom": 575.24,
+        "x0": 57.31,
+        "x1": 283.47,
+        "column": 0
+      },
+      {
+        "text": "Parnaíba apresentam topos planos e",
+        "top": 577.23,
+        "bottom": 588.19,
+        "x0": 77.97,
+        "x1": 283.46,
+        "column": 0
+      },
+      {
+        "text": "amplos, sustentados pelos sedimentos",
+        "top": 590.18,
+        "bottom": 601.14,
+        "x0": 77.97,
+        "x1": 283.46,
+        "column": 0
+      },
+      {
+        "text": "do Cretáceo, enquanto as escarpas",
+        "top": 603.13,
+        "bottom": 614.09,
+        "x0": 77.97,
+        "x1": 283.46,
+        "column": 0
+      },
+      {
+        "text": "normalmente se associam aos sedimentos",
+        "top": 616.09,
+        "bottom": 627.04,
+        "x0": 77.97,
+        "x1": 283.46,
+        "column": 0
+      },
+      {
+        "text": "do Paleozóico.",
+        "top": 629.04,
+        "bottom": 640.0,
+        "x0": 77.97,
+        "x1": 148.97,
+        "column": 0
+      },
+      {
+        "text": "(D) Os Planaltos e Chapadas da Bacia do",
+        "top": 651.0,
+        "bottom": 661.96,
+        "x0": 57.31,
+        "x1": 283.47,
+        "column": 0
+      },
+      {
+        "text": "Paraná englobam relevos caracterizados",
+        "top": 663.95,
+        "bottom": 674.91,
+        "x0": 77.97,
+        "x1": 283.46,
+        "column": 0
+      },
+      {
+        "text": "por colinas amplas com topos convexos.",
+        "top": 676.9,
+        "bottom": 687.86,
+        "x0": 77.97,
+        "x1": 283.46,
+        "column": 0
+      },
+      {
+        "text": "O contato com as unidades circundantes",
+        "top": 689.85,
+        "bottom": 700.81,
+        "x0": 77.97,
+        "x1": 283.46,
+        "column": 0
+      },
+      {
+        "text": "é feito através de escarpas conhecidas",
+        "top": 702.8,
+        "bottom": 713.76,
+        "x0": 77.97,
+        "x1": 283.46,
+        "column": 0
+      },
+      {
+        "text": "como frentes de cuestas.",
+        "top": 715.76,
+        "bottom": 726.72,
+        "x0": 77.97,
+        "x1": 200.24,
+        "column": 0
+      },
+      {
+        "text": "(E) A Depressão da Borda Leste da Bacia do",
+        "top": 737.72,
+        "bottom": 748.68,
+        "x0": 57.91,
+        "x1": 283.47,
+        "column": 0
+      },
+      {
+        "text": "Paraná está praticamente esculpida nos",
+        "top": 750.67,
+        "bottom": 761.63,
+        "x0": 77.97,
+        "x1": 283.47,
+        "column": 0
+      },
+      {
+        "text": "sedimentos Paleomesozóicos. Apresenta",
+        "top": 763.62,
+        "bottom": 774.58,
+        "x0": 77.97,
+        "x1": 283.46,
+        "column": 0
+      },
+      {
+        "text": "modelos diversos em função da influência",
+        "top": 776.57,
+        "bottom": 787.53,
+        "x0": 77.97,
+        "x1": 283.46,
+        "column": 0
+      },
+      {
+        "text": "tectônica, variação litológica e diferentes",
+        "top": 65,
+        "bottom": 69.99,
+        "x0": 333.09,
+        "x1": 538.59,
+        "column": 1
+      },
+      {
+        "text": "processos erosivos.",
+        "top": 71.98,
+        "bottom": 82.94,
+        "x0": 333.09,
+        "x1": 429.48,
+        "column": 1
+      },
+      {
+        "text": "QUESTÃO 8.",
+        "top": 116.41,
+        "bottom": 127.37,
+        "x0": 311.81,
+        "x1": 380.76,
+        "column": 1
+      },
+      {
+        "text": "O Cerrado, com sua rica biodiversidade e papel",
+        "top": 130.56,
+        "bottom": 141.52,
+        "x0": 311.81,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "crucial no ciclo hidrológico, está sujeito a uma",
+        "top": 143.51,
+        "bottom": 154.47,
+        "x0": 311.81,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "série de processos naturais, mas também a",
+        "top": 156.46,
+        "bottom": 167.42,
+        "x0": 311.81,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "significativas ameaças e desequilíbrios devido",
+        "top": 169.41,
+        "bottom": 180.37,
+        "x0": 311.81,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "à ação humana e ao ritmo acelerado das",
+        "top": 182.37,
+        "bottom": 193.32,
+        "x0": 311.81,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "mudanças climáticas. A intensificação de",
+        "top": 195.32,
+        "bottom": 206.28,
+        "x0": 311.81,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "eventos extremos, como secas prolongadas",
+        "top": 208.27,
+        "bottom": 219.23,
+        "x0": 311.81,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "e incêndios recorrentes, agrava ainda",
+        "top": 221.22,
+        "bottom": 232.18,
+        "x0": 311.81,
+        "x1": 538.59,
+        "column": 1
+      },
+      {
+        "text": "mais a fragilidade dos ecossistemas locais,",
+        "top": 234.17,
+        "bottom": 245.13,
+        "x0": 311.81,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "reduzindo a resiliência da vegetação nativa e",
+        "top": 247.12,
+        "bottom": 258.08,
+        "x0": 311.81,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "comprometendo a sobrevivência de espécies",
+        "top": 260.07,
+        "bottom": 271.03,
+        "x0": 311.81,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "endêmicas.",
+        "top": 273.03,
+        "bottom": 283.98,
+        "x0": 311.81,
+        "x1": 367.68,
+        "column": 1
+      },
+      {
+        "text": "Assinale a alternativa CORRETA sobre",
+        "top": 298.93,
+        "bottom": 309.93,
+        "x0": 311.81,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "os processos naturais e os desequilíbrios",
+        "top": 311.88,
+        "bottom": 322.84,
+        "x0": 311.81,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "ambientais no domínio morfoclimático do",
+        "top": 324.83,
+        "bottom": 335.79,
+        "x0": 311.81,
+        "x1": 538.59,
+        "column": 1
+      },
+      {
+        "text": "Cerrado.",
+        "top": 337.78,
+        "bottom": 348.74,
+        "x0": 311.81,
+        "x1": 353.89,
+        "column": 1
+      },
+      {
+        "text": "(A) Os ciclos hídricos do Cerrado dependem",
+        "top": 362.69,
+        "bottom": 373.65,
+        "x0": 313.03,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "da vegetação, que vem sendo afetada pelo",
+        "top": 375.64,
+        "bottom": 386.6,
+        "x0": 333.09,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "desmatamento.",
+        "top": 388.59,
+        "bottom": 399.55,
+        "x0": 333.09,
+        "x1": 408.18,
+        "column": 1
+      },
+      {
+        "text": "(B) As queimadas de origem humana",
+        "top": 410.51,
+        "bottom": 421.47,
+        "x0": 313.03,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "reduzem os impactos ambientais, pois",
+        "top": 423.46,
+        "bottom": 434.42,
+        "x0": 333.09,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "renovam os nutrientes dos solos.",
+        "top": 436.41,
+        "bottom": 447.37,
+        "x0": 333.09,
+        "x1": 493.34,
+        "column": 1
+      },
+      {
+        "text": "(C) A cobertura vegetal densa reduz a",
+        "top": 458.33,
+        "bottom": 469.29,
+        "x0": 312.43,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "interceptação da chuva, aumentando o",
+        "top": 471.28,
+        "bottom": 482.24,
+        "x0": 333.09,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "escoamento superficial para os rios.",
+        "top": 484.23,
+        "bottom": 495.19,
+        "x0": 333.09,
+        "x1": 508.39,
+        "column": 1
+      },
+      {
+        "text": "(D) A fertilidade natural do solo do cerrado é",
+        "top": 506.15,
+        "bottom": 517.11,
+        "x0": 312.43,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "elevada, o que favorece a recuperação da",
+        "top": 519.1,
+        "bottom": 530.06,
+        "x0": 333.09,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "vegetação após o desmatamento.",
+        "top": 532.05,
+        "bottom": 543.01,
+        "x0": 333.09,
+        "x1": 497.46,
+        "column": 1
+      },
+      {
+        "text": "(E) As chuvas são abundantes o ano inteiro",
+        "top": 553.97,
+        "bottom": 564.93,
+        "x0": 313.03,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "e a cobertura vegetal não interfere nos",
+        "top": 566.92,
+        "bottom": 577.88,
+        "x0": 333.09,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "fluxos de água subterrânea e superficial.",
+        "top": 579.87,
+        "bottom": 590.83,
+        "x0": 333.09,
+        "x1": 530.45,
+        "column": 1
+      }
+    ],
+    "images": [
+      {
+        "x0": 68.03,
+        "x1": 272.12,
+        "top": 95.06,
+        "bottom": 230.93
+      }
+    ],
+    "rects": [
+      {
+        "x0": 311.81,
+        "x1": 538.58,
+        "top": 105.04,
+        "bottom": 109.3
+      }
+    ],
+    "curves": []
+  },
+  {
+    "page": 9,
+    "width": 595.276,
+    "height": 841.89,
+    "lines": [
+      {
+        "text": "Observe as figuras abaixo para responder",
+        "top": 65,
+        "bottom": 70.03,
+        "x0": 76.68,
+        "x1": 296.05,
+        "column": 0
+      },
+      {
+        "text": "Fonte: Wo",
+        "top": 288.73,
+        "bottom": 296.73,
+        "x0": 264.36,
+        "x1": 297.64,
+        "column": 0
+      },
+      {
+        "text": "Fonte: Nat",
+        "top": 529.42,
+        "bottom": 537.42,
+        "x0": 261.57,
+        "x1": 297.64,
+        "column": 0
+      },
+      {
+        "text": "Fonte: Nat",
+        "top": 770.25,
+        "bottom": 778.26,
+        "x0": 261.57,
+        "x1": 297.64,
+        "column": 0
+      },
+      {
+        "text": "a questão 09.",
+        "top": 65,
+        "bottom": 70.03,
+        "x0": 299.1,
+        "x1": 368.53,
+        "column": 1
+      },
+      {
+        "text": "orld Population Prospects: the 2017 revision, United Nations (UN).",
+        "top": 288.73,
+        "bottom": 296.73,
+        "x0": 297.64,
+        "x1": 538.59,
+        "column": 1
+      },
+      {
+        "text": "tional Accounts Main Aggregates Database, United Nations (UN).",
+        "top": 529.42,
+        "bottom": 537.42,
+        "x0": 297.64,
+        "x1": 538.59,
+        "column": 1
+      },
+      {
+        "text": "tional Accounts Main Aggregates Database, United Nations (UN).",
+        "top": 770.25,
+        "bottom": 778.26,
+        "x0": 297.64,
+        "x1": 538.59,
+        "column": 1
+      }
+    ],
+    "images": [
+      {
+        "x0": 104.88,
+        "x1": 490.4,
+        "top": 75.82,
+        "bottom": 275.11
+      },
+      {
+        "x0": 104.88,
+        "x1": 490.41,
+        "top": 304.62,
+        "bottom": 515.8
+      },
+      {
+        "x0": 104.88,
+        "x1": 490.41,
+        "top": 545.36,
+        "bottom": 756.63
+      }
+    ],
+    "rects": [],
+    "curves": []
+  },
+  {
+    "page": 10,
+    "width": 595.276,
+    "height": 841.89,
+    "lines": [
+      {
+        "text": "QUESTÃO 9.",
+        "top": 74.77,
+        "bottom": 85.73,
+        "x0": 56.69,
+        "x1": 125.65,
+        "column": 0
+      },
+      {
+        "text": "A anamorfose é um tipo particular de",
+        "top": 88.92,
+        "bottom": 99.87,
+        "x0": 56.69,
+        "x1": 283.46,
+        "column": 0
+      },
+      {
+        "text": "“mapa” temático no qual a área do território",
+        "top": 101.87,
+        "bottom": 112.83,
+        "x0": 56.69,
+        "x1": 283.46,
+        "column": 0
+      },
+      {
+        "text": "representado é mostrada em tamanho",
+        "top": 114.82,
+        "bottom": 125.78,
+        "x0": 56.69,
+        "x1": 283.46,
+        "column": 0
+      },
+      {
+        "text": "proporcional à importância de sua participação",
+        "top": 127.77,
+        "bottom": 138.73,
+        "x0": 56.69,
+        "x1": 283.46,
+        "column": 0
+      },
+      {
+        "text": "no fenômeno representado.",
+        "top": 140.72,
+        "bottom": 151.68,
+        "x0": 56.69,
+        "x1": 190.55,
+        "column": 0
+      },
+      {
+        "text": "A análise das anamorfoses indica que",
+        "top": 166.62,
+        "bottom": 177.58,
+        "x0": 56.69,
+        "x1": 241.54,
+        "column": 0
+      },
+      {
+        "text": "(A) os países do Leste Europeu,",
+        "top": 188.54,
+        "bottom": 199.5,
+        "x0": 57.91,
+        "x1": 283.47,
+        "column": 0
+      },
+      {
+        "text": "exclusivamente, concentram os níveis",
+        "top": 201.49,
+        "bottom": 212.45,
+        "x0": 77.97,
+        "x1": 283.46,
+        "column": 0
+      },
+      {
+        "text": "mais elevados de riqueza per capita.",
+        "top": 214.44,
+        "bottom": 225.4,
+        "x0": 77.97,
+        "x1": 256.0,
+        "column": 0
+      },
+      {
+        "text": "(B) há uma relação inversa, em que os países",
+        "top": 236.36,
+        "bottom": 247.32,
+        "x0": 57.91,
+        "x1": 283.46,
+        "column": 0
+      },
+      {
+        "text": "mais populosos são marcados pela maior",
+        "top": 249.31,
+        "bottom": 260.27,
+        "x0": 77.97,
+        "x1": 283.46,
+        "column": 0
+      },
+      {
+        "text": "concentração de pobreza.",
+        "top": 262.27,
+        "bottom": 273.22,
+        "x0": 77.97,
+        "x1": 204.57,
+        "column": 0
+      },
+      {
+        "text": "(C) os países da América do Norte",
+        "top": 284.18,
+        "bottom": 295.14,
+        "x0": 57.31,
+        "x1": 283.46,
+        "column": 0
+      },
+      {
+        "text": "apresentam os maiores indicadores de",
+        "top": 297.13,
+        "bottom": 308.09,
+        "x0": 77.97,
+        "x1": 283.46,
+        "column": 0
+      },
+      {
+        "text": "riqueza per capita dentre os países ricos.",
+        "top": 310.09,
+        "bottom": 321.05,
+        "x0": 77.97,
+        "x1": 278.53,
+        "column": 0
+      },
+      {
+        "text": "(D) Brasil e Austrália são países populosos",
+        "top": 332.0,
+        "bottom": 342.96,
+        "x0": 57.31,
+        "x1": 283.47,
+        "column": 0
+      },
+      {
+        "text": "e com a riqueza muito concentrada em",
+        "top": 344.96,
+        "bottom": 355.91,
+        "x0": 77.97,
+        "x1": 283.46,
+        "column": 0
+      },
+      {
+        "text": "pequenas parcelas da população.",
+        "top": 357.91,
+        "bottom": 368.87,
+        "x0": 77.97,
+        "x1": 242.01,
+        "column": 0
+      },
+      {
+        "text": "(E) a China é um país com PIB elevado,",
+        "top": 379.82,
+        "bottom": 390.78,
+        "x0": 57.91,
+        "x1": 283.46,
+        "column": 0
+      },
+      {
+        "text": "mas seu tamanho populacional implica",
+        "top": 392.78,
+        "bottom": 403.73,
+        "x0": 77.97,
+        "x1": 283.46,
+        "column": 0
+      },
+      {
+        "text": "menores indicadores de riqueza per",
+        "top": 405.73,
+        "bottom": 416.69,
+        "x0": 77.97,
+        "x1": 283.46,
+        "column": 0
+      },
+      {
+        "text": "capita.",
+        "top": 418.68,
+        "bottom": 429.64,
+        "x0": 77.97,
+        "x1": 110.26,
+        "column": 0
+      },
+      {
+        "text": "QUESTÃO 10.",
+        "top": 463.11,
+        "bottom": 474.07,
+        "x0": 56.69,
+        "x1": 131.74,
+        "column": 0
+      },
+      {
+        "text": "Analise o mapa a seguir.",
+        "top": 477.26,
+        "bottom": 488.22,
+        "x0": 56.69,
+        "x1": 176.75,
+        "column": 0
+      },
+      {
+        "text": "Fonte: SIMIELLI, Maria Elena. Geoatlas. São Paulo: Ática,",
+        "top": 724.42,
+        "bottom": 732.42,
+        "x0": 73.59,
+        "x1": 283.47,
+        "column": 0
+      },
+      {
+        "text": "2009.",
+        "top": 737.37,
+        "bottom": 745.34,
+        "x0": 263.52,
+        "x1": 283.47,
+        "column": 0
+      },
+      {
+        "text": "Dentre as primeiras civilizações, a egípcia",
+        "top": 65,
+        "bottom": 69.99,
+        "x0": 311.81,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "se destacava pela estruturação de um forte",
+        "top": 71.98,
+        "bottom": 82.94,
+        "x0": 311.81,
+        "x1": 538.59,
+        "column": 1
+      },
+      {
+        "text": "Estado que centralizava poderio político, cívico,",
+        "top": 84.93,
+        "bottom": 95.89,
+        "x0": 311.81,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "religioso e econômico.",
+        "top": 97.88,
+        "bottom": 108.84,
+        "x0": 311.81,
+        "x1": 420.39,
+        "column": 1
+      },
+      {
+        "text": "Ao avaliar a localização de tal civilização",
+        "top": 123.78,
+        "bottom": 134.74,
+        "x0": 311.81,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "na África, a partir do mapa climático do",
+        "top": 136.74,
+        "bottom": 147.7,
+        "x0": 311.81,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "continente, é notório que seu crescimento",
+        "top": 149.69,
+        "bottom": 160.65,
+        "x0": 311.81,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "esteve fortemente vinculado",
+        "top": 162.64,
+        "bottom": 173.6,
+        "x0": 311.81,
+        "x1": 448.37,
+        "column": 1
+      },
+      {
+        "text": "(A) à localização em clima tropical, com",
+        "top": 184.56,
+        "bottom": 195.52,
+        "x0": 313.03,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "regime de precipitação favorável ao cultivo",
+        "top": 197.51,
+        "bottom": 208.47,
+        "x0": 333.09,
+        "x1": 538.59,
+        "column": 1
+      },
+      {
+        "text": "agrícola.",
+        "top": 210.46,
+        "bottom": 221.42,
+        "x0": 333.09,
+        "x1": 375.01,
+        "column": 1
+      },
+      {
+        "text": "(B) ao câmbio comercial de especiarias com a",
+        "top": 232.38,
+        "bottom": 243.34,
+        "x0": 313.03,
+        "x1": 538.59,
+        "column": 1
+      },
+      {
+        "text": "Ásia, propiciado pelo litoral banhado pelo",
+        "top": 245.33,
+        "bottom": 256.29,
+        "x0": 333.09,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "Oceano Índico.",
+        "top": 258.28,
+        "bottom": 269.24,
+        "x0": 333.09,
+        "x1": 406.36,
+        "column": 1
+      },
+      {
+        "text": "(C) à presença do Rio Nilo, recurso hídrico",
+        "top": 280.2,
+        "bottom": 291.16,
+        "x0": 312.43,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "que propiciava fornecimento de água,",
+        "top": 293.15,
+        "bottom": 304.11,
+        "x0": 333.09,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "cultivo agrícola e transporte.",
+        "top": 306.1,
+        "bottom": 317.06,
+        "x0": 333.09,
+        "x1": 470.53,
+        "column": 1
+      },
+      {
+        "text": "(D) à região central da África, com clima",
+        "top": 328.02,
+        "bottom": 338.98,
+        "x0": 312.43,
+        "x1": 538.59,
+        "column": 1
+      },
+      {
+        "text": "equatorial e abundância de florestas, que",
+        "top": 340.97,
+        "bottom": 351.93,
+        "x0": 333.09,
+        "x1": 538.59,
+        "column": 1
+      },
+      {
+        "text": "favoreciam o extrativismo vegetal.",
+        "top": 353.92,
+        "bottom": 364.88,
+        "x0": 333.09,
+        "x1": 497.21,
+        "column": 1
+      },
+      {
+        "text": "(E) ao posicionamento estratégico entre o",
+        "top": 375.84,
+        "bottom": 386.8,
+        "x0": 313.03,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "Mar Mediterrâneo e o Oceano Atlântico,",
+        "top": 388.79,
+        "bottom": 399.75,
+        "x0": 333.09,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "permitindo relações econômicas com a",
+        "top": 401.74,
+        "bottom": 412.7,
+        "x0": 333.09,
+        "x1": 538.59,
+        "column": 1
+      },
+      {
+        "text": "civilização romana.",
+        "top": 414.69,
+        "bottom": 425.65,
+        "x0": 333.09,
+        "x1": 426.26,
+        "column": 1
+      },
+      {
+        "text": "MATEMÁTICA - Objetivas",
+        "top": 455.51,
+        "bottom": 466.47,
+        "x0": 359.43,
+        "x1": 490.96,
+        "column": 1
+      },
+      {
+        "text": "QUESTÃO 11.",
+        "top": 490.12,
+        "bottom": 501.08,
+        "x0": 311.81,
+        "x1": 386.86,
+        "column": 1
+      },
+      {
+        "text": "Considere a função f : [1,9] → R, definida por",
+        "top": 501.93,
+        "bottom": 515.22,
+        "x0": 311.81,
+        "x1": 535.79,
+        "column": 1
+      },
+      {
+        "text": "(cid:26)",
+        "top": 521.64,
+        "bottom": 532.6,
+        "x0": 365.76,
+        "x1": 373.98,
+        "column": 1
+      },
+      {
+        "text": "6 − x, se 1 ≤ x < 4",
+        "top": 526.02,
+        "bottom": 536.98,
+        "x0": 420.62,
+        "x1": 513.41,
+        "column": 1
+      },
+      {
+        "text": "f(x) =",
+        "top": 532.65,
+        "bottom": 543.61,
+        "x0": 329.81,
+        "x1": 362.71,
+        "column": 1
+      },
+      {
+        "text": "x2 − 12x + 34, se 4 ≤ x ≤ 9",
+        "top": 537.65,
+        "bottom": 549.93,
+        "x0": 379.95,
+        "x1": 513.4,
+        "column": 1
+      },
+      {
+        "text": "Qual é o conjunto imagem da função f?",
+        "top": 582.46,
+        "bottom": 593.63,
+        "x0": 311.81,
+        "x1": 506.59,
+        "column": 1
+      },
+      {
+        "text": "(A) [−2,5]",
+        "top": 604.38,
+        "bottom": 615.55,
+        "x0": 313.03,
+        "x1": 363.53,
+        "column": 1
+      },
+      {
+        "text": "(B) [−2,7]",
+        "top": 626.3,
+        "bottom": 637.46,
+        "x0": 313.03,
+        "x1": 363.53,
+        "column": 1
+      },
+      {
+        "text": "(C) [1,9]",
+        "top": 648.21,
+        "bottom": 659.38,
+        "x0": 312.43,
+        "x1": 355.0,
+        "column": 1
+      },
+      {
+        "text": "(D) [2,5]",
+        "top": 670.13,
+        "bottom": 681.3,
+        "x0": 312.43,
+        "x1": 355.0,
+        "column": 1
+      },
+      {
+        "text": "(E) [5,7]",
+        "top": 692.05,
+        "bottom": 703.22,
+        "x0": 313.03,
+        "x1": 355.0,
+        "column": 1
+      }
+    ],
+    "images": [
+      {
+        "x0": 56.69,
+        "x1": 283.46,
+        "top": 498.28,
+        "bottom": 705.79
+      }
+    ],
+    "rects": [
+      {
+        "x0": 56.69,
+        "x1": 283.46,
+        "top": 63.4,
+        "bottom": 67.65
+      },
+      {
+        "x0": 56.69,
+        "x1": 283.46,
+        "top": 451.74,
+        "bottom": 456.0
+      },
+      {
+        "x0": 311.81,
+        "x1": 538.58,
+        "top": 478.75,
+        "bottom": 483.0
+      }
+    ],
+    "curves": []
+  },
+  {
+    "page": 11,
+    "width": 595.276,
+    "height": 841.89,
+    "lines": [
+      {
+        "text": "QUESTÃO 12.",
+        "top": 74.77,
+        "bottom": 85.73,
+        "x0": 56.69,
+        "x1": 131.74,
+        "column": 0
+      },
+      {
+        "text": "No plano cartesiano abaixo estão",
+        "top": 88.92,
+        "bottom": 99.87,
+        "x0": 56.69,
+        "x1": 283.46,
+        "column": 0
+      },
+      {
+        "text": "representados os gráficos das funções f e g,",
+        "top": 101.66,
+        "bottom": 112.83,
+        "x0": 56.69,
+        "x1": 283.47,
+        "column": 0
+      },
+      {
+        "text": "de R em R, sendo f uma função polinomial de",
+        "top": 112.48,
+        "bottom": 125.78,
+        "x0": 56.69,
+        "x1": 283.47,
+        "column": 0
+      },
+      {
+        "text": "1º grau e g(x) = x2 − 5x a expressão algébrica",
+        "top": 126.23,
+        "bottom": 138.73,
+        "x0": 56.69,
+        "x1": 283.47,
+        "column": 0
+      },
+      {
+        "text": "da função g.",
+        "top": 140.51,
+        "bottom": 151.68,
+        "x0": 56.69,
+        "x1": 116.54,
+        "column": 0
+      },
+      {
+        "text": "O conjunto dos valores reais de x para os quais",
+        "top": 373.84,
+        "bottom": 385.0,
+        "x0": 56.69,
+        "x1": 283.46,
+        "column": 0
+      },
+      {
+        "text": "f(x) < g(x) é",
+        "top": 386.79,
+        "bottom": 397.95,
+        "x0": 56.69,
+        "x1": 128.28,
+        "column": 0
+      },
+      {
+        "text": "(A) {x ∈ R | x < −2 ou x > 5}.",
+        "top": 409.57,
+        "bottom": 422.86,
+        "x0": 57.91,
+        "x1": 207.59,
+        "column": 0
+      },
+      {
+        "text": "(B) {x ∈ R | x < −1 ou x > 5}.",
+        "top": 431.48,
+        "bottom": 444.78,
+        "x0": 57.91,
+        "x1": 207.59,
+        "column": 0
+      },
+      {
+        "text": "(C) {x ∈ R | x < 0 ou x > 5}.",
+        "top": 453.4,
+        "bottom": 466.7,
+        "x0": 57.31,
+        "x1": 199.07,
+        "column": 0
+      },
+      {
+        "text": "(D) {x ∈ R | − 2 < x < 5}.",
+        "top": 475.32,
+        "bottom": 488.61,
+        "x0": 57.31,
+        "x1": 188.53,
+        "column": 0
+      },
+      {
+        "text": "(E) {x ∈ R | − 1 < x < 5}.",
+        "top": 497.24,
+        "bottom": 510.53,
+        "x0": 57.91,
+        "x1": 188.53,
+        "column": 0
+      },
+      {
+        "text": "QUESTÃO 13.",
+        "top": 74.77,
+        "bottom": 85.73,
+        "x0": 311.81,
+        "x1": 386.86,
+        "column": 1
+      },
+      {
+        "text": "O gráfico abaixo representa o decrescimento",
+        "top": 88.92,
+        "bottom": 99.87,
+        "x0": 311.81,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "exponencial da massa de um radioisótopo",
+        "top": 101.87,
+        "bottom": 112.83,
+        "x0": 311.81,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "utilizado no tratamento de um paciente, a partir",
+        "top": 114.82,
+        "bottom": 125.78,
+        "x0": 311.81,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "de 6 horas da administração do medicamento.",
+        "top": 127.77,
+        "bottom": 138.73,
+        "x0": 311.81,
+        "x1": 536.52,
+        "column": 1
+      },
+      {
+        "text": "Qual foi a massa, em miligrama, desse",
+        "top": 323.38,
+        "bottom": 334.34,
+        "x0": 311.81,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "radioisótopo administrado nesse paciente?",
+        "top": 336.33,
+        "bottom": 347.29,
+        "x0": 311.81,
+        "x1": 519.91,
+        "column": 1
+      },
+      {
+        "text": "(A) 4",
+        "top": 358.25,
+        "bottom": 369.21,
+        "x0": 313.03,
+        "x1": 339.19,
+        "column": 1
+      },
+      {
+        "text": "(B) 6",
+        "top": 380.17,
+        "bottom": 391.13,
+        "x0": 313.03,
+        "x1": 339.19,
+        "column": 1
+      },
+      {
+        "text": "(C) 7",
+        "top": 402.09,
+        "bottom": 413.05,
+        "x0": 312.43,
+        "x1": 339.19,
+        "column": 1
+      },
+      {
+        "text": "(D) 8",
+        "top": 424.0,
+        "bottom": 434.96,
+        "x0": 312.43,
+        "x1": 339.19,
+        "column": 1
+      },
+      {
+        "text": "(E) 16",
+        "top": 445.92,
+        "bottom": 456.88,
+        "x0": 313.03,
+        "x1": 345.28,
+        "column": 1
+      }
+    ],
+    "images": [
+      {
+        "x0": 113.39,
+        "x1": 226.77,
+        "top": 161.75,
+        "bottom": 360.75
+      },
+      {
+        "x0": 323.15,
+        "x1": 527.23,
+        "top": 151.79,
+        "bottom": 307.1
+      }
+    ],
+    "rects": [
+      {
+        "x0": 56.69,
+        "x1": 283.46,
+        "top": 63.4,
+        "bottom": 67.65
+      },
+      {
+        "x0": 311.81,
+        "x1": 538.58,
+        "top": 63.4,
+        "bottom": 67.65
+      }
+    ],
+    "curves": []
+  },
+  {
+    "page": 12,
+    "width": 595.276,
+    "height": 841.89,
+    "lines": [
+      {
+        "text": "QUESTÃO 14.",
+        "top": 77.98,
+        "bottom": 88.94,
+        "x0": 56.69,
+        "x1": 131.74,
+        "column": 0
+      },
+      {
+        "text": "Considere a função f : R → R definida por",
+        "top": 92.99,
+        "bottom": 106.29,
+        "x0": 56.69,
+        "x1": 263.63,
+        "column": 0
+      },
+      {
+        "text": "f(x) = −1x2 + 3x + 4",
+        "top": 131.41,
+        "bottom": 144.03,
+        "x0": 116.69,
+        "x1": 223.46,
+        "column": 0
+      },
+      {
+        "text": "4 2",
+        "top": 139.5,
+        "bottom": 147.17,
+        "x0": 162.36,
+        "x1": 197.13,
+        "column": 0
+      },
+      {
+        "text": "O plano cartesiano que contém a melhor",
+        "top": 168.02,
+        "bottom": 178.98,
+        "x0": 56.69,
+        "x1": 283.46,
+        "column": 0
+      },
+      {
+        "text": "representação de parte do gráfico da função f",
+        "top": 180.77,
+        "bottom": 191.94,
+        "x0": 56.69,
+        "x1": 282.29,
+        "column": 0
+      },
+      {
+        "text": "é",
+        "top": 193.93,
+        "bottom": 204.89,
+        "x0": 56.69,
+        "x1": 62.79,
+        "column": 0
+      },
+      {
+        "text": "(A)",
+        "top": 257.86,
+        "bottom": 268.82,
+        "x0": 73.63,
+        "x1": 88.24,
+        "column": 0
+      },
+      {
+        "text": "(B)",
+        "top": 375.45,
+        "bottom": 386.41,
+        "x0": 73.63,
+        "x1": 88.24,
+        "column": 0
+      },
+      {
+        "text": "(C)",
+        "top": 493.08,
+        "bottom": 504.04,
+        "x0": 73.63,
+        "x1": 88.84,
+        "column": 0
+      },
+      {
+        "text": "(D)",
+        "top": 610.63,
+        "bottom": 621.59,
+        "x0": 73.63,
+        "x1": 88.84,
+        "column": 0
+      },
+      {
+        "text": "(E)",
+        "top": 728.22,
+        "bottom": 739.18,
+        "x0": 73.63,
+        "x1": 88.24,
+        "column": 0
+      },
+      {
+        "text": "QUESTÃO 15.",
+        "top": 74.77,
+        "bottom": 85.73,
+        "x0": 311.81,
+        "x1": 386.86,
+        "column": 1
+      },
+      {
+        "text": "Conforme publicado nos Atos do Governo do",
+        "top": 88.92,
+        "bottom": 99.87,
+        "x0": 311.81,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "Poder Executivo pelo Diário Oficial Eletrônico",
+        "top": 101.87,
+        "bottom": 112.83,
+        "x0": 311.81,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "de Juiz de Fora, no dia 24 de janeiro de 2025,",
+        "top": 114.82,
+        "bottom": 125.78,
+        "x0": 311.81,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "o decreto nº 17.025 delimita o Centro Histórico",
+        "top": 127.77,
+        "bottom": 138.73,
+        "x0": 311.81,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "do município.",
+        "top": 140.72,
+        "bottom": 151.68,
+        "x0": 311.81,
+        "x1": 376.43,
+        "column": 1
+      },
+      {
+        "text": "Disponível em: https://pjf.mg.gov.br/e atos/anexos/anexo",
+        "top": 470.59,
+        "bottom": 478.56,
+        "x0": 335.53,
+        "x1": 535.71,
+        "column": 1
+      },
+      {
+        "text": "centro 175327.pdf. Acesso em: 23 jun. 2025 (adaptado).",
+        "top": 483.54,
+        "bottom": 491.51,
+        "x0": 337.22,
+        "x1": 538.59,
+        "column": 1
+      },
+      {
+        "text": "Um estudante, interessado em dimensionar a",
+        "top": 506.1,
+        "bottom": 517.06,
+        "x0": 311.81,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "medida da área do Centro Histórico, elaborou",
+        "top": 519.05,
+        "bottom": 530.01,
+        "x0": 311.81,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "um esquema simplificado sobre o mapa",
+        "top": 532.0,
+        "bottom": 542.96,
+        "x0": 311.81,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "disponível no anexo do decreto, utilizando um",
+        "top": 544.95,
+        "bottom": 555.91,
+        "x0": 311.81,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "trapézio retângulo cujos três maiores lados",
+        "top": 557.91,
+        "bottom": 568.86,
+        "x0": 311.81,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "representam as principais vias que delimitam",
+        "top": 570.86,
+        "bottom": 581.82,
+        "x0": 311.81,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "essa área.",
+        "top": 583.81,
+        "bottom": 594.77,
+        "x0": 311.81,
+        "x1": 362.98,
+        "column": 1
+      },
+      {
+        "text": "Qual é a medida, em metro quadrado, da área",
+        "top": 609.71,
+        "bottom": 620.67,
+        "x0": 311.81,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "do Centro Histórico obtida pelo esquema desse",
+        "top": 622.66,
+        "bottom": 633.62,
+        "x0": 311.81,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "estudante?",
+        "top": 635.61,
+        "bottom": 646.57,
+        "x0": 311.81,
+        "x1": 366.04,
+        "column": 1
+      },
+      {
+        "text": "(A) 4 000",
+        "top": 657.53,
+        "bottom": 668.49,
+        "x0": 313.03,
+        "x1": 360.51,
+        "column": 1
+      },
+      {
+        "text": "(B) 390 000",
+        "top": 679.45,
+        "bottom": 690.41,
+        "x0": 313.03,
+        "x1": 372.7,
+        "column": 1
+      },
+      {
+        "text": "(C) 780 000",
+        "top": 701.37,
+        "bottom": 712.33,
+        "x0": 312.43,
+        "x1": 372.7,
+        "column": 1
+      },
+      {
+        "text": "(D) 1 560 000",
+        "top": 723.29,
+        "bottom": 734.24,
+        "x0": 312.43,
+        "x1": 381.84,
+        "column": 1
+      },
+      {
+        "text": "(E) 1 650 000",
+        "top": 745.2,
+        "bottom": 756.16,
+        "x0": 313.03,
+        "x1": 381.84,
+        "column": 1
+      }
+    ],
+    "images": [
+      {
+        "x0": 114.47,
+        "x1": 275.55,
+        "top": 206.94,
+        "bottom": 320.32
+      },
+      {
+        "x0": 114.68,
+        "x1": 275.34,
+        "top": 324.52,
+        "bottom": 437.91
+      },
+      {
+        "x0": 114.47,
+        "x1": 275.55,
+        "top": 442.11,
+        "bottom": 555.5
+      },
+      {
+        "x0": 115.09,
+        "x1": 274.92,
+        "top": 559.7,
+        "bottom": 673.09
+      },
+      {
+        "x0": 114.26,
+        "x1": 275.76,
+        "top": 677.29,
+        "bottom": 790.68
+      },
+      {
+        "x0": 323.15,
+        "x1": 527.24,
+        "top": 161.59,
+        "bottom": 451.96
+      }
+    ],
+    "rects": [
+      {
+        "x0": 56.69,
+        "x1": 283.46,
+        "top": 63.4,
+        "bottom": 67.65
+      },
+      {
+        "x0": 311.81,
+        "x1": 538.58,
+        "top": 63.4,
+        "bottom": 67.65
+      }
+    ],
+    "curves": []
+  },
+  {
+    "page": 13,
+    "width": 595.276,
+    "height": 841.89,
+    "lines": [
+      {
+        "text": "QUÍMICA - Objetivas",
+        "top": 81.26,
+        "bottom": 92.22,
+        "x0": 116.96,
+        "x1": 223.2,
+        "column": 0
+      },
+      {
+        "text": "A tabela periódica se encontra ao final da",
+        "top": 115.83,
+        "bottom": 126.79,
+        "x0": 63.91,
+        "x1": 276.25,
+        "column": 0
+      },
+      {
+        "text": "prova",
+        "top": 128.78,
+        "bottom": 139.74,
+        "x0": 63.91,
+        "x1": 90.88,
+        "column": 0
+      },
+      {
+        "text": "QUESTÃO 16.",
+        "top": 167.57,
+        "bottom": 178.53,
+        "x0": 56.69,
+        "x1": 131.74,
+        "column": 0
+      },
+      {
+        "text": "Durante uma atividade experimental, os",
+        "top": 181.72,
+        "bottom": 192.68,
+        "x0": 56.69,
+        "x1": 283.47,
+        "column": 0
+      },
+      {
+        "text": "estudantes realizaram a reação química entre",
+        "top": 194.67,
+        "bottom": 205.63,
+        "x0": 56.69,
+        "x1": 283.46,
+        "column": 0
+      },
+      {
+        "text": "vinagre (ácido acético) e bicarbonato de",
+        "top": 207.62,
+        "bottom": 218.58,
+        "x0": 56.69,
+        "x1": 283.46,
+        "column": 0
+      },
+      {
+        "text": "sódio em um sistema fechado. O sistema",
+        "top": 220.57,
+        "bottom": 231.53,
+        "x0": 56.69,
+        "x1": 283.47,
+        "column": 0
+      },
+      {
+        "text": "reacional foi pesado antes e depois da reação.",
+        "top": 233.52,
+        "bottom": 244.48,
+        "x0": 56.69,
+        "x1": 283.46,
+        "column": 0
+      },
+      {
+        "text": "Após o experimento foram feitas as seguintes",
+        "top": 246.48,
+        "bottom": 257.43,
+        "x0": 56.69,
+        "x1": 283.47,
+        "column": 0
+      },
+      {
+        "text": "observações:",
+        "top": 259.43,
+        "bottom": 270.39,
+        "x0": 56.69,
+        "x1": 121.92,
+        "column": 0
+      },
+      {
+        "text": "1) houve efervescência (liberação de gás);",
+        "top": 285.33,
+        "bottom": 296.29,
+        "x0": 56.69,
+        "x1": 263.12,
+        "column": 0
+      },
+      {
+        "text": "2) a massa permaneceu a mesma antes e",
+        "top": 298.28,
+        "bottom": 309.24,
+        "x0": 56.69,
+        "x1": 283.47,
+        "column": 0
+      },
+      {
+        "text": "depois da reação.",
+        "top": 311.23,
+        "bottom": 322.19,
+        "x0": 56.69,
+        "x1": 143.37,
+        "column": 0
+      },
+      {
+        "text": "Com base no modelo atômico de Dalton, a",
+        "top": 337.14,
+        "bottom": 348.09,
+        "x0": 56.69,
+        "x1": 283.47,
+        "column": 0
+      },
+      {
+        "text": "massa se conserva porque",
+        "top": 350.09,
+        "bottom": 361.05,
+        "x0": 56.69,
+        "x1": 188.31,
+        "column": 0
+      },
+      {
+        "text": "(A) as moléculas e íons permanecem",
+        "top": 372.0,
+        "bottom": 382.96,
+        "x0": 57.91,
+        "x1": 283.46,
+        "column": 0
+      },
+      {
+        "text": "inalterados na reação.",
+        "top": 384.96,
+        "bottom": 395.92,
+        "x0": 77.97,
+        "x1": 185.85,
+        "column": 0
+      },
+      {
+        "text": "(B) os átomos desaparecem ao formar novos",
+        "top": 406.87,
+        "bottom": 417.83,
+        "x0": 57.91,
+        "x1": 283.46,
+        "column": 0
+      },
+      {
+        "text": "compostos.",
+        "top": 419.83,
+        "bottom": 430.78,
+        "x0": 77.97,
+        "x1": 133.84,
+        "column": 0
+      },
+      {
+        "text": "(C) os átomos não se transformam e nem se",
+        "top": 441.74,
+        "bottom": 452.7,
+        "x0": 57.31,
+        "x1": 283.46,
+        "column": 0
+      },
+      {
+        "text": "dividem.",
+        "top": 454.69,
+        "bottom": 465.65,
+        "x0": 77.97,
+        "x1": 118.77,
+        "column": 0
+      },
+      {
+        "text": "(D) parte dos átomos se transforma em",
+        "top": 476.61,
+        "bottom": 487.57,
+        "x0": 57.31,
+        "x1": 283.46,
+        "column": 0
+      },
+      {
+        "text": "átomos mais leves.",
+        "top": 489.56,
+        "bottom": 500.52,
+        "x0": 77.97,
+        "x1": 170.99,
+        "column": 0
+      },
+      {
+        "text": "(E) parte dos isótopos mais leves ganham",
+        "top": 511.48,
+        "bottom": 522.44,
+        "x0": 57.91,
+        "x1": 283.47,
+        "column": 0
+      },
+      {
+        "text": "massa.",
+        "top": 524.43,
+        "bottom": 535.39,
+        "x0": 77.97,
+        "x1": 113.29,
+        "column": 0
+      },
+      {
+        "text": "QUESTÃO 17.",
+        "top": 74.77,
+        "bottom": 85.73,
+        "x0": 311.81,
+        "x1": 386.86,
+        "column": 1
+      },
+      {
+        "text": "Durante uma aula prática, os estudantes",
+        "top": 88.92,
+        "bottom": 99.87,
+        "x0": 311.81,
+        "x1": 538.59,
+        "column": 1
+      },
+      {
+        "text": "prepararam soluções de cloreto de sódio e",
+        "top": 101.87,
+        "bottom": 112.83,
+        "x0": 311.81,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "sulfato de cobre.",
+        "top": 114.82,
+        "bottom": 125.78,
+        "x0": 311.81,
+        "x1": 392.34,
+        "column": 1
+      },
+      {
+        "text": "Sobre os íons formados em solução, qual das",
+        "top": 140.72,
+        "bottom": 151.68,
+        "x0": 311.81,
+        "x1": 538.59,
+        "column": 1
+      },
+      {
+        "text": "alternativas apresenta, CORRETAMENTE, a",
+        "top": 153.67,
+        "bottom": 164.68,
+        "x0": 311.81,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "relação entre a carga dos íons e as valências",
+        "top": 166.62,
+        "bottom": 177.58,
+        "x0": 311.81,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "dos elementos que os constituem?",
+        "top": 179.58,
+        "bottom": 190.53,
+        "x0": 311.81,
+        "x1": 481.15,
+        "column": 1
+      },
+      {
+        "text": "(A) O átomo de cloro ganha um elétron e se",
+        "top": 201.49,
+        "bottom": 212.45,
+        "x0": 313.03,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "torna um ânion com valência positiva.",
+        "top": 214.44,
+        "bottom": 225.4,
+        "x0": 333.09,
+        "x1": 516.15,
+        "column": 1
+      },
+      {
+        "text": "(B) O átomo de cobre forma cátion ao perder",
+        "top": 236.36,
+        "bottom": 247.32,
+        "x0": 313.03,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "um ou dois elétrons.",
+        "top": 249.31,
+        "bottom": 260.27,
+        "x0": 333.09,
+        "x1": 431.6,
+        "column": 1
+      },
+      {
+        "text": "(C) O átomo de enxofre ganha elétrons e",
+        "top": 271.23,
+        "bottom": 282.19,
+        "x0": 312.43,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "sempre forma cátions bivalentes.",
+        "top": 284.18,
+        "bottom": 295.14,
+        "x0": 333.09,
+        "x1": 493.39,
+        "column": 1
+      },
+      {
+        "text": "(D) O átomo de sódio ganha um elétron e",
+        "top": 306.1,
+        "bottom": 317.06,
+        "x0": 312.43,
+        "x1": 538.59,
+        "column": 1
+      },
+      {
+        "text": "forma um cátion com valência positiva.",
+        "top": 319.05,
+        "bottom": 330.01,
+        "x0": 333.09,
+        "x1": 521.29,
+        "column": 1
+      },
+      {
+        "text": "(E) O átomo de sódio perde um elétron e",
+        "top": 340.97,
+        "bottom": 351.93,
+        "x0": 313.03,
+        "x1": 538.59,
+        "column": 1
+      },
+      {
+        "text": "forma um cátion com valência negativa.",
+        "top": 353.92,
+        "bottom": 364.88,
+        "x0": 333.09,
+        "x1": 525.56,
+        "column": 1
+      },
+      {
+        "text": "QUESTÃO 18.",
+        "top": 398.36,
+        "bottom": 409.32,
+        "x0": 311.81,
+        "x1": 386.86,
+        "column": 1
+      },
+      {
+        "text": "Os compostos inorgânicos estão presentes em",
+        "top": 412.5,
+        "bottom": 423.46,
+        "x0": 311.81,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "praticamente todas as áreas da vida cotidiana",
+        "top": 425.45,
+        "bottom": 436.41,
+        "x0": 311.81,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "e da indústria. Entre eles estão os ácidos, as",
+        "top": 438.4,
+        "bottom": 449.36,
+        "x0": 311.81,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "bases, os sais, os óxidos, os metais e as ligas",
+        "top": 451.36,
+        "bottom": 462.32,
+        "x0": 311.81,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "metálicas.",
+        "top": 464.31,
+        "bottom": 475.27,
+        "x0": 311.81,
+        "x1": 360.97,
+        "column": 1
+      },
+      {
+        "text": "Sobre essas substâncias, assinale a",
+        "top": 490.21,
+        "bottom": 501.17,
+        "x0": 311.81,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "alternativa CORRETA.",
+        "top": 503.16,
+        "bottom": 514.17,
+        "x0": 311.81,
+        "x1": 421.65,
+        "column": 1
+      },
+      {
+        "text": "(A) A amônia (NH ) é um ácido de Arrhenius",
+        "top": 524.87,
+        "bottom": 536.04,
+        "x0": 313.03,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "3",
+        "top": 529.17,
+        "bottom": 536.84,
+        "x0": 406.14,
+        "x1": 410.22,
+        "column": 1
+      },
+      {
+        "text": "e, por isso, libera íons H+ em solução",
+        "top": 536.5,
+        "bottom": 548.99,
+        "x0": 333.09,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "aquosa, sendo usada em produtos de",
+        "top": 550.98,
+        "bottom": 561.94,
+        "x0": 333.09,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "limpeza.",
+        "top": 563.93,
+        "bottom": 574.89,
+        "x0": 333.09,
+        "x1": 373.89,
+        "column": 1
+      },
+      {
+        "text": "(B) A soda cáustica (NaOH) é um óxido",
+        "top": 585.64,
+        "bottom": 596.81,
+        "x0": 313.03,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "básico usado na produção de sabões.",
+        "top": 598.8,
+        "bottom": 609.76,
+        "x0": 333.09,
+        "x1": 518.12,
+        "column": 1
+      },
+      {
+        "text": "(C) O ácido sulfúrico (H SO ), um sal formado",
+        "top": 620.51,
+        "bottom": 631.68,
+        "x0": 312.43,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "2 4",
+        "top": 624.81,
+        "bottom": 632.48,
+        "x0": 429.56,
+        "x1": 453.92,
+        "column": 1
+      },
+      {
+        "text": "por íons metálicos, é amplamente utilizado",
+        "top": 633.67,
+        "bottom": 644.63,
+        "x0": 333.09,
+        "x1": 538.59,
+        "column": 1
+      },
+      {
+        "text": "em baterias de carros.",
+        "top": 646.62,
+        "bottom": 657.58,
+        "x0": 333.09,
+        "x1": 442.11,
+        "column": 1
+      },
+      {
+        "text": "(D) O aço inox é uma liga metálica que contém",
+        "top": 668.54,
+        "bottom": 679.5,
+        "x0": 312.43,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "ferro, carbono, níquel e cromo, sendo",
+        "top": 681.49,
+        "bottom": 692.45,
+        "x0": 333.09,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "usado por sua resistência à corrosão.",
+        "top": 694.44,
+        "bottom": 705.4,
+        "x0": 333.09,
+        "x1": 515.38,
+        "column": 1
+      },
+      {
+        "text": "(E) O dióxido de carbono (CO ) é um sal",
+        "top": 716.15,
+        "bottom": 727.32,
+        "x0": 313.03,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "2",
+        "top": 720.45,
+        "bottom": 728.12,
+        "x0": 475.2,
+        "x1": 479.27,
+        "column": 1
+      },
+      {
+        "text": "volátil que participa da fotossíntese.",
+        "top": 729.31,
+        "bottom": 740.27,
+        "x0": 333.09,
+        "x1": 506.97,
+        "column": 1
+      }
+    ],
+    "images": [],
+    "rects": [
+      {
+        "x0": 56.69,
+        "x1": 283.46,
+        "top": 156.2,
+        "bottom": 160.46
+      },
+      {
+        "x0": 311.81,
+        "x1": 538.58,
+        "top": 63.4,
+        "bottom": 67.65
+      },
+      {
+        "x0": 311.81,
+        "x1": 538.58,
+        "top": 386.99,
+        "bottom": 391.24
+      }
+    ],
+    "curves": [
+      {
+        "x0": 56.69,
+        "x1": 283.47,
+        "top": 110.98,
+        "bottom": 144.91
+      },
+      {
+        "x0": 57.09,
+        "x1": 283.07,
+        "top": 111.38,
+        "bottom": 144.51
+      }
+    ]
+  },
+  {
+    "page": 14,
+    "width": 595.276,
+    "height": 841.89,
+    "lines": [
+      {
+        "text": "QUESTÃO 19.",
+        "top": 74.77,
+        "bottom": 85.73,
+        "x0": 56.69,
+        "x1": 131.74,
+        "column": 0
+      },
+      {
+        "text": "Ao longo da história, o modelo atômico foi",
+        "top": 88.92,
+        "bottom": 99.87,
+        "x0": 56.69,
+        "x1": 283.46,
+        "column": 0
+      },
+      {
+        "text": "sendo aperfeiçoado com base em novas",
+        "top": 101.87,
+        "bottom": 112.83,
+        "x0": 56.69,
+        "x1": 283.47,
+        "column": 0
+      },
+      {
+        "text": "descobertas científicas e tecnológicas.",
+        "top": 114.82,
+        "bottom": 125.78,
+        "x0": 56.69,
+        "x1": 244.57,
+        "column": 0
+      },
+      {
+        "text": "Assinale a alternativa que descreve",
+        "top": 140.72,
+        "bottom": 151.68,
+        "x0": 56.69,
+        "x1": 283.47,
+        "column": 0
+      },
+      {
+        "text": "CORRETAMENTE os modelos atômicos",
+        "top": 153.67,
+        "bottom": 164.68,
+        "x0": 56.69,
+        "x1": 283.46,
+        "column": 0
+      },
+      {
+        "text": "propostos por Dalton, Thomson e Rutherford.",
+        "top": 166.62,
+        "bottom": 177.58,
+        "x0": 56.69,
+        "x1": 276.86,
+        "column": 0
+      },
+      {
+        "text": "(A) Dalton considerava o átomo formado por",
+        "top": 188.54,
+        "bottom": 199.5,
+        "x0": 57.91,
+        "x1": 283.47,
+        "column": 0
+      },
+      {
+        "text": "cargas positivas e negativas; Thomson",
+        "top": 201.49,
+        "bottom": 212.45,
+        "x0": 77.97,
+        "x1": 283.46,
+        "column": 0
+      },
+      {
+        "text": "propôs um núcleo denso; Rutherford",
+        "top": 214.44,
+        "bottom": 225.4,
+        "x0": 77.97,
+        "x1": 283.46,
+        "column": 0
+      },
+      {
+        "text": "afirmou que o átomo era indivisível.",
+        "top": 227.4,
+        "bottom": 238.36,
+        "x0": 77.97,
+        "x1": 250.84,
+        "column": 0
+      },
+      {
+        "text": "(B) Dalton descreveu o átomo como",
+        "top": 249.31,
+        "bottom": 260.27,
+        "x0": 57.91,
+        "x1": 283.47,
+        "column": 0
+      },
+      {
+        "text": "indivisível; Thomson propôs os elétrons",
+        "top": 262.27,
+        "bottom": 273.22,
+        "x0": 77.97,
+        "x1": 283.46,
+        "column": 0
+      },
+      {
+        "text": "girando em órbitas; Rutherford imaginou o",
+        "top": 275.22,
+        "bottom": 286.18,
+        "x0": 77.97,
+        "x1": 283.46,
+        "column": 0
+      },
+      {
+        "text": "átomo como uma esfera maciça e neutra.",
+        "top": 288.17,
+        "bottom": 299.13,
+        "x0": 77.97,
+        "x1": 279.64,
+        "column": 0
+      },
+      {
+        "text": "(C) Dalton acreditava que o átomo era",
+        "top": 310.09,
+        "bottom": 321.05,
+        "x0": 57.31,
+        "x1": 283.46,
+        "column": 0
+      },
+      {
+        "text": "indivisível; Thomson sugeriu uma",
+        "top": 323.04,
+        "bottom": 334.0,
+        "x0": 77.97,
+        "x1": 283.46,
+        "column": 0
+      },
+      {
+        "text": "esfera positiva com elétrons incrustados;",
+        "top": 335.99,
+        "bottom": 346.95,
+        "x0": 77.97,
+        "x1": 283.47,
+        "column": 0
+      },
+      {
+        "text": "Rutherford propôs um núcleo positivo",
+        "top": 348.94,
+        "bottom": 359.9,
+        "x0": 77.97,
+        "x1": 283.46,
+        "column": 0
+      },
+      {
+        "text": "cercado por elétrons.",
+        "top": 361.89,
+        "bottom": 372.85,
+        "x0": 77.97,
+        "x1": 180.74,
+        "column": 0
+      },
+      {
+        "text": "(D) Dalton identificou partículas subatômicas;",
+        "top": 383.81,
+        "bottom": 394.77,
+        "x0": 57.31,
+        "x1": 283.47,
+        "column": 0
+      },
+      {
+        "text": "Thomson propôs a existência de um",
+        "top": 396.76,
+        "bottom": 407.72,
+        "x0": 77.97,
+        "x1": 283.46,
+        "column": 0
+      },
+      {
+        "text": "núcleo; Rutherford acreditava que o átomo",
+        "top": 409.71,
+        "bottom": 420.67,
+        "x0": 77.97,
+        "x1": 283.46,
+        "column": 0
+      },
+      {
+        "text": "era uma esfera homogênea.",
+        "top": 422.66,
+        "bottom": 433.62,
+        "x0": 77.97,
+        "x1": 215.09,
+        "column": 0
+      },
+      {
+        "text": "(E) Dalton descobriu o núcleo atômico;",
+        "top": 444.58,
+        "bottom": 455.54,
+        "x0": 57.91,
+        "x1": 283.46,
+        "column": 0
+      },
+      {
+        "text": "Thomson revelou a existência de elétrons;",
+        "top": 457.53,
+        "bottom": 468.49,
+        "x0": 77.97,
+        "x1": 283.47,
+        "column": 0
+      },
+      {
+        "text": "Rutherford propôs que os elétrons",
+        "top": 470.48,
+        "bottom": 481.44,
+        "x0": 77.97,
+        "x1": 283.46,
+        "column": 0
+      },
+      {
+        "text": "orbitavam o núcleo.",
+        "top": 483.44,
+        "bottom": 494.4,
+        "x0": 77.97,
+        "x1": 172.67,
+        "column": 0
+      },
+      {
+        "text": "QUESTÃO 20.",
+        "top": 74.77,
+        "bottom": 85.73,
+        "x0": 311.81,
+        "x1": 386.86,
+        "column": 1
+      },
+      {
+        "text": "Um estudante coloca lado a lado 10,0 gramas",
+        "top": 88.92,
+        "bottom": 99.87,
+        "x0": 311.81,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "de chumbo metálico e 10,0 gramas de",
+        "top": 101.87,
+        "bottom": 112.83,
+        "x0": 311.81,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "alumínio, e observa que o volume da amostra",
+        "top": 114.82,
+        "bottom": 125.78,
+        "x0": 311.81,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "de chumbo é muito menor do que aquela de",
+        "top": 127.77,
+        "bottom": 138.73,
+        "x0": 311.81,
+        "x1": 538.59,
+        "column": 1
+      },
+      {
+        "text": "alumínio.",
+        "top": 140.72,
+        "bottom": 151.68,
+        "x0": 311.81,
+        "x1": 355.83,
+        "column": 1
+      },
+      {
+        "text": "Sabendo que a massa de um átomo está",
+        "top": 166.62,
+        "bottom": 177.58,
+        "x0": 311.81,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "praticamente toda concentrada no seu núcleo,",
+        "top": 179.58,
+        "bottom": 190.53,
+        "x0": 311.81,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "ao correlacionar as massas de chumbo e",
+        "top": 192.53,
+        "bottom": 203.49,
+        "x0": 311.81,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "alumínio metálicos, conclui-se que",
+        "top": 205.48,
+        "bottom": 216.44,
+        "x0": 311.81,
+        "x1": 479.13,
+        "column": 1
+      },
+      {
+        "text": "(A) a amostra de alumínio possui átomos",
+        "top": 227.4,
+        "bottom": 238.36,
+        "x0": 313.03,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "muito mais leves, o que significa que ele",
+        "top": 240.35,
+        "bottom": 251.31,
+        "x0": 333.09,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "tem mais prótons por grama do que o",
+        "top": 253.3,
+        "bottom": 264.26,
+        "x0": 333.09,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "chumbo.",
+        "top": 266.25,
+        "bottom": 277.21,
+        "x0": 333.09,
+        "x1": 374.68,
+        "column": 1
+      },
+      {
+        "text": "(B) a amostra de chumbo contém átomos",
+        "top": 288.17,
+        "bottom": 299.13,
+        "x0": 313.03,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "mais pesados, logo contém muito mais",
+        "top": 301.12,
+        "bottom": 312.08,
+        "x0": 333.09,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "prótons e nêutrons que a amostra de",
+        "top": 314.07,
+        "bottom": 325.03,
+        "x0": 333.09,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "alumínio.",
+        "top": 327.02,
+        "bottom": 337.98,
+        "x0": 333.09,
+        "x1": 377.11,
+        "column": 1
+      },
+      {
+        "text": "(C) apenas o chumbo possui a massa",
+        "top": 348.94,
+        "bottom": 359.9,
+        "x0": 312.43,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "concentrada no núcleo; o alumínio é leve",
+        "top": 361.89,
+        "bottom": 372.85,
+        "x0": 333.09,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "porque seus elétrons contribuem mais",
+        "top": 374.84,
+        "bottom": 385.8,
+        "x0": 333.09,
+        "x1": 538.59,
+        "column": 1
+      },
+      {
+        "text": "para a massa total.",
+        "top": 387.79,
+        "bottom": 398.75,
+        "x0": 333.09,
+        "x1": 426.17,
+        "column": 1
+      },
+      {
+        "text": "(D) as amostras de chumbo e de alumínio",
+        "top": 409.71,
+        "bottom": 420.67,
+        "x0": 312.43,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "possuem aproximadamente o mesmo",
+        "top": 422.66,
+        "bottom": 433.62,
+        "x0": 333.09,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "número de partículas nucleares (prótons +",
+        "top": 435.62,
+        "bottom": 446.57,
+        "x0": 333.09,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "nêutrons).",
+        "top": 448.57,
+        "bottom": 459.53,
+        "x0": 333.09,
+        "x1": 382.43,
+        "column": 1
+      },
+      {
+        "text": "(E) como ambas as amostras têm a mesma",
+        "top": 470.48,
+        "bottom": 481.44,
+        "x0": 313.03,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "massa, as duas têm o mesmo número de",
+        "top": 483.44,
+        "bottom": 494.4,
+        "x0": 333.09,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "átomos.",
+        "top": 496.39,
+        "bottom": 507.35,
+        "x0": 333.09,
+        "x1": 371.91,
+        "column": 1
+      }
+    ],
+    "images": [],
+    "rects": [
+      {
+        "x0": 56.69,
+        "x1": 283.46,
+        "top": 63.4,
+        "bottom": 67.65
+      },
+      {
+        "x0": 311.81,
+        "x1": 538.58,
+        "top": 63.4,
+        "bottom": 67.65
+      }
+    ],
+    "curves": []
+  }
+]

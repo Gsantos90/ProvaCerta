@@ -1,0 +1,1094 @@
+[
+  {
+    "slug": "pism-2023-1",
+    "number": 6,
+    "page": 7,
+    "bounds": [
+      34.52,
+      187.61999999999998,
+      548.08,
+      497.22
+    ],
+    "path": "/pism-apoios/pism-2023-1-q6-pagina-7.png"
+  },
+  {
+    "slug": "pism-2023-1",
+    "number": 7,
+    "page": 8,
+    "bounds": [
+      57.08,
+      244.26,
+      535.72,
+      554.3399999999999
+    ],
+    "path": "/pism-apoios/pism-2023-1-q7-pagina-8.png"
+  },
+  {
+    "slug": "pism-2023-1",
+    "number": 10,
+    "page": 10,
+    "bounds": [
+      133.16,
+      112.5,
+      463.12,
+      315.3
+    ],
+    "path": "/pism-apoios/pism-2023-1-q10-pagina-10.png"
+  },
+  {
+    "slug": "pism-2023-1",
+    "number": 12,
+    "page": 11,
+    "bounds": [
+      137.72,
+      497.46,
+      458.68,
+      540.06
+    ],
+    "path": "/pism-apoios/pism-2023-1-q12-pagina-11.png"
+  },
+  {
+    "slug": "pism-2023-1",
+    "number": 11,
+    "page": 11,
+    "bounds": [
+      257.36,
+      166.73999999999998,
+      562.12,
+      320.58
+    ],
+    "path": "/pism-apoios/pism-2023-1-q11-pagina-11.png"
+  },
+  {
+    "slug": "pism-2023-1",
+    "number": 14,
+    "page": 12,
+    "bounds": [
+      179.0,
+      365.34,
+      417.4,
+      561.54
+    ],
+    "path": "/pism-apoios/pism-2023-1-q14-pagina-12.png"
+  },
+  {
+    "slug": "pism-2023-1",
+    "number": 16,
+    "page": 13,
+    "bounds": [
+      35.84,
+      397.5,
+      553.84,
+      682.14
+    ],
+    "path": "/pism-apoios/pism-2023-1-q16-pagina-13.png"
+  },
+  {
+    "slug": "pism-2023-1",
+    "number": 20,
+    "page": 15,
+    "bounds": [
+      368.0,
+      486.53999999999996,
+      553.0,
+      647.5799999999999
+    ],
+    "path": "/pism-apoios/pism-2023-1-q20-pagina-15.png"
+  },
+  {
+    "slug": "pism-2023-2",
+    "number": 11,
+    "page": 9,
+    "bounds": [
+      377.84,
+      457.97999999999996,
+      562.24,
+      640.14
+    ],
+    "path": "/pism-apoios/pism-2023-2-q11-pagina-9.png"
+  },
+  {
+    "slug": "pism-2023-2",
+    "number": 15,
+    "page": 11,
+    "bounds": [
+      426.8,
+      98.7,
+      536.32,
+      306.3
+    ],
+    "path": "/pism-apoios/pism-2023-2-q15-pagina-11.png"
+  },
+  {
+    "slug": "pism-2023-2",
+    "number": 17,
+    "page": 12,
+    "bounds": [
+      49.52,
+      116.82000000000001,
+      531.4,
+      489.66
+    ],
+    "path": "/pism-apoios/pism-2023-2-q17-pagina-12.png"
+  },
+  {
+    "slug": "pism-2023-2",
+    "number": 8,
+    "page": 8,
+    "bounds": [
+      43,
+      116,
+      555,
+      228
+    ],
+    "path": "/pism-apoios/pism-2023-2-q8-vetor.png"
+  },
+  {
+    "slug": "pism-2024-1",
+    "number": 3,
+    "page": 4,
+    "bounds": [
+      42.65,
+      142.54,
+      294.79,
+      266.03000000000003
+    ],
+    "path": "/pism-apoios/pism-2024-1-q3-pagina-4.png"
+  },
+  {
+    "slug": "pism-2024-1",
+    "number": 6,
+    "page": 6,
+    "bounds": [
+      42.65,
+      80.11,
+      554.9,
+      712.24
+    ],
+    "path": "/pism-apoios/pism-2024-1-q6-pagina-6.png"
+  },
+  {
+    "slug": "pism-2024-1",
+    "number": 7,
+    "page": 7,
+    "bounds": [
+      42.65,
+      77.98,
+      554.96,
+      355.63
+    ],
+    "path": "/pism-apoios/pism-2024-1-q7-pagina-7.png"
+  },
+  {
+    "slug": "pism-2024-1",
+    "number": 9,
+    "page": 8,
+    "bounds": [
+      42.65,
+      395.09999999999997,
+      294.8,
+      587.68
+    ],
+    "path": "/pism-apoios/pism-2024-1-q9-pagina-8.png"
+  },
+  {
+    "slug": "pism-2024-1",
+    "number": 10,
+    "page": 8,
+    "bounds": [
+      302.75,
+      233.38,
+      554.89,
+      420.03000000000003
+    ],
+    "path": "/pism-apoios/pism-2024-1-q10-pagina-8.png"
+  },
+  {
+    "slug": "pism-2024-1",
+    "number": 16,
+    "page": 10,
+    "bounds": [
+      42.65,
+      240.5,
+      294.79,
+      378.61
+    ],
+    "path": "/pism-apoios/pism-2024-1-q16-pagina-10.png"
+  },
+  {
+    "slug": "pism-2024-2",
+    "number": 8,
+    "page": 7,
+    "bounds": [
+      53.56,
+      435.86,
+      280.69,
+      654.63
+    ],
+    "path": "/pism-apoios/pism-2024-2-q8-pagina-7.png"
+  },
+  {
+    "slug": "pism-2024-2",
+    "number": 10,
+    "page": 8,
+    "bounds": [
+      92.68,
+      110.0,
+      244.77,
+      490.66
+    ],
+    "path": "/pism-apoios/pism-2024-2-q10-pagina-8.png"
+  },
+  {
+    "slug": "pism-2024-2",
+    "number": 12,
+    "page": 8,
+    "bounds": [
+      340.27,
+      398.37,
+      517.38,
+      538.4599999999999
+    ],
+    "path": "/pism-apoios/pism-2024-2-q12-pagina-8.png"
+  },
+  {
+    "slug": "pism-2024-2",
+    "number": 19,
+    "page": 11,
+    "bounds": [
+      53.56,
+      95.84,
+      193.15,
+      292.59000000000003
+    ],
+    "path": "/pism-apoios/pism-2024-2-q19-pagina-11.png"
+  },
+  {
+    "slug": "pism-2024-2",
+    "number": 17,
+    "page": 10,
+    "bounds": [
+      43,
+      75,
+      553,
+      175
+    ],
+    "path": "/pism-apoios/pism-2024-2-q17-vetor.png"
+  },
+  {
+    "slug": "pism-2025-1",
+    "number": 3,
+    "page": 5,
+    "bounds": [
+      72.63,
+      120.04,
+      256.06,
+      347.56
+    ],
+    "path": "/pism-apoios/pism-2025-1-q3-pagina-5.png"
+  },
+  {
+    "slug": "pism-2025-1",
+    "number": 4,
+    "page": 6,
+    "bounds": [
+      72.63,
+      80.51,
+      292.33,
+      226.24
+    ],
+    "path": "/pism-apoios/pism-2025-1-q4-pagina-6.png"
+  },
+  {
+    "slug": "pism-2025-1",
+    "number": 5,
+    "page": 6,
+    "bounds": [
+      310.81,
+      95.69,
+      539.59,
+      518.6099999999999
+    ],
+    "path": "/pism-apoios/pism-2025-1-q5-pagina-6.png"
+  },
+  {
+    "slug": "pism-2025-1",
+    "number": 7,
+    "page": 8,
+    "bounds": [
+      67.03,
+      94.76,
+      273.12,
+      231.23000000000002
+    ],
+    "path": "/pism-apoios/pism-2025-1-q7-pagina-8.png"
+  },
+  {
+    "slug": "pism-2025-1",
+    "number": 9,
+    "page": 9,
+    "bounds": [
+      103.88,
+      75.52,
+      491.41,
+      756.93
+    ],
+    "path": "/pism-apoios/pism-2025-1-q9-pagina-9.png"
+  },
+  {
+    "slug": "pism-2025-1",
+    "number": 10,
+    "page": 10,
+    "bounds": [
+      55.69,
+      497.97999999999996,
+      284.46,
+      706.0899999999999
+    ],
+    "path": "/pism-apoios/pism-2025-1-q10-pagina-10.png"
+  },
+  {
+    "slug": "pism-2025-1",
+    "number": 12,
+    "page": 11,
+    "bounds": [
+      112.39,
+      161.45,
+      227.77,
+      361.05
+    ],
+    "path": "/pism-apoios/pism-2025-1-q12-pagina-11.png"
+  },
+  {
+    "slug": "pism-2025-1",
+    "number": 13,
+    "page": 11,
+    "bounds": [
+      322.15,
+      151.48999999999998,
+      528.23,
+      307.40000000000003
+    ],
+    "path": "/pism-apoios/pism-2025-1-q13-pagina-11.png"
+  },
+  {
+    "slug": "pism-2025-1",
+    "number": 14,
+    "page": 12,
+    "bounds": [
+      50,
+      206.64,
+      276.55,
+      673.39
+    ],
+    "path": "/pism-apoios/pism-2025-1-q14-pagina-12.png"
+  },
+  {
+    "slug": "pism-2025-1",
+    "number": 15,
+    "page": 12,
+    "bounds": [
+      322.15,
+      161.29,
+      528.24,
+      452.26
+    ],
+    "path": "/pism-apoios/pism-2025-1-q15-pagina-12.png"
+  },
+  {
+    "slug": "pism-2025-2",
+    "number": 12,
+    "page": 9,
+    "bounds": [
+      67.03,
+      540.0600000000001,
+      273.12,
+      744.75
+    ],
+    "path": "/pism-apoios/pism-2025-2-q12-pagina-9.png"
+  },
+  {
+    "slug": "pism-2025-2",
+    "number": 15,
+    "page": 10,
+    "bounds": [
+      78.37,
+      495.2,
+      261.8,
+      595.3199999999999
+    ],
+    "path": "/pism-apoios/pism-2025-2-q15-pagina-10.png"
+  },
+  {
+    "slug": "pism-2025-2",
+    "number": 18,
+    "page": 11,
+    "bounds": [
+      310.81,
+      134.48999999999998,
+      539.58,
+      536.54
+    ],
+    "path": "/pism-apoios/pism-2025-2-q18-pagina-11.png"
+  },
+  {
+    "slug": "pism-ii-2024-dia-1",
+    "number": 1,
+    "page": 3,
+    "bounds": [
+      50.72,
+      246.66,
+      546.04,
+      689.0999999999999
+    ],
+    "path": "/pism-apoios/pism-ii-2024-dia-1-q1-pagina-3.png"
+  },
+  {
+    "slug": "pism-ii-2024-dia-1",
+    "number": 4,
+    "page": 6,
+    "bounds": [
+      33.08,
+      399.9,
+      505.48,
+      673.26
+    ],
+    "path": "/pism-apoios/pism-ii-2024-dia-1-q4-pagina-6.png"
+  },
+  {
+    "slug": "pism-ii-2024-dia-1",
+    "number": 4,
+    "page": 7,
+    "bounds": [
+      33.08,
+      83.7,
+      252.16,
+      158.22
+    ],
+    "path": "/pism-apoios/pism-ii-2024-dia-1-q4-pagina-7.png"
+  },
+  {
+    "slug": "pism-ii-2024-dia-1",
+    "number": 7,
+    "page": 9,
+    "bounds": [
+      175.04,
+      287.7,
+      421.84,
+      528.78
+    ],
+    "path": "/pism-apoios/pism-ii-2024-dia-1-q7-pagina-9.png"
+  },
+  {
+    "slug": "pism-ii-2024-dia-1",
+    "number": 8,
+    "page": 10,
+    "bounds": [
+      155.72,
+      133.61999999999998,
+      441.28,
+      349.02000000000004
+    ],
+    "path": "/pism-apoios/pism-ii-2024-dia-1-q8-pagina-10.png"
+  },
+  {
+    "slug": "pism-ii-2024-dia-1",
+    "number": 9,
+    "page": 11,
+    "bounds": [
+      34.52,
+      124.74000000000001,
+      563.8,
+      339.42
+    ],
+    "path": "/pism-apoios/pism-ii-2024-dia-1-q9-pagina-11.png"
+  },
+  {
+    "slug": "pism-ii-2024-dia-1",
+    "number": 11,
+    "page": 12,
+    "bounds": [
+      321.32,
+      372.3,
+      534.76,
+      503.82
+    ],
+    "path": "/pism-apoios/pism-ii-2024-dia-1-q11-pagina-12.png"
+  },
+  {
+    "slug": "pism-ii-2024-dia-1",
+    "number": 16,
+    "page": 14,
+    "bounds": [
+      35.0,
+      132.29999999999998,
+      560.68,
+      421.26
+    ],
+    "path": "/pism-apoios/pism-ii-2024-dia-1-q16-pagina-14.png"
+  },
+  {
+    "slug": "pism-ii-2024-dia-1",
+    "number": 20,
+    "page": 16,
+    "bounds": [
+      144,
+      510,
+      470,
+      585
+    ],
+    "path": "/pism-apoios/pism-ii-2024-dia-1-q20-vetor.png"
+  },
+  {
+    "slug": "pism-ii-2024-dia-2",
+    "number": 12,
+    "page": 9,
+    "bounds": [
+      197.0,
+      458.21999999999997,
+      399.16,
+      590.8199999999999
+    ],
+    "path": "/pism-apoios/pism-ii-2024-dia-2-q12-pagina-9.png"
+  },
+  {
+    "slug": "pism-ii-2024-dia-2",
+    "number": 14,
+    "page": 10,
+    "bounds": [
+      344.48,
+      407.94,
+      559.24,
+      554.4599999999999
+    ],
+    "path": "/pism-apoios/pism-ii-2024-dia-2-q14-pagina-10.png"
+  },
+  {
+    "slug": "pism-ii-2024-dia-2",
+    "number": 18,
+    "page": 12,
+    "bounds": [
+      342.56,
+      84.54,
+      516.52,
+      319.62
+    ],
+    "path": "/pism-apoios/pism-ii-2024-dia-2-q18-pagina-12.png"
+  },
+  {
+    "slug": "pism-ii-2024-dia-2",
+    "number": 19,
+    "page": 13,
+    "bounds": [
+      107.72,
+      92.46000000000001,
+      488.56,
+      502.26
+    ],
+    "path": "/pism-apoios/pism-ii-2024-dia-2-q19-pagina-13.png"
+  },
+  {
+    "slug": "pism-ii-2025-dia-1",
+    "number": 4,
+    "page": 6,
+    "bounds": [
+      42.65,
+      163.14,
+      294.8,
+      324.38
+    ],
+    "path": "/pism-apoios/pism-ii-2025-dia-1-q4-pagina-6.png"
+  },
+  {
+    "slug": "pism-ii-2025-dia-1",
+    "number": 5,
+    "page": 7,
+    "bounds": [
+      53.56,
+      77.99000000000001,
+      255.68,
+      733.28
+    ],
+    "path": "/pism-apoios/pism-ii-2025-dia-1-q5-pagina-7.png"
+  },
+  {
+    "slug": "pism-ii-2025-dia-1",
+    "number": 7,
+    "page": 8,
+    "bounds": [
+      313.66,
+      266.86,
+      565.8,
+      412.81
+    ],
+    "path": "/pism-apoios/pism-ii-2025-dia-1-q7-pagina-8.png"
+  },
+  {
+    "slug": "pism-ii-2025-dia-1",
+    "number": 8,
+    "page": 9,
+    "bounds": [
+      53.56,
+      95.65,
+      305.7,
+      232.79000000000002
+    ],
+    "path": "/pism-apoios/pism-ii-2025-dia-1-q8-pagina-9.png"
+  },
+  {
+    "slug": "pism-ii-2025-dia-1",
+    "number": 10,
+    "page": 10,
+    "bounds": [
+      42.65,
+      164.29,
+      294.8,
+      489.85
+    ],
+    "path": "/pism-apoios/pism-ii-2025-dia-1-q10-pagina-10.png"
+  },
+  {
+    "slug": "pism-ii-2025-dia-1",
+    "number": 11,
+    "page": 10,
+    "bounds": [
+      313.66,
+      279.21,
+      565.8,
+      494.59000000000003
+    ],
+    "path": "/pism-apoios/pism-ii-2025-dia-1-q11-pagina-10.png"
+  },
+  {
+    "slug": "pism-ii-2025-dia-1",
+    "number": 15,
+    "page": 12,
+    "bounds": [
+      42.65,
+      136.42,
+      294.8,
+      291.73
+    ],
+    "path": "/pism-apoios/pism-ii-2025-dia-1-q15-pagina-12.png"
+  },
+  {
+    "slug": "pism-ii-2025-dia-1",
+    "number": 17,
+    "page": 12,
+    "bounds": [
+      313.66,
+      240.54999999999998,
+      565.8,
+      473.86
+    ],
+    "path": "/pism-apoios/pism-ii-2025-dia-1-q17-pagina-12.png"
+  },
+  {
+    "slug": "pism-ii-2025-dia-1",
+    "number": 19,
+    "page": 13,
+    "bounds": [
+      53.56,
+      444.74,
+      230.66,
+      520.9
+    ],
+    "path": "/pism-apoios/pism-ii-2025-dia-1-q19-pagina-13.png"
+  },
+  {
+    "slug": "pism-ii-2025-dia-1",
+    "number": 13,
+    "page": 11,
+    "bounds": [
+      86,
+      602,
+      258,
+      691
+    ],
+    "path": "/pism-apoios/pism-ii-2025-dia-1-q13-vetor.png"
+  },
+  {
+    "slug": "pism-ii-2025-dia-2",
+    "number": 19,
+    "page": 11,
+    "bounds": [
+      55.16,
+      284.82,
+      282.29,
+      436.41
+    ],
+    "path": "/pism-apoios/pism-ii-2025-dia-2-q19-pagina-11.png"
+  },
+  {
+    "slug": "pism-ii-2026-dia-1",
+    "number": 10,
+    "page": 9,
+    "bounds": [
+      55.69,
+      91.59,
+      284.46,
+      240.13000000000002
+    ],
+    "path": "/pism-apoios/pism-ii-2026-dia-1-q10-pagina-9.png"
+  },
+  {
+    "slug": "pism-ii-2026-dia-1",
+    "number": 11,
+    "page": 9,
+    "bounds": [
+      310.81,
+      176.48999999999998,
+      539.59,
+      392.67
+    ],
+    "path": "/pism-apoios/pism-ii-2026-dia-1-q11-pagina-9.png"
+  },
+  {
+    "slug": "pism-ii-2026-dia-1",
+    "number": 12,
+    "page": 10,
+    "bounds": [
+      55.69,
+      135.83999999999997,
+      284.46,
+      268.52000000000004
+    ],
+    "path": "/pism-apoios/pism-ii-2026-dia-1-q12-pagina-10.png"
+  },
+  {
+    "slug": "pism-ii-2026-dia-1",
+    "number": 14,
+    "page": 10,
+    "bounds": [
+      322.15,
+      456.21,
+      528.26,
+      552.67
+    ],
+    "path": "/pism-apoios/pism-ii-2026-dia-1-q14-pagina-10.png"
+  },
+  {
+    "slug": "pism-ii-2026-dia-1",
+    "number": 15,
+    "page": 11,
+    "bounds": [
+      72.63,
+      177.85999999999999,
+      278.73,
+      633.01
+    ],
+    "path": "/pism-apoios/pism-ii-2026-dia-1-q15-pagina-11.png"
+  },
+  {
+    "slug": "pism-ii-2026-dia-1",
+    "number": 20,
+    "page": 12,
+    "bounds": [
+      364,
+      550,
+      498,
+      625
+    ],
+    "path": "/pism-apoios/pism-ii-2026-dia-1-q20-vetor.png"
+  },
+  {
+    "slug": "pism-ii-2026-dia-2",
+    "number": 5,
+    "page": 5,
+    "bounds": [
+      322.15,
+      178.22,
+      528.25,
+      318.73
+    ],
+    "path": "/pism-apoios/pism-ii-2026-dia-2-q5-pagina-5.png"
+  },
+  {
+    "slug": "pism-ii-2026-dia-2",
+    "number": 9,
+    "page": 7,
+    "bounds": [
+      55.69,
+      213.25,
+      284.47,
+      344.33
+    ],
+    "path": "/pism-apoios/pism-ii-2026-dia-2-q9-pagina-7.png"
+  },
+  {
+    "slug": "pism-iii-2024-dia-1",
+    "number": 5,
+    "page": 7,
+    "bounds": [
+      29.12,
+      360.65999999999997,
+      555.28,
+      745.38
+    ],
+    "path": "/pism-apoios/pism-iii-2024-dia-1-q5-pagina-7.png"
+  },
+  {
+    "slug": "pism-iii-2024-dia-2",
+    "number": 6,
+    "page": 5,
+    "bounds": [
+      34.52,
+      118.02,
+      560.32,
+      406.98
+    ],
+    "path": "/pism-apoios/pism-iii-2024-dia-2-q6-pagina-5.png"
+  },
+  {
+    "slug": "pism-iii-2024-dia-2",
+    "number": 11,
+    "page": 8,
+    "bounds": [
+      307.16,
+      178.38,
+      550.6,
+      411.54
+    ],
+    "path": "/pism-apoios/pism-iii-2024-dia-2-q11-pagina-8.png"
+  },
+  {
+    "slug": "pism-iii-2024-dia-2",
+    "number": 14,
+    "page": 9,
+    "bounds": [
+      157.04,
+      431.09999999999997,
+      439.96,
+      570.18
+    ],
+    "path": "/pism-apoios/pism-iii-2024-dia-2-q14-pagina-9.png"
+  },
+  {
+    "slug": "pism-iii-2024-dia-2",
+    "number": 17,
+    "page": 12,
+    "bounds": [
+      83.72,
+      91.86,
+      512.56,
+      268.38
+    ],
+    "path": "/pism-apoios/pism-iii-2024-dia-2-q17-pagina-12.png"
+  },
+  {
+    "slug": "pism-iii-2024-dia-2",
+    "number": 18,
+    "page": 13,
+    "bounds": [
+      173.6,
+      82.5,
+      410.8,
+      435.90000000000003
+    ],
+    "path": "/pism-apoios/pism-iii-2024-dia-2-q18-pagina-13.png"
+  },
+  {
+    "slug": "pism-iii-2025-dia-1",
+    "number": 9,
+    "page": 9,
+    "bounds": [
+      313.66,
+      521.57,
+      515.78,
+      676.31
+    ],
+    "path": "/pism-apoios/pism-iii-2025-dia-1-q9-pagina-9.png"
+  },
+  {
+    "slug": "pism-iii-2025-dia-2",
+    "number": 2,
+    "page": 3,
+    "bounds": [
+      302.75,
+      248.10999999999999,
+      554.91,
+      470.65000000000003
+    ],
+    "path": "/pism-apoios/pism-iii-2025-dia-2-q2-pagina-3.png"
+  },
+  {
+    "slug": "pism-iii-2025-dia-2",
+    "number": 9,
+    "page": 5,
+    "bounds": [
+      386.55,
+      132.60999999999999,
+      471.09,
+      194.65
+    ],
+    "path": "/pism-apoios/pism-iii-2025-dia-2-q9-pagina-5.png"
+  },
+  {
+    "slug": "pism-iii-2025-dia-2",
+    "number": 12,
+    "page": 6,
+    "bounds": [
+      302.75,
+      66.03,
+      554.89,
+      246.85000000000002
+    ],
+    "path": "/pism-apoios/pism-iii-2025-dia-2-q12-pagina-6.png"
+  },
+  {
+    "slug": "pism-iii-2025-dia-2",
+    "number": 17,
+    "page": 9,
+    "bounds": [
+      80.17,
+      109.66,
+      257.28,
+      689.6099999999999
+    ],
+    "path": "/pism-apoios/pism-iii-2025-dia-2-q17-pagina-9.png"
+  },
+  {
+    "slug": "pism-iii-2025-dia-2",
+    "number": 10,
+    "page": 5,
+    "bounds": [
+      318,
+      530,
+      555,
+      605
+    ],
+    "path": "/pism-apoios/pism-iii-2025-dia-2-q10-vetor.png"
+  },
+  {
+    "slug": "pism-iii-2026-dia-1",
+    "number": 4,
+    "page": 5,
+    "bounds": [
+      55.69,
+      607.82,
+      284.46,
+      759.5899999999999
+    ],
+    "path": "/pism-apoios/pism-iii-2026-dia-1-q4-pagina-5.png"
+  },
+  {
+    "slug": "pism-iii-2026-dia-1",
+    "number": 16,
+    "page": 11,
+    "bounds": [
+      310.81,
+      355.96999999999997,
+      539.58,
+      525.39
+    ],
+    "path": "/pism-apoios/pism-iii-2026-dia-1-q16-pagina-11.png"
+  },
+  {
+    "slug": "pism-iii-2026-dia-2",
+    "number": 1,
+    "page": 3,
+    "bounds": [
+      55.69,
+      252.29,
+      284.47,
+      407.77000000000004
+    ],
+    "path": "/pism-apoios/pism-iii-2026-dia-2-q1-pagina-3.png"
+  },
+  {
+    "slug": "pism-iii-2026-dia-2",
+    "number": 2,
+    "page": 3,
+    "bounds": [
+      310.81,
+      236.89999999999998,
+      539.58,
+      312.72
+    ],
+    "path": "/pism-apoios/pism-iii-2026-dia-2-q2-pagina-3.png"
+  },
+  {
+    "slug": "pism-iii-2026-dia-2",
+    "number": 3,
+    "page": 4,
+    "bounds": [
+      112.39,
+      261.78999999999996,
+      227.77,
+      334.79
+    ],
+    "path": "/pism-apoios/pism-iii-2026-dia-2-q3-pagina-4.png"
+  },
+  {
+    "slug": "pism-iii-2026-dia-2",
+    "number": 4,
+    "page": 4,
+    "bounds": [
+      327.82,
+      274.53,
+      522.57,
+      440.78000000000003
+    ],
+    "path": "/pism-apoios/pism-iii-2026-dia-2-q4-pagina-4.png"
+  },
+  {
+    "slug": "pism-iii-2026-dia-2",
+    "number": 9,
+    "page": 6,
+    "bounds": [
+      137.33,
+      518.83,
+      202.83,
+      565.6099999999999
+    ],
+    "path": "/pism-apoios/pism-iii-2026-dia-2-q9-pagina-6.png"
+  },
+  {
+    "slug": "pism-iii-2026-dia-2",
+    "number": 11,
+    "page": 7,
+    "bounds": [
+      67.03,
+      126.53,
+      273.13,
+      268.72
+    ],
+    "path": "/pism-apoios/pism-iii-2026-dia-2-q11-pagina-7.png"
+  },
+  {
+    "slug": "pism-iii-2026-dia-2",
+    "number": 13,
+    "page": 8,
+    "bounds": [
+      67.03,
+      112.51,
+      273.13,
+      328.48
+    ],
+    "path": "/pism-apoios/pism-iii-2026-dia-2-q13-pagina-8.png"
+  },
+  {
+    "slug": "pism-iii-2026-dia-2",
+    "number": 14,
+    "page": 8,
+    "bounds": [
+      310.81,
+      109.64,
+      539.58,
+      313.39
+    ],
+    "path": "/pism-apoios/pism-iii-2026-dia-2-q14-pagina-8.png"
+  },
+  {
+    "slug": "pism-iii-2026-dia-2",
+    "number": 19,
+    "page": 11,
+    "bounds": [
+      333.49,
+      215.64,
+      516.91,
+      340.95
+    ],
+    "path": "/pism-apoios/pism-iii-2026-dia-2-q19-pagina-11.png"
+  }
+]

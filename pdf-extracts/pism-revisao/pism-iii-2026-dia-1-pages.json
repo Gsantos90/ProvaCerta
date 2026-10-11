@@ -1,0 +1,7022 @@
+[
+  {
+    "page": 3,
+    "width": 595.276,
+    "height": 841.89,
+    "lines": [
+      {
+        "text": "LÍNGUA PORTUGUESA - Objetivas",
+        "top": 79.79,
+        "bottom": 90.75,
+        "x0": 79.84,
+        "x1": 260.32,
+        "column": 0
+      },
+      {
+        "text": "TEXTO 1",
+        "top": 111.57,
+        "bottom": 122.53,
+        "x0": 147.46,
+        "x1": 192.7,
+        "column": 0
+      },
+      {
+        "text": "FERRAMENTAS COMO CHATGPT SÓ",
+        "top": 124.52,
+        "bottom": 135.48,
+        "x0": 73.04,
+        "x1": 267.11,
+        "column": 0
+      },
+      {
+        "text": "EXISTEM PORQUE HUMANOS VEEM",
+        "top": 137.48,
+        "bottom": 148.43,
+        "x0": 73.93,
+        "x1": 266.23,
+        "column": 0
+      },
+      {
+        "text": "SENTIDO A PARTIR DE QUALQUER COISA",
+        "top": 150.43,
+        "bottom": 161.39,
+        "x0": 58.48,
+        "x1": 281.68,
+        "column": 0
+      },
+      {
+        "text": "Tiago Torrent",
+        "top": 172.68,
+        "bottom": 180.65,
+        "x0": 236.59,
+        "x1": 283.47,
+        "column": 0
+      },
+      {
+        "text": "Doutor em Linguística pela Universidade Federal do Rio de",
+        "top": 185.63,
+        "bottom": 193.6,
+        "x0": 74.91,
+        "x1": 283.47,
+        "column": 0
+      },
+      {
+        "text": "Janeiro. Professor do Programa de Pós-Graduação em",
+        "top": 198.58,
+        "bottom": 206.55,
+        "x0": 88.55,
+        "x1": 283.46,
+        "column": 0
+      },
+      {
+        "text": "Linguística da Universidade Federal de Juiz de Fora e",
+        "top": 211.53,
+        "bottom": 219.5,
+        "x0": 93.54,
+        "x1": 283.47,
+        "column": 0
+      },
+      {
+        "text": "Coordenador do Laboratório FrameNet Brasil. Bolsista de",
+        "top": 224.48,
+        "bottom": 232.45,
+        "x0": 80.1,
+        "x1": 283.47,
+        "column": 0
+      },
+      {
+        "text": "Produtividade do CNPq.",
+        "top": 237.44,
+        "bottom": 245.41,
+        "x0": 197.97,
+        "x1": 283.47,
+        "column": 0
+      },
+      {
+        "text": "Fato: ferramentas de inteligência artificial",
+        "top": 258.52,
+        "bottom": 269.47,
+        "x0": 73.63,
+        "x1": 283.47,
+        "column": 0
+      },
+      {
+        "text": "(IA) gerativa estão revolucionando o mundo.",
+        "top": 271.47,
+        "bottom": 282.43,
+        "x0": 56.69,
+        "x1": 283.46,
+        "column": 0
+      },
+      {
+        "text": "Dentre elas, o ChatGPT é a mais popular.",
+        "top": 284.42,
+        "bottom": 295.38,
+        "x0": 56.69,
+        "x1": 283.46,
+        "column": 0
+      },
+      {
+        "text": "Entender o que ele tem de especial passa",
+        "top": 297.37,
+        "bottom": 308.33,
+        "x0": 56.69,
+        "x1": 283.47,
+        "column": 0
+      },
+      {
+        "text": "por dois vieses: o da computação e o da",
+        "top": 310.32,
+        "bottom": 321.28,
+        "x0": 56.69,
+        "x1": 283.46,
+        "column": 0
+      },
+      {
+        "text": "linguística.",
+        "top": 323.27,
+        "bottom": 334.23,
+        "x0": 56.69,
+        "x1": 108.46,
+        "column": 0
+      },
+      {
+        "text": "Do ponto de vista computacional,",
+        "top": 336.22,
+        "bottom": 347.18,
+        "x0": 73.63,
+        "x1": 283.47,
+        "column": 0
+      },
+      {
+        "text": "a inovação do ChatGPT é como ele",
+        "top": 349.18,
+        "bottom": 360.13,
+        "x0": 56.69,
+        "x1": 283.47,
+        "column": 0
+      },
+      {
+        "text": "combina o modelo de língua que constrói",
+        "top": 362.13,
+        "bottom": 373.09,
+        "x0": 56.69,
+        "x1": 283.47,
+        "column": 0
+      },
+      {
+        "text": "durante o treinamento com uma versão da",
+        "top": 375.08,
+        "bottom": 386.04,
+        "x0": 56.69,
+        "x1": 283.46,
+        "column": 0
+      },
+      {
+        "text": "“Aprendizagem de Reforço por Feedback",
+        "top": 388.03,
+        "bottom": 398.99,
+        "x0": 56.69,
+        "x1": 283.47,
+        "column": 0
+      },
+      {
+        "text": "Humano”.",
+        "top": 400.98,
+        "bottom": 411.94,
+        "x0": 56.69,
+        "x1": 104.8,
+        "column": 0
+      },
+      {
+        "text": "Essa técnica usa avaliações humanas para",
+        "top": 413.93,
+        "bottom": 424.89,
+        "x0": 73.63,
+        "x1": 283.47,
+        "column": 0
+      },
+      {
+        "text": "auxiliar a IA no processo de cálculo da perda",
+        "top": 426.88,
+        "bottom": 437.84,
+        "x0": 56.69,
+        "x1": 283.47,
+        "column": 0
+      },
+      {
+        "text": "entre aquilo que foi e aquilo que deveria ter sido",
+        "top": 439.84,
+        "bottom": 450.79,
+        "x0": 56.69,
+        "x1": 283.47,
+        "column": 0
+      },
+      {
+        "text": "gerado por ela como resposta mais provável",
+        "top": 452.79,
+        "bottom": 463.75,
+        "x0": 56.69,
+        "x1": 283.46,
+        "column": 0
+      },
+      {
+        "text": "a um determinado comando. Cada vez que",
+        "top": 465.74,
+        "bottom": 476.7,
+        "x0": 56.69,
+        "x1": 283.47,
+        "column": 0
+      },
+      {
+        "text": "selecionamos hidrantes em um captcha, ou",
+        "top": 478.69,
+        "bottom": 489.65,
+        "x0": 56.69,
+        "x1": 283.47,
+        "column": 0
+      },
+      {
+        "text": "avaliamos uma tradução automática, estamos",
+        "top": 491.64,
+        "bottom": 502.6,
+        "x0": 56.69,
+        "x1": 283.46,
+        "column": 0
+      },
+      {
+        "text": "ajudando a IA a se recalibrar para diminuir a",
+        "top": 504.59,
+        "bottom": 515.55,
+        "x0": 56.69,
+        "x1": 283.47,
+        "column": 0
+      },
+      {
+        "text": "perda.",
+        "top": 517.54,
+        "bottom": 528.5,
+        "x0": 56.69,
+        "x1": 87.76,
+        "column": 0
+      },
+      {
+        "text": "O ChatGPT escalonou – e muito – essa",
+        "top": 530.5,
+        "bottom": 541.45,
+        "x0": 73.63,
+        "x1": 283.47,
+        "column": 0
+      },
+      {
+        "text": "ideia. Em vez de confiar só na avaliação",
+        "top": 543.45,
+        "bottom": 554.41,
+        "x0": 56.69,
+        "x1": 283.47,
+        "column": 0
+      },
+      {
+        "text": "dos usuários, essa ferramenta usou uma",
+        "top": 556.4,
+        "bottom": 567.36,
+        "x0": 56.69,
+        "x1": 283.46,
+        "column": 0
+      },
+      {
+        "text": "quantidade absurda – e mal remunerada –",
+        "top": 569.35,
+        "bottom": 580.31,
+        "x0": 56.69,
+        "x1": 283.47,
+        "column": 0
+      },
+      {
+        "text": "de avaliações humanas acerca da fluência do",
+        "top": 582.3,
+        "bottom": 593.26,
+        "x0": 56.69,
+        "x1": 283.46,
+        "column": 0
+      },
+      {
+        "text": "texto produzido. Assim, o modelo de IA por",
+        "top": 595.25,
+        "bottom": 606.21,
+        "x0": 56.69,
+        "x1": 283.47,
+        "column": 0
+      },
+      {
+        "text": "trás do ChatGPT foi recalibrado a partir de",
+        "top": 608.2,
+        "bottom": 619.16,
+        "x0": 56.69,
+        "x1": 283.47,
+        "column": 0
+      },
+      {
+        "text": "uma infinidade de feedbacks humanos. Qual",
+        "top": 621.16,
+        "bottom": 632.11,
+        "x0": 56.69,
+        "x1": 283.47,
+        "column": 0
+      },
+      {
+        "text": "o impacto disso? Aqui entra o viés linguístico.",
+        "top": 634.11,
+        "bottom": 645.07,
+        "x0": 56.69,
+        "x1": 278.58,
+        "column": 0
+      },
+      {
+        "text": "Essa IA, que foi treinada e recalibrada",
+        "top": 647.06,
+        "bottom": 658.02,
+        "x0": 73.63,
+        "x1": 283.46,
+        "column": 0
+      },
+      {
+        "text": "para gerar sequências de texto que pareçam",
+        "top": 660.01,
+        "bottom": 670.97,
+        "x0": 56.69,
+        "x1": 283.47,
+        "column": 0
+      },
+      {
+        "text": "fluentes, é usada por humanos cuja cognição",
+        "top": 672.96,
+        "bottom": 683.92,
+        "x0": 56.69,
+        "x1": 283.47,
+        "column": 0
+      },
+      {
+        "text": "evoluiu para construir sentido a partir de",
+        "top": 685.91,
+        "bottom": 696.87,
+        "x0": 56.69,
+        "x1": 283.47,
+        "column": 0
+      },
+      {
+        "text": "qualquer pista. [...] Construir sentido a partir",
+        "top": 698.86,
+        "bottom": 709.82,
+        "x0": 56.69,
+        "x1": 283.47,
+        "column": 0
+      },
+      {
+        "text": "de pistas linguísticas é a base da comunicação",
+        "top": 711.82,
+        "bottom": 722.77,
+        "x0": 56.69,
+        "x1": 283.46,
+        "column": 0
+      },
+      {
+        "text": "humana. Toda língua é composta de símbolos",
+        "top": 724.77,
+        "bottom": 735.73,
+        "x0": 56.69,
+        "x1": 283.47,
+        "column": 0
+      },
+      {
+        "text": "que unem uma forma – por exemplo, trem – a",
+        "top": 737.72,
+        "bottom": 748.68,
+        "x0": 56.69,
+        "x1": 283.47,
+        "column": 0
+      },
+      {
+        "text": "um ou mais significados – meio de transporte",
+        "top": 750.67,
+        "bottom": 761.63,
+        "x0": 56.69,
+        "x1": 283.47,
+        "column": 0
+      },
+      {
+        "text": "ferroviário ou, se você for mineiro, virtualmente",
+        "top": 763.62,
+        "bottom": 774.58,
+        "x0": 56.69,
+        "x1": 283.47,
+        "column": 0
+      },
+      {
+        "text": "qualquer coisa.",
+        "top": 776.57,
+        "bottom": 787.53,
+        "x0": 56.69,
+        "x1": 131.01,
+        "column": 0
+      },
+      {
+        "text": "Quando conversamos com alguém,",
+        "top": 65,
+        "bottom": 69.99,
+        "x0": 328.75,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "nós nos engajamos em um processo de",
+        "top": 71.98,
+        "bottom": 82.94,
+        "x0": 311.81,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "reconstrução do sentido pretendido por esse",
+        "top": 84.93,
+        "bottom": 95.89,
+        "x0": 311.81,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "alguém.",
+        "top": 97.88,
+        "bottom": 108.84,
+        "x0": 311.81,
+        "x1": 350.79,
+        "column": 1
+      },
+      {
+        "text": "Para usar as palavras de Gilles Fauconnier,",
+        "top": 111.58,
+        "bottom": 122.54,
+        "x0": 328.75,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "linguista cognitivista, “a língua não porta",
+        "top": 124.53,
+        "bottom": 135.49,
+        "x0": 311.81,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "significado, mas o guia”, o que significa dizer",
+        "top": 137.48,
+        "bottom": 148.44,
+        "x0": 311.81,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "que as formas linguísticas, por si só, não são",
+        "top": 150.43,
+        "bottom": 161.39,
+        "x0": 311.81,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "garantidoras da interpretação. É necessário",
+        "top": 163.38,
+        "bottom": 174.34,
+        "x0": 311.81,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "que quem ouve ou lê uma sequência de",
+        "top": 176.34,
+        "bottom": 187.29,
+        "x0": 311.81,
+        "x1": 538.59,
+        "column": 1
+      },
+      {
+        "text": "palavras seja capaz de dar sentido àquele",
+        "top": 189.29,
+        "bottom": 200.25,
+        "x0": 311.81,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "conjunto de pistas, a partir de conhecimento de",
+        "top": 202.24,
+        "bottom": 213.2,
+        "x0": 311.81,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "mundo compartilhado.",
+        "top": 215.19,
+        "bottom": 226.15,
+        "x0": 311.81,
+        "x1": 420.12,
+        "column": 1
+      },
+      {
+        "text": "Há, ainda, o Princípio da Cooperação,",
+        "top": 228.89,
+        "bottom": 239.85,
+        "x0": 328.75,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "proposto por Paul Grice – filósofo da linguagem",
+        "top": 241.84,
+        "bottom": 252.8,
+        "x0": 311.81,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "responsável por importantes contribuições",
+        "top": 254.79,
+        "bottom": 265.75,
+        "x0": 311.81,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "para o estudo do significado. Segundo Grice,",
+        "top": 267.74,
+        "bottom": 278.7,
+        "x0": 311.81,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "quando nos engajamos em uma conversa,",
+        "top": 280.69,
+        "bottom": 291.65,
+        "x0": 311.81,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "nós pressupomos que nosso interlocutor é",
+        "top": 293.64,
+        "bottom": 304.6,
+        "x0": 311.81,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "cooperativo. Em outras palavras, pressupomos",
+        "top": 306.6,
+        "bottom": 317.55,
+        "x0": 311.81,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "que ele está nos dando toda a informação",
+        "top": 319.55,
+        "bottom": 330.51,
+        "x0": 311.81,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "necessária, que essa informação é verdadeira,",
+        "top": 332.5,
+        "bottom": 343.46,
+        "x0": 311.81,
+        "x1": 538.59,
+        "column": 1
+      },
+      {
+        "text": "relevante e que está sendo apresentada da",
+        "top": 345.45,
+        "bottom": 356.41,
+        "x0": 311.81,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "forma mais adequada possível.",
+        "top": 358.4,
+        "bottom": 369.36,
+        "x0": 311.81,
+        "x1": 463.75,
+        "column": 1
+      },
+      {
+        "text": "É na combinação desses dois aspectos",
+        "top": 372.1,
+        "bottom": 383.06,
+        "x0": 328.75,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "que reside o grande impacto do ChatGPT:",
+        "top": 385.05,
+        "bottom": 396.01,
+        "x0": 311.81,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "quando lemos a sequência de palavras gerada",
+        "top": 398.0,
+        "bottom": 408.96,
+        "x0": 311.81,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "por essa IA, nossa cognição “treinada” para",
+        "top": 410.95,
+        "bottom": 421.91,
+        "x0": 311.81,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "construir significado a partir de qualquer pista",
+        "top": 423.9,
+        "bottom": 434.86,
+        "x0": 311.81,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "e para aderir ao princípio da cooperação vai",
+        "top": 436.85,
+        "bottom": 447.81,
+        "x0": 311.81,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "achar uma maneira de essa sequência fazer",
+        "top": 449.81,
+        "bottom": 460.76,
+        "x0": 311.81,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "sentido. Esse é o principal risco que IAs desse",
+        "top": 462.76,
+        "bottom": 473.72,
+        "x0": 311.81,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "tipo trazem.",
+        "top": 475.71,
+        "bottom": 486.67,
+        "x0": 311.81,
+        "x1": 368.79,
+        "column": 1
+      },
+      {
+        "text": "A fluência das sequências geradas por",
+        "top": 489.41,
+        "bottom": 500.36,
+        "x0": 328.75,
+        "x1": 538.59,
+        "column": 1
+      },
+      {
+        "text": "essas IAs desencadeia um processo de",
+        "top": 502.36,
+        "bottom": 513.32,
+        "x0": 311.81,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "antropomorfização comunicativa que foi",
+        "top": 515.31,
+        "bottom": 526.27,
+        "x0": 311.81,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "batizado de Efeito Eliza, em homenagem ao",
+        "top": 528.26,
+        "bottom": 539.22,
+        "x0": 311.81,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "primeiro chatbot.",
+        "top": 541.21,
+        "bottom": 552.17,
+        "x0": 311.81,
+        "x1": 393.59,
+        "column": 1
+      },
+      {
+        "text": "Esse efeito consiste em, a partir da",
+        "top": 554.91,
+        "bottom": 565.87,
+        "x0": 328.75,
+        "x1": 538.59,
+        "column": 1
+      },
+      {
+        "text": "projeção da nossa capacidade cognitiva para",
+        "top": 567.86,
+        "bottom": 578.82,
+        "x0": 311.81,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "a IA, atribuir a ela uma capacidade que não",
+        "top": 580.81,
+        "bottom": 591.77,
+        "x0": 311.81,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "tem: nesse caso, a de produzir sequências",
+        "top": 593.76,
+        "bottom": 604.72,
+        "x0": 311.81,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "linguísticas sabendo o que significam.",
+        "top": 606.71,
+        "bottom": 617.67,
+        "x0": 311.81,
+        "x1": 496.37,
+        "column": 1
+      },
+      {
+        "text": "É como se nós julgássemos que o",
+        "top": 620.41,
+        "bottom": 631.37,
+        "x0": 328.75,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "ChatGPT sabe o que diz. Entretanto, o",
+        "top": 633.36,
+        "bottom": 644.32,
+        "x0": 311.81,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "sentido de uma sequência gerada por uma IA",
+        "top": 646.31,
+        "bottom": 657.27,
+        "x0": 311.81,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "desse tipo só existe porque nós, humanos, o",
+        "top": 659.26,
+        "bottom": 670.22,
+        "x0": 311.81,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "construímos quando lemos o texto. [...]",
+        "top": 672.22,
+        "bottom": 683.17,
+        "x0": 311.81,
+        "x1": 500.76,
+        "column": 1
+      },
+      {
+        "text": "A inteligência artificial generativa (como o",
+        "top": 685.91,
+        "bottom": 696.87,
+        "x0": 328.75,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "ChatGPT) não entende o que diz — ela apenas",
+        "top": 698.86,
+        "bottom": 709.82,
+        "x0": 311.81,
+        "x1": 538.59,
+        "column": 1
+      },
+      {
+        "text": "produz sequências linguísticas com aparência",
+        "top": 711.82,
+        "bottom": 722.77,
+        "x0": 311.81,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "fluente. O sentido dessas sequências é",
+        "top": 724.77,
+        "bottom": 735.73,
+        "x0": 311.81,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "construído pelos humanos, cujas capacidades",
+        "top": 737.72,
+        "bottom": 748.68,
+        "x0": 311.81,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "cognitivas e linguísticas estão baseadas em",
+        "top": 750.67,
+        "bottom": 761.63,
+        "x0": 311.81,
+        "x1": 538.59,
+        "column": 1
+      },
+      {
+        "text": "princípios de interpretação e cooperação.",
+        "top": 763.62,
+        "bottom": 774.58,
+        "x0": 311.81,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "Assim, o risco das IAs está na forma como",
+        "top": 776.57,
+        "bottom": 787.53,
+        "x0": 311.81,
+        "x1": 538.58,
+        "column": 1
+      }
+    ],
+    "images": [],
+    "rects": [],
+    "curves": []
+  },
+  {
+    "page": 4,
+    "width": 595.276,
+    "height": 841.89,
+    "lines": [
+      {
+        "text": "nós interpretamos seus outputs, e não nelas",
+        "top": 65,
+        "bottom": 69.99,
+        "x0": 56.69,
+        "x1": 283.46,
+        "column": 0
+      },
+      {
+        "text": "mesmas.",
+        "top": 71.98,
+        "bottom": 82.94,
+        "x0": 56.69,
+        "x1": 100.98,
+        "column": 0
+      },
+      {
+        "text": "Disponível em: https://www1.folha.uol.com.br/tec",
+        "top": 92.76,
+        "bottom": 100.73,
+        "x0": 111.07,
+        "x1": 283.47,
+        "column": 0
+      },
+      {
+        "text": "/2023/07/ferramentas-como-chatgpt-so-existem-porque-humanos",
+        "top": 102.23,
+        "bottom": 110.2,
+        "x0": 56.69,
+        "x1": 286.91,
+        "column": 0
+      },
+      {
+        "text": "-veem-sentido-a-partir-de-qualquer-coisa.shtml. Acesso em 30",
+        "top": 111.69,
+        "bottom": 119.66,
+        "x0": 61.81,
+        "x1": 283.47,
+        "column": 0
+      },
+      {
+        "text": "jun. 2025 (adaptado).",
+        "top": 121.16,
+        "bottom": 129.13,
+        "x0": 207.18,
+        "x1": 283.47,
+        "column": 0
+      },
+      {
+        "text": "QUESTÃO 1.",
+        "top": 156.46,
+        "bottom": 167.42,
+        "x0": 56.69,
+        "x1": 125.65,
+        "column": 0
+      },
+      {
+        "text": "Tomando como referência o Texto 1, podemos",
+        "top": 170.61,
+        "bottom": 181.57,
+        "x0": 56.69,
+        "x1": 283.46,
+        "column": 0
+      },
+      {
+        "text": "afirmar que o autor defende que",
+        "top": 183.56,
+        "bottom": 194.52,
+        "x0": 56.69,
+        "x1": 213.2,
+        "column": 0
+      },
+      {
+        "text": "(A) a inteligência artificial generativa não",
+        "top": 205.48,
+        "bottom": 216.44,
+        "x0": 57.91,
+        "x1": 283.46,
+        "column": 0
+      },
+      {
+        "text": "entende o que diz; nós, humanos, é que",
+        "top": 218.43,
+        "bottom": 229.39,
+        "x0": 77.97,
+        "x1": 283.46,
+        "column": 0
+      },
+      {
+        "text": "projetamos sentido ao que ela gera, a",
+        "top": 231.38,
+        "bottom": 242.34,
+        "x0": 77.97,
+        "x1": 283.46,
+        "column": 0
+      },
+      {
+        "text": "partir do princípio de cooperação e da",
+        "top": 244.33,
+        "bottom": 255.29,
+        "x0": 77.97,
+        "x1": 283.46,
+        "column": 0
+      },
+      {
+        "text": "interpretação de pistas linguísticas.",
+        "top": 257.28,
+        "bottom": 268.24,
+        "x0": 77.97,
+        "x1": 249.29,
+        "column": 0
+      },
+      {
+        "text": "(B) a inteligência artificial generativa, cada",
+        "top": 279.2,
+        "bottom": 290.16,
+        "x0": 57.91,
+        "x1": 283.46,
+        "column": 0
+      },
+      {
+        "text": "vez mais, entende o que é gerado em",
+        "top": 292.15,
+        "bottom": 303.11,
+        "x0": 77.97,
+        "x1": 283.47,
+        "column": 0
+      },
+      {
+        "text": "seus programas, mas é preciso “recalibrar”",
+        "top": 305.1,
+        "bottom": 316.06,
+        "x0": 77.97,
+        "x1": 283.46,
+        "column": 0
+      },
+      {
+        "text": "corretamente as informações para que os",
+        "top": 318.06,
+        "bottom": 329.02,
+        "x0": 77.97,
+        "x1": 283.47,
+        "column": 0
+      },
+      {
+        "text": "textos façam sentido.",
+        "top": 331.01,
+        "bottom": 341.97,
+        "x0": 77.97,
+        "x1": 180.43,
+        "column": 0
+      },
+      {
+        "text": "(C) a partir do viés computacional e linguístico,",
+        "top": 352.93,
+        "bottom": 363.88,
+        "x0": 57.31,
+        "x1": 283.47,
+        "column": 0
+      },
+      {
+        "text": "a IA produz textos que os humanos",
+        "top": 365.88,
+        "bottom": 376.84,
+        "x0": 77.97,
+        "x1": 283.46,
+        "column": 0
+      },
+      {
+        "text": "nem sempre conseguem produzir, pois",
+        "top": 378.83,
+        "bottom": 389.79,
+        "x0": 77.97,
+        "x1": 283.46,
+        "column": 0
+      },
+      {
+        "text": "programas como ChatGPT são treinados",
+        "top": 391.78,
+        "bottom": 402.74,
+        "x0": 77.97,
+        "x1": 283.47,
+        "column": 0
+      },
+      {
+        "text": "e calibrados o tempo todo.",
+        "top": 404.73,
+        "bottom": 415.69,
+        "x0": 77.97,
+        "x1": 206.56,
+        "column": 0
+      },
+      {
+        "text": "(D) as IA que geram textos e imagens, embora",
+        "top": 426.65,
+        "bottom": 437.61,
+        "x0": 57.31,
+        "x1": 283.47,
+        "column": 0
+      },
+      {
+        "text": "saibam o sentido do que produzem,",
+        "top": 439.6,
+        "bottom": 450.56,
+        "x0": 77.97,
+        "x1": 283.46,
+        "column": 0
+      },
+      {
+        "text": "alimentam-se das informações de seus",
+        "top": 452.55,
+        "bottom": 463.51,
+        "x0": 77.97,
+        "x1": 283.47,
+        "column": 0
+      },
+      {
+        "text": "usuários, deixando os programas cada vez",
+        "top": 465.5,
+        "bottom": 476.46,
+        "x0": 77.97,
+        "x1": 283.46,
+        "column": 0
+      },
+      {
+        "text": "melhores.",
+        "top": 478.45,
+        "bottom": 489.41,
+        "x0": 77.97,
+        "x1": 125.92,
+        "column": 0
+      },
+      {
+        "text": "(E) o impacto das inteligências artificiais",
+        "top": 500.37,
+        "bottom": 511.33,
+        "x0": 57.91,
+        "x1": 283.47,
+        "column": 0
+      },
+      {
+        "text": "na humanidade ainda não pode ser",
+        "top": 513.32,
+        "bottom": 524.28,
+        "x0": 77.97,
+        "x1": 283.47,
+        "column": 0
+      },
+      {
+        "text": "calculado, mas as sequências linguísticas",
+        "top": 526.28,
+        "bottom": 537.23,
+        "x0": 77.97,
+        "x1": 283.46,
+        "column": 0
+      },
+      {
+        "text": "produzidas por ChatGPT estão cada vez",
+        "top": 539.23,
+        "bottom": 550.19,
+        "x0": 77.97,
+        "x1": 283.46,
+        "column": 0
+      },
+      {
+        "text": "mais fluentes.",
+        "top": 552.18,
+        "bottom": 563.14,
+        "x0": 77.97,
+        "x1": 145.41,
+        "column": 0
+      },
+      {
+        "text": "QUESTÃO 2.",
+        "top": 74.77,
+        "bottom": 85.73,
+        "x0": 311.81,
+        "x1": 380.76,
+        "column": 1
+      },
+      {
+        "text": "O uso de duas citações no Texto 1 – de Gilles",
+        "top": 88.92,
+        "bottom": 99.87,
+        "x0": 311.81,
+        "x1": 538.59,
+        "column": 1
+      },
+      {
+        "text": "Fauconnier e Paul Grice – tem como objetivo",
+        "top": 101.87,
+        "bottom": 112.83,
+        "x0": 311.81,
+        "x1": 529.98,
+        "column": 1
+      },
+      {
+        "text": "(A) defender que a língua não é um conjunto",
+        "top": 123.05,
+        "bottom": 134.01,
+        "x0": 313.03,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "de pistas para interpretação, mas um",
+        "top": 136.0,
+        "bottom": 146.96,
+        "x0": 333.09,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "mecanismo de transmissão direto de",
+        "top": 148.95,
+        "bottom": 159.91,
+        "x0": 333.09,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "sentidos.",
+        "top": 161.91,
+        "bottom": 172.86,
+        "x0": 333.09,
+        "x1": 376.78,
+        "column": 1
+      },
+      {
+        "text": "(B) destacar que a Linguística, como ciência",
+        "top": 183.53,
+        "bottom": 194.49,
+        "x0": 313.03,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "da linguagem, é a área mais importante",
+        "top": 196.48,
+        "bottom": 207.44,
+        "x0": 333.09,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "para a concepção das IA.",
+        "top": 209.43,
+        "bottom": 220.39,
+        "x0": 333.09,
+        "x1": 457.25,
+        "column": 1
+      },
+      {
+        "text": "(C) exemplificar, a partir de duas citações,",
+        "top": 231.06,
+        "bottom": 242.02,
+        "x0": 312.43,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "como a Linguística pode colaborar para o",
+        "top": 244.01,
+        "bottom": 254.97,
+        "x0": 333.09,
+        "x1": 538.59,
+        "column": 1
+      },
+      {
+        "text": "aprimoramento do ChatGPT.",
+        "top": 256.96,
+        "bottom": 267.92,
+        "x0": 333.09,
+        "x1": 472.52,
+        "column": 1
+      },
+      {
+        "text": "(D) fundamentar o ponto de vista acerca da",
+        "top": 278.58,
+        "bottom": 289.54,
+        "x0": 312.43,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "importância dos aspectos linguísticos para",
+        "top": 291.54,
+        "bottom": 302.5,
+        "x0": 333.09,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "a análise sobre o funcionamento das IA.",
+        "top": 304.49,
+        "bottom": 315.45,
+        "x0": 333.09,
+        "x1": 528.63,
+        "column": 1
+      },
+      {
+        "text": "(E) mostrar que não cabem aos seres",
+        "top": 326.11,
+        "bottom": 337.07,
+        "x0": 313.03,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "humanos as interpretações decorrentes",
+        "top": 339.06,
+        "bottom": 350.02,
+        "x0": 333.09,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "dos textos produzidos por IA, citando dois",
+        "top": 352.01,
+        "bottom": 362.97,
+        "x0": 333.09,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "pensadores da área.",
+        "top": 364.97,
+        "bottom": 375.93,
+        "x0": 333.09,
+        "x1": 433.6,
+        "column": 1
+      },
+      {
+        "text": "QUESTÃO 3.",
+        "top": 408.67,
+        "bottom": 419.63,
+        "x0": 311.81,
+        "x1": 380.76,
+        "column": 1
+      },
+      {
+        "text": "Releia o trecho do nono parágrafo do Texto",
+        "top": 422.81,
+        "bottom": 433.77,
+        "x0": 311.81,
+        "x1": 538.59,
+        "column": 1
+      },
+      {
+        "text": "1, “Ferramentas como ChatGPT só existem",
+        "top": 435.76,
+        "bottom": 446.72,
+        "x0": 311.81,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "porque humanos veem sentido a partir de",
+        "top": 448.72,
+        "bottom": 459.68,
+        "x0": 311.81,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "qualquer coisa”, de Tiago Torrent.",
+        "top": 461.67,
+        "bottom": 472.63,
+        "x0": 311.81,
+        "x1": 475.56,
+        "column": 1
+      },
+      {
+        "text": "“É na combinação desses dois aspectos",
+        "top": 487.61,
+        "bottom": 498.57,
+        "x0": 311.81,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "que reside o grande impacto do ChatGPT:",
+        "top": 500.57,
+        "bottom": 511.52,
+        "x0": 311.81,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "[...].”",
+        "top": 513.52,
+        "bottom": 524.48,
+        "x0": 311.81,
+        "x1": 335.46,
+        "column": 1
+      },
+      {
+        "text": "A expressão “desses dois aspectos” refere-se",
+        "top": 539.38,
+        "bottom": 550.34,
+        "x0": 311.81,
+        "x1": 534.07,
+        "column": 1
+      },
+      {
+        "text": "(A) à capacidade humana de interpretação a",
+        "top": 560.56,
+        "bottom": 571.52,
+        "x0": 313.03,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "partir de pistas linguísticas e ao Princípio",
+        "top": 573.51,
+        "bottom": 584.47,
+        "x0": 333.09,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "de Cooperação.",
+        "top": 586.46,
+        "bottom": 597.42,
+        "x0": 333.09,
+        "x1": 410.51,
+        "column": 1
+      },
+      {
+        "text": "(B) à ordem de palavras formadas por IA e",
+        "top": 608.09,
+        "bottom": 619.05,
+        "x0": 313.03,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "à cognição “treinada” para não produzir",
+        "top": 621.04,
+        "bottom": 632.0,
+        "x0": 333.09,
+        "x1": 538.59,
+        "column": 1
+      },
+      {
+        "text": "significado a partir de pistas.",
+        "top": 633.99,
+        "bottom": 644.95,
+        "x0": 333.09,
+        "x1": 472.24,
+        "column": 1
+      },
+      {
+        "text": "(C) à técnica de “Aprendizagem de Reforço",
+        "top": 655.62,
+        "bottom": 666.57,
+        "x0": 312.43,
+        "x1": 538.59,
+        "column": 1
+      },
+      {
+        "text": "por Feedback Humano” e à capacidade de",
+        "top": 668.57,
+        "bottom": 679.53,
+        "x0": 333.09,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "calibragem do ChatGPT.",
+        "top": 681.52,
+        "bottom": 692.48,
+        "x0": 333.09,
+        "x1": 452.26,
+        "column": 1
+      },
+      {
+        "text": "(D) ao viés computacional e ao viés linguístico",
+        "top": 703.14,
+        "bottom": 714.1,
+        "x0": 312.43,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "da criação do ChatGPT e outras IA",
+        "top": 716.09,
+        "bottom": 727.05,
+        "x0": 333.09,
+        "x1": 538.59,
+        "column": 1
+      },
+      {
+        "text": "generativas.",
+        "top": 729.05,
+        "bottom": 740.0,
+        "x0": 333.09,
+        "x1": 392.24,
+        "column": 1
+      },
+      {
+        "text": "(E) aos riscos que as IA podem trazer",
+        "top": 750.67,
+        "bottom": 761.63,
+        "x0": 313.03,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "e ao processo de antropomorfização",
+        "top": 763.62,
+        "bottom": 774.58,
+        "x0": 333.09,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "comunicativa.",
+        "top": 776.57,
+        "bottom": 787.53,
+        "x0": 333.09,
+        "x1": 399.7,
+        "column": 1
+      }
+    ],
+    "images": [],
+    "rects": [
+      {
+        "x0": 56.69,
+        "x1": 283.46,
+        "top": 145.09,
+        "bottom": 149.35
+      },
+      {
+        "x0": 311.81,
+        "x1": 538.58,
+        "top": 63.4,
+        "bottom": 67.65
+      },
+      {
+        "x0": 311.81,
+        "x1": 538.58,
+        "top": 397.3,
+        "bottom": 401.55
+      }
+    ],
+    "curves": []
+  },
+  {
+    "page": 5,
+    "width": 595.276,
+    "height": 841.89,
+    "lines": [
+      {
+        "text": "TEXTO 2",
+        "top": 65,
+        "bottom": 70.03,
+        "x0": 147.46,
+        "x1": 192.7,
+        "column": 0
+      },
+      {
+        "text": "PESSOAS BUSCAM INTELIGÊNCIA",
+        "top": 84.03,
+        "bottom": 94.99,
+        "x0": 78.16,
+        "x1": 262.0,
+        "column": 0
+      },
+      {
+        "text": "ARTIFICIAL PARA CONVERSAR E ALIVIAR",
+        "top": 96.98,
+        "bottom": 107.94,
+        "x0": 58.1,
+        "x1": 282.06,
+        "column": 0
+      },
+      {
+        "text": "SOFRIMENTO PSÍQUICO",
+        "top": 109.93,
+        "bottom": 120.89,
+        "x0": 105.5,
+        "x1": 234.65,
+        "column": 0
+      },
+      {
+        "text": "Tecnologia pode ajudar, mas especialistas",
+        "top": 134.85,
+        "bottom": 145.8,
+        "x0": 56.69,
+        "x1": 283.47,
+        "column": 0
+      },
+      {
+        "text": "apontam riscos e afirmam que ferramenta não",
+        "top": 147.8,
+        "bottom": 158.76,
+        "x0": 56.69,
+        "x1": 283.46,
+        "column": 0
+      },
+      {
+        "text": "substitui um terapeuta",
+        "top": 160.75,
+        "bottom": 171.71,
+        "x0": 56.69,
+        "x1": 164.4,
+        "column": 0
+      },
+      {
+        "text": "Site do Jornal Folha de São Paulo",
+        "top": 185.72,
+        "bottom": 196.68,
+        "x0": 117.66,
+        "x1": 283.47,
+        "column": 0
+      },
+      {
+        "text": "folha.com/equilibrio",
+        "top": 198.67,
+        "bottom": 209.63,
+        "x0": 189.23,
+        "x1": 283.47,
+        "column": 0
+      },
+      {
+        "text": "Três anos após a chegada do ChatGPT",
+        "top": 223.63,
+        "bottom": 234.59,
+        "x0": 73.63,
+        "x1": 283.46,
+        "column": 0
+      },
+      {
+        "text": "ao país, os brasileiros recorrem a soluções de",
+        "top": 236.58,
+        "bottom": 247.54,
+        "x0": 56.69,
+        "x1": 283.47,
+        "column": 0
+      },
+      {
+        "text": "inteligência artificial (IA) para diversos fins, seja",
+        "top": 249.53,
+        "bottom": 260.49,
+        "x0": 56.69,
+        "x1": 283.46,
+        "column": 0
+      },
+      {
+        "text": "na escola, na universidade, no trabalho ou na",
+        "top": 262.48,
+        "bottom": 273.44,
+        "x0": 56.69,
+        "x1": 283.47,
+        "column": 0
+      },
+      {
+        "text": "vida pessoal, inclusive para lidar com questões",
+        "top": 275.43,
+        "bottom": 286.39,
+        "x0": 56.69,
+        "x1": 283.46,
+        "column": 0
+      },
+      {
+        "text": "muito humanas, como o sofrimento psíquico.",
+        "top": 288.38,
+        "bottom": 299.34,
+        "x0": 56.69,
+        "x1": 274.19,
+        "column": 0
+      },
+      {
+        "text": "A OMS (Organização Mundial da Saúde)",
+        "top": 301.34,
+        "bottom": 312.3,
+        "x0": 73.63,
+        "x1": 283.46,
+        "column": 0
+      },
+      {
+        "text": "estima que cerca de 300 milhões de pessoas",
+        "top": 314.3,
+        "bottom": 325.26,
+        "x0": 56.69,
+        "x1": 283.46,
+        "column": 0
+      },
+      {
+        "text": "no mundo sofram com depressão. Somado",
+        "top": 327.25,
+        "bottom": 338.21,
+        "x0": 56.69,
+        "x1": 283.46,
+        "column": 0
+      },
+      {
+        "text": "a isso há o uso excessivo de mídias digitais,",
+        "top": 340.2,
+        "bottom": 351.16,
+        "x0": 56.69,
+        "x1": 283.47,
+        "column": 0
+      },
+      {
+        "text": "fenômeno que reflete a sociedade em que",
+        "top": 353.15,
+        "bottom": 364.11,
+        "x0": 56.69,
+        "x1": 283.47,
+        "column": 0
+      },
+      {
+        "text": "vivemos. “Estamos fragmentados, isolados,",
+        "top": 366.1,
+        "bottom": 377.06,
+        "x0": 56.69,
+        "x1": 283.47,
+        "column": 0
+      },
+      {
+        "text": "não encontramos nas pessoas relações que",
+        "top": 379.05,
+        "bottom": 390.01,
+        "x0": 56.69,
+        "x1": 283.46,
+        "column": 0
+      },
+      {
+        "text": "nos satisfazem. A nossa sociedade não",
+        "top": 392.0,
+        "bottom": 402.96,
+        "x0": 56.69,
+        "x1": 283.46,
+        "column": 0
+      },
+      {
+        "text": "dá conforto para ninguém e vivemos em",
+        "top": 404.96,
+        "bottom": 415.92,
+        "x0": 56.69,
+        "x1": 283.47,
+        "column": 0
+      },
+      {
+        "text": "tensão permanente”, avalia Glauco Arbix,",
+        "top": 417.91,
+        "bottom": 428.87,
+        "x0": 56.69,
+        "x1": 283.47,
+        "column": 0
+      },
+      {
+        "text": "sociólogo e professor titular do Departamento",
+        "top": 430.86,
+        "bottom": 441.82,
+        "x0": 56.69,
+        "x1": 283.47,
+        "column": 0
+      },
+      {
+        "text": "de Sociologia da USP.",
+        "top": 443.81,
+        "bottom": 454.77,
+        "x0": 56.69,
+        "x1": 164.36,
+        "column": 0
+      },
+      {
+        "text": "É nesse cenário que os brasileiros estão",
+        "top": 456.77,
+        "bottom": 467.73,
+        "x0": 73.63,
+        "x1": 283.47,
+        "column": 0
+      },
+      {
+        "text": "recorrendo à tecnologia, mais precisamente",
+        "top": 469.72,
+        "bottom": 480.68,
+        "x0": 56.69,
+        "x1": 283.47,
+        "column": 0
+      },
+      {
+        "text": "à IA, para suprir suas necessidades",
+        "top": 482.68,
+        "bottom": 493.63,
+        "x0": 56.69,
+        "x1": 283.47,
+        "column": 0
+      },
+      {
+        "text": "psicológicas.",
+        "top": 495.63,
+        "bottom": 506.59,
+        "x0": 56.69,
+        "x1": 119.26,
+        "column": 0
+      },
+      {
+        "text": "Além do ChatGPT, usado por muita",
+        "top": 508.59,
+        "bottom": 519.55,
+        "x0": 73.63,
+        "x1": 283.46,
+        "column": 0
+      },
+      {
+        "text": "gente que deseja desabafar, ferramentas",
+        "top": 521.54,
+        "bottom": 532.5,
+        "x0": 56.69,
+        "x1": 283.47,
+        "column": 0
+      },
+      {
+        "text": "específicas já foram criadas para dar suporte",
+        "top": 534.49,
+        "bottom": 545.45,
+        "x0": 56.69,
+        "x1": 283.47,
+        "column": 0
+      },
+      {
+        "text": "emocional. Em agosto de 2024, a empresa",
+        "top": 547.44,
+        "bottom": 558.4,
+        "x0": 56.69,
+        "x1": 283.47,
+        "column": 0
+      },
+      {
+        "text": "de telemedicina Vibe Saúde lançou a Vivi,",
+        "top": 560.39,
+        "bottom": 571.35,
+        "x0": 56.69,
+        "x1": 283.47,
+        "column": 0
+      },
+      {
+        "text": "“assistente de IA em saúde mental” que hoje",
+        "top": 573.35,
+        "bottom": 584.3,
+        "x0": 56.69,
+        "x1": 283.46,
+        "column": 0
+      },
+      {
+        "text": "conta com 16 mil usuários.",
+        "top": 586.3,
+        "bottom": 597.26,
+        "x0": 56.69,
+        "x1": 187.03,
+        "column": 0
+      },
+      {
+        "text": "IA é usada para terapia e suporte emocional -",
+        "top": 763.62,
+        "bottom": 774.58,
+        "x0": 58.8,
+        "x1": 281.36,
+        "column": 0
+      },
+      {
+        "text": "Catarina Pignato.",
+        "top": 776.57,
+        "bottom": 787.53,
+        "x0": 127.88,
+        "x1": 212.28,
+        "column": 0
+      },
+      {
+        "text": "A IA avalia as mensagens enviadas pelo",
+        "top": 65,
+        "bottom": 69.99,
+        "x0": 328.75,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "usuário e sugere um ciclo de cuidado de",
+        "top": 71.98,
+        "bottom": 82.94,
+        "x0": 311.81,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "seis semanas que segue as técnicas da",
+        "top": 84.93,
+        "bottom": 95.89,
+        "x0": 311.81,
+        "x1": 538.59,
+        "column": 1
+      },
+      {
+        "text": "terapia cognitivo-comportamental. De acordo",
+        "top": 97.88,
+        "bottom": 108.84,
+        "x0": 311.81,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "com Felipe Cunha, presidente e cofundador",
+        "top": 110.83,
+        "bottom": 121.79,
+        "x0": 311.81,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "da empresa, os protocolos foram criados",
+        "top": 123.78,
+        "bottom": 134.74,
+        "x0": 311.81,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "por profissionais de saúde, e há ainda uma",
+        "top": 136.74,
+        "bottom": 147.7,
+        "x0": 311.81,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "plataforma de segurança clínica que funciona",
+        "top": 149.69,
+        "bottom": 160.65,
+        "x0": 311.81,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "como uma auditora em tempo real e “pode",
+        "top": 162.64,
+        "bottom": 173.6,
+        "x0": 311.81,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "bloquear uma mensagem que tenha uma",
+        "top": 175.59,
+        "bottom": 186.55,
+        "x0": 311.81,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "conduta clínica não aceitável por parte da",
+        "top": 188.54,
+        "bottom": 199.5,
+        "x0": 311.81,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "inteligência artificial”.",
+        "top": 201.49,
+        "bottom": 212.45,
+        "x0": 311.81,
+        "x1": 413.95,
+        "column": 1
+      },
+      {
+        "text": "Após oferecer o ciclo terapêutico de seis",
+        "top": 215.31,
+        "bottom": 226.27,
+        "x0": 328.75,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "semanas, a Vivi indica possíveis soluções para",
+        "top": 228.27,
+        "bottom": 239.22,
+        "x0": 311.81,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "as questões levantadas e diz que o contato",
+        "top": 241.22,
+        "bottom": 252.18,
+        "x0": 311.81,
+        "x1": 538.59,
+        "column": 1
+      },
+      {
+        "text": "pode ser retomado a qualquer momento.",
+        "top": 254.17,
+        "bottom": 265.13,
+        "x0": 311.81,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "Se o usuário não precisar da assistência",
+        "top": 267.12,
+        "bottom": 278.08,
+        "x0": 311.81,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "ao longo dos dias, na semana seguinte a",
+        "top": 280.07,
+        "bottom": 291.03,
+        "x0": 311.81,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "própria IA envia uma mensagem no dia e",
+        "top": 293.02,
+        "bottom": 303.98,
+        "x0": 311.81,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "horário previamente combinados. A partir de",
+        "top": 305.97,
+        "bottom": 316.93,
+        "x0": 311.81,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "fevereiro o serviço será cobrado — R$ 2,50",
+        "top": 318.93,
+        "bottom": 329.88,
+        "x0": 311.81,
+        "x1": 538.59,
+        "column": 1
+      },
+      {
+        "text": "por um pacote de 30 mensagens enviadas pelo",
+        "top": 331.88,
+        "bottom": 342.84,
+        "x0": 311.81,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "usuário, em texto ou áudio.",
+        "top": 344.83,
+        "bottom": 355.79,
+        "x0": 311.81,
+        "x1": 442.95,
+        "column": 1
+      },
+      {
+        "text": "“Ela [Vivi] não é uma profissional, não",
+        "top": 358.65,
+        "bottom": 369.61,
+        "x0": 328.75,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "substitui o psicólogo e não passa nenhum",
+        "top": 371.6,
+        "bottom": 382.56,
+        "x0": 311.81,
+        "x1": 538.59,
+        "column": 1
+      },
+      {
+        "text": "tipo de diagnóstico ou medicamentos. É",
+        "top": 384.55,
+        "bottom": 395.51,
+        "x0": 311.81,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "uma assistente de suporte emocional para",
+        "top": 397.5,
+        "bottom": 408.46,
+        "x0": 311.81,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "suplementar o trabalho dos profissionais de",
+        "top": 410.46,
+        "bottom": 421.41,
+        "x0": 311.81,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "saúde”, ressalta Cunha.",
+        "top": 423.41,
+        "bottom": 434.37,
+        "x0": 311.81,
+        "x1": 428.15,
+        "column": 1
+      },
+      {
+        "text": "Alicie Camargo, publicitária de 27 anos,",
+        "top": 437.23,
+        "bottom": 448.19,
+        "x0": 328.75,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "conta que usa o ChatGPT em momentos de",
+        "top": 450.18,
+        "bottom": 461.14,
+        "x0": 311.81,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "ansiedade. Ela avalia que a interação é,",
+        "top": 463.13,
+        "bottom": 474.09,
+        "x0": 311.81,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "em geral, positiva — por exemplo quando a",
+        "top": 476.08,
+        "bottom": 487.04,
+        "x0": 311.81,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "ferramenta a ajuda a acertar o tom de uma",
+        "top": 489.03,
+        "bottom": 499.99,
+        "x0": 311.81,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "mensagem que deseja enviar a alguém e",
+        "top": 501.98,
+        "bottom": 512.94,
+        "x0": 311.81,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "não sabe como, quando indica exercícios de",
+        "top": 514.94,
+        "bottom": 525.89,
+        "x0": 311.81,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "respiração em momentos de crise e quando",
+        "top": 527.89,
+        "bottom": 538.85,
+        "x0": 311.81,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "aponta algo que ela não enxergaria sozinha em",
+        "top": 540.84,
+        "bottom": 551.8,
+        "x0": 311.81,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "uma situação.",
+        "top": 553.79,
+        "bottom": 564.75,
+        "x0": 311.81,
+        "x1": 379.59,
+        "column": 1
+      },
+      {
+        "text": "“Mas eu entendo as limitações”, diz ela,",
+        "top": 567.61,
+        "bottom": 578.57,
+        "x0": 328.75,
+        "x1": 538.59,
+        "column": 1
+      },
+      {
+        "text": "citando sugestões oferecidas pela IA que não",
+        "top": 580.56,
+        "bottom": 591.52,
+        "x0": 311.81,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "condizem com a sua personalidade. “Se o",
+        "top": 593.51,
+        "bottom": 604.47,
+        "x0": 311.81,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "problema for cobrar alguém, óbvio que ele",
+        "top": 606.47,
+        "bottom": 617.42,
+        "x0": 311.81,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "[ChatGPT] vai dar a solução de cobrar a",
+        "top": 619.42,
+        "bottom": 630.38,
+        "x0": 311.81,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "atitude, mas emocionalmente eu não estaria",
+        "top": 632.37,
+        "bottom": 643.33,
+        "x0": 311.81,
+        "x1": 538.59,
+        "column": 1
+      },
+      {
+        "text": "pronta para isso. Então o conselho não me",
+        "top": 645.32,
+        "bottom": 656.28,
+        "x0": 311.81,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "serviu de nada”.",
+        "top": 658.27,
+        "bottom": 669.23,
+        "x0": 311.81,
+        "x1": 390.72,
+        "column": 1
+      },
+      {
+        "text": "A publicitária sabe que a tecnologia não",
+        "top": 672.09,
+        "bottom": 683.05,
+        "x0": 328.75,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "substitui o trabalho de um profissional da",
+        "top": 685.04,
+        "bottom": 696.0,
+        "x0": 311.81,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "psicologia. “Inclusive estou procurando um.”",
+        "top": 697.99,
+        "bottom": 708.95,
+        "x0": 311.81,
+        "x1": 525.44,
+        "column": 1
+      },
+      {
+        "text": "Um ambiente digital disponível 24 horas",
+        "top": 711.82,
+        "bottom": 722.77,
+        "x0": 328.75,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "por dia pode oferecer alívio em momentos de",
+        "top": 724.77,
+        "bottom": 735.73,
+        "x0": 311.81,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "solidão, mas pesquisadores alertam para o fato",
+        "top": 737.72,
+        "bottom": 748.68,
+        "x0": 311.81,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "de que essas tecnologias são novas e seus",
+        "top": 750.67,
+        "bottom": 761.63,
+        "x0": 311.81,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "efeitos ainda não são conhecidos. “Se as",
+        "top": 763.62,
+        "bottom": 774.58,
+        "x0": 311.81,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "pessoas podem acessar algo que as fará se",
+        "top": 776.57,
+        "bottom": 787.53,
+        "x0": 311.81,
+        "x1": 538.58,
+        "column": 1
+      }
+    ],
+    "images": [
+      {
+        "x0": 56.69,
+        "x1": 283.46,
+        "top": 608.12,
+        "bottom": 759.29
+      }
+    ],
+    "rects": [],
+    "curves": []
+  },
+  {
+    "page": 6,
+    "width": 595.276,
+    "height": 841.89,
+    "lines": [
+      {
+        "text": "sentir menos solitárias porque escutam o que",
+        "top": 65,
+        "bottom": 69.99,
+        "x0": 56.69,
+        "x1": 283.46,
+        "column": 0
+      },
+      {
+        "text": "elas têm a dizer, é algo positivo. Mas, a longo",
+        "top": 71.98,
+        "bottom": 82.94,
+        "x0": 56.69,
+        "x1": 283.47,
+        "column": 0
+      },
+      {
+        "text": "prazo, não sabemos ainda se é algo realmente",
+        "top": 84.93,
+        "bottom": 95.89,
+        "x0": 56.69,
+        "x1": 283.47,
+        "column": 0
+      },
+      {
+        "text": "bom”, afirma Christopher Wagstaff, professor",
+        "top": 97.88,
+        "bottom": 108.84,
+        "x0": 56.69,
+        "x1": 283.47,
+        "column": 0
+      },
+      {
+        "text": "sênior na Universidade de Birmingham e autor",
+        "top": 110.83,
+        "bottom": 121.79,
+        "x0": 56.69,
+        "x1": 283.47,
+        "column": 0
+      },
+      {
+        "text": "do artigo “Inteligência Artificial e as relações",
+        "top": 123.78,
+        "bottom": 134.74,
+        "x0": 56.69,
+        "x1": 283.46,
+        "column": 0
+      },
+      {
+        "text": "terapêuticas na saúde mental”.",
+        "top": 136.74,
+        "bottom": 147.7,
+        "x0": 56.69,
+        "x1": 207.04,
+        "column": 0
+      },
+      {
+        "text": "“Eu gostaria de acreditar que isso nunca",
+        "top": 151.31,
+        "bottom": 162.27,
+        "x0": 73.63,
+        "x1": 283.47,
+        "column": 0
+      },
+      {
+        "text": "irá substituir a interação humana”, acresenta",
+        "top": 164.26,
+        "bottom": 175.22,
+        "x0": 56.69,
+        "x1": 283.47,
+        "column": 0
+      },
+      {
+        "text": "Wagstaff, citando “programas que têm rostos",
+        "top": 177.21,
+        "bottom": 188.17,
+        "x0": 56.69,
+        "x1": 283.47,
+        "column": 0
+      },
+      {
+        "text": "que fingem ouvir, se importar e fazer contato",
+        "top": 190.16,
+        "bottom": 201.12,
+        "x0": 56.69,
+        "x1": 283.47,
+        "column": 0
+      },
+      {
+        "text": "visual de forma empática”.",
+        "top": 203.11,
+        "bottom": 214.07,
+        "x0": 56.69,
+        "x1": 185.14,
+        "column": 0
+      },
+      {
+        "text": "L., jornalista e redatora publicitária de",
+        "top": 217.68,
+        "bottom": 228.64,
+        "x0": 73.63,
+        "x1": 283.46,
+        "column": 0
+      },
+      {
+        "text": "21 anos que não quis se identificar, conta",
+        "top": 230.63,
+        "bottom": 241.59,
+        "x0": 56.69,
+        "x1": 283.46,
+        "column": 0
+      },
+      {
+        "text": "que conseguiu contornar o problema das",
+        "top": 243.58,
+        "bottom": 254.54,
+        "x0": 56.69,
+        "x1": 283.47,
+        "column": 0
+      },
+      {
+        "text": "respostas genéricas da tecnologia de forma",
+        "top": 256.54,
+        "bottom": 267.5,
+        "x0": 56.69,
+        "x1": 283.47,
+        "column": 0
+      },
+      {
+        "text": "prática. Acostumada a usar tanto o ChatGPT",
+        "top": 269.49,
+        "bottom": 280.45,
+        "x0": 56.69,
+        "x1": 283.47,
+        "column": 0
+      },
+      {
+        "text": "quanto o Google AI Studio na faculdade e no",
+        "top": 282.44,
+        "bottom": 293.4,
+        "x0": 56.69,
+        "x1": 283.47,
+        "column": 0
+      },
+      {
+        "text": "trabalho, ela diz que desenvolveu técnicas para",
+        "top": 295.39,
+        "bottom": 306.35,
+        "x0": 56.69,
+        "x1": 283.46,
+        "column": 0
+      },
+      {
+        "text": "aprimorar os comandos e, consequentemente,",
+        "top": 308.34,
+        "bottom": 319.3,
+        "x0": 56.69,
+        "x1": 283.47,
+        "column": 0
+      },
+      {
+        "text": "as respostas do robô.",
+        "top": 321.29,
+        "bottom": 332.25,
+        "x0": 56.69,
+        "x1": 162.07,
+        "column": 0
+      },
+      {
+        "text": "A jovem começou a usar o chatbot para",
+        "top": 335.86,
+        "bottom": 346.82,
+        "x0": 73.63,
+        "x1": 283.46,
+        "column": 0
+      },
+      {
+        "text": "suporte emocional durante um período de luto,",
+        "top": 348.81,
+        "bottom": 359.77,
+        "x0": 56.69,
+        "x1": 283.46,
+        "column": 0
+      },
+      {
+        "text": "após a psicóloga com quem se consultava",
+        "top": 361.77,
+        "bottom": 372.73,
+        "x0": 56.69,
+        "x1": 283.47,
+        "column": 0
+      },
+      {
+        "text": "havia cinco anos morrer. Ela diz ser consciente",
+        "top": 374.72,
+        "bottom": 385.68,
+        "x0": 56.69,
+        "x1": 283.47,
+        "column": 0
+      },
+      {
+        "text": "dos riscos que a IA pode trazer, mas conta que",
+        "top": 387.67,
+        "bottom": 398.63,
+        "x0": 56.69,
+        "x1": 283.47,
+        "column": 0
+      },
+      {
+        "text": "na época foi o único recurso que se via capaz",
+        "top": 400.62,
+        "bottom": 411.58,
+        "x0": 56.69,
+        "x1": 283.47,
+        "column": 0
+      },
+      {
+        "text": "de utilizar, já que não conseguia procurar outro",
+        "top": 413.57,
+        "bottom": 424.53,
+        "x0": 56.69,
+        "x1": 283.47,
+        "column": 0
+      },
+      {
+        "text": "terapeuta. Depois de quatro meses usando",
+        "top": 426.52,
+        "bottom": 437.48,
+        "x0": 56.69,
+        "x1": 283.47,
+        "column": 0
+      },
+      {
+        "text": "a ferramenta, L. diz que se sentiu bem o",
+        "top": 439.47,
+        "bottom": 450.43,
+        "x0": 56.69,
+        "x1": 283.47,
+        "column": 0
+      },
+      {
+        "text": "suficiente para procurar tratamento psicológico",
+        "top": 452.43,
+        "bottom": 463.39,
+        "x0": 56.69,
+        "x1": 283.46,
+        "column": 0
+      },
+      {
+        "text": "e psiquiátrico, retomado há três meses.",
+        "top": 465.38,
+        "bottom": 476.34,
+        "x0": 56.69,
+        "x1": 248.11,
+        "column": 0
+      },
+      {
+        "text": "Disponível em: https://www1.folha.uol.com.br/",
+        "top": 497.74,
+        "bottom": 505.71,
+        "x0": 121.7,
+        "x1": 283.47,
+        "column": 0
+      },
+      {
+        "text": "equilibrio/2025/01/pessoas-buscam-inteligencia-artificial-para",
+        "top": 510.69,
+        "bottom": 518.66,
+        "x0": 67.12,
+        "x1": 283.47,
+        "column": 0
+      },
+      {
+        "text": "-conversar-e-aliviar-sofrimento-psiquico.shtml. Acesso em: 25",
+        "top": 523.64,
+        "bottom": 531.61,
+        "x0": 64.63,
+        "x1": 283.47,
+        "column": 0
+      },
+      {
+        "text": "jun. 2025.",
+        "top": 536.59,
+        "bottom": 544.56,
+        "x0": 247.93,
+        "x1": 283.46,
+        "column": 0
+      },
+      {
+        "text": "QUESTÃO 4.",
+        "top": 580.0,
+        "bottom": 590.95,
+        "x0": 56.69,
+        "x1": 125.65,
+        "column": 0
+      },
+      {
+        "text": "Sobre o uso de IA para terapia e suporte",
+        "top": 595.76,
+        "bottom": 606.72,
+        "x0": 56.69,
+        "x1": 283.47,
+        "column": 0
+      },
+      {
+        "text": "emocional, o Texto 2, “Pessoas buscam",
+        "top": 608.71,
+        "bottom": 619.67,
+        "x0": 56.69,
+        "x1": 283.47,
+        "column": 0
+      },
+      {
+        "text": "inteligência artificial para conversar e aliviar",
+        "top": 621.66,
+        "bottom": 632.62,
+        "x0": 56.69,
+        "x1": 283.46,
+        "column": 0
+      },
+      {
+        "text": "sofrimento psíquico”, apresenta:",
+        "top": 634.61,
+        "bottom": 645.57,
+        "x0": 56.69,
+        "x1": 213.39,
+        "column": 0
+      },
+      {
+        "text": "(A) apenas relatos neutros.",
+        "top": 663.01,
+        "bottom": 673.96,
+        "x0": 57.91,
+        "x1": 192.33,
+        "column": 0
+      },
+      {
+        "text": "(B) aspectos positivos e negativos.",
+        "top": 691.4,
+        "bottom": 702.36,
+        "x0": 57.91,
+        "x1": 228.93,
+        "column": 0
+      },
+      {
+        "text": "(C) estritamente uma crítica.",
+        "top": 719.79,
+        "bottom": 730.75,
+        "x0": 57.31,
+        "x1": 198.11,
+        "column": 0
+      },
+      {
+        "text": "(D) exclusivamente uma longa justificativa.",
+        "top": 748.18,
+        "bottom": 759.14,
+        "x0": 57.31,
+        "x1": 266.5,
+        "column": 0
+      },
+      {
+        "text": "(E) somente dados quantitativos negativos.",
+        "top": 776.57,
+        "bottom": 787.53,
+        "x0": 57.91,
+        "x1": 269.76,
+        "column": 0
+      },
+      {
+        "text": "QUESTÃO 5.",
+        "top": 74.82,
+        "bottom": 85.78,
+        "x0": 311.81,
+        "x1": 380.76,
+        "column": 1
+      },
+      {
+        "text": "Em relação ao primeiro e segundo parágrafos",
+        "top": 89.01,
+        "bottom": 99.97,
+        "x0": 311.81,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "do Texto 2, o terceiro parágrafo – “É nesse",
+        "top": 101.96,
+        "bottom": 112.92,
+        "x0": 311.81,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "cenário que os brasileiros estão recorrendo à",
+        "top": 114.92,
+        "bottom": 125.87,
+        "x0": 311.81,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "tecnologia, mais precisamente à IA, para suprir",
+        "top": 127.87,
+        "bottom": 138.83,
+        "x0": 311.81,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "suas necessidades psicológicas” – estabelece",
+        "top": 140.82,
+        "bottom": 151.78,
+        "x0": 311.81,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "uma relação de:",
+        "top": 153.77,
+        "bottom": 164.73,
+        "x0": 311.81,
+        "x1": 390.39,
+        "column": 1
+      },
+      {
+        "text": "(A) conclusão parcial.",
+        "top": 175.88,
+        "bottom": 186.84,
+        "x0": 313.03,
+        "x1": 420.79,
+        "column": 1
+      },
+      {
+        "text": "(B) contraposição total.",
+        "top": 197.99,
+        "bottom": 208.95,
+        "x0": 313.03,
+        "x1": 428.0,
+        "column": 1
+      },
+      {
+        "text": "(C) exemplificação pessoal.",
+        "top": 220.1,
+        "bottom": 231.06,
+        "x0": 312.43,
+        "x1": 448.76,
+        "column": 1
+      },
+      {
+        "text": "(D) justificativa subsequente.",
+        "top": 242.22,
+        "bottom": 253.18,
+        "x0": 312.43,
+        "x1": 455.09,
+        "column": 1
+      },
+      {
+        "text": "(E) ressalva comedida.",
+        "top": 264.33,
+        "bottom": 275.29,
+        "x0": 313.03,
+        "x1": 427.22,
+        "column": 1
+      },
+      {
+        "text": "LITERATURA - Objetivas",
+        "top": 303.31,
+        "bottom": 314.27,
+        "x0": 361.26,
+        "x1": 489.14,
+        "column": 1
+      },
+      {
+        "text": "TEXTO 1",
+        "top": 338.53,
+        "bottom": 349.49,
+        "x0": 402.58,
+        "x1": 447.82,
+        "column": 1
+      },
+      {
+        "text": "Mar e lua",
+        "top": 363.68,
+        "bottom": 374.64,
+        "x0": 402.97,
+        "x1": 450.47,
+        "column": 1
+      },
+      {
+        "text": "Chico Buarque",
+        "top": 388.78,
+        "bottom": 399.74,
+        "x0": 466.1,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "Amaram o amor urgente",
+        "top": 413.93,
+        "bottom": 424.89,
+        "x0": 311.81,
+        "x1": 430.46,
+        "column": 1
+      },
+      {
+        "text": "As bocas salgadas pela maresia",
+        "top": 426.88,
+        "bottom": 437.84,
+        "x0": 311.81,
+        "x1": 469.56,
+        "column": 1
+      },
+      {
+        "text": "As costas lanhadas pela tempestade",
+        "top": 439.84,
+        "bottom": 450.79,
+        "x0": 311.81,
+        "x1": 490.9,
+        "column": 1
+      },
+      {
+        "text": "Naquela cidade",
+        "top": 452.79,
+        "bottom": 463.75,
+        "x0": 311.81,
+        "x1": 387.95,
+        "column": 1
+      },
+      {
+        "text": "Distante do mar",
+        "top": 465.74,
+        "bottom": 476.7,
+        "x0": 311.81,
+        "x1": 389.16,
+        "column": 1
+      },
+      {
+        "text": "Amaram o amor serenado",
+        "top": 478.69,
+        "bottom": 489.65,
+        "x0": 311.81,
+        "x1": 438.99,
+        "column": 1
+      },
+      {
+        "text": "Das noturnas praias",
+        "top": 491.64,
+        "bottom": 502.6,
+        "x0": 311.81,
+        "x1": 410.04,
+        "column": 1
+      },
+      {
+        "text": "Levantavam as saias",
+        "top": 504.59,
+        "bottom": 515.55,
+        "x0": 311.81,
+        "x1": 413.65,
+        "column": 1
+      },
+      {
+        "text": "E se enluaravam de felicidade",
+        "top": 517.54,
+        "bottom": 528.5,
+        "x0": 311.81,
+        "x1": 457.67,
+        "column": 1
+      },
+      {
+        "text": "Naquela cidade",
+        "top": 530.5,
+        "bottom": 541.45,
+        "x0": 311.81,
+        "x1": 387.95,
+        "column": 1
+      },
+      {
+        "text": "Que não tem luar",
+        "top": 543.45,
+        "bottom": 554.41,
+        "x0": 311.81,
+        "x1": 396.48,
+        "column": 1
+      },
+      {
+        "text": "Amavam o amor proibido",
+        "top": 556.4,
+        "bottom": 567.36,
+        "x0": 311.81,
+        "x1": 433.73,
+        "column": 1
+      },
+      {
+        "text": "Pois hoje é sabido",
+        "top": 569.35,
+        "bottom": 580.31,
+        "x0": 311.81,
+        "x1": 400.81,
+        "column": 1
+      },
+      {
+        "text": "Todo mundo conta",
+        "top": 582.3,
+        "bottom": 593.26,
+        "x0": 311.81,
+        "x1": 401.76,
+        "column": 1
+      },
+      {
+        "text": "Que uma andava tonta",
+        "top": 595.25,
+        "bottom": 606.21,
+        "x0": 311.81,
+        "x1": 422.8,
+        "column": 1
+      },
+      {
+        "text": "Grávida de lua",
+        "top": 608.2,
+        "bottom": 619.16,
+        "x0": 311.81,
+        "x1": 383.08,
+        "column": 1
+      },
+      {
+        "text": "E outra andava nua",
+        "top": 621.16,
+        "bottom": 632.11,
+        "x0": 311.81,
+        "x1": 406.75,
+        "column": 1
+      },
+      {
+        "text": "Ávida de mar",
+        "top": 634.11,
+        "bottom": 645.07,
+        "x0": 311.81,
+        "x1": 376.37,
+        "column": 1
+      },
+      {
+        "text": "E foram ficando marcadas",
+        "top": 660.01,
+        "bottom": 670.97,
+        "x0": 311.81,
+        "x1": 439.27,
+        "column": 1
+      },
+      {
+        "text": "Ouvindo risadas, sentindo arrepios",
+        "top": 672.96,
+        "bottom": 683.92,
+        "x0": 311.81,
+        "x1": 481.14,
+        "column": 1
+      },
+      {
+        "text": "Olhando pro rio tão cheio de lua",
+        "top": 685.91,
+        "bottom": 696.87,
+        "x0": 311.81,
+        "x1": 467.92,
+        "column": 1
+      },
+      {
+        "text": "E que continua",
+        "top": 698.86,
+        "bottom": 709.82,
+        "x0": 311.81,
+        "x1": 384.81,
+        "column": 1
+      },
+      {
+        "text": "Correndo pro mar",
+        "top": 711.82,
+        "bottom": 722.77,
+        "x0": 311.81,
+        "x1": 398.29,
+        "column": 1
+      },
+      {
+        "text": "E foram correnteza abaixo",
+        "top": 724.77,
+        "bottom": 735.73,
+        "x0": 311.81,
+        "x1": 439.89,
+        "column": 1
+      },
+      {
+        "text": "Rolando no leito",
+        "top": 737.72,
+        "bottom": 748.68,
+        "x0": 311.81,
+        "x1": 391.0,
+        "column": 1
+      },
+      {
+        "text": "Engolindo água",
+        "top": 750.67,
+        "bottom": 761.63,
+        "x0": 311.81,
+        "x1": 387.96,
+        "column": 1
+      },
+      {
+        "text": "Boiando com as algas",
+        "top": 763.62,
+        "bottom": 774.58,
+        "x0": 311.81,
+        "x1": 419.62,
+        "column": 1
+      },
+      {
+        "text": "Arrastando folhas",
+        "top": 776.57,
+        "bottom": 787.53,
+        "x0": 311.81,
+        "x1": 397.26,
+        "column": 1
+      }
+    ],
+    "images": [],
+    "rects": [
+      {
+        "x0": 56.69,
+        "x1": 283.46,
+        "top": 567.01,
+        "bottom": 571.26
+      },
+      {
+        "x0": 311.81,
+        "x1": 538.58,
+        "top": 63.4,
+        "bottom": 67.65
+      }
+    ],
+    "curves": []
+  },
+  {
+    "page": 7,
+    "width": 595.276,
+    "height": 841.89,
+    "lines": [
+      {
+        "text": "Carregando flores",
+        "top": 65,
+        "bottom": 69.99,
+        "x0": 56.69,
+        "x1": 144.4,
+        "column": 0
+      },
+      {
+        "text": "E a se desmanchar",
+        "top": 71.98,
+        "bottom": 82.94,
+        "x0": 56.69,
+        "x1": 151.1,
+        "column": 0
+      },
+      {
+        "text": "E foram virando peixes",
+        "top": 84.93,
+        "bottom": 95.89,
+        "x0": 56.69,
+        "x1": 167.88,
+        "column": 0
+      },
+      {
+        "text": "Virando conchas",
+        "top": 97.88,
+        "bottom": 108.84,
+        "x0": 56.69,
+        "x1": 138.21,
+        "column": 0
+      },
+      {
+        "text": "Virando seixos",
+        "top": 110.83,
+        "bottom": 121.79,
+        "x0": 56.69,
+        "x1": 128.45,
+        "column": 0
+      },
+      {
+        "text": "Virando areia",
+        "top": 123.78,
+        "bottom": 134.74,
+        "x0": 56.69,
+        "x1": 121.76,
+        "column": 0
+      },
+      {
+        "text": "Prateada areia",
+        "top": 136.74,
+        "bottom": 147.7,
+        "x0": 56.69,
+        "x1": 128.46,
+        "column": 0
+      },
+      {
+        "text": "Com lua cheia",
+        "top": 149.69,
+        "bottom": 160.65,
+        "x0": 56.69,
+        "x1": 126.73,
+        "column": 0
+      },
+      {
+        "text": "E à beira-mar",
+        "top": 162.64,
+        "bottom": 173.6,
+        "x0": 56.69,
+        "x1": 122.96,
+        "column": 0
+      },
+      {
+        "text": "Fonte: BUARQUE, Chico. Mar e lua. In: Vida. Rio de Janeiro:",
+        "top": 185.98,
+        "bottom": 193.99,
+        "x0": 64.98,
+        "x1": 283.47,
+        "column": 0
+      },
+      {
+        "text": "PolygramPhilips, 1980.",
+        "top": 198.94,
+        "bottom": 206.91,
+        "x0": 202.64,
+        "x1": 283.47,
+        "column": 0
+      },
+      {
+        "text": "Glossário:",
+        "top": 217.62,
+        "bottom": 228.58,
+        "x0": 56.69,
+        "x1": 110.89,
+        "column": 0
+      },
+      {
+        "text": "Seixos: pedras pequenas, geralmente",
+        "top": 230.53,
+        "bottom": 241.53,
+        "x0": 56.69,
+        "x1": 283.47,
+        "column": 0
+      },
+      {
+        "text": "arredondadas.",
+        "top": 243.48,
+        "bottom": 254.44,
+        "x0": 56.69,
+        "x1": 127.19,
+        "column": 0
+      },
+      {
+        "text": "QUESTÃO 6.",
+        "top": 272.18,
+        "bottom": 283.13,
+        "x0": 56.69,
+        "x1": 125.65,
+        "column": 0
+      },
+      {
+        "text": "Em relação à canção “Mar e lua” (Texto 1),",
+        "top": 286.32,
+        "bottom": 297.28,
+        "x0": 56.69,
+        "x1": 283.46,
+        "column": 0
+      },
+      {
+        "text": "de Chico Buarque, assinale a alternativa que",
+        "top": 299.27,
+        "bottom": 310.23,
+        "x0": 56.69,
+        "x1": 283.47,
+        "column": 0
+      },
+      {
+        "text": "representa uma interpretação adequada aos",
+        "top": 312.22,
+        "bottom": 323.18,
+        "x0": 56.69,
+        "x1": 283.46,
+        "column": 0
+      },
+      {
+        "text": "versos destacados.",
+        "top": 325.17,
+        "bottom": 336.13,
+        "x0": 56.69,
+        "x1": 150.67,
+        "column": 0
+      },
+      {
+        "text": "(A) A canção aborda a homoafetividade",
+        "top": 348.97,
+        "bottom": 359.93,
+        "x0": 57.91,
+        "x1": 283.47,
+        "column": 0
+      },
+      {
+        "text": "através das metáforas do rio e do mar,",
+        "top": 361.92,
+        "bottom": 372.88,
+        "x0": 77.97,
+        "x1": 283.47,
+        "column": 0
+      },
+      {
+        "text": "representando as figuras das amantes,",
+        "top": 374.88,
+        "bottom": 385.83,
+        "x0": 77.97,
+        "x1": 283.46,
+        "column": 0
+      },
+      {
+        "text": "conforme indicam os versos “Naquela",
+        "top": 387.83,
+        "bottom": 398.79,
+        "x0": 77.97,
+        "x1": 283.46,
+        "column": 0
+      },
+      {
+        "text": "cidade / Distante do mar / (...) / Que não",
+        "top": 400.78,
+        "bottom": 411.74,
+        "x0": 77.97,
+        "x1": 283.46,
+        "column": 0
+      },
+      {
+        "text": "tem luar”.",
+        "top": 413.73,
+        "bottom": 424.69,
+        "x0": 77.97,
+        "x1": 124.25,
+        "column": 0
+      },
+      {
+        "text": "(B) A canção aborda a homoafetividade",
+        "top": 435.28,
+        "bottom": 446.24,
+        "x0": 57.91,
+        "x1": 283.47,
+        "column": 0
+      },
+      {
+        "text": "apresentando um desfecho feliz para o",
+        "top": 448.23,
+        "bottom": 459.19,
+        "x0": 77.97,
+        "x1": 283.46,
+        "column": 0
+      },
+      {
+        "text": "relacionamento das amantes, conforme",
+        "top": 461.18,
+        "bottom": 472.14,
+        "x0": 77.97,
+        "x1": 283.46,
+        "column": 0
+      },
+      {
+        "text": "indicam os versos “E foram correnteza",
+        "top": 474.13,
+        "bottom": 485.09,
+        "x0": 77.97,
+        "x1": 283.46,
+        "column": 0
+      },
+      {
+        "text": "abaixo / Rolando no leito / Engolindo",
+        "top": 487.08,
+        "bottom": 498.04,
+        "x0": 77.97,
+        "x1": 283.46,
+        "column": 0
+      },
+      {
+        "text": "água”.",
+        "top": 500.04,
+        "bottom": 510.99,
+        "x0": 77.97,
+        "x1": 109.04,
+        "column": 0
+      },
+      {
+        "text": "(C) A canção aborda a homoafetividade e",
+        "top": 521.58,
+        "bottom": 532.54,
+        "x0": 57.31,
+        "x1": 283.47,
+        "column": 0
+      },
+      {
+        "text": "o preconceito social, conforme indicam",
+        "top": 534.53,
+        "bottom": 545.49,
+        "x0": 77.97,
+        "x1": 283.46,
+        "column": 0
+      },
+      {
+        "text": "os versos “E foram ficando marcadas",
+        "top": 547.49,
+        "bottom": 558.45,
+        "x0": 77.97,
+        "x1": 283.46,
+        "column": 0
+      },
+      {
+        "text": "/ Ouvindo risadas, sentindo arrepios /",
+        "top": 560.44,
+        "bottom": 571.4,
+        "x0": 77.97,
+        "x1": 283.46,
+        "column": 0
+      },
+      {
+        "text": "Olhando pro rio tão cheio de lua”.",
+        "top": 573.39,
+        "bottom": 584.35,
+        "x0": 77.97,
+        "x1": 240.78,
+        "column": 0
+      },
+      {
+        "text": "(D) A canção aborda a homoafetividade,",
+        "top": 594.94,
+        "bottom": 605.9,
+        "x0": 57.31,
+        "x1": 283.46,
+        "column": 0
+      },
+      {
+        "text": "deixando evidente a traição amorosa de",
+        "top": 607.89,
+        "bottom": 618.85,
+        "x0": 77.97,
+        "x1": 283.47,
+        "column": 0
+      },
+      {
+        "text": "uma das amantes, conforme indicam os",
+        "top": 620.84,
+        "bottom": 631.8,
+        "x0": 77.97,
+        "x1": 283.46,
+        "column": 0
+      },
+      {
+        "text": "versos “Todo mundo conta / Que uma",
+        "top": 633.79,
+        "bottom": 644.75,
+        "x0": 77.97,
+        "x1": 283.46,
+        "column": 0
+      },
+      {
+        "text": "andava tonta / Grávida de lua / (...) / Ávida",
+        "top": 646.74,
+        "bottom": 657.7,
+        "x0": 77.97,
+        "x1": 283.47,
+        "column": 0
+      },
+      {
+        "text": "de mar”.",
+        "top": 659.69,
+        "bottom": 670.65,
+        "x0": 77.97,
+        "x1": 118.77,
+        "column": 0
+      },
+      {
+        "text": "(E) A canção aborda a homoafetividade",
+        "top": 681.24,
+        "bottom": 692.2,
+        "x0": 57.91,
+        "x1": 283.47,
+        "column": 0
+      },
+      {
+        "text": "a partir da construção de elementos",
+        "top": 694.19,
+        "bottom": 705.15,
+        "x0": 77.97,
+        "x1": 283.47,
+        "column": 0
+      },
+      {
+        "text": "validados pela sociedade representada",
+        "top": 707.15,
+        "bottom": 718.1,
+        "x0": 77.97,
+        "x1": 283.46,
+        "column": 0
+      },
+      {
+        "text": "na letra, conforme indicam os versos",
+        "top": 720.1,
+        "bottom": 731.06,
+        "x0": 77.97,
+        "x1": 283.46,
+        "column": 0
+      },
+      {
+        "text": "“Amavam o amor proibido / Pois hoje é",
+        "top": 733.05,
+        "bottom": 744.01,
+        "x0": 77.97,
+        "x1": 283.47,
+        "column": 0
+      },
+      {
+        "text": "sabido/ todo mundo conta”.",
+        "top": 746.0,
+        "bottom": 756.96,
+        "x0": 77.97,
+        "x1": 210.66,
+        "column": 0
+      },
+      {
+        "text": "TEXTO 2",
+        "top": 65,
+        "bottom": 70.03,
+        "x0": 402.58,
+        "x1": 447.82,
+        "column": 1
+      },
+      {
+        "text": "Arpejos",
+        "top": 72.02,
+        "bottom": 82.98,
+        "x0": 404.8,
+        "x1": 445.6,
+        "column": 1
+      },
+      {
+        "text": "Ana Cristina Cesar",
+        "top": 96.89,
+        "bottom": 107.84,
+        "x0": 446.46,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "1",
+        "top": 121.79,
+        "bottom": 132.75,
+        "x0": 311.81,
+        "x1": 317.9,
+        "column": 1
+      },
+      {
+        "text": "Acordei com coceira no hímen. No bidê com",
+        "top": 134.74,
+        "bottom": 145.7,
+        "x0": 311.81,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "espelhinho examinei o local. Não surpreendi",
+        "top": 147.7,
+        "bottom": 158.65,
+        "x0": 311.81,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "indícios de moléstia. Meus olhos leigos na",
+        "top": 160.65,
+        "bottom": 171.61,
+        "x0": 311.81,
+        "x1": 538.59,
+        "column": 1
+      },
+      {
+        "text": "certa não percebem que um rouge a mais tem",
+        "top": 173.6,
+        "bottom": 184.56,
+        "x0": 311.81,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "significado a mais. Passei pomada branca até",
+        "top": 186.55,
+        "bottom": 197.51,
+        "x0": 311.81,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "que a pele (rugosa e murcha) ficasse brilhante.",
+        "top": 199.5,
+        "bottom": 210.46,
+        "x0": 311.81,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "Com essa murcharam igualmente projetos de",
+        "top": 212.45,
+        "bottom": 223.41,
+        "x0": 311.81,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "ir de bicicleta à ponta do Arpoador. O selim",
+        "top": 225.4,
+        "bottom": 236.36,
+        "x0": 311.81,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "poderia reavivar a irritação. Em vez disso",
+        "top": 238.36,
+        "bottom": 249.31,
+        "x0": 311.81,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "decidi me dedicar à leitura.",
+        "top": 251.31,
+        "bottom": 262.27,
+        "x0": 311.81,
+        "x1": 442.65,
+        "column": 1
+      },
+      {
+        "text": "2",
+        "top": 277.21,
+        "bottom": 288.17,
+        "x0": 311.81,
+        "x1": 317.9,
+        "column": 1
+      },
+      {
+        "text": "Ontem na recepção virei inadvertidamente à",
+        "top": 290.16,
+        "bottom": 301.12,
+        "x0": 311.81,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "cabeça contra o beijo de saudação de Antônia.",
+        "top": 303.11,
+        "bottom": 314.07,
+        "x0": 311.81,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "Senti na nuca o bafo seco do susto. Não havia",
+        "top": 316.06,
+        "bottom": 327.02,
+        "x0": 311.81,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "como desfazer o engano. Sorrimos o resto da",
+        "top": 329.02,
+        "bottom": 339.97,
+        "x0": 311.81,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "noite. Falo o tempo todo em mim. Não deixo",
+        "top": 341.97,
+        "bottom": 352.93,
+        "x0": 311.81,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "Antônia abrir sua boca de lagarta beijando",
+        "top": 354.92,
+        "bottom": 365.88,
+        "x0": 311.81,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "para sempre o ar. Na saída nos beijamos de",
+        "top": 367.87,
+        "bottom": 378.83,
+        "x0": 311.81,
+        "x1": 538.59,
+        "column": 1
+      },
+      {
+        "text": "acordo, dos dois lados. Aguardo crise aguda",
+        "top": 380.82,
+        "bottom": 391.78,
+        "x0": 311.81,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "de remorso.",
+        "top": 393.77,
+        "bottom": 404.73,
+        "x0": 311.81,
+        "x1": 369.84,
+        "column": 1
+      },
+      {
+        "text": "3",
+        "top": 419.68,
+        "bottom": 430.63,
+        "x0": 311.81,
+        "x1": 317.9,
+        "column": 1
+      },
+      {
+        "text": "A crise parece controlada. Passo o dia a",
+        "top": 432.63,
+        "bottom": 443.59,
+        "x0": 311.81,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "recordar o gesto involuntário. Represento a",
+        "top": 445.58,
+        "bottom": 456.54,
+        "x0": 311.81,
+        "x1": 538.59,
+        "column": 1
+      },
+      {
+        "text": "cena ao espelho. Viro o rosto à minha própria",
+        "top": 458.53,
+        "bottom": 469.49,
+        "x0": 311.81,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "imagem sequiosa. Depois me volto, procuro",
+        "top": 471.48,
+        "bottom": 482.44,
+        "x0": 311.81,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "nos olhos dela signos de decepção. Mas",
+        "top": 484.43,
+        "bottom": 495.39,
+        "x0": 311.81,
+        "x1": 538.59,
+        "column": 1
+      },
+      {
+        "text": "Antônia continuaria inexorável. Saio depois",
+        "top": 497.38,
+        "bottom": 508.34,
+        "x0": 311.81,
+        "x1": 538.59,
+        "column": 1
+      },
+      {
+        "text": "de tantos ensaios. O movimento das rodas me",
+        "top": 510.34,
+        "bottom": 521.29,
+        "x0": 311.81,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "desanuvia os tendões duros. Os navios me",
+        "top": 523.29,
+        "bottom": 534.25,
+        "x0": 311.81,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "iluminam. Pedalo de maneira insensata.",
+        "top": 536.24,
+        "bottom": 547.2,
+        "x0": 311.81,
+        "x1": 506.78,
+        "column": 1
+      },
+      {
+        "text": "Fonte: CESAR, Ana Cristina. Cenas de abril (1979). In:",
+        "top": 563.5,
+        "bottom": 571.47,
+        "x0": 342.55,
+        "x1": 538.59,
+        "column": 1
+      },
+      {
+        "text": "CESAR, Ana Cristina. Poética. São Paulo: Companhia das",
+        "top": 576.45,
+        "bottom": 584.45,
+        "x0": 328.0,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "Letras: 2013, p. 26.",
+        "top": 589.4,
+        "bottom": 597.37,
+        "x0": 469.21,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "Glossário:",
+        "top": 612.0,
+        "bottom": 622.96,
+        "x0": 311.81,
+        "x1": 366.01,
+        "column": 1
+      },
+      {
+        "text": "Selim: banco da bicicleta",
+        "top": 624.91,
+        "bottom": 635.91,
+        "x0": 311.81,
+        "x1": 436.18,
+        "column": 1
+      }
+    ],
+    "images": [],
+    "rects": [
+      {
+        "x0": 56.69,
+        "x1": 283.46,
+        "top": 260.81,
+        "bottom": 265.06
+      }
+    ],
+    "curves": []
+  },
+  {
+    "page": 8,
+    "width": 595.276,
+    "height": 841.89,
+    "lines": [
+      {
+        "text": "QUESTÃO 7.",
+        "top": 74.77,
+        "bottom": 85.73,
+        "x0": 56.69,
+        "x1": 125.65,
+        "column": 0
+      },
+      {
+        "text": "Arpejos são execuções sucessivas de notas",
+        "top": 88.92,
+        "bottom": 99.87,
+        "x0": 56.69,
+        "x1": 283.47,
+        "column": 0
+      },
+      {
+        "text": "que compõem um acorde musical. O acorde,",
+        "top": 101.87,
+        "bottom": 112.83,
+        "x0": 56.69,
+        "x1": 283.46,
+        "column": 0
+      },
+      {
+        "text": "por sua vez, implica a execução simultânea de",
+        "top": 114.82,
+        "bottom": 125.78,
+        "x0": 56.69,
+        "x1": 283.47,
+        "column": 0
+      },
+      {
+        "text": "todas essas notas a comporem uma estrutura",
+        "top": 127.77,
+        "bottom": 138.73,
+        "x0": 56.69,
+        "x1": 283.47,
+        "column": 0
+      },
+      {
+        "text": "harmônica.",
+        "top": 140.72,
+        "bottom": 151.68,
+        "x0": 56.69,
+        "x1": 111.17,
+        "column": 0
+      },
+      {
+        "text": "Tendo em vista esse esclarecimento inicial, nas",
+        "top": 166.62,
+        "bottom": 177.58,
+        "x0": 56.69,
+        "x1": 283.47,
+        "column": 0
+      },
+      {
+        "text": "três partes do poema de Ana Cristina Cesar",
+        "top": 179.58,
+        "bottom": 190.53,
+        "x0": 56.69,
+        "x1": 283.47,
+        "column": 0
+      },
+      {
+        "text": "(Texto 2), o título pode ser justificado a partir",
+        "top": 192.53,
+        "bottom": 203.49,
+        "x0": 56.69,
+        "x1": 283.47,
+        "column": 0
+      },
+      {
+        "text": "da temática",
+        "top": 205.48,
+        "bottom": 216.44,
+        "x0": 56.69,
+        "x1": 113.34,
+        "column": 0
+      },
+      {
+        "text": "(A) antagônica, já que a atração por Antônia",
+        "top": 227.32,
+        "bottom": 238.28,
+        "x0": 57.91,
+        "x1": 283.47,
+        "column": 0
+      },
+      {
+        "text": "não encontra reciprocidade.",
+        "top": 240.27,
+        "bottom": 251.23,
+        "x0": 77.97,
+        "x1": 213.53,
+        "column": 0
+      },
+      {
+        "text": "(B) conflitante, que aponta para a vergonha",
+        "top": 262.16,
+        "bottom": 273.12,
+        "x0": 57.91,
+        "x1": 283.47,
+        "column": 0
+      },
+      {
+        "text": "feminina diante do próprio corpo.",
+        "top": 275.11,
+        "bottom": 286.07,
+        "x0": 77.97,
+        "x1": 237.89,
+        "column": 0
+      },
+      {
+        "text": "(C) excludente, em que a voz poética se",
+        "top": 296.99,
+        "bottom": 307.95,
+        "x0": 57.31,
+        "x1": 283.46,
+        "column": 0
+      },
+      {
+        "text": "sobrepõe às respostas de Antônia.",
+        "top": 309.95,
+        "bottom": 320.9,
+        "x0": 77.97,
+        "x1": 247.32,
+        "column": 0
+      },
+      {
+        "text": "(D) relacional, em que o esporte é colocado",
+        "top": 331.83,
+        "bottom": 342.79,
+        "x0": 57.31,
+        "x1": 283.47,
+        "column": 0
+      },
+      {
+        "text": "em contraste com a vida amorosa.",
+        "top": 344.78,
+        "bottom": 355.74,
+        "x0": 77.97,
+        "x1": 245.96,
+        "column": 0
+      },
+      {
+        "text": "(E) semelhante, que sugere uma representação",
+        "top": 366.67,
+        "bottom": 377.63,
+        "x0": 57.91,
+        "x1": 290.08,
+        "column": 0
+      },
+      {
+        "text": "do desejo feminino.",
+        "top": 379.62,
+        "bottom": 390.58,
+        "x0": 77.97,
+        "x1": 172.23,
+        "column": 0
+      },
+      {
+        "text": "QUESTÃO 8.",
+        "top": 423.98,
+        "bottom": 434.94,
+        "x0": 56.69,
+        "x1": 125.65,
+        "column": 0
+      },
+      {
+        "text": "Ana Cristina Cesar foi uma poeta que",
+        "top": 438.12,
+        "bottom": 449.08,
+        "x0": 56.69,
+        "x1": 283.47,
+        "column": 0
+      },
+      {
+        "text": "esteve associada à poesia marginal dos anos",
+        "top": 451.08,
+        "bottom": 462.03,
+        "x0": 56.69,
+        "x1": 283.47,
+        "column": 0
+      },
+      {
+        "text": "1970 no Brasil. Conhecida também como",
+        "top": 464.03,
+        "bottom": 474.99,
+        "x0": 56.69,
+        "x1": 283.46,
+        "column": 0
+      },
+      {
+        "text": "Geração Mimeógrafo, muitos de seus poetas",
+        "top": 476.98,
+        "bottom": 487.94,
+        "x0": 56.69,
+        "x1": 283.46,
+        "column": 0
+      },
+      {
+        "text": "divulgavam os projetos literários fora dos",
+        "top": 489.93,
+        "bottom": 500.89,
+        "x0": 56.69,
+        "x1": 283.46,
+        "column": 0
+      },
+      {
+        "text": "parâmetros do mercado editorial.",
+        "top": 502.88,
+        "bottom": 513.84,
+        "x0": 56.69,
+        "x1": 217.65,
+        "column": 0
+      },
+      {
+        "text": "A partir da leitura do poema “Arpejos” (Texto 2),",
+        "top": 528.78,
+        "bottom": 539.74,
+        "x0": 56.69,
+        "x1": 283.47,
+        "column": 0
+      },
+      {
+        "text": "compreende-se que essa vinculação à poesia",
+        "top": 541.74,
+        "bottom": 552.69,
+        "x0": 56.69,
+        "x1": 283.46,
+        "column": 0
+      },
+      {
+        "text": "marginal se dá por",
+        "top": 554.69,
+        "bottom": 565.65,
+        "x0": 56.69,
+        "x1": 147.44,
+        "column": 0
+      },
+      {
+        "text": "(A) cadência ritmada dos versos e controle",
+        "top": 576.53,
+        "bottom": 587.49,
+        "x0": 57.91,
+        "x1": 283.46,
+        "column": 0
+      },
+      {
+        "text": "dos significados atribuídos ao texto",
+        "top": 589.48,
+        "bottom": 600.44,
+        "x0": 77.97,
+        "x1": 283.47,
+        "column": 0
+      },
+      {
+        "text": "poético.",
+        "top": 602.43,
+        "bottom": 613.39,
+        "x0": 77.97,
+        "x1": 115.91,
+        "column": 0
+      },
+      {
+        "text": "(B) caráter prosaico dos versos e",
+        "top": 624.32,
+        "bottom": 635.27,
+        "x0": 57.91,
+        "x1": 283.46,
+        "column": 0
+      },
+      {
+        "text": "representação do cotidiano da juventude",
+        "top": 637.27,
+        "bottom": 648.23,
+        "x0": 77.97,
+        "x1": 283.46,
+        "column": 0
+      },
+      {
+        "text": "urbana da época.",
+        "top": 650.22,
+        "bottom": 661.18,
+        "x0": 77.97,
+        "x1": 163.26,
+        "column": 0
+      },
+      {
+        "text": "(C) conflito que se faz entre prosa e poesia e",
+        "top": 672.11,
+        "bottom": 683.06,
+        "x0": 57.31,
+        "x1": 283.47,
+        "column": 0
+      },
+      {
+        "text": "ineditismo do tema da homoafetividade.",
+        "top": 685.06,
+        "bottom": 696.02,
+        "x0": 77.97,
+        "x1": 271.18,
+        "column": 0
+      },
+      {
+        "text": "(D) esgotamento das formas fixas no século",
+        "top": 706.94,
+        "bottom": 717.9,
+        "x0": 57.31,
+        "x1": 283.46,
+        "column": 0
+      },
+      {
+        "text": "XX e uso imoderado de figuras de",
+        "top": 719.89,
+        "bottom": 730.85,
+        "x0": 77.97,
+        "x1": 283.46,
+        "column": 0
+      },
+      {
+        "text": "linguagem.",
+        "top": 732.85,
+        "bottom": 743.81,
+        "x0": 77.97,
+        "x1": 131.57,
+        "column": 0
+      },
+      {
+        "text": "(E) recusa de produzir poemas tradicionais e",
+        "top": 754.73,
+        "bottom": 765.69,
+        "x0": 57.91,
+        "x1": 283.47,
+        "column": 0
+      },
+      {
+        "text": "tom moralista que incide sobre a temática.",
+        "top": 767.68,
+        "bottom": 778.64,
+        "x0": 77.97,
+        "x1": 283.46,
+        "column": 0
+      },
+      {
+        "text": "TEXTO 3",
+        "top": 65,
+        "bottom": 70.03,
+        "x0": 402.58,
+        "x1": 447.82,
+        "column": 1
+      },
+      {
+        "text": "O que é a HISTÓRIA DOCINHA",
+        "top": 72.02,
+        "bottom": 82.98,
+        "x0": 345.73,
+        "x1": 504.66,
+        "column": 1
+      },
+      {
+        "text": "A HISTÓRIA DOCINHA é uma marca de",
+        "top": 96.89,
+        "bottom": 107.84,
+        "x0": 311.81,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "açúcar português. Foi criada com o propósito",
+        "top": 109.84,
+        "bottom": 120.8,
+        "x0": 311.81,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "de adocicar as conversas sobre a colonização",
+        "top": 122.79,
+        "bottom": 133.75,
+        "x0": 311.81,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "portuguesa.",
+        "top": 135.74,
+        "bottom": 146.7,
+        "x0": 311.81,
+        "x1": 370.12,
+        "column": 1
+      },
+      {
+        "text": "Tem o poder de adocicar ou ameigar tudo:",
+        "top": 161.64,
+        "bottom": 172.6,
+        "x0": 311.81,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "genocídio, escravização, casamento forçado,",
+        "top": 174.59,
+        "bottom": 185.55,
+        "x0": 311.81,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "violação, pedofilia, imposição religiosa,",
+        "top": 187.55,
+        "bottom": 198.5,
+        "x0": 311.81,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "linguística e cultural, trabalho forçado, invasão,",
+        "top": 200.5,
+        "bottom": 211.46,
+        "x0": 311.81,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "saque, destruição ambiental ou a suspensão",
+        "top": 213.45,
+        "bottom": 224.41,
+        "x0": 311.81,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "do futuro do Outro.",
+        "top": 226.4,
+        "bottom": 237.36,
+        "x0": 311.81,
+        "x1": 403.36,
+        "column": 1
+      },
+      {
+        "text": "O formato da HISTÓRIA DOCINHA, que é o",
+        "top": 252.3,
+        "bottom": 263.26,
+        "x0": 311.81,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "formato do pacote regular de açúcar e ajustável",
+        "top": 265.25,
+        "bottom": 276.21,
+        "x0": 311.81,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "ao pires e xícara de café portugueses, nem",
+        "top": 278.21,
+        "bottom": 289.16,
+        "x0": 311.81,
+        "x1": 538.59,
+        "column": 1
+      },
+      {
+        "text": "sempre foi assim. Começou por ser um stick,",
+        "top": 291.16,
+        "bottom": 302.12,
+        "x0": 311.81,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "mas como ninguém em Portugal e ilhas sabia",
+        "top": 304.11,
+        "bottom": 315.07,
+        "x0": 311.81,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "abri-lo corretamente, a companhia optou por",
+        "top": 317.06,
+        "bottom": 328.02,
+        "x0": 311.81,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "reproduzir o formato retangular.",
+        "top": 330.01,
+        "bottom": 340.97,
+        "x0": 311.81,
+        "x1": 465.3,
+        "column": 1
+      },
+      {
+        "text": "Desde então os pacotes de HISTÓRIA",
+        "top": 355.91,
+        "bottom": 366.87,
+        "x0": 311.81,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "DOCINHA, que têm um design muito familiar",
+        "top": 368.87,
+        "bottom": 379.82,
+        "x0": 311.81,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "para os portugueses, incluem, à vez, cada uma",
+        "top": 381.82,
+        "bottom": 392.78,
+        "x0": 311.81,
+        "x1": 538.59,
+        "column": 1
+      },
+      {
+        "text": "das 32 figuras do Padrão dos Descobrimentos.",
+        "top": 394.77,
+        "bottom": 405.73,
+        "x0": 311.81,
+        "x1": 538.59,
+        "column": 1
+      },
+      {
+        "text": "Como usar a HISTÓRIA DOCINHA",
+        "top": 420.72,
+        "bottom": 431.67,
+        "x0": 311.81,
+        "x1": 487.78,
+        "column": 1
+      },
+      {
+        "text": "1. Os pacotes HISTÓRIA DOCINHA devem",
+        "top": 446.57,
+        "bottom": 457.53,
+        "x0": 311.81,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "ser apenas usados em situações de grande",
+        "top": 459.53,
+        "bottom": 470.48,
+        "x0": 311.81,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "constrangimento, exaltação ou nervosismo.",
+        "top": 472.48,
+        "bottom": 483.44,
+        "x0": 311.81,
+        "x1": 521.9,
+        "column": 1
+      },
+      {
+        "text": "Para todas as idades.",
+        "top": 498.38,
+        "bottom": 509.34,
+        "x0": 311.81,
+        "x1": 417.09,
+        "column": 1
+      },
+      {
+        "text": "Fonte: LINO, Patrícia. O kit de sobrevivência do descobridor",
+        "top": 522.65,
+        "bottom": 530.65,
+        "x0": 314.39,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "português no mundo anticolonial. Juiz de Fora: Edições",
+        "top": 535.6,
+        "bottom": 543.6,
+        "x0": 330.74,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "Macondo, 2020.",
+        "top": 548.55,
+        "bottom": 556.52,
+        "x0": 481.75,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "Glossário:",
+        "top": 568.16,
+        "bottom": 579.12,
+        "x0": 311.81,
+        "x1": 366.01,
+        "column": 1
+      },
+      {
+        "text": "Stick: recipiente de papel ou plástico; pequeno",
+        "top": 581.07,
+        "bottom": 592.07,
+        "x0": 311.81,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "pacote de açúcar, sal, adoçante etc.",
+        "top": 594.02,
+        "bottom": 604.98,
+        "x0": 311.81,
+        "x1": 487.32,
+        "column": 1
+      },
+      {
+        "text": "Padrão dos Descobrimentos: composto",
+        "top": 606.97,
+        "bottom": 617.98,
+        "x0": 311.81,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "por figuras de homens que participaram",
+        "top": 619.92,
+        "bottom": 630.88,
+        "x0": 311.81,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "das navegações e, consequentemente, do",
+        "top": 632.88,
+        "bottom": 643.83,
+        "x0": 311.81,
+        "x1": 538.59,
+        "column": 1
+      },
+      {
+        "text": "processo de colonização.",
+        "top": 645.83,
+        "bottom": 656.79,
+        "x0": 311.81,
+        "x1": 435.02,
+        "column": 1
+      }
+    ],
+    "images": [],
+    "rects": [
+      {
+        "x0": 56.69,
+        "x1": 283.46,
+        "top": 63.4,
+        "bottom": 67.65
+      },
+      {
+        "x0": 56.69,
+        "x1": 283.46,
+        "top": 412.61,
+        "bottom": 416.86
+      }
+    ],
+    "curves": []
+  },
+  {
+    "page": 9,
+    "width": 595.276,
+    "height": 841.89,
+    "lines": [
+      {
+        "text": "QUESTÃO 9.",
+        "top": 74.77,
+        "bottom": 85.73,
+        "x0": 56.69,
+        "x1": 125.65,
+        "column": 0
+      },
+      {
+        "text": "Patrícia Lino é uma poeta portuguesa",
+        "top": 88.92,
+        "bottom": 99.87,
+        "x0": 56.69,
+        "x1": 283.46,
+        "column": 0
+      },
+      {
+        "text": "contemporânea cuja obra envolve o diálogo",
+        "top": 101.87,
+        "bottom": 112.83,
+        "x0": 56.69,
+        "x1": 283.46,
+        "column": 0
+      },
+      {
+        "text": "permanente com outras artes e regimes",
+        "top": 114.82,
+        "bottom": 125.78,
+        "x0": 56.69,
+        "x1": 283.47,
+        "column": 0
+      },
+      {
+        "text": "discursivos. No livro “O kit de sobrevivência do",
+        "top": 127.77,
+        "bottom": 138.73,
+        "x0": 56.69,
+        "x1": 283.46,
+        "column": 0
+      },
+      {
+        "text": "descobridor português no mundo anticolonial”,",
+        "top": 140.72,
+        "bottom": 151.68,
+        "x0": 56.69,
+        "x1": 283.46,
+        "column": 0
+      },
+      {
+        "text": "Lino aborda, de modo singular, a história da",
+        "top": 153.67,
+        "bottom": 164.63,
+        "x0": 56.69,
+        "x1": 283.46,
+        "column": 0
+      },
+      {
+        "text": "colonização portuguesa e os seus reflexos no",
+        "top": 166.62,
+        "bottom": 177.58,
+        "x0": 56.69,
+        "x1": 283.46,
+        "column": 0
+      },
+      {
+        "text": "mundo atual.",
+        "top": 179.58,
+        "bottom": 190.53,
+        "x0": 56.69,
+        "x1": 119.94,
+        "column": 0
+      },
+      {
+        "text": "Com base no fragmento lido (Texto 3), é",
+        "top": 205.48,
+        "bottom": 216.44,
+        "x0": 56.69,
+        "x1": 283.47,
+        "column": 0
+      },
+      {
+        "text": "possível afirmar que a crítica da autora",
+        "top": 218.43,
+        "bottom": 229.39,
+        "x0": 56.69,
+        "x1": 246.01,
+        "column": 0
+      },
+      {
+        "text": "(A) configura um retrato impreciso da",
+        "top": 240.35,
+        "bottom": 251.31,
+        "x0": 57.91,
+        "x1": 283.47,
+        "column": 0
+      },
+      {
+        "text": "colonização portuguesa, uma vez que não",
+        "top": 253.3,
+        "bottom": 264.26,
+        "x0": 77.97,
+        "x1": 283.46,
+        "column": 0
+      },
+      {
+        "text": "há dados históricos suficientes na história",
+        "top": 266.25,
+        "bottom": 277.21,
+        "x0": 77.97,
+        "x1": 283.46,
+        "column": 0
+      },
+      {
+        "text": "que sustentem o texto.",
+        "top": 279.2,
+        "bottom": 290.16,
+        "x0": 77.97,
+        "x1": 188.08,
+        "column": 0
+      },
+      {
+        "text": "(B) direciona o olhar para a permanência do",
+        "top": 301.12,
+        "bottom": 312.08,
+        "x0": 57.91,
+        "x1": 283.46,
+        "column": 0
+      },
+      {
+        "text": "discurso que tende a mascarar as práticas",
+        "top": 314.07,
+        "bottom": 325.03,
+        "x0": 77.97,
+        "x1": 283.46,
+        "column": 0
+      },
+      {
+        "text": "e os efeitos oriundos da expansão colonial",
+        "top": 327.02,
+        "bottom": 337.98,
+        "x0": 77.97,
+        "x1": 283.47,
+        "column": 0
+      },
+      {
+        "text": "portuguesa.",
+        "top": 339.97,
+        "bottom": 350.93,
+        "x0": 77.97,
+        "x1": 136.28,
+        "column": 0
+      },
+      {
+        "text": "(C) elabora um discurso difamatório que",
+        "top": 361.89,
+        "bottom": 372.85,
+        "x0": 57.31,
+        "x1": 283.47,
+        "column": 0
+      },
+      {
+        "text": "depõe contra os méritos incontestáveis",
+        "top": 374.84,
+        "bottom": 385.8,
+        "x0": 77.97,
+        "x1": 283.47,
+        "column": 0
+      },
+      {
+        "text": "dos “descobrimentos” promovidos pela",
+        "top": 387.79,
+        "bottom": 398.75,
+        "x0": 77.97,
+        "x1": 283.46,
+        "column": 0
+      },
+      {
+        "text": "nação portuguesa.",
+        "top": 400.75,
+        "bottom": 411.71,
+        "x0": 77.97,
+        "x1": 169.18,
+        "column": 0
+      },
+      {
+        "text": "(D) seleciona fatos históricos que deixam",
+        "top": 422.66,
+        "bottom": 433.62,
+        "x0": 57.31,
+        "x1": 283.46,
+        "column": 0
+      },
+      {
+        "text": "entrever, no texto, sua postura favorável e",
+        "top": 435.62,
+        "bottom": 446.57,
+        "x0": 77.97,
+        "x1": 283.47,
+        "column": 0
+      },
+      {
+        "text": "condescendente em relação à colonização",
+        "top": 448.57,
+        "bottom": 459.53,
+        "x0": 77.97,
+        "x1": 283.47,
+        "column": 0
+      },
+      {
+        "text": "portuguesa.",
+        "top": 461.52,
+        "bottom": 472.48,
+        "x0": 77.97,
+        "x1": 136.28,
+        "column": 0
+      },
+      {
+        "text": "(E) sinaliza a dissociação entre a marca",
+        "top": 483.44,
+        "bottom": 494.4,
+        "x0": 57.91,
+        "x1": 283.47,
+        "column": 0
+      },
+      {
+        "text": "portuguesa e o período de exploração da",
+        "top": 496.39,
+        "bottom": 507.35,
+        "x0": 77.97,
+        "x1": 283.46,
+        "column": 0
+      },
+      {
+        "text": "colônia brasileira conhecido como ciclo da",
+        "top": 509.34,
+        "bottom": 520.3,
+        "x0": 77.97,
+        "x1": 283.46,
+        "column": 0
+      },
+      {
+        "text": "cana de açúcar.",
+        "top": 522.29,
+        "bottom": 533.25,
+        "x0": 77.97,
+        "x1": 155.4,
+        "column": 0
+      },
+      {
+        "text": "TEXTO 4",
+        "top": 65,
+        "bottom": 70.03,
+        "x0": 402.58,
+        "x1": 447.82,
+        "column": 1
+      },
+      {
+        "text": "O Kit de Sobrevivência do Descobridor",
+        "top": 72.02,
+        "bottom": 82.98,
+        "x0": 323.58,
+        "x1": 526.82,
+        "column": 1
+      },
+      {
+        "text": "Português no Mundo Anticolonial",
+        "top": 84.97,
+        "bottom": 95.93,
+        "x0": 337.63,
+        "x1": 512.76,
+        "column": 1
+      },
+      {
+        "text": "Patrícia Lino",
+        "top": 109.84,
+        "bottom": 120.8,
+        "x0": 478.11,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "O que é a PORTUGALIDADE",
+        "top": 134.74,
+        "bottom": 145.7,
+        "x0": 311.81,
+        "x1": 456.0,
+        "column": 1
+      },
+      {
+        "text": "A PORTUGALIDADE é uma sensação",
+        "top": 147.69,
+        "bottom": 158.65,
+        "x0": 311.81,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "produzida por um estímulo externo ou interno",
+        "top": 160.65,
+        "bottom": 171.61,
+        "x0": 311.81,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "sobre um órgão sensorial e transmitida",
+        "top": 173.6,
+        "bottom": 184.56,
+        "x0": 311.81,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "ao cérebro através do sistema nervoso.",
+        "top": 186.55,
+        "bottom": 197.51,
+        "x0": 311.81,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "Pode manifestar-se em qualquer ex-colónia",
+        "top": 199.5,
+        "bottom": 210.46,
+        "x0": 311.81,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "portuguesa de modo visual, auditivo, táctil,",
+        "top": 212.45,
+        "bottom": 223.41,
+        "x0": 311.81,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "gustativo, olfativo ou espacial. Esta sensação,",
+        "top": 225.4,
+        "bottom": 236.36,
+        "x0": 311.81,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "que nos aproxima uns dos outros, é, ao",
+        "top": 238.36,
+        "bottom": 249.31,
+        "x0": 311.81,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "mesmo tempo, o que nos distingue dos",
+        "top": 251.31,
+        "bottom": 262.27,
+        "x0": 311.81,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "restantes povos do globo. Mais do que",
+        "top": 264.26,
+        "bottom": 275.22,
+        "x0": 311.81,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "uma ideia e uma forma de estar civilizadora,",
+        "top": 277.21,
+        "bottom": 288.17,
+        "x0": 311.81,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "a PORTUGALIDADE abre-se como uma",
+        "top": 290.16,
+        "bottom": 301.12,
+        "x0": 311.81,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "promissora constelação de Estados, porque",
+        "top": 303.11,
+        "bottom": 314.07,
+        "x0": 311.81,
+        "x1": 538.59,
+        "column": 1
+      },
+      {
+        "text": "o mundo português é uma aliança de povos",
+        "top": 316.06,
+        "bottom": 327.02,
+        "x0": 311.81,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "com um passado partilhado e um futuro em",
+        "top": 329.02,
+        "bottom": 339.97,
+        "x0": 311.81,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "comum. Por esta razão, a necessidade justa",
+        "top": 341.97,
+        "bottom": 352.93,
+        "x0": 311.81,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "e natural de reerguer a família das nações de",
+        "top": 354.92,
+        "bottom": 365.88,
+        "x0": 311.81,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "fala lusa, que só por trágico acaso se desfez, é",
+        "top": 367.87,
+        "bottom": 378.83,
+        "x0": 311.81,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "imperativa.",
+        "top": 380.82,
+        "bottom": 391.78,
+        "x0": 311.81,
+        "x1": 365.02,
+        "column": 1
+      },
+      {
+        "text": "Fonte: LINO, Patrícia. O kit de sobrevivência do descobridor",
+        "top": 405.09,
+        "bottom": 413.09,
+        "x0": 314.39,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "português no mundo anticolonial. Juiz de Fora: Edições",
+        "top": 418.04,
+        "bottom": 426.04,
+        "x0": 330.74,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "Macondo, 2020.",
+        "top": 430.99,
+        "bottom": 438.96,
+        "x0": 481.75,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "QUESTÃO 10.",
+        "top": 466.3,
+        "bottom": 477.26,
+        "x0": 311.81,
+        "x1": 386.86,
+        "column": 1
+      },
+      {
+        "text": "A partir da leitura do fragmento do livro “O kit",
+        "top": 480.45,
+        "bottom": 491.41,
+        "x0": 311.81,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "de sobrevivência do descobridor português no",
+        "top": 493.4,
+        "bottom": 504.36,
+        "x0": 311.81,
+        "x1": 538.59,
+        "column": 1
+      },
+      {
+        "text": "mundo anticolonial” (Texto 4), de Patrícia Lino,",
+        "top": 506.35,
+        "bottom": 517.31,
+        "x0": 311.81,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "infere-se que a “Portugalidade”",
+        "top": 519.3,
+        "bottom": 530.26,
+        "x0": 311.81,
+        "x1": 462.43,
+        "column": 1
+      },
+      {
+        "text": "(A) é um elogio que a autora tece à grandeza",
+        "top": 544.21,
+        "bottom": 555.17,
+        "x0": 313.03,
+        "x1": 538.59,
+        "column": 1
+      },
+      {
+        "text": "do povo português.",
+        "top": 557.16,
+        "bottom": 568.12,
+        "x0": 333.09,
+        "x1": 426.74,
+        "column": 1
+      },
+      {
+        "text": "(B) é um julgamento dirigido àqueles que não",
+        "top": 579.08,
+        "bottom": 590.04,
+        "x0": 313.03,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "veem Portugal como uma constelação de",
+        "top": 592.03,
+        "bottom": 602.99,
+        "x0": 333.09,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "estados.",
+        "top": 604.98,
+        "bottom": 615.94,
+        "x0": 333.09,
+        "x1": 374.35,
+        "column": 1
+      },
+      {
+        "text": "(C) é uma celebração das terras de almas",
+        "top": 626.9,
+        "bottom": 637.86,
+        "x0": 312.43,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "portuguesas, como as ex-colônias de",
+        "top": 639.85,
+        "bottom": 650.81,
+        "x0": 333.09,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "Portugal.",
+        "top": 652.8,
+        "bottom": 663.76,
+        "x0": 333.09,
+        "x1": 376.84,
+        "column": 1
+      },
+      {
+        "text": "(D) é uma crítica que a autora tece ao projeto",
+        "top": 674.72,
+        "bottom": 685.68,
+        "x0": 312.43,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "colonial e civilizatório português.",
+        "top": 687.67,
+        "bottom": 698.63,
+        "x0": 333.09,
+        "x1": 491.27,
+        "column": 1
+      },
+      {
+        "text": "(E) é uma promissora constelação de",
+        "top": 709.59,
+        "bottom": 720.55,
+        "x0": 313.03,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "Estados que englobam as ex-colônias",
+        "top": 722.54,
+        "bottom": 733.5,
+        "x0": 333.09,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "portuguesas.",
+        "top": 735.49,
+        "bottom": 746.45,
+        "x0": 333.09,
+        "x1": 396.72,
+        "column": 1
+      }
+    ],
+    "images": [],
+    "rects": [
+      {
+        "x0": 56.69,
+        "x1": 283.46,
+        "top": 63.4,
+        "bottom": 67.65
+      },
+      {
+        "x0": 311.81,
+        "x1": 538.58,
+        "top": 454.93,
+        "bottom": 459.18
+      }
+    ],
+    "curves": []
+  },
+  {
+    "page": 10,
+    "width": 595.276,
+    "height": 841.89,
+    "lines": [
+      {
+        "text": "BIOLOGIA - Objetivas",
+        "top": 79.15,
+        "bottom": 90.11,
+        "x0": 113.55,
+        "x1": 226.61,
+        "column": 0
+      },
+      {
+        "text": "QUESTÃO 11.",
+        "top": 113.76,
+        "bottom": 124.72,
+        "x0": 56.69,
+        "x1": 131.74,
+        "column": 0
+      },
+      {
+        "text": "Microrganismos, plantas e animais",
+        "top": 127.9,
+        "bottom": 138.86,
+        "x0": 56.69,
+        "x1": 283.47,
+        "column": 0
+      },
+      {
+        "text": "considerados transgênicos são produzidos",
+        "top": 140.85,
+        "bottom": 151.81,
+        "x0": 56.69,
+        "x1": 283.47,
+        "column": 0
+      },
+      {
+        "text": "para expressar genes de interesse de outra",
+        "top": 153.81,
+        "bottom": 164.77,
+        "x0": 56.69,
+        "x1": 283.47,
+        "column": 0
+      },
+      {
+        "text": "espécie, passando a apresentar características",
+        "top": 166.76,
+        "bottom": 177.72,
+        "x0": 56.69,
+        "x1": 283.46,
+        "column": 0
+      },
+      {
+        "text": "que naturalmente não possuem. De forma",
+        "top": 179.71,
+        "bottom": 190.67,
+        "x0": 56.69,
+        "x1": 283.46,
+        "column": 0
+      },
+      {
+        "text": "geral, os transgênicos são utilizados em",
+        "top": 192.66,
+        "bottom": 203.62,
+        "x0": 56.69,
+        "x1": 283.46,
+        "column": 0
+      },
+      {
+        "text": "processos industriais ou para aprimorar",
+        "top": 205.61,
+        "bottom": 216.57,
+        "x0": 56.69,
+        "x1": 283.47,
+        "column": 0
+      },
+      {
+        "text": "práticas agrícolas.",
+        "top": 218.56,
+        "bottom": 229.52,
+        "x0": 56.69,
+        "x1": 145.34,
+        "column": 0
+      },
+      {
+        "text": "A produção de transgênicos está",
+        "top": 244.47,
+        "bottom": 255.43,
+        "x0": 56.69,
+        "x1": 283.47,
+        "column": 0
+      },
+      {
+        "text": "CORRETAMENTE exemplificada no processo",
+        "top": 257.42,
+        "bottom": 268.42,
+        "x0": 56.69,
+        "x1": 283.47,
+        "column": 0
+      },
+      {
+        "text": "de",
+        "top": 270.37,
+        "bottom": 281.33,
+        "x0": 56.69,
+        "x1": 68.88,
+        "column": 0
+      },
+      {
+        "text": "(A) cruzamentos entre linhagens de uma",
+        "top": 292.29,
+        "bottom": 303.25,
+        "x0": 57.91,
+        "x1": 283.47,
+        "column": 0
+      },
+      {
+        "text": "mesma espécie de milho resultando uma",
+        "top": 305.24,
+        "bottom": 316.2,
+        "x0": 77.97,
+        "x1": 283.47,
+        "column": 0
+      },
+      {
+        "text": "linhagem híbrida que apresenta qualidade",
+        "top": 318.19,
+        "bottom": 329.15,
+        "x0": 77.97,
+        "x1": 283.46,
+        "column": 0
+      },
+      {
+        "text": "superior às de origem.",
+        "top": 331.14,
+        "bottom": 342.1,
+        "x0": 77.97,
+        "x1": 187.32,
+        "column": 0
+      },
+      {
+        "text": "(B) incorporação do gene de uma bactéria que",
+        "top": 353.06,
+        "bottom": 364.02,
+        "x0": 57.91,
+        "x1": 283.47,
+        "column": 0
+      },
+      {
+        "text": "induz a produção de pró-toxina inseticida",
+        "top": 366.01,
+        "bottom": 376.97,
+        "x0": 77.97,
+        "x1": 283.46,
+        "column": 0
+      },
+      {
+        "text": "no genoma de milho, barateando o",
+        "top": 378.96,
+        "bottom": 389.92,
+        "x0": 77.97,
+        "x1": 283.46,
+        "column": 0
+      },
+      {
+        "text": "controle de pragas.",
+        "top": 391.91,
+        "bottom": 402.87,
+        "x0": 77.97,
+        "x1": 171.51,
+        "column": 0
+      },
+      {
+        "text": "(C) introduzir uma combinação de genes",
+        "top": 413.83,
+        "bottom": 424.79,
+        "x0": 57.31,
+        "x1": 283.47,
+        "column": 0
+      },
+      {
+        "text": "(plasmídeo) obtida de bactérias que",
+        "top": 426.78,
+        "bottom": 437.74,
+        "x0": 77.97,
+        "x1": 283.46,
+        "column": 0
+      },
+      {
+        "text": "metabolizam petróleo em bactérias",
+        "top": 439.73,
+        "bottom": 450.69,
+        "x0": 77.97,
+        "x1": 283.47,
+        "column": 0
+      },
+      {
+        "text": "marinhas para limpeza de oceanos.",
+        "top": 452.69,
+        "bottom": 463.64,
+        "x0": 77.97,
+        "x1": 251.45,
+        "column": 0
+      },
+      {
+        "text": "(D) plantar cultivares de trigo com diferentes",
+        "top": 474.6,
+        "bottom": 485.56,
+        "x0": 57.31,
+        "x1": 283.47,
+        "column": 0
+      },
+      {
+        "text": "interações com insetos numa mesma",
+        "top": 487.55,
+        "bottom": 498.51,
+        "x0": 77.97,
+        "x1": 283.46,
+        "column": 0
+      },
+      {
+        "text": "lavoura para garantir maior produtividade",
+        "top": 500.51,
+        "bottom": 511.47,
+        "x0": 77.97,
+        "x1": 283.46,
+        "column": 0
+      },
+      {
+        "text": "em caso de ataque de pragas.",
+        "top": 513.46,
+        "bottom": 524.42,
+        "x0": 77.97,
+        "x1": 225.73,
+        "column": 0
+      },
+      {
+        "text": "(E) produção de raças de cachorros através",
+        "top": 535.38,
+        "bottom": 546.33,
+        "x0": 57.91,
+        "x1": 283.46,
+        "column": 0
+      },
+      {
+        "text": "de cruzamentos para obter indivíduos com",
+        "top": 548.33,
+        "bottom": 559.29,
+        "x0": 77.97,
+        "x1": 283.47,
+        "column": 0
+      },
+      {
+        "text": "características específicas e de interesse",
+        "top": 561.28,
+        "bottom": 572.24,
+        "x0": 77.97,
+        "x1": 283.46,
+        "column": 0
+      },
+      {
+        "text": "comercial.",
+        "top": 574.23,
+        "bottom": 585.19,
+        "x0": 77.97,
+        "x1": 127.9,
+        "column": 0
+      },
+      {
+        "text": "QUESTÃO 12.",
+        "top": 65,
+        "bottom": 70.79,
+        "x0": 311.81,
+        "x1": 386.86,
+        "column": 1
+      },
+      {
+        "text": "Ao observar diferentes organismos que se",
+        "top": 73.97,
+        "bottom": 84.93,
+        "x0": 311.81,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "alimentam de néctar ou insetos em locais de",
+        "top": 86.92,
+        "bottom": 97.88,
+        "x0": 311.81,
+        "x1": 538.59,
+        "column": 1
+      },
+      {
+        "text": "difícil acesso, é possível notar adaptações",
+        "top": 99.87,
+        "bottom": 110.83,
+        "x0": 311.81,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "morfológicas específicas para essa função.",
+        "top": 112.83,
+        "bottom": 123.78,
+        "x0": 311.81,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "A probóscide de uma borboleta e a língua",
+        "top": 125.78,
+        "bottom": 136.74,
+        "x0": 311.81,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "comprida e pegajosa de um tamanduá servem,",
+        "top": 138.73,
+        "bottom": 149.69,
+        "x0": 311.81,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "cada uma a seu modo, para alcançar o",
+        "top": 151.68,
+        "bottom": 162.64,
+        "x0": 311.81,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "alimento em locais estreitos, como o interior",
+        "top": 164.63,
+        "bottom": 175.59,
+        "x0": 311.81,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "de flores ou cupinzeiros. Apesar de todas",
+        "top": 177.58,
+        "bottom": 188.54,
+        "x0": 311.81,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "essas estruturas serem utilizadas para obter",
+        "top": 190.53,
+        "bottom": 201.49,
+        "x0": 311.81,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "alimento de maneira semelhante, pertencem",
+        "top": 203.49,
+        "bottom": 214.44,
+        "x0": 311.81,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "a organismos de grupos distantemente",
+        "top": 216.44,
+        "bottom": 227.4,
+        "x0": 311.81,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "aparentados na escala evolutiva.",
+        "top": 229.39,
+        "bottom": 240.35,
+        "x0": 311.81,
+        "x1": 471.14,
+        "column": 1
+      },
+      {
+        "text": "O processo biológico responsável pelas",
+        "top": 248.01,
+        "bottom": 258.97,
+        "x0": 311.81,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "adaptações apresentadas acima é a",
+        "top": 260.96,
+        "bottom": 271.92,
+        "x0": 311.81,
+        "x1": 488.47,
+        "column": 1
+      },
+      {
+        "text": "(A) divergência evolutiva.",
+        "top": 282.73,
+        "bottom": 293.69,
+        "x0": 313.03,
+        "x1": 437.31,
+        "column": 1
+      },
+      {
+        "text": "(B) evolução convergente.",
+        "top": 304.58,
+        "bottom": 315.54,
+        "x0": 313.03,
+        "x1": 442.09,
+        "column": 1
+      },
+      {
+        "text": "(C) homologia.",
+        "top": 326.44,
+        "bottom": 337.4,
+        "x0": 312.43,
+        "x1": 386.69,
+        "column": 1
+      },
+      {
+        "text": "(D) irradiação adaptativa.",
+        "top": 348.3,
+        "bottom": 359.26,
+        "x0": 312.43,
+        "x1": 437.47,
+        "column": 1
+      },
+      {
+        "text": "(E) seleção artificial.",
+        "top": 370.15,
+        "bottom": 381.11,
+        "x0": 313.03,
+        "x1": 414.53,
+        "column": 1
+      },
+      {
+        "text": "QUESTÃO 13.",
+        "top": 414.44,
+        "bottom": 425.4,
+        "x0": 311.81,
+        "x1": 386.86,
+        "column": 1
+      },
+      {
+        "text": "A diversidade genética entre os indivíduos de",
+        "top": 428.58,
+        "bottom": 439.54,
+        "x0": 311.81,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "uma população é fundamental para o processo",
+        "top": 441.53,
+        "bottom": 452.49,
+        "x0": 311.81,
+        "x1": 538.59,
+        "column": 1
+      },
+      {
+        "text": "de evolução biológica.",
+        "top": 454.49,
+        "bottom": 465.45,
+        "x0": 311.81,
+        "x1": 419.63,
+        "column": 1
+      },
+      {
+        "text": "Esta afirmação está CORRETA porque a",
+        "top": 473.11,
+        "bottom": 484.11,
+        "x0": 311.81,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "diversidade genética",
+        "top": 486.06,
+        "bottom": 497.02,
+        "x0": 311.81,
+        "x1": 412.04,
+        "column": 1
+      },
+      {
+        "text": "(A) elimina ou impede o surgimento de",
+        "top": 507.82,
+        "bottom": 518.78,
+        "x0": 313.03,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "mutações ao longo das gerações de",
+        "top": 520.78,
+        "bottom": 531.73,
+        "x0": 333.09,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "indivíduos dentro de uma mesma",
+        "top": 533.73,
+        "bottom": 544.69,
+        "x0": 333.09,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "população.",
+        "top": 546.68,
+        "bottom": 557.64,
+        "x0": 333.09,
+        "x1": 386.26,
+        "column": 1
+      },
+      {
+        "text": "(B) faz com que todos os indivíduos dessa",
+        "top": 568.54,
+        "bottom": 579.49,
+        "x0": 313.03,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "população tenham as mesmas chances",
+        "top": 581.49,
+        "bottom": 592.45,
+        "x0": 333.09,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "de sobrevivência, independentemente das",
+        "top": 594.44,
+        "bottom": 605.4,
+        "x0": 333.09,
+        "x1": 538.59,
+        "column": 1
+      },
+      {
+        "text": "condições do ambiente.",
+        "top": 607.39,
+        "bottom": 618.35,
+        "x0": 333.09,
+        "x1": 448.66,
+        "column": 1
+      },
+      {
+        "text": "(C) garante que todos os indivíduos",
+        "top": 629.25,
+        "bottom": 640.21,
+        "x0": 312.43,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "pertencentes a essa população",
+        "top": 642.2,
+        "bottom": 653.16,
+        "x0": 333.09,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "expressem as mesmas características",
+        "top": 655.15,
+        "bottom": 666.11,
+        "x0": 333.09,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "fenotípicas.",
+        "top": 668.1,
+        "bottom": 679.06,
+        "x0": 333.09,
+        "x1": 388.64,
+        "column": 1
+      },
+      {
+        "text": "(D) impede que os indivíduos da população",
+        "top": 689.96,
+        "bottom": 700.92,
+        "x0": 312.43,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "se adaptem a novos ambientes e evita o",
+        "top": 702.91,
+        "bottom": 713.87,
+        "x0": 333.09,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "surgimento de indivíduos não adaptados.",
+        "top": 715.86,
+        "bottom": 726.82,
+        "x0": 333.09,
+        "x1": 533.34,
+        "column": 1
+      },
+      {
+        "text": "(E) permite que alguns indivíduos pertencentes",
+        "top": 737.72,
+        "bottom": 748.68,
+        "x0": 313.03,
+        "x1": 542.89,
+        "column": 1
+      },
+      {
+        "text": "à população tenham características",
+        "top": 750.67,
+        "bottom": 761.63,
+        "x0": 333.09,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "vantajosas em ambientes que mudam ao",
+        "top": 763.62,
+        "bottom": 774.58,
+        "x0": 333.09,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "longo do tempo.",
+        "top": 776.57,
+        "bottom": 787.53,
+        "x0": 333.09,
+        "x1": 411.24,
+        "column": 1
+      }
+    ],
+    "images": [],
+    "rects": [
+      {
+        "x0": 56.69,
+        "x1": 283.46,
+        "top": 102.39,
+        "bottom": 106.64
+      },
+      {
+        "x0": 311.81,
+        "x1": 538.58,
+        "top": 403.07,
+        "bottom": 407.32
+      }
+    ],
+    "curves": []
+  },
+  {
+    "page": 11,
+    "width": 595.276,
+    "height": 841.89,
+    "lines": [
+      {
+        "text": "QUESTÃO 14.",
+        "top": 74.77,
+        "bottom": 85.73,
+        "x0": 56.69,
+        "x1": 131.74,
+        "column": 0
+      },
+      {
+        "text": "Pesquisadores estão estudando o",
+        "top": 88.92,
+        "bottom": 99.87,
+        "x0": 56.69,
+        "x1": 283.47,
+        "column": 0
+      },
+      {
+        "text": "desenvolvimento de variedades de certa",
+        "top": 101.87,
+        "bottom": 112.83,
+        "x0": 56.69,
+        "x1": 283.47,
+        "column": 0
+      },
+      {
+        "text": "espécie de feijão em uma região semiárida",
+        "top": 114.82,
+        "bottom": 125.78,
+        "x0": 56.69,
+        "x1": 283.47,
+        "column": 0
+      },
+      {
+        "text": "do Brasil a fim de selecionarem plantas com",
+        "top": 127.77,
+        "bottom": 138.73,
+        "x0": 56.69,
+        "x1": 283.47,
+        "column": 0
+      },
+      {
+        "text": "sementes de coloração escura, com maior",
+        "top": 140.72,
+        "bottom": 151.68,
+        "x0": 56.69,
+        "x1": 283.46,
+        "column": 0
+      },
+      {
+        "text": "resistência à radiação solar e à desidratação.",
+        "top": 153.67,
+        "bottom": 164.63,
+        "x0": 56.69,
+        "x1": 283.46,
+        "column": 0
+      },
+      {
+        "text": "Foi observado que a coloração das sementes",
+        "top": 166.62,
+        "bottom": 177.58,
+        "x0": 56.69,
+        "x1": 283.46,
+        "column": 0
+      },
+      {
+        "text": "dessa espécie era determinada pela interação",
+        "top": 179.58,
+        "bottom": 190.53,
+        "x0": 56.69,
+        "x1": 283.47,
+        "column": 0
+      },
+      {
+        "text": "entre os genes P e I, autossômicos e",
+        "top": 192.32,
+        "bottom": 203.49,
+        "x0": 56.69,
+        "x1": 283.46,
+        "column": 0
+      },
+      {
+        "text": "independentes. O gene P condiciona a",
+        "top": 205.27,
+        "bottom": 216.44,
+        "x0": 56.69,
+        "x1": 283.47,
+        "column": 0
+      },
+      {
+        "text": "síntese de pigmentos escuros, enquanto o seu",
+        "top": 218.43,
+        "bottom": 229.39,
+        "x0": 56.69,
+        "x1": 283.47,
+        "column": 0
+      },
+      {
+        "text": "alelo condiciona a geração de sementes de",
+        "top": 231.38,
+        "bottom": 242.34,
+        "x0": 56.69,
+        "x1": 283.46,
+        "column": 0
+      },
+      {
+        "text": "cor clara. O gene I tem ação inibitória da",
+        "top": 244.12,
+        "bottom": 255.29,
+        "x0": 56.69,
+        "x1": 283.46,
+        "column": 0
+      },
+      {
+        "text": "pigmentação, enquanto o seu alelo permite a",
+        "top": 257.28,
+        "bottom": 268.24,
+        "x0": 56.69,
+        "x1": 283.47,
+        "column": 0
+      },
+      {
+        "text": "manifestação da pigmentação das sementes.",
+        "top": 270.24,
+        "bottom": 281.19,
+        "x0": 56.69,
+        "x1": 276.7,
+        "column": 0
+      },
+      {
+        "text": "Considerando esse padrão de herança",
+        "top": 296.14,
+        "bottom": 307.1,
+        "x0": 56.69,
+        "x1": 283.47,
+        "column": 0
+      },
+      {
+        "text": "genética, qual dos cruzamentos abaixo oferece",
+        "top": 309.09,
+        "bottom": 320.05,
+        "x0": 56.69,
+        "x1": 283.47,
+        "column": 0
+      },
+      {
+        "text": "a maior probabilidade de gerar plantas com",
+        "top": 322.04,
+        "bottom": 333.0,
+        "x0": 56.69,
+        "x1": 283.47,
+        "column": 0
+      },
+      {
+        "text": "sementes pigmentadas, como as procuradas",
+        "top": 334.99,
+        "bottom": 345.95,
+        "x0": 56.69,
+        "x1": 283.47,
+        "column": 0
+      },
+      {
+        "text": "pelos pesquisadores?",
+        "top": 347.94,
+        "bottom": 358.9,
+        "x0": 56.69,
+        "x1": 163.29,
+        "column": 0
+      },
+      {
+        "text": "(A) IiPp × IiPp",
+        "top": 368.43,
+        "bottom": 379.6,
+        "x0": 57.91,
+        "x1": 137.51,
+        "column": 0
+      },
+      {
+        "text": "(B) IIPP × iipp",
+        "top": 389.87,
+        "bottom": 401.03,
+        "x0": 57.91,
+        "x1": 137.51,
+        "column": 0
+      },
+      {
+        "text": "(C) iiPp × iiPp",
+        "top": 411.3,
+        "bottom": 422.46,
+        "x0": 57.31,
+        "x1": 133.71,
+        "column": 0
+      },
+      {
+        "text": "(D) Iipp × IIPP",
+        "top": 432.73,
+        "bottom": 443.89,
+        "x0": 57.31,
+        "x1": 137.89,
+        "column": 0
+      },
+      {
+        "text": "(E) IiPP × Iipp",
+        "top": 454.16,
+        "bottom": 465.32,
+        "x0": 57.91,
+        "x1": 137.51,
+        "column": 0
+      },
+      {
+        "text": "QUESTÃO 15.",
+        "top": 497.58,
+        "bottom": 508.54,
+        "x0": 56.69,
+        "x1": 131.74,
+        "column": 0
+      },
+      {
+        "text": "Leia o texto a seguir.",
+        "top": 511.73,
+        "bottom": 522.68,
+        "x0": 56.69,
+        "x1": 157.55,
+        "column": 0
+      },
+      {
+        "text": "As fontes de energia renovável vêm sendo",
+        "top": 537.63,
+        "bottom": 548.59,
+        "x0": 56.69,
+        "x1": 283.47,
+        "column": 0
+      },
+      {
+        "text": "cada vez mais utilizadas em substituição às",
+        "top": 550.58,
+        "bottom": 561.54,
+        "x0": 56.69,
+        "x1": 283.46,
+        "column": 0
+      },
+      {
+        "text": "fontes fósseis. No entanto, sua adoção envolve",
+        "top": 563.53,
+        "bottom": 574.49,
+        "x0": 56.69,
+        "x1": 283.46,
+        "column": 0
+      },
+      {
+        "text": "uma série de fatores econômicos e ambientais.",
+        "top": 576.48,
+        "bottom": 587.44,
+        "x0": 56.69,
+        "x1": 283.46,
+        "column": 0
+      },
+      {
+        "text": "Disponível em: https://encurtador.com.br/ScdVS (link",
+        "top": 599.53,
+        "bottom": 607.5,
+        "x0": 96.3,
+        "x1": 283.47,
+        "column": 0
+      },
+      {
+        "text": "encurtado). Acesso em: 24 de jun. de 2025.",
+        "top": 612.48,
+        "bottom": 620.45,
+        "x0": 126.95,
+        "x1": 283.47,
+        "column": 0
+      },
+      {
+        "text": "Considerando os fatores econômicos e",
+        "top": 630.83,
+        "bottom": 641.79,
+        "x0": 56.69,
+        "x1": 283.46,
+        "column": 0
+      },
+      {
+        "text": "ambientais no texto acima,",
+        "top": 643.78,
+        "bottom": 654.74,
+        "x0": 56.69,
+        "x1": 186.71,
+        "column": 0
+      },
+      {
+        "text": "(A) a adoção de fontes renováveis reduz",
+        "top": 664.48,
+        "bottom": 675.44,
+        "x0": 57.91,
+        "x1": 283.47,
+        "column": 0
+      },
+      {
+        "text": "a emissão de gases poluentes,",
+        "top": 677.43,
+        "bottom": 688.39,
+        "x0": 77.97,
+        "x1": 283.47,
+        "column": 0
+      },
+      {
+        "text": "mas costuma gerar mais custos de",
+        "top": 690.39,
+        "bottom": 701.34,
+        "x0": 77.97,
+        "x1": 283.46,
+        "column": 0
+      },
+      {
+        "text": "manutenção do que as fontes fósseis.",
+        "top": 703.34,
+        "bottom": 714.3,
+        "x0": 77.97,
+        "x1": 261.95,
+        "column": 0
+      },
+      {
+        "text": "(B) a energia proveniente de fontes renováveis",
+        "top": 724.77,
+        "bottom": 735.73,
+        "x0": 57.91,
+        "x1": 283.47,
+        "column": 0
+      },
+      {
+        "text": "é inviável economicamente, sendo",
+        "top": 737.72,
+        "bottom": 748.68,
+        "x0": 77.97,
+        "x1": 283.46,
+        "column": 0
+      },
+      {
+        "text": "utilizada apenas por países ricos com",
+        "top": 750.67,
+        "bottom": 761.63,
+        "x0": 77.97,
+        "x1": 283.47,
+        "column": 0
+      },
+      {
+        "text": "grande disponibilidade de recursos",
+        "top": 763.62,
+        "bottom": 774.58,
+        "x0": 77.97,
+        "x1": 283.46,
+        "column": 0
+      },
+      {
+        "text": "naturais.",
+        "top": 776.57,
+        "bottom": 787.53,
+        "x0": 77.97,
+        "x1": 119.73,
+        "column": 0
+      },
+      {
+        "text": "(C) as energias renováveis ajudam a reduzir",
+        "top": 65,
+        "bottom": 69.99,
+        "x0": 312.43,
+        "x1": 538.59,
+        "column": 1
+      },
+      {
+        "text": "a emissão de gases do efeito estufa",
+        "top": 71.98,
+        "bottom": 82.94,
+        "x0": 333.09,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "e, a longo prazo, podem representar",
+        "top": 84.93,
+        "bottom": 95.89,
+        "x0": 333.09,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "economia, apesar dos altos custos iniciais",
+        "top": 97.88,
+        "bottom": 108.84,
+        "x0": 333.09,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "de instalação.",
+        "top": 110.83,
+        "bottom": 121.79,
+        "x0": 333.09,
+        "x1": 400.27,
+        "column": 1
+      },
+      {
+        "text": "(D) as fontes de energias renováveis são",
+        "top": 132.1,
+        "bottom": 143.06,
+        "x0": 312.43,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "isentas de qualquer impacto ambiental e",
+        "top": 145.05,
+        "bottom": 156.01,
+        "x0": 333.09,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "por isso não exigem planejamento para",
+        "top": 158.0,
+        "bottom": 168.96,
+        "x0": 333.09,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "sua instalação.",
+        "top": 170.95,
+        "bottom": 181.91,
+        "x0": 333.09,
+        "x1": 405.75,
+        "column": 1
+      },
+      {
+        "text": "(E) as fontes renováveis como a solar e",
+        "top": 192.22,
+        "bottom": 203.18,
+        "x0": 313.03,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "a eólica garantem produção constante",
+        "top": 205.17,
+        "bottom": 216.13,
+        "x0": 333.09,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "de energia, independentemente das",
+        "top": 218.12,
+        "bottom": 229.08,
+        "x0": 333.09,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "condições climáticas.",
+        "top": 231.07,
+        "bottom": 242.03,
+        "x0": 333.09,
+        "x1": 436.45,
+        "column": 1
+      },
+      {
+        "text": "Matemática - Objetivas",
+        "top": 266.43,
+        "bottom": 277.39,
+        "x0": 365.93,
+        "x1": 484.47,
+        "column": 1
+      },
+      {
+        "text": "QUESTÃO 16.",
+        "top": 299.09,
+        "bottom": 310.05,
+        "x0": 311.81,
+        "x1": 386.86,
+        "column": 1
+      },
+      {
+        "text": "No plano cartesiano abaixo estão",
+        "top": 313.23,
+        "bottom": 324.19,
+        "x0": 311.81,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "representados segmentos de três retas: r, s",
+        "top": 325.98,
+        "bottom": 337.14,
+        "x0": 311.81,
+        "x1": 538.59,
+        "column": 1
+      },
+      {
+        "text": "e t.",
+        "top": 338.93,
+        "bottom": 350.09,
+        "x0": 311.81,
+        "x1": 327.95,
+        "column": 1
+      },
+      {
+        "text": "As equações das retas r e s estão fornecidas",
+        "top": 536.55,
+        "bottom": 547.72,
+        "x0": 311.81,
+        "x1": 538.59,
+        "column": 1
+      },
+      {
+        "text": "na figura, sendo a equação da reta t da forma",
+        "top": 549.5,
+        "bottom": 560.67,
+        "x0": 311.81,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "y = ax + b. Essas três retas se cruzam num",
+        "top": 562.45,
+        "bottom": 573.62,
+        "x0": 311.81,
+        "x1": 538.59,
+        "column": 1
+      },
+      {
+        "text": "mesmo ponto que está localizado no primeiro",
+        "top": 575.61,
+        "bottom": 586.57,
+        "x0": 311.81,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "quadrante do plano cartesiano.",
+        "top": 588.56,
+        "bottom": 599.52,
+        "x0": 311.81,
+        "x1": 462.78,
+        "column": 1
+      },
+      {
+        "text": "Os valores dos coeficientes a e b da reta t",
+        "top": 614.26,
+        "bottom": 625.42,
+        "x0": 311.81,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "devem ser tais que",
+        "top": 627.42,
+        "bottom": 638.38,
+        "x0": 311.81,
+        "x1": 403.79,
+        "column": 1
+      },
+      {
+        "text": "1",
+        "top": 644.89,
+        "bottom": 655.85,
+        "x0": 342.81,
+        "x1": 348.29,
+        "column": 1
+      },
+      {
+        "text": "(A) − < a < 1 e 2 < b < 8",
+        "top": 652.3,
+        "bottom": 663.47,
+        "x0": 313.03,
+        "x1": 447.05,
+        "column": 1
+      },
+      {
+        "text": "2",
+        "top": 659.82,
+        "bottom": 670.78,
+        "x0": 342.81,
+        "x1": 348.29,
+        "column": 1
+      },
+      {
+        "text": "(B) −1 < a < 1 e 2 < b < 8",
+        "top": 677.13,
+        "bottom": 688.3,
+        "x0": 313.03,
+        "x1": 444.66,
+        "column": 1
+      },
+      {
+        "text": "1",
+        "top": 695.79,
+        "bottom": 706.75,
+        "x0": 400.97,
+        "x1": 406.45,
+        "column": 1
+      },
+      {
+        "text": "(C) 2 < a < 8 e − < b < 1",
+        "top": 703.2,
+        "bottom": 714.37,
+        "x0": 312.43,
+        "x1": 447.05,
+        "column": 1
+      },
+      {
+        "text": "2",
+        "top": 710.72,
+        "bottom": 721.68,
+        "x0": 400.97,
+        "x1": 406.45,
+        "column": 1
+      },
+      {
+        "text": "(D) 2 < a < 8 e −1 < b < 1",
+        "top": 728.04,
+        "bottom": 739.2,
+        "x0": 312.43,
+        "x1": 444.66,
+        "column": 1
+      },
+      {
+        "text": "(E) −1 < a < 1 e 2 < b < 16",
+        "top": 749.3,
+        "bottom": 760.47,
+        "x0": 313.03,
+        "x1": 450.14,
+        "column": 1
+      }
+    ],
+    "images": [
+      {
+        "x0": 311.81,
+        "x1": 538.58,
+        "top": 356.27,
+        "bottom": 525.09
+      }
+    ],
+    "rects": [
+      {
+        "x0": 56.69,
+        "x1": 283.46,
+        "top": 63.4,
+        "bottom": 67.65
+      },
+      {
+        "x0": 56.69,
+        "x1": 283.46,
+        "top": 486.21,
+        "bottom": 490.46
+      },
+      {
+        "x0": 311.81,
+        "x1": 538.58,
+        "top": 287.72,
+        "bottom": 291.97
+      }
+    ],
+    "curves": []
+  },
+  {
+    "page": 12,
+    "width": 595.276,
+    "height": 841.89,
+    "lines": [
+      {
+        "text": "QUESTÃO 17.",
+        "top": 74.77,
+        "bottom": 85.73,
+        "x0": 56.69,
+        "x1": 131.74,
+        "column": 0
+      },
+      {
+        "text": "Quatro amigas compraram bombons em uma",
+        "top": 88.92,
+        "bottom": 99.87,
+        "x0": 56.69,
+        "x1": 283.47,
+        "column": 0
+      },
+      {
+        "text": "doceria. Ana comprou 2 bombons de uva,",
+        "top": 101.87,
+        "bottom": 112.83,
+        "x0": 56.69,
+        "x1": 283.47,
+        "column": 0
+      },
+      {
+        "text": "1 de morango, 1 de ameixa e pagou",
+        "top": 114.82,
+        "bottom": 125.78,
+        "x0": 56.69,
+        "x1": 283.47,
+        "column": 0
+      },
+      {
+        "text": "15 reais. Beatriz comprou 1 bombom de uva,",
+        "top": 127.77,
+        "bottom": 138.73,
+        "x0": 56.69,
+        "x1": 283.47,
+        "column": 0
+      },
+      {
+        "text": "1 de ameixa e pagou 8 reais. Carla",
+        "top": 140.72,
+        "bottom": 151.68,
+        "x0": 56.69,
+        "x1": 283.47,
+        "column": 0
+      },
+      {
+        "text": "comprou 2 bombons de morango, 1 de ameixa",
+        "top": 153.67,
+        "bottom": 164.63,
+        "x0": 56.69,
+        "x1": 283.47,
+        "column": 0
+      },
+      {
+        "text": "e pagou 13 reais. Já Denise comprou",
+        "top": 166.62,
+        "bottom": 177.58,
+        "x0": 56.69,
+        "x1": 283.47,
+        "column": 0
+      },
+      {
+        "text": "1 bombom de uva, 1 de morango e",
+        "top": 179.58,
+        "bottom": 190.53,
+        "x0": 56.69,
+        "x1": 283.47,
+        "column": 0
+      },
+      {
+        "text": "2 de ameixa.",
+        "top": 192.53,
+        "bottom": 203.49,
+        "x0": 56.69,
+        "x1": 119.43,
+        "column": 0
+      },
+      {
+        "text": "Quantos reais Denise pagou pelos bombons",
+        "top": 218.43,
+        "bottom": 229.39,
+        "x0": 56.69,
+        "x1": 283.47,
+        "column": 0
+      },
+      {
+        "text": "que comprou?",
+        "top": 231.38,
+        "bottom": 242.34,
+        "x0": 56.69,
+        "x1": 126.74,
+        "column": 0
+      },
+      {
+        "text": "(A) 12",
+        "top": 253.3,
+        "bottom": 264.26,
+        "x0": 57.91,
+        "x1": 90.16,
+        "column": 0
+      },
+      {
+        "text": "(B) 15",
+        "top": 275.22,
+        "bottom": 286.18,
+        "x0": 57.91,
+        "x1": 90.16,
+        "column": 0
+      },
+      {
+        "text": "(C) 16",
+        "top": 297.13,
+        "bottom": 308.09,
+        "x0": 57.31,
+        "x1": 90.16,
+        "column": 0
+      },
+      {
+        "text": "(D) 17",
+        "top": 319.05,
+        "bottom": 330.01,
+        "x0": 57.31,
+        "x1": 90.16,
+        "column": 0
+      },
+      {
+        "text": "(E) 21",
+        "top": 340.97,
+        "bottom": 351.93,
+        "x0": 57.91,
+        "x1": 90.16,
+        "column": 0
+      },
+      {
+        "text": "QUESTÃO 18.",
+        "top": 385.41,
+        "bottom": 396.36,
+        "x0": 56.69,
+        "x1": 131.74,
+        "column": 0
+      },
+      {
+        "text": "Considere os números x, y e z definidos por",
+        "top": 399.34,
+        "bottom": 410.51,
+        "x0": 56.69,
+        "x1": 271.65,
+        "column": 0
+      },
+      {
+        "text": "x = 23+log 2 5 , y = 32−log 3 5 e z = 6(log 9 4)×(log 6 3).",
+        "top": 423.92,
+        "bottom": 436.41,
+        "x0": 56.69,
+        "x1": 281.05,
+        "column": 0
+      },
+      {
+        "text": "O valor de x · y · z é",
+        "top": 451.15,
+        "bottom": 462.32,
+        "x0": 56.69,
+        "x1": 152.6,
+        "column": 0
+      },
+      {
+        "text": "(A) 52",
+        "top": 473.07,
+        "bottom": 484.23,
+        "x0": 57.91,
+        "x1": 88.93,
+        "column": 0
+      },
+      {
+        "text": "(B) 72",
+        "top": 494.98,
+        "bottom": 506.15,
+        "x0": 57.91,
+        "x1": 88.93,
+        "column": 0
+      },
+      {
+        "text": "(C) 144",
+        "top": 516.9,
+        "bottom": 528.07,
+        "x0": 57.31,
+        "x1": 94.41,
+        "column": 0
+      },
+      {
+        "text": "(D) 156 · 6(log 9 4)",
+        "top": 537.49,
+        "bottom": 549.99,
+        "x0": 57.31,
+        "x1": 134.33,
+        "column": 0
+      },
+      {
+        "text": "(E) 216 · 6(log 9 4)",
+        "top": 559.41,
+        "bottom": 571.9,
+        "x0": 57.91,
+        "x1": 134.33,
+        "column": 0
+      },
+      {
+        "text": "QUESTÃO 19.",
+        "top": 74.77,
+        "bottom": 85.73,
+        "x0": 311.81,
+        "x1": 386.86,
+        "column": 1
+      },
+      {
+        "text": "Uma pessoa elaborou uma playlist com 12",
+        "top": 88.92,
+        "bottom": 99.87,
+        "x0": 311.81,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "músicas diferentes, das quais 2 são do gênero",
+        "top": 101.87,
+        "bottom": 112.83,
+        "x0": 311.81,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "sertanejo, 4 são clássicas e 6 são do gênero",
+        "top": 114.82,
+        "bottom": 125.78,
+        "x0": 311.81,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "rock. Ela programará essa playlist para tocar",
+        "top": 127.77,
+        "bottom": 138.73,
+        "x0": 311.81,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "três blocos de música, sendo que, em cada",
+        "top": 140.72,
+        "bottom": 151.68,
+        "x0": 311.81,
+        "x1": 538.59,
+        "column": 1
+      },
+      {
+        "text": "bloco, serão tocadas todas as músicas de um",
+        "top": 153.67,
+        "bottom": 164.63,
+        "x0": 311.81,
+        "x1": 538.59,
+        "column": 1
+      },
+      {
+        "text": "mesmo gênero musical em ordem aleatória,",
+        "top": 166.62,
+        "bottom": 177.58,
+        "x0": 311.81,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "podendo os três blocos dos diferentes gêneros",
+        "top": 179.58,
+        "bottom": 190.53,
+        "x0": 311.81,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "musicais serem, entre si, reproduzidos em",
+        "top": 192.53,
+        "bottom": 203.49,
+        "x0": 311.81,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "qualquer ordem.",
+        "top": 205.48,
+        "bottom": 216.44,
+        "x0": 311.81,
+        "x1": 391.6,
+        "column": 1
+      },
+      {
+        "text": "Com essa programação feita, de quantas",
+        "top": 231.38,
+        "bottom": 242.34,
+        "x0": 311.81,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "maneiras diferentes essa playlist poderá ser",
+        "top": 244.33,
+        "bottom": 255.29,
+        "x0": 311.81,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "reproduzida?",
+        "top": 257.28,
+        "bottom": 268.24,
+        "x0": 311.81,
+        "x1": 375.77,
+        "column": 1
+      },
+      {
+        "text": "(A) 12!",
+        "top": 279.13,
+        "bottom": 290.09,
+        "x0": 313.03,
+        "x1": 348.33,
+        "column": 1
+      },
+      {
+        "text": "(B) 3! × 2! × 4! × 6!",
+        "top": 300.82,
+        "bottom": 311.98,
+        "x0": 313.03,
+        "x1": 415.67,
+        "column": 1
+      },
+      {
+        "text": "(C) 3! + 2! + 4! + 6!",
+        "top": 322.71,
+        "bottom": 333.87,
+        "x0": 312.43,
+        "x1": 415.66,
+        "column": 1
+      },
+      {
+        "text": "(D) 3 × 2! × 4! × 6!",
+        "top": 344.6,
+        "bottom": 355.76,
+        "x0": 312.43,
+        "x1": 411.9,
+        "column": 1
+      },
+      {
+        "text": "(E) 12 × 2! × 4! × 6!",
+        "top": 366.49,
+        "bottom": 377.66,
+        "x0": 313.03,
+        "x1": 418.0,
+        "column": 1
+      },
+      {
+        "text": "QUESTÃO 20.",
+        "top": 411.06,
+        "bottom": 422.02,
+        "x0": 311.81,
+        "x1": 386.86,
+        "column": 1
+      },
+      {
+        "text": "Laura pretende jantar em um restaurante com",
+        "top": 425.21,
+        "bottom": 436.17,
+        "x0": 311.81,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "um grupo de doze amigos mais íntimos, dentre",
+        "top": 438.16,
+        "bottom": 449.12,
+        "x0": 311.81,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "os quais há um casal formado por Joana e",
+        "top": 451.11,
+        "bottom": 462.07,
+        "x0": 311.81,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "Pedro, para comemorar seu aniversário. Ao",
+        "top": 464.06,
+        "bottom": 475.02,
+        "x0": 311.81,
+        "x1": 538.59,
+        "column": 1
+      },
+      {
+        "text": "tentar fazer a reserva de uma mesa nesse",
+        "top": 477.01,
+        "bottom": 487.97,
+        "x0": 311.81,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "restaurante para o dia do seu aniversário, foi",
+        "top": 489.97,
+        "bottom": 500.92,
+        "x0": 311.81,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "informada que a única mesa disponível era",
+        "top": 502.92,
+        "bottom": 513.88,
+        "x0": 311.81,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "para seis pessoas e, assim, decidiu sortear,",
+        "top": 515.87,
+        "bottom": 526.83,
+        "x0": 311.81,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "dentre os doze amigos, quais os cinco que",
+        "top": 528.82,
+        "bottom": 539.78,
+        "x0": 311.81,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "jantariam com ela nesse restaurante nessa",
+        "top": 541.77,
+        "bottom": 552.73,
+        "x0": 311.81,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "data.",
+        "top": 554.72,
+        "bottom": 565.68,
+        "x0": 311.81,
+        "x1": 336.18,
+        "column": 1
+      },
+      {
+        "text": "Qual é a probabilidade de o casal Joana e",
+        "top": 580.63,
+        "bottom": 591.58,
+        "x0": 311.81,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "Pedro participarem desse jantar?",
+        "top": 593.58,
+        "bottom": 604.54,
+        "x0": 311.81,
+        "x1": 473.1,
+        "column": 1
+      },
+      {
+        "text": "1",
+        "top": 612.61,
+        "bottom": 623.57,
+        "x0": 334.29,
+        "x1": 339.76,
+        "column": 1
+      },
+      {
+        "text": "(A)",
+        "top": 620.23,
+        "bottom": 631.19,
+        "x0": 313.03,
+        "x1": 327.64,
+        "column": 1
+      },
+      {
+        "text": "2",
+        "top": 627.54,
+        "bottom": 638.5,
+        "x0": 334.29,
+        "x1": 339.77,
+        "column": 1
+      },
+      {
+        "text": "1",
+        "top": 644.54,
+        "bottom": 655.5,
+        "x0": 337.02,
+        "x1": 342.5,
+        "column": 1
+      },
+      {
+        "text": "(B)",
+        "top": 652.16,
+        "bottom": 663.12,
+        "x0": 313.03,
+        "x1": 327.64,
+        "column": 1
+      },
+      {
+        "text": "11",
+        "top": 659.47,
+        "bottom": 670.43,
+        "x0": 334.29,
+        "x1": 345.24,
+        "column": 1
+      },
+      {
+        "text": "2",
+        "top": 676.47,
+        "bottom": 687.43,
+        "x0": 334.29,
+        "x1": 339.77,
+        "column": 1
+      },
+      {
+        "text": "(C)",
+        "top": 684.09,
+        "bottom": 695.05,
+        "x0": 312.43,
+        "x1": 327.64,
+        "column": 1
+      },
+      {
+        "text": "5",
+        "top": 691.4,
+        "bottom": 702.36,
+        "x0": 334.29,
+        "x1": 339.77,
+        "column": 1
+      },
+      {
+        "text": "5",
+        "top": 708.4,
+        "bottom": 719.36,
+        "x0": 337.03,
+        "x1": 342.5,
+        "column": 1
+      },
+      {
+        "text": "(D)",
+        "top": 716.02,
+        "bottom": 726.98,
+        "x0": 312.43,
+        "x1": 327.64,
+        "column": 1
+      },
+      {
+        "text": "22",
+        "top": 723.33,
+        "bottom": 734.29,
+        "x0": 334.29,
+        "x1": 345.24,
+        "column": 1
+      },
+      {
+        "text": "5",
+        "top": 740.33,
+        "bottom": 751.29,
+        "x0": 337.02,
+        "x1": 342.5,
+        "column": 1
+      },
+      {
+        "text": "(E)",
+        "top": 747.95,
+        "bottom": 758.91,
+        "x0": 313.03,
+        "x1": 327.64,
+        "column": 1
+      },
+      {
+        "text": "33",
+        "top": 755.26,
+        "bottom": 766.22,
+        "x0": 334.29,
+        "x1": 345.24,
+        "column": 1
+      }
+    ],
+    "images": [],
+    "rects": [
+      {
+        "x0": 56.69,
+        "x1": 283.46,
+        "top": 63.4,
+        "bottom": 67.65
+      },
+      {
+        "x0": 56.69,
+        "x1": 283.46,
+        "top": 374.03,
+        "bottom": 378.29
+      },
+      {
+        "x0": 311.81,
+        "x1": 538.58,
+        "top": 63.4,
+        "bottom": 67.65
+      },
+      {
+        "x0": 311.81,
+        "x1": 538.58,
+        "top": 399.69,
+        "bottom": 403.94
+      }
+    ],
+    "curves": []
+  }
+]

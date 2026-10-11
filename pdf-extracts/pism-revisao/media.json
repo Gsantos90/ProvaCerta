@@ -1,0 +1,615 @@
+{
+  "pism-2023-1": {
+    "1": [],
+    "2": [],
+    "4": [],
+    "6": [
+      "/pism-apoios/pism-2023-1-q6-pagina-7.png"
+    ],
+    "8": [],
+    "9": [],
+    "19": [
+      "/pism-apoios/pism-2023-1-q16-pagina-13.png"
+    ],
+    "11": [
+      "/pism-apoios/pism-2023-1-q11-pagina-11.png"
+    ],
+    "12": [
+      "/pism-apoios/pism-2023-1-q12-pagina-11.png"
+    ],
+    "13": [],
+    "14": [
+      "/pism-apoios/pism-2023-1-q14-pagina-12.png"
+    ],
+    "15": [
+      "/pism-2023-1-questao-15.png"
+    ],
+    "16": [
+      "/pism-apoios/pism-2023-1-q16-pagina-13.png"
+    ],
+    "18": [
+      "/pism-apoios/pism-2023-1-q16-pagina-13.png"
+    ],
+    "20": [
+      "/pism-apoios/pism-2023-1-q20-pagina-15.png"
+    ],
+    "3": [],
+    "5": [],
+    "7": [
+      "/pism-apoios/pism-2023-1-q7-pagina-8.png"
+    ],
+    "10": [
+      "/pism-apoios/pism-2023-1-q10-pagina-10.png"
+    ],
+    "17": [
+      "/pism-apoios/pism-2023-1-q16-pagina-13.png"
+    ]
+  },
+  "pism-2023-2": {
+    "8": [
+      "/pism-2023-2-questao-8.png",
+      "/pism-apoios/pism-2023-2-q8-vetor.png"
+    ],
+    "1": [],
+    "2": [],
+    "3": [],
+    "4": [],
+    "5": [],
+    "6": [],
+    "7": [],
+    "9": [],
+    "10": [],
+    "11": [
+      "/pism-apoios/pism-2023-2-q11-pagina-9.png"
+    ],
+    "12": [],
+    "13": [],
+    "14": [],
+    "15": [
+      "/pism-apoios/pism-2023-2-q15-pagina-11.png"
+    ],
+    "16": [],
+    "17": [
+      "/pism-apoios/pism-2023-2-q17-pagina-12.png"
+    ],
+    "18": [],
+    "19": [],
+    "20": []
+  },
+  "pism-2024-1": {
+    "8": [],
+    "11": [],
+    "12": [],
+    "15": [],
+    "16": [
+      "/pism-apoios/pism-2024-1-q16-pagina-10.png"
+    ],
+    "2": [],
+    "5": [],
+    "6": [
+      "/pism-apoios/pism-2024-1-q6-pagina-6.png"
+    ],
+    "7": [
+      "/pism-apoios/pism-2024-1-q7-pagina-7.png"
+    ],
+    "9": [
+      "/pism-apoios/pism-2024-1-q9-pagina-8.png"
+    ],
+    "13": [],
+    "14": [],
+    "17": [],
+    "18": [],
+    "19": [],
+    "1": [],
+    "3": [
+      "/pism-apoios/pism-2024-1-q3-pagina-4.png"
+    ],
+    "10": [
+      "/pism-apoios/pism-2024-1-q10-pagina-8.png"
+    ],
+    "4": [],
+    "20": []
+  },
+  "pism-2024-2": {
+    "11": [],
+    "2": [],
+    "4": [],
+    "5": [],
+    "6": [],
+    "7": [],
+    "9": [],
+    "10": [
+      "/pism-apoios/pism-2024-2-q10-pagina-8.png"
+    ],
+    "16": [],
+    "18": [],
+    "19": [
+      "/pism-apoios/pism-2024-2-q19-pagina-11.png"
+    ],
+    "20": [],
+    "12": [
+      "/pism-apoios/pism-2024-2-q12-pagina-8.png"
+    ],
+    "13": [],
+    "14": [],
+    "15": [],
+    "8": [
+      "/pism-apoios/pism-2024-2-q8-pagina-7.png"
+    ],
+    "1": [],
+    "17": [
+      "/pism-2024-2-questão-17.png",
+      "/pism-apoios/pism-2024-2-q17-vetor.png"
+    ],
+    "3": []
+  },
+  "pism-2025-1": {
+    "9": [
+      "/pism-apoios/pism-2025-1-q9-pagina-9.png"
+    ],
+    "10": [
+      "/pism-apoios/pism-2025-1-q10-pagina-10.png"
+    ],
+    "14": [
+      "/pism-apoios/pism-2025-1-q14-pagina-12.png"
+    ],
+    "1": [],
+    "2": [],
+    "4": [
+      "/pism-apoios/pism-2025-1-q4-pagina-6.png"
+    ],
+    "5": [
+      "/pism-apoios/pism-2025-1-q5-pagina-6.png"
+    ],
+    "6": [],
+    "7": [
+      "/pism-apoios/pism-2025-1-q7-pagina-8.png"
+    ],
+    "8": [],
+    "3": [
+      "/pism-apoios/pism-2025-1-q3-pagina-5.png"
+    ],
+    "11": [],
+    "12": [
+      "/pism-apoios/pism-2025-1-q12-pagina-11.png"
+    ],
+    "13": [
+      "/pism-apoios/pism-2025-1-q13-pagina-11.png"
+    ],
+    "15": [
+      "/pism-apoios/pism-2025-1-q15-pagina-12.png"
+    ],
+    "16": [],
+    "17": [],
+    "18": [],
+    "19": [],
+    "20": []
+  },
+  "pism-2025-2": {
+    "1": [],
+    "13": [],
+    "14": [],
+    "16": [],
+    "17": [],
+    "18": [
+      "/pism-apoios/pism-2025-2-q18-pagina-11.png"
+    ],
+    "19": [],
+    "20": [],
+    "2": [],
+    "3": [],
+    "4": [],
+    "5": [],
+    "6": [],
+    "7": [],
+    "8": [],
+    "9": [],
+    "10": [],
+    "11": [],
+    "12": [
+      "/pism-apoios/pism-2025-2-q12-pagina-9.png"
+    ],
+    "15": [
+      "/pism-apoios/pism-2025-2-q15-pagina-10.png"
+    ]
+  },
+  "pism-ii-2024-dia-1": {
+    "1": [
+      "/pism-apoios/pism-ii-2024-dia-1-q1-pagina-3.png"
+    ],
+    "2": [],
+    "3": [],
+    "4": [
+      "/pism-apoios/pism-ii-2024-dia-1-q4-pagina-6.png",
+      "/pism-apoios/pism-ii-2024-dia-1-q4-pagina-7.png"
+    ],
+    "5": [],
+    "6": [
+      "/pism-ii-2024-dia-1-questao-6.png"
+    ],
+    "7": [
+      "/pism-apoios/pism-ii-2024-dia-1-q7-pagina-9.png"
+    ],
+    "8": [
+      "/pism-apoios/pism-ii-2024-dia-1-q8-pagina-10.png"
+    ],
+    "9": [
+      "/pism-apoios/pism-ii-2024-dia-1-q9-pagina-11.png"
+    ],
+    "10": [],
+    "11": [
+      "/pism-apoios/pism-ii-2024-dia-1-q11-pagina-12.png"
+    ],
+    "12": [],
+    "13": [],
+    "14": [],
+    "15": [],
+    "16": [
+      "/pism-apoios/pism-ii-2024-dia-1-q16-pagina-14.png"
+    ],
+    "17": [
+      "/pism-apoios/pism-ii-2024-dia-1-q16-pagina-14.png"
+    ],
+    "18": [
+      "/pism-apoios/pism-ii-2024-dia-1-q16-pagina-14.png"
+    ],
+    "19": [
+      "/pism-ii-2024-dia-1-questao-19.png",
+      "/pism-apoios/pism-ii-2024-dia-1-q16-pagina-14.png"
+    ],
+    "20": [
+      "/pism-apoios/pism-ii-2024-dia-1-q20-vetor.png",
+      "/pism-apoios/pism-ii-2024-dia-1-q16-pagina-14.png"
+    ]
+  },
+  "pism-ii-2024-dia-2": {
+    "1": [],
+    "2": [],
+    "3": [],
+    "4": [],
+    "5": [],
+    "6": [],
+    "7": [],
+    "8": [],
+    "9": [],
+    "10": [],
+    "11": [],
+    "12": [
+      "/pism-apoios/pism-ii-2024-dia-2-q12-pagina-9.png"
+    ],
+    "13": [
+      "/pism-ii-2024-dia-2-questao-13.png"
+    ],
+    "14": [
+      "/pism-apoios/pism-ii-2024-dia-2-q14-pagina-10.png"
+    ],
+    "15": [],
+    "16": [],
+    "17": [],
+    "18": [
+      "/pism-apoios/pism-ii-2024-dia-2-q18-pagina-12.png"
+    ],
+    "19": [
+      "/pism-apoios/pism-ii-2024-dia-2-q19-pagina-13.png"
+    ],
+    "20": [
+      "/pism-ii-2024-dia-2-questao-20.png"
+    ]
+  },
+  "pism-ii-2025-dia-1": {
+    "1": [],
+    "2": [],
+    "3": [],
+    "4": [
+      "/pism-apoios/pism-ii-2025-dia-1-q4-pagina-6.png"
+    ],
+    "5": [
+      "/pism-apoios/pism-ii-2025-dia-1-q5-pagina-7.png"
+    ],
+    "6": [],
+    "7": [
+      "/pism-apoios/pism-ii-2025-dia-1-q7-pagina-8.png"
+    ],
+    "8": [
+      "/pism-apoios/pism-ii-2025-dia-1-q8-pagina-9.png"
+    ],
+    "9": [],
+    "10": [
+      "/pism-apoios/pism-ii-2025-dia-1-q10-pagina-10.png"
+    ],
+    "11": [
+      "/pism-apoios/pism-ii-2025-dia-1-q11-pagina-10.png"
+    ],
+    "12": [
+      "/pism-ii-2025-dia-1-questao-12.png"
+    ],
+    "13": [
+      "/pism-apoios/pism-ii-2025-dia-1-q13-vetor.png"
+    ],
+    "14": [
+      "/pism-ii-2025-dia-1-questao-14.png"
+    ],
+    "15": [
+      "/pism-apoios/pism-ii-2025-dia-1-q15-pagina-12.png"
+    ],
+    "16": [],
+    "17": [
+      "/pism-apoios/pism-ii-2025-dia-1-q17-pagina-12.png"
+    ],
+    "18": [],
+    "19": [
+      "/pism-apoios/pism-ii-2025-dia-1-q19-pagina-13.png"
+    ],
+    "20": []
+  },
+  "pism-ii-2025-dia-2": {
+    "1": [],
+    "2": [],
+    "3": [],
+    "4": [],
+    "5": [],
+    "6": [],
+    "7": [],
+    "8": [],
+    "9": [],
+    "10": [],
+    "11": [],
+    "12": [],
+    "13": [],
+    "14": [],
+    "15": [],
+    "16": [],
+    "17": [],
+    "18": [],
+    "19": [
+      "/pism-apoios/pism-ii-2025-dia-2-q19-pagina-11.png"
+    ],
+    "20": []
+  },
+  "pism-ii-2026-dia-1": {
+    "1": [],
+    "2": [],
+    "3": [],
+    "4": [],
+    "5": [],
+    "6": [],
+    "7": [],
+    "8": [],
+    "9": [],
+    "10": [
+      "/pism-apoios/pism-ii-2026-dia-1-q10-pagina-9.png"
+    ],
+    "11": [
+      "/pism-apoios/pism-ii-2026-dia-1-q11-pagina-9.png"
+    ],
+    "12": [
+      "/pism-apoios/pism-ii-2026-dia-1-q12-pagina-10.png"
+    ],
+    "13": [],
+    "14": [
+      "/pism-apoios/pism-ii-2026-dia-1-q14-pagina-10.png"
+    ],
+    "15": [
+      "/pism-apoios/pism-ii-2026-dia-1-q15-pagina-11.png"
+    ],
+    "16": [],
+    "17": [],
+    "18": [],
+    "19": [],
+    "20": [
+      "/pism-apoios/pism-ii-2026-dia-1-q20-vetor.png"
+    ]
+  },
+  "pism-ii-2026-dia-2": {
+    "1": [],
+    "2": [],
+    "3": [],
+    "4": [],
+    "5": [
+      "/pism-apoios/pism-ii-2026-dia-2-q5-pagina-5.png"
+    ],
+    "6": [],
+    "7": [],
+    "8": [],
+    "9": [
+      "/pism-apoios/pism-ii-2026-dia-2-q9-pagina-7.png"
+    ],
+    "10": [],
+    "11": [],
+    "12": [],
+    "13": [],
+    "14": [],
+    "15": [],
+    "16": [],
+    "17": [],
+    "18": [],
+    "19": [],
+    "20": []
+  },
+  "pism-iii-2024-dia-1": {
+    "1": [],
+    "2": [],
+    "3": [],
+    "4": [],
+    "5": [
+      "/pism-apoios/pism-iii-2024-dia-1-q5-pagina-7.png"
+    ],
+    "6": [],
+    "7": [],
+    "8": [],
+    "9": [],
+    "10": [],
+    "11": [],
+    "12": [],
+    "13": [],
+    "14": [],
+    "15": [],
+    "16": [],
+    "17": [],
+    "18": [],
+    "19": [],
+    "20": []
+  },
+  "pism-iii-2024-dia-2": {
+    "1": [],
+    "2": [],
+    "3": [],
+    "4": [],
+    "5": [],
+    "6": [
+      "/pism-apoios/pism-iii-2024-dia-2-q6-pagina-5.png"
+    ],
+    "7": [
+      "/pism-apoios/pism-iii-2024-dia-2-q6-pagina-5.png"
+    ],
+    "8": [
+      "/pism-apoios/pism-iii-2024-dia-2-q6-pagina-5.png"
+    ],
+    "9": [
+      "/pism-apoios/pism-iii-2024-dia-2-q6-pagina-5.png"
+    ],
+    "10": [
+      "/pism-apoios/pism-iii-2024-dia-2-q6-pagina-5.png"
+    ],
+    "11": [
+      "/pism-apoios/pism-iii-2024-dia-2-q11-pagina-8.png"
+    ],
+    "12": [],
+    "13": [],
+    "14": [
+      "/pism-apoios/pism-iii-2024-dia-2-q14-pagina-9.png"
+    ],
+    "15": [],
+    "16": [],
+    "17": [
+      "/pism-apoios/pism-iii-2024-dia-2-q17-pagina-12.png"
+    ],
+    "18": [
+      "/pism-apoios/pism-iii-2024-dia-2-q18-pagina-13.png"
+    ],
+    "19": [],
+    "20": []
+  },
+  "pism-iii-2025-dia-1": {
+    "1": [],
+    "2": [],
+    "3": [],
+    "4": [],
+    "5": [],
+    "6": [],
+    "7": [],
+    "8": [],
+    "9": [
+      "/pism-apoios/pism-iii-2025-dia-1-q9-pagina-9.png"
+    ],
+    "10": [],
+    "11": [],
+    "12": [],
+    "13": [],
+    "14": [],
+    "15": [],
+    "16": [],
+    "17": [],
+    "18": [],
+    "19": [],
+    "20": []
+  },
+  "pism-iii-2025-dia-2": {
+    "1": [],
+    "2": [
+      "/pism-apoios/pism-iii-2025-dia-2-q2-pagina-3.png"
+    ],
+    "3": [],
+    "4": [],
+    "5": [],
+    "6": [],
+    "7": [],
+    "8": [],
+    "9": [
+      "/pism-apoios/pism-iii-2025-dia-2-q9-pagina-5.png"
+    ],
+    "10": [
+      "/pism-apoios/pism-iii-2025-dia-2-q10-vetor.png"
+    ],
+    "11": [],
+    "12": [
+      "/pism-apoios/pism-iii-2025-dia-2-q12-pagina-6.png"
+    ],
+    "13": [],
+    "14": [],
+    "15": [],
+    "16": [],
+    "17": [
+      "/pism-apoios/pism-iii-2025-dia-2-q17-pagina-9.png"
+    ],
+    "18": [],
+    "19": [],
+    "20": []
+  },
+  "pism-iii-2026-dia-1": {
+    "4": [
+      "/pism-apoios/pism-iii-2026-dia-1-q4-pagina-5.png"
+    ],
+    "5": [],
+    "6": [],
+    "7": [],
+    "8": [],
+    "9": [],
+    "10": [],
+    "11": [],
+    "12": [],
+    "13": [],
+    "14": [],
+    "15": [],
+    "16": [
+      "/pism-apoios/pism-iii-2026-dia-1-q16-pagina-11.png"
+    ],
+    "17": [],
+    "18": [],
+    "19": [],
+    "20": [],
+    "1": [],
+    "2": [],
+    "3": []
+  },
+  "pism-iii-2026-dia-2": {
+    "1": [
+      "/pism-apoios/pism-iii-2026-dia-2-q1-pagina-3.png"
+    ],
+    "2": [
+      "/pism-apoios/pism-iii-2026-dia-2-q2-pagina-3.png"
+    ],
+    "3": [
+      "/pism-apoios/pism-iii-2026-dia-2-q3-pagina-4.png"
+    ],
+    "4": [
+      "/pism-apoios/pism-iii-2026-dia-2-q4-pagina-4.png"
+    ],
+    "5": [],
+    "6": [],
+    "7": [],
+    "8": [],
+    "9": [
+      "/pism-apoios/pism-iii-2026-dia-2-q9-pagina-6.png"
+    ],
+    "10": [],
+    "11": [
+      "/pism-apoios/pism-iii-2026-dia-2-q11-pagina-7.png"
+    ],
+    "12": [],
+    "13": [
+      "/pism-apoios/pism-iii-2026-dia-2-q13-pagina-8.png"
+    ],
+    "14": [
+      "/pism-apoios/pism-iii-2026-dia-2-q14-pagina-8.png"
+    ],
+    "15": [],
+    "16": [],
+    "17": [],
+    "18": [],
+    "19": [
+      "/pism-apoios/pism-iii-2026-dia-2-q19-pagina-11.png"
+    ],
+    "20": []
+  }
+}

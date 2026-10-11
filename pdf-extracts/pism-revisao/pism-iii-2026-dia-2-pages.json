@@ -1,0 +1,6765 @@
+[
+  {
+    "page": 3,
+    "width": 595.276,
+    "height": 841.89,
+    "lines": [
+      {
+        "text": "Física - Objetivas",
+        "top": 79.28,
+        "bottom": 90.24,
+        "x0": 125.11,
+        "x1": 215.04,
+        "column": 0
+      },
+      {
+        "text": "QUESTÃO 1.",
+        "top": 113.93,
+        "bottom": 124.89,
+        "x0": 56.69,
+        "x1": 125.65,
+        "column": 0
+      },
+      {
+        "text": "Imagine um próton atingindo a magnetosfera",
+        "top": 128.08,
+        "bottom": 139.04,
+        "x0": 56.69,
+        "x1": 283.46,
+        "column": 0
+      },
+      {
+        "text": "com um certo ângulo, como mostrado na figura",
+        "top": 141.03,
+        "bottom": 151.99,
+        "x0": 56.69,
+        "x1": 283.47,
+        "column": 0
+      },
+      {
+        "text": "abaixo. A ampliação da região retangular",
+        "top": 153.98,
+        "bottom": 164.94,
+        "x0": 56.69,
+        "x1": 283.46,
+        "column": 0
+      },
+      {
+        "text": "destacada mostra, de uma forma simplificada,",
+        "top": 166.93,
+        "bottom": 177.89,
+        "x0": 56.69,
+        "x1": 283.47,
+        "column": 0
+      },
+      {
+        "text": "a situação na qual estamos interessados:",
+        "top": 179.89,
+        "bottom": 190.84,
+        "x0": 56.69,
+        "x1": 283.47,
+        "column": 0
+      },
+      {
+        "text": "um campo magnético uniforme, apontando no",
+        "top": 192.84,
+        "bottom": 203.8,
+        "x0": 56.69,
+        "x1": 283.46,
+        "column": 0
+      },
+      {
+        "text": "sentido positivo de y, e o vetor velocidade (⃗v)",
+        "top": 205.58,
+        "bottom": 216.75,
+        "x0": 56.69,
+        "x1": 283.46,
+        "column": 0
+      },
+      {
+        "text": "forma um ângulo de 30° com o eixo y, à sua",
+        "top": 218.74,
+        "bottom": 229.7,
+        "x0": 56.69,
+        "x1": 283.46,
+        "column": 0
+      },
+      {
+        "text": "esquerda.",
+        "top": 231.69,
+        "bottom": 242.65,
+        "x0": 56.69,
+        "x1": 105.43,
+        "column": 0
+      },
+      {
+        "text": "Sobre a trajetória da partícula, considerando",
+        "top": 420.79,
+        "bottom": 431.75,
+        "x0": 56.69,
+        "x1": 283.46,
+        "column": 0
+      },
+      {
+        "text": "um campo",
+        "top": 433.74,
+        "bottom": 444.7,
+        "x0": 56.69,
+        "x1": 283.47,
+        "column": 0
+      },
+      {
+        "text": "magnético uniforme, indique a opção",
+        "top": 446.69,
+        "bottom": 457.65,
+        "x0": 56.69,
+        "x1": 283.46,
+        "column": 0
+      },
+      {
+        "text": "CORRETA.",
+        "top": 459.64,
+        "bottom": 470.64,
+        "x0": 56.69,
+        "x1": 112.93,
+        "column": 0
+      },
+      {
+        "text": "(A) A partícula incidente não sofrerá mudança",
+        "top": 481.58,
+        "bottom": 492.54,
+        "x0": 57.91,
+        "x1": 283.47,
+        "column": 0
+      },
+      {
+        "text": "em sua trajetória e irá manter seu",
+        "top": 494.53,
+        "bottom": 505.49,
+        "x0": 77.97,
+        "x1": 283.46,
+        "column": 0
+      },
+      {
+        "text": "movimento retilíneo inicial.",
+        "top": 507.49,
+        "bottom": 518.45,
+        "x0": 77.97,
+        "x1": 206.91,
+        "column": 0
+      },
+      {
+        "text": "(B) A trajetória da partícula será em forma",
+        "top": 529.43,
+        "bottom": 540.39,
+        "x0": 57.91,
+        "x1": 283.47,
+        "column": 0
+      },
+      {
+        "text": "de espiral em direção ao polo norte",
+        "top": 542.38,
+        "bottom": 553.34,
+        "x0": 77.97,
+        "x1": 283.47,
+        "column": 0
+      },
+      {
+        "text": "geográfico e, em relação à posição",
+        "top": 555.33,
+        "bottom": 566.29,
+        "x0": 77.97,
+        "x1": 283.46,
+        "column": 0
+      },
+      {
+        "text": "mostrada na figura, a partícula irá girar",
+        "top": 568.28,
+        "bottom": 579.24,
+        "x0": 77.97,
+        "x1": 283.46,
+        "column": 0
+      },
+      {
+        "text": "inicialmente para dentro da folha.",
+        "top": 581.23,
+        "bottom": 592.19,
+        "x0": 77.97,
+        "x1": 239.56,
+        "column": 0
+      },
+      {
+        "text": "(C) A trajetória da partícula será em forma",
+        "top": 603.18,
+        "bottom": 614.13,
+        "x0": 57.31,
+        "x1": 283.47,
+        "column": 0
+      },
+      {
+        "text": "de espiral em direção ao polo norte",
+        "top": 616.13,
+        "bottom": 627.09,
+        "x0": 77.97,
+        "x1": 283.47,
+        "column": 0
+      },
+      {
+        "text": "geográfico e, em relação à posição",
+        "top": 629.08,
+        "bottom": 640.04,
+        "x0": 77.97,
+        "x1": 283.46,
+        "column": 0
+      },
+      {
+        "text": "mostrada na figura, a partícula irá girar",
+        "top": 642.03,
+        "bottom": 652.99,
+        "x0": 77.97,
+        "x1": 283.46,
+        "column": 0
+      },
+      {
+        "text": "inicialmente para fora da folha.",
+        "top": 654.98,
+        "bottom": 665.94,
+        "x0": 77.97,
+        "x1": 226.94,
+        "column": 0
+      },
+      {
+        "text": "(D) A trajetória da partícula será um círculo",
+        "top": 676.92,
+        "bottom": 687.88,
+        "x0": 57.31,
+        "x1": 283.46,
+        "column": 0
+      },
+      {
+        "text": "e, em relação à posição mostrada na",
+        "top": 689.87,
+        "bottom": 700.83,
+        "x0": 77.97,
+        "x1": 283.47,
+        "column": 0
+      },
+      {
+        "text": "figura, a partícula irá girar inicialmente",
+        "top": 702.83,
+        "bottom": 713.78,
+        "x0": 77.97,
+        "x1": 283.47,
+        "column": 0
+      },
+      {
+        "text": "para dentro da folha.",
+        "top": 715.78,
+        "bottom": 726.74,
+        "x0": 77.97,
+        "x1": 178.66,
+        "column": 0
+      },
+      {
+        "text": "(E) A trajetória da partícula será um círculo e,",
+        "top": 737.72,
+        "bottom": 748.68,
+        "x0": 57.91,
+        "x1": 283.47,
+        "column": 0
+      },
+      {
+        "text": "em relação à posição mostrada na figura,",
+        "top": 750.67,
+        "bottom": 761.63,
+        "x0": 77.97,
+        "x1": 283.46,
+        "column": 0
+      },
+      {
+        "text": "a partícula irá girar inicialmente para fora",
+        "top": 763.62,
+        "bottom": 774.58,
+        "x0": 77.97,
+        "x1": 283.47,
+        "column": 0
+      },
+      {
+        "text": "da folha.",
+        "top": 776.57,
+        "bottom": 787.53,
+        "x0": 77.97,
+        "x1": 119.68,
+        "column": 0
+      },
+      {
+        "text": "QUESTÃO 2.",
+        "top": 74.77,
+        "bottom": 85.73,
+        "x0": 311.81,
+        "x1": 380.76,
+        "column": 1
+      },
+      {
+        "text": "A figura abaixo ilustra um fio condutor",
+        "top": 88.92,
+        "bottom": 99.87,
+        "x0": 311.81,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "posicionado acima de uma bússola, distante",
+        "top": 101.87,
+        "bottom": 112.83,
+        "x0": 311.81,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "de alguns poucos centímetros dela. Em",
+        "top": 114.82,
+        "bottom": 125.78,
+        "x0": 311.81,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "um primeiro momento não existe corrente",
+        "top": 127.77,
+        "bottom": 138.73,
+        "x0": 311.81,
+        "x1": 538.59,
+        "column": 1
+      },
+      {
+        "text": "passando pelo fio e o ponteiro da bússola",
+        "top": 140.72,
+        "bottom": 151.68,
+        "x0": 311.81,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "aponta para uma posição entre os indicadores",
+        "top": 153.67,
+        "bottom": 164.63,
+        "x0": 311.81,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "1 e 2, como mostrado na figura, em direção",
+        "top": 166.62,
+        "bottom": 177.58,
+        "x0": 311.81,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "ao polo norte geográfico da Terra. Em um",
+        "top": 179.58,
+        "bottom": 190.53,
+        "x0": 311.81,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "segundo momento, uma corrente i é aplicada",
+        "top": 192.53,
+        "bottom": 203.49,
+        "x0": 311.81,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "ao fio, com o sentido da esquerda para a",
+        "top": 205.48,
+        "bottom": 216.44,
+        "x0": 311.81,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "direita.",
+        "top": 218.43,
+        "bottom": 229.39,
+        "x0": 311.81,
+        "x1": 344.7,
+        "column": 1
+      },
+      {
+        "text": "Considerando que o campo magnético",
+        "top": 325.71,
+        "bottom": 336.67,
+        "x0": 311.81,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "induzido pela corrente em suas redondezas é",
+        "top": 338.66,
+        "bottom": 349.62,
+        "x0": 311.81,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "muito maior que o campo magnético terrestre,",
+        "top": 351.61,
+        "bottom": 362.57,
+        "x0": 311.81,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "qual será a nova orientação do ponteiro da",
+        "top": 364.56,
+        "bottom": 375.52,
+        "x0": 311.81,
+        "x1": 538.59,
+        "column": 1
+      },
+      {
+        "text": "bússola após o acionamento da corrente",
+        "top": 377.52,
+        "bottom": 388.47,
+        "x0": 311.81,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "elétrica?",
+        "top": 390.47,
+        "bottom": 401.43,
+        "x0": 311.81,
+        "x1": 353.39,
+        "column": 1
+      },
+      {
+        "text": "(A) O ponteiro apontará para a posição 1.",
+        "top": 412.38,
+        "bottom": 423.34,
+        "x0": 313.03,
+        "x1": 517.56,
+        "column": 1
+      },
+      {
+        "text": "(B) O ponteiro apontará para a posição 2.",
+        "top": 434.3,
+        "bottom": 445.26,
+        "x0": 313.03,
+        "x1": 517.56,
+        "column": 1
+      },
+      {
+        "text": "(C) O ponteiro apontará para a posição 3.",
+        "top": 456.22,
+        "bottom": 467.18,
+        "x0": 312.43,
+        "x1": 517.56,
+        "column": 1
+      },
+      {
+        "text": "(D) O ponteiro apontará para a posição 4.",
+        "top": 478.14,
+        "bottom": 489.1,
+        "x0": 312.43,
+        "x1": 517.56,
+        "column": 1
+      },
+      {
+        "text": "(E) O ponteiro permanecerá na mesma",
+        "top": 500.06,
+        "bottom": 511.01,
+        "x0": 313.03,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "posição indicada na figura.",
+        "top": 513.01,
+        "bottom": 523.97,
+        "x0": 333.09,
+        "x1": 463.34,
+        "column": 1
+      }
+    ],
+    "images": [
+      {
+        "x0": 56.69,
+        "x1": 283.47,
+        "top": 252.59,
+        "bottom": 407.47
+      },
+      {
+        "x0": 311.81,
+        "x1": 538.58,
+        "top": 237.2,
+        "bottom": 312.42
+      }
+    ],
+    "rects": [
+      {
+        "x0": 56.69,
+        "x1": 283.46,
+        "top": 102.55,
+        "bottom": 106.8
+      },
+      {
+        "x0": 311.81,
+        "x1": 538.58,
+        "top": 63.4,
+        "bottom": 67.65
+      }
+    ],
+    "curves": []
+  },
+  {
+    "page": 4,
+    "width": 595.276,
+    "height": 841.89,
+    "lines": [
+      {
+        "text": "QUESTÃO 3.",
+        "top": 65,
+        "bottom": 70.79,
+        "x0": 56.69,
+        "x1": 125.65,
+        "column": 0
+      },
+      {
+        "text": "Recentemente, o carro elétrico foi inserido",
+        "top": 73.97,
+        "bottom": 84.93,
+        "x0": 56.69,
+        "x1": 283.46,
+        "column": 0
+      },
+      {
+        "text": "nos mercados mundo afora. No entanto,",
+        "top": 86.92,
+        "bottom": 97.88,
+        "x0": 56.69,
+        "x1": 283.47,
+        "column": 0
+      },
+      {
+        "text": "o princípio de funcionamento de um motor",
+        "top": 99.87,
+        "bottom": 110.83,
+        "x0": 56.69,
+        "x1": 283.46,
+        "column": 0
+      },
+      {
+        "text": "elétrico existe desde o século XIX a partir da lei",
+        "top": 112.83,
+        "bottom": 123.78,
+        "x0": 56.69,
+        "x1": 283.46,
+        "column": 0
+      },
+      {
+        "text": "de Faraday-Neumann. No Brasil, por exemplo,",
+        "top": 125.78,
+        "bottom": 136.74,
+        "x0": 56.69,
+        "x1": 283.47,
+        "column": 0
+      },
+      {
+        "text": "o primeiro bonde elétrico foi inaugurado em",
+        "top": 138.73,
+        "bottom": 149.69,
+        "x0": 56.69,
+        "x1": 283.46,
+        "column": 0
+      },
+      {
+        "text": "1892.",
+        "top": 151.68,
+        "bottom": 162.64,
+        "x0": 56.69,
+        "x1": 84.11,
+        "column": 0
+      },
+      {
+        "text": "A figura abaixo ilustra um motor elétrico",
+        "top": 164.63,
+        "bottom": 175.59,
+        "x0": 56.69,
+        "x1": 283.46,
+        "column": 0
+      },
+      {
+        "text": "simples, que consiste em uma espira cuja",
+        "top": 177.58,
+        "bottom": 188.54,
+        "x0": 56.69,
+        "x1": 283.47,
+        "column": 0
+      },
+      {
+        "text": "área está no plano do papel e posicionada",
+        "top": 190.53,
+        "bottom": 201.49,
+        "x0": 56.69,
+        "x1": 283.46,
+        "column": 0
+      },
+      {
+        "text": "entre os polos norte (N) e sul (S) de um imã",
+        "top": 203.49,
+        "bottom": 214.44,
+        "x0": 56.69,
+        "x1": 283.47,
+        "column": 0
+      },
+      {
+        "text": "permanente, e por onde passa uma corrente",
+        "top": 216.44,
+        "bottom": 227.4,
+        "x0": 56.69,
+        "x1": 283.47,
+        "column": 0
+      },
+      {
+        "text": "i. É necessário que a espira fique girando",
+        "top": 229.39,
+        "bottom": 240.35,
+        "x0": 56.69,
+        "x1": 283.46,
+        "column": 0
+      },
+      {
+        "text": "permanentemente na mesma direção.",
+        "top": 242.34,
+        "bottom": 253.3,
+        "x0": 56.69,
+        "x1": 241.69,
+        "column": 0
+      },
+      {
+        "text": "Sobre as condições de funcionamento deste",
+        "top": 346.51,
+        "bottom": 357.47,
+        "x0": 56.69,
+        "x1": 283.46,
+        "column": 0
+      },
+      {
+        "text": "motor e o movimento da espira a partir da",
+        "top": 359.46,
+        "bottom": 370.42,
+        "x0": 56.69,
+        "x1": 283.47,
+        "column": 0
+      },
+      {
+        "text": "posição inicial e sentido da corrente mostrados",
+        "top": 372.41,
+        "bottom": 383.37,
+        "x0": 56.69,
+        "x1": 283.47,
+        "column": 0
+      },
+      {
+        "text": "na figura, marque a alternativa CORRETA.",
+        "top": 385.37,
+        "bottom": 396.37,
+        "x0": 56.69,
+        "x1": 264.5,
+        "column": 0
+      },
+      {
+        "text": "(A) A corrente deve ter um sentido único e a",
+        "top": 406.01,
+        "bottom": 416.97,
+        "x0": 57.91,
+        "x1": 283.46,
+        "column": 0
+      },
+      {
+        "text": "seção da espira identificada pela letra A irá",
+        "top": 418.96,
+        "bottom": 429.92,
+        "x0": 77.97,
+        "x1": 283.47,
+        "column": 0
+      },
+      {
+        "text": "se movimentar inicialmente para dentro do",
+        "top": 431.91,
+        "bottom": 442.87,
+        "x0": 77.97,
+        "x1": 283.46,
+        "column": 0
+      },
+      {
+        "text": "plano do papel.",
+        "top": 444.86,
+        "bottom": 455.82,
+        "x0": 77.97,
+        "x1": 152.91,
+        "column": 0
+      },
+      {
+        "text": "(B) A corrente deve ter seu sentido invertido",
+        "top": 466.27,
+        "bottom": 477.23,
+        "x0": 57.91,
+        "x1": 283.47,
+        "column": 0
+      },
+      {
+        "text": "sempre que o plano da espira for",
+        "top": 479.22,
+        "bottom": 490.18,
+        "x0": 77.97,
+        "x1": 283.46,
+        "column": 0
+      },
+      {
+        "text": "perpendicular ao plano do papel e a seção",
+        "top": 492.17,
+        "bottom": 503.13,
+        "x0": 77.97,
+        "x1": 283.46,
+        "column": 0
+      },
+      {
+        "text": "da espira identificada pela letra A irá",
+        "top": 505.13,
+        "bottom": 516.08,
+        "x0": 77.97,
+        "x1": 283.47,
+        "column": 0
+      },
+      {
+        "text": "se movimentar inicialmente para fora do",
+        "top": 518.08,
+        "bottom": 529.04,
+        "x0": 77.97,
+        "x1": 283.46,
+        "column": 0
+      },
+      {
+        "text": "plano do papel.",
+        "top": 531.03,
+        "bottom": 541.99,
+        "x0": 77.97,
+        "x1": 152.91,
+        "column": 0
+      },
+      {
+        "text": "(C) A corrente deve ter seu sentido invertido",
+        "top": 552.44,
+        "bottom": 563.4,
+        "x0": 57.31,
+        "x1": 283.47,
+        "column": 0
+      },
+      {
+        "text": "sempre que o plano da espira for",
+        "top": 565.39,
+        "bottom": 576.35,
+        "x0": 77.97,
+        "x1": 283.46,
+        "column": 0
+      },
+      {
+        "text": "perpendicular ao plano do papel e a seção",
+        "top": 578.34,
+        "bottom": 589.3,
+        "x0": 77.97,
+        "x1": 283.46,
+        "column": 0
+      },
+      {
+        "text": "da espira identificada pela letra A irá se",
+        "top": 591.29,
+        "bottom": 602.25,
+        "x0": 77.97,
+        "x1": 283.47,
+        "column": 0
+      },
+      {
+        "text": "movimentar inicialmente para dentro do",
+        "top": 604.24,
+        "bottom": 615.2,
+        "x0": 77.97,
+        "x1": 283.46,
+        "column": 0
+      },
+      {
+        "text": "plano do papel.",
+        "top": 617.19,
+        "bottom": 628.15,
+        "x0": 77.97,
+        "x1": 152.91,
+        "column": 0
+      },
+      {
+        "text": "(D) A corrente deve ter seu sentido invertido",
+        "top": 638.6,
+        "bottom": 649.56,
+        "x0": 57.31,
+        "x1": 283.47,
+        "column": 0
+      },
+      {
+        "text": "sempre que o plano da espira estiver",
+        "top": 651.55,
+        "bottom": 662.51,
+        "x0": 77.97,
+        "x1": 283.46,
+        "column": 0
+      },
+      {
+        "text": "no plano do papel e a seção da espira",
+        "top": 664.5,
+        "bottom": 675.46,
+        "x0": 77.97,
+        "x1": 283.47,
+        "column": 0
+      },
+      {
+        "text": "identificada pela letra A irá se movimentar",
+        "top": 677.46,
+        "bottom": 688.41,
+        "x0": 77.97,
+        "x1": 283.47,
+        "column": 0
+      },
+      {
+        "text": "inicialmente para fora do plano do papel.",
+        "top": 690.41,
+        "bottom": 701.37,
+        "x0": 77.97,
+        "x1": 275.4,
+        "column": 0
+      },
+      {
+        "text": "(E) A corrente deve ter seu sentido invertido",
+        "top": 711.82,
+        "bottom": 722.77,
+        "x0": 57.91,
+        "x1": 283.47,
+        "column": 0
+      },
+      {
+        "text": "sempre que o plano da espira estiver",
+        "top": 724.77,
+        "bottom": 735.73,
+        "x0": 77.97,
+        "x1": 283.46,
+        "column": 0
+      },
+      {
+        "text": "no plano do papel e a seção da espira",
+        "top": 737.72,
+        "bottom": 748.68,
+        "x0": 77.97,
+        "x1": 283.47,
+        "column": 0
+      },
+      {
+        "text": "identificada pela letra A irá se movimentar",
+        "top": 750.67,
+        "bottom": 761.63,
+        "x0": 77.97,
+        "x1": 283.47,
+        "column": 0
+      },
+      {
+        "text": "inicialmente para dentro do plano do",
+        "top": 763.62,
+        "bottom": 774.58,
+        "x0": 77.97,
+        "x1": 283.46,
+        "column": 0
+      },
+      {
+        "text": "papel.",
+        "top": 776.57,
+        "bottom": 787.53,
+        "x0": 77.97,
+        "x1": 107.82,
+        "column": 0
+      },
+      {
+        "text": "QUESTÃO 4.",
+        "top": 65,
+        "bottom": 70.79,
+        "x0": 311.81,
+        "x1": 380.76,
+        "column": 1
+      },
+      {
+        "text": "O efeito fotoelétrico é um fenômeno quântico",
+        "top": 74.1,
+        "bottom": 85.06,
+        "x0": 311.81,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "descoberto acidentalmente pelo físico Heinrich",
+        "top": 87.05,
+        "bottom": 98.01,
+        "x0": 311.81,
+        "x1": 538.59,
+        "column": 1
+      },
+      {
+        "text": "Hertz ao final do século XIX. A investigação",
+        "top": 100.0,
+        "bottom": 110.96,
+        "x0": 311.81,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "deste efeito foi então complementada pelos",
+        "top": 112.95,
+        "bottom": 123.91,
+        "x0": 311.81,
+        "x1": 538.59,
+        "column": 1
+      },
+      {
+        "text": "físicos Philipp Lenard e finalizada por Albert",
+        "top": 125.91,
+        "bottom": 136.87,
+        "x0": 311.81,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "Einstein. Einstein ganhou o Prêmio Nobel de",
+        "top": 138.86,
+        "bottom": 149.82,
+        "x0": 311.81,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "Física em 1905 por este trabalho.",
+        "top": 151.81,
+        "bottom": 162.77,
+        "x0": 311.81,
+        "x1": 474.51,
+        "column": 1
+      },
+      {
+        "text": "Philipp Lenard construiu um sistema com duas",
+        "top": 164.76,
+        "bottom": 175.72,
+        "x0": 311.81,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "placas metálicas submetidas a uma diferença",
+        "top": 177.71,
+        "bottom": 188.67,
+        "x0": 311.81,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "de potencial no interior de uma ampola de vidro",
+        "top": 190.66,
+        "bottom": 201.62,
+        "x0": 311.81,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "mantida no vácuo. Externamente, uma fonte",
+        "top": 203.61,
+        "bottom": 214.57,
+        "x0": 311.81,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "de luz foi direcionada para uma das placas e,",
+        "top": 216.57,
+        "bottom": 227.53,
+        "x0": 311.81,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "com um microamperímetro, a corrente elétrica",
+        "top": 229.52,
+        "bottom": 240.48,
+        "x0": 311.81,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "circulando no sistema foi medida. A figura",
+        "top": 242.47,
+        "bottom": 253.43,
+        "x0": 311.81,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "abaixo ilustra este sistema.",
+        "top": 255.42,
+        "bottom": 266.38,
+        "x0": 311.81,
+        "x1": 443.87,
+        "column": 1
+      },
+      {
+        "text": "Fonte: Moderna superação! Física / R. H. Doca, R. Fogo; editor",
+        "top": 459.89,
+        "bottom": 467.86,
+        "x0": 313.75,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "resp. F. M. Leonardo; 1. ed. Moderna, 2024, p. 420.",
+        "top": 472.84,
+        "bottom": 480.84,
+        "x0": 353.5,
+        "x1": 538.59,
+        "column": 1
+      },
+      {
+        "text": "Em relação ao efeito fotoelétrico, considerando",
+        "top": 496.04,
+        "bottom": 507.0,
+        "x0": 311.81,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "o sistema descrito acima, marque a alternativa",
+        "top": 508.99,
+        "bottom": 519.95,
+        "x0": 311.81,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "CORRETA.",
+        "top": 521.94,
+        "bottom": 532.94,
+        "x0": 311.81,
+        "x1": 368.05,
+        "column": 1
+      },
+      {
+        "text": "(A) A energia cinética máxima adquirida pelo",
+        "top": 544.37,
+        "bottom": 555.33,
+        "x0": 313.03,
+        "x1": 538.59,
+        "column": 1
+      },
+      {
+        "text": "elétron emitido é influenciada tanto pela",
+        "top": 557.33,
+        "bottom": 568.28,
+        "x0": 333.09,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "intensidade como pelo comprimento de",
+        "top": 570.28,
+        "bottom": 581.24,
+        "x0": 333.09,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "onda da luz emitida.",
+        "top": 583.23,
+        "bottom": 594.19,
+        "x0": 333.09,
+        "x1": 431.16,
+        "column": 1
+      },
+      {
+        "text": "(B) Em uma situação onde a luz incidente não",
+        "top": 605.66,
+        "bottom": 616.62,
+        "x0": 313.03,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "gera corrente elétrica no sistema, deve-se",
+        "top": 618.61,
+        "bottom": 629.57,
+        "x0": 333.09,
+        "x1": 538.59,
+        "column": 1
+      },
+      {
+        "text": "aumentar a intensidade do feixe de luz",
+        "top": 631.56,
+        "bottom": 642.52,
+        "x0": 333.09,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "para que o efeito fotoelétrico ocorra.",
+        "top": 644.52,
+        "bottom": 655.48,
+        "x0": 333.09,
+        "x1": 508.42,
+        "column": 1
+      },
+      {
+        "text": "(C) Quanto maior a intensidade do feixe de luz",
+        "top": 666.95,
+        "bottom": 677.91,
+        "x0": 312.43,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "incidente, maior a corrente medida.",
+        "top": 679.9,
+        "bottom": 690.86,
+        "x0": 333.09,
+        "x1": 504.68,
+        "column": 1
+      },
+      {
+        "text": "(D) Quanto maior a intensidade do feixe de luz",
+        "top": 702.33,
+        "bottom": 713.29,
+        "x0": 312.43,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "incidente, maior a energia cinética máxima",
+        "top": 715.29,
+        "bottom": 726.24,
+        "x0": 333.09,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "adquirida pelo elétron emitido.",
+        "top": 728.24,
+        "bottom": 739.2,
+        "x0": 333.09,
+        "x1": 479.61,
+        "column": 1
+      },
+      {
+        "text": "(E) Quanto maior o comprimento de onda",
+        "top": 750.67,
+        "bottom": 761.63,
+        "x0": 313.03,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "da luz incidente, maior a energia cinética",
+        "top": 763.62,
+        "bottom": 774.58,
+        "x0": 333.09,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "máxima adquirida pelo elétron emitido.",
+        "top": 776.57,
+        "bottom": 787.53,
+        "x0": 333.09,
+        "x1": 521.01,
+        "column": 1
+      }
+    ],
+    "images": [
+      {
+        "x0": 113.39,
+        "x1": 226.77,
+        "top": 262.09,
+        "bottom": 334.49
+      },
+      {
+        "x0": 328.82,
+        "x1": 521.57,
+        "top": 274.83,
+        "bottom": 440.48
+      }
+    ],
+    "rects": [],
+    "curves": []
+  },
+  {
+    "page": 5,
+    "width": 595.276,
+    "height": 841.89,
+    "lines": [
+      {
+        "text": "QUESTÃO 5.",
+        "top": 74.77,
+        "bottom": 85.73,
+        "x0": 56.69,
+        "x1": 125.65,
+        "column": 0
+      },
+      {
+        "text": "As leis de Newton (1643-1727) fornecem",
+        "top": 88.92,
+        "bottom": 99.87,
+        "x0": 56.69,
+        "x1": 283.47,
+        "column": 0
+      },
+      {
+        "text": "descrição precisa e útil para situações",
+        "top": 101.87,
+        "bottom": 112.83,
+        "x0": 56.69,
+        "x1": 283.46,
+        "column": 0
+      },
+      {
+        "text": "de corpos que viajam com velocidades",
+        "top": 114.82,
+        "bottom": 125.78,
+        "x0": 56.69,
+        "x1": 283.47,
+        "column": 0
+      },
+      {
+        "text": "relacionadas ao nosso cotidiano, como,",
+        "top": 127.77,
+        "bottom": 138.73,
+        "x0": 56.69,
+        "x1": 283.47,
+        "column": 0
+      },
+      {
+        "text": "por exemplo, em velocidades de meios de",
+        "top": 140.72,
+        "bottom": 151.68,
+        "x0": 56.69,
+        "x1": 283.47,
+        "column": 0
+      },
+      {
+        "text": "transporte terrestre. No entanto, conforme",
+        "top": 153.67,
+        "bottom": 164.63,
+        "x0": 56.69,
+        "x1": 283.47,
+        "column": 0
+      },
+      {
+        "text": "a velocidade de um corpo se aproxima da",
+        "top": 166.62,
+        "bottom": 177.58,
+        "x0": 56.69,
+        "x1": 283.47,
+        "column": 0
+      },
+      {
+        "text": "velocidade da luz, essas leis começam a falhar",
+        "top": 179.58,
+        "bottom": 190.53,
+        "x0": 56.69,
+        "x1": 283.47,
+        "column": 0
+      },
+      {
+        "text": "e necessitamos usar a teoria da relatividade de",
+        "top": 192.53,
+        "bottom": 203.49,
+        "x0": 56.69,
+        "x1": 283.47,
+        "column": 0
+      },
+      {
+        "text": "Einstein (1879-1955).",
+        "top": 205.48,
+        "bottom": 216.44,
+        "x0": 56.69,
+        "x1": 161.46,
+        "column": 0
+      },
+      {
+        "text": "Com base na teoria da relatividade de Einstein,",
+        "top": 231.38,
+        "bottom": 242.34,
+        "x0": 56.69,
+        "x1": 283.47,
+        "column": 0
+      },
+      {
+        "text": "selecione a alternativa CORRETA.",
+        "top": 244.33,
+        "bottom": 255.34,
+        "x0": 56.69,
+        "x1": 225.01,
+        "column": 0
+      },
+      {
+        "text": "(A) As leis da Física são diferentes em",
+        "top": 266.25,
+        "bottom": 277.21,
+        "x0": 57.91,
+        "x1": 283.47,
+        "column": 0
+      },
+      {
+        "text": "relação a dois referenciais inerciais com",
+        "top": 279.2,
+        "bottom": 290.16,
+        "x0": 77.97,
+        "x1": 283.46,
+        "column": 0
+      },
+      {
+        "text": "velocidades distintas.",
+        "top": 292.15,
+        "bottom": 303.11,
+        "x0": 77.97,
+        "x1": 181.69,
+        "column": 0
+      },
+      {
+        "text": "(B) A velocidade da luz no vácuo varia",
+        "top": 314.07,
+        "bottom": 325.03,
+        "x0": 57.91,
+        "x1": 283.47,
+        "column": 0
+      },
+      {
+        "text": "dependendo da velocidade do observador.",
+        "top": 327.02,
+        "bottom": 337.98,
+        "x0": 77.97,
+        "x1": 283.46,
+        "column": 0
+      },
+      {
+        "text": "(C) O espaço será menor para quem está",
+        "top": 348.94,
+        "bottom": 359.9,
+        "x0": 57.31,
+        "x1": 283.47,
+        "column": 0
+      },
+      {
+        "text": "em movimento com velocidade próxima",
+        "top": 361.89,
+        "bottom": 372.85,
+        "x0": 77.97,
+        "x1": 283.47,
+        "column": 0
+      },
+      {
+        "text": "à velocidade da luz em relação a um",
+        "top": 374.84,
+        "bottom": 385.8,
+        "x0": 77.97,
+        "x1": 283.47,
+        "column": 0
+      },
+      {
+        "text": "observador em repouso.",
+        "top": 387.79,
+        "bottom": 398.75,
+        "x0": 77.97,
+        "x1": 196.36,
+        "column": 0
+      },
+      {
+        "text": "(D) O tempo passa mais rápido para quem",
+        "top": 409.71,
+        "bottom": 420.67,
+        "x0": 57.31,
+        "x1": 283.46,
+        "column": 0
+      },
+      {
+        "text": "está em movimento com velocidade",
+        "top": 422.66,
+        "bottom": 433.62,
+        "x0": 77.97,
+        "x1": 283.46,
+        "column": 0
+      },
+      {
+        "text": "próxima a velocidade da luz em relação a",
+        "top": 435.62,
+        "bottom": 446.57,
+        "x0": 77.97,
+        "x1": 283.46,
+        "column": 0
+      },
+      {
+        "text": "um observador em repouso.",
+        "top": 448.57,
+        "bottom": 459.53,
+        "x0": 77.97,
+        "x1": 214.63,
+        "column": 0
+      },
+      {
+        "text": "(E) Um corpo qualquer pode se movimentar",
+        "top": 470.48,
+        "bottom": 481.44,
+        "x0": 57.91,
+        "x1": 283.47,
+        "column": 0
+      },
+      {
+        "text": "com velocidade acima da velocidade da",
+        "top": 483.44,
+        "bottom": 494.4,
+        "x0": 77.97,
+        "x1": 283.46,
+        "column": 0
+      },
+      {
+        "text": "luz no vácuo.",
+        "top": 496.39,
+        "bottom": 507.35,
+        "x0": 77.97,
+        "x1": 142.1,
+        "column": 0
+      },
+      {
+        "text": "QUÍMICA - Objetivas",
+        "top": 534.94,
+        "bottom": 545.9,
+        "x0": 116.96,
+        "x1": 223.2,
+        "column": 0
+      },
+      {
+        "text": "A tabela periódica se encontra ao final da",
+        "top": 569.51,
+        "bottom": 580.47,
+        "x0": 63.91,
+        "x1": 276.25,
+        "column": 0
+      },
+      {
+        "text": "prova",
+        "top": 582.46,
+        "bottom": 593.42,
+        "x0": 63.91,
+        "x1": 90.88,
+        "column": 0
+      },
+      {
+        "text": "QUESTÃO 6.",
+        "top": 75.49,
+        "bottom": 86.44,
+        "x0": 311.81,
+        "x1": 380.76,
+        "column": 1
+      },
+      {
+        "text": "Durante uma investigação experimental,",
+        "top": 90.34,
+        "bottom": 101.3,
+        "x0": 311.81,
+        "x1": 538.59,
+        "column": 1
+      },
+      {
+        "text": "estudantes compararam a velocidade de",
+        "top": 103.3,
+        "bottom": 114.26,
+        "x0": 311.81,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "reação entre comprimidos efervescentes, água",
+        "top": 116.25,
+        "bottom": 127.21,
+        "x0": 311.81,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "e vinagre. Para isso, repetiram a reação",
+        "top": 129.2,
+        "bottom": 140.16,
+        "x0": 311.81,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "variando o volume de vinagre, a temperatura",
+        "top": 142.15,
+        "bottom": 153.11,
+        "x0": 311.81,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "da água e os comprimidos inteiros e triturados.",
+        "top": 155.1,
+        "bottom": 166.06,
+        "x0": 311.81,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "Qual alternativa descreve CORRETAMENTE",
+        "top": 181.0,
+        "bottom": 192.01,
+        "x0": 311.81,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "os fatores que influenciaram a velocidade da",
+        "top": 193.96,
+        "bottom": 204.92,
+        "x0": 311.81,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "reação observada pelos estudantes?",
+        "top": 206.91,
+        "bottom": 217.87,
+        "x0": 311.81,
+        "x1": 491.57,
+        "column": 1
+      },
+      {
+        "text": "(A) A elevação da temperatura diminuiu a",
+        "top": 231.68,
+        "bottom": 242.64,
+        "x0": 313.03,
+        "x1": 538.59,
+        "column": 1
+      },
+      {
+        "text": "frequência das colisões entre reagentes e",
+        "top": 244.64,
+        "bottom": 255.59,
+        "x0": 333.09,
+        "x1": 538.59,
+        "column": 1
+      },
+      {
+        "text": "diminuiu a velocidade da reação.",
+        "top": 257.59,
+        "bottom": 268.55,
+        "x0": 333.09,
+        "x1": 492.46,
+        "column": 1
+      },
+      {
+        "text": "(B) A elevação da temperatura e da superfície",
+        "top": 282.36,
+        "bottom": 293.32,
+        "x0": 313.03,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "de contato aumentou as colisões e",
+        "top": 295.32,
+        "bottom": 306.27,
+        "x0": 333.09,
+        "x1": 538.59,
+        "column": 1
+      },
+      {
+        "text": "aumentou a velocidade da reação.",
+        "top": 308.27,
+        "bottom": 319.23,
+        "x0": 333.09,
+        "x1": 500.51,
+        "column": 1
+      },
+      {
+        "text": "(C) A variação da concentração do vinagre",
+        "top": 333.04,
+        "bottom": 344.0,
+        "x0": 312.43,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "não afetou a velocidade da reação.",
+        "top": 346.0,
+        "bottom": 356.95,
+        "x0": 333.09,
+        "x1": 503.24,
+        "column": 1
+      },
+      {
+        "text": "(D) O aumento da massa total dos reagentes",
+        "top": 370.77,
+        "bottom": 381.73,
+        "x0": 312.43,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "alterou a velocidade da reação.",
+        "top": 383.72,
+        "bottom": 394.68,
+        "x0": 333.09,
+        "x1": 485.27,
+        "column": 1
+      },
+      {
+        "text": "(E) O uso de comprimido inteiro acelerou",
+        "top": 408.5,
+        "bottom": 419.46,
+        "x0": 313.03,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "a velocidade da reação por aumentar a",
+        "top": 421.45,
+        "bottom": 432.41,
+        "x0": 333.09,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "superfície de contato em comparação com",
+        "top": 434.4,
+        "bottom": 445.36,
+        "x0": 333.09,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "o comprimido triturado.",
+        "top": 447.35,
+        "bottom": 458.31,
+        "x0": 333.09,
+        "x1": 444.93,
+        "column": 1
+      },
+      {
+        "text": "QUESTÃO 7.",
+        "top": 495.36,
+        "bottom": 506.32,
+        "x0": 311.81,
+        "x1": 380.76,
+        "column": 1
+      },
+      {
+        "text": "Durante a manutenção de estruturas metálicas",
+        "top": 510.22,
+        "bottom": 521.18,
+        "x0": 311.81,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "expostas à umidade, uma equipe técnica",
+        "top": 523.17,
+        "bottom": 534.13,
+        "x0": 311.81,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "observou a formação de oxidação em suas",
+        "top": 536.13,
+        "bottom": 547.09,
+        "x0": 311.81,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "superfícies. Esse processo ocorre por uma",
+        "top": 549.08,
+        "bottom": 560.04,
+        "x0": 311.81,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "reação de oxirredução, em que o metal doa",
+        "top": 562.03,
+        "bottom": 572.99,
+        "x0": 311.81,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "elétrons ao reagir com espécies oxidantes,",
+        "top": 574.98,
+        "bottom": 585.94,
+        "x0": 311.81,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "sendo convertido em íons.",
+        "top": 587.93,
+        "bottom": 598.89,
+        "x0": 311.81,
+        "x1": 440.12,
+        "column": 1
+      },
+      {
+        "text": "Qual equação a seguir representa",
+        "top": 613.83,
+        "bottom": 624.79,
+        "x0": 311.81,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "CORRETAMENTE uma reação de oxirredução",
+        "top": 626.79,
+        "bottom": 637.79,
+        "x0": 311.81,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "balanceada?",
+        "top": 639.74,
+        "bottom": 650.7,
+        "x0": 311.81,
+        "x1": 374.56,
+        "column": 1
+      },
+      {
+        "text": "(A) Fe (s) + 2 O (g) → FeO (s)",
+        "top": 664.31,
+        "bottom": 675.47,
+        "x0": 313.03,
+        "x1": 478.92,
+        "column": 1
+      },
+      {
+        "text": "2 2",
+        "top": 668.6,
+        "bottom": 676.27,
+        "x0": 396.8,
+        "x1": 461.71,
+        "column": 1
+      },
+      {
+        "text": "(B) 2 Fe (s) + 3 O (g) → 2 Fe O (s)",
+        "top": 689.08,
+        "bottom": 700.25,
+        "x0": 313.03,
+        "x1": 503.59,
+        "column": 1
+      },
+      {
+        "text": "2 3 4",
+        "top": 693.38,
+        "bottom": 701.05,
+        "x0": 408.37,
+        "x1": 486.38,
+        "column": 1
+      },
+      {
+        "text": "(C) Fe (s) + Cu2+ (aq) → Fe2+ (aq) + Cu (s)",
+        "top": 712.53,
+        "bottom": 725.03,
+        "x0": 312.43,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "(D) Cu (s) + 2 H+ (aq) → Cu2+ (aq) +",
+        "top": 737.31,
+        "bottom": 749.8,
+        "x0": 312.43,
+        "x1": 538.59,
+        "column": 1
+      },
+      {
+        "text": "H O (ℓ)",
+        "top": 751.59,
+        "bottom": 762.55,
+        "x0": 333.09,
+        "x1": 371.58,
+        "column": 1
+      },
+      {
+        "text": "2",
+        "top": 755.88,
+        "bottom": 763.55,
+        "x0": 342.2,
+        "x1": 346.28,
+        "column": 1
+      },
+      {
+        "text": "(E) Zn (s) + Cℓ (g) → ZnCl (s)",
+        "top": 776.36,
+        "bottom": 787.53,
+        "x0": 313.03,
+        "x1": 479.77,
+        "column": 1
+      },
+      {
+        "text": "2",
+        "top": 780.66,
+        "bottom": 788.33,
+        "x0": 397.31,
+        "x1": 401.39,
+        "column": 1
+      }
+    ],
+    "images": [],
+    "rects": [
+      {
+        "x0": 56.69,
+        "x1": 283.46,
+        "top": 63.4,
+        "bottom": 67.65
+      },
+      {
+        "x0": 311.81,
+        "x1": 538.58,
+        "top": 63.4,
+        "bottom": 67.65
+      },
+      {
+        "x0": 311.81,
+        "x1": 538.58,
+        "top": 483.28,
+        "bottom": 487.53
+      }
+    ],
+    "curves": [
+      {
+        "x0": 56.69,
+        "x1": 283.47,
+        "top": 564.66,
+        "bottom": 598.59
+      },
+      {
+        "x0": 57.09,
+        "x1": 283.07,
+        "top": 565.06,
+        "bottom": 598.19
+      }
+    ]
+  },
+  {
+    "page": 6,
+    "width": 595.276,
+    "height": 841.89,
+    "lines": [
+      {
+        "text": "QUESTÃO 8.",
+        "top": 74.77,
+        "bottom": 85.73,
+        "x0": 56.69,
+        "x1": 125.65,
+        "column": 0
+      },
+      {
+        "text": "Durante a síntese da amônia pelo processo",
+        "top": 88.92,
+        "bottom": 99.87,
+        "x0": 56.69,
+        "x1": 283.46,
+        "column": 0
+      },
+      {
+        "text": "de Haber-Bosch, utiliza-se um catalisador",
+        "top": 101.87,
+        "bottom": 112.83,
+        "x0": 56.69,
+        "x1": 283.47,
+        "column": 0
+      },
+      {
+        "text": "metálico para acelerar a reação entre",
+        "top": 114.82,
+        "bottom": 125.78,
+        "x0": 56.69,
+        "x1": 283.46,
+        "column": 0
+      },
+      {
+        "text": "nitrogênio e hidrogênio.",
+        "top": 127.77,
+        "bottom": 138.73,
+        "x0": 56.69,
+        "x1": 170.77,
+        "column": 0
+      },
+      {
+        "text": "N (g) + 3 H (g) ⇌ 2 NH (g) ∆H < 0",
+        "top": 150.2,
+        "bottom": 163.28,
+        "x0": 64.9,
+        "x1": 275.26,
+        "column": 0
+      },
+      {
+        "text": "2 2 3",
+        "top": 156.62,
+        "bottom": 164.29,
+        "x0": 73.7,
+        "x1": 203.11,
+        "column": 0
+      },
+      {
+        "text": "Considerando as teorias sobre equilíbrio",
+        "top": 177.3,
+        "bottom": 188.26,
+        "x0": 56.69,
+        "x1": 283.47,
+        "column": 0
+      },
+      {
+        "text": "químico, é CORRETO afirmar que o",
+        "top": 190.25,
+        "bottom": 201.25,
+        "x0": 56.69,
+        "x1": 283.47,
+        "column": 0
+      },
+      {
+        "text": "catalisador",
+        "top": 203.2,
+        "bottom": 214.16,
+        "x0": 56.69,
+        "x1": 109.68,
+        "column": 0
+      },
+      {
+        "text": "(A) acelera a reação direta e retarda a",
+        "top": 225.0,
+        "bottom": 235.96,
+        "x0": 57.91,
+        "x1": 283.46,
+        "column": 0
+      },
+      {
+        "text": "reação inversa, favorecendo a formação",
+        "top": 237.95,
+        "bottom": 248.91,
+        "x0": 77.97,
+        "x1": 283.46,
+        "column": 0
+      },
+      {
+        "text": "de produtos.",
+        "top": 250.9,
+        "bottom": 261.86,
+        "x0": 77.97,
+        "x1": 138.73,
+        "column": 0
+      },
+      {
+        "text": "(B) aumenta a velocidade de ambas as",
+        "top": 272.77,
+        "bottom": 283.73,
+        "x0": 57.91,
+        "x1": 283.47,
+        "column": 0
+      },
+      {
+        "text": "reações (direta e inversa), sem alterar a",
+        "top": 285.72,
+        "bottom": 296.68,
+        "x0": 77.97,
+        "x1": 283.46,
+        "column": 0
+      },
+      {
+        "text": "posição do equilíbrio.",
+        "top": 298.68,
+        "bottom": 309.64,
+        "x0": 77.97,
+        "x1": 181.25,
+        "column": 0
+      },
+      {
+        "text": "(C) consome parte dos reagentes,",
+        "top": 320.55,
+        "bottom": 331.51,
+        "x0": 57.31,
+        "x1": 283.47,
+        "column": 0
+      },
+      {
+        "text": "promovendo um novo equilíbrio mais",
+        "top": 333.5,
+        "bottom": 344.46,
+        "x0": 77.97,
+        "x1": 283.46,
+        "column": 0
+      },
+      {
+        "text": "favorável aos produtos.",
+        "top": 346.45,
+        "bottom": 357.41,
+        "x0": 77.97,
+        "x1": 190.62,
+        "column": 0
+      },
+      {
+        "text": "(D) desloca o equilíbrio químico para o lado",
+        "top": 368.32,
+        "bottom": 379.28,
+        "x0": 57.31,
+        "x1": 283.47,
+        "column": 0
+      },
+      {
+        "text": "que libera calor, aumentando o rendimento",
+        "top": 381.27,
+        "bottom": 392.23,
+        "x0": 77.97,
+        "x1": 283.46,
+        "column": 0
+      },
+      {
+        "text": "da reação.",
+        "top": 394.22,
+        "bottom": 405.18,
+        "x0": 77.97,
+        "x1": 129.31,
+        "column": 0
+      },
+      {
+        "text": "(E) diminui a energia dos reagentes e, por",
+        "top": 416.09,
+        "bottom": 427.05,
+        "x0": 57.91,
+        "x1": 283.47,
+        "column": 0
+      },
+      {
+        "text": "isso, aumenta a formação dos produtos.",
+        "top": 429.04,
+        "bottom": 440.0,
+        "x0": 77.97,
+        "x1": 272.84,
+        "column": 0
+      },
+      {
+        "text": "QUESTÃO 9.",
+        "top": 473.36,
+        "bottom": 484.32,
+        "x0": 56.69,
+        "x1": 125.65,
+        "column": 0
+      },
+      {
+        "text": "Analise a fórmula eletrônica de Lewis do BF e",
+        "top": 487.3,
+        "bottom": 498.47,
+        "x0": 56.69,
+        "x1": 283.46,
+        "column": 0
+      },
+      {
+        "text": "3",
+        "top": 491.59,
+        "bottom": 499.26,
+        "x0": 270.07,
+        "x1": 274.15,
+        "column": 0
+      },
+      {
+        "text": "assinale a alternativa CORRETA.",
+        "top": 500.46,
+        "bottom": 511.46,
+        "x0": 56.69,
+        "x1": 218.92,
+        "column": 0
+      },
+      {
+        "text": "(A) A fórmula eletrônica do BF mostra que o",
+        "top": 581.24,
+        "bottom": 592.41,
+        "x0": 57.91,
+        "x1": 283.46,
+        "column": 0
+      },
+      {
+        "text": "3",
+        "top": 585.53,
+        "bottom": 593.2,
+        "x0": 211.04,
+        "x1": 215.12,
+        "column": 0
+      },
+      {
+        "text": "B e o F alcançam a estabilidade, como os",
+        "top": 594.19,
+        "bottom": 605.36,
+        "x0": 77.97,
+        "x1": 283.47,
+        "column": 0
+      },
+      {
+        "text": "gases nobres, completando a camada de",
+        "top": 607.35,
+        "bottom": 618.31,
+        "x0": 77.97,
+        "x1": 283.46,
+        "column": 0
+      },
+      {
+        "text": "valência.",
+        "top": 620.3,
+        "bottom": 631.26,
+        "x0": 77.97,
+        "x1": 120.94,
+        "column": 0
+      },
+      {
+        "text": "(B) A fórmula eletrônica de Lewis mostra que",
+        "top": 642.17,
+        "bottom": 653.13,
+        "x0": 57.91,
+        "x1": 283.47,
+        "column": 0
+      },
+      {
+        "text": "o boro não obedece à regra do octeto no",
+        "top": 655.12,
+        "bottom": 666.08,
+        "x0": 77.97,
+        "x1": 283.46,
+        "column": 0
+      },
+      {
+        "text": "BF .",
+        "top": 667.87,
+        "bottom": 679.03,
+        "x0": 77.97,
+        "x1": 101.5,
+        "column": 0
+      },
+      {
+        "text": "3",
+        "top": 672.16,
+        "bottom": 679.83,
+        "x0": 93.88,
+        "x1": 97.96,
+        "column": 0
+      },
+      {
+        "text": "(C) A ligação química, representada na",
+        "top": 689.95,
+        "bottom": 700.9,
+        "x0": 57.31,
+        "x1": 283.47,
+        "column": 0
+      },
+      {
+        "text": "fórmula eletrônica do BF , é a iônica,",
+        "top": 702.69,
+        "bottom": 713.86,
+        "x0": 77.97,
+        "x1": 283.47,
+        "column": 0
+      },
+      {
+        "text": "3",
+        "top": 706.98,
+        "bottom": 714.65,
+        "x0": 210.66,
+        "x1": 214.74,
+        "column": 0
+      },
+      {
+        "text": "uma vez que o Flúor é o átomo mais",
+        "top": 715.85,
+        "bottom": 726.81,
+        "x0": 77.97,
+        "x1": 283.46,
+        "column": 0
+      },
+      {
+        "text": "eletronegativo.",
+        "top": 728.8,
+        "bottom": 739.76,
+        "x0": 77.97,
+        "x1": 149.14,
+        "column": 0
+      },
+      {
+        "text": "(D) O alto valor de eletronegatividade do flúor",
+        "top": 750.67,
+        "bottom": 761.63,
+        "x0": 57.31,
+        "x1": 283.46,
+        "column": 0
+      },
+      {
+        "text": "gera uma polaridade na molécula BF ,",
+        "top": 763.41,
+        "bottom": 774.58,
+        "x0": 77.97,
+        "x1": 283.46,
+        "column": 0
+      },
+      {
+        "text": "3",
+        "top": 767.71,
+        "bottom": 775.38,
+        "x0": 275.84,
+        "x1": 279.92,
+        "column": 0
+      },
+      {
+        "text": "tornando-a polar.",
+        "top": 776.57,
+        "bottom": 787.53,
+        "x0": 77.97,
+        "x1": 161.15,
+        "column": 0
+      },
+      {
+        "text": "(E) Os átomos de boro e flúor, para se ligarem,",
+        "top": 65,
+        "bottom": 69.99,
+        "x0": 313.03,
+        "x1": 538.59,
+        "column": 1
+      },
+      {
+        "text": "seguem a regra do octeto, pois, se não a",
+        "top": 71.98,
+        "bottom": 82.94,
+        "x0": 333.09,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "seguissem, a ligação não se manteria.",
+        "top": 84.93,
+        "bottom": 95.89,
+        "x0": 333.09,
+        "x1": 520.25,
+        "column": 1
+      },
+      {
+        "text": "QUESTÃO 10.",
+        "top": 132.35,
+        "bottom": 143.31,
+        "x0": 311.81,
+        "x1": 386.86,
+        "column": 1
+      },
+      {
+        "text": "Na retina, uma camada que fica na",
+        "top": 146.5,
+        "bottom": 157.46,
+        "x0": 311.81,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "parte posterior do olho, existem células",
+        "top": 159.45,
+        "bottom": 170.41,
+        "x0": 311.81,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "fotorreceptoras contendo uma substância",
+        "top": 172.4,
+        "bottom": 183.36,
+        "x0": 311.81,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "chamada cis retinal. Ao incidir a luz ocorre",
+        "top": 185.35,
+        "bottom": 196.31,
+        "x0": 311.81,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "a transformação de cis retinal em trans retinal,",
+        "top": 198.31,
+        "bottom": 209.26,
+        "x0": 311.81,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "gerando um impulso elétrico, que é enviado ao",
+        "top": 211.26,
+        "bottom": 222.22,
+        "x0": 311.81,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "cérebro, possibilitando a interpretação do que",
+        "top": 224.21,
+        "bottom": 235.17,
+        "x0": 311.81,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "é visto.",
+        "top": 237.16,
+        "bottom": 248.12,
+        "x0": 311.81,
+        "x1": 346.09,
+        "column": 1
+      },
+      {
+        "text": "Sobre as substâncias cis-retinal e trans-retinal,",
+        "top": 263.06,
+        "bottom": 274.02,
+        "x0": 311.81,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "assinale a alternativa CORRETA.",
+        "top": 276.01,
+        "bottom": 287.02,
+        "x0": 311.81,
+        "x1": 474.04,
+        "column": 1
+      },
+      {
+        "text": "(A) A substância cis retinal é um isômero",
+        "top": 297.93,
+        "bottom": 308.89,
+        "x0": 313.03,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "geométrico da trans retinal e elas",
+        "top": 310.88,
+        "bottom": 321.84,
+        "x0": 333.09,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "possuem propriedades físicas diferentes.",
+        "top": 323.83,
+        "bottom": 334.79,
+        "x0": 333.09,
+        "x1": 532.54,
+        "column": 1
+      },
+      {
+        "text": "(B) A substância cis retinal é um isômero",
+        "top": 345.75,
+        "bottom": 356.71,
+        "x0": 313.03,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "óptico da trans retinal, já que a luz interfere",
+        "top": 358.7,
+        "bottom": 369.66,
+        "x0": 333.09,
+        "x1": 538.59,
+        "column": 1
+      },
+      {
+        "text": "na posição dos átomos na cadeia.",
+        "top": 371.66,
+        "bottom": 382.61,
+        "x0": 333.09,
+        "x1": 499.39,
+        "column": 1
+      },
+      {
+        "text": "(C) A substância cis retinal se converte",
+        "top": 393.57,
+        "bottom": 404.53,
+        "x0": 312.43,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "em seu isômero trans retinal porque as",
+        "top": 406.52,
+        "bottom": 417.48,
+        "x0": 333.09,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "ligações duplas mudaram de posição na",
+        "top": 419.48,
+        "bottom": 430.43,
+        "x0": 333.09,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "cadeia.",
+        "top": 432.43,
+        "bottom": 443.39,
+        "x0": 333.09,
+        "x1": 368.42,
+        "column": 1
+      },
+      {
+        "text": "(D) A substância trans retinal apresenta o",
+        "top": 454.35,
+        "bottom": 465.3,
+        "x0": 312.43,
+        "x1": 538.59,
+        "column": 1
+      },
+      {
+        "text": "substituinte no mesmo lado do eixo",
+        "top": 467.3,
+        "bottom": 478.26,
+        "x0": 333.09,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "traçado ao longo das ligações duplas.",
+        "top": 480.25,
+        "bottom": 491.21,
+        "x0": 333.09,
+        "x1": 516.78,
+        "column": 1
+      },
+      {
+        "text": "(E) A substância trans retinal é produzida a",
+        "top": 502.17,
+        "bottom": 513.12,
+        "x0": 313.03,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "partir da incidência de luz, sem que haja",
+        "top": 515.12,
+        "bottom": 526.08,
+        "x0": 333.09,
+        "x1": 538.59,
+        "column": 1
+      },
+      {
+        "text": "modificação da posição no espaço dos",
+        "top": 528.07,
+        "bottom": 539.03,
+        "x0": 333.09,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "substituintes presentes nos carbonos da",
+        "top": 541.02,
+        "bottom": 551.98,
+        "x0": 333.09,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "dupla ligação.",
+        "top": 553.97,
+        "bottom": 564.93,
+        "x0": 333.09,
+        "x1": 400.27,
+        "column": 1
+      }
+    ],
+    "images": [
+      {
+        "x0": 138.33,
+        "x1": 201.83,
+        "top": 519.13,
+        "bottom": 565.31
+      }
+    ],
+    "rects": [
+      {
+        "x0": 56.69,
+        "x1": 283.46,
+        "top": 63.4,
+        "bottom": 67.65
+      },
+      {
+        "x0": 56.69,
+        "x1": 283.46,
+        "top": 461.99,
+        "bottom": 466.24
+      },
+      {
+        "x0": 311.81,
+        "x1": 538.58,
+        "top": 120.98,
+        "bottom": 125.24
+      }
+    ],
+    "curves": []
+  },
+  {
+    "page": 7,
+    "width": 595.276,
+    "height": 841.89,
+    "lines": [
+      {
+        "text": "Geografia - Objetivas",
+        "top": 65,
+        "bottom": 70.03,
+        "x0": 115.07,
+        "x1": 225.09,
+        "column": 0
+      },
+      {
+        "text": "QUESTÃO 11.",
+        "top": 95.3,
+        "bottom": 106.26,
+        "x0": 56.69,
+        "x1": 131.74,
+        "column": 0
+      },
+      {
+        "text": "Observe a charge abaixo.",
+        "top": 109.45,
+        "bottom": 120.41,
+        "x0": 56.69,
+        "x1": 181.79,
+        "column": 0
+      },
+      {
+        "text": "Disponível em:",
+        "top": 282.68,
+        "bottom": 290.65,
+        "x0": 230.96,
+        "x1": 283.47,
+        "column": 0
+      },
+      {
+        "text": "http://crabjelly.zip.net/arch2009-01-01 2009-01-31.html. Acesso",
+        "top": 295.63,
+        "bottom": 303.6,
+        "x0": 59.29,
+        "x1": 283.47,
+        "column": 0
+      },
+      {
+        "text": "em: 15 jun. 2025.",
+        "top": 308.59,
+        "bottom": 316.56,
+        "x0": 220.83,
+        "x1": 283.47,
+        "column": 0
+      },
+      {
+        "text": "A charge acima utiliza o humor irônico",
+        "top": 326.77,
+        "bottom": 337.73,
+        "x0": 56.69,
+        "x1": 283.46,
+        "column": 0
+      },
+      {
+        "text": "para destacar os desafios enfrentados por",
+        "top": 339.72,
+        "bottom": 350.68,
+        "x0": 56.69,
+        "x1": 283.47,
+        "column": 0
+      },
+      {
+        "text": "organizações internacionais, como a ONU,",
+        "top": 352.67,
+        "bottom": 363.63,
+        "x0": 56.69,
+        "x1": 283.46,
+        "column": 0
+      },
+      {
+        "text": "na promoção da cooperação entre países.",
+        "top": 365.62,
+        "bottom": 376.58,
+        "x0": 56.69,
+        "x1": 283.46,
+        "column": 0
+      },
+      {
+        "text": "No cenário global, essas instituições são",
+        "top": 378.57,
+        "bottom": 389.53,
+        "x0": 56.69,
+        "x1": 283.46,
+        "column": 0
+      },
+      {
+        "text": "formadas por diversos Estados que buscam",
+        "top": 391.53,
+        "bottom": 402.48,
+        "x0": 56.69,
+        "x1": 283.47,
+        "column": 0
+      },
+      {
+        "text": "atuar juntos para enfrentar problemas comuns",
+        "top": 404.48,
+        "bottom": 415.44,
+        "x0": 56.69,
+        "x1": 283.47,
+        "column": 0
+      },
+      {
+        "text": "e influenciar decisões que impactam os países,",
+        "top": 417.43,
+        "bottom": 428.39,
+        "x0": 56.69,
+        "x1": 283.46,
+        "column": 0
+      },
+      {
+        "text": "especialmente em questões que ultrapassam",
+        "top": 430.38,
+        "bottom": 441.34,
+        "x0": 56.69,
+        "x1": 283.47,
+        "column": 0
+      },
+      {
+        "text": "suas fronteiras nacionais.",
+        "top": 443.33,
+        "bottom": 454.29,
+        "x0": 56.69,
+        "x1": 180.67,
+        "column": 0
+      },
+      {
+        "text": "Assinale a alternativa CORRETA que",
+        "top": 469.23,
+        "bottom": 480.24,
+        "x0": 56.69,
+        "x1": 283.47,
+        "column": 0
+      },
+      {
+        "text": "apresenta um dos principais desafios",
+        "top": 482.19,
+        "bottom": 493.14,
+        "x0": 56.69,
+        "x1": 283.47,
+        "column": 0
+      },
+      {
+        "text": "enfrentados pelas organizações internacionais.",
+        "top": 495.14,
+        "bottom": 506.1,
+        "x0": 56.69,
+        "x1": 283.66,
+        "column": 0
+      },
+      {
+        "text": "(A) As organizações internacionais têm total",
+        "top": 513.41,
+        "bottom": 524.37,
+        "x0": 57.91,
+        "x1": 283.47,
+        "column": 0
+      },
+      {
+        "text": "autonomia para agir sem precisar negociar",
+        "top": 526.36,
+        "bottom": 537.32,
+        "x0": 77.97,
+        "x1": 283.46,
+        "column": 0
+      },
+      {
+        "text": "com os países membros.",
+        "top": 539.31,
+        "bottom": 550.27,
+        "x0": 77.97,
+        "x1": 200.22,
+        "column": 0
+      },
+      {
+        "text": "(B) As organizações internacionais possuem",
+        "top": 559.77,
+        "bottom": 570.73,
+        "x0": 57.91,
+        "x1": 283.46,
+        "column": 0
+      },
+      {
+        "text": "poder legal e podem impor suas decisões",
+        "top": 572.73,
+        "bottom": 583.68,
+        "x0": 77.97,
+        "x1": 283.46,
+        "column": 0
+      },
+      {
+        "text": "a todos os países membros.",
+        "top": 585.68,
+        "bottom": 596.64,
+        "x0": 77.97,
+        "x1": 215.46,
+        "column": 0
+      },
+      {
+        "text": "(C) As diferenças de prioridades políticas,",
+        "top": 606.14,
+        "bottom": 617.1,
+        "x0": 57.31,
+        "x1": 283.47,
+        "column": 0
+      },
+      {
+        "text": "econômicas e sociais entre os Estados",
+        "top": 619.09,
+        "bottom": 630.05,
+        "x0": 77.97,
+        "x1": 283.46,
+        "column": 0
+      },
+      {
+        "text": "não influenciam a atuação das",
+        "top": 632.04,
+        "bottom": 643.0,
+        "x0": 77.97,
+        "x1": 283.46,
+        "column": 0
+      },
+      {
+        "text": "organizações internacionais.",
+        "top": 644.99,
+        "bottom": 655.95,
+        "x0": 77.97,
+        "x1": 216.95,
+        "column": 0
+      },
+      {
+        "text": "(D) Como as organizações internacionais são",
+        "top": 665.45,
+        "bottom": 676.41,
+        "x0": 57.31,
+        "x1": 283.47,
+        "column": 0
+      },
+      {
+        "text": "totalmente independentes dos países,",
+        "top": 678.4,
+        "bottom": 689.36,
+        "x0": 77.97,
+        "x1": 283.46,
+        "column": 0
+      },
+      {
+        "text": "não enfrentam problemas financeiros para",
+        "top": 691.36,
+        "bottom": 702.31,
+        "x0": 77.97,
+        "x1": 283.46,
+        "column": 0
+      },
+      {
+        "text": "manterem suas atividades.",
+        "top": 704.31,
+        "bottom": 715.27,
+        "x0": 77.97,
+        "x1": 208.76,
+        "column": 0
+      },
+      {
+        "text": "(E) Alguns países-membros têm mais",
+        "top": 724.77,
+        "bottom": 735.73,
+        "x0": 57.91,
+        "x1": 283.46,
+        "column": 0
+      },
+      {
+        "text": "influência do que outros nas decisões",
+        "top": 737.72,
+        "bottom": 748.68,
+        "x0": 77.97,
+        "x1": 283.46,
+        "column": 0
+      },
+      {
+        "text": "tomadas pelas organizações internacionais,",
+        "top": 750.67,
+        "bottom": 761.63,
+        "x0": 77.97,
+        "x1": 289.09,
+        "column": 0
+      },
+      {
+        "text": "dificultando a representação justa de",
+        "top": 763.62,
+        "bottom": 774.58,
+        "x0": 77.97,
+        "x1": 283.47,
+        "column": 0
+      },
+      {
+        "text": "todos.",
+        "top": 776.57,
+        "bottom": 787.53,
+        "x0": 77.97,
+        "x1": 107.66,
+        "column": 0
+      },
+      {
+        "text": "QUESTÃO 12.",
+        "top": 74.77,
+        "bottom": 85.73,
+        "x0": 311.81,
+        "x1": 386.86,
+        "column": 1
+      },
+      {
+        "text": "Leia o excerto abaixo.",
+        "top": 88.92,
+        "bottom": 99.87,
+        "x0": 311.81,
+        "x1": 418.69,
+        "column": 1
+      },
+      {
+        "text": "Com escassas opções militares à mão,",
+        "top": 101.87,
+        "bottom": 112.83,
+        "x0": 311.81,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "o Irã voltou a ameaçar fechar o estreito",
+        "top": 114.82,
+        "bottom": 125.78,
+        "x0": 311.81,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "de Ormuz neste domingo (22), após ser",
+        "top": 127.77,
+        "bottom": 138.73,
+        "x0": 311.81,
+        "x1": 538.59,
+        "column": 1
+      },
+      {
+        "text": "alvejado diretamente pelos Estados Unidos",
+        "top": 140.72,
+        "bottom": 151.68,
+        "x0": 311.81,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "pela primeira vez nos 46 anos de história como",
+        "top": 153.67,
+        "bottom": 164.63,
+        "x0": 311.81,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "República Islâmica.",
+        "top": 166.62,
+        "bottom": 177.58,
+        "x0": 311.81,
+        "x1": 406.59,
+        "column": 1
+      },
+      {
+        "text": "Disponível em: https://encurtador.com.br/AHjWW. Acesso em:",
+        "top": 190.89,
+        "bottom": 198.86,
+        "x0": 319.29,
+        "x1": 538.59,
+        "column": 1
+      },
+      {
+        "text": "22 jun. 2025.",
+        "top": 203.85,
+        "bottom": 211.82,
+        "x0": 491.97,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "No mês de junho de 2025, Israel e Irã iniciaram",
+        "top": 223.41,
+        "bottom": 234.37,
+        "x0": 311.81,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "uma guerra que foi acirrada com a entrada dos",
+        "top": 236.36,
+        "bottom": 247.32,
+        "x0": 311.81,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "Estados Unidos no conflito. Após o ataque",
+        "top": 249.31,
+        "bottom": 260.27,
+        "x0": 311.81,
+        "x1": 538.59,
+        "column": 1
+      },
+      {
+        "text": "americano, o país do Oriente Médio ameaçou",
+        "top": 262.27,
+        "bottom": 273.22,
+        "x0": 311.81,
+        "x1": 538.59,
+        "column": 1
+      },
+      {
+        "text": "retaliar e fechar o estreito de Ormuz.",
+        "top": 275.22,
+        "bottom": 286.18,
+        "x0": 311.81,
+        "x1": 490.1,
+        "column": 1
+      },
+      {
+        "text": "O estreito de Ormuz se configura como uma",
+        "top": 301.12,
+        "bottom": 312.08,
+        "x0": 311.81,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "importante arma geopolítica do Irã porque",
+        "top": 314.07,
+        "bottom": 325.03,
+        "x0": 311.81,
+        "x1": 516.58,
+        "column": 1
+      },
+      {
+        "text": "(A) corresponde à localização ideal para",
+        "top": 335.99,
+        "bottom": 346.95,
+        "x0": 313.03,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "instalação de bases militares.",
+        "top": 348.94,
+        "bottom": 359.9,
+        "x0": 333.09,
+        "x1": 476.66,
+        "column": 1
+      },
+      {
+        "text": "(B) corresponde a uma das principais rotas de",
+        "top": 370.86,
+        "bottom": 381.82,
+        "x0": 313.03,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "exportação de petróleo.",
+        "top": 383.81,
+        "bottom": 394.77,
+        "x0": 333.09,
+        "x1": 447.89,
+        "column": 1
+      },
+      {
+        "text": "(C) corresponde à principal rota logística de",
+        "top": 405.73,
+        "bottom": 416.69,
+        "x0": 312.43,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "comunicação com o Ocidente.",
+        "top": 418.68,
+        "bottom": 429.64,
+        "x0": 333.09,
+        "x1": 480.21,
+        "column": 1
+      },
+      {
+        "text": "(D) corresponde à área privilegiada para",
+        "top": 440.6,
+        "bottom": 451.56,
+        "x0": 312.43,
+        "x1": 538.59,
+        "column": 1
+      },
+      {
+        "text": "exportação de minerais metálicos.",
+        "top": 453.55,
+        "bottom": 464.51,
+        "x0": 333.09,
+        "x1": 499.19,
+        "column": 1
+      },
+      {
+        "text": "(E) corresponde à localização da principal",
+        "top": 475.47,
+        "bottom": 486.42,
+        "x0": 313.03,
+        "x1": 538.59,
+        "column": 1
+      },
+      {
+        "text": "plataforma produtora de petróleo.",
+        "top": 488.42,
+        "bottom": 499.38,
+        "x0": 333.09,
+        "x1": 495.13,
+        "column": 1
+      }
+    ],
+    "images": [
+      {
+        "x0": 68.03,
+        "x1": 272.13,
+        "top": 126.83,
+        "bottom": 268.42
+      }
+    ],
+    "rects": [
+      {
+        "x0": 56.69,
+        "x1": 283.46,
+        "top": 83.93,
+        "bottom": 88.19
+      },
+      {
+        "x0": 311.81,
+        "x1": 538.58,
+        "top": 63.4,
+        "bottom": 67.65
+      }
+    ],
+    "curves": []
+  },
+  {
+    "page": 8,
+    "width": 595.276,
+    "height": 841.89,
+    "lines": [
+      {
+        "text": "QUESTÃO 13.",
+        "top": 75.18,
+        "bottom": 86.14,
+        "x0": 56.69,
+        "x1": 131.74,
+        "column": 0
+      },
+      {
+        "text": "Analise a manchete a seguir.",
+        "top": 89.73,
+        "bottom": 100.69,
+        "x0": 56.69,
+        "x1": 197.46,
+        "column": 0
+      },
+      {
+        "text": "Fonte: MARINHO, Ana Clara. Fernando de Noronha passa a",
+        "top": 349.27,
+        "bottom": 357.24,
+        "x0": 68.25,
+        "x1": 283.47,
+        "column": 0
+      },
+      {
+        "text": "controlar número de visitantes com base nos dados de turistas",
+        "top": 362.22,
+        "bottom": 370.19,
+        "x0": 61.86,
+        "x1": 283.47,
+        "column": 0
+      },
+      {
+        "text": "no Parque Nacional Marinho. G1, Pernambuco, 21 ago. 2023.",
+        "top": 375.17,
+        "bottom": 383.17,
+        "x0": 65.08,
+        "x1": 283.47,
+        "column": 0
+      },
+      {
+        "text": "Fernando de Noronha é um destino turístico",
+        "top": 399.77,
+        "bottom": 410.73,
+        "x0": 56.69,
+        "x1": 283.47,
+        "column": 0
+      },
+      {
+        "text": "muito procurado devido às suas belezas",
+        "top": 412.72,
+        "bottom": 423.68,
+        "x0": 56.69,
+        "x1": 283.46,
+        "column": 0
+      },
+      {
+        "text": "naturais e biodiversidade.",
+        "top": 425.67,
+        "bottom": 436.63,
+        "x0": 56.69,
+        "x1": 181.01,
+        "column": 0
+      },
+      {
+        "text": "Com base na manchete e nos conhecimentos",
+        "top": 451.58,
+        "bottom": 462.53,
+        "x0": 56.69,
+        "x1": 283.47,
+        "column": 0
+      },
+      {
+        "text": "sobre os fluxos turísticos contemporâneos,",
+        "top": 464.53,
+        "bottom": 475.49,
+        "x0": 56.69,
+        "x1": 283.47,
+        "column": 0
+      },
+      {
+        "text": "assinale a alternativa CORRETA.",
+        "top": 477.48,
+        "bottom": 488.48,
+        "x0": 56.69,
+        "x1": 218.92,
+        "column": 0
+      },
+      {
+        "text": "(A) A limitação do turismo tem como principal",
+        "top": 501.03,
+        "bottom": 511.99,
+        "x0": 57.91,
+        "x1": 283.46,
+        "column": 0
+      },
+      {
+        "text": "objetivo ampliar o acesso da população de",
+        "top": 513.98,
+        "bottom": 524.94,
+        "x0": 77.97,
+        "x1": 283.46,
+        "column": 0
+      },
+      {
+        "text": "baixa renda ao arquipélago.",
+        "top": 526.94,
+        "bottom": 537.9,
+        "x0": 77.97,
+        "x1": 213.38,
+        "column": 0
+      },
+      {
+        "text": "(B) A cultura local não sofre alterações",
+        "top": 550.49,
+        "bottom": 561.45,
+        "x0": 57.91,
+        "x1": 283.46,
+        "column": 0
+      },
+      {
+        "text": "significativas com o turismo, pois os",
+        "top": 563.44,
+        "bottom": 574.4,
+        "x0": 77.97,
+        "x1": 283.46,
+        "column": 0
+      },
+      {
+        "text": "visitantes permanecem isolados das",
+        "top": 576.39,
+        "bottom": 587.35,
+        "x0": 77.97,
+        "x1": 283.46,
+        "column": 0
+      },
+      {
+        "text": "comunidades residentes.",
+        "top": 589.35,
+        "bottom": 600.3,
+        "x0": 77.97,
+        "x1": 199.52,
+        "column": 0
+      },
+      {
+        "text": "(C) A atividade turística em Fernando de",
+        "top": 612.9,
+        "bottom": 623.86,
+        "x0": 57.31,
+        "x1": 283.46,
+        "column": 0
+      },
+      {
+        "text": "Noronha não causa impactos relevantes,",
+        "top": 625.85,
+        "bottom": 636.81,
+        "x0": 77.97,
+        "x1": 283.47,
+        "column": 0
+      },
+      {
+        "text": "pois é praticada em áreas protegidas e",
+        "top": 638.8,
+        "bottom": 649.76,
+        "x0": 77.97,
+        "x1": 283.47,
+        "column": 0
+      },
+      {
+        "text": "com fiscalização constante.",
+        "top": 651.75,
+        "bottom": 662.71,
+        "x0": 77.97,
+        "x1": 211.8,
+        "column": 0
+      },
+      {
+        "text": "(D) O turismo de massa é incentivado no",
+        "top": 675.31,
+        "bottom": 686.27,
+        "x0": 57.31,
+        "x1": 283.47,
+        "column": 0
+      },
+      {
+        "text": "arquipélago como estratégia oficial para",
+        "top": 688.26,
+        "bottom": 699.22,
+        "x0": 77.97,
+        "x1": 283.47,
+        "column": 0
+      },
+      {
+        "text": "aumentar a arrecadação pública, sem",
+        "top": 701.21,
+        "bottom": 712.17,
+        "x0": 77.97,
+        "x1": 283.46,
+        "column": 0
+      },
+      {
+        "text": "considerar limites ambientais.",
+        "top": 714.16,
+        "bottom": 725.12,
+        "x0": 77.97,
+        "x1": 222.03,
+        "column": 0
+      },
+      {
+        "text": "(E) O controle da entrada de turistas",
+        "top": 737.72,
+        "bottom": 748.68,
+        "x0": 57.91,
+        "x1": 283.47,
+        "column": 0
+      },
+      {
+        "text": "em Fernando de Noronha busca",
+        "top": 750.67,
+        "bottom": 761.63,
+        "x0": 77.97,
+        "x1": 283.46,
+        "column": 0
+      },
+      {
+        "text": "equilibrar a preservação ambiental e o",
+        "top": 763.62,
+        "bottom": 774.58,
+        "x0": 77.97,
+        "x1": 283.47,
+        "column": 0
+      },
+      {
+        "text": "desenvolvimento econômico sustentável.",
+        "top": 776.57,
+        "bottom": 787.53,
+        "x0": 77.97,
+        "x1": 276.98,
+        "column": 0
+      },
+      {
+        "text": "QUESTÃO 14.",
+        "top": 74.77,
+        "bottom": 85.73,
+        "x0": 311.81,
+        "x1": 386.86,
+        "column": 1
+      },
+      {
+        "text": "Analise a representação a seguir.",
+        "top": 88.92,
+        "bottom": 99.87,
+        "x0": 311.81,
+        "x1": 474.51,
+        "column": 1
+      },
+      {
+        "text": "Fonte: THÉRY, Hervé; THÉRY, Neli Aparecida de Mello. Atlas",
+        "top": 331.73,
+        "bottom": 339.73,
+        "x0": 319.42,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "do Brasil: disparidades e dinâmicas do território. Edusp -",
+        "top": 344.68,
+        "bottom": 352.68,
+        "x0": 334.62,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "Editora da Universidade de São Paulo, 2018, p. 127.",
+        "top": 357.63,
+        "bottom": 365.6,
+        "x0": 353.18,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "A distribuição da população pelo território",
+        "top": 380.18,
+        "bottom": 391.14,
+        "x0": 311.81,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "brasileiro não é homogênea. Algumas áreas",
+        "top": 393.14,
+        "bottom": 404.09,
+        "x0": 311.81,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "são muito povoadas, enquanto outras possuem",
+        "top": 406.09,
+        "bottom": 417.05,
+        "x0": 311.81,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "baixíssima densidade populacional.",
+        "top": 419.04,
+        "bottom": 430.0,
+        "x0": 311.81,
+        "x1": 484.8,
+        "column": 1
+      },
+      {
+        "text": "Uma importante área de baixo contingente",
+        "top": 444.94,
+        "bottom": 455.9,
+        "x0": 311.81,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "demográfico no Brasil associa-se à (ao)",
+        "top": 457.89,
+        "bottom": 468.85,
+        "x0": 311.81,
+        "x1": 504.65,
+        "column": 1
+      },
+      {
+        "text": "(A) espaço rural.",
+        "top": 479.81,
+        "bottom": 490.77,
+        "x0": 313.03,
+        "x1": 396.49,
+        "column": 1
+      },
+      {
+        "text": "(B) região amazônica.",
+        "top": 501.73,
+        "bottom": 512.69,
+        "x0": 313.03,
+        "x1": 422.62,
+        "column": 1
+      },
+      {
+        "text": "(C) recôncavo baiano.",
+        "top": 523.65,
+        "bottom": 534.6,
+        "x0": 312.43,
+        "x1": 421.7,
+        "column": 1
+      },
+      {
+        "text": "(D) extensão litorânea.",
+        "top": 545.56,
+        "bottom": 556.52,
+        "x0": 312.43,
+        "x1": 425.35,
+        "column": 1
+      },
+      {
+        "text": "(E) planalto setentrional.",
+        "top": 567.48,
+        "bottom": 578.44,
+        "x0": 313.03,
+        "x1": 434.37,
+        "column": 1
+      }
+    ],
+    "images": [
+      {
+        "x0": 68.03,
+        "x1": 272.13,
+        "top": 112.81,
+        "bottom": 328.18
+      },
+      {
+        "x0": 311.81,
+        "x1": 538.58,
+        "top": 109.94,
+        "bottom": 313.09
+      }
+    ],
+    "rects": [
+      {
+        "x0": 56.69,
+        "x1": 283.46,
+        "top": 63.4,
+        "bottom": 67.65
+      },
+      {
+        "x0": 311.81,
+        "x1": 538.58,
+        "top": 63.4,
+        "bottom": 67.65
+      }
+    ],
+    "curves": []
+  },
+  {
+    "page": 9,
+    "width": 595.276,
+    "height": 841.89,
+    "lines": [
+      {
+        "text": "QUESTÃO 15.",
+        "top": 74.77,
+        "bottom": 85.73,
+        "x0": 56.69,
+        "x1": 131.74,
+        "column": 0
+      },
+      {
+        "text": "Leia o excerto abaixo.",
+        "top": 88.92,
+        "bottom": 99.87,
+        "x0": 56.69,
+        "x1": 163.58,
+        "column": 0
+      },
+      {
+        "text": "A vida dos imigrantes brasileiros pode ficar",
+        "top": 114.82,
+        "bottom": 125.78,
+        "x0": 56.69,
+        "x1": 283.47,
+        "column": 0
+      },
+      {
+        "text": "mais difícil no país com o aumento da",
+        "top": 127.77,
+        "bottom": 138.73,
+        "x0": 56.69,
+        "x1": 283.46,
+        "column": 0
+      },
+      {
+        "text": "participação política da AfD no Bundetag",
+        "top": 140.72,
+        "bottom": 151.68,
+        "x0": 56.69,
+        "x1": 283.47,
+        "column": 0
+      },
+      {
+        "text": "(Câmara Baixa do Parlamento Alemão).",
+        "top": 153.67,
+        "bottom": 164.63,
+        "x0": 56.69,
+        "x1": 250.59,
+        "column": 0
+      },
+      {
+        "text": "Disponível em: https://encurtador.com.br/iLQ5d. Acesso em: 26",
+        "top": 177.94,
+        "bottom": 185.91,
+        "x0": 58.02,
+        "x1": 283.47,
+        "column": 0
+      },
+      {
+        "text": "jun. 2025.",
+        "top": 190.89,
+        "bottom": 198.86,
+        "x0": 247.93,
+        "x1": 283.46,
+        "column": 0
+      },
+      {
+        "text": "A AfD é um partido que tem ganhado força",
+        "top": 210.46,
+        "bottom": 221.42,
+        "x0": 56.69,
+        "x1": 283.46,
+        "column": 0
+      },
+      {
+        "text": "nas eleições parlamentares da Alemanha,",
+        "top": 223.41,
+        "bottom": 234.37,
+        "x0": 56.69,
+        "x1": 283.46,
+        "column": 0
+      },
+      {
+        "text": "principalmente com discursos contrários à",
+        "top": 236.36,
+        "bottom": 247.32,
+        "x0": 56.69,
+        "x1": 283.46,
+        "column": 0
+      },
+      {
+        "text": "imigração e com pautas nacionalistas.",
+        "top": 249.31,
+        "bottom": 260.27,
+        "x0": 56.69,
+        "x1": 242.07,
+        "column": 0
+      },
+      {
+        "text": "Com base nesse contexto, marque a",
+        "top": 275.22,
+        "bottom": 286.18,
+        "x0": 56.69,
+        "x1": 283.47,
+        "column": 0
+      },
+      {
+        "text": "alternativa CORRETA.",
+        "top": 288.17,
+        "bottom": 299.17,
+        "x0": 56.69,
+        "x1": 166.53,
+        "column": 0
+      },
+      {
+        "text": "(A) A participação da AfD no Budestag não",
+        "top": 310.09,
+        "bottom": 321.05,
+        "x0": 57.91,
+        "x1": 283.46,
+        "column": 0
+      },
+      {
+        "text": "tem impacto sobre as políticas migratórias,",
+        "top": 323.04,
+        "bottom": 334.0,
+        "x0": 77.97,
+        "x1": 283.46,
+        "column": 0
+      },
+      {
+        "text": "pois a Alemanha mantém uma postura",
+        "top": 335.99,
+        "bottom": 346.95,
+        "x0": 77.97,
+        "x1": 283.47,
+        "column": 0
+      },
+      {
+        "text": "neutra e técnica com relação à entrada de",
+        "top": 348.94,
+        "bottom": 359.9,
+        "x0": 77.97,
+        "x1": 283.46,
+        "column": 0
+      },
+      {
+        "text": "estrangeiros.",
+        "top": 361.89,
+        "bottom": 372.85,
+        "x0": 77.97,
+        "x1": 141.04,
+        "column": 0
+      },
+      {
+        "text": "(B) O crescimento da AfD no Parlamento",
+        "top": 383.81,
+        "bottom": 394.77,
+        "x0": 57.91,
+        "x1": 283.47,
+        "column": 0
+      },
+      {
+        "text": "Alemão está associado a uma postura",
+        "top": 396.76,
+        "bottom": 407.72,
+        "x0": 77.97,
+        "x1": 283.47,
+        "column": 0
+      },
+      {
+        "text": "crítica à globalização e tende a intensificar",
+        "top": 409.71,
+        "bottom": 420.67,
+        "x0": 77.97,
+        "x1": 283.47,
+        "column": 0
+      },
+      {
+        "text": "a xenofobia, dificultando a vida dos",
+        "top": 422.66,
+        "bottom": 433.62,
+        "x0": 77.97,
+        "x1": 283.46,
+        "column": 0
+      },
+      {
+        "text": "imigrantes, inclusive brasileiros.",
+        "top": 435.62,
+        "bottom": 446.57,
+        "x0": 77.97,
+        "x1": 231.71,
+        "column": 0
+      },
+      {
+        "text": "(C) A ascensão da AfD indica uma",
+        "top": 457.53,
+        "bottom": 468.49,
+        "x0": 57.31,
+        "x1": 283.46,
+        "column": 0
+      },
+      {
+        "text": "estabilidade democrática, pois expressa",
+        "top": 470.48,
+        "bottom": 481.44,
+        "x0": 77.97,
+        "x1": 283.47,
+        "column": 0
+      },
+      {
+        "text": "a diversidade ideológica e garante a",
+        "top": 483.44,
+        "bottom": 494.4,
+        "x0": 77.97,
+        "x1": 283.46,
+        "column": 0
+      },
+      {
+        "text": "inclusão de perspectivas alternativas",
+        "top": 496.39,
+        "bottom": 507.35,
+        "x0": 77.97,
+        "x1": 283.46,
+        "column": 0
+      },
+      {
+        "text": "ao debate público sobre imigração e",
+        "top": 509.34,
+        "bottom": 520.3,
+        "x0": 77.97,
+        "x1": 283.46,
+        "column": 0
+      },
+      {
+        "text": "identidade nacional.",
+        "top": 522.29,
+        "bottom": 533.25,
+        "x0": 77.97,
+        "x1": 175.44,
+        "column": 0
+      },
+      {
+        "text": "(D) O aumento da representatividade da AfD",
+        "top": 544.21,
+        "bottom": 555.17,
+        "x0": 57.31,
+        "x1": 283.47,
+        "column": 0
+      },
+      {
+        "text": "indica o sucesso da política multicultural",
+        "top": 557.16,
+        "bottom": 568.12,
+        "x0": 77.97,
+        "x1": 283.46,
+        "column": 0
+      },
+      {
+        "text": "alemã, que tem gerado tensões apenas",
+        "top": 570.11,
+        "bottom": 581.07,
+        "x0": 77.97,
+        "x1": 283.46,
+        "column": 0
+      },
+      {
+        "text": "em grupos recém chegados e não",
+        "top": 583.06,
+        "bottom": 594.02,
+        "x0": 77.97,
+        "x1": 283.47,
+        "column": 0
+      },
+      {
+        "text": "afeta a comunidade de imigrantes já",
+        "top": 596.01,
+        "bottom": 606.97,
+        "x0": 77.97,
+        "x1": 283.47,
+        "column": 0
+      },
+      {
+        "text": "estabelecidas.",
+        "top": 608.97,
+        "bottom": 619.92,
+        "x0": 77.97,
+        "x1": 147.86,
+        "column": 0
+      },
+      {
+        "text": "(E) O fortalecimento de partidos como a AfD",
+        "top": 630.88,
+        "bottom": 641.84,
+        "x0": 57.91,
+        "x1": 283.47,
+        "column": 0
+      },
+      {
+        "text": "não representa uma preocupação para",
+        "top": 643.83,
+        "bottom": 654.79,
+        "x0": 77.97,
+        "x1": 283.47,
+        "column": 0
+      },
+      {
+        "text": "imigrantes brasileiros, pois o foco maior",
+        "top": 656.79,
+        "bottom": 667.75,
+        "x0": 77.97,
+        "x1": 283.46,
+        "column": 0
+      },
+      {
+        "text": "das críticas desses políticos recai sobre",
+        "top": 669.74,
+        "bottom": 680.7,
+        "x0": 77.97,
+        "x1": 283.46,
+        "column": 0
+      },
+      {
+        "text": "migrantes do norte da África e do Oriente",
+        "top": 682.69,
+        "bottom": 693.65,
+        "x0": 77.97,
+        "x1": 283.47,
+        "column": 0
+      },
+      {
+        "text": "Médio.",
+        "top": 695.64,
+        "bottom": 706.6,
+        "x0": 77.97,
+        "x1": 110.42,
+        "column": 0
+      },
+      {
+        "text": "História - Objetivas",
+        "top": 76.64,
+        "bottom": 87.6,
+        "x0": 375.37,
+        "x1": 475.03,
+        "column": 1
+      },
+      {
+        "text": "QUESTÃO 16.",
+        "top": 108.49,
+        "bottom": 119.45,
+        "x0": 311.81,
+        "x1": 386.86,
+        "column": 1
+      },
+      {
+        "text": "Leia o texto abaixo que apresenta uma reflexão",
+        "top": 122.64,
+        "bottom": 133.6,
+        "x0": 311.81,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "sobre modos de manifestação e efeitos do",
+        "top": 135.59,
+        "bottom": 146.55,
+        "x0": 311.81,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "fascismo.",
+        "top": 148.54,
+        "bottom": 159.5,
+        "x0": 311.81,
+        "x1": 357.32,
+        "column": 1
+      },
+      {
+        "text": "Em 1974, Pasolini desenvolverá amplamente",
+        "top": 174.44,
+        "bottom": 185.4,
+        "x0": 311.81,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "seu tema do “genocídio cultural”. O “verdadeiro",
+        "top": 187.4,
+        "bottom": 198.35,
+        "x0": 311.81,
+        "x1": 538.59,
+        "column": 1
+      },
+      {
+        "text": "fascismo”, diz ele, é aquele que tem por alvo",
+        "top": 200.35,
+        "bottom": 211.31,
+        "x0": 311.81,
+        "x1": 538.59,
+        "column": 1
+      },
+      {
+        "text": "os valores, as almas, as linguagens, os gestos,",
+        "top": 213.3,
+        "bottom": 224.26,
+        "x0": 311.81,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "os corpos do povo”. É aquele que “conduz,",
+        "top": 226.25,
+        "bottom": 237.21,
+        "x0": 311.81,
+        "x1": 538.59,
+        "column": 1
+      },
+      {
+        "text": "sem carrascos nem execuções em massa,",
+        "top": 239.2,
+        "bottom": 250.16,
+        "x0": 311.81,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "à supressão de grandes porções da própria",
+        "top": 252.15,
+        "bottom": 263.11,
+        "x0": 311.81,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "sociedade”, e é por isso que é preciso chamar",
+        "top": 265.1,
+        "bottom": 276.06,
+        "x0": 311.81,
+        "x1": 538.59,
+        "column": 1
+      },
+      {
+        "text": "de genocídio “essa assimilação (total) ao modo",
+        "top": 278.06,
+        "bottom": 289.01,
+        "x0": 311.81,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "e à qualidade de vida da burguesia”. Em",
+        "top": 291.01,
+        "bottom": 301.97,
+        "x0": 311.81,
+        "x1": 538.59,
+        "column": 1
+      },
+      {
+        "text": "1975, perto de escrever seu texto sobre o",
+        "top": 303.96,
+        "bottom": 314.92,
+        "x0": 311.81,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "desaparecimento dos vaga-lumes, o cineasta",
+        "top": 316.91,
+        "bottom": 327.87,
+        "x0": 311.81,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "dedicar-se-á ao tema – trágico e apocalíptico",
+        "top": 329.86,
+        "bottom": 340.82,
+        "x0": 311.81,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "– de um desaparecimento do humano no",
+        "top": 342.81,
+        "bottom": 353.77,
+        "x0": 311.81,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "coração da sociedade atual.",
+        "top": 355.76,
+        "bottom": 366.72,
+        "x0": 311.81,
+        "x1": 448.76,
+        "column": 1
+      },
+      {
+        "text": "Fonte: DIDI-HUBERMAN, Georges. Sobrevivência dos",
+        "top": 374.25,
+        "bottom": 382.25,
+        "x0": 339.14,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "vaga-lumes. Belo Horizonte: Editora UFMG, 2011, p. 29.",
+        "top": 383.71,
+        "bottom": 391.72,
+        "x0": 335.16,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "Sobre as relações entre fascismo, artes e",
+        "top": 400.98,
+        "bottom": 411.94,
+        "x0": 311.81,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "cultura, é CORRETO afirmar, com base no",
+        "top": 413.93,
+        "bottom": 424.93,
+        "x0": 311.81,
+        "x1": 538.59,
+        "column": 1
+      },
+      {
+        "text": "texto, que",
+        "top": 426.88,
+        "bottom": 437.84,
+        "x0": 311.81,
+        "x1": 359.18,
+        "column": 1
+      },
+      {
+        "text": "(A) ao definir de forma arbitrária a",
+        "top": 446.5,
+        "bottom": 457.46,
+        "x0": 313.03,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "humanidade do humano, as artes se",
+        "top": 459.45,
+        "bottom": 470.41,
+        "x0": 333.09,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "associam ao fascismo na produção do",
+        "top": 472.4,
+        "bottom": 483.36,
+        "x0": 333.09,
+        "x1": 538.59,
+        "column": 1
+      },
+      {
+        "text": "genocídio cultural que permanece no séc.",
+        "top": 485.36,
+        "bottom": 496.32,
+        "x0": 333.09,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "XXI.",
+        "top": 498.31,
+        "bottom": 509.27,
+        "x0": 333.09,
+        "x1": 353.8,
+        "column": 1
+      },
+      {
+        "text": "(B) a resistência ao fascismo por meio das",
+        "top": 519.31,
+        "bottom": 530.27,
+        "x0": 313.03,
+        "x1": 538.59,
+        "column": 1
+      },
+      {
+        "text": "artes só era possível no contexto do",
+        "top": 532.26,
+        "bottom": 543.22,
+        "x0": 333.09,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "fascismo histórico, que se inicia na Itália",
+        "top": 545.21,
+        "bottom": 556.17,
+        "x0": 333.09,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "e se encerra ao fim da Segunda Guerra",
+        "top": 558.16,
+        "bottom": 569.12,
+        "x0": 333.09,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "Mundial.",
+        "top": 571.11,
+        "bottom": 582.07,
+        "x0": 333.09,
+        "x1": 374.5,
+        "column": 1
+      },
+      {
+        "text": "(C) as artes são imunes à violência fascista",
+        "top": 592.11,
+        "bottom": 603.07,
+        "x0": 312.43,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "por mobilizarem linguagens verbais e não",
+        "top": 605.06,
+        "bottom": 616.02,
+        "x0": 333.09,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "verbais impossíveis de serem capturadas",
+        "top": 618.01,
+        "bottom": 628.97,
+        "x0": 333.09,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "de forma objetiva no tempo e no espaço.",
+        "top": 630.96,
+        "bottom": 641.92,
+        "x0": 333.09,
+        "x1": 530.91,
+        "column": 1
+      },
+      {
+        "text": "(D) o genocídio cultural que resulta da",
+        "top": 651.96,
+        "bottom": 662.92,
+        "x0": 312.43,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "permanência hegemônica do modo",
+        "top": 664.91,
+        "bottom": 675.87,
+        "x0": 333.09,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "de vida burguês faz do fascismo um",
+        "top": 677.87,
+        "bottom": 688.82,
+        "x0": 333.09,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "fenômeno de longa duração e atrelado ao",
+        "top": 690.82,
+        "bottom": 701.78,
+        "x0": 333.09,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "capitalismo.",
+        "top": 703.77,
+        "bottom": 714.73,
+        "x0": 333.09,
+        "x1": 390.5,
+        "column": 1
+      },
+      {
+        "text": "(E) os valores fascistas vêm sendo",
+        "top": 724.77,
+        "bottom": 735.73,
+        "x0": 313.03,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "contestados pelas artes desde a segunda",
+        "top": 737.72,
+        "bottom": 748.68,
+        "x0": 333.09,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "metade do século XX, e a cultura do século",
+        "top": 750.67,
+        "bottom": 761.63,
+        "x0": 333.09,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "XXI apresenta total ruptura com esses",
+        "top": 763.62,
+        "bottom": 774.58,
+        "x0": 333.09,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "valores.",
+        "top": 776.57,
+        "bottom": 787.53,
+        "x0": 333.09,
+        "x1": 371.02,
+        "column": 1
+      }
+    ],
+    "images": [],
+    "rects": [
+      {
+        "x0": 56.69,
+        "x1": 283.46,
+        "top": 63.4,
+        "bottom": 67.65
+      },
+      {
+        "x0": 311.81,
+        "x1": 538.58,
+        "top": 97.12,
+        "bottom": 101.38
+      }
+    ],
+    "curves": []
+  },
+  {
+    "page": 10,
+    "width": 595.276,
+    "height": 841.89,
+    "lines": [
+      {
+        "text": "QUESTÃO 17.",
+        "top": 74.9,
+        "bottom": 85.86,
+        "x0": 56.69,
+        "x1": 131.74,
+        "column": 0
+      },
+      {
+        "text": "Guerra por procuração (ou guerra proxy),",
+        "top": 89.17,
+        "bottom": 100.13,
+        "x0": 56.69,
+        "x1": 283.47,
+        "column": 0
+      },
+      {
+        "text": "um conflito militar no qual uma ou mais",
+        "top": 102.12,
+        "bottom": 113.08,
+        "x0": 56.69,
+        "x1": 283.47,
+        "column": 0
+      },
+      {
+        "text": "terceiras partes apoiam direta ou indiretamente",
+        "top": 115.08,
+        "bottom": 126.03,
+        "x0": 56.69,
+        "x1": 283.47,
+        "column": 0
+      },
+      {
+        "text": "um ou mais Estados ou atores não estatais",
+        "top": 128.03,
+        "bottom": 138.99,
+        "x0": 56.69,
+        "x1": 283.47,
+        "column": 0
+      },
+      {
+        "text": "beligerantes, com o objetivo de influenciar o",
+        "top": 140.98,
+        "bottom": 151.94,
+        "x0": 56.69,
+        "x1": 283.47,
+        "column": 0
+      },
+      {
+        "text": "desfecho do conflito e, assim, promover seus",
+        "top": 153.93,
+        "bottom": 164.89,
+        "x0": 56.69,
+        "x1": 283.47,
+        "column": 0
+      },
+      {
+        "text": "próprios interesses estratégicos ou minar os",
+        "top": 166.88,
+        "bottom": 177.84,
+        "x0": 56.69,
+        "x1": 283.46,
+        "column": 0
+      },
+      {
+        "text": "de seus adversários. As terceiras partes em",
+        "top": 179.83,
+        "bottom": 190.79,
+        "x0": 56.69,
+        "x1": 283.46,
+        "column": 0
+      },
+      {
+        "text": "uma guerra por procuração não participam",
+        "top": 192.78,
+        "bottom": 203.74,
+        "x0": 56.69,
+        "x1": 283.46,
+        "column": 0
+      },
+      {
+        "text": "dos combates de forma significativa – ou não",
+        "top": 205.74,
+        "bottom": 216.69,
+        "x0": 56.69,
+        "x1": 283.47,
+        "column": 0
+      },
+      {
+        "text": "participaram de modo nenhum. Guerras por",
+        "top": 218.69,
+        "bottom": 229.65,
+        "x0": 56.69,
+        "x1": 283.47,
+        "column": 0
+      },
+      {
+        "text": "procuração permitem que grandes potências",
+        "top": 231.64,
+        "bottom": 242.6,
+        "x0": 56.69,
+        "x1": 283.47,
+        "column": 0
+      },
+      {
+        "text": "evitem o confronto direto entre si enquanto",
+        "top": 244.59,
+        "bottom": 255.55,
+        "x0": 56.69,
+        "x1": 283.47,
+        "column": 0
+      },
+      {
+        "text": "competem por influência e recursos. Os",
+        "top": 257.54,
+        "bottom": 268.5,
+        "x0": 56.69,
+        "x1": 283.47,
+        "column": 0
+      },
+      {
+        "text": "meios de apoio direto incluem assistência",
+        "top": 270.49,
+        "bottom": 281.45,
+        "x0": 56.69,
+        "x1": 283.46,
+        "column": 0
+      },
+      {
+        "text": "militar, treinamento, ajuda econômica e,",
+        "top": 283.44,
+        "bottom": 294.4,
+        "x0": 56.69,
+        "x1": 283.46,
+        "column": 0
+      },
+      {
+        "text": "ocasionalmente, operações militares limitadas",
+        "top": 296.4,
+        "bottom": 307.35,
+        "x0": 56.69,
+        "x1": 283.46,
+        "column": 0
+      },
+      {
+        "text": "com forças substitutas (surrogates). Já os",
+        "top": 309.35,
+        "bottom": 320.31,
+        "x0": 56.69,
+        "x1": 283.46,
+        "column": 0
+      },
+      {
+        "text": "meios indiretos abrangem bloqueios, sanções,",
+        "top": 322.3,
+        "bottom": 333.26,
+        "x0": 56.69,
+        "x1": 283.46,
+        "column": 0
+      },
+      {
+        "text": "embargos comerciais e outras estratégias",
+        "top": 335.25,
+        "bottom": 346.21,
+        "x0": 56.69,
+        "x1": 283.46,
+        "column": 0
+      },
+      {
+        "text": "destinadas a frustrar as ambições do rival.",
+        "top": 348.2,
+        "bottom": 359.16,
+        "x0": 56.69,
+        "x1": 262.5,
+        "column": 0
+      },
+      {
+        "text": "Disponível em: Traduzido de Britannica Encyclopedia. “Proxy",
+        "top": 372.74,
+        "bottom": 380.71,
+        "x0": 67.61,
+        "x1": 283.47,
+        "column": 0
+      },
+      {
+        "text": "war”. https://www.britannica.com/to pic/proxy-war. Acesso em:",
+        "top": 382.21,
+        "bottom": 390.18,
+        "x0": 63.97,
+        "x1": 283.47,
+        "column": 0
+      },
+      {
+        "text": "17 jun. 2025 (adaptado).",
+        "top": 391.67,
+        "bottom": 399.64,
+        "x0": 196.1,
+        "x1": 283.47,
+        "column": 0
+      },
+      {
+        "text": "O trecho acima foi retirado da Enciclopédia",
+        "top": 414.87,
+        "bottom": 425.83,
+        "x0": 56.69,
+        "x1": 283.47,
+        "column": 0
+      },
+      {
+        "text": "Britânica, e apresenta um conceito que pode",
+        "top": 427.82,
+        "bottom": 438.78,
+        "x0": 56.69,
+        "x1": 283.46,
+        "column": 0
+      },
+      {
+        "text": "ser utilizado na análise de conflitos históricos:",
+        "top": 440.77,
+        "bottom": 451.73,
+        "x0": 56.69,
+        "x1": 283.47,
+        "column": 0
+      },
+      {
+        "text": "guerra por procuração (ou, proxy war).",
+        "top": 453.72,
+        "bottom": 464.68,
+        "x0": 56.69,
+        "x1": 244.8,
+        "column": 0
+      },
+      {
+        "text": "É possível pensar em eventos históricos",
+        "top": 479.62,
+        "bottom": 490.58,
+        "x0": 56.69,
+        "x1": 283.46,
+        "column": 0
+      },
+      {
+        "text": "concretos que poderiam ser interpretados",
+        "top": 492.58,
+        "bottom": 503.54,
+        "x0": 56.69,
+        "x1": 283.47,
+        "column": 0
+      },
+      {
+        "text": "como “guerras por procuração”, como",
+        "top": 505.53,
+        "bottom": 516.49,
+        "x0": 56.69,
+        "x1": 240.4,
+        "column": 0
+      },
+      {
+        "text": "(A) no caso da Guerra Fria, exemplificada",
+        "top": 527.96,
+        "bottom": 538.92,
+        "x0": 57.91,
+        "x1": 283.47,
+        "column": 0
+      },
+      {
+        "text": "em conflitos como a Guerra do Vietnã e",
+        "top": 540.91,
+        "bottom": 551.87,
+        "x0": 77.97,
+        "x1": 283.46,
+        "column": 0
+      },
+      {
+        "text": "a Guerra das Coreias, que mobilizaram,",
+        "top": 553.86,
+        "bottom": 564.82,
+        "x0": 77.97,
+        "x1": 283.46,
+        "column": 0
+      },
+      {
+        "text": "para além dos atores locais, interesses de",
+        "top": 566.81,
+        "bottom": 577.77,
+        "x0": 77.97,
+        "x1": 283.47,
+        "column": 0
+      },
+      {
+        "text": "potências capitalistas e comunistas.",
+        "top": 579.76,
+        "bottom": 590.72,
+        "x0": 77.97,
+        "x1": 252.5,
+        "column": 0
+      },
+      {
+        "text": "(B) as lutas por independência na África",
+        "top": 602.2,
+        "bottom": 613.15,
+        "x0": 57.91,
+        "x1": 283.47,
+        "column": 0
+      },
+      {
+        "text": "na segunda metade do século XX, que",
+        "top": 615.15,
+        "bottom": 626.11,
+        "x0": 77.97,
+        "x1": 283.46,
+        "column": 0
+      },
+      {
+        "text": "se explicam mais pela interferência de",
+        "top": 628.1,
+        "bottom": 639.06,
+        "x0": 77.97,
+        "x1": 283.46,
+        "column": 0
+      },
+      {
+        "text": "potências estrangeiras do que pelas",
+        "top": 641.05,
+        "bottom": 652.01,
+        "x0": 77.97,
+        "x1": 283.46,
+        "column": 0
+      },
+      {
+        "text": "circunstâncias locais.",
+        "top": 654.0,
+        "bottom": 664.96,
+        "x0": 77.97,
+        "x1": 181.34,
+        "column": 0
+      },
+      {
+        "text": "(C) a Guerra do Paraguai, que exemplifica",
+        "top": 676.43,
+        "bottom": 687.39,
+        "x0": 57.31,
+        "x1": 283.47,
+        "column": 0
+      },
+      {
+        "text": "a manipulação de jovens nações",
+        "top": 689.38,
+        "bottom": 700.34,
+        "x0": 77.97,
+        "x1": 283.46,
+        "column": 0
+      },
+      {
+        "text": "sul-americanas (Paraguai, Brasil,",
+        "top": 702.34,
+        "bottom": 713.29,
+        "x0": 77.97,
+        "x1": 283.46,
+        "column": 0
+      },
+      {
+        "text": "Argentina e Uruguai) pela Inglaterra,",
+        "top": 715.29,
+        "bottom": 726.25,
+        "x0": 77.97,
+        "x1": 283.46,
+        "column": 0
+      },
+      {
+        "text": "grande potência econômica do século XIX.",
+        "top": 728.24,
+        "bottom": 739.2,
+        "x0": 77.97,
+        "x1": 283.46,
+        "column": 0
+      },
+      {
+        "text": "(D) no caso da Revolução Cubana, um",
+        "top": 750.67,
+        "bottom": 761.63,
+        "x0": 57.31,
+        "x1": 283.47,
+        "column": 0
+      },
+      {
+        "text": "processo bastante documentado sobre o",
+        "top": 763.62,
+        "bottom": 774.58,
+        "x0": 77.97,
+        "x1": 283.46,
+        "column": 0
+      },
+      {
+        "text": "expansionismo soviético nas Américas,",
+        "top": 776.57,
+        "bottom": 787.53,
+        "x0": 77.97,
+        "x1": 283.46,
+        "column": 0
+      },
+      {
+        "text": "em oposição à influência dos Estados",
+        "top": 65,
+        "bottom": 69.99,
+        "x0": 333.09,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "Unidos na região.",
+        "top": 71.98,
+        "bottom": 82.94,
+        "x0": 333.09,
+        "x1": 418.54,
+        "column": 1
+      },
+      {
+        "text": "(E) a chamada Guerra dos Boxers, que",
+        "top": 93.9,
+        "bottom": 104.86,
+        "x0": 313.03,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "expressa a influência japonesa na China –",
+        "top": 106.85,
+        "bottom": 117.81,
+        "x0": 333.09,
+        "x1": 538.59,
+        "column": 1
+      },
+      {
+        "text": "mobilizando resistência militar chinesa aos",
+        "top": 119.8,
+        "bottom": 130.76,
+        "x0": 333.09,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "interesses imperialistas ocidentais no final",
+        "top": 132.75,
+        "bottom": 143.71,
+        "x0": 333.09,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "do século XIX.",
+        "top": 145.7,
+        "bottom": 156.66,
+        "x0": 333.09,
+        "x1": 403.75,
+        "column": 1
+      },
+      {
+        "text": "QUESTÃO 18.",
+        "top": 190.14,
+        "bottom": 201.1,
+        "x0": 311.81,
+        "x1": 386.86,
+        "column": 1
+      },
+      {
+        "text": "Leia o texto abaixo sobre relações entre países",
+        "top": 204.28,
+        "bottom": 215.24,
+        "x0": 311.81,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "africanos e europeus no pós-independência do",
+        "top": 217.23,
+        "bottom": 228.19,
+        "x0": 311.81,
+        "x1": 538.59,
+        "column": 1
+      },
+      {
+        "text": "século XX.",
+        "top": 230.19,
+        "bottom": 241.14,
+        "x0": 311.81,
+        "x1": 364.19,
+        "column": 1
+      },
+      {
+        "text": "Aliada à expansão agrícola africana, a",
+        "top": 256.09,
+        "bottom": 267.05,
+        "x0": 311.81,
+        "x1": 538.59,
+        "column": 1
+      },
+      {
+        "text": "criação do Mercado Comum Europeu, em",
+        "top": 269.04,
+        "bottom": 280.0,
+        "x0": 311.81,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "1957, foi outro entrave para as exportações",
+        "top": 281.99,
+        "bottom": 292.95,
+        "x0": 311.81,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "dos produtos primários brasileiros. Sob a",
+        "top": 294.94,
+        "bottom": 305.9,
+        "x0": 311.81,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "liderança francesa, os territórios ultramarinos",
+        "top": 307.89,
+        "bottom": 318.85,
+        "x0": 311.81,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "foram incluídos no sistema fechado de",
+        "top": 320.85,
+        "bottom": 331.8,
+        "x0": 311.81,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "comércio seletivo em que se constituía",
+        "top": 333.8,
+        "bottom": 344.76,
+        "x0": 311.81,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "esse Mercado. Posteriormente, com a",
+        "top": 346.75,
+        "bottom": 357.71,
+        "x0": 311.81,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "independência de algumas colônias, os novos",
+        "top": 359.7,
+        "bottom": 370.66,
+        "x0": 311.81,
+        "x1": 538.59,
+        "column": 1
+      },
+      {
+        "text": "Estados puderam associar-se em um sistema",
+        "top": 372.65,
+        "bottom": 383.61,
+        "x0": 311.81,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "que estabelecia regime preferencial, um fundo",
+        "top": 385.6,
+        "bottom": 396.56,
+        "x0": 311.81,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "de desenvolvimento, a não discriminação entre",
+        "top": 398.55,
+        "bottom": 409.51,
+        "x0": 311.81,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "os Seis (França, Alemanha Ocidental, Itália,",
+        "top": 411.51,
+        "bottom": 422.46,
+        "x0": 311.81,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "Bélgica, Países Baixos e Luxemburgo) e seus",
+        "top": 424.46,
+        "bottom": 435.42,
+        "x0": 311.81,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "associados e um Conselho de Ministros e",
+        "top": 437.41,
+        "bottom": 448.37,
+        "x0": 311.81,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "uma Corte de Justiça próprios. Na prática,",
+        "top": 450.36,
+        "bottom": 461.32,
+        "x0": 311.81,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "a participação de países africanos significou",
+        "top": 463.31,
+        "bottom": 474.27,
+        "x0": 311.81,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "o acesso de seus produtos a esse mercado",
+        "top": 476.26,
+        "bottom": 487.22,
+        "x0": 311.81,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "sem a incidência de tarifas aduaneiras, o que",
+        "top": 489.21,
+        "bottom": 500.17,
+        "x0": 311.81,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "barateava o preço dos mesmos e gerava, por",
+        "top": 502.17,
+        "bottom": 513.12,
+        "x0": 311.81,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "sua vez, uma concorrência desleal para os",
+        "top": 515.12,
+        "bottom": 526.08,
+        "x0": 311.81,
+        "x1": 538.59,
+        "column": 1
+      },
+      {
+        "text": "produtos brasileiros.",
+        "top": 528.07,
+        "bottom": 539.03,
+        "x0": 311.81,
+        "x1": 410.2,
+        "column": 1
+      },
+      {
+        "text": "Fonte: ALMEIDA, E. L. de. Do outro lado do atlântico: as",
+        "top": 552.34,
+        "bottom": 560.31,
+        "x0": 337.88,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "relações políticas e econômicas entre o Brasil e os países",
+        "top": 565.29,
+        "bottom": 573.26,
+        "x0": 333.57,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "africanos desde o século XX. Cadernos do CEAS: Revista",
+        "top": 578.24,
+        "bottom": 586.24,
+        "x0": 329.19,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "crítica de humanidades, Salvador, BA, Brasil, n. 241, p. 447,",
+        "top": 591.19,
+        "bottom": 599.16,
+        "x0": 325.52,
+        "x1": 538.59,
+        "column": 1
+      },
+      {
+        "text": "2017.",
+        "top": 604.14,
+        "bottom": 612.11,
+        "x0": 518.64,
+        "x1": 538.58,
+        "column": 1
+      }
+    ],
+    "images": [],
+    "rects": [
+      {
+        "x0": 56.69,
+        "x1": 283.46,
+        "top": 63.4,
+        "bottom": 67.65
+      },
+      {
+        "x0": 311.81,
+        "x1": 538.58,
+        "top": 178.77,
+        "bottom": 183.02
+      }
+    ],
+    "curves": []
+  },
+  {
+    "page": 11,
+    "width": 595.276,
+    "height": 841.89,
+    "lines": [
+      {
+        "text": "Os efeitos das relações",
+        "top": 65,
+        "bottom": 69.99,
+        "x0": 56.69,
+        "x1": 283.46,
+        "column": 0
+      },
+      {
+        "text": "econômicas entre a Europa e as",
+        "top": 71.98,
+        "bottom": 82.94,
+        "x0": 56.69,
+        "x1": 283.47,
+        "column": 0
+      },
+      {
+        "text": "recém-independentes nações africanas são",
+        "top": 84.93,
+        "bottom": 95.89,
+        "x0": 56.69,
+        "x1": 283.46,
+        "column": 0
+      },
+      {
+        "text": "caracterizados",
+        "top": 97.88,
+        "bottom": 108.84,
+        "x0": 56.69,
+        "x1": 128.0,
+        "column": 0
+      },
+      {
+        "text": "(A) pela permanência de",
+        "top": 119.8,
+        "bottom": 130.76,
+        "x0": 57.91,
+        "x1": 283.46,
+        "column": 0
+      },
+      {
+        "text": "relações econômicas com rastros",
+        "top": 132.75,
+        "bottom": 143.71,
+        "x0": 77.97,
+        "x1": 283.47,
+        "column": 0
+      },
+      {
+        "text": "coloniais entre Europa e África,",
+        "top": 145.7,
+        "bottom": 156.66,
+        "x0": 77.97,
+        "x1": 283.46,
+        "column": 0
+      },
+      {
+        "text": "prejudiciais à economia brasileira por",
+        "top": 158.65,
+        "bottom": 169.61,
+        "x0": 77.97,
+        "x1": 283.47,
+        "column": 0
+      },
+      {
+        "text": "dificultar a entrada de produtos brasileiros",
+        "top": 171.61,
+        "bottom": 182.56,
+        "x0": 77.97,
+        "x1": 283.46,
+        "column": 0
+      },
+      {
+        "text": "na Europa e acordos econômicos entre o",
+        "top": 184.56,
+        "bottom": 195.52,
+        "x0": 77.97,
+        "x1": 283.47,
+        "column": 0
+      },
+      {
+        "text": "Brasil e países africanos.",
+        "top": 197.51,
+        "bottom": 208.47,
+        "x0": 77.97,
+        "x1": 200.28,
+        "column": 0
+      },
+      {
+        "text": "(B) como forma de reparação histórica",
+        "top": 219.43,
+        "bottom": 230.39,
+        "x0": 57.91,
+        "x1": 283.47,
+        "column": 0
+      },
+      {
+        "text": "em função das barbáries coloniais",
+        "top": 232.38,
+        "bottom": 243.34,
+        "x0": 77.97,
+        "x1": 283.47,
+        "column": 0
+      },
+      {
+        "text": "empreendidas aos países africanos, já que",
+        "top": 245.33,
+        "bottom": 256.29,
+        "x0": 77.97,
+        "x1": 283.47,
+        "column": 0
+      },
+      {
+        "text": "os países europeus ofereceram vantagens",
+        "top": 258.28,
+        "bottom": 269.24,
+        "x0": 77.97,
+        "x1": 283.47,
+        "column": 0
+      },
+      {
+        "text": "econômicas às suas ex-colônias, incluindo",
+        "top": 271.23,
+        "bottom": 282.19,
+        "x0": 77.97,
+        "x1": 283.47,
+        "column": 0
+      },
+      {
+        "text": "os países sul-americanos, como o Brasil.",
+        "top": 284.18,
+        "bottom": 295.14,
+        "x0": 77.97,
+        "x1": 277.62,
+        "column": 0
+      },
+      {
+        "text": "(C) pela abertura de mercados feita por",
+        "top": 306.1,
+        "bottom": 317.06,
+        "x0": 57.31,
+        "x1": 283.47,
+        "column": 0
+      },
+      {
+        "text": "França, Alemanha Ocidental, Itália,",
+        "top": 319.05,
+        "bottom": 330.01,
+        "x0": 77.97,
+        "x1": 283.46,
+        "column": 0
+      },
+      {
+        "text": "Bélgica, Países Baixos, Luxemburgo e",
+        "top": 332.0,
+        "bottom": 342.96,
+        "x0": 77.97,
+        "x1": 283.47,
+        "column": 0
+      },
+      {
+        "text": "pelo Brasil, uma vez que o país é carente",
+        "top": 344.96,
+        "bottom": 355.91,
+        "x0": 77.97,
+        "x1": 283.46,
+        "column": 0
+      },
+      {
+        "text": "desses produtos e também colonizou",
+        "top": 357.91,
+        "bottom": 368.87,
+        "x0": 77.97,
+        "x1": 283.47,
+        "column": 0
+      },
+      {
+        "text": "países africanos.",
+        "top": 370.86,
+        "bottom": 381.82,
+        "x0": 77.97,
+        "x1": 160.81,
+        "column": 0
+      },
+      {
+        "text": "(D) por benefícios econômicos oferecidos",
+        "top": 392.78,
+        "bottom": 403.74,
+        "x0": 57.31,
+        "x1": 283.46,
+        "column": 0
+      },
+      {
+        "text": "pelos europeus aos países africanos que",
+        "top": 405.73,
+        "bottom": 416.69,
+        "x0": 77.97,
+        "x1": 283.47,
+        "column": 0
+      },
+      {
+        "text": "experimentaram uma expansão agrícola,",
+        "top": 418.68,
+        "bottom": 429.64,
+        "x0": 77.97,
+        "x1": 283.46,
+        "column": 0
+      },
+      {
+        "text": "condicionados a se manterem como",
+        "top": 431.63,
+        "bottom": 442.59,
+        "x0": 77.97,
+        "x1": 283.46,
+        "column": 0
+      },
+      {
+        "text": "colônias, o que favoreceu os produtos",
+        "top": 444.58,
+        "bottom": 455.54,
+        "x0": 77.97,
+        "x1": 283.46,
+        "column": 0
+      },
+      {
+        "text": "brasileiros no mercado europeu.",
+        "top": 457.53,
+        "bottom": 468.49,
+        "x0": 77.97,
+        "x1": 235.0,
+        "column": 0
+      },
+      {
+        "text": "(E) pelo processo de independências de",
+        "top": 479.45,
+        "bottom": 490.41,
+        "x0": 57.91,
+        "x1": 283.46,
+        "column": 0
+      },
+      {
+        "text": "colônias africanas, que contou com o",
+        "top": 492.4,
+        "bottom": 503.36,
+        "x0": 77.97,
+        "x1": 283.46,
+        "column": 0
+      },
+      {
+        "text": "apoio econômico brasileiro, gerando",
+        "top": 505.35,
+        "bottom": 516.31,
+        "x0": 77.97,
+        "x1": 283.47,
+        "column": 0
+      },
+      {
+        "text": "reclamações do Brasil quando esses",
+        "top": 518.31,
+        "bottom": 529.26,
+        "x0": 77.97,
+        "x1": 283.46,
+        "column": 0
+      },
+      {
+        "text": "países priorizaram estabelecer relações",
+        "top": 531.26,
+        "bottom": 542.22,
+        "x0": 77.97,
+        "x1": 283.46,
+        "column": 0
+      },
+      {
+        "text": "comerciais com os ex-colonizadores",
+        "top": 544.21,
+        "bottom": 555.17,
+        "x0": 77.97,
+        "x1": 283.46,
+        "column": 0
+      },
+      {
+        "text": "europeus.",
+        "top": 557.16,
+        "bottom": 568.12,
+        "x0": 77.97,
+        "x1": 126.54,
+        "column": 0
+      },
+      {
+        "text": "QUESTÃO 19.",
+        "top": 75.81,
+        "bottom": 86.77,
+        "x0": 311.81,
+        "x1": 386.86,
+        "column": 1
+      },
+      {
+        "text": "Leia os Textos 1 e 2, que foram publicados,",
+        "top": 90.99,
+        "bottom": 101.95,
+        "x0": 311.81,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "respectivamente, no jornal El Pais e no jornal",
+        "top": 103.94,
+        "bottom": 114.9,
+        "x0": 311.81,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "CNN Brasil em 2025.",
+        "top": 116.89,
+        "bottom": 127.85,
+        "x0": 311.81,
+        "x1": 414.62,
+        "column": 1
+      },
+      {
+        "text": "Texto 1",
+        "top": 148.06,
+        "bottom": 159.02,
+        "x0": 407.95,
+        "x1": 445.49,
+        "column": 1
+      },
+      {
+        "text": "Entre a “violação” do estatuto e os",
+        "top": 161.01,
+        "bottom": 171.97,
+        "x0": 334.15,
+        "x1": 516.24,
+        "column": 1
+      },
+      {
+        "text": "antecedentes políticos: águas divididas no",
+        "top": 173.96,
+        "bottom": 184.92,
+        "x0": 313.08,
+        "x1": 537.31,
+        "column": 1
+      },
+      {
+        "text": "Nacional pelos desaparecidos",
+        "top": 186.92,
+        "bottom": 197.87,
+        "x0": 346.63,
+        "x1": 503.77,
+        "column": 1
+      },
+      {
+        "text": "Os jogadores do elenco principal assumiram o",
+        "top": 362.12,
+        "bottom": 373.07,
+        "x0": 311.81,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "comando no domingo e, na entrada da partida",
+        "top": 375.07,
+        "bottom": 386.03,
+        "x0": 311.81,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "contra o Defensor Sporting, apareceram",
+        "top": 388.02,
+        "bottom": 398.98,
+        "x0": 311.81,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "vestindo uma camisa com a inscrição “Somos",
+        "top": 400.97,
+        "bottom": 411.93,
+        "x0": 311.81,
+        "x1": 538.59,
+        "column": 1
+      },
+      {
+        "text": "todos família” no peito, em referência à causa",
+        "top": 413.92,
+        "bottom": 424.88,
+        "x0": 311.81,
+        "x1": 538.59,
+        "column": 1
+      },
+      {
+        "text": "que apóia os detidos e desaparecidos durante",
+        "top": 426.87,
+        "bottom": 437.83,
+        "x0": 311.81,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "a ditadura uruguaia.",
+        "top": 439.82,
+        "bottom": 450.78,
+        "x0": 311.81,
+        "x1": 409.33,
+        "column": 1
+      },
+      {
+        "text": "Disponível em: https://www.elpais.com.uy/",
+        "top": 465.79,
+        "bottom": 473.76,
+        "x0": 389.59,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "ovacion/futbol/entre-la",
+        "top": 475.25,
+        "bottom": 483.22,
+        "x0": 460.49,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "-violacion-de-estatuto-y-los-antecedentes-politicos-aguas-",
+        "top": 484.72,
+        "bottom": 492.69,
+        "x0": 333.95,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "divididas-en-nacional-por-los-desaparecidos. Acesso em: 23",
+        "top": 494.18,
+        "bottom": 502.15,
+        "x0": 324.16,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "jun. 2025 (tradução livre).",
+        "top": 503.65,
+        "bottom": 511.62,
+        "x0": 447.77,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "Texto 2",
+        "top": 531.43,
+        "bottom": 542.39,
+        "x0": 406.42,
+        "x1": 443.97,
+        "column": 1
+      },
+      {
+        "text": "Clubes da Argentina recordam aniversário",
+        "top": 544.38,
+        "bottom": 555.34,
+        "x0": 314.88,
+        "x1": 535.51,
+        "column": 1
+      },
+      {
+        "text": "de golpe militar: “Nunca mais”",
+        "top": 557.33,
+        "bottom": 568.29,
+        "x0": 344.75,
+        "x1": 505.64,
+        "column": 1
+      },
+      {
+        "text": "Golpe militar completa 45 anos na Argentina e",
+        "top": 587.38,
+        "bottom": 598.34,
+        "x0": 312.51,
+        "x1": 537.88,
+        "column": 1
+      },
+      {
+        "text": "clubes se manifestam contra ditadura",
+        "top": 600.33,
+        "bottom": 611.29,
+        "x0": 334.41,
+        "x1": 515.98,
+        "column": 1
+      },
+      {
+        "text": "Em 24 de março é celebrado o Dia da",
+        "top": 630.42,
+        "bottom": 641.38,
+        "x0": 311.81,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "Memória Pela Verdade e Justiça na Argentina,",
+        "top": 643.37,
+        "bottom": 654.33,
+        "x0": 311.81,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "com diversas manifestações em memória às",
+        "top": 656.32,
+        "bottom": 667.28,
+        "x0": 311.81,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "cerca de 30 mil vítimas do regime. Como",
+        "top": 669.27,
+        "bottom": 680.23,
+        "x0": 311.81,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "fazem costumeiramente na data, os principais",
+        "top": 682.22,
+        "bottom": 693.18,
+        "x0": 311.81,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "clubes de futebol argentinos se uniram em",
+        "top": 695.18,
+        "bottom": 706.13,
+        "x0": 311.81,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "manifestações nas redes sociais para lembrar",
+        "top": 708.13,
+        "bottom": 719.09,
+        "x0": 311.81,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "— e condenar — o golpe. Em todas, as",
+        "top": 721.08,
+        "bottom": 732.04,
+        "x0": 311.81,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "equipes usam a expressão “Nunca Mais”.",
+        "top": 734.03,
+        "bottom": 744.99,
+        "x0": 311.81,
+        "x1": 513.68,
+        "column": 1
+      },
+      {
+        "text": "Disponível em: https://www.cnnbrasil.com.br /esportes/futebol/",
+        "top": 760.0,
+        "bottom": 767.97,
+        "x0": 318.36,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "futebol-internacional/clubes-da-argentina-recordam-aniversario",
+        "top": 769.46,
+        "bottom": 777.43,
+        "x0": 316.11,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "-de-golpe-militar-nunca-mais/. Acesso em: 23 jun. 2025.",
+        "top": 778.92,
+        "bottom": 786.89,
+        "x0": 339.09,
+        "x1": 538.58,
+        "column": 1
+      }
+    ],
+    "images": [
+      {
+        "x0": 334.49,
+        "x1": 515.91,
+        "top": 215.94,
+        "bottom": 340.65
+      }
+    ],
+    "rects": [
+      {
+        "x0": 311.81,
+        "x1": 538.58,
+        "top": 63.4,
+        "bottom": 67.65
+      }
+    ],
+    "curves": []
+  },
+  {
+    "page": 12,
+    "width": 595.276,
+    "height": 841.89,
+    "lines": [
+      {
+        "text": "Do ponto de vista histórico, as manifestações",
+        "top": 65,
+        "bottom": 69.99,
+        "x0": 56.69,
+        "x1": 283.46,
+        "column": 0
+      },
+      {
+        "text": "realizadas pelo time uruguaio, Nacional, e",
+        "top": 71.98,
+        "bottom": 82.94,
+        "x0": 56.69,
+        "x1": 283.47,
+        "column": 0
+      },
+      {
+        "text": "pelos clubes argentinos neste ano de 2025",
+        "top": 84.93,
+        "bottom": 95.89,
+        "x0": 56.69,
+        "x1": 283.47,
+        "column": 0
+      },
+      {
+        "text": "indicam",
+        "top": 97.88,
+        "bottom": 108.84,
+        "x0": 56.69,
+        "x1": 94.45,
+        "column": 0
+      },
+      {
+        "text": "(A) a aproximação dos clubes às pautas",
+        "top": 119.8,
+        "bottom": 130.76,
+        "x0": 57.91,
+        "x1": 283.46,
+        "column": 0
+      },
+      {
+        "text": "dos movimentos políticos de países da",
+        "top": 132.75,
+        "bottom": 143.71,
+        "x0": 77.97,
+        "x1": 283.46,
+        "column": 0
+      },
+      {
+        "text": "América Latina que lutam pela memória",
+        "top": 145.7,
+        "bottom": 156.66,
+        "x0": 77.97,
+        "x1": 283.46,
+        "column": 0
+      },
+      {
+        "text": "dos perseguidos políticos e buscam",
+        "top": 158.65,
+        "bottom": 169.61,
+        "x0": 77.97,
+        "x1": 283.47,
+        "column": 0
+      },
+      {
+        "text": "respostas aos mortos e desaparecidos",
+        "top": 171.61,
+        "bottom": 182.56,
+        "x0": 77.97,
+        "x1": 283.46,
+        "column": 0
+      },
+      {
+        "text": "pelas ditaduras sul-americanas do século",
+        "top": 184.56,
+        "bottom": 195.52,
+        "x0": 77.97,
+        "x1": 283.46,
+        "column": 0
+      },
+      {
+        "text": "XX.",
+        "top": 197.51,
+        "bottom": 208.47,
+        "x0": 77.97,
+        "x1": 95.64,
+        "column": 0
+      },
+      {
+        "text": "(B) a recusa dos clubes de futebol do Uruguai",
+        "top": 219.43,
+        "bottom": 230.39,
+        "x0": 57.91,
+        "x1": 283.47,
+        "column": 0
+      },
+      {
+        "text": "e da Argentina em superar as reparações",
+        "top": 232.38,
+        "bottom": 243.34,
+        "x0": 77.97,
+        "x1": 283.46,
+        "column": 0
+      },
+      {
+        "text": "históricas realizadas durante o contexto de",
+        "top": 245.33,
+        "bottom": 256.29,
+        "x0": 77.97,
+        "x1": 283.46,
+        "column": 0
+      },
+      {
+        "text": "abertura política pelos governos militares",
+        "top": 258.28,
+        "bottom": 269.24,
+        "x0": 77.97,
+        "x1": 283.46,
+        "column": 0
+      },
+      {
+        "text": "sul-americanos, que reconheceram as",
+        "top": 271.23,
+        "bottom": 282.19,
+        "x0": 77.97,
+        "x1": 283.46,
+        "column": 0
+      },
+      {
+        "text": "violações cometidas.",
+        "top": 284.18,
+        "bottom": 295.14,
+        "x0": 77.97,
+        "x1": 179.52,
+        "column": 0
+      },
+      {
+        "text": "(C) a solidariedade do Nacional, clube",
+        "top": 306.1,
+        "bottom": 317.06,
+        "x0": 57.31,
+        "x1": 283.47,
+        "column": 0
+      },
+      {
+        "text": "uruguaio, aos países da América Latina",
+        "top": 319.05,
+        "bottom": 330.01,
+        "x0": 77.97,
+        "x1": 283.46,
+        "column": 0
+      },
+      {
+        "text": "que foram submetidos à repressão de",
+        "top": 332.0,
+        "bottom": 342.96,
+        "x0": 77.97,
+        "x1": 283.46,
+        "column": 0
+      },
+      {
+        "text": "regimes militares, pois o Uruguai foi o",
+        "top": 344.96,
+        "bottom": 355.91,
+        "x0": 77.97,
+        "x1": 283.46,
+        "column": 0
+      },
+      {
+        "text": "único país democrático durante a vigência",
+        "top": 357.91,
+        "bottom": 368.87,
+        "x0": 77.97,
+        "x1": 283.46,
+        "column": 0
+      },
+      {
+        "text": "das ditaduras do Cone Sul no século XX.",
+        "top": 370.86,
+        "bottom": 381.82,
+        "x0": 77.97,
+        "x1": 277.66,
+        "column": 0
+      },
+      {
+        "text": "(D) uma rivalidade esportiva entre os clubes",
+        "top": 392.78,
+        "bottom": 403.73,
+        "x0": 57.31,
+        "x1": 283.47,
+        "column": 0
+      },
+      {
+        "text": "da Argentina e do Uruguai, que se",
+        "top": 405.73,
+        "bottom": 416.69,
+        "x0": 77.97,
+        "x1": 283.46,
+        "column": 0
+      },
+      {
+        "text": "relaciona com suas disputas pelo domínio",
+        "top": 418.68,
+        "bottom": 429.64,
+        "x0": 77.97,
+        "x1": 283.46,
+        "column": 0
+      },
+      {
+        "text": "militar, político e econômico na América",
+        "top": 431.63,
+        "bottom": 442.59,
+        "x0": 77.97,
+        "x1": 283.47,
+        "column": 0
+      },
+      {
+        "text": "Latina desde o contexto de abertura",
+        "top": 444.58,
+        "bottom": 455.54,
+        "x0": 77.97,
+        "x1": 283.46,
+        "column": 0
+      },
+      {
+        "text": "política e de transição democrática.",
+        "top": 457.53,
+        "bottom": 468.49,
+        "x0": 77.97,
+        "x1": 250.23,
+        "column": 0
+      },
+      {
+        "text": "(E) uma tradição dos clubes de futebol",
+        "top": 479.45,
+        "bottom": 490.41,
+        "x0": 57.91,
+        "x1": 283.47,
+        "column": 0
+      },
+      {
+        "text": "da América Latina mantida desde a",
+        "top": 492.4,
+        "bottom": 503.36,
+        "x0": 77.97,
+        "x1": 283.46,
+        "column": 0
+      },
+      {
+        "text": "criação da Operação Condor, quando os",
+        "top": 505.35,
+        "bottom": 516.31,
+        "x0": 77.97,
+        "x1": 283.47,
+        "column": 0
+      },
+      {
+        "text": "governos militares garantiram a liberdade",
+        "top": 518.31,
+        "bottom": 529.26,
+        "x0": 77.97,
+        "x1": 283.46,
+        "column": 0
+      },
+      {
+        "text": "de expressão política aos times de futebol",
+        "top": 531.26,
+        "bottom": 542.22,
+        "x0": 77.97,
+        "x1": 283.46,
+        "column": 0
+      },
+      {
+        "text": "latino-americanos.",
+        "top": 544.21,
+        "bottom": 555.17,
+        "x0": 77.97,
+        "x1": 167.5,
+        "column": 0
+      },
+      {
+        "text": "QUESTÃO 20.",
+        "top": 74.77,
+        "bottom": 85.73,
+        "x0": 311.81,
+        "x1": 386.86,
+        "column": 1
+      },
+      {
+        "text": "Texto 1",
+        "top": 88.96,
+        "bottom": 99.92,
+        "x0": 406.42,
+        "x1": 443.97,
+        "column": 1
+      },
+      {
+        "text": "De Lá Pra Cá",
+        "top": 101.91,
+        "bottom": 112.87,
+        "x0": 391.39,
+        "x1": 459.0,
+        "column": 1
+      },
+      {
+        "text": "O mal veio de caravela com",
+        "top": 126.77,
+        "bottom": 137.73,
+        "x0": 311.81,
+        "x1": 446.75,
+        "column": 1
+      },
+      {
+        "text": "sobrenome Cabral diretamente",
+        "top": 139.72,
+        "bottom": 150.68,
+        "x0": 311.81,
+        "x1": 462.75,
+        "column": 1
+      },
+      {
+        "text": "da Europa, vulgo: Portugal",
+        "top": 152.68,
+        "bottom": 163.64,
+        "x0": 311.81,
+        "x1": 442.18,
+        "column": 1
+      },
+      {
+        "text": "Trazendo armas e fardas",
+        "top": 178.58,
+        "bottom": 189.54,
+        "x0": 311.81,
+        "x1": 432.59,
+        "column": 1
+      },
+      {
+        "text": "convertendo e matando, isso",
+        "top": 191.53,
+        "bottom": 202.49,
+        "x0": 311.81,
+        "x1": 452.03,
+        "column": 1
+      },
+      {
+        "text": "vem acontecendo há mais de",
+        "top": 204.48,
+        "bottom": 215.44,
+        "x0": 311.81,
+        "x1": 454.68,
+        "column": 1
+      },
+      {
+        "text": "500 anos",
+        "top": 217.43,
+        "bottom": 228.39,
+        "x0": 311.81,
+        "x1": 356.9,
+        "column": 1
+      },
+      {
+        "text": "Escravizando nosso povo, toda",
+        "top": 243.34,
+        "bottom": 254.3,
+        "x0": 311.81,
+        "x1": 462.89,
+        "column": 1
+      },
+      {
+        "text": "uma nação; prefeito burguês",
+        "top": 256.29,
+        "bottom": 267.25,
+        "x0": 311.81,
+        "x1": 450.76,
+        "column": 1
+      },
+      {
+        "text": "querendo trocar merenda",
+        "top": 269.24,
+        "bottom": 280.2,
+        "x0": 311.81,
+        "x1": 435.46,
+        "column": 1
+      },
+      {
+        "text": "por ração",
+        "top": 282.19,
+        "bottom": 293.15,
+        "x0": 311.81,
+        "x1": 357.99,
+        "column": 1
+      },
+      {
+        "text": "E a mesma arma que mata é a",
+        "top": 308.09,
+        "bottom": 319.05,
+        "x0": 311.81,
+        "x1": 462.53,
+        "column": 1
+      },
+      {
+        "text": "mesma que converte, a mídia",
+        "top": 321.04,
+        "bottom": 332.0,
+        "x0": 311.81,
+        "x1": 455.94,
+        "column": 1
+      },
+      {
+        "text": "manipula pra vocês “jogarem”",
+        "top": 334.0,
+        "bottom": 344.96,
+        "x0": 311.81,
+        "x1": 456.37,
+        "column": 1
+      },
+      {
+        "text": "confete.",
+        "top": 346.95,
+        "bottom": 357.91,
+        "x0": 311.81,
+        "x1": 350.31,
+        "column": 1
+      },
+      {
+        "text": "Então confere, o caráter nos",
+        "top": 372.85,
+        "bottom": 383.81,
+        "x0": 311.81,
+        "x1": 449.6,
+        "column": 1
+      },
+      {
+        "text": "caracteres, somos erro 404 no",
+        "top": 385.8,
+        "bottom": 396.76,
+        "x0": 311.81,
+        "x1": 460.15,
+        "column": 1
+      },
+      {
+        "text": "programa desses vermes",
+        "top": 398.75,
+        "bottom": 409.71,
+        "x0": 311.81,
+        "x1": 435.22,
+        "column": 1
+      },
+      {
+        "text": "Fonte: Slam da Guilhermina. Slam Interescolar: das ruas para",
+        "top": 419.54,
+        "bottom": 427.54,
+        "x0": 313.27,
+        "x1": 538.59,
+        "column": 1
+      },
+      {
+        "text": "as escolas das escolas para as ruas. São Paulo: Literarua,",
+        "top": 429.0,
+        "bottom": 436.97,
+        "x0": 330.13,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "2021, p.147.",
+        "top": 438.47,
+        "bottom": 446.44,
+        "x0": 494.55,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "Texto 2",
+        "top": 461.06,
+        "bottom": 472.02,
+        "x0": 406.42,
+        "x1": 443.97,
+        "column": 1
+      },
+      {
+        "text": "No Brasil, o Slam chegou em 2008 [e]",
+        "top": 485.93,
+        "bottom": 496.89,
+        "x0": 328.75,
+        "x1": 538.59,
+        "column": 1
+      },
+      {
+        "text": "o movimento se espalhou pelo Brasil. (...)",
+        "top": 498.88,
+        "bottom": 509.84,
+        "x0": 311.81,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "Essa ferramenta que é o Slam, além de",
+        "top": 511.83,
+        "bottom": 522.79,
+        "x0": 311.81,
+        "x1": 538.59,
+        "column": 1
+      },
+      {
+        "text": "ser uma impulsionadora de empoderamento",
+        "top": 524.78,
+        "bottom": 535.74,
+        "x0": 311.81,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "individual, de superação de barreiras como",
+        "top": 537.73,
+        "bottom": 548.69,
+        "x0": 311.81,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "a timidez ou mesmo a falta de espaço para",
+        "top": 550.68,
+        "bottom": 561.64,
+        "x0": 311.81,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "expor sua poesia, é também uma ferramenta",
+        "top": 563.64,
+        "bottom": 574.59,
+        "x0": 311.81,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "de organização política coletiva. O movimento",
+        "top": 576.59,
+        "bottom": 587.55,
+        "x0": 311.81,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "é hoje um forte aliado das causas sociais, um",
+        "top": 589.54,
+        "bottom": 600.5,
+        "x0": 311.81,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "grande propulsor de visibilidade para as pautas",
+        "top": 602.49,
+        "bottom": 613.45,
+        "x0": 311.81,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "negras, indígenas, LGBTQI+, feministas,",
+        "top": 615.44,
+        "bottom": 626.4,
+        "x0": 311.81,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "pessoas com deficiência, anticapitalista,",
+        "top": 628.39,
+        "bottom": 639.35,
+        "x0": 311.81,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "ambiental, etc.",
+        "top": 641.34,
+        "bottom": 652.3,
+        "x0": 311.81,
+        "x1": 383.08,
+        "column": 1
+      },
+      {
+        "text": "Disponível em: https://jornal.usp.br/ciencias/ ciencias",
+        "top": 665.12,
+        "bottom": 673.09,
+        "x0": 351.42,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "-humanas/slam-e-voz-de-identidade-e-resistencia-dos-poetas",
+        "top": 674.58,
+        "bottom": 682.55,
+        "x0": 321.31,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "-contemporaneos/. Acesso em: 17 jun. 2025 (adaptado).",
+        "top": 684.04,
+        "bottom": 692.01,
+        "x0": 337.73,
+        "x1": 538.59,
+        "column": 1
+      }
+    ],
+    "images": [],
+    "rects": [
+      {
+        "x0": 311.81,
+        "x1": 538.58,
+        "top": 63.4,
+        "bottom": 67.65
+      }
+    ],
+    "curves": []
+  },
+  {
+    "page": 13,
+    "width": 595.276,
+    "height": 841.89,
+    "lines": [
+      {
+        "text": "O Texto 1 é um slam poesia de Jow Nogueira,",
+        "top": 65,
+        "bottom": 69.99,
+        "x0": 56.69,
+        "x1": 283.47,
+        "column": 0
+      },
+      {
+        "text": "estudante de 17 anos, enquanto o Texto 2",
+        "top": 71.98,
+        "bottom": 82.94,
+        "x0": 56.69,
+        "x1": 283.47,
+        "column": 0
+      },
+      {
+        "text": "contextualiza o movimento do Slam.",
+        "top": 84.93,
+        "bottom": 95.89,
+        "x0": 56.69,
+        "x1": 232.22,
+        "column": 0
+      },
+      {
+        "text": "Reconhecido como um fenômeno cultural",
+        "top": 110.83,
+        "bottom": 121.79,
+        "x0": 56.69,
+        "x1": 283.46,
+        "column": 0
+      },
+      {
+        "text": "da juventude contemporânea, o slam poesia",
+        "top": 123.78,
+        "bottom": 134.74,
+        "x0": 56.69,
+        "x1": 283.46,
+        "column": 0
+      },
+      {
+        "text": "caracteriza-se por ser",
+        "top": 136.74,
+        "bottom": 147.7,
+        "x0": 56.69,
+        "x1": 162.71,
+        "column": 0
+      },
+      {
+        "text": "(A) uma estratégia de denúncia desatualizada,",
+        "top": 158.53,
+        "bottom": 169.49,
+        "x0": 57.91,
+        "x1": 283.91,
+        "column": 0
+      },
+      {
+        "text": "pois o poder militar, simbolizado pelas",
+        "top": 171.48,
+        "bottom": 182.44,
+        "x0": 77.97,
+        "x1": 283.46,
+        "column": 0
+      },
+      {
+        "text": "armas e fardas, foi destituído no Brasil",
+        "top": 184.43,
+        "bottom": 195.39,
+        "x0": 77.97,
+        "x1": 283.46,
+        "column": 0
+      },
+      {
+        "text": "desde meados da década de 1980, com a",
+        "top": 197.38,
+        "bottom": 208.34,
+        "x0": 77.97,
+        "x1": 283.47,
+        "column": 0
+      },
+      {
+        "text": "redemocratização do país.",
+        "top": 210.33,
+        "bottom": 221.29,
+        "x0": 77.97,
+        "x1": 206.83,
+        "column": 0
+      },
+      {
+        "text": "(B) ilustrativa da criatividade da juventude",
+        "top": 232.2,
+        "bottom": 243.16,
+        "x0": 57.91,
+        "x1": 283.47,
+        "column": 0
+      },
+      {
+        "text": "contemporânea, que faz usos inadequados",
+        "top": 245.15,
+        "bottom": 256.11,
+        "x0": 77.97,
+        "x1": 285.06,
+        "column": 0
+      },
+      {
+        "text": "do passado com a finalidade de elaborar",
+        "top": 258.1,
+        "bottom": 269.06,
+        "x0": 77.97,
+        "x1": 283.46,
+        "column": 0
+      },
+      {
+        "text": "poesias comprometidas apenas com a",
+        "top": 271.05,
+        "bottom": 282.01,
+        "x0": 77.97,
+        "x1": 283.46,
+        "column": 0
+      },
+      {
+        "text": "adequação entre mensagem e rima.",
+        "top": 284.0,
+        "bottom": 294.96,
+        "x0": 77.97,
+        "x1": 254.17,
+        "column": 0
+      },
+      {
+        "text": "(C) incentivadora do individualismo entre",
+        "top": 305.87,
+        "bottom": 316.83,
+        "x0": 57.31,
+        "x1": 283.47,
+        "column": 0
+      },
+      {
+        "text": "a juventude contemporânea, pois trata",
+        "top": 318.82,
+        "bottom": 329.78,
+        "x0": 77.97,
+        "x1": 283.46,
+        "column": 0
+      },
+      {
+        "text": "de temáticas que se relacionam aos",
+        "top": 331.77,
+        "bottom": 342.73,
+        "x0": 77.97,
+        "x1": 283.46,
+        "column": 0
+      },
+      {
+        "text": "interesses de grupos específicos, como",
+        "top": 344.73,
+        "bottom": 355.68,
+        "x0": 77.97,
+        "x1": 283.46,
+        "column": 0
+      },
+      {
+        "text": "a juventude negra, indígena e LGBTQI+.",
+        "top": 357.68,
+        "bottom": 368.64,
+        "x0": 77.97,
+        "x1": 275.16,
+        "column": 0
+      },
+      {
+        "text": "(D) reveladora do protagonismo e organização",
+        "top": 379.54,
+        "bottom": 390.5,
+        "x0": 57.31,
+        "x1": 283.46,
+        "column": 0
+      },
+      {
+        "text": "da juventude das periferias urbanas,",
+        "top": 392.5,
+        "bottom": 403.45,
+        "x0": 77.97,
+        "x1": 283.46,
+        "column": 0
+      },
+      {
+        "text": "que se utiliza de temas históricos para",
+        "top": 405.45,
+        "bottom": 416.41,
+        "x0": 77.97,
+        "x1": 283.47,
+        "column": 0
+      },
+      {
+        "text": "denunciar as discriminações vividas pelos",
+        "top": 418.4,
+        "bottom": 429.36,
+        "x0": 77.97,
+        "x1": 283.47,
+        "column": 0
+      },
+      {
+        "text": "jovens no presente.",
+        "top": 431.35,
+        "bottom": 442.31,
+        "x0": 77.97,
+        "x1": 173.01,
+        "column": 0
+      },
+      {
+        "text": "(E) uma manifestação cultural desligada das",
+        "top": 453.22,
+        "bottom": 464.18,
+        "x0": 57.91,
+        "x1": 283.46,
+        "column": 0
+      },
+      {
+        "text": "pautas da juventude contemporânea, pois",
+        "top": 466.17,
+        "bottom": 477.13,
+        "x0": 77.97,
+        "x1": 283.46,
+        "column": 0
+      },
+      {
+        "text": "suas críticas são dirigidas às experiências",
+        "top": 479.12,
+        "bottom": 490.08,
+        "x0": 77.97,
+        "x1": 283.47,
+        "column": 0
+      },
+      {
+        "text": "históricas de violência do Estado e de",
+        "top": 492.07,
+        "bottom": 503.03,
+        "x0": 77.97,
+        "x1": 283.46,
+        "column": 0
+      },
+      {
+        "text": "segregação social do século XVI.",
+        "top": 505.02,
+        "bottom": 515.98,
+        "x0": 77.97,
+        "x1": 239.89,
+        "column": 0
+      },
+      {
+        "text": "Geografia - Discursivas",
+        "top": 543.44,
+        "bottom": 554.4,
+        "x0": 109.06,
+        "x1": 231.1,
+        "column": 0
+      },
+      {
+        "text": "QUESTÃO 1.",
+        "top": 568.74,
+        "bottom": 579.7,
+        "x0": 56.69,
+        "x1": 125.65,
+        "column": 0
+      },
+      {
+        "text": "Observe a charge abaixo.",
+        "top": 582.88,
+        "bottom": 593.84,
+        "x0": 56.69,
+        "x1": 181.79,
+        "column": 0
+      },
+      {
+        "text": "Disponível em:https://l1nq.com/mt1u3 Acesso em: 22 jun. 2025.",
+        "top": 65,
+        "bottom": 69.35,
+        "x0": 312.25,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "Em períodos de crise, os jovens têm mais",
+        "top": 83.93,
+        "bottom": 94.89,
+        "x0": 311.81,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "chances de perder o emprego do que os",
+        "top": 96.89,
+        "bottom": 107.84,
+        "x0": 311.81,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "adultos e mais dificuldades para encontrar uma",
+        "top": 109.84,
+        "bottom": 120.8,
+        "x0": 311.81,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "nova vaga. Por isso, muitos se submetem",
+        "top": 122.79,
+        "bottom": 133.75,
+        "x0": 311.81,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "a condições de trabalho precarizadas. A",
+        "top": 135.74,
+        "bottom": 146.7,
+        "x0": 311.81,
+        "x1": 538.59,
+        "column": 1
+      },
+      {
+        "text": "“uberização” do trabalho é exemplo disso, e",
+        "top": 148.69,
+        "bottom": 159.65,
+        "x0": 311.81,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "vai além dos serviços de transporte: ela se",
+        "top": 161.64,
+        "bottom": 172.6,
+        "x0": 311.81,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "estende aos serviços de entrega, faxina e",
+        "top": 174.59,
+        "bottom": 185.55,
+        "x0": 311.81,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "muitos outros serviços.",
+        "top": 187.55,
+        "bottom": 198.5,
+        "x0": 311.81,
+        "x1": 423.92,
+        "column": 1
+      },
+      {
+        "text": "Disponível em: https://encurtador.com.br/R4JuT. Acesso em: 15",
+        "top": 211.32,
+        "bottom": 219.29,
+        "x0": 312.58,
+        "x1": 538.59,
+        "column": 1
+      },
+      {
+        "text": "jun. 2025.",
+        "top": 220.78,
+        "bottom": 228.75,
+        "x0": 503.05,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "A imagem e a citação retratam a realidade",
+        "top": 243.34,
+        "bottom": 254.3,
+        "x0": 311.81,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "enfrentada pelos trabalhadores de aplicativos.",
+        "top": 256.29,
+        "bottom": 267.25,
+        "x0": 311.81,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "Em 2020, esses trabalhadores organizaram",
+        "top": 269.24,
+        "bottom": 280.2,
+        "x0": 311.81,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "um movimento nacional chamado “Breque",
+        "top": 282.19,
+        "bottom": 293.15,
+        "x0": 311.81,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "dos App” como forma de luta, por meio do",
+        "top": 295.14,
+        "bottom": 306.1,
+        "x0": 311.81,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "qual denunciaram as dificuldades enfrentadas",
+        "top": 308.09,
+        "bottom": 319.05,
+        "x0": 311.81,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "no exercício da atividade e reivindicaram",
+        "top": 321.05,
+        "bottom": 332.0,
+        "x0": 311.81,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "melhores condições de trabalho. Essa",
+        "top": 334.0,
+        "bottom": 344.96,
+        "x0": 311.81,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "mobilização reacendeu debates sobre os",
+        "top": 346.95,
+        "bottom": 357.91,
+        "x0": 311.81,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "impactos da globalização nas dinâmicas",
+        "top": 359.9,
+        "bottom": 370.86,
+        "x0": 311.81,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "do mundo do trabalho, cada vez mais",
+        "top": 372.85,
+        "bottom": 383.81,
+        "x0": 311.81,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "influenciadas pelo avanço tecnológico e pela",
+        "top": 385.8,
+        "bottom": 396.76,
+        "x0": 311.81,
+        "x1": 538.59,
+        "column": 1
+      },
+      {
+        "text": "flexibilização dos vínculos empregatícios.",
+        "top": 398.75,
+        "bottom": 409.71,
+        "x0": 311.81,
+        "x1": 512.3,
+        "column": 1
+      },
+      {
+        "text": "Considerando as transformações no mundo",
+        "top": 424.66,
+        "bottom": 435.62,
+        "x0": 311.81,
+        "x1": 538.59,
+        "column": 1
+      },
+      {
+        "text": "do trabalho, associadas ao desenvolvimento",
+        "top": 437.61,
+        "bottom": 448.57,
+        "x0": 311.81,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "do capitalismo globalizado:",
+        "top": 450.56,
+        "bottom": 461.52,
+        "x0": 311.81,
+        "x1": 443.37,
+        "column": 1
+      },
+      {
+        "text": "(A) Cite duas qualidades ou habilidades",
+        "top": 475.47,
+        "bottom": 486.42,
+        "x0": 313.03,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "exigidas dos trabalhadores na atualidade,",
+        "top": 488.42,
+        "bottom": 499.38,
+        "x0": 333.09,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "associadas ao desenvolvimento do",
+        "top": 501.37,
+        "bottom": 512.33,
+        "x0": 333.09,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "capitalismo globalizado.",
+        "top": 514.32,
+        "bottom": 525.28,
+        "x0": 333.09,
+        "x1": 448.98,
+        "column": 1
+      },
+      {
+        "text": "(B) Cite e explique como a lógica da",
+        "top": 536.24,
+        "bottom": 547.2,
+        "x0": 313.03,
+        "x1": 538.59,
+        "column": 1
+      },
+      {
+        "text": "uberização afeta a qualidade de vida e as",
+        "top": 549.19,
+        "bottom": 560.15,
+        "x0": 333.09,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "condições de trabalho dos trabalhadores",
+        "top": 562.14,
+        "bottom": 573.1,
+        "x0": 333.09,
+        "x1": 538.58,
+        "column": 1
+      },
+      {
+        "text": "das periferias.",
+        "top": 575.09,
+        "bottom": 586.05,
+        "x0": 333.09,
+        "x1": 401.75,
+        "column": 1
+      }
+    ],
+    "images": [
+      {
+        "x0": 79.37,
+        "x1": 260.78,
+        "top": 603.78,
+        "bottom": 785.2
+      }
+    ],
+    "rects": [],
+    "curves": []
+  }
+]

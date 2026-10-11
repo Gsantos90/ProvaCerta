@@ -1,0 +1,5316 @@
+[
+  {
+    "page": 3,
+    "width": 595,
+    "height": 842,
+    "lines": [
+      {
+        "text": "QUESTÕES OBJETIVAS",
+        "top": 72.64,
+        "bottom": 86.68,
+        "x0": 207.72,
+        "x1": 387.53,
+        "column": 0
+      },
+      {
+        "text": "LÍNGUA PORTUGUESA",
+        "top": 93.94,
+        "bottom": 105.94,
+        "x0": 241.56,
+        "x1": 352.63,
+        "column": 0
+      },
+      {
+        "text": "Objetivas",
+        "top": 108.16,
+        "bottom": 117.16,
+        "x0": 279.84,
+        "x1": 314.08,
+        "column": 0
+      },
+      {
+        "text": "Questões de 01 a 05",
+        "top": 119.81,
+        "bottom": 130.85,
+        "x0": 251.52,
+        "x1": 343.75,
+        "column": 0
+      },
+      {
+        "text": "Leia o trecho do livro Pequeno Manual Antirracista, de Djamila Ribeiro, para responder às questões 1 e 2.",
+        "top": 139.37,
+        "bottom": 150.41,
+        "x0": 33.96,
+        "x1": 504.26,
+        "column": 0
+      },
+      {
+        "text": "TEXTO I",
+        "top": 160.13,
+        "bottom": 171.17,
+        "x0": 279.96,
+        "x1": 315.19,
+        "column": 0
+      },
+      {
+        "text": "LEIA AUTORES NEGROS",
+        "top": 184.37,
+        "bottom": 195.41,
+        "x0": 242.4,
+        "x1": 349.02,
+        "column": 0
+      },
+      {
+        "text": "Mesmo vencendo todos os obstáculos que acompanham a pele não branca e ingressando na pós-graduação,",
+        "top": 205.13,
+        "bottom": 216.17,
+        "x0": 69.36,
+        "x1": 557.64,
+        "column": 0
+      },
+      {
+        "text": "o estudante encontrará outro desafio: epistemicídio, isto é, o apagamento sistemático de produções e saberes",
+        "top": 219.89,
+        "bottom": 230.93,
+        "x0": 33.96,
+        "x1": 557.63,
+        "column": 0
+      },
+      {
+        "text": "produzidos por grupos oprimidos. [...]",
+        "top": 234.65,
+        "bottom": 245.69,
+        "x0": 33.96,
+        "x1": 202.83,
+        "column": 0
+      },
+      {
+        "text": "Os sinais de apagamento da produção negra são evidentes. É raro que as bibliografias dos cursos indiquem",
+        "top": 255.41,
+        "bottom": 266.45,
+        "x0": 69.36,
+        "x1": 557.46,
+        "column": 0
+      },
+      {
+        "text": "mulheres ou pessoas negras; mais raro ainda é que indiquem a produção de mulheres negras, cuja presença no",
+        "top": 270.17,
+        "bottom": 281.21,
+        "x0": 33.96,
+        "x1": 557.45,
+        "column": 0
+      },
+      {
+        "text": "debate universitário e intelectual é extremamente apagada. Durante os quatro anos de minha graduação em",
+        "top": 284.93,
+        "bottom": 295.97,
+        "x0": 33.96,
+        "x1": 557.58,
+        "column": 0
+      },
+      {
+        "text": "filosofia, não me sugeriram a leitura de nenhuma autora branca, que dirá negra. A gravidade disso está",
+        "top": 299.81,
+        "bottom": 310.85,
+        "x0": 33.96,
+        "x1": 557.64,
+        "column": 0
+      },
+      {
+        "text": "exemplificada por Abdias do Nascimento em O genocídio do negro brasileiro, no qual afirma que o genocídio é toda",
+        "top": 314.57,
+        "bottom": 325.61,
+        "x0": 33.96,
+        "x1": 557.64,
+        "column": 0
+      },
+      {
+        "text": "forma de aniquilação de um povo, seja moral, cultural ou epistemológica. [...]",
+        "top": 329.33,
+        "bottom": 340.37,
+        "x0": 33.96,
+        "x1": 379.71,
+        "column": 0
+      },
+      {
+        "text": "Um belo exemplo de feminista negra brasileira é Lélia Gonzalez, atuante nas décadas de 1970 e 1980 e",
+        "top": 350.09,
+        "bottom": 361.13,
+        "x0": 69.36,
+        "x1": 557.61,
+        "column": 0
+      },
+      {
+        "text": "professora do curso de sociologia da Pontifícia Universidade Católica do Rio de Janeiro, que encantou plateias com o",
+        "top": 364.85,
+        "bottom": 375.89,
+        "x0": 33.96,
+        "x1": 557.45,
+        "column": 0
+      },
+      {
+        "text": "poder transformador de suas palavras. As propostas de Lélia para pensar a “amefricanidade”, propondo um",
+        "top": 379.61,
+        "bottom": 390.65,
+        "x0": 33.96,
+        "x1": 557.46,
+        "column": 0
+      },
+      {
+        "text": "feminismo afro-latino-americano, se perpetuam até hoje ao se propor uma luta transnacional.",
+        "top": 394.37,
+        "bottom": 405.41,
+        "x0": 33.96,
+        "x1": 455.3,
+        "column": 0
+      },
+      {
+        "text": "O apagamento da produção e dos saberes negros e anticoloniais contribui significativamente para a pobreza",
+        "top": 415.13,
+        "bottom": 426.17,
+        "x0": 69.36,
+        "x1": 557.52,
+        "column": 0
+      },
+      {
+        "text": "do debate público, seja na academia, na mídia ou em palanques políticos. Se somos a maioria da população, nossas",
+        "top": 429.89,
+        "bottom": 440.93,
+        "x0": 33.96,
+        "x1": 557.63,
+        "column": 0
+      },
+      {
+        "text": "elaborações devem ser lidas, debatidas e citadas.",
+        "top": 444.65,
+        "bottom": 455.69,
+        "x0": 33.96,
+        "x1": 253.94,
+        "column": 0
+      },
+      {
+        "text": "A importância de estudar autores negros não se baseia numa visão essencialista, ou seja, na crença de que",
+        "top": 465.41,
+        "bottom": 476.45,
+        "x0": 69.36,
+        "x1": 557.5,
+        "column": 0
+      },
+      {
+        "text": "devem ser lidos apenas por serem negros. A questão é que é irrealista que numa sociedade como a nossa, de",
+        "top": 480.29,
+        "bottom": 491.33,
+        "x0": 33.96,
+        "x1": 557.5,
+        "column": 0
+      },
+      {
+        "text": "maioria negra, somente um grupo domine a formulação do saber. É possível acreditar que pessoas negras não",
+        "top": 495.05,
+        "bottom": 506.09,
+        "x0": 33.96,
+        "x1": 557.46,
+        "column": 0
+      },
+      {
+        "text": "elaborem o mundo? É sobre isso que a escritora Chimamanda Ngozi Adichie alerta ao falar do perigo da história",
+        "top": 509.81,
+        "bottom": 520.85,
+        "x0": 33.96,
+        "x1": 557.65,
+        "column": 0
+      },
+      {
+        "text": "única. O privilégio social resulta no privilégio epistêmico, que deve ser confrontado para que a história não seja",
+        "top": 524.57,
+        "bottom": 535.61,
+        "x0": 33.96,
+        "x1": 557.65,
+        "column": 0
+      },
+      {
+        "text": "contada apenas pelo ponto de vista do poder. É danoso que, numa sociedade, as pessoas não conheçam a história",
+        "top": 539.33,
+        "bottom": 550.37,
+        "x0": 33.96,
+        "x1": 557.65,
+        "column": 0
+      },
+      {
+        "text": "dos povos que a construíram.",
+        "top": 554.09,
+        "bottom": 565.13,
+        "x0": 33.96,
+        "x1": 165.86,
+        "column": 0
+      },
+      {
+        "text": "[...]",
+        "top": 574.85,
+        "bottom": 585.89,
+        "x0": 33.96,
+        "x1": 48.99,
+        "column": 0
+      },
+      {
+        "text": "As construções sobre raça se dão de forma singular e complexa nas diferentes regiões do país. Por isso,",
+        "top": 595.61,
+        "bottom": 606.65,
+        "x0": 68.88,
+        "x1": 557.64,
+        "column": 0
+      },
+      {
+        "text": "precisamos conhecer a produção de mulheres negras de fora das grandes metrópoles – como Nilma Bentes, Zélia",
+        "top": 610.37,
+        "bottom": 621.41,
+        "x0": 33.96,
+        "x1": 557.53,
+        "column": 0
+      },
+      {
+        "text": "Amador e Marcela Bonfim – e ampliar as nossas visões de mundo. Procure conhecer o trabalho realizado por núcleos",
+        "top": 625.13,
+        "bottom": 636.17,
+        "x0": 33.96,
+        "x1": 557.52,
+        "column": 0
+      },
+      {
+        "text": "de estudos afro-brasileiros em universidades, valorize editoras que publicam produções intelectuais negras e apoie",
+        "top": 639.89,
+        "bottom": 650.93,
+        "x0": 33.96,
+        "x1": 557.38,
+        "column": 0
+      },
+      {
+        "text": "iniciativas que têm como objetivo a visibilidade de pensamentos decoloniais. Precisamos ir além do que já",
+        "top": 654.65,
+        "bottom": 665.69,
+        "x0": 33.96,
+        "x1": 557.53,
+        "column": 0
+      },
+      {
+        "text": "conhecemos.",
+        "top": 669.53,
+        "bottom": 680.57,
+        "x0": 33.96,
+        "x1": 93.38,
+        "column": 0
+      },
+      {
+        "text": "Fonte: RIBEIRO, Djamila. Pequeno Manual Antirracista. São Paulo: Companhia das Letras, 2009, p. 61-67.",
+        "top": 687.52,
+        "bottom": 696.52,
+        "x0": 178.68,
+        "x1": 561.23,
+        "column": 0
+      },
+      {
+        "text": "Página 3 de 24",
+        "top": 798.17,
+        "bottom": 806,
+        "x0": 496.08,
+        "x1": 561.31,
+        "column": 0
+      }
+    ],
+    "images": [],
+    "rects": [
+      {
+        "x0": 32.52,
+        "x1": 562.68,
+        "top": 55.32,
+        "bottom": 56.76
+      },
+      {
+        "x0": 207.72,
+        "x1": 387.48,
+        "top": 87.36,
+        "bottom": 88.2
+      },
+      {
+        "x0": 28.8,
+        "x1": 565.32,
+        "top": 92.4,
+        "bottom": 118.08
+      },
+      {
+        "x0": 33.96,
+        "x1": 560.16,
+        "top": 92.4,
+        "bottom": 107.04
+      },
+      {
+        "x0": 33.96,
+        "x1": 560.16,
+        "top": 107.04,
+        "bottom": 118.08
+      },
+      {
+        "x0": 28.32,
+        "x1": 28.8,
+        "top": 91.92,
+        "bottom": 92.4
+      },
+      {
+        "x0": 28.32,
+        "x1": 28.8,
+        "top": 91.92,
+        "bottom": 92.4
+      },
+      {
+        "x0": 28.8,
+        "x1": 565.32,
+        "top": 91.92,
+        "bottom": 92.4
+      },
+      {
+        "x0": 565.32,
+        "x1": 565.8,
+        "top": 91.92,
+        "bottom": 92.4
+      },
+      {
+        "x0": 565.32,
+        "x1": 565.8,
+        "top": 91.92,
+        "bottom": 92.4
+      },
+      {
+        "x0": 28.32,
+        "x1": 28.8,
+        "top": 92.4,
+        "bottom": 118.08
+      },
+      {
+        "x0": 28.32,
+        "x1": 28.8,
+        "top": 118.08,
+        "bottom": 118.56
+      },
+      {
+        "x0": 28.32,
+        "x1": 28.8,
+        "top": 118.08,
+        "bottom": 118.56
+      },
+      {
+        "x0": 28.8,
+        "x1": 565.32,
+        "top": 118.08,
+        "bottom": 118.56
+      },
+      {
+        "x0": 565.32,
+        "x1": 565.8,
+        "top": 92.4,
+        "bottom": 118.08
+      },
+      {
+        "x0": 565.32,
+        "x1": 565.8,
+        "top": 118.08,
+        "bottom": 118.56
+      },
+      {
+        "x0": 565.32,
+        "x1": 565.8,
+        "top": 118.08,
+        "bottom": 118.56
+      },
+      {
+        "x0": 28.32,
+        "x1": 28.8,
+        "top": 176.52,
+        "bottom": 177.0
+      },
+      {
+        "x0": 28.32,
+        "x1": 28.8,
+        "top": 176.52,
+        "bottom": 177.0
+      },
+      {
+        "x0": 28.8,
+        "x1": 562.68,
+        "top": 176.52,
+        "bottom": 177.0
+      },
+      {
+        "x0": 562.68,
+        "x1": 563.16,
+        "top": 176.52,
+        "bottom": 177.0
+      },
+      {
+        "x0": 562.68,
+        "x1": 563.16,
+        "top": 176.52,
+        "bottom": 177.0
+      },
+      {
+        "x0": 28.32,
+        "x1": 28.8,
+        "top": 177.0,
+        "bottom": 685.92
+      },
+      {
+        "x0": 28.32,
+        "x1": 28.8,
+        "top": 685.92,
+        "bottom": 686.4
+      },
+      {
+        "x0": 28.32,
+        "x1": 28.8,
+        "top": 685.92,
+        "bottom": 686.4
+      },
+      {
+        "x0": 28.8,
+        "x1": 562.68,
+        "top": 685.92,
+        "bottom": 686.4
+      },
+      {
+        "x0": 562.68,
+        "x1": 563.16,
+        "top": 177.0,
+        "bottom": 685.92
+      },
+      {
+        "x0": 562.68,
+        "x1": 563.16,
+        "top": 685.92,
+        "bottom": 686.4
+      },
+      {
+        "x0": 562.68,
+        "x1": 563.16,
+        "top": 685.92,
+        "bottom": 686.4
+      }
+    ],
+    "curves": []
+  },
+  {
+    "page": 4,
+    "width": 595,
+    "height": 842,
+    "lines": [
+      {
+        "text": "QUESTÃO 01 - O texto I é um trecho do capítulo intitulado “Leia autores negros”, do livro Pequeno Manual",
+        "top": 71.57,
+        "bottom": 82.61,
+        "x0": 33.96,
+        "x1": 561.25,
+        "column": 0
+      },
+      {
+        "text": "Antirracista, de Djamila Ribeiro. No que se refere ao título do capítulo em consonância aos argumentos trazidos pela",
+        "top": 86.33,
+        "bottom": 97.37,
+        "x0": 33.95,
+        "x1": 561.37,
+        "column": 0
+      },
+      {
+        "text": "autora, é possível afirmar que ela:",
+        "top": 101.09,
+        "bottom": 112.13,
+        "x0": 33.96,
+        "x1": 186.2,
+        "column": 0
+      },
+      {
+        "text": "chama a atenção para o estudo de autores negros nas várias esferas da sociedade como uma forma de",
+        "top": 124.73,
+        "bottom": 135.77,
+        "x0": 61.32,
+        "x1": 560.25,
+        "column": 0
+      },
+      {
+        "text": "pensamento decolonial.",
+        "top": 138.17,
+        "bottom": 149.21,
+        "x0": 61.32,
+        "x1": 168.98,
+        "column": 0
+      },
+      {
+        "text": "constata que há uma relação direta entre a porcentagem da população negra e a publicação de livros de",
+        "top": 157.61,
+        "bottom": 168.65,
+        "x0": 61.32,
+        "x1": 560.13,
+        "column": 0
+      },
+      {
+        "text": "autores negros no país.",
+        "top": 171.05,
+        "bottom": 182.09,
+        "x0": 61.32,
+        "x1": 165.62,
+        "column": 0
+      },
+      {
+        "text": "expõe a ausência de autores negros no universo acadêmico, em função de um pensamento antirracista na",
+        "top": 190.49,
+        "bottom": 201.53,
+        "x0": 61.32,
+        "x1": 560.28,
+        "column": 0
+      },
+      {
+        "text": "sociedade.",
+        "top": 203.93,
+        "bottom": 214.97,
+        "x0": 61.32,
+        "x1": 109.22,
+        "column": 0
+      },
+      {
+        "text": "relativiza os sinais de apagamento da produção negra ao afirmar ser irrealista que somente um grupo domine a",
+        "top": 223.25,
+        "bottom": 234.29,
+        "x0": 61.32,
+        "x1": 560.16,
+        "column": 0
+      },
+      {
+        "text": "formulação do saber.",
+        "top": 236.69,
+        "bottom": 247.73,
+        "x0": 61.32,
+        "x1": 156.5,
+        "column": 0
+      },
+      {
+        "text": "sugere o estudo e a leitura de trabalhos de intelectuais diversos, independentemente de suas identidades",
+        "top": 256.13,
+        "bottom": 267.17,
+        "x0": 61.32,
+        "x1": 560.27,
+        "column": 0
+      },
+      {
+        "text": "étnico-raciais.",
+        "top": 269.57,
+        "bottom": 280.61,
+        "x0": 61.32,
+        "x1": 123.86,
+        "column": 0
+      },
+      {
+        "text": "QUESTÃO 02 - Djamila Ribeiro empregou no texto “Leia autores negros”, texto I, algumas estratégias argumentativas.",
+        "top": 309.89,
+        "bottom": 320.93,
+        "x0": 33.96,
+        "x1": 561.38,
+        "column": 0
+      },
+      {
+        "text": "Analisando-as, é possível afirmar que:",
+        "top": 324.65,
+        "bottom": 335.69,
+        "x0": 33.96,
+        "x1": 203.0,
+        "column": 0
+      },
+      {
+        "text": "a estratégia argumentativa de contraposição é explorada ao se apoiar e citar a obra O genocídio do negro",
+        "top": 348.29,
+        "bottom": 359.33,
+        "x0": 61.32,
+        "x1": 560.3,
+        "column": 0
+      },
+      {
+        "text": "brasileiro, de Abdias do Nascimento, em que o autor defende que “o genocídio é toda forma de aniquilação de",
+        "top": 361.73,
+        "bottom": 372.77,
+        "x0": 61.32,
+        "x1": 560.25,
+        "column": 0
+      },
+      {
+        "text": "um povo, seja moral, cultural ou epistemológico” (2º parágrafo).",
+        "top": 375.17,
+        "bottom": 386.21,
+        "x0": 61.32,
+        "x1": 349.46,
+        "column": 0
+      },
+      {
+        "text": "Djamila Ribeiro aplica um procedimento argumentativo de causa e efeito no trecho: “As construções sobre raça",
+        "top": 394.61,
+        "bottom": 405.65,
+        "x0": 61.32,
+        "x1": 560.28,
+        "column": 0
+      },
+      {
+        "text": "se dão de forma singular e complexa nas diferentes regiões do país. Por isso, precisamos reconhecer a",
+        "top": 408.05,
+        "bottom": 419.09,
+        "x0": 61.32,
+        "x1": 560.28,
+        "column": 0
+      },
+      {
+        "text": "produção de mulheres negras” (6º parágrafo).",
+        "top": 421.49,
+        "bottom": 432.53,
+        "x0": 61.32,
+        "x1": 267.5,
+        "column": 0
+      },
+      {
+        "text": "no trecho “as propostas de Lélia para pensar a “amefricanidade”, propondo um feminismo afro-latino-",
+        "top": 440.93,
+        "bottom": 451.97,
+        "x0": 61.32,
+        "x1": 560.29,
+        "column": 0
+      },
+      {
+        "text": "americano, se perpetuam até hoje ao se propor uma luta transnacional” (3º parágrafo), nota-se a estratégia de",
+        "top": 454.37,
+        "bottom": 465.41,
+        "x0": 61.32,
+        "x1": 560.13,
+        "column": 0
+      },
+      {
+        "text": "contra-argumentação, uma vez que Djamila ressignifica o pensamento de Lélia.",
+        "top": 467.69,
+        "bottom": 478.73,
+        "x0": 61.32,
+        "x1": 415.34,
+        "column": 0
+      },
+      {
+        "text": "no trecho “É sobre isso que a escritora Chimamanda Ngozi Adichie alerta ao falar do perigo da história única”",
+        "top": 487.13,
+        "bottom": 498.17,
+        "x0": 61.32,
+        "x1": 560.21,
+        "column": 0
+      },
+      {
+        "text": "(5º parágrafo), nota-se o uso do relato pessoal, já que Djamila defende seu posicionamento citando a história",
+        "top": 500.57,
+        "bottom": 511.61,
+        "x0": 61.32,
+        "x1": 560.28,
+        "column": 0
+      },
+      {
+        "text": "narrada por Chimamanda.",
+        "top": 514.01,
+        "bottom": 525.05,
+        "x0": 61.32,
+        "x1": 178.7,
+        "column": 0
+      },
+      {
+        "text": "o trecho “É possível acreditar que pessoas negras não elaborem o mundo?” (5º parágrafo) deixa de ser uma",
+        "top": 533.45,
+        "bottom": 544.49,
+        "x0": 61.32,
+        "x1": 560.28,
+        "column": 0
+      },
+      {
+        "text": "pergunta retórica na medida em que Djamila Ribeiro expressa uma crítica social, sensibilizando os leitores.",
+        "top": 546.89,
+        "bottom": 557.93,
+        "x0": 61.32,
+        "x1": 537.02,
+        "column": 0
+      },
+      {
+        "text": "Leia o texto II a seguir para responder às questões 3 e 4.",
+        "top": 572.45,
+        "bottom": 583.49,
+        "x0": 33.96,
+        "x1": 289.63,
+        "column": 0
+      },
+      {
+        "text": "TEXTO II",
+        "top": 599.21,
+        "bottom": 610.25,
+        "x0": 278.52,
+        "x1": 316.75,
+        "column": 0
+      },
+      {
+        "text": "ESTUDO REÚNE ESTATÍSTICAS DA PRODUÇÃO DE AUTORIA NEGRA BRASILEIRA DE 1859 A 2020",
+        "top": 629.45,
+        "bottom": 640.49,
+        "x0": 79.68,
+        "x1": 511.87,
+        "column": 0
+      },
+      {
+        "text": "Escrito por Edma de Góis",
+        "top": 656.21,
+        "bottom": 667.25,
+        "x0": 444.0,
+        "x1": 557.6,
+        "column": 0
+      },
+      {
+        "text": "De tudo quanto pode ser dito sobre as mudanças no campo literário brasileiro nas duas últimas décadas,",
+        "top": 700.73,
+        "bottom": 711.77,
+        "x0": 69.36,
+        "x1": 557.52,
+        "column": 0
+      },
+      {
+        "text": "para ficarmos apenas neste século, um dos realces mais evidentes é a maior circulação de livros de autoria negra dos",
+        "top": 715.61,
+        "bottom": 726.65,
+        "x0": 33.96,
+        "x1": 557.51,
+        "column": 0
+      },
+      {
+        "text": "mais diferentes gêneros. Uma mirada nas principais apostas das editoras, das livrarias e dos encontros acadêmicos e",
+        "top": 730.37,
+        "bottom": 741.41,
+        "x0": 33.96,
+        "x1": 557.62,
+        "column": 0
+      },
+      {
+        "text": "principais eventos literários do país dá elementos para se fazer este desenho. Entender os percursos que culminam",
+        "top": 745.13,
+        "bottom": 756.17,
+        "x0": 33.96,
+        "x1": 557.46,
+        "column": 0
+      },
+      {
+        "text": "na maior visibilidade da autoria negra brasileira em nosso mercado editorial é trabalho que exige tempo e",
+        "top": 759.89,
+        "bottom": 770.93,
+        "x0": 33.96,
+        "x1": 557.62,
+        "column": 0
+      },
+      {
+        "text": "Página 4 de 24",
+        "top": 798.17,
+        "bottom": 806,
+        "x0": 496.08,
+        "x1": 561.31,
+        "column": 0
+      }
+    ],
+    "images": [
+      {
+        "x0": 35.16,
+        "x1": 49.32,
+        "top": 121.92,
+        "bottom": 137.64
+      },
+      {
+        "x0": 35.16,
+        "x1": 50.52,
+        "top": 154.92,
+        "bottom": 170.64
+      },
+      {
+        "x0": 35.16,
+        "x1": 50.52,
+        "top": 188.52,
+        "bottom": 204.12
+      },
+      {
+        "x0": 35.16,
+        "x1": 49.32,
+        "top": 221.04,
+        "bottom": 236.76
+      },
+      {
+        "x0": 35.16,
+        "x1": 50.52,
+        "top": 253.56,
+        "bottom": 269.28
+      },
+      {
+        "x0": 35.16,
+        "x1": 49.32,
+        "top": 345.48,
+        "bottom": 361.2
+      },
+      {
+        "x0": 35.16,
+        "x1": 50.52,
+        "top": 391.92,
+        "bottom": 407.64
+      },
+      {
+        "x0": 35.16,
+        "x1": 50.52,
+        "top": 438.96,
+        "bottom": 454.56
+      },
+      {
+        "x0": 35.16,
+        "x1": 49.32,
+        "top": 484.92,
+        "bottom": 500.64
+      },
+      {
+        "x0": 35.16,
+        "x1": 50.52,
+        "top": 530.88,
+        "bottom": 546.6
+      }
+    ],
+    "rects": [
+      {
+        "x0": 32.52,
+        "x1": 562.68,
+        "top": 55.32,
+        "bottom": 56.76
+      },
+      {
+        "x0": 28.32,
+        "x1": 28.8,
+        "top": 615.6,
+        "bottom": 616.08
+      },
+      {
+        "x0": 28.32,
+        "x1": 28.8,
+        "top": 615.6,
+        "bottom": 616.08
+      },
+      {
+        "x0": 28.8,
+        "x1": 562.68,
+        "top": 615.6,
+        "bottom": 616.08
+      },
+      {
+        "x0": 562.68,
+        "x1": 563.16,
+        "top": 615.6,
+        "bottom": 616.08
+      },
+      {
+        "x0": 562.68,
+        "x1": 563.16,
+        "top": 615.6,
+        "bottom": 616.08
+      },
+      {
+        "x0": 28.32,
+        "x1": 28.8,
+        "top": 616.08,
+        "bottom": 773.28
+      },
+      {
+        "x0": 28.32,
+        "x1": 28.8,
+        "top": 773.28,
+        "bottom": 773.76
+      },
+      {
+        "x0": 28.32,
+        "x1": 28.8,
+        "top": 773.28,
+        "bottom": 773.76
+      },
+      {
+        "x0": 28.8,
+        "x1": 562.68,
+        "top": 773.28,
+        "bottom": 773.76
+      },
+      {
+        "x0": 562.68,
+        "x1": 563.16,
+        "top": 616.08,
+        "bottom": 773.28
+      },
+      {
+        "x0": 562.68,
+        "x1": 563.16,
+        "top": 773.28,
+        "bottom": 773.76
+      },
+      {
+        "x0": 562.68,
+        "x1": 563.16,
+        "top": 773.28,
+        "bottom": 773.76
+      }
+    ],
+    "curves": []
+  },
+  {
+    "page": 5,
+    "width": 595,
+    "height": 842,
+    "lines": [
+      {
+        "text": "multiplicidade de olhares para considerar as diversas experiências, muitas destas individuais, que marcam essa",
+        "top": 72.05,
+        "bottom": 83.09,
+        "x0": 33.96,
+        "x1": 557.53,
+        "column": 0
+      },
+      {
+        "text": "mesma autoria. O recém-lançado Trajetórias editoriais da literatura de autoria negra brasileira (Malê Editora) pode",
+        "top": 86.81,
+        "bottom": 97.85,
+        "x0": 33.96,
+        "x1": 557.61,
+        "column": 0
+      },
+      {
+        "text": "ser usado como um norteador nessa empreitada. Mais estatístico do que analítico, o livro organizado pelos",
+        "top": 101.57,
+        "bottom": 112.61,
+        "x0": 33.96,
+        "x1": 557.63,
+        "column": 0
+      },
+      {
+        "text": "pesquisadores Fabiane Cristine Rodrigues e Luiz Henrique Oliveira, ambos do Cefet-MG, busca mapear a produção",
+        "top": 116.33,
+        "bottom": 127.37,
+        "x0": 33.96,
+        "x1": 557.57,
+        "column": 0
+      },
+      {
+        "text": "negra brasileira em um recorte nada modesto de mais de século (1859-2020). Utilizo a terminologia negra brasileira",
+        "top": 131.09,
+        "bottom": 142.13,
+        "x0": 33.96,
+        "x1": 557.67,
+        "column": 0
+      },
+      {
+        "text": "em sintonia com a escolha dos autores que reconhecem “conjugada com outras dimensões, a especificidade desta",
+        "top": 145.85,
+        "bottom": 156.89,
+        "x0": 33.96,
+        "x1": 557.65,
+        "column": 0
+      },
+      {
+        "text": "vertente artística como fenômeno do século XX e o papel de precursores fundamentais atuantes no século XIX”. O",
+        "top": 160.61,
+        "bottom": 171.65,
+        "x0": 33.96,
+        "x1": 557.63,
+        "column": 0
+      },
+      {
+        "text": "que não significa dizer que eles não consideram as especificidades e a relevância social dos termos literatura afro-",
+        "top": 175.49,
+        "bottom": 186.53,
+        "x0": 33.96,
+        "x1": 557.66,
+        "column": 0
+      },
+      {
+        "text": "brasileira, literatura negra ou literatura negro brasileira.",
+        "top": 190.25,
+        "bottom": 201.29,
+        "x0": 33.96,
+        "x1": 285.62,
+        "column": 0
+      },
+      {
+        "text": "[...]",
+        "top": 205.01,
+        "bottom": 216.05,
+        "x0": 33.96,
+        "x1": 48.99,
+        "column": 0
+      },
+      {
+        "text": "Se “todo julgamento de valor repousa num atestado de exclusão” como sentencia Antoine Compagnon, nos",
+        "top": 219.77,
+        "bottom": 230.81,
+        "x0": 69.36,
+        "x1": 557.64,
+        "column": 0
+      },
+      {
+        "text": "provocando a pensar que determinar o que é literário fatalmente exclui aquilo que assim não é considerado, é",
+        "top": 234.53,
+        "bottom": 245.57,
+        "x0": 33.96,
+        "x1": 557.62,
+        "column": 0
+      },
+      {
+        "text": "pertinente dizer que Trajetórias não é e não deve ser lido como um estudo definitivo, porque há sempre nomes que",
+        "top": 249.29,
+        "bottom": 260.33,
+        "x0": 33.96,
+        "x1": 557.62,
+        "column": 0
+      },
+      {
+        "text": "escapam a todo mapeamento, por mais rigoroso que o estudo seja. [...] A base de dados utilizada no estudo é o",
+        "top": 264.05,
+        "bottom": 275.09,
+        "x0": 33.96,
+        "x1": 557.58,
+        "column": 0
+      },
+      {
+        "text": "portal Literafro, com a colaboração de outros grupos e projetos de pesquisa. Dos dados disponibilizados no portal,",
+        "top": 278.81,
+        "bottom": 289.85,
+        "x0": 33.96,
+        "x1": 557.64,
+        "column": 0
+      },
+      {
+        "text": "Trajetórias utiliza-se das publicações individuais como forma de facilitar a organização das informações e a",
+        "top": 293.57,
+        "bottom": 304.61,
+        "x0": 33.96,
+        "x1": 557.65,
+        "column": 0
+      },
+      {
+        "text": "metodologia empregada.",
+        "top": 308.33,
+        "bottom": 319.37,
+        "x0": 33.96,
+        "x1": 146.78,
+        "column": 0
+      },
+      {
+        "text": "[...]",
+        "top": 323.09,
+        "bottom": 334.13,
+        "x0": 33.96,
+        "x1": 48.99,
+        "column": 0
+      },
+      {
+        "text": "Algumas provocações",
+        "top": 337.97,
+        "bottom": 349.01,
+        "x0": 33.96,
+        "x1": 133.16,
+        "column": 0
+      },
+      {
+        "text": "O sexismo como aliado do racismo também não passa despercebido em muitas tabelas que compõem o",
+        "top": 352.73,
+        "bottom": 363.77,
+        "x0": 69.36,
+        "x1": 557.58,
+        "column": 0
+      },
+      {
+        "text": "estudo, em que predominam homens em número de publicações (apesar de não haver um levantamento em termos",
+        "top": 367.49,
+        "bottom": 378.53,
+        "x0": 33.96,
+        "x1": 557.64,
+        "column": 0
+      },
+      {
+        "text": "percentuais de gênero, autores e autoras são citados nominalmente). [...]",
+        "top": 382.25,
+        "bottom": 393.29,
+        "x0": 33.96,
+        "x1": 362.31,
+        "column": 0
+      },
+      {
+        "text": "As edições de autor e editoras independentes concentram-se no gênero poesia, talvez, na avaliação dos",
+        "top": 397.01,
+        "bottom": 408.05,
+        "x0": 69.36,
+        "x1": 557.51,
+        "column": 0
+      },
+      {
+        "text": "pesquisadores, porque também demandam menos risco de investimento editorial. Por outro lado, as editoras não",
+        "top": 411.77,
+        "bottom": 422.81,
+        "x0": 33.96,
+        "x1": 557.46,
+        "column": 0
+      },
+      {
+        "text": "especializadas ainda têm poucos autores negros em seus catálogos, o que nos leva a pensar no interesse genuíno",
+        "top": 426.53,
+        "bottom": 437.57,
+        "x0": 33.96,
+        "x1": 557.34,
+        "column": 0
+      },
+      {
+        "text": "por autorias afrocentradas. É fato que a obrigatoriedade do ensino de História e Cultura Afro-brasileiras nos níveis",
+        "top": 441.29,
+        "bottom": 452.33,
+        "x0": 33.96,
+        "x1": 557.52,
+        "column": 0
+      },
+      {
+        "text": "Fundamental e Médio, anteriormente citado, serviu como um incentivo para que o próprio Estado cumprisse a lei",
+        "top": 456.05,
+        "bottom": 467.09,
+        "x0": 33.96,
+        "x1": 557.53,
+        "column": 0
+      },
+      {
+        "text": "garantindo a compra de livros com essa perspectiva. Mas, mesmo que por força da lei há a aquisição de obras e o",
+        "top": 470.81,
+        "bottom": 481.85,
+        "x0": 33.96,
+        "x1": 557.46,
+        "column": 0
+      },
+      {
+        "text": "próprio incentivo à produção dessa literatura, por outro lado questiona-se o interesse por essa produção, “o real",
+        "top": 485.57,
+        "bottom": 496.61,
+        "x0": 33.96,
+        "x1": 557.65,
+        "column": 0
+      },
+      {
+        "text": "compromisso dessas editoras com a causa negra e até que ponto não se trata apenas daquilo que ficou conhecido no",
+        "top": 500.45,
+        "bottom": 511.49,
+        "x0": 33.96,
+        "x1": 557.46,
+        "column": 0
+      },
+      {
+        "text": "seio dos movimentos negros como ‘afroconveniência’, ou seja, apropriar-se das conquistas para obter vantagens",
+        "top": 515.21,
+        "bottom": 526.25,
+        "x0": 33.96,
+        "x1": 557.64,
+        "column": 0
+      },
+      {
+        "text": "econômicas”.",
+        "top": 529.97,
+        "bottom": 541.01,
+        "x0": 33.96,
+        "x1": 94.46,
+        "column": 0
+      },
+      {
+        "text": "Por fim, o que também não causa surpresa, o estudo conclui que as editoras gerais ou que não atuam em",
+        "top": 556.73,
+        "bottom": 567.77,
+        "x0": 61.32,
+        "x1": 557.58,
+        "column": 0
+      },
+      {
+        "text": "nicho específico têm poucos autores negros em seus catálogos, enquanto editoras que assumem o discurso",
+        "top": 571.49,
+        "bottom": 582.53,
+        "x0": 33.96,
+        "x1": 557.46,
+        "column": 0
+      },
+      {
+        "text": "afrocentrado concentram um número significativo. [...]",
+        "top": 586.25,
+        "bottom": 597.29,
+        "x0": 33.96,
+        "x1": 279.63,
+        "column": 0
+      },
+      {
+        "text": "Disponível em: http://www.suplementopernambuco.com.br/resenhas/3081-um-mapa-de-presen%C3%A7as-que-v%C3%AAm-de-",
+        "top": 604.24,
+        "bottom": 613.24,
+        "x0": 85.08,
+        "x1": 561.23,
+        "column": 0
+      },
+      {
+        "text": "longe.html. Acesso em 01 jun de 2023. Adaptado para fins didáticos.",
+        "top": 616.36,
+        "bottom": 625.36,
+        "x0": 311.16,
+        "x1": 561.23,
+        "column": 0
+      },
+      {
+        "text": "Página 5 de 24",
+        "top": 798.17,
+        "bottom": 806,
+        "x0": 496.08,
+        "x1": 561.31,
+        "column": 0
+      }
+    ],
+    "images": [],
+    "rects": [
+      {
+        "x0": 32.52,
+        "x1": 562.68,
+        "top": 55.32,
+        "bottom": 56.76
+      },
+      {
+        "x0": 28.32,
+        "x1": 28.8,
+        "top": 70.2,
+        "bottom": 70.68
+      },
+      {
+        "x0": 28.32,
+        "x1": 28.8,
+        "top": 70.2,
+        "bottom": 70.68
+      },
+      {
+        "x0": 28.8,
+        "x1": 562.68,
+        "top": 70.2,
+        "bottom": 70.68
+      },
+      {
+        "x0": 562.68,
+        "x1": 563.16,
+        "top": 70.2,
+        "bottom": 70.68
+      },
+      {
+        "x0": 562.68,
+        "x1": 563.16,
+        "top": 70.2,
+        "bottom": 70.68
+      },
+      {
+        "x0": 28.32,
+        "x1": 28.8,
+        "top": 70.68,
+        "bottom": 602.64
+      },
+      {
+        "x0": 28.32,
+        "x1": 28.8,
+        "top": 602.64,
+        "bottom": 603.12
+      },
+      {
+        "x0": 28.32,
+        "x1": 28.8,
+        "top": 602.64,
+        "bottom": 603.12
+      },
+      {
+        "x0": 28.8,
+        "x1": 562.68,
+        "top": 602.64,
+        "bottom": 603.12
+      },
+      {
+        "x0": 562.68,
+        "x1": 563.16,
+        "top": 70.68,
+        "bottom": 602.64
+      },
+      {
+        "x0": 562.68,
+        "x1": 563.16,
+        "top": 602.64,
+        "bottom": 603.12
+      },
+      {
+        "x0": 562.68,
+        "x1": 563.16,
+        "top": 602.64,
+        "bottom": 603.12
+      }
+    ],
+    "curves": []
+  },
+  {
+    "page": 6,
+    "width": 595,
+    "height": 842,
+    "lines": [
+      {
+        "text": "QUESTÃO 03 - O texto II é uma resenha escrita por Edma de Góis, que, além de apresentar o livro Trajetórias",
+        "top": 71.57,
+        "bottom": 82.61,
+        "x0": 33.96,
+        "x1": 561.33,
+        "column": 0
+      },
+      {
+        "text": "editoriais da literatura de autoria negra brasileira, também tem uma natureza argumentativa sobre produções",
+        "top": 86.33,
+        "bottom": 97.37,
+        "x0": 33.96,
+        "x1": 561.35,
+        "column": 0
+      },
+      {
+        "text": "literárias de autores negros no Brasil. Nesse sentido, o trecho que indica um discurso de base argumentativa,",
+        "top": 101.09,
+        "bottom": 112.13,
+        "x0": 33.96,
+        "x1": 561.36,
+        "column": 0
+      },
+      {
+        "text": "especificando a opinião da autora é:",
+        "top": 115.85,
+        "bottom": 126.89,
+        "x0": 33.96,
+        "x1": 195.68,
+        "column": 0
+      },
+      {
+        "text": "“[...] o estudo conclui que as editoras gerais ou que não atuam em nicho específico têm poucos autores negros",
+        "top": 139.49,
+        "bottom": 150.53,
+        "x0": 61.32,
+        "x1": 560.27,
+        "column": 0
+      },
+      {
+        "text": "em seus catálogos, enquanto editoras que assumem o discurso afrocentrado concentram um número",
+        "top": 152.93,
+        "bottom": 163.97,
+        "x0": 61.32,
+        "x1": 560.21,
+        "column": 0
+      },
+      {
+        "text": "significativo” (5º parágrafo).",
+        "top": 166.37,
+        "bottom": 177.41,
+        "x0": 61.32,
+        "x1": 187.34,
+        "column": 0
+      },
+      {
+        "text": "“A base de dados utilizada no estudo é o portal Literafro, com a colaboração de outros grupos e projetos de",
+        "top": 185.81,
+        "bottom": 196.85,
+        "x0": 61.32,
+        "x1": 560.25,
+        "column": 0
+      },
+      {
+        "text": "pesquisa” (2º parágrafo).",
+        "top": 199.25,
+        "bottom": 210.29,
+        "x0": 61.32,
+        "x1": 173.54,
+        "column": 0
+      },
+      {
+        "text": "“As edições de autor e editoras independentes concentram-se no gênero poesia, talvez, na avaliação dos",
+        "top": 218.69,
+        "bottom": 229.73,
+        "x0": 61.32,
+        "x1": 560.27,
+        "column": 0
+      },
+      {
+        "text": "pesquisadores, porque também demandam menos risco de investimento editorial” (4º parágrafo).",
+        "top": 232.13,
+        "bottom": 243.17,
+        "x0": 61.32,
+        "x1": 501.26,
+        "column": 0
+      },
+      {
+        "text": "“[...] é pertinente dizer que Trajetórias não é e não deve ser lido como um estudo definitivo, porque há sempre",
+        "top": 251.45,
+        "bottom": 262.49,
+        "x0": 61.32,
+        "x1": 560.25,
+        "column": 0
+      },
+      {
+        "text": "nomes que escapam a todo mapeamento, por mais rigoroso que o estudo seja.” (2º parágrafo).",
+        "top": 264.89,
+        "bottom": 275.93,
+        "x0": 61.32,
+        "x1": 487.7,
+        "column": 0
+      },
+      {
+        "text": "“Mas, mesmo que por força da lei há a aquisição de obras e o próprio incentivo à produção dessa literatura,",
+        "top": 284.33,
+        "bottom": 295.37,
+        "x0": 61.32,
+        "x1": 560.28,
+        "column": 0
+      },
+      {
+        "text": "por outro lado questiona-se o interesse por essa produção [...]” (4º parágrafo).",
+        "top": 297.77,
+        "bottom": 308.81,
+        "x0": 61.32,
+        "x1": 413.06,
+        "column": 0
+      },
+      {
+        "text": "QUESTÃO 04 - Modalizadores discursivos são recursos linguísticos utilizados, seja na fala ou na escrita, para indicar o",
+        "top": 350.09,
+        "bottom": 361.13,
+        "x0": 33.96,
+        "x1": 561.3,
+        "column": 0
+      },
+      {
+        "text": "posicionamento do falante/escrevente no texto. Identifique a alternativa que apresenta a análise CORRETA do uso",
+        "top": 364.85,
+        "bottom": 375.89,
+        "x0": 33.96,
+        "x1": 561.29,
+        "column": 0
+      },
+      {
+        "text": "dos advérbios com essa função na resenha lida.:",
+        "top": 379.61,
+        "bottom": 390.65,
+        "x0": 33.96,
+        "x1": 249.08,
+        "column": 0
+      },
+      {
+        "text": "Em “Se ‘todo julgamento de valor repousa num atestado de exclusão’ como sentencia Antoine Compagnon,",
+        "top": 403.25,
+        "bottom": 414.29,
+        "x0": 61.32,
+        "x1": 560.28,
+        "column": 0
+      },
+      {
+        "text": "nos provocando a pensar que determinar o que é literário fatalmente exclui aquilo que assim não é",
+        "top": 416.69,
+        "bottom": 427.73,
+        "x0": 61.32,
+        "x1": 560.25,
+        "column": 0
+      },
+      {
+        "text": "considerado” (2º parágrafo), o uso do advérbio “fatalmente” indica o ponto de vista da resenhista acerca de",
+        "top": 430.13,
+        "bottom": 441.17,
+        "x0": 61.32,
+        "x1": 560.25,
+        "column": 0
+      },
+      {
+        "text": "caracterizações literárias.",
+        "top": 443.57,
+        "bottom": 454.61,
+        "x0": 61.32,
+        "x1": 174.98,
+        "column": 0
+      },
+      {
+        "text": "Em “O sexismo como aliado do racismo também não passa despercebido em muitas tabelas que compõem o",
+        "top": 463.01,
+        "bottom": 474.05,
+        "x0": 61.32,
+        "x1": 560.21,
+        "column": 0
+      },
+      {
+        "text": "estudo, [...] (apesar de não haver um levantamento em termos percentuais de gênero, autores e autoras são",
+        "top": 476.45,
+        "bottom": 487.49,
+        "x0": 61.32,
+        "x1": 560.21,
+        "column": 0
+      },
+      {
+        "text": "citados nominalmente)” (3º parágrafo), o uso do advérbio “nominalmente” indica uma ênfase do",
+        "top": 489.89,
+        "bottom": 500.93,
+        "x0": 61.32,
+        "x1": 560.21,
+        "column": 0
+      },
+      {
+        "text": "posicionamento da resenhista sobre o tratamento dado à autoria negra.",
+        "top": 503.33,
+        "bottom": 514.37,
+        "x0": 61.32,
+        "x1": 383.9,
+        "column": 0
+      },
+      {
+        "text": "Em “o livro organizado pelos pesquisadores Fabiane Cristine Rodrigues e Luiz Henrique Oliveira, ambos do",
+        "top": 522.77,
+        "bottom": 533.81,
+        "x0": 61.32,
+        "x1": 560.21,
+        "column": 0
+      },
+      {
+        "text": "Cefet-MG, busca mapear a produção negra brasileira em um recorte nada modesto de mais de século” (1º",
+        "top": 536.09,
+        "bottom": 547.13,
+        "x0": 61.32,
+        "x1": 560.26,
+        "column": 0
+      },
+      {
+        "text": "parágrafo), o uso do advérbio “nada” indica o posicionamento subentendido dos organizadores do livro",
+        "top": 549.53,
+        "bottom": 560.57,
+        "x0": 61.32,
+        "x1": 560.21,
+        "column": 0
+      },
+      {
+        "text": "analisado.",
+        "top": 562.97,
+        "bottom": 574.01,
+        "x0": 61.32,
+        "x1": 106.7,
+        "column": 0
+      },
+      {
+        "text": "Em “De tudo quanto pode ser dito sobre as mudanças no campo literário brasileiro nas duas últimas décadas,",
+        "top": 582.41,
+        "bottom": 593.45,
+        "x0": 61.32,
+        "x1": 560.28,
+        "column": 0
+      },
+      {
+        "text": "para ficarmos apenas neste século, um dos realces mais evidentes é a maior circulação de livros de autoria",
+        "top": 595.85,
+        "bottom": 606.89,
+        "x0": 61.32,
+        "x1": 560.28,
+        "column": 0
+      },
+      {
+        "text": "negra dos mais diferentes gêneros” (1º parágrafo), o uso do advérbio “apenas” indica a diminuição da",
+        "top": 609.29,
+        "bottom": 620.33,
+        "x0": 61.32,
+        "x1": 560.28,
+        "column": 0
+      },
+      {
+        "text": "argumentação sobre as mudanças no campo literário.",
+        "top": 622.73,
+        "bottom": 633.77,
+        "x0": 61.32,
+        "x1": 301.58,
+        "column": 0
+      },
+      {
+        "text": "Em “As edições de autor e editoras independentes concentram-se no gênero poesia, talvez, na avaliação dos",
+        "top": 642.17,
+        "bottom": 653.21,
+        "x0": 61.32,
+        "x1": 560.27,
+        "column": 0
+      },
+      {
+        "text": "pesquisadores, porque também demandam menos risco de investimento editorial” (4º parágrafo), o uso do",
+        "top": 655.61,
+        "bottom": 666.65,
+        "x0": 61.32,
+        "x1": 560.21,
+        "column": 0
+      },
+      {
+        "text": "advérbio “talvez” indica um destaque à tese do porquê há mais produções do gênero poema em editoras",
+        "top": 669.05,
+        "bottom": 680.09,
+        "x0": 61.32,
+        "x1": 560.27,
+        "column": 0
+      },
+      {
+        "text": "independentes.",
+        "top": 682.37,
+        "bottom": 693.41,
+        "x0": 61.32,
+        "x1": 131.3,
+        "column": 0
+      },
+      {
+        "text": "Página 6 de 24",
+        "top": 798.17,
+        "bottom": 806,
+        "x0": 496.08,
+        "x1": 561.31,
+        "column": 0
+      }
+    ],
+    "images": [
+      {
+        "x0": 35.16,
+        "x1": 49.32,
+        "top": 136.68,
+        "bottom": 152.4
+      },
+      {
+        "x0": 35.16,
+        "x1": 50.52,
+        "top": 183.12,
+        "bottom": 198.84
+      },
+      {
+        "x0": 35.16,
+        "x1": 50.52,
+        "top": 216.72,
+        "bottom": 232.32
+      },
+      {
+        "x0": 35.16,
+        "x1": 49.32,
+        "top": 249.24,
+        "bottom": 264.96
+      },
+      {
+        "x0": 35.16,
+        "x1": 50.52,
+        "top": 281.76,
+        "bottom": 297.48
+      },
+      {
+        "x0": 35.16,
+        "x1": 49.32,
+        "top": 400.56,
+        "bottom": 416.16
+      },
+      {
+        "x0": 35.16,
+        "x1": 50.52,
+        "top": 460.32,
+        "bottom": 476.04
+      },
+      {
+        "x0": 35.16,
+        "x1": 50.52,
+        "top": 520.8,
+        "bottom": 536.4
+      },
+      {
+        "x0": 35.16,
+        "x1": 49.32,
+        "top": 580.2,
+        "bottom": 595.8
+      },
+      {
+        "x0": 35.16,
+        "x1": 50.52,
+        "top": 639.6,
+        "bottom": 655.2
+      }
+    ],
+    "rects": [
+      {
+        "x0": 32.52,
+        "x1": 562.68,
+        "top": 55.32,
+        "bottom": 56.76
+      },
+      {
+        "x0": 483.72,
+        "x1": 526.92,
+        "top": 375.12,
+        "bottom": 375.84
+      }
+    ],
+    "curves": []
+  },
+  {
+    "page": 7,
+    "width": 595,
+    "height": 842,
+    "lines": [
+      {
+        "text": "QUESTÃO 05 - Qual das charges a seguir relaciona-se diretamente com o posicionamento de Emicida no trecho da",
+        "top": 71.57,
+        "bottom": 82.61,
+        "x0": 33.96,
+        "x1": 561.36,
+        "column": 0
+      },
+      {
+        "text": "canção “Levanta e anda”, texto III, destacado abaixo:",
+        "top": 86.33,
+        "bottom": 97.37,
+        "x0": 33.96,
+        "x1": 270.32,
+        "column": 0
+      },
+      {
+        "text": "TEXTO III",
+        "top": 107.09,
+        "bottom": 118.13,
+        "x0": 277.08,
+        "x1": 318.19,
+        "column": 0
+      },
+      {
+        "text": "LEVANTA E ANDA",
+        "top": 131.33,
+        "bottom": 142.37,
+        "x0": 255.48,
+        "x1": 335.97,
+        "column": 0
+      },
+      {
+        "text": "Emicida com participação de Rael da Rima",
+        "top": 149.05,
+        "bottom": 160.09,
+        "x0": 333.72,
+        "x1": 557.65,
+        "column": 0
+      },
+      {
+        "text": "“Então cerra os punho, sorria",
+        "top": 178.97,
+        "bottom": 190.01,
+        "x0": 230.28,
+        "x1": 361.2,
+        "column": 0
+      },
+      {
+        "text": "E jamais volte pra sua quebrada de mão e",
+        "top": 194.45,
+        "bottom": 205.49,
+        "x0": 202.56,
+        "x1": 388.89,
+        "column": 0
+      },
+      {
+        "text": "mente vazia",
+        "top": 209.93,
+        "bottom": 220.97,
+        "x0": 268.68,
+        "x1": 322.8,
+        "column": 0
+      },
+      {
+        "text": "Quem costuma vir de onde eu sou",
+        "top": 240.77,
+        "bottom": 251.81,
+        "x0": 219.12,
+        "x1": 372.39,
+        "column": 0
+      },
+      {
+        "text": "Às vezes não tem motivos pra seguir",
+        "top": 256.25,
+        "bottom": 267.29,
+        "x0": 214.32,
+        "x1": 377.17,
+        "column": 0
+      },
+      {
+        "text": "Então levanta e anda, vai, levanta e anda",
+        "top": 271.61,
+        "bottom": 282.65,
+        "x0": 204.36,
+        "x1": 387.12,
+        "column": 0
+      },
+      {
+        "text": "Vai, levanta e anda”",
+        "top": 287.09,
+        "bottom": 298.13,
+        "x0": 251.04,
+        "x1": 340.49,
+        "column": 0
+      },
+      {
+        "text": "(Versos 36 a 42)",
+        "top": 308.69,
+        "bottom": 319.73,
+        "x0": 485.88,
+        "x1": 557.62,
+        "column": 0
+      },
+      {
+        "text": "Disponível em: https://www.letras.mus.br/emicida/levanta-e-anda/. Acesso em 07 jul de 2023.",
+        "top": 332.68,
+        "bottom": 341.68,
+        "x0": 211.92,
+        "x1": 561.11,
+        "column": 0
+      },
+      {
+        "text": "Disponível em: Disponível em: Disponível em:",
+        "top": 541.72,
+        "bottom": 551.56,
+        "x0": 145.2,
+        "x1": 561.2,
+        "column": 0
+      },
+      {
+        "text": "<http://www.juniao.com.br/chargecartum/> https://livreparaprotestar.artigo19.org/exposicao- <http://www.juniao.com.br/chargecartu",
+        "top": 552.64,
+        "bottom": 562.6,
+        "x0": 36.84,
+        "x1": 561.16,
+        "column": 0
+      },
+      {
+        "text": "Acesso em: 07 jul. 2023. 20xarte/>. Acesso em: 07 jul. 2023. m/>. Acesso em: 07 jul. 2023.",
+        "top": 563.68,
+        "bottom": 573.52,
+        "x0": 112.44,
+        "x1": 561.23,
+        "column": 0
+      },
+      {
+        "text": "Disponível em: <https://livreparaprotestar.artigo19.org/exposicao-",
+        "top": 746.08,
+        "bottom": 755.08,
+        "x0": 39.0,
+        "x1": 285.71,
+        "column": 0
+      },
+      {
+        "text": "20xarte/>. Acesso em: 07 jul. 2023.",
+        "top": 757.0,
+        "bottom": 766.0,
+        "x0": 157.08,
+        "x1": 285.71,
+        "column": 0
+      },
+      {
+        "text": "Disponível em: <https://livreparaprotestar.artigo19.org/exposicao-",
+        "top": 753.04,
+        "bottom": 762.04,
+        "x0": 314.64,
+        "x1": 561.35,
+        "column": 0
+      },
+      {
+        "text": "20xarte/>. Acesso em 07 jul de 2023.",
+        "top": 764.08,
+        "bottom": 773.08,
+        "x0": 426.24,
+        "x1": 561.35,
+        "column": 0
+      },
+      {
+        "text": "Página 7 de 24",
+        "top": 798.17,
+        "bottom": 806,
+        "x0": 496.08,
+        "x1": 561.31,
+        "column": 0
+      }
+    ],
+    "images": [
+      {
+        "x0": 30.12,
+        "x1": 210.12,
+        "top": 386.04,
+        "bottom": 518.64
+      },
+      {
+        "x0": 207.72,
+        "x1": 407.76,
+        "top": 366.12,
+        "bottom": 522.84
+      },
+      {
+        "x0": 405.48,
+        "x1": 554.28,
+        "top": 360.96,
+        "bottom": 540.96
+      },
+      {
+        "x0": 112.56,
+        "x1": 209.04,
+        "top": 597.24,
+        "bottom": 745.08
+      },
+      {
+        "x0": 298.2,
+        "x1": 509.64,
+        "top": 597.6,
+        "bottom": 732.6
+      },
+      {
+        "x0": 35.04,
+        "x1": 49.2,
+        "top": 581.4,
+        "bottom": 597.24
+      },
+      {
+        "x0": 297.96,
+        "x1": 313.56,
+        "top": 581.76,
+        "bottom": 597.6
+      },
+      {
+        "x0": 36.36,
+        "x1": 50.52,
+        "top": 364.08,
+        "bottom": 379.92
+      },
+      {
+        "x0": 212.52,
+        "x1": 228.0,
+        "top": 364.56,
+        "bottom": 380.28
+      },
+      {
+        "x0": 405.0,
+        "x1": 420.6,
+        "top": 364.8,
+        "bottom": 380.64
+      }
+    ],
+    "rects": [
+      {
+        "x0": 32.52,
+        "x1": 562.68,
+        "top": 55.32,
+        "bottom": 56.76
+      },
+      {
+        "x0": 28.32,
+        "x1": 28.8,
+        "top": 123.48,
+        "bottom": 123.96
+      },
+      {
+        "x0": 28.32,
+        "x1": 28.8,
+        "top": 123.48,
+        "bottom": 123.96
+      },
+      {
+        "x0": 28.8,
+        "x1": 562.68,
+        "top": 123.48,
+        "bottom": 123.96
+      },
+      {
+        "x0": 562.68,
+        "x1": 563.16,
+        "top": 123.48,
+        "bottom": 123.96
+      },
+      {
+        "x0": 562.68,
+        "x1": 563.16,
+        "top": 123.48,
+        "bottom": 123.96
+      },
+      {
+        "x0": 28.32,
+        "x1": 28.8,
+        "top": 123.96,
+        "bottom": 162.36
+      },
+      {
+        "x0": 562.68,
+        "x1": 563.16,
+        "top": 123.96,
+        "bottom": 162.36
+      },
+      {
+        "x0": 28.32,
+        "x1": 28.8,
+        "top": 162.36,
+        "bottom": 325.08
+      },
+      {
+        "x0": 28.32,
+        "x1": 28.8,
+        "top": 325.08,
+        "bottom": 325.56
+      },
+      {
+        "x0": 28.32,
+        "x1": 28.8,
+        "top": 325.08,
+        "bottom": 325.56
+      },
+      {
+        "x0": 28.8,
+        "x1": 562.68,
+        "top": 325.08,
+        "bottom": 325.56
+      },
+      {
+        "x0": 562.68,
+        "x1": 563.16,
+        "top": 162.36,
+        "bottom": 325.08
+      },
+      {
+        "x0": 562.68,
+        "x1": 563.16,
+        "top": 325.08,
+        "bottom": 325.56
+      },
+      {
+        "x0": 562.68,
+        "x1": 563.16,
+        "top": 325.08,
+        "bottom": 325.56
+      }
+    ],
+    "curves": []
+  },
+  {
+    "page": 8,
+    "width": 595,
+    "height": 842,
+    "lines": [
+      {
+        "text": "LITERATURAS",
+        "top": 93.94,
+        "bottom": 105.94,
+        "x0": 263.28,
+        "x1": 330.99,
+        "column": 0
+      },
+      {
+        "text": "Objetivas",
+        "top": 108.16,
+        "bottom": 117.16,
+        "x0": 279.84,
+        "x1": 314.08,
+        "column": 0
+      },
+      {
+        "text": "Questões de 06 a 10",
+        "top": 123.89,
+        "bottom": 134.93,
+        "x0": 251.52,
+        "x1": 343.75,
+        "column": 0
+      },
+      {
+        "text": "Leia o Texto I para responder as questões 6 e 7",
+        "top": 143.21,
+        "bottom": 154.25,
+        "x0": 33.96,
+        "x1": 247.27,
+        "column": 0
+      },
+      {
+        "text": "TEXTO I",
+        "top": 168.77,
+        "bottom": 179.81,
+        "x0": 279.96,
+        "x1": 315.19,
+        "column": 0
+      },
+      {
+        "text": "SERMÃO DA SEXAGÉSIMA",
+        "top": 199.13,
+        "bottom": 210.17,
+        "x0": 236.04,
+        "x1": 355.29,
+        "column": 0
+      },
+      {
+        "text": "Padre Antônio Vieira",
+        "top": 225.89,
+        "bottom": 236.93,
+        "x0": 462.36,
+        "x1": 557.69,
+        "column": 0
+      },
+      {
+        "text": "Vede como diz o estilo de pregar do céu, com o estilo que Cristo ensinou na terra. Um e outro é semear; a terra",
+        "top": 252.65,
+        "bottom": 263.69,
+        "x0": 33.96,
+        "x1": 557.64,
+        "column": 0
+      },
+      {
+        "text": "semeada de trigo, o céu semeado de estrelas. O pregar há-de ser como quem semeia, e não como quem ladrilha ou",
+        "top": 267.41,
+        "bottom": 278.45,
+        "x0": 33.96,
+        "x1": 557.55,
+        "column": 0
+      },
+      {
+        "text": "azuleja. Ordenado, mas como as estrelas [...] Não fez Deus o céu em xadrez de estrelas, como os pregadores fazem o",
+        "top": 282.17,
+        "bottom": 293.21,
+        "x0": 33.96,
+        "x1": 557.57,
+        "column": 0
+      },
+      {
+        "text": "sermão em xadrez de palavras. Se de uma parte há-de estar branco, da outra há-de estar negro; se de uma parte",
+        "top": 296.93,
+        "bottom": 307.97,
+        "x0": 33.96,
+        "x1": 557.49,
+        "column": 0
+      },
+      {
+        "text": "dizem luz, da outra hão-de dizer sombra; se de uma parte dizem desceu, da outra hão-de dizer subiu. Basta que não",
+        "top": 311.69,
+        "bottom": 322.73,
+        "x0": 33.96,
+        "x1": 557.33,
+        "column": 0
+      },
+      {
+        "text": "havemos de ver num sermão duas palavras em paz? Todas hão-de estar sempre em fronteira com o seu contrário?",
+        "top": 326.45,
+        "bottom": 337.49,
+        "x0": 33.96,
+        "x1": 557.59,
+        "column": 0
+      },
+      {
+        "text": "Aprendamos do céu o estilo da disposição,e também o das palavras. As estrelas são muito distintas e muito claras.",
+        "top": 341.21,
+        "bottom": 352.25,
+        "x0": 33.96,
+        "x1": 557.66,
+        "column": 0
+      },
+      {
+        "text": "Assim há-de ser o estilo da pregação; muito distinto e muito claro.",
+        "top": 355.97,
+        "bottom": 367.01,
+        "x0": 33.96,
+        "x1": 329.9,
+        "column": 0
+      },
+      {
+        "text": "Fonte: VIEIRA, Padre Antônio. Sermões. Erechim: Edelbra, 1998",
+        "top": 374.08,
+        "bottom": 383.08,
+        "x0": 330.0,
+        "x1": 561.12,
+        "column": 0
+      },
+      {
+        "text": "QUESTÃO 06 - No trecho acima, do \"Sermão da sexagésima\", padre Antônio Vieira critica o:",
+        "top": 401.33,
+        "bottom": 412.37,
+        "x0": 33.96,
+        "x1": 442.88,
+        "column": 0
+      },
+      {
+        "text": "Silogismo, que se baseia na dedução e apresenta duas premissas que geram uma terceira proposição lógica.",
+        "top": 424.97,
+        "bottom": 436.01,
+        "x0": 61.32,
+        "x1": 543.5,
+        "column": 0
+      },
+      {
+        "text": "Quevedismo, estilo literário marcado pela presença concisa e ordenada de ideias e conceitos.",
+        "top": 451.01,
+        "bottom": 462.05,
+        "x0": 61.32,
+        "x1": 478.58,
+        "column": 0
+      },
+      {
+        "text": "Cultismo, que se utiliza de uma linguagem rebuscada e ornamental para expressar as ideias.",
+        "top": 477.29,
+        "bottom": 488.33,
+        "x0": 61.32,
+        "x1": 472.1,
+        "column": 0
+      },
+      {
+        "text": "Conceptismo, que se define pelo uso de argumentos racionais, valorizando o conteúdo textual.",
+        "top": 504.17,
+        "bottom": 515.21,
+        "x0": 61.32,
+        "x1": 485.42,
+        "column": 0
+      },
+      {
+        "text": "Quinhentismo, movimento histórico e literário que compreendeu as manifestações culturais escritas no",
+        "top": 530.81,
+        "bottom": 541.85,
+        "x0": 61.32,
+        "x1": 560.21,
+        "column": 0
+      },
+      {
+        "text": "primeiro século da colonização brasileira.",
+        "top": 544.25,
+        "bottom": 555.29,
+        "x0": 61.32,
+        "x1": 246.02,
+        "column": 0
+      },
+      {
+        "text": "QUESTÃO 07 - Na concepção de Antônio Vieira, o ato de pregar deve ser como o de semear, uma vez que:",
+        "top": 596.57,
+        "bottom": 607.61,
+        "x0": 33.96,
+        "x1": 508.04,
+        "column": 0
+      },
+      {
+        "text": "O pregador deve lançar palavras, como o semeador lança sementes na terra, formando um xadrez de palavras.",
+        "top": 620.21,
+        "bottom": 631.25,
+        "x0": 61.32,
+        "x1": 556.34,
+        "column": 0
+      },
+      {
+        "text": "O pregador deve ordenar as palavras não como quem ladrilha ou azuleja, mas como quem dispõe palavras em",
+        "top": 646.25,
+        "bottom": 657.29,
+        "x0": 61.32,
+        "x1": 560.22,
+        "column": 0
+      },
+      {
+        "text": "contraste.",
+        "top": 659.69,
+        "bottom": 670.73,
+        "x0": 61.32,
+        "x1": 106.7,
+        "column": 0
+      },
+      {
+        "text": "O pregador deve, através do uso de antíteses e hipérboles, demonstrar o caráter dúbio e contraditório do",
+        "top": 679.01,
+        "bottom": 690.05,
+        "x0": 61.32,
+        "x1": 560.21,
+        "column": 0
+      },
+      {
+        "text": "Sermão.",
+        "top": 692.45,
+        "bottom": 703.49,
+        "x0": 61.32,
+        "x1": 98.42,
+        "column": 0
+      },
+      {
+        "text": "O pregador deve pregar com atenção especial à configuração de um \"jogo de ideias\", apresentando palavras",
+        "top": 711.89,
+        "bottom": 722.93,
+        "x0": 61.32,
+        "x1": 560.27,
+        "column": 0
+      },
+      {
+        "text": "distintas e claras.",
+        "top": 725.33,
+        "bottom": 736.37,
+        "x0": 61.32,
+        "x1": 138.38,
+        "column": 0
+      },
+      {
+        "text": "O pregador deve sempre se utilizar de uma linguagem rebuscada e ornamental para expressar as ideias.",
+        "top": 744.76,
+        "bottom": 755.8,
+        "x0": 61.32,
+        "x1": 525.38,
+        "column": 0
+      },
+      {
+        "text": "Página 8 de 24",
+        "top": 798.17,
+        "bottom": 806,
+        "x0": 496.08,
+        "x1": 561.31,
+        "column": 0
+      }
+    ],
+    "images": [
+      {
+        "x0": 35.16,
+        "x1": 49.32,
+        "top": 422.28,
+        "bottom": 437.88
+      },
+      {
+        "x0": 35.16,
+        "x1": 50.52,
+        "top": 448.44,
+        "bottom": 464.04
+      },
+      {
+        "x0": 35.16,
+        "x1": 50.52,
+        "top": 475.32,
+        "bottom": 490.92
+      },
+      {
+        "x0": 35.16,
+        "x1": 49.32,
+        "top": 501.96,
+        "bottom": 517.56
+      },
+      {
+        "x0": 35.16,
+        "x1": 50.52,
+        "top": 528.24,
+        "bottom": 543.84
+      },
+      {
+        "x0": 35.16,
+        "x1": 49.32,
+        "top": 617.4,
+        "bottom": 633.0
+      },
+      {
+        "x0": 35.16,
+        "x1": 50.52,
+        "top": 643.56,
+        "bottom": 659.16
+      },
+      {
+        "x0": 35.16,
+        "x1": 50.52,
+        "top": 677.16,
+        "bottom": 692.76
+      },
+      {
+        "x0": 35.16,
+        "x1": 49.32,
+        "top": 709.68,
+        "bottom": 725.28
+      },
+      {
+        "x0": 35.16,
+        "x1": 50.52,
+        "top": 742.2,
+        "bottom": 757.92
+      }
+    ],
+    "rects": [
+      {
+        "x0": 32.52,
+        "x1": 562.68,
+        "top": 55.32,
+        "bottom": 56.76
+      },
+      {
+        "x0": 28.8,
+        "x1": 565.32,
+        "top": 88.44,
+        "bottom": 122.04
+      },
+      {
+        "x0": 33.96,
+        "x1": 560.16,
+        "top": 88.44,
+        "bottom": 107.04
+      },
+      {
+        "x0": 33.96,
+        "x1": 560.16,
+        "top": 107.04,
+        "bottom": 122.04
+      },
+      {
+        "x0": 28.32,
+        "x1": 28.8,
+        "top": 87.96,
+        "bottom": 88.44
+      },
+      {
+        "x0": 28.32,
+        "x1": 28.8,
+        "top": 87.96,
+        "bottom": 88.44
+      },
+      {
+        "x0": 28.8,
+        "x1": 565.32,
+        "top": 87.96,
+        "bottom": 88.44
+      },
+      {
+        "x0": 565.32,
+        "x1": 565.8,
+        "top": 87.96,
+        "bottom": 88.44
+      },
+      {
+        "x0": 565.32,
+        "x1": 565.8,
+        "top": 87.96,
+        "bottom": 88.44
+      },
+      {
+        "x0": 28.32,
+        "x1": 28.8,
+        "top": 88.44,
+        "bottom": 122.16
+      },
+      {
+        "x0": 28.32,
+        "x1": 28.8,
+        "top": 122.16,
+        "bottom": 122.64
+      },
+      {
+        "x0": 28.32,
+        "x1": 28.8,
+        "top": 122.16,
+        "bottom": 122.64
+      },
+      {
+        "x0": 28.8,
+        "x1": 565.32,
+        "top": 122.16,
+        "bottom": 122.64
+      },
+      {
+        "x0": 565.32,
+        "x1": 565.8,
+        "top": 88.44,
+        "bottom": 122.16
+      },
+      {
+        "x0": 565.32,
+        "x1": 565.8,
+        "top": 122.16,
+        "bottom": 122.64
+      },
+      {
+        "x0": 565.32,
+        "x1": 565.8,
+        "top": 122.16,
+        "bottom": 122.64
+      },
+      {
+        "x0": 28.32,
+        "x1": 28.8,
+        "top": 185.16,
+        "bottom": 185.64
+      },
+      {
+        "x0": 28.32,
+        "x1": 28.8,
+        "top": 185.16,
+        "bottom": 185.64
+      },
+      {
+        "x0": 28.8,
+        "x1": 562.68,
+        "top": 185.16,
+        "bottom": 185.64
+      },
+      {
+        "x0": 562.68,
+        "x1": 563.16,
+        "top": 185.16,
+        "bottom": 185.64
+      },
+      {
+        "x0": 562.68,
+        "x1": 563.16,
+        "top": 185.16,
+        "bottom": 185.64
+      },
+      {
+        "x0": 28.32,
+        "x1": 28.8,
+        "top": 185.64,
+        "bottom": 372.48
+      },
+      {
+        "x0": 28.32,
+        "x1": 28.8,
+        "top": 372.48,
+        "bottom": 372.96
+      },
+      {
+        "x0": 28.32,
+        "x1": 28.8,
+        "top": 372.48,
+        "bottom": 372.96
+      },
+      {
+        "x0": 28.8,
+        "x1": 562.68,
+        "top": 372.48,
+        "bottom": 372.96
+      },
+      {
+        "x0": 562.68,
+        "x1": 563.16,
+        "top": 185.64,
+        "bottom": 372.48
+      },
+      {
+        "x0": 562.68,
+        "x1": 563.16,
+        "top": 372.48,
+        "bottom": 372.96
+      },
+      {
+        "x0": 562.68,
+        "x1": 563.16,
+        "top": 372.48,
+        "bottom": 372.96
+      }
+    ],
+    "curves": []
+  },
+  {
+    "page": 9,
+    "width": 595,
+    "height": 842,
+    "lines": [
+      {
+        "text": "Texto II",
+        "top": 71.57,
+        "bottom": 82.61,
+        "x0": 280.56,
+        "x1": 314.71,
+        "column": 0
+      },
+      {
+        "text": "Trecho de GALÁXIAS",
+        "top": 95.81,
+        "bottom": 106.85,
+        "x0": 248.88,
+        "x1": 342.66,
+        "column": 0
+      },
+      {
+        "text": "Haroldo de Campos",
+        "top": 116.57,
+        "bottom": 127.61,
+        "x0": 468.0,
+        "x1": 557.6,
+        "column": 0
+      },
+      {
+        "text": "[...] circuladô de fulôcirculadô de fulôcirculadô de fulôôô porque eu não posso guiá veja este livro material de",
+        "top": 137.33,
+        "bottom": 148.37,
+        "x0": 33.96,
+        "x1": 557.61,
+        "column": 0
+      },
+      {
+        "text": "consumo este aodeusaodemodarálivro que eu arrurno e desarrumo que eu uno e desuno vagagem de vagamundo",
+        "top": 152.09,
+        "bottom": 163.13,
+        "x0": 33.96,
+        "x1": 557.57,
+        "column": 0
+      },
+      {
+        "text": "na virada do mundo que deus que demo te guie então porque eu não posso não ouso não pouso não troço não toco",
+        "top": 166.85,
+        "bottom": 177.89,
+        "x0": 33.96,
+        "x1": 557.57,
+        "column": 0
+      },
+      {
+        "text": "não troco senão nos meus miúdos nos meus réis nos meus anéis nos meus dez nos meus menos nos meus nadas nas",
+        "top": 181.61,
+        "bottom": 192.65,
+        "x0": 33.96,
+        "x1": 557.63,
+        "column": 0
+      },
+      {
+        "text": "minhas penas nas antenas nas galenas nessas ninhas mais pequenas chamadas de ninharias como veremos verbenas",
+        "top": 196.49,
+        "bottom": 207.53,
+        "x0": 33.96,
+        "x1": 557.63,
+        "column": 0
+      },
+      {
+        "text": "açúcares açucenas ou circunstâncias somenas tudo isso eu sei não conta tudo isso desaponta não sei mas ouça como",
+        "top": 211.25,
+        "bottom": 222.29,
+        "x0": 33.96,
+        "x1": 557.45,
+        "column": 0
+      },
+      {
+        "text": "canta louve como conta prove como dança e não peça que eu te guie não peça despeça que eu te guie desguie que",
+        "top": 226.01,
+        "bottom": 237.05,
+        "x0": 33.96,
+        "x1": 557.37,
+        "column": 0
+      },
+      {
+        "text": "eu te peça promessa que eu te fie me deixe me esqueça me largue me desamargue que no fim eu acerto que no fim",
+        "top": 240.77,
+        "bottom": 251.81,
+        "x0": 33.96,
+        "x1": 557.46,
+        "column": 0
+      },
+      {
+        "text": "eu reverto que no fim eu conserto e para o fim me reservo e se verá que estou certo e se verá que tem jeito e se",
+        "top": 255.53,
+        "bottom": 266.57,
+        "x0": 33.96,
+        "x1": 557.61,
+        "column": 0
+      },
+      {
+        "text": "verá que está feito que pelo torto fiz direito que quem faz cesto faz cento se não guio não lamento pois o mestre",
+        "top": 270.29,
+        "bottom": 281.33,
+        "x0": 33.96,
+        "x1": 557.49,
+        "column": 0
+      },
+      {
+        "text": "que me ensinou já não dá ensinamento [...].",
+        "top": 285.05,
+        "bottom": 296.09,
+        "x0": 33.96,
+        "x1": 230.54,
+        "column": 0
+      },
+      {
+        "text": "Fonte: CAMPOS, Haroldo de. Galáxias. São Paulo, Ex-Libris, 1984",
+        "top": 303.04,
+        "bottom": 312.04,
+        "x0": 325.32,
+        "x1": 561.24,
+        "column": 0
+      },
+      {
+        "text": "QUESTÃO 08 – O trecho acima retirado do livro Galáxias, de Haroldo de Campos, apresenta algumas características",
+        "top": 327.41,
+        "bottom": 338.45,
+        "x0": 33.96,
+        "x1": 561.35,
+        "column": 0
+      },
+      {
+        "text": "que o aproximam da estética barroca. Dentre essas características, pode-se destacar o uso predominante das",
+        "top": 342.17,
+        "bottom": 353.21,
+        "x0": 33.96,
+        "x1": 561.35,
+        "column": 0
+      },
+      {
+        "text": "seguintes figuras de linguagem:",
+        "top": 356.93,
+        "bottom": 367.97,
+        "x0": 33.96,
+        "x1": 175.04,
+        "column": 0
+      },
+      {
+        "text": "Metáfora e catacrese.",
+        "top": 380.57,
+        "bottom": 391.61,
+        "x0": 61.32,
+        "x1": 159.38,
+        "column": 0
+      },
+      {
+        "text": "Metáfora e perífrase.",
+        "top": 406.61,
+        "bottom": 417.65,
+        "x0": 61.32,
+        "x1": 156.62,
+        "column": 0
+      },
+      {
+        "text": "Antítese e prosopopeia.",
+        "top": 432.89,
+        "bottom": 443.93,
+        "x0": 61.32,
+        "x1": 168.14,
+        "column": 0
+      },
+      {
+        "text": "Antítese e personificação.",
+        "top": 459.77,
+        "bottom": 470.81,
+        "x0": 61.32,
+        "x1": 177.02,
+        "column": 0
+      },
+      {
+        "text": "Aliteração e assonância.",
+        "top": 486.41,
+        "bottom": 497.45,
+        "x0": 61.32,
+        "x1": 168.98,
+        "column": 0
+      },
+      {
+        "text": "TEXTO III",
+        "top": 518.81,
+        "bottom": 529.85,
+        "x0": 277.08,
+        "x1": 318.19,
+        "column": 0
+      },
+      {
+        "text": "Ao mesmo assunto",
+        "top": 549.05,
+        "bottom": 560.09,
+        "x0": 252.24,
+        "x1": 339.42,
+        "column": 0
+      },
+      {
+        "text": "Gregório de Matos",
+        "top": 575.81,
+        "bottom": 586.85,
+        "x0": 471.84,
+        "x1": 557.6,
+        "column": 0
+      },
+      {
+        "text": "Um paiá de Monai, bonzo bramá Que é fidalgo nos ossos cremos nós,",
+        "top": 605.57,
+        "bottom": 616.61,
+        "x0": 88.92,
+        "x1": 510.12,
+        "column": 0
+      },
+      {
+        "text": "Primaz da cafraria do Pegu, Pois nisso consistia o mor brasão",
+        "top": 620.33,
+        "bottom": 631.37,
+        "x0": 101.16,
+        "x1": 502.73,
+        "column": 0
+      },
+      {
+        "text": "Quem sem ser do Pequim, por ser do Acu, Daqueles que comiam seus avós.",
+        "top": 635.09,
+        "bottom": 646.13,
+        "x0": 68.16,
+        "x1": 503.06,
+        "column": 0
+      },
+      {
+        "text": "Quer ser filho do sol, nascendo cá.",
+        "top": 649.85,
+        "bottom": 660.89,
+        "x0": 85.32,
+        "x1": 238.94,
+        "column": 0
+      },
+      {
+        "text": "E como isto lhe vem por geração,",
+        "top": 664.73,
+        "bottom": 675.77,
+        "x0": 355.2,
+        "x1": 503.64,
+        "column": 0
+      },
+      {
+        "text": "Tem tomado por timbre em seus teirós",
+        "top": 679.49,
+        "bottom": 690.53,
+        "x0": 341.88,
+        "x1": 516.95,
+        "column": 0
+      },
+      {
+        "text": "Tenha embora um avô nascido lá, Morder nos que provêm de outra nação.",
+        "top": 691.49,
+        "bottom": 705.29,
+        "x0": 86.88,
+        "x1": 520.34,
+        "column": 0
+      },
+      {
+        "text": "Cá tem tres pela costa do Cairu,",
+        "top": 706.25,
+        "bottom": 717.29,
+        "x0": 91.2,
+        "x1": 232.92,
+        "column": 0
+      },
+      {
+        "text": "E o principal se diz Paraguaçu,",
+        "top": 721.01,
+        "bottom": 732.05,
+        "x0": 95.04,
+        "x1": 229.2,
+        "column": 0
+      },
+      {
+        "text": "Descendente este tal de um Guinamá.",
+        "top": 735.77,
+        "bottom": 746.81,
+        "x0": 76.92,
+        "x1": 247.46,
+        "column": 0
+      },
+      {
+        "text": "Fonte: MATOS, Gregório. \"Ao mesmo Assunto\". In: WISNIK, José Miguel. Poemas escolhidos de Gregório de matos. São Paulo: Companhia das",
+        "top": 753.76,
+        "bottom": 762.76,
+        "x0": 44.76,
+        "x1": 561.28,
+        "column": 0
+      },
+      {
+        "text": "letras, 2010, p. 109",
+        "top": 765.88,
+        "bottom": 774.88,
+        "x0": 491.16,
+        "x1": 561.12,
+        "column": 0
+      },
+      {
+        "text": "Página 9 de 24",
+        "top": 798.17,
+        "bottom": 806,
+        "x0": 496.08,
+        "x1": 561.31,
+        "column": 0
+      }
+    ],
+    "images": [
+      {
+        "x0": 35.16,
+        "x1": 49.32,
+        "top": 377.76,
+        "bottom": 393.48
+      },
+      {
+        "x0": 35.16,
+        "x1": 50.52,
+        "top": 404.04,
+        "bottom": 419.64
+      },
+      {
+        "x0": 35.16,
+        "x1": 50.52,
+        "top": 430.92,
+        "bottom": 446.52
+      },
+      {
+        "x0": 35.16,
+        "x1": 49.32,
+        "top": 457.56,
+        "bottom": 473.16
+      },
+      {
+        "x0": 35.16,
+        "x1": 50.52,
+        "top": 483.84,
+        "bottom": 499.44
+      }
+    ],
+    "rects": [
+      {
+        "x0": 32.52,
+        "x1": 562.68,
+        "top": 55.32,
+        "bottom": 56.76
+      },
+      {
+        "x0": 28.32,
+        "x1": 28.8,
+        "top": 87.96,
+        "bottom": 88.44
+      },
+      {
+        "x0": 28.32,
+        "x1": 28.8,
+        "top": 87.96,
+        "bottom": 88.44
+      },
+      {
+        "x0": 28.8,
+        "x1": 562.68,
+        "top": 87.96,
+        "bottom": 88.44
+      },
+      {
+        "x0": 562.68,
+        "x1": 563.16,
+        "top": 87.96,
+        "bottom": 88.44
+      },
+      {
+        "x0": 562.68,
+        "x1": 563.16,
+        "top": 87.96,
+        "bottom": 88.44
+      },
+      {
+        "x0": 28.32,
+        "x1": 28.8,
+        "top": 88.44,
+        "bottom": 301.44
+      },
+      {
+        "x0": 28.32,
+        "x1": 28.8,
+        "top": 301.44,
+        "bottom": 301.92
+      },
+      {
+        "x0": 28.32,
+        "x1": 28.8,
+        "top": 301.44,
+        "bottom": 301.92
+      },
+      {
+        "x0": 28.8,
+        "x1": 562.68,
+        "top": 301.44,
+        "bottom": 301.92
+      },
+      {
+        "x0": 562.68,
+        "x1": 563.16,
+        "top": 88.44,
+        "bottom": 301.44
+      },
+      {
+        "x0": 562.68,
+        "x1": 563.16,
+        "top": 301.44,
+        "bottom": 301.92
+      },
+      {
+        "x0": 562.68,
+        "x1": 563.16,
+        "top": 301.44,
+        "bottom": 301.92
+      },
+      {
+        "x0": 28.32,
+        "x1": 28.8,
+        "top": 535.2,
+        "bottom": 535.68
+      },
+      {
+        "x0": 28.32,
+        "x1": 28.8,
+        "top": 535.2,
+        "bottom": 535.68
+      },
+      {
+        "x0": 28.8,
+        "x1": 562.68,
+        "top": 535.2,
+        "bottom": 535.68
+      },
+      {
+        "x0": 562.68,
+        "x1": 563.16,
+        "top": 535.2,
+        "bottom": 535.68
+      },
+      {
+        "x0": 562.68,
+        "x1": 563.16,
+        "top": 535.2,
+        "bottom": 535.68
+      },
+      {
+        "x0": 28.32,
+        "x1": 28.8,
+        "top": 535.68,
+        "bottom": 592.2
+      },
+      {
+        "x0": 562.68,
+        "x1": 563.16,
+        "top": 535.68,
+        "bottom": 592.2
+      },
+      {
+        "x0": 28.32,
+        "x1": 28.8,
+        "top": 592.2,
+        "bottom": 752.16
+      },
+      {
+        "x0": 28.32,
+        "x1": 28.8,
+        "top": 752.16,
+        "bottom": 752.64
+      },
+      {
+        "x0": 28.32,
+        "x1": 28.8,
+        "top": 752.16,
+        "bottom": 752.64
+      },
+      {
+        "x0": 28.8,
+        "x1": 295.68,
+        "top": 752.16,
+        "bottom": 752.64
+      },
+      {
+        "x0": 294.96,
+        "x1": 295.44,
+        "top": 752.16,
+        "bottom": 752.64
+      },
+      {
+        "x0": 295.44,
+        "x1": 562.68,
+        "top": 752.16,
+        "bottom": 752.64
+      },
+      {
+        "x0": 562.68,
+        "x1": 563.16,
+        "top": 592.2,
+        "bottom": 752.16
+      },
+      {
+        "x0": 562.68,
+        "x1": 563.16,
+        "top": 752.16,
+        "bottom": 752.64
+      },
+      {
+        "x0": 562.68,
+        "x1": 563.16,
+        "top": 752.16,
+        "bottom": 752.64
+      }
+    ],
+    "curves": []
+  },
+  {
+    "page": 10,
+    "width": 595,
+    "height": 842,
+    "lines": [
+      {
+        "text": "Glossário:",
+        "top": 98.33,
+        "bottom": 109.37,
+        "x0": 33.96,
+        "x1": 79.49,
+        "column": 0
+      },
+      {
+        "text": "Acu: Sensação produzida por temperatura elevada. Calor",
+        "top": 116.09,
+        "bottom": 127.13,
+        "x0": 33.96,
+        "x1": 288.37,
+        "column": 0
+      },
+      {
+        "text": "Bonzo bramá: sacerdote budista, natural do reino de Bramá, ou Birmâmia",
+        "top": 130.85,
+        "bottom": 141.89,
+        "x0": 33.96,
+        "x1": 363.6,
+        "column": 0
+      },
+      {
+        "text": "Teirós: teima, má vontade.",
+        "top": 145.61,
+        "bottom": 156.65,
+        "x0": 33.96,
+        "x1": 153.86,
+        "column": 0
+      },
+      {
+        "text": "QUESTÃO 09 - No soneto apresentado logo acima, o poeta barroco Gregório de Matos:",
+        "top": 175.13,
+        "bottom": 186.17,
+        "x0": 33.96,
+        "x1": 423.44,
+        "column": 0
+      },
+      {
+        "text": "Faz uma crítica à elite brasileira da época, egoísta e mesquinha.",
+        "top": 195.77,
+        "bottom": 206.81,
+        "x0": 61.32,
+        "x1": 344.78,
+        "column": 0
+      },
+      {
+        "text": "Faz uma crítica aos senhores de engenho, representados pela figura do \"bonzo bramá\".",
+        "top": 221.81,
+        "bottom": 232.85,
+        "x0": 61.32,
+        "x1": 451.82,
+        "column": 0
+      },
+      {
+        "text": "Satiriza a figura do \"fidalgo caramuru\", como era chamado depreciativamente o descendente de colonizador",
+        "top": 248.09,
+        "bottom": 259.13,
+        "x0": 61.32,
+        "x1": 560.29,
+        "column": 0
+      },
+      {
+        "text": "português.",
+        "top": 261.53,
+        "bottom": 272.57,
+        "x0": 61.32,
+        "x1": 109.82,
+        "column": 0
+      },
+      {
+        "text": "Satiriza a cultura do indígena que \"quer ser filho do sol, nascendo cá\".",
+        "top": 280.97,
+        "bottom": 292.01,
+        "x0": 61.32,
+        "x1": 373.22,
+        "column": 0
+      },
+      {
+        "text": "Satiriza os Padres Jesuítas da época, que seriam um \"paiá de Monai\".",
+        "top": 307.49,
+        "bottom": 318.53,
+        "x0": 61.32,
+        "x1": 369.62,
+        "column": 0
+      },
+      {
+        "text": "QUESTÃO 10 - De acordo com José Miguel Wisnik (in: WISNIK, José Miguel. Poemas escolhidos de Gregório de Matos.",
+        "top": 366.77,
+        "bottom": 377.81,
+        "x0": 33.96,
+        "x1": 561.38,
+        "column": 0
+      },
+      {
+        "text": "São Paulo: Companhia das letras, 2011, p.24), no Primeiro terceto do Soneto, onde se lê",
+        "top": 381.53,
+        "bottom": 392.57,
+        "x0": 33.96,
+        "x1": 427.06,
+        "column": 0
+      },
+      {
+        "text": "\"Que é fildalgo nos ossos cremos nós,",
+        "top": 417.05,
+        "bottom": 428.09,
+        "x0": 214.32,
+        "x1": 380.99,
+        "column": 0
+      },
+      {
+        "text": "pois nisso consistia o mor brasão",
+        "top": 434.81,
+        "bottom": 445.85,
+        "x0": 224.52,
+        "x1": 370.82,
+        "column": 0
+      },
+      {
+        "text": "daqueles que comiam seus avós\"",
+        "top": 452.57,
+        "bottom": 463.61,
+        "x0": 224.28,
+        "x1": 370.91,
+        "column": 0
+      },
+      {
+        "text": "o poema \"desvenda ironicamente, num lance de agudeza conceptual, a ‘verdadeira’ natureza de sua fidalguia”, que",
+        "top": 488.09,
+        "bottom": 499.13,
+        "x0": 33.96,
+        "x1": 561.33,
+        "column": 0
+      },
+      {
+        "text": "seria:",
+        "top": 502.85,
+        "bottom": 513.89,
+        "x0": 33.96,
+        "x1": 58.4,
+        "column": 0
+      },
+      {
+        "text": "O Indigenismo.",
+        "top": 526.49,
+        "bottom": 537.53,
+        "x0": 61.32,
+        "x1": 128.66,
+        "column": 0
+      },
+      {
+        "text": "A Antropofagia.",
+        "top": 552.53,
+        "bottom": 563.57,
+        "x0": 61.32,
+        "x1": 131.66,
+        "column": 0
+      },
+      {
+        "text": "O Conceptismo.",
+        "top": 578.81,
+        "bottom": 589.85,
+        "x0": 61.32,
+        "x1": 132.5,
+        "column": 0
+      },
+      {
+        "text": "O Cultismo.",
+        "top": 605.69,
+        "bottom": 616.73,
+        "x0": 61.32,
+        "x1": 113.3,
+        "column": 0
+      },
+      {
+        "text": "O Sacerdotismo.",
+        "top": 632.33,
+        "bottom": 643.37,
+        "x0": 61.32,
+        "x1": 134.9,
+        "column": 0
+      },
+      {
+        "text": "Página 10 de 24",
+        "top": 798.17,
+        "bottom": 806,
+        "x0": 490.56,
+        "x1": 561.31,
+        "column": 0
+      }
+    ],
+    "images": [
+      {
+        "x0": 35.16,
+        "x1": 49.32,
+        "top": 193.08,
+        "bottom": 208.68
+      },
+      {
+        "x0": 35.16,
+        "x1": 50.52,
+        "top": 219.24,
+        "bottom": 234.84
+      },
+      {
+        "x0": 35.16,
+        "x1": 50.52,
+        "top": 246.12,
+        "bottom": 261.72
+      },
+      {
+        "x0": 35.16,
+        "x1": 49.32,
+        "top": 278.64,
+        "bottom": 294.36
+      },
+      {
+        "x0": 35.16,
+        "x1": 50.52,
+        "top": 305.04,
+        "bottom": 320.64
+      },
+      {
+        "x0": 35.16,
+        "x1": 49.32,
+        "top": 523.68,
+        "bottom": 539.4
+      },
+      {
+        "x0": 35.16,
+        "x1": 50.52,
+        "top": 549.96,
+        "bottom": 565.56
+      },
+      {
+        "x0": 35.16,
+        "x1": 50.52,
+        "top": 576.84,
+        "bottom": 592.44
+      },
+      {
+        "x0": 35.16,
+        "x1": 49.32,
+        "top": 603.48,
+        "bottom": 619.08
+      },
+      {
+        "x0": 35.16,
+        "x1": 50.52,
+        "top": 629.76,
+        "bottom": 645.36
+      }
+    ],
+    "rects": [
+      {
+        "x0": 32.52,
+        "x1": 562.68,
+        "top": 55.32,
+        "bottom": 56.76
+      }
+    ],
+    "curves": []
+  },
+  {
+    "page": 11,
+    "width": 595,
+    "height": 842,
+    "lines": [
+      {
+        "text": "BIOLOGIA",
+        "top": 76.18,
+        "bottom": 88.18,
+        "x0": 272.4,
+        "x1": 321.79,
+        "column": 0
+      },
+      {
+        "text": "Objetivas",
+        "top": 90.4,
+        "bottom": 99.4,
+        "x0": 279.84,
+        "x1": 314.08,
+        "column": 0
+      },
+      {
+        "text": "Questões de 11 a 15",
+        "top": 106.01,
+        "bottom": 117.05,
+        "x0": 251.52,
+        "x1": 343.75,
+        "column": 0
+      },
+      {
+        "text": "QUESTÃO 11 - A gametogênese é o processo pelo qual células germinativas primordiais se desenvolvem em gametas",
+        "top": 125.57,
+        "bottom": 136.61,
+        "x0": 33.96,
+        "x1": 561.35,
+        "column": 0
+      },
+      {
+        "text": "maduros, como os ovócitos e espermatozoides. Esse processo é fundamental para a reprodução humana e a",
+        "top": 140.33,
+        "bottom": 151.37,
+        "x0": 33.96,
+        "x1": 561.36,
+        "column": 0
+      },
+      {
+        "text": "transmissão de características genéticas hereditárias.",
+        "top": 155.09,
+        "bottom": 166.13,
+        "x0": 33.96,
+        "x1": 271.94,
+        "column": 0
+      },
+      {
+        "text": "Considerando a ovulogênese e a espermatogênese, há semelhanças entre esses processos porque",
+        "top": 181.97,
+        "bottom": 193.01,
+        "x0": 33.96,
+        "x1": 472.29,
+        "column": 0
+      },
+      {
+        "text": "a espermatogênese e a ovulogênese são controladas pelo hormônio testosterona.",
+        "top": 205.61,
+        "bottom": 216.65,
+        "x0": 61.32,
+        "x1": 428.18,
+        "column": 0
+      },
+      {
+        "text": "ambos os gametas são liberados antes do término da meiose II, que é concluída com a fecundação.",
+        "top": 231.65,
+        "bottom": 242.69,
+        "x0": 61.32,
+        "x1": 503.9,
+        "column": 0
+      },
+      {
+        "text": "ambos os processos originam ovócitos e espermatozoides haploides.",
+        "top": 257.81,
+        "bottom": 268.85,
+        "x0": 61.32,
+        "x1": 368.54,
+        "column": 0
+      },
+      {
+        "text": "os dois mecanismos produzem quatro gametas funcionais.",
+        "top": 284.69,
+        "bottom": 295.73,
+        "x0": 61.32,
+        "x1": 322.7,
+        "column": 0
+      },
+      {
+        "text": "tanto os ovócitos quantos os espermatozoides são produzidos durante toda a vida.",
+        "top": 311.33,
+        "bottom": 322.37,
+        "x0": 61.32,
+        "x1": 431.42,
+        "column": 0
+      },
+      {
+        "text": "QUESTÃO 12 - As ferramentas da engenharia genética tiveram importância fundamental para o desenvolvimento das",
+        "top": 343.73,
+        "bottom": 354.77,
+        "x0": 33.96,
+        "x1": 561.35,
+        "column": 0
+      },
+      {
+        "text": "vacinas de RNA que auxiliaram no combate à pandemia da COVID-19. As vacinas de RNA induzem a produção de",
+        "top": 358.49,
+        "bottom": 369.53,
+        "x0": 33.96,
+        "x1": 561.33,
+        "column": 0
+      },
+      {
+        "text": "antígenos que estimulam o sistema imunológico humano a produzirem anticorpos e células de defesa que protegem",
+        "top": 373.25,
+        "bottom": 384.29,
+        "x0": 33.96,
+        "x1": 561.29,
+        "column": 0
+      },
+      {
+        "text": "o organismo da infecção.",
+        "top": 388.01,
+        "bottom": 399.05,
+        "x0": 33.96,
+        "x1": 145.94,
+        "column": 0
+      },
+      {
+        "text": "Neste contexto, a engenharia genética contribuiu para o desenvolvimento de vacinas de RNA devido à (ao)",
+        "top": 405.77,
+        "bottom": 416.81,
+        "x0": 33.96,
+        "x1": 510.82,
+        "column": 0
+      },
+      {
+        "text": "alteração do genoma humano para o aumento da resistência aos vírus.",
+        "top": 429.53,
+        "bottom": 440.57,
+        "x0": 61.32,
+        "x1": 378.14,
+        "column": 0
+      },
+      {
+        "text": "desenvolvimento de vírus expressando enzimas de restrição.",
+        "top": 455.57,
+        "bottom": 466.61,
+        "x0": 61.32,
+        "x1": 332.66,
+        "column": 0
+      },
+      {
+        "text": "geração de células de defesa modificadas geneticamente para o aumento da resposta imune.",
+        "top": 481.73,
+        "bottom": 492.77,
+        "x0": 61.32,
+        "x1": 477.86,
+        "column": 0
+      },
+      {
+        "text": "produção de vírus inativados para estimularem o sistema imunológico.",
+        "top": 508.61,
+        "bottom": 519.65,
+        "x0": 61.32,
+        "x1": 377.3,
+        "column": 0
+      },
+      {
+        "text": "síntese de um RNAm sintético responsável pela produção de uma proteína viral.",
+        "top": 535.25,
+        "bottom": 546.29,
+        "x0": 61.32,
+        "x1": 419.18,
+        "column": 0
+      },
+      {
+        "text": "QUESTÃO 13 – Pesquisadores observaram que indivíduos de uma população de plantas, em Equilíbrio de Hardy-",
+        "top": 579.65,
+        "bottom": 590.69,
+        "x0": 33.96,
+        "x1": 561.37,
+        "column": 0
+      },
+      {
+        "text": "Weinberg, produziam flores vermelhas ou brancas. Além disso, foi constatado que a cor vermelha era devido à ação",
+        "top": 594.41,
+        "bottom": 605.45,
+        "x0": 33.96,
+        "x1": 561.29,
+        "column": 0
+      },
+      {
+        "text": "de um alelo A (dominante) e a cor branca devido ao alelo a (recessivo).",
+        "top": 609.17,
+        "bottom": 620.21,
+        "x0": 33.96,
+        "x1": 350.9,
+        "column": 0
+      },
+      {
+        "text": "Sabendo-se que a frequência do alelo a nesta população é 0,3, qual a frequência do genótipo heterozigoto?",
+        "top": 635.93,
+        "bottom": 646.97,
+        "x0": 33.96,
+        "x1": 514.51,
+        "column": 0
+      },
+      {
+        "text": "0,12",
+        "top": 659.57,
+        "bottom": 670.61,
+        "x0": 61.32,
+        "x1": 80.83,
+        "column": 0
+      },
+      {
+        "text": "0,22",
+        "top": 685.61,
+        "bottom": 696.65,
+        "x0": 61.32,
+        "x1": 80.83,
+        "column": 0
+      },
+      {
+        "text": "0,32",
+        "top": 711.89,
+        "bottom": 722.93,
+        "x0": 61.32,
+        "x1": 80.83,
+        "column": 0
+      },
+      {
+        "text": "0,42",
+        "top": 738.76,
+        "bottom": 749.8,
+        "x0": 61.32,
+        "x1": 80.83,
+        "column": 0
+      },
+      {
+        "text": "0,52",
+        "top": 765.4,
+        "bottom": 776.44,
+        "x0": 61.32,
+        "x1": 80.83,
+        "column": 0
+      },
+      {
+        "text": "Página 11 de 24",
+        "top": 798.17,
+        "bottom": 806,
+        "x0": 490.56,
+        "x1": 561.31,
+        "column": 0
+      }
+    ],
+    "images": [
+      {
+        "x0": 35.16,
+        "x1": 49.32,
+        "top": 426.72,
+        "bottom": 442.32
+      },
+      {
+        "x0": 35.16,
+        "x1": 50.52,
+        "top": 452.88,
+        "bottom": 468.48
+      },
+      {
+        "x0": 35.16,
+        "x1": 50.52,
+        "top": 479.76,
+        "bottom": 495.48
+      },
+      {
+        "x0": 35.16,
+        "x1": 49.32,
+        "top": 506.4,
+        "bottom": 522.0
+      },
+      {
+        "x0": 35.16,
+        "x1": 50.52,
+        "top": 532.68,
+        "bottom": 548.28
+      },
+      {
+        "x0": 35.16,
+        "x1": 49.32,
+        "top": 202.8,
+        "bottom": 218.4
+      },
+      {
+        "x0": 35.16,
+        "x1": 50.52,
+        "top": 228.96,
+        "bottom": 244.68
+      },
+      {
+        "x0": 35.16,
+        "x1": 50.52,
+        "top": 255.84,
+        "bottom": 271.56
+      },
+      {
+        "x0": 35.16,
+        "x1": 49.32,
+        "top": 282.48,
+        "bottom": 298.08
+      },
+      {
+        "x0": 35.16,
+        "x1": 50.52,
+        "top": 308.76,
+        "bottom": 324.48
+      },
+      {
+        "x0": 35.16,
+        "x1": 49.32,
+        "top": 656.76,
+        "bottom": 672.48
+      },
+      {
+        "x0": 35.16,
+        "x1": 50.52,
+        "top": 683.04,
+        "bottom": 698.64
+      },
+      {
+        "x0": 35.16,
+        "x1": 50.52,
+        "top": 709.92,
+        "bottom": 725.52
+      },
+      {
+        "x0": 35.16,
+        "x1": 49.32,
+        "top": 736.56,
+        "bottom": 752.16
+      },
+      {
+        "x0": 35.16,
+        "x1": 50.52,
+        "top": 762.84,
+        "bottom": 778.44
+      }
+    ],
+    "rects": [
+      {
+        "x0": 32.52,
+        "x1": 562.68,
+        "top": 55.32,
+        "bottom": 56.76
+      },
+      {
+        "x0": 28.8,
+        "x1": 565.32,
+        "top": 70.68,
+        "bottom": 104.28
+      },
+      {
+        "x0": 33.96,
+        "x1": 560.16,
+        "top": 70.68,
+        "bottom": 89.28
+      },
+      {
+        "x0": 33.96,
+        "x1": 560.16,
+        "top": 89.28,
+        "bottom": 104.28
+      },
+      {
+        "x0": 28.32,
+        "x1": 28.8,
+        "top": 70.2,
+        "bottom": 70.68
+      },
+      {
+        "x0": 28.32,
+        "x1": 28.8,
+        "top": 70.2,
+        "bottom": 70.68
+      },
+      {
+        "x0": 28.8,
+        "x1": 565.32,
+        "top": 70.2,
+        "bottom": 70.68
+      },
+      {
+        "x0": 565.32,
+        "x1": 565.8,
+        "top": 70.2,
+        "bottom": 70.68
+      },
+      {
+        "x0": 565.32,
+        "x1": 565.8,
+        "top": 70.2,
+        "bottom": 70.68
+      },
+      {
+        "x0": 28.32,
+        "x1": 28.8,
+        "top": 70.68,
+        "bottom": 104.28
+      },
+      {
+        "x0": 28.32,
+        "x1": 28.8,
+        "top": 104.28,
+        "bottom": 104.76
+      },
+      {
+        "x0": 28.32,
+        "x1": 28.8,
+        "top": 104.28,
+        "bottom": 104.76
+      },
+      {
+        "x0": 28.8,
+        "x1": 565.32,
+        "top": 104.28,
+        "bottom": 104.76
+      },
+      {
+        "x0": 565.32,
+        "x1": 565.8,
+        "top": 70.68,
+        "bottom": 104.28
+      },
+      {
+        "x0": 565.32,
+        "x1": 565.8,
+        "top": 104.28,
+        "bottom": 104.76
+      },
+      {
+        "x0": 565.32,
+        "x1": 565.8,
+        "top": 104.28,
+        "bottom": 104.76
+      }
+    ],
+    "curves": []
+  },
+  {
+    "page": 12,
+    "width": 595,
+    "height": 842,
+    "lines": [
+      {
+        "text": "QUESTÃO 14 - Leia a notícia a seguir.",
+        "top": 71.57,
+        "bottom": 82.61,
+        "x0": 33.96,
+        "x1": 199.34,
+        "column": 0
+      },
+      {
+        "text": "“Duas meninas gêmeas que nasceram unidas pela cabeça e foram separadas com sucesso no ano passado por uma",
+        "top": 99.77,
+        "bottom": 110.81,
+        "x0": 33.96,
+        "x1": 561.37,
+        "column": 0
+      },
+      {
+        "text": "equipe do Hospital Great Ormond Street, em Londres, voltaram para casa no Paquistão nesta semana. Safa e Marwa",
+        "top": 114.53,
+        "bottom": 125.57,
+        "x0": 33.96,
+        "x1": 561.36,
+        "column": 0
+      },
+      {
+        "text": "Bibi, de 3 anos e meio, foram submetidas a três grandes operações, passando mais de 50 horas em cirurgia.[...]",
+        "top": 129.41,
+        "bottom": 140.45,
+        "x0": 33.96,
+        "x1": 561.15,
+        "column": 0
+      },
+      {
+        "text": "Gêmeos siameses são raros e casos em que eles são unidos pela cabeça são mais raros ainda. Apenas um a cada 20",
+        "top": 144.17,
+        "bottom": 155.21,
+        "x0": 33.96,
+        "x1": 561.31,
+        "column": 0
+      },
+      {
+        "text": "casos de gêmeos siameses a união é pela cabeça, com o crânio de ambos fundido - caso conhecido como gêmeos",
+        "top": 158.93,
+        "bottom": 169.97,
+        "x0": 33.96,
+        "x1": 561.35,
+        "column": 0
+      },
+      {
+        "text": "craniópagos. [...] A fisiologia específica de Safa e Marwa apresentou um conjunto único de desafios para a equipe",
+        "top": 173.69,
+        "bottom": 184.73,
+        "x0": 33.96,
+        "x1": 561.21,
+        "column": 0
+      },
+      {
+        "text": "médica. As meninas eram unidas pelo topo de suas cabeças, voltadas para direções opostas. Elas nunca tinham visto",
+        "top": 188.45,
+        "bottom": 199.49,
+        "x0": 33.96,
+        "x1": 561.29,
+        "column": 0
+      },
+      {
+        "text": "os rostos uma da outra. As gêmeas tinham um labirinto de vasos sanguíneos compartilhados que nutriam os cérebros",
+        "top": 203.21,
+        "bottom": 214.25,
+        "x0": 33.96,
+        "x1": 561.35,
+        "column": 0
+      },
+      {
+        "text": "de ambas. Apenas uma delas poderia receber alguns dos principais vasos sanguíneos. Estes foram dados a Marwa,",
+        "top": 217.97,
+        "bottom": 229.01,
+        "x0": 33.96,
+        "x1": 561.36,
+        "column": 0
+      },
+      {
+        "text": "que era a gêmea mais fraca.”",
+        "top": 232.73,
+        "bottom": 243.77,
+        "x0": 33.96,
+        "x1": 164.09,
+        "column": 0
+      },
+      {
+        "text": "Fonte: https://www.bbc.com/portuguese/geral-54608964. Acesso em: 22 junho 2023.",
+        "top": 251.8,
+        "bottom": 260.8,
+        "x0": 245.4,
+        "x1": 561.23,
+        "column": 0
+      },
+      {
+        "text": "O caso de Safa e Marwa é tratado como um dentre os tipos de gravidez gemelar (formação de gêmeos), os quais",
+        "top": 274.97,
+        "bottom": 286.01,
+        "x0": 33.96,
+        "x1": 561.35,
+        "column": 0
+      },
+      {
+        "text": "podem inspirar cuidados específicos, a depender de suas características.",
+        "top": 289.73,
+        "bottom": 300.77,
+        "x0": 33.96,
+        "x1": 357.14,
+        "column": 0
+      },
+      {
+        "text": "No caso apresentado na reportagem, dizemos que as gêmeas",
+        "top": 316.49,
+        "bottom": 327.53,
+        "x0": 33.96,
+        "x1": 308.27,
+        "column": 0
+      },
+      {
+        "text": "apresentavam cavidades amnióticas e cordões umbilicais independentes durante o desenvolvimento",
+        "top": 340.25,
+        "bottom": 351.29,
+        "x0": 61.32,
+        "x1": 560.21,
+        "column": 0
+      },
+      {
+        "text": "embrionário.",
+        "top": 353.57,
+        "bottom": 364.61,
+        "x0": 61.32,
+        "x1": 119.66,
+        "column": 0
+      },
+      {
+        "text": "compartilhavam o mesmo cordão umbilical e a mesma placenta durante o desenvolvimento embrionário,",
+        "top": 373.01,
+        "bottom": 384.05,
+        "x0": 61.32,
+        "x1": 560.28,
+        "column": 0
+      },
+      {
+        "text": "havendo mistura entre sangue materno e fetal.",
+        "top": 386.45,
+        "bottom": 397.49,
+        "x0": 61.32,
+        "x1": 272.66,
+        "column": 0
+      },
+      {
+        "text": "não possuem o mesmo patrimônio genético, sendo chamadas de gêmeas fraternas e podendo, inclusive,",
+        "top": 405.89,
+        "bottom": 416.93,
+        "x0": 61.32,
+        "x1": 560.28,
+        "column": 0
+      },
+      {
+        "text": "apresentar sexos diferentes.",
+        "top": 419.33,
+        "bottom": 430.37,
+        "x0": 61.32,
+        "x1": 188.18,
+        "column": 0
+      },
+      {
+        "text": "são resultado da liberação de mais de um ovócito do ovário da mãe, sendo cada um deles fecundado por um",
+        "top": 438.77,
+        "bottom": 449.81,
+        "x0": 61.32,
+        "x1": 560.22,
+        "column": 0
+      },
+      {
+        "text": "espermatozoide.",
+        "top": 452.21,
+        "bottom": 463.25,
+        "x0": 61.32,
+        "x1": 136.58,
+        "column": 0
+      },
+      {
+        "text": "resultaram de uma diferenciação no interior do blastocisto e compartilhavam a mesma placenta e a mesma",
+        "top": 471.65,
+        "bottom": 482.69,
+        "x0": 61.32,
+        "x1": 560.28,
+        "column": 0
+      },
+      {
+        "text": "cavidade amniótica durante o desenvolvimento embrionário.",
+        "top": 485.09,
+        "bottom": 496.13,
+        "x0": 61.32,
+        "x1": 334.7,
+        "column": 0
+      },
+      {
+        "text": "QUESTÃO 15 - A ovinocultura tem um importante papel econômico, seja na produção de lã, carne ou outros insumos",
+        "top": 510.65,
+        "bottom": 521.69,
+        "x0": 33.96,
+        "x1": 561.35,
+        "column": 0
+      },
+      {
+        "text": "utilizados pelo homem. Na produção animal, a escolha dos melhores animais e o cruzamento entre os mesmos é a",
+        "top": 525.41,
+        "bottom": 536.45,
+        "x0": 33.96,
+        "x1": 561.37,
+        "column": 0
+      },
+      {
+        "text": "base para a obtenção de genótipos específicos que incrementam a média de produção pelos produtores.",
+        "top": 540.17,
+        "bottom": 551.21,
+        "x0": 33.96,
+        "x1": 502.7,
+        "column": 0
+      },
+      {
+        "text": "Um casal de ovinos, em que ambos os genitores possuem genótipo AaBbCc, foi intercruzado. Considerando-se que os",
+        "top": 566.93,
+        "bottom": 577.97,
+        "x0": 33.96,
+        "x1": 561.23,
+        "column": 0
+      },
+      {
+        "text": "genes em questão segregam-se independentemente, qual a probabilidade de o casal gerar um filhote com o mesmo",
+        "top": 581.69,
+        "bottom": 592.73,
+        "x0": 33.96,
+        "x1": 561.3,
+        "column": 0
+      },
+      {
+        "text": "genótipo que os seus?",
+        "top": 596.45,
+        "bottom": 607.49,
+        "x0": 33.96,
+        "x1": 133.63,
+        "column": 0
+      },
+      {
+        "text": "1/2",
+        "top": 620.69,
+        "bottom": 631.73,
+        "x0": 61.32,
+        "x1": 76.75,
+        "column": 0
+      },
+      {
+        "text": "1/4",
+        "top": 652.97,
+        "bottom": 664.01,
+        "x0": 61.32,
+        "x1": 76.75,
+        "column": 0
+      },
+      {
+        "text": "1/8",
+        "top": 685.85,
+        "bottom": 696.89,
+        "x0": 61.32,
+        "x1": 76.75,
+        "column": 0
+      },
+      {
+        "text": "1/16",
+        "top": 718.37,
+        "bottom": 729.41,
+        "x0": 61.32,
+        "x1": 82.39,
+        "column": 0
+      },
+      {
+        "text": "1/32",
+        "top": 750.76,
+        "bottom": 761.8,
+        "x0": 61.32,
+        "x1": 82.39,
+        "column": 0
+      },
+      {
+        "text": "Página 12 de 24",
+        "top": 798.17,
+        "bottom": 806,
+        "x0": 490.56,
+        "x1": 561.31,
+        "column": 0
+      }
+    ],
+    "images": [
+      {
+        "x0": 35.16,
+        "x1": 49.32,
+        "top": 337.44,
+        "bottom": 353.04
+      },
+      {
+        "x0": 35.16,
+        "x1": 50.52,
+        "top": 370.44,
+        "bottom": 386.04
+      },
+      {
+        "x0": 35.16,
+        "x1": 50.52,
+        "top": 403.92,
+        "bottom": 419.64
+      },
+      {
+        "x0": 35.16,
+        "x1": 49.32,
+        "top": 436.56,
+        "bottom": 452.16
+      },
+      {
+        "x0": 35.16,
+        "x1": 50.52,
+        "top": 469.08,
+        "bottom": 484.68
+      },
+      {
+        "x0": 35.16,
+        "x1": 49.32,
+        "top": 617.28,
+        "bottom": 633.0
+      },
+      {
+        "x0": 35.16,
+        "x1": 50.52,
+        "top": 649.56,
+        "bottom": 665.16
+      },
+      {
+        "x0": 35.16,
+        "x1": 50.52,
+        "top": 682.44,
+        "bottom": 698.04
+      },
+      {
+        "x0": 35.16,
+        "x1": 49.32,
+        "top": 714.96,
+        "bottom": 730.68
+      },
+      {
+        "x0": 35.16,
+        "x1": 50.52,
+        "top": 747.36,
+        "bottom": 762.96
+      }
+    ],
+    "rects": [
+      {
+        "x0": 32.52,
+        "x1": 562.68,
+        "top": 55.32,
+        "bottom": 56.76
+      },
+      {
+        "x0": 28.08,
+        "x1": 28.56,
+        "top": 96.96,
+        "bottom": 97.44
+      },
+      {
+        "x0": 28.08,
+        "x1": 28.56,
+        "top": 96.96,
+        "bottom": 97.44
+      },
+      {
+        "x0": 28.56,
+        "x1": 566.64,
+        "top": 96.96,
+        "bottom": 97.44
+      },
+      {
+        "x0": 566.64,
+        "x1": 567.12,
+        "top": 96.96,
+        "bottom": 97.44
+      },
+      {
+        "x0": 566.64,
+        "x1": 567.12,
+        "top": 96.96,
+        "bottom": 97.44
+      },
+      {
+        "x0": 28.08,
+        "x1": 28.56,
+        "top": 97.44,
+        "bottom": 113.16
+      },
+      {
+        "x0": 566.64,
+        "x1": 567.12,
+        "top": 97.44,
+        "bottom": 113.16
+      },
+      {
+        "x0": 28.08,
+        "x1": 28.56,
+        "top": 113.16,
+        "bottom": 128.04
+      },
+      {
+        "x0": 566.64,
+        "x1": 567.12,
+        "top": 113.16,
+        "bottom": 128.04
+      },
+      {
+        "x0": 28.08,
+        "x1": 28.56,
+        "top": 128.04,
+        "bottom": 142.8
+      },
+      {
+        "x0": 566.64,
+        "x1": 567.12,
+        "top": 128.04,
+        "bottom": 142.8
+      },
+      {
+        "x0": 28.08,
+        "x1": 28.56,
+        "top": 142.8,
+        "bottom": 157.56
+      },
+      {
+        "x0": 566.64,
+        "x1": 567.12,
+        "top": 142.8,
+        "bottom": 157.56
+      },
+      {
+        "x0": 28.08,
+        "x1": 28.56,
+        "top": 157.56,
+        "bottom": 172.32
+      },
+      {
+        "x0": 566.64,
+        "x1": 567.12,
+        "top": 157.56,
+        "bottom": 172.32
+      },
+      {
+        "x0": 28.08,
+        "x1": 28.56,
+        "top": 172.32,
+        "bottom": 187.08
+      },
+      {
+        "x0": 566.64,
+        "x1": 567.12,
+        "top": 172.32,
+        "bottom": 187.08
+      },
+      {
+        "x0": 28.08,
+        "x1": 28.56,
+        "top": 187.08,
+        "bottom": 201.84
+      },
+      {
+        "x0": 566.64,
+        "x1": 567.12,
+        "top": 187.08,
+        "bottom": 201.84
+      },
+      {
+        "x0": 28.08,
+        "x1": 28.56,
+        "top": 201.84,
+        "bottom": 216.6
+      },
+      {
+        "x0": 566.64,
+        "x1": 567.12,
+        "top": 201.84,
+        "bottom": 216.6
+      },
+      {
+        "x0": 28.08,
+        "x1": 28.56,
+        "top": 216.6,
+        "bottom": 231.36
+      },
+      {
+        "x0": 566.64,
+        "x1": 567.12,
+        "top": 216.6,
+        "bottom": 231.36
+      },
+      {
+        "x0": 28.08,
+        "x1": 28.56,
+        "top": 247.2,
+        "bottom": 247.68
+      },
+      {
+        "x0": 28.08,
+        "x1": 28.56,
+        "top": 247.2,
+        "bottom": 247.68
+      },
+      {
+        "x0": 28.56,
+        "x1": 566.64,
+        "top": 247.2,
+        "bottom": 247.68
+      },
+      {
+        "x0": 566.64,
+        "x1": 567.12,
+        "top": 247.2,
+        "bottom": 247.68
+      },
+      {
+        "x0": 566.64,
+        "x1": 567.12,
+        "top": 247.2,
+        "bottom": 247.68
+      },
+      {
+        "x0": 28.08,
+        "x1": 28.56,
+        "top": 231.36,
+        "bottom": 247.2
+      },
+      {
+        "x0": 566.64,
+        "x1": 567.12,
+        "top": 231.36,
+        "bottom": 247.2
+      }
+    ],
+    "curves": []
+  },
+  {
+    "page": 13,
+    "width": 595,
+    "height": 842,
+    "lines": [
+      {
+        "text": "MATEMÁTICA",
+        "top": 72.22,
+        "bottom": 84.22,
+        "x0": 261.96,
+        "x1": 332.11,
+        "column": 0
+      },
+      {
+        "text": "Objetivas",
+        "top": 98.44,
+        "bottom": 107.44,
+        "x0": 279.84,
+        "x1": 314.08,
+        "column": 0
+      },
+      {
+        "text": "Questões de 16 a 20",
+        "top": 114.05,
+        "bottom": 125.09,
+        "x0": 251.52,
+        "x1": 343.75,
+        "column": 0
+      },
+      {
+        "text": "QUESTÃO 16 - Considere os polinômios 2 e 2 (cid:11) (cid:13) Considere ainda o polinômio",
+        "top": 146.44,
+        "bottom": 159.17,
+        "x0": 33.96,
+        "x1": 561.29,
+        "column": 0
+      },
+      {
+        "text": "(cid:1)((cid:3)) = (cid:3) + (cid:3) − 6 (cid:10)((cid:3)) = (cid:3) + − .",
+        "top": 154.0,
+        "bottom": 165.04,
+        "x0": 233.28,
+        "x1": 420.58,
+        "column": 0
+      },
+      {
+        "text": "(cid:12) (cid:12)",
+        "top": 160.39,
+        "bottom": 168.43,
+        "x0": 390.96,
+        "x1": 415.89,
+        "column": 0
+      },
+      {
+        "text": ". A soma dos coeficientes de é igual a e o produto das raízes de é igual a .",
+        "top": 165.53,
+        "bottom": 176.57,
+        "x0": 119.88,
+        "x1": 511.1,
+        "column": 0
+      },
+      {
+        "text": "(cid:15)((cid:3)) = (cid:1)((cid:3)) ∙ (cid:10)((cid:3)) (cid:15)((cid:3)) (cid:17) (cid:15)((cid:3)) (cid:18)",
+        "top": 171.04,
+        "bottom": 182.44,
+        "x0": 33.96,
+        "x1": 508.2,
+        "column": 0
+      },
+      {
+        "text": "O valor de é",
+        "top": 198.29,
+        "bottom": 209.33,
+        "x0": 33.96,
+        "x1": 117.57,
+        "column": 0
+      },
+      {
+        "text": "(cid:17) + (cid:18)",
+        "top": 204.16,
+        "bottom": 215.2,
+        "x0": 82.32,
+        "x1": 109.32,
+        "column": 0
+      },
+      {
+        "text": ".",
+        "top": 222.05,
+        "bottom": 233.09,
+        "x0": 75.6,
+        "x1": 78.38,
+        "column": 0
+      },
+      {
+        "text": "−8",
+        "top": 227.92,
+        "bottom": 238.96,
+        "x0": 61.32,
+        "x1": 75.71,
+        "column": 0
+      },
+      {
+        "text": ".",
+        "top": 248.09,
+        "bottom": 259.13,
+        "x0": 75.6,
+        "x1": 78.38,
+        "column": 0
+      },
+      {
+        "text": "−6",
+        "top": 253.96,
+        "bottom": 265.0,
+        "x0": 61.32,
+        "x1": 75.71,
+        "column": 0
+      },
+      {
+        "text": ".",
+        "top": 274.25,
+        "bottom": 285.29,
+        "x0": 75.6,
+        "x1": 78.38,
+        "column": 0
+      },
+      {
+        "text": "−1",
+        "top": 280.12,
+        "bottom": 291.16,
+        "x0": 61.32,
+        "x1": 75.71,
+        "column": 0
+      },
+      {
+        "text": ".",
+        "top": 301.13,
+        "bottom": 312.17,
+        "x0": 67.44,
+        "x1": 70.22,
+        "column": 0
+      },
+      {
+        "text": "0",
+        "top": 307.0,
+        "bottom": 318.04,
+        "x0": 61.32,
+        "x1": 67.43,
+        "column": 0
+      },
+      {
+        "text": ".",
+        "top": 327.77,
+        "bottom": 338.81,
+        "x0": 67.44,
+        "x1": 70.22,
+        "column": 0
+      },
+      {
+        "text": "7",
+        "top": 333.64,
+        "bottom": 344.68,
+        "x0": 61.32,
+        "x1": 67.43,
+        "column": 0
+      },
+      {
+        "text": "QUESTÃO 17 - Seja um número real. Considere o sistema linear:",
+        "top": 360.17,
+        "bottom": 371.21,
+        "x0": 33.96,
+        "x1": 349.28,
+        "column": 0
+      },
+      {
+        "text": "(cid:23) > 3",
+        "top": 366.04,
+        "bottom": 377.08,
+        "x0": 121.68,
+        "x1": 148.55,
+        "column": 0
+      },
+      {
+        "text": "−(cid:3) + (cid:27) = (cid:23)",
+        "top": 381.4,
+        "bottom": 392.44,
+        "x0": 288.6,
+        "x1": 342.87,
+        "column": 0
+      },
+      {
+        "text": "(cid:29)",
+        "top": 385.96,
+        "bottom": 397.0,
+        "x0": 346.08,
+        "x1": 346.08,
+        "column": 0
+      },
+      {
+        "text": "(cid:26)",
+        "top": 389.2,
+        "bottom": 400.24,
+        "x0": 281.4,
+        "x1": 285.67,
+        "column": 0
+      },
+      {
+        "text": "−2(cid:3) + (cid:27) = 3",
+        "top": 394.72,
+        "bottom": 405.76,
+        "x0": 285.6,
+        "x1": 346.08,
+        "column": 0
+      },
+      {
+        "text": "Seja o ponto no plano cartesiano cujas coordenadas são a solução do sistema.",
+        "top": 401.57,
+        "bottom": 412.61,
+        "x0": 33.96,
+        "x1": 417.38,
+        "column": 0
+      },
+      {
+        "text": "(cid:18)((cid:3),(cid:27))",
+        "top": 407.08,
+        "bottom": 418.48,
+        "x0": 54.84,
+        "x1": 87.74,
+        "column": 0
+      },
+      {
+        "text": "O ponto pertence",
+        "top": 428.45,
+        "bottom": 439.49,
+        "x0": 33.96,
+        "x1": 122.85,
+        "column": 0
+      },
+      {
+        "text": "(cid:18)",
+        "top": 434.32,
+        "bottom": 445.36,
+        "x0": 73.08,
+        "x1": 79.92,
+        "column": 0
+      },
+      {
+        "text": "ao eixo .",
+        "top": 461.33,
+        "bottom": 472.37,
+        "x0": 61.32,
+        "x1": 104.9,
+        "column": 0
+      },
+      {
+        "text": "(cid:3)",
+        "top": 467.2,
+        "bottom": 478.24,
+        "x0": 95.88,
+        "x1": 101.75,
+        "column": 0
+      },
+      {
+        "text": "ao eixo .",
+        "top": 487.37,
+        "bottom": 498.41,
+        "x0": 61.32,
+        "x1": 105.02,
+        "column": 0
+      },
+      {
+        "text": "(cid:27)",
+        "top": 493.24,
+        "bottom": 504.28,
+        "x0": 95.88,
+        "x1": 102.06,
+        "column": 0
+      },
+      {
+        "text": "ao primeiro quadrante, e .",
+        "top": 513.53,
+        "bottom": 524.57,
+        "x0": 61.32,
+        "x1": 234.38,
+        "column": 0
+      },
+      {
+        "text": "(cid:3) ≠ 0 (cid:27) ≠ 0",
+        "top": 519.4,
+        "bottom": 530.44,
+        "x0": 167.76,
+        "x1": 231.59,
+        "column": 0
+      },
+      {
+        "text": "ao segundo quadrante, e .",
+        "top": 540.53,
+        "bottom": 551.57,
+        "x0": 61.32,
+        "x1": 234.02,
+        "column": 0
+      },
+      {
+        "text": "(cid:3) ≠ 0 (cid:27) ≠ 0",
+        "top": 546.4,
+        "bottom": 557.44,
+        "x0": 167.4,
+        "x1": 231.35,
+        "column": 0
+      },
+      {
+        "text": "ao terceiro quadrante, e .",
+        "top": 567.05,
+        "bottom": 578.09,
+        "x0": 61.32,
+        "x1": 231.14,
+        "column": 0
+      },
+      {
+        "text": "(cid:3) ≠ 0 (cid:27) ≠ 0",
+        "top": 572.92,
+        "bottom": 583.96,
+        "x0": 164.52,
+        "x1": 228.35,
+        "column": 0
+      },
+      {
+        "text": "Página 13 de 24",
+        "top": 798.17,
+        "bottom": 806,
+        "x0": 490.56,
+        "x1": 561.31,
+        "column": 0
+      }
+    ],
+    "images": [
+      {
+        "x0": 35.16,
+        "x1": 49.32,
+        "top": 219.24,
+        "bottom": 234.84
+      },
+      {
+        "x0": 35.16,
+        "x1": 50.52,
+        "top": 245.4,
+        "bottom": 261.0
+      },
+      {
+        "x0": 35.16,
+        "x1": 50.52,
+        "top": 272.28,
+        "bottom": 288.0
+      },
+      {
+        "x0": 35.16,
+        "x1": 49.32,
+        "top": 298.92,
+        "bottom": 314.52
+      },
+      {
+        "x0": 35.16,
+        "x1": 50.52,
+        "top": 325.2,
+        "bottom": 340.8
+      },
+      {
+        "x0": 35.16,
+        "x1": 49.32,
+        "top": 458.52,
+        "bottom": 474.24
+      },
+      {
+        "x0": 35.16,
+        "x1": 50.52,
+        "top": 484.8,
+        "bottom": 500.4
+      },
+      {
+        "x0": 35.16,
+        "x1": 50.52,
+        "top": 511.68,
+        "bottom": 527.28
+      },
+      {
+        "x0": 35.16,
+        "x1": 49.32,
+        "top": 538.2,
+        "bottom": 553.92
+      },
+      {
+        "x0": 35.16,
+        "x1": 50.52,
+        "top": 564.6,
+        "bottom": 580.2
+      }
+    ],
+    "rects": [
+      {
+        "x0": 32.52,
+        "x1": 562.68,
+        "top": 55.32,
+        "bottom": 56.76
+      },
+      {
+        "x0": 28.8,
+        "x1": 565.32,
+        "top": 70.68,
+        "bottom": 112.32
+      },
+      {
+        "x0": 33.96,
+        "x1": 560.16,
+        "top": 70.68,
+        "bottom": 97.32
+      },
+      {
+        "x0": 33.96,
+        "x1": 560.16,
+        "top": 97.32,
+        "bottom": 112.32
+      },
+      {
+        "x0": 28.32,
+        "x1": 28.8,
+        "top": 70.2,
+        "bottom": 70.68
+      },
+      {
+        "x0": 28.32,
+        "x1": 28.8,
+        "top": 70.2,
+        "bottom": 70.68
+      },
+      {
+        "x0": 28.8,
+        "x1": 565.32,
+        "top": 70.2,
+        "bottom": 70.68
+      },
+      {
+        "x0": 565.32,
+        "x1": 565.8,
+        "top": 70.2,
+        "bottom": 70.68
+      },
+      {
+        "x0": 565.32,
+        "x1": 565.8,
+        "top": 70.2,
+        "bottom": 70.68
+      },
+      {
+        "x0": 28.32,
+        "x1": 28.8,
+        "top": 70.68,
+        "bottom": 112.32
+      },
+      {
+        "x0": 28.32,
+        "x1": 28.8,
+        "top": 112.32,
+        "bottom": 112.8
+      },
+      {
+        "x0": 28.32,
+        "x1": 28.8,
+        "top": 112.32,
+        "bottom": 112.8
+      },
+      {
+        "x0": 28.8,
+        "x1": 565.32,
+        "top": 112.32,
+        "bottom": 112.8
+      },
+      {
+        "x0": 565.32,
+        "x1": 565.8,
+        "top": 70.68,
+        "bottom": 112.32
+      },
+      {
+        "x0": 565.32,
+        "x1": 565.8,
+        "top": 112.32,
+        "bottom": 112.8
+      },
+      {
+        "x0": 565.32,
+        "x1": 565.8,
+        "top": 112.32,
+        "bottom": 112.8
+      },
+      {
+        "x0": 390.84,
+        "x1": 395.76,
+        "top": 153.72,
+        "bottom": 154.44
+      },
+      {
+        "x0": 411.24,
+        "x1": 415.92,
+        "top": 153.72,
+        "bottom": 154.44
+      }
+    ],
+    "curves": []
+  },
+  {
+    "page": 14,
+    "width": 595,
+    "height": 842,
+    "lines": [
+      {
+        "text": "QUESTÃO 18 - Bernardo trabalha como vendedor, de segunda a sexta, na loja Passarinhos. Ele recebeu 5 camisas de",
+        "top": 71.57,
+        "bottom": 82.61,
+        "x0": 33.96,
+        "x1": 561.33,
+        "column": 0
+      },
+      {
+        "text": "uniforme com cores distintas para usar no trabalho. Ao longo da semana, quando ele usa uma camisa, não pode usá-",
+        "top": 86.33,
+        "bottom": 97.37,
+        "x0": 33.96,
+        "x1": 561.5,
+        "column": 0
+      },
+      {
+        "text": "la no dia seguinte, pois ela deve ser lavada e seca, mas pode usá-la novamente em outro dia. Em uma semana,",
+        "top": 101.09,
+        "bottom": 112.13,
+        "x0": 33.96,
+        "x1": 561.36,
+        "column": 0
+      },
+      {
+        "text": "começando com todas as camisas lavadas e secas, Bernardo pegará, aleatoriamente, uma camisa dentre as",
+        "top": 115.85,
+        "bottom": 126.89,
+        "x0": 33.96,
+        "x1": 561.35,
+        "column": 0
+      },
+      {
+        "text": "disponíveis para uso.",
+        "top": 130.61,
+        "bottom": 141.65,
+        "x0": 33.96,
+        "x1": 127.58,
+        "column": 0
+      },
+      {
+        "text": "Qual é a probabilidade de que ele trabalhe todos os 5 dias com camisas de cores diferentes?",
+        "top": 157.37,
+        "bottom": 168.41,
+        "x0": 33.96,
+        "x1": 446.35,
+        "column": 0
+      },
+      {
+        "text": "1",
+        "top": 185.32,
+        "bottom": 196.36,
+        "x0": 63.84,
+        "x1": 69.95,
+        "column": 0
+      },
+      {
+        "text": "5!",
+        "top": 198.67,
+        "bottom": 212.2,
+        "x0": 61.32,
+        "x1": 72.09,
+        "column": 0
+      },
+      {
+        "text": "1",
+        "top": 216.75,
+        "bottom": 227.79,
+        "x0": 70.68,
+        "x1": 76.79,
+        "column": 0
+      },
+      {
+        "text": "5 ∙ 4#",
+        "top": 231.57,
+        "bottom": 243.63,
+        "x0": 61.32,
+        "x1": 85.77,
+        "column": 0
+      },
+      {
+        "text": "1",
+        "top": 253.59,
+        "bottom": 264.63,
+        "x0": 62.88,
+        "x1": 68.99,
+        "column": 0
+      },
+      {
+        "text": "5!",
+        "top": 269.43,
+        "bottom": 280.47,
+        "x0": 61.32,
+        "x1": 70.6,
+        "column": 0
+      },
+      {
+        "text": "3",
+        "top": 290.31,
+        "bottom": 301.35,
+        "x0": 63.84,
+        "x1": 69.95,
+        "column": 0
+      },
+      {
+        "text": "2!",
+        "top": 305.13,
+        "bottom": 317.19,
+        "x0": 61.32,
+        "x1": 72.09,
+        "column": 0
+      },
+      {
+        "text": "5",
+        "top": 327.39,
+        "bottom": 338.43,
+        "x0": 62.88,
+        "x1": 68.99,
+        "column": 0
+      },
+      {
+        "text": "4!",
+        "top": 343.23,
+        "bottom": 354.27,
+        "x0": 61.32,
+        "x1": 70.6,
+        "column": 0
+      },
+      {
+        "text": "QUESTÃO 19 - Considere o segmento de reta de %(1,3) até &(7,12). Nesse segmento, são marcados dois pontos (cid:17) e",
+        "top": 370.97,
+        "bottom": 382.47,
+        "x0": 33.96,
+        "x1": 561.33,
+        "column": 0
+      },
+      {
+        "text": "', de forma que as distâncias entre % e (cid:17), entre (cid:17) e ' e entre ' e & são todas iguais.",
+        "top": 385.85,
+        "bottom": 397.35,
+        "x0": 33.96,
+        "x1": 416.42,
+        "column": 0
+      },
+      {
+        "text": "As coordenadas desses pontos (cid:17) e ' são, respectivamente,",
+        "top": 403.61,
+        "bottom": 415.11,
+        "x0": 33.96,
+        "x1": 299.64,
+        "column": 0
+      },
+      {
+        "text": "(2,3) e (4,6)",
+        "top": 427.71,
+        "bottom": 438.75,
+        "x0": 61.32,
+        "x1": 118.82,
+        "column": 0
+      },
+      {
+        "text": "(4,6) e (7,9)",
+        "top": 454.11,
+        "bottom": 465.51,
+        "x0": 61.32,
+        "x1": 118.82,
+        "column": 0
+      },
+      {
+        "text": "(2,3) e (5,6)",
+        "top": 479.91,
+        "bottom": 490.95,
+        "x0": 61.32,
+        "x1": 118.82,
+        "column": 0
+      },
+      {
+        "text": "(3,0) e (0,9)",
+        "top": 506.79,
+        "bottom": 517.83,
+        "x0": 61.32,
+        "x1": 118.82,
+        "column": 0
+      },
+      {
+        "text": "(3,6) e (5,9)",
+        "top": 533.43,
+        "bottom": 544.47,
+        "x0": 61.32,
+        "x1": 118.82,
+        "column": 0
+      },
+      {
+        "text": "QUESTÃO 20 - Maria possui um estojo contendo 8 peças de bijuterias, sendo 2 em forma de quadrado, 2 em forma",
+        "top": 565.37,
+        "bottom": 576.41,
+        "x0": 33.96,
+        "x1": 561.36,
+        "column": 0
+      },
+      {
+        "text": "de triângulo, 2 em forma de disco e 2 em forma de estrela. Peças de mesma forma são idênticas.",
+        "top": 580.13,
+        "bottom": 591.17,
+        "x0": 33.96,
+        "x1": 465.86,
+        "column": 0
+      },
+      {
+        "text": "De quantas maneiras distintas Maria pode escolher 6 dessas peças de modo que tenha pelo menos uma de cada",
+        "top": 606.89,
+        "bottom": 617.93,
+        "x0": 33.96,
+        "x1": 561.36,
+        "column": 0
+      },
+      {
+        "text": "forma?",
+        "top": 621.65,
+        "bottom": 632.69,
+        "x0": 33.96,
+        "x1": 66.19,
+        "column": 0
+      },
+      {
+        "text": "6",
+        "top": 645.41,
+        "bottom": 656.45,
+        "x0": 61.32,
+        "x1": 66.91,
+        "column": 0
+      },
+      {
+        "text": "10",
+        "top": 671.45,
+        "bottom": 682.49,
+        "x0": 61.32,
+        "x1": 72.55,
+        "column": 0
+      },
+      {
+        "text": "12",
+        "top": 697.61,
+        "bottom": 708.65,
+        "x0": 61.32,
+        "x1": 72.55,
+        "column": 0
+      },
+      {
+        "text": "24",
+        "top": 724.49,
+        "bottom": 735.53,
+        "x0": 61.32,
+        "x1": 72.55,
+        "column": 0
+      },
+      {
+        "text": "30",
+        "top": 751.12,
+        "bottom": 762.16,
+        "x0": 61.32,
+        "x1": 72.55,
+        "column": 0
+      },
+      {
+        "text": "Página 14 de 24",
+        "top": 798.17,
+        "bottom": 806,
+        "x0": 490.56,
+        "x1": 561.31,
+        "column": 0
+      }
+    ],
+    "images": [
+      {
+        "x0": 35.16,
+        "x1": 49.32,
+        "top": 178.2,
+        "bottom": 193.92
+      },
+      {
+        "x0": 35.16,
+        "x1": 50.52,
+        "top": 215.16,
+        "bottom": 230.88
+      },
+      {
+        "x0": 35.16,
+        "x1": 50.52,
+        "top": 252.72,
+        "bottom": 268.32
+      },
+      {
+        "x0": 35.16,
+        "x1": 49.32,
+        "top": 289.2,
+        "bottom": 304.8
+      },
+      {
+        "x0": 35.16,
+        "x1": 50.52,
+        "top": 325.56,
+        "bottom": 341.28
+      },
+      {
+        "x0": 35.16,
+        "x1": 49.32,
+        "top": 424.44,
+        "bottom": 440.04
+      },
+      {
+        "x0": 35.16,
+        "x1": 50.52,
+        "top": 450.6,
+        "bottom": 466.32
+      },
+      {
+        "x0": 35.16,
+        "x1": 50.52,
+        "top": 477.48,
+        "bottom": 493.2
+      },
+      {
+        "x0": 35.16,
+        "x1": 49.32,
+        "top": 504.12,
+        "bottom": 519.72
+      },
+      {
+        "x0": 35.16,
+        "x1": 50.52,
+        "top": 530.4,
+        "bottom": 546.12
+      },
+      {
+        "x0": 35.16,
+        "x1": 49.32,
+        "top": 642.6,
+        "bottom": 658.2
+      },
+      {
+        "x0": 35.16,
+        "x1": 50.52,
+        "top": 668.76,
+        "bottom": 684.36
+      },
+      {
+        "x0": 35.16,
+        "x1": 50.52,
+        "top": 695.64,
+        "bottom": 711.36
+      },
+      {
+        "x0": 35.16,
+        "x1": 49.32,
+        "top": 722.28,
+        "bottom": 737.88
+      },
+      {
+        "x0": 35.16,
+        "x1": 50.52,
+        "top": 748.56,
+        "bottom": 764.16
+      }
+    ],
+    "rects": [
+      {
+        "x0": 32.52,
+        "x1": 562.68,
+        "top": 55.32,
+        "bottom": 56.76
+      },
+      {
+        "x0": 61.32,
+        "x1": 72.48,
+        "top": 193.44,
+        "bottom": 194.16
+      },
+      {
+        "x0": 61.32,
+        "x1": 86.16,
+        "top": 230.28,
+        "bottom": 231.0
+      },
+      {
+        "x0": 61.32,
+        "x1": 70.56,
+        "top": 267.12,
+        "bottom": 267.84
+      },
+      {
+        "x0": 61.32,
+        "x1": 72.48,
+        "top": 303.84,
+        "bottom": 304.56
+      },
+      {
+        "x0": 61.32,
+        "x1": 70.56,
+        "top": 340.92,
+        "bottom": 341.64
+      }
+    ],
+    "curves": []
+  }
+]
