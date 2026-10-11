@@ -219,3 +219,7 @@ header nav{margin-left:0;gap:24px}
 @media(max-width:850px){.theme-toggle span{display:none}}
 @media(max-width:650px){header nav{gap:18px}.header-actions{gap:8px}.theme-toggle{width:38px;padding:8px}}
 @media(forced-colors:active){:root[data-theme="dark"] .essay-field select{background-image:none}}
+
+.military-question-text { white-space:pre-line; }
+
+.exam-draft-status{font-size:12px;color:var(--theme-text-69748a,#69748a);margin:0 0 12px;line-height:1.6}

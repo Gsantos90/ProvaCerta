@@ -5,6 +5,8 @@ import { studyPilotDetails } from './studyPilotDetails.js'
 import { studyPodcasts } from './studyPodcasts.js'
 import { medievalSummary } from './medievalSummary.js'
 import { mathLessons } from './mathLessons.js'
+import { chemistryLessons } from './chemistryLessons.js'
+import { scienceLessons } from './scienceLessons.js'
 
 // Resumos autorais. A existência de um resumo não indica uma rodada de questões curada.
 const additionalSummaries = [
@@ -247,6 +249,12 @@ summaries.set(medievalSummary.id, { ...summaries.get(medievalSummary.id), ...med
 for (const [id, mathLesson] of Object.entries(mathLessons)) {
   const summary = summaries.get(id)
   summaries.set(id, { ...summary, mathLesson, concepts: mathLesson.sections.map(section => [section.title, section.paragraphs.join(' ')]) })
+}
+for (const [id, chemistryLesson] of Object.entries(chemistryLessons)) {
+  summaries.set(id, { ...summaries.get(id), chemistryLesson })
+}
+for (const [id, scienceLesson] of Object.entries(scienceLessons)) {
+  summaries.set(id, { ...summaries.get(id), scienceLesson })
 }
 export const studySummaries = [...summaries.values()]
 export const summarySubjects = [...new Set(studySummaries.map(topic => topic.subject))]

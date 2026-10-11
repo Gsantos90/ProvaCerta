@@ -95,7 +95,7 @@ function Challenges({ questions }) {
 export default function MathStudyLesson({ lesson, topicId }) {
   const Explorer = explorers[topicId]
   const id = useId()
-  return <div className="math-complete-lesson"><div className="math-goal"><span>Ao terminar este resumo</span><p>{lesson.goal}</p></div><nav className="math-contents" aria-label="Conteúdo do resumo">{lesson.sections.map((section,index) => <a href={`#${id}-${index}`} key={section.title}>{index+1}. {section.title}</a>)}<a href={`#${id}-explore`}>Explore na prática</a></nav>
+  return <div className="math-complete-lesson"><div className="math-goal"><span>O que você vai aprender</span><p>{lesson.goal}</p></div><nav className="math-contents" aria-label="Conteúdo do resumo">{lesson.sections.map((section,index) => <a href={`#${id}-${index}`} key={section.title}>{index+1}. {section.title}</a>)}<a href={`#${id}-explore`}>Explore na prática</a></nav>
     {lesson.sections.map((section,index) => <section id={`${id}-${index}`} key={section.title}><h3>{section.title}</h3>{section.paragraphs.map(paragraph => <p key={paragraph}>{paragraph}</p>)}<div className="math-formula">{section.formula}</div></section>)}
     <section className="math-solved"><h3>Exemplos práticos resolvidos</h3>{lesson.examples.map(example => <article key={example.title}><h4>{example.title}</h4><p>{example.problem}</p><ol>{example.steps.map(step => <li key={step}>{step}</li>)}</ol><strong>{example.answer}</strong></article>)}</section>
     <section id={`${id}-explore`} className="math-explorer"><p className="eyebrow">Veja a matemática acontecer</p><h3>Explore na prática</h3><p>Altere os valores para acompanhar a figura e o resultado.</p><Explorer /></section>

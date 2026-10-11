@@ -1,0 +1,99 @@
+{
+  "esa-common": {
+    "2": {
+      "text": "A figura abaixo representa o gráfico da função f: ℝ₊* → ℝ definida por f(x) = log₂x. A área da região sombreada é numericamente igual a:"
+    },
+    "1": {
+      "text": "A robótica tem se tornado cada vez mais presente nas Forças Armadas. Robôs são desenvolvidos e empregados para aumentar a segurança dos combatentes e executar tarefas em que são guiados por meio de controle remoto. Durante um exercício no Campo de Instrução da Escola de Sargentos das Armas, um robô, que se encontra na origem de um sistema cartesiano ortogonal, deve passar pelos pontos A(1,1), B(2,0) e C(4,4), que também estão no mesmo plano cartesiano. Inicialmente, ele deve caminhar em linha reta até o ponto A. Em seguida, deve ajustar sua trajetória para deslocar-se sobre um arco parabólico, a fim de passar pelos pontos B e C. Dessa forma, o robô deve ser programado para deslocar-se sobre o gráfico da função:\nf(x) = mx, se 0 ≤ x ≤ 1;\nf(x) = ax² + bx + c, se x > 1.\nNesse caso, a² + b² + c² + m² é igual a:"
+    },
+    "polynomial": {
+      "text": "As raízes do polinômio p(x) = 2x³ − mx² + 17x − 6 são a, b e 2, com a > b. Nesse caso, é correto afirmar que aᵇ é igual a:"
+    },
+    "parallelepiped": {
+      "options": ["As retas BE e FG são coplanares.", "Os vértices A, B e G não definem um plano.", "As retas BC e EF são ortogonais.", "As retas AE e BF são reversas.", "Os vértices C, E, H e G pertencem a um mesmo plano."]
+    },
+    "logarithms": {
+      "text": "Se log de ⁴√3 na base ¹⁰⁸√(1/3), log de √3 na base ¹⁸√3 e log de (√10)⁻⁶ formam, nessa ordem, uma PG, qual o valor aproximado da soma dos 8 primeiros termos:"
+    },
+    "ellipse": {
+      "text": "A figura abaixo representa uma mesa de sinuca em forma elíptica de focos F₁ e F₂ e distância focal igual a 8. A sinuca possui uma única caçapa localizada em F₂. Um jogador deseja jogar nessa caçapa a bola que se encontra no ponto A. Entretanto, ele não consegue fazer isso diretamente, pois existe uma bola em B que está localizado entre A e F₂. Para cumprir o objetivo, o jogador resolve fazer uma ‘tabela’, ou seja, jogar a bola na parede da sinuca para que ela reflita em direção a F₂. Considerando que o sistema cartesiano tenha origem no centro da elipse e que o ponto A tem coordenadas (−2, −2), qual das equações abaixo dá a direção para que o jogador cumpra seu objetivo?"
+    }
+  },
+  "esa-2026-geral": {
+    "8": {
+      "text": "Um cilindro, cujo raio da base mede 20 cm, possui água em seu interior até a altura de 10 cm. Três esferas metálicas (E₁, E₂ e E₃, nessa ordem) possuem os raios com medidas que seguem uma progressão geométrica. O raio da esfera E₁ mede 3 cm. Quando essas esferas são colocados no interior do cilindro, o nível da água sobe 6,57 cm. Assim, pode-se afirmar que o volume da esfera E₂ é igual a:"
+    }
+  },
+  "esa-2026-musica": {
+    "43": {
+      "text": "Considerando o Dobrado Batista de Melo apresentado, pode-se observar que, da terceira nota do 6º compasso até a última nota do 7º compasso, ocorre uma sequência de notas que representa uma escala cromática descendente de Lá♭ Maior do oitavo ao terceiro grau. Sobre essa escala, qual alternativa abaixo é a correta quanto à origem das notas cromáticas Sol♭ e Ré♮, de acordo com Maria Priolli:"
+    }
+  },
+  "espcex-2026-dia-1": {
+    "23": {
+      "text": "Um canhão de brinquedo fixo no solo utiliza uma mola ideal para lançar verticalmente uma esfera de borracha, inicialmente em repouso dentro do canhão e encostada na mola comprimida e travada.\nDesprezando os atritos e a resistência do ar, quando a mola for liberada, a altura máxima (hₘáₓ) atingida pela esfera dependerá, apenas,"
+    },
+    "24": {
+      "options": ["T = π · √(R³/(G · M))", "T = 2 · π · √((R³ + h³)/(G · M))", "T = 2 · π · √((R + h)³/(G · M))", "T = π · √(h³/(G · M))", "T = 2 · π · √((R − h)³/(G · M))"]
+    },
+    "26": {
+      "text": "Um bloco de gelo de 200 g foi retirado de um freezer à temperatura de −15 ºC e deixado dentro de um copo de vidro, sobre a pia de uma cozinha, até que derretesse completamente. O gráfico mostra como variou a temperatura desse bloco de gelo desde o instante em que foi retirado do freezer até o momento em que, depois de derretido, a água proveniente desse bloco entrasse em equilíbrio térmico com o ambiente da cozinha.\nAdotando os valores 0,5 cal/(g · ºC) para o calor específico do gelo, 1,0 cal/(g · ºC) para o calor específico da água líquida e 80 cal/g para o calor latente de fusão do gelo, a temperatura ambiente da cozinha (θₐₘᵦ) era de"
+    },
+    "30": {
+      "text": "Na técnica de pintura eletrostática de viaturas, as partículas da tinta em pó, inicialmente neutras, adquirem carga elétrica negativa ao passarem por uma pistola de pulverização. Eletrizadas, essas partículas de tinta são atraídas pela peça a ser pintada, que se encontrava eletricamente neutra ou que estava eletrizada com cargas de sinal positivo. Após a aplicação da tinta, a peça pintada é colocada em um forno onde o pó derrete e forma uma película resistente, uniforme e durável.\nNessa técnica, as partículas da tinta em pó, ao serem pulverizadas, adquirem carga elétrica negativa porque ______, e a atração entre essas partículas e a peça a ser pintada é descrita pela lei de ______. Se a peça estiver eletricamente neutra, a atração pode ser explicada pela ______ induzida na superfície a ser pintada, que provoca a separação de cargas nessa superfície.\nAs lacunas do texto são preenchidas, respectivamente, por:"
+    },
+    "31": {
+      "text": "A figura mostra quatro capacitores, C₁ = 12 µF, C₂ = 18 µF, C₃ = 18 µF e C₄ = 9 µF associados e conectados a um gerador ideal de força eletromotriz constante E.\nConsiderando desprezíveis as resistências de todos os fios de ligação e sabendo que essa associação de capacitores armazena uma carga total de 1,8 × 10⁻⁴ C, o valor de E é"
+    },
+    "32": {
+      "text": "Uma bateria B₁, de força eletromotriz constante ε₁ = 12 V e resistência interna r₁, é percorrida por uma corrente de intensidade i₁ e é utilizada para carregar outra bateria, B₂, descarregada, de força eletromotriz ε₂, também constante, e resistência interna r₂ = 1 Ω, percorrida por uma corrente de intensidade i₂ = 1,5 A. A mesma bateria B₁ também é utilizada para manter acesa uma lâmpada L de resistência R_L = 20 Ω, que é percorrida por uma corrente i_L = 0,5 A. A figura mostra o circuito elétrico que representa a situação descrita.\nDesprezando as resistências dos fios e das conexões utilizadas, os valores de ε₂ e de r₁ são, respectivamente,"
+    },
+    "34": {
+      "text": "Elementos de terras-raras (ETR) são considerados ativos estratégicos na defesa nacional, pois são utilizados em equipamentos de alta tecnologia e precisão, como radares, sensores, mísseis guiados e drones. Os ímãs de neodímio (₆₀Nd), atualmente os mais fortes fabricados pelo homem, são empregados em motores silenciosos e em controles eletrônicos. O forte poder magnético dos ímãs de neodímio deve-se ao grande número de elétrons desemparelhados em sua estrutura eletrônica. Considere a regra de Hund, que determina que, ao preencher orbitais de mesma energia, os elétrons devem ocupar orbitais individualmente antes de formarem pares. Nessas condições, um átomo de neodímio, com distribuição eletrônica [Xe] 6s² 4f⁴, apresenta"
+    },
+    "35": {
+      "text": "Na pesquisa espacial e na indústria aeroespacial, são utilizadas tanto misturas combustíveis sólidas como misturas combustíveis líquidas, cada uma apresentando vantagens e desvantagens. Como exemplo de mistura combustível sólida bastante utilizada em foguetes lançadores de satélites, tem-se a combinação de perclorato de amônio (NH₄ClO₄) e alumínio (Al), na qual ocorre a reação:\n6NH₄ClO₄ + 10Al → 5Al₂O₃ + 3N₂ + 6HCl + 9H₂O\nA principal desvantagem da utilização dessa mistura é a produção de ácido clorídrico (HCl) como resíduo, sendo esse o principal motivo pelo qual as áreas de lançamento de foguetes com esse propulsor sólido passam por rigorosos monitoramentos ambientais após a partida desses foguetes. Considere que um foguete lançador de satélites consome, em cada lançamento, 2 000 kg de alumínio metálico (M = 27 g/mol), e que são produzidos 1 460 kg de HCl (M = 36,5 g/mol) após o consumo total do combustível. Nessas condições, a pureza do alumínio utilizado é igual a"
+    },
+    "36": {
+      "text": "Um agricultor necessita preparar 500 litros de uma solução nutritiva de nitrato de cálcio, Ca(NO₃)₂, contendo 6 × 10⁻² mol/L de íons NO₃⁻. Para se obter a concentração de íons NO₃⁻ desejada, a massa de Ca(NO₃)₂ (M = 164 g/mol), em quilogramas, que deve ser dissolvida em água suficiente para a preparação de 500 L de solução é igual a"
+    },
+    "38": {
+      "text": "O cartucho de fuzil esquematizado na figura contém 0,01 mol do propelente trinitrocelulose pulverizado (C₆H₇N₃O₁₁) no interior de sua câmara de combustão, que possui um volume de 4,1 mL.\n(www.warhistoryonline.com. Adaptado.)\nQuando o cartucho é detonado, ocorre a decomposição da trinitrocelulose no interior da câmara de combustão, gerando grande pressão e pouca fumaça, conforme a equação química balanceada:\n2C₆H₇N₃O₁₁(s) → 3CO₂(g) + 9CO(g) + 7H₂O(g) + 3N₂(g)\nNo momento do disparo, a temperatura interna da câmara de combustão chega a 2 200 K. Considerando a constante universal dos gases igual a 0,082 atm · L · mol⁻¹ · K⁻¹ e que os gases gerados na reação de decomposição tenham comportamento ideal, a pressão interna máxima, em atm, gerada na câmara de combustão do cartucho imediatamente antes de o projétil se mover, é igual a"
+    },
+    "40": {
+      "text": "Vegetais conseguem converter nitratos (NO₃⁻) em amônia (NH₃) por meio de processos metabólicos que utilizam a energia proveniente da radiação eletromagnética da luz solar no processo natural da fotossíntese. A semirreação que converte nitratos em amônia em meio ácido, envolvida na fotossíntese, é representada pela equação:\nNO₃⁻ + 9H⁺ + xe⁻ → NH₃ + 3H₂O\nA mesma reação pode ser empregada na remoção do nitrato por meio de sua transformação em amônia em uma célula eletrolítica. Quando a energia elétrica necessária à eletrólise é proveniente de fontes renováveis, como usinas solares ou eólicas, essa técnica constitui um método sustentável para a remoção desse poluente.\nNo processo eletrolítico de transformação do nitrato em amônia, essa reação ocorre no ______ da célula eletrolítica e, nesse processo eletrolítico, são transferidos ______ elétrons na transformação do nitrato em amônia.\nAs lacunas do texto são preenchidas, respectivamente, por"
+    },
+    "42": {
+      "text": "Toxinas podem ser inativadas por irradiação com raios gama, tendo o cobalto-60 (⁶⁰Co) como fonte de radiação. O ⁶⁰Co, ao decair por emissão de partícula beta (⁰₋₁β), emite radiação gama, que atua na degradação das moléculas de substâncias tóxicas como as microcistinas produzidas por cianobactérias. O gráfico apresenta o decaimento do ⁶⁰Co em função do tempo.\nO elemento formado no decaimento do ⁶⁰Co e o tempo de meia-vida desse radioisótopo são, respectivamente,",
+      "options": ["₂₆Fe e 5 anos.", "₂₆Fe e 10 anos.", "₂₈Ni e 20 anos.", "₂₈Ni e 10 anos.", "₂₈Ni e 5 anos."]
+    },
+    "44": {
+      "text": "O polibutadieno líquido hidroxilado (PBLH) é um polímero flexível, resistente e capaz de formar poliuretanos quando reage com isocianatos. É utilizado como adesivo em colas industriais e em revestimentos anticorrosivos para metais e estruturas expostas. Esse composto é obtido por polimerização do buta-1,3-dieno (CH₂ = CH − CH = CH₂) e produz um polímero de cadeia ramificada, conforme a figura.\n(www.crayvalley.com. Adaptado.)\nNa produção do PBLH, o buta-1,3-dieno sofre reação de ______ nos segmentos x e z e reação de ______ no segmento y, gerando unidade de configuração ______ no segmento x e unidade de configuração ______ no segmento z.\nAs lacunas do texto são preenchidas, respectivamente, por:"
+    }
+  },
+  "espcex-2026-dia-2": {
+    "1": {
+      "text": "Considere as constantes reais a, b, c, m, q, r e s e a função real definida pela sentença:\nf(x) = 2x² + (s + 1)x + q, se x ≤ 0;\nf(x) = mx + q, se 0 < x < 2;\nf(x) = ax² + bx + c, se x ≥ 2.\nConsidere também o gráfico de f.\nO valor de f(10) é"
+    },
+    "2": {
+      "text": "Seja U o conjunto formado por todos os números inteiros pares positivos cuja soma dos algarismos é igual a 6. Considere os seguintes subconjuntos de U: A = {a ∈ U | a < 4 000} e B = {b ∈ U | b tem mais de 4 algarismos}. Seja B̄ = U − B. O número de elementos do conjunto A ∩ B̄ é igual a"
+    },
+    "3": {
+      "text": "Seja A = {x ∈ ℝ | 0 ≤ x ≤ 7}. O conjunto imagem da função f: A → ℝ, tal que y = f(x) = |2x − 6| − x + |x − 3|, é:",
+      "options": ["{y ∈ ℝ | 1 ≤ y ≤ 3}", "{y ∈ ℝ | −2 ≤ y ≤ 3}", "{y ∈ ℝ | −1 ≤ y ≤ 5}", "{y ∈ ℝ | 3 ≤ y ≤ 5}", "{y ∈ ℝ | 0 ≤ y ≤ 5}"]
+    },
+    "4": {
+      "text": "Seja f(x) = 16ˣ, g(x) = 2ˣ e h(x) = (5x − 1)/3. O valor de x tal que f(g(h(x))) = 2 é"
+    },
+    "10": {
+      "text": "Considere a equação logarítmica:\nlog₃(4x + 1) = log₃(x² − 8x + 3) + log₍₁/₃₎(x/5 − 1).\nA única raiz real dessa equação é um número múltiplo de"
+    },
+    "13": { "options": ["7/3", "16/3", "14/3", "19/6", "25/6"] },
+    "14": { "options": ["1/3", "1/4", "1/5", "3/5", "5/6"] },
+    "15": {
+      "text": "Dada a matriz M = [(1/4, 3); (−2, 8)], o maior elemento da matriz inversa de M é"
+    },
+    "16": { "options": ["2√15 cm²", "4√5 cm²", "5√5 cm²", "2√30 cm²", "3√15 cm²"] },
+    "20": { "options": ["8√99 cm²", "8√96 cm²", "8√97 cm²", "8√93 cm²", "8√91 cm²"] }
+  }
+}

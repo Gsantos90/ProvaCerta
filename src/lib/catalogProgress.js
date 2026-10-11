@@ -11,6 +11,7 @@ export function attemptSource(attempt) {
     ['bb', /^Banco do Brasil\b/i], ['cnu', /^CNU\b/i], ['oab', /^OAB\b/i],
     ['pmrj', /^PMERJ\b/i], ['correios', /^Correios\b/i], ['inss', /^INSS\b/i],
     ['caixa', /^CAIXA\b/i], ['pc', /^Polícia Civil\b/i], ['pf', /^Polícia Federal\b/i],
+    ['esa', /^ESA\b/i], ['espcex', /^EsPCEx\b/i],
     ['uerj', /^UERJ\b/i], ['usp', /^USP\b/i],
   ]
   return rules.find(([, pattern]) => pattern.test(title))?.[0] || null

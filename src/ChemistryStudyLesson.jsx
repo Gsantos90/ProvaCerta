@@ -1,0 +1,43 @@
+import React, { useId, useState } from 'react'
+import { organicFamilies } from './lib/chemistryLessons'
+import { solutionModel, waterReaction } from './lib/chemistryCalculations'
+import './mathStudyLesson.css'
+import './chemistryStudyLesson.css'
+
+const number = value => value.toLocaleString('pt-BR', { maximumFractionDigits: 3 })
+function Slider({ label, value, onChange, min, max, step = 1, unit }) {
+  return <label className="math-slider"><span>{label}<strong>{number(value)} {unit}</strong></span><input type="range" min={min} max={max} step={step} value={value} onChange={event => onChange(Number(event.target.value))} /></label>
+}
+function OrganicExplorer() {
+  const [selected, setSelected] = useState(0)
+  const [revealed, setRevealed] = useState(false)
+  const [name, structure, family, group, application] = organicFamilies[selected]
+  return <><p>Selecione uma molécula, observe a estrutura e tente identificar a função antes de revelar a explicação.</p><label className="math-select">Molécula<select value={selected} onChange={event => { setSelected(Number(event.target.value)); setRevealed(false) }}>{organicFamilies.map(([name], index) => <option value={index} key={name}>{name}</option>)}</select></label><div className="chem-structure" aria-label={`Estrutura condensada de ${name}`}>{structure}</div><button className="button primary" aria-expanded={revealed} onClick={() => setRevealed(!revealed)}>{revealed ? 'Ocultar identificação' : 'Revelar função e explicação'}</button>{revealed && <div className="math-feedback" role="status"><h4>{family}</h4><p>{group}</p><p>{application}</p></div>}<p>R e R′ nas fórmulas gerais representam grupos carbônicos; Ar representa um grupo aromático.</p></>
+}
+function StoichiometryExplorer() {
+  const [hydrogen, setHydrogen] = useState(3)
+  const [oxygen, setOxygen] = useState(2)
+  const [yieldPercent, setYield] = useState(100)
+  const result = waterReaction(hydrogen, oxygen, yieldPercent)
+  return <><p>Modelo da reação completa 2 H₂ + O₂ → 2 H₂O. Compare os mols divididos pelos coeficientes para prever quem acaba primeiro.</p><Slider label="H₂ disponível" value={hydrogen} onChange={setHydrogen} min={0} max={10} step={0.5} unit="mol" /><Slider label="O₂ disponível" value={oxygen} onChange={setOxygen} min={0} max={10} step={0.5} unit="mol" /><Slider label="Rendimento do produto coletado" value={yieldPercent} onChange={setYield} min={0} max={100} unit="%" /><div className="math-probability-paths"><div>H₂: {number(hydrogen)} ÷ 2 = <strong>{number(hydrogen / 2)}</strong></div><div>O₂: {number(oxygen)} ÷ 1 = <strong>{number(oxygen)}</strong></div></div><output className="math-result" aria-live="polite">{result.limiting}<br />Água teórica: {number(result.theoretical)} mol = {number(result.theoretical * 18)} g<br />Água coletada: {number(result.actual)} mol = {number(result.actual * 18)} g</output><p>Passo a passo: menor razão = {number(result.extent)}; multiplique por 2 para obter os mols teóricos de água e por 18 g/mol para obter a massa. Aplique {yieldPercent}/100 ao produto teórico.</p><p>Após a reação completa, antes de considerar a coleta: sobram {number(result.hydrogenLeft)} mol de H₂ e {number(result.oxygenLeft)} mol de O₂. O rendimento aqui representa recuperação do produto; ele não é usado para deduzir quanto reagente ficou sem reagir.</p>{hydrogen === 0 || oxygen === 0 ? <p role="status">Sem um dos reagentes, não se forma água neste modelo.</p> : null}</>
+}
+function SolutionsExplorer() {
+  const [mass, setMass] = useState(10)
+  const [volume, setVolume] = useState(500)
+  const [water, setWater] = useState(0)
+  const result = solutionModel(mass, volume, 58.5, water)
+  const initial = solutionModel(mass, volume, 58.5)
+  return <><p>Explore uma solução aquosa de NaCl (M = 58,5 g/mol). O modelo admite dissolução completa, ausência de perdas e volumes aditivos.</p><Slider label="Massa de NaCl" value={mass} onChange={setMass} min={0} max={20} unit="g" /><Slider label="Volume inicial de solução" value={volume} onChange={setVolume} min={100} max={1000} step={50} unit="mL" /><Slider label="Água acrescentada" value={water} onChange={setWater} min={0} max={1500} step={50} unit="mL" /><svg className="chem-beaker" viewBox="0 0 300 180" role="img" aria-label={`Concentração inicial ${number(initial.massConcentration)} e final ${number(result.massConcentration)} gramas por litro`}><rect x="50" y="25" width="200" height="130" rx="12" fill="none" stroke="currentColor" strokeWidth="3" /><rect x="54" y="55" width="192" height="96" rx="8" fill="#637cff" opacity={0.12 + result.massConcentration / 200 * 0.65} /><text x="150" y="90" textAnchor="middle" fill="currentColor">{number(result.massConcentration)} g/L</text><text x="150" y="122" textAnchor="middle" fill="currentColor">{volume + water} mL de solução</text></svg><output className="math-result" aria-live="polite">Volume final: {number(result.volume)} L<br />C = {mass} ÷ {number(result.volume)} = {number(result.massConcentration)} g/L<br />n = {mass} ÷ 58,5 = {number(result.moles)} mol<br />c = {number(result.moles)} ÷ {number(result.volume)} = {number(result.molarity)} mol/L</output><p>Antes da diluição: {number(initial.massConcentration)} g/L. Depois: {number(result.massConcentration)} g/L. Os {mass} g de soluto permanecem; apenas o volume aumenta quando você acrescenta água. A intensidade da cor ilustra a concentração, sem representar a aparência real do NaCl.</p></>
+}
+const explorers = { 'quimica-organica': OrganicExplorer, estequiometria: StoichiometryExplorer, solucoes: SolutionsExplorer }
+function Challenges({ questions }) {
+  const [answers, setAnswers] = useState({})
+  const id = useId()
+  const count = Object.keys(answers).length
+  return <section className="math-challenges"><h3>Confira o que você aprendeu</h3><p>Escolha uma resposta. A correção explica o raciocínio; você pode mudar a alternativa e tentar novamente.</p>{questions.map((question, index) => <fieldset key={index}><legend>{index + 1}. {question.text}</legend>{question.options.map((option, optionIndex) => <label key={option}><input type="radio" name={`${id}-${index}`} checked={answers[index] === optionIndex} onChange={() => setAnswers(previous => ({ ...previous, [index]: optionIndex }))} />{option}</label>)}{answers[index] !== undefined && <div className="math-feedback" role="status"><strong>{answers[index] === question.answer ? 'Você acertou!' : `Vamos revisar. Resposta correta: ${question.options[question.answer]}.`}</strong><p>{question.explanation}</p></div>}</fieldset>)}{count > 0 && <p aria-live="polite">{questions.filter((question, index) => answers[index] === question.answer).length} acertos em {count} respostas atuais.</p>}<button className="study-text-button" onClick={() => setAnswers({})}>Reiniciar atividades</button></section>
+}
+export default function ChemistryStudyLesson({ lesson, topicId, explorer }) {
+  const id = useId()
+  const Explorer = explorer || explorers[topicId]
+  return <div className="math-complete-lesson chemistry-lesson"><div className="math-goal"><span>O que você vai aprender</span><p>{lesson.goal}</p></div><nav className="math-contents" aria-label="Conteúdo da aula">{lesson.sections.map((section, index) => <a key={section.title} href={`#${id}-${index}`}>{section.title}</a>)}<a href={`#${id}-examples`}>Exemplos resolvidos</a><a href={`#${id}-explore`}>Explore na prática</a><a href={`#${id}-quiz`}>Teste seu aprendizado</a></nav>{lesson.sections.map((section, index) => <section key={section.title} id={`${id}-${index}`}><h3>{section.title}</h3>{section.paragraphs.map(paragraph => <p key={paragraph}>{paragraph}</p>)}<div className="math-formula">{section.formula}</div></section>)}<section className="math-solved" id={`${id}-examples`}><h3>Exemplos resolvidos passo a passo</h3>{lesson.examples.map(example => <article key={example.title}><h4>{example.title}</h4><p>{example.problem}</p><ol>{example.steps.map(step => <li key={step}>{step}</li>)}</ol><strong>{example.answer}</strong></article>)}</section><section className="math-explorer" id={`${id}-explore`}><p className="eyebrow">Experimente e observe</p><h3>Explore na prática</h3><Explorer /></section><section><h3>Erros comuns e como evitá-los</h3><ul>{lesson.mistakes.map(mistake => <li key={mistake}>{mistake}</li>)}</ul></section><div id={`${id}-quiz`}><Challenges questions={lesson.challenges} /></div><div className="math-goal"><strong>Antes de partir para as provas</strong><p>Explique as ideias principais com suas palavras, refaça um exemplo sem consultar os passos e revise a explicação das atividades em que errou.</p></div></div>
+}

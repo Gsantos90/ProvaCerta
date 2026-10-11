@@ -2,6 +2,7 @@ import React, { useEffect, useMemo, useState } from 'react'
 import { ArrowLeft, BookOpen, Check, Shuffle } from 'lucide-react'
 import { analyzeEssay, emptyEssay, essayStorageKey, restoreEssay, reviewQuestions, summarizeReview } from './lib/essayReview'
 import { initialEssayThemes, normalizeEssayTheme, filterEssayThemes, pickEssayTheme } from './lib/essayThemes'
+import { usePageState } from './lib/pageState'
 import { supabase } from './lib/supabase'
 
 function initialDraft() {
@@ -15,8 +16,8 @@ export default function EssayPractice({ onBack }) {
   const [themesLoading, setThemesLoading] = useState(true)
   const [themesMessage, setThemesMessage] = useState('')
   const [themeRetry, setThemeRetry] = useState(0)
-  const [themeExam, setThemeExam] = useState('all')
-  const [themeYear, setThemeYear] = useState('all')
+  const [themeExam, setThemeExam] = usePageState('essay.exam', 'all')
+  const [themeYear, setThemeYear] = usePageState('essay.year', 'all')
   const [draft, setDraft] = useState(initial.draft)
   const [saveMessage, setSaveMessage] = useState(initial.error || 'Rascunho salvo neste navegador.')
   const analysis = useMemo(() => analyzeEssay(draft.text), [draft.text])

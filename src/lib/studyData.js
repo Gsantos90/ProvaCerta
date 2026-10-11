@@ -3,6 +3,7 @@ import { enemOfficialSource } from './enemExams.js'
 import { pismOfficialSource } from './pismSources.js'
 import { inssOfficialSource } from './inssSources.js'
 import { fuvestOfficialSource } from './fuvestSources.js'
+import { militaryQuestionMedia, militaryOfficialSource } from './militaryExams.js'
 import { previousAuthorRound, selectAuthorRound } from './authorPractice.js'
 
 export async function loadAuthorQuestions(client, topic) {
@@ -33,9 +34,9 @@ export async function loadTopicQuestions(client, topic) {
     if (data.length !== refs.length) throw new Error('Algumas questões deste assunto ainda não estão disponíveis. Tente novamente mais tarde.')
     return data.map(q => ({
       questionId: q.id, number: q.number, examSlug: exam.slug, examTitle: exam.title,
-      subject: q.subject, text: q.text, support: q.support, supportImage: q.support_image,
+      subject: q.subject, text: q.text, support: q.support, ...militaryQuestionMedia(q.support_image),
       options: q.options, answer: q.answer, explanation: q.explanation,
-      sourceUrl: correiosOfficialSource(exam.slug, q.number) || enemOfficialSource(exam.slug, q.number) || pismOfficialSource(exam.slug, q.number) || inssOfficialSource(exam.slug, q.number) || fuvestOfficialSource(exam.slug, q.number),
+      sourceUrl: militaryOfficialSource(exam.slug) || correiosOfficialSource(exam.slug, q.number) || enemOfficialSource(exam.slug, q.number) || pismOfficialSource(exam.slug, q.number) || inssOfficialSource(exam.slug, q.number) || fuvestOfficialSource(exam.slug, q.number),
     }))
   }))
   const questions = lists.flat()
