@@ -24,6 +24,10 @@ import ExamPicker, { ExamProgressProvider, CatalogFilters } from './ExamPicker'
 import ExamSetup from './ExamSetup'
 import MilitaryExamCard from './MilitaryExamCard'
 import BombeirosExamCard from './BombeirosExamCard'
+import UerjDiscursive from './UerjDiscursive'
+import { uerjDiscursiveExams } from './lib/uerjDiscursive'
+import { uerjObjectiveSource } from './lib/uerjObjectiveSources'
+import { uerjObjectiveMedia } from './lib/uerjObjectiveMedia'
 import { bombeirosOfficialSource } from './lib/bombeirosExams'
 import { EnemCard, ExamCard, BbCard, PmerjCard, CorreiosCard, InssCard, CaixaCard, PcCard, PfCard, CnuCard, OabCard, UerjCard, UspCard, UpcomingCard } from './ExamCards'
 import './studyHub.css'
@@ -397,8 +401,16 @@ const oabYearOptions = Object.keys(oabExamsByYear).sort((a, b) => b.localeCompar
 // Vestibular Estadual da UERJ, organizado por ano > edição (exame de qualificação).
 // Cada edição aponta para o slug da prova cadastrada no Supabase (quando houver).
 const uerjExamsByYear = {
+  '2026': [
+    { value: 'eq2', label: '2º Exame de Qualificação', slug: 'uerj-2026-eq2' },
+    { value: 'ed-biologia', label: 'Exame discursivo - Biologia', discursive: true },
+  ],
+  '2014': [
+    { value: 'ed-biologia', label: 'Exame discursivo - Biologia', discursive: true },
+  ],
   '2025': [
     { value: 'eq2', label: 'Exame de Qualificação', slug: 'uerj-2025-eq2' },
+    { value: 'ed-biologia', label: 'Exame discursivo - Biologia', discursive: true },
   ],
 }
 const uerjYearOptions = Object.keys(uerjExamsByYear).sort((a, b) => b.localeCompare(a))
@@ -553,8 +565,9 @@ function App() {
   const [draftSaveFailed, setDraftSaveFailed] = useState(false)
   const [accountTab, setAccountTab] = usePageState('app.accountTab', 'history')
   const openAccount = (tab) => { setAccountTab(tab); setScreen('account'); setMenuOpen(false) }
-  const [savedScreen, setSavedScreen] = usePageState('screen', 'home', value => ['home', 'catalog', 'study', 'essay', 'simulado', 'account'].includes(value))
+  const [savedScreen, setSavedScreen] = usePageState('screen', 'home', value => ['home', 'catalog', 'study', 'essay', 'simulado', 'account', 'uerj-discursive'].includes(value))
   const [screen, setScreen] = useState(restoredDraft?.screen || savedScreen)
+  const [discursiveYear, setDiscursiveYear] = usePageState('uerj.discursive.year', '2014', value => Boolean(uerjDiscursiveExams[value]))
   useEffect(() => { setSavedScreen(screen) }, [screen])
   const [studyTab, setStudyTab] = usePageState('app.studyTab', 'questions')
   const [studyPracticeTitle, setStudyPracticeTitle] = useState(restoredDraft?.label || 'Estudo por assunto')
@@ -769,10 +782,11 @@ function App() {
       text: question.text,
       support: question.support,
       ...militaryQuestionMedia(question.support_image),
+      ...uerjObjectiveMedia(supabaseSlug, question.number, question.support),
       options: question.options,
       answer: question.answer,
       explanation: question.explanation,
-      sourceUrl: bombeirosOfficialSource(supabaseSlug, question.number) || militaryOfficialSource(supabaseSlug) || pmerjOfficialSource(supabaseSlug, question.number) || correiosOfficialSource(supabaseSlug, question.number) || inssOfficialSource(supabaseSlug, question.number) || pismOfficialSource(supabaseSlug, question.number) || fuvestOfficialSource(supabaseSlug, question.number) || enemOfficialSource(supabaseSlug, question.number),
+      sourceUrl: uerjObjectiveSource(supabaseSlug, question.number) || bombeirosOfficialSource(supabaseSlug, question.number) || militaryOfficialSource(supabaseSlug) || pmerjOfficialSource(supabaseSlug, question.number) || correiosOfficialSource(supabaseSlug, question.number) || inssOfficialSource(supabaseSlug, question.number) || pismOfficialSource(supabaseSlug, question.number) || fuvestOfficialSource(supabaseSlug, question.number) || enemOfficialSource(supabaseSlug, question.number),
     }))
     supabaseExamCache.set(supabaseSlug, mapped)
     return mapped
@@ -1176,10 +1190,11 @@ function App() {
         text: question.text,
         support: question.support,
         ...militaryQuestionMedia(question.support_image),
+        ...uerjObjectiveMedia(exams.find((exam) => exam.id === question.exam_id)?.slug, question.number, question.support),
         options: question.options,
         answer: question.answer,
         explanation: question.explanation,
-        sourceUrl: bombeirosOfficialSource(exams.find((exam) => exam.id === question.exam_id)?.slug, question.number) || militaryOfficialSource(exams.find((exam) => exam.id === question.exam_id)?.slug) || pmerjOfficialSource(exams.find((exam) => exam.id === question.exam_id)?.slug, question.number) || correiosOfficialSource(exams.find((exam) => exam.id === question.exam_id)?.slug, question.number) || inssOfficialSource(exams.find((exam) => exam.id === question.exam_id)?.slug, question.number) || pismOfficialSource(exams.find((exam) => exam.id === question.exam_id)?.slug, question.number) || fuvestOfficialSource(exams.find((exam) => exam.id === question.exam_id)?.slug, question.number) || enemOfficialSource(exams.find((exam) => exam.id === question.exam_id)?.slug, question.number),
+        sourceUrl: uerjObjectiveSource(exams.find((exam) => exam.id === question.exam_id)?.slug, question.number) || bombeirosOfficialSource(exams.find((exam) => exam.id === question.exam_id)?.slug, question.number) || militaryOfficialSource(exams.find((exam) => exam.id === question.exam_id)?.slug) || pmerjOfficialSource(exams.find((exam) => exam.id === question.exam_id)?.slug, question.number) || correiosOfficialSource(exams.find((exam) => exam.id === question.exam_id)?.slug, question.number) || inssOfficialSource(exams.find((exam) => exam.id === question.exam_id)?.slug, question.number) || pismOfficialSource(exams.find((exam) => exam.id === question.exam_id)?.slug, question.number) || fuvestOfficialSource(exams.find((exam) => exam.id === question.exam_id)?.slug, question.number) || enemOfficialSource(exams.find((exam) => exam.id === question.exam_id)?.slug, question.number),
       }))
       setEnemQuestions(questions)
       setSupabaseExamSlug('simulado')
@@ -1270,8 +1285,9 @@ function App() {
 
   // Vestibular da UERJ. Seleção por ano > edição; o slug define a prova disponível.
   const currentUerjEditions = uerjExamsByYear[uerjYear] || []
-  const uerjSlug = currentUerjEditions.find((item) => item.value === uerjEdition)?.slug
-  const isUerjAvailable = Boolean(uerjSlug)
+  const selectedUerjEdition = currentUerjEditions.find((item) => item.value === uerjEdition) || currentUerjEditions[0]
+  const uerjSlug = selectedUerjEdition?.slug
+  const isUerjAvailable = Boolean(uerjSlug || (selectedUerjEdition?.discursive && uerjDiscursiveExams[uerjYear]?.length))
 
   const changeUerjYear = (value) => {
     setUerjYear(value)
@@ -1280,6 +1296,13 @@ function App() {
   }
 
   const startUerjExam = async () => {
+    if (selectedUerjEdition?.discursive && uerjDiscursiveExams[uerjYear]) {
+      setDiscursiveYear(uerjYear)
+      setScreen('uerj-discursive')
+      setMenuOpen(false)
+      window.scrollTo({ top: 0, behavior: 'instant' })
+      return
+    }
     if (!uerjSlug) return
     setUerjLoading(true)
     setUerjError('')
@@ -1617,7 +1640,7 @@ function App() {
       year={uerjYear}
       setYear={changeUerjYear}
       editions={currentUerjEditions}
-      edition={uerjEdition}
+      edition={selectedUerjEdition?.value || ''}
       setEdition={setUerjEdition}
       onStart={startUerjExam}
       available={isUerjAvailable}
@@ -1640,6 +1663,10 @@ function App() {
     />
   )
   const featuredCards = { cbmerj: <BombeirosExamCard years={['2026','2025','2024','2023']} onStart={startMilitaryExam} loading={militaryLoading === 'cbmerj'} error={militaryError.cbmerj} />, esa: <MilitaryExamCard institution="esa" years={['2026']} onStart={startMilitaryExam} loading={militaryLoading === 'esa'} error={militaryError.esa} />, espcex: <MilitaryExamCard institution="espcex" years={['2026']} onStart={startMilitaryExam} loading={militaryLoading === 'espcex'} error={militaryError.espcex} />, inss: inssCard, pism: pismCard, enem: enemCard, uerj: uerjCard, usp: uspCard, bb: bbCard, cnu: cnuCard, oab: oabCard, pmrj: pmerjCard, correios: correiosCard, caixa: caixaCard, pc: pcCard, pf: pfCard }
+
+  if (screen === 'uerj-discursive') {
+    return <div className="app-shell"><Header onStudy={openStudy} activeScreen="catalog" onAccount={openAccount} menuOpen={menuOpen} setMenuOpen={setMenuOpen} onHome={() => setScreen('home')} onSimulado={openSimulado} onCatalog={() => setScreen('catalog')} onAbout={goToAbout} onEssay={() => { setScreen('essay'); setMenuOpen(false) }} /><UerjDiscursive key={discursiveYear} year={discursiveYear} onBack={() => setScreen('catalog')} /></div>
+  }
 
   if (screen === 'essay') {
     return <div className="app-shell"><Header onStudy={openStudy} activeScreen={screen} onAccount={openAccount} menuOpen={menuOpen} setMenuOpen={setMenuOpen} onHome={() => setScreen('home')} onSimulado={openSimulado} onCatalog={() => setScreen('catalog')} onAbout={goToAbout} onEssay={() => { setScreen('essay'); setMenuOpen(false) }} /><React.Suspense fallback={<main className="essay-page"><p role="status">Carregando a área de redação…</p></main>}><EssayPractice onBack={() => setScreen('home')} /></React.Suspense></div>
@@ -1887,6 +1914,7 @@ function App() {
     const isReview = screen === 'review'
     const question = {
       ...activeQuestions[current],
+      ...uerjObjectiveMedia(activeQuestions[current].examSlug, activeQuestions[current].number, activeQuestions[current].support),
       text: normalizeExtractedText(activeQuestions[current].text),
       options: activeQuestions[current].options.map(normalizeExtractedText),
     }
@@ -1975,7 +2003,7 @@ function App() {
               <div className="question-heading"><span>Questão {String(current + 1).padStart(2, '0')}</span><Clock3 size={16} /> <small>{isReview ? 'Revisão' : session?.deadline ? 'Modo de prova' : 'Sem tempo limite'}</small>{speechSupported && <button type="button" className={`listen-button ${speakingId === 'question' ? 'active' : ''}`} onClick={() => speak('question', `${question.text}. ${question.options.map((option, index) => binary ? option : `Alternativa ${letters[index]}. ${option}`).join('. ')}`)} aria-label={speakingId === 'question' ? 'Parar leitura da questão' : 'Ouvir a questão'}>{speakingId === 'question' ? <><Square size={14} /> Parar</> : <><Volume2 size={15} /> Ouvir questão</>}</button>}</div>
               {selectedExam === 'inss' && <p className="official-source">Acerto: +1 · Erro: −1 · Em branco: 0 · Anulado: +1.</p>}
               <h1 className={question.examSlug?.match(/^(esa|espcex)-/) ? 'military-question-text' : undefined}>{question.text}</h1>
-              {question.sourceUrl && <p className="official-source"><a href={question.sourceUrl} target="_blank" rel="noopener noreferrer">Abrir questão e textos no caderno oficial {question.examSlug?.startsWith('cbmerj-') ? 'do CBMERJ' : question.examSlug?.startsWith('pmerj-') ? 'da PMERJ' : question.sourceUrl.includes('cebraspe.org.br') ? 'do Cebraspe' : question.sourceUrl.includes('fuvest.br') ? 'da FUVEST' : question.sourceUrl.includes('inep') ? 'do Inep' : question.examSlug?.startsWith('esa-') ? 'da ESA' : question.examSlug?.startsWith('espcex-') ? 'da EsPCEx' : 'da UFJF'} ↗</a></p>}
+              {question.sourceUrl && <p className="official-source"><a href={question.sourceUrl} target="_blank" rel="noopener noreferrer">Abrir questão e textos no caderno oficial {question.examSlug?.startsWith('uerj-') ? 'da UERJ' : question.examSlug?.startsWith('cbmerj-') ? 'do CBMERJ' : question.examSlug?.startsWith('pmerj-') ? 'da PMERJ' : question.sourceUrl.includes('cebraspe.org.br') ? 'do Cebraspe' : question.sourceUrl.includes('fuvest.br') ? 'da FUVEST' : question.sourceUrl.includes('inep') ? 'do Inep' : question.examSlug?.startsWith('esa-') ? 'da ESA' : question.examSlug?.startsWith('espcex-') ? 'da EsPCEx' : 'da UFJF'} ↗</a></p>}
               <div className="options">
                 {question.options.map((option, index) => {
                   const letter = letters[index]
