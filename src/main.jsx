@@ -23,6 +23,8 @@ import StudyAccount, { SaveResult } from './StudyAccount'
 import ExamPicker, { ExamProgressProvider, CatalogFilters } from './ExamPicker'
 import ExamSetup from './ExamSetup'
 import MilitaryExamCard from './MilitaryExamCard'
+import ItaExamCard from './ItaExamCard'
+import { ITA_SLUG, loadItaExam } from './lib/itaExam'
 import BombeirosExamCard from './BombeirosExamCard'
 import UerjDiscursive from './UerjDiscursive'
 import { uerjDiscursiveExams } from './lib/uerjDiscursive'
@@ -35,6 +37,7 @@ import { remainingSeconds, formatDuration, reportContext } from './lib/examSessi
 import { readExamDraft, writeExamDraft } from './lib/examDraft'
 import { usePageState } from './lib/pageState'
 const QuestionReport = React.lazy(() => import('./QuestionReport'))
+const ItaDiscursive = React.lazy(() => import('./ItaDiscursive'))
 
 const EssayPractice = React.lazy(() => import('./EssayPractice'))
 const StudyHub = React.lazy(() => import('./StudyHub'))
@@ -107,6 +110,7 @@ const catalogCategories = [
     title: 'Faculdades públicas',
     description: 'Vestibulares específicos de universidades públicas.',
     exams: [
+      { id: 'ita', name: 'ITA', org: 'AERONÁUTICA · São Paulo', short: 'ITA', description: 'Instituto Tecnológico de Aeronáutica · Vestibular', available: true, color: 'navy' },
       { id: 'pism', name: 'PISM', org: 'UFJF', description: 'Programa de Ingresso Seletivo Misto', available: true },
       { id: 'uerj', name: 'UERJ', org: 'Rio de Janeiro', short: 'UERJ', description: 'Universidade do Estado do Rio de Janeiro', available: true, color: 'teal' },
       { id: 'usp', name: 'USP', org: 'FUVEST · São Paulo', short: 'USP', description: 'Universidade de São Paulo (FUVEST)', available: true, color: 'crimson' },
@@ -565,7 +569,7 @@ function App() {
   const [draftSaveFailed, setDraftSaveFailed] = useState(false)
   const [accountTab, setAccountTab] = usePageState('app.accountTab', 'history')
   const openAccount = (tab) => { setAccountTab(tab); setScreen('account'); setMenuOpen(false) }
-  const [savedScreen, setSavedScreen] = usePageState('screen', 'home', value => ['home', 'catalog', 'study', 'essay', 'simulado', 'account', 'uerj-discursive'].includes(value))
+  const [savedScreen, setSavedScreen] = usePageState('screen', 'home', value => ['home', 'catalog', 'study', 'essay', 'simulado', 'account', 'uerj-discursive', 'ita-discursive'].includes(value))
   const [screen, setScreen] = useState(restoredDraft?.screen || savedScreen)
   const [discursiveYear, setDiscursiveYear] = usePageState('uerj.discursive.year', '2014', value => Boolean(uerjDiscursiveExams[value]))
   useEffect(() => { setSavedScreen(screen) }, [screen])
@@ -654,6 +658,20 @@ function App() {
   const [enemDiscipline, setEnemDiscipline] = usePageState('app.enemDiscipline', 'completa')
   const [enemLanguage, setEnemLanguage] = usePageState('app.enemLanguage', 'ingles')
   const [enemQuestions, setEnemQuestions] = useState(restoredDraft?.questions || [])
+  useEffect(() => {
+    // Upgrade sessions opened during the image-based import without losing answers.
+    if (selectedExam !== 'ita' || !enemQuestions.some(question => question.questionImage)) return
+    let alive = true
+    loadItaExam().then(questions => {
+      if (alive) {
+        supabaseExamCache.set(ITA_SLUG, questions)
+        setEnemQuestions(questions)
+      }
+    }).catch(error => {
+      if (alive) setMilitaryError(previous => ({ ...previous, ita: error.message }))
+    })
+    return () => { alive = false }
+  }, [selectedExam, enemQuestions])
   const [enemLoading, setEnemLoading] = useState(false)
   const [enemError, setEnemError] = useState('')
   const [current, setCurrent] = useState(restoredDraft?.current || 0)
@@ -691,12 +709,12 @@ function App() {
   const activeQuestions = selectedExam === 'enem' || supabaseExamSlug ? enemQuestions : questionSets[selectedExam] || []
   const pismExam = pismExamDetails(supabaseExamSlug)
   const isRestoredSession = restoredDraft && session?.id === restoredDraft.session.id && selectedExam === restoredDraft.selectedExam && enemQuestions === restoredDraft.questions
-  const examLabel = isRestoredSession ? restoredDraft.label : ['esa', 'espcex', 'cbmerj'].includes(selectedExam) ? activeQuestions[0]?.examTitle || selectedExam.toUpperCase() : selectedExam === 'study' ? studyPracticeTitle : selectedExam === 'inss' ? 'INSS 2022 · Técnico do Seguro Social' : pismExam ? String(pismExam.year) : selectedExam === 'usp' ? `USP ${uspYear} · FUVEST` : selectedExam === 'uerj' ? `UERJ ${uerjYear} · ${(uerjExamsByYear[uerjYear] || []).find((item) => item.value === uerjEdition)?.label || ''}` : selectedExam === 'simulado' ? `Simulado · ${simuladoLevels.find((item) => item.value === simuladoLevel)?.label || 'Personalizado'}` : selectedExam === 'pism-1' ? '2025-1' : selectedExam === 'pism-2' ? '2025-2' : selectedExam === 'pism-2024-1' ? '2024-1' : selectedExam === 'pism-2024-2' ? '2024-2' : selectedExam === 'pism-2023-1' ? '2023-1' : selectedExam === 'pism-2023-2' ? '2023-2' : selectedExam === 'enem' ? `ENEM ${enemYear}` : selectedExam === 'bb' ? `Banco do Brasil ${bbYear} · ${bbRole}` : selectedExam === 'cnu' ? `CNU ${cnuYear} · Bloco ${cnuBlock.replace('bloco-', '')}` : selectedExam === 'oab' ? `OAB ${oabYear} · ${(oabExamsByYear[oabYear] || []).find((item) => item.value === oabEdition)?.label || 'Exame de Ordem'}` : selectedExam === 'pmerj' ? `PMERJ ${pmerjYear} · ${pmerjRolesConfig[pmerjRole]?.label || 'Soldado'}` : selectedExam === 'correios' ? `Correios ${correiosYear} · ${correiosRolesConfig[correiosRole]?.label || 'Carteiro'}` : selectedExam === 'caixa' ? `CAIXA ${caixaYear} · ${caixaRolesConfig[caixaRole]?.label || 'Técnico Bancário Novo'}` : selectedExam === 'pc' ? `Polícia Civil ${pcState} ${pcYear} · ${pcByState[pcState]?.roles?.[pcRole]?.label || 'Investigador'}` : selectedExam === 'pf' ? `Polícia Federal ${pfYear} · ${pfRole} · ${pfArea}` : '2023-1_Cad_Amarelo - LINGUAGENS, CÓDIGOS E SUAS TECNOLOGIAS'
+  const examLabel = isRestoredSession ? restoredDraft.label : ['esa', 'espcex', 'cbmerj', 'ita'].includes(selectedExam) ? activeQuestions[0]?.examTitle || selectedExam.toUpperCase() : selectedExam === 'study' ? studyPracticeTitle : selectedExam === 'inss' ? 'INSS 2022 · Técnico do Seguro Social' : pismExam ? String(pismExam.year) : selectedExam === 'usp' ? `USP ${uspYear} · FUVEST` : selectedExam === 'uerj' ? `UERJ ${uerjYear} · ${(uerjExamsByYear[uerjYear] || []).find((item) => item.value === uerjEdition)?.label || ''}` : selectedExam === 'simulado' ? `Simulado · ${simuladoLevels.find((item) => item.value === simuladoLevel)?.label || 'Personalizado'}` : selectedExam === 'pism-1' ? '2025-1' : selectedExam === 'pism-2' ? '2025-2' : selectedExam === 'pism-2024-1' ? '2024-1' : selectedExam === 'pism-2024-2' ? '2024-2' : selectedExam === 'pism-2023-1' ? '2023-1' : selectedExam === 'pism-2023-2' ? '2023-2' : selectedExam === 'enem' ? `ENEM ${enemYear}` : selectedExam === 'bb' ? `Banco do Brasil ${bbYear} · ${bbRole}` : selectedExam === 'cnu' ? `CNU ${cnuYear} · Bloco ${cnuBlock.replace('bloco-', '')}` : selectedExam === 'oab' ? `OAB ${oabYear} · ${(oabExamsByYear[oabYear] || []).find((item) => item.value === oabEdition)?.label || 'Exame de Ordem'}` : selectedExam === 'pmerj' ? `PMERJ ${pmerjYear} · ${pmerjRolesConfig[pmerjRole]?.label || 'Soldado'}` : selectedExam === 'correios' ? `Correios ${correiosYear} · ${correiosRolesConfig[correiosRole]?.label || 'Carteiro'}` : selectedExam === 'caixa' ? `CAIXA ${caixaYear} · ${caixaRolesConfig[caixaRole]?.label || 'Técnico Bancário Novo'}` : selectedExam === 'pc' ? `Polícia Civil ${pcState} ${pcYear} · ${pcByState[pcState]?.roles?.[pcRole]?.label || 'Investigador'}` : selectedExam === 'pf' ? `Polícia Federal ${pfYear} · ${pfRole} · ${pfArea}` : '2023-1_Cad_Amarelo - LINGUAGENS, CÓDIGOS E SUAS TECNOLOGIAS'
   // Tela de "início" para onde os botões de voltar da prova/resultado devem retornar:
   // simulados voltam para a tela de simulado; as demais provas, para o catálogo (todas as provas).
   const examHomeScreen = selectedExam === 'study' ? 'study' : selectedExam === 'simulado' ? 'simulado' : 'catalog'
   const cnuShiftLabel = cnuYear === '2025' ? 'Conhecimentos Gerais e Específicos' : cnuShift === 'manha' ? 'Manhã · Conhecimentos Gerais' : 'Tarde · Conhecimentos Específicos'
-  const examDay = isRestoredSession ? restoredDraft.day : selectedExam === 'study' ? `Prática por assunto · ${activeQuestions.length} questões` : selectedExam === 'inss' ? `Prova objetiva · ${activeQuestions.length} itens (Certo/Errado)` : selectedExam === 'usp' || selectedExam === 'uerj' || selectedExam === 'esa' || selectedExam === 'espcex' || selectedExam === 'cbmerj' ? `Prova objetiva · ${activeQuestions.length} questões` : selectedExam === 'simulado' ? `Simulado personalizado · ${activeQuestions.length} questões` : selectedExam === 'enem' ? (enemAreas.find(item => item.value === enemDiscipline)?.label + (enemHasLanguage(enemDiscipline) ? ' · ' + (enemLanguage === 'espanhol' ? 'Espanhol' : 'Inglês') : '')) : selectedExam === 'bb' ? 'Prova objetiva' : selectedExam === 'oab' ? 'Prova objetiva · 1ª fase' : selectedExam === 'pmerj' || selectedExam === 'correios' || selectedExam === 'caixa' ? `Prova objetiva · ${activeQuestions.length} questões` : selectedExam === 'pc' ? `Prova objetiva · ${activeQuestions.length} questões` : selectedExam === 'pf' ? 'Conhecimentos Básicos · 50 itens (Certo/Errado)' : selectedExam === 'cnu' ? cnuShiftLabel : pismExam ? `${pismExam.day}º dia` : examLabel.endsWith('-1') ? 'Dia 1' : 'Dia 2'
+  const examDay = isRestoredSession ? restoredDraft.day : selectedExam === 'study' ? `Prática por assunto · ${activeQuestions.length} questões` : selectedExam === 'inss' ? `Prova objetiva · ${activeQuestions.length} itens (Certo/Errado)` : selectedExam === 'usp' || selectedExam === 'uerj' || selectedExam === 'esa' || selectedExam === 'espcex' || selectedExam === 'cbmerj' || selectedExam === 'ita' ? `Prova objetiva · ${activeQuestions.length} questões` : selectedExam === 'simulado' ? `Simulado personalizado · ${activeQuestions.length} questões` : selectedExam === 'enem' ? (enemAreas.find(item => item.value === enemDiscipline)?.label + (enemHasLanguage(enemDiscipline) ? ' · ' + (enemLanguage === 'espanhol' ? 'Espanhol' : 'Inglês') : '')) : selectedExam === 'bb' ? 'Prova objetiva' : selectedExam === 'oab' ? 'Prova objetiva · 1ª fase' : selectedExam === 'pmerj' || selectedExam === 'correios' || selectedExam === 'caixa' ? `Prova objetiva · ${activeQuestions.length} questões` : selectedExam === 'pc' ? `Prova objetiva · ${activeQuestions.length} questões` : selectedExam === 'pf' ? 'Conhecimentos Básicos · 50 itens (Certo/Errado)' : selectedExam === 'cnu' ? cnuShiftLabel : pismExam ? `${pismExam.day}º dia` : examLabel.endsWith('-1') ? 'Dia 1' : 'Dia 2'
 
   useEffect(() => {
     let saved = false
@@ -756,6 +774,10 @@ function App() {
 
   // Carrega as questões de uma prova cadastrada no Supabase a partir do seu slug.
   const loadSupabaseExam = async (supabaseSlug) => {
+    if (supabaseSlug === ITA_SLUG) {
+      if (!supabaseExamCache.has(ITA_SLUG)) supabaseExamCache.set(ITA_SLUG, await loadItaExam())
+      return supabaseExamCache.get(ITA_SLUG)
+    }
     if (!supabase || !supabaseSlug) {
       throw new Error('Esta prova exige conexão com o Supabase. Verifique a configuração do banco de dados.')
     }
@@ -912,6 +934,11 @@ function App() {
   }
 
   const startMilitaryExam = async (slug) => {
+    if (slug === 'ita-2026-fase-2') {
+      setScreen('ita-discursive')
+      setMenuOpen(false)
+      return
+    }
     const institution = slug.split('-')[0]
     setMilitaryLoading(institution)
     setMilitaryError(previous => ({ ...previous, [institution]: '' }))
@@ -1662,10 +1689,14 @@ function App() {
       error={uspError}
     />
   )
-  const featuredCards = { cbmerj: <BombeirosExamCard years={['2026','2025','2024','2023']} onStart={startMilitaryExam} loading={militaryLoading === 'cbmerj'} error={militaryError.cbmerj} />, esa: <MilitaryExamCard institution="esa" years={['2026']} onStart={startMilitaryExam} loading={militaryLoading === 'esa'} error={militaryError.esa} />, espcex: <MilitaryExamCard institution="espcex" years={['2026']} onStart={startMilitaryExam} loading={militaryLoading === 'espcex'} error={militaryError.espcex} />, inss: inssCard, pism: pismCard, enem: enemCard, uerj: uerjCard, usp: uspCard, bb: bbCard, cnu: cnuCard, oab: oabCard, pmrj: pmerjCard, correios: correiosCard, caixa: caixaCard, pc: pcCard, pf: pfCard }
+  const featuredCards = { ita: <ItaExamCard years={['2026']} onStart={startMilitaryExam} loading={militaryLoading === 'ita'} error={militaryError.ita} />, cbmerj: <BombeirosExamCard years={['2026','2025','2024','2023']} onStart={startMilitaryExam} loading={militaryLoading === 'cbmerj'} error={militaryError.cbmerj} />, esa: <MilitaryExamCard institution="esa" years={['2026']} onStart={startMilitaryExam} loading={militaryLoading === 'esa'} error={militaryError.esa} />, espcex: <MilitaryExamCard institution="espcex" years={['2026']} onStart={startMilitaryExam} loading={militaryLoading === 'espcex'} error={militaryError.espcex} />, inss: inssCard, pism: pismCard, enem: enemCard, uerj: uerjCard, usp: uspCard, bb: bbCard, cnu: cnuCard, oab: oabCard, pmrj: pmerjCard, correios: correiosCard, caixa: caixaCard, pc: pcCard, pf: pfCard }
 
   if (screen === 'uerj-discursive') {
     return <div className="app-shell"><Header onStudy={openStudy} activeScreen="catalog" onAccount={openAccount} menuOpen={menuOpen} setMenuOpen={setMenuOpen} onHome={() => setScreen('home')} onSimulado={openSimulado} onCatalog={() => setScreen('catalog')} onAbout={goToAbout} onEssay={() => { setScreen('essay'); setMenuOpen(false) }} /><UerjDiscursive key={discursiveYear} year={discursiveYear} onBack={() => setScreen('catalog')} /></div>
+  }
+
+  if (screen === 'ita-discursive') {
+    return <div className="app-shell"><Header onStudy={openStudy} activeScreen="catalog" onAccount={openAccount} menuOpen={menuOpen} setMenuOpen={setMenuOpen} onHome={() => setScreen('home')} onSimulado={openSimulado} onCatalog={() => setScreen('catalog')} onAbout={goToAbout} onEssay={() => { setScreen('essay'); setMenuOpen(false) }} /><React.Suspense fallback={<main className="discursive-page"><p role="status">Carregando a segunda fase do ITA…</p></main>}><ItaDiscursive onBack={() => setScreen('catalog')} /></React.Suspense></div>
   }
 
   if (screen === 'essay') {
@@ -1934,7 +1965,7 @@ function App() {
         <main className="exam-page">
           <div className="exam-topline">
             <button className="back-link" onClick={() => { if (isReview) { setScreen('result') } else if (examHomeScreen === 'simulado') { openSimulado() } else { setScreen(examHomeScreen) } }}><ArrowLeft size={17} /> {isReview ? 'Voltar ao resultado' : 'Sair da prova'}</button>
-            <div className="exam-name"><span className="mini-logo">P</span><span>provacerta · {selectedExam === 'study' || selectedExam === 'usp' || selectedExam === 'uerj' || selectedExam === 'simulado' || selectedExam === 'enem' || selectedExam === 'bb' || selectedExam === 'cnu' || selectedExam === 'oab' || selectedExam === 'pmerj' || selectedExam === 'pc' || selectedExam === 'pf' || selectedExam === 'inss' || selectedExam === 'esa' || selectedExam === 'espcex' || selectedExam === 'cbmerj' ? examLabel : `PISM ${examLabel}`}</span><b>·</b><span>{isReview ? 'Revisão' : selectedExam === 'study' || selectedExam === 'usp' || selectedExam === 'uerj' || selectedExam === 'simulado' || selectedExam === 'enem' || selectedExam === 'bb' || selectedExam === 'cnu' || selectedExam === 'oab' || selectedExam === 'pmerj' || selectedExam === 'pc' || selectedExam === 'pf' || selectedExam === 'inss' || selectedExam === 'esa' || selectedExam === 'espcex' || selectedExam === 'cbmerj' ? examDay : `Módulo ${pismExam?.module || 'I'} · ${examDay}`}</span></div>
+            <div className="exam-name"><span className="mini-logo">P</span><span>provacerta · {selectedExam === 'study' || selectedExam === 'usp' || selectedExam === 'uerj' || selectedExam === 'simulado' || selectedExam === 'enem' || selectedExam === 'bb' || selectedExam === 'cnu' || selectedExam === 'oab' || selectedExam === 'pmerj' || selectedExam === 'pc' || selectedExam === 'pf' || selectedExam === 'inss' || selectedExam === 'esa' || selectedExam === 'espcex' || selectedExam === 'cbmerj' || selectedExam === 'ita' ? examLabel : `PISM ${examLabel}`}</span><b>·</b><span>{isReview ? 'Revisão' : selectedExam === 'study' || selectedExam === 'usp' || selectedExam === 'uerj' || selectedExam === 'simulado' || selectedExam === 'enem' || selectedExam === 'bb' || selectedExam === 'cnu' || selectedExam === 'oab' || selectedExam === 'pmerj' || selectedExam === 'pc' || selectedExam === 'pf' || selectedExam === 'inss' || selectedExam === 'esa' || selectedExam === 'espcex' || selectedExam === 'cbmerj' || selectedExam === 'ita' ? examDay : `Módulo ${pismExam?.module || 'I'} · ${examDay}`}</span></div>
             <span className="question-count">{current + 1} <i>/</i> {activeQuestions.length}</span>
           </div>
           {!isReview && session?.deadline && <div className="exam-timer">
@@ -2002,8 +2033,8 @@ function App() {
               {selectedExam === 'study' && <p className="official-source">{question.examTitle} · Questão {question.number}</p>}
               <div className="question-heading"><span>Questão {String(current + 1).padStart(2, '0')}</span><Clock3 size={16} /> <small>{isReview ? 'Revisão' : session?.deadline ? 'Modo de prova' : 'Sem tempo limite'}</small>{speechSupported && <button type="button" className={`listen-button ${speakingId === 'question' ? 'active' : ''}`} onClick={() => speak('question', `${question.text}. ${question.options.map((option, index) => binary ? option : `Alternativa ${letters[index]}. ${option}`).join('. ')}`)} aria-label={speakingId === 'question' ? 'Parar leitura da questão' : 'Ouvir a questão'}>{speakingId === 'question' ? <><Square size={14} /> Parar</> : <><Volume2 size={15} /> Ouvir questão</>}</button>}</div>
               {selectedExam === 'inss' && <p className="official-source">Acerto: +1 · Erro: −1 · Em branco: 0 · Anulado: +1.</p>}
-              <h1 className={question.examSlug?.match(/^(esa|espcex)-/) ? 'military-question-text' : undefined}>{question.text}</h1>
-              {question.sourceUrl && <p className="official-source"><a href={question.sourceUrl} target="_blank" rel="noopener noreferrer">Abrir questão e textos no caderno oficial {question.examSlug?.startsWith('uerj-') ? 'da UERJ' : question.examSlug?.startsWith('cbmerj-') ? 'do CBMERJ' : question.examSlug?.startsWith('pmerj-') ? 'da PMERJ' : question.sourceUrl.includes('cebraspe.org.br') ? 'do Cebraspe' : question.sourceUrl.includes('fuvest.br') ? 'da FUVEST' : question.sourceUrl.includes('inep') ? 'do Inep' : question.examSlug?.startsWith('esa-') ? 'da ESA' : question.examSlug?.startsWith('espcex-') ? 'da EsPCEx' : 'da UFJF'} ↗</a></p>}
+              <h1 className={question.examSlug?.match(/^(esa|espcex|ita)-/) ? 'military-question-text' : undefined}>{question.text}</h1>
+              {question.sourceUrl && <p className="official-source"><a href={question.sourceUrl} target="_blank" rel="noopener noreferrer">Abrir questão e textos no caderno oficial {question.examSlug?.startsWith('ita-') ? 'do ITA' : question.examSlug?.startsWith('uerj-') ? 'da UERJ' : question.examSlug?.startsWith('cbmerj-') ? 'do CBMERJ' : question.examSlug?.startsWith('pmerj-') ? 'da PMERJ' : question.sourceUrl.includes('cebraspe.org.br') ? 'do Cebraspe' : question.sourceUrl.includes('fuvest.br') ? 'da FUVEST' : question.sourceUrl.includes('inep') ? 'do Inep' : question.examSlug?.startsWith('esa-') ? 'da ESA' : question.examSlug?.startsWith('espcex-') ? 'da EsPCEx' : 'da UFJF'} ↗</a></p>}
               <div className="options">
                 {question.options.map((option, index) => {
                   const letter = letters[index]

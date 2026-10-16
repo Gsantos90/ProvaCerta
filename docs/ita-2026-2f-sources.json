@@ -1,0 +1,22 @@
+{
+  "index": "https://vestibular.ita.br/provas.htm",
+  "official": {
+    "matematica": "https://vestibular.ita.br/provas/matematica_2026_2f.pdf",
+    "quimica": "https://vestibular.ita.br/provas/quimica_2026_2f.pdf",
+    "fisica": "https://vestibular.ita.br/provas/fisica_2026_2f.pdf",
+    "portugues": "https://vestibular.ita.br/provas/portugues_2026_2f.pdf"
+  },
+  "answerKey": "https://vestibular.ita.br/provas/gabarito_2026_2f.pdf",
+  "solutions": {
+    "matematica": "https://etaparesolve.etapa.com.br/ita/2026/708/12/0",
+    "quimica": "https://etaparesolve.etapa.com.br/ita/2026/709/12/0",
+    "fisica": "https://etaparesolve.etapa.com.br/ita/2026/710/12/0"
+  },
+  "sha256": {
+    "fisica.pdf": "397f7456c2a34e39867fb3729b50da76fe4de3e9b221b2e8db03d37b36835059",
+    "gabarito.pdf": "2a1953aaec1a88f72c6a5e6f2444cce691c7ba609916fc35d038cd0afe64cbb2",
+    "matematica.pdf": "36f736abd082524018723cca07f1fa36c7e15e5a167714073883c94360f34c66",
+    "portugues.pdf": "5fdec9be25968718633275f8b099dde6381e83f7c8ffa9f3e72247d49cc209e1",
+    "quimica.pdf": "06124851952f67092961690d7a871ec39df7c312c3ba5dcf1ce3220b7c011eb9"
+  }
+}

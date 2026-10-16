@@ -1,0 +1,416 @@
+"""Transcrição editorial conferida visualmente no caderno oficial do ITA.
+
+Fórmulas usam símbolos Unicode e parênteses explícitos para não depender de OCR
+nem de imagens de texto. As únicas imagens publicadas são seis figuras de Física.
+"""
+
+QUESTIONS = {}
+
+MATH_SUPPORT = '''Convenções
+Considere o sistema de coordenadas cartesiano, a menos que haja indicação contrária.
+ℝ: denota o conjunto dos números reais.
+ℂ: denota o conjunto dos números complexos.
+i: denota a unidade imaginária, i² = −1.
+z̄: denota o conjugado do número complexo z.
+]a, b[: denota o intervalo aberto de todos os x ∈ ℝ com a < x < b.'''
+
+PHYSICS_SUPPORT = '''Quando e se necessário, use os seguintes valores para as quantidades a seguir:
+Aceleração local da gravidade g = 10 m/s².
+√2 ≈ 1,4; √3 ≈ 1,7; √5 ≈ 2,2; √7 ≈ 2,6.'''
+
+CHEMISTRY_SUPPORT = '''Constantes
+Constante de Avogadro (Nₐ) = 6,02 × 10²³ mol⁻¹
+Constante de Faraday (F) = 9,65 × 10⁴ C·mol⁻¹ = 9,65 × 10⁴ A·s·mol⁻¹ = 9,65 × 10⁴ J·V⁻¹·mol⁻¹
+Carga elementar = 1,60 × 10⁻¹⁹ C
+Constante dos gases (R) = 8,21 × 10⁻² atm·L·K⁻¹·mol⁻¹ = 8,31 J·K⁻¹·mol⁻¹ = 1,98 cal·K⁻¹·mol⁻¹
+Constante de Planck (h) = 6,63 × 10⁻³⁴ J·s
+Velocidade da luz no vácuo = 3,0 × 10⁸ m·s⁻¹
+Número de Euler (e) = 2,72
+
+Definições
+Pressão: 1 atm = 760 Torr = 1,01325 × 10⁵ N·m⁻² = 1,01325 bar
+Energia: 1 J = 1 N·m = 1 kg·m²·s⁻² = 6,24 × 10¹⁸ eV
+Condições normais de temperatura e pressão (CNTP): 0 °C e 1 atm
+Condições ambiente: 25 °C e 1 atm
+Condições padrão: 1 bar; concentração das soluções = 1 mol·L⁻¹ (rigorosamente: atividade unitária das espécies); sólido com estrutura cristalina mais estável nas condições de pressão e temperatura em questão.
+(s) = sólido. (l) = líquido. (g) = gasoso. (aq) = aquoso. (conc) = concentrado. (ua) = unidades arbitrárias. u.m.a. = unidade de massa atômica. [X] = concentração da espécie X em mol·L⁻¹.
+ln X = 2,3 log X
+ln 2 = 0,693
+
+Massas molares — elemento (número atômico): massa molar em g·mol⁻¹
+H (1): 1,01
+C (6): 12,01
+N (7): 14,01
+O (8): 16,00
+F (9): 19,00
+Na (11): 22,99
+Mg (12): 24,31
+P (15): 30,97
+S (16): 32,06
+Cl (17): 35,45
+K (19): 39,10
+Mn (25): 54,94
+Fe (26): 55,85
+Cu (29): 63,55
+Se (34): 78,97
+Br (35): 79,90
+Rb (37): 85,47
+Sr (38): 87,62
+Nb (41): 92,91
+I (53): 126,90
+Au (79): 196,97
+Hg (80): 200,59'''
+
+ENGLISH_SUPPORTS = {
+37: '''Leia o texto a seguir para responder às questões 37 a 39.
+
+The voluminous literature dealing with the idea of human progress is decidedly a mixed bag. While some of these writings are impressive and even inspiring, many of them are superficial, perhaps even ridiculous, in their reiteration (especially during the nineteenth century) of the comforting prospect that every day in every way we are growing better and better.
+
+This kind of foolishness is manifested especially in discussions of such matters as economic, political, and moral progress, and of progress in art.[...]
+
+From time to time, there seems to be real and measurable improvement in these areas. At other times the opposite seems equally to be the case. Thus the fervent belief of writers like the French sociophilosopher Auguste Comte in the inevitability of progress in all fields of human endeavor must be viewed as insupportable. We cannot accept it any longer, even if we once thought it was true.
+
+Progress in human knowledge is another matter. Here it is possible to argue cogently that progress is in the nature of things. “Not only does each individual progress from day to day”, wrote French philosopher, mathematician, and mystic Blaise Pascal, “but mankind as a whole constantly progresses... in proportion as the universe grows older.” The essence of man as a rational being, as a later historian would put it, is that he develops his potential capacities by accumulating the experience of past generations.
+
+Just as in our individual lives we learn more and more from day to day and from year to year because we remember some at least of what we have learned and add our new knowledge to it, so in the history of the race the collective memory retains at least some knowledge from the past to which is added every new discovery.
+
+The memories of individuals fail and the persons die, but the memory of the race is eternal, or at least it can be expected to endure as long as human beings continue to write books and read them, or — which becomes more and more common — store up their knowledge in other mediums for the use of future generations.
+
+Fonte: VAN DOREN, Charles. A History of Knowledge. Past, Present and Future. New York. The Random House Publishing Group, 1991, p. XV-XVI.''',
+40: '''Leia o texto a seguir para responder às questões 40 e 41.
+
+The decline of teenagers reading is an impact on education
+
+If you are a teenager reading this story, you are in the minority. Statistics show that 80% of teenagers do not read for pleasure on a daily basis. It is no coincidence that the teenage reading rate has declined as technology and social media have taken over nearly all aspects of teenage life. With the downfall of teenage reading, may come the downfall of teenage education all together.
+
+With technology taking over the world, teenagers have all the knowledge they need and more right at their fingertips. There is no reason for people to open up nonfiction books anymore when they can simply pull out their phones and find any information on any topic. The rise of technology has also dramatically affected the amount of fiction reading teenagers do as they would rather watch YouTube or keep up with their friends on Instagram than read an all-time classic like Harry Potter or Lord of the Rings.
+
+Speaking of all-time great books, it seems like just about every bestseller has been turned into a movie that either gives the book a bad rap or receives great reviews and overshadows the book. Why would anyone read a book for days or even weeks when they can just watch the movie in one sitting?
+
+Teenagers have also stopped reading because of the amount of homework they are given, including any school-assigned reading. When students are forced to read particular books in school that they may not be interested in, they begin to associate reading with work instead of pleasure or entertainment. Reading books also always seems to take longer when it is one you are not interested in, which is often the case with school-assigned books.
+
+No matter how boring teenagers find reading, its decline could have direct consequences for all teenagers and their education. Reading is a major part of school, and without the ability to read at a high-level students could find it impossible to learn anything at all. From history textbooks to English literature, reading is used in nearly every class of every school and is essential to getting a good education.
+
+Fonte: WHITAKER, Drew. The decline of teenagers reading is an impact on education. The Mirror, 15 dez. 2022. Disponível em: https://desmetmirror.com/11058/editorials/the-decline-of-teenagers-reading-is-an-impact-on-education/''',
+42: '''Leia o texto a seguir para responder às questões 42 a 45.
+
+Back To School But Not To Screens: States Ramp Up Cellphone Bans
+
+Work has been easier for public high school teacher Brian Kerekes since last August, when he first experienced the impacts of a newly enacted Florida law to restrict students’ cellphone use during class. The longtime statistics instructor, who started a new school year on Monday, now spends less time circling the classroom policing students and more time educating them on how to gather and interpret data.
+
+Before Florida passed the ban in May 2023 - becoming the first of at least eight U.S. states to prohibit or restrict cellphone use in schools - phones proved a constant disruption in Kerekes’ classroom at Tohopekaliga High School in the central Florida city of Kissimmee.
+
+“Students were either using them to talk to someone in a different class or talk to someone on the other side of the room or just to zone out, get on TikTok or whatever,” Kerekes, who’s been a teacher for 17 years, said in an interview.
+
+Fellow teachers nationwide face the same challenge, which explains why more states and districts are moving to limit or outright ban cellphones in the classroom, and even during the school day altogether. [...]
+
+The rules will look different from state to state and district to district, but all stem from the same concerns.
+
+Seventy-two percent of high school teachers cite cellphones as a major distraction in the classroom, according to a fall 2023 Pew Research Center study. Educators also worry that constant access to social media can adversely impact kids’ mental health. [...]
+
+U.S. Surgeon General Vivek Murthy went so far as to issue a health advisory last year, warning that enough evidence exists to show social media can be unsafe for children and teens. “We are in the middle of a national youth mental health crisis,” he said, “and I am concerned that social media is an important driver of that crisis, one that we must urgently address.”
+
+While social media can connect kids, make them feel less alone and offer an entertaining and creative outlet, it also exposes them to harmful content, Murthy pointed out in the advisory released by the U.S. Department of Health and Human Services. And, as educators such as Kerekes note, some students use their phones to bully fellow students online during the school day, and in the most extreme cases, to set up fights and film them. The hope is that cellphone bans will reduce such incidents. Kerekes said he’s hearing they have.
+
+Fonte: KATZ, Leslie. Back To School But Not To Screens: States Ramp Up Cellphone Bans. Forbes, 13 ago. 2024. Disponível em: https://www.forbes.com/sites/lesliekatz/2024/08/13/back-to-school-but-not-to-screens-more-students-face-cellphone-bans/''',
+46: '''Leia o texto a seguir para responder às questões 46 a 48.
+
+The problem with artificial intelligence? It’s neither artificial, nor intelligent.
+
+Elon Musk and Apple’s co-founder Steve Wozniak have recently signed a letter calling for a six-month moratorium on the development of AI systems. The goal is to give society time to adapt to what the signatories describe as an “AI summer”, which they believe will ultimately benefit humanity, as long as the right guardrails are put in place. These guardrails include rigorously audited safety protocols.
+
+It is a laudable goal, but there is an even better way to spend these six months: retiring the hackneyed label of “artificial intelligence” from public debate.
+
+[...]
+
+However, many critics have pointed out that intelligence is not just about pattern-matching. Equally important is the ability to draw generalisations. Marcel Duchamp’s 1917 work of art Fountain is a prime example of this. Before Duchamp’s piece, a urinal was just a urinal. But, with a change of perspective, Duchamp turned it into a work of art. At that moment, he was generalising about art.
+
+[...]
+
+Human intelligence is not one-dimensional. It rests on what the 20th-century Chilean psychoanalyst Ignacio Matte Blanco called bi-logic: a fusion of the static and timeless logic of formal reasoning and the contextual and highly dynamic logic of emotion. The former searches for differences; the latter is quick to erase them. Marcel Duchamp’s mind knew that the urinal belonged in a bathroom; his heart didn’t. Bi-logic explains how we regroup mundane things in novel and insightful ways. We all do this — not just Duchamp.
+
+AI will never get there because machines cannot have a sense (rather than mere knowledge) of the past, the present and the future; of history, injury or nostalgia. Without that, there’s no emotion, depriving bi-logic of one of its components. Thus, machines remain trapped in the singular formal logic.
+
+[...]
+
+But the reason why tools like ChatGPT can do anything even remotely creative is because their training sets were produced by actually existing humans, with their complex emotions, anxieties and all. If we want such creativity to persist, we should also be funding the production of art, fiction and history — not just data centres and machine learning.
+
+That’s not at all where things point now. The ultimate risk of not retiring terms such as “artificial intelligence” is that they will render the creative work of intelligence invisible, while making the world more predictable and dumb.
+
+So, instead of spending six months auditing the algorithms while we wait for the “AI summer,” we might as well go and reread Shakespeare’s A Midsummer Night’s Dream. That will do so much more to increase the intelligence in our world.
+
+Fonte: MOROZOV, Evgeny. The problem with artificial intelligence? It’s neither artificial nor intelligent. The Guardian, 30 mar. 2023. Disponível em: https://www.theguardian.com/commentisfree/2023/mar/30/artificial-intelligence-chatgpt-human-mind''',
+}
+
+def q(number, text, options):
+    assert len(options) == 5
+    QUESTIONS[number] = {'text': text, 'options': options}
+
+q(1, 'Sejam z, w ∈ ℂ tais que z − w = −2√3 e w ≠ 0. Se z tem módulo 2√3, e w tem argumento π/6, então a parte real de z é igual a',
+  ['−2√3.', '−√3.', '0.', '√3.', '2√3.'])
+q(2, '''Usando os valores aproximados
+
+log₄₅ 13,72 = 0,6880,
+log₄₅ 6125 = 2,2908,
+
+a alternativa que mais aproxima a representação decimal de log₄₅ 7 é''',
+  ['0,4886.', '0,5112.', '0,5193.', '0,5224.', '0,5385.'])
+q(3, '''Seja A a matriz de ordem 100 × 100, cujos elementos são descritos pela equação
+
+aᵢⱼ = 1 + (1 − i)(1 − j).
+
+Considere as seguintes afirmações:
+
+I. A é uma matriz simétrica.
+II. Cada linha da matriz A forma uma progressão aritmética.
+III. A é uma matriz singular.
+
+É (São) VERDADEIRA(S):''',
+  ['Apenas I.', 'Apenas II.', 'Apenas I e II.', 'Apenas I e III.', 'I, II e III.'])
+q(4, '''Os vértices de um polígono são todos os números complexos não nulos que satisfazem a equação
+
+iz² = 2z̄.
+
+A área desse polígono é''', ['√3.', '2√3.', '3√3.', '4√3.', '5√3.'])
+q(5, 'Uma circunferência é dividida em seis partes iguais pelos pontos A, B, C, D, E, F, designados nessa ordem. Os pontos A, C, E são vértices de um triângulo equilátero, os pontos B, D, F são vértices de um segundo triângulo equilátero. A sobreposição desses dois triângulos define uma estrela de seis pontas denominada hexagrama. Se a área desse hexagrama é 25√3 cm², então a área do quadrado inscrito na circunferência mede',
+  ['10 cm².', '25 cm².', '40 cm².', '50 cm².', '75 cm².'])
+q(6, '''Considere as seguintes afirmações:
+
+I. Um cubo possui uma seção plana dada por um pentágono.
+II. Sejam α, β e η três planos distintos, dois a dois concorrentes. Sejam r a reta interseção de α e β, s a reta interseção de β e η, t a reta interseção de α e η. Se r, s e t são duas a duas paralelas distintas, então existe uma única reta paralela a r que dista igualmente de α, β e η.
+III. Dois planos secantes são perpendiculares se toda reta de um deles for perpendicular ao outro plano.
+
+É (São) VERDADEIRA(S):''',
+  ['Apenas I.', 'Apenas I e II.', 'Apenas I e III.', 'Apenas II e III.', 'Nenhuma das afirmações.'])
+q(7, '''Considere as matrizes
+
+A = [ √3/2  −1/2 ; 1/2  √3/2 ],
+B = [ √2/2 ; √2/2 ].
+
+Na notação acima, o ponto e vírgula separa as linhas de cada matriz.
+A matriz A³¹ × B é igual a''',
+  ['[ −(√2/4)(√3 − 1) ; −(√2/4)(1 + √3) ].',
+   '[ −(√2/4)(1 − √3) ; −(√2/4)(1 + √3) ].',
+   '[ (1 − √6)/(2√2) ; (1 + √6)/(2√2) ].',
+   '[ (√6 − 1)/(2√2) ; (1 + √6)/(2√2) ].',
+   'nenhuma das alternativas anteriores.'])
+q(8, '''Seja p(x) = x³ + bx² + cx + d um polinômio com coeficientes reais. Se todas as raízes de p(x) são reais e, para todo x ∈ ℝ,
+
+p(2 + x) = −p(2 − x),
+
+então o menor valor possível para p(0) é''', ['−10.', '−8.', '−6.', '−4.', '−2.'])
+q(9, 'Considere a reta r: 3x + 4y = −15 e a parábola P: y = x² + x + 6 com vértice V. Seja t a reta tangente a P, que tem coeficiente angular negativo e forma um ângulo de 45° com r. Sendo A o ponto de tangência de t a P e B o ponto de interseção de r e t, a área do triângulo ABV é',
+  ['13/500.', '25/4.', '105/8.', '147/8.', '126/5.'])
+q(10, '''Sejam x, y ∈ ]0, π/2[, satisfazendo o sistema de equações
+
+tan(y) tan(y/2) = cos(2x) sec(y),
+sen(y)/cos(x) + cos(x)/sen(y) = 2.
+
+O produto de todos os valores de x e y que resolvem esse sistema é''',
+  ['π²/24.', 'π⁴/324.', 'π²/50.', 'π²/16.', 'π²/18.'])
+q(11, 'Seja A = {1, 2, 3, 4, 5, 6, 7, 8}. A quantidade de bijeções F: A → A que satisfazem F(1) < F(5) < F(3) e F(7) < F(2) é',
+  ['3360.', '4200.', '5040.', '5880.', '6720.'])
+q(12, '''Considere m ∈ ℝ positivo. A sequência rₖ é uma progressão geométrica crescente de termos positivos de razão q e termo inicial r₁ = q. As circunferências
+
+Cₖ: (x − rₖ)² + (y − mrₖ)² = rₖ²
+
+são duas a duas tangentes externamente, nessa ordem. A expressão de q em função de m é''',
+  ['(√(m² + 1) + 1)/m.', '((√(m² + 1) + 1)/m)².', '(√(m² + 1) − 1)/m.', '((√(m² + 1) − 1)/m)².', '(m² + 1)/m.'])
+
+q(13, 'Em um microscópio eletrônico de varredura (MEV), um feixe de elétrons apresenta área transversal A, densidade de carga ρ e velocidade dos elétrons v. Sabendo que a corrente I do feixe é determinada pelo fluxo de carga através da seção reta e que C é uma constante adimensional, assinale a alternativa que representa a relação correta entre I, A, ρ e v.',
+  ['I = CρA²v.', 'I = CρAv.', 'I = CρAv².', 'I = Cρv/A.', 'I = CρA/v.'])
+q(14, 'Uma pequena esfera é abandonada do repouso a partir de uma altura H, em relação ao solo, e cai verticalmente em queda livre. No mesmo instante em que a esfera inicia seu movimento, um canhão, situado a uma distância horizontal D da trajetória da esfera e a uma altura h relativamente ao solo, dispara um projétil com velocidade v, formando um ângulo θ em relação à horizontal. As condições são tais que o projétil atinge a esfera exatamente no instante em que ela toca o solo. Desprezando a resistência do ar e assumindo que a aceleração gravitacional é igual a g, assinale a alternativa que corresponde à magnitude da velocidade de lançamento v.',
+  ['v = √((g/(2H))((H − h)² + D²)).', 'v = √((g/H)((H − h)² + D²)).', 'v = √((g/(2H))((H − h)² − D²)).', 'v = √((g/H)((H − h)² − D²)).', 'v = √((2g/H)((H − h)² + D²)).'])
+q(15, 'Um objeto de massa m = 1,00 kg é lançado verticalmente para cima a partir do solo com velocidade inicial v₀ = 30,0 m/s. A força de resistência do ar tem módulo constante f_d = 2,00 N durante toda a trajetória. Ao retornar ao nível do solo, ele colide com uma plataforma de massa desprezível, presa a uma mola ideal vertical de constante elástica k = 800 N/m. Após o impacto, o sistema plataforma-massa desliza sobre apoios verticais, sofrendo uma força dissipativa total constante igual a 410 N. Assinale a alternativa que corresponde, respectivamente, à altura máxima atingida pelo objeto e ao valor que mais se aproxima da energia total dissipada até a mola atingir sua máxima compressão.',
+  ['45,0 m; 180 J.', '45,0 m; 376 J.', '37,5 m; 150 J.', '37,5 m; 355 J.', '37,5 m; 765 J.'])
+q(16, 'Três planetas de massas m idênticas orbitam, em trajetória circular, uma estrela de massa M. A posição relativa entre os planetas, a cada instante, forma um triângulo equilátero de lado a, conforme mostrado na figura. Sabendo que G é a constante da gravitação universal, podemos afirmar que o período dessa órbita é dado por',
+  ['T = (2πa^(3/2)√3)/√(G(9M + 8m)).', 'T = (2πa^(3/2))/√(G(M + 3m)).', 'T = (2πa^(3/2))/√(3G(√3M + m)).', 'T = (2πa^(3/2))/√(G(3M + m)).', 'T = (2πa^(3/2))/√(G(9M + √3m)).'])
+q(17, 'Considere um pêndulo simples, com um fio ideal de comprimento ℓ sob ação da gravidade de aceleração g, e um sistema massa–mola na horizontal, com uma mola de comprimento natural x₀ e uma massa que desliza sobre uma superfície lisa, conforme a figura. Ambos os corpos, o do pêndulo e o do sistema massa–mola, possuem a mesma massa. No instante inicial, o pêndulo é solto do repouso a partir de um pequeno ângulo θ com a vertical, enquanto a massa do sistema massa-mola é solta também do repouso a partir de uma posição x₁, em que a mola se encontra comprimida. As duas massas colidem quando a mola atinge seu comprimento natural e quando o pêndulo está na vertical. Nesse instante, elas possuem a mesma velocidade. Assinale a alternativa que corresponde à relação entre o ângulo θ, de lançamento do pêndulo, e os outros parâmetros físicos relevantes.',
+  ['cos θ = 1 − (x₁ − x₀)²/(2ℓ²).', 'sin θ = 1 − (x₁ − x₀)²/(2ℓ²).', 'cos θ = 1 − (x₁ − x₀)²/ℓ².', 'sin θ = 1 − 2ℓ²/(x₁ − x₀)².', 'cos θ = 1 − ℓ²/(x₁ − x₀)².'])
+q(18, 'Um vaso comunicante contém um volume V₀ = 2,00 L de água e possui duas colunas verticais conectadas por um tubo de conexão de comprimento L₀ = 10,0 cm e área de seção transversal A_c = 100 cm², conforme a figura. Sobre cada uma das colunas verticais, colocam-se duas massas distintas: m₁ = 200 g sobre a coluna de área A₁ = 100 cm² e m₂ = 100 g sobre a coluna de área A₂ = 400 cm². Admita que o sistema atinge o equilíbrio estático, que a água é incompressível e despreze o atrito. Dado o exposto, assinale a alternativa que corresponde à altura da coluna de água sob a massa m₁.',
+  ['6,00 cm.', '2,35 cm.', '1,75 cm.', '0,75 cm.', '0,60 cm.'])
+q(19, 'Em um escritório, trabalham 10 funcionários de segunda a sexta, em um regime de oito horas por dia. Diariamente o ar-condicionado é ligado para manter o local de trabalho a 17 °C, sendo que o ambiente externo está a uma temperatura de 37 °C. Considere que o ar-condicionado funcione com máxima eficiência e que ele age apenas para retirar o calor gerado pelas pessoas, que é de 100 W por funcionário. Sabendo que a tarifa da energia elétrica é de R$ 0,91 por kWh, assinale o custo aproximado para usar o ar-condicionado durante 4 semanas.',
+  ['R$ 8,00.', 'R$ 10,00.', 'R$ 14,00.', 'R$ 80,00.', 'R$ 170,00.'])
+q(20, 'Um acidente marítimo causou um derramamento de óleo no mar. Na região, formou-se uma fina camada iridescente de óleo que flutua sobre a água calma do mar. Os índices de refração do óleo e da água são 3/2 e 4/3, respectivamente. Suponha que, à tarde, a luz solar incide com ângulo de 45° sobre a mancha de óleo e que um observador observa o reflexo do sol na camada de óleo com uma cor verde, com forte contribuição de comprimentos de onda em torno de 520 nm. Assinale a alternativa que contém o valor mais próximo da menor espessura da camada de óleo que permita a ocorrência do efeito descrito.',
+  ['40 nm.', '90 nm.', '100 nm.', '160 nm.', '200 nm.'])
+q(21, 'O circuito mostrado na figura é composto por um potenciômetro conectado a uma bateria de 12 V. Quando o cursor do potenciômetro é girado no sentido anti-horário, a resistência R1 tende a zero, e R2 atinge seu valor máximo; no sentido horário, ocorre o contrário. Um voltímetro ideal está conectado ao terminal central do potenciômetro, medindo a diferença de potencial entre esse ponto e o terminal negativo da bateria. Dois testes foram realizados nesse circuito. No Teste 1, uma resistência desconhecida R3 foi conectada, e a voltagem indicada pelo voltímetro foi registrada à medida que o cursor do potenciômetro era girado no sentido horário. No Teste 2, uma outra resistência desconhecida R4 substituiu a R3, e o procedimento foi repetido. O gráfico V × R1/R2 mostra os resultados obtidos nos dois testes. Com base no que foi apresentado, é possível afirmar que',
+  ['a resistência R4 é menor que a resistência R3.',
+   'a corrente elétrica que passa por R3 é menor do que a que passa por R4, para qualquer posição do cursor do potenciômetro.',
+   'a curva correspondente ficaria mais próxima à curva do Teste 1 do que à curva do Teste 2, se R3 e R4 fossem retiradas do circuito (este ramo ficaria aberto).',
+   'os valores da voltagem da curva V × R1/R3 serão menores que os valores de voltagem da curva V × R1/R4 para os mesmos valores de abscissa admissíveis em ambos os casos.',
+   'a razão entre as tensões indicadas nos Testes 2 e Teste 1 permanece constante e é exatamente igual à razão R4/R3, para qualquer posição do cursor do potenciômetro.'])
+q(22, '''Considere um tubo cilíndrico condutor de raio R dividido em 3 regiões. Em cada região, há um conjunto de furos de raios distintos, a, b e c, igualmente espaçados. Um ímã é solto, partindo do repouso a partir do topo do cilindro, conforme apresentado na figura. Considere as seguintes afirmações:
+
+I. Se os raios a, b e c tendem a zero, a aceleração do ímã será a menor possível.
+II. Se os raios a = c < b, a aceleração do ímã em c será maior que em b.
+III. Se os raios a = b > c, e considerando o efeito Joule no material condutor, a temperatura local em c é maior que em a e b.
+IV. Se os raios a = b = c, com a região b agora composta por um material dielétrico ideal, a velocidade final do ímã, após passar por c, será maior do que seria caso todo o tubo fosse condutor.
+V. Se todo o tubo fosse composto de um material dielétrico ideal com raios a > b > c, a aceleração em b seria maior que em c.
+
+Estão corretas apenas''',
+  ['I, II e V.', 'II, III e IV.', 'III, IV e V.', 'I, II, III e IV.', 'I, III e IV.'])
+q(23, 'Uma das aplicações dos equipamentos de ultrassom na medicina é o auxílio no diagnóstico de doenças cardíacas. Com eles, é possível avaliar o fluxo sanguíneo que parte do coração e alcança artérias importantes do corpo. O aparelho opera em repouso, posicionado próximo a uma artéria específica, emitindo uma onda sonora de frequência f e velocidade v, que incide sobre o sangue da artéria. A onda incidente se propaga em sentido oposto ao fluxo de sangue, sendo refletida por ele e, posteriormente, captada pelo próprio equipamento. O dispositivo mede a diferença Δf entre a frequência registrada e a frequência de emissão. Considere que a artéria e o coração estão na mesma altura, que v_c é a velocidade do sangue no coração, que ρ é sua densidade e que a velocidade do sangue na artéria é muito menor que v. Assinale a alternativa que corresponde à expressão da variação da pressão sanguínea entre a artéria e o coração.',
+  ['(ρ/2)[v_c² − (2vΔf/f)²].', 'ρ[v_c² − (vΔf/(2f))²].', '(ρ/2)[v_c² − (vΔf/(2f))²].', 'ρ[2v_c² − (vΔf/f)²].', '(ρ/2)[2v_c² − (vΔf/(2f))²].'])
+q(24, 'A figura a seguir ilustra um dispositivo D(λ,A), que emite radiação eletromagnética monocromática de comprimento de onda λ e intensidade A e que chega a um anteparo opaco S₁ com duas fendas. A radiação é detectada por um dispositivo de medição M fixado em um segundo anteparo S₂. Esse dispositivo M, ao ser submetido à radiação, gera uma resposta de corrente I em função da diferença de potencial V aplicada nos seus terminais. A figura também apresenta 4 gráficos I × V, todos na mesma escala, obtidos a partir de medições com diferentes valores de λ e A. É falsa a afirmação de que é possível passar da situação',
+  ['(2) para (1), apenas diminuindo A.', '(2) para (4), mudando λ e aumentando A.', '(2) para (3), aumentando apenas λ.', '(4) para (3), mudando apenas λ.', '(3) para (1), aumentando λ e diminuindo A.'])
+
+q(25, '''Um grupo de pesquisadores está testando um novo catalisador heterogêneo para oxidação de um poluente orgânico. Na ausência de catalisador, a constante de velocidade é igual a 2,0·10⁻³ s⁻¹ a 310 K, e a energia de ativação é 85 kJ·mol⁻¹. Na presença do catalisador, a constante de velocidade da reação a 310 K aumenta 10 vezes. Considerações: i) o fator pré-exponencial e a ordem de reação não se alteram com a adição do catalisador; e ii) a concentração inicial do poluente é de 0,200 mol·L⁻¹.
+
+Assinale a alternativa que melhor representa, respectivamente, a energia de ativação e o tempo necessário para que a concentração do poluente caia para 0,050 mol·L⁻¹ na presença do catalisador.''',
+  ['79 kJ·mol⁻¹; 69 s.', '66 kJ·mol⁻¹; 69 s.', '72 kJ·mol⁻¹; 75 s.', '66 kJ·mol⁻¹; 75 s.', '79 kJ·mol⁻¹; 75 s.'])
+q(26, '''Considere as seguintes afirmações:
+
+I. A primeira energia de ionização do átomo de Nitrogênio é menor que a primeira energia de ionização do átomo de Oxigênio.
+II. O íon Rb⁺ tem menor raio iônico que o Sr²⁺.
+III. A molécula CH₂O apresenta geometria trigonal plana e é apolar.
+IV. A molécula PCl₅ apresenta geometria bipirâmide trigonal e é polar.
+
+Das afirmativas acima, está(ão) CORRETA(S)''',
+  ['apenas I e II.', 'apenas II e III.', 'apenas I e IV.', 'apenas IV.', 'nenhuma.'])
+q(27, '''Considere duas barras X e Y, com 200 g cada, compostas por materiais hipotéticos distintos. Com o objetivo de determinar o calor específico de cada material, foram realizados os dois experimentos isobáricos a seguir:
+
+Experimento 1: As barras X e Y, inicialmente a 230 °C, foram colocadas simultaneamente em um mesmo recipiente isolado (m = 500 g e Cₚ = 0,1 cal·g⁻¹·°C⁻¹), que continha água (m = 350 g e Cₚ = 1,0 cal·g⁻¹·°C⁻¹), inicialmente a 25 °C.
+
+Experimento 2: A barra X, inicialmente a 260 °C, e a barra Y, inicialmente a 185 °C, foram colocadas simultaneamente no mesmo recipiente isolado, que continha os mesmos 350 g de água, inicialmente a 25 °C.
+
+Sabendo que, no início do experimento, a água e o recipiente se encontravam na mesma temperatura e que, em ambos os experimentos, o equilíbrio térmico foi atingido a 30 °C, assinale a alternativa que apresenta o calor específico (em cal·g⁻¹·°C⁻¹) dos materiais X e Y, respectivamente.''',
+  ['0,01 e 0,04.', '0,02 e 0,03.', '0,025 e 0,025.', '0,03 e 0,02.', '0,04 e 0,01.'])
+q(28, '''Considere as seguintes afirmações relacionadas ao efeito estufa:
+
+I. O metano e o óxido nitroso, embora em menor quantidade na atmosfera, têm potencial de aquecimento muito maior que o CO₂.
+II. Sem o efeito estufa, a temperatura média da Terra seria de, aproximadamente, 25 °C.
+III. O aumento da temperatura da Terra provoca maior evaporação dos oceanos, intensificando o efeito estufa.
+IV. Ao serem expostos à radiação ultravioleta na atmosfera, os CFCs (clorofluorcarbonetos) liberam átomos de hidrogênio, já que a ligação entre os átomos de carbono e hidrogênio é mais fraca do que as ligações carbono-flúor e carbono-cloro.
+
+Assinale a opção que contém as afirmações CORRETAS.''',
+  ['Apenas I, II e III.', 'Apenas I e III.', 'Apenas I e IV.', 'Apenas II, III e IV.', 'Apenas II e IV.'])
+q(29, '''Considere uma célula galvânica constituída de um béquer, contendo uma solução S aerada, na qual estão imersas duas barras metálicas, uma de ferro e outra de cobre. As barras são conectadas externamente por um condutor metálico.
+
+Sobre essa célula galvânica, são feitas as seguintes afirmações:
+
+I. Quando S é uma solução aquosa a 1 mol·L⁻¹ em NaCl, o meio torna-se mais básico.
+II. Quando S é uma solução aquosa a 1 mol·L⁻¹ em CuSO₄, a massa da barra de cobre aumenta.
+III. Quando S é uma solução aquosa a 1 mol·L⁻¹ em HCl, há formação de bolhas de gás sobre a barra de cobre.
+IV. Quando S é uma solução aquosa a 1 mol·L⁻¹ em HNO₃, a massa da barra de cobre diminui.
+
+Dados de potenciais padrão de eletrodo eventualmente necessários:
+
+Semirreação — E° (V)
+Na⁺ + e⁻ ⇌ Na — −2,71
+2H₂O + 2e⁻ ⇌ H₂ + 2OH⁻ — −0,83
+Fe²⁺ + 2e⁻ ⇌ Fe — −0,44
+2H⁺ + 2e⁻ ⇌ H₂ — 0
+Cu²⁺ + 2e⁻ ⇌ Cu — 0,34
+O₂ + 2H₂O + 4e⁻ ⇌ 4OH⁻ — 0,40
+NO₃⁻ + 2H⁺ + e⁻ ⇌ NO₂ + H₂O — 0,80
+O₂ + 4H⁺ + 4e⁻ ⇌ 2H₂O — 1,23
+Cl₂ + 2e⁻ ⇌ 2Cl⁻ — 1,36
+
+Com base nas informações do enunciado, está(ão) CORRETA(S) apenas:''',
+  ['I.', 'I, II e IV.', 'II e III.', 'III e IV.', 'todas.'])
+q(30, '''Uma dada solução aquosa a 100 °C apresenta o equilíbrio químico A(aq) ⇌ B(aq). A quantidade inicial de A(aq) corresponde a 1,0 mol, e a constante de equilíbrio dessa reação é igual a 1,0. A essa solução é fornecida uma quantidade de energia igual a 540 cal por segundo, e a quantidade inicial de água na solução é igual a 1000 g.
+
+Considerações: i) o volume das substâncias A e B é desprezível em relação ao volume da solução; ii) o equilíbrio é atingido muito rapidamente; iii) as substâncias A e B não são voláteis; e iv) toda a energia é utilizada para ebulição do solvente.
+
+Assinale a alternativa que melhor representa o tempo gasto, em segundos, para que a temperatura da solução aumente em 1,04 °C.
+
+Dados:
+K(ebulioscópica) da água = 0,52 °C·kg·mol⁻¹
+ΔH(ebulição)(H₂O) = 540 cal·g⁻¹''', ['400.', '500.', '600.', '700.', '800.'])
+q(31, '''Considere que a reação A → 3B é um processo elementar que ocorre em meio aquoso. As substâncias A e B não são voláteis. No início da reação, 1 mol de A está dissolvido em 90 g de água. Após 20 horas, a pressão de vapor da solução é igual a 16 mmHg. Considerações: i) temperatura de 25 °C durante a reação; e ii) pressão de vapor da água pura a 25 °C igual a 24 mmHg.
+
+Assinale a alternativa que apresenta a pressão de vapor da solução após 30 horas.''',
+  ['11,54 mmHg.', '12,07 mmHg.', '13,20 mmHg.', '14,05 mmHg.', '15,48 mmHg.'])
+q(32, '''São feitas as seguintes afirmações sobre séries orgânicas:
+
+I. O subconjunto de moléculas {CH₄, C₂H₆, C₃H₈, CH₃OH, C₂H₅OH, C₃H₇OH} pode ser dividido em três subconjuntos que representam três séries homólogas distintas.
+II. As propriedades químicas das substâncias em uma dada série isóloga são próximas entre si.
+III. As substâncias em uma dada série heteróloga são constituídas por diferentes números de carbono em suas cadeias.
+
+Das afirmativas acima, está(ão) CORRETA(S)''',
+  ['nenhuma.', 'apenas I.', 'apenas I e III.', 'apenas II.', 'apenas II e III.'])
+q(33, '''Considere as seguintes afirmações sobre a constituição e propriedade da matéria:
+
+I. O modelo atômico de Rutherford evidenciou a existência do núcleo atômico carregado densamente por partículas positivas, tendo os elétrons dispostos em torno dele. A partir desse modelo, os elementos químicos passaram a ser diferenciados pelo número de elétrons que ocupam a região conhecida como eletrosfera.
+II. O experimento dos raios catódicos permitiu calcular a relação entre a carga elétrica e a massa de um próton. Isso possibilitou, posteriormente, a determinação experimental da massa do elétron.
+III. O cobre (Cu) possui dois isótopos estáveis: Cu63 (69,09%) e Cu65 (30,91%), com massas atômicas iguais a 62,93 u e 64,93 u, respectivamente. Com base nessas informações, a massa atômica média do cobre é de aproximadamente 63,55 u.
+IV. Foram realizadas análises químicas de duas amostras de hidrocarbonetos. A amostra 1 contém 2,65 g de carbono e 0,665 g de hidrogênio. A amostra 2 contém 4,56 g de carbono e 0,383 g de hidrogênio. Os resultados de massa obtidos estão de acordo com a lei de proporções múltiplas, e as amostras 1 e 2 poderiam ser o etano e o eteno, respectivamente.
+
+Assinale a opção que contém as afirmações ERRADAS.''',
+  ['Apenas I e II.', 'Apenas I, II e IV.', 'Apenas I, III e IV.', 'Apenas II e III.', 'Apenas III e IV.'])
+q(34, '''A reação abaixo, entre haloalcanos e um nucleófilo (Nu), depende de fatores como a estrutura dos grupos ligados ao carbono sp³ do haloalcano, as características do solvente, a estabilidade do haleto no solvente, entre outros. Considerando essa reação, avalie as afirmações a seguir.
+
+R₁R₂R₃C–X + Nu → R₁R₂R₃C–Nu + X⁻
+
+I. Comparando dois possíveis haloalcanos para essa reação, o (CH₃)H₂C–I é mais suscetível a formar um carbocátion do tipo R₁R₂R₃C⁺ do que o (C₃H₇)₃C–I.
+II. Entre haloalcanos do tipo (CH₃)₃C–X, a tendência de se formar um carbocátion do tipo (CH₃)₃C⁺ em um solvente polar aumenta na ordem (CH₃)₃C–F > (CH₃)₃C–Cl > (CH₃)₃C–Br > (CH₃)₃C–I.
+III. O carbocátion (C₃H₇)₃C⁺, formado a partir do haloalcano, é suscetível ao ataque de nucleófilo, resultando em enantiômero puro como produto da reação.
+
+Das afirmativas acima, está(ão) CORRETA(S)''',
+  ['nenhuma.', 'apenas I e II.', 'apenas I e III.', 'apenas II e III.', 'todas.'])
+q(35, 'O polietileno tereftalato (PET), um polímero termoplástico, é formado pela polimerização por condensação entre o ácido tereftálico (C₈H₆O₄) e o etilenoglicol (C₂H₆O₂). A densidade do PET é 1,38 g·cm⁻³, e um fio de PET tem massa molar média de 38.400 g·mol⁻¹. Em uma reação, 332 g de ácido tereftálico reagem completamente com excesso de etilenoglicol, com rendimento de 100%. Assinale a alternativa que melhor apresenta a massa molar da unidade repetitiva do PET (em g·mol⁻¹), a massa teórica de PET produzida (em g), o volume do PET produzido (em cm³) e o número médio de unidades repetitivas por cadeia polimérica, respectivamente.',
+  ['192,17 g·mol⁻¹; 384,34 g; 278,51 cm³; 200 unidades.',
+   '210,19 g·mol⁻¹; 400,00 g; 290,00 cm³; 182 unidades.',
+   '192,17 g·mol⁻¹; 432,17 g; 313,17 cm³; 250 unidades.',
+   '166,14 g·mol⁻¹; 384,34 g; 250,00 cm³; 231 unidades.',
+   '192,17 g·mol⁻¹; 384,34 g; 300,00 cm³; 220 unidades.'])
+q(36, '''Considere a seguinte reação química hipotética, que ocorre em fase gasosa:
+
+2X(g) + W(g) → Y(g) + Z(g).
+
+Um reator de volume fixo e temperatura constante foi alimentado com 36 atm de uma mistura gasosa composta de X, W e uma substância inerte I, na proporção molar X:W:I igual a 3:2:1. Assinale a alternativa que apresenta a pressão interna no reator (em atm) quando 75% do reagente W forem consumidos.''', ['18.', '24.', '27.', '30.', '33.'])
+
+q(37, 'The sentence which describes an idea which is NOT in the text is',
+  ["the inevitability of progress in human knowledge stems from humanity’s ability to retain and build upon past learning.",
+   'the preservation of knowledge through books and other media ensures the continuity of intellectual progress across generations.',
+   'many writings on human progress overly romanticize the idea that humanity is constantly improving in all aspects.',
+   'human knowledge inconsistently advances through accumulated experience and preserved collective memory.',
+   'individual and humanity progress heighten as experience and knowledge are accumulated.'])
+q(38, 'Os termos abaixo, retirados do primeiro parágrafo, exercem no texto as funções indicadas após a seta, EXCETO em',
+  ['dealing → função adjetiva.', 'writings → função substantiva.', 'during → função adjetiva.', 'comforting → função adjetiva.', 'growing → função verbal.'])
+q(39, 'Na passagem “Here, it is possible to argue cogently that progress is in the nature of things.”, a palavra COGENTLY pode ser melhor traduzida por',
+  ['urgentemente.', 'indiscutivelmente.', 'persuasivamente.', 'indubitavelmente.', 'concomitantemente.'])
+q(40, 'De acordo com as informações do texto, é CORRETO afirmar que',
+  ['a redução do tempo dedicado à leitura de fruição tem efeitos negativos na socialização entre os jovens.',
+   'o incremento da tecnologia suscita a preocupação de especialistas em relação à aprendizagem dos jovens.',
+   'a popularização das redes sociais bloqueia o lançamento de obras clássicas juvenis, como Harry Potter.',
+   'a adaptação de obras de sucesso para as telas desencadeia o interesse dos jovens pela leitura dos originais.',
+   'a alta demanda de lições de casa constitui a principal causa do desinteresse dos jovens pelos livros.'])
+q(41, '''Check the alternative that best rephrases the following sentence, without altering its meaning:
+
+“Speaking of all-time great books, it seems like just about every bestseller has been turned into a movie that either gives the book a bad rap or receives great reviews and overshadows the book.”''',
+  ["Speaking of classic books, it appears that nearly every bestseller has been adapted into a movie that either tarnishes the book’s image or receives rave reviews and outshines the book.",
+   "Speaking of iconic books, it seems that almost every bestseller has been turned into a movie that either improves the book’s reputation or gets stellar reviews and eclipses the book.",
+   "Speaking of substandard books, it seems that nearly every bestseller has been made into a movie that either harms the book’s reputation or earns enthusiastic reviews and surpasses the book.",
+   "Speaking of timeless books, it appears that virtually every bestseller has been transformed into a movie that either damages the book’s image or gets annoying reviews and brightens the book.",
+   "Speaking of legendary books, it seems that just about every bestseller has been converted into a film that either spoils the book’s reputation or gets glowing reviews and praises the book."])
+q(42, 'De acordo com as informações presentes no texto, depreende-se que',
+  ['o uso de celulares nas escolas públicas foi proibido em todo o território americano desde 2023.',
+   'a proibição do uso de celulares nas escolas prejudica a coleta e a interpretação de dados.',
+   'a utilização dos celulares nas escolas tornou-se um problema limitado aos professores da Flórida.',
+   'o uso indevido dos celulares contribuiu para a decisão de bani-los do ambiente escolar.',
+   'as regras para a proibição do celular serão diferentes em cada localidade, mas provêm de preocupações distintas.'])
+q(43, 'Na passagem “Fellow teachers nationwide face the same challenge, which explains why more states and districts are moving to limit or outright ban cellphones in the classroom”, a palavra OUTRIGHT pode ser substituída, sem prejuízo de sentido, por',
+  ['partial.', 'legal.', 'thorough.', 'confined.', 'illicit.'])
+q(44, 'Referring to the establishment of a national youth mental health crisis, U.S. Surgeon General Vivek Murthy stated: “I am concerned that social media is an important driver of that crisis, one that we must urgently address”. In this sentence, the modal verb MUST indicates',
+  ['a possibility that addressing the crisis may happen.', 'a necessity to act regarding the crisis.', 'an ability to address the matter at any time.', 'a recommendation to act regarding the matter.', 'a request for people to recognize the relevance of the matter.'])
+q(45, 'Ao transpor a frase “Seventy-two percent of high school teachers cite cellphones as a major distraction in the classroom” para a voz passiva, a construção CORRETA é',
+  ['Seventy-two percent of high school teachers are cited cellphones as a major distraction in the classroom.',
+   'Cellphones are cited as a major distraction in the classroom by seventy-two percent of high school teachers.',
+   'Cellphones are cited as seventy-two percent of a major distraction by high school teachers.',
+   'Seventy-two percent of high school teachers were cited cellphones as a major distraction in the classroom.',
+   'Cellphones cites by seventy-two percent of high school teachers as a major distraction in the classroom.'])
+q(46, 'The sentence that BEST summarizes the main idea of the text is',
+  ['Machines are unreliable because they cannot replicate emotion and contextual understanding.',
+   'Society should retire the misleading label “artificial intelligence” and focus on nurturing human creativity.',
+   'Human intelligence is multifaceted, combining logical reasoning with emotional insight, a balance that machines cannot achieve.',
+   'Misleading terms like “artificial intelligence” make the world overly predictable and uninspired.',
+   'AI systems rely on human-produced data for creativity alongside technological development.'])
+q(47, 'In the extract “The former searches for differences; the latter is quick to erase them.”, the terms FORMER and LATTER refer respectively to',
+  ['human intelligence and artificial intelligence.', 'artificial intelligence and human intelligence.', 'the Chilean psychoanalyst and his bi-logic theory.', 'the logic of formal reasoning and the logic of emotion.', 'the logic of emotion and the logic of formal reasoning.'])
+q(48, '''Observe the following sentence from paragraph 1. “The goal is to give society time to adapt to what the signatories describe as an ‘AI summer’, which they believe will ultimately benefit humanity, as long as the right guardrails are put in place.” Choose the alternative that can be considered the CORRECT past version of the sentence above.''',
+  ['The goal was to give society time to adapt to what the signatories described as an “AI summer”, which they believe was ultimately benefit humanity, as long as the right guardrails were put in place.',
+   'The goal was to give society time to adapt to what the signatories had described as an “AI summer”, which they believe would ultimately benefit humanity, as long as the right guardrails were put in place.',
+   'The goal was to give society time to adapt to what the signatories described as an “AI summer”, which they believed would ultimately benefit humanity, as long as the right guardrails were put in place.',
+   'The goal would be to give society time to adapt to what the signatories describe as an “AI summer”, which they believe had ultimately benefited humanity, as long as the right guardrails were put in place.',
+   'The goal would be to give society time to adapt to what the signatories had described as an “AI summer”, which they believe would ultimately benefit humanity, as long as the right guardrails were put in place.'])

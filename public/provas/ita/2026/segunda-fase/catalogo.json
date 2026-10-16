@@ -1,0 +1,2079 @@
+{
+  "slug": "ita-2026-fase-2",
+  "title": "ITA 2026 · 2ª fase",
+  "contentVersion": 1,
+  "questions": [
+    {
+      "id": "ita-2026-2f-matematica-1",
+      "subject": "Matemática",
+      "originalNumber": 1,
+      "number": 1,
+      "title": "Pontos inteiros no octaedro",
+      "text": "Considere um octaedro regular, centrado na origem, com três vértices em (5, 0, 0), (0, 5, 0) e (0, 0, 5). Quantos pontos, no interior e na superfície desse sólido, possuem todas as coordenadas inteiras?",
+      "fields": [
+        {
+          "id": "pontos",
+          "label": "Quantidade de pontos",
+          "reference": "231 pontos: contar os ternos inteiros com |x| + |y| + |z| ≤ 5.",
+          "accepted": [
+            "231"
+          ],
+          "numeric": {
+            "value": 231,
+            "tolerance": 1e-05,
+            "units": [
+              "",
+              "pontos"
+            ]
+          }
+        }
+      ],
+      "kind": "written",
+      "examSource": "/provas/ita/2026/segunda-fase/matematica.pdf#page=2",
+      "source": "https://etaparesolve.etapa.com.br/ita/2026/708/12/0",
+      "support": "Convenções: ℕ = {1, 2, 3, …}; ℝ é o conjunto dos reais; ℂ é o conjunto dos complexos. AB denota o segmento entre A e B; m(AB), seu comprimento. Em matrizes digitadas, ponto e vírgula separa as linhas.",
+      "referenceKind": "Referência editorial de treino; resolução consultada: Etapa. Não é espelho oficial de correção."
+    },
+    {
+      "id": "ita-2026-2f-matematica-2",
+      "subject": "Matemática",
+      "originalNumber": 2,
+      "number": 2,
+      "title": "Potência de uma matriz",
+      "text": "Considere A = [1 1 2; 0 1 1; 0 0 1], com ponto e vírgula separando linhas. Determine o menor n ∈ ℕ tal que a entrada na primeira linha e na terceira coluna de Aⁿ seja maior que 119.",
+      "fields": [
+        {
+          "id": "n",
+          "label": "Menor n",
+          "reference": "n = 15, pois a entrada é n(n + 3)/2; para n = 14 ela vale 119.",
+          "accepted": [
+            "15"
+          ],
+          "numeric": {
+            "value": 15,
+            "tolerance": 1e-05,
+            "units": [
+              ""
+            ]
+          }
+        }
+      ],
+      "kind": "written",
+      "examSource": "/provas/ita/2026/segunda-fase/matematica.pdf#page=3",
+      "source": "https://etaparesolve.etapa.com.br/ita/2026/708/12/0",
+      "support": "Convenções: ℕ = {1, 2, 3, …}; ℝ é o conjunto dos reais; ℂ é o conjunto dos complexos. AB denota o segmento entre A e B; m(AB), seu comprimento. Em matrizes digitadas, ponto e vírgula separa as linhas.",
+      "referenceKind": "Referência editorial de treino; resolução consultada: Etapa. Não é espelho oficial de correção."
+    },
+    {
+      "id": "ita-2026-2f-matematica-3",
+      "subject": "Matemática",
+      "originalNumber": 3,
+      "number": 3,
+      "title": "Área do paralelogramo",
+      "text": "As diagonais do paralelogramo ABCD estão contidas nas retas r: 2y − x = 2 e s: x + 2y = 8. As retas r e s se encontram no ponto X. Sabendo que C = (8, 5) e que a equação da circunferência inscrita no triângulo ABX é (x − 1/2)² + (y − 5/2)² = 5/4, determine a área de ABCD.",
+      "fields": [
+        {
+          "id": "area",
+          "label": "Área de ABCD",
+          "reference": "30 unidades de área. A = (−2, 0), X = (3, 5/2) e B = (0, 4).",
+          "accepted": [
+            "30"
+          ],
+          "numeric": {
+            "value": 30,
+            "tolerance": 1e-05,
+            "units": [
+              "",
+              "u²",
+              "unidades de área"
+            ]
+          }
+        }
+      ],
+      "kind": "written",
+      "examSource": "/provas/ita/2026/segunda-fase/matematica.pdf#page=4",
+      "source": "https://etaparesolve.etapa.com.br/ita/2026/708/12/0",
+      "support": "Convenções: ℕ = {1, 2, 3, …}; ℝ é o conjunto dos reais; ℂ é o conjunto dos complexos. AB denota o segmento entre A e B; m(AB), seu comprimento. Em matrizes digitadas, ponto e vírgula separa as linhas.",
+      "referenceKind": "Referência editorial de treino; resolução consultada: Etapa. Não é espelho oficial de correção."
+    },
+    {
+      "id": "ita-2026-2f-matematica-4",
+      "subject": "Matemática",
+      "originalNumber": 4,
+      "number": 4,
+      "title": "Anéis concêntricos",
+      "text": "Um alvo é pintado em uma parede, composto de um círculo central e uma sequência de anéis concêntricos de cores alternadas entre vermelho e branco. O círculo central, pintado de vermelho, tem raio α unidades. Cada círculo subsequente tem raio uma unidade maior que o anterior: α + 1, depois α + 2 e assim por diante. Determine a área total em vermelho em função de α, sabendo que o alvo tem 33 círculos.",
+      "fields": [
+        {
+          "id": "area",
+          "label": "Área vermelha em função de α",
+          "reference": "π(α² + 32α + 528). Somam-se o disco central e os 16 anéis vermelhos.",
+          "accepted": [
+            "π(α²+32α+528)",
+            "pi*(alpha^2+32*alpha+528)",
+            "πα²+32πα+528π",
+            "π(528+32α+α²)"
+          ],
+          "math": true
+        }
+      ],
+      "kind": "written",
+      "examSource": "/provas/ita/2026/segunda-fase/matematica.pdf#page=5",
+      "source": "https://etaparesolve.etapa.com.br/ita/2026/708/12/0",
+      "support": "Convenções: ℕ = {1, 2, 3, …}; ℝ é o conjunto dos reais; ℂ é o conjunto dos complexos. AB denota o segmento entre A e B; m(AB), seu comprimento. Em matrizes digitadas, ponto e vírgula separa as linhas.",
+      "referenceKind": "Referência editorial de treino; resolução consultada: Etapa. Não é espelho oficial de correção."
+    },
+    {
+      "id": "ita-2026-2f-matematica-5",
+      "subject": "Matemática",
+      "originalNumber": 5,
+      "number": 5,
+      "title": "Esferas e tetraedro regular",
+      "text": "Quatro esferas idênticas, dispostas tangentes duas a duas, estão simultaneamente inscritas em uma única esfera maior, de modo que os centros das esferas menores formam um tetraedro regular. Calcule a razão entre o volume da esfera maior e a soma dos volumes das quatro esferas menores.",
+      "fields": [
+        {
+          "id": "razao",
+          "label": "Razão dos volumes",
+          "reference": "(22 + 9√6)/16 = (2 + √6)³/32.",
+          "accepted": [
+            "(22+9√6)/16",
+            "(9sqrt(6)+22)/16",
+            "(2+√6)^3/32",
+            "(1+√6/2)^3/4"
+          ],
+          "math": true
+        }
+      ],
+      "kind": "written",
+      "examSource": "/provas/ita/2026/segunda-fase/matematica.pdf#page=6",
+      "source": "https://etaparesolve.etapa.com.br/ita/2026/708/12/0",
+      "support": "Convenções: ℕ = {1, 2, 3, …}; ℝ é o conjunto dos reais; ℂ é o conjunto dos complexos. AB denota o segmento entre A e B; m(AB), seu comprimento. Em matrizes digitadas, ponto e vírgula separa as linhas.",
+      "referenceKind": "Referência editorial de treino; resolução consultada: Etapa. Não é espelho oficial de correção."
+    },
+    {
+      "id": "ita-2026-2f-matematica-6",
+      "subject": "Matemática",
+      "originalNumber": 6,
+      "number": 6,
+      "title": "Matrizes e condição das colunas",
+      "text": "Dados os números reais α₁, α₂, …, αₙ₋₁, defina as matrizes A = (aᵢⱼ) e B = (bᵢⱼ), ambas de ordem n × n, por\naᵢⱼ = 0 se j ≥ i; aᵢⱼ = αⱼ^(i−j−1) se j < i.\nbᵢⱼ = 1 se j ≥ i; bᵢⱼ = 0 se j < i.\nSuponha que a soma dos elementos da coluna j da matriz AB seja igual a n − j.\na) Determine o determinante de AB.\nb) Determine o traço de AB em função de n.\nc) Supondo que n = 5, determine todos os possíveis valores de α₁, α₂, α₃, α₄ ∈ ℝ.",
+      "fields": [
+        {
+          "id": "analise",
+          "label": "Resolução e análise da condição do enunciado",
+          "reference": "A condição impressa é incompatível: as duas últimas colunas de AB são iguais, mas suas somas deveriam ser 1 e 0. Não há matrizes que satisfaçam todas as hipóteses para n ≥ 2. Estruturalmente, det(AB) = 0, pois A é triangular com diagonal nula. Os demais pedidos sob a hipótese conjunta precisam de revisão humana. Esta observação editorial não afirma anulação oficial.",
+          "accepted": [],
+          "manual": true
+        }
+      ],
+      "kind": "written",
+      "examSource": "/provas/ita/2026/segunda-fase/matematica.pdf#page=7",
+      "source": "https://etaparesolve.etapa.com.br/ita/2026/708/12/0",
+      "reviewNote": "O enunciado público contém uma condição incompatível. Este item fica fora da pontuação automática e tem referência para conferência manual.",
+      "support": "Convenções: ℕ = {1, 2, 3, …}; ℝ é o conjunto dos reais; ℂ é o conjunto dos complexos. AB denota o segmento entre A e B; m(AB), seu comprimento. Em matrizes digitadas, ponto e vírgula separa as linhas.",
+      "referenceKind": "Referência editorial de treino; resolução consultada: Etapa. Não é espelho oficial de correção."
+    },
+    {
+      "id": "ita-2026-2f-matematica-7",
+      "subject": "Matemática",
+      "originalNumber": 7,
+      "number": 7,
+      "title": "Raízes de um polinômio",
+      "text": "Seja p(x) um polinômio de grau quatro com coeficientes reais. A soma das raízes de p(x) é 3/2, e o seu produto é −5/2. Determine todas as raízes de p(x) em ℂ, sabendo que o resto da divisão de p(x) por x³ − x + 4 é igual a 9x² − 4x + 7.",
+      "fields": [
+        {
+          "id": "raizes",
+          "label": "As quatro raízes, em qualquer ordem",
+          "reference": "−1; 1/2; 1 + 2i; 1 − 2i.",
+          "accepted": [
+            "-1;1/2;1+2i;1-2i"
+          ],
+          "math": true,
+          "answerList": [
+            "-1",
+            "1/2",
+            "1+2i",
+            "1-2i"
+          ]
+        }
+      ],
+      "kind": "written",
+      "examSource": "/provas/ita/2026/segunda-fase/matematica.pdf#page=8",
+      "source": "https://etaparesolve.etapa.com.br/ita/2026/708/12/0",
+      "support": "Convenções: ℕ = {1, 2, 3, …}; ℝ é o conjunto dos reais; ℂ é o conjunto dos complexos. AB denota o segmento entre A e B; m(AB), seu comprimento. Em matrizes digitadas, ponto e vírgula separa as linhas.",
+      "referenceKind": "Referência editorial de treino; resolução consultada: Etapa. Não é espelho oficial de correção."
+    },
+    {
+      "id": "ita-2026-2f-matematica-8",
+      "subject": "Matemática",
+      "originalNumber": 8,
+      "number": 8,
+      "title": "Sequências crescentes",
+      "text": "Quantas sequências estritamente crescentes de três números naturais é possível construir de forma que a soma dos três números é igual a 100?",
+      "fields": [
+        {
+          "id": "quantidade",
+          "label": "Número de sequências",
+          "reference": "784 sequências, considerando ℕ = {1, 2, 3, …}, como nas convenções do caderno.",
+          "accepted": [
+            "784"
+          ],
+          "numeric": {
+            "value": 784,
+            "tolerance": 1e-05,
+            "units": [
+              "",
+              "sequências"
+            ]
+          }
+        }
+      ],
+      "kind": "written",
+      "examSource": "/provas/ita/2026/segunda-fase/matematica.pdf#page=9",
+      "source": "https://etaparesolve.etapa.com.br/ita/2026/708/12/0",
+      "support": "Convenções: ℕ = {1, 2, 3, …}; ℝ é o conjunto dos reais; ℂ é o conjunto dos complexos. AB denota o segmento entre A e B; m(AB), seu comprimento. Em matrizes digitadas, ponto e vírgula separa as linhas.",
+      "referenceKind": "Referência editorial de treino; resolução consultada: Etapa. Não é espelho oficial de correção."
+    },
+    {
+      "id": "ita-2026-2f-matematica-9",
+      "subject": "Matemática",
+      "originalNumber": 9,
+      "number": 9,
+      "title": "Tangentes à hipérbole",
+      "text": "Seja H a hipérbole com focos A = (−6, 0), B = (6, 0) e excentricidade 3.\na) Determine as equações de todas as retas que passam por C = (0, −8) e são tangentes a H.\nb) Para cada reta do item anterior, determine os pontos de tangência.",
+      "fields": [
+        {
+          "id": "retas",
+          "label": "a) Equações das duas retas, separadas por ponto e vírgula",
+          "reference": "y = 2√6 x − 8 e y = −2√6 x − 8.",
+          "accepted": [
+            "y=2√6x-8;y=-2√6x-8"
+          ],
+          "math": true,
+          "answerList": [
+            "y=2√6x-8",
+            "y=-2√6x-8"
+          ]
+        },
+        {
+          "id": "pontos",
+          "label": "b) Pontos de tangência, separados por ponto e vírgula",
+          "reference": "(√6, 4) e (−√6, 4).",
+          "accepted": [
+            "(√6,4);(-√6,4)"
+          ],
+          "math": true,
+          "answerList": [
+            "(√6,4)",
+            "(-√6,4)"
+          ]
+        }
+      ],
+      "kind": "written",
+      "examSource": "/provas/ita/2026/segunda-fase/matematica.pdf#page=10",
+      "source": "https://etaparesolve.etapa.com.br/ita/2026/708/12/0",
+      "support": "Convenções: ℕ = {1, 2, 3, …}; ℝ é o conjunto dos reais; ℂ é o conjunto dos complexos. AB denota o segmento entre A e B; m(AB), seu comprimento. Em matrizes digitadas, ponto e vírgula separa as linhas.",
+      "referenceKind": "Referência editorial de treino; resolução consultada: Etapa. Não é espelho oficial de correção."
+    },
+    {
+      "id": "ita-2026-2f-matematica-10",
+      "subject": "Matemática",
+      "originalNumber": 10,
+      "number": 10,
+      "title": "Interseção de circunferências",
+      "text": "Os pontos A e B definem um segmento com m(AB) = 6(1 + √3) cm. Os pontos C e D estão no segmento AB. A circunferência de centro em C e passando por A e a circunferência de centro em D e passando por B se encontram nos pontos P e Q, que satisfazem m(AP) = m(PQ), m(BP) = m(AP)√(2 + √3).\na) Determine o raio de cada circunferência.\nb) Determine a área da região comum ao interior das duas circunferências.",
+      "fields": [
+        {
+          "id": "raioC",
+          "label": "a) Raio da circunferência de centro C (cm)",
+          "reference": "2√3 cm.",
+          "accepted": [
+            "2√3",
+            "sqrt(12)",
+            "2sqrt(3)"
+          ],
+          "math": true
+        },
+        {
+          "id": "raioD",
+          "label": "a) Raio da circunferência de centro D (cm)",
+          "reference": "6 cm.",
+          "accepted": [
+            "6"
+          ],
+          "numeric": {
+            "value": 6,
+            "tolerance": 1e-05,
+            "units": [
+              "",
+              "cm"
+            ]
+          }
+        },
+        {
+          "id": "area",
+          "label": "b) Área comum (cm²)",
+          "reference": "10π − 12√3 cm².",
+          "accepted": [
+            "10π-12√3",
+            "2(5π-6√3)",
+            "10*pi-12*sqrt(3)"
+          ],
+          "math": true
+        }
+      ],
+      "kind": "written",
+      "examSource": "/provas/ita/2026/segunda-fase/matematica.pdf#page=11",
+      "source": "https://etaparesolve.etapa.com.br/ita/2026/708/12/0",
+      "support": "Convenções: ℕ = {1, 2, 3, …}; ℝ é o conjunto dos reais; ℂ é o conjunto dos complexos. AB denota o segmento entre A e B; m(AB), seu comprimento. Em matrizes digitadas, ponto e vírgula separa as linhas.",
+      "referenceKind": "Referência editorial de treino; resolução consultada: Etapa. Não é espelho oficial de correção."
+    },
+    {
+      "id": "ita-2026-2f-quimica-1",
+      "subject": "Química",
+      "originalNumber": 1,
+      "number": 11,
+      "title": "Neutralização e hidrólise",
+      "text": "Considere as seguintes soluções aquosas, a 25 °C e 1 atm:\nSolução 1: formada por um ácido monoprótico fraco (Kₐ = 10⁻¹²).\nSolução 2: formada pela transferência de 4 mL da Solução 1 para um balão volumétrico de 20 mL, que em seguida foi completado com água e homogeneizado.\nSolução 3: formada por uma base monoprótica forte.\nEm um procedimento experimental, 2 mL da Solução 2 reagiram com 38 mL da Solução 3, atingindo-se o ponto de equivalência. Sabendo-se que o pH da mistura final é igual a 12, determine o valor numérico da concentração\na) do ácido na Solução 2;\nb) do ácido na Solução 1;\nc) da base na Solução 3.",
+      "fields": [
+        {
+          "id": "a",
+          "label": "a) Concentração na solução 2 (mol/L)",
+          "reference": "0,4 mol/L.",
+          "accepted": [
+            "0.4"
+          ],
+          "numeric": {
+            "value": 0.4,
+            "tolerance": 1e-05,
+            "units": [
+              "",
+              "mol/L",
+              "mol·L⁻¹"
+            ]
+          }
+        },
+        {
+          "id": "b",
+          "label": "b) Concentração na solução 1 (mol/L)",
+          "reference": "2 mol/L.",
+          "accepted": [
+            "2"
+          ],
+          "numeric": {
+            "value": 2,
+            "tolerance": 1e-05,
+            "units": [
+              "",
+              "mol/L",
+              "mol·L⁻¹"
+            ]
+          }
+        },
+        {
+          "id": "c",
+          "label": "c) Concentração na solução 3 (mol/L)",
+          "reference": "0,4/19 ≈ 0,02105 mol/L.",
+          "accepted": [
+            "0.021052631578947368"
+          ],
+          "numeric": {
+            "value": 0.021052631578947368,
+            "tolerance": 0.0001,
+            "units": [
+              "",
+              "mol/L",
+              "mol·L⁻¹"
+            ]
+          }
+        }
+      ],
+      "kind": "written",
+      "examSource": "/provas/ita/2026/segunda-fase/quimica.pdf#page=3",
+      "source": "https://etaparesolve.etapa.com.br/ita/2026/709/12/0",
+      "support": "Constantes\nConstante de Avogadro (Nₐ) = 6,02 × 10²³ mol⁻¹\nConstante de Faraday (F) = 9,65 × 10⁴ C·mol⁻¹ = 9,65 × 10⁴ A·s·mol⁻¹ = 9,65 × 10⁴ J·V⁻¹·mol⁻¹\nCarga elementar = 1,60 × 10⁻¹⁹ C\nConstante dos gases (R) = 8,21 × 10⁻² atm·L·K⁻¹·mol⁻¹ = 8,31 J·K⁻¹·mol⁻¹ = 1,98 cal·K⁻¹·mol⁻¹\nConstante de Planck (h) = 6,63 × 10⁻³⁴ J·s\nVelocidade da luz no vácuo = 3,0 × 10⁸ m·s⁻¹\nNúmero de Euler (e) = 2,72\n\nDefinições\nPressão: 1 atm = 760 Torr = 1,01325 × 10⁵ N·m⁻² = 1,01325 bar\nEnergia: 1 J = 1 N·m = 1 kg·m²·s⁻² = 6,24 × 10¹⁸ eV\nCondições normais de temperatura e pressão (CNTP): 0 °C e 1 atm, equivalente a 22,4 L de gás ideal\nCondições ambiente: 25 °C e 1 atm\nCondições padrão: 1 bar; concentração das soluções = 1 mol·L⁻¹ (rigorosamente: atividade unitária das espécies); sólido com estrutura cristalina mais estável nas condições de pressão e temperatura em questão.\n(s) = sólido. (l) = líquido. (g) = gasoso. (aq) = aquoso. (conc) = concentrado. (ua) = unidades arbitrárias. u.m.a. = unidade de massa atômica. [X] = concentração da espécie X em mol·L⁻¹.\nln X = 2,3 log X\nln 2 = 0,693\n\n\nln 3 = 1,099; ln 5 = 1,609; log 2 = 0,301; e^(−0,3465) = 0,707; √3 = 1,73; √5 = 2,24.\n\nMassas molares — elemento (número atômico): g·mol⁻¹\nH (1): 1,01\nB (5): 10,80\nC (6): 12,01\nN (7): 14,01\nO (8): 16,00\nF (9): 19,00\nNa (11): 22,99\nSi (14): 28,09\nS (16): 32,06\nCl (17): 35,45\nK (19): 39,10\nCa (20): 40,08\nCr (24): 52,00\nFe (26): 55,85\nNi (28): 58,69\nCu (29): 63,55\nNb (41): 92,91\nAg (47): 107,87\nPt (78): 195,08\nAu (79): 196,97\nHg (80): 200,59\nBi (83): 208,98",
+      "referenceKind": "Referência editorial de treino; resolução consultada: Etapa. Não é espelho oficial de correção."
+    },
+    {
+      "id": "ita-2026-2f-quimica-2",
+      "subject": "Química",
+      "originalNumber": 2,
+      "number": 12,
+      "title": "Cinética do peróxido de hidrogênio",
+      "text": "A decomposição do peróxido de hidrogênio (H₂O₂) ocorre segundo esta equação: 2H₂O₂(aq) → 2H₂O(l) + O₂(g). Em um experimento, 100 mL de uma solução 0,5 mol·L⁻¹ de H₂O₂ decompõem-se na presença de um catalisador. Sabendo que a constante de velocidade é 0,0693 min⁻¹, calcule os seguintes valores numéricos:\na) Volume de O₂(g) produzido a 25 °C e 1 atm, ao término da reação.\nb) Concentração de H₂O₂ restante em 5 minutos.",
+      "fields": [
+        {
+          "id": "a",
+          "label": "a) Volume de oxigênio (L)",
+          "reference": "Aproximadamente 0,61 L.",
+          "accepted": [
+            "0.612"
+          ],
+          "numeric": {
+            "value": 0.612,
+            "tolerance": 0.004,
+            "units": [
+              "",
+              "L"
+            ]
+          }
+        },
+        {
+          "id": "b",
+          "label": "b) Concentração em 5 minutos (mol/L)",
+          "reference": "0,3535 ≈ 0,354 mol/L.",
+          "accepted": [
+            "0.3535"
+          ],
+          "numeric": {
+            "value": 0.3535,
+            "tolerance": 0.001,
+            "units": [
+              "",
+              "mol/L",
+              "mol·L⁻¹"
+            ]
+          }
+        }
+      ],
+      "kind": "written",
+      "examSource": "/provas/ita/2026/segunda-fase/quimica.pdf#page=4",
+      "source": "https://etaparesolve.etapa.com.br/ita/2026/709/12/0",
+      "support": "Constantes\nConstante de Avogadro (Nₐ) = 6,02 × 10²³ mol⁻¹\nConstante de Faraday (F) = 9,65 × 10⁴ C·mol⁻¹ = 9,65 × 10⁴ A·s·mol⁻¹ = 9,65 × 10⁴ J·V⁻¹·mol⁻¹\nCarga elementar = 1,60 × 10⁻¹⁹ C\nConstante dos gases (R) = 8,21 × 10⁻² atm·L·K⁻¹·mol⁻¹ = 8,31 J·K⁻¹·mol⁻¹ = 1,98 cal·K⁻¹·mol⁻¹\nConstante de Planck (h) = 6,63 × 10⁻³⁴ J·s\nVelocidade da luz no vácuo = 3,0 × 10⁸ m·s⁻¹\nNúmero de Euler (e) = 2,72\n\nDefinições\nPressão: 1 atm = 760 Torr = 1,01325 × 10⁵ N·m⁻² = 1,01325 bar\nEnergia: 1 J = 1 N·m = 1 kg·m²·s⁻² = 6,24 × 10¹⁸ eV\nCondições normais de temperatura e pressão (CNTP): 0 °C e 1 atm, equivalente a 22,4 L de gás ideal\nCondições ambiente: 25 °C e 1 atm\nCondições padrão: 1 bar; concentração das soluções = 1 mol·L⁻¹ (rigorosamente: atividade unitária das espécies); sólido com estrutura cristalina mais estável nas condições de pressão e temperatura em questão.\n(s) = sólido. (l) = líquido. (g) = gasoso. (aq) = aquoso. (conc) = concentrado. (ua) = unidades arbitrárias. u.m.a. = unidade de massa atômica. [X] = concentração da espécie X em mol·L⁻¹.\nln X = 2,3 log X\nln 2 = 0,693\n\n\nln 3 = 1,099; ln 5 = 1,609; log 2 = 0,301; e^(−0,3465) = 0,707; √3 = 1,73; √5 = 2,24.\n\nMassas molares — elemento (número atômico): g·mol⁻¹\nH (1): 1,01\nB (5): 10,80\nC (6): 12,01\nN (7): 14,01\nO (8): 16,00\nF (9): 19,00\nNa (11): 22,99\nSi (14): 28,09\nS (16): 32,06\nCl (17): 35,45\nK (19): 39,10\nCa (20): 40,08\nCr (24): 52,00\nFe (26): 55,85\nNi (28): 58,69\nCu (29): 63,55\nNb (41): 92,91\nAg (47): 107,87\nPt (78): 195,08\nAu (79): 196,97\nHg (80): 200,59\nBi (83): 208,98",
+      "referenceKind": "Referência editorial de treino; resolução consultada: Etapa. Não é espelho oficial de correção."
+    },
+    {
+      "id": "ita-2026-2f-quimica-3",
+      "subject": "Química",
+      "originalNumber": 3,
+      "number": 13,
+      "title": "Início da precipitação",
+      "text": "Uma solução aquosa a 100 °C recebe energia na forma de calor a partir de uma fonte com potência igual a 540 cal·s⁻¹. A solução possui um volume inicial de 1 L e contém 2·10⁻³ mol de uma substância A⁺ e 1·10⁻³ mol de uma substância B⁻. Essas substâncias podem formar um sólido de acordo com a reação A⁺(aq) + B⁻(aq) ⇌ AB(s).\nConsiderações: i) as substâncias A e B têm volume desprezível na solução; ii) a ebulição ocorre nas condições padrão; iii) efeitos coligativos são desprezíveis; e iv) toda a energia é utilizada para a ebulição da água.\nForneça os seguintes valores numéricos:\na) tempo esperado, em segundos, para que o sólido comece a ser formado na solução;\nb) concentrações de A⁺ e B⁻ quando o volume da solução se reduz à metade do valor correspondente ao do início da precipitação.\nDados: Kps(AB) = 1·10⁻⁵; ΔH°(ebulição)(H₂O) = 540 cal·g⁻¹; massa específica da água ρ = 1 g·mL⁻¹.",
+      "fields": [
+        {
+          "id": "a",
+          "label": "a) Tempo (s)",
+          "reference": "Aproximadamente 552–553 s; volume inicial de precipitação 1/√5 L.",
+          "accepted": [
+            "552.8"
+          ],
+          "numeric": {
+            "value": 552.8,
+            "tolerance": 1.2,
+            "units": [
+              "",
+              "s",
+              "segundos"
+            ]
+          }
+        },
+        {
+          "id": "bA",
+          "label": "b) [A⁺] (mol/L)",
+          "reference": "Aproximadamente 6,09·10⁻³ mol/L.",
+          "accepted": [
+            "0.00609"
+          ],
+          "numeric": {
+            "value": 0.00609,
+            "tolerance": 4e-05,
+            "units": [
+              "",
+              "mol/L",
+              "mol·L⁻¹"
+            ]
+          }
+        },
+        {
+          "id": "bB",
+          "label": "b) [B⁻] (mol/L)",
+          "reference": "Aproximadamente 1,64·10⁻³ mol/L (1,63·10⁻³ com as aproximações fornecidas).",
+          "accepted": [
+            "0.001635"
+          ],
+          "numeric": {
+            "value": 0.001635,
+            "tolerance": 3e-05,
+            "units": [
+              "",
+              "mol/L",
+              "mol·L⁻¹"
+            ]
+          }
+        }
+      ],
+      "kind": "written",
+      "examSource": "/provas/ita/2026/segunda-fase/quimica.pdf#page=5",
+      "source": "https://etaparesolve.etapa.com.br/ita/2026/709/12/0",
+      "support": "Constantes\nConstante de Avogadro (Nₐ) = 6,02 × 10²³ mol⁻¹\nConstante de Faraday (F) = 9,65 × 10⁴ C·mol⁻¹ = 9,65 × 10⁴ A·s·mol⁻¹ = 9,65 × 10⁴ J·V⁻¹·mol⁻¹\nCarga elementar = 1,60 × 10⁻¹⁹ C\nConstante dos gases (R) = 8,21 × 10⁻² atm·L·K⁻¹·mol⁻¹ = 8,31 J·K⁻¹·mol⁻¹ = 1,98 cal·K⁻¹·mol⁻¹\nConstante de Planck (h) = 6,63 × 10⁻³⁴ J·s\nVelocidade da luz no vácuo = 3,0 × 10⁸ m·s⁻¹\nNúmero de Euler (e) = 2,72\n\nDefinições\nPressão: 1 atm = 760 Torr = 1,01325 × 10⁵ N·m⁻² = 1,01325 bar\nEnergia: 1 J = 1 N·m = 1 kg·m²·s⁻² = 6,24 × 10¹⁸ eV\nCondições normais de temperatura e pressão (CNTP): 0 °C e 1 atm, equivalente a 22,4 L de gás ideal\nCondições ambiente: 25 °C e 1 atm\nCondições padrão: 1 bar; concentração das soluções = 1 mol·L⁻¹ (rigorosamente: atividade unitária das espécies); sólido com estrutura cristalina mais estável nas condições de pressão e temperatura em questão.\n(s) = sólido. (l) = líquido. (g) = gasoso. (aq) = aquoso. (conc) = concentrado. (ua) = unidades arbitrárias. u.m.a. = unidade de massa atômica. [X] = concentração da espécie X em mol·L⁻¹.\nln X = 2,3 log X\nln 2 = 0,693\n\n\nln 3 = 1,099; ln 5 = 1,609; log 2 = 0,301; e^(−0,3465) = 0,707; √3 = 1,73; √5 = 2,24.\n\nMassas molares — elemento (número atômico): g·mol⁻¹\nH (1): 1,01\nB (5): 10,80\nC (6): 12,01\nN (7): 14,01\nO (8): 16,00\nF (9): 19,00\nNa (11): 22,99\nSi (14): 28,09\nS (16): 32,06\nCl (17): 35,45\nK (19): 39,10\nCa (20): 40,08\nCr (24): 52,00\nFe (26): 55,85\nNi (28): 58,69\nCu (29): 63,55\nNb (41): 92,91\nAg (47): 107,87\nPt (78): 195,08\nAu (79): 196,97\nHg (80): 200,59\nBi (83): 208,98",
+      "referenceKind": "Referência editorial de treino; resolução consultada: Etapa. Não é espelho oficial de correção."
+    },
+    {
+      "id": "ita-2026-2f-quimica-4",
+      "subject": "Química",
+      "originalNumber": 4,
+      "number": 14,
+      "title": "Composição e termogravimetria",
+      "text": "Considere o sólido BGN com composição em porcentagem molar de 60SiO₂–36CaO–4Nb₂O₅. A fonte de nióbio empregada no preparo do BGN é o oxalato amoniacal de nióbio hidratado (NH₄[NbO(C₂O₄)₂]·nH₂O). Para determinar o teor de nióbio presente no oxalato amoniacal de nióbio hidratado, foi empregada a termogravimetria em atmosfera oxidante, a qual apresentou uma massa residual de 28,5% após aquecimento a 1000 °C. Esse resíduo foi caracterizado como pentóxido de nióbio.\na) Apresente o valor numérico da massa necessária do oxalato amoniacal de nióbio hidratado para o preparo de 10 gramas de BGN.\nb) Determine o valor do “n” no NH₄[NbO(C₂O₄)₂]·nH₂O.",
+      "fields": [
+        {
+          "id": "a",
+          "label": "a) Massa do composto hidratado (g)",
+          "reference": "Aproximadamente 5,58 g.",
+          "accepted": [
+            "5.58"
+          ],
+          "numeric": {
+            "value": 5.58,
+            "tolerance": 0.025,
+            "units": [
+              "",
+              "g",
+              "gramas"
+            ]
+          }
+        },
+        {
+          "id": "b",
+          "label": "b) Número de moléculas de hidratação n",
+          "reference": "n ≈ 9.",
+          "accepted": [
+            "9"
+          ],
+          "numeric": {
+            "value": 9,
+            "tolerance": 1e-05,
+            "units": [
+              ""
+            ]
+          }
+        }
+      ],
+      "kind": "written",
+      "examSource": "/provas/ita/2026/segunda-fase/quimica.pdf#page=6",
+      "source": "https://etaparesolve.etapa.com.br/ita/2026/709/12/0",
+      "support": "Constantes\nConstante de Avogadro (Nₐ) = 6,02 × 10²³ mol⁻¹\nConstante de Faraday (F) = 9,65 × 10⁴ C·mol⁻¹ = 9,65 × 10⁴ A·s·mol⁻¹ = 9,65 × 10⁴ J·V⁻¹·mol⁻¹\nCarga elementar = 1,60 × 10⁻¹⁹ C\nConstante dos gases (R) = 8,21 × 10⁻² atm·L·K⁻¹·mol⁻¹ = 8,31 J·K⁻¹·mol⁻¹ = 1,98 cal·K⁻¹·mol⁻¹\nConstante de Planck (h) = 6,63 × 10⁻³⁴ J·s\nVelocidade da luz no vácuo = 3,0 × 10⁸ m·s⁻¹\nNúmero de Euler (e) = 2,72\n\nDefinições\nPressão: 1 atm = 760 Torr = 1,01325 × 10⁵ N·m⁻² = 1,01325 bar\nEnergia: 1 J = 1 N·m = 1 kg·m²·s⁻² = 6,24 × 10¹⁸ eV\nCondições normais de temperatura e pressão (CNTP): 0 °C e 1 atm, equivalente a 22,4 L de gás ideal\nCondições ambiente: 25 °C e 1 atm\nCondições padrão: 1 bar; concentração das soluções = 1 mol·L⁻¹ (rigorosamente: atividade unitária das espécies); sólido com estrutura cristalina mais estável nas condições de pressão e temperatura em questão.\n(s) = sólido. (l) = líquido. (g) = gasoso. (aq) = aquoso. (conc) = concentrado. (ua) = unidades arbitrárias. u.m.a. = unidade de massa atômica. [X] = concentração da espécie X em mol·L⁻¹.\nln X = 2,3 log X\nln 2 = 0,693\n\n\nln 3 = 1,099; ln 5 = 1,609; log 2 = 0,301; e^(−0,3465) = 0,707; √3 = 1,73; √5 = 2,24.\n\nMassas molares — elemento (número atômico): g·mol⁻¹\nH (1): 1,01\nB (5): 10,80\nC (6): 12,01\nN (7): 14,01\nO (8): 16,00\nF (9): 19,00\nNa (11): 22,99\nSi (14): 28,09\nS (16): 32,06\nCl (17): 35,45\nK (19): 39,10\nCa (20): 40,08\nCr (24): 52,00\nFe (26): 55,85\nNi (28): 58,69\nCu (29): 63,55\nNb (41): 92,91\nAg (47): 107,87\nPt (78): 195,08\nAu (79): 196,97\nHg (80): 200,59\nBi (83): 208,98",
+      "referenceKind": "Referência editorial de treino; resolução consultada: Etapa. Não é espelho oficial de correção."
+    },
+    {
+      "id": "ita-2026-2f-quimica-5",
+      "subject": "Química",
+      "originalNumber": 5,
+      "number": 15,
+      "title": "Estruturas e propriedades moleculares",
+      "text": "Considere os elementos com as seguintes configurações eletrônicas:\nA = 1s¹; Z = [He] 2s² 2p¹; X = [He] 2s² 2p²; G = [He] 2s² 2p³;\nR = [He] 2s² 2p⁴; Y = [He] 2s² 2p⁵; Q = [Ne] 3s² 3p⁴.\nIdentifique os átomos e faça o que se pede:\na) Quantos arranjos atômicos são possíveis formar para o ânion (−1), com a composição de 1X, 1G e 1Q?\nb) Indique a fórmula molecular de uma molécula com geometria trigonal planar e uma pirâmide trigonal com os átomos descritos acima.\nc) O composto formado por 6X, 5A e 1Y reage com HNO₃ (concentrado), H₂SO₄ a 25 °C. Considerando essa reação, desenhe a(s) estrutura(s) molecular(es) do(s) produto(s) principal(is) formado(s).\nd) Dadas as moléculas compostas por (i) 2A e 1R; (ii) 2A e 1Q e (iii) 1X, 4A e 1R, coloque-as em ordem crescente de ponto de ebulição.",
+      "fields": [
+        {
+          "id": "a",
+          "label": "a) Número de arranjos",
+          "reference": "3 arranjos de conectividade: SCN, SNC e CSN (sem identificar arranjo com estabilidade).",
+          "accepted": [
+            "3"
+          ],
+          "numeric": {
+            "value": 3,
+            "tolerance": 1e-05,
+            "units": [
+              "",
+              "arranjos"
+            ]
+          }
+        },
+        {
+          "id": "plana",
+          "label": "b) Exemplo trigonal planar",
+          "reference": "BF₃; BH₃ monomérico também tem geometria trigonal planar.",
+          "accepted": [
+            "BF3",
+            "BF₃",
+            "BH3",
+            "BH₃",
+            "trifluoreto de boro",
+            "borano"
+          ]
+        },
+        {
+          "id": "piramide",
+          "label": "b) Exemplo pirâmide trigonal",
+          "reference": "NH₃ ou NF₃, formadas por elementos fornecidos.",
+          "accepted": [
+            "NH3",
+            "NH₃",
+            "NF3",
+            "NF₃",
+            "amônia",
+            "trifluoreto de nitrogênio"
+          ]
+        },
+        {
+          "id": "orto",
+          "label": "c) Primeiro produto (nome ou fórmula estrutural condensada)",
+          "reference": "1-fluoro-2-nitrobenzeno, ou orto-nitrofluorobenzeno.",
+          "accepted": [
+            "1-fluoro-2-nitrobenzeno",
+            "orto-nitrofluorobenzeno",
+            "o-nitrofluorobenzeno",
+            "2-nitrofluorobenzeno",
+            "o-FC6H4NO2"
+          ],
+          "keywordRule": {
+            "groups": [
+              [
+                "orto|2|o"
+              ],
+              [
+                "fluor\\w*|fc6h4no2"
+              ],
+              [
+                "nitro\\w*|no2"
+              ]
+            ]
+          }
+        },
+        {
+          "id": "para",
+          "label": "c) Segundo produto (nome ou fórmula estrutural condensada)",
+          "reference": "1-fluoro-4-nitrobenzeno, ou para-nitrofluorobenzeno.",
+          "accepted": [
+            "1-fluoro-4-nitrobenzeno",
+            "para-nitrofluorobenzeno",
+            "p-nitrofluorobenzeno",
+            "4-nitrofluorobenzeno",
+            "p-FC6H4NO2"
+          ],
+          "keywordRule": {
+            "groups": [
+              [
+                "para|4|p"
+              ],
+              [
+                "fluor\\w*|fc6h4no2"
+              ],
+              [
+                "nitro\\w*|no2"
+              ]
+            ]
+          }
+        },
+        {
+          "id": "d",
+          "label": "d) Ordem crescente de ebulição",
+          "reference": "H₂S < CH₃OH < H₂O.",
+          "accepted": [
+            "H2S<CH3OH<H2O",
+            "ii<iii<i",
+            "(ii)<(iii)<(i)",
+            "sulfeto de hidrogênio < metanol < água"
+          ],
+          "math": true
+        }
+      ],
+      "kind": "written",
+      "examSource": "/provas/ita/2026/segunda-fase/quimica.pdf#page=7",
+      "source": "https://etaparesolve.etapa.com.br/ita/2026/709/12/0",
+      "support": "Constantes\nConstante de Avogadro (Nₐ) = 6,02 × 10²³ mol⁻¹\nConstante de Faraday (F) = 9,65 × 10⁴ C·mol⁻¹ = 9,65 × 10⁴ A·s·mol⁻¹ = 9,65 × 10⁴ J·V⁻¹·mol⁻¹\nCarga elementar = 1,60 × 10⁻¹⁹ C\nConstante dos gases (R) = 8,21 × 10⁻² atm·L·K⁻¹·mol⁻¹ = 8,31 J·K⁻¹·mol⁻¹ = 1,98 cal·K⁻¹·mol⁻¹\nConstante de Planck (h) = 6,63 × 10⁻³⁴ J·s\nVelocidade da luz no vácuo = 3,0 × 10⁸ m·s⁻¹\nNúmero de Euler (e) = 2,72\n\nDefinições\nPressão: 1 atm = 760 Torr = 1,01325 × 10⁵ N·m⁻² = 1,01325 bar\nEnergia: 1 J = 1 N·m = 1 kg·m²·s⁻² = 6,24 × 10¹⁸ eV\nCondições normais de temperatura e pressão (CNTP): 0 °C e 1 atm, equivalente a 22,4 L de gás ideal\nCondições ambiente: 25 °C e 1 atm\nCondições padrão: 1 bar; concentração das soluções = 1 mol·L⁻¹ (rigorosamente: atividade unitária das espécies); sólido com estrutura cristalina mais estável nas condições de pressão e temperatura em questão.\n(s) = sólido. (l) = líquido. (g) = gasoso. (aq) = aquoso. (conc) = concentrado. (ua) = unidades arbitrárias. u.m.a. = unidade de massa atômica. [X] = concentração da espécie X em mol·L⁻¹.\nln X = 2,3 log X\nln 2 = 0,693\n\n\nln 3 = 1,099; ln 5 = 1,609; log 2 = 0,301; e^(−0,3465) = 0,707; √3 = 1,73; √5 = 2,24.\n\nMassas molares — elemento (número atômico): g·mol⁻¹\nH (1): 1,01\nB (5): 10,80\nC (6): 12,01\nN (7): 14,01\nO (8): 16,00\nF (9): 19,00\nNa (11): 22,99\nSi (14): 28,09\nS (16): 32,06\nCl (17): 35,45\nK (19): 39,10\nCa (20): 40,08\nCr (24): 52,00\nFe (26): 55,85\nNi (28): 58,69\nCu (29): 63,55\nNb (41): 92,91\nAg (47): 107,87\nPt (78): 195,08\nAu (79): 196,97\nHg (80): 200,59\nBi (83): 208,98",
+      "referenceKind": "Referência editorial de treino; resolução consultada: Etapa. Não é espelho oficial de correção."
+    },
+    {
+      "id": "ita-2026-2f-quimica-6",
+      "subject": "Química",
+      "originalNumber": 6,
+      "number": 16,
+      "title": "Equilíbrio ácido-base do propino",
+      "text": "Considere as reações e os dados abaixo:\nReação 1. CH₃C≡CH + H₂O ⇌ CH₃C≡C⁻ + H₃O⁺\nReação 2. CH₃C≡CH + NH₃ ⇌ CH₃C≡C⁻ + NH₄⁺\nReação 3. CH₃C≡CH + NaNH₂ ⇌ CH₃C≡CNa + NH₃\nDados: pKₐ[propino] = 25,00; pKᵦ[H₂O] = 15,70; pKᵦ[amônia] = 4,75; pKᵦ[NH₂⁻] = −22,00.\nDetermine os valores numéricos de pKₐ e pKᵦ para as demais espécies e utilize esses valores para indicar se o equilíbrio de cada uma das reações abaixo favorece ou não a formação dos produtos.\na) Reação 1.\nb) Reação 2.\nc) Reação 3.",
+      "fields": [
+        {
+          "id": "pkb",
+          "label": "pKᵦ do ânion propineto",
+          "reference": "−11, usando pKₐ + pKᵦ = 14.",
+          "accepted": [
+            "-11"
+          ],
+          "numeric": {
+            "value": -11,
+            "tolerance": 1e-05,
+            "units": [
+              ""
+            ]
+          }
+        },
+        {
+          "id": "pkaH",
+          "label": "pKₐ de H₃O⁺, utilizando o dado do enunciado",
+          "reference": "−1,70. O dado pKᵦ[H₂O] = 15,70 é controverso; o valor decorre formalmente do dado fornecido.",
+          "accepted": [
+            "-1.7"
+          ],
+          "numeric": {
+            "value": -1.7,
+            "tolerance": 1e-05,
+            "units": [
+              ""
+            ]
+          }
+        },
+        {
+          "id": "pkaNH4",
+          "label": "pKₐ de NH₄⁺",
+          "reference": "9,25.",
+          "accepted": [
+            "9.25"
+          ],
+          "numeric": {
+            "value": 9.25,
+            "tolerance": 1e-05,
+            "units": [
+              ""
+            ]
+          }
+        },
+        {
+          "id": "pkaNH3",
+          "label": "pKₐ de NH₃",
+          "reference": "36.",
+          "accepted": [
+            "36"
+          ],
+          "numeric": {
+            "value": 36,
+            "tolerance": 1e-05,
+            "units": [
+              ""
+            ]
+          }
+        },
+        {
+          "id": "a",
+          "label": "a) Lado favorecido",
+          "reference": "Reagentes; não favorece produtos.",
+          "accepted": [
+            "reagentes",
+            "favorece os reagentes",
+            "não favorece os produtos",
+            "não",
+            "esquerda"
+          ]
+        },
+        {
+          "id": "b",
+          "label": "b) Lado favorecido",
+          "reference": "Reagentes; não favorece produtos.",
+          "accepted": [
+            "reagentes",
+            "favorece os reagentes",
+            "não favorece os produtos",
+            "não",
+            "esquerda"
+          ]
+        },
+        {
+          "id": "c",
+          "label": "c) Lado favorecido",
+          "reference": "Produtos.",
+          "accepted": [
+            "produtos",
+            "favorece os produtos",
+            "sim",
+            "direita"
+          ]
+        }
+      ],
+      "kind": "written",
+      "examSource": "/provas/ita/2026/segunda-fase/quimica.pdf#page=8",
+      "source": "https://etaparesolve.etapa.com.br/ita/2026/709/12/0",
+      "support": "Constantes\nConstante de Avogadro (Nₐ) = 6,02 × 10²³ mol⁻¹\nConstante de Faraday (F) = 9,65 × 10⁴ C·mol⁻¹ = 9,65 × 10⁴ A·s·mol⁻¹ = 9,65 × 10⁴ J·V⁻¹·mol⁻¹\nCarga elementar = 1,60 × 10⁻¹⁹ C\nConstante dos gases (R) = 8,21 × 10⁻² atm·L·K⁻¹·mol⁻¹ = 8,31 J·K⁻¹·mol⁻¹ = 1,98 cal·K⁻¹·mol⁻¹\nConstante de Planck (h) = 6,63 × 10⁻³⁴ J·s\nVelocidade da luz no vácuo = 3,0 × 10⁸ m·s⁻¹\nNúmero de Euler (e) = 2,72\n\nDefinições\nPressão: 1 atm = 760 Torr = 1,01325 × 10⁵ N·m⁻² = 1,01325 bar\nEnergia: 1 J = 1 N·m = 1 kg·m²·s⁻² = 6,24 × 10¹⁸ eV\nCondições normais de temperatura e pressão (CNTP): 0 °C e 1 atm, equivalente a 22,4 L de gás ideal\nCondições ambiente: 25 °C e 1 atm\nCondições padrão: 1 bar; concentração das soluções = 1 mol·L⁻¹ (rigorosamente: atividade unitária das espécies); sólido com estrutura cristalina mais estável nas condições de pressão e temperatura em questão.\n(s) = sólido. (l) = líquido. (g) = gasoso. (aq) = aquoso. (conc) = concentrado. (ua) = unidades arbitrárias. u.m.a. = unidade de massa atômica. [X] = concentração da espécie X em mol·L⁻¹.\nln X = 2,3 log X\nln 2 = 0,693\n\n\nln 3 = 1,099; ln 5 = 1,609; log 2 = 0,301; e^(−0,3465) = 0,707; √3 = 1,73; √5 = 2,24.\n\nMassas molares — elemento (número atômico): g·mol⁻¹\nH (1): 1,01\nB (5): 10,80\nC (6): 12,01\nN (7): 14,01\nO (8): 16,00\nF (9): 19,00\nNa (11): 22,99\nSi (14): 28,09\nS (16): 32,06\nCl (17): 35,45\nK (19): 39,10\nCa (20): 40,08\nCr (24): 52,00\nFe (26): 55,85\nNi (28): 58,69\nCu (29): 63,55\nNb (41): 92,91\nAg (47): 107,87\nPt (78): 195,08\nAu (79): 196,97\nHg (80): 200,59\nBi (83): 208,98",
+      "referenceKind": "Referência editorial de treino; resolução consultada: Etapa. Não é espelho oficial de correção."
+    },
+    {
+      "id": "ita-2026-2f-quimica-7",
+      "subject": "Química",
+      "originalNumber": 7,
+      "number": 17,
+      "title": "Produção fotoeletroquímica de hidrogênio",
+      "text": "Uma célula fotoeletroquímica utiliza um semicondutor sensível à luz como eletrodo fotoativo, capaz de promover a decomposição da água pela energia luminosa, gerando hidrogênio (H₂) no cátodo e oxigênio (O₂) no ânodo:\n2H₂O(l) → 2H₂(g) + O₂(g), ΔH° = +572 kJ·mol⁻¹.\nO semicondutor absorve luz com comprimento de onda máximo de 450 nm. A energia dessa luz é utilizada para excitar elétrons e iniciar a reação de oxirredução da água. Suponha que cada fóton absorvido gere um elétron.\na) Escreva as semirreações que ocorrem no cátodo e no ânodo durante a decomposição da água.\nb) Sabendo que o semicondutor absorve luz com comprimento de onda igual a 450 nm, determine o valor numérico da energia fornecida pela luz no processo fotoeletroquímico para gerar 1 mol de H₂ pela decomposição da água.\nc) Suponha que a célula receba uma potência luminosa de 10 W·m⁻² durante 1 hora, com fótons de 450 nm incidindo em uma área de 0,2 m². Determine o valor numérico da quantidade máxima de H₂, em mols, que poderia ser gerada nesse tempo, assumindo eficiência quântica de 100%.\nd) Sabendo que o tanque de um carro movido a hidrogênio armazena 5,65 kg de H₂ comprimido a 700 bar, determine o valor numérico da energia mínima necessária para gerar essa quantidade de gás pela fotodecomposição da água, utilizando o semicondutor. Despreze os efeitos da alta pressão.\ne) Determine o valor numérico do comprimento de onda máximo, em nm, que um semicondutor deveria absorver para que, de forma hipotética, a energia da luz incidente seja suficiente para gerar 5,65 kg de H₂, igualando a energia liberada na combustão dessa mesma quantidade de gás. Considere que não há perdas energéticas no processo e que existe uma proporção 1:1 entre elétrons e fótons.",
+      "fields": [
+        {
+          "id": "catodo",
+          "label": "a) Semirreação catódica",
+          "reference": "2H₂O + 2e⁻ → H₂ + 2OH⁻, ou 2H⁺ + 2e⁻ → H₂ em meio ácido.",
+          "accepted": [
+            "2H2O+2e-→H2+2OH-",
+            "2H++2e-→H2",
+            "4H++4e-→2H2"
+          ],
+          "math": true
+        },
+        {
+          "id": "anodo",
+          "label": "a) Semirreação anódica",
+          "reference": "2H₂O → 4H⁺ + O₂ + 4e⁻ (ou 4OH⁻ → O₂ + 2H₂O + 4e⁻).",
+          "accepted": [
+            "2H2O→4H++O2+4e-",
+            "2H2O→O2+4H++4e-",
+            "4OH-→O2+2H2O+4e-"
+          ],
+          "math": true
+        },
+        {
+          "id": "b",
+          "label": "b) Energia para 1 mol de H₂ (kJ)",
+          "reference": "Aproximadamente 532 kJ por mol de H₂.",
+          "accepted": [
+            "532"
+          ],
+          "numeric": {
+            "value": 532,
+            "tolerance": 2,
+            "units": [
+              "",
+              "kJ",
+              "kJ/mol",
+              "kJ·mol⁻¹"
+            ]
+          }
+        },
+        {
+          "id": "c",
+          "label": "c) Quantidade de H₂ (mol)",
+          "reference": "Aproximadamente 0,0135 mol.",
+          "accepted": [
+            "0.0135"
+          ],
+          "numeric": {
+            "value": 0.0135,
+            "tolerance": 0.0001,
+            "units": [
+              "",
+              "mol",
+              "mols"
+            ]
+          }
+        },
+        {
+          "id": "d",
+          "label": "d) Energia (GJ)",
+          "reference": "Aproximadamente 1,49–1,50 GJ, conforme arredondamento da massa molar.",
+          "accepted": [
+            "1.495"
+          ],
+          "numeric": {
+            "value": 1.495,
+            "tolerance": 0.015,
+            "units": [
+              "",
+              "GJ"
+            ]
+          }
+        },
+        {
+          "id": "e",
+          "label": "e) Comprimento de onda máximo (nm)",
+          "reference": "Aproximadamente 837 nm.",
+          "accepted": [
+            "837"
+          ],
+          "numeric": {
+            "value": 837,
+            "tolerance": 2,
+            "units": [
+              "",
+              "nm"
+            ]
+          }
+        }
+      ],
+      "kind": "written",
+      "examSource": "/provas/ita/2026/segunda-fase/quimica.pdf#page=9",
+      "source": "https://etaparesolve.etapa.com.br/ita/2026/709/12/0",
+      "support": "Constantes\nConstante de Avogadro (Nₐ) = 6,02 × 10²³ mol⁻¹\nConstante de Faraday (F) = 9,65 × 10⁴ C·mol⁻¹ = 9,65 × 10⁴ A·s·mol⁻¹ = 9,65 × 10⁴ J·V⁻¹·mol⁻¹\nCarga elementar = 1,60 × 10⁻¹⁹ C\nConstante dos gases (R) = 8,21 × 10⁻² atm·L·K⁻¹·mol⁻¹ = 8,31 J·K⁻¹·mol⁻¹ = 1,98 cal·K⁻¹·mol⁻¹\nConstante de Planck (h) = 6,63 × 10⁻³⁴ J·s\nVelocidade da luz no vácuo = 3,0 × 10⁸ m·s⁻¹\nNúmero de Euler (e) = 2,72\n\nDefinições\nPressão: 1 atm = 760 Torr = 1,01325 × 10⁵ N·m⁻² = 1,01325 bar\nEnergia: 1 J = 1 N·m = 1 kg·m²·s⁻² = 6,24 × 10¹⁸ eV\nCondições normais de temperatura e pressão (CNTP): 0 °C e 1 atm, equivalente a 22,4 L de gás ideal\nCondições ambiente: 25 °C e 1 atm\nCondições padrão: 1 bar; concentração das soluções = 1 mol·L⁻¹ (rigorosamente: atividade unitária das espécies); sólido com estrutura cristalina mais estável nas condições de pressão e temperatura em questão.\n(s) = sólido. (l) = líquido. (g) = gasoso. (aq) = aquoso. (conc) = concentrado. (ua) = unidades arbitrárias. u.m.a. = unidade de massa atômica. [X] = concentração da espécie X em mol·L⁻¹.\nln X = 2,3 log X\nln 2 = 0,693\n\n\nln 3 = 1,099; ln 5 = 1,609; log 2 = 0,301; e^(−0,3465) = 0,707; √3 = 1,73; √5 = 2,24.\n\nMassas molares — elemento (número atômico): g·mol⁻¹\nH (1): 1,01\nB (5): 10,80\nC (6): 12,01\nN (7): 14,01\nO (8): 16,00\nF (9): 19,00\nNa (11): 22,99\nSi (14): 28,09\nS (16): 32,06\nCl (17): 35,45\nK (19): 39,10\nCa (20): 40,08\nCr (24): 52,00\nFe (26): 55,85\nNi (28): 58,69\nCu (29): 63,55\nNb (41): 92,91\nAg (47): 107,87\nPt (78): 195,08\nAu (79): 196,97\nHg (80): 200,59\nBi (83): 208,98",
+      "referenceKind": "Referência editorial de treino; resolução consultada: Etapa. Não é espelho oficial de correção."
+    },
+    {
+      "id": "ita-2026-2f-quimica-8",
+      "subject": "Química",
+      "originalNumber": 8,
+      "number": 18,
+      "title": "Motor-foguete e refrigeração",
+      "text": "Considere um motor-foguete hipotético que utiliza metano criogênico e oxigênio gasoso, funcionando em regime permanente. Nesse motor, uma pequena porcentagem do combustível é injetada (vaporizada) com o oxidante em uma pré-câmara de combustão na qual os gases de combustão (mistura rica em oxigênio) acionam uma turbobomba que pressuriza o combustível a ser queimado na câmara principal, junto com os gases de combustão da pré-câmara.\nSão fornecidos os seguintes requisitos para esse sistema.\nI. O calor gerado na câmara de combustão deve ser de 12 MJ. A combustão é completa e gera apenas produtos gasosos.\nII. A tubeira (região de exaustão dos gases) absorve 0,25% do calor gerado na câmara de combustão. Esse calor deve ser trocado com CH₄(l), que serve também como fluido de refrigeração, sendo que esse material pode ser aquecido até uma temperatura de 188 K antes de ser injetado, na forma gasosa, na câmara de combustão. Desconsidere o custo de energia na transição de fase do metano, que pode ser realizada por meio da mudança de pressão durante a injeção na câmara principal.\nIII. A turbobomba opera com uma eficiência de 30%, ou seja, do calor gerado na pré-câmara de combustão, 30% se tornam energia útil para a pressurização do metano. Também considere que, para cada grama de metano a ser pressurizado, a turbobomba precisa gerar 40 J de energia.\nSão fornecidas as entalpias de formação em kJ·mol⁻¹: CH₄(g) = −75, O₂(g) = 0, CO₂(g) = −393 e H₂O(l) = −286, além da entalpia de vaporização da água = 45 kJ·mol⁻¹. Também são dados o calor específico e a temperatura inicial do metano: 5/3 J·g⁻¹·K⁻¹ e 98 K, respectivamente. Considere que os dados termodinâmicos independem da temperatura e pressão.\na) Escreva a equação química balanceada da reação de combustão do metano e calcule a entalpia da combustão, conforme o requisito I.\nb) Calcule as massas necessárias, em g, de combustível e oxidante para atender ao requisito I, considerando a reação balanceada do item “a”.\nc) Calcule a massa de CH₄(g), em g, que deve ser injetada na pré-câmara de combustão.\nd) Calcule a massa mínima de CH₄(l), em g, necessária para resfriar a tubeira, conforme II.",
+      "fields": [
+        {
+          "id": "reacao",
+          "label": "a) Reação balanceada, com produtos gasosos",
+          "reference": "CH₄(g) + 2O₂(g) → CO₂(g) + 2H₂O(g).",
+          "accepted": [
+            "CH4(g)+2O2(g)→CO2(g)+2H2O(g)",
+            "CH4+2O2→CO2+2H2O"
+          ],
+          "math": true
+        },
+        {
+          "id": "entalpia",
+          "label": "a) Entalpia (kJ/mol)",
+          "reference": "−800 kJ/mol.",
+          "accepted": [
+            "-800"
+          ],
+          "numeric": {
+            "value": -800,
+            "tolerance": 1e-05,
+            "units": [
+              "",
+              "kJ/mol",
+              "kJ·mol⁻¹"
+            ]
+          }
+        },
+        {
+          "id": "combustivel",
+          "label": "b) Massa de CH₄ (g)",
+          "reference": "Aproximadamente 240 g (240,6 g com massas molares mais precisas).",
+          "accepted": [
+            "240.3"
+          ],
+          "numeric": {
+            "value": 240.3,
+            "tolerance": 0.8,
+            "units": [
+              "",
+              "g"
+            ]
+          }
+        },
+        {
+          "id": "oxidante",
+          "label": "b) Massa de O₂ (g)",
+          "reference": "960 g.",
+          "accepted": [
+            "960"
+          ],
+          "numeric": {
+            "value": 960,
+            "tolerance": 1e-05,
+            "units": [
+              "",
+              "g"
+            ]
+          }
+        },
+        {
+          "id": "c",
+          "label": "c) Metano na pré-câmara (g)",
+          "reference": "Aproximadamente 0,64 g.",
+          "accepted": [
+            "0.64"
+          ],
+          "numeric": {
+            "value": 0.64,
+            "tolerance": 0.005,
+            "units": [
+              "",
+              "g"
+            ]
+          }
+        },
+        {
+          "id": "d",
+          "label": "d) Metano para resfriamento (g)",
+          "reference": "200 g.",
+          "accepted": [
+            "200"
+          ],
+          "numeric": {
+            "value": 200,
+            "tolerance": 1e-05,
+            "units": [
+              "",
+              "g"
+            ]
+          }
+        }
+      ],
+      "kind": "written",
+      "examSource": "/provas/ita/2026/segunda-fase/quimica.pdf#page=10",
+      "source": "https://etaparesolve.etapa.com.br/ita/2026/709/12/0",
+      "support": "Constantes\nConstante de Avogadro (Nₐ) = 6,02 × 10²³ mol⁻¹\nConstante de Faraday (F) = 9,65 × 10⁴ C·mol⁻¹ = 9,65 × 10⁴ A·s·mol⁻¹ = 9,65 × 10⁴ J·V⁻¹·mol⁻¹\nCarga elementar = 1,60 × 10⁻¹⁹ C\nConstante dos gases (R) = 8,21 × 10⁻² atm·L·K⁻¹·mol⁻¹ = 8,31 J·K⁻¹·mol⁻¹ = 1,98 cal·K⁻¹·mol⁻¹\nConstante de Planck (h) = 6,63 × 10⁻³⁴ J·s\nVelocidade da luz no vácuo = 3,0 × 10⁸ m·s⁻¹\nNúmero de Euler (e) = 2,72\n\nDefinições\nPressão: 1 atm = 760 Torr = 1,01325 × 10⁵ N·m⁻² = 1,01325 bar\nEnergia: 1 J = 1 N·m = 1 kg·m²·s⁻² = 6,24 × 10¹⁸ eV\nCondições normais de temperatura e pressão (CNTP): 0 °C e 1 atm, equivalente a 22,4 L de gás ideal\nCondições ambiente: 25 °C e 1 atm\nCondições padrão: 1 bar; concentração das soluções = 1 mol·L⁻¹ (rigorosamente: atividade unitária das espécies); sólido com estrutura cristalina mais estável nas condições de pressão e temperatura em questão.\n(s) = sólido. (l) = líquido. (g) = gasoso. (aq) = aquoso. (conc) = concentrado. (ua) = unidades arbitrárias. u.m.a. = unidade de massa atômica. [X] = concentração da espécie X em mol·L⁻¹.\nln X = 2,3 log X\nln 2 = 0,693\n\n\nln 3 = 1,099; ln 5 = 1,609; log 2 = 0,301; e^(−0,3465) = 0,707; √3 = 1,73; √5 = 2,24.\n\nMassas molares — elemento (número atômico): g·mol⁻¹\nH (1): 1,01\nB (5): 10,80\nC (6): 12,01\nN (7): 14,01\nO (8): 16,00\nF (9): 19,00\nNa (11): 22,99\nSi (14): 28,09\nS (16): 32,06\nCl (17): 35,45\nK (19): 39,10\nCa (20): 40,08\nCr (24): 52,00\nFe (26): 55,85\nNi (28): 58,69\nCu (29): 63,55\nNb (41): 92,91\nAg (47): 107,87\nPt (78): 195,08\nAu (79): 196,97\nHg (80): 200,59\nBi (83): 208,98",
+      "image": "/provas/ita/2026/segunda-fase/figura-quimica-8.png",
+      "imageAlt": "Motor-foguete com turbobomba, pré-câmara, câmara e tubeira.",
+      "referenceKind": "Referência editorial de treino; resolução consultada: Etapa. Não é espelho oficial de correção."
+    },
+    {
+      "id": "ita-2026-2f-quimica-9",
+      "subject": "Química",
+      "originalNumber": 9,
+      "number": 19,
+      "title": "Migração iônica e eletrólise",
+      "text": "O seguinte experimento foi realizado para analisar alguns conceitos de eletrólise: uma solução aquosa de sulfato de cobre (azul) e uma solução aquosa de dicromato de potássio (alaranjada) foram misturadas em concentrações equimolares, resultando em uma solução de coloração marrom. Essa mistura foi colocada em uma célula eletrolítica em forma de U que foi, então, cuidadosamente preenchida de ambos os lados com uma solução de ácido sulfúrico diluído (incolor). Duas placas de platina (Pt₁ e Pt₂) foram imersas na solução, uma em cada braço do tubo em U, e conectadas aos polos (P₁ e P₂) de uma fonte externa, conforme mostra o esquema da figura (A). A figura (B) indica as frações de coloração da solução na célula, após um certo período de eletrólise da solução.\na) Liste todas as espécies iônicas presentes no meio.\nb) Explique de forma sucinta por que surgem as camadas de solução de cor azul e alaranjada, observadas na figura (B), após a eletrólise.\nc) Indique qual placa de platina (Pt₁ ou Pt₂) atua como ânodo e como cátodo e escreva as respectivas semirreações que ocorrem preferencialmente nesses eletrodos.\nd) Indique qual dos polos da fonte (P₁ ou P₂) é positivo, qual é negativo e qual a direção da corrente elétrica.",
+      "fields": [
+        {
+          "id": "ions",
+          "label": "a) Lista de íons, incluindo espécies minoritárias",
+          "reference": "Principais: Cu²⁺, SO₄²⁻, K⁺, Cr₂O₇²⁻ e H⁺. Minoritários: OH⁻, HSO₄⁻ e CrO₄²⁻, pelos equilíbrios da solução. Conferir a lista e os equilíbrios manualmente.",
+          "accepted": [],
+          "manual": true
+        },
+        {
+          "id": "migracao",
+          "label": "b) Explicação da separação de cores",
+          "reference": "Cu²⁺ (azul) migra para o cátodo negativo; Cr₂O₇²⁻ (alaranjado) migra para o ânodo positivo por ação do campo elétrico.",
+          "accepted": [
+            "Os cátions de cobre azuis migram para o cátodo negativo e os ânions dicromato alaranjados para o ânodo positivo."
+          ],
+          "keywordRule": {
+            "groups": [
+              [
+                "cu2|cobre|cation\\w*"
+              ],
+              [
+                "catod\\w*|negativ\\w*"
+              ],
+              [
+                "dicromato|cr2o7|anion\\w*"
+              ],
+              [
+                "anod\\w*|positiv\\w*"
+              ],
+              [
+                "migr\\w*|atra\\w*|desloc\\w*|campo eletrico"
+              ]
+            ],
+            "reject": [
+              "cobre.{0,25}anodo",
+              "dicromato.{0,25}catodo"
+            ],
+            "relations": [
+              "(?:cobre|cu2|cation\\w*).{0,70}(?:migr\\w*|atra\\w*|desloc\\w*).{0,60}(?:catod\\w*|negativ\\w*)",
+              "(?:dicromato|cr2o7|anion\\w*).{0,80}(?:anod\\w*|positiv\\w*)"
+            ]
+          }
+        },
+        {
+          "id": "catodo",
+          "label": "c) Placa catódica",
+          "reference": "Pt₁ é o cátodo.",
+          "accepted": [
+            "Pt1",
+            "Pt₁",
+            "placa 1",
+            "platina 1"
+          ]
+        },
+        {
+          "id": "anodo",
+          "label": "c) Placa anódica",
+          "reference": "Pt₂ é o ânodo.",
+          "accepted": [
+            "Pt2",
+            "Pt₂",
+            "placa 2",
+            "platina 2"
+          ]
+        },
+        {
+          "id": "red",
+          "label": "c) Semirreação no cátodo",
+          "reference": "2H⁺ + 2e⁻ → H₂; os eletrodos estão inicialmente na solução ácida incolor.",
+          "accepted": [
+            "2H++2e-→H2"
+          ],
+          "math": true
+        },
+        {
+          "id": "ox",
+          "label": "c) Semirreação no ânodo",
+          "reference": "2H₂O → 4H⁺ + O₂ + 4e⁻.",
+          "accepted": [
+            "2H2O→4H++O2+4e-",
+            "2H2O→O2+4H++4e-"
+          ],
+          "math": true
+        },
+        {
+          "id": "positivo",
+          "label": "d) Polo positivo",
+          "reference": "P₂.",
+          "accepted": [
+            "P2",
+            "P₂",
+            "polo 2"
+          ]
+        },
+        {
+          "id": "negativo",
+          "label": "d) Polo negativo",
+          "reference": "P₁.",
+          "accepted": [
+            "P1",
+            "P₁",
+            "polo 1"
+          ]
+        },
+        {
+          "id": "corrente",
+          "label": "d) Direção da corrente e trecho do circuito considerado",
+          "reference": "Na solução, corrente convencional de P₂/ânodo para P₁/cátodo; pela fonte, de P₁ para P₂. A direção depende do trecho indicado. Conferência manual evita confundir corrente com fluxo de elétrons.",
+          "accepted": [],
+          "manual": true
+        }
+      ],
+      "kind": "written",
+      "examSource": "/provas/ita/2026/segunda-fase/quimica.pdf#page=11",
+      "source": "https://etaparesolve.etapa.com.br/ita/2026/709/12/0",
+      "support": "Constantes\nConstante de Avogadro (Nₐ) = 6,02 × 10²³ mol⁻¹\nConstante de Faraday (F) = 9,65 × 10⁴ C·mol⁻¹ = 9,65 × 10⁴ A·s·mol⁻¹ = 9,65 × 10⁴ J·V⁻¹·mol⁻¹\nCarga elementar = 1,60 × 10⁻¹⁹ C\nConstante dos gases (R) = 8,21 × 10⁻² atm·L·K⁻¹·mol⁻¹ = 8,31 J·K⁻¹·mol⁻¹ = 1,98 cal·K⁻¹·mol⁻¹\nConstante de Planck (h) = 6,63 × 10⁻³⁴ J·s\nVelocidade da luz no vácuo = 3,0 × 10⁸ m·s⁻¹\nNúmero de Euler (e) = 2,72\n\nDefinições\nPressão: 1 atm = 760 Torr = 1,01325 × 10⁵ N·m⁻² = 1,01325 bar\nEnergia: 1 J = 1 N·m = 1 kg·m²·s⁻² = 6,24 × 10¹⁸ eV\nCondições normais de temperatura e pressão (CNTP): 0 °C e 1 atm, equivalente a 22,4 L de gás ideal\nCondições ambiente: 25 °C e 1 atm\nCondições padrão: 1 bar; concentração das soluções = 1 mol·L⁻¹ (rigorosamente: atividade unitária das espécies); sólido com estrutura cristalina mais estável nas condições de pressão e temperatura em questão.\n(s) = sólido. (l) = líquido. (g) = gasoso. (aq) = aquoso. (conc) = concentrado. (ua) = unidades arbitrárias. u.m.a. = unidade de massa atômica. [X] = concentração da espécie X em mol·L⁻¹.\nln X = 2,3 log X\nln 2 = 0,693\n\n\nln 3 = 1,099; ln 5 = 1,609; log 2 = 0,301; e^(−0,3465) = 0,707; √3 = 1,73; √5 = 2,24.\n\nMassas molares — elemento (número atômico): g·mol⁻¹\nH (1): 1,01\nB (5): 10,80\nC (6): 12,01\nN (7): 14,01\nO (8): 16,00\nF (9): 19,00\nNa (11): 22,99\nSi (14): 28,09\nS (16): 32,06\nCl (17): 35,45\nK (19): 39,10\nCa (20): 40,08\nCr (24): 52,00\nFe (26): 55,85\nNi (28): 58,69\nCu (29): 63,55\nNb (41): 92,91\nAg (47): 107,87\nPt (78): 195,08\nAu (79): 196,97\nHg (80): 200,59\nBi (83): 208,98",
+      "image": "/provas/ita/2026/segunda-fase/figura-quimica-9.png",
+      "imageAlt": "Célula eletrolítica em U antes e depois da eletrólise, com regiões azul e alaranjada.",
+      "referenceKind": "Referência editorial de treino; resolução consultada: Etapa. Não é espelho oficial de correção."
+    },
+    {
+      "id": "ita-2026-2f-quimica-10",
+      "subject": "Química",
+      "originalNumber": 10,
+      "number": 20,
+      "title": "Decaimentos nucleares",
+      "text": "Um elemento J possui massa atômica igual a 238 e número atômico 92. J sofre decaimentos de partículas alfa e forma o elemento A com número de massa X e número de prótons Z. Considerações: i) o elemento A é isóbaro de E; ii) E é isótono de G; iii) G pode ser formado pelo decaimento de uma partícula beta (e⁻) do elemento Q, que possui massa 232 e número atômico 89; e iv) o elemento E apresenta 84 prótons.\nCom base nessas informações, determine:\na) X.\nb) Z.\nc) número de partículas alfa emitidas por J.",
+      "fields": [
+        {
+          "id": "X",
+          "label": "a) Número de massa X",
+          "reference": "226.",
+          "accepted": [
+            "226"
+          ],
+          "numeric": {
+            "value": 226,
+            "tolerance": 1e-05,
+            "units": [
+              ""
+            ]
+          }
+        },
+        {
+          "id": "Z",
+          "label": "b) Número de prótons Z",
+          "reference": "86.",
+          "accepted": [
+            "86"
+          ],
+          "numeric": {
+            "value": 86,
+            "tolerance": 1e-05,
+            "units": [
+              ""
+            ]
+          }
+        },
+        {
+          "id": "alfa",
+          "label": "c) Partículas alfa",
+          "reference": "3 partículas alfa.",
+          "accepted": [
+            "3"
+          ],
+          "numeric": {
+            "value": 3,
+            "tolerance": 1e-05,
+            "units": [
+              "",
+              "partículas alfa",
+              "alfa"
+            ]
+          }
+        }
+      ],
+      "kind": "written",
+      "examSource": "/provas/ita/2026/segunda-fase/quimica.pdf#page=12",
+      "source": "https://etaparesolve.etapa.com.br/ita/2026/709/12/0",
+      "support": "Constantes\nConstante de Avogadro (Nₐ) = 6,02 × 10²³ mol⁻¹\nConstante de Faraday (F) = 9,65 × 10⁴ C·mol⁻¹ = 9,65 × 10⁴ A·s·mol⁻¹ = 9,65 × 10⁴ J·V⁻¹·mol⁻¹\nCarga elementar = 1,60 × 10⁻¹⁹ C\nConstante dos gases (R) = 8,21 × 10⁻² atm·L·K⁻¹·mol⁻¹ = 8,31 J·K⁻¹·mol⁻¹ = 1,98 cal·K⁻¹·mol⁻¹\nConstante de Planck (h) = 6,63 × 10⁻³⁴ J·s\nVelocidade da luz no vácuo = 3,0 × 10⁸ m·s⁻¹\nNúmero de Euler (e) = 2,72\n\nDefinições\nPressão: 1 atm = 760 Torr = 1,01325 × 10⁵ N·m⁻² = 1,01325 bar\nEnergia: 1 J = 1 N·m = 1 kg·m²·s⁻² = 6,24 × 10¹⁸ eV\nCondições normais de temperatura e pressão (CNTP): 0 °C e 1 atm, equivalente a 22,4 L de gás ideal\nCondições ambiente: 25 °C e 1 atm\nCondições padrão: 1 bar; concentração das soluções = 1 mol·L⁻¹ (rigorosamente: atividade unitária das espécies); sólido com estrutura cristalina mais estável nas condições de pressão e temperatura em questão.\n(s) = sólido. (l) = líquido. (g) = gasoso. (aq) = aquoso. (conc) = concentrado. (ua) = unidades arbitrárias. u.m.a. = unidade de massa atômica. [X] = concentração da espécie X em mol·L⁻¹.\nln X = 2,3 log X\nln 2 = 0,693\n\n\nln 3 = 1,099; ln 5 = 1,609; log 2 = 0,301; e^(−0,3465) = 0,707; √3 = 1,73; √5 = 2,24.\n\nMassas molares — elemento (número atômico): g·mol⁻¹\nH (1): 1,01\nB (5): 10,80\nC (6): 12,01\nN (7): 14,01\nO (8): 16,00\nF (9): 19,00\nNa (11): 22,99\nSi (14): 28,09\nS (16): 32,06\nCl (17): 35,45\nK (19): 39,10\nCa (20): 40,08\nCr (24): 52,00\nFe (26): 55,85\nNi (28): 58,69\nCu (29): 63,55\nNb (41): 92,91\nAg (47): 107,87\nPt (78): 195,08\nAu (79): 196,97\nHg (80): 200,59\nBi (83): 208,98",
+      "referenceKind": "Referência editorial de treino; resolução consultada: Etapa. Não é espelho oficial de correção."
+    },
+    {
+      "id": "ita-2026-2f-fisica-1",
+      "subject": "Física",
+      "originalNumber": 1,
+      "number": 21,
+      "title": "Aderência do trem em curvas",
+      "text": "Um trem de massa M desloca-se a uma velocidade constante v sobre trilhos horizontais. Para garantir a aderência em curvas, as rodas do trem possuem formato de tronco de cone regular com ângulo θ com a horizontal, conforme se observa na figura. Considerando que o raio de curvatura é muito maior que as dimensões do trem e que o eixo das rodas permanece na horizontal, calcule o raio de curvatura mínimo para que nenhuma das rodas perca o contato com o trilho nas seguintes situações:\na) quando o coeficiente de atrito estático entre as rodas e o trilho é μ;\nb) quando o atrito é desprezível;\nc) quando o coeficiente de atrito estático é μ e as rodas são cilíndricas.",
+      "fields": [
+        {
+          "id": "a",
+          "label": "a) Raio mínimo",
+          "reference": "(v²/g)(cos θ − μ sen θ)/(sen θ + μ cos θ), no regime em que a expressão tem sentido físico.",
+          "accepted": [
+            "(v²/g)(cosθ-μsenθ)/(senθ+μcosθ)",
+            "v²(cosθ-μsinθ)/(g(sinθ+μcosθ))",
+            "v²/(g(tanθ+μ)/(1-μtanθ))"
+          ],
+          "math": true
+        },
+        {
+          "id": "b",
+          "label": "b) Raio sem atrito",
+          "reference": "v²/(g tan θ).",
+          "accepted": [
+            "v²/(gtanθ)",
+            "v^2/(g*tan(theta))",
+            "v²cosθ/(gsenθ)"
+          ],
+          "math": true
+        },
+        {
+          "id": "c",
+          "label": "c) Raio com rodas cilíndricas",
+          "reference": "v²/(μg).",
+          "accepted": [
+            "v²/(μg)",
+            "v^2/(mu*g)",
+            "v²/(gμ)"
+          ],
+          "math": true
+        }
+      ],
+      "kind": "written",
+      "examSource": "/provas/ita/2026/segunda-fase/fisica.pdf#page=2",
+      "source": "https://etaparesolve.etapa.com.br/ita/2026/710/12/0",
+      "support": "Quando necessário: g = 10 m/s²; μ₀ = 4π·10⁻⁷ N·A⁻¹ (unidade impressa no caderno; dimensionalmente μ₀ se expressa em N·A⁻²).",
+      "image": "/provas/ita/2026/segunda-fase/figura-fisica-1.png",
+      "imageAlt": "Rodas cônicas do trem apoiadas nos trilhos e ângulo θ.",
+      "referenceKind": "Referência editorial de treino; resolução consultada: Etapa. Não é espelho oficial de correção."
+    },
+    {
+      "id": "ita-2026-2f-fisica-2",
+      "subject": "Física",
+      "originalNumber": 2,
+      "number": 22,
+      "title": "Barra em plano inclinado",
+      "text": "Uma barra rígida, homogênea e uniforme, de massa M e comprimento L, possui dois apoios fixos, A e B, que estão em contato com um plano inclinado que forma um ângulo θ com a horizontal. Os pontos de contato com o plano inclinado estão localizados a uma distância d de cada extremidade da barra, conforme ilustrado na figura. Um objeto de massa m está preso à barra a uma distância a da extremidade inferior. Para manter o equilíbrio, um contrapeso de massa m_c é acoplado a uma distância b da extremidade superior da barra. Admita que os apoios sofrem forças de atrito estático.\nConsiderando que a barra permanece em repouso, faça o que se pede nos itens a seguir, expressando as respostas em termos dos parâmetros dados (M, m, m_c, L, d, a, b, g, θ).\na) Determine o valor das forças normais exercidas sobre os apoios A e B.\nb) Calcule a força de atrito em cada apoio, que impeça o deslizamento da barra ao longo do plano.",
+      "fields": [
+        {
+          "id": "normalA",
+          "label": "a) Normal no apoio A",
+          "reference": "N_A = g cos θ [M/2 + (m(L−a−d) + m_c(b−d))/(L−2d)].",
+          "accepted": [
+            "gcosθ(M/2+(m(L-a-d)+m_c(b-d))/(L-2d))",
+            "g*cos(theta)*(M/2+(m*(L-a-d)+m_c*(b-d))/(L-2*d))"
+          ],
+          "math": true
+        },
+        {
+          "id": "normalB",
+          "label": "a) Normal no apoio B",
+          "reference": "N_B = g cos θ [M/2 + (m(a−d) + m_c(L−b−d))/(L−2d)].",
+          "accepted": [
+            "gcosθ(M/2+(m(a-d)+m_c(L-b-d))/(L-2d))",
+            "g*cos(theta)*(M/2+(m*(a-d)+m_c*(L-b-d))/(L-2*d))"
+          ],
+          "math": true
+        },
+        {
+          "id": "atrito",
+          "label": "b) Atritos e hipóteses utilizadas",
+          "reference": "O equilíbrio exige f_A + f_B = (M + m + m_c)g sen θ. A distribuição individual não é determinada unicamente sem outra condição. Admitindo forças de contato com mesma inclinação, obtém-se f_A = N_A tan θ e f_B = N_B tan θ. Explicite essa hipótese na resolução.",
+          "accepted": [],
+          "manual": true
+        }
+      ],
+      "kind": "written",
+      "examSource": "/provas/ita/2026/segunda-fase/fisica.pdf#page=3",
+      "source": "https://etaparesolve.etapa.com.br/ita/2026/710/12/0",
+      "reviewNote": "A distribuição individual dos atritos depende de hipótese adicional; esse pedido é conferido manualmente.",
+      "support": "Quando necessário: g = 10 m/s²; μ₀ = 4π·10⁻⁷ N·A⁻¹ (unidade impressa no caderno; dimensionalmente μ₀ se expressa em N·A⁻²).",
+      "image": "/provas/ita/2026/segunda-fase/figura-fisica-2.png",
+      "imageAlt": "Barra no plano inclinado, apoios A e B, massas e distâncias indicadas.",
+      "referenceKind": "Referência editorial de treino; resolução consultada: Etapa. Não é espelho oficial de correção."
+    },
+    {
+      "id": "ita-2026-2f-fisica-3",
+      "subject": "Física",
+      "originalNumber": 3,
+      "number": 23,
+      "title": "Reação radial no pivô",
+      "text": "Uma haste fina e homogênea de comprimento total L e massa M está presa a um pivô fixo, localizado a uma distância a de uma das extremidades, conforme a figura. A haste pode girar livremente em um plano vertical sob a ação da gravidade. Em determinado instante, ela gira com velocidade angular ω em torno do pivô, formando um ângulo θ com a vertical.\nDadas as considerações, calcule:\na) a componente radial da força de reação exercida pelo pivô sobre a haste nesse instante, em função de M, L, a, θ, ω e g;\nb) o ângulo θ para que a componente radial da força de reação se anule, em função de M, L, a, ω e g.",
+      "fields": [
+        {
+          "id": "a",
+          "label": "a) Componente radial (sentido para o pivô positivo)",
+          "reference": "F_r = Mg cos θ + Mω²(L/2 − a).",
+          "accepted": [
+            "Mgcosθ+Mω²(L/2-a)",
+            "M(gcosθ+ω²(L/2-a))",
+            "M*g*cos(theta)+M*omega^2*(L/2-a)"
+          ],
+          "math": true
+        },
+        {
+          "id": "b",
+          "label": "b) Ângulo, no intervalo [0, π]",
+          "reference": "θ = arccos[−ω²(L/2 − a)/g], quando o argumento está em [−1, 1].",
+          "accepted": [
+            "arccos(-ω²(L/2-a)/g)",
+            "acos(-omega^2*(L/2-a)/g)",
+            "π-arccos(ω²(L/2-a)/g)"
+          ],
+          "math": true
+        }
+      ],
+      "kind": "written",
+      "examSource": "/provas/ita/2026/segunda-fase/fisica.pdf#page=4",
+      "source": "https://etaparesolve.etapa.com.br/ita/2026/710/12/0",
+      "support": "Quando necessário: g = 10 m/s²; μ₀ = 4π·10⁻⁷ N·A⁻¹ (unidade impressa no caderno; dimensionalmente μ₀ se expressa em N·A⁻²).",
+      "image": "/provas/ita/2026/segunda-fase/figura-fisica-3.png",
+      "imageAlt": "Haste presa ao pivô, eixos x e y, distância a e ângulo θ.",
+      "referenceKind": "Referência editorial de treino; resolução consultada: Etapa. Não é espelho oficial de correção."
+    },
+    {
+      "id": "ita-2026-2f-fisica-4",
+      "subject": "Física",
+      "originalNumber": 4,
+      "number": 24,
+      "title": "Fragmentação e energia gravitacional",
+      "text": "Considere um objeto de massa m que descreve uma trajetória elíptica sob a influência de uma estrela de massa M (M ≫ m). Devido a instabilidades internas, ele se separa em duas partes de massas m₁ e m₂, com m₁ = 4m₂. Em um determinado instante, as posições das massas m₁ e m₂ são, respectivamente, dadas por P₁ = (3a/4, b/4) e P₂ = (a, y₂), em que a é o semieixo maior, b é o semieixo menor e os focos da elipse descrita originalmente por m estão no eixo x.\nConsiderando que a origem do sistema de coordenadas coincide com o centro da elipse, determine:\na) y₂;\nb) a menor energia potencial gravitacional possível do sistema nesse instante.",
+      "fields": [
+        {
+          "id": "a",
+          "label": "a) Dois valores de y₂, separados por ponto e vírgula",
+          "reference": "y₂ = 2b ou y₂ = −4b, na aproximação de centro de massa na órbita original.",
+          "accepted": [
+            "2b;-4b"
+          ],
+          "math": true,
+          "answerList": [
+            "2b",
+            "-4b"
+          ]
+        },
+        {
+          "id": "b",
+          "label": "b) Energia mínima e aproximações usadas",
+          "reference": "Defina c = √(a²−b²), r₁ = √((3a/4−c)²+(b/4)²) e r₂ = √((a−c)²+4b²). Escolhendo y₂ = 2b e a estrela no foco (c,0), E ≈ −(GMm/5)(4/r₁+1/r₂), desprezando a interação entre fragmentos de ordem m². A aproximação orbital e a expressão equivalente devem ser conferidas manualmente.",
+          "accepted": [],
+          "manual": true
+        }
+      ],
+      "kind": "written",
+      "examSource": "/provas/ita/2026/segunda-fase/fisica.pdf#page=5",
+      "source": "https://etaparesolve.etapa.com.br/ita/2026/710/12/0",
+      "support": "Quando necessário: g = 10 m/s²; μ₀ = 4π·10⁻⁷ N·A⁻¹ (unidade impressa no caderno; dimensionalmente μ₀ se expressa em N·A⁻²).",
+      "referenceKind": "Referência editorial de treino; resolução consultada: Etapa. Não é espelho oficial de correção."
+    },
+    {
+      "id": "ita-2026-2f-fisica-5",
+      "subject": "Física",
+      "originalNumber": 5,
+      "number": 25,
+      "title": "Máquina térmica com viga de cobre",
+      "text": "Uma viga fina, cilíndrica, incompressível, maciça de cobre (massa molar M_Cu), de massa m, comprimento L e coeficiente de expansão térmica linear α, está posicionada verticalmente sobre o piso de um recipiente que contém um banho de água (calor específico c_H₂O e densidade ρ_H₂O) com volume V, inicialmente à temperatura ambiente de 20 °C. Sobre a extremidade superior da viga, é colocada uma massa M₁, que exerce uma força compressiva ao longo de seu eixo. Uma fonte de calor é então acionada, fornecendo energia ao banho até que sua temperatura atinja 90 °C. Nesse momento, a fonte de calor é desligada, e a massa M₁ é imediatamente substituída por uma massa menor, M₂. Com a fonte desligada e a massa reduzida, o sistema esfria e retorna à temperatura ambiente de 20 °C. Assim que essa temperatura é atingida, a massa M₁ é recolocada sobre a viga, e a fonte de calor é religada, reiniciando-se o ciclo. Admita que não há troca de calor de M₁ ou M₂ com o sistema.\nConsiderando válida a lei de Dulong-Petit: c_v = 3R (calor específico molar) para sólidos cristalinos, em que R é a constante universal dos gases, determine\na) o trabalho total realizado em um ciclo;\nb) a eficiência da máquina térmica descrita.",
+      "fields": [
+        {
+          "id": "a",
+          "label": "a) Trabalho líquido no ciclo",
+          "reference": "70(M₁ − M₂)gLα.",
+          "accepted": [
+            "70(M1-M2)gLα",
+            "70*g*L*alpha*(M_1-M_2)",
+            "(M1-M2)gLα(90-20)"
+          ],
+          "math": true
+        },
+        {
+          "id": "b",
+          "label": "b) Eficiência e balanço de calor",
+          "reference": "Usar η = W_líquido/Q_quente. Incluindo a elevação do centro de massa da viga: η = (M₁−M₂)gLα/[ρ_H₂OVc_H₂O + 3mR/M_Cu + (M₁+m/2)gLα]. A contabilidade de energia e a aproximação adotada precisam de conferência manual. Usar apenas M₁ no numerador corresponderia ao trabalho de expansão, não ao trabalho líquido do ciclo.",
+          "accepted": [],
+          "manual": true
+        }
+      ],
+      "kind": "written",
+      "examSource": "/provas/ita/2026/segunda-fase/fisica.pdf#page=6",
+      "source": "https://etaparesolve.etapa.com.br/ita/2026/710/12/0",
+      "support": "Quando necessário: g = 10 m/s²; μ₀ = 4π·10⁻⁷ N·A⁻¹ (unidade impressa no caderno; dimensionalmente μ₀ se expressa em N·A⁻²).",
+      "referenceKind": "Referência editorial de treino; resolução consultada: Etapa. Não é espelho oficial de correção."
+    },
+    {
+      "id": "ita-2026-2f-fisica-6",
+      "subject": "Física",
+      "originalNumber": 6,
+      "number": 26,
+      "title": "Luneta astronômica",
+      "text": "Uma luneta astronômica é composta por duas lentes delgadas dispostas em um tubo: uma lente objetiva de distância focal f₁ = +80 cm; e uma lente ocular de distância focal f₂ = +5,0 cm.\nSabendo que, nesse equipamento, as imagens dos objetos celestes observadas são formadas a longas distâncias do observador, faça o que se pede nos itens a seguir.\na) Calcule o comprimento L do tubo que separa as lentes.\nb) Calcule o aumento angular G da luneta para objetos a longas distâncias e indique a orientação da imagem.\nc) Descreva a posição e o tipo de imagem conjugada pela luneta de um objeto localizado a 40 cm da lente objetiva. A imagem final é maior ou menor que o objeto?",
+      "fields": [
+        {
+          "id": "a",
+          "label": "a) Comprimento do tubo (cm)",
+          "reference": "85 cm.",
+          "accepted": [
+            "85"
+          ],
+          "numeric": {
+            "value": 85,
+            "tolerance": 1e-05,
+            "units": [
+              "",
+              "cm"
+            ]
+          }
+        },
+        {
+          "id": "b",
+          "label": "b) Módulo do aumento angular",
+          "reference": "16.",
+          "accepted": [
+            "16"
+          ],
+          "numeric": {
+            "value": 16,
+            "tolerance": 1e-05,
+            "units": [
+              "",
+              "vezes"
+            ]
+          }
+        },
+        {
+          "id": "orientacao",
+          "label": "b) Orientação da imagem",
+          "reference": "Invertida.",
+          "accepted": [
+            "invertida",
+            "imagem invertida",
+            "inversa"
+          ]
+        },
+        {
+          "id": "posicao",
+          "label": "c) Distância da imagem final à ocular (cm)",
+          "reference": "165/32 = 5,15625 cm após a ocular.",
+          "accepted": [
+            "5.15625"
+          ],
+          "numeric": {
+            "value": 5.15625,
+            "tolerance": 0.01,
+            "units": [
+              "",
+              "cm"
+            ]
+          }
+        },
+        {
+          "id": "tipo",
+          "label": "c) Natureza da imagem final",
+          "reference": "Real.",
+          "accepted": [
+            "real",
+            "imagem real"
+          ]
+        },
+        {
+          "id": "sentido",
+          "label": "c) Orientação final",
+          "reference": "Invertida.",
+          "accepted": [
+            "invertida",
+            "imagem invertida"
+          ]
+        },
+        {
+          "id": "tamanho",
+          "label": "c) Comparação do tamanho com o objeto",
+          "reference": "16 vezes menor; aumento linear −1/16.",
+          "accepted": [
+            "16 vezes menor",
+            "1/16 do tamanho",
+            "reduzida 16 vezes",
+            "aumento -1/16"
+          ],
+          "keywordRule": {
+            "groups": [
+              [
+                "16"
+              ],
+              [
+                "menor|reduz\\w*|1/16|-1/16"
+              ]
+            ]
+          }
+        }
+      ],
+      "kind": "written",
+      "examSource": "/provas/ita/2026/segunda-fase/fisica.pdf#page=7",
+      "source": "https://etaparesolve.etapa.com.br/ita/2026/710/12/0",
+      "support": "Quando necessário: g = 10 m/s²; μ₀ = 4π·10⁻⁷ N·A⁻¹ (unidade impressa no caderno; dimensionalmente μ₀ se expressa em N·A⁻²).",
+      "referenceKind": "Referência editorial de treino; resolução consultada: Etapa. Não é espelho oficial de correção."
+    },
+    {
+      "id": "ita-2026-2f-fisica-7",
+      "subject": "Física",
+      "originalNumber": 7,
+      "number": 27,
+      "title": "Polarizadores em sequência",
+      "text": "Um feixe cilíndrico e homogêneo de luz laser de intensidade I₀ incide sobre um sistema de N + 1 polarizadores dispostos em sequência. O eixo de polarização de cada polarizador forma um ângulo β com o eixo de polarização do polarizador anterior, de modo que φ = Nβ é o ângulo entre o eixo de polarização do último polarizador e o do primeiro. O laser possui polarização paralela ao eixo do primeiro polarizador e, devido a reflexões e absorções, sua intensidade após a passagem por cada polarizador é igual a uma fração x daquela que seria obtida em um caso ideal.\nConsiderando P a potência registrada por um analisador após o feixe atravessar todo o sistema, determine, em termos de I₀, φ, x, N e P,\na) a intensidade do feixe após passar pelo sistema;\nb) o raio do feixe.",
+      "fields": [
+        {
+          "id": "a",
+          "label": "a) Intensidade final",
+          "reference": "I = I₀ x^(N+1) [cos(φ/N)]^(2N).",
+          "accepted": [
+            "I0*x^(N+1)*cos(φ/N)^(2N)",
+            "I₀x^(N+1)(cos(φ/N))^(2N)",
+            "I0*x^(N+1)*(cos(phi/N))^(2*N)"
+          ],
+          "math": true
+        },
+        {
+          "id": "b",
+          "label": "b) Raio do feixe",
+          "reference": "r = √[P/(πI₀x^(N+1)[cos(φ/N)]^(2N))].",
+          "accepted": [
+            "sqrt(P/(πI0*x^(N+1)*cos(φ/N)^(2N)))",
+            "√(P/(πI₀x^(N+1)(cos(φ/N))^(2N)))",
+            "sqrt(P/(pi*I0*x^(N+1)*(cos(phi/N))^(2*N)))"
+          ],
+          "math": true
+        }
+      ],
+      "kind": "written",
+      "examSource": "/provas/ita/2026/segunda-fase/fisica.pdf#page=8",
+      "source": "https://etaparesolve.etapa.com.br/ita/2026/710/12/0",
+      "support": "Quando necessário: g = 10 m/s²; μ₀ = 4π·10⁻⁷ N·A⁻¹ (unidade impressa no caderno; dimensionalmente μ₀ se expressa em N·A⁻²).",
+      "referenceKind": "Referência editorial de treino; resolução consultada: Etapa. Não é espelho oficial de correção."
+    },
+    {
+      "id": "ita-2026-2f-fisica-8",
+      "subject": "Física",
+      "originalNumber": 8,
+      "number": 28,
+      "title": "Carregamento indutivo",
+      "text": "Um celular de massa 100 g e calor específico médio de 2,0 J/(g·°C), com bateria de 2 Ah de capacidade de carga e tensão de 5,0 V, é carregado completamente em 20 min por um carregador indutivo dotado de um solenoide de 20 espiras por centímetro, seção transversal circular de raio 0,5 cm e comprimento 2 cm. O celular possui um solenoide idêntico que se acopla perfeitamente ao solenoide do carregador durante o carregamento. O carregamento é realizado por ciclos, em cada qual a bobina do carregador é percorrida por uma corrente elétrica que varia linearmente entre 0 e 14 A em um período de tempo Δt, o que induz uma f.e.m. de módulo igual à tensão da bateria na bobina do celular, permanecendo constante durante todo o processo de carregamento. O processo de carregamento foi responsável pelo aumento da temperatura média do aparelho de 20 °C para 50 °C.\nConsiderando que a bateria estava totalmente descarregada no início do processo, determine\na) o mínimo valor possível da potência média, em watts, fornecida pelo carregador;\nb) o máximo valor possível de Δt em segundos.",
+      "fields": [
+        {
+          "id": "a",
+          "label": "a) Potência mínima (W)",
+          "reference": "35 W.",
+          "accepted": [
+            "35"
+          ],
+          "numeric": {
+            "value": 35,
+            "tolerance": 1e-05,
+            "units": [
+              "",
+              "W",
+              "watts"
+            ]
+          }
+        },
+        {
+          "id": "b",
+          "label": "b) Intervalo máximo Δt (s)",
+          "reference": "2,24π²·10⁻⁶ s ≈ 2,21·10⁻⁵ s.",
+          "accepted": [
+            "2,24π²·10⁻⁶ s",
+            "2.24*pi^2*10^-6",
+            "2,24*pi^2*10^-6"
+          ],
+          "math": true,
+          "numeric": {
+            "value": 2.21079e-05,
+            "tolerance": 3e-07,
+            "units": [
+              "",
+              "s",
+              "segundos"
+            ]
+          }
+        }
+      ],
+      "kind": "written",
+      "examSource": "/provas/ita/2026/segunda-fase/fisica.pdf#page=9",
+      "source": "https://etaparesolve.etapa.com.br/ita/2026/710/12/0",
+      "support": "Quando necessário: g = 10 m/s²; μ₀ = 4π·10⁻⁷ N·A⁻¹ (unidade impressa no caderno; dimensionalmente μ₀ se expressa em N·A⁻²).",
+      "referenceKind": "Referência editorial de treino; resolução consultada: Etapa. Não é espelho oficial de correção."
+    },
+    {
+      "id": "ita-2026-2f-fisica-9",
+      "subject": "Física",
+      "originalNumber": 9,
+      "number": 29,
+      "title": "Grade de difração",
+      "text": "Uma grade de difração está posicionada horizontalmente a 20 cm acima do solo, na qual incide luz solar perpendicularmente. No solo, a projeção do primeiro máximo de difração do laranja (600 nm) ocorre a 20 cm do ponto central.\nDadas as considerações, determine\na) a distância entre as ranhuras da grade de difração;\nb) a distância do primeiro máximo de difração do violeta (400 nm) até o ponto central.",
+      "fields": [
+        {
+          "id": "a",
+          "label": "a) Distância entre ranhuras (nm)",
+          "reference": "600√2 nm ≈ 848,5 nm.",
+          "accepted": [
+            "600√2",
+            "600sqrt(2)",
+            "600√2 nm"
+          ],
+          "math": true,
+          "numeric": {
+            "value": 848.528,
+            "tolerance": 1,
+            "units": [
+              "",
+              "nm"
+            ]
+          }
+        },
+        {
+          "id": "b",
+          "label": "b) Distância do máximo violeta (cm)",
+          "reference": "40/√14 cm ≈ 10,69 cm.",
+          "accepted": [
+            "10.69"
+          ],
+          "numeric": {
+            "value": 10.69,
+            "tolerance": 0.04,
+            "units": [
+              "",
+              "cm"
+            ]
+          }
+        }
+      ],
+      "kind": "written",
+      "examSource": "/provas/ita/2026/segunda-fase/fisica.pdf#page=10",
+      "source": "https://etaparesolve.etapa.com.br/ita/2026/710/12/0",
+      "support": "Quando necessário: g = 10 m/s²; μ₀ = 4π·10⁻⁷ N·A⁻¹ (unidade impressa no caderno; dimensionalmente μ₀ se expressa em N·A⁻²).",
+      "referenceKind": "Referência editorial de treino; resolução consultada: Etapa. Não é espelho oficial de correção."
+    },
+    {
+      "id": "ita-2026-2f-fisica-10",
+      "subject": "Física",
+      "originalNumber": 10,
+      "number": 30,
+      "title": "Sinal luminoso e relatividade",
+      "text": "Considere uma missão espacial cujo objetivo é coletar dados do sistema planetário da estrela Sirius, localizada a 8,6 anos-luz do nosso sistema Solar. Para tal, duas espaçonaves são lançadas da Terra de forma que atingem as fronteiras do sistema Solar ao mesmo instante t₀, para um observador na Terra, em trajetórias paralelas e velocidades constantes, v₁ = 0,8c e v₂ = 0,6c, em que c é a velocidade da luz. Assim que chega ao sistema planetário de Sirius, a espaçonave 1 emite um sinal para a espaçonave 2.\nDadas as considerações, determine\na) o tempo transcorrido na Terra, desde o instante t₀ até que a espaçonave 2 receba o sinal emitido pela espaçonave 1;\nb) o tempo transcorrido para os astronautas da espaçonave 2, desde o instante t₀ até que recebam o sinal emitido pela espaçonave 1.",
+      "fields": [
+        {
+          "id": "a",
+          "label": "a) Tempo na Terra (anos)",
+          "reference": "12,09375 anos ≈ 12,1 anos.",
+          "accepted": [
+            "12.09375"
+          ],
+          "numeric": {
+            "value": 12.09375,
+            "tolerance": 0.015,
+            "units": [
+              "",
+              "anos"
+            ]
+          }
+        },
+        {
+          "id": "b",
+          "label": "b) Tempo próprio da espaçonave 2 (anos)",
+          "reference": "9,675 anos ≈ 9,7 anos.",
+          "accepted": [
+            "9.675"
+          ],
+          "numeric": {
+            "value": 9.675,
+            "tolerance": 0.035,
+            "units": [
+              "",
+              "anos"
+            ]
+          }
+        }
+      ],
+      "kind": "written",
+      "examSource": "/provas/ita/2026/segunda-fase/fisica.pdf#page=11",
+      "source": "https://etaparesolve.etapa.com.br/ita/2026/710/12/0",
+      "support": "Quando necessário: g = 10 m/s²; μ₀ = 4π·10⁻⁷ N·A⁻¹ (unidade impressa no caderno; dimensionalmente μ₀ se expressa em N·A⁻²).",
+      "referenceKind": "Referência editorial de treino; resolução consultada: Etapa. Não é espelho oficial de correção."
+    },
+    {
+      "id": "ita-2026-2f-portugues-1",
+      "number": 31,
+      "originalNumber": 1,
+      "subject": "Português",
+      "kind": "objective",
+      "title": "Prosa e liberdade de expressão",
+      "text": "Segundo os argumentos desenvolvidos, o narrador",
+      "options": [
+        "prefere a prosa ao verso como subterfúgio para sua incapacidade de escrever poemas.",
+        "crê que as leis rítmicas, próprias dos versos, restringem a livre expressão do pensamento.",
+        "julga que a prosa, ao prescindir de estrutura rítmica, compromete a manifestação das ideias.",
+        "diz que o ritmo acidental do verso impede a prosa, assim como o da prosa afeta o verso.",
+        "atesta que a prosa, ao valer-se de transposições, procura imitar outras formas de arte."
+      ],
+      "answer": "B",
+      "fields": [],
+      "highlights": [],
+      "examSource": "/provas/ita/2026/segunda-fase/portugues.pdf#page=2",
+      "source": "/provas/ita/2026/segunda-fase/gabarito.pdf",
+      "support": "Leia o texto a seguir para responder às questões 1 e 2.\n\"Prefiro a prosa ao verso, como modo de arte, por duas razões, das quais a primeira,\nque é minha, é que não tenho escolha, pois sou incapaz de escrever em verso. A segunda,\nporém, é de todos, e não é — creio bem — uma sombra ou disfarce da primeira. Vale pois\na pena que eu a esfie, porque toca no sentido íntimo de toda a valia da arte.\nConsidero o verso como uma coisa intermédia, uma passagem da música para a\nprosa. Como a música, o verso é limitado por leis rítmicas, que, ainda que não sejam as\nleis rígidas do verso regular, existem todavia como resguardos, coações, dispositivos\nautomáticos de opressão e castigo. Na prosa falamos livres. Podemos incluir ritmos\nmusicais, e contudo pensar. Podemos incluir ritmos poéticos, e contudo estar fora deles.\nUm ritmo ocasional de verso não estorva a prosa; um ritmo ocasional de prosa faz tropeçar\no verso.\nNa prosa se engloba toda a arte — em parte porque na palavra se contém todo o\nmundo, em parte porque na palavra livre se contém toda a possibilidade de o dizer e pensar.\nNa prosa damos tudo, por transposição: a cor e a forma, que a pintura não pode dar senão\ndiretamente, em elas mesmas, sem dimensão íntima; o ritmo, que a música não pode dar\nsenão diretamente, nele mesmo, sem corpo formal, nem aquele segundo corpo que é a\nideia; a estrutura, que o arquiteto tem que formar de coisas duras, dadas, externas, e nós\nerguemos em ritmos, em indecisões, em decursos e fluidezas; a realidade, que o escultor\ntem que deixar no mundo, sem aura nem transubstanciação; a poesia, enfim, em que o\npoeta, como o iniciado numa ordem oculta, é servo, ainda que voluntário, de um grau e de\num ritual.\"\nFonte: PESSOA, Fernando. O livro do desassossego. São Paulo: Brasiliense, 1986. Disponível em\nhttp://arquivopessoa.net/textos/4527",
+      "referenceKind": "Gabarito oficial do ITA."
+    },
+    {
+      "id": "ita-2026-2f-portugues-2",
+      "number": 32,
+      "originalNumber": 2,
+      "subject": "Português",
+      "kind": "objective",
+      "title": "Heterônimos de Fernando Pessoa",
+      "text": "O livro do desassossego é assinado por Bernardo Soares, um dos heterônimos de Fernando Pessoa. Sobre tais heterônimos, assinale a alternativa CORRETA.",
+      "options": [
+        "Heterônimos são assinaturas fictícias adotadas por Pessoa, que mantém sua personalidade ao escrever sob diferentes nomes.",
+        "Alberto Caieiro é o poeta que, em busca da simplicidade, volta-se para a vida no campo.",
+        "Ricardo Reis é o poeta das sensações, que representa o homem moderno ao tratar de temáticas futurísticas.",
+        "Álvaro de Campos é o poeta neoclássico, que compõe versos eruditos que trazem referências mitológicas.",
+        "Bernardo Soares é adepto a um estilo coloquial e explora de forma objetiva o real sentido da vida."
+      ],
+      "answer": "B",
+      "fields": [],
+      "highlights": [],
+      "examSource": "/provas/ita/2026/segunda-fase/portugues.pdf#page=3",
+      "source": "/provas/ita/2026/segunda-fase/gabarito.pdf",
+      "support": "Leia o texto a seguir para responder às questões 1 e 2.\n\"Prefiro a prosa ao verso, como modo de arte, por duas razões, das quais a primeira,\nque é minha, é que não tenho escolha, pois sou incapaz de escrever em verso. A segunda,\nporém, é de todos, e não é — creio bem — uma sombra ou disfarce da primeira. Vale pois\na pena que eu a esfie, porque toca no sentido íntimo de toda a valia da arte.\nConsidero o verso como uma coisa intermédia, uma passagem da música para a\nprosa. Como a música, o verso é limitado por leis rítmicas, que, ainda que não sejam as\nleis rígidas do verso regular, existem todavia como resguardos, coações, dispositivos\nautomáticos de opressão e castigo. Na prosa falamos livres. Podemos incluir ritmos\nmusicais, e contudo pensar. Podemos incluir ritmos poéticos, e contudo estar fora deles.\nUm ritmo ocasional de verso não estorva a prosa; um ritmo ocasional de prosa faz tropeçar\no verso.\nNa prosa se engloba toda a arte — em parte porque na palavra se contém todo o\nmundo, em parte porque na palavra livre se contém toda a possibilidade de o dizer e pensar.\nNa prosa damos tudo, por transposição: a cor e a forma, que a pintura não pode dar senão\ndiretamente, em elas mesmas, sem dimensão íntima; o ritmo, que a música não pode dar\nsenão diretamente, nele mesmo, sem corpo formal, nem aquele segundo corpo que é a\nideia; a estrutura, que o arquiteto tem que formar de coisas duras, dadas, externas, e nós\nerguemos em ritmos, em indecisões, em decursos e fluidezas; a realidade, que o escultor\ntem que deixar no mundo, sem aura nem transubstanciação; a poesia, enfim, em que o\npoeta, como o iniciado numa ordem oculta, é servo, ainda que voluntário, de um grau e de\num ritual.\"\nFonte: PESSOA, Fernando. O livro do desassossego. São Paulo: Brasiliense, 1986. Disponível em\nhttp://arquivopessoa.net/textos/4527",
+      "referenceKind": "Gabarito oficial do ITA."
+    },
+    {
+      "id": "ita-2026-2f-portugues-3",
+      "number": 33,
+      "originalNumber": 3,
+      "subject": "Português",
+      "kind": "objective",
+      "title": "Forma do poema",
+      "text": "Uma característica do Parnasianismo evidenciada no poema é a",
+      "options": [
+        "composição de versos decassílabos, distribuídos em dois quartetos e dois tercetos.",
+        "valorização das figuras sonoras, principalmente as de construções paronomásticas.",
+        "predileção pelo soneto, cujos versos alexandrinos denotam a estilística parnasiana.",
+        "presença do pessimismo, ao sugerir que a forma como a ideia se desenvolveu provocou em si mesma danos irreversíveis.",
+        "objetividade, evidente na inquietação do eu lírico ao tentar compreender de onde vem a ideia."
+      ],
+      "answer": "A",
+      "fields": [],
+      "highlights": [],
+      "examSource": "/provas/ita/2026/segunda-fase/portugues.pdf#page=4",
+      "source": "/provas/ita/2026/segunda-fase/gabarito.pdf",
+      "support": "A IDEIA\nDe onde ela vem?! De que matéria bruta\nVem essa luz que sobre as nebulosas\nCai de incógnitas criptas misteriosas\nComo as estalactites duma gruta?!\nVem da psicogenética[1] e alta luta\nDo feixe de moléculas nervosas,\nQue, em desintegrações maravilhosas,\nDelibera, e depois, quer e executa!\nVem do encéfalo absconso[2] que a constringe[3]\nChega em seguida às cordas da laringe,\nTísica[4], tênue, mínima, raquítica.\nQuebra a força centrípeta que a amarra,\nMas, de repente, e quase morta, esbarra\nNo molambo[5] da língua paralítica!\nFonte: ANJOS, Augusto dos. Eu e outras poesias. 42. ed. Rio de Janeiro: Civilização Brasileira, 1998\nDisponível em http://www dominiopublico.gov.br/download/texto/bv.00054a.pdf\nGlossário:\n1 psicogenética: origem e evolução das funções psíquicas.\n2 absconso: oculto, escondido.\n3 constringir: apertar.\n4 tísico: tuberculoso, fraco.\n5 molambo: farrapo.",
+      "referenceKind": "Gabarito oficial do ITA."
+    },
+    {
+      "id": "ita-2026-2f-portugues-4",
+      "number": 34,
+      "originalNumber": 4,
+      "subject": "Português",
+      "kind": "objective",
+      "title": "Análise sintática no poema",
+      "text": "Dado o contexto do poema, avalie cada assertiva abaixo, se é V (verdadeira) ou F (falsa). Depois, assinale a sequência CORRETA.\n( ) “tísica”, “mínima”, “raquítica” e “centrípeta” são adjetivos que desempenham a função de predicativo do sujeito.\n( ) Em “a força centrípeta”, “força” é substantivo e atua como núcleo do sujeito.\n( ) Em “que a constringe” e “que a amarra”, “a” é pronome pessoal e exerce a função de objeto direto.\n( ) “executa” é um verbo regular, que é classificado como intransitivo.",
+      "options": [
+        "V, V, F, F",
+        "V, V, V, V",
+        "F, V, V, F",
+        "F, F, F, F",
+        "F, F, V, V"
+      ],
+      "answer": "E",
+      "fields": [],
+      "highlights": [],
+      "examSource": "/provas/ita/2026/segunda-fase/portugues.pdf#page=4",
+      "source": "/provas/ita/2026/segunda-fase/gabarito.pdf",
+      "support": "A IDEIA\nDe onde ela vem?! De que matéria bruta\nVem essa luz que sobre as nebulosas\nCai de incógnitas criptas misteriosas\nComo as estalactites duma gruta?!\nVem da psicogenética[1] e alta luta\nDo feixe de moléculas nervosas,\nQue, em desintegrações maravilhosas,\nDelibera, e depois, quer e executa!\nVem do encéfalo absconso[2] que a constringe[3]\nChega em seguida às cordas da laringe,\nTísica[4], tênue, mínima, raquítica.\nQuebra a força centrípeta que a amarra,\nMas, de repente, e quase morta, esbarra\nNo molambo[5] da língua paralítica!\nFonte: ANJOS, Augusto dos. Eu e outras poesias. 42. ed. Rio de Janeiro: Civilização Brasileira, 1998\nDisponível em http://www dominiopublico.gov.br/download/texto/bv.00054a.pdf\nGlossário:\n1 psicogenética: origem e evolução das funções psíquicas.\n2 absconso: oculto, escondido.\n3 constringir: apertar.\n4 tísico: tuberculoso, fraco.\n5 molambo: farrapo.",
+      "referenceKind": "Gabarito oficial do ITA."
+    },
+    {
+      "id": "ita-2026-2f-portugues-5",
+      "number": 35,
+      "originalNumber": 5,
+      "subject": "Português",
+      "kind": "objective",
+      "title": "O prazer dos livros",
+      "text": "Considere as assertivas referentes ao que se depreende do conteúdo do texto. Em seguida, assinale a alternativa CORRETA.\nI. O amor pelo livro provoca efeitos nas dimensões emocional, intelectual e sensorial.\nII. A relação com os livros revela-se inócua a ponto de suscitar o desejo de que outras pessoas desfrutem do prazer proporcionado pela leitura.\nIII. A utilidade do livro é inequívoca, porque assegura a perenidade do conhecimento.",
+      "options": [
+        "Todas as assertivas estão corretas.",
+        "Apenas a assertiva III está correta.",
+        "Apenas as assertivas I e III estão corretas.",
+        "Apenas a assertiva I está correta.",
+        "Apenas as assertivas II e III estão corretas."
+      ],
+      "answer": "C",
+      "fields": [],
+      "highlights": [],
+      "examSource": "/provas/ita/2026/segunda-fase/portugues.pdf#page=5",
+      "source": "/provas/ita/2026/segunda-fase/gabarito.pdf",
+      "support": "Loucura mansa\n\"Para mim é difícil falar simplesmente de gosto pelos livros, porque em matéria de\nlivros, meu caso é muito mais grave: é um amor que vem desde a infância, que me tem\nacompanhado a vida inteira, e, acima disto, é incurável. Não se trata por isso de um\ninteresse periférico, e o prazer que me tem proporcionado em todo este longo percurso, faz\ncom que tenha procurado, permanentemente, desejar que muitas pessoas mais possam\ntambém desfrutá-lo. Daí eu aproveitar qualquer oportunidade que me surja (e esta espero\nque seja uma delas) para inocular o vírus do amor ao livro em todos os possíveis leitores\nque já não o tenham adquirido anteriormente.\nO prazer que o livro pode trazer tem múltiplos aspectos. O primeiro, fundamental,\nque é óbvio, mas muita gente não se dá conta disso, é o da leitura, através da qual se\nestabelece um contato com o mundo exterior que abre, para o leitor, horizontes ilimitados.\nO livro informa, enriquece o espírito, põe a imaginação em movimento, provoca tanto\nreflexão como emoção, é, enfim, um grande companheiro. Companheiro ideal, aliás, pois\nestá sempre à disposição, não cria problemas, não se ofende quando é esquecido, e se\ndeixa retomar sem histórias, a qualquer hora do dia ou da noite que o leitor deseja.\nBrincadeira à parte, creio que a utilidade do livro é indiscutível, pois dá permanência\nao pensamento humano. Sem o livro não teríamos chegado a conhecer a obra dos filósofos,\ndramaturgos e cientistas da Antiguidade e da Idade média. A invenção dos tipos móveis\npor Gutenberg no século XV, permitindo o surgimento do livro impresso, foi uma revolução\ncomparável, e diria mesmo até superior à que resultou da informática, pelo menos até\nagora\nDe lá para cá, foram-se formando as grandes bibliotecas, e aí surge o segundo\nprazer: possuir o livro, que, além do conteúdo, também pode ser apreciado como objeto de\narte, pela ilustração, diagramação, papel, tipografia, ou encadernação. O primeiro livro que\nse adquire provoca a busca de outros, e, em pouco tempo, começa a formar-se a biblioteca,\nem que por sua vez se formam as mais variadas coleções: autores, assuntos, edições,\nraridades, manuscritos, e muitos et ceteras.\nHá o prazer intelectual da leitura, e o prazer físico do contato com o livro. Falo sempre\nde loucura mansa, e posso assegurar que não é só mansa: é também prazerosa. Sugiro a\nquem ainda não a tenha que procure contraí-la.\nFonte: MINDLIN, José. Loucura mansa. In: SILVEIRA, Julio; RIBAS, Martha (Org.). A Paixão pelos livros\nRio de Janeiro: Casa da Palavra, 2004, p. 15-16",
+      "referenceKind": "Gabarito oficial do ITA."
+    },
+    {
+      "id": "ita-2026-2f-portugues-6",
+      "number": 36,
+      "originalNumber": 6,
+      "subject": "Português",
+      "kind": "objective",
+      "title": "Derivação parassintética",
+      "text": "O vocábulo destacado constitui exemplo de DERIVAÇÃO PARASSINTÉTICA em",
+      "options": [
+        "“[...] que me tem acompanhado a vida inteira, e, acima disto, é incurável”.",
+        "“[...] contato com o mundo exterior que abre, para o leitor, horizontes ilimitados”.",
+        "“O livro informa, enriquece o espírito [...]”.",
+        "“[...] põe a imaginação em movimento [...]”.",
+        "“Brincadeira à parte, creio que a utilidade do livro é indiscutível [...]”."
+      ],
+      "answer": "C",
+      "fields": [],
+      "highlights": [
+        "incurável",
+        "ilimitados",
+        "enriquece",
+        "imaginação",
+        "indiscutível"
+      ],
+      "examSource": "/provas/ita/2026/segunda-fase/portugues.pdf#page=6",
+      "source": "/provas/ita/2026/segunda-fase/gabarito.pdf",
+      "support": "Loucura mansa\n\"Para mim é difícil falar simplesmente de gosto pelos livros, porque em matéria de\nlivros, meu caso é muito mais grave: é um amor que vem desde a infância, que me tem\nacompanhado a vida inteira, e, acima disto, é incurável. Não se trata por isso de um\ninteresse periférico, e o prazer que me tem proporcionado em todo este longo percurso, faz\ncom que tenha procurado, permanentemente, desejar que muitas pessoas mais possam\ntambém desfrutá-lo. Daí eu aproveitar qualquer oportunidade que me surja (e esta espero\nque seja uma delas) para inocular o vírus do amor ao livro em todos os possíveis leitores\nque já não o tenham adquirido anteriormente.\nO prazer que o livro pode trazer tem múltiplos aspectos. O primeiro, fundamental,\nque é óbvio, mas muita gente não se dá conta disso, é o da leitura, através da qual se\nestabelece um contato com o mundo exterior que abre, para o leitor, horizontes ilimitados.\nO livro informa, enriquece o espírito, põe a imaginação em movimento, provoca tanto\nreflexão como emoção, é, enfim, um grande companheiro. Companheiro ideal, aliás, pois\nestá sempre à disposição, não cria problemas, não se ofende quando é esquecido, e se\ndeixa retomar sem histórias, a qualquer hora do dia ou da noite que o leitor deseja.\nBrincadeira à parte, creio que a utilidade do livro é indiscutível, pois dá permanência\nao pensamento humano. Sem o livro não teríamos chegado a conhecer a obra dos filósofos,\ndramaturgos e cientistas da Antiguidade e da Idade média. A invenção dos tipos móveis\npor Gutenberg no século XV, permitindo o surgimento do livro impresso, foi uma revolução\ncomparável, e diria mesmo até superior à que resultou da informática, pelo menos até\nagora\nDe lá para cá, foram-se formando as grandes bibliotecas, e aí surge o segundo\nprazer: possuir o livro, que, além do conteúdo, também pode ser apreciado como objeto de\narte, pela ilustração, diagramação, papel, tipografia, ou encadernação. O primeiro livro que\nse adquire provoca a busca de outros, e, em pouco tempo, começa a formar-se a biblioteca,\nem que por sua vez se formam as mais variadas coleções: autores, assuntos, edições,\nraridades, manuscritos, e muitos et ceteras.\nHá o prazer intelectual da leitura, e o prazer físico do contato com o livro. Falo sempre\nde loucura mansa, e posso assegurar que não é só mansa: é também prazerosa. Sugiro a\nquem ainda não a tenha que procure contraí-la.\nFonte: MINDLIN, José. Loucura mansa. In: SILVEIRA, Julio; RIBAS, Martha (Org.). A Paixão pelos livros\nRio de Janeiro: Casa da Palavra, 2004, p. 15-16",
+      "referenceKind": "Gabarito oficial do ITA."
+    },
+    {
+      "id": "ita-2026-2f-portugues-7",
+      "number": 37,
+      "originalNumber": 7,
+      "subject": "Português",
+      "kind": "objective",
+      "title": "Sociedade e informação",
+      "text": "A partir do trecho lido, é possível inferir que a sociedade descrita no romance valoriza PRINCIPALMENTE",
+      "options": [
+        "a informação rápida e sucinta, ainda que de baixa qualidade ou criticidade, em detrimento de uma abordagem reflexiva.",
+        "o conhecimento dos tabloides ao invés dos livros, desde que mantido o rigor da qualidade do que é consumido.",
+        "a informação, antes veiculada em livros, agora adaptada e reduzida a colunas de dois minutos de leitura.",
+        "o conhecimento, desde que abordado de forma sucinta e acessível a todas as pessoas.",
+        "a informação rápida e sucinta, desde que gravada em dicionários ou verbetes para consultas."
+      ],
+      "answer": "A",
+      "fields": [],
+      "highlights": [],
+      "examSource": "/provas/ita/2026/segunda-fase/portugues.pdf#page=7",
+      "source": "/provas/ita/2026/segunda-fase/gabarito.pdf",
+      "support": "Abaixo, leia um trecho do romance Fahrenheit 451, de Ray Bradbury, cujo enredo\nacontece em uma sociedade distópica, em que livros são proibidos, e os bombeiros têm\npor função queimar os livros encontrados. O excerto é um diálogo entre os bombeiros\nMontag, personagem principal da narrativa, e seu chefe Beatty. Na cena, também está\npresente a esposa de Montag, Mildred.\nImagine o quadro. O homem do século dezenove com seus cavalos, cachorros,\ncarroças, câmera lenta. Depois, no século vinte, acelere sua câmera. Livros abreviados.\nCondensações. Resumos. Tabloide. Clássicos reduzidos para se adaptarem a programas\nde rádio de quinze minutos, depois reduzidos novamente para uma coluna de livro de dois\nminutos de leitura, e, por fim, encerrando-se num dicionário, num verbete de dez a doze\nlinhas. Estou exagerando, é claro. Os dicionários serviam apenas de referência. Mas, para\nmuitos o Hamlet, certamente você conhece o título, Montag; provavelmente a senhora ouviu\napenas uma vaga menção ao título, senhora Montag. O Hamlet não passava de um resumo\nde uma página num livro que proclamava: \"Agora você finalmente pode ler todos os\nclássicos: faça como seus vizinhos\". Está vendo? Do berço até a faculdade e de volta para\no berço: este foi o padrão intelectual nos últimos cinco séculos ou mais.\nMildred se levantou e começou a andar pelo quarto, apanhando coisas e arrumando-\n-as. Beatty a ignorou e continuou:\nAcelere o filme, Montag, rápido. Clique, Fotografe, Olhe, Observe, Filme, Aqui,\nAli, Depressa, Passe, Suba, Desça, Entre, Saia, Por quê, Como, Quem, O quê?, Onde,\nHein?, Ui! Bum! Tchan! Póin, Pim, Pam, Pum! Resumos de resumos, resumos de resumos\nde resumos. Política? Uma coluna, duas frases, uma manchete! Depois, no ar, tudo se\ndissolve! A mente humana entra em turbilhão sob as mãos dos editores, exploradores,\nlocutores de rádio, tão depressa que a centrífuga joga fora todo pensamento desnecessário,\ndesperdiçador de tempo!\nA escolaridade é abreviada, disciplina relaxada, as filosofias, as histórias e as\nlínguas são abolidas, gramática e ortografia pouco a pouco negligenciadas e, por fim, quase\ntotalmente ignoradas. A vida é imediata, o emprego é que conta, o prazer está em toda\nparte depois do trabalho. Por que aprender alguma coisa além de apertar botões acionar\ninterruptores, ajustar parafusos e porcas? [...]\"\nFonte: BRADBURY, R. Fahrenheit 451. Trad. Cid Knipel. São Paulo: Globo, 2012, p. 77-78",
+      "referenceKind": "Gabarito oficial do ITA."
+    },
+    {
+      "id": "ita-2026-2f-portugues-8",
+      "number": 38,
+      "originalNumber": 8,
+      "subject": "Português",
+      "kind": "objective",
+      "title": "Recursos linguísticos e simplificação",
+      "text": "Analise o excerto abaixo e julgue as assertivas quanto aos recursos linguísticos empregados no texto. Em seguida, assinale a alternativa CORRETA.\n“Clique, Fotografe, Olhe, Observe, Filme, Aqui, Ali, Depressa, Passe, Suba, Desça, Entre, Saia, Por quê, Como, Quem, O quê?, Onde, Hein?, Ui! Bum! Tchan! Póin, Pim, Pam, Pum!”\nI. O uso de sequência de verbos sem complemento contribui para dar o efeito de rapidez da mudança e simplificação que ocorreu com os produtos culturais.\nII. O predomínio do imperativo faz alusão a uma sociedade que manipula seus cidadãos de forma imperceptível por meio de produtos culturais.\nIII. A gradação dos recursos linguísticos do trecho, que inicia com verbo e termina com onomatopeia, contribui para evidenciar o processo de simplificação dos produtos culturais.\nIV. A anáfora do trecho, iniciada com verbos de comando e finalizada com onomatopeias, contribui para a crítica acerca do processo de simplificação dos produtos culturais.",
+      "options": [
+        "Apenas as assertivas I e II estão corretas.",
+        "Apenas as assertivas I, II e III estão corretas.",
+        "Apenas as assertivas I, III e IV estão corretas.",
+        "Apenas as assertivas II, III e IV estão corretas.",
+        "Todas as assertivas estão corretas."
+      ],
+      "answer": "B",
+      "fields": [],
+      "highlights": [],
+      "examSource": "/provas/ita/2026/segunda-fase/portugues.pdf#page=7",
+      "source": "/provas/ita/2026/segunda-fase/gabarito.pdf",
+      "support": "Abaixo, leia um trecho do romance Fahrenheit 451, de Ray Bradbury, cujo enredo\nacontece em uma sociedade distópica, em que livros são proibidos, e os bombeiros têm\npor função queimar os livros encontrados. O excerto é um diálogo entre os bombeiros\nMontag, personagem principal da narrativa, e seu chefe Beatty. Na cena, também está\npresente a esposa de Montag, Mildred.\nImagine o quadro. O homem do século dezenove com seus cavalos, cachorros,\ncarroças, câmera lenta. Depois, no século vinte, acelere sua câmera. Livros abreviados.\nCondensações. Resumos. Tabloide. Clássicos reduzidos para se adaptarem a programas\nde rádio de quinze minutos, depois reduzidos novamente para uma coluna de livro de dois\nminutos de leitura, e, por fim, encerrando-se num dicionário, num verbete de dez a doze\nlinhas. Estou exagerando, é claro. Os dicionários serviam apenas de referência. Mas, para\nmuitos o Hamlet, certamente você conhece o título, Montag; provavelmente a senhora ouviu\napenas uma vaga menção ao título, senhora Montag. O Hamlet não passava de um resumo\nde uma página num livro que proclamava: \"Agora você finalmente pode ler todos os\nclássicos: faça como seus vizinhos\". Está vendo? Do berço até a faculdade e de volta para\no berço: este foi o padrão intelectual nos últimos cinco séculos ou mais.\nMildred se levantou e começou a andar pelo quarto, apanhando coisas e arrumando-\n-as. Beatty a ignorou e continuou:\nAcelere o filme, Montag, rápido. Clique, Fotografe, Olhe, Observe, Filme, Aqui,\nAli, Depressa, Passe, Suba, Desça, Entre, Saia, Por quê, Como, Quem, O quê?, Onde,\nHein?, Ui! Bum! Tchan! Póin, Pim, Pam, Pum! Resumos de resumos, resumos de resumos\nde resumos. Política? Uma coluna, duas frases, uma manchete! Depois, no ar, tudo se\ndissolve! A mente humana entra em turbilhão sob as mãos dos editores, exploradores,\nlocutores de rádio, tão depressa que a centrífuga joga fora todo pensamento desnecessário,\ndesperdiçador de tempo!\nA escolaridade é abreviada, disciplina relaxada, as filosofias, as histórias e as\nlínguas são abolidas, gramática e ortografia pouco a pouco negligenciadas e, por fim, quase\ntotalmente ignoradas. A vida é imediata, o emprego é que conta, o prazer está em toda\nparte depois do trabalho. Por que aprender alguma coisa além de apertar botões acionar\ninterruptores, ajustar parafusos e porcas? [...]\"\nFonte: BRADBURY, R. Fahrenheit 451. Trad. Cid Knipel. São Paulo: Globo, 2012, p. 77-78",
+      "referenceKind": "Gabarito oficial do ITA."
+    },
+    {
+      "id": "ita-2026-2f-portugues-9",
+      "number": 39,
+      "originalNumber": 9,
+      "subject": "Português",
+      "kind": "objective",
+      "title": "Voz verbal e agente da ação",
+      "text": "“— A escolaridade é abreviada, disciplina relaxada, as filosofias, as histórias e as línguas são abolidas, gramática e ortografia pouco a pouco negligenciadas e, por fim, quase totalmente ignoradas”. Acerca dos recursos linguísticos utilizados no trecho e dos seus efeitos de sentido, é CORRETO afirmar que predominam estruturas na voz",
+      "options": [
+        "ativa, com sujeito indeterminado a fim de impessoalizar o responsável pela ação, parte da crítica presente no trecho.",
+        "ativa, com a omissão do agente da passiva para impessoalizar o agente da ação; desse modo, sabe-se quais as ações tomadas, mas não por quem.",
+        "passiva sintética, com a omissão da partícula “se”, o que confere ao texto um grau de parcialidade que permite não atribuir responsabilidade pelas ações.",
+        "passiva analítica, com a omissão do sujeito, o que confere ao texto um grau de parcialidade em virtude de que não se sabe quem é responsável pela ação.",
+        "passiva analítica, com a omissão do agente da passiva, o que confere ao texto a noção de que não há um único responsável visível pelas ações descritas."
+      ],
+      "answer": "E",
+      "fields": [],
+      "highlights": [],
+      "examSource": "/provas/ita/2026/segunda-fase/portugues.pdf#page=8",
+      "source": "/provas/ita/2026/segunda-fase/gabarito.pdf",
+      "support": "Abaixo, leia um trecho do romance Fahrenheit 451, de Ray Bradbury, cujo enredo\nacontece em uma sociedade distópica, em que livros são proibidos, e os bombeiros têm\npor função queimar os livros encontrados. O excerto é um diálogo entre os bombeiros\nMontag, personagem principal da narrativa, e seu chefe Beatty. Na cena, também está\npresente a esposa de Montag, Mildred.\nImagine o quadro. O homem do século dezenove com seus cavalos, cachorros,\ncarroças, câmera lenta. Depois, no século vinte, acelere sua câmera. Livros abreviados.\nCondensações. Resumos. Tabloide. Clássicos reduzidos para se adaptarem a programas\nde rádio de quinze minutos, depois reduzidos novamente para uma coluna de livro de dois\nminutos de leitura, e, por fim, encerrando-se num dicionário, num verbete de dez a doze\nlinhas. Estou exagerando, é claro. Os dicionários serviam apenas de referência. Mas, para\nmuitos o Hamlet, certamente você conhece o título, Montag; provavelmente a senhora ouviu\napenas uma vaga menção ao título, senhora Montag. O Hamlet não passava de um resumo\nde uma página num livro que proclamava: \"Agora você finalmente pode ler todos os\nclássicos: faça como seus vizinhos\". Está vendo? Do berço até a faculdade e de volta para\no berço: este foi o padrão intelectual nos últimos cinco séculos ou mais.\nMildred se levantou e começou a andar pelo quarto, apanhando coisas e arrumando-\n-as. Beatty a ignorou e continuou:\nAcelere o filme, Montag, rápido. Clique, Fotografe, Olhe, Observe, Filme, Aqui,\nAli, Depressa, Passe, Suba, Desça, Entre, Saia, Por quê, Como, Quem, O quê?, Onde,\nHein?, Ui! Bum! Tchan! Póin, Pim, Pam, Pum! Resumos de resumos, resumos de resumos\nde resumos. Política? Uma coluna, duas frases, uma manchete! Depois, no ar, tudo se\ndissolve! A mente humana entra em turbilhão sob as mãos dos editores, exploradores,\nlocutores de rádio, tão depressa que a centrífuga joga fora todo pensamento desnecessário,\ndesperdiçador de tempo!\nA escolaridade é abreviada, disciplina relaxada, as filosofias, as histórias e as\nlínguas são abolidas, gramática e ortografia pouco a pouco negligenciadas e, por fim, quase\ntotalmente ignoradas. A vida é imediata, o emprego é que conta, o prazer está em toda\nparte depois do trabalho. Por que aprender alguma coisa além de apertar botões acionar\ninterruptores, ajustar parafusos e porcas? [...]\"\nFonte: BRADBURY, R. Fahrenheit 451. Trad. Cid Knipel. São Paulo: Globo, 2012, p. 77-78",
+      "referenceKind": "Gabarito oficial do ITA."
+    },
+    {
+      "id": "ita-2026-2f-portugues-10",
+      "number": 40,
+      "originalNumber": 10,
+      "subject": "Português",
+      "kind": "objective",
+      "title": "Comunicação afetiva",
+      "text": "Sobre o processo comunicativo na sociedade da informação, é CORRETO inferir que",
+      "options": [
+        "a comunicação afetiva, na sociedade de informação, prescinde de informações com maior potencial de estimular.",
+        "a racionalidade discursiva sobrepuja a comunicação afetiva, por ser uma das características de comunicação da sociedade da informação.",
+        "a comunicação afetiva e a racionalidade discursiva coadunam-se na propagação de fake news na sociedade da informação.",
+        "a comunicação afetiva é prejudicial para a racionalidade discursiva, pois permite a propagação de saberes inerentes à sociedade de informação.",
+        "a comunicação afetiva coíbe a racionalidade discursiva em virtude da velocidade da troca de informações que surge na sociedade da informação."
+      ],
+      "answer": "E",
+      "fields": [],
+      "highlights": [],
+      "examSource": "/provas/ita/2026/segunda-fase/portugues.pdf#page=9",
+      "source": "/provas/ita/2026/segunda-fase/gabarito.pdf",
+      "support": "Na sociedade da informação, simplesmente não temos tempo para ação\nracional. A coação da comunicação acelerada nos priva da racionalidade. [...] A\nracionalidade discursiva é ameaçada, hoje, também pela comunicação afetiva. A gente se\ndeixa afetar demais por informações que se seguem apressadas umas às outras. Afetos\nsão mais rápidos do que racionalidade. Em uma comunicação afetiva, não prevalecem\nmelhores argumentos, mas as informações com maior potencial de estimular. Desse modo,\nfake news, notícias falsas, geram mais atenção do que fatos. Um único tuite que contenha\nfake news ou fragmentos de informações descontextualizadas é possivelmente mais efetivo\ndo que um argumento fundamentado.\nMemes são vírus mediais que se propagam, se reproduzem e também se mutam\nextremamente rápido na rede. [...] A comunicação baseada em memes como contaminação\nviral dificulta o discurso racional ao mobilizar mais do que nada, afetos. A guerra de memes\nindica que a comunicação digital privilegia cada vez mais o visual perante o textual. Imagens\nsão, justamente, mais rápidas que os textos. Nem o discurso nem a verdade são virais.\nFonte: HAN, Byung-Chul. Infocracia: digitalização e a crise da democracia. Petrópolis, RJ: Vozes, 2022, p\n36 e 45",
+      "referenceKind": "Gabarito oficial do ITA."
+    },
+    {
+      "id": "ita-2026-2f-portugues-11",
+      "number": 41,
+      "originalNumber": 11,
+      "subject": "Português",
+      "kind": "objective",
+      "title": "Função sintática",
+      "text": "Assinale a alternativa cujo sintagma grifado exerce a mesma função sintática que a oração sublinhada em “A guerra de memes indica que a comunicação digital privilegia cada vez mais o visual perante o textual”. Oração sublinhada: “que a comunicação digital privilegia cada vez mais o visual perante o textual”.",
+      "options": [
+        "“Em uma comunicação afetiva, não prevalecem os melhores argumentos, [...]”.",
+        "“A gente se deixa afetar por informações que se seguem umas às outras”.",
+        "“Memes são vírus mediais [...]”.",
+        "“A coação da comunicação acelerada nos priva da racionalidade”.",
+        "“...não temos tempo para a ação racional”."
+      ],
+      "answer": "D",
+      "fields": [],
+      "highlights": [
+        "os melhores argumentos",
+        "que se seguem umas às outras",
+        "vírus mediais",
+        "nos",
+        "para a ação racional"
+      ],
+      "examSource": "/provas/ita/2026/segunda-fase/portugues.pdf#page=9",
+      "source": "/provas/ita/2026/segunda-fase/gabarito.pdf",
+      "support": "Na sociedade da informação, simplesmente não temos tempo para ação\nracional. A coação da comunicação acelerada nos priva da racionalidade. [...] A\nracionalidade discursiva é ameaçada, hoje, também pela comunicação afetiva. A gente se\ndeixa afetar demais por informações que se seguem apressadas umas às outras. Afetos\nsão mais rápidos do que racionalidade. Em uma comunicação afetiva, não prevalecem\nmelhores argumentos, mas as informações com maior potencial de estimular. Desse modo,\nfake news, notícias falsas, geram mais atenção do que fatos. Um único tuite que contenha\nfake news ou fragmentos de informações descontextualizadas é possivelmente mais efetivo\ndo que um argumento fundamentado.\nMemes são vírus mediais que se propagam, se reproduzem e também se mutam\nextremamente rápido na rede. [...] A comunicação baseada em memes como contaminação\nviral dificulta o discurso racional ao mobilizar mais do que nada, afetos. A guerra de memes\nindica que a comunicação digital privilegia cada vez mais o visual perante o textual. Imagens\nsão, justamente, mais rápidas que os textos. Nem o discurso nem a verdade são virais.\nFonte: HAN, Byung-Chul. Infocracia: digitalização e a crise da democracia. Petrópolis, RJ: Vozes, 2022, p\n36 e 45",
+      "referenceKind": "Gabarito oficial do ITA."
+    },
+    {
+      "id": "ita-2026-2f-portugues-12",
+      "number": 42,
+      "originalNumber": 12,
+      "subject": "Português",
+      "kind": "objective",
+      "title": "Romantismo e naturalismo",
+      "text": "Sobre o texto e as escolas literárias a que ele faz referência, avalie as seguintes assertivas. Em seguida, assinale a alternativa CORRETA.\nI. O romantismo apresenta um olhar idealizado para as origens brasileiras, o que justificaria um olhar de heroísmo para o negro.\nII. O naturalismo apresenta um olhar pautado no cientificismo, que animaliza tanto o ser humano quanto as relações humanas.\nIII. O texto estabelece uma relação entre naturalismo e romantismo, uma vez que o naturalismo, ao exagerar na descrição naturalista, aproxima-se da idealização romântica.\nIV. O texto estabelece uma relação entre naturalismo e romantismo apenas se houver uma idealização exagerada do protagonista da narrativa, pautada em descrição minuciosa.",
+      "options": [
+        "Apenas I e II estão corretas.",
+        "Apenas I e III estão corretas.",
+        "Apenas I e IV estão corretas.",
+        "Apenas II e III estão corretas.",
+        "Apenas II e IV estão corretas."
+      ],
+      "answer": "D",
+      "fields": [],
+      "highlights": [],
+      "examSource": "/provas/ita/2026/segunda-fase/portugues.pdf#page=10",
+      "source": "/provas/ita/2026/segunda-fase/gabarito.pdf",
+      "support": "\"O naturalismo surge com a proposta de conduzir a literatura por outros rumos,\ndiferentes daqueles assumidos pelo romantismo, principalmente no que diz respeito ao\nsentimentalismo exacerbado que marca a produção literária deste período, mas, como\nafirma Machado de Assis (1839-1908), \"sair de um excesso para cair em outro, não é\nregenerar nada; é trocar o agente da corrupção\". [...]\nPara exemplificar esta relação entre romantismo e naturalismo, pode-se citar a\npassagem do romance O Bom-crioulo em que Amaro é chicoteado inúmeras vezes sem\nqualquer gemido de dor e, somente após cento e cinquenta chibatadas, pôde-se ver um fio\nde sangue a escorrer em suas costas, o que conota a força e a resistência que o\npersonagem tem, que de tão animalizadas atingem paradoxalmente os patamares elevados\nda virilidade de um herói [...].'\nFonte: SILVA, Paulo Ricardo Moura da. Naturalismo brasileiro: as tensões e contradições em relação ao\nprojeto da objetividade. Travessias Interativas, São Cristóvão-SE, v. 8, n. 15, p. 276—293, 2018. DOI:\n10.51951/ti.v8i15. Disponível em https://periodicos.ufs.br/Travessias/article/view/8897",
+      "referenceKind": "Gabarito oficial do ITA."
+    },
+    {
+      "id": "ita-2026-2f-portugues-13",
+      "number": 43,
+      "originalNumber": 13,
+      "subject": "Português",
+      "kind": "objective",
+      "title": "Bucolismo na pintura",
+      "text": "Assinale a alternativa que apresenta a imagem que se relaciona ADEQUADAMENTE com as características da escola literária descrita acima.",
+      "options": [
+        "FRIEDRICH, Caspar David. Zwei Männer in Betrachtung des Mondes. Galerie Neue Meister, Dresden, Alemanha.",
+        "BOUCHER, François. Landschaft mit Kirschpflückerin. Kenwood House, Londres.",
+        "COURBET, Gustave. Bonjour Monsieur Courbet. Musée Fabre, Montpellier, França.",
+        "BASTIEN-LEPAGE, Jules. Les foins. Musée d’Orsay, Paris, França.",
+        "CHAVANNES, Pierre Puvis de. Le Rêve. Museu do Louvre, Paris, França."
+      ],
+      "answer": "B",
+      "fields": [],
+      "highlights": [],
+      "examSource": "/provas/ita/2026/segunda-fase/portugues.pdf#page=10",
+      "source": "/provas/ita/2026/segunda-fase/gabarito.pdf",
+      "support": "\"O bucolismo foi para todos o ameno artifício que permitiu ao poeta fechado na\ncorte abrir janelas para um cenário idílico onde pudesse cantar, liberto das constricções da\netiqueta, os seus sentimentos de amor e de abandono ao fluxo da existência. Mas não se\npode esquecer que a evasão se faz dentro de um determinado sistema cultural, em que é\nmuito reduzida a margem de espontaneidade. l...]\"\nFonte: BOSI, Alfredo. História concisa da literatura brasileira. 51. ed São Paulo: Cultrix, 2017, p. 60",
+      "referenceKind": "Gabarito oficial do ITA.",
+      "optionImages": [
+        "/provas/ita/2026/segunda-fase/portugues-13-A.png",
+        "/provas/ita/2026/segunda-fase/portugues-13-B.png",
+        "/provas/ita/2026/segunda-fase/portugues-13-C.png",
+        "/provas/ita/2026/segunda-fase/portugues-13-D.png",
+        "/provas/ita/2026/segunda-fase/portugues-13-E.png"
+      ]
+    },
+    {
+      "id": "ita-2026-2f-portugues-14",
+      "number": 44,
+      "originalNumber": 14,
+      "subject": "Português",
+      "kind": "objective",
+      "title": "Memória e lembrança",
+      "text": "De acordo com as informações do texto, depreende-se que",
+      "options": [
+        "as memórias se embaralham e se ordenam lado a lado em portadores de Alzheimer, assim as recentes são preservadas, e as antigas se perdem.",
+        "a citação a Henri Bergson, que constitui um argumento de senso comum, comprova que a memória é um fenômeno elucidado.",
+        "as lembranças podem não seguir uma ordem temporal, razão pela qual coexistem de forma desorganizada.",
+        "a desorientação espaço-temporal não pode ser usada de forma segura na detecção de pacientes com Alzheimer.",
+        "a mãe do narrador, ao chamar o neto de “filhinho”, sinaliza seu desejo de ter tido mais um filho."
+      ],
+      "answer": "C",
+      "fields": [],
+      "highlights": [],
+      "examSource": "/provas/ita/2026/segunda-fase/portugues.pdf#page=14",
+      "source": "/provas/ita/2026/segunda-fase/gabarito.pdf",
+      "support": "\"Já temos memória desde o primeiro dia em que nos deram à luz! Temos lembranças\nassim que acordamos, lembramos que o mundo é magnífico, sentimos um vazio no\nestômago, uma fralda pesada, molhada, e lembramos que, se chorarmos, milagrosamente\naparece alguém que nos livra do desconforto.\nO renascimento de um fato psicológico passado, seu reconhecimento e localização\nsão as condições necessárias das lembranças. Ou da memória. Elimine um deles, não será\nlembrança, mas reminiscência. Você olha uma pessoa na rua, pensa reconhecê-la, imagina\nque já a viu antes, mas não sabe dizer quando nem onde. Há o retorno de um fato passado\ne o reconhecimento, mas falta a localização: não há lembrança. Henri Bergson escreveu\nsobre isso. Um teste clínico simples para detectar a falta de memória, como pacientes com\nAlzheimer, é perguntar onde e em que ano estamos.\nA memória é uma mágica não desvendada. Um truque da vida. Uma memória não\nse acumula sobre a outra, mas ao lado. A memória recente não é resgatada antes da\nmilésima. Elas se embaralham. Minha mãe, com Alzheimer, não se lembra do que comeu\nno café da manhã. Minha mãe, com Alzheimer, vê meu filho de um ano, que é a minha cara,\ne o reconhece. Não acha que sou eu, mas o chama de filhinho, de meu filhinho. E sempre\ndiz:\n— É a coisinha mais linda.\nE às vezes se confunde e diz:\n— Ela é a coisinha mais linda.\nPode ser ela, a criança. Pode ser que, por ter tido quatro filhas, todos os bebês se\ntornem elas. Minha mãe reclama muito quando o levamos embora.\"\nFonte: PAIVA, Marcelo Rubens. Ainda estou aqui. 1. ed. Rio de Janeiro: Objetiva, 2015, p. 17-19.",
+      "referenceKind": "Gabarito oficial do ITA."
+    },
+    {
+      "id": "ita-2026-2f-portugues-15",
+      "number": 45,
+      "originalNumber": 15,
+      "subject": "Português",
+      "kind": "objective",
+      "title": "Complemento nominal",
+      "text": "Identifique a alternativa em que a expressão em destaque, retirada do texto, atua como COMPLEMENTO NOMINAL.",
+      "options": [
+        "“[...] aparece alguém que nos livra do desconforto”.",
+        "“Um teste clínico simples para detectar a falta de memória [...]”.",
+        "“Um truque da vida”.",
+        "“[...] não se lembra do que comeu no café da manhã”.",
+        "“[...] vê meu filho de um ano [...]”."
+      ],
+      "answer": "B",
+      "fields": [],
+      "highlights": [
+        "do desconforto",
+        "de memória",
+        "da vida",
+        "da manhã",
+        "de um ano"
+      ],
+      "examSource": "/provas/ita/2026/segunda-fase/portugues.pdf#page=14",
+      "source": "/provas/ita/2026/segunda-fase/gabarito.pdf",
+      "support": "\"Já temos memória desde o primeiro dia em que nos deram à luz! Temos lembranças\nassim que acordamos, lembramos que o mundo é magnífico, sentimos um vazio no\nestômago, uma fralda pesada, molhada, e lembramos que, se chorarmos, milagrosamente\naparece alguém que nos livra do desconforto.\nO renascimento de um fato psicológico passado, seu reconhecimento e localização\nsão as condições necessárias das lembranças. Ou da memória. Elimine um deles, não será\nlembrança, mas reminiscência. Você olha uma pessoa na rua, pensa reconhecê-la, imagina\nque já a viu antes, mas não sabe dizer quando nem onde. Há o retorno de um fato passado\ne o reconhecimento, mas falta a localização: não há lembrança. Henri Bergson escreveu\nsobre isso. Um teste clínico simples para detectar a falta de memória, como pacientes com\nAlzheimer, é perguntar onde e em que ano estamos.\nA memória é uma mágica não desvendada. Um truque da vida. Uma memória não\nse acumula sobre a outra, mas ao lado. A memória recente não é resgatada antes da\nmilésima. Elas se embaralham. Minha mãe, com Alzheimer, não se lembra do que comeu\nno café da manhã. Minha mãe, com Alzheimer, vê meu filho de um ano, que é a minha cara,\ne o reconhece. Não acha que sou eu, mas o chama de filhinho, de meu filhinho. E sempre\ndiz:\n— É a coisinha mais linda.\nE às vezes se confunde e diz:\n— Ela é a coisinha mais linda.\nPode ser ela, a criança. Pode ser que, por ter tido quatro filhas, todos os bebês se\ntornem elas. Minha mãe reclama muito quando o levamos embora.\"\nFonte: PAIVA, Marcelo Rubens. Ainda estou aqui. 1. ed. Rio de Janeiro: Objetiva, 2015, p. 17-19.",
+      "referenceKind": "Gabarito oficial do ITA."
+    },
+    {
+      "id": "ita-2026-2f-redacao",
+      "number": 46,
+      "originalNumber": 16,
+      "subject": "Redação",
+      "kind": "essay",
+      "title": "O jovem engenheiro e o apodrecimento cerebral",
+      "text": "A expressão brain rot, escolhida como palavra do ano em 2024 pelo Dicionário de Oxford, passou a designar os impactos negativos, sobre o cérebro humano, do consumo excessivo de conteúdo superficial, especialmente entre os jovens. Em um cenário de revolução tecnológica e amplas possibilidades de inovação, espera-se que os futuros engenheiros assumam um papel ativo na preservação de uma mente saudável, voltada à valorização do conhecimento. A partir dos textos motivadores e de seus próprios conhecimentos, redija um texto dissertativo-argumentativo, em norma-padrão da língua portuguesa, sobre o tema: “A importância do comprometimento do jovem engenheiro com a prevenção do próprio apodrecimento cerebral”.\nInstruções específicas:\n1. Dê um título à dissertação.\n2. O texto deve compreender o espaço de 25 a 35 linhas.\n3. Não faça qualquer anotação na folha de redação.",
+      "fields": [],
+      "examSource": "/provas/ita/2026/segunda-fase/portugues.pdf#page=15",
+      "rubric": [
+        "Desenvolver o tema com foco no comprometimento do jovem engenheiro e na prevenção do próprio apodrecimento cerebral.",
+        "Defender uma tese com argumentos consistentes, relacionados aos textos motivadores e a conhecimentos próprios.",
+        "Organizar introdução, desenvolvimento e conclusão com coerência e coesão.",
+        "Usar a norma-padrão, dar título e planejar uma versão de 25 a 35 linhas no papel.",
+        "Evitar cópia da coletânea e generalizações sem fundamentação. A contagem de linhas digitadas não equivale às linhas da folha oficial."
+      ],
+      "support": "TEXTO I\nDê um título à dissertação.\nO texto deve compreender o espaço de 25 a 35 linhas.\nNão faça qualquer anotação na folha de redação.\nEm geral, o quadro atual é preocupante. Uma meta-análise de 27 estudos de\nneuroimagem revelou que o uso excessivo de internet está associado a uma redução no\nvolume de massa cinzenta em regiões críticas do cérebro responsáveis pelo\nprocessamento de recompensas, controle de impulsos e tomada de decisões. De acordo\ncom Moshel, essas alterações são semelhantes às observadas em casos de dependência\nde substâncias como metanfetaminas e álcool. Além do ambiente clínico, o \"uso\ndesordenado de tela\" tem sido estudado em ambientes educacionais. [...]\nFonte: ASSOCIAÇÃO PAULISTA DE MEDICINA. Excesso de tela estaria de fato \"apodrecendo\"\ncérebros? São Paulo, 2025. Disponível em: https://www.apm.org.br/o-que-diz-a-midia/excesso-de-telaestaria-de-fato-apodrecendo-cerebros/\nTEXTO II\nA edição 2024 da mais completa e aprofundada pesquisa sobre os hábitos de leitura\ndo brasileiro foi lançada nesta terça (19) com a informação de que nos últimos quatro anos\nhouve uma redução de 6,7 milhões de leitores no país. Pela primeira vez na série histórica\nda pesquisa, a proporção de não-leitores é maior do que a de leitores na população\nbrasileira: 53% das pessoas não leram nem parte de um livro — impresso ou digital — de\nqualquer gênero, incluindo didáticos, bíblia e religiosos, nos três meses anteriores à\npesquisa. Se considerarmos somente livros inteiros lidos, no período de três meses\nanteriores à pesquisa, esse percentual é ainda menor, de 27% dos brasileiros.\nFonte: CÂMARA BRASILEIRA DO LIVRO. Mais da metade dos brasileiros não lê livros, aponta pesquisa.\n22 de novembro de 2024 Disponível em https://www.cbl.org br/2024/11/mais-da-metade-dos-brasileiros-naoIe-livros-aponta-pesquisa/\nTEXTO III\nO \"efeito Flynn\" é um fenômeno observado em muitos países industrializados, onde\no QI médio aumentou ao longo do século XX. Isso foi atribuído a vários fatores, incluindo\nmelhor nutrição, maior escolaridade e exposição a tecnologias complexas. No entanto,\nestudos recentes indicam que essa tendência está se revertendo, com o QI médio\ndiminuindo nas gerações mais jovens. [...].\nVárias causas possíveis foram identificadas para essa diminuição do QI. Uma delas\né a diminuição da qualidade e quantidade das interações intrafamiliares, essenciais para o\ndesenvolvimento da linguagem e do emocional. Outra é a diminuição do tempo dedicado a\natividades mais enriquecedoras, como lição de casa, música, arte e leitura. A perturbação\ndo sono, que é quantitativamente reduzida e qualitativamente degradada, também é um\nfator contribuinte.\nMaurício Munhoz Ferraz é sociólogo e professor. Atua atualmente como assessor do conselheiro\nSérgio Ricardo na presidência do Tribunal de Contas do Estado (T CE). Tem mestrado em sociologia, é vicepresidente da Câmara de Comércio Brasil-Rússia.\nFonte: MUNHOZ, Maurício. A diminuição geracional do QI. RDNEWS, Cuiabá, 18 de maio de 2024. Disponível\nem https://www rdnews.com.br/colunistas/mauricio-munhoz/conteudos/193225\nTEXTO IV\nDo ponto de vista da neurociência, a aprendizagem é compreendida como\nmodificações do SNC [Sistema Nervoso Central], mais ou menos permanentes, quando o\nindivíduo é submetido a estímulos elou experiências de vida, que serão traduzidas em\nmodificações cerebrais. [...].\" (Rotta, 2016b, p. 469).\nA atenção diz respeito à capacidade que o ser humano tem de dar ênfase a fatos\nrelevantes. Bombardeados por informações de naturezas diversa e intensa (percepções\nauditivas, visuais, olfativas, sonoras, etc.), o indivíduo necessita focar determinados\naspectos do ambiente, ignorando outros, para que informações indispensáveis sejam\nprocessadas pelo cérebro. [...]\nHá algo responsável por mobilizar a atenção e facilitar a retenção das informações\npela memória: a motivação. [...] Trata-se, em linhas gerais, de todo fator, razão ou motivo\nque conduz a uma ação, a uma mudança de comportamento, a um aprendizado, a um\nobjetivo; é, assim, um tipo de impulso (externo ou interno) capaz de fazer com que um\nindivíduo direcione energia e tempo para realizar determinadas tarefas ou continuar aquelas\njá iniciadas.\nAs funções executivas são responsáveis, conforme já adiantamos, por capacidades,\nentre as quais estão as de metacognição, autorregulação e tomada de decisão. Essas\nfunções referem-se a habilidades a partir das quais os indivíduos tornam-se aptos a\nplanejar, executar, regular e monitorar metas e objetivos, sejam de curto, médio ou longo\nprazos.\nFonte: COSTA, Raquel Lima Silva. Neurociência e aprendizagem. Revista Brasileira de Educação, v. 28,\n2023. Disponível em https://www scielo.br/j/rbedu/a/ZPmWbM6n7JN5vbfj8hfbyfK/?lang=pt\nTexto V\nCada vez mais, as pessoas deixam de seguir pseudocelebridades, vendedores de\ncursos e influenciadores que projetam uma vida perfeita. O fenômeno se chama Blockout\ne reflete a busca por uma experiência online mais autêntica e saudável.\nAs redes sociais deram origem a uma nova geração de celebridades: os\ninfluenciadores digitais, que moldam tendências, comportamentos e estilos de vida.\nContudo, nem todos trazem conteúdo genuíno ou positivo, apresentando uma visão\ndistorcida da realidade, o que promove uma imagem de perfeição e sucesso bem longe da\nvida real\nO movimento Blockout, nascido nos Estados Unidos, surge como uma resposta\ncrítica à cultura de idealização e ao excesso de mercantilização nas redes sociais. As\npessoas começam a questionar o impacto negativo de seguir esses influenciadores que,\nfrequentemente, promovem um estilo de vida inalcançável. [...]\nFonte: BLOCKOUT: o cancelamento das celebridades que vendem uma vida perfeita. Diário\nde Pernambuco. Disponível em\nhttps://www diariodepernambuco com.br/coIunas/diariomuIher/2024/08/bIockout-o-canceIamento-dascelebridades-que-vendem-uma-vida-perfeita.html\nTEXTO VI\nO jovem piauiense Manoel José Nunes Neto, de 16 anos, venceu, com o projeto\nAquatic Rover [Rover aquático autônomo para monitoramento da qualidade da água: uma\nferramenta portátil de baixo custo], o Prêmio Jovem da Água de Estocolmo 2024, promovido\npelo Stockholm International Water Institute (SIWI). A prestigiada competição de ciência\ntambém é conhecida como Prêmio Nobel da Ciência Jovem. O projeto tem grande potencial\npara transformar, tornando mais eficiente, a maneira como é monitorada a saúde dos\ncorpos d'água, reduzindo a necessidade de técnicos em campo e minimizando a exposição\na áreas contaminadas. [...].\nFonte: SILVA, Edmilson. Piauiense Manoel Nunes vence Prêmio Nobel da Ciência Jovem. Governo do Piauí,\nPiauí, 27 ago. 2024. Disponível em https://www pi.gov.br/noticia/piauiense-manoel-nunes-vence-premionobel-da-ciencia-jovem- 1 >",
+      "referenceKind": "Revisão orientada, sem nota automática."
+    }
+  ]
+}
