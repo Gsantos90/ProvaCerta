@@ -118,8 +118,8 @@ const catalogCategories = [
     description: 'Provas de concursos públicos.',
     kind: 'concurso',
     exams: [
-      { id: 'esa', name: 'ESA', org: 'EXÉRCITO BRASILEIRO', short: 'ESA', description: 'Escola de Sargentos das Armas', available: true, color: 'navy', roles: ['Geral / Aviação', 'Música', 'Saúde'] },
-      { id: 'espcex', name: 'EsPCEx', org: 'EXÉRCITO BRASILEIRO', short: 'EsPCEx', description: 'Escola Preparatória de Cadetes do Exército', available: true, color: 'navy', roles: ['Cadete'] },
+      { id: 'esa', name: 'ESA', org: 'EXÉRCITO BRASILEIRO', short: 'ESA', description: 'Escola de Sargentos das Armas', available: true, color: 'olive', roles: ['Geral / Aviação', 'Música', 'Saúde'] },
+      { id: 'espcex', name: 'EsPCEx', org: 'EXÉRCITO BRASILEIRO', short: 'EsPCEx', description: 'Escola Preparatória de Cadetes do Exército', available: true, color: 'olive', roles: ['Cadete'] },
       { id: 'cbmerj', name: 'Bombeiro Militar', org: 'CORPO DE BOMBEIROS · RJ', short: 'CBMERJ', description: 'Corpo de Bombeiros Militar do Estado do Rio de Janeiro · CFO', available: true, color: 'crimson', roles: ['Oficial'] },
       { id: 'pmrj', name: 'PMERJ', org: 'Segurança', short: 'PMERJ', description: 'Polícia Militar do Estado do Rio de Janeiro', available: true, color: 'navy', roles: ['Soldado', 'Oficial'] },
       { id: 'bb', name: 'Banco do Brasil', org: 'Bancário', short: 'BB', description: 'Concurso do Banco do Brasil', available: false, color: 'gold', roles: ['Escriturário - Agente Comercial', 'Escriturário - Agente de Tecnologia'] },

@@ -20,6 +20,7 @@
 .exam-summary.tone-sky{--exam-cover-start:#0369a1;--exam-cover-end:#3ba1d2}
 .exam-summary.tone-slate{--exam-cover-start:#334155;--exam-cover-end:#6b7f9e}
 .exam-summary.tone-navy{--exam-cover-start:#1e293b;--exam-cover-end:#4f6dae}
+.exam-summary.tone-olive{--exam-accent:#2E6F40;--exam-cover-start:#2E6F40;--exam-cover-end:#2E6F40}
 .exam-summary.tone-amber{--exam-cover-start:#b65b0b;--exam-cover-end:#efa33c}
 .exam-summary-art{
   position:relative;
