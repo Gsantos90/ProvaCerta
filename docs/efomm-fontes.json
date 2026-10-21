@@ -1,0 +1,44 @@
+[
+  {
+    "year": 2025,
+    "name": "dia-1",
+    "url": "https://cdn.blog.estrategiavestibulares.com.br/vestibulares/wp-content/uploads/2024/08/1-DIA-BRANCA.pdf",
+    "sha256": "521cda2c2b6451a2d30d5926c3e9627fefe0aa53f7f4b8cefdc8f95744bb910d",
+    "bytes": 193437
+  },
+  {
+    "year": 2025,
+    "name": "dia-2",
+    "url": "https://cdn.blog.estrategiavestibulares.com.br/vestibulares/wp-content/uploads/2024/08/2-DIA-BRANCA_0.pdf",
+    "sha256": "f1c0ef79515794dea5da22670824a68def7cd0115f643ea58dba90693df85dbc",
+    "bytes": 1021085
+  },
+  {
+    "year": 2025,
+    "name": "gabarito",
+    "url": "https://cdn.blog.estrategiavestibulares.com.br/vestibulares/wp-content/uploads/2024/08/GABARITO-DEFINITIVO-EFOMM.pdf",
+    "sha256": "ecb9f226b3863fb9ed7385510758f5abe9f6e9d29e458820744b8ec10ef2ff49",
+    "bytes": 49671
+  },
+  {
+    "year": 2026,
+    "name": "dia-1",
+    "url": "https://cdn.blog.estrategiavestibulares.com.br/vestibulares/wp-content/uploads/2025/08/PROVA-BRANCA-1-DIA.pdf",
+    "sha256": "391432fcbc886bad79448faa9c24fce7a9896255f8619ff8314c41000f32ef34",
+    "bytes": 8602282
+  },
+  {
+    "year": 2026,
+    "name": "dia-2",
+    "url": "https://cdn.blog.estrategiavestibulares.com.br/vestibulares/wp-content/uploads/2025/08/PROVA-BRANCA-2-DIA.pdf",
+    "sha256": "40fd540f2896b44d97e858fceedf04a110549a15d354185ea2a7ce5236b42a76",
+    "bytes": 8834067
+  },
+  {
+    "year": 2026,
+    "name": "gabarito",
+    "url": "https://cdn.blog.estrategiavestibulares.com.br/vestibulares/wp-content/uploads/2025/08/PS-EFOMM-2026-GABARITO-definitivo.pdf",
+    "sha256": "812c6900e1d5764077751ab6fd5723b1f39481374a156c99e60da8d46f47c489",
+    "bytes": 33933
+  }
+]

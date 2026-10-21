@@ -127,3 +127,7 @@ for year in [2022, 2023, 2025]:
     (D/f'{year}-structured-draft.json').write_text(json.dumps(rows,ensure_ascii=False,indent=2),encoding='utf-8')
     (D/f'{year}-structure-audit.json').write_text(json.dumps(list(aa.values()),ensure_ascii=False,indent=2),encoding='utf-8')
     print(year,'textos preservados e figuras sem enunciados',flush=True)
+
+# Some option charts combine raster and vector content. Keep their complete panels.
+from fix_enem_2025_q101 import repair as repair_enem_2025_q101
+repair_enem_2025_q101()

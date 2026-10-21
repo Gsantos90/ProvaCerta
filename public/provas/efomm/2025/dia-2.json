@@ -1,0 +1,679 @@
+{
+  "slug": "efomm-2025-dia-2",
+  "title": "EFOMM 2025 · 2º dia · Prova branca",
+  "year": 2025,
+  "day": 2,
+  "contentVersion": 1,
+  "questions": [
+    {
+      "number": 1,
+      "page": 1,
+      "subject": "Matemática",
+      "text": "Analise as afirmativas a seguir sobre operações de conjuntos.\nI – (A − B) × C = (A × C) − (B × C).\nII – A ⊂ D e B ⊂ E → A × B ⊂ D × E.\nIII – Se A, B ⊂ C; A ∩ B ≠ ∅ e A ∪ B = C → B = C\\A.\nIV – (A − B) ∪ (B − A) = (A − C) ∪ (C − A) ↔ B = C.\n(Considere A ⊂ B tal que todo elemento de A é elemento de B. Além disso, C\\A é o complementar do conjunto A em relação ao conjunto C.)\nAssinale a opção correta.",
+      "options": [
+        "Apenas as afirmativas I, II e IV são verdadeiras.",
+        "Apenas as afirmativas I e III são verdadeiras.",
+        "Apenas as afirmativas II e IV são verdadeiras.",
+        "Apenas as afirmativas I, II e III são verdadeiras.",
+        "Apenas a afirmativa IV é verdadeira."
+      ],
+      "answer": "A",
+      "annulled": false
+    },
+    {
+      "number": 2,
+      "page": 1,
+      "subject": "Matemática",
+      "text": "Sejam os conjuntos naturais:\n• A = {n é primo; 2 ≤ n ≤ 36};\n• B = {n é múltiplo de 3; 10 ≤ n ≤ 36};\n• C = A × B.\nQuantos elementos possui o conjunto D = {(a,b) ∈ C; a + b é par}?",
+      "options": [
+        "20",
+        "40",
+        "44",
+        "45",
+        "55"
+      ],
+      "answer": "D",
+      "annulled": false
+    },
+    {
+      "number": 3,
+      "page": 2,
+      "subject": "Matemática",
+      "text": "Dadas as funções f e g definidas abaixo: • f:R→R,f (x)=x²+5, com o gráfico de f restrito ao conjunto B×C tal que B={x∈R;|x|≥3} e C={y∈R;|y|≤30}; • g:R→R,g(x)=x², com o gráfico de g restrito ao conjunto B×D tal que B={x∈R;|x|≥3} e D={y∈R;|y|≤25}. Calcule a área entre elas.",
+      "options": [
+        "18 u.a.",
+        "20 u.a.",
+        "24 u.a.",
+        "28 u.a.",
+        "36 u.a."
+      ],
+      "answer": "B",
+      "annulled": false
+    },
+    {
+      "number": 4,
+      "page": 2,
+      "subject": "Matemática",
+      "text": "Determine o volume do paralelepípedo com base quadrada, dadas as seguintes condições:  Uma pirâmide com base quadrada está completamente contida no paralelepípedo, coincidindo sua base com a base inferior do paralelepípedo. A projeção do vértice da pirâmide coincide com os centros dos quadrados das bases do paralelepípedo. O volume da pirâmide é de 5m³.  Um cone está contido no paralelepípedo, com vértice comum a pirâmide, e sua base está inscrita na base superior do paralelepípedo. O volume do cone é 4m³.",
+      "options": [
+        "(5 + 48/π) m³",
+        "(15 + 3/π) m³",
+        "(5 + 49/(3π)) m³",
+        "(15 + 48/π) m³",
+        "(15 + 49/(3π)) m³"
+      ],
+      "answer": "D",
+      "annulled": false
+    },
+    {
+      "number": 5,
+      "page": 3,
+      "subject": "Matemática",
+      "text": "Observe as três progressões aritméticas com os primeiros termos 5, 8 e 10, construídas a partir da letra E da sigla da Escola de Formação de Oficiais da Marinha Mercante (EFOMM). Quando as letras da sigla se esgotam, a sequência retorna à primeira letra. Continuando esse padrão, determine a posição do número 2025 na sequência.",
+      "options": [
+        "E: ponto inferior",
+        "F: ponto inferior",
+        "O: ponto inferior",
+        "Primeiro M: ponto inferior esquerdo",
+        "Segundo M: ponto inferior direito"
+      ],
+      "answer": "D",
+      "annulled": false,
+      "supportImage": [
+        "/provas/efomm/2025/dia-2-q5-fig1.png"
+      ]
+    },
+    {
+      "number": 6,
+      "page": 3,
+      "subject": "Matemática",
+      "text": "Quantas raízes reais e complexas possui o polinômio abaixo?\n(x + (3 − √17)/2) x²(x + 1)(x + 2)(x + 3)²(x + (3 + √17)/2) − 5 = 0",
+      "options": [
+        "Zero real e 8 complexas.",
+        "2 reais e 6 complexas.",
+        "4 reais e 4 complexas.",
+        "6 reais e 2 complexas.",
+        "8 reais e zero complexa."
+      ],
+      "answer": "C",
+      "annulled": false
+    },
+    {
+      "number": 7,
+      "page": 4,
+      "subject": "Matemática",
+      "text": "No antigo reino de Algebrália havia um lendário artesão chamado Eudóxio, famoso por suas impressionantes criações geométricas. O rei de Algebrália desafiou Eudóxio a criar uma ponte suspensa, seguindo a curva da função f(x) = x^(3/2) entre os pontos (1,1) e (4,8). Para calcular a quantidade de material necessário, Eudóxio precisa determinar o comprimento exato dessa curva. Ajude Eudóxio, calculando o comprimento de arco da função f(x) entre os pontos fornecidos.",
+      "options": [
+        "(8√10 − 13√13/2)/27",
+        "(80√10 − 13√13/2)/9",
+        "(80√10 − √13)/27",
+        "(80√10 − 13√13)/9",
+        "(80√10 − 13√13)/27"
+      ],
+      "answer": "E",
+      "annulled": false
+    },
+    {
+      "number": 8,
+      "page": 4,
+      "subject": "Matemática",
+      "text": "Seja T o triângulo ABC com lados de tamanho 10, 5 e 5√3, com a relação entre seus ângulos B^AC>BC ^ A>AB^C. Dada a circunferência C inscrita no triângulo ABC, interceptando-o nos pontos P∈BC, Q∈AC e R∈AB. Qual é o perímetro do quadrilátero convexo PBRQ?",
+      "options": [
+        "5(5 − √2 + √3 + √6)/2",
+        "5(1 − √2 + √3 − √6)/3",
+        "(5 + √2 − √3 + √6)/2",
+        "5(5 − √2 + √3 − √6)/2",
+        "(1 − √2 + √3 + √6)/3"
+      ],
+      "answer": "A",
+      "annulled": false
+    },
+    {
+      "number": 9,
+      "page": 5,
+      "subject": "Matemática",
+      "text": "Seja S a soma de todos t ∈ [0, 2π] que satisfazem a igualdade\n2 sec²(x) cot²(t) − 2 cot²(t) = A · B, onde\n• A = tan²(x) + cos(2x) tan²(x);\n• B = 2 cos²(x) + tan²(x) − cos(2x),\ntal que x ∈ (0, π/2).\nSeja V_E = S/3 o volume da esfera E inscrita num cilindro C.\nSeja K o sólido formado por dois cones inscritos em C, tal que cada uma das bases coincide com as bases inferior e superior de C e vértices comum no centro de E.\nO sólido AC, chamado de Anticlépsidra, é a região interna de C e externa de K. Seja V_AC o volume da Anticlépsidra e A_c a área total do cilindro C. Qual é o valor de 4A_c/V_AC?",
+      "options": [
+        "18",
+        "18π2",
+        "18π",
+        "9π2",
+        "9"
+      ],
+      "answer": "A",
+      "annulled": false
+    },
+    {
+      "number": 10,
+      "page": 5,
+      "subject": "Matemática",
+      "text": "Seja Z o número de soluções inteiras não negativas da inequação x₁ + x₂ + x₃ + x₄ < 6. Determine o termo que contém x⁴ no desenvolvimento de (x² + Z)¹².",
+      "options": [
+        "16(64⁸x⁴)",
+        "16(126¹⁰x⁴)",
+        "66(126⁸x⁴)",
+        "66(126¹⁰x⁴)",
+        "96(144⁸x⁴)"
+      ],
+      "answer": "D",
+      "annulled": false
+    },
+    {
+      "number": 11,
+      "page": 6,
+      "subject": "Matemática",
+      "text": "Sobre funções, analise as alternativas abaixo:\nI. A função tan(x), x ∈ [0, π/2), é sobrejetora em ℝ₊ e a função sen(x), com x ∈ ℝ, é injetora.\nII. As imagens das famílias de funções f(x) = a|x| + b, com a e b ∈ ℝ, não contêm números negativos.\nIII. A função exponencial de base a, definida por f: ℝ → ℝ₊*, é denotada por f(x) = aˣ, onde a é um número real positivo e diferente de 1. Suponha que as funções g(x) = b · aˣ e G(x) = B · Aˣ, com as constantes b, B ∈ ℝ₊*, satisfaçam g(x₁) = G(x₁) e g(x₂) = G(x₂) para x₁ ≠ x₂. Nesse caso, temos que a = A e b = B.\nIV. Funções quadráticas e racionais são definidas em todo conjunto real.\nV. Se a função f é não injetora e não sobrejetora e a função g é não injetora, então função composta g ∘ f é não sobrejetora.\nAssinale a opção correta.",
+      "options": [
+        "Apenas as afirmativas II, III, IV e V são verdadeiras.",
+        "Apenas as afirmativas IV e V são verdadeiras.",
+        "Apenas a afirmativa III é verdadeira.",
+        "Apenas as afirmativas I, II e V são verdadeiras.",
+        "Apenas as afirmativas I, III, e V são verdadeiras."
+      ],
+      "answer": "C",
+      "annulled": false
+    },
+    {
+      "number": 12,
+      "page": 6,
+      "subject": "Matemática",
+      "text": "Um reservatório cônico está sendo cheio a uma vazão de 2m3/s. O reservatório possui 9 metros de altura e sua base possui 6 metros de diâmetro. O quão rápido o nível da água está subindo quando a água estiver a 6 metros do topo?",
+      "options": [
+        "3/(8π) m/s",
+        "1/(2π) m/s",
+        "4/π m/s",
+        "9/(8π) m/s",
+        "2/π m/s"
+      ],
+      "answer": "B",
+      "annulled": false
+    },
+    {
+      "number": 13,
+      "page": 7,
+      "subject": "Matemática",
+      "text": "Um casal pretende tomar uma quantia de R$ 200.000,00 com o banco, em cem prestações no Sistema de Amortização Constante, para compra de sua casa própria. Considerando uma taxa de juros composta de 2% ao mês, qual é o valor da 41ª prestação?",
+      "options": [
+        "R$ 6.000,00",
+        "R$ 5.100,00",
+        "R$ 4.400,00",
+        "R$ 3.900,00",
+        "R$ 3.600,00"
+      ],
+      "answer": "C",
+      "annulled": false
+    },
+    {
+      "number": 14,
+      "page": 7,
+      "subject": "Matemática",
+      "text": "Calcule o volume do sólido reto com altura h=12 em que sua base é definida, no primeiro quadrante, abaixo dos gráficos das funções g e h e acima do gráfico da função f, onde f(x)=x²−8x+17; g(x)=x²−4x+9; e h(x)=x²−12x+41.",
+      "options": [
+        "360 u.v.",
+        "192 u.v.",
+        "144 u.v.",
+        "72 u.v.",
+        "64 u.v."
+      ],
+      "answer": "B",
+      "annulled": false
+    },
+    {
+      "number": 15,
+      "page": 7,
+      "subject": "Matemática",
+      "text": "Seja X uma variável aleatória que representa altura, em centímetros, de alunos de um curso de estatística. Em uma amostra de oito alunos, observaram-se as alturas 160; 162; 179; 169; 162; 162; 175; 167. Utilizando a amostra observada, qual a média, a variância, a mediana e a moda da variável aleatória X, respectivamente?",
+      "options": [
+        "162; 48; 167; 162",
+        "167; 56; 167; 160",
+        "162; 42; 164,5; 162",
+        "167; 56; 164; 162",
+        "167; 48; 164,5; 162"
+      ],
+      "answer": "E",
+      "annulled": false
+    },
+    {
+      "number": 16,
+      "page": 8,
+      "subject": "Matemática",
+      "text": "Sejam A₁, A₂, A₃, A₄ os quatro primeiros termos de uma progressão geométrica, respectivamente. Sejam a₁, a₂, a₃, a₄ os quatro primeiros termos de uma progressão aritmética, respectivamente, tais que:\nA₁ = a₄ − a₃\na₁ = A₁ − 5\na₂ = A₁ + 1\na₄ + 4(a₃ − a₂) = A₂ + 1\nSejam Aₙ o n-ésimo termo da p.g. e aₙ o n-ésimo termo da p.a. Logo, A₁₀ A₉₉₉⁵ / [(a₅₀ − 1) A₁₀₀₀⁵] é igual a:",
+      "options": [
+        "A₃/a₇",
+        "a₁₁",
+        "A₃/a₅",
+        "a₉",
+        "A₉"
+      ],
+      "answer": "D",
+      "annulled": false
+    },
+    {
+      "number": 17,
+      "page": 8,
+      "subject": "Matemática",
+      "text": "Quais as relações entre a, b, c ∈ ℝ₊*, com a, b, c ≠ 1, a ≠ c e b ≠ 1/c para que a equação abaixo seja válida:\nlog_a((bc)^β) · log_b((a/c)^α) · log_c(b) = αβ[A − B + C − D],\nem que\n• A = log_c(a) · log_a(b) · log_b(a);\n• B = log_a(b) · log_b(c) · log_c(a);\n• C = log_a(c) · log_c(a) · log_b(a);\n• D = log_a(c) · log_b(c) · log_c(a), tal que α, β ∈ ℝ*.",
+      "options": [
+        "a+b=c",
+        "a−b=0",
+        "a+b+c=1",
+        "c−2b=0",
+        "2a+3c=1"
+      ],
+      "answer": "B",
+      "annulled": false
+    },
+    {
+      "number": 18,
+      "page": 9,
+      "subject": "Matemática",
+      "text": "Considere a hipérbole 9y2−16x2−144=0 e tome o ponto A seu vértice no eixo y positivo e o ponto E seu vértice no eixo y negativo. Tome B e D, respectivamente, como os pontos com o maior e menor valor da coordenada y no lugar geométrico x²+y²−10x+9=0. Tome C e F, respectivamente, como os pontos com o maior e menor valor da coordenada x no lugar geométrico 64x2+121y2−320x−1536=0. Qual a área do polígono convexo ABCDEF?",
+      "options": [
+        "64 u.a.",
+        "(4√5 − √3)/3 u.a.",
+        "75√5/2 u.a.",
+        "52 u.a.",
+        "128/3 u.a."
+      ],
+      "answer": "A",
+      "annulled": false
+    },
+    {
+      "number": 19,
+      "page": 9,
+      "subject": "Matemática",
+      "text": "Sejam α, λ ∈ ℝ, Iₙₓₙ a matriz identidade de ordem n, e Jₙₓₙ a matriz com todas as entradas iguais a 1, com ordem n. Qual o resultado do produto das matrizes Bₙₓₙ xₙₓ₁, tal que vale a igualdade Aₙₓₙ + Bₙₓₙ = αIₙₓₙ + Jₙₓₙ com as seguintes propriedades:\n• P₁: Aₙₓₙ xₙₓ₁ = λxₙₓ₁;\n• P₂: ∑ᵢ₌₁ⁿ xᵢ₁ = 0; xₙₓ₁ = [x₁₁, x₂₁, …, xₙ₁]ᵀ.",
+      "options": [
+        "(α + 1 − λ)x",
+        "(α + λ)x",
+        "(α − λ)x",
+        "αx",
+        "λx"
+      ],
+      "answer": "C",
+      "annulled": false
+    },
+    {
+      "number": 20,
+      "page": 10,
+      "subject": "Matemática",
+      "text": "A empresa de tecnologia Alfa-Ômega vai lançar um novo produto em formato de paralelepípedo, com base quadrada. Com o objetivo de maximizar o Lucro, as seguintes informações são fornecidas:  O Preço Unitário, P_u, do novo produto é R$ 5.000,00.  O Custo de Produção (C_p) corresponde ao valor gasto para se produzir um paralelepípedo com volume de 1.024 cm³. O custo da base e da tampa é de R$4,00/cm² e o custo das laterais é de R$2,00/cm².  O Custo Variável C_v é estimado pela função C_v(q) = q³ − (125/2)q² + (C_p + 4714)q − 245623/2, onde q é o número de peças produzidas.  O Custo Total (C_t) é composto pelo Custo Variável (C_v) e um Custo Fixo (C_f) de R$ 15.000,00, conforme a fórmula: C_t(q) = C_v(q) + C_f.  A Receita é calculada por R(q) = q · P_u e o Lucro por L(q) = R(q) − C_t(q). Considerando a maximização do Lucro, a partir da minimização de C_p, analise as afirmativas. I – Para que C_p seja mínimo, as dimensões do novo produto devem ser 4cm x 4cm x 64cm. II – Para maximizar o Lucro, considerando R e C_t, a produção deve ser de 5 unidades. III – O Lucro máximo é de R$ 99.999,00. IV – O valor da Receita que maximiza o Lucro é de R$ 125.000,00. Assinale a opção correta.",
+      "options": [
+        "Apenas as afirmativas I, II e IV são verdadeiras.",
+        "Apenas as afirmativas II e III são verdadeiras.",
+        "Apenas a afirmativa III é verdadeira.",
+        "Apenas as afirmativas II, III e IV são verdadeiras.",
+        "Apenas as afirmativas III e IV são verdadeiras."
+      ],
+      "answer": "E",
+      "annulled": false
+    },
+    {
+      "number": 21,
+      "page": 11,
+      "subject": "Física",
+      "text": "A tabela abaixo mostra as potências de trabalho de alguns dispositivos de passadiço. Dimensione o disjuntor ideal para proteger a instalação elétrica para este ramo do passadiço, supondo que a tensão eficaz na rede seja de 220 volts. Potência de trabalho Dispositivo (kW) Bússola 0,30 Anemômetro 0,20 GPS 0,20 Radar 0,35 Sistema de telefone 0,80 automático Sistema de difusão de 0,50 mensagem Rádio – VHF 0,20 Ecobatímetro 0,25 Luzes de navegação 1,00",
+      "options": [
+        "15 A",
+        "20 A",
+        "25 A",
+        "30 A",
+        "35 A"
+      ],
+      "answer": "B",
+      "annulled": false,
+      "support": "Adote g = 10 m/s² para a aceleração da gravidade, salvo indicação contrária."
+    },
+    {
+      "number": 22,
+      "page": 12,
+      "subject": "Física",
+      "text": "Analise o gráfico a seguir. O gráfico representa a curva P x T de uma sequência de processos termodinâmicos pelos quais um gás ideal diatômico é submetido. Nestes processos, o gás interage térmica e mecanicamente com o meio externo, mas não pode trocar partículas. A reta que contém o segmento CA passa pela origem do gráfico P x T. Assinale a alternativa que corresponde ao trabalho realizado pelo gás (em Joules) no processo AB, dado que T_B = 2T_A e que o módulo do calor cedido pelo gás para o meio externo no processo CA é de 200 J.",
+      "options": [
+        "400/7",
+        "200/3",
+        "80",
+        "400/3",
+        "200"
+      ],
+      "answer": "C",
+      "annulled": false,
+      "supportImage": [
+        "/provas/efomm/2025/dia-2-q22-fig1.png"
+      ],
+      "support": "Adote g = 10 m/s² para a aceleração da gravidade, salvo indicação contrária."
+    },
+    {
+      "number": 23,
+      "page": 13,
+      "subject": "Física",
+      "text": "Um tubo de comprimento L que está em contato térmico com o meio externo contém n mols de um certo gás ideal. Ambas as extremidades do tubo possuem membranas impermeáveis e flexíveis, de forma que elas podem oscilar devido à ação de uma fonte externa, que induz a propagação de ondas sonoras de frequência f dentro do tubo. Num certo instante t₁, o gás está a uma temperatura T₁ e forma-se dentro do tubo uma onda estacionária de número harmônico n₁. À medida que o gás troca calor com o meio externo, essa onda estacionária se desfaz; porém, em um instante posterior t₂, uma outra onda estacionária de número harmônico n₂ é observada. O gráfico P-V do gás entre os instantes t₁ e t₂ está apresentado na figura abaixo, em que P₁ e P₂ são as pressões do gás nos instantes t₁ e t₂, respectivamente. Assinale a alternativa que corresponde à razão n₂/n₁. Dados: velocidade de propagação de uma onda sonora no gás: v² = γRT/M, em que M é a massa molar do gás, R é a constante universal dos gases, γ é a razão C_P/C_V e T é a temperatura do gás, todos em unidades do SI. Permanecem constantes entre os instantes t₁ e t₂: o volume ocupado pelo gás (que é o próprio 2 volume do tubo (V)); a frequência f da fonte externa; e o número de mols do gás dentro do tubo.",
+      "options": [
+        "1",
+        "11/3",
+        "√(11/3)",
+        "3√11/11",
+        "9/11"
+      ],
+      "answer": "B",
+      "annulled": false,
+      "supportImage": [
+        "/provas/efomm/2025/dia-2-q23-fig1.png"
+      ],
+      "support": "Adote g = 10 m/s² para a aceleração da gravidade, salvo indicação contrária."
+    },
+    {
+      "number": 24,
+      "page": 14,
+      "subject": "Física",
+      "text": "Duas espiras concêntricas de raio r e 4r são percorridas pelas correntes i e i’, respectivamente. Supondo a corrente i conhecida, qual o valor de i’ para que o campo magnético resultante no ponto O faça um ângulo de 30° com o eixo x?",
+      "options": [
+        "2i√3",
+        "2i√3/3",
+        "4i√3",
+        "4i√3/3",
+        "4i"
+      ],
+      "answer": "C",
+      "annulled": false,
+      "supportImage": [
+        "/provas/efomm/2025/dia-2-q24-fig1.png"
+      ],
+      "support": "Adote g = 10 m/s² para a aceleração da gravidade, salvo indicação contrária."
+    },
+    {
+      "number": 25,
+      "page": 15,
+      "subject": "Física",
+      "text": "Duas ondas harmônicas transversais idênticas (mesma amplitude e mesma frequência) propagam-se num meio, em uma mesma direção e sentido. As perturbações y(x,t) provocadas pelas ondas no meio onde se propagam são representadas por funções do tipo y(x,t) = yₘₐₓ · sen(kx − ωt + ϕ), em que yₘₐₓ é a amplitude de deslocamento das partículas no meio, k é o número de onda, ω é a velocidade angular e ϕ é a constante de fase, todos em unidades do SI.\nSabe-se que no ponto x = 0, no instante t = 0, a perturbação devido à propagação da onda 1 (apenas) seria de 0,5yₘₐₓ, com partículas se deslocando no sentido positivo de y (v_y(x=0,t=0) > 0). No mesmo ponto e instante, a perturbação devido à onda 2 (apenas) seria de (√2/2)yₘₐₓ, com partículas também se deslocando no sentido positivo de y (v_y(x=0,t=0) > 0). Assinale a alternativa que corresponde ao módulo da amplitude de deslocamento das partículas do meio devido à superposição das ondas 1 e 2.\nDado: sen(a) + sen(b) = 2 sen((a+b)/2) cos((a−b)/2).",
+      "options": [
+        "2yₘₐₓ cos(14π/48)",
+        "2yₘₐₓ cos(π/24)",
+        "2yₘₐₓ cos(5π/24)",
+        "2yₘₐₓ cos(13π/12)",
+        "2yₘₐₓ"
+      ],
+      "answer": "B",
+      "annulled": false,
+      "support": "Adote g = 10 m/s² para a aceleração da gravidade, salvo indicação contrária."
+    },
+    {
+      "number": 26,
+      "page": 16,
+      "subject": "Física",
+      "text": "Duas fontes sonoras A e B emitem ondas esféricas de mesma potência. A fonte A está a uma distância R_A de um ponto P, enquanto a fonte B está a uma distância R_B, como mostra a figura abaixo. O nível sonoro da onda gerada pela fonte A, no ponto P, é de 80 dB. A fonte B pode ser posicionada em cinco diferentes posições em relação ao ponto P: I. R_B = 1,0 · R_A. II. R_B = 5,0 · 10⁻¹ R_A. III. R_B = 2,5 · 10⁻¹ R_A. IV. R_B = 1,0 · 10⁻¹ R_A. V. R_B = 1,0 · 10⁻³ R_A. Considerando que, para ondas sonoras, a intensidade da onda resultante é a soma das intensidades de cada onda, assinale a alternativa do(s) valor(es) de R_B, listados acima, para o(s) qual(is) o nível sonoro da onda resultante no ponto P ultrapassa o limiar da dor (120dB). Considere o limiar de audibilidade I₀ = 10⁻¹² W/m²",
+      "options": [
+        "I, II, III, IV e V",
+        "II, III, IV e V",
+        "III, IV e V",
+        "IV e V",
+        "V"
+      ],
+      "answer": "E",
+      "annulled": false,
+      "supportImage": [
+        "/provas/efomm/2025/dia-2-q26-fig1.png"
+      ],
+      "support": "Adote g = 10 m/s² para a aceleração da gravidade, salvo indicação contrária."
+    },
+    {
+      "number": 27,
+      "page": 17,
+      "subject": "Física",
+      "text": "Uma pequena esfera de raio desprezível é solta, a partir do repouso, de uma altura h, em relação ao ponto A do plano inclinado a 30º com a horizontal. A colisão é inelástica com coeficiente de restituição igual a 0,5. Não há atrito entre a esfera e as superfícies, nem resistência do ar. O valor da altura h para que a esfera caia diretamente no ponto P após receber o impulso da colisão no ponto A vale:",
+      "options": [
+        "72/(6√3+1)m",
+        "24/(2√ 3+1)m",
+        "12/(√3+1) m",
+        "12/√ 3 m",
+        "8/√3 m"
+      ],
+      "answer": "E",
+      "annulled": false,
+      "supportImage": [
+        "/provas/efomm/2025/dia-2-q27-fig1.png"
+      ],
+      "support": "Adote g = 10 m/s² para a aceleração da gravidade, salvo indicação contrária."
+    },
+    {
+      "number": 28,
+      "page": 17,
+      "subject": "Física",
+      "text": "Uma pequena esfera de massa M igual a 0,1 kg e carga elétrica q = 1,0 C presa por um fio de 30 cm de comprimento está imersa numa região de campo elétrico uniforme, que aponta para baixo. Esse campo pode ser alterado externamente. Qual deve ser o valor do campo E (em N/C) para que o período deste pêndulo seja metade do período T₀ que ele teria na ausência do campo? Considere g=10 m/s² e θ ≪ 1 rad.",
+      "options": [
+        "2,0",
+        "3,0",
+        "4,0",
+        "5,0",
+        "6,0"
+      ],
+      "answer": "B",
+      "annulled": false,
+      "supportImage": [
+        "/provas/efomm/2025/dia-2-q28-fig1.png"
+      ],
+      "support": "Adote g = 10 m/s² para a aceleração da gravidade, salvo indicação contrária."
+    },
+    {
+      "number": 29,
+      "page": 18,
+      "subject": "Física",
+      "text": "Considere que uma partícula de massa m carregada negativamente com carga de módulo q entre com vetor velocidade ⃗v, fazendo 30° com a horizontal numa região de campo magnético uniforme, entrando no plano do papel. A partícula sai da região do campo com o vetor velocidade ⃗v' apontando na direção horizontal. Desprezando a ação do campo gravitacional sobre a partícula, qual a distância horizontal D (em μm ) entre a entrada e a saída da partícula da região com campo magnético? Dados: q/m=3,5 × 10¹¹C/kg , B = 0,2 T e v=7,0 × 10⁶m/s",
+      "options": [
+        "2,0",
+        "10,0",
+        "25,0",
+        "50,0",
+        "100,0"
+      ],
+      "answer": "D",
+      "annulled": false,
+      "supportImage": [
+        "/provas/efomm/2025/dia-2-q29-fig1.png"
+      ],
+      "support": "Adote g = 10 m/s² para a aceleração da gravidade, salvo indicação contrária."
+    },
+    {
+      "number": 30,
+      "page": 19,
+      "subject": "Física",
+      "text": "A figura mostra uma barra sustentada pelo seu engaste perpendicular na parede e pelas duas correntes lineares, também fixadas à parede de maneira simétrica em relação à barra. A barra possui comprimento igual a 4 m e 500 kg de massa. As correntes possuem 6 m de comprimento, e seus pontos de fixação na parede estão distantes 6 m entre si. Despreze as demais dimensões desses corpos. Tomando o ponto de conexão da barra na parede como origem do sistema de coordenadas, o módulo do torque realizado por cada corrente sobre a barra vale, em N.m:",
+      "options": [
+        "10000√5/11",
+        "10000√5/6",
+        "5000√11/6",
+        "5000√11/5",
+        "5000√6/5"
+      ],
+      "answer": "A",
+      "annulled": false,
+      "supportImage": [
+        "/provas/efomm/2025/dia-2-q30-fig1.png"
+      ],
+      "support": "Adote g = 10 m/s² para a aceleração da gravidade, salvo indicação contrária."
+    },
+    {
+      "number": 31,
+      "page": 20,
+      "subject": "Física",
+      "text": "A figura representa um esquema simplificado do sistema pistão + biela + virabrequim de um motor de combustão interna. A haste AO, com comprimento √2/2 m, gira no sentido horário em torno do ponto fixo O e está conectada à barra de 1 m de comprimento AB, articulada em seus dois pontos extremos. O ponto B está conectado ao pistão que se move apenas horizontalmente dentro da cavidade. A figura representa um instante do movimento em que o ângulo da haste AO com a horizontal vale 45º. Um observador fixo no solo determina que P é o ponto da barra AB cuja velocidade possui o menor módulo. A distância AP vale, em metros,",
+      "options": [
+        "(√3−1)/4",
+        "(2−√3)/3",
+        "(3−√3)/4",
+        "(4−√3)/3",
+        "(5−√3)/4"
+      ],
+      "answer": "C",
+      "annulled": false,
+      "supportImage": [
+        "/provas/efomm/2025/dia-2-q31-fig1.png"
+      ],
+      "support": "Adote g = 10 m/s² para a aceleração da gravidade, salvo indicação contrária."
+    },
+    {
+      "number": 32,
+      "page": 21,
+      "subject": "Física",
+      "text": "Em um laboratório de física foi realizado um experimento com uma massa m de uma certa substância, que estava a uma temperatura θ_F — sua temperatura de fusão. Em t=0, a substância passou a receber calor de uma fonte, a uma taxa constante R. O calor total recebido (12 kcal) foi suficiente para provocar a fusão completa e, posteriormente, o aquecimento do líquido até a temperatura θ₁. Os gráficos da variação da temperatura em função do tempo e da variação da temperatura em função do calor absorvidos pela substância estão representados, respectivamente, nas figuras A e B.  Considerando que o fornecimento de calor à massa m ocorreu a uma taxa constante, e que a tangente do ângulo beta da figura A é igual a 50, assinale a alternativa que corresponde ao calor específico c da substância (em cal/g.◦C), dado que L = 3,0 cal/g.",
+      "options": [
+        "5,0 × 10¹",
+        "3,0 × 10¹",
+        "3,0 × 10⁻²",
+        "1,5 × 10⁻²",
+        "5,0 × 10⁻⁴"
+      ],
+      "answer": "C",
+      "annulled": false,
+      "supportImage": [
+        "/provas/efomm/2025/dia-2-q32-fig1.png",
+        "/provas/efomm/2025/dia-2-q32-fig2.png"
+      ],
+      "support": "Adote g = 10 m/s² para a aceleração da gravidade, salvo indicação contrária."
+    },
+    {
+      "number": 33,
+      "page": 22,
+      "subject": "Física",
+      "text": "Quatro esferas condutoras A, B, C e D, de raios r, 2r, 4r e 8r, respectivamente, possuem a mesma carga elétrica igual a Q. Tais esferas estão suficientemente afastadas umas das outras de forma que a distribuição de carga não seja afetada. Suponha que a esfera A seja colocada em contato elétrico com a esfera B por um fio condutor metálico e, após um certo tempo, o fio seja retirado. Após isso, a esfera A é posta em contato elétrico com a esfera C pelo mesmo mecanismo e, novamente, após certo tempo, o fio é retirado. Finalmente, a esfera A é posta em contato com a última esfera D, da mesma forma que as anteriores, e afastada. Considerando que as esferas trocaram cargas apenas entre si, ao final do processo, a carga elétrica de A será:",
+      "options": [
+        "Q/2",
+        "2Q/3",
+        "7Q/8",
+        "Q/3",
+        "4Q/27"
+      ],
+      "answer": "E",
+      "annulled": false,
+      "support": "Adote g = 10 m/s² para a aceleração da gravidade, salvo indicação contrária."
+    },
+    {
+      "number": 34,
+      "page": 22,
+      "subject": "Física",
+      "text": "A figura abaixo mostra a seção transversal uniforme do casco de uma embarcação que possui 100 m de comprimento. Supondo a embarcação em equilíbrio, qual o calado (distância vertical a partir do fundo do casco até a linha superficial da água), em metros, da embarcação se sua massa total é 16.000 t, conforme a figura abaixo?",
+      "options": [
+        "11",
+        "8",
+        "6",
+        "4",
+        "2"
+      ],
+      "answer": "B",
+      "annulled": false,
+      "supportImage": [
+        "/provas/efomm/2025/dia-2-q34-fig1.png"
+      ],
+      "support": "Adote g = 10 m/s² para a aceleração da gravidade, salvo indicação contrária."
+    },
+    {
+      "number": 35,
+      "page": 23,
+      "subject": "Física",
+      "text": "O vídeo “The Most Mind-Blowing Aspect of Circular Motion”, do canal do YouTube “All Things Physics”, mostra um efeito surpreendente da velocidade finita da propagação de ondas (ou de perturbações, em geral) em um meio. Um corte realizado em uma corda tensionada dá origem a uma “onda de afrouxamento”, que se propaga com velocidade aproximadamente constante desde o ponto do corte e leva o valor da tensão a zero nos pontos subsequentes. Dessa forma, a tração não se anula instantaneamente em todos os pontos da corda: se um fio esticado com tensão T₀ é cortado em um ponto P, podemos supor que a tensão em um ponto a uma distância d de P é dada pela expressão T(d) = 0 se d ≤ v_p t; T(d) = T₀ se d > v_p t, em que v_p é a velocidade de propagação de ondas no fio e t é o intervalo de tempo transcorrido desde o corte. Um aluno da EFOMM, angustiado com a proximidade das provas finais, resolve reproduzir o experimento do vídeo. Ele apanha um objeto pontual, com 2,5 kg de massa, e o amarra na ponta de um fio inextensível, cuja densidade linear vale 1 g/m. A outra ponta do fio é fixada na origem do sistema de coordenadas cartesianas da superfície plana, horizontal e sem atrito de uma mesa. O objeto é colocado para realizar um MCU no sentido anti- horário, com raio de 4 m. Em algum instante do seu movimento, o fio é cortado em seu ponto médio e, 2 × 10⁻² segundos após o corte, o objeto passa pelo ponto da mesa com coordenadas (0,5) m. A massa do fio e quaisquer atritos são desprezíveis. O ângulo (em radianos) que o fio fazia com o eixo y no instante em que foi cortado valia:",
+      "options": [
+        "arctg(3/4)+0,16",
+        "arctg(3/4)+0,08",
+        "arctg(3/4)+0,04",
+        "arctg(3/4)+0,02",
+        "arctg(3/4)+0,01"
+      ],
+      "answer": "D",
+      "annulled": false,
+      "support": "Adote g = 10 m/s² para a aceleração da gravidade, salvo indicação contrária."
+    },
+    {
+      "number": 36,
+      "page": 24,
+      "subject": "Física",
+      "text": "A figura A representa a velocidade em função do tempo de um bloco que realiza um movimento harmônico simples sobre uma superfície horizontal sem atrito. O módulo dos valores que aparecem no eixo vertical da referida figura corresponde à amplitude da velocidade durante o MHS. A oscilação ocorre em torno de um ponto de equilíbrio x_eq = 0,5 m entre os pontos x_eq + A e x_eq − A (onde A é a amplitude do movimento, em metros), tal como representado na figura B (que representa a posição do bloco no instante t = 0 s).  A única força que realiza trabalho sobre o bloco é a força restauradora da mola, cujo módulo é k∙∆x (k é a constante da mola e ∆x é a deformação) e a função horária da posição do bloco pode ser descrita como uma função senoidal. Considerando que o bloco se comporta como uma partícula, assinale a alternativa que corresponde, respectivamente, à posição e ao sentido do movimento do centro de massa do bloco no instante t = 4,5 s.",
+      "options": [
+        "0,5 m; para esquerda.",
+        "0,5 m; para direita.",
+        "0,4 m; para esquerda.",
+        "0,4 m; para direita.",
+        "0,6 m; para esquerda."
+      ],
+      "answer": "A",
+      "annulled": false,
+      "supportImage": [
+        "/provas/efomm/2025/dia-2-q36-fig1.png",
+        "/provas/efomm/2025/dia-2-q36-fig2.png"
+      ],
+      "support": "Adote g = 10 m/s² para a aceleração da gravidade, salvo indicação contrária."
+    },
+    {
+      "number": 37,
+      "page": 25,
+      "subject": "Física",
+      "text": "Um sistema é formado por duas estrelas de mesma massa que descrevem uma órbita plana e circular de raio R. O movimento ocorre ao redor do centro de massa do sistema e é devido unicamente à atração gravitacional mútua entre as estrelas, que estão sempre em pontos diametralmente opostos. Simultaneamente, um cosmonauta, sujeito apenas à força gravitacional das estrelas, descreve um movimento oscilatório com amplitude d, muito menor do que R, sobre a reta perpendicular ao plano da órbita que passa pelo centro da circunferência. Como d << R, considere que a distância entre o cosmonauta e qualquer das estrelas é sempre aproximadamente igual a R, durante a oscilação. A razão entre o período de oscilação do cosmonauta e o período de rotação do sistema estelar vale:",
+      "options": [
+        "√ 2/4",
+        "4√2",
+        "2√2",
+        "√ 2",
+        "√ 2/2"
+      ],
+      "answer": "A",
+      "annulled": false,
+      "support": "Adote g = 10 m/s² para a aceleração da gravidade, salvo indicação contrária."
+    },
+    {
+      "number": 38,
+      "page": 26,
+      "subject": "Física",
+      "text": "Uma corrente com 20 m de comprimento e densidade homogênea que está apoiada sobre a superfície sem atrito da figura é arremessada horizontalmente a 2 m/s. A corrente nunca perde o contato com a superfície e sempre se mantém esticada. Quando uma porção de 10 m de comprimento da corrente está sobre a parte inclinada, cujo ângulo com a horizontal é de 30º, sua velocidade possui módulo de",
+      "options": [
+        "√ 29 m/s",
+        "√ 30 m/s",
+        "√ 31 m/s",
+        "√ 32 m/s",
+        "√ 33 m/s"
+      ],
+      "answer": "A",
+      "annulled": false,
+      "supportImage": [
+        "/provas/efomm/2025/dia-2-q38-fig1.png"
+      ],
+      "support": "Adote g = 10 m/s² para a aceleração da gravidade, salvo indicação contrária."
+    },
+    {
+      "number": 39,
+      "page": 27,
+      "subject": "Física",
+      "text": "Em um laboratório de física, os experimentos de termodinâmica são realizados utilizando o gás oxigênio (O₂) ou o gás hélio (He) — que sob certas condições, comportam-se como gases ideais. O gráfico abaixo representa o módulo do trabalho, por mol, durante o aquecimento adiabático de um destes gases. O valor indicado no eixo vertical está em termos de R, a constante universal dos gases, em unidades do SI. Com base nos dados apresentados, analise as sentenças abaixo. I. Durante o experimento, foi utilizado o gás oxigênio. II. Durante o aquecimento adiabático, ocorre uma expansão do gás. III. Em um processo isobárico que provocasse uma elevação de 100 °C na temperatura deste gás, o módulo do trabalho realizado seria de 100R J/mol. São verdadeiras as sentenças:",
+      "options": [
+        "I.",
+        "II.",
+        "III.",
+        "I e II.",
+        "I e III."
+      ],
+      "answer": "E",
+      "annulled": false,
+      "supportImage": [
+        "/provas/efomm/2025/dia-2-q39-fig1.png"
+      ],
+      "support": "Adote g = 10 m/s² para a aceleração da gravidade, salvo indicação contrária."
+    },
+    {
+      "number": 40,
+      "page": 28,
+      "subject": "Física",
+      "text": "Um certo gás ideal atua como substância de trabalho em uma certa máquina térmica. Em um ciclo, o gás passa pelos processos termodinâmicos apresentados no diagrama PxV abaixo, nesta ordem: uma expansão adiabática, seguida por uma compressão isobárica e terminando com um aquecimento isovolumétrico. Calcule o rendimento da máquina.",
+      "options": [
+        "106/155",
+        "134/155",
+        "28/155",
+        "24/31",
+        "31/42"
+      ],
+      "answer": "A/B/C/D/E",
+      "annulled": true,
+      "supportImage": [
+        "/provas/efomm/2025/dia-2-q40-fig1.png"
+      ],
+      "support": "Adote g = 10 m/s² para a aceleração da gravidade, salvo indicação contrária."
+    }
+  ]
+}

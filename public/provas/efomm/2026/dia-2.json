@@ -1,0 +1,668 @@
+{
+  "slug": "efomm-2026-dia-2",
+  "title": "EFOMM 2026 · 2º dia · Prova branca",
+  "year": 2026,
+  "day": 2,
+  "contentVersion": 1,
+  "questions": [
+    {
+      "number": 1,
+      "page": 2,
+      "subject": "Matemática",
+      "text": "Durante uma aula de Matemática, o professor propôs um desafio aos alunos: construir uma matriz quadrada A de ordem 4 a partir de diferentes progressões numéricas, com o objetivo de compreender melhor os conceitos de determinante e invertibilidade de matrizes. Além disso, o professor ressaltou a importância de ferramentas matemáticas como o Teorema de Laplace, que permite o cálculo do determinante de matrizes de ordem superior a 2 por meio da expansão por cofatores. Essa técnica é especialmente útil quando outras abordagens (c omo transformações elementares) se tornam trabalhosas ou inviáveis. O teorema permite escolher uma linha ou coluna estratégica para facilitar os cálculos, tomando-o uma ferramenta poderosa no estudo da Álgebra Linear. Para o exercício, os alunos devem montar a matriz A, obedecendo às seguintes regras: • A 1ª linha da matriz deve ser uma progressão aritmética (PA) de razão 5, cujo primeiro termo é 2. • A 2ª linha deve ser formada por uma progressão geométrica (PG) de razão 3, cujo primeiro termo é 1. • A 3ª linha deve seguir uma progressão aritmética (PA) de razão 7, com termo inicial igual a4. • A 4ª linha deve conter uma progressão geométrica (PG) de razão 2, iniciando com o termo 3. Com base nas informações acima, monte todos os elementos da matriz A, utilizando as propriedades das progressões indicadas. Usando o Teorema de Laplace, ou outro método de sua preferência, calcule o determinante com valor absoluto da matriz A.",
+      "options": [
+        "0",
+        "72",
+        "1176",
+        "3240",
+        "4176"
+      ],
+      "answer": "B",
+      "annulled": false
+    },
+    {
+      "number": 2,
+      "page": 3,
+      "subject": "Matemática",
+      "text": "Durante uma aula de Navegação na EFOMM, o professor apresenta aos alunos um desafio matemático baseado em precisão de medições com instrumentos náuticos. Um aluno usa um divisor para medir um segmento de 9 milhas náuticas representado em uma carta náutica. Ele decide fazer um exercício de precisão: Divide esse segmento em 3 partes iguais e remove a parte central; Com os dois segmentos restantes, repete o mesmo processo, retirando novamente suas partes centrais; e Esse processo se repete indefinidamente com os novos segmentos restantes. Com base nesse processo, qual será a soma total das distâncias retiradas após infinitas repetições?",
+      "options": [
+        "2 milhas náuticas.",
+        "3 milhas náuticas.",
+        "6 milhas náuticas.",
+        "8 milhas náuticas.",
+        "9 milhas náuticas."
+      ],
+      "answer": "E",
+      "annulled": false
+    },
+    {
+      "number": 3,
+      "page": 3,
+      "subject": "Matemática",
+      "text": "A Escola de Formação de Oficiais da Marinha Mercante (EFOMM) decidiu modernizar sua frota de navios de instrução e colocou à venda o Navio Sirius, cujo valor à vista é de R$ 150.000.000,00. Uma empresa de transporte marítimo, a \"Rotas Navegáveis\", tem a opção de dar uma entrada de R$ 65.000.000,00 e parcelar o restante em sete prestações dispostas em uma progressão geométrica. Ao fechar o negócio, a empresa foi informada de que a terceira parcela seria de R$ 9.600.000,00 e a quinta parcela seria de R$ 1.536.000,00. Quanto a empresa \"Rotas Navegáveis\" terá de desembolsar no total para adquirir o Navio Sirius?",
+      "options": [
+        "R$ 121.350.160,00",
+        "R$ 124.890.160,00",
+        "R$ 130.344.160,00",
+        "R$ 132.789.160,00",
+        "R$ 164.836.160,00"
+      ],
+      "answer": "E",
+      "annulled": false
+    },
+    {
+      "number": 4,
+      "page": 4,
+      "subject": "Matemática",
+      "text": "Durante uma missão de patrulhamento marítimo, dois navios da Marinha do Brasil - o Navio Garnier Sampaio e o Navio Bocaina - estão navegando em rotas definidas no espaço tridimensional, considerando latitude, longitude e altitude (d evido a sensores atmosféricos a bordo). A trajetória do Navio Garnier Sampaio está descrita por uma reta r, dada na forma vetorial: r: X = (1,2,−1) + t(2,−1,4), t ∈ ℝ O Navio Bocaina, por outro lado, reportou sua posição atual como sendo o ponto: P=(5,3,2) Com base nas informações acima, responda: Qual é a distância entre o Navio Bocaina (ponto P) e a rota do Navio Garnier Sampaio (reta r)?",
+      "options": [
+        "15√26/26",
+        "11√21/21",
+        "13√21/21",
+        "√3885/21",
+        "5√5/5"
+      ],
+      "answer": "D",
+      "annulled": false
+    },
+    {
+      "number": 5,
+      "page": 4,
+      "subject": "Matemática",
+      "text": "Em uma iniciativa da Marinha Mercante Brasileira para aprimorar a qualificação de seus tripulantes, uma pesquisa foi conduzida para investigar a quantidade de horas semanais que um grupo de nove funcionários dedicou a atividades de treinamento profissional em uma empresa de navegação parceira. Os dados registrados foram os seguintes: 5, 6, 7, 9, 10, 10, 12, 12, 14, 15 Com base nesses dados, o cálculo do desvio padrão e do desvio médio populacionais das horas de tr~inamento será de aproximadamente:",
+      "options": [
+        "desvio padrão: 10; desvio médio: 2,6.",
+        "desvio padrão: 3,16; desvio médio: 2,6.",
+        "desvio padrão: 3,16; desvio médio: 10.",
+        "desvio padrão: 2,6; desvio médio: 3,16.",
+        "desvio padrão: 2,6; desvio médio: 1O ."
+      ],
+      "answer": "A/B/C/D/E",
+      "annulled": true
+    },
+    {
+      "number": 6,
+      "page": 5,
+      "subject": "Matemática",
+      "text": "Em uma missão de logística transatlântica, a equipe de engenharia do cargueiro Atlàntis VI, da Marinha Mercante Brasileira, foi encarregada de simular o desempenho do navio em diferentes condições climáticas e de carga. O objetivo era prever o comportamento do sistema de propulsão do navio ao atravessar uma região turbulenta do oceano Atlântico, conhecida por seus redemoinhos e correntes contrárias. Durante os testes, os engenheiros perceberam que a força de propulsão líquida, ou seja, a força efetiva que impulsiona o navio para frente, descontadas as forças de resistência da água, variava com o tempo de forma não linear. Eles modelaram essa variação utilizando uma função matemática que relacionava o tempo x, a carga embarcada e à resistência hidrodinâmica do casco. Após vários ajustes, chegaram à seguinte expressão: (2x − 3/x²)⁹. Essa expressão representa a variação da força de propulsão líquida em função do tempo x, medida em unidades padronizadas ao longo da travessia. Sabendo que o termo independente de x ( aquele que representa um valor constante da força, sem depender diretamente do tempo) é essencial para avaliar a estabilidade média do navio durante a travessia, os engenheiros solicitaram seu cálculo. Com base nesse modelo, qual é o valor do termo independente de x na expansão da expressão acima?",
+      "options": [
+        "156381",
+        "132300",
+        "-124416",
+        "-145152",
+        "-967680"
+      ],
+      "answer": "D",
+      "annulled": false
+    },
+    {
+      "number": 7,
+      "page": 6,
+      "subject": "Matemática",
+      "text": "Em um estudo recente do Centro de Instrução Almirante Graça Aranha (CIAGA) sobre os hábitos de leitura dos alunos do primeiro e segundo ano da EFOMM (Escola de Formação de Oficiais da Marinha Mercante), foram avaliados os tempos médios diários que eles dedicam à leitura em suas disciplinas. Os dados coletados em uma amostra desses alunos revelaram que a média dos tempos de leitura diária é de 36 minutos, enquanto a maior parte deles dedica exatamente 30 minutos diários à leitura, o que representa a moda dos dados. mediana é crucial para entender a distribuição dos tempos de leitura, pois ela indica o valor central que divide o grupo ao meio, auxiliando na otimização dos planos de estudo. Com base nessas informações, estime o valor aproximado da mediana desse conjunto de dados de tempos de leitura, utilizando a relação empírica entre média, moda e mediana.",
+      "options": [
+        "31 minutos.",
+        "32 minutos.",
+        "33 minutos.",
+        "34 minutos.",
+        "35 minutos."
+      ],
+      "answer": "D",
+      "annulled": false
+    },
+    {
+      "number": 8,
+      "page": 6,
+      "subject": "Matemática",
+      "text": "Um balde em forma de tronco de cone, com altura de 1 m, raio do fundo de 0,3 m e raio do topo de 0,6 m, está sendo preenchido com água a uma taxa constante de 5 m3 /min. A água mantém a forma do tronco de cone enquanto enche o balde. A que taxa, aproximadamente, a altura da água está aumentando no instante em que ela atinge 0,5 m de altura?",
+      "options": [
+        "50/π m/min",
+        "27,5/π m/min",
+        "25/π m/min",
+        "12,5/π m/min",
+        "10/π m/min"
+      ],
+      "answer": "C",
+      "annulled": false
+    },
+    {
+      "number": 9,
+      "page": 7,
+      "subject": "Matemática",
+      "text": "Considere que você está participando de um desafio de lógica proposto pela EFOMM (Escola de Formação de Oficiais da Marinha Mercante), uma instituição de ensino superior militar do Brasil, responsável pela formação de Oficiais da Marinha Mercante. Para testar suas habilidades de raciocínio lógico e numérico, foi criada a sequência S(n), definida pelas seguintes etapas: • Liste todos os números PARES de 2 até n. • Elimine todos os múltiplos de 6 (exceto o 6), depois os múltiplos de 8 (e xceto o 8), e os múltiplos de 1O ( e xceto o 1O ). • Atribua a cada número sobrevivente, na ordem crescente, uma letra da sigla EFOMM, repetindo -a ciclicamente. Por exemplo: • S(l)= 2-+ E • S(2)= 4-+ F • S(3)= 6-+ O • S(4)= 8-+ M • S(5)= 10-+ M • S(6)= 14-+ E Qual é a letra, destacada nas opções abaixo, que está associada ao número 2026 dentro da sequência de sobreviventes?",
+      "options": [
+        "E",
+        "F",
+        "O",
+        "Primeiro M",
+        "Segundo M"
+      ],
+      "answer": "D",
+      "annulled": false
+    },
+    {
+      "number": 10,
+      "page": 8,
+      "subject": "Matemática",
+      "text": "Um terreno triangular equilátero possui, em seu interior, uma árvore plantada. As distâncias perpendiculares dessa árvore até cada um dos três lados do terreno medem 3m, 4m e 5m. Qual a área do terreno em metros quadrados?",
+      "options": [
+        "48√3 m²",
+        "36√3 m²",
+        "24√3 m²",
+        "24√2 m²",
+        "12√2 m²"
+      ],
+      "answer": "A",
+      "annulled": false
+    },
+    {
+      "number": 11,
+      "page": 8,
+      "subject": "Matemática",
+      "text": "Um navio está localizado no ponto (2, 1/2) de um mapa cartesiano, com coordenadas em quilômetros. Nesse mapa, as rotas marítimas estão representadas pela curva definida pela equação y² − x² + 4x − 8 = 0, considerando todos os pontos reais que satisfazem essa equação. Qual é a distância mínima, em quilômetros, entre o navio e essa rota marítima?",
+      "options": [
+        "0km",
+        "1km",
+        "1.5km",
+        "2km",
+        "2.5km"
+      ],
+      "answer": "C",
+      "annulled": false
+    },
+    {
+      "number": 12,
+      "page": 9,
+      "subject": "Matemática",
+      "text": "Um engenheiro projetou um componente metálico na forma de um sólido de revolução gerado pela rotação, em torno do eixo x, da região delimitada pela curva y = sec(x), pela reta horizontal y = 4 e pelas retas verticais x = π/3 e x = 5π/12. Com base nessa construção, determine o volume do sólido gerado.",
+      "options": [
+        "V = 4π²/3 + 2π",
+        "V = 4π²/3 − 2π",
+        "V = 3π²/4 − 2π",
+        "V = 2π²/3 + 2π",
+        "V = 2π²/3 − 2π"
+      ],
+      "answer": "B",
+      "annulled": false
+    },
+    {
+      "number": 13,
+      "page": 9,
+      "subject": "Matemática",
+      "text": "Imagine que você está imerso em um desafio de lógica inspirado pela grandeza do maior campeão do Brasil: o Palmeiras. Com seus impressionantes 12 títulos brasileiros, o clube paulista é uma força incontestável na história do nosso futebol e também um dos melhores times da América do Sul. De fato, entre 2015 e 2025, ninguém triunfou mais nesse período do que essa \"Nova Academia\", empilhando títulos com uma consistência notável. Sua tarefa é descobrir quantos anagramas diferentes podem ser formados a partir das letras da palavra \"PALMEIRAS\", mas com uma condição especial e rigorosa: nenhuma consoante pode aparecer consecutivamente. Qual das alternativas abaixo representa o número correto de anagramas que atendem a essa condição?",
+      "options": [
+        "720",
+        "960",
+        "1440",
+        "2880",
+        "5760"
+      ],
+      "answer": "C",
+      "annulled": false
+    },
+    {
+      "number": 14,
+      "page": 10,
+      "subject": "Matemática",
+      "text": "Uma empresa de telecomunicações pretende instalar um cabo entre uma estação E, loca1izada na margem oeste de um rio reto que possui 2 km de largura, e um ponto de destino D, situado na margem leste, 8 km rio abaixo em relação ao ponto da margem diretamente oposta a E. A instalação do cabo pode ser feita de duas maneiras: sob a água, atravessando o rio em linha reta até um ponto F, que pode ser escolhido livremente na margem leste, e, a partir desse ponto, por terra até o destino D, seguindo pela margem do rio. Sabe-se que o custo de instalação do cabo subaquático é 60% superior ao custo por quilômetro em terra firme. A empresa deseja escolher o ponto F de forma a minimizar o custo total da instalação. Nessas condições, a que distância aproximadamente, medida ao longo da margem leste, o ponto F deve ser posicionado em relação ao ponto de destino D, para que o custo total seja o menor possível? (Suponha as margens do rio retilíneas e paralelas).",
+      "options": [
+        "6,4 km",
+        "5,2 km",
+        "4,8 km",
+        "2,8 km",
+        "1,6 km"
+      ],
+      "answer": "A",
+      "annulled": false
+    },
+    {
+      "number": 15,
+      "page": 10,
+      "subject": "Matemática",
+      "text": "Sejam v e t números complexos, em que |v| = 2 e seu θ = 75°, enquanto t tem coordenadas no Plano de Argan-Gauss (−4,0). Sabe-se que o número complexo z satisfaz a equação z · v = t. Com base nessas informações, calcule z⁵ e assinale a alternativa correta.",
+      "options": [
+        "8(√6 + √2) + 8i(−√6 + √2)",
+        "8(−√6 + √2) + 8i(−√6 − √2)",
+        "8(−√6 + √2) + 8i(√6 + √2)",
+        "8(√6 − √2) + 8i(−√6 − √2)",
+        "8(−√6 − √2) + 8i(√6 − √2)"
+      ],
+      "answer": "E",
+      "annulled": false
+    },
+    {
+      "number": 16,
+      "page": 11,
+      "subject": "Matemática",
+      "text": "No processo de construção de embarcações, os estaleiros frequentemente projetam reservatórios com diferentes geometrias, buscando otimizar o espaço interno da embarcação e garantir estabilidade e eficiência.\nEm um determinado projeto, foi especificado um reservatório no formato de prisma triangular reto, que será instalado no porão de uma embarcação de médio porte. As dimensões desse reservatório foram definidas a partir de cálculos técnicos, sendo que a altura do prisma é igual a x₁x₂, e o triângulo que forma sua base possui base igual a x₃x₄ e altura x₅x₆.\nSabendo-se que x₁, x₂, x₃, x₄, x₅ e x₆ ∈ ℝ, tais que 2^x₁ = 4; 3^x₂ = 5; 4^x₃ = 6; 5^x₄ = 7; 6^x₅ = 8 e 7^x₆ = 9, calcule o volume desse reservatório, em metros cúbicos.",
+      "options": [
+        "2 m3",
+        "3 m3",
+        "4 m3",
+        "8 m3",
+        "9 m3"
+      ],
+      "answer": "B",
+      "annulled": false
+    },
+    {
+      "number": 17,
+      "page": 11,
+      "subject": "Matemática",
+      "text": "Uma escola com 120 alunos realizou uma pesquisa que informou sobre a prática de três esportes: Futebol, Basquete e Vôlei. Verificou-se que 65 alunos praticam Futebol, 50 praticam Basquete, 40 praticam Vôlei, 20 praticam Futebol e Basquete, 25 praticam Futebol e Vôlei, 15 praticam Basquete e Vôlei, 10 praticam os três esportes e 15 alunos não praticam nenhum esporte. Seja A a probabilidade de um aluno escolhido ao acaso praticar exatamente um dos esportes e B a probabilidade de um aluno escolhido ao acaso praticar pelo menos dois esportes, o resultado da expressão (A²/3) + 3B é aproximadamente:",
+      "options": [
+        "1,05",
+        "1,10",
+        "1,15",
+        "1,20",
+        "1,25"
+      ],
+      "answer": "B",
+      "annulled": false
+    },
+    {
+      "number": 18,
+      "page": 12,
+      "subject": "Matemática",
+      "text": "A soma dos quadrados das funções circulares seno, cosseno e tangente do arco 2π/5, sabendo-se que o lado do pentágono regular estrelado, inscrito em um círculo de raio unitário, é √(10 + 2√5)/2, vale:",
+      "options": [
+        "2(3 + √5/2)",
+        "3(2 + √5)",
+        "2(3 + √5)",
+        "3 + √5",
+        "2 + √5"
+      ],
+      "answer": "C",
+      "annulled": false
+    },
+    {
+      "number": 19,
+      "page": 12,
+      "subject": "Matemática",
+      "text": "Considerando que os vértices opostos de um paralelogramo são A = (0,b) e B = (4,−1), e que um outro vértice é C = (6,a), o valor de (a + b), sabendo-se que a reta que contém a diagonal que passa pelos pontos C e D tem equação x/y = 2, é:",
+      "options": [
+        "2",
+        "3",
+        "4",
+        "5",
+        "6"
+      ],
+      "answer": "E",
+      "annulled": false
+    },
+    {
+      "number": 20,
+      "page": 12,
+      "subject": "Matemática",
+      "text": "Uma escola está organizando um Conselho Escolar com os seguintes critérios: 3 professores, 2 estudantes e 1 responsável. Para tal, estão disponíveis: 6 professores (P₁ a P₆), 5 estudantes (E₁ a E₅) e 3 responsáveis (R₁ a R₃). Entretanto, existem duas restrições:\n– Se o professor P₁ for escolhido, o estudante E₁ não pode ser selecionado;\n– O responsável R₃ só pode participar se o professor P₆ também for escolhido.\nA quantidade de formas diferentes como esse conselho pode ser formado, respeitando as condições acima, é:",
+      "options": [
+        "404",
+        "420",
+        "440",
+        "460",
+        "480"
+      ],
+      "answer": "A",
+      "annulled": false
+    },
+    {
+      "number": 21,
+      "page": 13,
+      "subject": "Física",
+      "text": "A mostra um instante qualquer do movimento de 2 (dois) blocos idênticos com massas iguais e formato cúbico. Eles se ajustam sem folga na guia e podem se mover em linha reta sem atrito. Os blocos são conectados por uma barra rígida com lm de comprimento e massa desprezível. As conexões no topo de cada bloco são articuladas, o que permite a rotação da barra durante o movimento. O sistema é inicialmente colocado em repouso na configuração ilustrada em vista superior na . y LX O bloco da direita é lançado na direção y com velocidade inicial de 2 m/s, movimentando o outro bloco ao longo da direção x. . Escrevendo as equações da conservação de energia mecânica e do vínculo geométrico do problema, é possível fazer uma analogia entre o movimento _dos blocos e outro tipo de movimento bem conhecido. Assinale a alternativa que mais se aproxima do tempo necessário para que o bloco da esquerda chegue à extremidade direita.",
+      "options": [
+        "0,79 s",
+        "0,84 s",
+        "0,93 s",
+        "1,15 s",
+        "1,26 s"
+      ],
+      "answer": "A",
+      "annulled": false,
+      "supportImage": [
+        "/provas/efomm/2026/dia-2-q21-fig1.png",
+        "/provas/efomm/2026/dia-2-q21-fig2.png"
+      ],
+      "support": "Adote g = 10 m/s² para a aceleração da gravidade, salvo indicação contrária."
+    },
+    {
+      "number": 22,
+      "page": 14,
+      "subject": "Física",
+      "text": "A corda AC é inextensível, possui 4,5 m de comprimento e 3 kg de massa uniformemente distribuída. Um fio de massa desprezível é amarrado à corda em B, e se estende horizontalmente até uma roldana fixa. A porção AB da corda mede 2,5 m. A B e O fio é puxado lentamente para baixo em sua extremidade livre até que AB fonne um ângulo com a vertical cuja tangente vale 3/ 4. As porções AB e BC podem ser consideradas sempre retilíneas. A corda fica em repouso quando atinge a posição final mostrada na figura abaixo. A e._ O trabalho realizado pela força que puxa o fio vale:",
+      "options": [
+        "25/6 J",
+        "55/6 J",
+        "65/6 J",
+        "75/12 J",
+        "85/12 J"
+      ],
+      "answer": "C",
+      "annulled": false,
+      "supportImage": [
+        "/provas/efomm/2026/dia-2-q22-fig1.png",
+        "/provas/efomm/2026/dia-2-q22-fig2.png"
+      ],
+      "support": "Adote g = 10 m/s² para a aceleração da gravidade, salvo indicação contrária."
+    },
+    {
+      "number": 23,
+      "page": 15,
+      "subject": "Física",
+      "text": "Uma espira condutora circular está inserida em um campo magnético uniforme que varia linearmente com o tempo, dado por B⃗(t) = (B₀ + a²t) k̂, em que B₀ < 0 e a são constantes, e k̂ é o vetor unitário na direção do eixo z. A espira está contida no plano z = 0. Com base nessas informações, assinale a alternativa correta.",
+      "options": [
+        "Há um momento em que a corrente induzida na espira é nula.",
+        "A fe.m. induzida na espira é constante.",
+        "Um observador em um ponto de coordenada z positiva vê uma corrente induzida perconer a espira no sentido anti-horário.",
+        "A f.e.m. induzida depende apenas de a, e não do raio da espira",
+        "Se a constante a for multiplicada por 2, a f.e.m. induzida será dobrada."
+      ],
+      "answer": "B",
+      "annulled": false,
+      "support": "Adote g = 10 m/s² para a aceleração da gravidade, salvo indicação contrária."
+    },
+    {
+      "number": 24,
+      "page": 15,
+      "subject": "Física",
+      "text": "Um fio inextensível possui densidade linear de 0,4 × 10⁻³ kg/m e peso desprezível. Ele é fixado na parede em uma de suas extremidades e suporta uma massa de O, 1 kg na outra, conforme mostra figura. A porção horizontal do fio que vai desde sua conexão na parede até a roldana ideal mede 1O m. No instante t=O, uma força externa variável no tempo, com intensidade F = 0,01t² + 0,2t em unidades do S.I., e direcionada verticalmente para baixo, começa a agir sobre o bloco, que se mantém em repouso. Nesse mesmo instante, um pulso é propagado na corda a partir do ponto de contato com a roldana. O intervalo de tempo para que o pulso chegue à extremidade da corda presa na parede vale:",
+      "options": [
+        "(√108 − 10) s",
+        "(√107 − 10) s",
+        "(√106 − 10) s",
+        "(√105 − 10) s",
+        "(√104 − 10) s"
+      ],
+      "answer": "E",
+      "annulled": false,
+      "supportImage": [
+        "/provas/efomm/2026/dia-2-q24-fig1.png"
+      ],
+      "support": "Adote g = 10 m/s² para a aceleração da gravidade, salvo indicação contrária."
+    },
+    {
+      "number": 25,
+      "page": 16,
+      "subject": "Física",
+      "text": "Dois líquidos A e B, respectivamente com densidades ρ_A e ρ_B, estão em repouso no tubo em forma de U, de seção transversal uniforme e muito pequena, representado na imagem.\nAmbos os líquidos possuem o mesmo volume, que é igual ao volume da base do tubo, cujo comprimento vale L. O comprimento x, que mede a posição do contato entre os dois líquidos a partir da extremidade esquerda, vale:",
+      "options": [
+        "[(ρ_A + ρ_B)²/(8ρ_Aρ_B)] L",
+        "[ρ_A/(ρ_A + ρ_B)] L",
+        "[ρ_B/(ρ_A + ρ_B)] L",
+        "[2ρ_Aρ_B/(ρ_A + ρ_B)²] L",
+        "[2ρ_A²/(ρ_A + ρ_B)²] L"
+      ],
+      "answer": "B",
+      "annulled": false,
+      "supportImage": [
+        "/provas/efomm/2026/dia-2-q25-fig1.png"
+      ],
+      "support": "Adote g = 10 m/s² para a aceleração da gravidade, salvo indicação contrária."
+    },
+    {
+      "number": 26,
+      "page": 17,
+      "subject": "Física",
+      "text": "Um capacitor plano de placas paralelas, com área A e distância entre placas d, está completamente preenchido com 8 camadas de materiais dielétricos, todas com área A e espessura d /8. A constante dielétrica da primeira camada (próxima à placa inferior) é K 1 = 10, e cada constante dielétrica seguinte é metade da anterior. Se C é a capacitância 0 do capacitor no vácuo, qual é a capacitância total C do capacitor com os dielétricos?",
+      "options": [
+        "120C₀/255",
+        "100C₀/133",
+        "25C₀/254",
+        "2C₀/51",
+        "C₀/50"
+      ],
+      "answer": "A/B/C/D/E",
+      "annulled": true,
+      "support": "Adote g = 10 m/s² para a aceleração da gravidade, salvo indicação contrária."
+    },
+    {
+      "number": 27,
+      "page": 17,
+      "subject": "Física",
+      "text": "Um recipiente cilíndrico contém gás ideal e é vedado com um êmbolo móvel de massa desprezível. O êmbolo está sujeito à força elástica de uma mola ideal, e à pressão constante do ar exterior. Inicialmente, o gás ocupa 5 m3 e sua pressão vale , 100 kPa Enquanto passa a receber calor de uma fonte externa, expande-se de forma lenta o suficiente para que o êmbolo esteja sempre em equilíbrio de forças. Calcule o trabalho realizado pelo gás sabendo que o volume final no interior do cilindro é 15 m3 e a pressão final do gás é 200 kPa. Despreze a massa do êmbolo.",
+      "options": [
+        "1500 kJ",
+        "3000 kJ",
+        "4500 kJ",
+        "6000 kJ",
+        "7500 kJ"
+      ],
+      "answer": "A",
+      "annulled": false,
+      "supportImage": [
+        "/provas/efomm/2026/dia-2-q27-fig1.png"
+      ],
+      "support": "Adote g = 10 m/s² para a aceleração da gravidade, salvo indicação contrária."
+    },
+    {
+      "number": 28,
+      "page": 18,
+      "subject": "Física",
+      "text": "O ar contido no interior de um arranjo cilindro-pistão é considerado um gás ideal, e executa o ciclo descrito pelos processos reversíveis 1-2-3-4-5-1 em sistema fechado, conforme diagrama P × V (pressão × volume) mostrado abaixo.\nProcessos: 1-2 adiabático; 2-3 isovolumétrico; 3-4 isobárico; 4-5 adiabático; 5-1 isovolumétrico.\nSe m é a massa de ar contida no interior do cilindro e c_P e c_V são, respectivamente, os calores específicos a pressão e a volume constante durante todo o ciclo, analise as afirmativas abaixo.\nI. A eficiência termodinâmica (η) dessa máquina térmica é η = 1 − T_L/T_H, em que T_L é a temperatura mais baixa do ciclo e T_H é a temperatura mais elevada.\nII. O calor rejeitado pelo ar ocorre no processo 5-1, e o calor total recebido pelo sistema ocorre nos processos 2-3 e 3-4.\nIII. A variação de energia interna do ar no processo 3-4 é dada por mc_P(T₄ − T₃), em que T₄ é a temperatura no estado 4 e T₃ é a temperatura no estado 3.\nIV. O processo 4-5 é de expansão e o processo 1-2 é de compressão.\nAssinale a opção correta:",
+      "options": [
+        "Apenas as afinnativas TI e III são verdadeiras.",
+        "Apenas as afinnativas II, III e IV são verdadeiras.",
+        "Apenas as afirmativas I, II e IV são verdadeiras.",
+        "Apenas as afirmativas II e IV são verdadeiras.",
+        "Apenas as afirmativas I, III e IV são verdadeiras."
+      ],
+      "answer": "D",
+      "annulled": false,
+      "supportImage": [
+        "/provas/efomm/2026/dia-2-q28-fig1.png"
+      ],
+      "support": "Adote g = 10 m/s² para a aceleração da gravidade, salvo indicação contrária."
+    },
+    {
+      "number": 29,
+      "page": 19,
+      "subject": "Física",
+      "text": "Em uma praça de máquinas de um navio mercante, uma bateria de tensão constante igual a 120 V alimenta o circuito responsável pelo acionamento de uma bomba centrífuga acoplada a um motor elétrico. O motor elétrico é representado por uma resistência R_m = 5 Ω. É necessário que o eixo do motor gire a uma rotação angular ω para acionar a bomba. O motor tem rendimento de 80% e fornece uma potência mecânica relacionada ao torque τ e à rotação angular ω dada por P_m = τω. Sabendo que o torque exigido é constante e igual a 2,0 N · m, determine a rotação angular ω do eixo do motor em rad/s.",
+      "options": [
+        "1440",
+        "1324",
+        "1267",
+        "1198",
+        "1152"
+      ],
+      "answer": "E",
+      "annulled": false,
+      "support": "Adote g = 10 m/s² para a aceleração da gravidade, salvo indicação contrária."
+    },
+    {
+      "number": 30,
+      "page": 19,
+      "subject": "Física",
+      "text": "O coeficiente de atrito estático entre o bloco de massa m_A e a superfície do plano inclinado é √3/4. Para qual intervalo de valores da razão m_B/m_A o sistema fica em equilíbrio?",
+      "options": [
+        "(0, 3/4]",
+        "[√3/4, 3/4]",
+        "[1/8, 3/8]",
+        "[1/8, √3/8]",
+        "[1/8, 7/8]"
+      ],
+      "answer": "E",
+      "annulled": false,
+      "supportImage": [
+        "/provas/efomm/2026/dia-2-q30-fig1.png"
+      ],
+      "support": "Adote g = 10 m/s² para a aceleração da gravidade, salvo indicação contrária."
+    },
+    {
+      "number": 31,
+      "page": 20,
+      "subject": "Física",
+      "text": "Um cubo maciço é fixado no ponto A da esfera maciça de raio r da figura. Ambos possuem distribuição homogênea de massa. O sistema flutua em equilíbrio em um fluido de densidade ρ₁, ficando exposto à atmosfera apenas o volume da calota esférica determinada pelo ângulo α = ∠CBD = 120°.\nEm seguida, o conjunto é rotacionado de 180° em torno do eixo y e é colocado em equilíbrio em outro fluido de densidade ρ₂, situação na qual o cubo e a mesma calota esférica de ângulo α ficam, agora, submersos.\nMarque a opção que corresponde à razão ρ₂/ρ₁, sabendo que a razão entre o volume do cubo e o volume da esfera é 1/8, e que o volume do setor esférico BCAD é (4/3)πr³ sen²(α/4).\nObs.: O setor esférico é obtido realizando a rotação do setor circular ABC em torno do eixo z.",
+      "options": [
+        "1/3",
+        "1",
+        "3",
+        "9",
+        "27"
+      ],
+      "answer": "C",
+      "annulled": false,
+      "supportImage": [
+        "/provas/efomm/2026/dia-2-q31-fig1.png"
+      ],
+      "support": "Adote g = 10 m/s² para a aceleração da gravidade, salvo indicação contrária."
+    },
+    {
+      "number": 32,
+      "page": 21,
+      "subject": "Física",
+      "text": "Quatro partículas de massa m estão em repouso nos vértices de um quadrado de lado L e são conectadas por molas de constante elástica k e de comprimento natural L. As partículas são simultaneamente arremessadas em direção ao centro do quadrado com a mesma velocidade. Supondo que as partículas não colidam entre si, quanto valerá a frequência angular de oscilação do sistema?",
+      "options": [
+        "2√(k/m)",
+        "4√(k/m)",
+        "√(2k/m)",
+        "√(k/(2m))",
+        "√(2k/m)/2"
+      ],
+      "answer": "C",
+      "annulled": false,
+      "supportImage": [
+        "/provas/efomm/2026/dia-2-q32-fig1.png"
+      ],
+      "support": "Adote g = 10 m/s² para a aceleração da gravidade, salvo indicação contrária."
+    },
+    {
+      "number": 33,
+      "page": 21,
+      "subject": "Física",
+      "text": "Duas estrelas de massas M 1 e M 2 se movem apenas devido à atração gravitacional mútua, e descrevem órbitas circulares em torno do centro de massa do sistema A distância entre elas vale D . Se G é a constante da gravitação universal, o módulo da quantidade de movimento de cada estrela para um observador no referencial do centro de massa vale:",
+      "options": [
+        "√[G(M₁ + M₂)³/D]",
+        "M₁M₂√[G/(D(M₁ + M₂))]",
+        "√[GM₁M₂(M₁ + M₂)/D]",
+        "√[GM₁M₂(M₁² + M₂²)/(D(M₁ + M₂))]",
+        "√[(GM₁M₂/D)(M₁²/M₂ + M₂²/M₁)]"
+      ],
+      "answer": "B",
+      "annulled": false,
+      "support": "Adote g = 10 m/s² para a aceleração da gravidade, salvo indicação contrária."
+    },
+    {
+      "number": 34,
+      "page": 22,
+      "subject": "Física",
+      "text": "Uma banheira contém água fria e um brinquedo esférico de raio r, ambos à temperatura T_f. Uma mãe cuidadosa que prepara o banho de seu filho deseja ajustar a temperatura da água para um valor desejado T_d. Para fazê-lo, acrescenta água quente à temperatura T_q à banheira. Os calores específicos e as densidades da água e do brinquedo são, respectivamente, c_A e c_B, e ρ_A e ρ_B.\nDetermine o volume V_q da água quente que deve ser acrescentada ao sistema de modo que, após atingido equilíbrio térmico, a banheira esteja completamente cheia. Desconsidere perdas de energia via calor para o ambiente e suponha que a capacidade térmica da banheira é desprezível. A banheira é formada por dois sólidos: (i) um paralelepípedo de dimensões L, h e D; e (ii) um semicilindro de altura h e diâmetro D, conforme mostrado na figura.",
+      "options": [
+        "[4πr³(T_d − T_f)/(3(T_q − T_f))][3hD(8L + πD)/(32πr³) + ρ_Bc_B/(ρ_Ac_A) − 1]",
+        "[4πr³(T_d − T_f)/(3(T_q − T_f))][3hD(4L + πD)/(16πr³) + ρ_Bc_B/(ρ_Ac_A) − 1]",
+        "[4πr³(T_d − T_f)/(3(T_q − T_f))][3hD(8L + πD)/(32πr³) + ρ_Bc_B/(ρ_Ac_A)]",
+        "[4πr³(T_d − T_f)/(3(T_q − T_f))][3hD(4L + πD)/(16πr³) + ρ_Bc_B/(ρ_Ac_A)]",
+        "[4πr³(T_d − T_f)/(3(T_q − T_f))][3hD(8L + πD)/(16πr³) + ρ_Bc_B/(ρ_Ac_A)]"
+      ],
+      "answer": "A",
+      "annulled": false,
+      "supportImage": [
+        "/provas/efomm/2026/dia-2-q34-fig1.png"
+      ],
+      "support": "Adote g = 10 m/s² para a aceleração da gravidade, salvo indicação contrária."
+    },
+    {
+      "number": 35,
+      "page": 23,
+      "subject": "Física",
+      "text": "Duas fontes sonoras pontuais se movem em trajetórias circulares concêntricas de raios R₁ e R₂, com R₂ > R₁, e emitem ondas com potência constante e de mesma frequência. Suas velocidades angulares constantes valem ω₁ e ω₂, com ω₂ = 1,01ω₁. Um observador no centro das circunferências percebe:",
+      "options": [
+        "um som de volume oscilante com frequência de batimentos proporcional a (ω₁ + ω₂)/2.",
+        "um som de volume oscilante com frequência de batimentos proporcional a |(ω₁ − ω₂)/2|.",
+        "um som de volume oscilante, cuja frequência depende da relação entre R₁, R₂, ω₁ e ω₂.",
+        "um som com intensidade sonora constante e frequência igual à das fontes.",
+        "um som com intensidade sonora constante e frequência que pode ser maior ou menor do que a frequência das fontes."
+      ],
+      "answer": "D",
+      "annulled": false,
+      "support": "Adote g = 10 m/s² para a aceleração da gravidade, salvo indicação contrária."
+    },
+    {
+      "number": 36,
+      "page": 23,
+      "subject": "Física",
+      "text": "A análise cinemática de barcos em uma competição a remo pode ser realizada tratando-os como partículas que partem do repouso e se deslocam sobre a água em linha reta. Sabe-se que os alunos da EFOMM utilizam a estratégia de acelerar uniformemente o barco até atingir 54 km/h nos 1O s iniciais da competição; em seguida, manter a velocidade constante até atingir 3/4 da distância total do trajeto, instante em q~e passam a acelerar uniformemente até o final do trajeto, atingindo a velocidade final de 72 km/h. Sabendo que a velocidade média do barco é de 15 m/s, marque a opção que corresponde à distância total percorrida pelo barco.",
+      "options": [
+        "2100 m",
+        "2200 m",
+        "2300 m",
+        "2400 m",
+        "2500 m"
+      ],
+      "answer": "A",
+      "annulled": false,
+      "support": "Adote g = 10 m/s² para a aceleração da gravidade, salvo indicação contrária."
+    },
+    {
+      "number": 37,
+      "page": 24,
+      "subject": "Física",
+      "text": "Uma aluna da EFOMM utiliza uma chave de roda de massa desprezível, composta por duas barras cilíndricas entrecruzadas, e uma corda ideal para criar uma alavanca e puxar um carro quebrado. A corda é amarrada na árvore, passa pela parte inferior da barra horizontal, é enrolada algumas vezes entre as duas barras, sai pela parte superior da barra horizontal, e é presa ao carro. A chave é girada com velocidade angular constante de 3 rad/s e vai sendo enrolada na porção da corda que vai para a árvore, ao mesmo tempo em que puxa a outra porção da corda, que também se enrola sobre ela, e reboca o carro. O diâmetro das barras vale 2 cm, a distância entre o centro da barra horizontal e a extremidade superior da barra vertical vale 50 cm e não há deslizamento entre a corda e a chave de roda. No instante representado na figura, exibindo urna vista lateral da chave de roda, a força que gira a barra é paralela à corda, vai em direção à árvore e está sendo aplicada na extremidade superior da barra vertical. A corda está na horizontal. Como a massa da barra é desprezível, a soma das forças e dos torques que agem sobre ela é nula. Se a tensão na porção da corda que se prende à árvore vale 2940 N, a potência que a força externa transmite para o carro vale:",
+      "options": [
+        "88,2 W",
+        "91,8 W",
+        "180,0 W",
+        "176,4 W",
+        "183, 6 W"
+      ],
+      "answer": "E",
+      "annulled": false,
+      "supportImage": [
+        "/provas/efomm/2026/dia-2-q37-fig1.png",
+        "/provas/efomm/2026/dia-2-q37-fig2.png"
+      ],
+      "support": "Adote g = 10 m/s² para a aceleração da gravidade, salvo indicação contrária."
+    },
+    {
+      "number": 38,
+      "page": 25,
+      "subject": "Física",
+      "text": "Um observador parado em um ponto de ônibus vê um veículo se movimentar em um sentido na via, porém tem a sensação de que sua roda gira em sentido contrário ao do movimento. Este fenômeno deve-se ao fato de que a visão humana atualiza a imagem captada em intervalos de tempo discretos de aproximadamente 1/20 s em vez de perceber um movimento contínuo ao longo do tempo. Pode-se, portanto, notar a roda parada, girando lentamente no sentido correto, ou até mesmo girando no sentido oposto ao real. O observador, ao voltar sua atenção a um ponto da superfície externa do pneu, o percebe em uma nova posição angular após um intervalo de tempo de 1/20 s, como se houvesse um deslocamento de 1/9 rad no sentido contrário ao real. O raio do pneu externo é de 18 cm e o veículo está em movimento retilíneo uniforme dentro do limite de velocidade vₘₐₓ = 108 km/h da via. Utilize π = 3 e marque a opção que corresponde à velocidade do veículo.",
+      "options": [
+        "14,64 km/h",
+        "25,24 km/h",
+        "54,00 km/h",
+        "73,44 km/h",
+        "92,50 km/h"
+      ],
+      "answer": "D",
+      "annulled": false,
+      "support": "Adote g = 10 m/s² para a aceleração da gravidade, salvo indicação contrária."
+    },
+    {
+      "number": 39,
+      "page": 26,
+      "subject": "Física",
+      "text": "Um condutor esférico de raio desprezível, carregado positivamente com carga Q, está fixado ao solo horizontal em um ponto O, sendo considerado uma carga puntiforme. Uma carga de prova q>O, de massa m, é inicialmente colocada em repouso no ponto A do solo, localizado a uma distância d do ponto O. A partir do ponto A, inicia-se uma rampa retilínea cujo menor ângulo com a horizontal vale θ . Seja B um ponto da rampa também situado à distância d de A. A carga q é liberada e sobe pela rampa sob a ação da força elétrica repulsiva proveniente de Q e da força gravitacional. Desprezando qualquer tipo de atrito ou dissipação, determine o módulo da velocidade da carga q ao chegar ao ponto B em função dos dados do problema. Dados: constante eletrostática k, aceleração da gravidade g.",
+      "options": [
+        "v = √[(2kQq/(md))(1 + 1/√(2(1 − cos θ))) − 2gd sen θ]",
+        "v = √[(2kQq/(md))(1 − 1/√(2(1 − cos θ))) + 2gd sen θ]",
+        "v = √[(2kQq/(md))(1 − 1/√(2(1 − cos θ))) − 2gd sen θ]",
+        "v = √[(2kQq/(md))(1 − 1/√(2(1 + cos θ))) − 2gd sen θ]",
+        "v = √[(2kQq/(md))(1 + 1/√(2(1 + cos θ))) − 2gd sen θ]"
+      ],
+      "answer": "D",
+      "annulled": false,
+      "support": "Adote g = 10 m/s² para a aceleração da gravidade, salvo indicação contrária."
+    },
+    {
+      "number": 40,
+      "page": 27,
+      "subject": "Física",
+      "text": "Uma esfera de raio desprezível, considerada uma partícula, está grudada na extremidade de uma barra rígida e articulada, de comprimento L e de massa desprezível, que se encontra na posição vertical. Um bloco está encostado na partícula, e o sistema está inicialmente em repouso. A aceleração da gravidade vale g, e a força que a barra exerce sobre a partícula tem sempre a mesma direção da barra. e O sistema é retirado do equilíbrio por um ínfimo deslocamento angular da partícula para a direita, que é, em seguida, solta para se mover sob ação da gravidade. O bloco passa a ser empurrado para a direita pela partícula, transladando sem girar. No instante em que o contato entre a partícula e o bloco é perdido, a barra faz um ângulo θ com a horizontal. A velocidade do bloco nesse momento vale:",
+      "options": [
+        "√(Lg sen θ)",
+        "√(Lg sen³θ)",
+        "√(Lg cos θ)",
+        "√(Lg cos(2θ))",
+        "√(Lg sen(2θ))"
+      ],
+      "answer": "B",
+      "annulled": false,
+      "supportImage": [
+        "/provas/efomm/2026/dia-2-q40-fig1.png"
+      ],
+      "support": "Adote g = 10 m/s² para a aceleração da gravidade, salvo indicação contrária."
+    }
+  ]
+}
