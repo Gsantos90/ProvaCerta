@@ -9,7 +9,7 @@ export function attemptSource(attempt) {
   const rules = [
     ['pism', /^(PISM\b|20\d{2}(?:-[12])?$)/i], ['enem', /^ENEM\b/i],
     ['bb', /^Banco do Brasil\b/i], ['cnu', /^CNU\b/i], ['oab', /^OAB\b/i],
-    ['pmrj', /^PMERJ\b/i], ['correios', /^Correios\b/i], ['inss', /^INSS\b/i],
+    ['pmrj', /^PMERJ\b/i], ['correios', /^Correios\b/i], ['inss', /^INSS\b/i], ['ebserh', /^EBSERH\b/i],
     ['caixa', /^CAIXA\b/i], ['pc', /^Polícia Civil\b/i], ['pf', /^Polícia Federal\b/i],
     ['esa', /^ESA\b/i], ['espcex', /^EsPCEx\b/i], ['efomm', /^EFOMM\b/i],
     ['uerj', /^UERJ\b/i], ['usp', /^USP\b/i], ['ita', /^ITA\b/i],

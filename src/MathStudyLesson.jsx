@@ -10,6 +10,25 @@ function Diagram({ title, children }) {
   const id = useId()
   return <svg className="math-diagram" viewBox="0 0 400 240" role="img" aria-labelledby={id}><title id={id}>{title}</title>{children}</svg>
 }
+function Percentages() {
+  const [base, setBase] = useState(200)
+  const [rate, setRate] = useState(25)
+  const [mode, setMode] = useState('part')
+  const part = base * rate / 100
+  const result = mode === 'increase' ? base + part : mode === 'discount' ? base - part : part
+  return <>
+    <p>Cada quadradinho representa 1% da base. Mude a taxa e observe quantos ficam preenchidos; depois compare o valor da parte com o valor final após um reajuste.</p>
+    <label className="math-select">O que calcular<select value={mode} onChange={event => setMode(event.target.value)}><option value="part">Parte do total</option><option value="increase">Valor após aumento</option><option value="discount">Valor após desconto</option></select></label>
+    <Slider label="Base: valor que representa 100%" min={0} max={1000} step={10} value={base} onChange={setBase} />
+    <Slider label="Taxa (%)" min={0} max={100} value={rate} onChange={setRate} />
+    <Diagram title={`${rate} de 100 quadradinhos preenchidos. ${rate}% de ${number(base)} = ${number(part)}.`}>
+      {Array.from({length:100},(_,index) => <rect key={index} x={105+(index%10)*19} y={12+Math.floor(index/10)*19} width="16" height="16" rx="2" style={{fill:index<rate?'#2563eb':'#e2e8f0',stroke:'#64748b',strokeWidth:0.4}} />)}
+      <text x="200" y="225" textAnchor="middle">{rate} de cada 100 partes iguais</text>
+    </Diagram>
+    <output className="math-result" aria-live="polite">{mode === 'part' ? `${number(base)} × ${number(rate/100)} = ${number(result)}` : `${number(base)} ${mode === 'increase' ? '+' : '−'} ${number(part)} = ${number(result)}`}</output>
+    <p>{rate}% da base correspondem a {number(part)}. {mode === 'part' ? 'Esse é o valor da parte, não o total após um reajuste.' : `O valor final representa ${mode === 'increase' ? 100+rate : 100-rate}% da base inicial.`} {base === 0 ? 'Com base zero, qualquer parte percentual calculada por multiplicação também é zero.' : rate === 0 ? 'Com taxa de 0%, a parte é zero para qualquer base.' : 'A mesma taxa aplicada a uma base maior produz uma parte maior.'}</p>
+  </>
+}
 function Proportions() {
   const [inverse, setInverse] = useState(false)
   const [quantity, setQuantity] = useState(8)
@@ -84,7 +103,7 @@ function Probability() {
     {!chances ? <p role="status">{replacement ? 'Inclua ao menos uma bola.' : 'Inclua ao menos duas bolas para realizar duas retiradas sem reposição.'}</p> : <><div className="math-probability-paths"><div><strong>Caminho azul → azul</strong><p>{blue}/{total} × {replacement ? blue : Math.max(0,blue-1)}/{replacement ? total : total-1} = {number(chances.blueBlue*100)}%</p></div><div><strong>Caminho vermelha → vermelha</strong><p>{red}/{total} × {replacement ? red : Math.max(0,red-1)}/{replacement ? total : total-1} = {number(chances.redRed*100)}%</p></div></div><output className="math-result" aria-live="polite">Duas da mesma cor: {number((chances.blueBlue+chances.redRed)*100)}%</output><p>{replacement ? 'A urna volta ao estado inicial: as probabilidades da segunda retirada permanecem iguais.' : 'A primeira bola sai da urna. O total diminui em 1 e a quantidade da cor retirada também diminui em 1.'} Cores e legendas identificam os grupos; não há sorteio simulado.</p></>}
   </>
 }
-const explorers = { 'regra-de-tres': Proportions, funcoes: Functions, geometria: Geometry, estatistica: Statistics, probabilidade: Probability }
+const explorers = { porcentagem: Percentages, 'regra-de-tres': Proportions, funcoes: Functions, geometria: Geometry, estatistica: Statistics, probabilidade: Probability }
 function Challenges({ questions }) {
   const [answers,setAnswers] = useState({})
   const id = useId()

@@ -13,11 +13,8 @@ export default function BombeirosExamCard({onStart, loading, error}) {
         <label>Ano da prova<span className="select-wrap"><select value={year} onChange={e=>setYear(e.target.value)} disabled={loading}>{['2026','2025','2024','2023'].map(y=><option key={y} value={y}>{y}</option>)}</select><ChevronDown size={16}/></span></label>
         {Number(year)>2024&&<label>Língua estrangeira<span className="select-wrap"><select value={language} onChange={e=>setLanguage(e.target.value)} disabled={loading}><option value="ingles">Inglês</option><option value="espanhol">Espanhol</option></select><ChevronDown size={16}/></span></label>}
       </div>
-      <p className="enem-note">{Number(year)<=2024?'100 questões · FGV · Tipo 1 (Branca) · Inglês.':'80 questões · UERJ · Gabarito definitivo.'}</p>
-      {year==='2023'&&<p className="enem-note">CFO 2023 · Prova aplicada em 27/11/2022.</p>}
       {error&&<p className="api-error" role="alert">{error}</p>}
       <button className={`button ${loading?'disabled':'primary'} full`} disabled={loading} onClick={()=>onStart(`cbmerj-${year}-cfo${Number(year)<=2024?'':'-'+language}`)}>{loading?'Carregando questões…':'Começar prova'}{!loading&&<ArrowRight size={17}/>}</button>
-      <a className="official-source" href={Number(year)<=2024?`https://conhecimento.fgv.br/concursos/${year==='2023'?'cbmerj22':'cbmerj23'}`:`https://www.vestibular.uerj.br/?page_id=${year==='2026'?'14964':'16355'}`} target="_blank" rel="noopener noreferrer">Consultar publicação oficial</a>
     </div>
   </article>
 }

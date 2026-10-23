@@ -1,0 +1,3131 @@
+[
+  {
+    "id": "pism-2024-i-matematica-11",
+    "year": 2024,
+    "module": "I",
+    "slug": "pism-2023-1",
+    "number": 11,
+    "subject": "Matemática",
+    "subjectId": "matematica",
+    "text": "Um salão retangular está sendo ladrilhado com peças hexagonais regulares. O pedreiro já assentou a primeira fila, como é possível ver na figura a seguir: Os triângulos são recortes da peça hexagonal buscando ter a menor perda de material possível. Pelos cálculos do pedreiro, a sala totalmente ladrilhada terá 7 filas como esta. O número mínimo de peças de ladrilhos hexagonais que devem ser comprados para cobrir completamente o chão da sala é",
+    "options": [
+      "28.",
+      "32.",
+      "38.",
+      "40.",
+      "42."
+    ],
+    "answer": "B/C",
+    "day": 1,
+    "sourceUrl": "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2023/12/PROVA-PISM-2024-DIA_1-M%C3%93DULO_I.pdf",
+    "answerSource": "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2024/01/GABARITO-PISM-2024-OBJETIVA-D1-P1_apos-recurso.pdf",
+    "supportImages": [
+      "/pism-apoios/pism-2023-1-q11-pagina-11.png"
+    ]
+  },
+  {
+    "id": "pism-2024-i-matematica-12",
+    "year": 2024,
+    "module": "I",
+    "slug": "pism-2023-1",
+    "number": 12,
+    "subject": "Matemática",
+    "subjectId": "matematica",
+    "text": "Considere os números m, n e p representados, respectivamente, pelos pontos M, N e P na reta real abaixo. O número m · n − p pertence ao intervalo",
+    "options": [
+      "]−∞, −1[",
+      "]−1,0[",
+      "]0,1[",
+      "]1,2[",
+      "]2, +∞["
+    ],
+    "answer": "A",
+    "day": 1,
+    "sourceUrl": "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2023/12/PROVA-PISM-2024-DIA_1-M%C3%93DULO_I.pdf",
+    "answerSource": "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2024/01/GABARITO-PISM-2024-OBJETIVA-D1-P1_apos-recurso.pdf",
+    "supportImages": [
+      "/pism-apoios/pism-2023-1-q12-pagina-11.png"
+    ]
+  },
+  {
+    "id": "pism-2024-i-matematica-13",
+    "year": 2024,
+    "module": "I",
+    "slug": "pism-2023-1",
+    "number": 13,
+    "subject": "Matemática",
+    "subjectId": "matematica",
+    "text": "Um laboratório está analisando dois tipos de materiais, cujas massas em função do tempo t, em dias contados a partir do início da observação, são dadas, em gramas, por f(t) = (1/9)^(t+3) e g(t) = (1/27)^(2t−6). Depois de quantos dias após o início da observação os dois materiais terão a mesma massa?",
+    "options": [
+      "3",
+      "5",
+      "6",
+      "9",
+      "15"
+    ],
+    "answer": "C",
+    "day": 1,
+    "sourceUrl": "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2023/12/PROVA-PISM-2024-DIA_1-M%C3%93DULO_I.pdf",
+    "answerSource": "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2024/01/GABARITO-PISM-2024-OBJETIVA-D1-P1_apos-recurso.pdf",
+    "supportImages": []
+  },
+  {
+    "id": "pism-2024-i-matematica-14",
+    "year": 2024,
+    "module": "I",
+    "slug": "pism-2023-1",
+    "number": 14,
+    "subject": "Matemática",
+    "subjectId": "matematica",
+    "text": "Em um jogo de vôlei, o levantador de um time toca a bola no ponto A quando ela está a 2 metros de altura do chão e faz um levantamento paralelo à rede, acionando um de seus atacantes. A bola perfaz uma trajetória parabólica, como esboçado na figura, atingindo seu ponto mais alto a 3,35 metros de altura do chão, no ponto B, e o atacante golpeia a bola no ponto C. A que altura, em metros, do chão a bola está quando o atacante a toca?",
+    "options": [
+      "2,25",
+      "2,75",
+      "3,05",
+      "3,20",
+      "3,35"
+    ],
+    "answer": "D",
+    "day": 1,
+    "sourceUrl": "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2023/12/PROVA-PISM-2024-DIA_1-M%C3%93DULO_I.pdf",
+    "answerSource": "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2024/01/GABARITO-PISM-2024-OBJETIVA-D1-P1_apos-recurso.pdf",
+    "supportImages": [
+      "/pism-apoios/pism-2023-1-q14-pagina-12.png"
+    ]
+  },
+  {
+    "id": "pism-2024-i-matematica-15",
+    "year": 2024,
+    "module": "I",
+    "slug": "pism-2023-1",
+    "number": 15,
+    "subject": "Matemática",
+    "subjectId": "matematica",
+    "text": "No triângulo ABC, retângulo em B, constrói-se o retângulo DEFG de diagonal 10 cm, conforme a figura. O lado AD do triângulo AED mede 9 cm e o lado GC do triângulo GFC mede 4 cm. A área do retângulo DEFG, em centímetros quadrados, mede",
+    "options": [
+      "28.",
+      "48.",
+      "60.",
+      "80.",
+      "87."
+    ],
+    "answer": "B",
+    "day": 1,
+    "sourceUrl": "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2023/12/PROVA-PISM-2024-DIA_1-M%C3%93DULO_I.pdf",
+    "answerSource": "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2024/01/GABARITO-PISM-2024-OBJETIVA-D1-P1_apos-recurso.pdf",
+    "supportImages": [
+      "/pism-2023-1-questao-15.png"
+    ]
+  },
+  {
+    "id": "pism-2024-i-quimica-16",
+    "year": 2024,
+    "module": "I",
+    "slug": "pism-2023-1",
+    "number": 16,
+    "subject": "Química",
+    "subjectId": "quimica",
+    "text": "Os sais inorgânicos são uma classe de substâncias comumente encontradas em nosso cotidiano, como, por exemplo, o cloreto de sódio (sal de cozinha), o sulfato de cálcio (giz) e o bicarbonato de amônio (sal amoníaco). A partir das afirmações sobre a estrutura desses compostos assinale a alternativa INCORRETA.",
+    "options": [
+      "O amônio é um cátion de fórmula NH4+, formado por quatro átomos de hidrogênio e um átomo de nitrogênio e possuindo carga elétrica positiva igual a +1.",
+      "O bicarbonato é um ânion de fórmula HCO3-, formado por três elementos químicos diferentes e possuindo carga elétrica igual a -1.",
+      "O cálcio é um metal que forma um cátion de fórmula Ca2+, formado por apenas um átomo de cálcio e possuindo carga elétrica igual a +2.",
+      "O cloreto é um ânion de fórmula Cl-, formado por apenas um átomo de cloro e possuindo carga elétrica igual a -1.",
+      "O sulfato é um ânion de fórmula SO4 2-, constituído de 4 átomos de sódio e possuindo carga elétrica igual a -2."
+    ],
+    "answer": "E",
+    "day": 1,
+    "sourceUrl": "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2023/12/PROVA-PISM-2024-DIA_1-M%C3%93DULO_I.pdf",
+    "answerSource": "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2024/01/GABARITO-PISM-2024-OBJETIVA-D1-P1_apos-recurso.pdf",
+    "supportImages": [
+      "/pism-apoios/pism-2023-1-q16-pagina-13.png"
+    ]
+  },
+  {
+    "id": "pism-2024-i-quimica-17",
+    "year": 2024,
+    "module": "I",
+    "slug": "pism-2023-1",
+    "number": 17,
+    "subject": "Química",
+    "subjectId": "quimica",
+    "text": "A água sólida (gelo) funde na temperatura constante de 0 °C. No entanto, durante a fusão, uma fonte externa deve fornecer calor para que todo o gelo se transforme em água líquida. Processo semelhante ocorre em 100°C quando, durante a ebulição, a água líquida se transforma em gás. A partir dessas informações assinale a alternativa INCORRETA.",
+    "options": [
+      "A energia cinética média das moléculas após a fusão é menor do que a energia cinética média das moléculas após a ebulição.",
+      "Após o processo de fusão a energia cinética das moléculas pode aumentar pelo aumento da temperatura do líquido.",
+      "Durante a fusão toda a energia absorvida é usada na quebra das ligações de hidrogênio no sólido.",
+      "No estado líquido as moléculas de água não estão ligadas entre si por ligações de hidrogênio, pois todas as ligações intermoleculares foram rompidas.",
+      "No gelo todas as moléculas de água estão ligadas umas às outras por ligações de hidrogênio, não havendo molécula livre."
+    ],
+    "answer": "D",
+    "day": 1,
+    "sourceUrl": "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2023/12/PROVA-PISM-2024-DIA_1-M%C3%93DULO_I.pdf",
+    "answerSource": "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2024/01/GABARITO-PISM-2024-OBJETIVA-D1-P1_apos-recurso.pdf",
+    "supportImages": [
+      "/pism-apoios/pism-2023-1-q16-pagina-13.png"
+    ]
+  },
+  {
+    "id": "pism-2024-i-quimica-18",
+    "year": 2024,
+    "module": "I",
+    "slug": "pism-2023-1",
+    "number": 18,
+    "subject": "Química",
+    "subjectId": "quimica",
+    "text": "A tabela periódica é uma ferramenta muito útil para a classificação dos elementos químicos. Nela, os elementos estão organizados em ordem crescente de _____________, em colunas verticais chamadas de ________ e em fileiras horizontais conhecidas como ______. Por exemplo, o elemento químico fósforo encontra-se localizado no ____________ da tabela. Indique a alternativa que completa corretamente o texto acima:",
+    "options": [
+      "Massa atômica, linhas, grupos, terceiro grupo.",
+      "Número atômico, períodos, grupos, segundo grupo.",
+      "Número de elétrons, isótopos, linhas, segundo grupo.",
+      "Número de massa, grupos, períodos, segundo período.",
+      "Número de prótons, grupos, períodos, terceiro período."
+    ],
+    "answer": "E",
+    "day": 1,
+    "sourceUrl": "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2023/12/PROVA-PISM-2024-DIA_1-M%C3%93DULO_I.pdf",
+    "answerSource": "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2024/01/GABARITO-PISM-2024-OBJETIVA-D1-P1_apos-recurso.pdf",
+    "supportImages": [
+      "/pism-apoios/pism-2023-1-q16-pagina-13.png"
+    ]
+  },
+  {
+    "id": "pism-2024-i-quimica-19",
+    "year": 2024,
+    "module": "I",
+    "slug": "pism-2023-1",
+    "number": 19,
+    "subject": "Química",
+    "subjectId": "quimica",
+    "text": "O aumento de temperatura em alimentos ou bebidas causa alterações que podem ser classificadas como transformações físicas ou químicas. Considere os seguintes processos: I . Assar um bolo II . Adoçar um café III . Derreter uma pedra de gelo IV . Cozinhar um ovo Cada um desses processos I, II, III e IV corresponde a um tipo de transformação classificada respectivamente como:",
+    "options": [
+      "física, física, química e química.",
+      "física, química, física e física.",
+      "química, física, física e química.",
+      "química, física, química e física.",
+      "química, química, física e química."
+    ],
+    "answer": "C",
+    "day": 1,
+    "sourceUrl": "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2023/12/PROVA-PISM-2024-DIA_1-M%C3%93DULO_I.pdf",
+    "answerSource": "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2024/01/GABARITO-PISM-2024-OBJETIVA-D1-P1_apos-recurso.pdf",
+    "supportImages": [
+      "/pism-apoios/pism-2023-1-q16-pagina-13.png"
+    ]
+  },
+  {
+    "id": "pism-2024-i-quimica-20",
+    "year": 2024,
+    "module": "I",
+    "slug": "pism-2023-1",
+    "number": 20,
+    "subject": "Química",
+    "subjectId": "quimica",
+    "text": "Propriedades físicas como o ponto de fusão, ponto de ebulição e densidade são propriedades específicas das substâncias e por isso podem ser utilizadas tanto para diferenciá-las quanto para identificá-las. Abaixo estão mostrados três tubos de ensaio de mesmo tamanho e diâmetro. Cada um contém a mesma massa de água, etanol anidro e etanol hidratado, porém não se sabe em qual tubo encontram-se cada uma das substâncias, uma vez que todas são incolores e translúcidas. Sabendo-se que na mesma temperatura de 20 °C a densidade da água é 0,998 g mL-1, do etanol anidro é 0,789 g mL-1 e do etanol hidratado 0,812 g mL-1, qual substância encontra-se nos tubos 1,2 e 3, respectivamente?",
+    "options": [
+      "Água, etanol anidro e etanol hidratado.",
+      "Água, etanol hidratado, etanol anidro.",
+      "Etanol anidro, água e etanol hidratado.",
+      "Etanol anidro, etanol hidratado e água.",
+      "Etanol hidratado, água e etanol anidro."
+    ],
+    "answer": "D",
+    "day": 1,
+    "sourceUrl": "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2023/12/PROVA-PISM-2024-DIA_1-M%C3%93DULO_I.pdf",
+    "answerSource": "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2024/01/GABARITO-PISM-2024-OBJETIVA-D1-P1_apos-recurso.pdf",
+    "supportImages": [
+      "/pism-apoios/pism-2023-1-q20-pagina-15.png"
+    ]
+  },
+  {
+    "id": "pism-2024-i-fisica-11",
+    "year": 2024,
+    "module": "I",
+    "slug": "pism-2023-2",
+    "number": 11,
+    "subject": "Física",
+    "subjectId": "fisica",
+    "text": "A figura abaixo mostra o gráfico da velocidade instantânea em função do tempo para um pequeno avião monomotor que sobrevoa a cidade de Juiz de Fora. Encontre a distância total percorrida pelo avião no intervalo entre t = 0 e t = 10 s.",
+    "options": [
+      "150 m",
+      "200 m",
+      "300 m",
+      "350 m",
+      "400 m"
+    ],
+    "answer": "D",
+    "day": 2,
+    "sourceUrl": "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2023/12/PROVA-PISM-2024-DIA_2-M%C3%93DULO_I.pdf",
+    "answerSource": "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2023/12/GABARITO-PISM-2024-OBJETIVA-D2-P1.pdf",
+    "supportImages": [
+      "/pism-apoios/pism-2023-2-q11-pagina-9.png"
+    ]
+  },
+  {
+    "id": "pism-2024-i-fisica-12",
+    "year": 2024,
+    "module": "I",
+    "slug": "pism-2023-2",
+    "number": 12,
+    "subject": "Física",
+    "subjectId": "fisica",
+    "text": "Um estudante deixa cair uma mochila de um balão que flutua a uma altura de 320 m. No mesmo instante em que a mochila inicia um movimento de queda livre, o balão começa a subir com uma velocidade constante de 2,0 m/s. Calcule a altura em que se encontra o balão quando a mochila chega ao solo.",
+    "options": [
+      "328 m",
+      "336 m",
+      "352 m",
+      "384 m",
+      "448 m"
+    ],
+    "answer": "B",
+    "day": 2,
+    "sourceUrl": "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2023/12/PROVA-PISM-2024-DIA_2-M%C3%93DULO_I.pdf",
+    "answerSource": "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2023/12/GABARITO-PISM-2024-OBJETIVA-D2-P1.pdf",
+    "supportImages": []
+  },
+  {
+    "id": "pism-2024-i-fisica-13",
+    "year": 2024,
+    "module": "I",
+    "slug": "pism-2023-2",
+    "number": 13,
+    "subject": "Física",
+    "subjectId": "fisica",
+    "text": "Considere um rio que possui uma largura de 120 m e uma correnteza de velocidade constante. Ao navegar neste rio, em relação às margens, um barco motorizado tem velocidade máxima de 12 m/s quando desce o rio e de 8 m/s quando o sobe. Supondo agora que o barco seja mantido perpendicular à direção da correnteza e que se desloque com a sua velocidade máxima, o tempo mínimo de travessia de uma margem à outra do rio é de",
+    "options": [
+      "30 s.",
+      "15 s.",
+      "12 s.",
+      "10 s.",
+      "6 s."
+    ],
+    "answer": "C",
+    "day": 2,
+    "sourceUrl": "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2023/12/PROVA-PISM-2024-DIA_2-M%C3%93DULO_I.pdf",
+    "answerSource": "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2023/12/GABARITO-PISM-2024-OBJETIVA-D2-P1.pdf",
+    "supportImages": []
+  },
+  {
+    "id": "pism-2024-i-fisica-14",
+    "year": 2024,
+    "module": "I",
+    "slug": "pism-2023-2",
+    "number": 14,
+    "subject": "Física",
+    "subjectId": "fisica",
+    "text": "Uma equipe de estudantes montou uma engenhoca para elevar uma massa de 60 kg a uma altura de 7,5 m. Utilizando um motor com potência de consumo elétrico de 300 W, conseguiram realizar esta tarefa em meio minuto. De acordo com esse resultado, a equipe deve concluir que o rendimento desse motor é de",
+    "options": [
+      "5%.",
+      "50%.",
+      "67%.",
+      "75%.",
+      "100%."
+    ],
+    "answer": "B",
+    "day": 2,
+    "sourceUrl": "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2023/12/PROVA-PISM-2024-DIA_2-M%C3%93DULO_I.pdf",
+    "answerSource": "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2023/12/GABARITO-PISM-2024-OBJETIVA-D2-P1.pdf",
+    "supportImages": []
+  },
+  {
+    "id": "pism-2024-i-fisica-15",
+    "year": 2024,
+    "module": "I",
+    "slug": "pism-2023-2",
+    "number": 15,
+    "subject": "Física",
+    "subjectId": "fisica",
+    "text": "Um mestre de obras montou o sistema de polias mostrado na figura abaixo para elevar tijolos até o segundo andar de uma construção. Os tijolos, juntamente com o suporte de apoio, têm massa total igual a 120 kg. Assinale a intensidade F mínima da força externa exercida para baixo na corda, de forma a poder elevar os tijolos e o suporte de apoio.",
+    "options": [
+      "1200 N",
+      "600 N",
+      "400 N",
+      "300 N",
+      "200 N"
+    ],
+    "answer": "D",
+    "day": 2,
+    "sourceUrl": "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2023/12/PROVA-PISM-2024-DIA_2-M%C3%93DULO_I.pdf",
+    "answerSource": "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2023/12/GABARITO-PISM-2024-OBJETIVA-D2-P1.pdf",
+    "supportImages": [
+      "/pism-apoios/pism-2023-2-q15-pagina-11.png"
+    ]
+  },
+  {
+    "id": "pism-2025-i-matematica-11",
+    "year": 2025,
+    "module": "I",
+    "slug": "pism-2024-1",
+    "number": 11,
+    "subject": "Matemática",
+    "subjectId": "matematica",
+    "text": "Fixe os seguintes números reais: a = π, b = 3 e c = 3,2. Assinale a alternativa que representa a ordenação dos números a, b e c na reta real.",
+    "options": [
+      "a < b < c",
+      "b < a < c",
+      "b < c < a",
+      "a = b < c",
+      "b < a = c"
+    ],
+    "answer": "B",
+    "day": 1,
+    "sourceUrl": "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2024/12/Pism-1-Dia-1.pdf",
+    "answerSource": "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2025/01/GABARITO-PISM-2025-OBJETIVA-D1-P1-NF.pdf",
+    "supportImages": []
+  },
+  {
+    "id": "pism-2025-i-matematica-12",
+    "year": 2025,
+    "module": "I",
+    "slug": "pism-2024-1",
+    "number": 12,
+    "subject": "Matemática",
+    "subjectId": "matematica",
+    "text": "Considere a função quadrática f(x) = x² + 2x − 24. Defina r₁ pela maior raiz de f(x) e r₂ pela menor raiz de f(x). Quanto vale a razão r₁/r₂?",
+    "options": [
+      "3/2",
+      "2/3",
+      "-2/3",
+      "-1",
+      "-3/2"
+    ],
+    "answer": "C",
+    "day": 1,
+    "sourceUrl": "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2024/12/Pism-1-Dia-1.pdf",
+    "answerSource": "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2025/01/GABARITO-PISM-2025-OBJETIVA-D1-P1-NF.pdf",
+    "supportImages": []
+  },
+  {
+    "id": "pism-2025-i-matematica-13",
+    "year": 2025,
+    "module": "I",
+    "slug": "pism-2024-1",
+    "number": 13,
+    "subject": "Matemática",
+    "subjectId": "matematica",
+    "text": "Considere um triângulo retângulo com hipotenusa medindo √58 e catetos medindo x − 2 e x + 2, sendo x um número real. O seno do menor ângulo desse triângulo é",
+    "options": [
+      "7/3",
+      "(7 √ 58)/58",
+      "3/7",
+      "(3 √ 58)/58",
+      "√ 58/58"
+    ],
+    "answer": "D",
+    "day": 1,
+    "sourceUrl": "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2024/12/Pism-1-Dia-1.pdf",
+    "answerSource": "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2025/01/GABARITO-PISM-2025-OBJETIVA-D1-P1-NF.pdf",
+    "supportImages": []
+  },
+  {
+    "id": "pism-2025-i-matematica-14",
+    "year": 2025,
+    "module": "I",
+    "slug": "pism-2024-1",
+    "number": 14,
+    "subject": "Matemática",
+    "subjectId": "matematica",
+    "text": "Considere a função exponencial f(x) = 2ˣ. Seja a um número real. Então, a expressão f(a) · [f(a + 2) + 4] / [4 · f(a + 2) · (f(a) + 1)] é igual a",
+    "options": [
+      "1/4",
+      "1/2",
+      "1",
+      "2",
+      "4"
+    ],
+    "answer": "A",
+    "day": 1,
+    "sourceUrl": "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2024/12/Pism-1-Dia-1.pdf",
+    "answerSource": "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2025/01/GABARITO-PISM-2025-OBJETIVA-D1-P1-NF.pdf",
+    "supportImages": []
+  },
+  {
+    "id": "pism-2025-i-matematica-15",
+    "year": 2025,
+    "module": "I",
+    "slug": "pism-2024-1",
+    "number": 15,
+    "subject": "Matemática",
+    "subjectId": "matematica",
+    "text": "Deseja-se construir uma piscina retangular com lados medindo x e y em um terreno. A parte do terreno disponível para a construção da piscina tem o formato de um triângulo retângulo de lados 6,8 e 10 metros. A piscina deve ser construída de forma que um de seus lados esteja sobre a hipotenusa do triângulo retângulo. Qual é a área máxima possível do retângulo formado pela piscina?",
+    "options": [
+      "24 m2",
+      "20 m2",
+      "16 m2",
+      "12 m2",
+      "8 m²"
+    ],
+    "answer": "D",
+    "day": 1,
+    "sourceUrl": "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2024/12/Pism-1-Dia-1.pdf",
+    "answerSource": "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2025/01/GABARITO-PISM-2025-OBJETIVA-D1-P1-NF.pdf",
+    "supportImages": []
+  },
+  {
+    "id": "pism-2025-i-quimica-16",
+    "year": 2025,
+    "module": "I",
+    "slug": "pism-2024-1",
+    "number": 16,
+    "subject": "Química",
+    "subjectId": "quimica",
+    "text": "Muitos livros didáticos representam as espécies químicas (elétrons, núcleos, íons, átomos e moléculas) por meio de círculos. Para diferenciar cada uma delas, os círculos apresentam algumas diferenças, como por exemplo cor, textura e contorno. Na figura apresentada, os círculos estão representando espécies em uma reação química hipotética. A partir da figura, o modelo atômico que explica a reação química hipotética apresentada é aquele proposto por",
+    "options": [
+      "Dalton, já que os círculos 1 e 2 representam o núcleo do átomo e o círculo 3, os elétrons.",
+      "Dalton, já que todos os círculos são representados como esferas maciças e indivisíveis.",
+      "Rutherford, já que o círculo 3 representa os elétrons e, por isso, é menor que os círculos 1 e 2.",
+      "Thomson, já que os círculos 1 e 2 representam as cargas positivas e o círculo 3, a carga negativa do átomo.",
+      "Thomson, já que os círculos que representam os reagentes permanecem os mesmos nos produtos."
+    ],
+    "answer": "B",
+    "day": 1,
+    "sourceUrl": "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2024/12/Pism-1-Dia-1.pdf",
+    "answerSource": "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2025/01/GABARITO-PISM-2025-OBJETIVA-D1-P1-NF.pdf",
+    "supportImages": [
+      "/pism-apoios/pism-2024-1-q16-pagina-10.png"
+    ]
+  },
+  {
+    "id": "pism-2025-i-quimica-17",
+    "year": 2025,
+    "module": "I",
+    "slug": "pism-2024-1",
+    "number": 17,
+    "subject": "Química",
+    "subjectId": "quimica",
+    "text": "O solo tem, em sua composição, substâncias sólidas, líquidas e gasosas. Entre as substâncias gasosas estão o gás carbônico, o óxido nítrico e o metano. Sobre esses gases presentes no solo, assinale a alternativa CORRETA.",
+    "options": [
+      "A pecuária é uma atividade que contribui para a poluição do solo e do ar, devido, exclusivamente, à liberação de gás carbônico pelos animais.",
+      "O gás carbônico, ao reagir com água e formar um ácido, tem sua concentração diminuída, o que torna o solo mais fértil.",
+      "O metano é um gás que, ao chegar à atmosfera, pode contribuir para o efeito estufa, aumentando a temperatura do planeta.",
+      "O nitrogênio que forma o óxido nítrico tem propriedades diferentes daquele presente nos fertilizantes.",
+      "O óxido nítrico é um poluente específico do solo, pois ele é produzido pelos microrganismos presentes nele."
+    ],
+    "answer": "C",
+    "day": 1,
+    "sourceUrl": "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2024/12/Pism-1-Dia-1.pdf",
+    "answerSource": "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2025/01/GABARITO-PISM-2025-OBJETIVA-D1-P1-NF.pdf",
+    "supportImages": []
+  },
+  {
+    "id": "pism-2025-i-quimica-18",
+    "year": 2025,
+    "module": "I",
+    "slug": "pism-2024-1",
+    "number": 18,
+    "subject": "Química",
+    "subjectId": "quimica",
+    "text": "Os fenômenos observados no meio ambiente e as ações humanas que podem afetar estes eventos podem ser classificados como transformações químicas ou processos físicos. Considere os seguintes fenômenos: 1. precipitação de chuvas; 2. evaporação da água; 3. destruição da camada de ozônio; 4. aquecimento global devido ao efeito estufa e 5. queima de combustíveis fósseis. Dentre esses fenômenos, são consideradas transformações químicas:",
+    "options": [
+      "1 e 4",
+      "1 e 3",
+      "2 e 4",
+      "3 e 5",
+      "2 e 5"
+    ],
+    "answer": "A/B/C/D/E",
+    "day": 1,
+    "sourceUrl": "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2024/12/Pism-1-Dia-1.pdf",
+    "answerSource": "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2025/01/GABARITO-PISM-2025-OBJETIVA-D1-P1-NF.pdf",
+    "supportImages": []
+  },
+  {
+    "id": "pism-2025-i-quimica-19",
+    "year": 2025,
+    "module": "I",
+    "slug": "pism-2024-1",
+    "number": 19,
+    "subject": "Química",
+    "subjectId": "quimica",
+    "text": "Atualmente, o Brasil tem sofrido com longos períodos de seca no norte do país e grandes enchentes na região sul. Assim, a água potável no nosso dia a dia tem se tornado cada vez mais importante para a população. Durante o processo de tratamento de água para a produção de água potável,",
+    "options": [
+      "a etapa de desinfecção gera um precipitado que mata os microorganismos.",
+      "galhos, folhas, terra e outras impurezas são separados da água na etapa de desinfecção.",
+      "o flúor é adicionado com a finalidade de eliminar microorganismos, como as bactérias.",
+      "ocorrem várias etapas, entre elas a floculação, a decantação e a destilação.",
+      "o sulfato de alumínio é utilizado para formar flocos com partículas de impurezas."
+    ],
+    "answer": "E",
+    "day": 1,
+    "sourceUrl": "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2024/12/Pism-1-Dia-1.pdf",
+    "answerSource": "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2025/01/GABARITO-PISM-2025-OBJETIVA-D1-P1-NF.pdf",
+    "supportImages": []
+  },
+  {
+    "id": "pism-2025-i-quimica-20",
+    "year": 2025,
+    "module": "I",
+    "slug": "pism-2024-1",
+    "number": 20,
+    "subject": "Química",
+    "subjectId": "quimica",
+    "text": "A atmosfera é uma mistura complexa de gases e seu componente majoritário é o gás nitrogênio (N₂). É possível passar o N gasoso para o estado líquido 2 através da diminuição de temperatura. Assinale a alternativa que descreve CORRETAMENTE as moléculas de N₂ nos diferentes estados de agregação.",
+    "options": [
+      "A energia cinética das moléculas de N2 é muito maior no estado gasoso do que no líquido e as interações intermoleculares são mínimas no estado gasoso.",
+      "As moléculas de N2 estão mais próximas entre si no estado líquido que no estado gasoso, pois a interações intermoleculares são mais fracas no líquido que no gás.",
+      "Quando aquecemos o N2 líquido, fornecemos energia para quebrar ligações químicas covalentes entre os átomos de nitrogênio, fazendo com que ocorra a passagem para o estado gasoso.",
+      "As moléculas de N2 têm menor energia cinética no estado líquido do que no gasoso e por isso é preciso o resfriamento para passar ao estado gasoso.",
+      "As moléculas de N2 são as mesmas no estado líquido e gasoso e por isso o efeito das interações intermoleculares é o mesmo em ambos os estados físicos."
+    ],
+    "answer": "A",
+    "day": 1,
+    "sourceUrl": "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2024/12/Pism-1-Dia-1.pdf",
+    "answerSource": "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2025/01/GABARITO-PISM-2025-OBJETIVA-D1-P1-NF.pdf",
+    "supportImages": []
+  },
+  {
+    "id": "pism-2025-i-fisica-11",
+    "year": 2025,
+    "module": "I",
+    "slug": "pism-2024-2",
+    "number": 11,
+    "subject": "Física",
+    "subjectId": "fisica",
+    "text": "Um automóvel percorre o primeiro trecho de uma rodovia de 200 km a 100 km/h e, logo em seguida, o segundo trecho de 70 km a 70 km/h. De acordo com esses dados, a velocidade média no percurso total é igual a",
+    "options": [
+      "70 km/h",
+      "80 km/h",
+      "90 km/h",
+      "100 km/h",
+      "110 km/h"
+    ],
+    "answer": "C",
+    "day": 2,
+    "sourceUrl": "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2024/12/Pism-1-Dia-2.pdf",
+    "answerSource": "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2024/12/GABARITO-PISM-2025-OBJETIVA-D2-P1-NF-1.pdf",
+    "supportImages": []
+  },
+  {
+    "id": "pism-2025-i-fisica-12",
+    "year": 2025,
+    "module": "I",
+    "slug": "pism-2024-2",
+    "number": 12,
+    "subject": "Física",
+    "subjectId": "fisica",
+    "text": "Dois ciclistas, A e B, estão treinando em uma ciclovia retilínea, e o gráfico abaixo apresenta dados sobre o movimento de ambos, no mesmo sentido da ciclovia. Sabendo que, no instante de tempo t = 0 s, A e B se encontram um ao lado do outro (mesma posição na ciclovia). Assinale a afirmativa CORRETA.",
+    "options": [
+      "Os ciclistas A e B deslocam-se em movimento retilíneo uniforme",
+      "A aceleração de A éaA = 0,2 m/s2",
+      "A aceleração de B éaB = 0,4 m/s2",
+      "Em t = 0s, B passa por A com uma velocidade de 4,0 m/s",
+      "O ciclista A alcança B em t = 20 s"
+    ],
+    "answer": "D",
+    "day": 2,
+    "sourceUrl": "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2024/12/Pism-1-Dia-2.pdf",
+    "answerSource": "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2024/12/GABARITO-PISM-2025-OBJETIVA-D2-P1-NF-1.pdf",
+    "supportImages": [
+      "/pism-apoios/pism-2024-2-q12-pagina-8.png"
+    ]
+  },
+  {
+    "id": "pism-2025-i-fisica-13",
+    "year": 2025,
+    "module": "I",
+    "slug": "pism-2024-2",
+    "number": 13,
+    "subject": "Física",
+    "subjectId": "fisica",
+    "text": "Em relação à aceleração de um projétil movimentando-se próximo à superfície da Terra, é CORRETO afirmar que",
+    "options": [
+      "ela é um vetor tangente à trajetória.",
+      "a sua direção é vertical e seu sentido é para baixo.",
+      "ela é nula no ponto mais alto da trajetória.",
+      "seu sentido se inverte quando o projétil passa pelo ponto mais alto da trajetória.",
+      "ela é máxima no ponto mais baixo da trajetória."
+    ],
+    "answer": "B",
+    "day": 2,
+    "sourceUrl": "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2024/12/Pism-1-Dia-2.pdf",
+    "answerSource": "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2024/12/GABARITO-PISM-2025-OBJETIVA-D2-P1-NF-1.pdf",
+    "supportImages": []
+  },
+  {
+    "id": "pism-2025-i-fisica-14",
+    "year": 2025,
+    "module": "I",
+    "slug": "pism-2024-2",
+    "number": 14,
+    "subject": "Física",
+    "subjectId": "fisica",
+    "text": "Uma pedra de 3,0 kg, inicialmente em repouso, é solta de uma altura igual a 5,0 m. Após a queda, a pedra colide com o solo sem quicar e o tempo de colisão é exatamente 0,2 s. A força média que o chão exerce sobre a pedra na colisão é igual a",
+    "options": [
+      "100 N",
+      "150 N",
+      "200 N",
+      "250 N",
+      "300 N"
+    ],
+    "answer": "B",
+    "day": 2,
+    "sourceUrl": "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2024/12/Pism-1-Dia-2.pdf",
+    "answerSource": "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2024/12/GABARITO-PISM-2025-OBJETIVA-D2-P1-NF-1.pdf",
+    "supportImages": []
+  },
+  {
+    "id": "pism-2025-i-fisica-15",
+    "year": 2025,
+    "module": "I",
+    "slug": "pism-2024-2",
+    "number": 15,
+    "subject": "Física",
+    "subjectId": "fisica",
+    "text": "Uma bola de borracha, sob a ação exclusiva da gravidade, cai verticalmente, quica no chão duro e sobe. De acordo com essa afirmativa, é CORRETO afirmar que",
+    "options": [
+      "haverá conservação da energia cinética, ainda que a bola não alcance a sua altura original.",
+      "no momento em que a bola estiver no chão, sua energia mecânica é nula.",
+      "após o quique no chão duro, a bola poderá atingir uma altura superior à original, a depender do tipo de material da bola.",
+      "se a massa da bola for igual a 500 g e a altura em que ela é solta for igual a 15 m, a energia cinética da bola na iminência de tocar o solo será igual a 75 J.",
+      "a energia potencial gravitacional e a energia cinética da bola serão iguais na iminência de tocar o solo. HISTóRIA OBJETIVAS"
+    ],
+    "answer": "D",
+    "day": 2,
+    "sourceUrl": "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2024/12/Pism-1-Dia-2.pdf",
+    "answerSource": "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2024/12/GABARITO-PISM-2025-OBJETIVA-D2-P1-NF-1.pdf",
+    "supportImages": []
+  },
+  {
+    "id": "pism-2026-i-matematica-11",
+    "number": 11,
+    "subject": "Matemática",
+    "subjectId": "matematica",
+    "text": "Considere a função f: [1, 9] → R, definida por f(x) = 6 − x, se 1 ≤ x < 4; e f(x) = x² − 12x + 34, se 4 ≤ x ≤ 9. Qual é o conjunto imagem da função f?",
+    "options": [
+      "[−2,5]",
+      "[−2,7]",
+      "[1,9]",
+      "[2,5]",
+      "[5,7]"
+    ],
+    "answer": "B",
+    "day": 1,
+    "images": [
+      "/provas/destrinchando/pism-2026-i/matematica-q11-1.png"
+    ],
+    "sourceUrl": "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2025/12/Pism-1-dia-1.pdf",
+    "answerSource": "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2026/07/GABARITO-PISM-2026-OBJETIVA-D1-P1_alterado.pdf",
+    "supportImages": [],
+    "year": 2026,
+    "module": "I",
+    "slug": "pism-2025-1"
+  },
+  {
+    "id": "pism-2026-i-matematica-12",
+    "number": 12,
+    "subject": "Matemática",
+    "subjectId": "matematica",
+    "text": "No plano cartesiano abaixo estão representados os gráficos das funções f e g, de R em R, sendo f uma função polinomial de 1º grau e g(x) = x² − 5x a expressão algébrica da função g. O conjunto dos valores reais de x para os quais f(x) < g(x) é",
+    "options": [
+      "{x ∈ R | x < −2 ou x > 5}",
+      "{x ∈ R | x < −1 ou x > 5}",
+      "{x ∈ R | x < 0 ou x > 5}",
+      "{x ∈ R | −2 < x < 5}",
+      "{x ∈ R | −1 < x < 5}"
+    ],
+    "answer": "A",
+    "day": 1,
+    "images": [
+      "/provas/destrinchando/pism-2026-i/matematica-q12-1.png"
+    ],
+    "sourceUrl": "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2025/12/Pism-1-dia-1.pdf",
+    "answerSource": "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2026/07/GABARITO-PISM-2026-OBJETIVA-D1-P1_alterado.pdf",
+    "figureRequired": true,
+    "supportImages": [
+      "/provas/destrinchando/pism-2026-i/matematica-12-apoio.png"
+    ],
+    "year": 2026,
+    "module": "I",
+    "slug": "pism-2025-1"
+  },
+  {
+    "id": "pism-2026-i-matematica-13",
+    "number": 13,
+    "subject": "Matemática",
+    "subjectId": "matematica",
+    "text": "O gráfico abaixo representa o decrescimento exponencial da massa de um radioisótopo utilizado no tratamento de um paciente, a partir de 6 horas da administração do medicamento. Qual foi a massa, em miligrama, desse radioisótopo administrado nesse paciente?",
+    "options": [
+      "4 mg",
+      "6 mg",
+      "7 mg",
+      "8 mg",
+      "16 mg"
+    ],
+    "answer": "D",
+    "day": 1,
+    "images": [
+      "/provas/destrinchando/pism-2026-i/matematica-q13-1.png"
+    ],
+    "sourceUrl": "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2025/12/Pism-1-dia-1.pdf",
+    "answerSource": "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2026/07/GABARITO-PISM-2026-OBJETIVA-D1-P1_alterado.pdf",
+    "figureRequired": true,
+    "supportImages": [
+      "/provas/destrinchando/pism-2026-i/matematica-13-apoio.png"
+    ],
+    "year": 2026,
+    "module": "I",
+    "slug": "pism-2025-1"
+  },
+  {
+    "id": "pism-2026-i-matematica-14",
+    "number": 14,
+    "subject": "Matemática",
+    "subjectId": "matematica",
+    "text": "Considere a função f: R → R definida por f(x) = −(1/4)x² + (3/2)x + 4. O plano cartesiano que contém a melhor representação de parte do gráfico da função f é",
+    "options": [
+      "Gráfico A.",
+      "Gráfico B.",
+      "Gráfico C.",
+      "Gráfico D.",
+      "Gráfico E."
+    ],
+    "answer": "E",
+    "day": 1,
+    "images": [
+      "/provas/destrinchando/pism-2026-i/matematica-q14-1.png"
+    ],
+    "sourceUrl": "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2025/12/Pism-1-dia-1.pdf",
+    "answerSource": "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2026/07/GABARITO-PISM-2026-OBJETIVA-D1-P1_alterado.pdf",
+    "figureRequired": true,
+    "supportImages": [
+      "/provas/destrinchando/pism-2026-i/matematica-14-apoio.png"
+    ],
+    "year": 2026,
+    "module": "I",
+    "slug": "pism-2025-1"
+  },
+  {
+    "id": "pism-2026-i-matematica-15",
+    "number": 15,
+    "subject": "Matemática",
+    "subjectId": "matematica",
+    "text": "Conforme publicado nos Atos do Governo do Poder Executivo pelo Diário Oficial Eletrônico de Juiz de Fora, no dia 24 de janeiro de 2025, o decreto nº 17.025 delimita o Centro Histórico do município. Disponível em: https://pjf.mg.gov.br/e atos/anexos/anexo centro 175327.pdf. Acesso em: 23 jun. 2025 (adaptado). Um estudante, interessado em dimensionar a medida da área do Centro Histórico, elaborou um esquema simplificado sobre o mapa disponível no anexo do decreto, utilizando um trapézio retângulo cujos três maiores lados representam as principais vias que delimitam essa área. Qual é a medida, em metro quadrado, da área do Centro Histórico obtida pelo esquema desse estudante?",
+    "options": [
+      "4 000",
+      "390 000",
+      "780 000",
+      "1 560 000",
+      "1 650 000"
+    ],
+    "answer": "C",
+    "day": 1,
+    "images": [
+      "/provas/destrinchando/pism-2026-i/matematica-q15-1.png"
+    ],
+    "sourceUrl": "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2025/12/Pism-1-dia-1.pdf",
+    "answerSource": "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2026/07/GABARITO-PISM-2026-OBJETIVA-D1-P1_alterado.pdf",
+    "figureRequired": true,
+    "supportImages": [
+      "/provas/destrinchando/pism-2026-i/matematica-15-apoio.png"
+    ],
+    "year": 2026,
+    "module": "I",
+    "slug": "pism-2025-1"
+  },
+  {
+    "id": "pism-2026-i-quimica-16",
+    "number": 16,
+    "subject": "Química",
+    "subjectId": "quimica",
+    "text": "Durante uma atividade experimental, os estudantes realizaram a reação química entre vinagre (ácido acético) e bicarbonato de sódio em um sistema fechado. O sistema reacional foi pesado antes e depois da reação. Após o experimento foram feitas as seguintes observações: 1) houve efervescência (liberação de gás); 2) a massa permaneceu a mesma antes e depois da reação. Com base no modelo atômico de Dalton, a massa se conserva porque",
+    "options": [
+      "As moléculas e íons permanecem inalterados na reação.",
+      "Os átomos desaparecem ao formar novos compostos.",
+      "Os átomos não se transformam e nem se dividem.",
+      "Parte dos átomos se transforma em átomos mais leves.",
+      "Parte dos isótopos mais leves ganham massa."
+    ],
+    "answer": "C",
+    "day": 1,
+    "images": [
+      "/provas/destrinchando/pism-2026-i/quimica-q16-1.png"
+    ],
+    "sourceUrl": "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2025/12/Pism-1-dia-1.pdf",
+    "answerSource": "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2026/07/GABARITO-PISM-2026-OBJETIVA-D1-P1_alterado.pdf",
+    "supportImages": [],
+    "year": 2026,
+    "module": "I",
+    "slug": "pism-2025-1"
+  },
+  {
+    "id": "pism-2026-i-quimica-17",
+    "number": 17,
+    "subject": "Química",
+    "subjectId": "quimica",
+    "text": "Durante uma aula prática, os estudantes prepararam soluções de cloreto de sódio e sulfato de cobre. Sobre os íons formados em solução, qual das alternativas apresenta, CORRETAMENTE, a relação entre a carga dos íons e as valências dos elementos que os constituem?",
+    "options": [
+      "O átomo de cloro ganha um elétron e se torna um ânion com valência positiva.",
+      "O átomo de cobre forma cátion ao perder um ou dois elétrons.",
+      "O átomo de enxofre ganha elétrons e sempre forma cátions bivalentes.",
+      "O átomo de sódio ganha um elétron e forma um cátion com valência positiva.",
+      "O átomo de sódio perde um elétron e forma um cátion com valência negativa."
+    ],
+    "answer": "B",
+    "day": 1,
+    "images": [
+      "/provas/destrinchando/pism-2026-i/quimica-q17-1.png"
+    ],
+    "sourceUrl": "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2025/12/Pism-1-dia-1.pdf",
+    "answerSource": "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2026/07/GABARITO-PISM-2026-OBJETIVA-D1-P1_alterado.pdf",
+    "supportImages": [],
+    "year": 2026,
+    "module": "I",
+    "slug": "pism-2025-1"
+  },
+  {
+    "id": "pism-2026-i-quimica-18",
+    "number": 18,
+    "subject": "Química",
+    "subjectId": "quimica",
+    "text": "Os compostos inorgânicos estão presentes em praticamente todas as áreas da vida cotidiana e da indústria. Entre eles estão os ácidos, as bases, os sais, os óxidos, os metais e as ligas metálicas. Sobre essas substâncias, assinale a alternativa CORRETA.",
+    "options": [
+      "A amônia (NH₃) é um ácido de Arrhenius e, por isso, libera íons H⁺ em solução aquosa, sendo usada em produtos de limpeza.",
+      "A soda cáustica (NaOH) é um óxido básico usado na produção de sabões.",
+      "O ácido sulfúrico (H₂SO₄), um sal formado por íons metálicos, é amplamente utilizado em baterias de carros.",
+      "O aço inox é uma liga metálica que contém ferro, carbono, níquel e cromo, sendo usado por sua resistência à corrosão.",
+      "O dióxido de carbono (CO₂) é um sal volátil que participa da fotossíntese."
+    ],
+    "answer": "D",
+    "day": 1,
+    "images": [
+      "/provas/destrinchando/pism-2026-i/quimica-q18-1.png"
+    ],
+    "sourceUrl": "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2025/12/Pism-1-dia-1.pdf",
+    "answerSource": "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2026/07/GABARITO-PISM-2026-OBJETIVA-D1-P1_alterado.pdf",
+    "supportImages": [],
+    "year": 2026,
+    "module": "I",
+    "slug": "pism-2025-1"
+  },
+  {
+    "id": "pism-2026-i-quimica-19",
+    "number": 19,
+    "subject": "Química",
+    "subjectId": "quimica",
+    "text": "Ao longo da história, o modelo atômico foi sendo aperfeiçoado com base em novas descobertas científicas e tecnológicas. Assinale a alternativa que descreve CORRETAMENTE os modelos atômicos propostos por Dalton, Thomson e Rutherford.",
+    "options": [
+      "Dalton considerava o átomo formado por cargas positivas e negativas; Thomson propôs um núcleo denso; Rutherford afirmou que o átomo era indivisível.",
+      "Dalton descreveu o átomo como indivisível; Thomson propôs os elétrons girando em órbitas; Rutherford imaginou o átomo como uma esfera maciça e neutra.",
+      "Dalton acreditava que o átomo era indivisível; Thomson sugeriu uma esfera positiva com elétrons incrustados; Rutherford propôs um núcleo positivo cercado por elétrons.",
+      "Dalton identificou partículas subatômicas; Thomson propôs a existência de um núcleo; Rutherford acreditava que o átomo era uma esfera homogênea.",
+      "Dalton descobriu o núcleo atômico; Thomson revelou a existência de elétrons; Rutherford propôs que os elétrons orbitavam o núcleo."
+    ],
+    "answer": "C",
+    "day": 1,
+    "images": [
+      "/provas/destrinchando/pism-2026-i/quimica-q19-1.png"
+    ],
+    "sourceUrl": "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2025/12/Pism-1-dia-1.pdf",
+    "answerSource": "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2026/07/GABARITO-PISM-2026-OBJETIVA-D1-P1_alterado.pdf",
+    "supportImages": [],
+    "year": 2026,
+    "module": "I",
+    "slug": "pism-2025-1"
+  },
+  {
+    "id": "pism-2026-i-quimica-20",
+    "number": 20,
+    "subject": "Química",
+    "subjectId": "quimica",
+    "text": "Um estudante coloca lado a lado 10,0 gramas de chumbo metálico e 10,0 gramas de alumínio, e observa que o volume da amostra de chumbo é muito menor do que aquela de alumínio. Sabendo que a massa de um átomo está praticamente toda concentrada no seu núcleo, ao correlacionar as massas de chumbo e alumínio metálicos, conclui-se que",
+    "options": [
+      "A amostra de alumínio possui átomos muito mais leves, o que significa que ele tem mais prótons por grama do que o chumbo.",
+      "A amostra de chumbo contém átomos mais pesados, logo contém muito mais prótons e nêutrons que a amostra de alumínio.",
+      "Apenas o chumbo possui a massa concentrada no núcleo; o alumínio é leve porque seus elétrons contribuem mais para a massa total.",
+      "As amostras de chumbo e de alumínio possuem aproximadamente o mesmo número de partículas nucleares (prótons + nêutrons).",
+      "Como ambas as amostras têm a mesma massa, as duas têm o mesmo número de átomos."
+    ],
+    "answer": "D",
+    "day": 1,
+    "images": [
+      "/provas/destrinchando/pism-2026-i/quimica-q20-1.png"
+    ],
+    "sourceUrl": "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2025/12/Pism-1-dia-1.pdf",
+    "answerSource": "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2026/07/GABARITO-PISM-2026-OBJETIVA-D1-P1_alterado.pdf",
+    "supportImages": [],
+    "year": 2026,
+    "module": "I",
+    "slug": "pism-2025-1"
+  },
+  {
+    "id": "pism-2026-i-fisica-11",
+    "number": 11,
+    "subject": "Física",
+    "subjectId": "fisica",
+    "text": "Chico levou para casa uma goiaba que ganhou de Rosa e a colocou em cima da mesa. Considerando a situação de equilíbrio da goiaba e da mesa, assinale a alternativa CORRETA.",
+    "options": [
+      "A força normal que a mesa realiza sobre a goiaba é par de ação e reação da força peso da goiaba.",
+      "A força normal que a mesa realiza sobre a goiaba atua de cima para baixo e depende da massa da mesa.",
+      "A força que a goiaba realiza sobre a mesa é a sua força peso e atua de cima para baixo.",
+      "A força que a goiaba realiza sobre a Terra é o par de ação e reação da força peso que atua na goiaba.",
+      "A força que a mesa realiza sobre o solo não depende da força peso da goiaba."
+    ],
+    "answer": "D",
+    "day": 2,
+    "images": [
+      "/provas/destrinchando/pism-2026-i/fisica-q11-1.png"
+    ],
+    "sourceUrl": "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2025/12/Pism-1-dia-2.pdf",
+    "answerSource": "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2025/12/GABARITO-PISM-2026-OBJETIVA-D2-P1.pdf",
+    "supportImages": [],
+    "year": 2026,
+    "module": "I",
+    "slug": "pism-2025-2"
+  },
+  {
+    "id": "pism-2026-i-fisica-12",
+    "number": 12,
+    "subject": "Física",
+    "subjectId": "fisica",
+    "text": "O gráfico mostra a posição S em função do tempo de um robô na superfície de Marte, ao longo de uma linha reta. Considere o sistema de coordenadas mostrado no gráfico. Sobre o movimento do robô, assinale a alternativa CORRETA.",
+    "options": [
+      "A aceleração do robô é positiva.",
+      "A velocidade é nula em t = 2,0 min.",
+      "A velocidade inicial do robô é positiva.",
+      "O deslocamento do robô em t = 8,0 min é de 24 m.",
+      "O robô desacelera durante o percurso de t = 0 s a t = 8,0 s."
+    ],
+    "answer": "C",
+    "day": 2,
+    "images": [
+      "/provas/destrinchando/pism-2026-i/fisica-q12-1.png",
+      "/provas/destrinchando/pism-2026-i/fisica-q12-2.png"
+    ],
+    "sourceUrl": "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2025/12/Pism-1-dia-2.pdf",
+    "answerSource": "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2025/12/GABARITO-PISM-2026-OBJETIVA-D2-P1.pdf",
+    "figureRequired": true,
+    "supportImages": [
+      "/provas/destrinchando/pism-2026-i/fisica-12-apoio.png"
+    ],
+    "year": 2026,
+    "module": "I",
+    "slug": "pism-2025-2"
+  },
+  {
+    "id": "pism-2026-i-fisica-13",
+    "number": 13,
+    "subject": "Física",
+    "subjectId": "fisica",
+    "text": "Toda vez que Júlia e seus quatro amigos vão de carro para o Rio de Janeiro, ela prefere dirigir ou ir no banco da frente porque, ao ir no banco de trás, seus amigos “caem” sem querer em cima dela quando há uma curva na estrada, empurrando-a para um lado ou para o outro. Considerando as curvas na estrada como arcos de circunferência e o carro com velocidade de módulo constante, assinale a alternativa CORRETA em relação ao movimento durante as curvas.",
+    "options": [
+      "A aceleração do carro é paralela à velocidade.",
+      "A velocidade do carro é radial e aponta para fora.",
+      "Como o módulo da velocidade é constante, não há aceleração do carro.",
+      "O módulo da aceleração do carro é diretamente proporcional à sua velocidade.",
+      "Quanto menor o raio da curva na estrada, maior aceleração do carro."
+    ],
+    "answer": "E",
+    "day": 2,
+    "images": [
+      "/provas/destrinchando/pism-2026-i/fisica-q13-1.png"
+    ],
+    "sourceUrl": "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2025/12/Pism-1-dia-2.pdf",
+    "answerSource": "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2025/12/GABARITO-PISM-2026-OBJETIVA-D2-P1.pdf",
+    "supportImages": [],
+    "year": 2026,
+    "module": "I",
+    "slug": "pism-2025-2"
+  },
+  {
+    "id": "pism-2026-i-fisica-14",
+    "number": 14,
+    "subject": "Física",
+    "subjectId": "fisica",
+    "text": "Ana e Bia fazem uma corrida de barquinhos de vela. O barco de Ana possui massa duas vezes maior que a do barco de Bia, mas eles foram construídos de modo que o vento realiza a mesma força de impulsão sobre as duas velas e, consequentemente, o mesmo trabalho ao longo de uma distância d. Desprezando as forças de atrito, qual a relação entre as velocidades dos barcos de Ana (vₐ) e de Bia (vᵦ) quando eles cruzam a linha de chegada?",
+    "options": [
+      "vA = √2 vB / 2",
+      "vA = vB / 2",
+      "vA = √2 vB",
+      "vA = vB",
+      "vA = 2vB"
+    ],
+    "answer": "A",
+    "day": 2,
+    "images": [
+      "/provas/destrinchando/pism-2026-i/fisica-q14-1.png"
+    ],
+    "sourceUrl": "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2025/12/Pism-1-dia-2.pdf",
+    "answerSource": "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2025/12/GABARITO-PISM-2026-OBJETIVA-D2-P1.pdf",
+    "supportImages": [],
+    "year": 2026,
+    "module": "I",
+    "slug": "pism-2025-2"
+  },
+  {
+    "id": "pism-2026-i-fisica-15",
+    "number": 15,
+    "subject": "Física",
+    "subjectId": "fisica",
+    "text": "Mariele foi ao parquinho, mas não havia nenhuma outra criança. Chamou então sua mãe para brincar na gangorra. A gangorra é formada por uma tábua de 4,0 m de comprimento cujo centro é apoiado numa base triangular. Só que Mariele possui 20 kg e sua mãe, 50 kg. Sabendo que Mariele está na extremidade esquerda da tábua, a que distância dela sua mãe deve se sentar para que a gangorra fique horizontal?",
+    "options": [
+      "0,8 m",
+      "1,2 m",
+      "1,25 m",
+      "2,8 m",
+      "3,25 m"
+    ],
+    "answer": "D",
+    "day": 2,
+    "images": [
+      "/provas/destrinchando/pism-2026-i/fisica-q15-1.png"
+    ],
+    "sourceUrl": "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2025/12/Pism-1-dia-2.pdf",
+    "answerSource": "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2025/12/GABARITO-PISM-2026-OBJETIVA-D2-P1.pdf",
+    "supportImages": [],
+    "year": 2026,
+    "module": "I",
+    "slug": "pism-2025-2"
+  },
+  {
+    "id": "pism-2024-ii-matematica-11",
+    "year": 2024,
+    "module": "II",
+    "slug": "pism-ii-2024-dia-1",
+    "number": 11,
+    "subject": "Matemática",
+    "subjectId": "matematica",
+    "text": "A figura a seguir representa a porta de um laboratório, que abre a um ângulo máximo de 120° até encontrar uma das paredes no interior do cômodo. Quando a porta está completamente aberta, a distância entre os pontos A e B, A na porta e B na guarnição, é de 153 cm. Considere 1,7 como aproximação para √3: A largura aproximada da porta, em centímetros, é",
+    "options": [
+      "51.",
+      "76.",
+      "87.",
+      "90.",
+      "126."
+    ],
+    "answer": "C/D",
+    "day": 1,
+    "sourceUrl": "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2023/12/PROVA-PISM-2024-DIA_1-M%C3%93DULO_II.pdf",
+    "answerSource": "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2024/01/GABARITO-PISM-2024-OBJETIVA-D1-P2_apos-recurso.pdf",
+    "supportImages": [
+      "/pism-apoios/pism-ii-2024-dia-1-q11-pagina-12.png"
+    ]
+  },
+  {
+    "id": "pism-2024-ii-matematica-12",
+    "year": 2024,
+    "module": "II",
+    "slug": "pism-ii-2024-dia-1",
+    "number": 12,
+    "subject": "Matemática",
+    "subjectId": "matematica",
+    "text": "Considere uma progressão geométrica de termos positivos cujo 1º termo é igual à razão e o 15º termo é 2. Qual é o 75º termo da progressão?",
+    "options": [
+      "32",
+      "64",
+      "256",
+      "512",
+      "1024"
+    ],
+    "answer": "A",
+    "day": 1,
+    "sourceUrl": "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2023/12/PROVA-PISM-2024-DIA_1-M%C3%93DULO_II.pdf",
+    "answerSource": "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2024/01/GABARITO-PISM-2024-OBJETIVA-D1-P2_apos-recurso.pdf",
+    "supportImages": []
+  },
+  {
+    "id": "pism-2024-ii-matematica-13",
+    "year": 2024,
+    "module": "II",
+    "slug": "pism-ii-2024-dia-1",
+    "number": 13,
+    "subject": "Matemática",
+    "subjectId": "matematica",
+    "text": "Para produzir a caixa de um brinquedo, dois tetraedros regulares e iguais são unidos por uma face de modo que coincidam perfeitamente. Quando a caixa está pronta, a distância entre os vértices não unidos dos dois tetraedros é de 20 cm. A quantidade de plástico, em centímetros quadrados, utilizada para cobrir a superfície externa da caixa pronta é",
+    "options": [
+      "150√3 cm²",
+      "200√3 cm²",
+      "225√3 cm²",
+      "450√3 cm²",
+      "600√3 cm²"
+    ],
+    "answer": "C",
+    "day": 1,
+    "sourceUrl": "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2023/12/PROVA-PISM-2024-DIA_1-M%C3%93DULO_II.pdf",
+    "answerSource": "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2024/01/GABARITO-PISM-2024-OBJETIVA-D1-P2_apos-recurso.pdf",
+    "supportImages": []
+  },
+  {
+    "id": "pism-2024-ii-matematica-14",
+    "year": 2024,
+    "module": "II",
+    "slug": "pism-ii-2024-dia-1",
+    "number": 14,
+    "subject": "Matemática",
+    "subjectId": "matematica",
+    "text": "Considere α um ângulo do segundo quadrante no ciclo trigonométrico com sen α = 3/4. O valor de tg α é igual a",
+    "options": [
+      "−3√7/7",
+      "−√7/3",
+      "−√7/4",
+      "√7/4",
+      "3√7/7"
+    ],
+    "answer": "A",
+    "day": 1,
+    "sourceUrl": "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2023/12/PROVA-PISM-2024-DIA_1-M%C3%93DULO_II.pdf",
+    "answerSource": "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2024/01/GABARITO-PISM-2024-OBJETIVA-D1-P2_apos-recurso.pdf",
+    "supportImages": []
+  },
+  {
+    "id": "pism-2024-ii-matematica-15",
+    "year": 2024,
+    "module": "II",
+    "slug": "pism-ii-2024-dia-1",
+    "number": 15,
+    "subject": "Matemática",
+    "subjectId": "matematica",
+    "text": "João começou a trabalhar como motorista em uma empresa de aplicativos. No primeiro dia de trabalho realizou 7 viagens. A partir do segundo dia, a cada dia, fez 4 viagens a mais que no dia anterior. Em qual dia de trabalho o número total de viagens realizadas desde o primeiro dia chegará a 375?",
+    "options": [
+      "10º",
+      "13º",
+      "20º",
+      "25º",
+      "34º"
+    ],
+    "answer": "B",
+    "day": 1,
+    "sourceUrl": "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2023/12/PROVA-PISM-2024-DIA_1-M%C3%93DULO_II.pdf",
+    "answerSource": "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2024/01/GABARITO-PISM-2024-OBJETIVA-D1-P2_apos-recurso.pdf",
+    "supportImages": []
+  },
+  {
+    "id": "pism-2024-ii-quimica-16",
+    "year": 2024,
+    "module": "II",
+    "slug": "pism-ii-2024-dia-1",
+    "number": 16,
+    "subject": "Química",
+    "subjectId": "quimica",
+    "text": "O excesso de nutrientes como nitrogênio, fósforo e potássio em rios e lagos causa o processo de eutrofização, que consiste no crescimento de microorganismos e algas que diminuem a quantidade de oxigênio dissolvido na água, podendo levar à mortandade de peixes. Estes elementos químicos são originados de várias fontes, como esgoto doméstico, contendo dejetos e excesso de detergentes, lixo orgânico descartado sem os cuidados necessários e adubos inorgânicos utilizados em grandes áreas de lavoura. Entre as possíveis soluções para resolver o problema da eutrofização, assinale a INADEQUADA.",
+    "options": [
+      "A coleta correta do esgoto doméstico e industrial, evitando a disposição direta em corpos d’água.",
+      "O descarte de resíduos sólidos, como lixo doméstico e rejeitos industriais, em aterros sanitários.",
+      "O tratamento do esgoto coletado em estações de tratamento, através de processos físico-químicos.",
+      "O tratamento químico direto de corpos d’água poluídos, como rios e lagos .",
+      "O uso de adubos orgânicos nas lavouras, para a minimização dos processos de contaminação de solos e água."
+    ],
+    "answer": "D",
+    "day": 1,
+    "sourceUrl": "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2023/12/PROVA-PISM-2024-DIA_1-M%C3%93DULO_II.pdf",
+    "answerSource": "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2024/01/GABARITO-PISM-2024-OBJETIVA-D1-P2_apos-recurso.pdf",
+    "supportImages": [
+      "/pism-apoios/pism-ii-2024-dia-1-q16-pagina-14.png"
+    ]
+  },
+  {
+    "id": "pism-2024-ii-quimica-17",
+    "year": 2024,
+    "module": "II",
+    "slug": "pism-ii-2024-dia-1",
+    "number": 17,
+    "subject": "Química",
+    "subjectId": "quimica",
+    "text": "A água do mar é fonte de diferentes elementos e substâncias químicas, tais como cloreto de sódio e cloreto de magnésio. Sabendo-se que a concentração de cloreto de magnésio na água do mar é de 0,05 mol L-1, qual a massa de cloreto de magnésioextraída de 1000 L da água do mar?",
+    "options": [
+      "0,95 kg",
+      "2,92 kg",
+      "4,76 kg",
+      "58,5 kg",
+      "95,3 kg"
+    ],
+    "answer": "C",
+    "day": 1,
+    "sourceUrl": "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2023/12/PROVA-PISM-2024-DIA_1-M%C3%93DULO_II.pdf",
+    "answerSource": "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2024/01/GABARITO-PISM-2024-OBJETIVA-D1-P2_apos-recurso.pdf",
+    "supportImages": [
+      "/pism-apoios/pism-ii-2024-dia-1-q16-pagina-14.png"
+    ]
+  },
+  {
+    "id": "pism-2024-ii-quimica-18",
+    "year": 2024,
+    "module": "II",
+    "slug": "pism-ii-2024-dia-1",
+    "number": 18,
+    "subject": "Química",
+    "subjectId": "quimica",
+    "text": "Um laboratório químico armazena na mesma temperatura três cilindros de aço com o mesmo volume. O primeiro contém 10 kg de gás O₂, o segundo 10 kg de gás H₂ e o terceiro 10 kg de gás CO. Assinale a alternativa CORRETA.",
+    "options": [
+      "CO tem maior pressão por conter mais átomos.",
+      "H₂ tem maior pressão porque sua massa molar é menor.",
+      "O₂ tem maior pressão porque sua massa molar é maior.",
+      "H₂ e O₂ têm a mesma pressão por serem diatômicos.",
+      "Os três têm a mesma pressão por conterem a mesma massa."
+    ],
+    "answer": "B",
+    "day": 1,
+    "sourceUrl": "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2023/12/PROVA-PISM-2024-DIA_1-M%C3%93DULO_II.pdf",
+    "answerSource": "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2024/01/GABARITO-PISM-2024-OBJETIVA-D1-P2_apos-recurso.pdf",
+    "supportImages": [
+      "/pism-apoios/pism-ii-2024-dia-1-q16-pagina-14.png"
+    ]
+  },
+  {
+    "id": "pism-2024-ii-quimica-19",
+    "year": 2024,
+    "module": "II",
+    "slug": "pism-ii-2024-dia-1",
+    "number": 19,
+    "subject": "Química",
+    "subjectId": "quimica",
+    "text": "O oseltamivir, cuja molécula está representada a seguir, é um fármaco anti viral amplamente utilizado no tratamento da influenza. Esse fármaco inibe a enzima neuraminidase, localizada no envelope viral do vírus influenza, fazendo com que o vírus não consiga se replicar. Com base na fórmula estrutural do oseltamivir, analise as sentenças a seguir: I. A molécula apresenta quatro carbonos com hibridização do tipo sp². II. A molécula possui três ligações covalentes do tipo pi (π). III. Os átomos de carbono ligados aos átomos de nitrogênio possuem hibridização do tipo sp. IV. Há átomos de carbonos terciários e quaternários. São verdadeiras apenas as afirmativas:",
+    "options": [
+      "(I) e (II)",
+      "(II) e (III)",
+      "(III) e (IV)",
+      "(I) e (IV)",
+      "(II) e (IV)"
+    ],
+    "answer": "A",
+    "day": 1,
+    "sourceUrl": "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2023/12/PROVA-PISM-2024-DIA_1-M%C3%93DULO_II.pdf",
+    "answerSource": "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2024/01/GABARITO-PISM-2024-OBJETIVA-D1-P2_apos-recurso.pdf",
+    "supportImages": [
+      "/pism-ii-2024-dia-1-questao-19.png",
+      "/pism-apoios/pism-ii-2024-dia-1-q16-pagina-14.png"
+    ]
+  },
+  {
+    "id": "pism-2024-ii-quimica-20",
+    "year": 2024,
+    "module": "II",
+    "slug": "pism-ii-2024-dia-1",
+    "number": 20,
+    "subject": "Química",
+    "subjectId": "quimica",
+    "text": "O gás metano, na presença de luz ou aquecimento, reage com gás cloro para formar clorometano, produto de monosubstituição, e cloreto de hidrogênio. A reação química global que descreve esse processo está mostrada abaixo. CH₄(g) + Cl₂(g) → CH₃Cl(g) + HCl(g), sob luz ou aquecimento. Consulte a tabela no apoio. Com base nas informações acima, assinale a alternativa CORRETA.",
+    "options": [
+      "A reação ocorre com absorção de energia, por isso é considerada endotérmica.",
+      "A reação ocorre com absorção de energia, por isso é considerada exotérmica.",
+      "A reação ocorre com liberação de energia, por isso é considerada endotérmica.",
+      "A reação ocorre com liberação de energia, por isso é considerada exotérmica.",
+      "A reação ocorre sem absorção e sem liberação de energia."
+    ],
+    "answer": "D",
+    "day": 1,
+    "sourceUrl": "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2023/12/PROVA-PISM-2024-DIA_1-M%C3%93DULO_II.pdf",
+    "answerSource": "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2024/01/GABARITO-PISM-2024-OBJETIVA-D1-P2_apos-recurso.pdf",
+    "supportImages": [
+      "/pism-apoios/pism-ii-2024-dia-1-q20-vetor.png",
+      "/pism-apoios/pism-ii-2024-dia-1-q16-pagina-14.png"
+    ]
+  },
+  {
+    "id": "pism-2024-ii-fisica-11",
+    "year": 2024,
+    "module": "II",
+    "slug": "pism-ii-2024-dia-2",
+    "number": 11,
+    "subject": "Física",
+    "subjectId": "fisica",
+    "text": "A vazão de um rio é dada pelo produto da área da seção reta do rio pela velocidade das águas. Em um trecho brasileiro, o rio Amazonas possui uma largura de 1,5 km e profundidade média de 100 m. Neste trecho, a velocidade das águas é de 1,4 m/s. Em sua desembocadura no mar, o rio Amazonas possui uma largura de 300 km, e uma profundidade média de 50 m. Considere um modelo simplificado no qual o rio possua secção reta em formato retangular, e que não haja aumento significativo de água devido a afluentes entre os dois trechos citados. Segundo estas informações, a velocidade das águas do rio Amazonas quando chegam ao mar é",
+    "options": [
+      "0,7 cm/s.",
+      "1,4 cm/s.",
+      "1,4 m/s.",
+      "2,8 m/s.",
+      "14,0 m/s."
+    ],
+    "answer": "B",
+    "day": 2,
+    "sourceUrl": "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2023/12/PROVA-PISM-2024-DIA_2-M%C3%93DULO_II.pdf",
+    "answerSource": "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2023/12/GABARITO-PISM-2024-OBJETIVA-D2-P2.pdf",
+    "supportImages": []
+  },
+  {
+    "id": "pism-2024-ii-fisica-12",
+    "year": 2024,
+    "module": "II",
+    "slug": "pism-ii-2024-dia-2",
+    "number": 12,
+    "subject": "Física",
+    "subjectId": "fisica",
+    "text": "Sabe-se que dois líquidos A e B são imiscíveis entre si (ou seja, não se misturam) e que A é imiscível com a água. Em laboratório, mediu-se a pressão hidrostática dos líquidos A e B em função da profundidade, mostradas no gráfico a seguir. Analisando o gráfico, assinale a alternativa CORRETA.",
+    "options": [
+      "A densidade do líquido A é de 12.000 kg/m3 .",
+      "A densidade do líquido B é de 800 kg/m3.",
+      "Ao ser colocado num recipiente junto com água, o líquido A fica por cima da água.",
+      "Ao serem colocados no mesmo recipiente, o líquido A fica por cima do líquido B.",
+      "O líquido A é 2 vezes mais denso do que o líquido B."
+    ],
+    "answer": "B",
+    "day": 2,
+    "sourceUrl": "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2023/12/PROVA-PISM-2024-DIA_2-M%C3%93DULO_II.pdf",
+    "answerSource": "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2023/12/GABARITO-PISM-2024-OBJETIVA-D2-P2.pdf",
+    "supportImages": [
+      "/pism-apoios/pism-ii-2024-dia-2-q12-pagina-9.png"
+    ]
+  },
+  {
+    "id": "pism-2024-ii-fisica-13",
+    "year": 2024,
+    "module": "II",
+    "slug": "pism-ii-2024-dia-2",
+    "number": 13,
+    "subject": "Física",
+    "subjectId": "fisica",
+    "text": "A figura abaixo mostra um diagrama pressão-volume de um gás ideal para as quatro fases do ciclo termodinâmico de um motor. Sabe-se que duas dessas quatro fases são isotérmicas. Considerando o trabalho realizado pelo gás, a variação de energia interna do gás e o calor fornecido ao gás em cada fase do ciclo, pode-se afirmar que durante a fase",
+    "options": [
+      "AB não há realização de trabalho.",
+      "AB a energia interna diminui.",
+      "BC o trabalho realizado é positivo.",
+      "DA não há calor fornecido.",
+      "DA a energia interna aumenta."
+    ],
+    "answer": "E",
+    "day": 2,
+    "sourceUrl": "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2023/12/PROVA-PISM-2024-DIA_2-M%C3%93DULO_II.pdf",
+    "answerSource": "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2023/12/GABARITO-PISM-2024-OBJETIVA-D2-P2.pdf",
+    "supportImages": [
+      "/pism-ii-2024-dia-2-questao-13.png"
+    ]
+  },
+  {
+    "id": "pism-2024-ii-fisica-14",
+    "year": 2024,
+    "module": "II",
+    "slug": "pism-ii-2024-dia-2",
+    "number": 14,
+    "subject": "Física",
+    "subjectId": "fisica",
+    "text": "A fibra óptica é feita de um núcleo do vidro maciço, estreito e cilíndrico, revestido com uma casca de material vítreo com índice de refração diferente do núcleo da fibra. A figura mostra um desenho esquemático de um raio de luz se deslocando no ar penetrando na fibra através do núcleo e sofrendo múltiplas reflexões internas. Sejam nₐ, nₙ e n꜀, respectivamente os índices de refração da luz no ar, no núcleo e na casca. Assinale a relação CORRETA entre os índices de refração que representa a propagação da luz no ar e na fibra.",
+    "options": [
+      "nA < nC < nN",
+      "nA < nN < nC",
+      "nC < nA < nN",
+      "nC < nN < nA",
+      "nN < nC < nA"
+    ],
+    "answer": "A",
+    "day": 2,
+    "sourceUrl": "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2023/12/PROVA-PISM-2024-DIA_2-M%C3%93DULO_II.pdf",
+    "answerSource": "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2023/12/GABARITO-PISM-2024-OBJETIVA-D2-P2.pdf",
+    "supportImages": [
+      "/pism-apoios/pism-ii-2024-dia-2-q14-pagina-10.png"
+    ]
+  },
+  {
+    "id": "pism-2024-ii-fisica-15",
+    "year": 2024,
+    "module": "II",
+    "slug": "pism-ii-2024-dia-2",
+    "number": 15,
+    "subject": "Física",
+    "subjectId": "fisica",
+    "text": "De acordo com a segunda lei da termodinâmica, assinale a alternativa CORRETA.",
+    "options": [
+      "Aparelhos de ar condicionado usam energia elétrica para resfriar o ar, podendo funcionar dentro de ambientes isolados termicamente.",
+      "Com tecnologia apropriada, poderíamos aproveitar integralmente a energia contida nos combustíveis como trabalho útil.",
+      "Um sistema termodinâmico, que emite a mesma quantidade de calor que recebe, sempre mantém sua entropia constante.",
+      "Um veículo movido a combustão interna nunca funcionaria em ambientes tão quentes quanto o seu próprio motor.",
+      "Uma poça de água que evapora é um exemplo de transformação termodinâmica reversível."
+    ],
+    "answer": "D",
+    "day": 2,
+    "sourceUrl": "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2023/12/PROVA-PISM-2024-DIA_2-M%C3%93DULO_II.pdf",
+    "answerSource": "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2023/12/GABARITO-PISM-2024-OBJETIVA-D2-P2.pdf",
+    "supportImages": []
+  },
+  {
+    "id": "pism-2025-ii-matematica-11",
+    "year": 2025,
+    "module": "II",
+    "slug": "pism-ii-2025-dia-1",
+    "number": 11,
+    "subject": "Matemática",
+    "subjectId": "matematica",
+    "text": "De acordo com a Pesquisa Nacional por Amostragem de Domicílios (PNAD) divulgada pelo IBGE em abril de 2024, a proporção da população brasileira com algum tipo de rendimento alcançou seu pico histórico em 2023 atingindo 64,9% da população – aproximadamente 140 milhões de pessoas – frente à marca de 62,6% da população – aproximadamente 134 milhões de pessoas – no ano de 2022. O gráfico de barras abaixo apresenta o rendimento mensal médio da população residente com algum tipo de rendimento nos anos de 2022 e 2023 para cada uma das regiões brasileiras. Disponível em www.g1.globo.com/economia. Acesso em: 19 abr. 2024(adaptado). A região brasileira que apresentou o maior crescimento relativo do rendimento mensal médio da população residente com algum tipo de rendimento, de 2022 para 2023, é a",
+    "options": [
+      "Centro-Oeste.",
+      "Nordeste.",
+      "Norte.",
+      "Sudeste.",
+      "Sul."
+    ],
+    "answer": "C",
+    "day": 1,
+    "sourceUrl": "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2024/12/Pism-2-Dia-1.pdf",
+    "answerSource": "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2024/12/GABARITO-PISM-2025-OBJETIVA-D1-P2-NF.pdf",
+    "supportImages": [
+      "/pism-apoios/pism-ii-2025-dia-1-q11-pagina-10.png"
+    ]
+  },
+  {
+    "id": "pism-2025-ii-matematica-12",
+    "year": 2025,
+    "module": "II",
+    "slug": "pism-ii-2025-dia-1",
+    "number": 12,
+    "subject": "Matemática",
+    "subjectId": "matematica",
+    "text": "Lionel usa um filtro de coador de café cujo formato é o de um cone reto com base circular de altura 10 cm e com diâmetro da base igual a 12 cm. Ao preparar o café, o pó de café se dispõe sobre o coador formando um cone reto sólido com base circular paralela à base do coador ocupando-o até a metade de sua altura. A figura abaixo apresenta uma seção plana do coador que ilustra o pó de café no coador. 12cm 10cm A densidade do pó de café utilizado por Lionel é de 0,4 g/cm3. Utilize 3 como aproximação para π. A quantidade, em gramas, de pó utilizado no preparo de café é igual a",
+    "options": [
+      "72",
+      "54",
+      "50",
+      "48",
+      "18"
+    ],
+    "answer": "E",
+    "day": 1,
+    "sourceUrl": "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2024/12/Pism-2-Dia-1.pdf",
+    "answerSource": "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2024/12/GABARITO-PISM-2025-OBJETIVA-D1-P2-NF.pdf",
+    "supportImages": [
+      "/pism-ii-2025-dia-1-questao-12.png"
+    ]
+  },
+  {
+    "id": "pism-2025-ii-matematica-13",
+    "year": 2025,
+    "module": "II",
+    "slug": "pism-ii-2025-dia-1",
+    "number": 13,
+    "subject": "Matemática",
+    "subjectId": "matematica",
+    "text": "O quadro abaixo apresenta o preço médio, em reais, pago por uma saca de 60 Kg de café arábica no estado de São Paulo durante o ano de 2023. Consulte a tabela no apoio. Representando os meses de janeiro a dezembro por um parâmetro numérico x, que assume os valores inteiros de 1 a 12, sendo 1 para o mês de janeiro e 12 para o mês de dezembro, buscou-se representar, em 2023, o preço médio da saca por uma função P(x) em função do mês descrito pela variável numérica x, considerando que esses preços variam periodicamente, de forma contínua. Uma expressão que pode descrever a função P(x) é",
+    "options": [
+      "100 + 1000 cos((πx − π)/12)",
+      "1000 + 100 sen((πx − π)/6)",
+      "100 + 1000 cos((πx − π)/6)",
+      "1000 + 100 sen((πx − π)/12)",
+      "1000 + 100 cos((πx − π)/12)"
+    ],
+    "answer": "B",
+    "day": 1,
+    "sourceUrl": "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2024/12/Pism-2-Dia-1.pdf",
+    "answerSource": "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2024/12/GABARITO-PISM-2025-OBJETIVA-D1-P2-NF.pdf",
+    "supportImages": [
+      "/pism-apoios/pism-ii-2025-dia-1-q13-vetor.png"
+    ]
+  },
+  {
+    "id": "pism-2025-ii-matematica-14",
+    "year": 2025,
+    "module": "II",
+    "slug": "pism-ii-2025-dia-1",
+    "number": 14,
+    "subject": "Matemática",
+    "subjectId": "matematica",
+    "text": "Uma zona esférica é a parte da superfície esférica situada entre dois planos paralelos que a intersectam. Se a esfera tem raio R e a distância entre os planos é h então a área da zona esférica correspondente é igual a 2π · R · h. Um artesão modelou um vaso cuja parede lateral tem o formato de uma zona esférica, obtida a partir de uma esfera de raio 5 cm, de maneira que a abertura circular do vaso possui diâmetro interno medindo 8 cm e, a base circular, diâmetro interno medindo 6 cm. A figura abaixo apresenta uma seção do vaso. 8cm 6cm A área total da superfície interna desse vaso mede, em centímetros quadrados,",
+    "options": [
+      "96π",
+      "95π",
+      "80π",
+      "79π",
+      "70π"
+    ],
+    "answer": "D",
+    "day": 1,
+    "sourceUrl": "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2024/12/Pism-2-Dia-1.pdf",
+    "answerSource": "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2024/12/GABARITO-PISM-2025-OBJETIVA-D1-P2-NF.pdf",
+    "supportImages": [
+      "/pism-ii-2025-dia-1-questao-14.png"
+    ]
+  },
+  {
+    "id": "pism-2025-ii-matematica-15",
+    "year": 2025,
+    "module": "II",
+    "slug": "pism-ii-2025-dia-1",
+    "number": 15,
+    "subject": "Matemática",
+    "subjectId": "matematica",
+    "text": "O gráfico de colunas de apoio apresenta a distribuição das quantidades de cartões amarelos e cartões vermelhos que os jogadores de um time de futebol receberam nas primeiras dez rodadas de um campeonato. Represente por M₁ a média de cartões amarelos recebidos pelos jogadores desse time, por rodada desse campeonato, e por M₂ e M₃, respectivamente, a mediana e a moda da distribuição das quantidades de cartões amarelos recebidos pelos jogadores desse time nas dez primeiras rodadas desse campeonato. Ordenando M₁, M₂ e M₃ obtém-se",
+    "options": [
+      "M1 < M2 < M3",
+      "M1 < M3 < M2",
+      "M2 < M1 < M3",
+      "M3 < M1 < M2",
+      "M3 < M2 < M1"
+    ],
+    "answer": "A",
+    "day": 1,
+    "sourceUrl": "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2024/12/Pism-2-Dia-1.pdf",
+    "answerSource": "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2024/12/GABARITO-PISM-2025-OBJETIVA-D1-P2-NF.pdf",
+    "supportImages": [
+      "/pism-apoios/pism-ii-2025-dia-1-q15-pagina-12.png"
+    ]
+  },
+  {
+    "id": "pism-2025-ii-quimica-16",
+    "year": 2025,
+    "module": "II",
+    "slug": "pism-ii-2025-dia-1",
+    "number": 16,
+    "subject": "Química",
+    "subjectId": "quimica",
+    "text": "Nos materiais contendo ferro, não é difícil identificar que ocorreu a oxidação. A esponja de aço, por exemplo, ao entrar em contato com o hipoclorito de sódio (NaCℓO), conhecido como água sanitária, reage formando Fe₂O₃(s). A equação química, não balanceada, que representa a reação entre o ferro e o hipoclorito de sódio está representada a seguir: Fe(s) + NaClO(aq) ⇌ Fe₂O₃(s) + NaCl(aq) Quantos mols de NaCℓO são necessários para produzir 480 g de Fe₂O₃?",
+    "options": [
+      "1",
+      "2",
+      "3",
+      "6",
+      "9"
+    ],
+    "answer": "E",
+    "day": 1,
+    "sourceUrl": "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2024/12/Pism-2-Dia-1.pdf",
+    "answerSource": "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2024/12/GABARITO-PISM-2025-OBJETIVA-D1-P2-NF.pdf",
+    "supportImages": []
+  },
+  {
+    "id": "pism-2025-ii-quimica-17",
+    "year": 2025,
+    "module": "II",
+    "slug": "pism-ii-2025-dia-1",
+    "number": 17,
+    "subject": "Química",
+    "subjectId": "quimica",
+    "text": "O gráfico abaixo apresenta a variação do coeficiente de solubilidade do nitrato de potássio (KNO₃) em água. De acordo com sua interpretação do gráfico, marque a alternativa CORRETA.",
+    "options": [
+      "Ao prepararmos uma mistura contendo 80 g de KNO3 em 100 g de água na temperatura de 80 °C ela passará a ser saturada quando resfriada até 55 °C.",
+      "Ao adicionarmos 80 g de KNO3 em 100 g de água na temperatura de 10 °C, apenas 60 g de KNO3 estarão dissolvidos em água.",
+      "Ao prepararmos uma mistura de 150 g de KNO3 em 150 g de água na temperatura de 80 °C, observaremos o aparecimento de sólido quando essa mistura for aquecida para 90 °C.",
+      "É possível dissolver totalmente 200 g de nitrato de potássio em 50 g de água na temperatura de 90 °C.",
+      "Para preparar uma solução aquosa saturada de KNO3 na temperatura de 70 °C, deve-se adicionar 70 g de KNO3 em 50 g de água."
+    ],
+    "answer": "E",
+    "day": 1,
+    "sourceUrl": "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2024/12/Pism-2-Dia-1.pdf",
+    "answerSource": "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2024/12/GABARITO-PISM-2025-OBJETIVA-D1-P2-NF.pdf",
+    "supportImages": [
+      "/pism-apoios/pism-ii-2025-dia-1-q17-pagina-12.png"
+    ]
+  },
+  {
+    "id": "pism-2025-ii-quimica-18",
+    "year": 2025,
+    "module": "II",
+    "slug": "pism-ii-2025-dia-1",
+    "number": 18,
+    "subject": "Química",
+    "subjectId": "quimica",
+    "text": "O flúor, cloro, bromo e iodo pertencem ao grupo 17 da tabela periódica, também chamado de família dos halogênios. Esse grupo é um dos mais estudados na tabela periódica e geralmente fazem ligações covalentes simples ou se apresentam carregados negativamente. Alguns exemplos de substâncias que contêm halogênios em sua estrutura são: HCl, CaF₂, CH₃Br, I₂ e NaClO. A alternativa que contém substâncias que apresentam ligações iônicas é:",
+    "options": [
+      "CaF2 e NaClO.",
+      "HCl e CaF2.",
+      "HCl e NaClO.",
+      "CH3Br e I2.",
+      "HCl, CaF2 e CH3Br."
+    ],
+    "answer": "A",
+    "day": 1,
+    "sourceUrl": "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2024/12/Pism-2-Dia-1.pdf",
+    "answerSource": "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2024/12/GABARITO-PISM-2025-OBJETIVA-D1-P2-NF.pdf",
+    "supportImages": []
+  },
+  {
+    "id": "pism-2025-ii-quimica-19",
+    "year": 2025,
+    "module": "II",
+    "slug": "pism-ii-2025-dia-1",
+    "number": 19,
+    "subject": "Química",
+    "subjectId": "quimica",
+    "text": "A palavra colágeno diz respeito a um grupo de 28 proteínas que são classificadas de acordo com o tipo de tecido em que estão presentes em maior concentração. Um dos compostos que compõe esse grupo de proteínas é a hidroxilisina, suja fórmula está mostrada a seguir. O nome sistemático, seguindo as regras da IUPAC, para a hidroxilisina é",
+    "options": [
+      "ácido 2,6-diamino-5-hidroxihexanóico.",
+      "ácido carboxilíco 2,6-diamino-5-hidroxi.",
+      "2-amino-5-hidroxi-6-amino ácido hexanóico.",
+      "2,6-diamino-5-hidroxi hexanóico.",
+      "2-ácido-5-hidroxi-hexanodiamina."
+    ],
+    "answer": "A",
+    "day": 1,
+    "sourceUrl": "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2024/12/Pism-2-Dia-1.pdf",
+    "answerSource": "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2024/12/GABARITO-PISM-2025-OBJETIVA-D1-P2-NF.pdf",
+    "supportImages": [
+      "/pism-apoios/pism-ii-2025-dia-1-q19-pagina-13.png"
+    ]
+  },
+  {
+    "id": "pism-2025-ii-quimica-20",
+    "year": 2025,
+    "module": "II",
+    "slug": "pism-ii-2025-dia-1",
+    "number": 20,
+    "subject": "Química",
+    "subjectId": "quimica",
+    "text": "O oxigênio dissolvido na água, responsável pela manutenção da vida aquática, é de extrema importância no equilíbrio do ecossistema marítimo. Por exemplo, nas águas frias do Atlântico Norte existe maior atividade pesqueira do que nas águas quentes equatoriais, devido à maior abundância de vida marinha, já que as baixas temperaturas favorecem a interação entre as moléculas de oxigênio e as moléculas de água. Considere as interações intermoleculares abaixo: I. Interação entre moléculas de O₂. II. Interação entre moléculas de H₂O. III. Interação entre moléculas de O₂ e H₂O. Pode-se dizer que nos sistemas I, II e III as interações intermoleculares mais fortes presentes são, respectivamente, do tipo",
+    "options": [
+      "I. dipolo induzido – dipolo induzido; II. ligação de hidrogênio; III. dipolo induzido – dipolo induzido.",
+      "I. dipolo – dipolo; II. ligação de hidrogênio; III. dipolo induzido – dipolo induzido.",
+      "I. dipolo – dipolo induzido; II. ligação de hidrogênio; III. dipolo-dipolo.",
+      "I. dipolo induzido – dipolo induzido; II. ligação de hidrogênio; III. dipolo-dipolo induzido.",
+      "I. dipolo induzido – dipolo induzido; II. ligação de hidrogênio; III. dipolo – dipolo."
+    ],
+    "answer": "D",
+    "day": 1,
+    "sourceUrl": "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2024/12/Pism-2-Dia-1.pdf",
+    "answerSource": "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2024/12/GABARITO-PISM-2025-OBJETIVA-D1-P2-NF.pdf",
+    "supportImages": []
+  },
+  {
+    "id": "pism-2025-ii-fisica-11",
+    "year": 2025,
+    "module": "II",
+    "slug": "pism-ii-2025-dia-2",
+    "number": 11,
+    "subject": "Física",
+    "subjectId": "fisica",
+    "text": "Sabe-se que a densidade da água do mar é aproximadamente de 1,0 g/cm³ e que uma atmosfera equivale a 1,0 × 10⁵ N/m². A profundidade no mar que corresponde a uma pressão de 2,0 atm é de aproximadamente",
+    "options": [
+      "10,0 m",
+      "20,0 m",
+      "100,0 m",
+      "200,0 m",
+      "2,0 m"
+    ],
+    "answer": "A",
+    "day": 2,
+    "sourceUrl": "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2024/12/Pism-2-Dia-2.pdf",
+    "answerSource": "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2025/01/GABARITO-PISM-2025-OBJETIVA-D2-P2-NF.pdf",
+    "supportImages": []
+  },
+  {
+    "id": "pism-2025-ii-fisica-12",
+    "year": 2025,
+    "module": "II",
+    "slug": "pism-ii-2025-dia-2",
+    "number": 12,
+    "subject": "Física",
+    "subjectId": "fisica",
+    "text": "Considere um dispositivo que consiste em um tubo de maior área e uma parede central contendo um pequeno orifício que deixa a passagem de fluxo de ar para outro lado somente em um sentido. Sabe-se que o fluxo de ar é incompressível, que a velocidade do som no ar é de aproximadamente 340,0 m/s, que o área do orifício é de 1,0 mm² e que a velocidade do fluxo de ar no orifício é o dobro da velocidade do som no ar. O valor da velocidade do fluxo de ar antes do orifício numa área de 10,0 cm² é de",
+    "options": [
+      "0,68 m/s",
+      "6,80 m/s",
+      "0,34 m/s",
+      "3,40 m/s",
+      "0,17 m/s"
+    ],
+    "answer": "A",
+    "day": 2,
+    "sourceUrl": "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2024/12/Pism-2-Dia-2.pdf",
+    "answerSource": "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2025/01/GABARITO-PISM-2025-OBJETIVA-D2-P2-NF.pdf",
+    "supportImages": []
+  },
+  {
+    "id": "pism-2025-ii-fisica-13",
+    "year": 2025,
+    "module": "II",
+    "slug": "pism-ii-2025-dia-2",
+    "number": 13,
+    "subject": "Física",
+    "subjectId": "fisica",
+    "text": "Em relação ao microscópio óptico e à luneta astronômica, assinale a alternativa CORRETA.",
+    "options": [
+      "Em ambos os instrumentos há uma lente convergente e uma lente divergente.",
+      "A imagem da primeira lente na qual passa a luz é virtual e reduzida nos dois instrumentos.",
+      "Em ambos os instrumentos, a imagem final é real e ampliada.",
+      "Em ambos, os objetos observados devem ficar próximo a uma das lentes.",
+      "Um serve para observar objetos pequenos e próximos e o outro para objetos grandes e distantes."
+    ],
+    "answer": "E",
+    "day": 2,
+    "sourceUrl": "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2024/12/Pism-2-Dia-2.pdf",
+    "answerSource": "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2025/01/GABARITO-PISM-2025-OBJETIVA-D2-P2-NF.pdf",
+    "supportImages": []
+  },
+  {
+    "id": "pism-2025-ii-fisica-14",
+    "year": 2025,
+    "module": "II",
+    "slug": "pism-ii-2025-dia-2",
+    "number": 14,
+    "subject": "Física",
+    "subjectId": "fisica",
+    "text": "Em relação às ondas sonoras, assinale a alternativa CORRETA.",
+    "options": [
+      "O som se propaga no vácuo.",
+      "A velocidade do som é maior nos gases do que nos sólidos.",
+      "A escala da intensidade sonora é linear.",
+      "Sons graves são de alta frequência e sons agudos de baixa frequência.",
+      "O som sofre refração, o que permite criar lentes acústicas."
+    ],
+    "answer": "C/E",
+    "day": 2,
+    "sourceUrl": "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2024/12/Pism-2-Dia-2.pdf",
+    "answerSource": "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2025/01/GABARITO-PISM-2025-OBJETIVA-D2-P2-NF.pdf",
+    "supportImages": []
+  },
+  {
+    "id": "pism-2025-ii-fisica-15",
+    "year": 2025,
+    "module": "II",
+    "slug": "pism-ii-2025-dia-2",
+    "number": 15,
+    "subject": "Física",
+    "subjectId": "fisica",
+    "text": "Em relação aos processos de propagação do calor, assinale a alternativa CORRETA.",
+    "options": [
+      "A condução ocorre entre uma superfície sólida e o vácuo.",
+      "A radiação se propaga entre dois sólidos.",
+      "A convecção ocorre entre uma superfície sólida e um fluido livre.",
+      "A condução ocorre entre dois fluidos livres.",
+      "A convecção ocorre entre um fluido livre e o vácuo."
+    ],
+    "answer": "B/C",
+    "day": 2,
+    "sourceUrl": "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2024/12/Pism-2-Dia-2.pdf",
+    "answerSource": "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2025/01/GABARITO-PISM-2025-OBJETIVA-D2-P2-NF.pdf",
+    "supportImages": []
+  },
+  {
+    "id": "pism-2026-ii-matematica-11",
+    "year": 2026,
+    "module": "II",
+    "slug": "pism-ii-2026-dia-1",
+    "number": 11,
+    "subject": "Matemática",
+    "subjectId": "matematica",
+    "text": "O gráfico abaixo apresenta as notas dos 100 candidatos que participaram da primeira fase de um concurso público. São considerados aprovados para a segunda fase desse concurso somente os candidatos com nota superior à média das notas de todos os candidatos que participaram da primeira fase. Quantos candidatos foram aprovados para a segunda fase desse concurso?",
+    "options": [
+      "15",
+      "45",
+      "50",
+      "55",
+      "100"
+    ],
+    "answer": "B",
+    "day": 1,
+    "sourceUrl": "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2025/12/Pism-2-dia-1.pdf",
+    "answerSource": "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2025/12/GABARITO-PISM-2026-OBJETIVA-D1-P2.pdf",
+    "supportImages": [
+      "/pism-apoios/pism-ii-2026-dia-1-q11-pagina-9.png"
+    ]
+  },
+  {
+    "id": "pism-2026-ii-matematica-12",
+    "year": 2026,
+    "module": "II",
+    "slug": "pism-ii-2026-dia-1",
+    "number": 12,
+    "subject": "Matemática",
+    "subjectId": "matematica",
+    "text": "A figura abaixo apresenta, de forma simplificada, os níveis de progesterona ao longo de um ciclo menstrual típico de 28 dias. O ciclo se caracteriza por duas fases, a saber: folicular e lútea, cada uma com duração aproximada de 14 dias, separadas pelo processo de ovulação que ocorre no meio do ciclo. Durante a primeira fase, os níveis são baixos, em torno de 1 nanograma por mililitro (ng/mL). Na segunda fase, os níveis aumentam progressivamente até atingir um pico de 25 ng/mL, no meio da duração desta fase. Para descrever a variação dos níveis de progesterona ao longo do ciclo, considere x como a variável que representa o tempo, expresso na unidade dia, e H(x) como a função que fornece a concentração de progesterona, expressa de forma contínua durante o ciclo. Na primeira fase, isto é, para valores de x entre os dias 1 e 14, os níveis são próximos de 1 ng/mL e consideramos H(x) constante igual a 1. Para a segunda fase, correspondente aos valores de x entre 14 e 28, buscou-se expressar H(x) como uma função do tipo A + B · sen[C(x + D)], sendo A, B, C e D constantes reais. A função que melhor descreve H(x) na fase lútea é",
+    "options": [
+      "H(x) = 25·sen[(π/7)(x − 14)]",
+      "H(x) = 25·sen[(π/14)(x − 14)]",
+      "H(x) = 1 + 24·sen[(π/7)(x − 14)]",
+      "H(x) = 1 + 25·sen[(π/7)(x − 14)]",
+      "H(x) = 1 + 24·sen[(π/14)(x − 14)]"
+    ],
+    "answer": "E",
+    "day": 1,
+    "sourceUrl": "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2025/12/Pism-2-dia-1.pdf",
+    "answerSource": "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2025/12/GABARITO-PISM-2026-OBJETIVA-D1-P2.pdf",
+    "supportImages": [
+      "/pism-apoios/pism-ii-2026-dia-1-q12-pagina-10.png"
+    ]
+  },
+  {
+    "id": "pism-2026-ii-matematica-13",
+    "year": 2026,
+    "module": "II",
+    "slug": "pism-ii-2026-dia-1",
+    "number": 13,
+    "subject": "Matemática",
+    "subjectId": "matematica",
+    "text": "Após a realização de uma obra, a areia que sobrou ficou empilhada, em formato de um cone circular reto cujo raio da base mede 5 m e, cuja altura, mede 3 m. Essa areia será armazenada em barris de formato cilíndrico cujas bases possuem diâmetro medindo 1 m e altura medindo 80 cm. Qual é a quantidade mínima de barris que serão utilizados para armazenar toda essa areia?",
+    "options": [
+      "19",
+      "32",
+      "125",
+      "375",
+      "1 125"
+    ],
+    "answer": "C",
+    "day": 1,
+    "sourceUrl": "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2025/12/Pism-2-dia-1.pdf",
+    "answerSource": "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2025/12/GABARITO-PISM-2026-OBJETIVA-D1-P2.pdf",
+    "supportImages": []
+  },
+  {
+    "id": "pism-2026-ii-matematica-14",
+    "year": 2026,
+    "module": "II",
+    "slug": "pism-ii-2026-dia-1",
+    "number": 14,
+    "subject": "Matemática",
+    "subjectId": "matematica",
+    "text": "Um marceneiro formou um bloco retangular com 18 cubos idênticos, de cor branca, e pintou toda a superfície externa desse bloco na cor cinza, conforme ilustrado na figura 1, gastando 21 mililitros de tinta. Em seguida, removeu 4 cubos, resultando o sólido ilustrado na figura 2. Para finalizar seu trabalho, precisa pintar, com a mesma tinta de cor cinza, a parte em branco do sólido da figura 2 e as faces em branco de cada cubo removido. Quantos mililitros dessa tinta, no mínimo, serão utilizados para finalizar seu trabalho?",
+    "options": [
+      "4 mL",
+      "8 mL",
+      "12 mL",
+      "16 mL",
+      "54 mL"
+    ],
+    "answer": "C",
+    "day": 1,
+    "sourceUrl": "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2025/12/Pism-2-dia-1.pdf",
+    "answerSource": "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2025/12/GABARITO-PISM-2026-OBJETIVA-D1-P2.pdf",
+    "supportImages": [
+      "/pism-apoios/pism-ii-2026-dia-1-q14-pagina-10.png"
+    ]
+  },
+  {
+    "id": "pism-2026-ii-matematica-15",
+    "year": 2026,
+    "module": "II",
+    "slug": "pism-ii-2026-dia-1",
+    "number": 15,
+    "subject": "Matemática",
+    "subjectId": "matematica",
+    "text": "Uma pesquisa sobre a preferência por modalidade esportiva foi realizada com 200 estudantes do ensino médio de uma escola. Todos responderam escolhendo somente uma dentre as seguintes modalidades: natação, basquete, vôlei e futebol. O gráfico abaixo mostra a distribuição por sexo dos pesquisados por modalidade esportiva escolhida. Já o gráfico de setores abaixo informa a preferência dos pesquisados por modalidade esportiva. Quantas mulheres pesquisadas preferem vôlei?",
+    "options": [
+      "24",
+      "32",
+      "36",
+      "48",
+      "60"
+    ],
+    "answer": "C",
+    "day": 1,
+    "sourceUrl": "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2025/12/Pism-2-dia-1.pdf",
+    "answerSource": "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2025/12/GABARITO-PISM-2026-OBJETIVA-D1-P2.pdf",
+    "supportImages": [
+      "/pism-apoios/pism-ii-2026-dia-1-q15-pagina-11.png"
+    ]
+  },
+  {
+    "id": "pism-2026-ii-quimica-16",
+    "year": 2026,
+    "module": "II",
+    "slug": "pism-ii-2026-dia-1",
+    "number": 16,
+    "subject": "Química",
+    "subjectId": "quimica",
+    "text": "Os tensoativos utilizados em sabões, detergentes e xampus são compostos por uma longa cadeia carbônica (orgânica) com uma extremidade carregada, geralmente um grupo carboxilato (COO−) ligado à um cátion como o sódio (Na+) ou potássio (K+). Uma empresa de cosméticos investigou a eficiência de diferentes tensoativos presentes em xampus, observando que alguns removem melhor gordura (óleos) do couro cabeludo por meio da formação de micelas em meio aquoso. Para compreender esse processo, é necessário correlacionar as interações intermoleculares envolvidas com os fenômenos observados. Sobre as interações intermoleculares envolvidas na ação dos xampus no couro cabeludo, é CORRETO afirmar que",
+    "options": [
+      "A parte apolar evita a água e se associa à gordura por forças de dispersão de London.",
+      "A parte polar se associa à água exclusivamente por dipolo–dipolo induzido.",
+      "Micelas dependem apenas da temperatura, sem participação de interações intermoleculares.",
+      "A micela resulta de interações íon–íon entre água e moléculas apolares.",
+      "A água dissolve gorduras quebrando as ligações de hidrogênio entre elas."
+    ],
+    "answer": "A",
+    "day": 1,
+    "sourceUrl": "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2025/12/Pism-2-dia-1.pdf",
+    "answerSource": "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2025/12/GABARITO-PISM-2026-OBJETIVA-D1-P2.pdf",
+    "supportImages": []
+  },
+  {
+    "id": "pism-2026-ii-quimica-17",
+    "year": 2026,
+    "module": "II",
+    "slug": "pism-ii-2026-dia-1",
+    "number": 17,
+    "subject": "Química",
+    "subjectId": "quimica",
+    "text": "A massa de átomos e moléculas é medida em função da massa do ¹²C, e é expressa em unidade de massa atômica. Quando utilizamos o conceito de quantidade de matéria, a massa dessas espécies passa a ser expressa em gramas por mol. Essa correlação facilita muito o trabalho em laboratório como, por exemplo, o uso de balanças de precisão para medirmos a massa de substâncias (quantidades macroscópicas) e não a massa de átomos individuais. Assim, 1 mol de Al₂O₃ possui, aproximadamente",
+    "options": [
+      "27 g de alumínio por mol do composto.",
+      "Massa molar de 50 g/mol.",
+      "Massa molar de 102 g/mol.",
+      "Massa molar de 113 g/mol.",
+      "24 g de oxigênio por mol do composto."
+    ],
+    "answer": "C",
+    "day": 1,
+    "sourceUrl": "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2025/12/Pism-2-dia-1.pdf",
+    "answerSource": "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2025/12/GABARITO-PISM-2026-OBJETIVA-D1-P2.pdf",
+    "supportImages": []
+  },
+  {
+    "id": "pism-2026-ii-quimica-18",
+    "year": 2026,
+    "module": "II",
+    "slug": "pism-ii-2026-dia-1",
+    "number": 18,
+    "subject": "Química",
+    "subjectId": "quimica",
+    "text": "Durante uma feira de ciências, um grupo de estudantes demonstra como é possível produzir um refrigerante caseiro misturando bicarbonato de sódio (NaHCO₃) com suco de limão, que contém ácido cítrico (C₆H₈O₇). A reação libera gás carbônico (CO₂), responsável pela presença de gás no 2 refrigerante, segundo a equação balanceada: 3 NaHCO₃(s) + C₆H₈O₇(aq) → 3 CO₂(g) + 3 H₂O(ℓ) + Na₃C₆H₅O₇(aq) Suponha que os alunos utilizaram 12,6 gramas de bicarbonato de sódio, e que havia ácido cítrico em excesso. Dados: Massa molar do NaHCO₃ = 84 g/mol; massa molar do CO₂ = 44 g/mol; 1 mol de gás, na CNTP ocupa 22,4 L. Considerando a reação completa, qual o volume de gás carbônico liberado em CNTP?",
+    "options": [
+      "1,78 L",
+      "3,36 L",
+      "3,54 L",
+      "10,08 L",
+      "149,3 L"
+    ],
+    "answer": "B",
+    "day": 1,
+    "sourceUrl": "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2025/12/Pism-2-dia-1.pdf",
+    "answerSource": "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2025/12/GABARITO-PISM-2026-OBJETIVA-D1-P2.pdf",
+    "supportImages": []
+  },
+  {
+    "id": "pism-2026-ii-quimica-19",
+    "year": 2026,
+    "module": "II",
+    "slug": "pism-ii-2026-dia-1",
+    "number": 19,
+    "subject": "Química",
+    "subjectId": "quimica",
+    "text": "A equação química NÃO balanceada apresentada, a seguir, representa a obtenção de etanol (C₂H₆O) a partir da sacarose (C₁₂H₂₂O₁₁) sob oxidação enzimática: 12 22 11 C₁₂H₂₂O₁₁(aq) + H₂O(ℓ) → C₂H₆O(aq) + CO₂(g) Dado: 1 mol = 6,0 × 10²³ Após o balanceamento da equação 1 mol de C₁₂H₂₂O₁₁ produzirá",
+    "options": [
+      "6,0×10²³ moléculas de CO₂.",
+      "7,2×10²⁴ moléculas de CO₂.",
+      "6,0×10²³ moléculas de etanol.",
+      "2,4×10²⁴ moléculas de etanol.",
+      "3,6×10²⁴ moléculas de etanol."
+    ],
+    "answer": "D",
+    "day": 1,
+    "sourceUrl": "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2025/12/Pism-2-dia-1.pdf",
+    "answerSource": "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2025/12/GABARITO-PISM-2026-OBJETIVA-D1-P2.pdf",
+    "supportImages": []
+  },
+  {
+    "id": "pism-2026-ii-quimica-20",
+    "year": 2026,
+    "module": "II",
+    "slug": "pism-ii-2026-dia-1",
+    "number": 20,
+    "subject": "Química",
+    "subjectId": "quimica",
+    "text": "Durante queimadas em área de vegetação, a combustão do metano (CH₄) é uma das reações envolvidas, liberando energia e contribuindo para o aquecimento do ambiente. Considere a seguinte reação balanceada: CH₄(g) + 2 O₂(g) → CO₂(g) + 2 H₂O(g) A variação de entalpia dessa reação (∆H) pode ser estimada utilizando-se a tabela de entalpia média de dissociação de ligação D (em kJ/mol): Consulte a tabela no apoio. Com base nos dados fornecidos, o valor aproximado da variação de entalpia (∆H) da reação é",
+    "options": [
+      "−806 kJ/mol",
+      "−235 kJ/mol",
+      "−120 kJ/mol",
+      "+120 kJ/mol",
+      "+806 kJ/mol"
+    ],
+    "answer": "A",
+    "day": 1,
+    "sourceUrl": "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2025/12/Pism-2-dia-1.pdf",
+    "answerSource": "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2025/12/GABARITO-PISM-2026-OBJETIVA-D1-P2.pdf",
+    "supportImages": [
+      "/pism-apoios/pism-ii-2026-dia-1-q20-vetor.png"
+    ]
+  },
+  {
+    "id": "pism-2026-ii-fisica-11",
+    "year": 2026,
+    "module": "II",
+    "slug": "pism-ii-2026-dia-2",
+    "number": 11,
+    "subject": "Física",
+    "subjectId": "fisica",
+    "text": "A densidade ou massa específica de um corpo é definida como a razão entre a sua massa e seu volume, e depende da substância da qual este corpo é composto. Considere que foram colocados num copo 250 mL de leite retirados de uma garrafa que continha 1 L. A densidade do leite do copo é",
+    "options": [
+      "É igual, pois densidade não depende da quantidade da amostra.",
+      "É quatro vezes menor porque a massa é quatro vezes menor.",
+      "É quatro vezes menor porque o volume é quatro vezes menor.",
+      "É quatro vezes maior porque a massa é quatro vezes menor.",
+      "É quatro vezes maior porque o volume é quatro vezes menor."
+    ],
+    "answer": "A",
+    "day": 2,
+    "sourceUrl": "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2025/12/Pism-2-dia-2.pdf",
+    "answerSource": "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2025/12/GABARITO-PISM-2026-OBJETIVA-D2-P2.pdf",
+    "supportImages": []
+  },
+  {
+    "id": "pism-2026-ii-fisica-12",
+    "year": 2026,
+    "module": "II",
+    "slug": "pism-ii-2026-dia-2",
+    "number": 12,
+    "subject": "Física",
+    "subjectId": "fisica",
+    "text": "O som é uma onda mecânica longitudinal e está associado a vários fenômenos. Um desses fenômenos é a difração, que pode ser exemplificada, por exemplo, como",
+    "options": [
+      "O som aumenta sua frequência ao atravessar uma abertura pequena.",
+      "Equipamentos amplificam a intensidade do som.",
+      "O som retorna ao encontrar um obstáculo, produzindo eco.",
+      "O som contorna a esquina de um edifício e pode ser ouvido do outro lado.",
+      "Uma fonte em um poste emite som em diferentes direções."
+    ],
+    "answer": "D",
+    "day": 2,
+    "sourceUrl": "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2025/12/Pism-2-dia-2.pdf",
+    "answerSource": "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2025/12/GABARITO-PISM-2026-OBJETIVA-D2-P2.pdf",
+    "supportImages": []
+  },
+  {
+    "id": "pism-2026-ii-fisica-13",
+    "year": 2026,
+    "module": "II",
+    "slug": "pism-ii-2026-dia-2",
+    "number": 13,
+    "subject": "Física",
+    "subjectId": "fisica",
+    "text": "Sabemos que os espelhos permitem a formação de imagens nítidas daquilo que nos interessa observar com mais detalhes, como por exemplo, uma espinha ou uma pontinha de pelo no rosto. Para que possamos obter uma imagem ampliada e direta de algum aspecto do rosto, devemos utilizar um espelho",
+    "options": [
+      "Espelho côncavo, com o rosto entre o foco e o vértice.",
+      "Espelho côncavo, com o rosto entre o foco e o centro de curvatura.",
+      "Espelho convexo, com o rosto entre o foco e o vértice.",
+      "Espelho convexo, com o rosto entre o foco e o centro de curvatura.",
+      "Espelho plano bem próximo ao rosto."
+    ],
+    "answer": "A",
+    "day": 2,
+    "sourceUrl": "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2025/12/Pism-2-dia-2.pdf",
+    "answerSource": "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2025/12/GABARITO-PISM-2026-OBJETIVA-D2-P2.pdf",
+    "supportImages": []
+  },
+  {
+    "id": "pism-2026-ii-fisica-14",
+    "year": 2026,
+    "module": "II",
+    "slug": "pism-ii-2026-dia-2",
+    "number": 14,
+    "subject": "Física",
+    "subjectId": "fisica",
+    "text": "Sabe-se que o ponto de ebulição da água é igual a 100 °C ao nível do mar, mas diminui com a altitude. Por exemplo, em La Paz, capital da Bolívia, a água ferve a 90 °C. Estando a temperatura de La Paz em 18 °C, uma mãe deseja dar banho em seu filho pequeno numa banheira que contém 50 litros de água em equilíbrio térmico com o ambiente. Qual o volume de água fervente que ela deve jogar na banheira para que a água atinja 26 °C? Considere trocas de calor apenas entre as águas quente e fria.",
+    "options": [
+      "1,92 L",
+      "2,77 L",
+      "3,46 L",
+      "5,00 L",
+      "6,25 L"
+    ],
+    "answer": "E",
+    "day": 2,
+    "sourceUrl": "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2025/12/Pism-2-dia-2.pdf",
+    "answerSource": "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2025/12/GABARITO-PISM-2026-OBJETIVA-D2-P2.pdf",
+    "supportImages": []
+  },
+  {
+    "id": "pism-2026-ii-fisica-15",
+    "year": 2026,
+    "module": "II",
+    "slug": "pism-ii-2026-dia-2",
+    "number": 15,
+    "subject": "Física",
+    "subjectId": "fisica",
+    "text": "Um termoscópio é um dispositivo que pode acusar alguma variação de temperatura, que pode ser, por exemplo, um tubo capilar de vidro contendo mercúrio, e que tem uma ponta metálica. Considere um termoscópio que tem registrado no tubo capilar apenas o número 15 para o ponto do gelo e o número 55 para o ponto do vapor dá água, no nível do mar. Num ambiente em que o mercúrio do dispositivo se encontra na altura do que seria o número 35 dessa escala, a temperatura em graus Celsius estará em torno de",
+    "options": [
+      "50,0 °C",
+      "42,5 °C",
+      "35,0 °C",
+      "32,5 °C",
+      "20,0 °C"
+    ],
+    "answer": "A",
+    "day": 2,
+    "sourceUrl": "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2025/12/Pism-2-dia-2.pdf",
+    "answerSource": "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2025/12/GABARITO-PISM-2026-OBJETIVA-D2-P2.pdf",
+    "supportImages": []
+  },
+  {
+    "id": "pism-2024-iii-matematica-16",
+    "year": 2024,
+    "module": "III",
+    "slug": "pism-iii-2024-dia-1",
+    "number": 16,
+    "subject": "Matemática",
+    "subjectId": "matematica",
+    "text": "Considere os polinômios p(x) = x² + x − 6 e q(x) = x² + x/2 − 1/2. Considere ainda o polinômio r(x) = p(x) · q(x). A soma dos coeficientes de r(x) é igual a C e o produto das raízes de r(x) é igual a P. O valor de C + P é",
+    "options": [
+      "−8",
+      "−6",
+      "−1",
+      "0",
+      "7"
+    ],
+    "answer": "C",
+    "day": 1,
+    "sourceUrl": "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2023/12/PROVA-PISM-2024-DIA_1-M%C3%93DULO_III-Humanas.pdf",
+    "answerSource": "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2023/12/GABARITO-PISM-2024-OBJETIVA-D1-P3.pdf",
+    "supportImages": []
+  },
+  {
+    "id": "pism-2024-iii-matematica-17",
+    "year": 2024,
+    "module": "III",
+    "slug": "pism-iii-2024-dia-1",
+    "number": 17,
+    "subject": "Matemática",
+    "subjectId": "matematica",
+    "text": "Seja a > 3 um número real. Considere o sistema linear −x + y = a e −2x + y = 3. Seja P(x, y) o ponto no plano cartesiano cujas coordenadas são a solução do sistema. O ponto P pertence",
+    "options": [
+      "Eixo x.",
+      "Eixo y.",
+      "Primeiro quadrante, x≠0 e y≠0.",
+      "Segundo quadrante, x≠0 e y≠0.",
+      "Terceiro quadrante, x≠0 e y≠0."
+    ],
+    "answer": "C",
+    "day": 1,
+    "sourceUrl": "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2023/12/PROVA-PISM-2024-DIA_1-M%C3%93DULO_III-Humanas.pdf",
+    "answerSource": "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2023/12/GABARITO-PISM-2024-OBJETIVA-D1-P3.pdf",
+    "supportImages": []
+  },
+  {
+    "id": "pism-2024-iii-matematica-18",
+    "year": 2024,
+    "module": "III",
+    "slug": "pism-iii-2024-dia-1",
+    "number": 18,
+    "subject": "Matemática",
+    "subjectId": "matematica",
+    "text": "Bernardo trabalha como vendedor, de segunda a sexta, na loja Passarinhos. Ele recebeu 5 camisas de uniforme com cores distintas para usar no trabalho. Ao longo da semana, quando ele usa uma camisa, não pode usála no dia seguinte, pois ela deve ser lavada e seca, mas pode usá-la novamente em outro dia. Em uma semana, começando com todas as camisas lavadas e secas, Bernardo pegará, aleatoriamente, uma camisa dentre as disponíveis para uso. Qual é a probabilidade de que ele trabalhe todos os 5 dias com camisas de cores diferentes?",
+    "options": [
+      "1/5⁵",
+      "1/(5·4⁴)",
+      "1/5!",
+      "3/2⁵",
+      "5/4!"
+    ],
+    "answer": "D",
+    "day": 1,
+    "sourceUrl": "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2023/12/PROVA-PISM-2024-DIA_1-M%C3%93DULO_III-Humanas.pdf",
+    "answerSource": "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2023/12/GABARITO-PISM-2024-OBJETIVA-D1-P3.pdf",
+    "supportImages": []
+  },
+  {
+    "id": "pism-2024-iii-matematica-19",
+    "year": 2024,
+    "module": "III",
+    "slug": "pism-iii-2024-dia-1",
+    "number": 19,
+    "subject": "Matemática",
+    "subjectId": "matematica",
+    "text": "Considere o segmento de reta de A(1, 3) até B(7, 12). Nesse segmento, são marcados dois pontos C e D, de forma que as distâncias entre A e C, entre C e D e entre D e B são todas iguais. As coordenadas desses pontos C e D são, respectivamente,",
+    "options": [
+      "(2,3) e (4,6)",
+      "(4,6) e (7,9)",
+      "(2,3) e (5,6)",
+      "(3,0) e (0,9)",
+      "(3,6) e (5,9)"
+    ],
+    "answer": "E",
+    "day": 1,
+    "sourceUrl": "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2023/12/PROVA-PISM-2024-DIA_1-M%C3%93DULO_III-Humanas.pdf",
+    "answerSource": "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2023/12/GABARITO-PISM-2024-OBJETIVA-D1-P3.pdf",
+    "supportImages": []
+  },
+  {
+    "id": "pism-2024-iii-matematica-20",
+    "year": 2024,
+    "module": "III",
+    "slug": "pism-iii-2024-dia-1",
+    "number": 20,
+    "subject": "Matemática",
+    "subjectId": "matematica",
+    "text": "Maria possui um estojo contendo 8 peças de bijuterias, sendo 2 em forma de quadrado, 2 em forma de triângulo, 2 em forma de disco e 2 em forma de estrela. Peças de mesma forma são idênticas. De quantas maneiras distintas Maria pode escolher 6 dessas peças de modo que tenha pelo menos uma de cada forma?",
+    "options": [
+      "6",
+      "10",
+      "12",
+      "24",
+      "30"
+    ],
+    "answer": "A",
+    "day": 1,
+    "sourceUrl": "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2023/12/PROVA-PISM-2024-DIA_1-M%C3%93DULO_III-Humanas.pdf",
+    "answerSource": "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2023/12/GABARITO-PISM-2024-OBJETIVA-D1-P3.pdf",
+    "supportImages": []
+  },
+  {
+    "id": "pism-2024-iii-fisica-1",
+    "year": 2024,
+    "module": "III",
+    "slug": "pism-iii-2024-dia-2",
+    "number": 1,
+    "subject": "Física",
+    "subjectId": "fisica",
+    "text": "O campo magnético da Terra protege nosso planeta dos raios cósmicos, permitindo a existência de vida. Contudo, pesquisas recentes mostram a possibilidade de alteração na sua intensidade e mudança na sua orientação no espaço. Em relação à origem mais provável do campo magnético da Terra, temos que ele é produzido",
+    "options": [
+      "como resultado do movimento de translação da Terra em torno do Sol.",
+      "pelo movimento das cargas elétricas resultantes das colisões dos raios cósmicos com a atmosfera terrestre.",
+      "pelo movimento de cargas elétricas em sua superfície.",
+      "por um grande ímã permanente de ferro que há no centro da Terra.",
+      "por cargas elétricas em movimento em seu interior."
+    ],
+    "answer": "E",
+    "day": 2,
+    "sourceUrl": "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2023/12/PROVA-PISM-2024-DIA_2-M%C3%93DULO_III-Humanas.pdf",
+    "answerSource": "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2023/12/GABARITO-PISM-2024-OBJETIVA-D2-P3.pdf",
+    "supportImages": []
+  },
+  {
+    "id": "pism-2024-iii-fisica-2",
+    "year": 2024,
+    "module": "III",
+    "slug": "pism-iii-2024-dia-2",
+    "number": 2,
+    "subject": "Física",
+    "subjectId": "fisica",
+    "text": "O galvanômetro é um aparelho capaz de medir pequenas correntes elétricas que passam por ele. Entretanto, as correntes elétricas em circuitos cotidianos geralmente são muito maiores do que o galvanômetro suporta diretamente. Modificações podem ser feitas no galvanômetro com a associação de um resistor, de forma apropriada, para permitir fazê-lo funcionar como um voltímetro ou como um amperímetro. Este resistor pode ter resistência grande ou pequena, relativamente à resistência interna do galvanômetro. Assinale a alternativa que representa a associação apropriada do resistor com o galvanômetro, a partir do funcionamento CORRETO do voltímetro e do amperímetro.",
+    "options": [
+      "Amperímetro é um galvanômetro com uma grande resistência em paralelo.",
+      "Amperímetro é um galvanômetro com uma grande resistência em série.",
+      "Amperímetro é um galvanômetro com uma pequena resistência em série.",
+      "Voltímetro é um galvanômetro com uma grande resistência em série.",
+      "Voltímetro é um galvanômetro com uma grande resistência em paralelo."
+    ],
+    "answer": "D",
+    "day": 2,
+    "sourceUrl": "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2023/12/PROVA-PISM-2024-DIA_2-M%C3%93DULO_III-Humanas.pdf",
+    "answerSource": "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2023/12/GABARITO-PISM-2024-OBJETIVA-D2-P3.pdf",
+    "supportImages": []
+  },
+  {
+    "id": "pism-2024-iii-fisica-3",
+    "year": 2024,
+    "module": "III",
+    "slug": "pism-iii-2024-dia-2",
+    "number": 3,
+    "subject": "Física",
+    "subjectId": "fisica",
+    "text": "Na eletrostática, objetos neutros podem ser eletrizados por atrito, por contato e por indução, e podem ser classificados simplificadamente como condutores ou isolantes. Em relação à eletrização de objetos, assinale a afirmativa CORRETA.",
+    "options": [
+      "Ao ser carregado por atrito, um objeto neutro ficará sempre com o mesmo sinal de carga elétrica, devido ao material do qual ele é feito.",
+      "As cargas que dois objetos neutros adquirem, após o atrito entre ambos, dependem da facilidade de um ceder elétrons ao outro.",
+      "Quando dois objetos condutores neutros, de materiais diferentes, são atritados entre si, ambos podem ficar com cargas elétricas de mesmo sinal, pois possuem elétrons livres.",
+      "Somente objetos condutores carregados podem interagir por indução, pois necessitam de cargas livres.",
+      "Somente objetos isolantes podem ser carregados por contato com outro objeto carregado."
+    ],
+    "answer": "B",
+    "day": 2,
+    "sourceUrl": "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2023/12/PROVA-PISM-2024-DIA_2-M%C3%93DULO_III-Humanas.pdf",
+    "answerSource": "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2023/12/GABARITO-PISM-2024-OBJETIVA-D2-P3.pdf",
+    "supportImages": []
+  },
+  {
+    "id": "pism-2024-iii-fisica-4",
+    "year": 2024,
+    "module": "III",
+    "slug": "pism-iii-2024-dia-2",
+    "number": 4,
+    "subject": "Física",
+    "subjectId": "fisica",
+    "text": "Um observador fixo na Terra vê duas naves espaciais deslocarem-se muito rapidamente em sua direção, ambas aproximando-se da Terra em linha reta, e decide medir suas velocidades e comprimentos aparentes. A primeira das naves, que tem comprimento próprio (ou seja, medido em repouso) conhecido de 6,0 m, tem velocidade medida de módulo 0,6 c, em que c é a velocidade da luz no vácuo. A segunda nave tem comprimento próprio desconhecido e velocidade medida de módulo 0,8 c, mas aparenta ter o dobro do comprimento aparente da primeira para o observador fixo. Contrações relativísticas ocorrem por um fator de √(1 − v²/c²). Qual é o comprimento próprio da segunda nave?",
+    "options": [
+      "4,8 m",
+      "8,0 m",
+      "9,6 m",
+      "12,0 m",
+      "16,0 m"
+    ],
+    "answer": "E",
+    "day": 2,
+    "sourceUrl": "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2023/12/PROVA-PISM-2024-DIA_2-M%C3%93DULO_III-Humanas.pdf",
+    "answerSource": "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2023/12/GABARITO-PISM-2024-OBJETIVA-D2-P3.pdf",
+    "supportImages": []
+  },
+  {
+    "id": "pism-2024-iii-fisica-5",
+    "year": 2024,
+    "module": "III",
+    "slug": "pism-iii-2024-dia-2",
+    "number": 5,
+    "subject": "Física",
+    "subjectId": "fisica",
+    "text": "Considere as seguintes afirmações relacionadas ao tema da dualidade onda-partícula: I – Elétrons podem difratar-se. II – Fótons não têm massa de repouso, portanto, sua energia é nula. III – Os efeitos Compton e fotoelétrico podem ser compreendidos como manifestações da natureza corpuscular da onda eletromagnética. Assinale a alternativa CORRETA a respeito dessas afirmações.",
+    "options": [
+      "Somente I é verdadeira.",
+      "Somente II é verdadeira.",
+      "Somente III é verdadeira.",
+      "Somente I e III são verdadeiras.",
+      "I, II e III são verdadeiras."
+    ],
+    "answer": "D",
+    "day": 2,
+    "sourceUrl": "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2023/12/PROVA-PISM-2024-DIA_2-M%C3%93DULO_III-Humanas.pdf",
+    "answerSource": "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2023/12/GABARITO-PISM-2024-OBJETIVA-D2-P3.pdf",
+    "supportImages": []
+  },
+  {
+    "id": "pism-2024-iii-quimica-6",
+    "year": 2024,
+    "module": "III",
+    "slug": "pism-iii-2024-dia-2",
+    "number": 6,
+    "subject": "Química",
+    "subjectId": "quimica",
+    "text": "Uma solução aquosa saturada de cloreto de sódio (NaCl) é mantida em um recipiente fechado e em temperatura constante. Quando o recipiente é aberto, inicia-se a evaporação do solvente e surge o equilíbrio químico representado pela equação abaixo. NaCl(s) ⇌ Na⁺(aq) + Cl⁻(aq) Em relação aos fenômenos envolvidos no processo descrito, assinale a alternativa INCORRETA.",
+    "options": [
+      "A dupla seta indica que a dissolução do cloreto de sódio sólido e a recristalização dos íons solvatados ocorrem durante o equilíbrio químico.",
+      "A saturação da solução ocorre quando os íons sódio e cloreto atingem concentração máxima, nas condições descritas.",
+      "A solvatação do cloreto de sódio ocorre quando os íons sódio e cloreto ficam ligados e envoltos por moléculas de água.",
+      "Na medida em que a água evapora ocorre o deslocamento do equilíbrio, aumentando a massa do cloreto de sódio sólido.",
+      "O equilíbrio químico é sempre um processo dinâmico, isto é, a reação ocorre nos dois sentidos, mesmo que a temperatura fique constante."
+    ],
+    "answer": "C",
+    "day": 2,
+    "sourceUrl": "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2023/12/PROVA-PISM-2024-DIA_2-M%C3%93DULO_III-Humanas.pdf",
+    "answerSource": "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2023/12/GABARITO-PISM-2024-OBJETIVA-D2-P3.pdf",
+    "supportImages": [
+      "/pism-apoios/pism-iii-2024-dia-2-q6-pagina-5.png"
+    ]
+  },
+  {
+    "id": "pism-2024-iii-quimica-7",
+    "year": 2024,
+    "module": "III",
+    "slug": "pism-iii-2024-dia-2",
+    "number": 7,
+    "subject": "Química",
+    "subjectId": "quimica",
+    "text": "Os açúcares são também conhecidos como sacarídeos, glicídios ou carboidratos, tendo fórmula geral (CH₂O)ₙ e são considerados nossos combustíveis biológicos, por disponibilizarem grandes quantidades de energia para as células vivas. Sobre essa classe de substâncias, suas propriedades e ações biológicas, identifique a resposta INCORRETA.",
+    "options": [
+      "A celulose é um carboidrato, sendo o principal responsável pela estruturação das células vegetais.",
+      "A glicose, presente no sangue humano, sofre oxidação para produção de energia necessária ao metabolismo.",
+      "A respiração celular é a conversão da glicose em gás carbônico e água e ocorre nas células de animais, mas não das plantas.",
+      "A sacarose é o principal carboidrato obtido da cana-de-açúcar e é formado pela ligação química entre a glicose e a frutose.",
+      "O amido é um polímero de glicose, que pode ser convertido em energia quando necessário."
+    ],
+    "answer": "C",
+    "day": 2,
+    "sourceUrl": "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2023/12/PROVA-PISM-2024-DIA_2-M%C3%93DULO_III-Humanas.pdf",
+    "answerSource": "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2023/12/GABARITO-PISM-2024-OBJETIVA-D2-P3.pdf",
+    "supportImages": [
+      "/pism-apoios/pism-iii-2024-dia-2-q6-pagina-5.png"
+    ]
+  },
+  {
+    "id": "pism-2024-iii-quimica-8",
+    "year": 2024,
+    "module": "III",
+    "slug": "pism-iii-2024-dia-2",
+    "number": 8,
+    "subject": "Química",
+    "subjectId": "quimica",
+    "text": "A panela de pressão é comumente empregada para agilizar o cozimento de alimentos. Quando levada ao fogo faz com que a temperatura de ebulição da água se eleve acima de 100 oC, devido ao aumento da pressão interna. Com base na teoria das colisões, indique a resposta CORRETA.",
+    "options": [
+      "Com o aumento da pressão dentro da panela, as colisões entre as moléculas e íons diminuem fazendo com que o processo de cozimento seja mais rápido.",
+      "A pressão interna da panela diminui a concentração de moléculas e íons aumentando a velocidade das reações químicas envolvidas durante o cozimento.",
+      "A superfície de contato dos alimentos durante o cozimento diminui devido à elevação da pressão aumentando a velocidade de cozimento dos alimentos.",
+      "A velocidade de cozimento na panela de pressão é maior, pois a energia cinética média das moléculas e íons é maior.",
+      "O aumento da temperatura de ebulição não altera a energia cinética média das moléculas, acelerando o processo de cozimento."
+    ],
+    "answer": "D",
+    "day": 2,
+    "sourceUrl": "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2023/12/PROVA-PISM-2024-DIA_2-M%C3%93DULO_III-Humanas.pdf",
+    "answerSource": "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2023/12/GABARITO-PISM-2024-OBJETIVA-D2-P3.pdf",
+    "supportImages": [
+      "/pism-apoios/pism-iii-2024-dia-2-q6-pagina-5.png"
+    ]
+  },
+  {
+    "id": "pism-2024-iii-quimica-9",
+    "year": 2024,
+    "module": "III",
+    "slug": "pism-iii-2024-dia-2",
+    "number": 9,
+    "subject": "Química",
+    "subjectId": "quimica",
+    "text": "O petróleo é classificado como uma mistura de compostos derivados de carbono com propriedades físicas diferentes, segundo o tamanho das cadeias carbônicas. Por exemplo, a gasolina (C₅–C₁₂) possui de cinco a doze átomos de carbono em sua estrutura. Outras frações do petróleo são o GLP (gás liquefeito de petróleo, C₁–C₄), o querosene (C₁₀–C₁₆), o óleo diesel (C₁₄–C₂₀) e o óleo lubrificante (C₂₀–C₅₀). A separação desses compostos se dá por destilação fracionada após a extração do petróleo, sendo esse processo conhecido como refino. Em relação ao processo de refino é CORRETO afirmar que",
+    "options": [
+      "a gasolina é destilada depois do óleo diesel.",
+      "o GLP é a última fração a ser destilada.",
+      "o óleo diesel é a fração destilada antes do querosene.",
+      "o óleo lubrificante constitui a fração destilada antes da gasolina.",
+      "o querosene constitui a fração destilada após a gasolina."
+    ],
+    "answer": "E",
+    "day": 2,
+    "sourceUrl": "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2023/12/PROVA-PISM-2024-DIA_2-M%C3%93DULO_III-Humanas.pdf",
+    "answerSource": "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2023/12/GABARITO-PISM-2024-OBJETIVA-D2-P3.pdf",
+    "supportImages": [
+      "/pism-apoios/pism-iii-2024-dia-2-q6-pagina-5.png"
+    ]
+  },
+  {
+    "id": "pism-2024-iii-quimica-10",
+    "year": 2024,
+    "module": "III",
+    "slug": "pism-iii-2024-dia-2",
+    "number": 10,
+    "subject": "Química",
+    "subjectId": "quimica",
+    "text": "Na limpeza eletrolítica de piscinas: i — 2Cl⁻ → Cl₂+2e⁻; ii — 2H₂O+2e⁻ → H₂+2OH⁻; iii — Cl₂+2OH⁻ → Cl⁻+ClO⁻+H₂O. Analise: I — formam-se espécies de cloro oxidadas e reduzidas; II — Cl₂ se forma no cátodo; III — ClO⁻ se forma mesmo sem OH⁻; IV — são necessários cátodo e ânodo. Quais são corretas?",
+    "options": [
+      "(I) e (II)",
+      "(II) e (III)",
+      "(III) e (IV)",
+      "(I) e (IV)",
+      "(II) e (IV)"
+    ],
+    "answer": "D",
+    "day": 2,
+    "sourceUrl": "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2023/12/PROVA-PISM-2024-DIA_2-M%C3%93DULO_III-Humanas.pdf",
+    "answerSource": "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2023/12/GABARITO-PISM-2024-OBJETIVA-D2-P3.pdf",
+    "supportImages": [
+      "/pism-apoios/pism-iii-2024-dia-2-q6-pagina-5.png"
+    ]
+  },
+  {
+    "id": "pism-2025-iii-matematica-16",
+    "year": 2025,
+    "module": "III",
+    "slug": "pism-iii-2025-dia-1",
+    "number": 16,
+    "subject": "Matemática",
+    "subjectId": "matematica",
+    "text": "Considere, no plano cartesiano, a reta s : x = 1 e a reta r que passa pelo ponto (4,4), e é paralela à reta y = −2x+4. Sejam A e B os pontos em que as retas r e s intersectam o eixo das abscissas, respectivamente, e C o ponto de interseção de r e s. A medida da área do triângulo ABC é igual a",
+    "options": [
+      "25",
+      "30",
+      "36",
+      "50",
+      "60"
+    ],
+    "answer": "A",
+    "day": 1,
+    "sourceUrl": "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2024/12/Pism-3-Humanas-Dia-1.pdf",
+    "answerSource": "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2025/01/GABARITO-PISM-2025-OBJETIVA-D1-P3-NF.pdf",
+    "supportImages": []
+  },
+  {
+    "id": "pism-2025-iii-matematica-17",
+    "year": 2025,
+    "module": "III",
+    "slug": "pism-iii-2025-dia-1",
+    "number": 17,
+    "subject": "Matemática",
+    "subjectId": "matematica",
+    "text": "Em um casamento coletivo, foram dispostas vinte cadeiras em fila. No dia da cerimônia, compareceram oito casais de noivos, que devem aguardar sentados o início da celebração. De quantas maneiras esses 8 casais podem ser dispostos nessas cadeiras de forma que cada noivo e respectiva noiva fiquem juntos, ou seja, em cadeiras adjacentes?",
+    "options": [
+      "2²⁰·18!·4!",
+      "2⁸·[12!/(4!·8!)]·8!",
+      "2⁴·(20!/12!)·[8!/(2!·6!)]",
+      "2²⁰·[16!/(2!·2!)]·8!",
+      "(1/2)·[16!/(2!·2!)]·4!"
+    ],
+    "answer": "B",
+    "day": 1,
+    "sourceUrl": "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2024/12/Pism-3-Humanas-Dia-1.pdf",
+    "answerSource": "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2025/01/GABARITO-PISM-2025-OBJETIVA-D1-P3-NF.pdf",
+    "supportImages": []
+  },
+  {
+    "id": "pism-2025-iii-matematica-18",
+    "year": 2025,
+    "module": "III",
+    "slug": "pism-iii-2025-dia-1",
+    "number": 18,
+    "subject": "Matemática",
+    "subjectId": "matematica",
+    "text": "Dados os polinômios F(x) e Q(x), ao dividir F(x) por Q(x) encontra-se como resto o polinômio R(x) = x³ − x² + ax − 9. Sabe-se que F(x) e Q(x) são divisíveis pelo binômio x − 1. O conjunto que contém todas as raízes do polinômio R(x) é",
+    "options": [
+      "{−3,−1,3}",
+      "{−i,3,i}",
+      "{−3i,1,3i}",
+      "{−9i,−1,9i}",
+      "{−√3i,1,√3i}"
+    ],
+    "answer": "C",
+    "day": 1,
+    "sourceUrl": "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2024/12/Pism-3-Humanas-Dia-1.pdf",
+    "answerSource": "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2025/01/GABARITO-PISM-2025-OBJETIVA-D1-P3-NF.pdf",
+    "supportImages": []
+  },
+  {
+    "id": "pism-2025-iii-matematica-19",
+    "year": 2025,
+    "module": "III",
+    "slug": "pism-iii-2025-dia-1",
+    "number": 19,
+    "subject": "Matemática",
+    "subjectId": "matematica",
+    "text": "Considere k ∈ R e o sistema de equações lineares cujas incógnitas reais são representadas por x e y:  3x + ky = 2 x − y = 1 De acordo com o número de soluções, o sistema linear dado é classificado como",
+    "options": [
+      "possível e determinado para qualquer k ∈ R",
+      "possível e indeterminado para qualquer k ∈ R",
+      "impossível se k ≠ −3",
+      "possível e indeterminado se k = 3",
+      "possível e determinado se k ≠ −3"
+    ],
+    "answer": "E",
+    "day": 1,
+    "sourceUrl": "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2024/12/Pism-3-Humanas-Dia-1.pdf",
+    "answerSource": "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2025/01/GABARITO-PISM-2025-OBJETIVA-D1-P3-NF.pdf",
+    "supportImages": []
+  },
+  {
+    "id": "pism-2025-iii-matematica-20",
+    "year": 2025,
+    "module": "III",
+    "slug": "pism-iii-2025-dia-1",
+    "number": 20,
+    "subject": "Matemática",
+    "subjectId": "matematica",
+    "text": "Sejam r a reta de equação y = mx+b, A e B os pontos em que essa reta intersecta as retas s1 : y = 3x e s2 : y = −x/5, respectivamente. O ponto M = (3, 1) é o ponto médio do segmento AB. As coordenadas do ponto em que a reta r intersecta o eixo das ordenadas é",
+    "options": [
+      "(0, −2)",
+      "(0,2)",
+      "(0,4)",
+      "(0,5)",
+      "(0,8)"
+    ],
+    "answer": "C",
+    "day": 1,
+    "sourceUrl": "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2024/12/Pism-3-Humanas-Dia-1.pdf",
+    "answerSource": "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2025/01/GABARITO-PISM-2025-OBJETIVA-D1-P3-NF.pdf",
+    "supportImages": []
+  },
+  {
+    "id": "pism-2025-iii-fisica-1",
+    "year": 2025,
+    "module": "III",
+    "slug": "pism-iii-2025-dia-2",
+    "number": 1,
+    "subject": "Física",
+    "subjectId": "fisica",
+    "text": "Termômetros infravermelhos utilizados em hospitais são dispositivos utilizados para medir temperatura de pessoas sem contato direto com elas. Seu funcionamento se baseia no princípio físico de que qualquer material com temperatura da ordem de 36°C emite radiação infravermelha, cuja intensidade total da radiação emitida (Iᵣₐ𝒹(T)) aumenta com a temperatura do objeto, conforme a equação: Iᵣₐ𝒹(T) = εσT⁴. σ = 5,7 W·m⁻²·K⁻⁴ é um valor constante chamado de constante de Stefan-Boltzman e ϵ é um parâmetro adimensional que pode assumir valores entre 0 e 1, dependendo das características do material, chamada de emissividade. Para a pele humana, por exemplo, ϵ é da ordem de 0,98. Para o plástico claro, ϵ é igual a 0,94. Alguns termômetros de infravermelho possuem uma mira laser para sinalizar o local onde a temperatura será realizada.",
+    "options": [
+      "A intensidade se mede em graus Celsius.",
+      "A temperatura pode ser medida através de qualquer vidro ou plástico sem perda de precisão.",
+      "Só seres vivos podem ter a temperatura medida.",
+      "O termômetro emite radiação que necessariamente provoca câncer.",
+      "Um objeto quente próximo pode interferir na temperatura indicada."
+    ],
+    "answer": "E",
+    "day": 2,
+    "sourceUrl": "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2024/12/Pism-3-Humanas-Dia-2.pdf",
+    "answerSource": "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2024/12/GABARITO-PISM-2025-OBJETIVA-D2-P3-NF-1.pdf",
+    "supportImages": []
+  },
+  {
+    "id": "pism-2025-iii-fisica-2",
+    "year": 2025,
+    "module": "III",
+    "slug": "pism-iii-2025-dia-2",
+    "number": 2,
+    "subject": "Física",
+    "subjectId": "fisica",
+    "text": "Fogões de indução são, uma alternativa ecológica ao fogão a gás convencional, pois funcionam com a indução de corrente elétrica no fundo da panela pela presença de uma bobina dentro do fogão. A bobina fica paralela ao fundo da panela e é ligada a uma fonte de corrente alternada. Entre a bobina e a panela, existe uma placa de vidro, de modo que a bobina não encosta na panela. Por simplicidade, considere que a bobina do fogão é formada por um solenoide de diâmetro D, conforme mostra a figura a seguir. O fundo da panela, neste caso, pode ser considerado como uma espira de uma volta. Para melhorar o projeto do conjunto fogão de indução/panela descrito acima, pensando em aumentar a eficiência no aquecimento da panela, sem aquecer o fogão, pode-se",
+    "options": [
+      "aumentar a distância entre a panela e a bobina.",
+      "aumentar o diâmetro D da bobina interna do fogão.",
+      "utilizar apenas metais ferromagnéticos na construção da bobina interna.",
+      "utilizar metais com maior resistividade na fabricação da panela.",
+      "reduzir a frequência da fonte de corrente."
+    ],
+    "answer": "D",
+    "day": 2,
+    "sourceUrl": "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2024/12/Pism-3-Humanas-Dia-2.pdf",
+    "answerSource": "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2024/12/GABARITO-PISM-2025-OBJETIVA-D2-P3-NF-1.pdf",
+    "supportImages": [
+      "/pism-apoios/pism-iii-2025-dia-2-q2-pagina-3.png"
+    ]
+  },
+  {
+    "id": "pism-2025-iii-fisica-3",
+    "year": 2025,
+    "module": "III",
+    "slug": "pism-iii-2025-dia-2",
+    "number": 3,
+    "subject": "Física",
+    "subjectId": "fisica",
+    "text": "Um casal de irmãos gêmeos, Alice e Bob, têm à sua disposição duas naves espaciais que os levarão a um planeta distante recém descoberto. Em determinado instante, quando ambos possuíam a mesma idade, Alice parte em direção ao planeta. Bob fica ainda na Terra e só depois de certo tempo, viaja também. Considere as velocidades das naves altas o suficiente (próximas à velocidade da luz), e que ambos chegam juntos ao planeta. Nesse caso,",
+    "options": [
+      "a relatividade especial não permite distinguir qual dos dois será o mais velho ao fim da viagem.",
+      "pode-se concluir que, ao fim da viagem, Alice será mais velha do que Bob.",
+      "como ambos percorreram a mesma distância, eles chegarão com a mesma idade.",
+      "os efeitos de dilatação temporal são detectados apenas no referencial de partida dos irmãos.",
+      "os tempos gastos por Alice e Bob medidos no referencial da Terra são os mesmos para completar a viagem devido à dilatação temporal."
+    ],
+    "answer": "B",
+    "day": 2,
+    "sourceUrl": "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2024/12/Pism-3-Humanas-Dia-2.pdf",
+    "answerSource": "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2024/12/GABARITO-PISM-2025-OBJETIVA-D2-P3-NF-1.pdf",
+    "supportImages": []
+  },
+  {
+    "id": "pism-2025-iii-fisica-4",
+    "year": 2025,
+    "module": "III",
+    "slug": "pism-iii-2025-dia-2",
+    "number": 4,
+    "subject": "Física",
+    "subjectId": "fisica",
+    "text": "O efeito Doppler corresponde à alteração do comprimento de onda detectada por um observador quando uma fonte de ondas sonoras se desloca em relação ao observador. Este efeito não é somente restrito ao som. Ele também ocorre com a luz, sendo utilizado em astronomia e cosmologia observacional para estudar o universo em larga escala. É bem sabido que galáxias distantes estão se afastando de nós. Logo, a luz, no espectro visível, oriunda de uma determinada galáxia distante, ao ser detectada na Terra,",
+    "options": [
+      "não experimenta o efeito Doppler, que só é detectável no referencial da galáxia.",
+      "sofre alteração na sua velocidade, pois há alteração no comprimento de onda.",
+      "terá a energia dos seus fótons aumentada.",
+      "não sofre mudança em sua frequência, que é uma grandeza absoluta.",
+      "sofre um desvio para o vermelho (ou seja, aumento do comprimento de onda)."
+    ],
+    "answer": "E",
+    "day": 2,
+    "sourceUrl": "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2024/12/Pism-3-Humanas-Dia-2.pdf",
+    "answerSource": "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2024/12/GABARITO-PISM-2025-OBJETIVA-D2-P3-NF-1.pdf",
+    "supportImages": []
+  },
+  {
+    "id": "pism-2025-iii-fisica-5",
+    "year": 2025,
+    "module": "III",
+    "slug": "pism-iii-2025-dia-2",
+    "number": 5,
+    "subject": "Física",
+    "subjectId": "fisica",
+    "text": "Um reparo de um dispositivo eletrônico demanda de um técnico a substituição de um resistor com resistência dada por 1,5 kΩ. Para fazer a troca, o técnico tem à sua disposição outros três resistores com resistências dadas por R₁ = 1 kΩ, R₂ = 2 kΩ e R₃ = 3 kΩ. A associação entre os três que fornece o valor de resistência necessária ao reparo é dada",
+    "options": [
+      "Os três em série.",
+      "Os três em paralelo.",
+      "R₁ e R₂ em série, e o conjunto em paralelo com R₃.",
+      "R₂ e R₃ em paralelo, e o conjunto em série com R₁.",
+      "R₁ e R₃ em série, e o conjunto em paralelo com R₂."
+    ],
+    "answer": "C",
+    "day": 2,
+    "sourceUrl": "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2024/12/Pism-3-Humanas-Dia-2.pdf",
+    "answerSource": "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2024/12/GABARITO-PISM-2025-OBJETIVA-D2-P3-NF-1.pdf",
+    "supportImages": []
+  },
+  {
+    "id": "pism-2025-iii-quimica-6",
+    "year": 2025,
+    "module": "III",
+    "slug": "pism-iii-2025-dia-2",
+    "number": 6,
+    "subject": "Química",
+    "subjectId": "quimica",
+    "text": "A indústria carboquímica utiliza o carbono para gerar diferentes produtos. Na produção do carbeto de cálcio, CaC₂, o carbonato de cálcio (calcário) é decomposto na primeira etapa da reação, como mostra a equação química a seguir: CaCO₃(s) → CaO(s) + CO₂(g), ΔH = +177,5 kJ/mol Na segunda etapa, o óxido de cálcio (cal virgem) reage com a grafita através da reação química: CaO(s) + 3 C(grafita) → CaC₂(s) + CO(g) Analisando as duas equações químicas, pode-se afirmar que",
+    "options": [
+      "a decomposição do carbonato de cálcio é acelerada pela diminuição da temperatura.",
+      "a primeira e a segunda etapas envolvem reações de oxi-redução.",
+      "em ambas as etapas, há produção de gás carbônico, que é prejudicial ao meio ambiente.",
+      "na primeira etapa, há formação de um gás que, ao reagir com água, diminui o pH do meio.",
+      "o calcário, quando em meio aquoso, tem a sua solubilidade alterada somente pelo pH."
+    ],
+    "answer": "D",
+    "day": 2,
+    "sourceUrl": "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2024/12/Pism-3-Humanas-Dia-2.pdf",
+    "answerSource": "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2024/12/GABARITO-PISM-2025-OBJETIVA-D2-P3-NF-1.pdf",
+    "supportImages": []
+  },
+  {
+    "id": "pism-2025-iii-quimica-7",
+    "year": 2025,
+    "module": "III",
+    "slug": "pism-iii-2025-dia-2",
+    "number": 7,
+    "subject": "Química",
+    "subjectId": "quimica",
+    "text": "A hidroxiapatita [Ca₅(PO₄)₃(OH)] é uma substância que compõe o esmalte dos dentes. Na boca, ocorrem os processos de desmineralização e remineralização da hidroxiapatita simultaneamente. A equação química, a seguir, apresenta esses processos, sendo a desmineralização representada pela reação direta e a remineralização pela reação inversa. Ca₅(PO₄)₃OH(s) ⇌ 5 Ca²⁺(aq) + 3 PO₄³⁻(aq) + OH⁻(aq) O esmalte dos dentes será preservado quando houver",
+    "options": [
+      "aumento da basicidade do meio em que ocorre a reação.",
+      "diminuição da concentração de íons Ca2+.",
+      "manutenção do equilíbrio pela retirada contínua dos íons.",
+      "neutralização do íon OH−, tornando o meio mais básico.",
+      "redução do pH da boca, tornando a saliva mais ácida."
+    ],
+    "answer": "A",
+    "day": 2,
+    "sourceUrl": "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2024/12/Pism-3-Humanas-Dia-2.pdf",
+    "answerSource": "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2024/12/GABARITO-PISM-2025-OBJETIVA-D2-P3-NF-1.pdf",
+    "supportImages": []
+  },
+  {
+    "id": "pism-2025-iii-quimica-8",
+    "year": 2025,
+    "module": "III",
+    "slug": "pism-iii-2025-dia-2",
+    "number": 8,
+    "subject": "Química",
+    "subjectId": "quimica",
+    "text": "O etanol combustível (CH₃CH₂OH), popularmente chamado de “álcool de posto” faz parte da matriz energética brasileira e é considerado um biocombustível. Diferentes processos industriais podem ser utilizados para a obtenção de etanol combustível, mas o mais utilizado é o processo de primeira geração, que utiliza como matéria prima o suco da cana-de-açúcar. Sobre a produção de etanol, indique a alternativa CORRETA.",
+    "options": [
+      "A produção de álcool ocorre na etapa de produção do melado.",
+      "Na etapa de fermentação ocorre a transformação dos lipídeos em etanol.",
+      "O álcool é retirado da mistura bruta através de destilação.",
+      "Na indústria da cana-de-açúcar o etanol é o único produto gerado.",
+      "A cana-de-açúcar é a única fonte de produção de etanol."
+    ],
+    "answer": "C",
+    "day": 2,
+    "sourceUrl": "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2024/12/Pism-3-Humanas-Dia-2.pdf",
+    "answerSource": "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2024/12/GABARITO-PISM-2025-OBJETIVA-D2-P3-NF-1.pdf",
+    "supportImages": []
+  },
+  {
+    "id": "pism-2025-iii-quimica-9",
+    "year": 2025,
+    "module": "III",
+    "slug": "pism-iii-2025-dia-2",
+    "number": 9,
+    "subject": "Química",
+    "subjectId": "quimica",
+    "text": "O metilfenidato é utilizado como fármaco de primeira escolha no tratamento do transtorno do déficit de atenção e hiperatividade. Metilfenidato O metilfenidato é uma molécula que possui",
+    "options": [
+      "Há três carbonos assimétricos.",
+      "Sua fórmula molecular é C₁₄H₁₈NO₂.",
+      "Apresenta amida, éster e anel aromático.",
+      "Uma de suas funções orgânicas pode ser hidrolisada.",
+      "Há quatro pares de elétrons π entre átomos de carbono."
+    ],
+    "answer": "D",
+    "day": 2,
+    "sourceUrl": "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2024/12/Pism-3-Humanas-Dia-2.pdf",
+    "answerSource": "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2024/12/GABARITO-PISM-2025-OBJETIVA-D2-P3-NF-1.pdf",
+    "supportImages": [
+      "/pism-apoios/pism-iii-2025-dia-2-q9-pagina-5.png"
+    ]
+  },
+  {
+    "id": "pism-2025-iii-quimica-10",
+    "year": 2025,
+    "module": "III",
+    "slug": "pism-iii-2025-dia-2",
+    "number": 10,
+    "subject": "Química",
+    "subjectId": "quimica",
+    "text": "Foram realizados três experimentos para o estudo da velocidade de reação entre o óxido nítrico (NO) e o gás hidrogênio (H₂), formando gás nitrogênio (N₂) e água, na temperatura de 1000 K, conforme a equação: 2 NO(g) + 2 H₂(g) → N₂(g) + 2 H₂O(g). Os resultados dos experimentos estão descritos na tabela de apoio. Assinale a alternativa que representa a lei de velocidade (v) para essa reação de acordo com os experimentos.",
+    "options": [
+      "v=k[NO]²[H₂]",
+      "v=2k[NO][H₂]",
+      "v=k[NO]²[H₂]²",
+      "v=k[N₂][H₂O]²",
+      "v=k[N₂][H₂O]²/([NO]²[H₂]²)"
+    ],
+    "answer": "A",
+    "day": 2,
+    "sourceUrl": "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2024/12/Pism-3-Humanas-Dia-2.pdf",
+    "answerSource": "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2024/12/GABARITO-PISM-2025-OBJETIVA-D2-P3-NF-1.pdf",
+    "supportImages": [
+      "/pism-apoios/pism-iii-2025-dia-2-q10-vetor.png"
+    ]
+  },
+  {
+    "id": "pism-2026-iii-matematica-16",
+    "year": 2026,
+    "module": "III",
+    "slug": "pism-iii-2026-dia-1",
+    "number": 16,
+    "subject": "Matemática",
+    "subjectId": "matematica",
+    "text": "No plano cartesiano abaixo estão representados segmentos de três retas: r, s e t. As equações das retas r e s estão fornecidas na figura, sendo a equação da reta t da forma y = ax + b. Essas três retas se cruzam num mesmo ponto que está localizado no primeiro quadrante do plano cartesiano. Os valores dos coeficientes a e b da reta t devem ser tais que",
+    "options": [
+      "−1/2 < a < 1 e 2 < b < 8",
+      "−1 < a < 1 e 2 < b < 8",
+      "2 < a < 8 e −1/2 < b < 1",
+      "2 < a < 8 e −1 < b < 1",
+      "−1 < a < 1 e 2 < b < 16"
+    ],
+    "answer": "A",
+    "day": 1,
+    "sourceUrl": "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2025/12/Humanas-dia-1.pdf",
+    "answerSource": "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2025/12/GABARITO-PISM-2026-OBJETIVA-D1-P3.pdf",
+    "supportImages": [
+      "/pism-apoios/pism-iii-2026-dia-1-q16-pagina-11.png"
+    ]
+  },
+  {
+    "id": "pism-2026-iii-matematica-17",
+    "year": 2026,
+    "module": "III",
+    "slug": "pism-iii-2026-dia-1",
+    "number": 17,
+    "subject": "Matemática",
+    "subjectId": "matematica",
+    "text": "Quatro amigas compraram bombons em uma doceria. Ana comprou 2 bombons de uva, 1 de morango, 1 de ameixa e pagou 15 reais. Beatriz comprou 1 bombom de uva, 1 de ameixa e pagou 8 reais. Carla comprou 2 bombons de morango, 1 de ameixa e pagou 13 reais. Já Denise comprou 1 bombom de uva, 1 de morango e 2 de ameixa. Quantos reais Denise pagou pelos bombons que comprou?",
+    "options": [
+      "R$12",
+      "R$15",
+      "R$16",
+      "R$17",
+      "R$21"
+    ],
+    "answer": "D",
+    "day": 1,
+    "sourceUrl": "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2025/12/Humanas-dia-1.pdf",
+    "answerSource": "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2025/12/GABARITO-PISM-2026-OBJETIVA-D1-P3.pdf",
+    "supportImages": []
+  },
+  {
+    "id": "pism-2026-iii-matematica-18",
+    "year": 2026,
+    "module": "III",
+    "slug": "pism-iii-2026-dia-1",
+    "number": 18,
+    "subject": "Matemática",
+    "subjectId": "matematica",
+    "text": "Considere os números x, y e z definidos por x = 2^(3 + log₂ 5), y = 3^(2 − log₃ 5) e z = 6^[(log₉ 4) · (log₆ 3)]. O valor de x · y · z é",
+    "options": [
+      "52",
+      "72",
+      "144",
+      "156·6^(log₉4)",
+      "216·6^(log₉4)"
+    ],
+    "answer": "C",
+    "day": 1,
+    "sourceUrl": "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2025/12/Humanas-dia-1.pdf",
+    "answerSource": "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2025/12/GABARITO-PISM-2026-OBJETIVA-D1-P3.pdf",
+    "supportImages": []
+  },
+  {
+    "id": "pism-2026-iii-matematica-19",
+    "year": 2026,
+    "module": "III",
+    "slug": "pism-iii-2026-dia-1",
+    "number": 19,
+    "subject": "Matemática",
+    "subjectId": "matematica",
+    "text": "Uma pessoa elaborou uma playlist com 12 músicas diferentes, das quais 2 são do gênero sertanejo, 4 são clássicas e 6 são do gênero rock. Ela programará essa playlist para tocar três blocos de música, sendo que, em cada bloco, serão tocadas todas as músicas de um mesmo gênero musical em ordem aleatória, podendo os três blocos dos diferentes gêneros musicais serem, entre si, reproduzidos em qualquer ordem. Com essa programação feita, de quantas maneiras diferentes essa playlist poderá ser reproduzida?",
+    "options": [
+      "12!",
+      "3!·2!·4!·6!",
+      "3!+2!+4!+6!",
+      "3·2!·4!·6!",
+      "12·2!·4!·6!"
+    ],
+    "answer": "B",
+    "day": 1,
+    "sourceUrl": "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2025/12/Humanas-dia-1.pdf",
+    "answerSource": "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2025/12/GABARITO-PISM-2026-OBJETIVA-D1-P3.pdf",
+    "supportImages": []
+  },
+  {
+    "id": "pism-2026-iii-matematica-20",
+    "year": 2026,
+    "module": "III",
+    "slug": "pism-iii-2026-dia-1",
+    "number": 20,
+    "subject": "Matemática",
+    "subjectId": "matematica",
+    "text": "Laura pretende jantar em um restaurante com um grupo de doze amigos mais íntimos, dentre os quais há um casal formado por Joana e Pedro, para comemorar seu aniversário. Ao tentar fazer a reserva de uma mesa nesse restaurante para o dia do seu aniversário, foi informada que a única mesa disponível era para seis pessoas e, assim, decidiu sortear, dentre os doze amigos, quais os cinco que jantariam com ela nesse restaurante nessa data. Qual é a probabilidade de o casal Joana e Pedro participarem desse jantar?",
+    "options": [
+      "1/2",
+      "1/11",
+      "2/5",
+      "5/22",
+      "5/33"
+    ],
+    "answer": "E",
+    "day": 1,
+    "sourceUrl": "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2025/12/Humanas-dia-1.pdf",
+    "answerSource": "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2025/12/GABARITO-PISM-2026-OBJETIVA-D1-P3.pdf",
+    "supportImages": []
+  },
+  {
+    "id": "pism-2026-iii-fisica-1",
+    "year": 2026,
+    "module": "III",
+    "slug": "pism-iii-2026-dia-2",
+    "number": 1,
+    "subject": "Física",
+    "subjectId": "fisica",
+    "text": "Imagine um próton atingindo a magnetosfera com um certo ângulo, como mostrado na figura abaixo. A ampliação da região retangular destacada mostra, de uma forma simplificada, a situação na qual estamos interessados: um campo magnético uniforme, apontando no sentido positivo de y, e o vetor velocidade (⃗v) forma um ângulo de 30° com o eixo y, à sua esquerda. Sobre a trajetória da partícula, considerando um campo magnético uniforme, indique a opção CORRETA.",
+    "options": [
+      "Reta sem alteração.",
+      "Hélice rumo ao norte, entrando inicialmente na folha.",
+      "Hélice rumo ao norte, saindo inicialmente da folha.",
+      "Círculo, entrando na folha.",
+      "Círculo, saindo da folha."
+    ],
+    "answer": "B",
+    "day": 2,
+    "sourceUrl": "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2025/12/Humanas-dia-2.pdf",
+    "answerSource": "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2026/01/GABARITO-PISM-2026-OBJETIVA-D2-P3_p%C3%B3s-recursos.pdf",
+    "supportImages": [
+      "/pism-apoios/pism-iii-2026-dia-2-q1-pagina-3.png"
+    ]
+  },
+  {
+    "id": "pism-2026-iii-fisica-2",
+    "year": 2026,
+    "module": "III",
+    "slug": "pism-iii-2026-dia-2",
+    "number": 2,
+    "subject": "Física",
+    "subjectId": "fisica",
+    "text": "A figura abaixo ilustra um fio condutor posicionado acima de uma bússola, distante de alguns poucos centímetros dela. Em um primeiro momento não existe corrente passando pelo fio e o ponteiro da bússola aponta para uma posição entre os indicadores 1 e 2, como mostrado na figura, em direção ao polo norte geográfico da Terra. Em um segundo momento, uma corrente i é aplicada ao fio, com o sentido da esquerda para a direita. Considerando que o campo magnético induzido pela corrente em suas redondezas é muito maior que o campo magnético terrestre, qual será a nova orientação do ponteiro da bússola após o acionamento da corrente elétrica?",
+    "options": [
+      "Posição 1.",
+      "Posição 2.",
+      "Posição 3.",
+      "Posição 4.",
+      "Permanece entre 1 e 2."
+    ],
+    "answer": "A",
+    "day": 2,
+    "sourceUrl": "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2025/12/Humanas-dia-2.pdf",
+    "answerSource": "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2026/01/GABARITO-PISM-2026-OBJETIVA-D2-P3_p%C3%B3s-recursos.pdf",
+    "supportImages": [
+      "/pism-apoios/pism-iii-2026-dia-2-q2-pagina-3.png"
+    ]
+  },
+  {
+    "id": "pism-2026-iii-fisica-3",
+    "year": 2026,
+    "module": "III",
+    "slug": "pism-iii-2026-dia-2",
+    "number": 3,
+    "subject": "Física",
+    "subjectId": "fisica",
+    "text": "Recentemente, o carro elétrico foi inserido nos mercados mundo afora. No entanto, o princípio de funcionamento de um motor elétrico existe desde o século XIX a partir da lei de Faraday-Neumann. No Brasil, por exemplo, o primeiro bonde elétrico foi inaugurado em 1892. A figura abaixo ilustra um motor elétrico simples, que consiste em uma espira cuja área está no plano do papel e posicionada entre os polos norte (N) e sul (S) de um imã permanente, e por onde passa uma corrente i. É necessário que a espira fique girando permanentemente na mesma direção. Sobre as condições de funcionamento deste motor e o movimento da espira a partir da posição inicial e sentido da corrente mostrados na figura, marque a alternativa CORRETA.",
+    "options": [
+      "Corrente fixa; A entra no papel.",
+      "Inverter corrente com a espira perpendicular ao papel; A sai do papel.",
+      "Inverter corrente com a espira perpendicular ao papel; A entra no papel.",
+      "Inverter corrente quando a espira estiver no plano do papel; A sai do papel.",
+      "Inverter corrente quando a espira estiver no plano do papel; A entra no papel."
+    ],
+    "answer": "C",
+    "day": 2,
+    "sourceUrl": "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2025/12/Humanas-dia-2.pdf",
+    "answerSource": "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2026/01/GABARITO-PISM-2026-OBJETIVA-D2-P3_p%C3%B3s-recursos.pdf",
+    "supportImages": [
+      "/pism-apoios/pism-iii-2026-dia-2-q3-pagina-4.png"
+    ]
+  },
+  {
+    "id": "pism-2026-iii-fisica-4",
+    "year": 2026,
+    "module": "III",
+    "slug": "pism-iii-2026-dia-2",
+    "number": 4,
+    "subject": "Física",
+    "subjectId": "fisica",
+    "text": "O efeito fotoelétrico é um fenômeno quântico descoberto acidentalmente pelo físico Heinrich Hertz ao final do século XIX. A investigação deste efeito foi então complementada pelos físicos Philipp Lenard e finalizada por Albert Einstein. Einstein ganhou o Prêmio Nobel de Física em 1905 por este trabalho. Philipp Lenard construiu um sistema com duas placas metálicas submetidas a uma diferença de potencial no interior de uma ampola de vidro mantida no vácuo. Externamente, uma fonte de luz foi direcionada para uma das placas e, com um microamperímetro, a corrente elétrica circulando no sistema foi medida. A figura abaixo ilustra este sistema. Fonte: Moderna superação! Física / R. H. Doca, R. Fogo; editor resp. F. M. Leonardo; 1. ed. Moderna, 2024, p. 420. Em relação ao efeito fotoelétrico, considerando o sistema descrito acima, marque a alternativa CORRETA.",
+    "options": [
+      "A energia cinética máxima depende tanto da intensidade quanto do comprimento de onda.",
+      "Se a frequência não gera emissão, basta aumentar a intensidade.",
+      "Maior intensidade do feixe aumenta a corrente medida.",
+      "Maior intensidade aumenta a energia cinética máxima.",
+      "Maior comprimento de onda aumenta a energia cinética máxima."
+    ],
+    "answer": "C",
+    "day": 2,
+    "sourceUrl": "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2025/12/Humanas-dia-2.pdf",
+    "answerSource": "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2026/01/GABARITO-PISM-2026-OBJETIVA-D2-P3_p%C3%B3s-recursos.pdf",
+    "supportImages": [
+      "/pism-apoios/pism-iii-2026-dia-2-q4-pagina-4.png"
+    ]
+  },
+  {
+    "id": "pism-2026-iii-fisica-5",
+    "year": 2026,
+    "module": "III",
+    "slug": "pism-iii-2026-dia-2",
+    "number": 5,
+    "subject": "Física",
+    "subjectId": "fisica",
+    "text": "As leis de Newton (1643-1727) fornecem descrição precisa e útil para situações de corpos que viajam com velocidades relacionadas ao nosso cotidiano, como, por exemplo, em velocidades de meios de transporte terrestre. No entanto, conforme a velocidade de um corpo se aproxima da velocidade da luz, essas leis começam a falhar e necessitamos usar a teoria da relatividade de Einstein (1879-1955). Com base na teoria da relatividade de Einstein, selecione a alternativa CORRETA.",
+    "options": [
+      "Leis físicas diferentes entre referenciais inerciais.",
+      "Velocidade da luz no vácuo variável com o observador.",
+      "Contração do comprimento na direção do movimento.",
+      "Tempo próprio passando mais rápido.",
+      "Movimento de um corpo material acima da velocidade da luz."
+    ],
+    "answer": "C",
+    "day": 2,
+    "sourceUrl": "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2025/12/Humanas-dia-2.pdf",
+    "answerSource": "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2026/01/GABARITO-PISM-2026-OBJETIVA-D2-P3_p%C3%B3s-recursos.pdf",
+    "supportImages": []
+  },
+  {
+    "id": "pism-2026-iii-quimica-6",
+    "year": 2026,
+    "module": "III",
+    "slug": "pism-iii-2026-dia-2",
+    "number": 6,
+    "subject": "Química",
+    "subjectId": "quimica",
+    "text": "Durante uma investigação experimental, estudantes compararam a velocidade de reação entre comprimidos efervescentes, água e vinagre. Para isso, repetiram a reação variando o volume de vinagre, a temperatura da água e os comprimidos inteiros e triturados. Qual alternativa descreve CORRETAMENTE os fatores que influenciaram a velocidade da reação observada pelos estudantes?",
+    "options": [
+      "Maior temperatura reduz as colisões.",
+      "Maior temperatura e superfície de contato aumentam as colisões e a velocidade.",
+      "A concentração do vinagre nunca interfere.",
+      "A massa total, isoladamente, determina a velocidade.",
+      "O comprimido inteiro tem maior superfície que o triturado."
+    ],
+    "answer": "B",
+    "day": 2,
+    "sourceUrl": "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2025/12/Humanas-dia-2.pdf",
+    "answerSource": "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2026/01/GABARITO-PISM-2026-OBJETIVA-D2-P3_p%C3%B3s-recursos.pdf",
+    "supportImages": []
+  },
+  {
+    "id": "pism-2026-iii-quimica-7",
+    "year": 2026,
+    "module": "III",
+    "slug": "pism-iii-2026-dia-2",
+    "number": 7,
+    "subject": "Química",
+    "subjectId": "quimica",
+    "text": "Durante a manutenção de estruturas metálicas expostas à umidade, uma equipe técnica observou a formação de oxidação em suas superfícies. Esse processo ocorre por uma reação de oxirredução, em que o metal doa elétrons ao reagir com espécies oxidantes, sendo convertido em íons. Qual equação a seguir representa CORRETAMENTE uma reação de oxirredução balanceada?",
+    "options": [
+      "Fe(s)+2O₂(g) → FeO₂(s)",
+      "2Fe(s)+3O₂(g) → 2Fe₃O₄(s)",
+      "Fe(s)+Cu²⁺(aq) → Fe²⁺(aq)+Cu(s)",
+      "Cu(s)+2H⁺(aq) → Cu²⁺(aq)+H₂O(l)",
+      "Zn(s)+Cl(g) → ZnCl₂(s)"
+    ],
+    "answer": "C",
+    "day": 2,
+    "sourceUrl": "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2025/12/Humanas-dia-2.pdf",
+    "answerSource": "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2026/01/GABARITO-PISM-2026-OBJETIVA-D2-P3_p%C3%B3s-recursos.pdf",
+    "supportImages": []
+  },
+  {
+    "id": "pism-2026-iii-quimica-8",
+    "year": 2026,
+    "module": "III",
+    "slug": "pism-iii-2026-dia-2",
+    "number": 8,
+    "subject": "Química",
+    "subjectId": "quimica",
+    "text": "Durante a síntese da amônia pelo processo de Haber-Bosch, utiliza-se um catalisador metálico para acelerar a reação entre nitrogênio e hidrogênio. N₂(g) + 3 H₂(g) ⇌ 2 NH₃(g), ΔH < 0 Considerando as teorias sobre equilíbrio químico, é CORRETO afirmar que o catalisador",
+    "options": [
+      "Acelera só a reação direta e favorece produtos.",
+      "Acelera ambas as reações sem alterar a posição do equilíbrio.",
+      "Consome reagentes e cria outro equilíbrio.",
+      "Desloca o equilíbrio para o lado exotérmico.",
+      "Reduz a energia dos reagentes e aumenta o rendimento."
+    ],
+    "answer": "B",
+    "day": 2,
+    "sourceUrl": "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2025/12/Humanas-dia-2.pdf",
+    "answerSource": "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2026/01/GABARITO-PISM-2026-OBJETIVA-D2-P3_p%C3%B3s-recursos.pdf",
+    "supportImages": []
+  },
+  {
+    "id": "pism-2026-iii-quimica-9",
+    "year": 2026,
+    "module": "III",
+    "slug": "pism-iii-2026-dia-2",
+    "number": 9,
+    "subject": "Química",
+    "subjectId": "quimica",
+    "text": "Analise a fórmula eletrônica de Lewis do BF₃ e assinale a alternativa CORRETA.",
+    "options": [
+      "B e F completam o octeto.",
+      "O boro não obedece ao octeto no BF₃.",
+      "A ligação é iônica devido à eletronegatividade do flúor.",
+      "A molécula é polar por conter flúor.",
+      "A ligação só seria possível se todos completassem o octeto."
+    ],
+    "answer": "B",
+    "day": 2,
+    "sourceUrl": "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2025/12/Humanas-dia-2.pdf",
+    "answerSource": "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2026/01/GABARITO-PISM-2026-OBJETIVA-D2-P3_p%C3%B3s-recursos.pdf",
+    "supportImages": [
+      "/pism-apoios/pism-iii-2026-dia-2-q9-pagina-6.png"
+    ]
+  },
+  {
+    "id": "pism-2026-iii-quimica-10",
+    "year": 2026,
+    "module": "III",
+    "slug": "pism-iii-2026-dia-2",
+    "number": 10,
+    "subject": "Química",
+    "subjectId": "quimica",
+    "text": "Na retina, uma camada que fica na parte posterior do olho, existem células fotorreceptoras contendo uma substância chamada cis retinal. Ao incidir a luz ocorre a transformação de cis retinal em trans retinal, gerando um impulso elétrico, que é enviado ao cérebro, possibilitando a interpretação do que é visto. Sobre as substâncias cis-retinal e trans-retinal, assinale a alternativa CORRETA.",
+    "options": [
+      "Isômeros geométricos com propriedades físicas diferentes.",
+      "Isômeros ópticos.",
+      "Mudança da posição das duplas ligações.",
+      "Trans mantém substituintes no mesmo lado.",
+      "Conversão sem mudança espacial dos substituintes da dupla."
+    ],
+    "answer": "A",
+    "day": 2,
+    "sourceUrl": "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2025/12/Humanas-dia-2.pdf",
+    "answerSource": "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2026/01/GABARITO-PISM-2026-OBJETIVA-D2-P3_p%C3%B3s-recursos.pdf",
+    "supportImages": []
+  }
+]

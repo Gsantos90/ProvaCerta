@@ -56,7 +56,7 @@ export default function ExamPicker({ exam, children }) {
       <span className="exam-summary-category">{category}</span>
     </div>
     <div className="exam-summary-body">
-    <div className="exam-summary-top"><h3>{exam.name}</h3><span className={`summary-status ${available ? 'ready' : ''}`}>{available ? 'Disponível' : 'Em breve'}</span></div>
+    <div className="exam-summary-top"><h3>{exam.name}</h3><span className={`summary-status ${available ? 'ready' : ''}`}>{available ? (exam.documentsOnly ? 'Arquivos disponíveis' : 'Disponível') : 'Em breve'}</span></div>
     <p className="exam-summary-description">{exam.description}</p>
     <p className="exam-summary-editions">{years.length ? `Edições: ${years.join(' · ')}` : available ? 'Consulte as edições disponíveis' : 'Novas provas em preparação'}</p>
     {latest && <div className="exam-summary-progress"><strong>Você já fez esta prova</strong><span>Última tentativa: {latest.exam_title}</span><span>{new Date(latest.completed_at).toLocaleDateString('pt-BR')} · {latest.points}/{latest.total} {latest.scoring === 'cebraspe' ? 'pontos líquidos' : 'acertos'}</span><button onClick={() => onHistory?.('history')}>Ver meu histórico</button></div>}

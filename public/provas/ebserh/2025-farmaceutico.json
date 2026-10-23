@@ -1,0 +1,1038 @@
+{
+  "slug": "ebserh-2025-farmaceutico",
+  "title": "EBSERH 2025 — Farmacêutico",
+  "year": "2025",
+  "role": "farmaceutico",
+  "board": "FGV",
+  "questions": [
+    {
+      "number": 1,
+      "subject": "Língua Portuguesa",
+      "text": "O primeiro parágrafo do texto, que serve de introdução, tem a finalidade básica de",
+      "support": "Atenção: use o Texto 1 para responder às próximas seis questões. Texto 1 Defesa do livro intitulado QUINTO IMPÉRIO, que é a apologia do livro CLAVIS PROPHETARUM, e respostas das proposições censuradas pelos senhores inquisidores: dadas pelo Padre Antônio Vieira, estando recluso nos cárceres do Santo Ofício de Coimbra. Sendo ontem chamado à mesa, me foi dito que estavam nela os senhores inquisidores para sentenciarem a minha causa, e que antes disso queriam ouvir de mim tudo o que tivesse que dizer ou alegar para bem dela; e porque a última doença (de que estou mal convalescido) me não deixou com forças nem alento para poder falar em público, pedi licença para falar por papel, que me foi concedida. Protesto pois do modo que me é possível, diante desses senhores, que antes de se me dar a notícia que as minhas proposições estavam censuradas, e as censuras aprovadas por sua santidade, fazia eu tenção de propor em presença de vossas senhorias todos os pontos ou questões delas, dando os fundamentos das opiniões que segui...",
+      "options": [
+        "resumir o texto que aparece a seguir, consubstanciado num só parágrafo.",
+        "indicar, de forma geral, o conteúdo de todo o livro cujo título é dado logo ao início do parágrafo.",
+        "mostrar previamente as injustiças de que o padre Antônio Vieira foi vítima no processo da Inquisição.",
+        "demonstrar a inconsistência das acusações de que o padre Antônio Vieira foi alvo, antecipando sua defesa.",
+        "informar aos leitores a situação de prisioneiro do autor do texto a fim de angariar simpatias pelo que vai ser dito."
+      ],
+      "answer": "B",
+      "annulled": false,
+      "page": 3,
+      "explanation": null
+    },
+    {
+      "number": 2,
+      "subject": "Língua Portuguesa",
+      "text": "Podemos inferir algumas informações de outras que são dadas no texto. Assinale a única inferência a seguir que se mostra inadequada.",
+      "support": "Atenção: use o Texto 1 para responder às próximas seis questões. Texto 1 Defesa do livro intitulado QUINTO IMPÉRIO, que é a apologia do livro CLAVIS PROPHETARUM, e respostas das proposições censuradas pelos senhores inquisidores: dadas pelo Padre Antônio Vieira, estando recluso nos cárceres do Santo Ofício de Coimbra. Sendo ontem chamado à mesa, me foi dito que estavam nela os senhores inquisidores para sentenciarem a minha causa, e que antes disso queriam ouvir de mim tudo o que tivesse que dizer ou alegar para bem dela; e porque a última doença (de que estou mal convalescido) me não deixou com forças nem alento para poder falar em público, pedi licença para falar por papel, que me foi concedida. Protesto pois do modo que me é possível, diante desses senhores, que antes de se me dar a notícia que as minhas proposições estavam censuradas, e as censuras aprovadas por sua santidade, fazia eu tenção de propor em presença de vossas senhorias todos os pontos ou questões delas, dando os fundamentos das opiniões que segui...",
+      "options": [
+        "“respostas das proposições censuradas pelos senhores inquisidores” / já tinha ocorrido um julgamento negativo pela Inquisição sobre proposições do padre Antônio Vieira.",
+        "“estando recluso nos cárceres do Santo Ofício de Coimbra” / o processo de que é alvo o padre Antônio Vieira é de cunho religioso.",
+        "“...e porque a última doença (de que estou mal convalescido) me não deixou com forças nem alento para poder falar em público” / outras doenças já haviam acometido o padre Antônio Vieira.",
+        "“Protesto pois do modo que me é possível, diante desses senhores” / as condições de estar preso impedem uma melhor defesa no processo por parte do padre Antônio Vieira.",
+        "“antes disso queriam ouvir de mim tudo o que tivesse que dizer ou alegar para bem dela” / o processo está ainda na fase inicial."
+      ],
+      "answer": "D",
+      "annulled": false,
+      "page": 3,
+      "explanation": null
+    },
+    {
+      "number": 3,
+      "subject": "Língua Portuguesa",
+      "text": "Observe o seguinte fragmento textual, primeiras palavras do padre Antônio Vieira diante das acusações da Inquisição: Sendo ontem chamado à mesa, me foi dito que estavam nela os senhores inquisidores para sentenciarem a minha causa, e que antes disso queriam ouvir de mim tudo o que tivesse que dizer ou alegar para bem dela; e porque a última doença (de que estou mal convalescido) me não deixou com forças nem alento para poder falar em público, pedi licença para falar por papel, que me foi concedida. Nesse fragmento estão sublinhados cinco termos, na ordem de aparecimento no texto, que se referem coesivamente a termos anteriores. Assinale a opção em que o termo anterior foi mal identificado.",
+      "support": "Atenção: use o Texto 1 para responder às próximas seis questões. Texto 1 Defesa do livro intitulado QUINTO IMPÉRIO, que é a apologia do livro CLAVIS PROPHETARUM, e respostas das proposições censuradas pelos senhores inquisidores: dadas pelo Padre Antônio Vieira, estando recluso nos cárceres do Santo Ofício de Coimbra. Sendo ontem chamado à mesa, me foi dito que estavam nela os senhores inquisidores para sentenciarem a minha causa, e que antes disso queriam ouvir de mim tudo o que tivesse que dizer ou alegar para bem dela; e porque a última doença (de que estou mal convalescido) me não deixou com forças nem alento para poder falar em público, pedi licença para falar por papel, que me foi concedida. Protesto pois do modo que me é possível, diante desses senhores, que antes de se me dar a notícia que as minhas proposições estavam censuradas, e as censuras aprovadas por sua santidade, fazia eu tenção de propor em presença de vossas senhorias todos os pontos ou questões delas, dando os fundamentos das opiniões que segui...",
+      "options": [
+        "nela – mesa.",
+        "disso – sentenciarem a minha causa.",
+        "dela – a minha causa.",
+        "que – última doença.",
+        "que – falar em público."
+      ],
+      "answer": "E",
+      "annulled": false,
+      "page": 3,
+      "explanation": null,
+      "supportImage": [
+        "/provas/ebserh/2025-q3-p3.png"
+      ]
+    },
+    {
+      "number": 4,
+      "subject": "Língua Portuguesa",
+      "text": "Sendo ontem chamado à mesa, me foi dito que estavam nela os senhores inquisidores para sentenciarem a minha causa... O advérbio “ontem” se refere",
+      "support": "Atenção: use o Texto 1 para responder às próximas seis questões. Texto 1 Defesa do livro intitulado QUINTO IMPÉRIO, que é a apologia do livro CLAVIS PROPHETARUM, e respostas das proposições censuradas pelos senhores inquisidores: dadas pelo Padre Antônio Vieira, estando recluso nos cárceres do Santo Ofício de Coimbra. Sendo ontem chamado à mesa, me foi dito que estavam nela os senhores inquisidores para sentenciarem a minha causa, e que antes disso queriam ouvir de mim tudo o que tivesse que dizer ou alegar para bem dela; e porque a última doença (de que estou mal convalescido) me não deixou com forças nem alento para poder falar em público, pedi licença para falar por papel, que me foi concedida. Protesto pois do modo que me é possível, diante desses senhores, que antes de se me dar a notícia que as minhas proposições estavam censuradas, e as censuras aprovadas por sua santidade, fazia eu tenção de propor em presença de vossas senhorias todos os pontos ou questões delas, dando os fundamentos das opiniões que segui...",
+      "options": [
+        "ao dia anterior da escritura do texto.",
+        "à véspera da leitura do texto.",
+        "ao dia que precede a sentença da causa.",
+        "ao dia que vem antes da prisão do religioso.",
+        "à véspera da decisão de escrever o livro."
+      ],
+      "answer": "A",
+      "annulled": false,
+      "page": 3,
+      "explanation": null
+    },
+    {
+      "number": 5,
+      "subject": "Língua Portuguesa",
+      "text": "A oração reduzida “para sentenciarem a minha causa” poderia ser corretamente substituída pela seguinte oração desenvolvida:",
+      "support": "Atenção: use o Texto 1 para responder às próximas seis questões. Texto 1 Defesa do livro intitulado QUINTO IMPÉRIO, que é a apologia do livro CLAVIS PROPHETARUM, e respostas das proposições censuradas pelos senhores inquisidores: dadas pelo Padre Antônio Vieira, estando recluso nos cárceres do Santo Ofício de Coimbra. Sendo ontem chamado à mesa, me foi dito que estavam nela os senhores inquisidores para sentenciarem a minha causa, e que antes disso queriam ouvir de mim tudo o que tivesse que dizer ou alegar para bem dela; e porque a última doença (de que estou mal convalescido) me não deixou com forças nem alento para poder falar em público, pedi licença para falar por papel, que me foi concedida. Protesto pois do modo que me é possível, diante desses senhores, que antes de se me dar a notícia que as minhas proposições estavam censuradas, e as censuras aprovadas por sua santidade, fazia eu tenção de propor em presença de vossas senhorias todos os pontos ou questões delas, dando os fundamentos das opiniões que segui...",
+      "options": [
+        "para que sentenciassem a minha causa.",
+        "para a sentença da minha causa.",
+        "para que sentenciem a minha causa.",
+        "para que seja sentenciada a minha causa.",
+        "para que a sentença da minha causa seja dada."
+      ],
+      "answer": "A",
+      "annulled": false,
+      "page": 3,
+      "explanation": null
+    },
+    {
+      "number": 6,
+      "subject": "Língua Portuguesa",
+      "text": "A forma adequada de reescrever-se a frase “me não deixou com forças nem alento”, com a retirada do advérbio “não”, mantendo- se o sentido original, é:",
+      "support": "Atenção: use o Texto 1 para responder às próximas seis questões. Texto 1 Defesa do livro intitulado QUINTO IMPÉRIO, que é a apologia do livro CLAVIS PROPHETARUM, e respostas das proposições censuradas pelos senhores inquisidores: dadas pelo Padre Antônio Vieira, estando recluso nos cárceres do Santo Ofício de Coimbra. Sendo ontem chamado à mesa, me foi dito que estavam nela os senhores inquisidores para sentenciarem a minha causa, e que antes disso queriam ouvir de mim tudo o que tivesse que dizer ou alegar para bem dela; e porque a última doença (de que estou mal convalescido) me não deixou com forças nem alento para poder falar em público, pedi licença para falar por papel, que me foi concedida. Protesto pois do modo que me é possível, diante desses senhores, que antes de se me dar a notícia que as minhas proposições estavam censuradas, e as censuras aprovadas por sua santidade, fazia eu tenção de propor em presença de vossas senhorias todos os pontos ou questões delas, dando os fundamentos das opiniões que segui...",
+      "options": [
+        "me deixou sem forças nem sem alento.",
+        "me deixou enfraquecido e com dificuldades respiratórias.",
+        "me deixou pálido e desanimado.",
+        "me deixou abatido e sem coragem.",
+        "me deixou fraco e desalentado."
+      ],
+      "answer": "E",
+      "annulled": false,
+      "page": 3,
+      "explanation": null
+    },
+    {
+      "number": 7,
+      "subject": "Língua Portuguesa",
+      "text": "Nesse fragmento textual, os argumentos são apoiados por",
+      "support": "Texto 2 para responder às próximas quatro questões. Texto 2 Observe o seguinte texto argumentativo: Esquecemos frequentemente que gengivas saudáveis constituem a base para dentes saudáveis. É por isso que os dentistas recomendam Parodontax. De fato, os estudos clínicos provaram sua eficácia sobre as gengivas. Sua composição única compreende cinco produtos naturais extraídos de plantas e um sal mineral especialmente tratado para neutralizar as bactérias que ameaçam as gengivas. O resultado? Gengivas naturalmente fortes. Dentes naturalmente fortes.",
+      "options": [
+        "opinião pessoal do autor do texto.",
+        "testemunhos de autoridades pertinentes.",
+        "composição de material inédito.",
+        "raciocínio lógico de base indutiva.",
+        "tradição do produto anunciado."
+      ],
+      "answer": "B",
+      "annulled": false,
+      "page": 4,
+      "explanation": null
+    },
+    {
+      "number": 8,
+      "subject": "Língua Portuguesa",
+      "text": "Se trocarmos o verbo “esquecer” da primeira frase por sua forma pronominal “esquecer-se”, a forma correta da nova frase será:",
+      "support": "Texto 2 para responder às próximas quatro questões. Texto 2 Observe o seguinte texto argumentativo: Esquecemos frequentemente que gengivas saudáveis constituem a base para dentes saudáveis. É por isso que os dentistas recomendam Parodontax. De fato, os estudos clínicos provaram sua eficácia sobre as gengivas. Sua composição única compreende cinco produtos naturais extraídos de plantas e um sal mineral especialmente tratado para neutralizar as bactérias que ameaçam as gengivas. O resultado? Gengivas naturalmente fortes. Dentes naturalmente fortes.",
+      "options": [
+        "Esquecemo-nos frequentemente de que gengivas saudáveis constituem a base para dentes saudáveis.",
+        "Nos esquecemos frequentemente que gengivas saudáveis constituem a base para dentes saudáveis.",
+        "Esquecemo-nos frequentemente que gengivas saudáveis constituem a base para dentes saudáveis.",
+        "Esquecemos-nos frequentemente de que gengivas saudáveis constituem a base para dentes saudáveis.",
+        "Nos esquecemos frequentemente de que gengivas saudáveis constituem a base para dentes saudáveis."
+      ],
+      "answer": "A",
+      "annulled": false,
+      "page": 4,
+      "explanation": null
+    },
+    {
+      "number": 9,
+      "subject": "Língua Portuguesa",
+      "text": "A parte final do texto diz: Gengivas naturalmente fortes. Dentes naturalmente fortes. Assinale a opção que apresenta a relação lógica correta entre essas frases.",
+      "support": "Texto 2 para responder às próximas quatro questões. Texto 2 Observe o seguinte texto argumentativo: Esquecemos frequentemente que gengivas saudáveis constituem a base para dentes saudáveis. É por isso que os dentistas recomendam Parodontax. De fato, os estudos clínicos provaram sua eficácia sobre as gengivas. Sua composição única compreende cinco produtos naturais extraídos de plantas e um sal mineral especialmente tratado para neutralizar as bactérias que ameaçam as gengivas. O resultado? Gengivas naturalmente fortes. Dentes naturalmente fortes.",
+      "options": [
+        "A primeira frase é consequência da segunda.",
+        "As duas frases são logicamente independentes.",
+        "A segunda frase é condição da primeira.",
+        "A primeira frase é causa da segunda.",
+        "A segunda frase é explicação da primeira."
+      ],
+      "answer": "D",
+      "annulled": false,
+      "page": 4,
+      "explanation": null
+    },
+    {
+      "number": 10,
+      "subject": "Língua Portuguesa",
+      "text": "“Esquecemos frequentemente que gengivas saudáveis consti- tuem a base para dentes saudáveis”; nessa frase há a repetição de um adjetivo (saudáveis) com o mesmo sentido. A frase abaixo em que os adjetivos repetidos mostram sentidos diferentes é:",
+      "support": "Texto 2 para responder às próximas quatro questões. Texto 2 Observe o seguinte texto argumentativo: Esquecemos frequentemente que gengivas saudáveis constituem a base para dentes saudáveis. É por isso que os dentistas recomendam Parodontax. De fato, os estudos clínicos provaram sua eficácia sobre as gengivas. Sua composição única compreende cinco produtos naturais extraídos de plantas e um sal mineral especialmente tratado para neutralizar as bactérias que ameaçam as gengivas. O resultado? Gengivas naturalmente fortes. Dentes naturalmente fortes.",
+      "options": [
+        "Existe apenas um momento exato para ir pescar, e esse momento exato é sempre que você puder.",
+        "Nada que foi dito já não foi dito antes.",
+        "O homem inteligente é o que nunca confunde os inteligentes pontos de vista.",
+        "Não há nenhum médico competente que seja absolutamente competente.",
+        "Sabão e educação não agem tão rápido a longo prazo, mas são igualmente eficientes num prazo longo."
+      ],
+      "answer": "C",
+      "annulled": false,
+      "page": 4,
+      "explanation": null
+    },
+    {
+      "number": 11,
+      "subject": "Legislação EBSERH",
+      "text": "A Empresa Brasileira de Serviços Hospitalares (Ebserh) é uma empresa pública vinculada ao Ministério da Educação, criada pela Lei Federal nº 12.550/2011. A respeito de suas finalidades, analise as afirmativas a seguir e assinale (V) para a verdadeira e (F) para a falsa. ( ) Oferecer suporte ao Sistema Único de Saúde (SUS): a empresa contribui para o atendimento da população por meio dos hospitais universitários. ( ) Administrar hospitais universitários federais: a Ebserh gerencia e aprimora a infraestrutura e os serviços dos hospitais vinculados às universidades federais que estabeleceram contrato com ela. ( ) Apoiar o ensino e a pesquisa: a empresa valoriza e ampara o ensino-aprendizagem e a formação de pessoas no campo da saúde pública em instituições federais de ensino superior e em instituições congêneres. As afirmativas são, respectivamente,",
+      "support": null,
+      "options": [
+        "V – F – V.",
+        "F – V – V.",
+        "V – V – F.",
+        "V – F – F.",
+        "V – V – V."
+      ],
+      "answer": "E",
+      "annulled": false,
+      "page": 4,
+      "explanation": null
+    },
+    {
+      "number": 12,
+      "subject": "Legislação EBSERH",
+      "text": "Segundo o Regimento Interno da Ebserh, a estrutura organizacional da empresa conta com Colegiados Internos, que têm a função de atender a necessidades que não possam ser resolvidas isoladamente pelas áreas organizacionais. Os Colegiados Internos são classificados em função de sua duração e atribuição, como nos exemplos a seguir. I. É de duração perene, atua de forma consultiva no nível tático, composto por profissionais de referência na área de atuação, analisando detalhadamente temas específicos e de grande amplitude, como padronizações técnicas e definições de melhores práticas. II. É de duração temporária, atua de forma consultiva ou executiva no nível técnico operacional, na execução de ações ou projetos específicos, com prazo preestabelecido, propondo soluções para problemas determinados ou executando ações transversais que envolvam mais de uma área organizacional. Os trechos I e II se referem, respectivamente, aos Colegiados Internos organizados sob a forma de",
+      "support": null,
+      "options": [
+        "Comissão e Escritório.",
+        "Comitê e Centro de Competência.",
+        "Centro de Competência e Comissão.",
+        "Câmara Técnica e Grupo de Trabalho.",
+        "Núcleo Técnico Operacional e Comitê."
+      ],
+      "answer": "D",
+      "annulled": false,
+      "page": 4,
+      "explanation": null
+    },
+    {
+      "number": 13,
+      "subject": "Legislação EBSERH",
+      "text": "A Lei nº 12.550/2011 e o Regulamento de Pessoal da Empresa Brasileira de Serviços Hospitalares (Ebserh) disponibilizam normativas a respeito dos integrantes do quadro de pessoal da Empresa. Considerando as normas citadas, é correto afirmar que a Ebserh está autorizada a",
+      "support": null,
+      "options": [
+        "admitir profissional qualificado para realização de serviços técnicos especializados, por meio de indicação.",
+        "recrutar terceirizados para funções gratificadas em unidades hospitalares, mediante processo seletivo simplificado.",
+        "selecionar pessoal técnico e administrativo por tempo indeterminado, mediante concurso público.",
+        "contratar empregados temporários, observado o prazo máximo de seis anos, mediante prestação de serviços.",
+        "obter servidores titulares de cargo efetivo em exercício em instituição federal de ensino que possui contrato com a Empresa, mediante solicitação de cessão."
+      ],
+      "answer": "C",
+      "annulled": false,
+      "page": 5,
+      "explanation": null
+    },
+    {
+      "number": 14,
+      "subject": "Legislação EBSERH",
+      "text": "A partir da sua criação, a Ebserh passou a ser a responsável pela gestão de hospitais universitários federais, finalidade planejada e implementada mediante o Conselho de Administração, um dos seus principais órgãos administrativos. Segundo o Estatuto Social da Ebserh, o Conselho de Administração é um órgão colegiado composto por nove membros. A respeito desses membros, assinale a afirmativa correta.",
+      "support": null,
+      "options": [
+        "Um membro é o Presidente da Empresa, que ocupa a presidência executiva do conselho.",
+        "Um membro é indicado pelo Ministro da Gestão e da Inovação em Serviços Público, sendo obrigatoriamente diretor de hospital universitário federal.",
+        "Três membros são indicados pelo Ministro da Educação, dos quais um será o Presidente do Conselho e outro, o substituto em suas ausências e seus impedimentos.",
+        "Um membro é reitor de universidade federal, eleito para o cargo pela Associação Nacional dos Docentes das Instituições Federais de Ensino Superior.",
+        "Dois membros são representantes dos empregados, eleitos para participar das deliberações sobre assuntos que envolvam relações sindicais, remuneração e questões de previdência."
+      ],
+      "answer": "C",
+      "annulled": false,
+      "page": 5,
+      "explanation": null
+    },
+    {
+      "number": 15,
+      "subject": "Legislação EBSERH",
+      "text": "A Comissão de Ética da Ebserh (CEE) está encarregada de orientar e aconselhar sobre as questões éticas dos colaboradores da instituição, no tratamento com as pessoas e com o patrimônio público. A CEE é um órgão autônomo, de caráter",
+      "support": null,
+      "options": [
+        "deliberativo, cabendo-lhe deliberar sobre condutas antiéticas e sobre as transgressões das normas da Ebserh levadas ao seu conhecimento.",
+        "consultivo, sendo de sua alçada o controle social e o apoio à Diretoria Executiva e ao Conselho de Administração na aplicação de eventuais medidas disciplinares.",
+        "fiscalizador, cabendo-lhe inspecionar o cumprimento do limite de participação da empresa no custeio dos benefícios de assistência à saúde e de previdência complementar.",
+        "orientador, pertencendo-lhe assessorar o Conselho de Administração nos processos de indicação, avaliação e remuneração dos administradores, conselheiros fiscais e demais membros de órgãos estatutários.",
+        "assessorial, sendo de sua responsabilidade monitorar exposições de risco da Ebserh, podendo requerer, entre outras, informações detalhadas sobre políticas e procedimentos considerados impróprios."
+      ],
+      "answer": "A",
+      "annulled": false,
+      "page": 5,
+      "explanation": null
+    },
+    {
+      "number": 16,
+      "subject": "Políticas Públicas de Saúde e Educação",
+      "text": "O controle social democrático das políticas de saúde no Brasil se dá, sobretudo, no âmbito dos Conselhos de Saúde e das Conferências de Saúde. Assinale a opção correta no que diz respeito às características e atribuições desses espaços.",
+      "support": null,
+      "options": [
+        "Os Conselhos de Saúde são organizados de maneira centralizada, respondendo diretamente às determinações do governo via Conselho Nacional de Saúde.",
+        "As Conferências de Saúde ocorrem com regularidade anual no nível nacional, abordando temas determinados em cada evento do ano anterior.",
+        "Os Conselhos de Saúde são órgãos colegiados e permanentes, responsáveis diretamente pela execução dos serviços de saúde no território nacional.",
+        "As Conferências de Saúde municipais e estaduais ocorrem como etapas prévias da Conferência Nacional, aprovando propostas a serem discutidas nesta.",
+        "Os Conselhos de Saúde estão distribuídos nos níveis federal, estadual e municipal, funcionando de maneira subordinada ao executivo de cada unidade administrativa."
+      ],
+      "answer": "D",
+      "annulled": false,
+      "page": 5,
+      "explanation": null,
+      "supportImage": [
+        "/provas/ebserh/2025-q16-p5.png"
+      ]
+    },
+    {
+      "number": 17,
+      "subject": "Políticas Públicas de Saúde e Educação",
+      "text": "Com relação à construção histórica do Sistema Único de Saúde (SUS), avalie as afirmativas a seguir e assinale (V) para a verdadeira e (F) para a falsa. ( ) O SUS foi criado inicialmente durante o Governo Vargas, voltado, a princípio, apenas para o atendimento aos trabalhadores da economia formal e suas famílias. ( ) A Constituição Federal de 1988 introduziu o fundamento da universalização do SUS e estabeleceu a integração dos serviços públicos de saúde em uma rede regionalizada e hierarquizada. ( ) O projeto inicial do sistema previa a sua evolução para o Sistema Unificado e Descentralizado de Saúde (SUDS), cuja execução permanece em aberto e em progresso. As afirmativas são, respectivamente,",
+      "support": null,
+      "options": [
+        "F – V – F.",
+        "F – V – V.",
+        "V – F – F.",
+        "V – V – F.",
+        "F – F – V."
+      ],
+      "answer": "A",
+      "annulled": false,
+      "page": 6,
+      "explanation": null
+    },
+    {
+      "number": 18,
+      "subject": "Políticas Públicas de Saúde e Educação",
+      "text": "Leia o trecho a seguir a respeito da insurgência ocorrida no início do século XX durante a campanha de vacinação contra a varíola. A Revolta da Vacina permanece como exemplo quase único na história do país de movimento popular de êxito baseado na defesa do direito dos cidadãos de não serem arbitrariamente tratados pelo governo. Mesmo que a vitória não tenha sido traduzida em mudanças políticas imediatas além da interrupção da vacinação, ela certamente deixou entre os que dela participaram um sentimento profundo de orgulho e de autoestima, passo importante na formação da cidadania. CARVALHO, José Murilo de. Os bestializados. São Paulo: Companhia das Letras, 2019. Segundo o autor, essa situação é exemplar da tensão entre",
+      "support": null,
+      "options": [
+        "ciência médica e ignorância popular diante das políticas de saúde.",
+        "práticas higienistas e liberdade individual na saúde pública.",
+        "passividade das camadas populares e medidas coercitivas do governo.",
+        "campanhas educativas e desinformação entre a população.",
+        "resistência das elites à vacinação e rápida adesão das classes populares."
+      ],
+      "answer": "B",
+      "annulled": false,
+      "page": 6,
+      "explanation": null
+    },
+    {
+      "number": 19,
+      "subject": "Políticas Públicas de Saúde e Educação",
+      "text": "Sobre os determinantes sociais da saúde, analise o texto seguir. Podemos afirmar que na efetivação e desenvolvimento de si os indivíduos organizam e transformam grupos humanos nos mais diversos níveis e, de um modo ou de outro, a própria humanidade. Dessa forma, para os próprios indivíduos, que são concentrações vivas e pontos de interação da rede social, a transformação da sociedade resulta em novas condições de ser, novas condições de sua existência, inclusive psicofisiológica; portanto, de sua saúde. BRONZO, Carla; FLEURY-TEIXEIRA, Paulo. “Determinação social da saúde pública”. In: Determinação Social da Saúde e Reforma Sanitária. Rio de Janeiro: Cebes, 2010. Assinale a opção que identifica corretamente a ideia central do texto.",
+      "support": null,
+      "options": [
+        "A melhoria na saúde do indivíduo ocorre como tradução fisiológica de mudanças de postura psicológica.",
+        "O indivíduo é subordinado às características de sua realidade social, o que inclui seus modos de vida e sua saúde.",
+        "A ciência médica substitui as mudanças sociais como principal fator para o aumento da qualidade de vida da população.",
+        "O funcionamento do organismo humano molda as regras de convivência, determinando os comportamentos coletivos.",
+        "A saúde faz parte dos efeitos do engajamento humano, o qual gera transformações históricas no âmbito da vida social."
+      ],
+      "answer": "E",
+      "annulled": false,
+      "page": 6,
+      "explanation": null
+    },
+    {
+      "number": 20,
+      "subject": "Políticas Públicas de Saúde e Educação",
+      "text": "A respeito da possibilidade do uso da arquitetura informacional da blockchain para a gestão em saúde, leia o trecho a seguir. Um estudo da Escola Politécnica da USP propôs uma arquitetura para rastrear medicamentos hospitalares utilizando blockchain. Com a ferramenta, apenas transações validadas por uma rede descentralizada seriam registradas, garantindo maior dinamismo e segurança ao processo. No mecanismo de consenso, as entidades que fariam a validação teriam acesso às informações quando uma mercadoria fosse enviada de um lugar a outro. Uma validação centralizada também tem condições de realizar essa tarefa, porém é passível de influência humana, ou seja, uma informação já realizada pode ser alterada. CONTERNO, Ivan. Tecnologia blockchain pode reduzir risco de roubos e fraudes na área da saúde. Jornal da USP, 29/05/2023. In: https://jornal.usp.br. Adaptado. Com base no trecho, é correto afirmar que a principal vantagem de utilizar o sistema blockchain para a gestão em saúde consiste",
+      "support": null,
+      "options": [
+        "na criação de um sistema mais eficiente, no qual um órgão unificado pode validar e modificar informações conforme necessário.",
+        "na eliminação da influência humana no processo de validação, garantindo que todas as transações sejam verificadas autonomamente.",
+        "na descentralização do registro de transações, que reduz o risco de alterações indevidas e aumenta a integridade das informações.",
+        "na capacidade de modificar registros antigos para corrigir eventuais erros, tornando a rastreabilidade mais flexível e adaptável às necessidades regulatórias.",
+        "na substituição dos mecanismos tradicionais de rastreabilidade, eliminando a necessidade de auditoria por órgãos reguladores."
+      ],
+      "answer": "C",
+      "annulled": false,
+      "page": 6,
+      "explanation": null
+    },
+    {
+      "number": 21,
+      "subject": "Conhecimentos Específicos — Farmácia",
+      "text": "A política regulatória dos planos privados explicita de maneira legal e institucional o fato de que os princípios do SUS de universalidade e igualdade eram formais. O modelo regulatório, da forma como foi adotado, é suplementar e não uma articulação. Sua implantação, de qualquer forma, foi separada: o modelo regula esse mercado, enquanto o SUS é outra história, com outra regulação e mecanismos decisórios totalmente díspares. São modelos e concepções diferentes: um é direito do consumidor e defende o mercado; o outro é direito de cidadania, obrigação do Estado. MENICUCCI, T. M. G. História da reforma sanitária brasileira e do Sistema Único de Saúde. História, Ciências, Saúde – Manguinhos, Rio de Janeiro, v. 21, n. 1, 2014. A criação de um sistema nacional de saúde envolve uma série de decisões políticas e organizacionais. Com base no trecho, é correto afirmar que o sistema brasileiro",
+      "support": null,
+      "options": [
+        "adota um modelo híbrido, no qual a regulação dos planos de saúde privados se integra aos serviços públicos e forma um sistema único e coordenado em seu funcionamento.",
+        "opera com base na universalização plena da saúde, garantindo que o sistema público e os planos privados sejam regulados pelos mesmos mecanismos e princípios.",
+        "descaracteriza os princípios da universalidade e da igualdade, tornando o acesso aos serviços de saúde condicionado à contratação de assistência suplementar.",
+        "formaliza um sistema único de assistência, no qual os planos de saúde privados são considerados complementares ao serviço público e seguem sua mesma lógica de gestão.",
+        "funciona como um sistema segmentado, no qual os planos de saúde privados operam de forma paralela ao serviço público, com regulações e princípios distintos."
+      ],
+      "answer": "D",
+      "annulled": false,
+      "page": 7,
+      "explanation": null
+    },
+    {
+      "number": 22,
+      "subject": "Conhecimentos Específicos — Farmácia",
+      "text": "A respeito dos limites entre ciência ética, leia o relato a seguir. Em 2018, o cientista chinês He Jiankui causou controvérsia na comunidade científica quando revelou ter editado o código genético de dois embriões saudáveis com o objetivo de torná-los imunes à transmissão do HIV contraído pelos pais. O resultado foi o nascimento de duas meninas gêmeas geneticamente modificadas com a técnica de CRISPR-cas9, uma ferramenta genética que corta a sequência do DNA e o reconfigura para obter a modificação desejada. A repercussão do experimento levou à demissão e à condenação a três anos de prisão na China. Experimento chinês confronta limites entre ética e ciência, 2019, In: https://www.ipea.gov.br/. Adaptado. Considerando os princípios da bioética, assinale a afirmativa que identifica problemas éticos suscitados pelo experimento citado.",
+      "support": null,
+      "options": [
+        "O desrespeito às normas comerciais, pois a alteração genética das bebês pode impactar o mercado de vacinas.",
+        "A inviabilidade econômica da técnica, que exige um alto investimento sem benefícios significativos.",
+        "Os riscos imprevisíveis de alterações genéticas em seres humanos, que vão produzir óvulos e espermatozoides com essa mutação.",
+        "A falha metodológica do estudo, que não seguiu protocolos científicos rigorosos para garantir a eficácia.",
+        "O comprometimento da viabilidade das futuras gerações, pois as edições genéticas causam instabilidade no DNA."
+      ],
+      "answer": "C",
+      "annulled": false,
+      "page": 7,
+      "explanation": null,
+      "supportImage": [
+        "/provas/ebserh/2025-q22-p7.png"
+      ]
+    },
+    {
+      "number": 23,
+      "subject": "Conhecimentos Específicos — Farmácia",
+      "text": "Com relação à Atenção Primária à Saúde (APS), avalie as afirmativas a seguir. I. A APS tem o foco na diagnose e no tratamento das enfermidades, dada a dificuldade de ações preventivas na escala de sua atuação. II. A APS otimiza os atendimentos com equipes capazes de abordar as situações menos graves, evitando o encaminhamento a especialistas. III. A APS é o foco principal das iniciativas voltadas para a educação em saúde, dado que é a porta de entrada preferencial no sistema de saúde. Está correto o que se afirma em",
+      "support": null,
+      "options": [
+        "I, II e III.",
+        "I e II, apenas.",
+        "I e III, apenas.",
+        "II e III, apenas.",
+        "III, apenas."
+      ],
+      "answer": "E",
+      "annulled": false,
+      "page": 7,
+      "explanation": null
+    },
+    {
+      "number": 24,
+      "subject": "Conhecimentos Específicos — Farmácia",
+      "text": "A Política Nacional de Humanização (PNH), ou HumanizaSUS, busca qualificar a saúde pública no Brasil com um foco na organização das dinâmicas de trabalho. A PNH comporta as características indicadas a seguir, à exceção de uma. Assinale-a.",
+      "support": null,
+      "options": [
+        "A valorização dos gestores de saúde como parte essencial da implementação da humanização no SUS.",
+        "A autonomia do usuário no cuidado em saúde, garantindo participação ativa no próprio tratamento.",
+        "A transferência de responsabilidade para as famílias, atribuindo-lhes papel central na condução dos cuidados.",
+        "A articulação entre formação e serviços, promovendo uma educação permanente para profissionais da saúde.",
+        "A participação de profissionais e usuários nas ações de saúde junto a gestores, criando espaços de escuta e cogestão."
+      ],
+      "answer": "C",
+      "annulled": false,
+      "page": 7,
+      "explanation": null
+    },
+    {
+      "number": 25,
+      "subject": "Conhecimentos Específicos — Farmácia",
+      "text": "A Estratégia de Saúde da Família (ESF) é uma orientação fundamental do oferecimento de atenção básica à população. Assinale a afirmativa que apresenta corretamente uma característica da ESF.",
+      "support": null,
+      "options": [
+        "Prioriza a prevenção de enfermidades entre indivíduos saudáveis, responsáveis pela sustentação material da família.",
+        "É operacionalizada por equipes multiprofissionais que atendem um número definido de pessoas em um território.",
+        "Executa um serviço assistencial centralizado em unidades de saúde de grande porte estrategicamente posicionadas.",
+        "É orientada ao atendimento de coletividades em vez de indivíduos devido à natureza social de sua atuação.",
+        "Opera com equipes itinerantes de assistência social, que diminuem a necessidade de atendimento médico."
+      ],
+      "answer": "B",
+      "annulled": false,
+      "page": 7,
+      "explanation": null
+    },
+    {
+      "number": 26,
+      "subject": "Conhecimentos Específicos — Farmácia",
+      "text": "A Política Nacional de Atenção Hospitalar (PNHOSP) define orientações para reestruturar a assistência hospitalar no SUS, com o objetivo de melhorar a qualidade dos cuidados e a eficiência na gestão. As iniciativas listadas a seguir reorganizam e qualificam a atenção hospitalar de acordo com o disposto pela PNHOSP, à exceção de uma. Assinale-a.",
+      "support": null,
+      "options": [
+        "A adoção de um sistema experimental de triagem por inteligência artificial para reduzir custos.",
+        "A adoção de protocolos clínicos para reduzir a variabilidade no padrão de tratamentos.",
+        "A instalação de um sistema de gestão de estoques para evitar desperdício de medicamentos.",
+        "A introdução da telemedicina nas unidades afastadas para permitir o acesso remoto a especialistas.",
+        "A mobilização de equipes multidisciplinares para fornecer acompanhamento contínuo aos pacientes."
+      ],
+      "answer": "A",
+      "annulled": false,
+      "page": 8,
+      "explanation": null
+    },
+    {
+      "number": 27,
+      "subject": "Conhecimentos Específicos — Farmácia",
+      "text": "A Resolução CNS nº 553/2017 estabelece os direitos e deveres da pessoa usuária da saúde, a serem observados por paciente e equipe no dia a dia da prestação de serviços. Assinale a opção que indica uma violação de um direito ou de um dever exposto na resolução.",
+      "support": null,
+      "options": [
+        "Uma paciente faz uma reclamação formal sobre o atendimento e tem seu pedido encaminhado para análise.",
+        "Um paciente idoso chega com mal-estar a uma unidade de saúde sem documentação, mas é prontamente atendido.",
+        "Uma paciente consegue agendar um exame para dali a seis meses devido a critérios de prioridade clínica.",
+        "Um paciente não emergencial se irrita com o tempo médio de espera e ameaça agressivamente formalizar uma reclamação.",
+        "Uma paciente solicita um exame realizado há pouco tempo e tem o pedido negado devido a protocolos de periodicidade."
+      ],
+      "answer": "D",
+      "annulled": false,
+      "page": 8,
+      "explanation": null
+    },
+    {
+      "number": 28,
+      "subject": "Conhecimentos Específicos — Farmácia",
+      "text": "As Redes de Atenção à Saúde (RAS) são estruturas organizacionais projetadas para superar a fragmentação dos serviços de saúde. Sobre o tema, avalie os itens a seguir. I. Os serviços são organizados de maneira hierárquica, com funções definidas e de acordo com a complexidade dos casos. II. As RAS podem ser estruturadas de maneira temática, especializando-se no atendimento de um grupo populacional específico. III. O paciente mantém um vínculo com a rede, estendendo seu tratamento ao longo do tempo, em vez de ser atendido de maneira pontual. Está correto o que se afirma em",
+      "support": null,
+      "options": [
+        "III, apenas.",
+        "I e II, apenas.",
+        "I e III, apenas.",
+        "II e III, apenas.",
+        "I, II e III."
+      ],
+      "answer": "E",
+      "annulled": false,
+      "page": 8,
+      "explanation": null
+    },
+    {
+      "number": 29,
+      "subject": "Conhecimentos Específicos — Farmácia",
+      "text": "A Norma Operacional Básica de Recursos Humanos estabelece que, para a atenção à saúde do trabalhador do SUS, devem ser obedecidos os mesmos princípios do Sistema Único de Saúde. A esse respeito, estabeleça a relação entre os princípios listados a seguir e as iniciativas que exemplificam sua aplicação. 1. Universalidade 2. Promoção da Saúde 3. Integralidade da Atenção ( ) Programas de incentivo para redução do tabagismo, com campanhas de conscientização sobre os danos do cigarro e medidas de apoio para os que desejam parar de fumar. ( ) Inclusão de todos os profissionais da saúde, independentemente de sua forma de contratação, em campanhas nacionais de vacinação prioritária para reduzir riscos de exposição. ( ) Inspeções conjuntas do SUS e do Ministério do Trabalho e Previdência (MTP) para avaliar condições de trabalho, uso adequado de Equipamentos de Proteção Individual e cumprimento das normas de segurança. A relação correta, na ordem apresentada, é",
+      "support": null,
+      "options": [
+        "3 – 2 – 1.",
+        "2 – 1 – 3.",
+        "2 – 3 – 1.",
+        "3 – 1 – 2.",
+        "1 – 3 – 2."
+      ],
+      "answer": "B",
+      "annulled": false,
+      "page": 8,
+      "explanation": null
+    },
+    {
+      "number": 30,
+      "subject": "Conhecimentos Específicos — Farmácia",
+      "text": "Com relação às orientações da Política Nacional de Saúde Integral da População Negra, avalie as afirmativas a seguir. I. Incluir o quesito cor no levantamento de informações relativas à saúde da população e no estabelecimento de iniciativas e metas. II. Substituir as práticas populares e religiosas de cuidado e saúde por técnicas e protocolos de medicina avançada e baseada em evidências. III. Ampliar a participação de movimentos sociais organizados nas instâncias de controle social do sistema de saúde. Está em consonância com a Política Nacional de Saúde Integral da População Negra o que se indica em",
+      "support": null,
+      "options": [
+        "III, apenas.",
+        "I e II, apenas.",
+        "I e III, apenas.",
+        "II e III, apenas.",
+        "I, II e III."
+      ],
+      "answer": "C",
+      "annulled": false,
+      "page": 8,
+      "explanation": null
+    },
+    {
+      "number": 31,
+      "subject": "Conhecimentos Específicos — Farmácia",
+      "text": "Das leveduras listadas a seguir, assinale a que não apresenta formação de pseudo-hifas ou hifas verdadeiras quando examinadas microscopicamente em amostras biológicas de urina.",
+      "support": null,
+      "options": [
+        "Candida albicans.",
+        "Candida tropicalis.",
+        "Candida parapsilosis.",
+        "Candida krusei.",
+        "Candida glabrata."
+      ],
+      "answer": "E",
+      "annulled": false,
+      "page": 9,
+      "explanation": null
+    },
+    {
+      "number": 32,
+      "subject": "Conhecimentos Específicos — Farmácia",
+      "text": "Na construção de um Mapa de Risco, são empregadas cores para designar o grupo ao qual pertence um dado risco. Assinale a opção que indica um grupo incorreto.",
+      "support": null,
+      "options": [
+        "Grupo 2: riscos químicos identificados pela cor vermelha.",
+        "Grupo 5: riscos de acidentes identificados pela cor azul.",
+        "Grupo 1: riscos físico-químicos identificados pela cor laranja.",
+        "Grupo 4: riscos ergonômicos identificados pela cor amarela.",
+        "Grupo 3: riscos biológicos identificados pela cor marrom."
+      ],
+      "answer": "C",
+      "annulled": false,
+      "page": 9,
+      "explanation": null
+    },
+    {
+      "number": 33,
+      "subject": "Conhecimentos Específicos — Farmácia",
+      "text": "Na contagem diferencial do Líquido Cefalorraquidiano (LCR), o significado clínico dos “macrófagos siderófagos” encontrados nesse exame laboratorial é",
+      "support": null,
+      "options": [
+        "hemorragia subaracnóidea (2 a 4 semanas).",
+        "necrose cerebral, infarto, anóxia e traumatismo craniano.",
+        "hemorragia subaracnóidea (2 dias a 2 meses).",
+        "tumor cerebral e tumor metastásico.",
+        "hemorragia subaracnóidea em prematuros e recém-nascidos possivelmente originada da matriz germinal."
+      ],
+      "answer": "C",
+      "annulled": false,
+      "page": 9,
+      "explanation": null
+    },
+    {
+      "number": 34,
+      "subject": "Conhecimentos Específicos — Farmácia",
+      "text": "A Resolução CFF nº 671 de 25 de julho de 2019, que regulamenta a atuação do farmacêutico na prestação de serviços e assessoramento técnico relacionados à informação sobre medicamentos e outros produtos para a saúde no Serviço de Informação sobre Medicamentos (SIM), Centro de Informação sobre Medicamentos (CIM) e Núcleo de Apoio e/ou Assessoramento Técnico (NAT) preconiza, em seu Art. 5º, que: Os farmacêuticos que atuam no CIM, SIM ou NAT adotarão os princípios _____ da Constituição Federal, da Saúde Baseada em Evidências e da Política Nacional de Medicamentos, bem como da Política Nacional de Assistência Farmacêutica, visando à promoção do uso _____ de medicamentos e plantas com finalidade _____. As lacunas são corretamente preenchidas, respectivamente, por",
+      "support": null,
+      "options": [
+        "básicos – irrestrito – medicinal.",
+        "norteadores – parcial – medicinal.",
+        "básicos – opcional – terapêutica.",
+        "básicos – parcial – medicinal.",
+        "norteadores – racional – terapêutica."
+      ],
+      "answer": "E",
+      "annulled": false,
+      "page": 9,
+      "explanation": null
+    },
+    {
+      "number": 35,
+      "subject": "Conhecimentos Específicos — Farmácia",
+      "text": "A potencial consequência ou interferência em resultados de exames laboratoriais decorrentes da hemólise, um processo que pode ocorrer se a coleta de sangue não for realizada adequadamente, levando à destruição de glóbulos vermelhos, é",
+      "support": null,
+      "options": [
+        "a diminuição da concentração de constituintes que existem em maior quantidade nos eritrócitos do que no plasma (ou soro).",
+        "o aumento da concentração das substâncias que são mais abundantes nas hemácias do que no plasma (ou soro).",
+        "a manutenção da cor original do plasma (ou soro), apesar do escape da hemoglobina das hemácias.",
+        "o aumento da concentração de constituintes que existem em menor quantidade nos eritrócitos do que no plasma (ou soro).",
+        "a diminuição da concentração das substâncias que são mais abundantes nas hemácias do que no plasma (ou soro)."
+      ],
+      "answer": "B",
+      "annulled": false,
+      "page": 9,
+      "explanation": null
+    },
+    {
+      "number": 36,
+      "subject": "Conhecimentos Específicos — Farmácia",
+      "text": "A exposição ocupacional a materiais biológicos contaminados representa um risco significativo para profissionais da saúde, especialmente no que se refere às infecções associadas à hepatite B (HBV) e à hepatite C (HCV). Sobre a prevenção, o controle e as consequências dessas infecções no ambiente hospitalar e laboratorial, assinale a afirmativa correta.",
+      "support": null,
+      "options": [
+        "A infecção pela HBV em profissionais da saúde ocorre exclusivamente por contato direto com o sangue contaminado, sendo improvável a transmissão por outras secreções biológicas.",
+        "Não há vacina disponível para a hepatite B, sendo a profilaxia pós-exposição a única medida eficaz de controle da doença em profissionais da saúde.",
+        "O risco de infecção ocupacional pela hepatite C é maior do que pela HBV, pois a HCV apresenta maior taxa de transmissão e alta virulência em exposições acidentais.",
+        "A vacinação contra a hepatite B é uma medida eficaz e recomendada para todos os profissionais da saúde, devendo ser associada ao monitoramento sorológico para confirmar a imunização.",
+        "A profilaxia pós-exposição à hepatite C consiste na administração de imunoglobulina específica, a qual deve ser aplicada nas primeiras 24 horas após o acidente ocupacional."
+      ],
+      "answer": "D",
+      "annulled": false,
+      "page": 9,
+      "explanation": null
+    },
+    {
+      "number": 37,
+      "subject": "Conhecimentos Específicos — Farmácia",
+      "text": "A presença de hifas septadas, hialinas e ramificadas, observadas em exame micológico direto de amostras de lavado broncoalveolar, caracteriza",
+      "support": null,
+      "options": [
+        "feohifomicose.",
+        "actinomicetoma.",
+        "hialohifomicose.",
+        "cromomicose.",
+        "tinea nigra."
+      ],
+      "answer": "C",
+      "annulled": false,
+      "page": 9,
+      "explanation": null
+    },
+    {
+      "number": 38,
+      "subject": "Conhecimentos Específicos — Farmácia",
+      "text": "De acordo com a Resolução CFF nº 724 de 29 de abril de 2022, que dispõe sobre o Código de Ética, o Código de Processo Ético e estabelece as infrações e as regras de aplicação das sanções ético- disciplinares, em seu Art. 12, é direito do farmacêutico",
+      "support": null,
+      "options": [
+        "participar, promover e registrar as atividades de treinamento operacional e educação continuada, bem como definir manuais de boas práticas, procedimentos operacionais padrões e seus aperfeiçoamentos, zelando pelos seus cumprimentos, estando esses acessíveis a todos os funcionários envolvidos nas atividades e aos órgãos de fiscalização.",
+        "delegar ou permitir que outros profissionais pratiquem atos ou atribuições privativas da profissão farmacêutica.",
+        "participar da elaboração e zelar pelo cumprimento do Plano de Gerenciamento de Resíduos de Serviços da Saúde (PGRSS) do local sob sua responsabilidade.",
+        "interagir com os demais profissionais, para garantir a segurança e a eficácia terapêutica, observado o uso racional de medicamentos.",
+        "coordenar, supervisionar, assessorar ou exercer a fiscalização sanitária ou profissional quando for sócio ou acionista de qualquer categoria, ou interessado por qualquer forma, bem como prestar serviços à empresa ou estabelecimento que fornece drogas, medicamentos, insumos farmacêuticos e correlatos, assim como a laboratórios, distribuidoras ou indústrias, com ou sem vínculo empregatício."
+      ],
+      "answer": "D",
+      "annulled": false,
+      "page": 10,
+      "explanation": null
+    },
+    {
+      "number": 39,
+      "subject": "Conhecimentos Específicos — Farmácia",
+      "text": "Defeitos abertos do tubo neural, como espinha bífida e anencefalia, podem acarretar aumento da concentração de certas substâncias no líquido amniótico. A alfafetoproteína é a principal proteína produzida pelo fígado do feto no início da gestação com pico entre a 16ª e a 18ª semanas. Suas concentrações vão declinando até o final da gestação se o desenvolvimento fetal for normal. A alfafetoproteína é secretada na urina fetal podendo ser dosada no líquido amniótico e no soro materno. No caso de defeitos no tubo neural, a pele do feto não fecha sobre o tecido neural e quantidades elevadas dessa proteína são encontradas tanto no líquido amniótico quanto no soro materno. Quando concentrações de alfafetoproteína estão aumentadas, é recomendada também a dosagem da seguinte substância, que igualmente tem suas concentrações elevadas no líquido amniótico em defeitos do tubo neural:",
+      "support": null,
+      "options": [
+        "fosfatidilglicerol.",
+        "apolipoproteína.",
+        "acetilcolinesterase.",
+        "esfingomielina.",
+        "fosfatidilinositol."
+      ],
+      "answer": "C",
+      "annulled": false,
+      "page": 10,
+      "explanation": null
+    },
+    {
+      "number": 40,
+      "subject": "Conhecimentos Específicos — Farmácia",
+      "text": "A dosagem de HbA1C (hemoglobina glicada) é um exame que mede o controle glicêmico ao longo dos últimos 2 a 3 meses, fornecendo uma média dos níveis de glicose no sangue durante esse período. Ela é utilizada principalmente para o diagnóstico e monitoramento do diabetes. Dos fatores a seguir, assinale o que promove resultados falsamente aumentados de HbA1C.",
+      "support": null,
+      "options": [
+        "Hipertiroidismo.",
+        "Presença de concentrações elevadas de vitamina C e vitamina E.",
+        "Hemoglobinopatias (HbS, HbC).",
+        "Presença de hemoglobina carbamilada em pacientes com insuficiência renal.",
+        "Mieloma múltiplo."
+      ],
+      "answer": "D",
+      "annulled": false,
+      "page": 10,
+      "explanation": null
+    },
+    {
+      "number": 41,
+      "subject": "Conhecimentos Específicos — Farmácia",
+      "text": "A investigação de uma desordem endócrina é usualmente procedida pela dosagem plasmática das concentrações hormonais. Testes de reserva endócrina e retrocontrole endócrino (testes dinâmicos) são utilizados para diferenciar as causas das doenças endócrinas (primárias, secundárias e terciárias) ou para detectar anormalidades que podem não ser obtidas pelos resultados das dosagens basais. O objetivo dos testes dinâmicos é suprimir (teste de supressão) a concentração hormonal ou estimular (teste de estimulação) sua secreção, dependendo da condição e avaliação clínica. Nos testes de supressão, as seguintes substâncias são empregadas frequentemente como agentes supressores:",
+      "support": null,
+      "options": [
+        "dexametasona, dexametasona salina, T4 e clondina.",
+        "metirapona, dexametasona, levodopa e T4.",
+        "cortrosina, dexametasona salina, HCG e clondina.",
+        "citrato de clomifeno, dexametasona, TSH e dexametasona salina.",
+        "HCG, dexametasona salina, GHRH e T4."
+      ],
+      "answer": "A/B/C/D/E",
+      "annulled": true,
+      "page": 10,
+      "explanation": "Questão anulada no gabarito definitivo da banca."
+    },
+    {
+      "number": 42,
+      "subject": "Conhecimentos Específicos — Farmácia",
+      "text": "A desinfecção e a esterilização química são processos essenciais na eliminação de microrganismos em objetos e superfícies inanimadas. Para garantir a eficácia desses procedimentos, é fundamental selecionar corretamente os agentes químicos conforme suas características e seu espectro de ação. Sobre os principais desinfetantes e esterilizantes químicos utilizados em laboratórios e ambientes de assistência à saúde, as afirmativas a seguir estão corretas, à exceção de uma. Assinale-a.",
+      "support": null,
+      "options": [
+        "O glutaraldeído é amplamente utilizado para desinfecção de alto nível de artigos semicríticos, possuindo atividade esporocida quando em tempo de exposição adequado.",
+        "O ácido peracético apresenta ampla atividade antimicrobiana, sendo eficaz contra esporos bacterianos, micobactérias e fungos, além de possuir baixa toxicidade ambiental.",
+        "Os compostos fenólicos são recomendados para a desinfecção de artigos semicríticos e superfícies em áreas críticas, incluindo UTI e centro cirúrgico, podendo ser utilizados para a desinfecção de materiais de látex e acrílico sem restrições.",
+        "Os iodóforos são efetivos na eliminação de microrganismos em tecidos vivos e superfícies inanimadas, sendo frequentemente utilizados para a desinfecção de equipamentos médicos e como antissépticos na prática clínica.",
+        "Os álcoois etílico e isopropílico têm atividade contra bactérias vegetativas, alguns vírus e fungos, sendo ineficazes contra esporos bacterianos e vírus hidrofílicos."
+      ],
+      "answer": "C",
+      "annulled": false,
+      "page": 10,
+      "explanation": null
+    },
+    {
+      "number": 43,
+      "subject": "Conhecimentos Específicos — Farmácia",
+      "text": "Na análise do líquido seminal, a avaliação da região acrossômica refere-se ao estudo da estrutura e funcionalidade do acrossomo, uma organela localizada na cabeça do espermatozoide. Essa análise é importante em contextos de reprodução, fertilização e estudos de infertilidade masculina, pois o acrossomo desempenha papel crucial na penetração do espermatozoide na camada externa do óvulo ou zona pelúcida. O teste é realizado com corantes supravitais de azul de tripano (trypan blue), rosa bengala e marrom Bismarck. Os resultados desse teste são avaliados em quatro categorias, a saber: vivos não reativos, vivos reativos, mortos reativos e mortos não reativos. Acerca desse tema, avalie se as descrições a seguir estão corretas. I. Vivos não reativos: região acrossômica fortemente rosa e região pós-acrossômica variando de azul-escuro a negro. II. Vivos reativos: região acrossômica não corada e região pós- acrossômica marrom. III. Mortos não reativos: região acrossômica não corada e pós- acrossômica fortemente corada de marrom. IV. Mortos reativos: região acrossômica levemente rosa e região pós-acrossômica variando de azul-escuro a negro. Está correto o que se descreve em",
+      "support": null,
+      "options": [
+        "I, apenas.",
+        "II, apenas.",
+        "III, apenas.",
+        "I e III.",
+        "II e IV."
+      ],
+      "answer": "A/B/C/D/E",
+      "annulled": true,
+      "page": 11,
+      "explanation": "Questão anulada no gabarito definitivo da banca."
+    },
+    {
+      "number": 44,
+      "subject": "Conhecimentos Específicos — Farmácia",
+      "text": "As hemoglobinopatias são distúrbios genéticos caracterizados por alterações estruturais ou quantitativas na molécula de hemoglobina. Essas alterações podem impactar a função do transporte de oxigênio e levar a manifestações clínicas diversas. Com base nos mecanismos fisiopatológicos e diagnósticos laboratoriais das hemoglobinopatias, assinale a afirmativa correta.",
+      "support": null,
+      "options": [
+        "A hemoglobina S (Hb S) resulta da substituição do ácido glutâmico pela lisina na posição 6 da cadeia beta da globina, causando a falcização dos eritrócitos.",
+        "As hemoglobinas variantes, como Hb C e Hb E, são sempre clinicamente assintomáticas, independentemente do estado homozigoto ou heterozigoto.",
+        "O teste de falcização é positivo em portadores heterozigotos da hemoglobina S (traço falciforme) e homozigotos para Hb C.",
+        "O diagnóstico de hemoglobinopatias é feito exclusivamente por eletroforese de hemoglobina, sem necessidade de testes moleculares complementares.",
+        "A Hb Fetal (Hb F) pode estar aumentada em condições como talassemias e doença falciforme, funcionando como um fator de proteção contra a falcização das hemácias."
+      ],
+      "answer": "E",
+      "annulled": false,
+      "page": 11,
+      "explanation": null
+    },
+    {
+      "number": 45,
+      "subject": "Conhecimentos Específicos — Farmácia",
+      "text": "De acordo com Art. 36 da Resolução CFF nº 724 de 29 de abril de 2022, que dispõe sobre o Código de Ética, o Código de Processo Ético estabelece as infrações e as regras de aplicação das sanções ético-disciplinares, a ordem preferencial correta das intimações e notificações listadas é:",
+      "support": null,
+      "options": [
+        "I - por meio eletrônico, cadastrado pelo farmacêutico no CRF; II - pelos Correios, com AR; III - pelo funcionário do CRF, pessoalmente ao indiciado; IV - por edital, que poderá ser por veículo de imprensa oficial ou portal eletrônico do Conselho.",
+        "I - pelos Correios, com AR; II - por meio eletrônico, cadastrado pelo farmacêutico no CRF; III - pelo funcionário do CRF, pessoalmente ao indiciado; IV - por edital, que poderá ser por veículo de imprensa oficial ou portal eletrônico do Conselho.",
+        "I - por edital, que poderá ser por veículo de imprensa oficial ou portal eletrônico do Conselho; II - pelos Correios, com AR; III - pelo funcionário do CRF, pessoalmente ao indiciado; IV - por meio eletrônico, cadastrado pelo farmacêutico no CRF.",
+        "I - pelo funcionário do CRF, pessoalmente ao indiciado; II - pelos Correios, com AR; III - por meio eletrônico, cadastrado pelo farmacêutico no CRF; IV - por edital, que poderá ser por veículo de imprensa oficial ou portal eletrônico do Conselho.",
+        "I - por meio eletrônico, cadastrado pelo farmacêutico no CRF; II - pelos Correios, com AR; III – por edital, que poderá ser por veículo de imprensa oficial ou portal eletrônico do Conselho; IV - pelo funcionário do CRF, pessoalmente ao indiciado."
+      ],
+      "answer": "A",
+      "annulled": false,
+      "page": 11,
+      "explanation": null
+    },
+    {
+      "number": 46,
+      "subject": "Conhecimentos Específicos — Farmácia",
+      "text": "Duas categorias gerais de testes laboratoriais da hemostasia são indicadas para avaliar se um paciente tem um defeito hemorrágico sistêmico: os testes de triagem e os testes especializados. Um teste de triagem que avalia certos mecanismos específicos e comuns da coagulação pode ser procedido empregando-se uma lipoproteína extraída do cérebro do coelho, a tromboplastina tecidual (Fator III), que é adicionada ao plasma, e o tempo de coagulação é medido após a incorporação do cálcio. Normalmente, esse tempo é de 10 a 14 segundos. Efetivamente, esse tempo de coagulação mais rápido é o resultado da formação de um complexo da tromboplastina tecidual com o Fator VII, determinando uma ativação direta do Fator X que continua o processo até a formação do coágulo. Com base nesse relato, o teste em questão é",
+      "support": null,
+      "options": [
+        "a prova do laço.",
+        "o tempo de protrombina.",
+        "o tempo de sangramento.",
+        "o tempo de tromboplastina.",
+        "o tempo de coagulação."
+      ],
+      "answer": "B",
+      "annulled": false,
+      "page": 11,
+      "explanation": null
+    },
+    {
+      "number": 47,
+      "subject": "Conhecimentos Específicos — Farmácia",
+      "text": "O exame químico da urina pode ser realizado por intermédio de tiras reagentes. Esse teste baseia-se em metodologia de química seca cujos resultados podem ser determinados visualmente ou por instrumentos semiautomatizados ou automatizados. Com relação à análise da urina, assinale a afirmativa correta.",
+      "support": null,
+      "options": [
+        "Apenas a bilirrubina indireta é encontrada em amostras de urina. Sua presença está relacionada às icterícias obstrutivas e às hepatocelulares. A detecção de bilirrubina na tira reagente baseia-se em uma reação de acoplamento em meio básico com sal diazônio estabilizado e formação de cromógeno rosa a vermelho.",
+        "A esterase leucocitária encontrada nos granulócitos intactos ou lisados pode ser detectada na urina em função de infecção hepática ou processos inflamatórios das vias biliares. Na presença de leucócitos não granulócitos, essa reação também é positiva.",
+        "A glicose aparece na urina em decorrência da grande quantidade desse açúcar que entra na luz dos túbulos, excedendo sua capacidade de reabsorção. Essa situação ocorre na vigência de hiperglicosúria, quando a glicosúria supera os níveis de 160 a 180mg/dL.",
+        "A tira reagente é mais sensível à presença de albumina, não detectando a proteína de Tamm-Horsfall que é a principal proteína da matriz dos cilindros.",
+        "O urobilinogênio em concentração aumentada na urina está relacionado ao excesso de produção de bilirrubina conjugada nos rins. Essa substância é detectada na tira reagente por meio de uma reação de acoplamento do urobilinogênio e o nitrato presente na urina com formação de pigmento de cor azul."
+      ],
+      "answer": "D",
+      "annulled": false,
+      "page": 12,
+      "explanation": null
+    },
+    {
+      "number": 48,
+      "subject": "Conhecimentos Específicos — Farmácia",
+      "text": "Imunoensaios são métodos baseados em reações antígeno- anticorpo para detectar ou quantificar moléculas específicas, como hormônios, proteínas ou marcadores tumorais. Interferentes, no entanto, podem alterar a interação antígeno- anticorpo ou a leitura dos resultados. Diversos tipos de interferências podem ser observadas, produzindo diferentes efeitos sobre os ensaios imunológicos. Um estado de excesso de antígeno em que concentrações muito altas do analito saturam todos os sítios de ligação dos anticorpos reagentes sem formação de complexos, levando a resultados falsamente baixos, refere-se ao seguinte efeito:",
+      "support": null,
+      "options": [
+        "reatividade cruzada.",
+        "efeito matriz.",
+        "interferência de sinal.",
+        "efeito gancho.",
+        "interferência de anticorpos."
+      ],
+      "answer": "D",
+      "annulled": false,
+      "page": 12,
+      "explanation": null
+    },
+    {
+      "number": 49,
+      "subject": "Conhecimentos Específicos — Farmácia",
+      "text": "A incompatibilidade química entre as principais substâncias utilizadas pelos geradores de Resíduos de Serviços de Saúde é informada no Anexo IV da RDC Anvisa nº 222 de 28 de março de 2018, que regulamenta as boas práticas de gerenciamento dos Resíduos de Serviços de Saúde (RSS) e dá outras providências. Devido a determinadas propriedades químicas, algumas substâncias podem reagir violentamente entre si, resultando em explosão ou produzindo gases altamente tóxicos ou inflamáveis. Para o ácido oxálico, segundo essa RDC, as substâncias incompatíveis incluem:",
+      "support": null,
+      "options": [
+        "sais de amônio, ácidos, metais em pó, matérias orgânicas particuladas e substâncias combustíveis.",
+        "ácido nítrico, nitrato de amônio, óxido de cromo VI, peróxidos, flúor, cloro, bromo e hidrogênio.",
+        "benzeno, hidróxido de amônio, benzina de petróleo, hidrogênio, acetileno, etano, propano, butadienos e pós- metálicos.",
+        "prata e mercúrio.",
+        "ácido acético, naftaleno, cânfora, glicerol, turpentine e álcool, e outros líquidos inflamáveis."
+      ],
+      "answer": "D",
+      "annulled": false,
+      "page": 12,
+      "explanation": null
+    },
+    {
+      "number": 50,
+      "subject": "Conhecimentos Específicos — Farmácia",
+      "text": "Durante a inspeção visual de hemocomponentes, são observadas alterações que podem comprometer sua qualidade e segurança. Com base na literatura especializada oficial (Guia de Inspeção Visual de Hemocomponentes, 2022), assinale a opção que está em desacordo com os critérios de aceitabilidade para a presença de material particulado nos componentes plasmáticos.",
+      "support": null,
+      "options": [
+        "Componentes sanguíneos contendo coágulos e fibrinas não devem ser transfundidos.",
+        "Componentes sanguíneos contendo agregados celulares não devem ser transfundidos.",
+        "Componentes sanguíneos contendo partículas brancas que podem se dissipar com alterações de temperatura podem ser transfundidos.",
+        "Componentes sanguíneos contendo massas que aglutinam no frio não devem ser transfundidos.",
+        "Componentes sanguíneos contendo agregados celulares discretos podem ser transfundidos."
+      ],
+      "answer": "E",
+      "annulled": false,
+      "page": 12,
+      "explanation": null
+    },
+    {
+      "number": 51,
+      "subject": "Conhecimentos Específicos — Farmácia",
+      "text": "A resistência aos antibióticos é um grave problema de saúde global que resulta do uso indiscriminado e inadequado dessas substâncias. As bactérias frequentemente desenvolvem mecanismos de resistência que reduzem a eficácia da terapia antimicrobiana, tornando as infecções mais difíceis de controlar. Isso leva ao aumento da morbidade, mortalidade e custos com a saúde. Dos diversos mecanismos de resistência bacteriana, é correto afirmar que a resistência à vancomicina ocorre principalmente em",
+      "support": null,
+      "options": [
+        "Enterobacter resistentes à vancomicina (ERV) e envolve a modificação do alvo da vancomicina, a glucana da parede celular. Essa resistência é mediada por genes como vanA ou vanB, que promovem a substituição do terminal D-alanina-D- alanina (alvo da vancomicina) por D-alanina-D-lactato ou D- alanina-D-serina, reduzindo a afinidade da vancomicina pela glucana. Isso impede a inibição da síntese da parede celular bacteriana, permitindo que a bactéria sobreviva e se prolifere mesmo na presença do antibiótico.",
+        "Enterococcus resistentes à vancomicina (ERV) e envolve a modificação do alvo da vancomicina, a glucana da parede celular. Essa resistência é mediada por genes como vanA ou vanB, que promovem a substituição do terminal D-alanina-D- alanina (alvo da vancomicina) por D-alanina-D-lactato ou D- alanina-D-serina, reduzindo a afinidade da vancomicina pela glucana. Isso impede a inibição da síntese da parede celular bacteriana, permitindo que a bactéria sobreviva e se prolifere mesmo na presença do antibiótico.",
+        "Enterobacter resistentes à vancomicina (ERV) e envolve a modificação do alvo da vancomicina, o peptidoglicano da parede celular. Essa resistência é mediada por genes como vanA ou vanB, que promovem a substituição do terminal D- alanina-D-alanina (alvo da vancomicina) por D-alanina-D- lactato ou D-alanina-D-serina, reduzindo a afinidade da vancomicina pelo peptidoglicano. Isso impede a inibição da síntese da parede celular bacteriana, permitindo que a bactéria sobreviva e se prolifere mesmo na presença do antibiótico.",
+        "Enterococcus resistentes à vancomicina (ERV) e envolve a modificação do alvo da vancomicina, o peptidoglicano da parede celular. Essa resistência é mediada por genes como vanA ou vanB, que promovem a substituição do terminal D- alanina-D-alanina (alvo da vancomicina) por D-alanina-D- lactato ou D-alanina-D-serina, reduzindo a afinidade da vancomicina pelo peptidoglicano. Isso impede a inibição da síntese da parede celular bacteriana, permitindo que a bactéria sobreviva e se prolifere mesmo na presença do antibiótico.",
+        "Enterococcus resistentes à vancomicina (ERV) e envolve a modificação do alvo da vancomicina, os lipopolissacarídeos da parede celular. Essa resistência é mediada por genes como vanA ou vanB, que promovem a substituição do terminal D- alanina-D-alanina (alvo da vancomicina) por D-alanina-D- lactato ou D-alanina-D-serina, reduzindo a afinidade da vancomicina pelos lipopolissacarídeos. Isso impede a inibição da síntese da parede celular bacteriana, permitindo que a bactéria sobreviva e se prolifere mesmo na presença do antibiótico."
+      ],
+      "answer": "D",
+      "annulled": false,
+      "page": 13,
+      "explanation": null
+    },
+    {
+      "number": 52,
+      "subject": "Conhecimentos Específicos — Farmácia",
+      "text": "A histamina é encontrada tanto em plantas como em tecidos animais e é um componente de alguns venenos e secreções. A histamina exerce sua ação biológica por meio de sua associação a receptores específicos localizados na membrana celular. Assinale a opção que apresenta a distribuição correta de um desses receptores.",
+      "support": null,
+      "options": [
+        "H1: eosinófilos, neutrófilos, mastócitos e células CD4.",
+        "H2: mucosa gástrica, músculo cardíaco, mastócitos e cérebro.",
+        "H3: músculo liso, endotélio e cérebro.",
+        "H4: autorreceptores e heterorreceptores pré-sinápticos, cérebro, plexo mioentérico, neurônios histaminérgicos e outros neurônios.",
+        "H5: músculo liso, músculo cardíaco e cérebro."
+      ],
+      "answer": "A/B/C/D/E",
+      "annulled": true,
+      "page": 13,
+      "explanation": "Questão anulada no gabarito definitivo da banca."
+    },
+    {
+      "number": 53,
+      "subject": "Conhecimentos Específicos — Farmácia",
+      "text": "No desenvolvimento de uma forma farmacêutica injetável para a administração parenteral de um fármaco de baixa solubilidade em água, algumas estratégias podem ser empregadas para garantir sua eficácia, estabilidade e segurança. A abordagem mais apropriada, entre as citadas, considerando as características de fármacos com baixa solubilidade e a necessidade de atender às boas práticas de fabricação, é",
+      "support": null,
+      "options": [
+        "a preparação de uma solução aquosa utilizando um pH extremamente alcalino, suficiente para solubilizar o fármaco, com adição de conservantes antimicrobianos para evitar contaminação.",
+        "o desenvolvimento de uma suspensão injetável com partículas micronizadas do fármaco dispersas em um veículo aquoso isotônico, sem o uso de agentes suspensores, para evitar interferências na biocompatibilidade.",
+        "a formulação de uma emulsão óleo em água (O/A) estabilizada por emulsificantes não iônicos e isotônica ao plasma, adequada para a veiculação de substâncias lipofílicas.",
+        "a incorporação do fármaco em um lipossoma fosfolipídico, projetado para encapsular o composto lipofílico em seu núcleo hidrofóbico, promovendo liberação controlada.",
+        "a produção de uma solução injetável contendo o fármaco solubilizado em solventes coadjuvantes não aquosos, como glicóis ou óleos vegetais, respeitando limites de toxicidade para administração parenteral."
+      ],
+      "answer": "E",
+      "annulled": false,
+      "page": 13,
+      "explanation": null
+    },
+    {
+      "number": 54,
+      "subject": "Conhecimentos Específicos — Farmácia",
+      "text": "Conforme o texto da RDC Anvisa nº 44, de 17 de agosto de 2009, que dispõe sobre as Boas Práticas Farmacêuticas para o controle sanitário do funcionamento, da dispensação e da comercialização de produtos e da prestação de serviços farmacêuticos em farmácias e drogarias e dá outras providências, assinale a afirmativa que está em desacordo com a redação da referida resolução.",
+      "support": null,
+      "options": [
+        "O ambiente destinado aos serviços farmacêuticos deve ser diverso daquele destinado à dispensação e à circulação de pessoas em geral, devendo o estabelecimento dispor de espaço específico para esse fim.",
+        "Os medicamentos adquiridos no estabelecimento, a serem utilizados na prestação de serviços de que trata esta seção, cujas embalagens permitam múltiplas doses, devem ser entregues ao usuário após a administração, no caso de sobra.",
+        "Os técnicos auxiliares não devem realizar atividades que não são privativas de farmacêutico, mesmo que respeitem os Procedimentos Operacionais Padrão (POPs) do estabelecimento e os limites de atribuições e competências estabelecidos pela legislação vigente, sob supervisão do farmacêutico responsável técnico ou do farmacêutico substituto.",
+        "Os materiais de limpeza e germicidas em estoque devem estar regularizados pela Anvisa e serem armazenados em área ou local especificamente designado e identificado.",
+        "No momento da dispensação dos medicamentos deve ser feita a inspeção visual para verificar, no mínimo, a identificação do medicamento, o prazo de validade e a integridade da embalagem."
+      ],
+      "answer": "C",
+      "annulled": false,
+      "page": 14,
+      "explanation": null
+    },
+    {
+      "number": 55,
+      "subject": "Conhecimentos Específicos — Farmácia",
+      "text": "Com base no modo como a estrutura física de uma farmácia hospitalar deve ser organizada para otimizar os fluxos de trabalho, incluindo o recebimento, o armazenamento de medicamentos, a dispensação e o acompanhamento do paciente, avalie as afirmativas a seguir e identifique a única incorreta.",
+      "support": null,
+      "options": [
+        "A farmácia hospitalar deve contar com áreas distintas para o armazenamento, a manipulação, a dispensação e as atividades administrativas, de acordo com as boas práticas de farmácia.",
+        "A sala destinada à manipulação de medicamentos antineoplásicos deve possuir pressão negativa em relação às áreas adjacentes e uma cabine de segurança biológica classe II B2, conforme regulamentações da Anvisa.",
+        "A área de armazenamento de medicamentos termolábeis deve ser equipada com dispositivos que permitam monitoramento contínuo de temperatura e umidade, garantindo a integridade dos produtos.",
+        "O planejamento estrutural da farmácia hospitalar deve incluir fluxos físicos e operacionais bem definidos para minimizar riscos de contaminação cruzada e garantir a segurança dos medicamentos.",
+        "A estrutura física da farmácia hospitalar deve ser planejada para atender às demandas específicas da instituição, sendo facultativa a inclusão de áreas exclusivas para manipulação de medicamentos em hospitais de pequeno porte, desde que os medicamentos sejam adquiridos prontos para uso."
+      ],
+      "answer": "E",
+      "annulled": false,
+      "page": 14,
+      "explanation": null
+    },
+    {
+      "number": 56,
+      "subject": "Conhecimentos Específicos — Farmácia",
+      "text": "No contexto laboratorial, a classificação ABO é fundamental para a segurança transfusional. Contudo, discrepâncias podem ocorrer entre a prova direta (globular) e a prova reversa (sérica), comprometendo a correta determinação do grupo sanguíneo. Com base nas causas de discrepâncias na classificação ABO, assinale a afirmativa correta.",
+      "support": null,
+      "options": [
+        "Subgrupos de A ou AB sempre causam discrepâncias na prova direta, devido à presença de anticorpos naturais anti-A1.",
+        "Em recém-nascidos, a ausência de anticorpos naturais anti-A ou anti-B impossibilita a realização da prova reversa, devendo- se basear apenas na prova direta para a classificação ABO.",
+        "O fenômeno de Rouleaux, caracterizado pelo empilhamento de hemácias, pode gerar resultados falso-positivos em ambas as provas, sendo corrigido por lavagem das hemácias.",
+        "A gelatina de Wharton presente em amostras de sangue do cordão umbilical pode causar aglutinação inespecífica, levando a resultados falso-negativos na prova direta.",
+        "Pacientes imunodeprimidos apresentam frequentemente poliaglutinação das hemácias, o que impede a realização de ambas as provas para classificação ABO."
+      ],
+      "answer": "B",
+      "annulled": false,
+      "page": 14,
+      "explanation": null
+    },
+    {
+      "number": 57,
+      "subject": "Conhecimentos Específicos — Farmácia",
+      "text": "Em consonância com o que determina a RDC Anvisa nº 34 de 7 de agosto de 2015, que dispõe sobre as boas práticas de fabricação de excipientes farmacêuticos, em relação aos requisitos para a embalagem, rotulagem e expedição desses produtos, é correto afirmar que",
+      "support": null,
+      "options": [
+        "nas áreas de armazenagem e expedição, os excipientes farmacêuticos podem ser mantidos sob condições de armazenagem não especificadas no rótulo.",
+        "as empresas fabricantes dos excipientes farmacêuticos podem utilizar transportadoras que não possuam autorização e licença previstas na legislação vigente desde que seja feita a qualificação do fornecedor.",
+        "deve haver procedimento operacional padrão que contemple trocas, envase e rotulagem.",
+        "a unidade da qualidade deve ser responsável pelo descarte do excipiente farmacêutico impróprio para o uso a que se destina.",
+        "diferentes excipientes farmacêuticos não devem ser embalados na mesma área, simultaneamente, a menos que haja segregação física ou outra forma que garanta a segurança contra mistura."
+      ],
+      "answer": "E",
+      "annulled": false,
+      "page": 14,
+      "explanation": null
+    },
+    {
+      "number": 58,
+      "subject": "Conhecimentos Específicos — Farmácia",
+      "text": "Os adjuvantes farmacêuticos são substâncias inertes que desempenham funções específicas na formulação de medicamentos, como melhorar a estabilidade, facilitar a administração ou modificar a liberação do princípio ativo. Considerando os diferentes tipos de adjuvantes e suas funções, assinale a afirmativa correta.",
+      "support": null,
+      "options": [
+        "O estearato de magnésio é utilizado como agente suspensor, promovendo a homogeneização de partículas em soluções aquosas.",
+        "A bentonita é um agente de polimento para comprimidos, conferindo brilho e resistência ao revestimento.",
+        "O dióxido de titânio é um opacificante usado para conferir aspecto opaco a cápsulas e comprimidos.",
+        "O cloreto de sódio é utilizado como agente flavorizante, conferindo sabor salgado a preparações sólidas e líquidas.",
+        "O amido pré-gelatinizado é utilizado como conservante antimicrobiano, prevenindo o crescimento de microrganismos em formulações tópicas."
+      ],
+      "answer": "C",
+      "annulled": false,
+      "page": 14,
+      "explanation": null
+    },
+    {
+      "number": 59,
+      "subject": "Conhecimentos Específicos — Farmácia",
+      "text": "No contexto da vigilância do receptor de transfusão, assinale a conduta correta diante de uma reação transfusional com suspeita de reação hemolítica imunológica tardia, conforme as diretrizes da Anvisa (Manual para o Sistema Nacional de Hemovigilância no Brasil, 2022).",
+      "support": null,
+      "options": [
+        "A suspeita deve ser comunicada à vigilância sanitária local apenas se houver comprovação laboratorial de hemólise em um período superior a 24 horas após a transfusão.",
+        "A investigação deve incluir testes de compatibilidade cruzada retrospectiva utilizando apenas as bolsas transfundidas nas últimas 72 horas.",
+        "A coleta de novas amostras de sangue do receptor é obrigatória e deve incluir testes para anticorpos irregulares, pesquisa de antígenos eritrocitários e hemoglobina livre.",
+        "A notificação da suspeita ao sistema de hemovigilância é dispensada caso o paciente tenha histórico de anticorpos eritrocitários detectados antes da transfusão.",
+        "O acompanhamento clínico do paciente pode ser encerrado se os sinais clínicos iniciais de hemólise desaparecerem espontaneamente em até 48 horas após o evento transfusional."
+      ],
+      "answer": "C",
+      "annulled": false,
+      "page": 15,
+      "explanation": null
+    },
+    {
+      "number": 60,
+      "subject": "Conhecimentos Específicos — Farmácia",
+      "text": "A RDC Anvisa nº 222 de 28 de março de 2018 detalha os requisitos técnicos para o manejo, o acondicionamento e a destinação de Resíduos de Serviços de Saúde (RSS). Sobre os procedimentos para resíduos do grupo A com múltiplos riscos associados, assinale a afirmativa correta.",
+      "support": null,
+      "options": [
+        "Resíduos do grupo A contaminados com agentes biológicos de classe de risco 4 devem ser tratados exclusivamente na unidade geradora, utilizando tecnologias compatíveis com o Nível III de inativação microbiana.",
+        "Para resíduos do grupo A contaminados com agentes biológicos de classe de risco 3 e 4, o tratamento pode ser realizado fora da unidade geradora, desde que respeitadas as normas estaduais de transporte de resíduos perigosos.",
+        "Quando resíduos do grupo A apresentam risco biológico associado a risco químico, a escolha do método de tratamento deve priorizar a eliminação do risco químico, podendo o tratamento biológico ser dispensado se não houver risco de disseminação.",
+        "Os resíduos do grupo A com riscos biológicos e químicos devem ser submetidos prioritariamente à incineração, independentemente de outras opções tecnológicas disponíveis no serviço gerador.",
+        "Quando resíduos do grupo A apresentam risco biológico e radiológico, o tratamento inicial deve ser direcionado ao risco biológico, independentemente do nível de radiação apresentado pelo resíduo. Realiz zação"
+      ],
+      "answer": "A",
+      "annulled": false,
+      "page": 15,
+      "explanation": null
+    }
+  ]
+}

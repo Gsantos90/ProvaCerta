@@ -13,10 +13,11 @@ import StudyLessonContent from './StudyLessonContent'
 import MathStudyLesson from './MathStudyLesson'
 import ChemistryStudyLesson from './ChemistryStudyLesson'
 import ScienceStudyLesson from './ScienceStudyLesson'
+import StudyWalkthrough from './StudyWalkthrough'
 import { usePageState } from './lib/pageState'
 import { practiceTopics, localSummaryRound } from './lib/summaryPractice'
 
-const tabs = [['questions', 'Questões por assunto', ListChecks], ['summaries', 'Resumos', BookOpen], ['review', 'Minha revisão', RotateCcw], ['planner', 'Planejamento', BookmarkCheck]]
+const tabs = [['questions', 'Questões por assunto', ListChecks], ['summaries', 'Resumos', BookOpen], ['walkthrough', 'Destrinchando o conteúdo', Calculator], ['review', 'Minha revisão', RotateCcw], ['planner', 'Planejamento', BookmarkCheck]]
 const topicIcons = { percent: Percent, calculator: Calculator, 'text-search': TextSearch }
 const practiceSubjects = [...new Set(practiceTopics.map(topic => topic.subject))]
 
@@ -77,6 +78,7 @@ export default function StudyHub({ onBack, onStart, tab = 'questions', onTabChan
     <div className="study-hub-intro"><p className="eyebrow">Aprenda · pratique · revise</p><h1>Um assunto de cada vez.</h1><p>Entenda o conteúdo, resolva questões e volte ao que precisa melhorar.</p></div>
     <div className="study-hub-tabs" role="tablist" aria-label="Opções de estudo">{tabs.map(([value, label, Icon], index) => <button key={value} id={`${id}-tab-${value}`} role="tab" aria-selected={tab === value} aria-controls={`${id}-${value}`} tabIndex={tab === value ? 0 : -1} onKeyDown={event => handleTabKey(event, index)} onClick={() => changeTab(value)}><Icon size={18} />{label}</button>)}</div>
     {tab === 'planner' && <section id={`${id}-planner`} role="tabpanel" aria-labelledby={`${id}-tab-planner`}><StudyPlanner key={user?.id || 'guest'} owner={user?.id || 'guest'} /></section>}
+    {tab === 'walkthrough' && <section id={`${id}-walkthrough`} role="tabpanel" aria-labelledby={`${id}-tab-walkthrough`}><StudyWalkthrough /></section>}
     {practice.error && <p className="study-hub-error" role="alert">{practice.error}</p>}
     <section id={`${id}-questions`} role="tabpanel" aria-labelledby={`${id}-tab-questions`} hidden={tab !== 'questions'}>
       <div className="study-hub-section"><div><h2>O que você quer praticar?</h2><p>{practiceTopics.length} assuntos · {practiceTopics.reduce((total, item) => total + item.authoredCount, 0)} questões autorais com gabarito comentado.</p></div><span>Acesso livre, sem login</span></div>

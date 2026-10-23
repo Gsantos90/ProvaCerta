@@ -1,4 +1,7 @@
+import { percentageLesson } from './percentageLesson.js'
+
 export const mathLessons = {
+  porcentagem: percentageLesson,
   'regra-de-tres': {
     goal: 'Reconhecer proporcionalidade, organizar grandezas e resolver problemas de receitas, produtividade, escalas e consumo.',
     sections: [

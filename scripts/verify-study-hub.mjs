@@ -27,7 +27,7 @@ assert.equal(urnChances(1,0,false), null)
 assert.equal(urnChances(0,2,false).redRed, 1)
 assert.equal(evaluateFunction(8,2,6,0,false), 22)
 assert.equal(evaluateFunction(3,1,-6,5,true), -4)
-assert.equal(studySummaries.find(summary => summary.id === 'porcentagem').mathLesson, undefined)
+assert.equal(studySummaries.find(summary => summary.id === 'porcentagem').mathLesson, mathLessons.porcentagem)
 
 for (const [summaryId, podcast] of Object.entries(studyPodcasts)) {
   const audioAsset = readFileSync(`public/${podcast.src}`)
@@ -113,9 +113,9 @@ function render(props, review, topicId) {
 }
 assert.ok(render({ tab: 'questions' }).includes('Acesso livre, sem login'))
 const summariesMarkup = render({ tab: 'summaries' })
-assert.ok(summariesMarkup.includes('Exemplos resolvidos'))
-assert.ok(summariesMarkup.includes('Conferir respostas'))
-assert.ok(summariesMarkup.includes('Praticar questões de provas reais'))
+assert.ok(summariesMarkup.includes('Exemplos práticos resolvidos'))
+assert.ok(summariesMarkup.includes('Confira o que você aprendeu'))
+assert.ok(summariesMarkup.includes('Praticar este assunto'))
 assert.ok(!summariesMarkup.includes('Roteiro de podcast'))
 assert.ok(!summariesMarkup.includes('Pacote piloto'))
 for (const module of pilot.modules.filter(module => module.subject === 'História')) {
@@ -162,11 +162,11 @@ const medievalLesson = studySummaries.find(summary => summary.id === 'idade-medi
 assert.equal(medievalLesson.content.filter(p => /^\d\. /.test(p)).length, 5)
 assert.ok(medievalLesson.content.every(p => !p.includes('*')))
 for (const [topicId, lesson] of Object.entries(mathLessons)) {
-  assert.equal(lesson.sections.length, 5)
+  assert.ok(lesson.sections.length >= 5)
   assert.ok(lesson.sections.every(section => section.paragraphs.length >= 2 && section.formula))
-  assert.equal(lesson.examples.length, 2)
+  assert.ok(lesson.examples.length >= 2)
   assert.ok(lesson.examples.every(example => example.steps.length >= 3 && example.answer))
-  assert.equal(lesson.challenges.length, 3)
+  assert.ok(lesson.challenges.length >= 3)
   assert.ok(lesson.challenges.every(question => question.options[question.answer] && question.explanation))
   const markup = render({ tab: 'summaries' }, null, topicId)
   assert.ok(markup.includes('Explore na prática'))
