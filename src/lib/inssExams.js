@@ -22,4 +22,3 @@ export function inssExamFor(year, role) {
 export function inssExamFromSlug(slug) {
   return Object.values(inssExamsByYear).flat().find(exam => exam.slug === slug)
 }
-
