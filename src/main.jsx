@@ -13,6 +13,7 @@ import { supabase } from './lib/supabase'
 import { supportImageUrls } from './lib/safeUrls'
 import { isCorrectAnswer, isAnnulledAnswer } from './lib/examAnswers'
 import { inssOfficialSource } from './lib/inssSources'
+import { inssYears, inssExamsByYear, inssExamFor, inssExamFromSlug, inssCnuNotice } from './lib/inssExams'
 import { correiosOfficialSource } from './lib/correiosSources'
 import { fuvestOfficialSource } from './lib/fuvestSources'
 import { enemExams, enemAreas, enemHasLanguage, selectEnemQuestions, enemOfficialSource } from './lib/enemExams'
@@ -135,7 +136,7 @@ const catalogCategories = [
       { id: 'cbmerj', name: 'Bombeiro Militar', org: 'CORPO DE BOMBEIROS · RJ', short: 'CBMERJ', description: 'Corpo de Bombeiros Militar do Estado do Rio de Janeiro · CFO', available: true, color: 'crimson', roles: ['Oficial'] },
       { id: 'pmrj', name: 'PMERJ', org: 'Segurança', short: 'PMERJ', description: 'Polícia Militar do Estado do Rio de Janeiro', available: true, color: 'navy', roles: ['Soldado', 'Oficial'] },
       { id: 'bb', name: 'Banco do Brasil', org: 'Bancário', short: 'BB', description: 'Concurso do Banco do Brasil', available: false, color: 'gold', roles: ['Escriturário - Agente Comercial', 'Escriturário - Agente de Tecnologia'] },
-      { id: 'inss', name: 'INSS', org: 'PREVIDÊNCIA SOCIAL', short: 'INSS', description: 'Concurso do Instituto Nacional do Seguro Social', available: true, color: 'sky', roles: ['Técnico do Seguro Social'] },
+      { id: 'inss', name: 'INSS', org: 'PREVIDÊNCIA SOCIAL', short: 'INSS', description: 'Concurso do Instituto Nacional do Seguro Social', available: true, color: 'sky', roles: ['Técnico do Seguro Social', 'Analista do Seguro Social'] },
       { id: 'caixa', name: 'Caixa Econômica', org: 'BANCÁRIO', short: 'CAIXA', description: 'Concurso da Caixa Econômica Federal', available: true, color: 'sky', roles: ['Técnico Bancário Novo'] },
       { id: 'pf', name: 'Polícia Federal', org: 'Segurança', short: 'PF', description: 'Concurso da Polícia Federal', available: true, color: 'slate', roles: ['Agente', 'Escrivão', 'Delegado', 'Perito Criminal'] },
       { id: 'correios', name: 'Correios', org: 'SERVIÇOS', short: 'CORREIOS', description: 'Concurso dos Correios', available: true, color: 'amber', roles: ['Carteiro', 'Atendente Comercial', 'Operador de Triagem e Transbordo'] },
@@ -621,6 +622,9 @@ function App() {
   const [militaryLoading, setMilitaryLoading] = useState('')
   const [militaryError, setMilitaryError] = useState({})
   const [inssLoading, setInssLoading] = useState(false)
+  const [inssYear, setInssYear] = usePageState('app.inssYear', '2022')
+  const [inssRole, setInssRole] = usePageState('app.inssRole', 'tecnico')
+  const inssSelection = inssExamFor(inssYear, inssRole) || inssExamsByYear[inssYear]?.[0]
   const [inssError, setInssError] = useState('')
   const [caixaRole, setCaixaRole] = usePageState('app.caixaRole', 'tecnico')
   const [caixaYear, setCaixaYear] = usePageState('app.caixaYear', '2024')
@@ -716,13 +720,14 @@ function App() {
   const enemCatalogCombined = enemExams
   const activeQuestions = selectedExam === 'enem' || supabaseExamSlug ? enemQuestions : questionSets[selectedExam] || []
   const pismExam = pismExamDetails(supabaseExamSlug)
+  const inssBinary = selectedExam === 'inss' && activeQuestions.length > 0 && activeQuestions.every(isBinaryQuestion)
   const isRestoredSession = restoredDraft && session?.id === restoredDraft.session.id && selectedExam === restoredDraft.selectedExam && enemQuestions === restoredDraft.questions
-  const examLabel = isRestoredSession ? restoredDraft.label : ['esa', 'espcex', 'cbmerj', 'ita', 'efomm', 'ebserh'].includes(selectedExam) ? activeQuestions[0]?.examTitle || selectedExam.toUpperCase() : selectedExam === 'study' ? studyPracticeTitle : selectedExam === 'inss' ? 'INSS 2022 · Técnico do Seguro Social' : pismExam ? String(pismExam.year) : selectedExam === 'usp' ? `USP ${uspYear} · FUVEST` : selectedExam === 'uerj' ? `UERJ ${uerjYear} · ${(uerjExamsByYear[uerjYear] || []).find((item) => item.value === uerjEdition)?.label || ''}` : selectedExam === 'simulado' ? `Simulado · ${simuladoLevels.find((item) => item.value === simuladoLevel)?.label || 'Personalizado'}` : selectedExam === 'pism-1' ? '2025-1' : selectedExam === 'pism-2' ? '2025-2' : selectedExam === 'pism-2024-1' ? '2024-1' : selectedExam === 'pism-2024-2' ? '2024-2' : selectedExam === 'pism-2023-1' ? '2023-1' : selectedExam === 'pism-2023-2' ? '2023-2' : selectedExam === 'enem' ? `ENEM ${enemYear}` : selectedExam === 'bb' ? `Banco do Brasil ${bbYear} · ${bbRole}` : selectedExam === 'cnu' ? `CNU ${cnuYear} · Bloco ${cnuBlock.replace('bloco-', '')}` : selectedExam === 'oab' ? `OAB ${oabYear} · ${(oabExamsByYear[oabYear] || []).find((item) => item.value === oabEdition)?.label || 'Exame de Ordem'}` : selectedExam === 'pmerj' ? `PMERJ ${pmerjYear} · ${pmerjRolesConfig[pmerjRole]?.label || 'Soldado'}` : selectedExam === 'correios' ? `Correios ${correiosYear} · ${correiosRolesConfig[correiosRole]?.label || 'Carteiro'}` : selectedExam === 'caixa' ? `CAIXA ${caixaYear} · ${caixaRolesConfig[caixaRole]?.label || 'Técnico Bancário Novo'}` : selectedExam === 'pc' ? `Polícia Civil ${pcState} ${pcYear} · ${pcByState[pcState]?.roles?.[pcRole]?.label || 'Investigador'}` : selectedExam === 'pf' ? `Polícia Federal ${pfYear} · ${pfRole} · ${pfArea}` : '2023-1_Cad_Amarelo - LINGUAGENS, CÓDIGOS E SUAS TECNOLOGIAS'
+  const examLabel = isRestoredSession ? restoredDraft.label : ['esa', 'espcex', 'cbmerj', 'ita', 'efomm', 'ebserh'].includes(selectedExam) ? activeQuestions[0]?.examTitle || selectedExam.toUpperCase() : selectedExam === 'study' ? studyPracticeTitle : selectedExam === 'inss' ? inssExamFromSlug(supabaseExamSlug)?.title || activeQuestions[0]?.examTitle || 'INSS' : pismExam ? String(pismExam.year) : selectedExam === 'usp' ? `USP ${uspYear} · FUVEST` : selectedExam === 'uerj' ? `UERJ ${uerjYear} · ${(uerjExamsByYear[uerjYear] || []).find((item) => item.value === uerjEdition)?.label || ''}` : selectedExam === 'simulado' ? `Simulado · ${simuladoLevels.find((item) => item.value === simuladoLevel)?.label || 'Personalizado'}` : selectedExam === 'pism-1' ? '2025-1' : selectedExam === 'pism-2' ? '2025-2' : selectedExam === 'pism-2024-1' ? '2024-1' : selectedExam === 'pism-2024-2' ? '2024-2' : selectedExam === 'pism-2023-1' ? '2023-1' : selectedExam === 'pism-2023-2' ? '2023-2' : selectedExam === 'enem' ? `ENEM ${enemYear}` : selectedExam === 'bb' ? `Banco do Brasil ${bbYear} · ${bbRole}` : selectedExam === 'cnu' ? `CNU ${cnuYear} · Bloco ${cnuBlock.replace('bloco-', '')}` : selectedExam === 'oab' ? `OAB ${oabYear} · ${(oabExamsByYear[oabYear] || []).find((item) => item.value === oabEdition)?.label || 'Exame de Ordem'}` : selectedExam === 'pmerj' ? `PMERJ ${pmerjYear} · ${pmerjRolesConfig[pmerjRole]?.label || 'Soldado'}` : selectedExam === 'correios' ? `Correios ${correiosYear} · ${correiosRolesConfig[correiosRole]?.label || 'Carteiro'}` : selectedExam === 'caixa' ? `CAIXA ${caixaYear} · ${caixaRolesConfig[caixaRole]?.label || 'Técnico Bancário Novo'}` : selectedExam === 'pc' ? `Polícia Civil ${pcState} ${pcYear} · ${pcByState[pcState]?.roles?.[pcRole]?.label || 'Investigador'}` : selectedExam === 'pf' ? `Polícia Federal ${pfYear} · ${pfRole} · ${pfArea}` : '2023-1_Cad_Amarelo - LINGUAGENS, CÓDIGOS E SUAS TECNOLOGIAS'
   // Tela de "início" para onde os botões de voltar da prova/resultado devem retornar:
   // simulados voltam para a tela de simulado; as demais provas, para o catálogo (todas as provas).
   const examHomeScreen = selectedExam === 'study' ? 'study' : selectedExam === 'simulado' ? 'simulado' : 'catalog'
   const cnuShiftLabel = cnuYear === '2025' ? 'Conhecimentos Gerais e Específicos' : cnuShift === 'manha' ? 'Manhã · Conhecimentos Gerais' : 'Tarde · Conhecimentos Específicos'
-  const examDay = isRestoredSession ? restoredDraft.day : selectedExam === 'study' ? `Prática por assunto · ${activeQuestions.length} questões` : selectedExam === 'inss' ? `Prova objetiva · ${activeQuestions.length} itens (Certo/Errado)` : selectedExam === 'usp' || selectedExam === 'uerj' || selectedExam === 'esa' || selectedExam === 'espcex' || selectedExam === 'cbmerj' || selectedExam === 'ita' || selectedExam === 'efomm' || selectedExam === 'ebserh' ? `Prova objetiva · ${activeQuestions.length} questões` : selectedExam === 'simulado' ? `Simulado personalizado · ${activeQuestions.length} questões` : selectedExam === 'enem' ? (enemAreas.find(item => item.value === enemDiscipline)?.label + (enemHasLanguage(enemDiscipline) ? ' · ' + (enemLanguage === 'espanhol' ? 'Espanhol' : 'Inglês') : '')) : selectedExam === 'bb' ? 'Prova objetiva' : selectedExam === 'oab' ? 'Prova objetiva · 1ª fase' : selectedExam === 'pmerj' || selectedExam === 'correios' || selectedExam === 'caixa' ? `Prova objetiva · ${activeQuestions.length} questões` : selectedExam === 'pc' ? `Prova objetiva · ${activeQuestions.length} questões` : selectedExam === 'pf' ? 'Conhecimentos Básicos · 50 itens (Certo/Errado)' : selectedExam === 'cnu' ? cnuShiftLabel : pismExam ? `${pismExam.day}º dia` : examLabel.endsWith('-1') ? 'Dia 1' : 'Dia 2'
+  const examDay = isRestoredSession ? restoredDraft.day : selectedExam === 'study' ? `Prática por assunto · ${activeQuestions.length} questões` : selectedExam === 'inss' ? `Prova objetiva · ${activeQuestions.length} ${inssBinary ? 'itens (Certo/Errado)' : 'questões (múltipla escolha)'}` : selectedExam === 'usp' || selectedExam === 'uerj' || selectedExam === 'esa' || selectedExam === 'espcex' || selectedExam === 'cbmerj' || selectedExam === 'ita' || selectedExam === 'efomm' || selectedExam === 'ebserh' ? `Prova objetiva · ${activeQuestions.length} questões` : selectedExam === 'simulado' ? `Simulado personalizado · ${activeQuestions.length} questões` : selectedExam === 'enem' ? (enemAreas.find(item => item.value === enemDiscipline)?.label + (enemHasLanguage(enemDiscipline) ? ' · ' + (enemLanguage === 'espanhol' ? 'Espanhol' : 'Inglês') : '')) : selectedExam === 'bb' ? 'Prova objetiva' : selectedExam === 'oab' ? 'Prova objetiva · 1ª fase' : selectedExam === 'pmerj' || selectedExam === 'correios' || selectedExam === 'caixa' ? `Prova objetiva · ${activeQuestions.length} questões` : selectedExam === 'pc' ? `Prova objetiva · ${activeQuestions.length} questões` : selectedExam === 'pf' ? 'Conhecimentos Básicos · 50 itens (Certo/Errado)' : selectedExam === 'cnu' ? cnuShiftLabel : pismExam ? `${pismExam.day}º dia` : examLabel.endsWith('-1') ? 'Dia 1' : 'Dia 2'
 
   useEffect(() => {
     let saved = false
@@ -976,9 +981,11 @@ function App() {
     setInssLoading(true)
     setInssError('')
     try {
-      const questions = await loadSupabaseExam('inss-2022-tecnico')
+      if (!inssSelection) throw new Error('Selecione uma edição e um cargo válidos.')
+      const questions = await loadSupabaseExam(inssSelection.slug)
+      if (questions.length !== inssSelection.count) throw new Error('O caderno está incompleto.')
       setEnemQuestions(questions)
-      setSupabaseExamSlug('inss-2022-tecnico')
+      setSupabaseExamSlug(inssSelection.slug)
       setSelectedExam('inss')
       setCurrent(0)
       setAnswers({})
@@ -1597,7 +1604,7 @@ function App() {
       error={correiosError}
     />
   )
-  const inssCard = <InssCard onStart={startInssExam} loading={inssLoading} error={inssError} />
+  const inssCard = <InssCard years={inssYears} year={inssYear} role={inssSelection?.value || ''} setYear={year => { setInssYear(year); setInssRole(inssExamsByYear[year]?.[0]?.value || ''); setInssError('') }} onRoleChange={role => { setInssRole(role); setInssError('') }} onStart={startInssExam} loading={inssLoading} error={inssError} />
   const caixaCard = (
     <CaixaCard
       roles={caixaRolesConfig}
@@ -1936,7 +1943,7 @@ function App() {
     </div>
   }
   if (screen === 'result') {
-    const isInss = selectedExam === 'inss'
+    const isInss = inssBinary
     const resultPoints = isInss ? inssScore.points : score
     const percentage = activeQuestions.length ? Math.round((resultPoints / activeQuestions.length) * 100) : 0
     return (
@@ -1956,7 +1963,8 @@ function App() {
             <p className="result-message">
               {percentage >= 70 ? 'Excelente trabalho! Seu ritmo de estudo está dando resultado.' : 'Cada questão é uma oportunidade. Revise os temas e tente novamente.'}
             </p>
-            {isInss && <p className="result-message">Acerto: +1 · Erro: −1 · Em branco: 0. {inssScore.annulled} itens anulados recebem +1 cada. Correção conforme o gabarito de 2022.</p>}
+            {isInss && <p className="result-message">Acerto: +1 · Erro: -1 · Em branco: 0. {inssScore.annulled} itens anulados recebem +1 cada. Correção conforme o gabarito definitivo da edição selecionada.</p>}
+            {selectedExam === 'inss' && !inssBinary && <p className="result-message">{inssCnuNotice}</p>}
             <div className="result-stats">
               <div><strong>{isInss ? inssScore.correct : `${percentage}%`}</strong><span>{isInss ? "Acertos" : "Aproveitamento"}</span></div>
               <button className="review-stat" onClick={() => { setCurrent(0); setScreen('review') }}><strong>{isInss ? inssScore.wrong : activeQuestions.length - score}</strong><span>{isInss ? "Erros · revisar" : "Para revisar"}</span></button>
@@ -2065,7 +2073,8 @@ function App() {
               <div className={`subject-tag ${subjects.find((item) => item.name === question.subject)?.color}`}>{question.subject}</div>
               {selectedExam === 'study' && <p className="official-source">{question.examTitle} · Questão {question.number}</p>}
               <div className="question-heading"><span>Questão {String(current + 1).padStart(2, '0')}</span><Clock3 size={16} /> <small>{isReview ? 'Revisão' : session?.deadline ? 'Modo de prova' : 'Sem tempo limite'}</small>{speechSupported && <button type="button" className={`listen-button ${speakingId === 'question' ? 'active' : ''}`} onClick={() => speak('question', `${question.text}. ${question.options.map((option, index) => binary ? option : `Alternativa ${letters[index]}. ${option}`).join('. ')}`)} aria-label={speakingId === 'question' ? 'Parar leitura da questão' : 'Ouvir a questão'}>{speakingId === 'question' ? <><Square size={14} /> Parar</> : <><Volume2 size={15} /> Ouvir questão</>}</button>}</div>
-              {selectedExam === 'inss' && <p className="official-source">Acerto: +1 · Erro: −1 · Em branco: 0 · Anulado: +1.</p>}
+              {inssBinary && <p className="official-source">Acerto: +1 · Erro: -1 · Em branco: 0 · Anulado: +1.</p>}
+              {selectedExam === 'inss' && !inssBinary && <p className="official-source">{inssCnuNotice}</p>}
               <h1 className={question.examSlug?.match(/^(esa|espcex|ita|efomm)-/) ? 'military-question-text' : undefined}>{question.text}</h1>
               {question.sourceUrl && <p className="official-source"><a href={question.sourceUrl} target="_blank" rel="noopener noreferrer">{question.examSlug?.startsWith('ebserh-') ? 'Consultar fonte da questão da EBSERH' : 'Abrir questão e textos no caderno oficial'} {question.examSlug?.startsWith('ebserh-') ? '' : question.examSlug?.startsWith('efomm-') ? 'da EFOMM' : question.examSlug?.startsWith('ita-') ? 'do ITA' : question.examSlug?.startsWith('uerj-') ? 'da UERJ' : question.examSlug?.startsWith('cbmerj-') ? 'do CBMERJ' : question.examSlug?.startsWith('pmerj-') ? 'da PMERJ' : question.sourceUrl.includes('cebraspe.org.br') ? 'do Cebraspe' : question.sourceUrl.includes('fuvest.br') ? 'da FUVEST' : question.sourceUrl.includes('inep') ? 'do Inep' : question.examSlug?.startsWith('esa-') ? 'da ESA' : question.examSlug?.startsWith('espcex-') ? 'da EsPCEx' : 'da UFJF'} ↗</a></p>}
               <div className="options">

@@ -32,7 +32,7 @@ Origens de prova disponíveis no catálogo:
 - **ITA**, primeira e segunda fase de 2026;
 - **EFOMM**, **ESA**, **EsPCEx** e **CBMERJ**;
 - **EBSERH**;
-- **INSS** 2022, Técnico do Seguro Social.
+- **INSS** 2016 (Técnico e Analista/Serviço Social), 2022 (Técnico) e CNU 2025 (Analista, blocos 1, 3, 4 e 5).
 
 Entradas ainda em preparação são identificadas como **Em breve**. Um card
 não garante que todas as edições tenham prova interativa.
@@ -354,7 +354,7 @@ Usada pelo histórico e pelo caderno de erros. Criada por
 | `created_at` | `timestamptz` | Data de gravação no banco. |
 
 A soma de acertos, erros, brancos e anuladas deve corresponder ao total. A
-pontuação padrão é `correct + annulled`; no INSS, é
+pontuação padrão é `correct + annulled`; no INSS 2016/2022, é
 `correct + annulled - wrong`. O número de itens em `mistakes` corresponde a
 `wrong`. O banco valida essas regras e indexa os resultados por usuário e data.
 
@@ -762,7 +762,7 @@ Dados e materiais de conferência: `pdf-extracts/pism-expansao`. Fluxo de regene
 
 O card INSS fica em Concursos. Execute **todo** o arquivo `supabase/seed-inss-2022-tecnico.sql` no SQL Editor do Supabase para disponibilizar os 120 itens (50 básicos e 70 específicos), da aplicação de **27/11/2022**, cadernos 01. A reaplicação de Guarulhos não está incluída. A consulta é reexecutável, preserva os IDs existentes e não altera as outras provas; explicações já preenchidas são preservadas quando não há explicação nova.
 
-As opções exibidas são Certo e Errado. No banco, A representa Certo, B representa Errado e A/B/C/D/E representa anulação. A prova INSS usa +1 por acerto, −1 por erro e zero por item em branco. Os oito itens anulados (49, 54, 65, 68, 72, 74, 104 e 106) recebem +1 independentemente da marcação. A tela mostra a pontuação líquida, os acertos, os erros e os itens em branco. Os simulados personalizados continuam usando sua pontuação habitual.
+As opções exibidas são Certo e Errado. No banco, A representa Certo, B representa Errado e A/B/C/D/E representa anulação. A prova INSS 2022 usa +1 por acerto, −1 por erro e zero por item em branco. Os oito itens anulados (49, 54, 65, 68, 72, 74, 104 e 106) recebem +1 independentemente da marcação. A tela mostra a pontuação líquida, os acertos, os erros e os itens em branco. Os simulados personalizados continuam usando sua pontuação habitual.
 
 Cada item possui acesso à página correspondente do caderno oficial do Cebraspe. O texto CB1A1 foi resumido para estudo; nas questões de análise textual e gramatical, leia o original pelo link. As duas figuras de informática estão em `public/inss-2022/`. As questões e o gabarito reproduzem o contexto da prova de 2022; não são uma atualização da legislação. Esta inclusão não traz comentários explicativos para os itens não anulados.
 

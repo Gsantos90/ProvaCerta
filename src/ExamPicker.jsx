@@ -32,7 +32,6 @@ export function ExamProgressProvider({ children, onHistory }) {
 export function cardEditions(exam, card) {
   const props = card?.props || {}
   let values = props.catalog || props.yearOptions || props.years || []
-  if (exam.id === 'inss') values = ['2022']
   return [...new Set(values.map(item => {
     const value = String(typeof item === 'object' ? item.year || item.value || item.label : item)
     return (exam.id === 'pism' ? pismSelectionLabel(value) : value).match(/(?:19|20)\d{2}/)?.[0]
