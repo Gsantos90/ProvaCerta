@@ -2158,6 +2158,7 @@ Acesse provas reais de concursos e faculdades federais, resolva simulados exclus
               <p>O provacerta é uma plataforma de estudos feita para quem se prepara para concursos, vestibulares e exames. Reunimos provas reais, organizadas por banca, ano e cargo, para que você treine exatamente no formato que vai encontrar no dia da prova.</p>
               <p>Além das provas completas, você pode montar simulados personalizados, escolhendo o grau de ensino, as matérias e a quantidade de questões. Ao final, acompanhe seu desempenho e revise cada questão com explicações que mostram o caminho até a resposta correta.</p>
               <p>Nosso objetivo é simples: transformar a prática em aprovação, com conteúdo fiel às provas originais e uma experiência de estudo leve, focada e no seu ritmo.</p>
+              <p>Entre em contato: <a href="mailto:provacerta2026@gmail.com">provacerta2026@gmail.com</a></p>
             </div>
             <ul className="about-points">
               <li><BookOpen size={18} /><div><b>Provas reais</b><small>Concursos, vestibulares e exames transcritos fielmente, com gabarito oficial.</small></div></li>
