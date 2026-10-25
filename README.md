@@ -194,6 +194,12 @@ Detalhes: [Ferramentas das provas](docs/ferramentas-provas.md).
 
 ### ENEM no banco próprio
 
+Revisão de 25/10/2026: 42 questões receberam reparos selecionados de espaçamento,
+quebras de versos e referências de imagens, incluindo recortes completos em
+25 questões. A questão 16 de 2022 usa um único infográfico com texto e ilustrações.
+Gabaritos, alternativas e IDs foram preservados. Consulte o
+[registro da revisão e da aplicação segura](docs/enem-revisao-2026-10-25.md).
+
 O card usa exclusivamente as tabelas exams e questions do Supabase. **Escolher
 prova** abre os mesmos três seletores para os quatro anos: ano, área (completa, dia ou disciplina)
 e idioma. O idioma fica desabilitado quando a seleção não inclui Linguagens.

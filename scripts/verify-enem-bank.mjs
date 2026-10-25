@@ -52,26 +52,28 @@ assert.ok(!/delete from|drop table/i.test(sql))
 assert.ok(sql.includes('on conflict (exam_id,number) do update'))
 const main=read('src/main.jsx')
 assert.ok(!/api\.enem\.dev|enem-api|loadEnemQuestions|normalizeEnemQuestion/.test(main+read('index.html')))
-const source=main.replace(/createRoot\(document\.getElementById\('root'\)\)\.render\([\s\S]*$/,'')+'\nexport { EnemCard, App }'
+// O portal das ferramentas depende de document e tem verificação própria.
+// Este teste SSR cobre os dados e a renderização da prova, sem portal de browser.
+const appStart=main.indexOf('function App()')
+const appStateEnd=main.indexOf('const beginSession')
+const stateSource=main.slice(appStart,appStateEnd).replace(/(const \[([^,]+),[^\]]+\] = )(useState|usePageState)/g, (_, declaration, name, hook) => `${declaration}${hook === 'useState' ? 'testUseState' : 'testUsePageState'}.bind(null,${JSON.stringify(name.trim())}${hook === 'usePageState' ? ',usePageState' : ''})`)
+const source=(main.slice(0,appStart)+stateSource+main.slice(appStateEnd)).replace("import ExamTools from './ExamTools'", 'const ExamTools = () => null').replace(/createRoot\(document\.getElementById\('root'\)\)\.render\([\s\S]*$/,'')+'\nexport { EnemCard, App }'
 const output=buildSync({stdin:{contents:source,resolveDir:process.cwd()+'/src',loader:'jsx'},bundle:true,platform:'node',format:'cjs',write:false,external:['react','react-dom/client','lucide-react','@supabase/supabase-js'],loader:{'.css':'empty'},define:{'import.meta.env':'{}'}}).outputFiles[0].text
 const mod={exports:{}}
-new Function('module','exports','require',output)(mod,mod.exports,createRequire(import.meta.url))
+let testOverrides={}
+const testUseState=(name,initial)=>React.useState(Object.hasOwn(testOverrides,name)?testOverrides[name]:initial)
+const testUsePageState=(name,hook,...args)=>Object.hasOwn(testOverrides,name)?React.useState(testOverrides[name]):hook(...args)
+new Function('module','exports','require','testUseState','testUsePageState',output)(mod,mod.exports,createRequire(import.meta.url),testUseState,testUsePageState)
 for(const year of enemExams)for(const discipline of ['completa','dia-2']) {
  const html=renderToStaticMarkup(React.createElement(mod.exports.EnemCard,{catalog:enemExams,year:String(year.year),discipline,language:'ingles'}))
  assert.equal((html.match(/<select(?:\s|>)/g)||[]).length,3)
  assert.ok(html.includes('Disponível')&&!html.includes('API conectada'))
  assert.equal((html.match(/<select[^>]*disabled/g)||[]).length,discipline==='dia-2'?1:0)
 }
-const stateNames=[...main.slice(main.indexOf('function App()'),main.indexOf('const beginSession')).matchAll(/const \[([^,]+),[^\]]+\] = useState/g)].map(m=>m[1].trim())
-const originalState=React.useState
 function renderApp(overrides) {
- let index=0
- React.useState=initial=>{
-  const name=stateNames[index++]
-  return originalState(Object.hasOwn(overrides,name)?overrides[name]:initial)
- }
+ testOverrides=overrides
  try{return renderToStaticMarkup(React.createElement(mod.exports.App))}
- finally{React.useState=originalState}
+ finally{testOverrides={}}
 }
 const rows=JSON.parse(read('pdf-extracts/enem-migration/2025-questions.json'))
 const shared=rows.find(q=>q.number===6).support

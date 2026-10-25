@@ -8,6 +8,7 @@
 - Matemática: oito aulas novas, com 24 exemplos resolvidos, oito explorações interativas e 24 questões autorais locais.
 - Podcasts: três novos episódios em Grandes Navegações, América espanhola e América inglesa, usando o player atual.
 - O catálogo de resumos passa a 46 entradas, em oito matérias; 41 assuntos estão disponíveis para prática. São oito episódios de podcast.
+- [Revisão do ENEM](enem-revisao-2026-10-25.md): 42 questões com ajustes selecionados; 25 com recortes completos refeitos e 16 reparos de espaçamento/quebras de versos, preservando gabaritos e IDs.
 
 ## Documentação e manutenção
 

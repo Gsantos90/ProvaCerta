@@ -604,7 +604,7 @@
     "subject": "Linguagens, Códigos e suas Tecnologias",
     "text": "Esse texto, que apresenta um prato da culinária brasileira, evidencia",
     "support": "Doce mistura\n\nA canjica — creme amarelo à base de milho — é prova da diversidade do Brasil, pelas variações em seu nome de batismo. Servido polvilhado com canela, o doce confunde: o que lá no norte é “canjica”, lá no sul é “curau”. Os nomes se invertem quando o doce muda. O creme branco com os grãos inteiros de milho, no sul, é “canjica” e, no norte, “curau”.\n\nNomes regionais do creme amarelo:\n• Curau (MG, SP, MT e GO);\n• Corá, piruruca, pururuca ou jimbelê (MG);\n• Canjiquinha (RJ);\n• Coral e papa de milho (RJ, MG);\n• Canjica de milho verde (BA).\n\nRevista Língua Portuguesa, n. 31, maio 2008 (adaptado).",
-    "support_image": "/enem-2025/q031-photo.png",
+    "support_image": "/enem-2025/q031-review-20261025-1.png",
     "options": [
       "valor afetivo nas nomenclaturas.",
       "variedade linguística entre regiões.",
@@ -2104,7 +2104,7 @@
     "subject": "Ciências da Natureza e suas Tecnologias",
     "text": "O frasco contendo cânfora apresenta a fórmula molecular:",
     "support": "Em uma aula prática de química orgânica, um professor identificou os frascos de várias substâncias apenas por suas fórmulas moleculares. Em seguida, apresentou a representação tridimensional da molécula do borneol, um álcool secundário, conforme a figura. Ele explicou que, quando oxidado, o borneol dá origem à cânfora, uma cetona usada desde a Antiguidade como incenso e no preparo de medicamentos. Finalmente, o professor solicitou que os alunos identificassem o frasco contendo a substância cânfora.\n\nSANTOS, A. P. B. et al. Oxidação do borneol à cânfora com água sanitária:\n\nQuímica Nova, n. 6, 2009 (adaptado).",
-    "support_image": "/enem-2025/q106-support-1-1.png",
+    "support_image": "/enem-2025/q106-review-20261025-1.png",
     "options": [
       "C₉H₁₆O",
       "C₉H₁₇O",
@@ -2682,8 +2682,8 @@
   {
     "number": 135,
     "subject": "Ciências da Natureza e suas Tecnologias",
-    "text": "Considerando a ordem das tentativas, quantas atividades a estudante conseguiu realizar sem queimar o fusível?",
-    "support": "Réguas elétricas são dispositivos que permitem a ligação segura e simultânea de dois ou mais aparelhos eletroeletrônicos à rede elétrica. Uma estudante comprou uma régua com seis tomadas, conforme a figura. Essa régua suporta uma intensidade máxima de corrente elétrica igual a 20 A. Acima desse valor, o fusível de segurança da régua se rompe, inutilizando-a até que um novo fusível seja instalado. Considere as potências nominais de alguns aparelhos eletroeletrônicos apresentadas no quadro.\n\nEm um dia quente, a estudante mantém o computador e o condicionador de ar portátil ligados à régua permanentemente. Nessa situação, ela tenta realizar algumas atividades, uma de cada vez, utilizando a mesma régua, na seguinte ordem:\n\n1º – imprimir um trabalho escolar; 2º – fazer um café com a cafeteira; 3º – ligar a luminária; 4º – secar os cabelos. Sabe-se que a régua foi ligada à tensão elétrica de 110 V, adequada para o funcionamento desses aparelhos.",
+    "text": "Réguas elétricas são dispositivos que permitem a ligação \r\nsegura e simultânea de dois ou mais aparelhos eletroeletrônicos \r\nà rede elétrica. Uma estudante comprou uma régua com seis \r\ntomadas, conforme a figura. Essa régua suporta uma intensidade \r\nmáxima de corrente elétrica igual a 20 A. Acima desse valor, o \r\nfusível de segurança da régua se rompe, inutilizando-a até que \r\num novo fusível seja instalado. Considere as potências nominais \r\nde alguns aparelhos eletroeletrônicos apresentadas no quadro.\r\nEm um dia quente, a estudante mantém o computador e o \r\ncondicionador de ar portátil ligados à régua permanentemente. \r\nNessa situação, ela tenta realizar algumas atividades, uma de \r\ncada vez, utilizando a mesma régua, na seguinte ordem:\r\n1º – imprimir um trabalho escolar;\r\n2º – fazer um café com a cafeteira;\r\n3º – ligar a luminária;\r\n4º – secar os cabelos.\r\nSabe-se que a régua foi ligada à tensão elétrica de 110 V, \r\nadequada para o funcionamento desses aparelhos.\r\nConsiderando a ordem das tentativas, quantas atividades a estudante conseguiu realizar sem queimar o fusível?",
+    "support": "",
     "support_image": "/enem-2025/q135-support-1-1.png",
     "options": [
       "4",
@@ -2702,8 +2702,8 @@
   {
     "number": 136,
     "subject": "Matemática e suas Tecnologias",
-    "text": "Nessas condições, a quantidade mínima necessária de policiais a serem alocados ao longo dessa ciclovia para torná-la protegida é",
-    "support": "No entorno de uma lagoa circular, cujo raio mede 1 km, há um uma ciclovia. Devido aos frequentes roubos de bicicleta, a prefeitura planeja alocar policiais em posições estratégicas para patrulhar essa ciclovia, de forma a torná-la totalmente protegida. Um ponto da ciclovia é considerado protegido se houver pelo menos um policial a, no máximo, 200 m de distância daquele ponto, posicionado sobre a ciclovia. A figura ilustra um ponto P sobre a ciclovia, que estará protegido se houver pelo menos um policial posicionado sobre a região de cor cinza escuro.\n\nDesconsidere a largura da pista da ciclovia e utilize 3 como aproximação para p.",
+    "text": "No entorno de uma lagoa circular, cujo raio mede 1 km, há um uma ciclovia. Devido aos frequentes roubos de bicicleta, a prefeitura planeja alocar policiais em posições estratégicas para patrulhar essa ciclovia, de forma a torná-la totalmente protegida. Um ponto da ciclovia é considerado protegido se houver pelo menos um policial a, no máximo, 200 m de distância daquele ponto, posicionado sobre a ciclovia. A figura ilustra um ponto P sobre a ciclovia, que estará protegido se houver pelo menos um policial posicionado sobre a região de cor cinza escuro.\r\n\r\nDesconsidere a largura da pista da ciclovia e utilize 3 como aproximação para p.\r\nNessas condições, a quantidade mínima necessária de policiais a serem alocados ao longo dessa ciclovia para torná-la protegida é",
+    "support": "",
     "support_image": "/enem-2025/q136-support-1-1.png",
     "options": [
       "4.",
@@ -2722,8 +2722,8 @@
   {
     "number": 137,
     "subject": "Matemática e suas Tecnologias",
-    "text": "Qual é a quantidade de S1, em litro, que será retirada?",
-    "support": "Em um laboratório, um recipiente contém 10 litros de uma solução composta apenas pelas substâncias S1 e S2. Dessa solução, 99,95% é de S1. Uma quantidade de S1 será retirada dessa solução, mantendo a quantidade inicial de S2, de modo que 99,90% da nova solução seja de S1.",
+    "text": "Em um laboratório, um recipiente contém 10 litros de uma solução composta apenas pelas substâncias S1 e S2. Dessa solução, 99,95% é de S1. Uma quantidade de S1 será retirada dessa solução, mantendo a quantidade inicial de S2, de modo que 99,90% da nova solução seja de S1.\r\nQual é a quantidade de S1, em litro, que será retirada?",
+    "support": "",
     "support_image": "",
     "options": [
       "0,0050",
