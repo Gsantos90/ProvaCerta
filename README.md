@@ -28,7 +28,14 @@ Origens de prova disponíveis no catálogo:
 - **CAIXA** (Técnico Bancário Novo 2024);
 - **Banco do Brasil**;
 - **UERJ** (Vestibular Estadual);
-- **USP** (FUVEST).
+- **USP** (FUVEST);
+- **ITA**, primeira e segunda fase de 2026;
+- **EFOMM**, **ESA**, **EsPCEx** e **CBMERJ**;
+- **EBSERH**;
+- **INSS** 2022, Técnico do Seguro Social.
+
+Entradas ainda em preparação são identificadas como **Em breve**. Um card
+não garante que todas as edições tenham prova interativa.
 
 Além das provas completas, o usuário pode **criar um simulado personalizado**,
 escolhendo o grau de ensino (médio/superior), as matérias e a quantidade de
@@ -88,41 +95,47 @@ Google ou sincronização de redações entre dispositivos.
 
 ### Área Estudar
 
-- Opção **Estudar** no menu superior, com questões por assunto, resumos e revisão.
-- Práticas com seletores de matéria e assunto, exibindo apenas uma opção por vez:
-  10 assuntos e 27 questões reais já cadastradas no Supabase. Inclui porcentagem,
-  proporções, interpretação, funções, geometria, estatística, probabilidade,
-  química orgânica, eletricidade e ondas, com questões de ENEM, Correios, CNU e PMERJ.
-- **Aprenda antes de praticar** oferece 28 resumos, selecionados por matéria:
-  Matemática, Português, Biologia, Química, Física, História, Geografia e Redação.
-  Inclui funções, geometria, probabilidade, estatística, gêneros textuais,
-  variação linguística, ecologia, genética, evolução, estequiometria, soluções,
-  química orgânica, cinemática, energia, eletricidade, Brasil colonial,
-  República e cidadania, urbanização, clima e energia e ondas.
-- Redação tem cinco resumos: planejamento, introdução, argumentação e repertório,
-  conclusão e intervenção no ENEM, coesão e revisão. Inclui exemplos, checklist,
-  referência às [orientações do Inep](https://www.gov.br/inep/pt-br/centrais-de-conteudo/noticias/enem/enem-2026-cartilha-da-redacao-esta-disponivel)
-  e botão para a prática de redação existente. Exigências de vestibulares devem
-  seguir a proposta de cada prova.
-- Resumos autorais em `src/lib/studySummaries.js`, com conceitos, exemplos,
-  erros comuns e lista de revisão. Resumos sem questões curadas levam ao
-  catálogo de provas. A curadoria das práticas fica em `src/lib/studyTopics.js`.
-- Referência para a organização das áreas: [Matrizes de Referência do ENEM,
-  Inep](https://www.gov.br/inep/pt-br/centrais-de-conteudo/acervo-linha-editorial/publicacoes-institucionais/avaliacoes-e-exames-da-educacao-basica/matrizes-de-referencia-enem/).
-- Questões e resumos disponíveis sem login. As práticas utilizam a tela de
-  prova existente, com estudo livre ou cronômetro, resultado e explicações.
-- **Minha revisão** consulta os erros das últimas 100 tentativas da própria
-  conta. Questões da curadoria são agrupadas por assunto; as demais, por matéria.
-  A contagem representa ocorrências de erros no histórico, não um percentual
-  de domínio nem uma lista de erros ainda não superados. Questões repetidas
-  entram uma vez em cada rodada de revisão.
-- Resultados das práticas são salvos em `exam_attempts` com `exam_source = 'study'`.
-  A revisão usa as permissões privadas já existentes; não exige nova tabela
-  ou query de instalação. Os resumos não dependem de IA.
+**Um assunto de cada vez** oferece Questões por assunto, Resumos,
+Destrinchando o conteúdo, Minha revisão e Planejamento.
+
+- **Aprenda antes de praticar**: 46 resumos em oito matérias (14 de Matemática,
+  12 de História, 3 de Português, 3 de Química, 4 de Física, 3 de Biologia,
+  2 de Geografia e 5 de Redação).
+- **Questões por assunto**: 41 assuntos autorais. Prioriza rodadas locais;
+  quando não há questões locais para o assunto, consulta o banco autoral.
+  Quantidade e prevenção de repetição dependem do caminho.
+- **Matemática**: oito aulas novas de Trigonometria, Logaritmos, Inequações,
+  Relações trigonométricas, Área dos polígonos e dos triângulos, Função
+  quadrática, Função exponencial e Função logarítmica. Incluem 24 exemplos
+  resolvidos, oito explorações interativas e 24 questões comentadas.
+- **História**: sete aulas novas de Grandes Navegações, América espanhola,
+  América inglesa, Sociedades africanas, África antiga, Egito antigo e
+  Antiguidade clássica. Incluem cronologia, aprofundamento, fontes,
+  exemplos comentados, revisão e 21 questões autorais locais.
+- **Podcasts**: oito episódios, incluindo os três novos de Grandes Navegações,
+  América espanhola e América inglesa. Mesmo player, sem reprodução automática,
+  com pausa ao trocar de assunto ou sair da aba Resumos.
+- **Redação**: cinco resumos e acesso à prática específica. Atividades embutidas
+  em aulas não são registradas como tentativas no histórico.
+- **Destrinchando o conteúdo**: 135 questões objetivas de Matemática, Física e
+  Química do PISM, edições oficiais 2024–2026, módulos I, II e III. Enunciado,
+  alternativas, figuras e resolução detalhada ficam abertos.
+- **Planejamento**: atividades manuais, plano automático por prova, horários,
+  conclusão, notas, links e calendário, com persistência local.
+- **Minha revisão**: erros das últimas 100 tentativas da conta, agrupados por
+  assunto ou matéria. A contagem representa ocorrências, não domínio do tema.
+  Histórico depende de login; leitura, podcasts e prática continuam livres.
+
+Resumos e novas questões locais não dependem de IA nem exigem migração no banco.
+Veja o [guia de inclusão de resumos e podcasts](docs/resumos-e-podcasts.md),
+[Destrinchando](docs/destrinchando-conteudo.md) e
+[Planejamento](docs/planejamento-estudos.md).
 
 ### Provas e simulados
 
 - Catálogo de provas por origem, com seleção de ano, cargo, bloco ou edição;
+- Faculdades públicas, Concursos e OAB começam recolhidos. O cabeçalho com seta
+  abre e fecha os cards, sem os textos “Expandir provas” e “Recolher provas”;
 - Cards com capa colorida no topo, nome, descrição curta e anos das edições;
   animação suave ao passar o mouse, respeitando a preferência por movimento reduzido; **Escolher
   prova** abre os seletores em uma janela, sem ocupar espaço no catálogo;
@@ -137,6 +150,19 @@ Google ou sincronização de redações entre dispositivos.
 - Indicador de progresso com a quantidade de questões respondidas;
 - Alternativas com áreas amplas e marcáveis;
 - Identificação visual da questão atual.
+
+### Ferramentas de ajuda durante a prova
+
+Botão flutuante no canto inferior direito, sem deslocar o layout. Abre dois
+círculos menores, centralizados acima dele, para **Calculadora** e **Anotações**.
+Todos usam `#273753`; os nomes aparecem no hover ou foco pelo teclado.
+As janelas podem ficar abertas simultaneamente e ser arrastadas pelo cabeçalho.
+
+Disponível em provas objetivas, simulados, prática por assunto, revisão,
+discursivas UERJ/ITA e redação. As notas são salvas por conta/visitante e prova
+neste navegador, sem sincronização e sem uma nota diferente por tentativa.
+A calculadora é básica e sequencial. As ferramentas não pausam o cronômetro.
+Detalhes: [Ferramentas das provas](docs/ferramentas-provas.md).
 
 ### Correção e resultado
 
@@ -796,60 +822,72 @@ ambiente de produção.
 
 ## Conteúdos do pacote de estudos em Resumos
 
-O documento `Prova_Certa_Pacote_Estudos_Piloto.docx` foi integrado em
-**Estudar → Resumos**, nas matérias correspondentes. Porcentagem fica em
-Matemática; Brasil Colônia, Império e Abolição, República Velha e Era Vargas
-e Ditadura Militar e redemocratização ficam em História.
-As entradas existentes de Porcentagem e Brasil Colônia foram enriquecidas,
-sem duplicar assuntos. As referências de questões reais de Porcentagem
-continuam disponíveis. O conteúdo inclui teoria, exemplos e 11 exercícios
-autorais com gabarito comentado. Os quatro resumos de História apresentam
-24 pontos detalhados, com contexto, relações históricas e orientações de prova.
+O pacote inicial foi integrado a **Estudar → Resumos** por
+`src/lib/studyPilot.json` e `src/lib/studyPilotDetails.js`. Enriqueceu
+Porcentagem e quatro temas de História sem duplicar entradas. Seus 11 exercícios
+permanecem nos dados de origem; a interface atual usa o renderizador de cada matéria.
 
-O quiz funciona sem login ou conexão ao banco. A correção aparece depois de
-responder todas as questões do módulo. As respostas reiniciam ao trocar de
-resumo e não são registradas no histórico de provas. A aba separada do pacote
-e as transcrições de podcast foram removidas.
+História apresenta teoria, referências quando cadastradas e podcast quando
+associado, sem quiz embutido. As questões autorais ficam no botão de prática.
+Matemática usa `MathStudyLesson.jsx`, com teoria, fórmulas, exemplos resolvidos,
+exploração interativa e atividades de correção imediata, sem gravar essas
+atividades como tentativas de prova.
 
-O resumo de Brasil Colônia inclui o episódio **O jogo geopolítico do Brasil
-Colônia**, em um card com capa, reprodução e pausa, progresso com busca,
-saltos de 15 segundos, velocidade ajustável, controle de som e download.
-O player carrega inicialmente apenas metadados e não inicia automaticamente.
-A reprodução pausa ao sair da aba Resumos ou ao trocar de assunto.
-O arquivo está em `public/audio/brasil-colonia-geopolitica.m4a`; a associação
-entre episódio e resumo está em `src/lib/studyPodcasts.js`.
+As seis aulas anteriores de Matemática estão em `src/lib/mathLessons.js` e
+`src/lib/percentageLesson.js`; as oito novas, em
+`src/lib/advancedMathLessons.js`. História mantém o piloto, Idade Média em
+`src/lib/medievalSummary.js` e sete aulas novas em `src/lib/historyLessons.js`.
+O catálogo central e a ordem de integração estão em `src/lib/studySummaries.js`.
 
-Os resumos de **República Velha e Era Vargas**, **Império, café, escravidão
-e Abolição** e **Ditadura Militar e redemocratização** também incluem os
-episódios enviados pelo usuário. Os quatro podcasts usam o mesmo card
-alinhado à esquerda, com o nome do tema em uma faixa verde superior e
-controles sobre fundo claro. Eles funcionam sem transcrição e sem reprodução
-automática.
+Os oito podcasts são associados por ID em `src/lib/studyPodcasts.js`, com
+arquivos em `public/audio/`. O player mantém reprodução/pausa, busca, saltos de
+15 segundos, velocidade, som e download. Sem transcrição nem início automático;
+pausa ao sair de Resumos ou trocar de assunto.
 
-**Idade Média**, em História, reúne o material fornecido pelo usuário em
-cinco seções, sem marcadores de asterisco, e o podcast **Como a Peste Negra
-destruiu o feudalismo**. O conteúdo está em `src/lib/medievalSummary.js`.
-Como o material não inclui exercícios, esse resumo não apresenta um quiz vazio.
+O [guia de resumos e podcasts](docs/resumos-e-podcasts.md) descreve os formatos,
+a inclusão de novas aulas, os campos obrigatórios e a conexão com as práticas.
+Para reproduzir a importação do pacote inicial a partir do material extraído,
+consulte `scripts/import-study-pilot.mjs`.
 
-Os resumos de História exibem teoria e podcast, sem a seção de exercícios
-autorais. Em Matemática, os exercícios de Porcentagem continuam disponíveis.
-Em Idade Média, o botão de exploração de provas tem espaço adicional acima.
+## Prática por assunto — questões autorais
 
-Os cinco resumos de Matemática além de Porcentagem incluem cinco seções
-de teoria, dois exemplos resolvidos e três atividades comentadas cada.
-As imagens são diagramas que se atualizam com os controles: proporcionalidade,
-gráficos de funções, figuras geométricas, estatísticas de uma lista e urna
-com ou sem reposição. Os dados estão em `src/lib/mathLessons.js` e o componente
-em `src/MathStudyLesson.jsx`. Porcentagem e as referências de provas reais
-foram preservadas. As atividades de fixação não são salvas no histórico.
+`src/lib/summaryPractice.js` exporta 112 questões locais, selecionando até 10
+por rodada. Os quinze assuntos novos têm três questões cada. Essas rodadas
+funcionam sem consulta ao banco e podem repetir questões entre tentativas.
 
-Os dados estão em `src/lib/studyPilot.json` e as explicações complementares
-em `src/lib/studyPilotDetails.js`. Para reproduzir a importação a
-partir dos parágrafos extraídos do documento, execute
-`node scripts/import-study-pilot.mjs`. Valide com
-`node scripts/verify-study-hub.mjs` e `npm run build`.
-# Prática por assunto — questões autorais
+Os assuntos originais também têm um banco remoto de 300 questões em 15 temas.
+Quando não há rodada local, o caminho autoral consulta esse banco e abre 10
+itens, exigindo pelo menos 20 disponíveis e priorizando os que não apareceram
+na rodada anterior. Os dois bancos não são somados em uma única rodada.
 
-A prática usa `study_author_questions` no Supabase: 300 questões com quatro alternativas e explicação, distribuídas em 15 assuntos, incluindo cinco de História. Cada rodada contém 10 questões embaralhadas, priorizando as que não apareceram na rodada anterior do mesmo assunto. A última seleção é guardada neste navegador; depois de duas rodadas, questões anteriores podem voltar.
+O conteúdo remoto está em `src/lib/authorQuestionBank.js`.
+`node scripts/generate-author-seed.mjs` gera `supabase/study-author-seed.sql`.
+A estrutura existente está em `supabase/study-author-questions.sql`.
+`node scripts/verify-author-practice.mjs` verifica esse caminho, incluindo a
+leitura no banco configurado. As novas aulas e questões locais não exigem
+executar esses arquivos nem atualizar tabelas.
 
-O conteúdo editável está em `src/lib/authorQuestionBank.js`. `node scripts/generate-author-seed.mjs` recria o arquivo de carga `supabase/study-author-seed.sql`, que atualiza as questões por identificador estável. A estrutura e a política de leitura pública estão em `supabase/study-author-questions.sql`. A carga já foi aplicada ao banco do projeto. `node scripts/verify-author-practice.mjs` verifica conteúdo, sorteio e leitura pública no banco configurado.
+## Documentação de manutenção
+
+- [Resumos, aulas e podcasts: formatos e lógica de inclusão](docs/resumos-e-podcasts.md).
+- [Catálogo recolhível, calculadora e anotações](docs/ferramentas-provas.md).
+- [Registro das inclusões de 25/10/2026](docs/atualizacoes-2026-10-25.md).
+- [Destrinchando o conteúdo: PISM e validação](docs/destrinchando-conteudo.md).
+- [Planejamento de estudos](docs/planejamento-estudos.md).
+- [Provas militares](docs/military-exams.md), [CBMERJ](docs/cbmerj-provas.md),
+  [EFOMM](docs/efomm.md), [ITA](docs/ita-2026.md) e
+  [ITA segunda fase](docs/ita-2026-segunda-fase.md).
+- [UERJ objetiva](docs/uerj-2026-objetiva.md) e [UERJ discursivas](docs/uerj-discursivas.md).
+
+### Validação das inclusões de estudo
+
+```bash
+node scripts/verify-study-expansion.mjs
+node scripts/verify-study-hub.mjs
+node scripts/walkthrough.test.mjs
+npm run build
+```
+
+A verificação da expansão é local. O verificador geral da área de estudos também
+consulta o banco configurado e pode depender de conexão. O build gera `dist/`;
+um push para `main` não confirma, por si só, o sucesso do deploy no provedor.

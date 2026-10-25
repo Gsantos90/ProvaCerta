@@ -74,6 +74,11 @@ const concepts = {
 for (const [topicId, questions] of Object.entries(concepts)) {
   for (const [text, correct, wrong1, wrong2, explanation] of questions) add(topicId, text, [correct, wrong1, wrong2], explanation)
 }
+for (const topic of studySummaries) {
+  for (const [text, correct, wrong1, wrong2, explanation] of topic.practice || []) {
+    add(topic.id, text, [correct, wrong1, wrong2], explanation)
+  }
+}
 export const summaryPracticeQuestions = bank
 export const practiceTopics = studySummaries.filter(topic => topic.subject !== 'Redação').map(topic => {
   const existing = studyTopics.find(item => item.id === topic.id)

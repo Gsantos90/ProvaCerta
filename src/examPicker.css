@@ -82,3 +82,14 @@
   .exam-summary,.exam-summary-art::after,.exam-summary-watermark,.exam-summary-body>.button svg{transition:none}
   .exam-summary:hover,.exam-summary:hover .exam-summary-art::after,.exam-summary:hover .exam-summary-watermark,.exam-summary:hover .exam-summary-body>.button svg{transform:none}
 }
+
+/* Categorias de provas recolhidas por padrão. */
+.catalog-category-toggle{display:flex;align-items:center;justify-content:space-between;gap:16px;cursor:pointer;list-style:none;padding:16px;border:1px solid var(--theme-border-e2e7ef,#e2e7ef);border-radius:12px;background:var(--theme-surface-fff,#fff)}
+.catalog-category-toggle::-webkit-details-marker{display:none}
+.catalog-category-toggle .catalog-category-head{margin:0;min-width:0}
+.catalog-category-action{display:flex;align-items:center;gap:8px;flex-shrink:0;font-size:12px;font-weight:600;color:var(--navy)}
+.catalog-category-toggle:focus-visible{outline:2px solid #637cff;outline-offset:3px}
+
+.catalog-category-disclosure[open] > summary{margin-bottom:20px}
+.catalog-category-disclosure[open] .catalog-category-action svg{transform:rotate(180deg)}
+@media(max-width:650px){.catalog-category-toggle{align-items:flex-start;flex-direction:column;gap:12px}.catalog-category-action{align-self:flex-end}}

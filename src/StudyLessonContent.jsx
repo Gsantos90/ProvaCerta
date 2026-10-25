@@ -33,6 +33,7 @@ export default function StudyLessonContent({ lesson, active = true }) {
       {lesson.details.length > 0 && <section aria-label="Pontos que o aluno precisa dominar"><h3>Pontos que o aluno precisa dominar</h3>{lesson.details.map(([title, ...paragraphs]) => <section key={title}><h4>{title}</h4>{paragraphs.map((paragraph, index) => <p key={index}>{paragraph}</p>)}</section>)}</section>}
       {appearanceIndex >= 0 && <><h3>Como esse tema costuma aparecer em prova</h3>{lesson.content.slice(appearanceIndex + 1).map((paragraph, index) => <p key={index}>{paragraph}</p>)}</>}
     </div>
+    {lesson.sources?.length > 0 && <section className="study-expanded-lesson" aria-label="Referências para aprofundar"><h3>Referências para aprofundar</h3><p>Texto didático autoral. Consulte os materiais institucionais abaixo para ampliar o estudo e conhecer fontes e pesquisas sobre o tema.</p><ul>{lesson.sources.map(([title, url]) => <li key={url}><a href={url} target="_blank" rel="noopener noreferrer">{title}</a></li>)}</ul></section>}
     {lesson.subject !== 'História' && lesson.questions?.length > 0 && <Quiz key={lesson.id} questions={lesson.questions} title={lesson.title} />}
   </>
 }

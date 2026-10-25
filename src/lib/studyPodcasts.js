@@ -1,4 +1,28 @@
 export const studyPodcasts = {
+  'grandes-navegacoes': {
+    id: 'grandes-navegacoes-custo-humano',
+    title: 'O custo humano das Grandes Navegações',
+    description: 'Ouça o episódio e aprofunde sua revisão com os pontos do resumo.',
+    src: 'audio/grandes-navegacoes-custo-humano.m4a',
+    subject: 'História',
+    label: 'Grandes Navegações',
+  },
+  'america-espanhola': {
+    id: 'america-espanhola-maquina-colonial',
+    title: 'Como funcionava a máquina colonial espanhola',
+    description: 'Ouça o episódio e aprofunde sua revisão com os pontos do resumo.',
+    src: 'audio/america-espanhola-maquina-colonial.m4a',
+    subject: 'História',
+    label: 'América espanhola',
+  },
+  'america-inglesa': {
+    id: 'america-inglesa-treze-colonias',
+    title: 'A máquina econômica das Treze Colônias',
+    description: 'Ouça o episódio e aprofunde sua revisão com os pontos do resumo.',
+    src: 'audio/america-inglesa-treze-colonias.m4a',
+    subject: 'História',
+    label: 'América inglesa',
+  },
   'idade-media': {
     id: 'idade-media-peste-negra',
     title: 'Como a Peste Negra destruiu o feudalismo',

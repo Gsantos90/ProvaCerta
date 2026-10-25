@@ -1,3 +1,4 @@
+import ExamTools from './ExamTools'
 import { militaryQuestionMedia, militaryOfficialSource } from './lib/militaryExams'
 import { pmerjRolesConfig, pmerjOfficialSource } from './lib/pmerjExams'
 import React, { useEffect, useMemo, useState, useRef } from 'react'
@@ -1707,15 +1708,15 @@ function App() {
   const featuredCards = { ebserh: <EbserhExamCard years={['2025', '2023', '2022']} onStart={startMilitaryExam} loading={militaryLoading === 'ebserh'} error={militaryError.ebserh} />, efomm: <EfommExamCard years={['2026', '2025']} onStart={startMilitaryExam} loading={militaryLoading === 'efomm'} error={militaryError.efomm} />, ita: <ItaExamCard years={['2026']} onStart={startMilitaryExam} loading={militaryLoading === 'ita'} error={militaryError.ita} />, cbmerj: <BombeirosExamCard years={['2026','2025','2024','2023']} onStart={startMilitaryExam} loading={militaryLoading === 'cbmerj'} error={militaryError.cbmerj} />, esa: <MilitaryExamCard institution="esa" years={['2026']} onStart={startMilitaryExam} loading={militaryLoading === 'esa'} error={militaryError.esa} />, espcex: <MilitaryExamCard institution="espcex" years={['2026']} onStart={startMilitaryExam} loading={militaryLoading === 'espcex'} error={militaryError.espcex} />, inss: inssCard, pism: pismCard, enem: enemCard, uerj: uerjCard, usp: uspCard, bb: bbCard, cnu: cnuCard, oab: oabCard, pmrj: pmerjCard, correios: correiosCard, caixa: caixaCard, pc: pcCard, pf: pfCard }
 
   if (screen === 'uerj-discursive') {
-    return <div className="app-shell"><Header onStudy={openStudy} activeScreen="catalog" onAccount={openAccount} menuOpen={menuOpen} setMenuOpen={setMenuOpen} onHome={() => setScreen('home')} onSimulado={openSimulado} onCatalog={() => setScreen('catalog')} onAbout={goToAbout} onEssay={() => { setScreen('essay'); setMenuOpen(false) }} /><UerjDiscursive key={discursiveYear} year={discursiveYear} onBack={() => setScreen('catalog')} /></div>
+    return <div className="app-shell"><Header onStudy={openStudy} activeScreen="catalog" onAccount={openAccount} menuOpen={menuOpen} setMenuOpen={setMenuOpen} onHome={() => setScreen('home')} onSimulado={openSimulado} onCatalog={() => setScreen('catalog')} onAbout={goToAbout} onEssay={() => { setScreen('essay'); setMenuOpen(false) }} /><ExamTools examKey={`uerj-discursive:${discursiveYear}`} /><UerjDiscursive key={discursiveYear} year={discursiveYear} onBack={() => setScreen('catalog')} /></div>
   }
 
   if (screen === 'ita-discursive') {
-    return <div className="app-shell"><Header onStudy={openStudy} activeScreen="catalog" onAccount={openAccount} menuOpen={menuOpen} setMenuOpen={setMenuOpen} onHome={() => setScreen('home')} onSimulado={openSimulado} onCatalog={() => setScreen('catalog')} onAbout={goToAbout} onEssay={() => { setScreen('essay'); setMenuOpen(false) }} /><React.Suspense fallback={<main className="discursive-page"><p role="status">Carregando a segunda fase do ITA…</p></main>}><ItaDiscursive onBack={() => setScreen('catalog')} /></React.Suspense></div>
+    return <div className="app-shell"><Header onStudy={openStudy} activeScreen="catalog" onAccount={openAccount} menuOpen={menuOpen} setMenuOpen={setMenuOpen} onHome={() => setScreen('home')} onSimulado={openSimulado} onCatalog={() => setScreen('catalog')} onAbout={goToAbout} onEssay={() => { setScreen('essay'); setMenuOpen(false) }} /><React.Suspense fallback={<main className="discursive-page"><p role="status">Carregando a segunda fase do ITA…</p></main>}><ExamTools examKey="ita-discursive" /><ItaDiscursive onBack={() => setScreen('catalog')} /></React.Suspense></div>
   }
 
   if (screen === 'essay') {
-    return <div className="app-shell"><Header onStudy={openStudy} activeScreen={screen} onAccount={openAccount} menuOpen={menuOpen} setMenuOpen={setMenuOpen} onHome={() => setScreen('home')} onSimulado={openSimulado} onCatalog={() => setScreen('catalog')} onAbout={goToAbout} onEssay={() => { setScreen('essay'); setMenuOpen(false) }} /><React.Suspense fallback={<main className="essay-page"><p role="status">Carregando a área de redação…</p></main>}><EssayPractice onBack={() => setScreen('home')} /></React.Suspense></div>
+    return <div className="app-shell"><Header onStudy={openStudy} activeScreen={screen} onAccount={openAccount} menuOpen={menuOpen} setMenuOpen={setMenuOpen} onHome={() => setScreen('home')} onSimulado={openSimulado} onCatalog={() => setScreen('catalog')} onAbout={goToAbout} onEssay={() => { setScreen('essay'); setMenuOpen(false) }} /><React.Suspense fallback={<main className="essay-page"><p role="status">Carregando a área de redação…</p></main>}><ExamTools examKey="essay" /><EssayPractice onBack={() => setScreen('home')} /></React.Suspense></div>
   }
 
   if (screen === 'simulado') {
@@ -1892,10 +1893,24 @@ function App() {
             return visibleCategories.map((category) => {
               return (
                 <section className="catalog-category" key={category.id}>
-                  <div className="catalog-category-head"><h2>{category.title}</h2><p>{category.description}</p></div>
-                  <div className="exam-cards trio">
-                    {category.exams.map(exam => <ExamPicker key={exam.id} exam={exam}>{featuredCards[exam.id]}</ExamPicker>)}
-                  </div>
+                  {['faculdades', 'concursos', 'oab'].includes(category.id) ? (
+                    <details className="catalog-category-disclosure">
+                      <summary className="catalog-category-toggle">
+                        <div className="catalog-category-head"><h2>{category.title}</h2><p>{category.description}</p></div>
+                        <span className="catalog-category-action"><ChevronDown size={20} aria-hidden="true" /></span>
+                      </summary>
+                      <div className="exam-cards trio">
+                        {category.exams.map(exam => <ExamPicker key={exam.id} exam={exam}>{featuredCards[exam.id]}</ExamPicker>)}
+                      </div>
+                    </details>
+                  ) : (
+                    <>
+                      <div className="catalog-category-head"><h2>{category.title}</h2><p>{category.description}</p></div>
+                      <div className="exam-cards trio">
+                        {category.exams.map(exam => <ExamPicker key={exam.id} exam={exam}>{featuredCards[exam.id]}</ExamPicker>)}
+                      </div>
+                    </>
+                  )}
                 </section>
               )
             })
@@ -1978,6 +1993,7 @@ function App() {
     }
     return (
       <div className="app-shell exam-shell">
+        <ExamTools examKey={`${selectedExam}:${examLabel}:${examDay}`} />
         <Header onStudy={openStudy} activeScreen={screen} onAccount={openAccount} hideNavigation onHome={() => setScreen('home')} onSimulado={openSimulado} onCatalog={() => setScreen('catalog')} onAbout={goToAbout} onEssay={() => { setScreen('essay'); setMenuOpen(false) }} />
         <main className="exam-page">
           <div className="exam-topline">
