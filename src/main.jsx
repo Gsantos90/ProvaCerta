@@ -13,7 +13,7 @@ import { supabase } from './lib/supabase'
 import { supportImageUrls } from './lib/safeUrls'
 import { isCorrectAnswer, isAnnulledAnswer } from './lib/examAnswers'
 import { inssOfficialSource } from './lib/inssSources'
-import { inssYears, inssExamsByYear, inssExamFor, inssExamFromSlug, inssCnuNotice } from './lib/inssExams'
+import { inssYears, inssExamsByYear, inssExamFor, inssExamFromSlug } from './lib/inssExams'
 import { correiosOfficialSource } from './lib/correiosSources'
 import { fuvestOfficialSource } from './lib/fuvestSources'
 import { enemExams, enemAreas, enemHasLanguage, selectEnemQuestions, enemOfficialSource } from './lib/enemExams'
@@ -1964,7 +1964,6 @@ function App() {
               {percentage >= 70 ? 'Excelente trabalho! Seu ritmo de estudo está dando resultado.' : 'Cada questão é uma oportunidade. Revise os temas e tente novamente.'}
             </p>
             {isInss && <p className="result-message">Acerto: +1 · Erro: -1 · Em branco: 0. {inssScore.annulled} itens anulados recebem +1 cada. Correção conforme o gabarito definitivo da edição selecionada.</p>}
-            {selectedExam === 'inss' && !inssBinary && <p className="result-message">{inssCnuNotice}</p>}
             <div className="result-stats">
               <div><strong>{isInss ? inssScore.correct : `${percentage}%`}</strong><span>{isInss ? "Acertos" : "Aproveitamento"}</span></div>
               <button className="review-stat" onClick={() => { setCurrent(0); setScreen('review') }}><strong>{isInss ? inssScore.wrong : activeQuestions.length - score}</strong><span>{isInss ? "Erros · revisar" : "Para revisar"}</span></button>
@@ -2074,7 +2073,6 @@ function App() {
               {selectedExam === 'study' && <p className="official-source">{question.examTitle} · Questão {question.number}</p>}
               <div className="question-heading"><span>Questão {String(current + 1).padStart(2, '0')}</span><Clock3 size={16} /> <small>{isReview ? 'Revisão' : session?.deadline ? 'Modo de prova' : 'Sem tempo limite'}</small>{speechSupported && <button type="button" className={`listen-button ${speakingId === 'question' ? 'active' : ''}`} onClick={() => speak('question', `${question.text}. ${question.options.map((option, index) => binary ? option : `Alternativa ${letters[index]}. ${option}`).join('. ')}`)} aria-label={speakingId === 'question' ? 'Parar leitura da questão' : 'Ouvir a questão'}>{speakingId === 'question' ? <><Square size={14} /> Parar</> : <><Volume2 size={15} /> Ouvir questão</>}</button>}</div>
               {inssBinary && <p className="official-source">Acerto: +1 · Erro: -1 · Em branco: 0 · Anulado: +1.</p>}
-              {selectedExam === 'inss' && !inssBinary && <p className="official-source">{inssCnuNotice}</p>}
               <h1 className={question.examSlug?.match(/^(esa|espcex|ita|efomm)-/) ? 'military-question-text' : undefined}>{question.text}</h1>
               {question.sourceUrl && <p className="official-source"><a href={question.sourceUrl} target="_blank" rel="noopener noreferrer">{question.examSlug?.startsWith('ebserh-') ? 'Consultar fonte da questão da EBSERH' : 'Abrir questão e textos no caderno oficial'} {question.examSlug?.startsWith('ebserh-') ? '' : question.examSlug?.startsWith('efomm-') ? 'da EFOMM' : question.examSlug?.startsWith('ita-') ? 'do ITA' : question.examSlug?.startsWith('uerj-') ? 'da UERJ' : question.examSlug?.startsWith('cbmerj-') ? 'do CBMERJ' : question.examSlug?.startsWith('pmerj-') ? 'da PMERJ' : question.sourceUrl.includes('cebraspe.org.br') ? 'do Cebraspe' : question.sourceUrl.includes('fuvest.br') ? 'da FUVEST' : question.sourceUrl.includes('inep') ? 'do Inep' : question.examSlug?.startsWith('esa-') ? 'da ESA' : question.examSlug?.startsWith('espcex-') ? 'da EsPCEx' : 'da UFJF'} ↗</a></p>}
               <div className="options">

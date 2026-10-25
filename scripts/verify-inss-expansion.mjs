@@ -70,7 +70,7 @@ for(const year of inssYears)for(const exam of inssExamsByYear[year]) {
   const card=renderToStaticMarkup(React.createElement(mod.exports.InssCard,{year,role:exam.value,years:inssYears}))
   assert.equal((card.match(/<select(?:\s|>)/g)||[]).length,2)
   assert.ok(!/<button[^>]*disabled/.test(card))
-  assert.equal(card.includes('sem os pesos específicos'),year==='2025')
+  assert.equal(card.includes('sem os pesos específicos'),false)
   const qs=banks[exam.slug] || official.cnu2025[exam.value.slice(-1)].map((answer,i)=>({number:i+1,text:'Questão de teste do CNU',subject:'Conhecimentos Gerais',options:['Um','Dois','Três','Quatro','Cinco'],answer:answer==='*'?'A/B/C/D/E':answer,examSlug:exam.slug}))
   for(const screen of ['result','review']) {
     // A different catalog selection must not change the running exam's title/scoring.
@@ -79,7 +79,7 @@ for(const year of inssYears)for(const exam of inssExamsByYear[year]) {
     assert.equal(html.includes('Acerto: +1'),exam.binary)
     if(screen==='result') {
       assert.equal(html.includes('pontos líquidos'),exam.binary)
-      assert.equal(html.includes('sem os pesos específicos'),!exam.binary)
+      assert.equal(html.includes('sem os pesos específicos'),false)
     } else assert.ok(html.includes(year) && !html.includes('Módulo I'))
   }
   const payload=attemptPayload({session:{id:'fixture',startedAt:1,endedAt:2},questions:qs,answers:{},title:exam.title,binary:exam.binary,source:'inss'})

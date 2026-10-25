@@ -2,7 +2,7 @@ import React from 'react'
 import { ArrowRight, ChevronDown } from 'lucide-react'
 import { enemAreas, enemHasLanguage } from './lib/enemExams'
 import { pismSelectionLabel } from './lib/pismSources'
-import { inssExamsByYear, inssCnuNotice } from './lib/inssExams'
+import { inssExamsByYear } from './lib/inssExams'
 
 export function EnemCard({ catalog, year, setYear, discipline, setDiscipline, language, setLanguage, onStart, loading, error }) {
   return (
@@ -248,7 +248,6 @@ export function InssCard({ onStart, loading, error, years = ['2025', '2022', '20
           <label>Ano da prova<span className="select-wrap"><select aria-label="Ano da prova do INSS" value={year} onChange={event => setYear?.(event.target.value)} disabled={loading}>{years.map(value => <option key={value} value={value}>{value}</option>)}</select><ChevronDown size={16} /></span></label>
           <label>{year === '2025' ? 'Cargo / bloco do CNU' : 'Cargo'}<span className="select-wrap"><select aria-label="Cargo do INSS" value={role} onChange={event => onRoleChange?.(event.target.value)} disabled={loading}>{roles.map(exam => <option key={exam.value} value={exam.value}>{exam.label}</option>)}</select><ChevronDown size={16} /></span></label>
         </div>
-        {year === '2025' && <p className="official-source">{inssCnuNotice}</p>}
         {error && <p className="api-error" role="alert">{error}</p>}
         <button className={`button ${!loading && selected ? 'primary' : 'disabled'} full`} onClick={onStart} disabled={loading || !selected}>
           {loading ? 'Carregando questões…' : 'Começar prova'} {!loading && <ArrowRight size={17} />}

@@ -18,7 +18,7 @@ Os blocos 2025 já existiam na área CNU. O INSS referencia os mesmos registros,
 
 Em 2016/2022, A representa Certo e B representa Errado. `A/B/C/D/E` representa anulação. Pontuação: acerto +1, erro -1, em branco 0; anulado +1 mesmo em branco. Técnico 2016 tem cinco anulados: 28, 32, 39, 53 e 79; Analista 2016 tem dois: 58 e 85. As provas reproduzem a legislação e o contexto da aplicação histórica de 15/05/2016.
 
-No CNU/FGV, usam-se alternativas A–E, sem desconto por erro. O resultado mostra acertos simples e credita anuladas, seguindo a regra habitual do site. Não calcula a nota ponderada dos eixos por cargo, nota discursiva, títulos ou classificação oficial. Essa limitação aparece no seletor, durante a prova e no resultado.
+No CNU/FGV, usam-se alternativas A–E, sem desconto por erro. O resultado mostra acertos simples e credita anuladas, seguindo a regra habitual do site. Não calcula a nota ponderada dos eixos por cargo, nota discursiva, títulos ou classificação oficial. O aviso explicativo foi retirado das telas a pedido do usuário; a regra de correção permanece documentada aqui.
 
 O título depende do slug da prova ativa, não dos seletores do catálogo. Uma sessão recuperada mantém seu título. A modalidade é identificada pelas opções do banco; o histórico recebe `cebraspe` somente para as provas binárias e `standard` para CNU, com `exam_source=inss` quando iniciado pelo card INSS. Os IDs e slugs de questões compartilhadas continuam apontando para o CNU para relatos de problemas.
 

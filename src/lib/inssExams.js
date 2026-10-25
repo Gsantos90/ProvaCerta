@@ -23,4 +23,3 @@ export function inssExamFromSlug(slug) {
   return Object.values(inssExamsByYear).flat().find(exam => exam.slug === slug)
 }
 
-export const inssCnuNotice = 'Treino com 90 questões de múltipla escolha. Resultado em acertos simples, sem desconto por erro e sem os pesos específicos de cada cargo do edital.'

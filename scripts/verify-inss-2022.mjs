@@ -5,7 +5,7 @@ import { renderToStaticMarkup } from 'react-dom/server'
 import { transformSync } from 'esbuild'
 import { ArrowRight, ChevronDown } from 'lucide-react'
 import { cebraspeScore, isBinaryQuestion, binaryAnswerLabel } from '../src/lib/cebraspeScore.js'
-import { inssExamsByYear, inssCnuNotice } from '../src/lib/inssExams.js'
+import { inssExamsByYear } from '../src/lib/inssExams.js'
 import { inssOfficialSource } from '../src/lib/inssSources.js'
 
 const sql = readFileSync(new URL('../supabase/seed-inss-2022-tecnico.sql', import.meta.url), 'utf8')
@@ -45,7 +45,7 @@ assert.ok(sql.includes('on conflict (exam_id,number) do update'))
 const main = readFileSync(new URL('../src/ExamCards.jsx', import.meta.url), 'utf8')
 const cardSource = main.slice(main.indexOf('export function InssCard('), main.indexOf('export function CaixaCard('))
 const cardCode = transformSync(cardSource.replace('export function ', 'function '), { loader: 'jsx', format: 'cjs' }).code
-const Card = new Function('React', 'ArrowRight', 'ChevronDown', 'inssExamsByYear', 'inssCnuNotice', cardCode + '\nreturn InssCard')(React, ArrowRight, ChevronDown, inssExamsByYear, inssCnuNotice)
+const Card = new Function('React', 'ArrowRight', 'ChevronDown', 'inssExamsByYear', cardCode + '\nreturn InssCard')(React, ArrowRight, ChevronDown, inssExamsByYear)
 const ready = renderToStaticMarkup(React.createElement(Card, { onStart() {}, loading: false, error: '' }))
 assert.ok(ready.includes('INSS') && ready.includes('2022') && ready.includes('120 itens') && ready.includes('Começar prova'))
 const loading = renderToStaticMarkup(React.createElement(Card, { onStart() {}, loading: true, error: 'Falha ao carregar' }))
