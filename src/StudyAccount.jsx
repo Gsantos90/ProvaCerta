@@ -76,7 +76,7 @@ export default function StudyAccount({ initialTab = 'history', onBack }) {
         </article>)}
         {tab === 'mistakes' && <><p>Questões erradas das tentativas desta página do histórico. Questões em branco e anuladas não entram no caderno.</p>{rows.length > 0 && !mistakes.length && <section className="account-panel"><p>Nenhuma questão errada nestas tentativas.</p></section>}{mistakes.map(q => <details className="account-panel mistake-card" key={`${q.attemptId}-${q.position}`}>
           <summary>{q.title} · Questão {q.number} · {q.subject}</summary>
-          <p className="mistake-support">{q.support}</p><SupportImages value={q.supportImage || q.support_image} /><h3>{q.text}</h3>
+          <p className="mistake-support">{q.support}</p><SupportImages value={q.supportImage || q.support_image} /><SupportImages value={q.originalImages} /><h3 className={q.originalImages?.length ? 'original-question-accessible' : undefined}>{q.text}</h3>
           <ol className="mistake-options" type="A">{q.options.map((option, i) => { const letter = String.fromCharCode(65 + i); return <li key={letter} className={q.answer.split('/').includes(letter) ? 'correct' : q.selected === letter ? 'incorrect' : ''}>{option}{q.selected === letter && <strong> — Sua resposta</strong>}{q.answer.split('/').includes(letter) && <strong> — Gabarito</strong>}</li> })}</ol>
           {q.explanation && <p className="mistake-support"><strong>Explicação: </strong>{q.explanation}</p>}{q.sourceUrl && /^https?:\/\//.test(q.sourceUrl) && <a href={q.sourceUrl} target="_blank" rel="noreferrer">Abrir caderno oficial ↗</a>}
         </details>)}</>}

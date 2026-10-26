@@ -32,6 +32,7 @@ Origens de prova disponíveis no catálogo:
 - **ITA**, primeira e segunda fase de 2026;
 - **EFOMM**, **ESA**, **EsPCEx** e **CBMERJ**;
 - **EBSERH**;
+- **Unicamp** 2026, 2025 e 2024: primeira fase interativa (216 questões) e segunda fase em PDF com respostas esperadas. [Fontes e importação](docs/unicamp-2024-2026.md).
 - **INSS** 2016 (Técnico e Analista/Serviço Social), 2022 (Técnico) e CNU 2025 (Analista, blocos 1, 3, 4 e 5).
 
 Entradas ainda em preparação são identificadas como **Em breve**. Um card

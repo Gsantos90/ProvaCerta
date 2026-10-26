@@ -8,7 +8,7 @@ export function attemptSource(attempt) {
   const title = attempt.exam_title || ''
   const rules = [
     ['pism', /^(PISM\b|20\d{2}(?:-[12])?$)/i], ['enem', /^ENEM\b/i],
-    ['bb', /^Banco do Brasil\b/i], ['cnu', /^CNU\b/i], ['oab', /^OAB\b/i],
+    ['bb', /^Banco do Brasil\b/i], ['cnu', /^CNU\b/i], ['oab', /^OAB\b/i], ['unicamp', /^Unicamp\b/i],
     ['pmrj', /^PMERJ\b/i], ['correios', /^Correios\b/i], ['inss', /^INSS\b/i], ['ebserh', /^EBSERH\b/i],
     ['caixa', /^CAIXA\b/i], ['pc', /^Polícia Civil\b/i], ['pf', /^Polícia Federal\b/i],
     ['esa', /^ESA\b/i], ['espcex', /^EsPCEx\b/i], ['efomm', /^EFOMM\b/i],

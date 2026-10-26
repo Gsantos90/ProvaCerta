@@ -1,0 +1,11 @@
+.original-question{display:flex;flex-direction:column;gap:16px;margin:18px 0 24px;min-width:0}
+.original-question-page{display:block;width:100%;padding:10px;background:#fff;border:1px solid var(--line,#e2e7ef);border-radius:10px;cursor:zoom-in;text-align:center}
+.original-question-page img{display:block;max-width:100%;width:100%;height:auto;margin:auto}
+.original-question-page:focus-visible{outline:3px solid #637cff;outline-offset:3px}
+.original-question-accessible{position:absolute!important;width:1px;height:1px;padding:0;margin:-1px!important;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}
+.unicamp-documents{display:flex;flex-direction:column;gap:18px;font-size:13px;line-height:1.6}
+.unicamp-documents p{margin:0;color:var(--muted)}
+.unicamp-documents>div{display:flex;flex-direction:column;gap:6px;padding-bottom:14px;border-bottom:1px solid var(--line)}
+.unicamp-documents span{display:flex;flex-wrap:wrap;gap:16px}
+.unicamp-documents a{color:var(--navy);text-decoration:underline;text-underline-offset:3px}
+.unicamp-documents a:focus-visible{outline:2px solid #637cff;outline-offset:3px}
