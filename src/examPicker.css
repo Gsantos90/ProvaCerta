@@ -84,7 +84,9 @@
 }
 
 /* Categorias de provas recolhidas por padrão. */
-.catalog-category-toggle{display:flex;align-items:center;justify-content:space-between;gap:16px;cursor:pointer;list-style:none;padding:16px;border:1px solid var(--theme-border-e2e7ef,#e2e7ef);border-radius:12px;background:var(--theme-surface-fff,#fff)}
+.catalog-category-panel{border:1px solid var(--theme-border-e2e7ef,#e2e7ef);border-radius:12px;background:var(--theme-surface-fff,#fff);min-width:0}
+.catalog-category-panel .exam-cards{padding:0 16px 16px}
+.catalog-category-toggle{display:flex;align-items:center;justify-content:space-between;gap:16px;cursor:pointer;list-style:none;padding:16px;border-radius:12px}
 .catalog-category-toggle::-webkit-details-marker{display:none}
 .catalog-category-toggle .catalog-category-head{margin:0;min-width:0}
 .catalog-category-action{display:flex;align-items:center;gap:8px;flex-shrink:0;font-size:12px;font-weight:600;color:var(--navy)}

@@ -1901,6 +1901,7 @@ function App() {
               return (
                 <section className="catalog-category" key={category.id}>
                   {['faculdades', 'concursos', 'oab'].includes(category.id) ? (
+                    <div className="catalog-category-panel">
                     <details className="catalog-category-disclosure">
                       <summary className="catalog-category-toggle">
                         <div className="catalog-category-head"><h2>{category.title}</h2><p>{category.description}</p></div>
@@ -1910,6 +1911,7 @@ function App() {
                         {category.exams.map(exam => <ExamPicker key={exam.id} exam={exam}>{featuredCards[exam.id]}</ExamPicker>)}
                       </div>
                     </details>
+                    </div>
                   ) : (
                     <>
                       <div className="catalog-category-head"><h2>{category.title}</h2><p>{category.description}</p></div>
