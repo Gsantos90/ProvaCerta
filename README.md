@@ -898,3 +898,14 @@ npm run build
 A verificação da expansão é local. O verificador geral da área de estudos também
 consulta o banco configurado e pode depender de conexão. O build gera `dist/`;
 um push para `main` não confirma, por si só, o sucesso do deploy no provedor.
+
+
+### Unesp — vestibulares 2026, 2025 e 2024
+
+- Card em **Faculdades públicas**, no padrão atual, com ano e fase. A primeira fase oferece 90 questões por edição (270 no total), cinco alternativas, correção, revisão, histórico e simulado personalizado.
+- Cadernos **versão 1**, processos Vunesp `VNSP2504`, `VNSP2404` e `VNSP2303`. Os PDFs originais da banca e seus gabaritos são cópias públicas disponíveis em `https://www.curso-objetivo.br/vestibular/resolucao-comentada/unesp/`. Os processos oficiais ficam em `https://www.vunesp.com.br/<código>`; o acesso a provas no portal da organizadora exige login.
+- Imagens originais preservam fórmulas, gráficos e alternativas visuais. Textos comuns aparecem como apoio em todas as questões correspondentes; a tabela periódica acompanha Natureza/Matemática. A extração textual auxilia acessibilidade; a imagem do caderno é a referência visual.
+- Segunda fase: dois cadernos por ano, com questões discursivas e redação em PDF; sem correção automática dessas respostas. Em 2024, o arquivo original combinado foi separado nas páginas 1–28 e 29–52.
+- `scripts/import-unesp.py`: baixa/valida os cadernos e gabaritos, recorta por coluna, trata textos compartilhados e gera `unespSources.js`, a fixture de respostas e `supabase/seed-unesp-2024-2026.sql`. O seed usa upsert por slug/número, preservando IDs e explicações existentes.
+- `scripts/download-unesp-fase2.py`: reproduz a obtenção dos seis cadernos discursivos. Arquivos públicos em `public/provas/unesp` e `public/unesp-{ano}`.
+- `node scripts/verify-unesp.mjs`: confere os 270 gabaritos, cinco alternativas, integridade das imagens, doze PDFs, pontuação, links seguros e renderização real das provas/cartões nos três anos.
