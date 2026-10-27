@@ -9,3 +9,6 @@
 .unicamp-documents span{display:flex;flex-wrap:wrap;gap:16px}
 .unicamp-documents a{color:var(--navy);text-decoration:underline;text-underline-offset:3px}
 .unicamp-documents a:focus-visible{outline:2px solid #637cff;outline-offset:3px}
+
+
+.national-question-text,.national-option-text,.national-support-text { white-space: pre-wrap; overflow-wrap: anywhere; }

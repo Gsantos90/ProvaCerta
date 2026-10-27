@@ -68,6 +68,12 @@ export default function EssayPractice({ onBack }) {
   }, [draft, initial.error])
 
   const updateWriting = (field, value) => setDraft(old => ({ ...old, [field]: value, theme: field === 'topic' ? null : old.theme, revision: old.revision + 1 }))
+  const updateThemeFilters = (exam, year) => {
+    setThemeExam(exam)
+    setThemeYear(year)
+    const [theme] = filterEssayThemes(themes, exam, year)
+    setDraft(old => ({ ...old, topic: theme?.title || '', theme: theme || null, revision: old.revision + 1 }))
+  }
   const drawTheme = () => {
     const theme = pickEssayTheme(availableThemes, draft.theme?.slug)
     if (theme) setDraft(old => ({ ...old, topic: theme.title, theme, revision: old.revision + 1 }))
@@ -99,13 +105,13 @@ export default function EssayPractice({ onBack }) {
   return (
     <main className="essay-page">
       <button className="back-link" onClick={onBack}><ArrowLeft size={15} /> Voltar ao início</button>
-      <div className="essay-heading"><p className="eyebrow">Escrita e revisão</p><h1>Praticar redação</h1><p>Escreva um texto argumentativo e revise por etapas. Você avalia as ideias; as verificações ajudam na releitura.</p></div>
+      <div className="essay-heading"><p className="eyebrow">Escrita e revisão</p><h1>Praticar redação</h1><p>Pratique diferentes gêneros de escrita e revise por etapas. Você avalia as ideias; as verificações ajudam na releitura.</p></div>
       <section className="essay-panel essay-theme-panel" aria-labelledby="essay-theme-title">
         <div className="essay-theme-heading"><div><p className="eyebrow">Encontre seu próximo desafio</p><h2 id="essay-theme-title">Sortear um tema</h2></div><Shuffle size={24} /></div>
         <p className="essay-note">Temas reais de provas recentes. Escolha os filtros e sorteie uma proposta. Seu texto permanece no editor ao trocar o tema.</p>
         <div className="essay-theme-controls">
-          <label className="essay-field">Prova<select value={themeExam} onChange={event => { setThemeExam(event.target.value); setThemeYear('all') }} disabled={themesLoading}><option value="all">Todas as provas</option>{themeExams.map(exam => <option key={exam} value={exam}>{exam}</option>)}</select></label>
-          <label className="essay-field">Ano<select value={themeYear} onChange={event => setThemeYear(event.target.value)} disabled={themesLoading}><option value="all">Todos os anos</option>{themeYears.map(year => <option key={year} value={year}>{year}</option>)}</select></label>
+          <label className="essay-field">Prova<select value={themeExam} onChange={event => updateThemeFilters(event.target.value, 'all')} disabled={themesLoading}><option value="all">Todas as provas</option>{themeExams.map(exam => <option key={exam} value={exam}>{exam}</option>)}</select></label>
+          <label className="essay-field">Ano<select value={themeYear} onChange={event => updateThemeFilters(themeExam, event.target.value)} disabled={themesLoading}><option value="all">Todos os anos</option>{themeYears.map(year => <option key={year} value={year}>{year}</option>)}</select></label>
           <button className="button primary" onClick={drawTheme} disabled={themesLoading || !availableThemes.length}><Shuffle size={17} /> {themesLoading ? 'Carregando temas…' : 'Sortear tema'}</button>
         </div>
         {!themesLoading && <p className="essay-note">{availableThemes.length} {availableThemes.length === 1 ? 'tema disponível' : 'temas disponíveis'} para estes filtros.</p>}

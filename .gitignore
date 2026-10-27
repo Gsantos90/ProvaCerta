@@ -6,3 +6,6 @@ __pycache__/
 .env
 .env.*
 !.env.example
+
+# Local AI infrastructure (separate repository)
+tools/ai-starter-kit/

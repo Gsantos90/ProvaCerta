@@ -9,6 +9,7 @@ import { chemistryLessons } from './chemistryLessons.js'
 import { scienceLessons } from './scienceLessons.js'
 import { historySummaries } from './historyLessons.js'
 import { advancedMathSummaries } from './advancedMathLessons.js'
+import { expandedScienceSummaries } from './expandedScienceLessons.js'
 
 // Resumos autorais. A existência de um resumo não indica uma rodada de questões curada.
 const additionalSummaries = [
@@ -260,5 +261,6 @@ for (const [id, scienceLesson] of Object.entries(scienceLessons)) {
 }
 for (const summary of historySummaries) summaries.set(summary.id, { ...summary, lesson: { ...summary.lesson, podcast: studyPodcasts[summary.id] } })
 for (const summary of advancedMathSummaries) summaries.set(summary.id, summary)
+for (const summary of expandedScienceSummaries) summaries.set(summary.id, summary)
 export const studySummaries = [...summaries.values()]
 export const summarySubjects = [...new Set(studySummaries.map(topic => topic.subject))]

@@ -44,7 +44,7 @@ export default function StudyPodcast({ podcast, active = true }) {
   }
   return <section className={`study-podcast${playing ? ' is-playing' : ''}`} aria-labelledby={`${id}-title`}>
     <div className="podcast-cover" aria-hidden="true">
-      <span className="podcast-cover-label">PROVA CERTA · EM ÁUDIO</span>
+      <span className="podcast-cover-label">Prova Certa · EM ÁUDIO</span>
       <div className="podcast-compass"><span className="compass-north">N</span><Compass strokeWidth={1} /><span className="compass-south">S</span></div>
       <div className="podcast-cover-title"><strong>{podcast.label}</strong></div>
       <div className="podcast-waves">{[12, 22, 15, 30, 20, 38, 26, 17, 33, 23, 14, 28, 18].map((height, index) => <span key={index} style={{ height, animationDelay: `${index * 90}ms` }} />)}</div>

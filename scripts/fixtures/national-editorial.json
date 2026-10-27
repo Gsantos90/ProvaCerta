@@ -1,0 +1,272 @@
+{
+  "receita-2014-auditor-p1": {
+    "61": {
+      "text": "Em um teste de hipóteses bilateral, com nível de significância α, cujas estatísticas de teste calculadas e tabeladas são designadas por T_c e T_α, respectivamente, pode-se afirmar que:",
+      "options": [
+        "se −T_α ≤ T_c ≤ T_α, rejeita-se H₀.",
+        "se −T_α ≤ T_c ≤ T_α, não se pode rejeitar H₀.",
+        "a probabilidade de se rejeitar H₀, sendo H₀ verdadeira, é igual a α/2.",
+        "ocorre erro tipo I quando se aceita H₀ e H₀ é falsa.",
+        "se α for igual a 5%, então a probabilidade de ocorrer erro tipo II é 95%."
+      ]
+    },
+    "66": {
+      "text": "Considere a função bijetora f, de ℝ em ℝ, definida por f(x) = x² − 1, se x ≥ 0, e f(x) = x − 1, se x < 0, em que ℝ é o conjunto de números reais. Então os valores da função inversa de f, quando x = −8 e x = 8 são, respectivamente, iguais a:",
+      "options": [
+        "−7; 3",
+        "−7; −3",
+        "1/9; 1/63",
+        "−1/9; −1/63",
+        "−63; 9"
+      ]
+    },
+    "67": {
+      "text": "O cosseno de um ângulo x, com π/2 < x < π, é igual a −7/25. Desse modo, a tangente de x/2 é igual a:",
+      "options": [
+        "−4/3",
+        "4/3",
+        "−3/2",
+        "3/23",
+        "1"
+      ]
+    },
+    "68": {
+      "options": [
+        "0",
+        "1",
+        "−1",
+        "3/50",
+        "−3/50"
+      ]
+    },
+    "70": {
+      "text": "Considere a reta R₁ dada pela equação 3y = −4x e a circunferência C₁ dada pela equação x² + y² + 5x − 7y − 1 = 0. A partir disso tem-se que:",
+      "options": [
+        "R₁ é tangente à C₁ e o centro de C₁ é o ponto (−5/2; 7/2).",
+        "R₁ é exterior à C₁ e o centro de C₁ é o ponto (−5/2; 7/2).",
+        "R₁ é secante à C₁ e o centro de C₁ é o ponto (5/2; 7/2).",
+        "R₁ é secante à C₁ e o centro de C₁ é o ponto (−5/2; 7/2).",
+        "R₁ é secante à C₁ e o centro de C₁ é o ponto (5/2; −7/2)."
+      ]
+    }
+  },
+  "receita-2012-auditor-p1": {
+    "5": {
+      "replace": [
+        [
+          "x2",
+          "x²"
+        ],
+        [
+          "2y2",
+          "2y²"
+        ],
+        [
+          "X υ Y",
+          "X ∪ Y"
+        ],
+        [
+          "Є R",
+          "∈ ℝ"
+        ]
+      ]
+    },
+    "6": {
+      "text": "Considerando-se a expressão trigonométrica x = 1 + cos 30°, um dos possíveis produtos que a representam é igual a",
+      "options": [
+        "2 cos² 15°.",
+        "4 cos² 15°.",
+        "2 sen² 30°.",
+        "2 cos² 30°.",
+        "4 sen² 15°."
+      ]
+    },
+    "8": {
+      "text": "Considere o sistema de equações lineares dado por:\nx + y + z = 0\nx − y + rz = 2\nrx + 2y + z = −1.\n\nSabendo-se que o sistema tem solução única para r ≠ 0 e r ≠ 1, então o valor de x é igual a",
+      "options": [
+        "2/r.",
+        "−2/r.",
+        "1/r.",
+        "−1/r.",
+        "2r."
+      ]
+    },
+    "9": {
+      "text": "A função bijetora dada por f(x) = (x + 1)/(x − 2) possui domínio no conjunto dos números reais, exceto o número 2, ou seja: ℝ − {2}. O conjunto imagem de f(x) é o conjunto dos reais menos o número 1, ou seja: ℝ − {1}. Desse modo, diz-se que f(x) é uma função de ℝ − {2} em ℝ − {1}. Com isso, a função inversa de f, denotada por f⁻¹, é definida como",
+      "options": [
+        "f⁻¹(x) = (2x + 1)/(x − 1), de ℝ − {1} em ℝ − {2}.",
+        "f⁻¹(x) = (2x − 1)/(x + 1), de ℝ − {1} em ℝ − {2}.",
+        "f⁻¹(x) = (2x − 1)/(x − 1), de ℝ − {2} em ℝ − {1}.",
+        "f⁻¹(x) = (x − 2)/(x + 1), de ℝ − {1} em ℝ − {2}.",
+        "f⁻¹(x) = (x − 2)/(x + 1), de ℝ − {2} em ℝ − {1}."
+      ]
+    },
+    "11": {
+      "options": [
+        "5; (√5)/2.",
+        "5; √5.",
+        "√5; (√2)/5.",
+        "√5; 2/√5.",
+        "(√5)/2; 5."
+      ]
+    },
+    "16": {
+      "replace": [
+        [
+          "450",
+          "45°"
+        ]
+      ],
+      "options": [
+        "z√2(w − 2).",
+        "zw(2 − √2).",
+        "zw(2 + √2).",
+        "(z + w)(z + w√2).",
+        "z(2 + √2)."
+      ]
+    }
+  },
+  "receita-2023-auditor-manha": {
+    "30": {
+      "text": "Suponha que uma amostra aleatória simples X₁, X₂, …, Xₙ, de tamanho n, será observada de uma variável populacional normalmente distribuída com média μ e variância σ². Considere as estatísticas média amostral e soma dos quadrados dos desvios, dadas, respectivamente, por X̄ e Q = ∑ᵢ₌₁ⁿ (Xᵢ − X̄)².\n\nAvalie se as seguintes afirmativas estão corretas:\nI. X̄ tem distribuição normal com média μ e variância σ²/n.\nII. X̄ e Q são fortemente correlacionadas.\nIII. Q/σ² tem distribuição qui-quadrado com (n − 1) graus de liberdade.\n\nEstá correto o que se afirma em"
+    },
+    "76": {
+      "text": "No contexto da linguagem R, assinale o código que, quando executado, exibe o resultado a seguir.\n\n\"manga\"  \"banana\"  \"laranja\"",
+      "options": [
+        "def search_string as function (lista, palavra){\n  return(list of[grep(palavra, lista)])\n}\npalavras <- [\"manga\", \"banana\", \"pera\", \"laranja\"]\nsearch_string(palavras, \"n\")",
+        "search_string <- function(lista:list, palavra:string){\n  return(list of[grep(palavra, lista)])\n}\npalavras <- [\"manga\", \"banana\", \"pera\", \"laranja\"]\nsearch_string(palavras, \"n\")",
+        "search_string <- function(lista, palavra){\n  return(lista[grep(palavra, lista)])\n}\npalavras <- [\"manga\", \"banana\", \"pera\", \"laranja\"]\nsearch_string(palavras, \"n\")",
+        "search_string <- function(lista, palavra){\n  return(lista[grep(palavra, lista)])\n}\npalavras <- c(\"manga\", \"banana\", \"pera\", \"laranja\")\nsearch_string(palavras, \"n\")",
+        "def search_string as function(lista, palavra){\n  return(list of[grep(palavra, lista)])\n}\npalavras <- a(\"manga\", \"banana\", \"pera\", \"laranja\")\nsearch_string(palavras, \"n\")"
+      ]
+    },
+    "77": {
+      "support": "Tabela Vencedores:\nTenista | Torneio\nRoger Federer | Australian Open\nRoger Federer | Roland Garros\nRoger Federer | Wimbledon\nRoger Federer | US Open\nPete Sampras | US Open\nPete Sampras | Wimbledon\nPete Sampras | Australian Open\nBjorn Borg | Roland Garros\nBjorn Borg | Wimbledon",
+      "text": "Num banco de dados relacional, considere a tabela Vencedores, cuja instância é exibida no apoio, com duas colunas, Tenista e Torneio, que representam alguns torneios que já foram vencidos por alguns tenistas.\n\nMaria precisa escrever um comando SQL que liste os tenistas que venceram todos os torneios mencionados na coluna Torneio. O comando deve valer para qualquer instância válida da tabela, que pode conter diferentes tenistas e diferentes torneios. Assinale o comando que Maria deve usar.",
+      "options": [
+        "select distinct Tenista from Vencedores v1\nwhere v1.Torneio in (select Torneio from Vencedores)",
+        "select distinct Tenista from Vencedores v1\nwhere exists(\n  select * from Vencedores v2\n  where v1.Torneio = v1.Torneio\n    and v1.Tenista = v2.Tenista\n    and v1 <> v2))",
+        "select distinct Tenista from Vencedores v1\nwhere exists (\n  select * from Vencedores v2\n  where v1.Torneio = v1.Torneio\n    and v1.Tenista <> v2.Tenista\n)",
+        "select distinct Tenista from Vencedores v1\nwhere for all (\n  select * from Vencedores v2\n  where exists (\n    select * from Vencedores v3\n    where v1.Tenista = v2.Tenista))",
+        "select distinct Tenista from Vencedores v1\nwhere not exists(\n  select * from Vencedores v2\n  where not exists (\n    select * from Vencedores v3\n    where v2.Torneio = v3.Torneio\n      and v1.Tenista = v3.Tenista))"
+      ]
+    },
+    "78": {
+      "text": "Analise o código Python a seguir.\n\nclass enigma:\n    def __iter__(self):\n        self.x = 128\n        return self\n    def __next__(self):\n        y = self.x\n        z = lambda a : a - int(a/2)\n        self.x = z(self.x)\n        return y\n\ncoisa = enigma()\nxpto = iter(coisa)\nfor k in range(5):\n    print(next(xpto))\n\nAssinale o quarto número exibido na execução desse código."
+    }
+  },
+  "tse-2007-tecnico-administrativo": {
+    "5": {
+      "options": [
+        "1.",
+        "2.",
+        "3.",
+        "4."
+      ]
+    },
+    "6": {
+      "options": [
+        "1.",
+        "2.",
+        "3.",
+        "4."
+      ]
+    },
+    "72": {
+      "options": [
+        "C(36, 4) × C(36, 32)",
+        "C(32, 4) × C(18, 22) × 4!",
+        "C(18, 2) × 4 × 32!",
+        "2! × 4! × 18!"
+      ]
+    },
+    "73": {
+      "text": "Na análise de um argumento, pode-se evitar considerações subjetivas, por meio da reescrita das proposições envolvidas na linguagem da lógica formal. Considere que P, Q, R e S sejam proposições e que “∧”, “∨”, “¬” e “→” sejam os conectores lógicos que representam, respectivamente, “e”, “ou”, “negação” e o “conector condicional”. Considere também a proposição a seguir.\n\nQuando Paulo vai ao trabalho de ônibus ou de metrô, ele sempre leva um guarda-chuva e também dinheiro trocado.\n\nAssinale a opção que expressa corretamente a proposição acima em linguagem da lógica formal, assumindo que\nP = “Quando Paulo vai ao trabalho de ônibus”,\nQ = “Quando Paulo vai ao trabalho de metrô”,\nR = “ele sempre leva um guarda-chuva” e\nS = “ele sempre leva dinheiro trocado”.",
+      "options": [
+        "P → (Q ∨ R).",
+        "(P → Q) ∨ R.",
+        "(P ∨ Q) → (R ∧ S).",
+        "P ∨ (Q → (R ∧ S))."
+      ]
+    },
+    "78": {
+      "options": [
+        "0,40.",
+        "0,42.",
+        "0,44.",
+        "0,46."
+      ]
+    },
+    "79": {
+      "support": "Tabela-verdade:\nP | Q | (P ∧ Q) → (P ∨ Q)\nV | V | [preencher]\nV | F | [preencher]\nF | V | [preencher]\nF | F | [preencher]",
+      "text": "Um dos instrumentos mais importantes na avaliação da validade ou não de um argumento é a tabela-verdade. Considere que P e Q sejam proposições e que “∧”, “∨” e “→” sejam os conectores lógicos que representam, respectivamente, “e”, “ou” e o “conector condicional”. Então, o preenchimento correto da última coluna da tabela-verdade acima é",
+      "options": [
+        "V; V; F; F.",
+        "F; F; F; V.",
+        "V; F; V; F.",
+        "V; V; F; V."
+      ]
+    }
+  },
+  "tse-2012-tecnico-administrativo": {
+    "17": {
+      "options": [
+        "WordArt",
+        "Formas",
+        "SmartArt",
+        "Gráfico"
+      ]
+    },
+    "41": {
+      "options": [
+        "Windows + R e “winword”",
+        "Alt + R e “word”"
+      ]
+    }
+  },
+  "prf-2019": {
+    "24": {
+      "text": "A figura desta questão pode representar uma vista superior do sólido descrito no texto de apoio."
+    },
+    "25": {
+      "text": "A figura desta questão pode representar uma vista superior do sólido descrito no texto de apoio."
+    },
+    "26": {
+      "text": "A figura desta questão pode representar uma vista superior do sólido descrito no texto de apoio."
+    }
+  },
+  "prf-2013": {
+    "23": {
+      "support": "Considere que o nível de concentração de álcool na corrente sanguínea, em g/L, de uma pessoa, em função do tempo t, em horas, seja expresso por N = −0,008(t² − 35t + 34). Considere, ainda, que essa pessoa tenha começado a ingerir bebida alcoólica a partir de t = t₀ (N(t₀) = 0), partindo de um estado de sobriedade, e que tenha parado de ingerir bebida alcoólica em t = t₁, voltando a ficar sóbria em t = t₂. Considere, por fim, a figura acima, que apresenta o gráfico da função N(t) para t ∈ [t₀, t₂]. Com base nessas informações e tomando 24,3 como valor aproximado de √589, julgue os itens que se seguem."
+    },
+    "24": {
+      "support": "Considere que o nível de concentração de álcool na corrente sanguínea, em g/L, de uma pessoa, em função do tempo t, em horas, seja expresso por N = −0,008(t² − 35t + 34). Considere, ainda, que essa pessoa tenha começado a ingerir bebida alcoólica a partir de t = t₀ (N(t₀) = 0), partindo de um estado de sobriedade, e que tenha parado de ingerir bebida alcoólica em t = t₁, voltando a ficar sóbria em t = t₂. Considere, por fim, a figura acima, que apresenta o gráfico da função N(t) para t ∈ [t₀, t₂]. Com base nessas informações e tomando 24,3 como valor aproximado de √589, julgue os itens que se seguem."
+    },
+    "25": {
+      "support": "Considere que o nível de concentração de álcool na corrente sanguínea, em g/L, de uma pessoa, em função do tempo t, em horas, seja expresso por N = −0,008(t² − 35t + 34). Considere, ainda, que essa pessoa tenha começado a ingerir bebida alcoólica a partir de t = t₀ (N(t₀) = 0), partindo de um estado de sobriedade, e que tenha parado de ingerir bebida alcoólica em t = t₁, voltando a ficar sóbria em t = t₂. Considere, por fim, a figura acima, que apresenta o gráfico da função N(t) para t ∈ [t₀, t₂]. Com base nessas informações e tomando 24,3 como valor aproximado de √589, julgue os itens que se seguem."
+    },
+    "49": {
+      "text": "Ao contrário de um vírus de computador, que é capaz de se autorreplicar e não necessita de um programa hospedeiro para se propagar, um worm não pode se replicar automaticamente e necessita de um programa hospedeiro.",
+      "support": "Tendo como referência a figura acima, que mostra uma janela do Google Chrome, julgue os itens subsequentes, a respeito de redes de computadores e segurança da informação."
+    },
+    "50": {
+      "text": "Na situação mostrada na figura, ao se clicar o botão ☰, todos os arquivos com extensão .doc que existem na área de transferência do Windows serão armazenados em nuvem (cloud storage).",
+      "support": "Tendo como referência a figura acima, que mostra uma janela do Google Chrome, julgue os itens subsequentes, a respeito de redes de computadores e segurança da informação."
+    },
+    "118": {
+      "support": "Considerando que um corpo de massa igual a 1,0 kg oscile em movimento harmônico simples de acordo com a equação x(t) = 6,0 cos(3πt + π/3), em que t é o tempo, em segundos, e x(t) é dada em metros, julgue os itens que se seguem.",
+      "text": "A força resultante que atua no corpo é expressa por F(t) = −(3π)² x(t)."
+    },
+    "119": {
+      "support": "Considerando que um corpo de massa igual a 1,0 kg oscile em movimento harmônico simples de acordo com a equação x(t) = 6,0 cos(3πt + π/3), em que t é o tempo, em segundos, e x(t) é dada em metros, julgue os itens que se seguem."
+    }
+  },
+  "receita-2012-auditor-p3": {
+    "27": {
+      "support": "Contas de Ativo | 2009 | 2010\nDisponibilidades | 2.000 | 1.000\nEstoques | 3.000 | 5.900\nClientes | 6.300 | 8.000\nProvisão p/Créditos de Líquidação Duvidosa (PCLD) | (300) | (400)\nParticipações Societárias | 13.500 | 23.500\nImobilizado Custo | 36.000 | 40.000\nDepreciação Acumulada | (8.000) | (5.000)\nMarcas e Patentes | 2.500 | 2.000\nTotal do Ativo | 55.000 | 75.000\nContas de Passivo e Patrimônio Liquido | 2009 | 2010\nContas a Pagar | 4.000 | 5.000\nFornecedores | 14.000 | 6.900\nDividendos | 4.000 | 6.400\nProvisão p/ Imposto de Renda e Contribuições | 2.500 | 3.200\nTítulos a Pagar (I) | - | 5.000\nCapital Social | 28.400 | 40.000\nReserva Legal | 100 | 740\nReservas de Lucros | 2.000 | 7.760\nTotal do Passivo + Patrimonio Líquido | 55.000 | 75.000\n\nDemonstração de Resultado de Exercício 2010 |  | \n1. Vendas |  | 190.000\n2. (-) CMV |  | (100.000)\n3. Resultado Bruto Operacional |  | 90.000\n4. (-) Despesas: |  | \nAdministrativas | (40.000) | \nFinanceiras | (10.000) | \nde Vendas | (45.500) | \nde Depreciações | (3.000) | \nde Amortização | (500) | (99.000)\n5. Resultado de Equivalência Patrimonial |  | 10.000\n6. Resultado c/ Venda de Imobilizado |  | 15.000\n7. Resultado Antes do Imposto de Renda |  | 16.000\n8. Provisão p/ Imposto de Renda e Con- tribuições |  | (3.200)\n9. Resultado Líquido do Exercício |  | 12.800\nDistribuição do Resultado de Exercício 2010 |  | \nReserva Legal |  | 640\nDividendos |  | 6.400\nReservas de Lucros |  | 5.760\nTotal do Resultado Apurado |  | 12.800\n\nCom base nos dados fornecidos, responder as questões 27 e 28."
+    },
+    "28": {
+      "support": "Contas de Ativo | 2009 | 2010\nDisponibilidades | 2.000 | 1.000\nEstoques | 3.000 | 5.900\nClientes | 6.300 | 8.000\nProvisão p/Créditos de Líquidação Duvidosa (PCLD) | (300) | (400)\nParticipações Societárias | 13.500 | 23.500\nImobilizado Custo | 36.000 | 40.000\nDepreciação Acumulada | (8.000) | (5.000)\nMarcas e Patentes | 2.500 | 2.000\nTotal do Ativo | 55.000 | 75.000\nContas de Passivo e Patrimônio Liquido | 2009 | 2010\nContas a Pagar | 4.000 | 5.000\nFornecedores | 14.000 | 6.900\nDividendos | 4.000 | 6.400\nProvisão p/ Imposto de Renda e Contribuições | 2.500 | 3.200\nTítulos a Pagar (I) | - | 5.000\nCapital Social | 28.400 | 40.000\nReserva Legal | 100 | 740\nReservas de Lucros | 2.000 | 7.760\nTotal do Passivo + Patrimonio Líquido | 55.000 | 75.000\n\nDemonstração de Resultado de Exercício 2010 |  | \n1. Vendas |  | 190.000\n2. (-) CMV |  | (100.000)\n3. Resultado Bruto Operacional |  | 90.000\n4. (-) Despesas: |  | \nAdministrativas | (40.000) | \nFinanceiras | (10.000) | \nde Vendas | (45.500) | \nde Depreciações | (3.000) | \nde Amortização | (500) | (99.000)\n5. Resultado de Equivalência Patrimonial |  | 10.000\n6. Resultado c/ Venda de Imobilizado |  | 15.000\n7. Resultado Antes do Imposto de Renda |  | 16.000\n8. Provisão p/ Imposto de Renda e Con- tribuições |  | (3.200)\n9. Resultado Líquido do Exercício |  | 12.800\nDistribuição do Resultado de Exercício 2010 |  | \nReserva Legal |  | 640\nDividendos |  | 6.400\nReservas de Lucros |  | 5.760\nTotal do Resultado Apurado |  | 12.800\n\nCom base nos dados fornecidos, responder as questões 27 e 28."
+    }
+  }
+}

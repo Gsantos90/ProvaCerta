@@ -46,7 +46,7 @@ export default function ExamPicker({ exam, children }) {
   const years = cardEditions(exam, children)
   const available = Boolean(children)
   const mark = exam.short || exam.name
-  const category = exam.id === 'oab' ? 'Exame da Ordem' : ['enem', 'pism', 'usp', 'uerj', 'ita', 'unicamp', 'unesp'].includes(exam.id) ? 'Vestibulares' : 'Concursos'
+  const category = ['oab', 'cfc'].includes(exam.id) ? 'Exames' : ['enem', 'pism', 'usp', 'uerj', 'ita', 'unicamp', 'unesp'].includes(exam.id) ? 'Vestibulares' : 'Concursos'
   return <article className={`exam-summary tone-${exam.color || (exam.id === 'enem' ? 'enem' : exam.id === 'pism' ? 'pism' : 'teal')}`}>
     <div className="exam-summary-art">
       <p className="exam-summary-org">{exam.org}</p>

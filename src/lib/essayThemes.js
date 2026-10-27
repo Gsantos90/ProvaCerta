@@ -80,6 +80,141 @@ export const initialEssayThemes = [
     "instructions": "Leia O menino do pijama listrado, de John Boyne, e desenvolva uma dissertação argumentativa sobre a moral que você identifica na história. Sustente sua interpretação com elementos do romance. Consulte o comentário oficial da banca.",
     "source_url": "https://www.revista.vestibular.uerj.br/arquivos/pdf/questao/46.pdf",
     "active": true
+  },
+  {
+    "slug": "unicamp-2026-redacao-proposta-1",
+    "exam_name": "UNICAMP",
+    "year": 2026,
+    "title": "Machosfera e combate à violência contra mulheres — depoimento pessoal",
+    "instructions": "Proposta 1. Assuma o papel de um jovem jornalista que investigou uma comunidade virtual. Narre um episódio violento presenciado e sustente o combate à misoginia on-line. Mobilize criticamente a coletânea do caderno.",
+    "source_url": "https://www.comvest.unicamp.br/vest2026/F2/provas/2026F2redporingcn.pdf#page=3",
+    "active": true
+  },
+  {
+    "slug": "unicamp-2026-redacao-proposta-2",
+    "exam_name": "UNICAMP",
+    "year": 2026,
+    "title": "A importância histórica da CLT — nota de esclarecimento",
+    "instructions": "Proposta 2. Como integrante do RH, dirija uma nota institucional aos estagiários. Explique o regime celetista, seu significado histórico e seus efeitos no Brasil. Empregue registro formal e os textos da coletânea.",
+    "source_url": "https://www.comvest.unicamp.br/vest2026/F2/provas/2026F2redporingcn.pdf#page=4",
+    "active": true
+  },
+  {
+    "slug": "unicamp-2025-redacao-proposta-1",
+    "exam_name": "UNICAMP",
+    "year": 2025,
+    "title": "Igualdade de gênero no Congresso — apresentação de projeto de lei",
+    "instructions": "Proposta 1. Represente um coletivo pela igualdade de gênero. Redija a apresentação de um projeto de lei para leitura na Câmara, discutindo os prejuízos da representação desigual e a relação entre paridade e justiça social. Consulte a coletânea.",
+    "source_url": "https://www.comvest.unicamp.br/vest2025/F2/provas/2025F2redporingcn.pdf#page=3",
+    "active": true
+  },
+  {
+    "slug": "unicamp-2025-redacao-proposta-2",
+    "exam_name": "UNICAMP",
+    "year": 2025,
+    "title": "Apostas por celular entre estudantes — comunicado aos responsáveis",
+    "instructions": "Proposta 2. Escreva como diretor de escola pública aos responsáveis pelos estudantes. Exponha os efeitos das apostas no comportamento escolar e os riscos para crianças e pré-adolescentes, articulando a coletânea.",
+    "source_url": "https://www.comvest.unicamp.br/vest2025/F2/provas/2025F2redporingcn.pdf#page=4",
+    "active": true
+  },
+  {
+    "slug": "unicamp-2024-redacao-proposta-1",
+    "exam_name": "UNICAMP",
+    "year": 2024,
+    "title": "Exploração do trabalho doméstico — carta-denúncia",
+    "instructions": "Proposta 1. Dirija ao Ministério Público do Trabalho uma carta sobre uma situação de exploração doméstica testemunhada na casa de um colega. Descreva a possível violação e defenda a trabalhadora com apoio crítico na coletânea.",
+    "source_url": "https://www.comvest.unicamp.br/vest2024/F2/provas/2024F2redporingcn.pdf#page=3",
+    "active": true
+  },
+  {
+    "slug": "unicamp-2024-redacao-proposta-2",
+    "exam_name": "UNICAMP",
+    "year": 2024,
+    "title": "Acolhimento de refugiados — discurso diplomático",
+    "instructions": "Proposta 2. Represente o Brasil em uma simulação da ONU. Produza um discurso que conteste a posição húngara contrária ao acolhimento de refugiados e defenda a recepção dessas pessoas. Utilize os materiais da prova.",
+    "source_url": "https://www.comvest.unicamp.br/vest2024/F2/provas/2024F2redporingcn.pdf#page=4",
+    "active": true
+  },
+  {
+    "slug": "ufpr-2026-redacao-proposta-1",
+    "exam_name": "UFPR",
+    "year": 2026,
+    "title": "Maternidade tardia e redução dos nascimentos — análise de infográficos",
+    "instructions": "Questão 1. Analise os dois infográficos oficiais em um texto informativo-analítico de 10 a 12 linhas. Relacione os fenômenos, apresente o panorama brasileiro e formule duas hipóteses explicativas. Os gráficos devem ser consultados na fonte.",
+    "source_url": "https://servicos.nc.ufpr.br/documentos/ps2026/provas/2fase/001-CPT.pdf#page=3",
+    "active": true
+  },
+  {
+    "slug": "ufpr-2026-redacao-proposta-2",
+    "exam_name": "UFPR",
+    "year": 2026,
+    "title": "Inteligência artificial e experiência humana — texto expositivo",
+    "instructions": "Questão 2. Apresente as ideias de Andrew Smart na entrevista reproduzida no caderno. Em 8 a 10 linhas e discurso indireto, atribua as informações à fonte e relacione as respostas às perguntas. Consulte a entrevista antes de escrever.",
+    "source_url": "https://servicos.nc.ufpr.br/documentos/ps2026/provas/2fase/001-CPT.pdf#page=4",
+    "active": true
+  },
+  {
+    "slug": "ufpr-2026-redacao-proposta-3",
+    "exam_name": "UFPR",
+    "year": 2026,
+    "title": "Belo Monte e comunidades do Xingu — resumo",
+    "instructions": "Questão 3. Resuma a reportagem do caderno em 10 a 13 linhas. Explicite o assunto central e as questões associadas aos efeitos das barragens e às comunidades locais. Preserve o gênero resumo, sem acrescentar opinião pessoal.",
+    "source_url": "https://servicos.nc.ufpr.br/documentos/ps2026/provas/2fase/001-CPT.pdf#page=5",
+    "active": true
+  },
+  {
+    "slug": "ufpr-2025-redacao-proposta-1",
+    "exam_name": "UFPR",
+    "year": 2025,
+    "title": "Violência verbal nas redes — resumo de texto",
+    "instructions": "Questão 1. Leia o ensaio de Márcia Tiburi apresentado no caderno. Em um resumo de 12 a 15 linhas, recupere a tese e sua sustentação argumentativa, respeitando as características do gênero.",
+    "source_url": "https://servicos.nc.ufpr.br/documentos/ps2025/provas/2fase/001-CPT.pdf#page=3",
+    "active": true
+  },
+  {
+    "slug": "ufpr-2025-redacao-proposta-2",
+    "exam_name": "UFPR",
+    "year": 2025,
+    "title": "Preservação de Brasília e desenvolvimento urbano — argumentação",
+    "instructions": "Questão 2. Em 12 a 15 linhas, sintetize as posições do debate urbanístico apresentado e defenda sua própria posição com um argumento adicional. Produza um texto expositivo-argumentativo a partir da leitura da fonte.",
+    "source_url": "https://servicos.nc.ufpr.br/documentos/ps2025/provas/2fase/001-CPT.pdf#page=4",
+    "active": true
+  },
+  {
+    "slug": "ufpr-2025-redacao-proposta-3",
+    "exam_name": "UFPR",
+    "year": 2025,
+    "title": "Reabertura de atividades — elaboração de comunicado",
+    "instructions": "Questão 3. Crie um ou dois parágrafos de abertura para o comunicado cujo encerramento está no caderno. Identifique os destinatários e acrescente informações que se articulem com aquele fecho. Escreva de 8 a 10 linhas e leia a finalização original.",
+    "source_url": "https://servicos.nc.ufpr.br/documentos/ps2025/provas/2fase/001-CPT.pdf#page=5",
+    "active": true
+  },
+  {
+    "slug": "unesp-2026-redacao",
+    "exam_name": "UNESP",
+    "year": 2026,
+    "title": "Vivemos hoje uma epidemia da solidão?",
+    "instructions": "Elabore uma dissertação argumentativa em português formal. Defenda uma posição sobre a solidão contemporânea, articulando os textos de apoio e seus conhecimentos. Consulte a proposta e a coletânea no caderno original Vunesp, disponível em cópia pública.",
+    "source_url": "https://www.curso-objetivo.br/vestibular/resolucao-comentada/unesp/2026/2fase/UNESP2026_2fase_2dia_prova.pdf#page=17",
+    "active": true
+  },
+  {
+    "slug": "unesp-2025-redacao",
+    "exam_name": "UNESP",
+    "year": 2025,
+    "title": "Medicalização da vida: a quem interessa?",
+    "instructions": "Escreva uma dissertação argumentativa em português formal sobre os interesses envolvidos na medicalização da vida. Sustente seu ponto de vista com a coletânea e seus conhecimentos. Consulte o caderno original Vunesp, disponível em cópia pública.",
+    "source_url": "https://www.curso-objetivo.br/vestibular/resolucao-comentada/unesp/2025/2fase/UNESP2025_2fase_2dia_prova.pdf#page=15",
+    "active": true
+  },
+  {
+    "slug": "unesp-2024-redacao",
+    "exam_name": "UNESP",
+    "year": 2024,
+    "title": "É possível um futuro off-line?",
+    "instructions": "Produza uma dissertação argumentativa em português formal discutindo a possibilidade de uma vida futura sem conexão digital. Confronte perspectivas e fundamente sua posição com a coletânea. Consulte o caderno original Vunesp, disponível em cópia pública.",
+    "source_url": "https://www.curso-objetivo.br/vestibular/resolucao-comentada/unesp/2024/2fase/UNESP2024_2fase_prova.pdf#page=47",
+    "active": true
   }
 ]
 
