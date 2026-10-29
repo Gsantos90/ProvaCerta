@@ -1,7 +1,7 @@
 """Import PC-SP 2023, PC-MG 2025 (Investigador) and PC-MG 2026 (TPAG).
 
-Preserve original typography, figures and shared reading passages as question
-crops. Text and alternatives remain available for accessibility and search.
+MG booklets use text questions, separate shared passages and figure-only media.
+SP retains its existing presentation.
 Requires PyMuPDF; cached PDFs are kept under pdf-extracts/pc-recent.
 """
 import json
@@ -38,7 +38,10 @@ def document(name):
     return fitz.open(path)
 
 def clean(text):
+    # Preserve lexical hyphens when the PDF wraps a clitic onto the next line.
+    text = re.sub(r'(?<=[a-zà-ÿ])-\s*\n(?=(?:se|lhe)\b)', '-\u200b', text)
     text = re.sub(r'(?<=[a-zà-ÿ])[-\u00ad]\s*\n(?=[a-zà-ÿ])', '', text)
+    text = text.replace('\u200b', '')
     text = re.sub(r'[\x00-\x08\x0b-\x1f\u00ad]', '', text)
     return re.sub(r'\s+', ' ', text).strip()
 
@@ -81,7 +84,11 @@ def extract(name, slug, expected, mode, answers):
             page_slots = [(40, 289), (309, 558)]
         for col, (left, right) in enumerate(page_slots):
             slot = len(slots)
-            top, bottom = (50, 787) if mode == 'fgv' else (24, 797)
+            top, bottom = (50, 787) if mode == 'fgv' else (44, 800)
+            if mode == 'sp':
+                top, bottom = 24, 797
+            if mode == 'cebraspe' and name == 'mg26-geral' and pi == 0:
+                top = next(box[1]-2 for box, t in lines(page) if t == 'Texto CG1A1')
             slots.append({'pi': pi, 'left': left, 'right': right, 'top': top, 'bottom': bottom})
             for box, t in lines(page):
                 x, y, x1, y1 = box
@@ -123,9 +130,17 @@ def extract(name, slug, expected, mode, answers):
         paths, texts = [], []
         for pi, box in rects:
             path = assets / f'{prefix}-{len(paths)+1}.png'
-            doc[pi].get_pixmap(matrix=fitz.Matrix(2.5, 2.5), clip=box, alpha=False).save(path)
+            if mode == 'sp' or 'figura' in prefix:
+                doc[pi].get_pixmap(matrix=fitz.Matrix(2.5, 2.5), clip=box, alpha=False).save(path)
             paths.append('/'+slug+'/'+path.name)
-            texts.append(doc[pi].get_text(clip=box, sort=True))
+            if mode == 'sp':
+                texts.append(doc[pi].get_text(clip=box, sort=True))
+            else:
+                selected = [(bbox, t) for bbox, t in lines(doc[pi])
+                            if box.x0 <= bbox[0] < box.x1 and box.y0 <= bbox[1] < box.y1
+                            and not re.search(r'CEBRASPE|<PCMG|FGV CONHECIMENTO|POLÍCIA CIVIL DO ESTADO|Espaço livre', t)
+                            and bbox[3]-bbox[1] > 5]
+                texts.append('\n'.join(t for bbox, t in sorted(selected, key=lambda row:(round(row[0][1], 1), row[0][0]))))
         return paths, '\n'.join(texts)
 
     shared = {}
@@ -167,8 +182,41 @@ def extract(name, slug, expected, mode, answers):
                         (57,'Noções de Direitos Humanos'), (61,'Noções de Medicina Legal'),
                         (66,'Noções de Criminologia')]
             subject = next(label for first, label in reversed(subjects) if n>=first)
-        questions.append({'number': n, 'subject': subject, 'text': clean(support_text+'\n'+parts[0]), 'support': None,
-                          'support_image': json.dumps({'original': support_paths+paths}, ensure_ascii=False),
+        # Section headings belong to the booklet, never to the last alternative.
+        if mode != 'sp':
+            headings = [label for _, label in subjects] if mode == 'fgv' else []
+            headings += ['Lei Orgânica da Polícia Civil do Estado de Minas Gerais', 'MÓDULO II - CONHECIMENTOS ESPECÍFICOS']
+            for _ in range(2):
+                for heading in sorted(headings, key=len, reverse=True):
+                    options = [re.sub(r'\s*'+re.escape(heading)+r'\s*$', '', value) for value in options]
+        support = clean(support_text) if support_text and mode != 'sp' else None
+        stem = clean(support_text+'\n'+parts[0]) if mode == 'sp' else clean(parts[0])
+        media = json.dumps({'original': support_paths+paths}, ensure_ascii=False) if mode == 'sp' else None
+        # Manually reviewed figure bounds in the original booklets (PDF points).
+        figures = {'mg-prova': {1:(1,(42.55,134.64,273.69,367.46)),
+                               13:(2,(324,366,540,445)),
+                               16:(3,(110,390.31,216.15,532.63))},
+                   'mg26-geral': {8:(1,(87.35,385.8,232.54,464.79))}}
+        if n in figures.get(name, {}):
+            pi, bounds = figures[name][n]
+            figure_paths, _ = crop([(pi, fitz.Rect(bounds))], f'q{n}-figura')
+            media = json.dumps({'support': figure_paths}, ensure_ascii=False)
+        if mode == 'fgv' and n == 13:
+            stem = re.sub(r'Tipo de Crime .*?Sabendo-se', 'Sabendo-se', stem)
+            support = 'Tabela: Tipo de Crime | Ocorrências | Casos Solucionados\nRoubo | 180 | 135\nTráfico de Drogas | (em branco) | 45\nEstelionato | 120 | (em branco)\nLesão Corporal | (em branco) | 30'
+        if mode == 'fgv' and n == 7:
+            start = stem.index('O gerente'); end = stem.index('Sobre esse ato')
+            support, stem = stem[start:end].strip(), stem[end:]
+        underlined = {5:['feliz','alto','arranhada','importado','presidencial'],
+                      8:['magra','se separou','grudaram','pálida','rabiscou'],
+                      10:['Quem não escuta','Quem vive sozinho','Quem não se casou','Quem vive pedindo na rua','Quem vive de herança']}
+        if mode == 'fgv' and n in underlined:
+            support = 'Trechos sublinhados no original: '+ '; '.join(f'{c}) {t}' for c,t in zip('ABCDE',underlined[n]))+'.'
+        if name == 'mg26-geral' and n == 15:
+            stem = stem.removesuffix(' 56')
+            options = ['56/143', '70/143', '73/143', '129/143']
+        questions.append({'number': n, 'subject': subject, 'text': stem, 'support': support,
+                          'support_image': media,
                           'options': options, 'answer': 'A/B/C/D/E' if answers[n] in '*X' else answers[n], 'explanation': None})
         pages[n] = {'url': URLS[name], 'page': slots[m['slot']]['pi']+1}
     print(name, len(questions), 'questões;', len(shared), 'com texto compartilhado')

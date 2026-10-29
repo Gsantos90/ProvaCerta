@@ -1,0 +1,30 @@
+{
+  "oficial-2026": {
+    "48": {"options": ["1/3", "1/2", "2/5", "2/3", "3/5"]},
+    "52": {"text": "Dada a constante real k > 0, seja f: ℝ → ℝ a função definida por f(x) = (21 − 8k)x + 4k² − 15. O gráfico dessa função intersecta o eixo x no ponto de abscissa 2/3 e intersecta o eixo y no ponto cuja ordenada pertence ao intervalo:", "options": ["]−15/2, −11/2[", "]−11/2, −7/2[", "]−7/2, −3/2[", "]−3/2, 1/2[", "]1/2, 5/2["]},
+    "53": {"options": ["12 + 9√3", "18 + 9√3", "6 + 12√3", "9 + 12√3", "12 + 12√3"]},
+    "54": {"options": ["√72 − 4", "√72 − 3", "√72 − 2", "√69 − 4", "√69 − 2"]},
+    "55": {"text": "Sendo d uma constante real, considere as funções f(x) = 3^(x − 3d) e g(x) = (4x + 21)/d. Sabendo que f(5) = 1/81, o valor de g(f(10)) é igual a"},
+    "61": {"replace": [["Q Q · 1 2 F k = EL 2 d", "F_EL = k · |Q₁ · Q₂|/d²"]]}
+  },
+  "oficial-2025": {
+    "46": {"text": "A seguinte matriz quadrada M = (mᵢⱼ)₃×₃ foi construída de tal maneira que mᵢ₃ = mᵢ₁ − mᵢ₂, ∀i ∈ {1, 2, 3}. O determinante de M vale", "support": "Matriz M (linhas):\n147 | 116 | 31\n158 | 127 | 31\n271 | 240 | 31", "support_image": null},
+    "54": {"text": "Diariamente, a altura H (em metros) da maré em certo cais pode ser modelada por H(t) = 1,4 + 0,5 × sen((π/6)t + π/10), com 0 ≤ t < 24, em que t é o tempo decorrido, em horas, desde a meia-noite. Nesse local, a altura máxima atingida pela maré, em metros, ao longo de um dia é"},
+    "63": {"options": ["KCl.", "KClO.", "KClO₂.", "KClO₃.", "KClO₄."]}
+  },
+  "oficial-2024": {
+    "49": {"text": "Considere as matrizes A = [[x, −3, −1], [1, 0, x], [2, 1, 3]] e B = [[x, 1], [x + 1, −5]], em que x é um número positivo. Sabendo que os determinantes dessas duas matrizes são ambos iguais a y, o valor de y é", "support_image": null},
+    "53": {"options": ["√2/10", "√2/20", "√6/10", "√7/14", "√7/20"]},
+    "54": {"text": "A base de uma pirâmide regular FABCD é um quadrado de área 16 cm². A face FCD dessa pirâmide é base da pirâmide GFCD. A altura da pirâmide GFCD em relação à face FCD é de 3 cm. Sabendo que o volume da pirâmide GFCD é 4√10 cm³, o volume da pirâmide FABCD é", "options": ["32 cm³", "64/3 cm³", "48 cm³", "80/3 cm³", "64 cm³"]},
+    "55": {"replace": [["m, n ∈ ,", "m, n ∈ ℝ,"]]},
+    "62": {"optionReplace": [[" Considere a Classificação Periódica no final deste caderno.", ""]]},
+    "63": {"replace": [["yNaCℓOx (s) + zCℓ₂ (g) wCℓOx (g)", "yNaClOx (s) + zCl₂ (g) → wClOx (g)"]]}
+  },
+  "soldado-2025-11": {
+    "27": {"support": "Sistemas de equações:\nJ − K = 2; J + 3K = 10.\nK + 5L = 7; 4K − L = 7.\nL + 3M = 10; 2L − 4M = −10.", "support_image": null}
+  },
+  "soldado-2026": {
+    "23": {"text": "A razão entre o número de competidores do grupo A e o número de competidores do grupo B é 5/4. Essa razão, 5/4, também ocorre entre o número de competidores do grupo B e o número de competidores do grupo C e ocorre também entre o número de competidores do grupo C e o número de competidores do grupo D. São 128 os competidores do grupo D e, sendo assim, o número total de competidores desses quatro grupos é"},
+    "33": {"options": ["9/40", "9/20", "1/5", "3/10", "5/27"]}
+  }
+}

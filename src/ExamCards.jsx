@@ -127,30 +127,38 @@ export function BbCard({ roles, role, onRoleChange, years, year, setYear, onStar
   )
 }
 
-export function PmerjCard({ roles, role, onRoleChange, years, year, setYear, onStart, available, loading, error }) {
+export function PmerjCard({ states, state, onStateChange, roles, role, onRoleChange, years, year, setYear, onStart, available, loading, error }) {
   return (
     <article className="exam-card color-navy">
       <div className="card-art">
-        <span className="art-kicker">SEGURAÇA</span>
-        <strong className="long">PMERJ</strong>
-        <span className="art-shape">PMERJ</span>
+        <span className="art-kicker">SEGURANÇA</span>
+        <strong>PM</strong>
+        <span className="art-shape">PM</span>
         <div className="art-dots" />
       </div>
       <div className="exam-card-body">
         <div className="card-title-row">
           <div>
-            <h3>PMERJ</h3>
-            <p>Polícia Militar do Estado do Rio de Janeiro</p>
+            <h3>PM</h3>
+            <p>Polícia Militar · {state}</p>
           </div>
           <span className={`status ${available ? 'ready' : ''}`}>{available ? 'Disponível' : 'Em breve'}</span>
         </div>
         <div className="pism-controls">
+          <label>Estado
+            <span className="select-wrap">
+              <select value={state} onChange={event => onStateChange(event.target.value)}>
+                {states.map(item => <option key={item} value={item}>{item}</option>)}
+              </select>
+              <ChevronDown size={16} />
+            </span>
+          </label>
           <label>
             Ano da prova
             <span className="select-wrap">
               <select value={year} onChange={(event) => setYear(event.target.value)} disabled={!available || years.length === 0}>
                 {years.length > 0 ? (
-                  years.map((item) => <option key={item.value} value={item.value}>{item.value}</option>)
+                  years.map((item) => <option key={item.value} value={item.value}>{item.label || item.value}</option>)
                 ) : (
                   <option value="">Nenhuma prova disponível</option>
                 )}

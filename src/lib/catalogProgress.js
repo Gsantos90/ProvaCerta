@@ -10,7 +10,7 @@ export function attemptSource(attempt) {
     ['pism', /^(PISM\b|20\d{2}(?:-[12])?$)/i], ['enem', /^ENEM\b/i],
     ['bb', /^Banco do Brasil\b/i], ['cnu', /^CNU\b/i], ['oab', /^OAB\b/i], ['cfc', /^CFC\b/i], ['unicamp', /^Unicamp\b/i],
     ['unesp', /^Unesp\b/i],
-    ['pmrj', /^PMERJ\b/i], ['correios', /^Correios\b/i], ['inss', /^INSS\b/i], ['ebserh', /^EBSERH\b/i],
+    ['pmrj', /^(?:PMERJ|PMESP|PM)\b/i], ['correios', /^Correios\b/i], ['inss', /^INSS\b/i], ['ebserh', /^EBSERH\b/i],
     ['prf', /^PRF\b/i], ['receita', /^Receita Federal\b/i], ['tse', /^(TSE|Justiça Eleitoral)\b/i],
     ['caixa', /^CAIXA\b/i], ['pc', /^Polícia Civil\b/i], ['pf', /^Polícia Federal\b/i],
     ['esa', /^ESA\b/i], ['espcex', /^EsPCEx\b/i], ['efomm', /^EFOMM\b/i],

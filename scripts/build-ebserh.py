@@ -74,6 +74,12 @@ for year in ['2025', '2023', '2022']:
     assert [int(m[1]) for m in matches] == list(range(1,61)), (year, [m[1] for m in matches])
     # Shared reading passages occur before Q1 and between Q5/Q6 or Q6/Q7.
     shared1 = raw[:matches[0].start()]
+    if year == '2023':
+        # The transcription includes the cover and general instructions.
+        # Only the reading passage (including its glossary) supports Q1-Q5/Q8.
+        start = re.search(r'Texto I\s+Nizia Figueira, sua criada', shared1)
+        assert start, 'Missing original Texto I title'
+        shared1 = shared1[start.start():]
     shared2 = None
     questions = []
     for i, match in enumerate(matches):

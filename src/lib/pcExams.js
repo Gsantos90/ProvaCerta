@@ -8,6 +8,9 @@ export function pcOfficialSource(slug, number) {
 
 export function pcQuestionMedia(slug, value) {
   if (!sources[slug] || typeof value !== 'string') return {}
-  try { return { originalImages: supportImageUrls(JSON.parse(value).original) } }
+  try {
+    const media = JSON.parse(value)
+    return { originalImages: supportImageUrls(media.original), ...(media.support ? { supportImage: supportImageUrls(media.support) } : {}) }
+  }
   catch { return {} }
 }

@@ -31,7 +31,14 @@ for (const slug of EBSERH_SLUGS) {
   assert.equal(loaded[0].examTitle,exam.title)
   assert(loaded[0].sourceUrl)
   assert(loaded[0].support.includes(year==='2025'?'QUINTO IMPÉRIO':year==='2023'?'Belazarte':'A menina'))
-  if(year==='2023')assert(loaded[7].support.includes('Belazarte')&&loaded[7].support.includes('Redes sociais'))
+  if(year==='2023') {
+    assert(loaded[7].support.includes('Belazarte')&&loaded[7].support.includes('Redes sociais'))
+    for (const n of [1,2,3,4,5,8]) {
+      assert(loaded[n-1].support.startsWith('Texto I Nizia Figueira, sua criada'))
+      assert(loaded[n-1].support.includes('4 moça robusta e formosa'))
+    }
+    for (const q of loaded) assert(!/INSTRUÇÕES|Folha de Respostas|GABARITO DO CANDIDATO|EMPRESA BRASILEIRA/.test(q.support||''))
+  }
   if(year==='2022')assert(loaded[9].support.includes('Amapá:'))
   assert.equal(attemptSource({exam_title:exam.title}),'ebserh')
   console.log(`${year}: 60 questões, alternativas, textos, imagens, correção e anuladas OK`)
