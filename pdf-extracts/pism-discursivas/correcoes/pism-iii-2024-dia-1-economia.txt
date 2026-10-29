@@ -1,0 +1,173 @@
+=== PÁGINA 1 ===
+                         PRÓ-REITORIA DE GRADUAÇÃO - PROGRAD
+
+                     COORDENAÇÃO GERAL DE PROCESSOS SELETIVOS – COPESE
+
+
+           PROGRAMA DE INGRESSO SELETIVO MISTO – PISM 2024
+
+                 DIA 1 – MÓDULO III – Economia e Administração
+                       Prova realizada em 09 de dezembro de 2023
+
+
+    REFERÊNCIAS DE CORREÇÃO DAS PROVAS DISCURSIVAS
+
+
+
+                               LÍNGUA PORTUGUESA
+                                                           Discursivas (4 questões)
+
+QUESTÃO 1:
+
+Os argumentos usados são as violações sexuais sofridas pelas meninas, muitas vezes com o conhecimento de pessoas
+O termo “morte social” mencionado por Yanaê Lopes trata-se da redução a números e estatísticas as histórias das
+pessoas africanas escravizadas, o que gera certo apagamento ou invisibilização de registros em primeira pessoa ou
+testemunhos sobre elas. Este fenômeno explica a ausência das menções a Aca Inene na história brasileira.
+
+QUESTÃO 2:
+
+Ynaê Lopes dos Santos defende que o apagamento dos registros de pessoas africanas escravizadas no país, em
+especial das mulheres, está intimamente relacionado ao reconhecimento das lutas feitas por elas e ao entendimento
+da real história do Brasil.
+
+QUESTÃO 3:
+
+Serão avaliados os seguintes itens: (i) construção de texto argumentativo em prosa; (ii) inserção de argumento, e não
+de fato;  (iii) paralelismo semântico, mantendo a relação de sentido indicada pela conjunção; (iv) escolha lexical
+adequada, visando a manutenção da coesão e coerência textuais; (v) uso da norma padrão da língua portuguesa.
+
+Modelo de resposta:
+
+No entanto, houve um apagamento de seu registro, o que gera a falsa interpretação de que os povos escravizados,
+em especial as mulheres, aceitaram passivamente a escravidão, não exercendo papéis de liderança, de luta e de
+resistência.
+
+
+QUESTÃO 4:
+
+Conceição Evaristo ao utilizar um neologismo “aquilombar” no poema “Tempo de nos aquilombar” emprega-o no
+sentido de unir, reunir, criar coletivos etc. O efeito argumentativo dessa palavra é de incitar novos comportamentos e
+ações sociais das pessoas, para que lutem pelos ideais da liberdade.
+
+
+
+
+
+                                                                                             1
+
+=== PÁGINA 2 ===
+                                 MATEMÁTICA
+                                                              Discursivas (4 questões)
+
+
+ QUESTÃO 1:
+
+  a)  Completando os quadrados em 𝑥2 + 𝑦2 −6𝑥+ 4𝑦= 3, obtemos (𝑥−3)2 + (𝑦+ 2)2 = 16. Esta última
+     equação nos diz que o centro é 𝐶 = (3, −2). Calculando a distância entre 𝑃 e 𝐶, obtemos
+
+√(3 −2)2 + (−2 −5)2 = √50.
+
+
+
+  b) O ponto 𝑃 pertence ao exterior da circunferência, pois a sua distância ao centro 𝐶 é maior do que a medida do
+       raio, 4, dessa circunferência.
+
+
+ QUESTÃO 2:
+
+  Para a reta 𝑡 ser paralela à reta 𝑟, precisamos ter 3𝑎 + 4𝑏= 3. Para a reta 𝑢 ser perpendicular à reta 𝑠, precisamos
+                                                                                          41
+  ter 2𝑎 – 3𝑏= −1/5. O sistema linear formado por essas duas equações tem solução 𝑎 =   e 𝑏 = 33/85.
+                                                                                          85
+
+
+ QUESTÃO 3:
+
+  a)  Os dois primeiros dígitos já são conhecidos e, então, estão fixados. Existem 5 possibilidades (1, 3, 5, 7, 9) para o
+     penúltimo dígito e 5 possibilidades (1, 3, 5, 7, 9) para o último dígito. Então, são 5x5=25 as possíveis senhas com
+      as características ditas.
+
+  b) Temos 1 evento favorável em 25 eventos possíveis, o que dá uma probabilidade de 1/25 (equivalente a 4%).
+
+
+ QUESTÃO 4:
+
+  a)  Sejam A, B e C as quantidades que Adriana, Bruna e Clara, respectivamente, tinham inicialmente. Os dados do
+  enunciado levam ao sistema de equações lineares
+
+                          𝐴+ 𝐵+ 𝐶= 1300
+                                               {
+                            2𝐴+ 2𝐵+ 𝐶= 2100
+
+  que pode ser resolvido, obtendo C = 500 e A+B = 800. Logo, Clara contribuiu com quinhentos reais em agosto de
+  2023.
+
+  b) Pela resolução do sistema linear do item a, A+B = 800, ou seja, Adriana e Bruna contribuíram juntas com oitocentos
+  reais.
+
+
+
+                                      SOCIOLOGIA
+                                                              Discursivas (2 questões)
+
+
+ QUESTÃO 1:
+
+  A) Em eleições democráticas os perdedores aceitam a derrota.
+
+
+
+  B) Os(as) candidatos(as) podem mencionar dois fatores dentre os listados abaixo:
+
+
+                                                                                               2
+
+=== PÁGINA 3 ===
+- lideranças autoritárias que encorajam atos golpistas
+
+- difusão de fake news e negacionismo sobre a integridade do processo eleitoral
+
+- aumento de teorias de conspiração
+
+- insatisfação com as condições de vida nas democracias
+
+- aumento da desconfiança em relação às instituições e aos políticos
+
+- aumento do nacionalismo e do patriotismo
+
+- fortalecimento do fundamentalismo religioso
+
+- fortalecimento da extrema direita
+
+- difusão de discursos de ódio contra minorias
+
+- difusão de discursos antisistema
+
+- aumento da polarização política
+
+- agravamento dos conflitos em torno de questões morais
+
+- aumento do discurso armamentista e da circulação de armas
+
+- fortalecimento do discurso ultraliberal
+
+- forte rejeição à esquerda
+
+- fortalecimento do populismo radical de direita
+
+
+QUESTÃO 2:
+
+Os(as) candidatos(as) podem analisar o aumento de questões relacionadas à saúde mental com a situação de anomia
+desencadeada pela pandemia, expressa em: enfraquecimento dos mecanismos e instituições reguladores das
+relações sociais e fonte de coesão social (família, escola, religião, trabalho); precarização das condições de vida e de
+trabalho; enfraquecimento dos laços sociais, isolamento social, aumento da solidão; aumento da imprevisibilidade e
+da incerteza; aumento do medo e da incerteza perante o desconhecido; aumento da ansiedade relacionada ao temor
+de adoecimento e morte; alteração da ordem e do mundo tal qual conhecido; redução da confiança interpessoal e
+nas instituições; redução do contato face-a-face e fuga para o mundo virtual.
+
+
+
+
+
+                                                                                             3

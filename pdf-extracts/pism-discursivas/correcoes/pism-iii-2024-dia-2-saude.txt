@@ -1,0 +1,269 @@
+=== PÁGINA 1 ===
+                          PRÓ-REITORIA DE GRADUAÇÃO - PROGRAD
+
+                     COORDENAÇÃO GERAL DE PROCESSOS SELETIVOS – COPESE
+
+
+           PROGRAMA DE INGRESSO SELETIVO MISTO – PISM 2024
+
+                          DIA 2 – MÓDULO III – Saúde
+                       Prova realizada em 10 de dezembro de 2023
+
+
+    REFERÊNCIAS DE CORREÇÃO DAS PROVAS DISCURSIVAS
+             APÓS ANÁLISE DOS RECURSOS
+
+
+
+
+                                               FÍSICA
+                                                           Discursivas (5 questões)
+
+QUESTÃO 1:
+
+
+
+A) A nova frequência é f = 1/Tm+m’ = (1/3,0) Hz = 0,33 Hz.
+
+B) A partir da razão Tm+m’/Tm = (m+m’) 1/2/m1/2, onde m’ = 5,0 kg, obtemos m = m’/((Tm+m’/Tm)2 – 1) = 4,0 kg.
+
+
+QUESTÃO 2:
+
+
+
+A) Como há 2 nós entre as extremidades fixas, há 3 meias-ondas, de forma que λ = (2/3) L = 60 cm.
+
+B) É necessário encontrar o período: T = λ/v = 0,003 s = 3,0 ms (correspondente a 333 Hz).
+
+
+
+
+QUESTÃO 3:
+
+
+
+A) A energia dos fótons é dada por E = h f. Como a energia de ionização para n = 3 é –h f0 / 9, então a frequência mínima
+do fóton é f0 / 9.
+
+B) A energia do fóton é dada pela diferença de energia na transição E3 – E1 = –h f0 / 9 + h f0 = (8/9) h f0. Portanto, a
+frequência do fóton é (8/9) f0.
+
+
+
+
+
+                                                                                             1
+
+=== PÁGINA 2 ===
+QUESTÃO 4:
+
+A) Usando a regra da mão esquerda como referência, em que o dedo médio indica a velocidade (p/ baixo no ponto P),
+o dedo indicador mostra o campo magnético (p/ dentro), e o polegar aponta para a força magnética, resulta força p/
+direita em P. Elétrons livres do metal irão se mover p/ esquerda, mas a corrente elétrica deverá ser indicada p/ direita
+em P.
+
+B) A variação de fluxo magnético está direcionada como saindo da página, de forma que, pela lei de Lenz, a corrente
+induzida no disco será tal a se opor à variação de fluxo. Usando a regra da mão direita como referência, a variação de
+fluxo é indicada pelo polegar e os demais dedos encurvados dão a direção da corrente. A resposta é no sentido horário
+em relação a O, ou seja, p/ baixo em P.
+
+
+QUESTÃO 5:
+
+A) Capacitores descarregados agem como curtos-circuitos, portanto B2 e B3 têm resistência equivalente nula. A
+resistência equivalente de B1 é R1 = 20 Ω, então a corrente na bateria é I = V/R1 = 6 A.
+
+B) Capacitores carregados agem como circuitos abertos, então a resistência equivalente de B2 é R2 = 40 Ω, e de B3 é
+infinita, resultando na resistência total dos 3 blocos de RT = 60 Ω. A corrente na bateria é I = V/RT = 2 A, a tensão em
+ambos os blocos B2 e B3 é de V2 = V3 = R2 I = 80 V. A carga de cada capacitor é Q = C V2 =8.000 µC, então a carga total é
+de 24.000 µC = 24 mC.
+
+
+
+                                    QUÍMICA
+                                                           Discursivas (5 questões)
+
+
+
+QUESTÃO 1:
+
+A) Qualquer reação química tem sua velocidade de reação aumentada quando a temperatura do meio reativo é
+elevada, em função do aumento do número de choques efetivos entre as espécies reagentes.
+
+
+
+B) O aumento da área superficial da palha de aço, quando comparado à barra maciça, gera maior contato entre os
+reagentes ferro, oxigênio e água, levando a palha de aço a sofrer oxidação mais rapidamente, uma vez que na barra
+maciça, os átomos de ferro no interior da estrutura metálica não podem ser acessados pelos demais reagentes.
+
+
+
+C) Usando as informações da equação química dada:
+
+2 Fe  geram  2 Fe(OH)2
+
+massa de 2 átomos de Fe = 2 . 56 u = 112 u
+
+massa de 2 Fe(OH)2 = 2(56 u) + 4(16 u) + 4(1 u) = 180 u
+
+
+
+Portanto:
+
+se    112 g de Fe  geram 180 g de Fe(OH)2
+
+então 11,2 g de Fe  geram    x g de Fe(OH)2
+
+x = 180 g . 11,2 g / 112 g = 18 g de Fe(OH)2
+
+
+
+
+                                                                                             2
+
+=== PÁGINA 3 ===
+QUESTÃO 2:
+
+A)
+
+                         𝐻𝑁𝑂2(𝑎𝑞) + 𝐻2𝑂(𝑙) ⇌𝑁𝑂2−(𝑎𝑞) + 𝐻3𝑂+(𝑎𝑞)
+
+ou
+
+                              𝐻𝑁𝑂2(𝑎𝑞) ⇌𝑁𝑂2−(𝑎𝑞) + 𝐻+(𝑎𝑞)
+
+ou
+
+                            𝐻𝑁𝑂2 + 𝐻2𝑂⇌𝑁𝑂2−+ 𝐻3𝑂+
+
+ou
+
+                               𝐻𝑁𝑂2 ⇌𝑁𝑂2−+ 𝐻+
+
+
+
+B) O ácido mais fraco é o HCN pois apresenta menor valor de Ka o que indica que este ácido apresenta menor ionização
+em água dentre os ácido mostrados na tabela.
+
+
+
+C) A solução de ácido fluorídrico (HF) irá apresentar o menor pH. Quanto menor o pH, maior a concentração de íons
+H3O+ em solução pois pH = -log[H3O+]. O ácido mais forte resultará em uma solução com maior concentração de íons
+H3O+ em solução e é o que apresenta maior valor de Ka. Portanto a solução de ácido fluorídrico irá apresentar o menor
+pH.
+
+
+QUESTÃO 3:
+
+
+
+A)
+
+     [NO2]4[O2]
+Kc =
+      [N2O5]2
+
+
+
+B) O equilíbrio foi atingido em 12 minutos de reação pois a partir deste tempo não houve alteração na concentração
+dos componentes.
+
+
+
+C)
+
+         160.000 × 5
+   𝐾𝑐=        = 355.555 𝑜𝑢 3,55 × 105
+             2,25
+
+
+
+
+
+                                                                                             3
+
+=== PÁGINA 4 ===
+QUESTÃO 4:
+
+A)
+
+
+
+
+
+B)
+
+
+
+
+
+C)
+
+
+
+
+
+                                               1,0 ponto
+
+
+
+        Produto anti-Markovinikov – 0,5 pontos
+
+
+
+
+
+D)
+
+         5,0 mmol x 1,5 = 7,5 mmol
+
+
+
+       Massa Br = 79,9 ua
+
+
+    MM HBr = 80,9 g mol-1
+
+
+       Massa g HBr = 80,9 g mol-1 x 7,5 mmol x 1 mol/ 10 -3 mmol = 0,607 g
+
+
+
+                                                                                             4
+
+=== PÁGINA 5 ===
+QUESTÃO 5:
+
+A)
+
+ Prolina. Apenas as aminas secundárias reagem com o ácido nitroso e não ocorre a liberação de
+ N2 gasoso.
+
+ Fórmula estrutural do produto da reação:
+
+
+
+
+
+B)
+
+
+
+
+
+C)
+
+
+
+ Ácido                                               Álcool
+
+
+
+                                         CH3OH
+
+
+
+
+
+                                                                                             5

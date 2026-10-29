@@ -2,6 +2,7 @@ import React from 'react'
 import { ArrowRight, ChevronDown } from 'lucide-react'
 import { enemAreas, enemHasLanguage } from './lib/enemExams'
 import { pismSelectionLabel } from './lib/pismSources'
+import { pismAreas } from './lib/pismDiscursive'
 import { inssExamsByYear } from './lib/inssExams'
 
 export function EnemCard({ catalog, year, setYear, discipline, setDiscipline, language, setLanguage, onStart, loading, error }) {
@@ -23,7 +24,7 @@ export function EnemCard({ catalog, year, setYear, discipline, setDiscipline, la
   )
 }
 
-export function ExamCard({ type, title, description, series, currentSeries, onSeriesChange, years, year, setYear, onStart, available, loading, error }) {
+export function ExamCard({ type, title, description, series, currentSeries, onSeriesChange, years, year, setYear, onStart, editions, edition, setEdition, discursiveArea, setDiscursiveArea, available, loading, error }) {
   return (
     <article className={`exam-card ${type}`}>
       <div className="card-art">
@@ -65,6 +66,8 @@ export function ExamCard({ type, title, description, series, currentSeries, onSe
               <ChevronDown size={16} />
             </span>
           </label>
+          {type === 'pism' && currentSeries === '3 ano' && <label>Área das dissertativas<span className="select-wrap"><select aria-label="Área das dissertativas" value={discursiveArea} onChange={event => setDiscursiveArea(event.target.value)}>{pismAreas.map(area => <option key={area.value} value={area.value}>{area.label}</option>)}</select><ChevronDown size={16} /></span></label>}
+          {editions && <label>Edição<span className="select-wrap"><select aria-label="Edição da prova PISM" value={edition} onChange={event => setEdition(event.target.value)}>{editions.map(item => <option key={item.value} value={item.value}>{item.label}</option>)}</select><ChevronDown size={16} /></span></label>}
         </div>
         {error && <p className="api-error" role="alert">{error}</p>}
         <button className={`button ${available && !loading ? 'primary' : 'disabled'} full`} onClick={onStart} disabled={!available || loading}>

@@ -1,0 +1,388 @@
+=== PÁGINA 1 ===
+                         PRÓ-REITORIA DE GRADUAÇÃO - PROGRAD
+
+                     COORDENAÇÃO GERAL DE PROCESSOS SELETIVOS – COPESE
+
+
+           PROGRAMA DE INGRESSO SELETIVO MISTO – PISM 2025
+
+                          DIA 1 – MÓDULO III – Exatas
+                       Prova realizada em 14 de dezembro de 2024
+
+
+    REFERÊNCIAS DE CORREÇÃO DAS PROVAS DISCURSIVAS
+
+
+
+                               LÍNGUA PORTUGUESA
+                                                           Discursivas (5 questões)
+
+QUESTÃO 1:
+
+Uberização é o nome dado à nova relação trabalhista, a qual apresenta mudança nas maneiras de controlar o
+funcionário e de gerenciar e organizar seu trabalho. Suas duas características principais são a produção “just in time”
+e a informalização, isto é, o trabalhador passa a ser visto como um produto, acionado sob demanda e sem respaldo
+de leis trabalhistas.
+
+QUESTÃO 2:
+
+A  citação de  autoridade é uma  estratégia  argumentativa  utilizada  para  conferir maior  credibilidade ao
+posicionamento defendido, comprovando que a opinião é fundamentada por outros pesquisadores. Isso ocorre no
+seguinte trecho: “É como o Marx já falava em “O Capital”: o ideal do capitalista é uma fábrica que funcione sob
+encomenda. Isso é uma produção just in time”.
+
+QUESTÃO 3:
+
+A entrevistada avalia negativamente o trabalho gerenciado por aplicativos. Uma das suas consequências é o chamado
+pela entrevistada de transferência de gerenciamento: o próprio trabalhador é responsável pela organização da sua
+vida profissional e, consequentemente, das suas condições de trabalho e financeiras. Isso significa que o trabalhador
+passa a ser, cada vez mais, reduzido a apenas força de trabalho.
+
+QUESTÃO 4:
+
+A charge critica a exploração de trabalhadores por aplicativos. Isso é perceptível pela imagem do trabalhador, com
+cargas em sua bicicleta, carregando o patrão, o qual está com dinheiro na cartola, sentado em uma carruagem com
+símbolo de uma suástica, controlando o empregado com uma rédea e cobrando mais agilidade. O funcionário segue
+em silêncio, suado e descalço, sugerindo a exploração do trabalho.
+
+QUESTÃO 5:
+
+Conforme Cíntia relata, sua tia Rita sofreu uma série de abusos enquanto trabalhava como doméstica na cidade de
+São Paulo na década de 90. Esta teve seus cabelos cortados e foi proibida de utilizar sandálias para que não tivesse
+sua aparecia física comparada à da família.
+
+
+
+                                MATEMÁTICA
+                                                           Discursivas (5 questões)
+
+QUESTÃO 1:
+
+    a)  Encontre os valores de 𝑎, 𝑏 e 𝑐.
+
+                                                                                             1
+
+=== PÁGINA 2 ===
+      Sabemos que dois polinômios são idênticos quando todos os seus coeficientes são iguais, assim 𝑃(𝑥) ≡𝑄(𝑥)
+        se:
+        −2𝑎+ 3𝑏−𝑐= 1        (1)
+         (𝐼): {  𝑎+ 2𝑏−𝑐= 4        (2)
+         −2𝑎 − 𝑏 −𝑐= −3      (3)
+      Somando a equação (1) com – (3) obtemos,
+
+                       4𝑏= 4  ⟹  𝑏= 1 ⟹   𝑏= 1
+        Substituindo o valor de 𝑏 em (𝐼), segue que:
+                   {−2𝑎+ 3 −𝑐= 1   ⟹    {−2𝑎−𝑐= 1 −3
+                  𝑎+ 2 −𝑐= 4            𝑎−𝑐= 4 −2
+
+
+                                            −2   (4)                ⟹   (𝐼𝐼): {−2𝑎−𝑐=
+                              𝑎−𝑐=  2    (5)
+      Somando a equação (4) com – (5) do sistema (𝐼𝐼) obtemos que:
+
+                                                                 4                 4
+                     −3𝑎= −4  ⟹   𝑎=  ⟹   𝑎=
+                                                                 3                 3
+                         4
+        Substituindo 𝑎=  na equação (5) segue que:
+                         3
+        4                       4                4−6              −2                  2
+     −𝑐= 2 ⟹  𝑐= −2 ⟹ 𝑐=   ⟹    c =  ⟹   𝑐= −
+        3                       3                   3                  3                  3
+
+
+    b)  Encontre o resto da divisão do polinômio 𝑃(𝑥) pelo binômio 𝑀(𝑥) = 𝑥−7.
+
+
+      Temos
+                                          𝑃(𝑥) = 𝑥2 + 4𝑥−3
+      Sabemos que ao dividimos o polinômio 𝑃(𝑥) pelo binômio 𝑀(𝑥) = (𝑥−7), o resto, 𝑅(𝑥), da divisão é um
+      monômio e igual a 𝑃(7), sendo 7 a raiz do binômio 𝑀(𝑥) = (𝑥−7). Assim:
+                                   𝑅(𝑥) = 𝑃(7) = 72 + 4 ∙7 −3 = 74
+        Portanto, o resto da divisão do polinômio 𝑃(𝑥) pelo binômio 𝑀(𝑥) = (𝑥−7) é 74.
+
+
+
+QUESTÃO 2:
+
+    a)  Encontre as coordenadas cartesianas do ponto 𝑃 pertencente ao primeiro quadrante, sendo 𝑃 o ponto de
+        interseção da reta 𝑟 com a circunferência 𝐶.
+
+
+        Seja 𝑃(𝑥𝑜, 𝑦𝑜) o ponto procurado.
+
+                                     Como 𝑃(𝑥𝑜, 𝑦𝑜) pertence a reta 𝑟: 𝑦= 2𝑥, temos,
+                                              𝑦𝑜= 2𝑥𝑜.
+                                  Logo 𝑃(𝑥𝑜, 2𝑥𝑜).
+                                 Sendo que 𝑃 também pertence à Circunferência 𝐶, temos
+                                                             𝑥𝑜2 + 𝑦𝑜2 = 5.
+
+                                       Substituindo 𝑦𝑜= 2𝑥𝑜 obtemos:
+                                   𝑥𝑜2 + (2𝑥𝑜)2 = 5 ⟹  𝑥𝑜2 + 4 𝑥𝑜 2 = 5 ⟹  5𝑥𝑜 2 = 5 ⟹  𝑥𝑜2 = 1
+                                      Logo,
+                                   𝑥𝑜= ±1.
+
+
+
+
+                                                                                             2
+
+=== PÁGINA 3 ===
+     Como 𝑃 é um ponto no primeiro quadrante, temos 𝑥𝑜= 1. Assim
+                                  𝑦𝑜= 2𝑥𝑜= 2.
+        Portanto, 𝑃(1,2).
+
+
+
+    b)  Encontre a equação da circunferência Γ, interior a 𝐶, que tangencia 𝐶 em 𝑃 e cuja medida de seu raio é 𝑑/2,
+       sendo 𝑑 a distância de 𝑃 até a origem 𝑂(0,0) do plano cartesiano.
+
+
+                                Seja 𝜆 a medida do raio da circunferência Γ. Temos
+                                     𝜆= 𝑑/2,
+                           sendo 𝑑= 𝑑𝑖𝑠𝑡(𝑃, 𝑂) (distância de 𝑃 até a origem 𝑂(0,0) do plano cartesiano).
+
+
+                      Como 𝑃∈𝐶 e a circunferência 𝐶 está centrada na origem, temos que a distância de
+
+                     𝑃 até a origem é igual a medida do raio de 𝐶, que é 𝑅= √5. Logo:
+
+                                  𝑑= 𝑅= √5.
+                                Seja 𝑂Γ o centro da circunferência Γ. Como Γ tangencia 𝐶 em 𝑃, 𝑂Γ está sobre a reta
+                          que passa por 𝑃 e pelo centro de 𝐶, que é 𝑂(0,0). Ou seja, 𝑂Γ está sobre a reta 𝑟.
+
+     Como a circunferência Γ é interior a 𝐶, temos então que 𝑂Γ está entre os pontos 𝑂 e 𝑃 da reta 𝑟. Além disso,
+           • 𝑃∈Γ   ⟹     𝑑𝑖𝑠𝑡(𝑃, 𝑂Γ) = 𝜆= 𝑑                                                                  2;
+           • 𝑑= 𝑑𝑖𝑠𝑡(𝑃, 𝑂) = 𝑅 (medida do comprimento do segmento 𝑂𝑃).
+       Assim:
+                                                           𝑑                                     𝑑𝑖𝑠𝑡(𝑂, 𝑂Γ) = 𝑑−𝑑𝑖𝑠𝑡(𝑃, 𝑂Γ) = 𝑑−𝑑 =                                                          2    2.
+     Ou seja, 𝑂Γ é o ponto médio do segmento 𝑂𝑃,
+
+                                        𝑥𝑂 𝑦𝑃+ 𝑦𝑂    + 0 2 + 0                              𝑂Γ = (𝑥𝑃+       ,       ) = (1         ,     ) = (1 , 1).
+                                    2      2         2    2      2
+
+       Portanto a equação da circunferência Γ é:
+                                              2                        2         2
+                       (𝑥−1  + (𝑦−1)2 = 𝜆2 = (𝑑  = (√5 )  .                                   2)                 2)     2
+     Ou seja,
+                                                        2                                                      1                 5
+                              (𝑥− 2) + (𝑦−1)2 = 4.
+
+
+QUESTÃO 3:
+
+      Temos
+                                       𝐴(𝑥) = 𝑥4 + 𝑎𝑥3 + 𝑏𝑥+ 𝑐
+
+
+     Como 𝑥= 0 é uma raiz de 𝐴(𝑥), segue que 𝐴(0) = 0. Assim:
+
+                         0 = 𝐴(0) = (0)4 + 𝑎(0)3 + 𝑏(0) + 𝑐  ⟹    0 = 𝑐
+
+     Ou seja, 𝑐= 0 .
+
+
+
+
+
+                                                                                             3
+
+=== PÁGINA 4 ===
+      Sabemos que ao dividir o polinômio 𝐴(𝑥) pelo polinômio 𝐵(𝑥), obtemos como quociente o trinômio 𝑄(𝑥) =
+      𝑥2 + 𝑥−2 e como resto o monômio 𝑅(𝑥) = 4. Logo:
+
+
+                                                            𝑅(𝑥)=4
+                          𝐴(𝑥) = 𝐵(𝑥)𝑄(𝑥) + 𝑅(𝑥)  ⇒      𝐴(𝑥) = 𝐵(𝑥)𝑄(𝑥) + 4
+
+       Note que se 𝑥𝑜∈ℝ é uma raiz de 𝑄(𝑥), isto é, 𝑄(𝑥𝑜) = 0, então:
+
+                 𝐴(𝑥𝑜) = 𝐵(𝑥𝑜)𝑄(𝑥𝑜) + 4 ⟹   𝐴(𝑥𝑜) = 𝐵(𝑥𝑜) ∙0 + 4 ⟹   𝐴(𝑥𝑜) = 4   (𝐼)
+
+      Vamos então encontrar as raízes de 𝑄(𝑥):
+
+
+                                                                                         −1±√(1)2−4∙(−2)
+                 𝑄(𝑥) = 0   ⟺      𝑥2 + 𝑥−2 = 0   ⟺    𝑥=
+                                                                                             2
+
+     Ou seja,
+                              𝑄(𝑥) = 0  ⟺    𝑥= −2 ou 𝑥= 1
+
+
+      Temos então por (𝐼) que 𝐴(−2) = 4 e 𝐴(1) = 4. Logo:
+
+                     4 = 𝐴(1) = (1)4 + 𝑎(1)3 + 𝑏(1)  ⟹   𝑎+ 𝑏= 3         (𝐼𝐼)
+
+                  4 = 𝐴(−2) = (−2)4 + 𝑎(−2)3 + 𝑏(−2) ⟹ −8𝑎−2𝑏= −12     (𝐼𝐼𝐼)
+
+
+       De, (𝐼𝐼), e (𝐼𝐼𝐼) temos o seguinte sistema de equações lineares:
+                     𝑎+ 𝑏= 3            𝑎+ 𝑏 = 3
+                                {         ⟹       {
+                   −8𝑎−2𝑏= −12           4𝑎+ 𝑏= 6
+
+                               𝑎+ 𝑏 = 3  (𝐼𝑉)
+                 ⟹    {
+                                 4𝑎+ 𝑏= 6  (𝑉)
+      Somando a equação (𝑉) com (−1) × (𝐼𝑉) do sistema acima obtemos que:
+                                                               3
+                      3𝑎= 3  ⟹   𝑎=  ⟹   𝑎= 1
+                                                               3
+        Substituindo 𝑎= 1 na equação (𝐼𝑉) segue que:
+
+                           1 + 𝑏= 3 ⟹  𝑏= 3 −1 ⟹   𝑏= 2
+
+
+        Portanto,
+                        𝑎= 1,  𝑏= 2   e  𝑐= 0.
+
+
+QUESTÃO 4:
+
+    a)  Dado que o habitante dessa cidade foi selecionado de forma aleatória, queremos saber qual a probabilidade
+       dele ser usuário de somente uma dessas três redes sociais.
+
+
+     Com os dados disponibilizados na representação em diagramas, temos que do total de habitantes dessa
+       cidade (2000 habitantes): 50 habitantes usam somente a rede Multigram, 100 habitantes usam somente a
+       rede Tatetable e 100 habitantes usam somente a rede TokTok. Então a partir do conceito de probabilidade,
+      temos que:
+
+                                                      50 + 100 + 100   250
+                    𝑃(𝑆𝑜𝑚𝑒𝑛𝑡𝑒 𝑢𝑚𝑎 𝑑𝑎𝑠 𝑡𝑟ê𝑠 𝑟𝑒𝑑𝑒𝑠 𝑠𝑜𝑐𝑖𝑎𝑖𝑠) =          =
+                                                          2000      2000
+                                                      1
+                                       =  ≈12,50%
+                                                      8
+
+
+                                                                                             4
+
+=== PÁGINA 5 ===
+    b)  Dado que o habitante dessa cidade foi selecionado de forma aleatória, queremos saber qual a probabilidade
+       dele ser usuário de pelo menos uma dessas três redes sociais.
+
+
+     Com os dados disponibilizados na representação em diagramas, temos que do total de habitantes dessa
+       cidade (2000 habitantes):
+           •  250 habitantes usam somente uma das três redes sociais, como visto na letra (a) desta questão;
+           •  650 habitantes usam exatamente as redes Multigram e TokTok, 50 habitantes usam exatamente as
+              redes Multigram e Tatetable, e 400 habitantes usam exatamente as redes Tatetable e TokTok. Ou
+                  seja,
+                                        650 + 50 + 400 = 1100
+            usam exatamente duas redes sociais;
+           •  50 habitantes usam exatamente as três redes sociais.
+
+       Assim do total de habitantes dessa cidade (2000 habitantes)
+                                    250 + 1100 + 50 = 1400
+      usam pelo menos uma das três redes sociais.
+       Então a partir do conceito de probabilidade, temos que:
+                                                         1400  14
+                       𝑃(𝑃𝑒𝑙𝑜 𝑚𝑒𝑛𝑜𝑠 𝑢𝑚𝑎 𝑑𝑎𝑠 𝑡𝑟ê𝑠 𝑟𝑒𝑑𝑒𝑠 𝑠𝑜𝑐𝑖𝑎𝑖𝑠) =    =  = 70%
+                                                         2000  20
+
+Dado que o habitante dessa cidade foi selecionado de forma aleatória, queremos saber qual a probabilidade dele ser
+usuário de somente uma dessas três redes sociais.
+
+
+     Com os dados disponibilizados na representação em diagramas, temos que do total de habitantes dessa
+       cidade (2000 habitantes): 50 habitantes usam somente a rede Multigram, 100 habitantes usam somente a
+       rede Tatetable e 100 habitantes usam somente a rede TokTok. Então a partir do conceito de probabilidade,
+      temos que:
+
+                                                      50 + 100 + 100   250
+                    𝑃(𝑆𝑜𝑚𝑒𝑛𝑡𝑒 𝑢𝑚𝑎 𝑑𝑎𝑠 𝑡𝑟ê𝑠 𝑟𝑒𝑑𝑒𝑠 𝑠𝑜𝑐𝑖𝑎𝑖𝑠) =          =
+                                                          2000      2000
+                                                      1
+                                       =  ≈12,50%
+                                                      8
+
+    c)  Dado que o habitante dessa cidade foi selecionado de forma aleatória, queremos saber qual a probabilidade
+       dele ser usuário de pelo menos uma dessas três redes sociais.
+
+
+     Com os dados disponibilizados na representação em diagramas, temos que do total de habitantes dessa
+       cidade (2000 habitantes):
+           •  250 habitantes usam somente uma das três redes sociais, como visto na letra (a) desta questão;
+           •  650 habitantes usam exatamente as redes Multigram e TokTok, 50 habitantes usam exatamente as
+              redes Multigram e Tatetable, e 400 habitantes usam exatamente as redes Tatetable e TokTok. Ou
+                  seja,
+                                        650 + 50 + 400 = 1100
+            usam exatamente duas redes sociais;
+           •  50 habitantes usam exatamente as três redes sociais.
+
+       Assim do total de habitantes dessa cidade (2000 habitantes)
+                                    250 + 1100 + 50 = 1400
+      usam pelo menos uma das três redes sociais.
+       Então a partir do conceito de probabilidade, temos que:
+                                                         1400  14
+                       𝑃(𝑃𝑒𝑙𝑜 𝑚𝑒𝑛𝑜𝑠 𝑢𝑚𝑎 𝑑𝑎𝑠 𝑡𝑟ê𝑠 𝑟𝑒𝑑𝑒𝑠 𝑠𝑜𝑐𝑖𝑎𝑖𝑠) =    =  = 70%
+                                                         2000  20
+
+                                                                                             5
+
+=== PÁGINA 6 ===
+reais.
+
+QUESTÃO 5:
+
+    a) Um jogador sortudo avança sua peça uma casa em todas as rodadas. Quantos trajetos diferentes permitem a
+       esse jogador vencer o jogo se sua peça estiver na casa 22 do tabuleiro?
+
+
+
+Note que para o jogador sortudo vencer o jogo, sua peça deve chegar a casa 36.
+
+Sua peça está na casa 22 do tabuleiro e ele a avança uma casa em cada rodada, assim para chegar a casa 36, terá que
+realizar 4 deslocamentos, sendo 2 para a esquerda e 2 para cima.
+
+
+
+Como queremos o total de trajetos diferentes que a peça do jogador sortudo deve percorrer para chegar a casa 36
+(partindo da casa 22 e deslocando uma casa em cada rodada), precisamos calcular o número de permutações com
+repetição de 4 deslocamentos, sendo 2 para a esquerda e 2 para cima.
+
+
+
+Assim, a quantidade de trajetos diferentes que permitem esse jogador sortudo vencer o jogo, avançando sua peça
+uma casa em todas as rodadas, é:
+
+
+                                               2,2    4!    4 ∙3 ∙2!   4
+                                   𝑃4 =   =     =  ∙3 = 2 ∙3 = 6.                                          2! 2!   2 ∙1 ∙2!   2
+
+
+Portanto 6 trajetos diferentes.
+
+
+    b)  Se em uma determinada rodada, o jogador 𝐽1 tem sua peça na casa 28 e obteve o número 2 no lançamento
+      do dado, qual a probabilidade do jogador 𝐽2, que tem sua peça na casa 30, vencer o jogo nesta rodada?
+
+       Para que o jogador 𝐽2, que tem sua peça na casa 30, venca o jogo nesta rodada, ele necessita deslocar sua
+       peça uma casa para cima.
+
+
+       Para conseguir este deslocamente, seguindo as regras do jogo, ele precisa obter ao lançar o dado ( na face
+        voltada para cima) um número:
+             1.  maior que 2, pois o jogador 𝐽1 obteve o número 2 em seu lançamento de dado;
+             2.  ímpar, pois o deslocamento de sua peça deve ser para cima.
+
+
+       Assim, precisa obter ao lançar o dado ( na face voltada para cima) o número 3 ou o número 5.
+                                                                                          1
+     Como o dado possui 6 faces, a probabilidade de obter o número 3, 𝑃(3), é igual a   e a probabilidade de
+                                                                                          6
+                                                 1
+       obter o número 5, 𝑃(5), é também igual a   .
+                                                 6
+        Portanto, a probabilidade do jogador 𝐽2 vencer o jogo é:
+               1   1   1
+𝑃(3) + 𝑃(5) = + =    .
+               6   6   3
+
+
+
+
+
+                                                                                             6

@@ -1,0 +1,369 @@
+=== PÁGINA 1 ===
+                         PRÓ-REITORIA DE GRADUAÇÃO - PROGRAD
+
+                     COORDENAÇÃO GERAL DE PROCESSOS SELETIVOS – COPESE
+
+
+           PROGRAMA DE INGRESSO SELETIVO MISTO – PISM 2025
+
+                 DIA 1 – MÓDULO III – Economia e Administração
+
+                     Prova realizada em 14 de dezembro de 2024
+
+
+               REFERÊNCIAS DE CORREÇÃO DAS PROVAS DISCURSIVAS
+
+
+
+                               LÍNGUA PORTUGUESA
+                                                           Discursivas (4 questões)
+
+QUESTÃO 1:
+
+Uberização é o nome dado à nova relação trabalhista, a qual apresenta mudança nas maneiras de controlar o
+funcionário e de gerenciar e organizar seu trabalho. Suas duas características principais são a produção “just in time”
+e a informalização, isto é, o trabalhador passa a ser visto como um produto, acionado sob demanda e sem respaldo
+de leis trabalhistas.
+
+QUESTÃO 2:
+
+A  citação de  autoridade é uma  estratégia  argumentativa  utilizada  para  conferir maior  credibilidade ao
+posicionamento defendido, comprovando que a opinião é fundamentada por outros pesquisadores. Isso ocorre no
+seguinte trecho: “É como o Marx já falava em “O Capital”: o ideal do capitalista é uma fábrica que funcione sob
+encomenda. Isso é uma produção just in time”.
+
+QUESTÃO 3:
+
+A entrevistada avalia negativamente o trabalho gerenciado por aplicativos. Uma das suas consequências é o chamado
+pela entrevistada de transferência de gerenciamento: o próprio trabalhador é responsável pela organização da sua
+vida profissional e, consequentemente, das suas condições de trabalho e financeiras. Isso significa que o trabalhador
+passa a ser, cada vez mais, reduzido a apenas força de trabalho.
+
+QUESTÃO 4:
+
+A charge critica a exploração de trabalhadores por aplicativos. Isso é perceptível pela imagem do trabalhador, com
+cargas em sua bicicleta, carregando o patrão, o qual está com dinheiro na cartola, sentado em uma carruagem com
+símbolo de uma suástica, controlando o empregado com uma rédea e cobrando mais agilidade. O funcionário segue
+em silêncio, suado e descalço, sugerindo a exploração do trabalho.
+
+
+
+
+
+                                                                                             1
+
+=== PÁGINA 2 ===
+                                MATEMÁTICA
+                                                           Discursivas (4 questões)
+
+
+QUESTÃO 1:
+
+    a)  Encontre os valores de 𝑎, 𝑏 e 𝑐.
+
+
+      Sabemos que dois polinômios são idênticos quando todos os seus coeficientes são iguais, assim 𝑃(𝑥) ≡𝑄(𝑥)
+        se:
+        −2𝑎+ 3𝑏−𝑐= 1        (1)
+         (𝐼): {  𝑎+ 2𝑏−𝑐= 4        (2)
+         −2𝑎 − 𝑏 −𝑐= −3      (3)
+      Somando a equação (1) com – (3) obtemos,
+
+                       4𝑏= 4  ⟹  𝑏= 1 ⟹   𝑏= 1
+        Substituindo o valor de 𝑏 em (𝐼), segue que:
+                   {−2𝑎+ 3 −𝑐= 1   ⟹    {−2𝑎−𝑐= 1 −3
+                  𝑎+ 2 −𝑐= 4            𝑎−𝑐= 4 −2
+
+
+                                            −2   (4)                ⟹   (𝐼𝐼): {−2𝑎−𝑐=
+                              𝑎−𝑐=  2    (5)
+      Somando a equação (4) com – (5) do sistema (𝐼𝐼) obtemos que:
+
+                                                                 4                 4
+                     −3𝑎= −4  ⟹   𝑎=  ⟹   𝑎=
+                                                                 3                 3
+                         4
+        Substituindo 𝑎=  na equação (5) segue que:
+                         3
+        4                       4                4−6              −2                  2
+     −𝑐= 2 ⟹  𝑐= −2 ⟹ 𝑐=   ⟹    c =  ⟹   𝑐= −
+        3                       3                   3                  3                  3
+
+
+    b)  Encontre o resto da divisão do polinômio 𝑃(𝑥) pelo binômio 𝑀(𝑥) = 𝑥−7.
+
+
+      Temos
+                                          𝑃(𝑥) = 𝑥2 + 4𝑥−3
+      Sabemos que ao dividimos o polinômio 𝑃(𝑥) pelo binômio 𝑀(𝑥) = (𝑥−7), o resto, 𝑅(𝑥), da divisão é um
+      monômio e igual a 𝑃(7), sendo 7 a raiz do binômio 𝑀(𝑥) = (𝑥−7). Assim:
+                                   𝑅(𝑥) = 𝑃(7) = 72 + 4 ∙7 −3 = 74
+        Portanto, o resto da divisão do polinômio 𝑃(𝑥) pelo binômio 𝑀(𝑥) = (𝑥−7) é 74.
+
+
+
+QUESTÃO 2:
+
+    a)  Encontre as coordenadas cartesianas do ponto 𝑃 pertencente ao primeiro quadrante, sendo 𝑃 o ponto de
+        interseção da reta 𝑟 com a circunferência 𝐶.
+
+
+        Seja 𝑃(𝑥𝑜, 𝑦𝑜) o ponto procurado.
+
+                                     Como 𝑃(𝑥𝑜, 𝑦𝑜) pertence a reta 𝑟: 𝑦= 2𝑥, temos,
+                                              𝑦𝑜= 2𝑥𝑜.
+                                  Logo 𝑃(𝑥𝑜, 2𝑥𝑜).
+                                 Sendo que 𝑃 também pertence à Circunferência 𝐶, temos
+
+
+
+                                                                                             2
+
+=== PÁGINA 3 ===
+                                            𝑥𝑜2 + 𝑦𝑜2 = 5.
+
+        Substituindo 𝑦𝑜= 2𝑥𝑜 obtemos:
+                     𝑥𝑜2 + (2𝑥𝑜)2 = 5 ⟹  𝑥𝑜2 + 4 𝑥𝑜 2 = 5 ⟹  5𝑥𝑜 2 = 5 ⟹  𝑥𝑜2 = 1
+       Logo,
+                                   𝑥𝑜= ±1.
+
+     Como 𝑃 é um ponto no primeiro quadrante, temos 𝑥𝑜= 1. Assim
+                                  𝑦𝑜= 2𝑥𝑜= 2.
+        Portanto, 𝑃(1,2).
+
+
+
+    b)  Encontre a equação da circunferência Γ, interior a 𝐶, que tangencia 𝐶 em 𝑃 e cuja medida de seu raio é 𝑑/2,
+       sendo 𝑑 a distância de 𝑃 até a origem 𝑂(0,0) do plano cartesiano.
+
+
+                                Seja 𝜆 a medida do raio da circunferência Γ. Temos
+                                     𝜆= 𝑑/2,
+                           sendo 𝑑= 𝑑𝑖𝑠𝑡(𝑃, 𝑂) (distância de 𝑃 até a origem 𝑂(0,0) do plano cartesiano).
+
+
+                      Como 𝑃∈𝐶 e a circunferência 𝐶 está centrada na origem, temos que a distância de
+
+                     𝑃 até a origem é igual a medida do raio de 𝐶, que é 𝑅= √5. Logo:
+
+                                  𝑑= 𝑅= √5.
+                                Seja 𝑂Γ o centro da circunferência Γ. Como Γ tangencia 𝐶 em 𝑃, 𝑂Γ está sobre a reta
+                          que passa por 𝑃 e pelo centro de 𝐶, que é 𝑂(0,0). Ou seja, 𝑂Γ está sobre a reta 𝑟.
+
+     Como a circunferência Γ é interior a 𝐶, temos então que 𝑂Γ está entre os pontos 𝑂 e 𝑃 da reta 𝑟. Além disso,
+           • 𝑃∈Γ   ⟹     𝑑𝑖𝑠𝑡(𝑃, 𝑂Γ) = 𝜆= 𝑑                                                                  2;
+           • 𝑑= 𝑑𝑖𝑠𝑡(𝑃, 𝑂) = 𝑅 (medida do comprimento do segmento 𝑂𝑃).
+       Assim:
+                                                           𝑑                                     𝑑𝑖𝑠𝑡(𝑂, 𝑂Γ) = 𝑑−𝑑𝑖𝑠𝑡(𝑃, 𝑂Γ) = 𝑑−𝑑 =                                                          2    2.
+     Ou seja, 𝑂Γ é o ponto médio do segmento 𝑂𝑃,
+
+                                        𝑥𝑂 𝑦𝑃+ 𝑦𝑂    + 0 2 + 0                              𝑂Γ = (𝑥𝑃+       ,       ) = (1         ,     ) = (1 , 1).
+                                    2      2         2    2      2
+
+       Portanto a equação da circunferência Γ é:
+                                              2                        2         2
+                       (𝑥−1  + (𝑦−1)2 = 𝜆2 = (𝑑  = (√5 )  .                                   2)                 2)     2
+     Ou seja,
+                                                        2                                                      1                 5
+                              (𝑥− 2) + (𝑦−1)2 = 4.
+
+
+QUESTÃO 3:
+
+      Temos
+                                       𝐴(𝑥) = 𝑥4 + 𝑎𝑥3 + 𝑏𝑥+ 𝑐
+
+
+
+                                                                                             3
+
+=== PÁGINA 4 ===
+     Como 𝑥= 0 é uma raiz de 𝐴(𝑥), segue que 𝐴(0) = 0. Assim:
+
+                         0 = 𝐴(0) = (0)4 + 𝑎(0)3 + 𝑏(0) + 𝑐  ⟹    0 = 𝑐
+
+     Ou seja, 𝑐= 0 .
+
+      Sabemos que ao dividir o polinômio 𝐴(𝑥) pelo polinômio 𝐵(𝑥), obtemos como quociente o trinômio 𝑄(𝑥) =
+      𝑥2 + 𝑥−2 e como resto o monômio 𝑅(𝑥) = 4. Logo:
+
+
+                                                            𝑅(𝑥)=4
+                          𝐴(𝑥) = 𝐵(𝑥)𝑄(𝑥) + 𝑅(𝑥)  ⇒      𝐴(𝑥) = 𝐵(𝑥)𝑄(𝑥) + 4
+
+       Note que se 𝑥𝑜∈ℝ é uma raiz de 𝑄(𝑥), isto é, 𝑄(𝑥𝑜) = 0, então:
+
+                 𝐴(𝑥𝑜) = 𝐵(𝑥𝑜)𝑄(𝑥𝑜) + 4 ⟹   𝐴(𝑥𝑜) = 𝐵(𝑥𝑜) ∙0 + 4 ⟹   𝐴(𝑥𝑜) = 4   (𝐼)
+
+      Vamos então encontrar as raízes de 𝑄(𝑥):
+
+
+                                                                                         −1±√(1)2−4∙(−2)
+                 𝑄(𝑥) = 0   ⟺      𝑥2 + 𝑥−2 = 0   ⟺    𝑥=
+                                                                                             2
+
+     Ou seja,
+                              𝑄(𝑥) = 0  ⟺    𝑥= −2 ou 𝑥= 1
+
+
+      Temos então por (𝐼) que 𝐴(−2) = 4 e 𝐴(1) = 4. Logo:
+
+                     4 = 𝐴(1) = (1)4 + 𝑎(1)3 + 𝑏(1)  ⟹   𝑎+ 𝑏= 3         (𝐼𝐼)
+
+                  4 = 𝐴(−2) = (−2)4 + 𝑎(−2)3 + 𝑏(−2) ⟹ −8𝑎−2𝑏= −12     (𝐼𝐼𝐼)
+
+
+       De, (𝐼𝐼), e (𝐼𝐼𝐼) temos o seguinte sistema de equações lineares:
+                     𝑎+ 𝑏= 3            𝑎+ 𝑏 = 3
+                                {         ⟹       {
+                   −8𝑎−2𝑏= −12           4𝑎+ 𝑏= 6
+
+                               𝑎+ 𝑏 = 3  (𝐼𝑉)
+                 ⟹    {
+                                 4𝑎+ 𝑏= 6  (𝑉)
+      Somando a equação (𝑉) com (−1) × (𝐼𝑉) do sistema acima obtemos que:
+                                                               3
+                      3𝑎= 3  ⟹   𝑎=  ⟹   𝑎= 1
+                                                               3
+        Substituindo 𝑎= 1 na equação (𝐼𝑉) segue que:
+
+                           1 + 𝑏= 3 ⟹  𝑏= 3 −1 ⟹   𝑏= 2
+
+
+        Portanto,
+                        𝑎= 1,  𝑏= 2   e  𝑐= 0.
+
+
+QUESTÃO 4:
+
+    a)  Dado que o habitante dessa cidade foi selecionado de forma aleatória, queremos saber qual a probabilidade
+       dele ser usuário de somente uma dessas três redes sociais.
+
+
+     Com os dados disponibilizados na representação em diagramas, temos que do total de habitantes dessa
+       cidade (2000 habitantes): 50 habitantes usam somente a rede Multigram, 100 habitantes usam somente a
+
+
+
+                                                                                             4
+
+=== PÁGINA 5 ===
+       rede Tatetable e 100 habitantes usam somente a rede TokTok. Então a partir do conceito de probabilidade,
+      temos que:
+
+                                                      50 + 100 + 100   250
+                    𝑃(𝑆𝑜𝑚𝑒𝑛𝑡𝑒 𝑢𝑚𝑎 𝑑𝑎𝑠 𝑡𝑟ê𝑠 𝑟𝑒𝑑𝑒𝑠 𝑠𝑜𝑐𝑖𝑎𝑖𝑠) =          =
+                                                          2000      2000
+                                                      1
+                                       =  ≈12,50%
+                                                      8
+
+    b)  Dado que o habitante dessa cidade foi selecionado de forma aleatória, queremos saber qual a probabilidade
+       dele ser usuário de pelo menos uma dessas três redes sociais.
+
+
+     Com os dados disponibilizados na representação em diagramas, temos que do total de habitantes dessa
+       cidade (2000 habitantes):
+           •  250 habitantes usam somente uma das três redes sociais, como visto na letra (a) desta questão;
+           •  650 habitantes usam exatamente as redes Multigram e TokTok, 50 habitantes usam exatamente as
+              redes Multigram e Tatetable, e 400 habitantes usam exatamente as redes Tatetable e TokTok. Ou
+                  seja,
+                                        650 + 50 + 400 = 1100
+            usam exatamente duas redes sociais;
+           •  50 habitantes usam exatamente as três redes sociais.
+
+       Assim do total de habitantes dessa cidade (2000 habitantes)
+                                    250 + 1100 + 50 = 1400
+      usam pelo menos uma das três redes sociais.
+       Então a partir do conceito de probabilidade, temos que:
+                                                         1400  14
+                       𝑃(𝑃𝑒𝑙𝑜 𝑚𝑒𝑛𝑜𝑠 𝑢𝑚𝑎 𝑑𝑎𝑠 𝑡𝑟ê𝑠 𝑟𝑒𝑑𝑒𝑠 𝑠𝑜𝑐𝑖𝑎𝑖𝑠) =    =  = 70%
+                                                         2000  20
+
+Dado que o habitante dessa cidade foi selecionado de forma aleatória, queremos saber qual a probabilidade dele ser
+usuário de somente uma dessas três redes sociais.
+
+
+     Com os dados disponibilizados na representação em diagramas, temos que do total de habitantes dessa
+       cidade (2000 habitantes): 50 habitantes usam somente a rede Multigram, 100 habitantes usam somente a
+       rede Tatetable e 100 habitantes usam somente a rede TokTok. Então a partir do conceito de probabilidade,
+      temos que:
+
+                                                      50 + 100 + 100   250
+                    𝑃(𝑆𝑜𝑚𝑒𝑛𝑡𝑒 𝑢𝑚𝑎 𝑑𝑎𝑠 𝑡𝑟ê𝑠 𝑟𝑒𝑑𝑒𝑠 𝑠𝑜𝑐𝑖𝑎𝑖𝑠) =          =
+                                                          2000      2000
+                                                      1
+                                       =  ≈12,50%
+                                                      8
+
+    c)  Dado que o habitante dessa cidade foi selecionado de forma aleatória, queremos saber qual a probabilidade
+       dele ser usuário de pelo menos uma dessas três redes sociais.
+
+
+     Com os dados disponibilizados na representação em diagramas, temos que do total de habitantes dessa
+       cidade (2000 habitantes):
+           •  250 habitantes usam somente uma das três redes sociais, como visto na letra (a) desta questão;
+           •  650 habitantes usam exatamente as redes Multigram e TokTok, 50 habitantes usam exatamente as
+              redes Multigram e Tatetable, e 400 habitantes usam exatamente as redes Tatetable e TokTok. Ou
+                  seja,
+                                        650 + 50 + 400 = 1100
+            usam exatamente duas redes sociais;
+           •  50 habitantes usam exatamente as três redes sociais.
+
+
+                                                                                             5
+
+=== PÁGINA 6 ===
+       Assim do total de habitantes dessa cidade (2000 habitantes)
+                                    250 + 1100 + 50 = 1400
+      usam pelo menos uma das três redes sociais.
+       Então a partir do conceito de probabilidade, temos que:
+                                                         1400  14
+                       𝑃(𝑃𝑒𝑙𝑜 𝑚𝑒𝑛𝑜𝑠 𝑢𝑚𝑎 𝑑𝑎𝑠 𝑡𝑟ê𝑠 𝑟𝑒𝑑𝑒𝑠 𝑠𝑜𝑐𝑖𝑎𝑖𝑠) =    =  = 70%
+                                                         2000  20
+
+
+
+                                    SOCIOLOGIA
+                                                           Discursivas (2 questões)
+
+
+
+QUESTÃO 1:
+
+A) O candidato deverá ser capaz de citar teorias raciais e eugênicas que buscavam comprovar a existência de raças
+superiores e inferiores; também denominadas de darwinismo social e no evolucionismo. Essas teorias revelam uma
+visão pessimista do país, em razão da forte presença de grupos sociais humanos como indígenas e negros,
+identificados como raças inferiores, entre o final do século XIX e princípio do século XX. A ideia é que esses grupos
+poderiam promover a degeneração física e moral da sociedade brasileira, inclusive impactando a construção de um
+ideário da identidade nacional. A versão corrobora para concepção do conceito de mestiçagem ou miscigenação, que
+também poderá ser desenvolvido nessa argumentação.
+
+B) Os dois conceitos que estão sendo discutidos e destacados são: raça e etnia, que explicam as diferenças entre os
+grupamentos sociais humanos. Raça é um conceito destacado no pensamento europeu, no início do século XX, com
+destaque para o filósofo Gobineau, que acreditava que os grupos sociais humanos eram divididos por características
+biológicas definitivas. Em tese, considera-se que essa classificação foi construída de forma arbitrária, produzida por
+um sistema classificatório, com base em características fenotípicas, transmitidas hereditariamente. Já etnia, é um
+conceito que designa grupo  social que compartilha herança  cultural comum e  enfatiza que  as heranças,
+biologicamente herdadas não são significativas para caracterizar os grupos sociais humanos. Etnia, se refere a
+distinção entre esses grupos por suas características culturais específicas, tais como: língua, religião, costumes,
+tradições etc transmitidas por meio de socialização.
+
+
+
+QUESTÃO 2:
+
+O candidato deverá discorrer pelos conceitos de classes sociais e produção de mercadorias, apresentando o impacto
+da exploração capitalista na questão ambiental, pontuando a relação entre o capitalismo e o desastre natural
+acontecido na região Sul do Brasil, devido as alterações das configurações climáticas diante do cenário do mundo
+contemporâneo e sua relação com a excessiva produção de mercadorias. O candidato também poderá discorrer
+sobre o conceito de classe social, revelando como a sociedade capitalista estabeleceu os mecanismos de divisão da
+sociedade em duas classes, otimizando os mecanismos de exploração a partir da intensificação da produção e que
+implica num impacto à questão ambiental. O debate de Marx sobre a relação homem x natureza e o uso do conceito
+de metabolismo para explicar essa relação entre o capitalismo e a questão ambiental.
+
+
+
+
+
+                                                                                             6

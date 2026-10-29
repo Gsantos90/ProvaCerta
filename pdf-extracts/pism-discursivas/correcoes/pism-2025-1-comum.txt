@@ -1,0 +1,160 @@
+=== PÁGINA 1 ===
+                          PRÓ-REITORIA DE GRADUAÇÃO - PROGRAD
+
+                     COORDENAÇÃO GERAL DE PROCESSOS SELETIVOS – COPESE
+
+
+           PROGRAMA DE INGRESSO SELETIVO MISTO – PISM 2026
+
+                              DIA 1 – MÓDULO I
+                       Prova realizada em 06 de dezembro de 2025
+
+
+    REFERÊNCIAS DE CORREÇÃO DAS PROVAS DISCURSIVAS
+
+
+
+                               LÍNGUA PORTUGUESA
+                                                           Discursivas (2 questões)
+
+QUESTÃO 1:
+
+O departamento que apontava para o maior crescimento no uso de tecnologias de IA é o de Vendas e marketing, que
+terá um aumento de 26 pontos percentuais, passando de 33%, em 2019, para 59%, em 2022. Enquanto isso, o
+departamento que indicava o menor crescimento é o de Administração de IA, para o qual se apontava um aumento
+somente de 3 pontos percentuais, passando de 47%, em 2019, para 50%, em 2022.
+
+QUESTÃO 2:
+
+A parte do “Resumo sobre inteligência artificial” retratada na foto é a que menciona, entre os pontos negativos, sobre
+os elevados custos de produção e implementação das IA e sobre a possibilidade de causarem desemprego estrutural.
+Podemos apontar, como consequência disso, o empobrecimento de uma parcela da população enquanto ocorre a
+concentração de renda em outra parcela.
+
+
+                                   GEOGRAFIA
+                                                           Discursivas (2 questões)
+
+
+QUESTÃO 1:
+
+    A) As ações humanas, como o desmatamento, a queima de combustíveis fósseis, a poluição e a expansão urbana,
+      aumentam a emissão de gases de efeito estufa, que elevam a temperatura do planeta. Essas atividades alteram
+      o equilíbrio climático, intensificando fenômenos como secas, enchentes e incêndios.
+
+    B) Queimadas recentes na Amazônia. Seca dos rios na Amazônia. Enchentes no Sul do Brasil. As queimadas
+       recordes no Pantanal (2020), agravadas por secas extremas e desmatamento. As enchentes históricas em
+       Pernambuco. Transição do Clima Semi-Árido para Árido em algumas regiões do Nordeste.
+
+QUESTÃO 2:
+
+    A)  Impactos ambientais se configuram como desequilíbrios provocados pela ação humana sobre o meio ambiente,
+      embora também possam ser causados por fenômenos naturais (vulcanismo, tsunami, raios etc.). O Projeto de
+         Lei 2159/2021 propõe flexibilizar o processo de licenciamento ambiental, adotando o Licenciamento Ambiental
+       por Adesão e Compromisso (LAC), onde o empreendedor ou o responsável declara adesão e compromisso às
+        regras previstas no Licenciamento Ambiental. Isso vai facilitar a atuação de empreendimentos com elevado
+        potencial de impacto ambiental.
+
+    B)  Poluição de rios, aumento do desmatamento, contaminação do solo, degradação ambiental, alterações
+        climáticas, perda de biodiversidade etc.
+
+
+                                                                                             1
+
+=== PÁGINA 2 ===
+                                MATEMÁTICA
+                                                           Discursivas (2 questões)
+
+
+QUESTÃO 1:
+
+    A) Observa pelo gráfico que o custo total de produção passa de 350 para 400 reais quando a quantidade de
+        brigadeiros produzidos passa de 20 a 40. Como para produzir 20 (= 40 – 20) brigadeiros o custo total aumenta
+      50 reais (= 400 – 350), conclui que o custo de produção de 1 brigadeiro é dado por 50 reais ÷ 20 = 2,50 reais.
+
+    B) Como o custo de produção de 1 brigadeiro é igual a 2,50 reais, conclui que a produção dos 20 primeiros
+        brigadeiros gera um custo de produção de 50 reais; com isso desconta 50 de 350 para obter o custo fixo, relativo
+       à produção de zero brigadeiros, obtendo 350 – 50 = 300 reais.
+
+    C) Como o custo de produção de 1 brigadeiro é igual a 2,50 reais, o preço de venda de 1 brigadeiro é 2 × 2,50 =
+       5,00 reais. Portanto, a lei da função receita 𝑅(𝑞) é
+                                            𝑅(𝑞) = 5 ∙𝑞
+   D) Como a função custo total é dada por 𝐶𝑇(𝑞) = 2,5 ∙𝑞+ 300, deve-se obter o menor valor de 𝑞 para o qual
+      𝑅(𝑞) > 𝐶𝑇(𝑞), ou seja,
+                                               300
+                                       2,5 ∙𝑞> 300 ⟹𝑞>  ⟹𝑞> 120
+                                                            2,5
+
+        Portanto, a quantidade mínima de unidades produzidas que faz com que a receita supere o custo total de
+       produção é 121.
+
+
+QUESTÃO 2:
+
+    A)  Traça a altura UH do trapézio PQUV e utiliza razão trigonométrica no triângulo UQH:
+
+
+
+
+
+                           𝑈𝐻   20         20   20
+                        𝑠𝑒𝑛𝛼= 𝑈𝑄= 𝑈𝑄⟹𝑈𝑄= 𝑠𝑒𝑛𝛼= 0,8 = 25 𝑚
+
+    B)  Calcula a medida HQ no triângulo UQH fazendo:
+
+                        𝐻𝑄  𝐻𝑄
+                     𝑐𝑜𝑠𝛼= 𝑈𝑄= 25 ⟹𝐻𝑄= 25 ∙𝑐𝑜𝑠𝛼= 25 ∙0,6 = 15 𝑚
+
+    Obtém a medida de VU, fazendo: 𝑉𝑈= 𝑃𝑄−𝐻𝑄= 40 −15 = 25 𝑚.
+
+     Em seguida, obtém UR fazendo: 𝑈𝑅= 𝑉𝑅−𝑉𝑈= 90 −25 = 65 𝑚.
+
+    C)  Calcula a medida da área do lote triangular fazendo:
+
+                         𝑈𝑅× 𝐻𝑈  65 × 20
+                               =     = 650 𝑚²
+                                     2        2
+
+
+
+
+                                                                                             2
+
+=== PÁGINA 3 ===
+                                    QUÍMICA
+                                                           Discursivas (2 questões)
+
+
+QUESTÃO 1:
+
+    A) A fórmula estrutural da amônia pode ser representada como:
+
+
+
+
+
+    B) O sinal “+” representa a carga positiva do íon, indicando que o átomo perdeu um elétron. O átomo neutro
+        possui números iguais de prótons (de carga positiva) e elétrons (de carga negativa). Dessa forma, quando
+       perde um elétron, o balanço de cargas é desfeito e deixa o íon com uma carga positiva a mais.
+    C) O NaCl é um composto iônico formado por íons Na⁺ e Cl⁻, organizados em uma rede cristalina tridimensional.
+       Por isso, sua representação é feita por fórmula unitária (NaCl), que expressa a proporção de íons no retículo.
+        Já o NH3 é uma molécula com átomos unidos por ligações covalentes em uma estrutura definida, o que
+       permite a representação estrutural.
+
+
+
+QUESTÃO 2:
+
+    A) A impermeabilização do solo impede a infiltração da água no subsolo, reduzindo a recarga dos lençóis
+         freáticos. Além disso, pode gerar ilhas de calor afetando o equilíbrio na evaporação. Como há maior retenção
+      de água na superfície, pode causar enchentes.
+    B)  Poluentes no solo podem chegar, através das chuvas, até os lençóis freáticos, contaminar rios e entrar na
+       cadeia alimentar de seres vivos.
+    C)  As plantas realizam transpiração, liberando vapor de água para a atmosfera. O desmatamento reduz essa
+        liberação de vapor, afetando a umidade do ar e consequentemente o regime de chuvas.
+
+
+
+
+
+                                                                                             3

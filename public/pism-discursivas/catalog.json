@@ -1,0 +1,938 @@
+{
+  "pism-2023-1-comum": {
+    "slug": "pism-2023-1",
+    "year": 2024,
+    "day": 1,
+    "module": "I",
+    "area": "comum",
+    "source": "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2023/12/PROVA-PISM-2024-DIA_1-M%C3%93DULO_I.pdf",
+    "correction": "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2023/12/P2024_Discursivas_D1-P1.pdf",
+    "sections": [
+      {
+        "subject": "Língua Portuguesa",
+        "page": 16,
+        "count": 2
+      },
+      {
+        "subject": "Geografia",
+        "page": 18,
+        "count": 2
+      },
+      {
+        "subject": "Matemática",
+        "page": 19,
+        "count": 2
+      },
+      {
+        "subject": "Química",
+        "page": 20,
+        "count": 2
+      }
+    ]
+  },
+  "pism-2023-2-comum": {
+    "slug": "pism-2023-2",
+    "year": 2024,
+    "day": 2,
+    "module": "I",
+    "area": "comum",
+    "source": "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2023/12/PROVA-PISM-2024-DIA_2-M%C3%93DULO_I.pdf",
+    "correction": "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2024/01/P2024_Discursivas_D2-P1_apos-recurso.pdf",
+    "sections": [
+      {
+        "subject": "Literatura",
+        "page": 14,
+        "count": 2
+      },
+      {
+        "subject": "Biologia",
+        "page": 15,
+        "count": 2
+      },
+      {
+        "subject": "Física",
+        "page": 16,
+        "count": 2
+      },
+      {
+        "subject": "História",
+        "page": 17,
+        "count": 2
+      }
+    ]
+  },
+  "pism-2024-1-comum": {
+    "slug": "pism-2024-1",
+    "year": 2025,
+    "day": 1,
+    "module": "I",
+    "area": "comum",
+    "source": "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2024/12/Pism-1-Dia-1.pdf",
+    "correction": "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2025/01/P2025_Discursivas_D1-P1.pdf",
+    "sections": [
+      {
+        "subject": "Língua Portuguesa",
+        "page": 11,
+        "count": 2
+      },
+      {
+        "subject": "Geografia",
+        "page": 12,
+        "count": 2
+      },
+      {
+        "subject": "Matemática",
+        "page": 13,
+        "count": 2
+      },
+      {
+        "subject": "Química",
+        "page": 14,
+        "count": 2
+      }
+    ]
+  },
+  "pism-2024-2-comum": {
+    "slug": "pism-2024-2",
+    "year": 2025,
+    "day": 2,
+    "module": "I",
+    "area": "comum",
+    "source": "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2024/12/Pism-1-Dia-2.pdf",
+    "correction": "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2025/01/P2025_Discursivas_D2-P1.pdf",
+    "sections": [
+      {
+        "subject": "Literatura",
+        "page": 12,
+        "count": 2
+      },
+      {
+        "subject": "Biologia",
+        "page": 13,
+        "count": 2
+      },
+      {
+        "subject": "Física",
+        "page": 14,
+        "count": 2
+      },
+      {
+        "subject": "História",
+        "page": 14,
+        "count": 2
+      }
+    ]
+  },
+  "pism-2025-1-comum": {
+    "slug": "pism-2025-1",
+    "year": 2026,
+    "day": 1,
+    "module": "I",
+    "area": "comum",
+    "source": "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2025/12/Pism-1-dia-1.pdf",
+    "correction": "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2026/01/P2026_Discursivas_P1-D1-P%C3%B3s-Recursos.pdf",
+    "sections": [
+      {
+        "subject": "Língua Portuguesa",
+        "page": 15,
+        "count": 2
+      },
+      {
+        "subject": "Geografia",
+        "page": 16,
+        "count": 2
+      },
+      {
+        "subject": "Matemática",
+        "page": 17,
+        "count": 2
+      },
+      {
+        "subject": "Química",
+        "page": 18,
+        "count": 2
+      }
+    ]
+  },
+  "pism-2025-2-comum": {
+    "slug": "pism-2025-2",
+    "year": 2026,
+    "day": 2,
+    "module": "I",
+    "area": "comum",
+    "source": "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2025/12/Pism-1-dia-2.pdf",
+    "correction": "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2026/01/P2026_Discursivas_P1-D2-P%C3%B3s-Recursos.pdf",
+    "sections": [
+      {
+        "subject": "Literatura",
+        "page": 13,
+        "count": 2
+      },
+      {
+        "subject": "Biologia",
+        "page": 15,
+        "count": 2
+      },
+      {
+        "subject": "Física",
+        "page": 16,
+        "count": 2
+      },
+      {
+        "subject": "História",
+        "page": 17,
+        "count": 2
+      }
+    ]
+  },
+  "pism-ii-2025-dia-1-comum": {
+    "slug": "pism-ii-2025-dia-1",
+    "year": 2025,
+    "day": 1,
+    "module": "II",
+    "area": "comum",
+    "source": "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2024/12/Pism-2-Dia-1.pdf",
+    "correction": "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2025/01/P2025_Discursivas_D1-P2.pdf",
+    "sections": [
+      {
+        "subject": "Língua Portuguesa",
+        "page": 14,
+        "count": 2
+      },
+      {
+        "subject": "Geografia",
+        "page": 16,
+        "count": 2
+      },
+      {
+        "subject": "Matemática",
+        "page": 17,
+        "count": 2
+      },
+      {
+        "subject": "Química",
+        "page": 17,
+        "count": 2
+      }
+    ]
+  },
+  "pism-ii-2025-dia-2-comum": {
+    "slug": "pism-ii-2025-dia-2",
+    "year": 2025,
+    "day": 2,
+    "module": "II",
+    "area": "comum",
+    "source": "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2024/12/Pism-2-Dia-2.pdf",
+    "correction": "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2025/01/P2025_Discursivas_D2-P2.pdf",
+    "sections": [
+      {
+        "subject": "Literatura",
+        "page": 12,
+        "count": 2
+      },
+      {
+        "subject": "Biologia",
+        "page": 13,
+        "count": 2
+      },
+      {
+        "subject": "Física",
+        "page": 14,
+        "count": 2
+      },
+      {
+        "subject": "História",
+        "page": 15,
+        "count": 2
+      }
+    ]
+  },
+  "pism-ii-2026-dia-1-comum": {
+    "slug": "pism-ii-2026-dia-1",
+    "year": 2026,
+    "day": 1,
+    "module": "II",
+    "area": "comum",
+    "source": "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2025/12/Pism-2-dia-1.pdf",
+    "correction": "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2025/12/P2026_Discursivas_P2-D1_p%C3%B3s_corre%C3%A7%C3%A3o_qu%C3%ADmica.pdf",
+    "sections": [
+      {
+        "subject": "Língua Portuguesa",
+        "page": 13,
+        "count": 2
+      },
+      {
+        "subject": "Geografia",
+        "page": 14,
+        "count": 2
+      },
+      {
+        "subject": "Matemática",
+        "page": 14,
+        "count": 2
+      },
+      {
+        "subject": "Química",
+        "page": 15,
+        "count": 2
+      }
+    ]
+  },
+  "pism-ii-2026-dia-2-comum": {
+    "slug": "pism-ii-2026-dia-2",
+    "year": 2026,
+    "day": 2,
+    "module": "II",
+    "area": "comum",
+    "source": "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2025/12/Pism-2-dia-2.pdf",
+    "correction": "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2025/12/P2026_Discursivas_P2-D2.pdf",
+    "sections": [
+      {
+        "subject": "Literatura",
+        "page": 13,
+        "count": 2
+      },
+      {
+        "subject": "Biologia",
+        "page": 16,
+        "count": 2
+      },
+      {
+        "subject": "Física",
+        "page": 17,
+        "count": 2
+      },
+      {
+        "subject": "História",
+        "page": 17,
+        "count": 2
+      }
+    ]
+  },
+  "pism-ii-2024-dia-1-comum": {
+    "slug": "pism-ii-2024-dia-1",
+    "year": 2024,
+    "day": 1,
+    "module": "II",
+    "area": "comum",
+    "source": "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2023/12/PROVA-PISM-2024-DIA_1-M%C3%93DULO_II.pdf",
+    "correction": "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2024/01/Gabarito-mod-2-com-corre%C3%A7%C3%A3o-da-Geografia-1-b.pdf",
+    "sections": [
+      {
+        "subject": "Língua Portuguesa",
+        "page": 17,
+        "count": 2
+      },
+      {
+        "subject": "Geografia",
+        "page": 18,
+        "count": 2
+      },
+      {
+        "subject": "Matemática",
+        "page": 20,
+        "count": 2
+      },
+      {
+        "subject": "Química",
+        "page": 21,
+        "count": 2
+      }
+    ]
+  },
+  "pism-iii-2024-dia-1-economia": {
+    "slug": "pism-iii-2024-dia-1",
+    "year": 2024,
+    "day": 1,
+    "module": "III",
+    "area": "economia",
+    "source": "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2023/12/PROVA-PISM-2024-DIA_1-M%C3%93DULO_III-Economia.pdf",
+    "correction": "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2023/12/P2024_Discursivas_D1-P3-Economia.pdf",
+    "sections": [
+      {
+        "subject": "Língua Portuguesa",
+        "page": 15,
+        "count": 4
+      },
+      {
+        "subject": "Matemática",
+        "page": 18,
+        "count": 4
+      },
+      {
+        "subject": "Sociologia",
+        "page": 19,
+        "count": 2
+      }
+    ]
+  },
+  "pism-iii-2024-dia-1-exatas": {
+    "slug": "pism-iii-2024-dia-1",
+    "year": 2024,
+    "day": 1,
+    "module": "III",
+    "area": "exatas",
+    "source": "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2023/12/PROVA-PISM-2024-DIA_1-M%C3%93DULO_III-Exatas.pdf",
+    "correction": "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2023/12/P2024_Discursivas_D1-P3-Exatas.pdf",
+    "sections": [
+      {
+        "subject": "Língua Portuguesa",
+        "page": 15,
+        "count": 5
+      },
+      {
+        "subject": "Matemática",
+        "page": 18,
+        "count": 5
+      }
+    ]
+  },
+  "pism-iii-2024-dia-1-humanas": {
+    "slug": "pism-iii-2024-dia-1",
+    "year": 2024,
+    "day": 1,
+    "module": "III",
+    "area": "humanas",
+    "source": "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2023/12/PROVA-PISM-2024-DIA_1-M%C3%93DULO_III-Humanas.pdf",
+    "correction": "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2023/12/P2024_Discursivas_D1-P3-Humanas-1.pdf",
+    "sections": [
+      {
+        "subject": "Língua Portuguesa",
+        "page": 15,
+        "count": 4
+      },
+      {
+        "subject": "Literatura",
+        "page": 18,
+        "count": 4
+      },
+      {
+        "subject": "Sociologia",
+        "page": 22,
+        "count": 2
+      }
+    ]
+  },
+  "pism-iii-2024-dia-1-saude": {
+    "slug": "pism-iii-2024-dia-1",
+    "year": 2024,
+    "day": 1,
+    "module": "III",
+    "area": "saude",
+    "source": "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2023/12/PROVA-PISM-2024-DIA_1-M%C3%93DULO_III-Sa%C3%BAde.pdf",
+    "correction": "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2024/01/P2024_Discursivas_D1-P3-Sa%C3%BAde_apos-recurso.pdf",
+    "sections": [
+      {
+        "subject": "Língua Portuguesa",
+        "page": 15,
+        "count": 5
+      },
+      {
+        "subject": "Biologia",
+        "page": 18,
+        "count": 5
+      }
+    ]
+  },
+  "pism-ii-2024-dia-2-comum": {
+    "slug": "pism-ii-2024-dia-2",
+    "year": 2024,
+    "day": 2,
+    "module": "II",
+    "area": "comum",
+    "source": "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2023/12/PROVA-PISM-2024-DIA_2-M%C3%93DULO_II.pdf",
+    "correction": "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2024/01/P2024_Discursivas_D2-P2_apos-recurso.pdf",
+    "sections": [
+      {
+        "subject": "Literatura",
+        "page": 15,
+        "count": 2
+      },
+      {
+        "subject": "Biologia",
+        "page": 17,
+        "count": 2
+      },
+      {
+        "subject": "Física",
+        "page": 18,
+        "count": 2
+      },
+      {
+        "subject": "História",
+        "page": 19,
+        "count": 2
+      }
+    ]
+  },
+  "pism-iii-2024-dia-2-saude": {
+    "slug": "pism-iii-2024-dia-2",
+    "year": 2024,
+    "day": 2,
+    "module": "III",
+    "area": "saude",
+    "source": "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2023/12/PROVA-PISM-2024-DIA_2-M%C3%93DULO_III-Saude.pdf",
+    "correction": "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2024/01/P2024_Discursivas_D2-P3-Sa%C3%BAde_apos-recurso.pdf",
+    "sections": [
+      {
+        "subject": "Física",
+        "page": 15,
+        "count": 5
+      },
+      {
+        "subject": "Química",
+        "page": 17,
+        "count": 5
+      }
+    ]
+  },
+  "pism-iii-2024-dia-2-economia": {
+    "slug": "pism-iii-2024-dia-2",
+    "year": 2024,
+    "day": 2,
+    "module": "III",
+    "area": "economia",
+    "source": "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2023/12/PROVA-PISM-2024-DIA_2-M%C3%93DULO_III-Economia.pdf",
+    "correction": "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2023/12/P2024_Discursivas_D2-P3-Economia.pdf",
+    "sections": [
+      {
+        "subject": "Geografia",
+        "page": 15,
+        "count": 4
+      },
+      {
+        "subject": "História",
+        "page": 18,
+        "count": 4
+      },
+      {
+        "subject": "Filosofia",
+        "page": 21,
+        "count": 2
+      }
+    ]
+  },
+  "pism-iii-2024-dia-2-exatas": {
+    "slug": "pism-iii-2024-dia-2",
+    "year": 2024,
+    "day": 2,
+    "module": "III",
+    "area": "exatas",
+    "source": "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2023/12/PROVA-PISM-2024-DIA_2-M%C3%93DULO_III-Exatas.pdf",
+    "correction": "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2024/01/P2024_Discursivas_D2-P3-Exatas_apos-recursos.pdf",
+    "sections": [
+      {
+        "subject": "Física",
+        "page": 15,
+        "count": 5
+      },
+      {
+        "subject": "Química",
+        "page": 17,
+        "count": 5
+      }
+    ]
+  },
+  "pism-iii-2024-dia-2-humanas": {
+    "slug": "pism-iii-2024-dia-2",
+    "year": 2024,
+    "day": 2,
+    "module": "III",
+    "area": "humanas",
+    "source": "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2023/12/PROVA-PISM-2024-DIA_2-M%C3%93DULO_III-Humanas.pdf",
+    "correction": "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2023/12/P2024_Discursivas_D2-P3-Humanas.pdf",
+    "sections": [
+      {
+        "subject": "Geografia",
+        "page": 15,
+        "count": 4
+      },
+      {
+        "subject": "História",
+        "page": 18,
+        "count": 4
+      },
+      {
+        "subject": "Filosofia",
+        "page": 21,
+        "count": 2
+      }
+    ]
+  },
+  "pism-iii-2025-dia-1-economia": {
+    "slug": "pism-iii-2025-dia-1",
+    "year": 2025,
+    "day": 1,
+    "module": "III",
+    "area": "economia",
+    "source": "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2024/12/Pism-3-Economia-Dia-1.pdf",
+    "correction": "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2024/12/P2025_Discursivas_D1-P3-Economia.pdf",
+    "sections": [
+      {
+        "subject": "Língua Portuguesa",
+        "page": 14,
+        "count": 4
+      },
+      {
+        "subject": "Matemática",
+        "page": 16,
+        "count": 4
+      },
+      {
+        "subject": "Sociologia",
+        "page": 17,
+        "count": 2
+      }
+    ]
+  },
+  "pism-iii-2025-dia-1-exatas": {
+    "slug": "pism-iii-2025-dia-1",
+    "year": 2025,
+    "day": 1,
+    "module": "III",
+    "area": "exatas",
+    "source": "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2024/12/Pism-3-Exatas-Dia-1.pdf",
+    "correction": "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2024/12/P2025_Discursivas_D1-P3-Exatas.pdf",
+    "sections": [
+      {
+        "subject": "Língua Portuguesa",
+        "page": 14,
+        "count": 5
+      },
+      {
+        "subject": "Matemática",
+        "page": 16,
+        "count": 5
+      }
+    ]
+  },
+  "pism-iii-2025-dia-1-humanas": {
+    "slug": "pism-iii-2025-dia-1",
+    "year": 2025,
+    "day": 1,
+    "module": "III",
+    "area": "humanas",
+    "source": "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2024/12/Pism-3-Humanas-Dia-1.pdf",
+    "correction": "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2025/01/P2025_Discursivas_D1-P3-Humanas.pdf",
+    "sections": [
+      {
+        "subject": "Língua Portuguesa",
+        "page": 14,
+        "count": 4
+      },
+      {
+        "subject": "Literatura",
+        "page": 16,
+        "count": 4
+      },
+      {
+        "subject": "Sociologia",
+        "page": 17,
+        "count": 2
+      }
+    ]
+  },
+  "pism-iii-2025-dia-1-saude": {
+    "slug": "pism-iii-2025-dia-1",
+    "year": 2025,
+    "day": 1,
+    "module": "III",
+    "area": "saude",
+    "source": "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2024/12/Pism-3-Saude-Dia-1.pdf",
+    "correction": "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2025/01/P2025_Discursivas_D1-P3-Sa%C3%BAde-1.pdf",
+    "sections": [
+      {
+        "subject": "Língua Portuguesa",
+        "page": 14,
+        "count": 5
+      },
+      {
+        "subject": "Biologia",
+        "page": 16,
+        "count": 5
+      }
+    ]
+  },
+  "pism-iii-2025-dia-2-saude": {
+    "slug": "pism-iii-2025-dia-2",
+    "year": 2025,
+    "day": 2,
+    "module": "III",
+    "area": "saude",
+    "source": "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2024/12/Pism-3-Saude-Dia-2.pdf",
+    "correction": "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2024/12/P2025_Discursivas_D2-P3-Sa%C3%BAde-1.pdf",
+    "sections": [
+      {
+        "subject": "Física",
+        "page": 11,
+        "count": 5
+      },
+      {
+        "subject": "Química",
+        "page": 12,
+        "count": 5
+      }
+    ]
+  },
+  "pism-iii-2025-dia-2-economia": {
+    "slug": "pism-iii-2025-dia-2",
+    "year": 2025,
+    "day": 2,
+    "module": "III",
+    "area": "economia",
+    "source": "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2024/12/Pism-3-Economia-Dia-2.pdf",
+    "correction": "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2024/12/P2025_Discursivas_D2-P3-Economia.pdf",
+    "sections": [
+      {
+        "subject": "Geografia",
+        "page": 11,
+        "count": 4
+      },
+      {
+        "subject": "História",
+        "page": 13,
+        "count": 4
+      },
+      {
+        "subject": "Filosofia",
+        "page": 15,
+        "count": 2
+      }
+    ]
+  },
+  "pism-iii-2025-dia-2-exatas": {
+    "slug": "pism-iii-2025-dia-2",
+    "year": 2025,
+    "day": 2,
+    "module": "III",
+    "area": "exatas",
+    "source": "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2024/12/Pism-3-Exatas-Dia-2.pdf",
+    "correction": "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2024/12/P2025_Discursivas_D2-P3-Exatas-1.pdf",
+    "sections": [
+      {
+        "subject": "Física",
+        "page": 11,
+        "count": 5
+      },
+      {
+        "subject": "Química",
+        "page": 12,
+        "count": 5
+      }
+    ]
+  },
+  "pism-iii-2025-dia-2-humanas": {
+    "slug": "pism-iii-2025-dia-2",
+    "year": 2025,
+    "day": 2,
+    "module": "III",
+    "area": "humanas",
+    "source": "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2024/12/Pism-3-Humanas-Dia-2.pdf",
+    "correction": "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2024/12/P2025_Discursivas_D2-P3-Humanas.pdf",
+    "sections": [
+      {
+        "subject": "Geografia",
+        "page": 11,
+        "count": 4
+      },
+      {
+        "subject": "História",
+        "page": 13,
+        "count": 4
+      },
+      {
+        "subject": "Filosofia",
+        "page": 15,
+        "count": 2
+      }
+    ]
+  },
+  "pism-iii-2026-dia-1-economia": {
+    "slug": "pism-iii-2026-dia-1",
+    "year": 2026,
+    "day": 1,
+    "module": "III",
+    "area": "economia",
+    "source": "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2025/12/Economia-dia-1.pdf",
+    "correction": "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2026/01/P2026_Discursivas_P3-D1-Economia-P%C3%B3s-Recursos.pdf",
+    "sections": [
+      {
+        "subject": "Língua Portuguesa",
+        "page": 13,
+        "count": 4
+      },
+      {
+        "subject": "Matemática",
+        "page": 16,
+        "count": 4
+      },
+      {
+        "subject": "Sociologia",
+        "page": 18,
+        "count": 2
+      }
+    ]
+  },
+  "pism-iii-2026-dia-1-exatas": {
+    "slug": "pism-iii-2026-dia-1",
+    "year": 2026,
+    "day": 1,
+    "module": "III",
+    "area": "exatas",
+    "source": "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2025/12/Exatas-dia-1.pdf",
+    "correction": "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2025/12/P2026_Discursivas_P3-D1-Exatas.pdf",
+    "sections": [
+      {
+        "subject": "Língua Portuguesa",
+        "page": 13,
+        "count": 5
+      },
+      {
+        "subject": "Matemática",
+        "page": 16,
+        "count": 5
+      }
+    ]
+  },
+  "pism-iii-2026-dia-1-humanas": {
+    "slug": "pism-iii-2026-dia-1",
+    "year": 2026,
+    "day": 1,
+    "module": "III",
+    "area": "humanas",
+    "source": "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2025/12/Humanas-dia-1.pdf",
+    "correction": "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2025/12/P2026_Discursivas_P3-D1-Humanas.pdf",
+    "sections": [
+      {
+        "subject": "Língua Portuguesa",
+        "page": 13,
+        "count": 4
+      },
+      {
+        "subject": "Literatura",
+        "page": 16,
+        "count": 4
+      },
+      {
+        "subject": "Sociologia",
+        "page": 18,
+        "count": 2
+      }
+    ]
+  },
+  "pism-iii-2026-dia-1-saude": {
+    "slug": "pism-iii-2026-dia-1",
+    "year": 2026,
+    "day": 1,
+    "module": "III",
+    "area": "saude",
+    "source": "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2025/12/Saude-dia-1.pdf",
+    "correction": "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2026/01/P2026_Discursivas_P3-D1-Sa%C3%BAde-P%C3%B3s-Recursos.pdf",
+    "sections": [
+      {
+        "subject": "Língua Portuguesa",
+        "page": 13,
+        "count": 5
+      },
+      {
+        "subject": "Biologia",
+        "page": 16,
+        "count": 5
+      }
+    ]
+  },
+  "pism-iii-2026-dia-2-saude": {
+    "slug": "pism-iii-2026-dia-2",
+    "year": 2026,
+    "day": 2,
+    "module": "III",
+    "area": "saude",
+    "source": "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2025/12/Saude-dia-2.pdf",
+    "correction": "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2025/12/P2026_Discursivas_P3-D2-Sa%C3%BAde.pdf",
+    "sections": [
+      {
+        "subject": "Física",
+        "page": 13,
+        "count": 5
+      },
+      {
+        "subject": "Química",
+        "page": 15,
+        "count": 5
+      }
+    ]
+  },
+  "pism-iii-2026-dia-2-economia": {
+    "slug": "pism-iii-2026-dia-2",
+    "year": 2026,
+    "day": 2,
+    "module": "III",
+    "area": "economia",
+    "source": "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2025/12/Economia-dia-2.pdf",
+    "correction": "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2026/01/P2026_Discursivas_P3-D2-Economia-P%C3%B3s-Recursos.pdf",
+    "sections": [
+      {
+        "subject": "Geografia",
+        "page": 13,
+        "count": 4
+      },
+      {
+        "subject": "História",
+        "page": 15,
+        "count": 4
+      },
+      {
+        "subject": "Filosofia",
+        "page": 17,
+        "count": 2
+      }
+    ]
+  },
+  "pism-iii-2026-dia-2-exatas": {
+    "slug": "pism-iii-2026-dia-2",
+    "year": 2026,
+    "day": 2,
+    "module": "III",
+    "area": "exatas",
+    "source": "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2025/12/Exatas-dia-2.pdf",
+    "correction": "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2026/01/P2026_Discursivas_P3-D2-Exatas-P%C3%B3s-Recursos.pdf",
+    "sections": [
+      {
+        "subject": "Física",
+        "page": 13,
+        "count": 5
+      },
+      {
+        "subject": "Química",
+        "page": 15,
+        "count": 5
+      }
+    ]
+  },
+  "pism-iii-2026-dia-2-humanas": {
+    "slug": "pism-iii-2026-dia-2",
+    "year": 2026,
+    "day": 2,
+    "module": "III",
+    "area": "humanas",
+    "source": "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2025/12/Humanas-dia-2.pdf",
+    "correction": "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2026/01/P2026_Discursivas_P3-D2-Humanas-p%C3%B3s-recursos.pdf",
+    "sections": [
+      {
+        "subject": "Geografia",
+        "page": 13,
+        "count": 4
+      },
+      {
+        "subject": "História",
+        "page": 15,
+        "count": 4
+      },
+      {
+        "subject": "Filosofia",
+        "page": 17,
+        "count": 2
+      }
+    ]
+  }
+}

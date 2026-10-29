@@ -1,0 +1,221 @@
+=== PÁGINA 1 ===
+                          PRÓ-REITORIA DE GRADUAÇÃO - PROGRAD
+
+                     COORDENAÇÃO GERAL DE PROCESSOS SELETIVOS – COPESE
+
+
+           PROGRAMA DE INGRESSO SELETIVO MISTO – PISM 2026
+
+                              DIA 1 – MÓDULO II
+                       Prova realizada em 06 de dezembro de 2025
+
+
+    REFERÊNCIAS DE CORREÇÃO DAS PROVAS DISCURSIVAS
+
+
+
+
+                               LÍNGUA PORTUGUESA
+                                                           Discursivas (2 questões)
+
+
+QUESTÃO 1:
+
+Exemplo de resposta a ser construída pelo candidato: Isso poderia comprometer habilidades sociais e, em alguns casos,
+prejudicar relações interpessoais, além de contribuir, em determinadas situações, para quadros de depressão e
+ansiedade.
+
+
+QUESTÃO 2:
+
+Veja algumas dicas para você reduzir os impactos negativos do uso excessivo do celular no cotidiano:
+
+(exemplos de opções dentre as quais o candidato elaboraria três)
+
+    1)  Retire as notificações do celular;
+
+    2)  Marque um horário específico de uso das redes sociais;
+
+    3)  Evite usar celular à noite, antes de dormir;
+
+    4)  Monitore, com um cronômetro, o uso diário do celular;
+
+    5)  Evite usar o celular durante as refeições;
+
+    6)  Procure fazer meditação e atividades físicas para diminuir a ansiedade;
+
+    7)  Procure ajuda médica e psicológica se sentir que precisa de auxílio para diminuir o uso do celular.
+
+       Entre outras...
+
+
+
+
+
+                                                                                             1
+
+=== PÁGINA 2 ===
+                                   GEOGRAFIA
+                                                           Discursivas (2 questões)
+
+
+QUESTÃO 1:
+
+    A) Uso de tecnologias avançadas (robôs, drones, sensores) que aumentam a produtividade e exigem integração
+      com centros urbanos para suporte técnico. Crescimento do setor tecnológico no agronegócio, demandando
+        qualificação dos trabalhadores rurais. Ampliação da participação do agronegócio no mercado de capitais,
+       mostrando forte conexão econômica entre campo e cidade. A dependência das cidades da produção
+       agropecuária moderna. Expansão de empregos no setor de novas tecnologias ligadas ao agronegócio, gerando
+       novas conexões sociais e econômicas entre os espaços rurais e urbanos.
+    B)  Social: A modernização eleva a produção e atrai investimentos, mas pode concentrar riqueza em grandes
+       empresas, aumentando a concentração de renda e ampliando a desigualdade. O avanço tecnológico cria novas
+       oportunidades, porém, acentua a exclusão social para aqueles que não têm acesso à qualificação, gerando
+       êxodo  rurale aumentando desigualdades  sociais urbanas. A modernização, ao  priorizar o  lucro e a
+        produtividade, pode reduzir a diversidade cultural e o modo de vida tradicional rural, impactando a identidade
+         social e cultural das regiões rurais. Meio ambiente: A expansão do agronegócio pode provocar desmatamento.
+        poluição, empobrecimento dos solos e exaustão dos recursos hídricos. Impactos ambientais que atingem
+       desproporcionalmente populações urbanas vulneráveis, evidenciando desigualdade ambiental.
+
+
+QUESTÃO 2:
+
+    A) A Inteligência Artificial tem alterado significativamente a Divisão Internacional do Trabalho ao possibilitar maior
+      automação da produção, especialmente nos  países  centrais, que concentram  capital  tecnológico e
+       conhecimento. Com isso, há uma revalorização de setores intensivos em tecnologia e inovação nos países
+        centrais, enquanto os países periféricos mantêm, em muitos casos, funções voltadas à extração de matérias-
+       primas ou à montagem com menor valor agregado. A IA permite que fábricas sejam relocalizadas ou
+       modernizadas, reduzindo a dependência de mão de obra barata, o que antes justificava a descentralização
+       produtiva para países periféricos.
+    B) Aumento do desemprego estrutural devido à substituição de mão de obra por máquinas e sistemas
+       automatizados. Aumento da dependência tecnológica desenvolvida nos países centrais. Marginalização de
+       pequenas indústrias  locais. Fragmentação do mercado de trabalho, de um lado empregos altamente
+        qualificados e do outros ocupações precarizadas ou informais. Substituição de produção local por importações
+       automatizadas. Aumento na vulnerabilidade social.
+
+
+
+
+
+                                                                                             2
+
+=== PÁGINA 3 ===
+                                MATEMÁTICA
+                                                           Discursivas (2 questões)
+
+
+QUESTÃO 1:
+
+                  3𝜋   9𝜋       17𝜋                           17𝜋   9𝜋   8𝜋   2𝜋           𝜋
+    A) Como 𝑎3 =  =   e 𝑎5 =      , tem-se que 2𝑟= 𝑎5 −𝑎3 =  −  =  =     , donde 𝑟=                    4    12        12                              12   12   12    3               3.
+                                           9𝜋     𝜋   𝜋
+      Sendo 𝑎3 = 𝑎1 + 2 ∙𝑟, obtém-se 𝑎1 =  −2 ∙ =                                             12      3    12.
+                    𝜋           𝜋             𝜋    𝜋
+        Portanto, 𝑎𝑛=  + (𝑛−1) ∙  ou seja, 𝑎𝑛= 𝑛−                       12              3,              3      4.
+
+
+
+                        𝜋               261𝜋
+    B)  Observa que 𝑎66 =   (4 ∙66 −3) =                           12                12
+                                 261𝜋          9𝜋             3𝜋         7𝜋
+    Como 261=12× 21+9, tem-se   = 21𝜋+  = 20𝜋+ 𝜋+  = 20𝜋+
+                                   12           12               4           4
+                              7𝜋
+     Portanto, sen (𝑎66) = sen (  ) = −√2 .                                 4        2
+
+QUESTÃO 2:
+
+    A)
+
+
+
+
+
+      Deduz que o ângulo vermelho é alterno interno em relação ao ângulo de inclinação da rampa, que é 15°. Com
+        isso deduz que o ângulo vermelho mede 15°. Além disso, observa que o ângulo de cor azul é complementar ao
+       ângulo de 15°, portanto mede 90° - 15° = 75°.
+
+
+      Ao final observa o triângulo verde e utiliza o fato da soma dos ângulos internos de um triângulo ser igual a 180°
+       para obter:
+                   𝛽+ 30° + 15° + 75° = 180° ⟹𝛽= 60°
+
+
+    B) Emprega lei dos senos no triângulo verde e obtém:
+
+                        100      ℎ            ℎ                     =     ⟹100 =  ⟹ℎ= 100 ∙√2 ∙2
+                        𝑠𝑒𝑛 60°   𝑠𝑒𝑛 45°   √3   √2           2  √3
+                                         2    2
+                                   √2         √6
+                      ℎ= 100  ⟹ℎ= 100  𝑚
+                                   √3          3
+
+
+
+
+
+                                                                                             3
+
+=== PÁGINA 4 ===
+                                    QUÍMICA
+                                                           Discursivas (2 questões)
+
+
+QUESTÃO 1:
+
+    A)  Cálculo do volume da solução concentrada
+
+      Usando a equação da diluição: C1⋅V1 = C2⋅V2
+
+       Converter 250 ml em L = 0,250 L
+
+        1,0 ⋅ V1 = 0,20 ⋅ 0,250
+
+      V1 = 0,05 L
+
+
+    B)  Calculo da padronização
+
+       Converter 10 mL em L = 0,01 L
+
+       Converter 4,4 mL em L = 0,0044 L
+
+      Usando a equação da padronização: CB⋅VB = CA⋅VA
+
+        0,5 ⋅ 0,0044 = CA ⋅ 0,01
+
+       CA = 0,22 mol/L
+
+      A concentração encontrada é maior do que a prevista.
+
+
+
+    C)  Durante a diluição, apenas o volume da solução aumenta com a adição de solvente (água), mas a quantidade
+      de matéria do soluto (número de mol) permanece constante, pois não há perda nem adição de soluto, apenas
+        redistribuição.
+
+
+QUESTÃO 2:
+
+    A)
+
+
+
+
+
+                   ou
+
+
+
+    B)  Propanona: cetona
+
+       Acetato de etila: éster
+
+
+
+    C)  Não, o nome correto segundo as regras de nomenclatura da IUPAC é Dietilamina ou N-etiletanamina.
+
+
+
+
+
+                                                                                             4

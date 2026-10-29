@@ -1,0 +1,179 @@
+=== PÁGINA 1 ===
+                          PRÓ-REITORIA DE GRADUAÇÃO - PROGRAD
+
+                     COORDENAÇÃO GERAL DE PROCESSOS SELETIVOS – COPESE
+
+
+           PROGRAMA DE INGRESSO SELETIVO MISTO – PISM 2025
+
+                              DIA 1 – MÓDULO I
+                       Prova realizada em 14 de dezembro de 2024
+
+
+    REFERÊNCIAS DE CORREÇÃO DAS PROVAS DISCURSIVAS
+
+
+
+
+
+                               LÍNGUA PORTUGUESA
+                                                           Discursivas (2 questões)
+
+QUESTÃO 1:
+
+As telas são utilizadas por alguns pais para manter seus filhos quietos sem a supervisão deles. No entanto, apesar de
+prático e mais barato, isso gera danos ao desenvolvimento infantil, por isso a psicopedagoga incluiu a expressão “às
+avessas”, criando o termo “babysitter às avessas” para se referir à substituição da profissão de babás por equipamentos
+eletrônicos.
+
+
+QUESTÃO 2:
+
+Tanto “parentalidade distraída” quanto “parentalidade desassistida” referem-se à ação de deixar os filhos com
+equipamentos eletrônicos sem supervisão. Porém, a causa do primeiro é o uso excessivo de telas por parte dos pais,
+os quais não oferecem tempo de qualidade às crianças; já a causa do segundo é a falta de rede de apoio e a necessidade
+de recorrer às telas para manter os filhos quietos enquanto se realiza outra tarefa.
+
+
+                                   GEOGRAFIA
+                                                           Discursivas (2 questões)
+
+
+QUESTÃO 1:
+
+A) Transição energética é a proposta de alteração da matriz energética mundial na qual se pretende diminuir o uso de
+combustíveis fósseis, como petróleo, gás e carvão, e aumentar a utilização de fontes de energia consideradas
+“renováveis”.
+
+B) O Vale do Jequitinhonha é uma mesorregião historicamente conhecida pelo problema da escassez hídrica.
+Considerando o alto consumo de água envolvido na extração do lítio, é possível prever que a extração mineral agravará
+o problema de escassez. Sendo assim, a exploração do lítio que serve para uma transição energética na escala global
+agrava problemas socioambientais na escala local. Além disso, pode ocorrer degradação ambiental, remoção vegetal,
+erosão, contaminação fluvial, assoreamento e impacto social (sobre as comunidades locais).
+
+
+QUESTÃO 2:
+
+A) Resposta: A Conferência das Partes (COP) é uma reunião anual de países e de territórios signatários da Convenção-
+Quadro das Nações Unidas sobre a Mudança do Clima (UNFCCC). Ela tem como objetivo a implementação, o
+acompanhamento e a atualização de medidas voltadas para a menor emissão de gases do efeito estufa numa tentativa
+
+
+                                                                                             1
+
+=== PÁGINA 2 ===
+de conter o aquecimento global e as mudanças climáticas. A reunião inédita em uma cidade da Amazônia brasileira
+representa: o reposicionamento recente do país na discussão sobre mudanças climáticas; a potencial liderança do Brasil
+na discussão sobre transição energética/preservação ambiental; a liderança do Brasil na proteção das florestas
+tropicais; o compromisso do presidente Lula de acabar com o desmatamento e degradação florestal em todos os
+biomas até 2030.
+
+
+B) A contradição expressa no texto diz respeito à cobrança por ações contra a crise climática, realizada pelo presidente
+do Brasil, enquanto aposta em mais petróleo. Tal postura tem o poder de contribuir para a continuidade/aumento das
+emissões de gases causadores do efeito estufa; adiar as possibilidades para a transição energética; agravar o
+aquecimento global; avançar com exploração em áreas sensíveis do Brasil.
+
+
+
+                                MATEMÁTICA
+                                                           Discursivas (2 questões)
+
+
+QUESTÃO 1:
+
+
+    a) A fórmula do apótema do hexágono é dada por
+
+           √3
+    ℎ=   𝑅. Como 𝑅= 4, temos ℎ= 2√3.
+             2
+
+    b) A área total da parte da placa que será descartada após a produção da peça, 𝐴, é dada pela equação
+
+                          𝐴= 𝐴𝐺−𝐴𝐻+ 𝐴𝑃,
+
+      onde 𝐴𝐺 é a área da circunferência grande que circunscreve o hexágono, 𝐴𝐻 é a área do hexágono e 𝐴𝑃 é a
+       área da circunferência pequena, interior ao hexágono.
+
+      Usando a fórmula da área de uma circunferência temos:
+
+                      𝐴𝐺= 𝜋𝑅2 = 𝜋42 = 16 𝜋 e 𝐴𝑃= 𝜋𝑟2 = 𝜋.
+
+       Calculando a área do hexágono temos:
+
+                                                          𝑅·ℎ
+                        𝐴𝐻= 6 ·  = 3 · 4 · 2√3 = 24√3.                                                     2
+
+       Então 𝐴= 16𝜋−24√3 + 𝜋.
+
+      Usando as aproximações 𝜋= 3 e √3 = 1,7, temos
+
+                 𝐴= 16 · 3 −24 · 1,7 + 3 = 48 −40,8 + 3 = 10,2 cm².
+
+
+QUESTÃO 2:
+
+    a) O estacionamento do shopping cobra R$ 0,10 por minuto utilizado no estacionamento até completar uma hora
+      de estacionamento. Então, se 𝑡 é o número de minutos gasto no estacionamento e 𝑡≤60, o valor a ser pago
+        será o de 𝑓(𝑡) = 0,10 · 𝑡.
+
+      Após a primeira hora o estacionamento cobra R$ 0,05 por minuto de estacionamento até completar 5 horas
+       além do valor da primeira hora. Então, pela primeira hora o estacionamento cobra 𝑓(60) = 0,10 · 60 = 6
+         reais. A partir da primeira hora e até completar a quinta hora, ou seja, se 60 < 𝑡≤300, o valor cobrado será
+      o de 6 reais mais 0,05 vezes o número de minutos que excederem a primeira hora. Então 𝑓(𝑡) = 6 + 0,05 ·
+      (𝑡−60), 𝑠𝑒 60 < 𝑡≤300.
+
+
+
+                                                                                             2
+
+=== PÁGINA 3 ===
+      Após a quinta hora o estacionamento cobra 18 reais fixos, então se 𝑡> 300, 𝑓(𝑡) = 18.
+
+        Portanto,
+
+                                              0,10 · 𝑡,    𝑠𝑒 0 ≤𝑡≤60,
+                                 𝑓(𝑡) = {6 + 0,05 · (𝑡−60),    𝑠𝑒 60 < 𝑡≤300,
+                                                     18,    𝑠𝑒 𝑡> 300.
+
+    b) Como 55 < 60, temos 𝑓(55) = 0,10 · 55 = 5,5.
+
+       Logo, Antônio pagou R$5,50.
+
+
+    c)  𝑓(𝑡) = 13,55, logo
+                 13,55 = 6 + 0,05 · (𝑡−60) ⇒7,55 = 0,05 · (𝑡−60) ⇒151 = 𝑡−60 ⇒𝑡= 211.
+        Então, Antônio ficou 211 minutos, ou seja, 3 horas e 31 minutos no estacionamento.
+
+
+
+
+
+                                    QUÍMICA
+                                                           Discursivas (2 questões)
+
+
+QUESTÃO 1:
+
+    A) A água tratada é uma solução que contém íons, uma mistura de substâncias, o que aumenta o ponto de
+        ebulição em relação à água pura.
+
+    B) A água deve ser filtrada e clorada para a desinfecção
+    C)  Ba2+
+
+
+
+QUESTÃO 2:
+
+    A) CO2 (g) + H2O (l) → H2CO3 (aq)
+
+    B)  CaSO4
+
+    C)  HNO3: um átomo de hidrogênio, um átomo de nitrogênio e três átomos de oxigênio
+
+
+
+
+
+                                                                                             3

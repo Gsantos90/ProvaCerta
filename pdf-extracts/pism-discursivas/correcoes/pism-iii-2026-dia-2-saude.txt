@@ -1,0 +1,237 @@
+=== PÁGINA 1 ===
+                          PRÓ-REITORIA DE GRADUAÇÃO - PROGRAD
+
+                     COORDENAÇÃO GERAL DE PROCESSOS SELETIVOS – COPESE
+
+
+           PROGRAMA DE INGRESSO SELETIVO MISTO – PISM 2026
+                          DIA 2 – MÓDULO III – Saúde
+                       Prova realizada em 07 de dezembro de 2025
+
+    REFERÊNCIAS DE CORREÇÃO DAS PROVAS DISCURSIVAS
+
+
+                                               FÍSICA
+                                                           Discursivas (5 questões)
+
+
+
+QUESTÃO 1:
+
+    A) A força na direção y (Fy) que atua sobre cada elétron depende apenas do campo formado devido às placas
+        paralelas (e da carga do elétron). Neste caso Fy = qE
+      Onde
+      q = 1,6 x 10-19 C
+      V = 1000 V
+      d = 0,25 m (distância entre as placas)
+       E = V/d = 4000 V/m
+       Logo, Fy≈ 6,4 x 10-16 N (força no sentido da placa positiva)
+
+    B) A força na direção x (Fx) atuando sobre cada um dos elétrons depende apenas destes, e pode ser calculada a
+         partir da Lei de Coulomb Fx = kq1q2/d2
+       k = 9,0 x 109 N · m2/C2
+        q1 = q2 = 1,6 x 10-19 C
+      d = 1x10-6 m (distância entre os elétrons)
+       Logo,
+         Fx = ((9,0 x 109) (1,6 x 10-19)2/1x10-12 ) N
+         Fx ≈ 2,3 x 10-16 N
+
+
+QUESTÃO 2:
+
+    A)  Considerando:
+        L = 200 m
+      A = 200 mm2 = 200x10-6 m
+      ρ = 1,7 x 10-8 Ω m
+          Imax = 100 A
+        VF = 120 V
+
+      A resistência do cabo de cobre é dada por RC = ρL/A = 1,7 x 10-2 Ω
+      A queda de tensão máxima no cabo será de VCmax = ImaxRc = 1,70 V
+       Logo, para fornecer uma tensão de 120V no ponto da fábrica, a tensão no gerador deve ser de VG = 121,7 V
+
+
+
+
+
+                                                                                             1
+
+=== PÁGINA 2 ===
+    B)  Considerando o cabo de alumínio, temos ρ = 2,8 x 10-8 Ω m. Logo a queda de tensão no cabo para Imax será:
+       RC = ρL/A = 2,8 x 10-2 Ω.
+        VCmax = 2,8 V
+
+       Para fornecer uma tensão de 120V no ponto de fábrica considerando Imax, a tensão no gerador deve ser de VG
+       = 122,8 V.
+
+      No entanto, quando não houver corrente circulando no sistema, a tensão no ponto de fábrica será igual à
+       tensão do gerador = 122,8 V resultando em uma variação de ΔVmax = 2,8 V entre esses dois casos extremos (I =
+          Imax e I = 0 A). Este valor de ΔVmax representa uma variação de tensão de aproximadamente 2,3% em relação à
+       tensão nominal de 120 V, sendo, portanto, maior que os 2% exigidos nas especificações. Sendo assim, o cabo
+      de alumínio não pode ser usado neste projeto.
+
+
+QUESTÃO 3:
+
+    A) VC→ tensão no cordão de lâmpadas
+     RC→ resistência no cordão de lâmpadas
+      IC→ corrente no cordão de lâmpadas
+
+       Tensão no cordão (chave em A)
+                                                        9,0 𝑉      9,0 𝑉
+                       𝑉𝐶= 𝑅𝐶𝐼𝐶∴𝐼𝐶=                       4,0 𝐴                                          5 × 0,45 Ω= 2,25 Ω=
+
+       Potência no cordão
+                                           PC = VCIC = 9 V × 4 A = 36 W
+
+        Logo, em cada lâmpada teremos uma potência 𝑃𝐿 de:
+                                                   𝑃𝐶
+                                 𝑃𝐿=  = 7,2 𝑊
+                                            5
+
+
+
+
+    B)  Para que cada lâmpada tenha ¼ da potência do item A, temos:
+                                           36 𝑊
+                               𝑃𝐶=    = 9,0 𝑊
+                                            4
+
+       Corrente que deve passar pelo cordão considerando esta potência de 9 W:
+                                                       9,0 𝑊
+                        𝑃𝐶= 𝐼𝐶2𝑅𝐶∴𝐼𝐶2 =        4 𝐴∴𝐼𝐶= 2,0 𝐴                                                   2,25 Ω=
+
+      Achando a resistência equivalente 𝑅1//𝑅2 para se obter 2 A de corrente total:
+    𝑅𝑇= 𝑅𝑒𝑞+ 𝑅𝐶, onde 𝑅𝑒𝑞= 𝑅1//𝑅2
+                                    𝑉−𝐼𝑅𝐶   (9,0 −2 × 2,25) 𝑉
+             𝑉= 𝑅𝑇𝐼= 𝐼𝑅𝑒𝑞+ 𝐼𝑅𝐶∴𝑅𝑒𝑞=     =           = 2,25 Ω
+                                                                   𝐼              2,0
+
+      Achando 𝑅1:
+                                𝑅1𝑅2         𝑅𝑒𝑞𝑅2      2,25 × 3
+                     𝑅𝑒𝑞=      ∴𝑅1 =      = (                9,0 Ω                                𝑅1 + 𝑅2       𝑅2 −𝑅𝑒𝑞    3,0 −2,25)Ω=
+
+
+
+
+
+                                                                                             2
+
+=== PÁGINA 3 ===
+QUESTÃO 4:
+    A) O módulo do campo magnético sentido pelo pássaro não varia nos primeiros 10 s de voo, mas a sua direção
+      muda, pois o campo gerado pelo fio possui linhas de campo circulares, em torno do fio.
+
+    B)
+
+
+
+
+
+    C)
+
+
+
+
+
+QUESTÃO 5:
+    A) Em um minuto, a massa consumida é
+              ∆𝐸     6 x 1029        6 x 1029        2
+    ∆𝑚=  = (       ) Kg =(      ) Kg =  x1013Kg                 𝑐2     (3x108)2         9x1016        3
+
+     Em um dia temos
+               ∆𝑚= (2 x1013 ∗24 ∗60) 𝐾𝑔= (960x1013)Kg = 9,6x1015Kg
+                            3
+
+     Em relação a massa do sol, isso representa uma porcentagem de
+                      9,6x1015
+      ∆𝑚(%) =      ∗100 = 4,8𝑥10−15 ∗100 = 4,8𝑥10−13 %                     2x1030
+
+
+    B)  B) O número de dias (d) necessário para que metade da massa do Sol seja consumida é
+           1 ⁄2 ∗ 2x1030 𝐾𝑔    1
+      d =                 x1015 dias             9,6x1015 𝐾𝑔/𝑑𝑖𝑎= 9,6
+
+     Em anos (a), isso daria
+           𝑑         1
+    𝑎=      =          x1015anos = 2,85x1011 anos
+         365 dias  365 ∗ 9,6
+
+
+
+
+
+                                                                                             3
+
+=== PÁGINA 4 ===
+                                   QUÍMICA
+                                                           Discursivas (5 questões)
+
+
+QUESTÃO 1:
+    A) Os sabões e detergentes possuem uma estrutura com uma parte polar (hidrofílica) e outra apolar (hidrofóbica).
+      A parte apolar interage com a gordura, enquanto que a parte polar interage com a água, o que permite a
+      remoção da gordura durante o enxágue.
+    B)  Detergentes biodegradáveis possuem cadeias carbônicas longas sem substituições, enquanto que os não
+       biodegradáveis possuem cadeias carbônica longas substituídas.
+    C) Os ésteres presentes nos óleos vegetais reagem com um álcool (geralmente etanol ou metanol), na presença
+      de um catalisador, formando ésteres menores (o biocombustível) e glicerol (glicerina) como subproduto. O
+        biodiesel é proveniente de fontes renováveis e é menos poluente que o diesel comum.
+
+QUESTÃO 2:
+    A)  Isótopos são aqueles que possuem o mesmo número de prótons, e por isso possuem o mesmo número
+       atômico, e diferem em número de nêutrons, ou seja, possuem massas diferentes – urânio 235 e 233.
+    B) 235 - 92 = 143 nêutrons
+    C)  Porque o processo de fissão nuclear em cadeia é controlado nos reatores nucleares, havendo menor liberação
+      de energia, em relação ao que acontece na bomba atômica.
+
+QUESTÃO 3:
+
+    A) CH3COOH (aq) + OH-(aq) ⇌ CH3COO-(aq) + H2O(l)
+      ou
+      CH3COOH + OH- ⇌ CH3COO- + H2O
+      ou
+      CH3COOH (aq) + NaOH(aq) ⇌ CH3COONa (aq) + H2O(l)
+
+    B)  Ácido/Base conjugados: CH3COOH/CH3COO-
+      ou
+       Ácido/Base conjugados: H2O/OH-
+
+    C) Quando um ácido é fraco, isso significa que sua base conjugada tem grande tendência de aceitar prótons para
+       recompor o equilíbrio, deslocado para os reagentes. Por isso seu ânion (CH3COO-) é considerado uma base forte
+      no contexto do par conjugado.
+
+QUESTÃO 4:
+    A) C6H5CH2OH → C6H5COOH + H2O
+       Função: ácido carboxílico
+
+    B)  CH3CH(OH)CH2CH3 → CH3COCH2CH3 + H2O
+       Função: cetona
+
+    C) O álcool benzílico é um álcool primário, o que permite a formação de um ácido carboxílico. Já o butan-2-ol é
+     um álcool secundário, o que gera a cetona.
+
+
+
+
+
+                                                                                             4
+
+=== PÁGINA 5 ===
+QUESTÃO 5:
+    A) A (butano): força de London ou van der Waals ou dipolo induzido-dipolo induzido
+      B (etanol): ligações de hidrogênio
+      C (éter): dipolo-dipolo
+
+    B) A substância B tem maior ponto de ebulição porque suas moléculas realizam ligações de hidrogênio, que são
+        interações intermoleculares mais fortes do que as forças dipolo-dipolo e as forças de dispersão de London. Por
+         isso, é necessário mais energia para romper essas interações e promover a mudança do estado físico.
+
+    C) A substância A (butano) é apolar e não interage com a água, que é polar. Já a substância C (éter) é polar e pode
+        interagir com a água por força dipolo-dipolo.
+
+
+
+
+
+                                                                                             5

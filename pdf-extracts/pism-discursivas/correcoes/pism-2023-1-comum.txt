@@ -1,0 +1,176 @@
+=== PÁGINA 1 ===
+                         PRÓ-REITORIA DE GRADUAÇÃO - PROGRAD
+
+                     COORDENAÇÃO GERAL DE PROCESSOS SELETIVOS – COPESE
+
+
+           PROGRAMA DE INGRESSO SELETIVO MISTO – PISM 2024
+
+                              DIA 1 – MÓDULO I
+                       Prova realizada em 09 de dezembro de 2023
+
+
+    REFERÊNCIAS DE CORREÇÃO DAS PROVAS DISCURSIVAS
+
+
+
+
+
+                               LÍNGUA PORTUGUESA
+                                                           Discursivas (2 questões)
+
+QUESTÃO 1:
+
+Com verbos no imperativo iniciando os títulos dos capítulos, Djamila Ribeiro, já no sumário do livro, indica as
+orientações para se combater o racismo, atingindo o propósito comunicativo de um manual, uma vez que incita
+atitudes antirracistas aos seus leitores.
+
+
+QUESTÃO 2:
+
+A crítica presente na charge é a impossibilidade de se conceber a ideia de racismo reverso na sociedade. Para tanto, o
+texto lança mão de linguagem verbal associada a não verbal, sugerindo de forma irônica que o racismo reverso só é
+possível na inversão das posições dos personagens na cena, por meio da imagem espelhada.
+
+
+
+                                   GEOGRAFIA
+                                                           Discursivas (2 questões)
+
+
+QUESTÃO 1:
+
+A) O aumento da temperatura e a diminuição da umidade previstos para as próximas décadas, devido ao
+aquecimento global, tendem a intensificar as queimadas naturais, pois temperaturas mais elevadas geram maior
+ressecamento da vegetação e camadas superficiais do solo deixando-os mais propícios a incêndios. Além disso, a
+tendência de concentração das chuvas poderá provocar períodos de seca mais prolongados, o que também favorece
+a ignição. Outro fator é o aumento da incidência de raios e tempestades eletromagnéticas que podem engatilhar
+incêndios em áreas nativas.
+
+B) As queimadas emitem gases de efeito estufa, como gás carbônico e metano, além de aerossóis, que amplificam a
+retenção de energia térmica na baixa atmosfera  e, assim, contribuem para o aumento da temperatura  e,
+consequentemente, o aquecimento global. Há também o feedback de carbono gerado pelas queimadas, que elimina
+o carbono retido na biomassa e no solo, gerando menor capacidade de estocagem e menor resiliência do clima para
+efeitos locais e regionais.
+
+
+QUESTÃO 2:
+
+
+
+                                                                                             1
+
+=== PÁGINA 2 ===
+A) Resposta: Porque são mapas centrados nos indivíduos, não no norte geográfico (ou quaisquer outros pontos
+cardeais). A orientação nesses dispositivos não se dá a partir dos pontos cardeais, mas do ponto de localização dos
+indivíduos, os quais constituem o centro de um mapa virtual que possui uma rosa dos ventos dinâmica (que gira
+conforme nos deslocamos). As direções são dadas, então, pelo deslocamento do indivíduo (direita, esquerda, frente e
+trás) e não pelos pontos cardeais.
+
+
+B) Mensurações e cálculos – a escala permite mensurar distâncias e áreas e gerar cálculos geométricos em mapas e
+cartas tanto digitais quanto analógicas.
+Localização e navegação – sem a escala, não é possível dar uma localização precisa ou navegar corretamente pelo
+espaço a partir da leitura do mapa.
+Análise e interpretação de dados e fenômenos – muitas das informações representadas espacialmente em um mapa
+precisam da escala para serem interpretadas, uma vez que fenômenos espaciais são associados a determinados
+recortes do território.
+
+
+
+                                MATEMÁTICA
+                                                           Discursivas (2 questões)
+
+
+QUESTÃO 1:
+
+
+    a)  a) Seja f(x) = ax + b. Como f tem raiz igual a 7, temos 7a + b = 0. Como a reta que representa f é paralela à
+        reta que representa h(x) = −x, temos a=-1. Logo, b = 7. Portanto, f(x) = −x + 7.
+
+    b)  b) Seja g(x) = cx + d. Como a reta que representa g intercepta o eixo das ordenadas em 8/5, temos d = 8/
+        5. Como g(3) = f(3) = 4, temos c = 4/5. Portanto, g(x) = (4x + 8)/5.
+
+    c)  c) Pelos dados, temos as coordenadas A(0,0), B(0,8/5), C(3,4) e D(7,0). Seja E interseção da reta
+       perpendicular ao eixo das abscissas passando por C, isto é, E(3,0). A área procurada é a soma das áreas do
+        trapézio ABCE e do triângulo retângulo ECD.
+                                      (4+8                                                     5).3  42
+Área do trapézio ABCE será: AABCE =      =   u. a.                                        2     5
+                                             4.4
+Área do triângulo CED será: ACED =   = 8 u. a.                                    2
+                                   42       82
+Área da figura ABCD será: AABCD =  + 8 =   u. a.                                    5        5
+
+
+QUESTÃO 2:
+
+    a)  Usando o triângulo retângulo de catetos de medida 4 e d, como a inclinação da esteira para abastecer a
+                                 4            √3
+        prateleira A é 30°, temos 𝑑= 𝑡𝑔 30° = 3 , isto é, 𝑑= 4√3 metros ou 6,8 metros.
+
+                                                                                                    4
+    b)  Seja 𝑟𝐴 o comprimento da esteira quando se está abastecendo a prateleira A. Então, sen 30° = 𝑟𝐴. Logo, 𝑟𝐴=
+        8.
+
+                                                            𝑥+4
+    c)  Seja x a distância entre as prateleiras A e B. Então, 𝑡𝑔 40° = 𝑑. Usando d = 6,8, temos x = 1,44. Logo, não é
+        possível colocar uma caixa de altura igual a 2 metros na prateleira A.
+
+
+
+
+
+                                                                                             2
+
+=== PÁGINA 3 ===
+                                    QUÍMICA
+                                                           Discursivas (2 questões)
+
+
+QUESTÃO 1:
+
+a) O sal formado é o sulfato de cálcio, cuja fórmula é CaSO4
+
+b) H2SO4 + Ca(OH)2 → CaSO4 + 2H2O
+
+ou
+
+  H2SO4 (aq) + Ca(OH)2 (aq) → CaSO4 (aq) + 2H2O (l)
+
+ou
+
+  2H+ (aq) + SO42- (aq) + Ca2+ (aq) + 2OH- (aq) →  Ca2+ (aq) + SO42- (aq) + 2H2O (l)
+
+c) A resposta deve conter os efeitos perigosos de um ácido forte à saúde humana, como queimaduras na pele, olhos e
+sistema respiratório, e ao meio ambiente, como desequilíbrio ecológico pela mortandade de peixes e plantas. Como o
+acidente foi em área urbana pode-se citar a corrosão de estruturas de concreto e o perigo envolvido nisso.
+
+
+QUESTÃO 2:
+
+
+a) 𝑁2(𝑔) + 𝑂2(𝑔) →2𝑁𝑂(𝑔)
+
+b)
+
+
+
+
+
+c) Sim, o modelo de Dalton para transformações químicas é respeitado. Justifica-se por uma das alternativas abaixo:
+
+i) toda matéria é constituída de átomos.
+
+ii) todos os átomos de um mesmo elemento são idênticos
+
+iii) Nas reações químicas, os átomos não são criados nem destruídos: eles se rearranjam originando novas
+substâncias.
+
+iv) As substâncias químicas são obtidas pela combinação de átomos de elementos diferentes numa proporção de
+números inteiros.
+
+
+
+
+
+                                                                                             3

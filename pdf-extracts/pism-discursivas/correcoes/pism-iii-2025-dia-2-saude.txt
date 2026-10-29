@@ -1,0 +1,185 @@
+=== PÁGINA 1 ===
+                          PRÓ-REITORIA DE GRADUAÇÃO - PROGRAD
+
+                     COORDENAÇÃO GERAL DE PROCESSOS SELETIVOS – COPESE
+
+
+           PROGRAMA DE INGRESSO SELETIVO MISTO – PISM 2025
+
+                          DIA 2 – MÓDULO III – Saúde
+                       Prova realizada em 15 de dezembro de 2024
+
+
+    REFERÊNCIAS DE CORREÇÃO DAS PROVAS DISCURSIVAS
+
+
+
+
+
+                                               FÍSICA
+                                                           Discursivas (5 questões)
+
+QUESTÃO 1:
+
+
+
+A) t = 45000 Wh/(20 A*100 V) = 22,5 horas
+
+
+
+B) d = 40 kWh /15 kWh*100 km = 300 km.
+
+
+QUESTÃO 2:
+
+
+A) T=2 π√𝐿    6s.       𝐶𝑅=
+
+B) T1=2 π√𝐿  e T2=2 π√𝐿      ℎ). Logo, T2=(1+h/R) T1, indicando um aumento de h/R = 0,01%.       𝐶𝑅      𝐶(𝑅+
+
+
+
+
+
+                                                                                             1
+
+=== PÁGINA 2 ===
+QUESTÃO 3:
+
+
+
+A)
+
+
+
+
+
+             𝒈ρÓleo 4 πr3
+B) P=FE => n=         = 2.
+                   𝟑|ε|E
+
+
+QUESTÃO 4:
+
+A)
+
+
+
+
+
+      µ0I√2     2RBT
+B) BT=    => I=    = 10A.
+       2𝑅       µ0√2
+
+
+
+
+QUESTÃO 5:
+
+A) VR = V pilha - VLED => VR = 5V- 3V = 2V.
+
+B) I = 30 mA => R = 2V/30mA => R = (2/30) 103 Ω = 0,0667 kΩ=66,7 Ω.
+
+
+
+
+
+                                                                                             2
+
+=== PÁGINA 3 ===
+                                    QUÍMICA
+                                                           Discursivas (5 questões)
+
+
+QUESTÃO 1:
+
+A) Como o valor do potencial padrão de redução do magnésio é menor do que o do alumínio, é ele que vai sofrer a
+oxidação (os valores mostram que o magnésio tem maior tendência a oxidação).
+
+B) Agente redutor: Mg, Agente oxidante: Al
+
+C) Zn ou Cu
+
+
+
+
+
+QUESTÃO 2:
+
+A) O gás carbônico reage com a água e gera ácido carbônico, diminuindo o pH do meio.
+
+        [Ca2+][HCO3−]
+B) K =
+          [H3O+]
+
+C) O aumento da concentração de gás carbônico na atmosfera leva a um aumento na concentração de H3O+ deslocando
+o equilíbrio químico para a formação dos produtos. Portanto, aumento da concentração de gás carbônico na atmosfera
+causa a dissolução do carbonato de cálcio presente na concha dos animais.
+
+
+QUESTÃO 3:
+
+
+A) A velocidade da reação será maior no recipiente 1. A temperatura não varia. A concentração dos reagentes é maior
+
+em 1 pois o número de moléculas é o mesmo porém o volume em 1 é menor. Um aumento de concentração acarreta
+
+em uma maior freqüência de colisões moleculares aumentando a velocidade da reação.
+
+
+B) A velocidade da reação será maior no recipiente 2. A concentração dos reagentes não varia. O aumento de
+temperatura leva a uma maior freqüência de colisões moleculares aumentando a velocidade da reação.
+
+C) Aumentando a concentração dos reagentes, aumentando a pressão (ou diminuindo o volume) ou utilizando um
+catalisador.
+
+
+QUESTÃO 4:
+
+A)
+
+
+
+
+
+                                                                                             3
+
+=== PÁGINA 4 ===
+B) Misturas provenientes de quantidades equimolares de enantiômeros, são inativas opticamente, umas vez que um
+enantiômero desviará a luz para um sentido e o outro enantiômero para outro, com o mesmo valor numérico em
+módulo, anulando-se o desvio da luz plano polarizada.
+
+
+
+C)
+
+
+
+
+
+Os alcenos reagem com água em meio ácido para formar alcoóis. A reação obedece a regra de Markovinikovi, dessa
+forma, a hidroxilia estará ligada no carbono da dupla que formará o carbocátion mais estável ou o hidrogênio se ligará
+ao carbono mais hidrogenado.
+
+
+QUESTÃO 5:
+
+A)
+
+
+
+
+
+B)
+
+
+
+
+
+C) Isômeros de posição.
+
+
+
+
+
+                                                                                             4

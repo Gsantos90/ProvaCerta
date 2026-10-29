@@ -1,0 +1,225 @@
+=== PÁGINA 1 ===
+                          PRÓ-REITORIA DE GRADUAÇÃO - PROGRAD
+                     COORDENAÇÃO GERAL DE PROCESSOS SELETIVOS – COPESE
+
+
+           PROGRAMA DE INGRESSO SELETIVO MISTO – PISM 2024
+                              DIA 1 – MÓDULO II
+                       Prova realizada em 09 de dezembro de 2023
+
+
+    REFERÊNCIAS DE CORREÇÃO DAS PROVAS DISCURSIVAS
+              APÓS ANALISE DE RECURSOS
+
+
+
+
+                                LÍNGUA PORTUGUESA
+                                                           Discursivas (2 questões)
+
+
+
+QUESTÃO 1:
+
+Carolina Maria de Jesus é considerada “inclassificável”, pois ela foi uma mulher escritora com múltiplas qualidades,
+definições, o que torna sua personalidade plural e singular. Conforme Jeferson Tenório explicitou, Carolina não pode
+ser resumida em algum termo específico, que a classifique ou a enquadre numa característica única.
+
+QUESTÃO 2:
+
+Conforme Jeferson Tenório menciona, a surpresa sobre a relevância da escritora é injustificável, pois no Brasil há um
+número expressivo de pessoas negras, sendo mais da metade da população. Deveria ser, portanto, natural que
+escritores negros tenham reconhecimento a nível internacional. A razão desse tipo de conduta – de espantar-se com o
+alcance de Carolina – é em virtude, segundo o autor, do racismo e das tentativas do país de embranquecer-se.
+
+
+
+                                    GEOGRAFIA
+                                                           Discursivas (2 questões)
+
+
+QUESTÃO 1:
+
+A) Os bens industriais são aqueles que permitem a construção da própria indústria, como as indústrias que produzem
+máquinas para serem utilizadas por outras indústrias. Sendo assim, quando há uma redução da produção de bens
+industriais dificulta-se a ampliação do parque industrial nacional.
+
+B) A reprimarização da balança comercial brasileira explica a perda de dinamismo da indústria nacional desde o final
+do século XX. Com a ampliação da taxa Selic, no período mais recente, torna-se ainda menos atrativo o investimento
+na indústria devido à manutenção de juros mensais altos que encarecem os empréstimos e créditos necessários para
+a produção de bens industriais desestimulando-a.
+
+
+
+
+
+                                                                                             1
+
+=== PÁGINA 2 ===
+QUESTÃO 2:
+
+A) A Agricultura Familiar é a principal responsável pela produção de alimentos, posto que o agronegócio produz
+commodities as quais não compõem a dieta diária da população brasileira. Assim, uma maior produção da Agricultura
+Familiar pode fomentar a redução dos preços dos alimentos por ela produzidos.
+
+
+B) Devido à divisão sexual do trabalho que sobrecarrega as mulheres com as atividades ligadas à reprodução da vida,
+dentre elas está a responsabilidade pela alimentação das pessoas menores de idade que façam parte da família.
+Quanto à população negra trata-se da herança da ausência de políticas reparativas após a abolição da escravidão até
+os dias de hoje, com destaque para a manutenção da concentração fundiária sob propriedade da população branca,
+assim como, pela ausência de inserção da população negra em postos de trabalhos formais e mais valorizados.
+
+
+
+
+                                 MATEMÁTICA
+                                                           Discursivas (2 questões)
+
+
+
+QUESTÃO 1:
+
+𝐀) Seja 𝑥 a porcentagem da população correspondente à região de Belo Horizonte. Então 0,54 ∙ 1680 + 𝑥 ∙ 1450 +
+(0,46 − 𝑥) ∙ 1440 = 1571 e, daí, 𝑥 = 0,14, ou seja, 14%.
+
+
+B) De (a), temos que a porcentagem da população correspondente à região metropolitana do Rio de Janeiro é 32%.
+Logo, a população é 0,32 ∙ 40000000 = 12,8 milhões.
+
+
+QUESTÃO 2:
+A) O volume de água dentro do cilindro é a metade do volume do cilindro, ou seja, é igual a   1 (𝜋 ∙ 32 ∙ 12) 𝑐𝑚3 =
+                                                                                             2
+54𝜋 𝑐𝑚3.
+B) Calculando o volume da esfera, obtemos 32 𝜋. Após mergulhar essa esfera totalmente dentro da água, a altura
+                                             3
+                                  32
+da coluna de água aumentará de      . De fato:
+                                  27
+                             32                 32  1   32
+                             𝜋 = 𝜋 ∙ 32 ∙ ℎ ⇒ ℎ =       ∙  =          .
+                             3                  3  9   27
+
+A nova altura será de
+
+    32    194
+6 +  =   ≅ 7,19 𝑐𝑚.
+    27    27
+
+
+
+
+
+                                                                                             2
+
+=== PÁGINA 3 ===
+                                    QUÍMICA
+                                                           Discursivas (2 questões)
+
+
+
+QUESTÃO 1:
+
+A) O volume da fase aquosa menos o volume de água adicionado é igual ao volume de etanol: 62 mL - 50 mL = 12 mL.
+
+O volume da fase orgânica é igual ao volume de gasolina sem etanol: 38 mL.
+
+
+
+
+12 mL + 38 mL = 50 mL é o volume inicial de combustível logo:
+
+12 𝑚𝐿 . 100 = 24 % (𝑣/𝑣)
+  50 𝑚𝐿
+
+
+ou como uma regra de três:
+
+12 mL de etanol em 50 mL de combustível
+
+x mL de etanol em  100 mL de combustível
+
+x = 12 mL . 100 mL / 50 mL = 24 mL ou 24 % (v/v)
+
+
+B) O etanol possui uma hidroxila que pode formar ligações de hidrogênio com a água e, por essa razão, possui maior
+afinidade pela água do que pela gasolina.
+
+Apesar disso, na ausência de água, por possuir cadeia carbônica formada por hidrogênio e carbono, pode ser solúvel
+na gasolina, que é formada por hidrocarbonetos com estrutura química semelhante.
+
+No entanto, as forças intermoleculares envolvendo interações entre cadeias carbônicas apolares são chamadas forças
+entre dipolos temporários (forças de dispersão de London ou forças de van der Waals) e são mais fracas do que as
+ligações de hidrogênio.
+
+
+
+C) d = m/v, logo m = d.v
+m = 0,79 g mL-1 . 10 mL = 7,9 g de etanol
+
+ou como uma regra de três:
+0,79 g de etanol ocupam o volume de  1 mL
+   x g de etanol ocupam o volume de  10 mL
+x = 0,79 g . 10 mL / 1 mL = 7,9 g
+
+
+
+
+
+                                                                                             3
+
+=== PÁGINA 4 ===
+QUESTÃO 2:
+
+A)
+
+
+
+
+                  ou                  ou               ou
+
+B)
+
+        Fórmula molecular:
+
+        C4H8O2
+
+C)
+
+      Nome do álcool: 3-metil-1-butanol ou 3-metilbutan-1-ol
+
+
+
+
+
+D)
+
+         Resposta:
+
+
+       C – Concentração (mol L-1)
+
+       n – quantidade de matéria (mol)
+
+       V = volume (L)
+
+       C = n/ V rearranjando n = C.V
+
+
+       n = 3,00 x10-3 mol L-1 . 50,0 L = 150x10-3 mol
+
+        Fórmula molecular = C6H12O2
+
+       Massa molar (MM) = 116 g mol-1
+
+
+       n = m/MM
+
+
+     m = n.MM = 150x10-3 mol x 116 g mol-1 = 17,4 g do éster deve ser utilizado.
+
+
+
+
+
+                                                                                             4

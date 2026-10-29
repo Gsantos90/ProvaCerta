@@ -1,0 +1,173 @@
+=== PÁGINA 1 ===
+                          PRÓ-REITORIA DE GRADUAÇÃO - PROGRAD
+
+                     COORDENAÇÃO GERAL DE PROCESSOS SELETIVOS – COPESE
+
+
+           PROGRAMA DE INGRESSO SELETIVO MISTO – PISM 2025
+
+                              DIA 1 – MÓDULO II
+                       Prova realizada em 14 de dezembro de 2024
+
+
+    REFERÊNCIAS DE CORREÇÃO DAS PROVAS DISCURSIVAS
+
+
+
+
+
+                               LÍNGUA PORTUGUESA
+                                                           Discursivas (2 questões)
+
+QUESTÃO 1:
+
+Tiktokização é o nome dado à pressão atual para que profissionais se exponham e divulguem seus trabalhos em redes
+sociais, como TikTok e Instagram, para promoção no mercado de trabalho. Um dos resultados disso pode ser a
+diminuição da seriedade de certos temas, como os da saúde, na medida em que são apresentados em vídeos curtos e
+com tom de humor.
+
+
+QUESTÃO 2:
+
+A pesquisa realizada por Rafaela Moraes Cardoso investigou o impacto da tiktokização das profissões. De acordo com
+os dados analisados, a maior parte das pessoas sente-se negativamente afetada por essa tendência, visto que 208
+comentários apresentam uma visão negativa, um número bem maior dos que apresentam uma visão positiva, apenas
+11 comentários.
+
+
+
+                                   GEOGRAFIA
+                                                           Discursivas (2 questões)
+
+
+QUESTÃO 1:
+
+A) É o recorte racial entre quem se beneficia e quem sofre com a destruição da natureza.
+
+B) Garantindo a defesa dos Direitos Humanos e Ambientais; valorizando o conhecimento e a experiência das
+comunidades tradicionais; criando políticas públicas que levem em conta as desigualdades sociais, raciais, de gênero e
+econômicas; garantindo o direito à participação das comunidades afetadas na tomada de decisão; promovendo a
+educação ambiental e a valorização do conhecimento tradicional das comunidades.
+
+
+QUESTÃO 2:
+
+A) O processo de desconcentração industrial se caracterizou pela complexificação e dispersão da indústria no Brasil,
+sobretudo a partir de 1970, quando este setor passa a ser mais significativo em regiões e municípios para além da
+região Sudeste e, mais particularmente, do eixo Rio de Janeiro-São Paulo.
+
+
+
+                                                                                             1
+
+=== PÁGINA 2 ===
+B) Conforme se pode observar no mapa, a desconcentração industrial não foi completada. Isto porque ainda hoje,
+segundo o número de empresas industriais, há uma concentração no Centro-Sul do país.
+
+
+
+
+
+                                MATEMÁTICA
+                                                           Discursivas (2 questões)
+
+
+QUESTÃO 1:
+
+A) Vamos escrever (a_1,a_2,a_3,…)=(1,4,5, …).
+Seja (b_1,b_2,b_3,…) a sequência formada pelos termos de índices impares, isto é,
+(a_1,a_3,a_5,…)=(b_1,b_2,b_3,…)=(1,5,9 ,…).
+Esta sequência formam uma PA com termo inicial b_1=1 e razão r=4 de modo que o termo geral é b_n=1+4(n-1)=4n-3.
+Seja (c_1,c_2,c_3,…) a sequência formada pelos termos de índices pares, isto é,
+(a_2,a_4,a_6,…)=(c_1,c_2,c_3,…)=(4,8,12 ,…).
+Esta sequência forma uma PA com termo inicial c_1=4 e razão r=4 de modo que o termo geral é c_n=4+4(n-1)=4n.
+O centésimo termo da sequência é o quinquagésimo termo da sequência dos termos pares, isto é, a_100=c_50=4
+∙50=200.
+
+
+B) A soma 𝑆 dos primeiros termos da sequência é dada pela soma da soma 𝑆𝐼 dos primeiros 50 termos da sequência
+dos termos ímpares com a soma 𝑆𝑃 dos primeiros 50 termos da sequência dos termos pares.
+Pelo mesmo raciocínio do item (a),o quinquagésimo termo da sequência dos ímpares 𝑎99 = 𝑏50 = 1 + (50 −1) ∙4 =
+197.
+Assim:
+                                          (1 + 197) ∙50
+                             𝑆𝐼=         = 4950
+                                         2
+
+                                          (4 + 200) ∙50
+                           𝑆𝑃=         = 5100
+                                          2
+Portanto, 𝑆= 𝑆𝐼+ 𝑆𝑃= 4950 + 5100 = 10050.
+
+
+Solução alternativa:
+Ao observar que, a cada 4 termos, a soma dos termos da sequência é a metade da soma total, temos que a soma dos
+primeiros cem termos da sequência é igual à metade da soma 𝑆𝑇 dos primeiros 200 números. Assim, se 𝑑𝑛= 𝑛, então
+a soma dos primeiros 200 termos desta sequência é igual a
+                                         (1 + 200) ∙200
+                         𝑆𝑇=          = 20100
+                                         2
+          𝑆𝑇   20100
+Logo 𝑆=  =    = 10050.
+          2      2
+
+
+QUESTÃO 2:
+A) O Sejam 𝐴𝐴𝐵𝐷 e 𝐴𝐵𝐶𝐸 as áreas dos triângulos 𝐴𝐵𝐷 e 𝐵𝐶𝐸, respectivamente. Pela PG, temos que 𝐴𝐵𝐶𝐸= 4 ∙ 𝐴𝐴𝐵𝐷.
+       𝐿2∙√3       𝑙2∙√3
+Isto é,   = 4 ∙        , de onde obtemos que 𝐿= 2 ∙𝑙.
+        4         4
+
+
+
+
+                                                                                             2
+
+=== PÁGINA 3 ===
+B) Observe que o ângulo DBÊ = 600uma vez que os triângulos ABD e BCE são equiláteros.
+     Pela Lei dos Cossenos, temos que:
+                                                ̅̅̅̅2DE = ̅̅̅̅2BD + ̅̅̅̅2BE −2 ∙cos(600) ∙BD̅̅̅̅ ∙BE̅̅̅̅
+     Novamente, como os triângulos ABD e BCE são equiláteros, seque que  ̅̅̅̅BD = ̅̅̅̅AB = l e ̅̅̅̅BE = ̅̅̅̅BC = L. Portanto,
+                                                          ̅̅̅̅2DE = l2 + L2 −2 ∙1 ∙l ∙L
+                                                  2
+     Pelo item (a), L = 2l de onde obtemos que
+
+                                                          ̅̅̅̅2DE = 3l2 ⟹ ̅̅̅̅DE = √3 l
+     Solução Alternativa:
+     Traçar a partir do vértice Duma reta paralela à reta que contém os pontos A, Be C intersectando o segmento BE
+    no seu ponto médio, o qual podemos chamar de F. Como o ângulo DFÊ = 1200 e o triângulo DFE é isósceles,
+     concluímos que o ângulo EDF̂ = 300.
+     Portanto, temos que o ângulo BDÊ = 900 e assim o triângulo BDE é retângulo. Pelo Teorema de Pitágoras,
+                                         ̅̅̅̅2DE + ̅̅̅̅2BD = ̅̅̅̅2BE ⟹ ̅̅̅̅2DE + l2 = 4l2 ⟹ ̅̅̅̅2DE = 3l2
+
+
+
+
+
+                                    QUÍMICA
+                                                           Discursivas (2 questões)
+
+QUESTÃO 1:
+
+A) É uma reação exotérmica, já que é necessário energia para executar atividades como a contração dos músculos.
+Essa energia é fornecida pela reação de oxidação da glicose.
+B) ∆𝑯𝒇𝒐= -2229 kJ/mol
+
+C) O alimento mais calórico é o queijo, que fornece 20 kJ/g do alimento
+
+
+QUESTÃO 2:
+
+Gabarito
+
+A) Limite planetário 1: CO2 ou CH4
+
+B) Limite planetário 6
+
+C) CFC ou HCFC
+
+
+
+
+
+                                                                                             3

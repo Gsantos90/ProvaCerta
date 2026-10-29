@@ -29,6 +29,7 @@ import { fuvestOfficialSource } from './lib/fuvestSources'
 import { enemExams, enemAreas, enemHasLanguage, selectEnemQuestions, enemOfficialSource } from './lib/enemExams'
 import { cebraspeScore, isBinaryQuestion, binaryAnswerLabel } from './lib/cebraspeScore'
 import { pismOfficialSource, pismExamDetails, pismSelectionLabel } from './lib/pismSources'
+import { pismDiscursiveKey, pismAreas, pismExamEditions } from './lib/pismDiscursive'
 
 import { AuthProvider, useAuth, AccountControl } from './Auth'
 import StudyAccount, { SaveResult } from './StudyAccount'
@@ -55,6 +56,7 @@ import { readExamDraft, writeExamDraft } from './lib/examDraft'
 import { usePageState } from './lib/pageState'
 const QuestionReport = React.lazy(() => import('./QuestionReport'))
 const ItaDiscursive = React.lazy(() => import('./ItaDiscursive'))
+const PismDiscursive = React.lazy(() => import('./PismDiscursive'))
 
 const EssayPractice = React.lazy(() => import('./EssayPractice'))
 const StudyHub = React.lazy(() => import('./StudyHub'))
@@ -599,7 +601,7 @@ function App() {
   const [draftSaveFailed, setDraftSaveFailed] = useState(false)
   const [accountTab, setAccountTab] = usePageState('app.accountTab', 'history')
   const openAccount = (tab) => { setAccountTab(tab); setScreen('account'); setMenuOpen(false) }
-  const [savedScreen, setSavedScreen] = usePageState('screen', 'home', value => ['home', 'catalog', 'study', 'essay', 'simulado', 'account', 'uerj-discursive', 'ita-discursive'].includes(value))
+  const [savedScreen, setSavedScreen] = usePageState('screen', 'home', value => ['home', 'catalog', 'study', 'essay', 'simulado', 'account', 'uerj-discursive', 'ita-discursive', 'pism-discursive'].includes(value))
   const [screen, setScreen] = useState(restoredDraft?.screen || savedScreen)
   const [discursiveYear, setDiscursiveYear] = usePageState('uerj.discursive.year', '2014', value => Boolean(uerjDiscursiveExams[value]))
   useEffect(() => { setSavedScreen(screen) }, [screen])
@@ -627,6 +629,10 @@ function App() {
   const [catalogSearch, setCatalogSearch] = usePageState('app.catalogSearch', '')
   const [catalogCategory, setCatalogCategory] = usePageState('app.catalogCategory', 'todas')
   const [pismSeries, setPismSeries] = usePageState('app.pismSeries', '1 ano')
+  const [pismDiscursiveArea, setPismDiscursiveArea] = usePageState('pism.discursive.area', 'humanas', value => pismAreas.some(area => area.value === value))
+  const [pismEdition, setPismEdition] = usePageState('pism.edition', 'objetiva')
+  const [activePismSubject, setActivePismSubject] = usePageState('pism.discursive.subject', 'Língua Portuguesa')
+  const [activePismDiscursive, setActivePismDiscursive] = usePageState('pism.discursive.active', 'pism-2025-1-comum', value => typeof value === 'string' && /^pism-(?:202[345]-[12]-comum|ii-202[456]-dia-[12]-comum|iii-202[456]-dia-[12]-(?:humanas|exatas|saude|economia))$/.test(value))
   const [year, setYear] = usePageState('app.year', '2025-1')
   const [bbRole, setBbRole] = usePageState('app.bbRole', 'Escriturário - Agente Comercial')
   const [bbYear, setBbYear] = usePageState('app.bbYear', '2022')
@@ -1619,6 +1625,8 @@ function App() {
   const zoomIn = () => setSupportScale((value) => Math.min(1.8, Math.round((value + 0.15) * 100) / 100))
   const zoomOut = () => setSupportScale((value) => Math.max(0.85, Math.round((value - 0.15) * 100) / 100))
 
+  const pismEditions = pismExamEditions(year, pismDiscursiveArea)
+  const selectedPismEdition = pismEditions.some(item => item.value === pismEdition) ? pismEdition : 'objetiva'
   const pismCard = (
     <ExamCard
       type="pism"
@@ -1630,7 +1638,18 @@ function App() {
       years={currentPismYears}
       year={year}
       setYear={setYear}
-      onStart={() => isPismAvailable && selectedExamForYear[year] && startExam(selectedExamForYear[year])}
+      onStart={() => {
+        if (!isPismAvailable) return
+        if (selectedPismEdition !== 'objetiva') {
+          const key = pismDiscursiveKey(year, pismDiscursiveArea)
+          if (key) { setActivePismDiscursive(key); setActivePismSubject(selectedPismEdition); setScreen('pism-discursive'); setMenuOpen(false); window.scrollTo({ top: 0, behavior: 'instant' }) }
+        } else if (selectedExamForYear[year]) startExam(selectedExamForYear[year])
+      }}
+      editions={pismEditions}
+      edition={selectedPismEdition}
+      setEdition={setPismEdition}
+      discursiveArea={pismDiscursiveArea}
+      setDiscursiveArea={setPismDiscursiveArea}
       available={isPismAvailable}
       loading={pismLoading}
       error={enemError}
@@ -1811,6 +1830,10 @@ function App() {
 
   if (screen === 'uerj-discursive') {
     return <div className="app-shell"><Header onStudy={openStudy} activeScreen="catalog" onAccount={openAccount} menuOpen={menuOpen} setMenuOpen={setMenuOpen} onHome={() => setScreen('home')} onSimulado={openSimulado} onCatalog={() => setScreen('catalog')} onAbout={goToAbout} onEssay={() => { setScreen('essay'); setMenuOpen(false) }} /><ExamTools examKey={`uerj-discursive:${discursiveYear}`} /><UerjDiscursive key={discursiveYear} year={discursiveYear} onBack={() => setScreen('catalog')} /></div>
+  }
+
+  if (screen === 'pism-discursive') {
+    return <div className="app-shell"><Header onStudy={openStudy} activeScreen="catalog" onAccount={openAccount} menuOpen={menuOpen} setMenuOpen={setMenuOpen} onHome={() => setScreen('home')} onSimulado={openSimulado} onCatalog={() => setScreen('catalog')} onAbout={goToAbout} onEssay={() => { setScreen('essay'); setMenuOpen(false) }} /><React.Suspense fallback={<main className="discursive-page"><p role="status">Carregando dissertativas do PISM…</p></main>}><ExamTools examKey={`pism-discursive:${activePismDiscursive}`} /><PismDiscursive examKey={activePismDiscursive} subject={activePismSubject} onBack={() => setScreen('catalog')} /></React.Suspense></div>
   }
 
   if (screen === 'ita-discursive') {
