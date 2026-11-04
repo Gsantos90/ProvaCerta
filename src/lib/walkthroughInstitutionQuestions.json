@@ -1,5 +1,29 @@
 [
   {
+    "id": "uerj-2026-eq2-6",
+    "exam": "uerj",
+    "year": 2026,
+    "stage": "eq2",
+    "stageLabel": "2º Exame de Qualificação",
+    "slug": "uerj-2026-eq2",
+    "number": 6,
+    "subject": "Matemática",
+    "text": "O chamado conjunto de Cantor, formado pelos infinitos pontos que são os extremos de segmentos de retas, gera uma curva que é um fractal. Esse conjunto é resultante da remoção, infinitas vezes, do terço central de segmentos de reta. No apoio oficial, apresentam-se os quatro primeiros passos da obtenção desses pontos. No passo 6 desse exemplo, a quantidade de pontos que são os extremos dos segmentos formados é:",
+    "support": null,
+    "options": [
+      "32",
+      "64",
+      "128",
+      "256"
+    ],
+    "answer": "B",
+    "supportImages": [
+      "/uerj-2026-eq2/q6.png"
+    ],
+    "sourceUrl": "/provas/uerj/2026-eq2.pdf",
+    "answerSource": "/provas/uerj/2026-eq2-gabarito.pdf"
+  },
+  {
     "id": "uerj-2026-eq2-29",
     "exam": "uerj",
     "year": 2026,
@@ -9,7 +33,7 @@
     "number": 29,
     "subject": "Matemática",
     "text": "A parábola representada no apoio intersecta os eixos coordenados nos pontos A (1, 0), B (−1, 0) e C (0, −1). Essa parábola é o gráfico da função quadrática f definida pela seguinte sentença:",
-    "support": "Enunciado e alternativas originais no apoio oficial. Clique na imagem para ampliar.",
+    "support": null,
     "options": [
       "f(x) = x² − 1",
       "f(x) = x² + 1",
@@ -24,6 +48,54 @@
     "answerSource": "/provas/uerj/2026-eq2-gabarito.pdf"
   },
   {
+    "id": "uerj-2026-eq2-30",
+    "exam": "uerj",
+    "year": 2026,
+    "stage": "eq2",
+    "stageLabel": "2º Exame de Qualificação",
+    "slug": "uerj-2026-eq2",
+    "number": 30,
+    "subject": "Matemática",
+    "text": "Um lojista comprou 625 camisas e vendeu cada uma delas por x reais. O custo de sua compra foi igual ao valor exato da venda de 500 camisas. Com a venda de todas as camisas, o percentual de lucro obtido pelo lojista, em relação ao custo, foi:",
+    "support": null,
+    "options": [
+      "15%",
+      "20%",
+      "25%",
+      "30%"
+    ],
+    "answer": "C",
+    "supportImages": [
+      "/uerj-2026-eq2/q30.png"
+    ],
+    "sourceUrl": "/provas/uerj/2026-eq2.pdf",
+    "answerSource": "/provas/uerj/2026-eq2-gabarito.pdf"
+  },
+  {
+    "id": "uerj-2026-eq2-31",
+    "exam": "uerj",
+    "year": 2026,
+    "stage": "eq2",
+    "stageLabel": "2º Exame de Qualificação",
+    "slug": "uerj-2026-eq2",
+    "number": 31,
+    "subject": "Matemática",
+    "text": "Considere o seno e o cosseno de um ângulo α do segundo quadrante do círculo trigonométrico representado no apoio. Se sen α = 3/4, o valor de cos α é:",
+    "support": null,
+    "options": [
+      "√7/4",
+      "1/4",
+      "−√7/4",
+      "−1/4"
+    ],
+    "answer": "C",
+    "supportImages": [
+      "/uerj-2026-eq2/q31.png"
+    ],
+    "sourceUrl": "/provas/uerj/2026-eq2.pdf",
+    "answerSource": "/provas/uerj/2026-eq2-gabarito.pdf"
+  },
+  {
     "id": "uerj-2026-eq2-34",
     "exam": "uerj",
     "year": 2026,
@@ -33,7 +105,7 @@
     "number": 34,
     "subject": "Matemática",
     "text": "Em um grupo de 40 pessoas adultas, 18 têm mais de 50 anos e 25 têm curso superior. Dentre aquelas com mais de 50, há 8 que não têm curso superior. Se uma pessoa escolhida ao acaso tem curso superior, a probabilidade de ela ter mais de 50 anos é:",
-    "support": "Enunciado e alternativas originais no apoio oficial. Clique na imagem para ampliar.",
+    "support": null,
     "options": [
       "3/4",
       "1/4",
@@ -68,6 +140,55 @@
     "answerSource": "/provas/uerj/2026-eq2-gabarito.pdf"
   },
   {
+    "id": "uerj-2026-eq2-41",
+    "exam": "uerj",
+    "year": 2026,
+    "stage": "eq2",
+    "stageLabel": "2º Exame de Qualificação",
+    "slug": "uerj-2026-eq2",
+    "number": 41,
+    "subject": "Física",
+    "text": "Os recipientes W, X, Y e Z, de capacidades térmicas desprezíveis, possuem o mesmo volume de um mesmo líquido nas temperaturas de 20 °C, 55 °C, 75 °C e 90 °C, respectivamente. Admita que o conteúdo dos quatro recipientes seja misturado, sem perda de calor, em um único recipiente termicamente isolado. A temperatura de equilíbrio térmico dessa mistura, em °C, é igual a:",
+    "support": null,
+    "options": [
+      "30",
+      "35",
+      "45",
+      "60"
+    ],
+    "answer": "D",
+    "supportImages": [
+      "/uerj-2026-eq2/q41.png"
+    ],
+    "sourceUrl": "/provas/uerj/2026-eq2.pdf",
+    "answerSource": "/provas/uerj/2026-eq2-gabarito.pdf"
+  },
+  {
+    "id": "uerj-2026-eq2-43",
+    "exam": "uerj",
+    "year": 2026,
+    "stage": "eq2",
+    "stageLabel": "2º Exame de Qualificação",
+    "slug": "uerj-2026-eq2",
+    "number": 43,
+    "subject": "Física",
+    "text": "O fenômeno da dilatação anômala da água permite que lagos congelados durante o inverno sejam capazes de manter vida aquática no seu interior em função da seguinte propriedade da água:",
+    "support": "Gráficos de volume e densidade da água em função da temperatura, ilustrando a dilatação anômala da água.",
+    "options": [
+      "menor volume no ponto de fusão",
+      "maior flutuabilidade no estado sólido",
+      "mínimo empuxo em temperaturas baixas",
+      "máxima densidade no ponto de congelamento"
+    ],
+    "answer": "B",
+    "supportImages": [
+      "/uerj-2026-eq2/apoio-p24.png",
+      "/uerj-2026-eq2/q43.png"
+    ],
+    "sourceUrl": "/provas/uerj/2026-eq2.pdf",
+    "answerSource": "/provas/uerj/2026-eq2-gabarito.pdf"
+  },
+  {
     "id": "uerj-2026-eq2-44",
     "exam": "uerj",
     "year": 2026,
@@ -93,6 +214,30 @@
     "answerSource": "/provas/uerj/2026-eq2-gabarito.pdf"
   },
   {
+    "id": "uerj-2026-eq2-46",
+    "exam": "uerj",
+    "year": 2026,
+    "stage": "eq2",
+    "stageLabel": "2º Exame de Qualificação",
+    "slug": "uerj-2026-eq2",
+    "number": 46,
+    "subject": "Física",
+    "text": "Em fevereiro de 2023, um terremoto ocorrido na península de Anatólia sacudiu a fronteira entre Síria e Turquia. Admita as energias liberadas: terremoto, 7,9 × 10¹⁵ J; bomba atômica de Hiroshima, 2,0 × 10¹² J. A ordem de grandeza da razão entre as energias liberadas pelo terremoto e pela bomba corresponde a:",
+    "support": null,
+    "options": [
+      "10³",
+      "10⁴",
+      "10⁵",
+      "10⁶"
+    ],
+    "answer": "B",
+    "supportImages": [
+      "/uerj-2026-eq2/q46.png"
+    ],
+    "sourceUrl": "/provas/uerj/2026-eq2.pdf",
+    "answerSource": "/provas/uerj/2026-eq2-gabarito.pdf"
+  },
+  {
     "id": "uerj-2026-eq2-5",
     "exam": "uerj",
     "year": 2026,
@@ -102,7 +247,7 @@
     "number": 5,
     "subject": "Química",
     "text": "Fractais são um tipo de forma geométrica encontrada nos cristais de gelo que compõem os flocos de neve. Admita que um fractal apresente massa igual a 9,0 × 10⁻⁴ g e que seja formado apenas por moléculas de água. Nesse fractal, o número de moléculas de água é igual a:",
-    "support": "Filosofia e ciência, juntas desde a Antiguidade\nQuando fiz o ensino médio, em Portugal no final dos anos 1970, o currículo incluía duas disciplinas \nobrigatórias: português e filosofia. Creio que ambas continuam obrigatórias por lá. Elas me abriram \nhorizontes que talvez eu não tivesse alcançado de outra forma.\nUm de meus temas favoritos era a filosofia da ciência. Foi assim que tomei conhecimento de Henri \nPoincaré (1854-1912) e de suas ideias sobre a natureza do raciocínio matemático. A matemática é uma \nciência notável porque é, ao mesmo tempo, dedutiva (rigorosa) e indutiva (criadora de conhecimento): \ntodos os fatos são consequências lógicas de algumas afirmações fundamentais, chamadas “axiomas”. \nMas os teoremas, como o de Pitágoras, dizem coisas que vão muito além dos axiomas. Como isso é \npossível, de onde surge esse conhecimento?\nFoi na aula de filosofia, e não de matemática, que ouvi falar pela primeira vez dos objetos maravilhosos \nque depois seriam chamados “fractais”. A palavra ainda não era conhecida: o livro A geometria fractal da \nnatureza, de Benoît Mandelbrot (1924-2010), que a criou e popularizou, só foi publicado (em inglês) uns \nanos depois. Mas os fractais já assombravam matemáticos e filósofos desde o século XIX. Como não ficar \nfascinado com o floco de neve de Helge von Koch (1870-1924), em que todo (!) ponto é uma “esquina” \nonde não existe reta tangente? Dez anos depois eu me tornaria pesquisador, e a matemática dos fractais \nseria (e é até hoje) um de meus maiores interesses de pesquisa.\nComo adquirimos conhecimento? E o que podemos conhecer? A realidade é objetiva ou uma mera \nrepresentação subjetiva? As questões da epistemologia me ajudaram, anos depois, a entender melhor o \nsignificado da mecânica quântica. As aulas me instigaram a ler mais sobre temas filosóficos, e assim conheci \na excelente História da filosofia ocidental, de Bertrand Russell (1872-1970), um dos livros mencionados \nquando ele ganhou o prêmio Nobel de Literatura, em 1950. Por meio dele me interessei pelo pensamento \ncristão antigo e medieval. Pelos grandes pensadores da Igreja e sua busca pela divindade por meio da \nrazão aliada à fé. Pelo modo como o humanismo emergiu dessa busca, no fim da Idade Média. Pela nova \naliança entre a ciência e a filosofia, que redesenhou o mundo no Renascimento. A gênese, mais tarde, \ndo Estado-nação e de outras ideias fundamentais que moldaram a história das relações internacionais, \nmagistralmente contada por Henry Kissinger (1923-2023) em Diplomacia (2012).\nPara Russell, a filosofia é uma “terra sem dono” entre a ciência e a teologia: tal como esta, lida com \nquestões inacessíveis ao método científico, mas usando a razão no lugar do dogma. “A ciência diz-nos \no que sabemos, e é pouco [...]; a teologia induz a crer dogmaticamente que temos conhecimento onde \nrealmente só temos ignorância”, explica. “Ensinar a viver sem certeza e sem ser paralisado pela hesitação \né talvez a dádiva mais importante da filosofia do nosso tempo a quem estuda.” Essas palavras de 1945 são \nmais relevantes do que nunca em nossos dias.\nMarcelo Viana \nHistórias da matemática: da contagem nos dedos à inteligência artificial. São Paulo: Tinta-da-China Brasil, 2024.",
+    "support": null,
     "options": [
       "5,0 × 10¹⁸",
       "4,0 × 10¹⁸",
@@ -110,7 +255,9 @@
       "2,0 × 10¹⁹"
     ],
     "answer": "C",
-    "supportImages": [],
+    "supportImages": [
+      "/uerj-2026-eq2/apoio-p39.png"
+    ],
     "sourceUrl": "/provas/uerj/2026-eq2.pdf",
     "answerSource": "/provas/uerj/2026-eq2-gabarito.pdf"
   },
@@ -124,7 +271,7 @@
     "number": 37,
     "subject": "Química",
     "text": "O que são “terras raras”? “Terras raras” são um conjunto de elementos químicos essenciais na fabricação de compostos usados em tecnologias de energia limpa. A possibilidade de exploração desses elementos na área de um vulcão extinto há 120 milhões de anos no sul de Minas Gerais tem potencial para colocar o Brasil na posição de protagonista da transição energética. Adaptado de g1.globo.com, 21/06/2025. Dentre os elementos “terras raras”, encontra-se o neodímio, de número atômico igual a 60. O subnível mais energético dos átomos desse elemento corresponde a:",
-    "support": "Enunciado e alternativas originais no apoio oficial. Clique na imagem para ampliar.",
+    "support": null,
     "options": [
       "4f",
       "5f",
@@ -132,9 +279,136 @@
       "7s"
     ],
     "answer": "A",
-    "supportImages": [],
+    "supportImages": [
+      "/uerj-2026-eq2/q37.png",
+      "/uerj-2026-eq2/apoio-p39.png"
+    ],
     "sourceUrl": "/provas/uerj/2026-eq2.pdf",
     "answerSource": "/provas/uerj/2026-eq2-gabarito.pdf"
+  },
+  {
+    "id": "uerj-2026-eq2-39",
+    "exam": "uerj",
+    "year": 2026,
+    "stage": "eq2",
+    "stageLabel": "2º Exame de Qualificação",
+    "slug": "uerj-2026-eq2",
+    "number": 39,
+    "subject": "Química",
+    "text": "Admita que toda a glicose formada pelo consumo de sacarose e de palatinose seja imediatamente absorvida pelo sangue. Nos primeiros 30 minutos, a menor velocidade média de formação de glicose, em mol/L.min, é igual a:",
+    "support": "Estudo da concentração de glicose no sangue após consumo de sacarose ou palatinose. A palatinose apresenta digestão e absorção mais lentas.",
+    "options": [
+      "2,5 × 10⁻⁵",
+      "4,1 × 10⁻⁵",
+      "6,3 × 10⁻⁵",
+      "8,0 × 10⁻⁵"
+    ],
+    "answer": "A",
+    "supportImages": [
+      "/uerj-2026-eq2/apoio-p22.png",
+      "/uerj-2026-eq2/q39.png"
+    ],
+    "sourceUrl": "/provas/uerj/2026-eq2.pdf",
+    "answerSource": "/provas/uerj/2026-eq2-gabarito.pdf"
+  },
+  {
+    "id": "uerj-2026-eq2-42",
+    "exam": "uerj",
+    "year": 2026,
+    "stage": "eq2",
+    "stageLabel": "2º Exame de Qualificação",
+    "slug": "uerj-2026-eq2",
+    "number": 42,
+    "subject": "Química",
+    "text": "Na tabela do apoio estão apresentadas as fórmulas estruturais de quatro compostos com propriedades antioxidantes que correspondem à vitamina E: I, alfatocoferol; II, betatocoferol; III, gamatocoferol; IV, deltatocoferol. Analisando as fórmulas estruturais, verifica-se isomeria plana entre os seguintes tocoferóis:",
+    "support": null,
+    "options": [
+      "I e II",
+      "II e III",
+      "III e IV",
+      "IV e I"
+    ],
+    "answer": "B",
+    "supportImages": [
+      "/uerj-2026-eq2/q42.png"
+    ],
+    "sourceUrl": "/provas/uerj/2026-eq2.pdf",
+    "answerSource": "/provas/uerj/2026-eq2-gabarito.pdf"
+  },
+  {
+    "id": "uerj-2026-eq2-45",
+    "exam": "uerj",
+    "year": 2026,
+    "stage": "eq2",
+    "stageLabel": "2º Exame de Qualificação",
+    "slug": "uerj-2026-eq2",
+    "number": 45,
+    "subject": "Química",
+    "text": "A fórmula molecular C₂₂H₃₀Cl₂N₁₀ corresponde ao digliconato de clorexidina, substância antisséptica descrita no enunciado. Considere um medicamento que consiste em uma solução alcoólica na concentração de 5 g/L dessa substância. Nesse medicamento, a concentração em quantidade de matéria de digliconato de clorexidina, em mol/L, é aproximadamente de:",
+    "support": null,
+    "options": [
+      "0,01",
+      "0,02",
+      "0,03",
+      "0,04"
+    ],
+    "answer": "A",
+    "supportImages": [
+      "/uerj-2026-eq2/q45.png",
+      "/uerj-2026-eq2/apoio-p39.png"
+    ],
+    "sourceUrl": "/provas/uerj/2026-eq2.pdf",
+    "answerSource": "/provas/uerj/2026-eq2-gabarito.pdf"
+  },
+  {
+    "id": "usp-2025-v1-17",
+    "exam": "usp",
+    "year": 2025,
+    "stage": "v1",
+    "stageLabel": "1ª fase — V1",
+    "slug": "usp-2025-v1",
+    "number": 17,
+    "subject": "Matemática",
+    "text": "Seja d a distância, em metros, que essa pessoa deixaria de percorrer se tivesse optado por fazer a travessia pela faixa de pedestre que liga O a C. Nesse contexto, é correto afirmar:",
+    "support": "A imagem a seguir mostra um cruzamento da Rua da Consolação, na região central da cidade de São Paulo, em que há faixas de pedestre em diferentes direções. Essas faixas agilizam a travessia das ruas. Uma pessoa parte do ponto O e deseja chegar ao ponto C. Para tanto, percorre o trajeto pela faixa que liga O a B e, em seguida, utiliza a faixa que liga B a C. Considere que as coordenadas dos pontos indicados na figura, em metros, são: O(0,0), B(13,-15) e C(29,-8).",
+    "options": [
+      "d < 2",
+      "2 ≤ d < 5",
+      "5 ≤ d ≤ 8",
+      "8 < d ≤ 11",
+      "11 < d"
+    ],
+    "answer": "C",
+    "supportImages": [
+      "/usp-2025/questao-17-1.png"
+    ],
+    "sourceUrl": "https://www.fuvest.br/wp-content/uploads/fuvest2025_primeira_fase_prova_V1.pdf#page=8",
+    "answerSource": "https://www.fuvest.br/wp-content/uploads/fuvest2025_gabarito_primeira_fase.pdf"
+  },
+  {
+    "id": "usp-2025-v1-69",
+    "exam": "usp",
+    "year": 2025,
+    "stage": "v1",
+    "stageLabel": "1ª fase — V1",
+    "slug": "usp-2025-v1",
+    "number": 69,
+    "subject": "Matemática",
+    "text": "No plano cartesiano Oxy, qual gráfico representa f(x) = |x² + 5x − 6| − 5x + 6?",
+    "support": null,
+    "options": [
+      "Gráfico A — veja a alternativa correspondente na imagem de apoio.",
+      "Gráfico B — veja a alternativa correspondente na imagem de apoio.",
+      "Gráfico C — veja a alternativa correspondente na imagem de apoio.",
+      "Gráfico D — veja a alternativa correspondente na imagem de apoio.",
+      "Gráfico E — veja a alternativa correspondente na imagem de apoio."
+    ],
+    "answer": "B",
+    "supportImages": [
+      "/usp-2025/questao-69-1.png"
+    ],
+    "sourceUrl": "https://www.fuvest.br/wp-content/uploads/fuvest2025_primeira_fase_prova_V1.pdf#page=26",
+    "answerSource": "https://www.fuvest.br/wp-content/uploads/fuvest2025_gabarito_primeira_fase.pdf"
   },
   {
     "id": "usp-2025-v1-70",
@@ -157,6 +431,29 @@
     "answer": "A",
     "supportImages": [],
     "sourceUrl": "https://www.fuvest.br/wp-content/uploads/fuvest2025_primeira_fase_prova_V1.pdf#page=27",
+    "answerSource": "https://www.fuvest.br/wp-content/uploads/fuvest2025_gabarito_primeira_fase.pdf"
+  },
+  {
+    "id": "usp-2025-v1-76",
+    "exam": "usp",
+    "year": 2025,
+    "stage": "v1",
+    "stageLabel": "1ª fase — V1",
+    "slug": "usp-2025-v1",
+    "number": 76,
+    "subject": "Matemática",
+    "text": "Sejam C um cilindro de raio r e altura h, C₁ um cilindro de raio r e altura h/2 e C₂ um cilindro de raio r/2 e altura h. Relacionando seus volumes V, V₁, V₂ e suas áreas laterais A, A₁, A₂, é correto afirmar:",
+    "support": null,
+    "options": [
+      "V = V₁ + V₂ e A = A₁ + A₂",
+      "V = V₁ + V₂ e A = A₁ + 2A₂",
+      "V = V₁ + 2V₂ e A = A₁ + 2A₂",
+      "V = V₁ + 2V₂ e A = A₁ + A₂",
+      "V = 2V₁ + 2V₂ e A = 2A₁ + 2A₂"
+    ],
+    "answer": "D",
+    "supportImages": [],
+    "sourceUrl": "https://www.fuvest.br/wp-content/uploads/fuvest2025_primeira_fase_prova_V1.pdf#page=28",
     "answerSource": "https://www.fuvest.br/wp-content/uploads/fuvest2025_gabarito_primeira_fase.pdf"
   },
   {
@@ -208,6 +505,56 @@
     "answerSource": "https://www.fuvest.br/wp-content/uploads/fuvest2025_gabarito_primeira_fase.pdf"
   },
   {
+    "id": "usp-2025-v1-22",
+    "exam": "usp",
+    "year": 2025,
+    "stage": "v1",
+    "stageLabel": "1ª fase — V1",
+    "slug": "usp-2025-v1",
+    "number": 22,
+    "subject": "Física",
+    "text": "Tratando o meio 2 sempre como tendo índice de refração n₂ = 1,0003, o material que permite o maior intervalo de ângulos de incidência que produzem reflexão total é:",
+    "support": "Na reflexão total, sen θL = n₂/n₁; o ângulo de incidência deve superar θL. O meio 2 tem n₂ = 1,0003. Materiais para o meio 1: A = 1,0002; B = 1,0003; C = 1,1503; D = 1,3204; E = 1,4889. O desenho mostra a fonte luminosa F na borda da tela e a interface entre os meios.",
+    "options": [
+      "Material A.",
+      "Material B.",
+      "Material C.",
+      "Material D.",
+      "Material E."
+    ],
+    "answer": "E",
+    "supportImages": [
+      "/usp-2025/questao-22-1.png"
+    ],
+    "sourceUrl": "https://www.fuvest.br/wp-content/uploads/fuvest2025_primeira_fase_prova_V1.pdf#page=10",
+    "answerSource": "https://www.fuvest.br/wp-content/uploads/fuvest2025_gabarito_primeira_fase.pdf"
+  },
+  {
+    "id": "usp-2025-v1-32",
+    "exam": "usp",
+    "year": 2025,
+    "stage": "v1",
+    "stageLabel": "1ª fase — V1",
+    "slug": "usp-2025-v1",
+    "number": 32,
+    "subject": "Física",
+    "text": "Os fenômenos físicos diretamente relacionados com a iridescência são",
+    "support": "O fenômeno físico conhecido como iridescência ocorre nas asas de certas espécies de borboletas e caracteriza-se pela variação das cores de acordo com o ângulo de observação. A existência de faixas coloridas na superfície das asas das borboletas ocorre devido a diferentes formas de superposição entre raios luminosos refletidos por uma fina camada de substância transparente existente na superfície das asas. Disponível em https://www.pbs.org/wgbh/.",
+    "options": [
+      "dilatação e reflexão.",
+      "interferência e dilatação.",
+      "dissipação e difração.",
+      "convecção e dispersão.",
+      "reflexão e interferência."
+    ],
+    "answer": "E",
+    "supportImages": [
+      "/usp-2025/questao-32-1.png"
+    ],
+    "sourceUrl": "https://www.fuvest.br/wp-content/uploads/fuvest2025_primeira_fase_prova_V1.pdf#page=14",
+    "answerSource": "https://www.fuvest.br/wp-content/uploads/fuvest2025_gabarito_primeira_fase.pdf"
+  },
+  {
     "id": "usp-2025-v1-33",
     "exam": "usp",
     "year": 2025,
@@ -233,6 +580,81 @@
     "answerSource": "https://www.fuvest.br/wp-content/uploads/fuvest2025_gabarito_primeira_fase.pdf"
   },
   {
+    "id": "usp-2025-v1-62",
+    "exam": "usp",
+    "year": 2025,
+    "stage": "v1",
+    "stageLabel": "1ª fase — V1",
+    "slug": "usp-2025-v1",
+    "number": 62,
+    "subject": "Física",
+    "text": "Considerando um carrinho ocupado com massa total de 300 kg em repouso na posição de altura máxima, a energia mecânica perdida durante a descida inicial é, aproximadamente,",
+    "support": "Um brinquedo bastante comum em parques de diversões, a montanha-russa, utiliza-se da transformação parcial de energia potencial em energia cinética (e vice-versa) como princípio de funcionamento. Uma das montanhas-russas mais famosas do mundo, a Takabisha, cuja pista possui mais de 1 km de extensão, localiza-se no Japão e tem vista para o Monte Fuji. Nela, a subida inicial até o ponto mais alto, situado a uma altura aproximada de 50 m do solo, é feita sob ângulo de aproximadamente 90 graus, seguida de uma descida vertiginosa, cuja velocidade, no ponto mais baixo desse trecho, atinge cerca de 30 m/s em poucos segundos. Montanha-russa Takabisha. Note e adote: Aceleração da gravidade: g = 10 m/s2.",
+    "options": [
+      "1200 J.",
+      "2500 J.",
+      "5000 J.",
+      "15000 J.",
+      "20000 J."
+    ],
+    "answer": "D",
+    "supportImages": [
+      "/usp-2025/questao-62-1.png"
+    ],
+    "sourceUrl": "https://www.fuvest.br/wp-content/uploads/fuvest2025_primeira_fase_prova_V1.pdf#page=24",
+    "answerSource": "https://www.fuvest.br/wp-content/uploads/fuvest2025_gabarito_primeira_fase.pdf"
+  },
+  {
+    "id": "usp-2025-v1-20",
+    "exam": "usp",
+    "year": 2025,
+    "stage": "v1",
+    "stageLabel": "1ª fase — V1",
+    "slug": "usp-2025-v1",
+    "number": 20,
+    "subject": "Química",
+    "text": "Sobre os quatro modelos atômicos apresentados, é correto afirmar:",
+    "support": "A figura a seguir apresenta a evolução dos modelos atômicos, desde o primeiro, proposto por Dalton em 1803, até o de Bohr, proposto em 1913.",
+    "options": [
+      "Todos os modelos previram a presença de cargas positivas no núcleo atômico.",
+      "O modelo proposto por Thomson, por prever a existência de nêutrons, não poderia explicar a radiação alfa (α).",
+      "Diferentemente do modelo de Dalton, o modelo de Rutherford não explica a estrutura de cátions e ânions.",
+      "Apenas o modelo de Bohr, com o advento de balanças de precisão, considerou a diferença de massa entre os elementos.",
+      "Elementos radioativos não poderiam ser explicados pelo modelo proposto por Dalton."
+    ],
+    "answer": "E",
+    "supportImages": [
+      "/usp-2025/questao-20-1.png"
+    ],
+    "sourceUrl": "https://www.fuvest.br/wp-content/uploads/fuvest2025_primeira_fase_prova_V1.pdf#page=9",
+    "answerSource": "https://www.fuvest.br/wp-content/uploads/fuvest2025_gabarito_primeira_fase.pdf"
+  },
+  {
+    "id": "usp-2025-v1-24",
+    "exam": "usp",
+    "year": 2025,
+    "stage": "v1",
+    "stageLabel": "1ª fase — V1",
+    "slug": "usp-2025-v1",
+    "number": 24,
+    "subject": "Química",
+    "text": "Na zona sul da cidade de São Paulo, há uma esquina formada pelas ruas Cloreto de Sódio e Relíquia do Oceano. A coincidência do encontro dessas ruas chama a atenção, pois o cloreto de sódio",
+    "support": null,
+    "options": [
+      "praticamente não está presente no oceano, apesar de este ser salgado.",
+      "é insolúvel na água do oceano por apresentar ligação iônica.",
+      "utilizado no Brasil é quase todo proveniente do oceano.",
+      "obtido do oceano apresenta ligação covalente, enquanto o extraído do sal-gema, ligação iônica.",
+      "retirado do oceano tem mais átomos de cloro ligados ao sódio do que o oriundo de outras fontes."
+    ],
+    "answer": "C",
+    "supportImages": [
+      "/usp-2025/questao-24-1.png"
+    ],
+    "sourceUrl": "https://www.fuvest.br/wp-content/uploads/fuvest2025_primeira_fase_prova_V1.pdf#page=11",
+    "answerSource": "https://www.fuvest.br/wp-content/uploads/fuvest2025_gabarito_primeira_fase.pdf"
+  },
+  {
     "id": "usp-2025-v1-57",
     "exam": "usp",
     "year": 2025,
@@ -255,6 +677,29 @@
       "/usp-2025/questao-57-1.png"
     ],
     "sourceUrl": "https://www.fuvest.br/wp-content/uploads/fuvest2025_primeira_fase_prova_V1.pdf#page=22",
+    "answerSource": "https://www.fuvest.br/wp-content/uploads/fuvest2025_gabarito_primeira_fase.pdf"
+  },
+  {
+    "id": "usp-2025-v1-58",
+    "exam": "usp",
+    "year": 2025,
+    "stage": "v1",
+    "stageLabel": "1ª fase — V1",
+    "slug": "usp-2025-v1",
+    "number": 58,
+    "subject": "Química",
+    "text": "Sabendo que o limite indicado no enunciado é 0,01 mg/L de Pb, assinale a alternativa correta sobre água em contato prolongado com anglesita.",
+    "support": "A anglesita contém PbSO₄, com Kps = 1,0 × 10⁻⁸. A água permanece em contato prolongado com o minério. Massa molar do Pb: 207 g/mol. O limite de concentração indicado na prova é 0,01 mg/L. Note e adote: Massa molar (g/mol): Pb = 207",
+    "options": [
+      "Não é segura: a concentração é 2,07 × 10¹ mg/L, acima do limite.",
+      "É segura: a concentração é 1 × 10⁻⁴ mg/L, abaixo do limite.",
+      "Não é segura: a concentração é 1 × 10⁻⁸ mg/L, abaixo do limite.",
+      "É segura: a concentração é 1 × 10⁻² mg/L, igual ao limite.",
+      "É segura: a concentração é 2,07 × 10⁻⁶ mg/L, acima do limite."
+    ],
+    "answer": "A",
+    "supportImages": [],
+    "sourceUrl": "https://www.fuvest.br/wp-content/uploads/fuvest2025_primeira_fase_prova_V1.pdf#page=23",
     "answerSource": "https://www.fuvest.br/wp-content/uploads/fuvest2025_gabarito_primeira_fase.pdf"
   },
   {
@@ -304,6 +749,98 @@
     "answerSource": "https://vestibular.ita.br/provas/gabarito_2026.pdf"
   },
   {
+    "id": "ita-2026-fase1-3",
+    "exam": "ita",
+    "year": 2026,
+    "stage": "fase1",
+    "stageLabel": "1ª fase",
+    "slug": "ita-2026-fase-1",
+    "number": 3,
+    "subject": "Matemática",
+    "text": "Seja A a matriz de ordem 100 × 100, cujos elementos são descritos pela equação\n\naᵢⱼ = 1 + (1 − i)(1 − j).\n\nConsidere as seguintes afirmações:\n\nI. A é uma matriz simétrica.\nII. Cada linha da matriz A forma uma progressão aritmética.\nIII. A é uma matriz singular.\n\nÉ (São) VERDADEIRA(S):",
+    "support": null,
+    "options": [
+      "Apenas I.",
+      "Apenas II.",
+      "Apenas I e II.",
+      "Apenas I e III.",
+      "I, II e III."
+    ],
+    "answer": "E",
+    "supportImages": [],
+    "sourceUrl": "https://vestibular.ita.br/provas/2026_fase1.pdf#page=2",
+    "answerSource": "https://vestibular.ita.br/provas/gabarito_2026.pdf"
+  },
+  {
+    "id": "ita-2026-fase1-7",
+    "exam": "ita",
+    "year": 2026,
+    "stage": "fase1",
+    "stageLabel": "1ª fase",
+    "slug": "ita-2026-fase-1",
+    "number": 7,
+    "subject": "Matemática",
+    "text": "Considere as matrizes\n\nA = [ √3/2  −1/2 ; 1/2  √3/2 ],\nB = [ √2/2 ; √2/2 ].\n\nNa notação acima, o ponto e vírgula separa as linhas de cada matriz.\nA matriz A³¹ × B é igual a",
+    "support": null,
+    "options": [
+      "[ −(√2/4)(√3 − 1) ; −(√2/4)(1 + √3) ].",
+      "[ −(√2/4)(1 − √3) ; −(√2/4)(1 + √3) ].",
+      "[ (1 − √6)/(2√2) ; (1 + √6)/(2√2) ].",
+      "[ (√6 − 1)/(2√2) ; (1 + √6)/(2√2) ].",
+      "nenhuma das alternativas anteriores."
+    ],
+    "answer": "A",
+    "supportImages": [],
+    "sourceUrl": "https://vestibular.ita.br/provas/2026_fase1.pdf#page=3",
+    "answerSource": "https://vestibular.ita.br/provas/gabarito_2026.pdf"
+  },
+  {
+    "id": "ita-2026-fase1-8",
+    "exam": "ita",
+    "year": 2026,
+    "stage": "fase1",
+    "stageLabel": "1ª fase",
+    "slug": "ita-2026-fase-1",
+    "number": 8,
+    "subject": "Matemática",
+    "text": "Seja p(x) = x³ + bx² + cx + d um polinômio com coeficientes reais. Se todas as raízes de p(x) são reais e, para todo x ∈ ℝ,\n\np(2 + x) = −p(2 − x),\n\nentão o menor valor possível para p(0) é",
+    "support": null,
+    "options": [
+      "−10.",
+      "−8.",
+      "−6.",
+      "−4.",
+      "−2."
+    ],
+    "answer": "B",
+    "supportImages": [],
+    "sourceUrl": "https://vestibular.ita.br/provas/2026_fase1.pdf#page=4",
+    "answerSource": "https://vestibular.ita.br/provas/gabarito_2026.pdf"
+  },
+  {
+    "id": "ita-2026-fase1-11",
+    "exam": "ita",
+    "year": 2026,
+    "stage": "fase1",
+    "stageLabel": "1ª fase",
+    "slug": "ita-2026-fase-1",
+    "number": 11,
+    "subject": "Matemática",
+    "text": "Seja A = {1, 2, 3, 4, 5, 6, 7, 8}. A quantidade de bijeções F: A → A que satisfazem F(1) < F(5) < F(3) e F(7) < F(2) é",
+    "support": null,
+    "options": [
+      "3360.",
+      "4200.",
+      "5040.",
+      "5880.",
+      "6720."
+    ],
+    "answer": "A",
+    "supportImages": [],
+    "sourceUrl": "https://vestibular.ita.br/provas/2026_fase1.pdf#page=4",
+    "answerSource": "https://vestibular.ita.br/provas/gabarito_2026.pdf"
+  },
+  {
     "id": "ita-2026-fase1-13",
     "exam": "ita",
     "year": 2026,
@@ -324,6 +861,123 @@
     "answer": "B",
     "supportImages": [],
     "sourceUrl": "https://vestibular.ita.br/provas/2026_fase1.pdf#page=5",
+    "answerSource": "https://vestibular.ita.br/provas/gabarito_2026.pdf"
+  },
+  {
+    "id": "ita-2026-fase1-14",
+    "exam": "ita",
+    "year": 2026,
+    "stage": "fase1",
+    "stageLabel": "1ª fase",
+    "slug": "ita-2026-fase-1",
+    "number": 14,
+    "subject": "Física",
+    "text": "Uma pequena esfera é abandonada do repouso a partir de uma altura H, em relação ao solo, e cai verticalmente em queda livre. No mesmo instante em que a esfera inicia seu movimento, um canhão, situado a uma distância horizontal D da trajetória da esfera e a uma altura h relativamente ao solo, dispara um projétil com velocidade v, formando um ângulo θ em relação à horizontal. As condições são tais que o projétil atinge a esfera exatamente no instante em que ela toca o solo. Desprezando a resistência do ar e assumindo que a aceleração gravitacional é igual a g, assinale a alternativa que corresponde à magnitude da velocidade de lançamento v.",
+    "support": null,
+    "options": [
+      "v = √((g/(2H))((H − h)² + D²)).",
+      "v = √((g/H)((H − h)² + D²)).",
+      "v = √((g/(2H))((H − h)² − D²)).",
+      "v = √((g/H)((H − h)² − D²)).",
+      "v = √((2g/H)((H − h)² + D²))."
+    ],
+    "answer": "A",
+    "supportImages": [],
+    "sourceUrl": "https://vestibular.ita.br/provas/2026_fase1.pdf#page=5",
+    "answerSource": "https://vestibular.ita.br/provas/gabarito_2026.pdf"
+  },
+  {
+    "id": "ita-2026-fase1-17",
+    "exam": "ita",
+    "year": 2026,
+    "stage": "fase1",
+    "stageLabel": "1ª fase",
+    "slug": "ita-2026-fase-1",
+    "number": 17,
+    "subject": "Física",
+    "text": "Considere um pêndulo simples, com um fio ideal de comprimento ℓ sob ação da gravidade de aceleração g, e um sistema massa–mola na horizontal, com uma mola de comprimento natural x₀ e uma massa que desliza sobre uma superfície lisa, conforme a figura. Ambos os corpos, o do pêndulo e o do sistema massa–mola, possuem a mesma massa. No instante inicial, o pêndulo é solto do repouso a partir de um pequeno ângulo θ com a vertical, enquanto a massa do sistema massa-mola é solta também do repouso a partir de uma posição x₁, em que a mola se encontra comprimida. As duas massas colidem quando a mola atinge seu comprimento natural e quando o pêndulo está na vertical. Nesse instante, elas possuem a mesma velocidade. Assinale a alternativa que corresponde à relação entre o ângulo θ, de lançamento do pêndulo, e os outros parâmetros físicos relevantes.",
+    "support": null,
+    "options": [
+      "cos θ = 1 − (x₁ − x₀)²/(2ℓ²).",
+      "sin θ = 1 − (x₁ − x₀)²/(2ℓ²).",
+      "cos θ = 1 − (x₁ − x₀)²/ℓ².",
+      "sin θ = 1 − 2ℓ²/(x₁ − x₀)².",
+      "cos θ = 1 − ℓ²/(x₁ − x₀)²."
+    ],
+    "answer": "A",
+    "supportImages": [
+      "/provas/ita/2026/figura-17.png"
+    ],
+    "sourceUrl": "https://vestibular.ita.br/provas/2026_fase1.pdf#page=6",
+    "answerSource": "https://vestibular.ita.br/provas/gabarito_2026.pdf"
+  },
+  {
+    "id": "ita-2026-fase1-19",
+    "exam": "ita",
+    "year": 2026,
+    "stage": "fase1",
+    "stageLabel": "1ª fase",
+    "slug": "ita-2026-fase-1",
+    "number": 19,
+    "subject": "Física",
+    "text": "Em um escritório, trabalham 10 funcionários de segunda a sexta, em um regime de oito horas por dia. Diariamente o ar-condicionado é ligado para manter o local de trabalho a 17 °C, sendo que o ambiente externo está a uma temperatura de 37 °C. Considere que o ar-condicionado funcione com máxima eficiência e que ele age apenas para retirar o calor gerado pelas pessoas, que é de 100 W por funcionário. Sabendo que a tarifa da energia elétrica é de R$ 0,91 por kWh, assinale o custo aproximado para usar o ar-condicionado durante 4 semanas.",
+    "support": null,
+    "options": [
+      "R$ 8,00.",
+      "R$ 10,00.",
+      "R$ 14,00.",
+      "R$ 80,00.",
+      "R$ 170,00."
+    ],
+    "answer": "B",
+    "supportImages": [],
+    "sourceUrl": "https://vestibular.ita.br/provas/2026_fase1.pdf#page=7",
+    "answerSource": "https://vestibular.ita.br/provas/gabarito_2026.pdf"
+  },
+  {
+    "id": "ita-2026-fase1-23",
+    "exam": "ita",
+    "year": 2026,
+    "stage": "fase1",
+    "stageLabel": "1ª fase",
+    "slug": "ita-2026-fase-1",
+    "number": 23,
+    "subject": "Física",
+    "text": "Uma das aplicações dos equipamentos de ultrassom na medicina é o auxílio no diagnóstico de doenças cardíacas. Com eles, é possível avaliar o fluxo sanguíneo que parte do coração e alcança artérias importantes do corpo. O aparelho opera em repouso, posicionado próximo a uma artéria específica, emitindo uma onda sonora de frequência f e velocidade v, que incide sobre o sangue da artéria. A onda incidente se propaga em sentido oposto ao fluxo de sangue, sendo refletida por ele e, posteriormente, captada pelo próprio equipamento. O dispositivo mede a diferença Δf entre a frequência registrada e a frequência de emissão. Considere que a artéria e o coração estão na mesma altura, que v_c é a velocidade do sangue no coração, que ρ é sua densidade e que a velocidade do sangue na artéria é muito menor que v. Assinale a alternativa que corresponde à expressão da variação da pressão sanguínea entre a artéria e o coração.",
+    "support": null,
+    "options": [
+      "(ρ/2)[v_c² − (2vΔf/f)²].",
+      "ρ[v_c² − (vΔf/(2f))²].",
+      "(ρ/2)[v_c² − (vΔf/(2f))²].",
+      "ρ[2v_c² − (vΔf/f)²].",
+      "(ρ/2)[2v_c² − (vΔf/(2f))²]."
+    ],
+    "answer": "C",
+    "supportImages": [],
+    "sourceUrl": "https://vestibular.ita.br/provas/2026_fase1.pdf#page=9",
+    "answerSource": "https://vestibular.ita.br/provas/gabarito_2026.pdf"
+  },
+  {
+    "id": "ita-2026-fase1-25",
+    "exam": "ita",
+    "year": 2026,
+    "stage": "fase1",
+    "stageLabel": "1ª fase",
+    "slug": "ita-2026-fase-1",
+    "number": 25,
+    "subject": "Química",
+    "text": "Um grupo de pesquisadores está testando um novo catalisador heterogêneo para oxidação de um poluente orgânico. Na ausência de catalisador, a constante de velocidade é igual a 2,0·10⁻³ s⁻¹ a 310 K, e a energia de ativação é 85 kJ·mol⁻¹. Na presença do catalisador, a constante de velocidade da reação a 310 K aumenta 10 vezes. Considerações: i) o fator pré-exponencial e a ordem de reação não se alteram com a adição do catalisador; e ii) a concentração inicial do poluente é de 0,200 mol·L⁻¹.\n\nAssinale a alternativa que melhor representa, respectivamente, a energia de ativação e o tempo necessário para que a concentração do poluente caia para 0,050 mol·L⁻¹ na presença do catalisador.",
+    "support": null,
+    "options": [
+      "79 kJ·mol⁻¹; 69 s.",
+      "66 kJ·mol⁻¹; 69 s.",
+      "72 kJ·mol⁻¹; 75 s.",
+      "66 kJ·mol⁻¹; 75 s.",
+      "79 kJ·mol⁻¹; 75 s."
+    ],
+    "answer": "A",
+    "supportImages": [],
+    "sourceUrl": "https://vestibular.ita.br/provas/2026_fase1.pdf#page=12",
     "answerSource": "https://vestibular.ita.br/provas/gabarito_2026.pdf"
   },
   {
@@ -350,6 +1004,147 @@
     "answerSource": "https://vestibular.ita.br/provas/gabarito_2026.pdf"
   },
   {
+    "id": "ita-2026-fase1-30",
+    "exam": "ita",
+    "year": 2026,
+    "stage": "fase1",
+    "stageLabel": "1ª fase",
+    "slug": "ita-2026-fase-1",
+    "number": 30,
+    "subject": "Química",
+    "text": "Uma dada solução aquosa a 100 °C apresenta o equilíbrio químico A(aq) ⇌ B(aq). A quantidade inicial de A(aq) corresponde a 1,0 mol, e a constante de equilíbrio dessa reação é igual a 1,0. A essa solução é fornecida uma quantidade de energia igual a 540 cal por segundo, e a quantidade inicial de água na solução é igual a 1000 g.\n\nConsiderações: i) o volume das substâncias A e B é desprezível em relação ao volume da solução; ii) o equilíbrio é atingido muito rapidamente; iii) as substâncias A e B não são voláteis; e iv) toda a energia é utilizada para ebulição do solvente.\n\nAssinale a alternativa que melhor representa o tempo gasto, em segundos, para que a temperatura da solução aumente em 1,04 °C.\n\nDados:\nK(ebulioscópica) da água = 0,52 °C·kg·mol⁻¹\nΔH(ebulição)(H₂O) = 540 cal·g⁻¹",
+    "support": null,
+    "options": [
+      "400.",
+      "500.",
+      "600.",
+      "700.",
+      "800."
+    ],
+    "answer": "B",
+    "supportImages": [],
+    "sourceUrl": "https://vestibular.ita.br/provas/2026_fase1.pdf#page=14",
+    "answerSource": "https://vestibular.ita.br/provas/gabarito_2026.pdf"
+  },
+  {
+    "id": "ita-2026-fase1-31",
+    "exam": "ita",
+    "year": 2026,
+    "stage": "fase1",
+    "stageLabel": "1ª fase",
+    "slug": "ita-2026-fase-1",
+    "number": 31,
+    "subject": "Química",
+    "text": "Considere que a reação A → 3B é um processo elementar que ocorre em meio aquoso. As substâncias A e B não são voláteis. No início da reação, 1 mol de A está dissolvido em 90 g de água. Após 20 horas, a pressão de vapor da solução é igual a 16 mmHg. Considerações: i) temperatura de 25 °C durante a reação; e ii) pressão de vapor da água pura a 25 °C igual a 24 mmHg.\n\nAssinale a alternativa que apresenta a pressão de vapor da solução após 30 horas.",
+    "support": null,
+    "options": [
+      "11,54 mmHg.",
+      "12,07 mmHg.",
+      "13,20 mmHg.",
+      "14,05 mmHg.",
+      "15,48 mmHg."
+    ],
+    "answer": "E",
+    "supportImages": [],
+    "sourceUrl": "https://vestibular.ita.br/provas/2026_fase1.pdf#page=14",
+    "answerSource": "https://vestibular.ita.br/provas/gabarito_2026.pdf"
+  },
+  {
+    "id": "ita-2026-fase1-35",
+    "exam": "ita",
+    "year": 2026,
+    "stage": "fase1",
+    "stageLabel": "1ª fase",
+    "slug": "ita-2026-fase-1",
+    "number": 35,
+    "subject": "Química",
+    "text": "O polietileno tereftalato (PET), um polímero termoplástico, é formado pela polimerização por condensação entre o ácido tereftálico (C₈H₆O₄) e o etilenoglicol (C₂H₆O₂). A densidade do PET é 1,38 g·cm⁻³, e um fio de PET tem massa molar média de 38.400 g·mol⁻¹. Em uma reação, 332 g de ácido tereftálico reagem completamente com excesso de etilenoglicol, com rendimento de 100%. Assinale a alternativa que melhor apresenta a massa molar da unidade repetitiva do PET (em g·mol⁻¹), a massa teórica de PET produzida (em g), o volume do PET produzido (em cm³) e o número médio de unidades repetitivas por cadeia polimérica, respectivamente.",
+    "support": null,
+    "options": [
+      "192,17 g·mol⁻¹; 384,34 g; 278,51 cm³; 200 unidades.",
+      "210,19 g·mol⁻¹; 400,00 g; 290,00 cm³; 182 unidades.",
+      "192,17 g·mol⁻¹; 432,17 g; 313,17 cm³; 250 unidades.",
+      "166,14 g·mol⁻¹; 384,34 g; 250,00 cm³; 231 unidades.",
+      "192,17 g·mol⁻¹; 384,34 g; 300,00 cm³; 220 unidades."
+    ],
+    "answer": "A",
+    "supportImages": [],
+    "sourceUrl": "https://vestibular.ita.br/provas/2026_fase1.pdf#page=16",
+    "answerSource": "https://vestibular.ita.br/provas/gabarito_2026.pdf"
+  },
+  {
+    "id": "unicamp-2026-fase1-43",
+    "exam": "unicamp",
+    "year": 2026,
+    "stage": "fase1",
+    "stageLabel": "1ª fase — Q_X",
+    "slug": "unicamp-2026-fase1",
+    "number": 43,
+    "subject": "Matemática",
+    "text": "Rogério é funcionário de uma fábrica de automóveis. Em dezembro de 2024, seu gestor fez duas propostas de aumento salarial: • a proposta 1 consistia em um aumento de 50% do seu salário, a partir do salário a ser recebido em janeiro de 2025, mas sem nenhum tipo de reajuste nos próximos três anos, ou seja, até dezembro de 2027; • a proposta 2 consistia em um aumento de 20% a cada ano; o reajuste ocorreria no salário de janeiro de cada um dos próximos três anos, a partir de 2025. Para decidir a qual proposta aderir, Rogério calculou o montante total que receberia ao longo dos três anos em cada proposta, isto é, de janeiro de 2025 a dezembro de 2027. Ele concluiu que o total a ser recebido na proposta 1 é, aproximadamente,",
+    "support": null,
+    "options": [
+      "3% maior que o total a ser recebido na proposta 2.",
+      "1% maior que o total a ser recebido na proposta 2.",
+      "3% menor que o total a ser recebido na proposta 2.",
+      "1% menor que o total a ser recebido na proposta 2."
+    ],
+    "answer": "A",
+    "supportImages": [
+      "/unicamp-2026/q43-1.png"
+    ],
+    "sourceUrl": "/provas/unicamp/2026-fase1.pdf#page=17",
+    "answerSource": "/provas/unicamp/2026-gabarito.pdf"
+  },
+  {
+    "id": "unicamp-2026-fase1-45",
+    "exam": "unicamp",
+    "year": 2026,
+    "stage": "fase1",
+    "stageLabel": "1ª fase — Q_X",
+    "slug": "unicamp-2026-fase1",
+    "number": 45,
+    "subject": "Matemática",
+    "text": "Sobre dois polinômios p(x) e q(x) de coeficientes reais sabe-se que: • p(x) + q(x) tem grau igual a 3. • p(x) · q(x) tem grau igual a 8. É correto afirmar que o grau de p(x) − q(x) é igual a",
+    "support": null,
+    "options": [
+      "5.",
+      "4.",
+      "3.",
+      "2."
+    ],
+    "answer": "B",
+    "supportImages": [
+      "/unicamp-2026/q45-1.png"
+    ],
+    "sourceUrl": "/provas/unicamp/2026-fase1.pdf#page=17",
+    "answerSource": "/provas/unicamp/2026-gabarito.pdf"
+  },
+  {
+    "id": "unicamp-2026-fase1-49",
+    "exam": "unicamp",
+    "year": 2026,
+    "stage": "fase1",
+    "stageLabel": "1ª fase — Q_X",
+    "slug": "unicamp-2026-fase1",
+    "number": 49,
+    "subject": "Matemática",
+    "text": "Em uma creche se realiza o “dia da troca do brinquedo”. Cada criança leva um brinquedo para a escola e o guarda na Caixa Divertida. Ao final do dia, cada criança retira um brinquedo da Caixa Divertida sem olhar, e o leva para brincar em casa. Em uma sala com cinco crianças, qual é a probabilidade de exatamente duas crianças retirarem da Caixa Divertida seus próprios brinquedos?",
+    "support": null,
+    "options": [
+      "1/5.",
+      "1/6.",
+      "1/25.",
+      "1/30."
+    ],
+    "answer": "B",
+    "supportImages": [
+      "/unicamp-2026/q49-1.png"
+    ],
+    "sourceUrl": "/provas/unicamp/2026-fase1.pdf#page=19",
+    "answerSource": "/provas/unicamp/2026-gabarito.pdf"
+  },
+  {
     "id": "unicamp-2026-fase1-51",
     "exam": "unicamp",
     "year": 2026,
@@ -369,6 +1164,130 @@
     "answer": "C",
     "supportImages": [],
     "sourceUrl": "/provas/unicamp/2026-fase1.pdf#page=19",
+    "answerSource": "/provas/unicamp/2026-gabarito.pdf"
+  },
+  {
+    "id": "unicamp-2026-fase1-52",
+    "exam": "unicamp",
+    "year": 2026,
+    "stage": "fase1",
+    "stageLabel": "1ª fase — Q_X",
+    "slug": "unicamp-2026-fase1",
+    "number": 52,
+    "subject": "Matemática",
+    "text": "Em um jogo de videogame sobre guerra, cada jogador deve montar sua tropa escolhendo 100 combatentes. Ele tem à sua disposição dois tipos de combatentes, soldados e estrategistas, que possuem duas habilidades, astúcia e força, com as seguintes pontuações: • o soldado tem 30 pontos de astúcia e 70 pontos de força. • o estrategista tem 80 pontos de astúcia e 20 pontos de força. A força total da tropa é a soma das pontuações de força de cada um dos combatentes, e a astúcia total da tropa é a soma das pontuações de astúcia de cada um dos combatentes. Para montar uma tropa de modo a obter as mesmas pontuações de força total e de astúcia total, quantos soldados e quantos estrategistas devem ser escolhidos?",
+    "support": null,
+    "options": [
+      "70 soldados e 30 estrategistas.",
+      "60 soldados e 40 estrategistas.",
+      "50 soldados e 50 estrategistas.",
+      "40 soldados e 60 estrategistas."
+    ],
+    "answer": "B",
+    "supportImages": [
+      "/unicamp-2026/q52-1.png"
+    ],
+    "sourceUrl": "/provas/unicamp/2026-fase1.pdf#page=19",
+    "answerSource": "/provas/unicamp/2026-gabarito.pdf"
+  },
+  {
+    "id": "unicamp-2026-fase1-9",
+    "exam": "unicamp",
+    "year": 2026,
+    "stage": "fase1",
+    "stageLabel": "1ª fase — Q_X",
+    "slug": "unicamp-2026-fase1",
+    "number": 9,
+    "subject": "Física",
+    "text": "Texto para as questões 9, 10 e 11. As baterias são fundamentais no mundo moderno, sendo a fonte de energia portátil que alimenta dispositivos como celulares e laptops, veículos elétricos e sistemas de armazenamento de energia renovável. Duas grandezas que caracterizam uma bateria é a sua capacidade de carga elétrica, expressa em miliampère-hora (mAh) e a energia que ela armazena, usualmente dada em watts-hora (Wh). Uma bateria inicialmente carregada fornece uma corrente constante de i = 4 000 mA durante o tempo ∆t = 1 hora, ficando descarregada no final desse processo. A carga elétrica Q, que circula por essa bateria nesse intervalo de tempo é",
+    "support": null,
+    "options": [
+      "4 C.",
+      "4 000 C.",
+      "14 400 C.",
+      "14 400 000 C."
+    ],
+    "answer": "C",
+    "supportImages": [
+      "/unicamp-2026/q09-1.png",
+      "/unicamp-2026/contexto-9-11-1.png"
+    ],
+    "sourceUrl": "/provas/unicamp/2026-fase1.pdf#page=5",
+    "answerSource": "/provas/unicamp/2026-gabarito.pdf"
+  },
+  {
+    "id": "unicamp-2026-fase1-10",
+    "exam": "unicamp",
+    "year": 2026,
+    "stage": "fase1",
+    "stageLabel": "1ª fase — Q_X",
+    "slug": "unicamp-2026-fase1",
+    "number": 10,
+    "subject": "Física",
+    "text": "Texto para as questões 9, 10 e 11. As baterias são fundamentais no mundo moderno, sendo a fonte de energia portátil que alimenta dispositivos como celulares e laptops, veículos elétricos e sistemas de armazenamento de energia renovável. Duas grandezas que caracterizam uma bateria é a sua capacidade de carga elétrica, expressa em miliampère-hora (mAh) e a energia que ela armazena, usualmente dada em watts-hora (Wh). De forma simplificada, o comportamento de uma bateria pode ser modelado com uma fonte ideal de diferença de potencial elétrico Ub em série com um resistor de resistência Rb . Dessa maneira, o dispositivo que é alimentado pela bateria pode, muitas vezes, ser representado por um resistor de resistência R. voltímetro bateria V 3,6 Rb = 1,2 Ω R = 6,0 Ω = Ub Na situação exemplificada na figura, a diferença de potencial registrada pelo voltímetro é",
+    "support": null,
+    "options": [
+      "0,6 V.",
+      "3,0 V.",
+      "3,6 V.",
+      "4,3 V."
+    ],
+    "answer": "B",
+    "supportImages": [
+      "/unicamp-2026/q10-1.png",
+      "/unicamp-2026/contexto-9-11-1.png"
+    ],
+    "sourceUrl": "/provas/unicamp/2026-fase1.pdf#page=5",
+    "answerSource": "/provas/unicamp/2026-gabarito.pdf"
+  },
+  {
+    "id": "unicamp-2026-fase1-11",
+    "exam": "unicamp",
+    "year": 2026,
+    "stage": "fase1",
+    "stageLabel": "1ª fase — Q_X",
+    "slug": "unicamp-2026-fase1",
+    "number": 11,
+    "subject": "Física",
+    "text": "Texto para as questões 9, 10 e 11. As baterias são fundamentais no mundo moderno, sendo a fonte de energia portátil que alimenta dispositivos como celulares e laptops, veículos elétricos e sistemas de armazenamento de energia renovável. Duas grandezas que caracterizam uma bateria é a sua capacidade de carga elétrica, expressa em miliampère-hora (mAh) e a energia que ela armazena, usualmente dada em watts-hora (Wh). Outra bateria totalmente carregada armazena uma energia Eb = 15 Wh. Devemos elevar uma massa m = 45 kg até a altura y, em relação ao solo, para que a variação da energia potencial gravitacional Ep desse sistema mecânico seja igual à energia armazenada nessa bateria. A altura y deve ser Dado: g = 10 m/s2.",
+    "support": null,
+    "options": [
+      "0,03 m.",
+      "3 m.",
+      "120 m.",
+      "1 200 m."
+    ],
+    "answer": "C",
+    "supportImages": [
+      "/unicamp-2026/q11-1.png",
+      "/unicamp-2026/contexto-9-11-1.png"
+    ],
+    "sourceUrl": "/provas/unicamp/2026-fase1.pdf#page=5",
+    "answerSource": "/provas/unicamp/2026-gabarito.pdf"
+  },
+  {
+    "id": "unicamp-2026-fase1-12",
+    "exam": "unicamp",
+    "year": 2026,
+    "stage": "fase1",
+    "stageLabel": "1ª fase — Q_X",
+    "slug": "unicamp-2026-fase1",
+    "number": 12,
+    "subject": "Física",
+    "text": "O Centro de Tecnologia da Informação (CTI) Renato Archer, em Campinas (SP), possui equipamentos avançados de manufatura 3D, incluindo uma impressora capaz de produzir uma miniatura do Cristo Redentor, com pouco mais de 100 μm. Menor que um grão de areia, a peça só é visível com microscópio óptico, baseado em arranjo de um conjunto de lentes. Se uma lente delgada, de distância focal f, é usada para investigar um objeto de altura o, de forma que a imagem seja direita com altura i maior que a do objeto ( i > o), é correto afirmar que",
+    "support": null,
+    "options": [
+      "a lente é convergente e a distância entre objeto e lente é menor que a distância focal.",
+      "a lente é divergente e a distância entre objeto e lente é menor que a distância focal.",
+      "a lente é convergente e a distância entre objeto e lente é maior que a distância focal.",
+      "a lente é divergente e a distância entre objeto e lente é maior que a distância focal."
+    ],
+    "answer": "A",
+    "supportImages": [
+      "/unicamp-2026/q12-1.png",
+      "/unicamp-2026/q12-2.png"
+    ],
+    "sourceUrl": "/provas/unicamp/2026-fase1.pdf#page=5",
     "answerSource": "/provas/unicamp/2026-gabarito.pdf"
   },
   {
@@ -393,6 +1312,103 @@
       "/unicamp-2026/contexto-13-14-1.png"
     ],
     "sourceUrl": "/provas/unicamp/2026-fase1.pdf#page=6",
+    "answerSource": "/provas/unicamp/2026-gabarito.pdf"
+  },
+  {
+    "id": "unicamp-2026-fase1-67",
+    "exam": "unicamp",
+    "year": 2026,
+    "stage": "fase1",
+    "stageLabel": "1ª fase — Q_X",
+    "slug": "unicamp-2026-fase1",
+    "number": 67,
+    "subject": "Química",
+    "text": "Os recifes de corais são ecossistemas ricos em biodiversidade, sendo essenciais para a pesca e proteção costeira. Essas estruturas são formadas por pólipos com esqueleto externo de carbonato de cálcio e sofrem degradação nas últimas décadas devido às atividades humanas no meio ambiente. O infográfico a seguir representa o efeito da ação humana sobre um dos equilíbrios químicos da água dos oceanos pela emissão de CO2 atmosférico (CO2 atm). Dados: [CO2]atm = concentração de CO2 atmosférico (Adaptado de HOEGH-GULDBERG et al. Science, v. 318, p.1737-1742, 2007.) Com base nas informações do enunciado e do infográfico apresentado, é correto afirmar que as espécies A, B e C são, respectivamente,",
+    "support": null,
+    "options": [
+      "CO2, CO3−2 e CaCO3, enquanto os eixos X e Y no infográfico representam respectivamente [CO3−2] e [CO2]atm. Globalmente, o aumento da [CO2]atm provoca um aumento do pH dos oceanos e, consequentemente, uma maior degradação dos corais.",
+      "CO3−2, CaCO3 e CO3−2, enquanto os eixos X e Y no infográfico representam respectivamente [CO2]atm e [CO3−2]. Globalmente, o aumento da [CO2]atm provoca uma diminuição do pH dos oceanos e, consequentemente, uma maior degradação dos corais.",
+      "CO2, CaCO3 e CO3−2, enquanto os eixos X e Y no infográfico representam respectivamente [CO3−2] e [CO2]atm. Globalmente, o aumento da [CO2]atm provoca uma diminuição do pH dos oceanos e, consequentemente, uma menor degradação dos corais.",
+      "CO3−2, CaCO3 e CO3−2, enquanto os eixos X e Y no infográfico representam respectivamente [CO3−2] e [CO2]atm. Globalmente, o aumento da [CO2]atm provoca um aumento do pH dos oceanos e, consequentemente, uma menor degradação dos corais."
+    ],
+    "answer": "B",
+    "supportImages": [
+      "/unicamp-2026/q67-1.png"
+    ],
+    "sourceUrl": "/provas/unicamp/2026-fase1.pdf#page=25",
+    "answerSource": "/provas/unicamp/2026-gabarito.pdf"
+  },
+  {
+    "id": "unicamp-2026-fase1-68",
+    "exam": "unicamp",
+    "year": 2026,
+    "stage": "fase1",
+    "stageLabel": "1ª fase — Q_X",
+    "slug": "unicamp-2026-fase1",
+    "number": 68,
+    "subject": "Química",
+    "text": "Aviões são os únicos meios de transporte que cruzam continentes em um dia. Apesar dos avanços em eficiência energética, as aeronaves contribuem com 3,5% do aquecimento global. Por isso, existe o interesse em substituir o querosene usado por essas aeronaves por hidrogênio, com destaque para o uso do hidrogênio líquido combustível. A tabela a seguir apresenta dados desses dois tipos de combustíveis na aviação. Energia Densidade Massa molar Combustível combustão do líquido (g·mol−1) (kJ·mol−1) (g·cm−3) Querosene* 6745 0,804 153 Hidrogênio 240 0,071 2 * valores médios e aproximados. Características como massa e volume da aeronave são fatores importantes para seu desempenho. Levando em conta essa informação, para uma mesma quantidade de energia gerada pelo combustível, é correto afirmar que o hidrogênio é melhor que o querosene, pois",
+    "support": null,
+    "options": [
+      "sua razão energia por volume é maior.",
+      "o volume utilizado será menor.",
+      "sua razão energia por massa é maior.",
+      "a massa utilizada será maior."
+    ],
+    "answer": "C",
+    "supportImages": [
+      "/unicamp-2026/q68-1.png",
+      "/unicamp-2026/q68-2.png"
+    ],
+    "sourceUrl": "/provas/unicamp/2026-fase1.pdf#page=25",
+    "answerSource": "/provas/unicamp/2026-gabarito.pdf"
+  },
+  {
+    "id": "unicamp-2026-fase1-69",
+    "exam": "unicamp",
+    "year": 2026,
+    "stage": "fase1",
+    "stageLabel": "1ª fase — Q_X",
+    "slug": "unicamp-2026-fase1",
+    "number": 69,
+    "subject": "Química",
+    "text": "Diante das mudanças climáticas, muitos químicos desempenham um papel estratégico no enfrentamento desse problema. Uma dessas ações é o esforço no desenvolvimento de recursos que removem CO2 por meio da captura direta do ar. Nesse sentido, os químicos se dedicam a produzir materiais que, ao mesmo tempo, possam capturar o CO2 em situações diversas em quantidades e velocidades altas. Um exemplo disso é a captura cumulativa de CO2 (em mmol) por grama de tetraperoxotitanato de potássio K4Ti(O2)4 em função do tempo. Esses resultados são parcialmente mostrados no gráfico a seguir. 3,0 2,4 (mmol/g) CO2 1,8 de 1,2 cumulativa 0,6 Captura 0,0 10 20 30 40 50 60 Tempo (min) (Adaptado de BACH, K. et al. ChemRxiv, DOI: 10.26434/chemrxiv-2024-xb06z-v2. Acesso em 09/10/2025.) Dado parcial: Massa molar: K4Ti(O2)4 = 332,3 g·mol−1 Considerando as informações do gráfico, é correto afirmar que após 65 minutos de adsorção: (i) a razão molar [mol CO2 por mol de K4Ti(O2)4] e (ii) o aumento percentual de massa do sólido serão aproximadamente de",
+    "support": null,
+    "options": [
+      "(i) 3 e (ii) 13% em relação ao inicial.",
+      "(i) 1 e (ii) 13% em relação ao inicial.",
+      "(i) 3 e (ii) 30% em relação ao inicial.",
+      "(i) 1 e (ii) 30% em relação ao inicial."
+    ],
+    "answer": "B",
+    "supportImages": [
+      "/unicamp-2026/q69-1.png"
+    ],
+    "sourceUrl": "/provas/unicamp/2026-fase1.pdf#page=25",
+    "answerSource": "/provas/unicamp/2026-gabarito.pdf"
+  },
+  {
+    "id": "unicamp-2026-fase1-70",
+    "exam": "unicamp",
+    "year": 2026,
+    "stage": "fase1",
+    "stageLabel": "1ª fase — Q_X",
+    "slug": "unicamp-2026-fase1",
+    "number": 70,
+    "subject": "Química",
+    "text": "A produção industrial de barrilha (carbonato de sódio) é majoritariamente feita pelo processo Solvay. A barrilha é um dos compostos químicos inorgânicos mais importantes globalmente, sendo vital para a fabricação de vidro, sabão, detergente, papel, entre muitos outros produtos. As reações envolvidas no processo Solvay, que ocorrem em fluxo contínuo, estão representadas esquematicamente no fluxograma a seguir. NaCl (saturado) CaCO3 (s) NH3 (g) CO2 (g) Na2CO3 (s) NaHCO3 (s) NH4Cl (aq) CaO (s) H2O (vap) CaCl2 (s) (Adaptado de ARAÚJO A. L. et al. Química Nova, v. 21, n. 1, p. 114, 1998.) Nesse processo de fabricação, após o fluxo contínuo de produção ser iniciado, é necessário adicionar para sua manutenção",
+    "support": null,
+    "options": [
+      "salmoura e calcário, pois a amônia é totalmente regenerada durante o processo.",
+      "gás carbônico e salmoura, pois a amônia é totalmente regenerada durante o processo.",
+      "calcário e amônia, pois o gás carbônico é totalmente regenerado durante o processo.",
+      "amônia e salmoura, pois o gás carbônico é totalmente regenerado durante o processo."
+    ],
+    "answer": "A",
+    "supportImages": [
+      "/unicamp-2026/q70-1.png"
+    ],
+    "sourceUrl": "/provas/unicamp/2026-fase1.pdf#page=26",
     "answerSource": "/provas/unicamp/2026-gabarito.pdf"
   },
   {
@@ -441,6 +1457,156 @@
     "answerSource": "/provas/unesp/2026-gabarito.pdf"
   },
   {
+    "id": "unesp-2026-fase1-84",
+    "exam": "unesp",
+    "year": 2026,
+    "stage": "fase1",
+    "stageLabel": "1ª fase",
+    "slug": "unesp-2026-fase1",
+    "number": 84,
+    "subject": "Matemática",
+    "text": "Segundo o livro Guinness World Records, a lâmpada conhecida como Centennial Light (luz do centenário), que está acesa desde 1901 em uma unidade do corpo de bombeiros da cidade de Livermore, na Califórnia, é a lâmpada incandescente que está há mais tempo em funcionamento contínuo no mundo. Essa lâmpada tinha potência efetiva aproximada de 60 watts quando entrou em uso contínuo. Em 2025, sua potência efetiva é de, aproximadamente, 4 watts. (http://bulbcam.cityofpleasantonca.gov/) Considerando que o decaimento da potência efetiva dessa lâmpada ao longo dos anos é linear, na ocasião em que ela completou 100 anos de funcionamento contínuo, sua potência efetiva era de, aproximadamente,",
+    "support": null,
+    "options": [
+      "6,8 watts.",
+      "8,7 watts.",
+      "14,8 watts.",
+      "10,8 watts.",
+      "45,2 watts."
+    ],
+    "answer": "C",
+    "supportImages": [
+      "/unesp-2026/q84-1.png"
+    ],
+    "sourceUrl": "/provas/unesp/2026-fase1.pdf",
+    "answerSource": "/provas/unesp/2026-gabarito.pdf"
+  },
+  {
+    "id": "unesp-2026-fase1-85",
+    "exam": "unesp",
+    "year": 2026,
+    "stage": "fase1",
+    "stageLabel": "1ª fase",
+    "slug": "unesp-2026-fase1",
+    "number": 85,
+    "subject": "Matemática",
+    "text": "Leia o excerto e considere os dados da tabela. John Galbraith, no prefácio do Human Development Report do Programa de Desenvolvimento Humano das Nações Unidas, em 1998, documentou que os 20% mais pobres da população mundial consumiam 1,3% do PIB mundial. Em 2013, os 20% mais pobres da população mundial passaram a consumir 1% do PIB mundial. (Zygmunt Bauman. A riqueza de poucos beneficia todos nós?, 2015. Adaptado.) População mundial PIB mundial aproximado Ano aproximada (em US$) 1998 6 × 10⁹ 3,2 × 10¹³ 2013 7,3 × 10⁹ 7,8 × 10¹³ (https://data.worldbank.org, 30.07.2025. Adaptado.) Apesar de a tabela indicar um crescimento do PIB mundial em cerca de 144% de 1998 para 2013, as informações contidas no texto, em associação com os dados da tabela, indicam que o aumento do consumo do PIB mundial, per capita, dos 20% mais pobres da população mundial, no período de 1998 a 2013, esteve entre",
+    "support": null,
+    "options": [
+      "70% e 80%.",
+      "60% e 70%.",
+      "80% e 90%.",
+      "50% e 60%.",
+      "90% e 100%."
+    ],
+    "answer": "D",
+    "supportImages": [
+      "/unesp-2026/q85-1.png"
+    ],
+    "sourceUrl": "/provas/unesp/2026-fase1.pdf",
+    "answerSource": "/provas/unesp/2026-gabarito.pdf"
+  },
+  {
+    "id": "unesp-2026-fase1-88",
+    "exam": "unesp",
+    "year": 2026,
+    "stage": "fase1",
+    "stageLabel": "1ª fase",
+    "slug": "unesp-2026-fase1",
+    "number": 88,
+    "subject": "Matemática",
+    "text": "Um cilindro circular reto de altura h e raio da base igual a 1 m está apoiado na base quadrada de uma pirâmide reta, de aresta da base medindo 8 m e altura igual a 10 m, como mostra a figura. Na posição descrita, o maior valor possível de h, em metros, para que o cilindro não ultrapasse o interior da pirâmide, é igual a",
+    "support": null,
+    "options": [
+      "7,5.",
+      "6,0.",
+      "6,5.",
+      "5,5.",
+      "7,0."
+    ],
+    "answer": "A",
+    "supportImages": [
+      "/unesp-2026/q88-1.png"
+    ],
+    "sourceUrl": "/provas/unesp/2026-fase1.pdf",
+    "answerSource": "/provas/unesp/2026-gabarito.pdf"
+  },
+  {
+    "id": "unesp-2026-fase1-90",
+    "exam": "unesp",
+    "year": 2026,
+    "stage": "fase1",
+    "stageLabel": "1ª fase",
+    "slug": "unesp-2026-fase1",
+    "number": 90,
+    "subject": "Matemática",
+    "text": "Uma empresa de apostas lucra 7% de todo o dinheiro apostado pelos jogadores e repassa 93% do dinheiro apostado de volta aos jogadores. Admita que, inicialmente, o volume de dinheiro apostado pelos jogadores seja igual a R reais, e que todos eles reapostem, consecutivamente, x vezes todo o dinheiro que receberam de volta da empresa a cada nova aposta. Considerando que a soma dos n termos iniciais de uma progressão geométrica de primeiro termo a1 e razão q é dada por a₁(1 − qⁿ)/(1 − q), se G(x) é o ganho, em reais, acumulado dessa empresa de apostas após x vezes em que os jogadores fizeram suas apostas, a fórmula que calcula G(x) é:",
+    "support": null,
+    "options": [
+      "G(x) = R(1 − 0,07ˣ).",
+      "G(x) = R(1 − 0,93ˣ).",
+      "G(x) = R(1 − 0,93ˣ)/0,07.",
+      "G(x) = R(1 − 0,07ˣ)/0,93.",
+      "G(x) = 0,93R(1 − 0,07ˣ)."
+    ],
+    "answer": "B",
+    "supportImages": [
+      "/unesp-2026/q90-1.png"
+    ],
+    "sourceUrl": "/provas/unesp/2026-fase1.pdf",
+    "answerSource": "/provas/unesp/2026-gabarito.pdf"
+  },
+  {
+    "id": "unesp-2026-fase1-76",
+    "exam": "unesp",
+    "year": 2026,
+    "stage": "fase1",
+    "stageLabel": "1ª fase",
+    "slug": "unesp-2026-fase1",
+    "number": 76,
+    "subject": "Física",
+    "text": "Uma pequena esfera presa a um fio de massa desprezível desenvolve um movimento pendular. Quando essa esfera é iluminada verticalmente, a sombra da esfera, projetada sobre uma superfície horizontal, oscila em movimento harmônico simples entre os pontos A e B, mostrados na figura. A velocidade escalar, expressa em m/s, da sombra da esfera em função do tempo, expresso em s, é dada pela expressão: v(t) = −(0,3π/2) sen(πt/2). A aceleração escalar média da sombra da esfera entre os instantes t = 1 s e t = 4 s é",
+    "support": null,
+    "options": [
+      "0,05 ⋅ π m/s2.",
+      "0,20 ⋅ π m/s2.",
+      "0,15 ⋅ π m/s2.",
+      "0,10 ⋅ π m/s2.",
+      "0,25 ⋅ π m/s2."
+    ],
+    "answer": "A",
+    "supportImages": [
+      "/unesp-2026/q76-1.png"
+    ],
+    "sourceUrl": "/provas/unesp/2026-fase1.pdf",
+    "answerSource": "/provas/unesp/2026-gabarito.pdf"
+  },
+  {
+    "id": "unesp-2026-fase1-77",
+    "exam": "unesp",
+    "year": 2026,
+    "stage": "fase1",
+    "stageLabel": "1ª fase",
+    "slug": "unesp-2026-fase1",
+    "number": 77,
+    "subject": "Física",
+    "text": "Oslo é uma cidade norueguesa cujas coordenadas geográficas são, aproximadamente, 60º de latitude norte e 11º de longitude leste. A figura apresenta meridianos e paralelos que permitem a localização geográfica dessa cidade no globo terrestre. (https://amigopai.wordpress.com. Adaptado.) Considere um morador de Oslo que esteja em repouso em relação ao solo. Levando em consideração apenas o movimento de rotação da Terra e admitindo-a perfeitamente esférica, o ângulo entre o vetor aceleração centrípeta desse morador e a força gravitacional que atua sobre ele é de",
+    "support": null,
+    "options": [
+      "45º.",
+      "60º.",
+      "30º.",
+      "11º.",
+      "49º."
+    ],
+    "answer": "B",
+    "supportImages": [
+      "/unesp-2026/q77-1.png"
+    ],
+    "sourceUrl": "/provas/unesp/2026-fase1.pdf",
+    "answerSource": "/provas/unesp/2026-gabarito.pdf"
+  },
+  {
     "id": "unesp-2026-fase1-78",
     "exam": "unesp",
     "year": 2026,
@@ -464,6 +1630,56 @@
     "answerSource": "/provas/unesp/2026-gabarito.pdf"
   },
   {
+    "id": "unesp-2026-fase1-80",
+    "exam": "unesp",
+    "year": 2026,
+    "stage": "fase1",
+    "stageLabel": "1ª fase",
+    "slug": "unesp-2026-fase1",
+    "number": 80,
+    "subject": "Física",
+    "text": "A auxina é um hormônio vegetal que atua no controle do desenvolvimento e do crescimento das plantas, estimulando a divisão e a expansão celular. No final do século XIX, observaram-se respostas de fotomorfogênese no ápice de mudas de gramíneas que se curvavam no sentido da luz em resposta à iluminação lateral, fenômeno conhecido no geral como fototropismo positivo. Nessa situação, a absorção da luz é feita por proteínas denominadas fototropinas, que são fotorreceptores de luz azul do espectro eletromagnético visível. Esses fotorreceptores regulam o transporte da auxina, fazendo com que esse hormônio concentre-se em maior quantidade em determinadas regiões da planta. Com isso, ocorre a distensão celular, o que resulta na curvatura da planta. De acordo com as informações do texto e da figura, e considerando apenas o espectro eletromagnético da luz visível, tem-se que as fototropinas são mais sensíveis às ondas de",
+    "support": null,
+    "options": [
+      "menores comprimentos de onda, cujas ações resultam na maior concentração de auxina no lado sombreado da planta.",
+      "maiores frequências, cujas ações resultam na maior concentração de auxina no lado iluminado da planta.",
+      "menores frequências, cujas ações resultam na maior concentração de auxina no lado iluminado da planta.",
+      "maiores comprimentos de onda, cujas ações resultam na maior concentração de auxina no lado sombreado da planta.",
+      "maiores frequências, cujas ações resultam em uma mesma distribuição de auxina nos lados sombreado e iluminado da planta."
+    ],
+    "answer": "A",
+    "supportImages": [
+      "/unesp-2026/q80-1.png"
+    ],
+    "sourceUrl": "/provas/unesp/2026-fase1.pdf",
+    "answerSource": "/provas/unesp/2026-gabarito.pdf"
+  },
+  {
+    "id": "unesp-2026-fase1-81",
+    "exam": "unesp",
+    "year": 2026,
+    "stage": "fase1",
+    "stageLabel": "1ª fase",
+    "slug": "unesp-2026-fase1",
+    "number": 81,
+    "subject": "Física",
+    "text": "O uso de janelas eletrocrômicas em edifícios é considerado uma das mais promissoras formas de economia de energia em ambientes fechados. Nessas janelas, a intensidade da luz do Sol que é transmitida para o interior das edificações pode ser controlada, permitindo o ajuste da luminosidade e da temperatura nos ambientes internos. O eletrocromismo consiste na mudança das propriedades ópticas de determinado material por meio da aplicação de um estímulo elétrico externo sobre ele. (https://www.explainthatstuff.com. Adaptado.) Considere que, quando uma tensão constante de 4 V é aplicada entre as faces de uma janela eletrocrômica, estabelece-se um campo elétrico uniforme no meio que separa essas faces, e que íons de lítio, cada um com uma carga positiva de 1,6 × 10–19 C, migram através desse meio, movendo-se de um eletrodo mais próximo da face interna para outro mais próximo da face externa da janela. Esse movimento dos íons altera a coloração do meio existente entre os eletrodos, aumentando a opacidade da janela. Sendo d = 5 mm a distância entre os eletrodos, a intensidade da força elétrica que atua sobre cada íon de lítio quando eles se movem nessa janela é de",
+    "support": null,
+    "options": [
+      "2,56 × 10–16 N.",
+      "6,40 × 10–19 N.",
+      "1,28 × 10–16 N.",
+      "4,00 × 10² N.",
+      "8,00 × 10² N."
+    ],
+    "answer": "C",
+    "supportImages": [
+      "/unesp-2026/q81-1.png"
+    ],
+    "sourceUrl": "/provas/unesp/2026-fase1.pdf",
+    "answerSource": "/provas/unesp/2026-gabarito.pdf"
+  },
+  {
     "id": "unesp-2026-fase1-70",
     "exam": "unesp",
     "year": 2026,
@@ -483,6 +1699,110 @@
     ],
     "answer": "C",
     "supportImages": [],
+    "sourceUrl": "/provas/unesp/2026-fase1.pdf",
+    "answerSource": "/provas/unesp/2026-gabarito.pdf"
+  },
+  {
+    "id": "unesp-2026-fase1-71",
+    "exam": "unesp",
+    "year": 2026,
+    "stage": "fase1",
+    "stageLabel": "1ª fase",
+    "slug": "unesp-2026-fase1",
+    "number": 71,
+    "subject": "Química",
+    "text": "Manganês é um metal muito utilizado para a produção de aço e outras ligas metálicas. Uma das principais fontes naturais desse metal é o mineral pirolusita (MnO2). (https://museuhe.com.br) Uma das etapas iniciais do processo de obtenção do manganês envolve a reação representada pela equação não balanceada: __MnO2 (s) + __H2SO4 (aq) → __MnSO4 (aq) + __O2 (g) + __H2O (l) A solução aquosa de sulfato de manganês(II) obtida nessa etapa é submetida à eletrólise, em que íons Mn2+ capturam elétrons, formando o metal. Quando 869 kg de MnO2 puro reagem completamente com excesso de ácido sulfúrico, é produzida uma quantidade, em mol, de íons Mn2+ igual a",
+    "support": null,
+    "options": [
+      "50.",
+      "5 000.",
+      "10 000.",
+      "1 000.",
+      "10."
+    ],
+    "answer": "C",
+    "supportImages": [
+      "/unesp-2026/q71-1.png",
+      "/unesp-2026/tabela-periodica.png"
+    ],
+    "sourceUrl": "/provas/unesp/2026-fase1.pdf",
+    "answerSource": "/provas/unesp/2026-gabarito.pdf"
+  },
+  {
+    "id": "unesp-2026-fase1-72",
+    "exam": "unesp",
+    "year": 2026,
+    "stage": "fase1",
+    "stageLabel": "1ª fase",
+    "slug": "unesp-2026-fase1",
+    "number": 72,
+    "subject": "Química",
+    "text": "Analise a tabela que fornece valores de constantes de dissociação (Ka) de dois ácidos e (Kb) de duas bases a 25 ºC. Ácido Ka Base Kb Clorídrico Muito Hidróxido de Muito (HCl) grande sódio (NaOH) grande Acético 1,8 × 10–5 Amônia (NH3) 1,8 × 10–5 (CH3COOH) Considere quatro soluções aquosas 0,1 mol/L dos sais formados pelas reações entre os ácidos e bases citados na tabela: 1. NaCl 2. Na(CH3COO) 3. NH4(CH3COO) 4. NH4Cl Dentre essas soluções, duas que apresentam pH aproximadamente igual a 7 são as de números",
+    "support": null,
+    "options": [
+      "1 e 3.",
+      "1 e 4.",
+      "1 e 2.",
+      "2 e 3.",
+      "3 e 4."
+    ],
+    "answer": "A",
+    "supportImages": [
+      "/unesp-2026/q72-1.png",
+      "/unesp-2026/tabela-periodica.png"
+    ],
+    "sourceUrl": "/provas/unesp/2026-fase1.pdf",
+    "answerSource": "/provas/unesp/2026-gabarito.pdf"
+  },
+  {
+    "id": "unesp-2026-fase1-73",
+    "exam": "unesp",
+    "year": 2026,
+    "stage": "fase1",
+    "stageLabel": "1ª fase",
+    "slug": "unesp-2026-fase1",
+    "number": 73,
+    "subject": "Química",
+    "text": "Há no comércio diferentes tipos de velas de aniversário que produzem faíscas enquanto estão acesas. Entre essas velas há as que contêm magnésio metálico em pó, e a produção de faíscas resulta da reação química representada no diagrama. Essa reação química é",
+    "support": null,
+    "options": [
+      "exotérmica, na qual o magnésio perde elétrons e, portanto, atua como oxidante.",
+      "endotérmica, na qual o magnésio perde elétrons e, portanto, atua como redutor.",
+      "exotérmica, na qual o magnésio ganha elétrons e, portanto, atua como redutor.",
+      "endotérmica, na qual o magnésio ganha elétrons e, portanto, atua como oxidante.",
+      "exotérmica, na qual o magnésio perde elétrons e, portanto, atua como redutor."
+    ],
+    "answer": "E",
+    "supportImages": [
+      "/unesp-2026/q73-1.png",
+      "/unesp-2026/tabela-periodica.png"
+    ],
+    "sourceUrl": "/provas/unesp/2026-fase1.pdf",
+    "answerSource": "/provas/unesp/2026-gabarito.pdf"
+  },
+  {
+    "id": "unesp-2026-fase1-74",
+    "exam": "unesp",
+    "year": 2026,
+    "stage": "fase1",
+    "stageLabel": "1ª fase",
+    "slug": "unesp-2026-fase1",
+    "number": 74,
+    "subject": "Química",
+    "text": "Um dos principais usos do petróleo é na produção da gasolina, uma mistura de hidrocarbonetos com cadeias carbônicas de 5 a 11 átomos de carbono. Porém, a fração do petróleo correspondente à gasolina obtida diretamente pela destilação fracionada do petróleo é insuficiente para suprir as necessidades de consumo e, além do mais, é uma gasolina de baixa qualidade. A qualidade de uma gasolina é medida por sua octanagem. Gasolinas com hidrocarbonetos lineares apresentam baixa octanagem, enquanto as gasolinas com maior teor de hidrocarbonetos de cadeias ramificadas apresentam maior octanagem. Por essas razões, é necessário, no processo de refino do petróleo, aumentar a quantidade e a qualidade da gasolina produzida. Para aumentar a quantidade, são empregados dois processos: o craqueamento e a alquilação. Para aumentar a qualidade, emprega-se o processo de isomerização, por meio do qual cadeias lineares dos hidrocarbonetos são transformadas em cadeias ramificadas. Examine as seguintes equações de reações químicas: I. CH3(CH2)6CH3 → CH3C(CH3)2CH2CH(CH3)CH3 II. C4H10 + C4H8 → C8H18 III. C16H34 → C8H16 + C8H18 Os processos de craqueamento, alquilação e isomerização são exemplificados, respectivamente, pelas equações de números",
+    "support": null,
+    "options": [
+      "III, I e II.",
+      "III, II e I.",
+      "I, III e II.",
+      "II, III e I.",
+      "I, II e III."
+    ],
+    "answer": "B",
+    "supportImages": [
+      "/unesp-2026/q74-1.png",
+      "/unesp-2026/tabela-periodica.png"
+    ],
     "sourceUrl": "/provas/unesp/2026-fase1.pdf",
     "answerSource": "/provas/unesp/2026-gabarito.pdf"
   },
@@ -511,6 +1831,106 @@
     "day": 2
   },
   {
+    "id": "enem-2025-dia2-138",
+    "exam": "enem",
+    "year": 2025,
+    "stage": "dia2",
+    "stageLabel": "2º dia — Amarelo",
+    "slug": "enem-2025",
+    "number": 138,
+    "subject": "Matemática",
+    "text": "Utilizando o mesmo caminhão da entrega anterior, qual é o volume mínimo de gasolina, em litro, que a distribuidora deverá enviar para garantir a entrega da quantidade encomendada nesse novo pedido?",
+    "support": "Uma distribuidora de combustível possui caminhões-tanque com capacidade de 30 000 litros cada. Em qualquer transporte realizado por esses caminhões, um mesmo volume de combustível é descartado, pois fica com muitas impurezas. Esse volume descartado independe da quantidade transportada.\n\nUm posto de combustível encomendou 10 000 litros de gasolina dessa distribuidora, que enviou 10 200 litros, considerando o volume descartado no transporte. Mesmo assim, a quantidade de gasolina entregue ao posto foi de 9 900 litros.\n\nEm um novo pedido, esse posto solicitou que fosse entregue exatamente o dobro do volume de gasolina encomendado no pedido anterior.",
+    "options": [
+      "20 100",
+      "20 200",
+      "20 300",
+      "20 400",
+      "20 600"
+    ],
+    "answer": "C",
+    "supportImages": [],
+    "sourceUrl": "https://download.inep.gov.br/enem/provas_e_gabaritos/2025_PV_impresso_D2_CD5.pdf#page=16",
+    "answerSource": "https://download.inep.gov.br/enem/provas_e_gabaritos/2025_GB_impresso_D2_CD5.pdf",
+    "day": 2
+  },
+  {
+    "id": "enem-2025-dia2-139",
+    "exam": "enem",
+    "year": 2025,
+    "stage": "dia2",
+    "stageLabel": "2º dia — Amarelo",
+    "slug": "enem-2025",
+    "number": 139,
+    "subject": "Matemática",
+    "text": "A velocidade de referência, em megabyte por segundo, a ser adotada por essa empresa é",
+    "support": "Uma empresa de tecnologia vai padronizar a velocidade de conexão de internet que oferece a seus clientes em dez cidades. A direção da empresa decide que seu novo padrão de velocidade de referência será a mediana dos valores das velocidades de referência de conexões nessas dez cidades. Esses valores, em megabyte por segundo (MB/s), são apresentados no quadro.",
+    "options": [
+      "360.",
+      "370.",
+      "380.",
+      "390.",
+      "400."
+    ],
+    "answer": "C",
+    "supportImages": [
+      "/enem-2025/q139-support-1-1.png"
+    ],
+    "sourceUrl": "https://download.inep.gov.br/enem/provas_e_gabaritos/2025_PV_impresso_D2_CD5.pdf#page=16",
+    "answerSource": "https://download.inep.gov.br/enem/provas_e_gabaritos/2025_GB_impresso_D2_CD5.pdf",
+    "day": 2
+  },
+  {
+    "id": "enem-2025-dia2-140",
+    "exam": "enem",
+    "year": 2025,
+    "stage": "dia2",
+    "stageLabel": "2º dia — Amarelo",
+    "slug": "enem-2025",
+    "number": 140,
+    "subject": "Matemática",
+    "text": "Qual desses produtos deve ser o escolhido pela estudante?",
+    "support": "Na cantina de uma escola, há cinco alimentos vendidos em pacotes com diferentes quantidades de porções.\n\nAs informações nutricionais contidas nos rótulos desses produtos estão indicadas nas imagens.\n\nUma estudante opta sempre pelo alimento com a menor quantidade total de sódio por pacote.",
+    "options": [
+      "Batata chips.",
+      "Palitos salgados.",
+      "Biscoito multigrãos.",
+      "Biscoito de polvilho.",
+      "Biscoito de água e sal."
+    ],
+    "answer": "A",
+    "supportImages": [
+      "/enem-2025/q140-support-1-1.png"
+    ],
+    "sourceUrl": "https://download.inep.gov.br/enem/provas_e_gabaritos/2025_PV_impresso_D2_CD5.pdf#page=17",
+    "answerSource": "https://download.inep.gov.br/enem/provas_e_gabaritos/2025_GB_impresso_D2_CD5.pdf",
+    "day": 2
+  },
+  {
+    "id": "enem-2025-dia2-141",
+    "exam": "enem",
+    "year": 2025,
+    "stage": "dia2",
+    "stageLabel": "2º dia — Amarelo",
+    "slug": "enem-2025",
+    "number": 141,
+    "subject": "Matemática",
+    "text": "Qual é a quantidade de cores utilizadas para pintar o protótipo?",
+    "support": "Uma fábrica utilizou uma impressora 3D para produzir o protótipo de uma peça. O protótipo tem forma de um poliedro convexo, obtido pela justaposição de dois sólidos distintos, um com a forma de um prisma hexagonal regular reto e o outro com a forma de um tronco de pirâmide hexagonal reta. A base maior do tronco de pirâmide coincide com uma das bases do prisma.\n\nApós a impressão do protótipo, ele foi encaminhado ao setor de customização para realização da pintura de sua superfície. O critério definido para realização da pintura considera que faces congruentes entre si devem ser pintadas com uma mesma cor, e faces não congruentes entre si devem apresentar cores distintas.",
+    "options": [
+      "9",
+      "8",
+      "6",
+      "4",
+      "3"
+    ],
+    "answer": "D",
+    "supportImages": [],
+    "sourceUrl": "https://download.inep.gov.br/enem/provas_e_gabaritos/2025_PV_impresso_D2_CD5.pdf#page=17",
+    "answerSource": "https://download.inep.gov.br/enem/provas_e_gabaritos/2025_GB_impresso_D2_CD5.pdf",
+    "day": 2
+  },
+  {
     "id": "enem-2025-dia2-91",
     "exam": "enem",
     "year": 2025,
@@ -531,6 +1951,180 @@
     "answer": "C",
     "supportImages": [],
     "sourceUrl": "https://download.inep.gov.br/enem/provas_e_gabaritos/2025_PV_impresso_D2_CD5.pdf#page=2",
+    "answerSource": "https://download.inep.gov.br/enem/provas_e_gabaritos/2025_GB_impresso_D2_CD5.pdf",
+    "day": 2
+  },
+  {
+    "id": "enem-2025-dia2-97",
+    "exam": "enem",
+    "year": 2025,
+    "stage": "dia2",
+    "stageLabel": "2º dia — Amarelo",
+    "slug": "enem-2025",
+    "number": 97,
+    "subject": "Física",
+    "text": "Esse efeito é mais comum à noite ou em lugares pouco iluminados porque, com a pupila",
+    "support": "Por que os olhos ficam vermelhos em algumas fotografias? Em fotos tiradas com câmeras fotográficas antigas, por vezes as pessoas aparecem com os olhos vermelhos. Isso ocorre porque a luz do flash da câmera incide diretamente no globo ocular, sendo refletida por uma região repleta de vasos sanguíneos.\n\nDisponível em: www.uol.com.br. Acesso em: 14 jun. 2017 (adaptado).",
+    "options": [
+      "dilatada, chega mais luz à retina.",
+      "retraída, chega mais luz vermelha à retina.",
+      "retraída, chega mais luz vermelha aos bastonetes.",
+      "retraída, chegam menos luzes azul e verde aos cones.",
+      "dilatada, chegam menos luzes azul e verde aos bastonetes."
+    ],
+    "answer": "A",
+    "supportImages": [],
+    "sourceUrl": "https://download.inep.gov.br/enem/provas_e_gabaritos/2025_PV_impresso_D2_CD5.pdf#page=3",
+    "answerSource": "https://download.inep.gov.br/enem/provas_e_gabaritos/2025_GB_impresso_D2_CD5.pdf",
+    "day": 2
+  },
+  {
+    "id": "enem-2025-dia2-105",
+    "exam": "enem",
+    "year": 2025,
+    "stage": "dia2",
+    "stageLabel": "2º dia — Amarelo",
+    "slug": "enem-2025",
+    "number": 105,
+    "subject": "Física",
+    "text": "Esse fenômeno e a característica associada à voz da Mônica são, respectivamente,",
+    "support": "A tirinha ilustra um processo físico em que uma onda sonora, produzida pela Mônica, causa a quebra das taças de cristal. O fenômeno ondulatório que provoca a quebra das taças só é possível em razão de uma característica da voz produzida pela Mônica naquele momento, que, diferentemente do que sugere a tirinha, não está relacionada à sua intensidade.\n\nDisponível em: https://artedafisicapibid.blogspot.com. Acesso em: 23 nov. 2021 (adaptado).",
+    "options": [
+      "reflexão e comprimento de onda.",
+      "ressonância e frequência.",
+      "interferência e velocidade.",
+      "ressonância e timbre.",
+      "reflexão e amplitude."
+    ],
+    "answer": "B",
+    "supportImages": [
+      "/enem-2025/q105-support-1-1.png"
+    ],
+    "sourceUrl": "https://download.inep.gov.br/enem/provas_e_gabaritos/2025_PV_impresso_D2_CD5.pdf#page=6",
+    "answerSource": "https://download.inep.gov.br/enem/provas_e_gabaritos/2025_GB_impresso_D2_CD5.pdf",
+    "day": 2
+  },
+  {
+    "id": "enem-2025-dia2-120",
+    "exam": "enem",
+    "year": 2025,
+    "stage": "dia2",
+    "stageLabel": "2º dia — Amarelo",
+    "slug": "enem-2025",
+    "number": 120,
+    "subject": "Física",
+    "text": "O uso do campo magnético variável tem a finalidade de",
+    "support": "O aquecimento em fogões por indução utiliza bobinas para produzir um campo magnético variável. Essa bobina se localiza abaixo do vidro cerâmico sobre o qual a panela se apoia. O mecanismo aquece apenas a panela que se encontra na zona de cozimento, o que é uma das principais vantagens em relação ao uso do fogão a gás ou de resistência elétrica.\n\nPEREIRA, A. B. et al. Fogões de indução: montagem e testes de um circuito disponível. Disponível em: https://publicacoes.fatecsertaozinho.edu.br.\n\nAcesso em: 21 maio 2025 (adaptado).",
+    "options": [
+      "imantar o material da panela por indução.",
+      "movimentar os átomos de ferro concentrados no fundo da panela.",
+      "emitir radiação eletromagnética, aquecendo a panela através do vidro cerâmico.",
+      "induzir corrente elétrica na parte inferior da panela, aquecendo-a por efeito Joule.",
+      "gerar um fluxo de corrente de convecção no ar contido entre a região da bobina e o vidro cerâmico."
+    ],
+    "answer": "D",
+    "supportImages": [
+      "/enem-2025/q120-support-1-1.png"
+    ],
+    "sourceUrl": "https://download.inep.gov.br/enem/provas_e_gabaritos/2025_PV_impresso_D2_CD5.pdf#page=11",
+    "answerSource": "https://download.inep.gov.br/enem/provas_e_gabaritos/2025_GB_impresso_D2_CD5.pdf",
+    "day": 2
+  },
+  {
+    "id": "enem-2025-dia2-124",
+    "exam": "enem",
+    "year": 2025,
+    "stage": "dia2",
+    "stageLabel": "2º dia — Amarelo",
+    "slug": "enem-2025",
+    "number": 124,
+    "subject": "Física",
+    "text": "A altura máxima, em metro, de empilhamento do produto que essa laje é capaz de suportar é",
+    "support": "A laje de um depósito de bebidas tem 50 m² de área útil de armazenamento e foi projetada para suportar pressões de até 10⁴ Pa. O gerente do estabelecimento pretende armazenar um produto cuja densidade é 1 250 kg/m³. Considere a aceleração da gravidade igual a 10 m/s².",
+    "options": [
+      "0,16 m.",
+      "0,50 m.",
+      "0,80 m.",
+      "1,60 m.",
+      "8,00 m."
+    ],
+    "answer": "C",
+    "supportImages": [],
+    "sourceUrl": "https://download.inep.gov.br/enem/provas_e_gabaritos/2025_PV_impresso_D2_CD5.pdf#page=12",
+    "answerSource": "https://download.inep.gov.br/enem/provas_e_gabaritos/2025_GB_impresso_D2_CD5.pdf",
+    "day": 2
+  },
+  {
+    "id": "enem-2025-dia2-96",
+    "exam": "enem",
+    "year": 2025,
+    "stage": "dia2",
+    "stageLabel": "2º dia — Amarelo",
+    "slug": "enem-2025",
+    "number": 96,
+    "subject": "Química",
+    "text": "Essa água é chamada de",
+    "support": "Existe um processo de purificação de água em que são removidos os sais dissolvidos. A água que passa por esse processo é muito utilizada em laboratórios de química, em indústrias (como solvente), em baterias de carros etc. Entretanto, esse tipo de água não é adequado para ingestão, pois pode causar problemas de saúde, como carência iônica e diarreia.",
+    "options": [
+      "dura.",
+      "pesada.",
+      "sanitária.",
+      "destilada.",
+      "oxigenada."
+    ],
+    "answer": "D",
+    "supportImages": [],
+    "sourceUrl": "https://download.inep.gov.br/enem/provas_e_gabaritos/2025_PV_impresso_D2_CD5.pdf#page=3",
+    "answerSource": "https://download.inep.gov.br/enem/provas_e_gabaritos/2025_GB_impresso_D2_CD5.pdf",
+    "day": 2
+  },
+  {
+    "id": "enem-2025-dia2-100",
+    "exam": "enem",
+    "year": 2025,
+    "stage": "dia2",
+    "stageLabel": "2º dia — Amarelo",
+    "slug": "enem-2025",
+    "number": 100,
+    "subject": "Química",
+    "text": "Qual ação mitigadora auxilia na remoção desse gás presente na atmosfera, reduzindo seus níveis?",
+    "support": "A quantidade de CO2 na atmosfera da Terra aumentou em 50%, e a temperatura está agora cerca de 1,2 °C mais quente em comparação ao século XIX. O ritmo de aumento da temperatura precisa diminuir se quisermos evitar as piores consequências das mudanças climáticas. Cientistas afirmam que o aquecimento global precisa ser mantido em 1,5 °C até o ano 2100. No entanto, a menos que outras ações sejam tomadas, o planeta ainda pode aquecer mais de 2 °C até o final deste século. Na prática, os países precisam enfrentar as mudanças climáticas com ações mitigadoras, que reduzam tanto as emissões quanto os níveis de CO2 na atmosfera.\n\nUm guia rápido para entender as mudanças climáticas. Disponível em: www.bbc.com. Acesso em: 6 dez. 2021 (adaptado).",
+    "options": [
+      "Plantar mais árvores.",
+      "Instalar mais usinas eólicas.",
+      "Ampliar o uso de energia solar.",
+      "Manter os combustíveis fósseis no solo.",
+      "Produzir menos resíduos sólidos urbanos."
+    ],
+    "answer": "A",
+    "supportImages": [],
+    "sourceUrl": "https://download.inep.gov.br/enem/provas_e_gabaritos/2025_PV_impresso_D2_CD5.pdf#page=3",
+    "answerSource": "https://download.inep.gov.br/enem/provas_e_gabaritos/2025_GB_impresso_D2_CD5.pdf",
+    "day": 2
+  },
+  {
+    "id": "enem-2025-dia2-108",
+    "exam": "enem",
+    "year": 2025,
+    "stage": "dia2",
+    "stageLabel": "2º dia — Amarelo",
+    "slug": "enem-2025",
+    "number": 108,
+    "subject": "Química",
+    "text": "Em 1909, as representações das substâncias ácido nítrico e cloreto de cálcio, tendo por base essas informações e seguindo a mesma lógica, seriam, respectivamente:",
+    "support": "No início do século XX, as fórmulas das substâncias eram representadas de modo diferente do atual. A figura apresenta uma fotografia bem antiga (1909) que registra uma aula de química ministrada em um colégio em Santos (SP). Um olhar mais atento permite identificar como os compostos químicos eram representados.\n\nO nitrogênio era chamado de azoto e representado pelo símbolo Az. Vê-se na lousa a equação representativa da adição do oxigênio atômico (O) ao monóxido de nitrogênio (AzO) com a formação de dióxido de nitrogênio (AzO2). Analogamente, o nitrato de sódio era representado por NaAzO3.\n\nDisponível em: www.novomilenio.inf.br. Acesso em: 29 ago. 2014 (adaptado).",
+    "options": [
+      "HAzO³ e CaCl²",
+      "HAz³O e Ca²Cl",
+      "H³AzO⁴ e CaCl",
+      "HAz³O e KCl²",
+      "HAzO² e KCl"
+    ],
+    "answer": "A",
+    "supportImages": [
+      "/enem-2025/q108-support-1-1.png"
+    ],
+    "sourceUrl": "https://download.inep.gov.br/enem/provas_e_gabaritos/2025_PV_impresso_D2_CD5.pdf#page=7",
     "answerSource": "https://download.inep.gov.br/enem/provas_e_gabaritos/2025_GB_impresso_D2_CD5.pdf",
     "day": 2
   },
@@ -559,6 +2153,657 @@
     "day": 2
   },
   {
+    "id": "enem-2025-dia2-119",
+    "exam": "enem",
+    "year": 2025,
+    "stage": "dia2",
+    "stageLabel": "2º dia — Amarelo",
+    "slug": "enem-2025",
+    "number": 119,
+    "subject": "Química",
+    "text": "Dentre as opções apresentadas, o tratamento correto para minimizar esse problema é usar",
+    "support": "A dimetilamina é uma substância de elevada toxidez que entra em ebulição a 7 °C. Na madrugada de um dia frio, essa substância se espalhou por uma rodovia após um acidente de trânsito envolvendo um caminhão que transportava esse produto. Para minimizar a agressão ao meio ambiente, bem como evitar a evaporação da dimetilamina com a elevação da temperatura ao longo do dia, um químico considerou o uso de algumas substâncias ou misturas como água, vinagre, óleo de soja, sal de cozinha e bicarbonato de sódio.",
+    "options": [
+      "água.",
+      "vinagre.",
+      "óleo de soja.",
+      "sal de cozinha.",
+      "bicarbonato de sódio."
+    ],
+    "answer": "B",
+    "supportImages": [],
+    "sourceUrl": "https://download.inep.gov.br/enem/provas_e_gabaritos/2025_PV_impresso_D2_CD5.pdf#page=11",
+    "answerSource": "https://download.inep.gov.br/enem/provas_e_gabaritos/2025_GB_impresso_D2_CD5.pdf",
+    "day": 2
+  },
+  {
+    "id": "efomm-2026-dia2-2",
+    "exam": "efomm",
+    "year": 2026,
+    "stage": "dia2",
+    "stageLabel": "2º dia — Branca",
+    "slug": "efomm-2026-dia-2",
+    "number": 2,
+    "subject": "Matemática",
+    "text": "Durante uma aula de Navegação na EFOMM, o professor apresenta aos alunos um desafio matemático baseado em precisão de medições com instrumentos náuticos. Um aluno usa um divisor para medir um segmento de 9 milhas náuticas representado em uma carta náutica. Ele decide fazer um exercício de precisão: Divide esse segmento em 3 partes iguais e remove a parte central; Com os dois segmentos restantes, repete o mesmo processo, retirando novamente suas partes centrais; e Esse processo se repete indefinidamente com os novos segmentos restantes. Com base nesse processo, qual será a soma total das distâncias retiradas após infinitas repetições?",
+    "support": null,
+    "options": [
+      "2 milhas náuticas.",
+      "3 milhas náuticas.",
+      "6 milhas náuticas.",
+      "8 milhas náuticas.",
+      "9 milhas náuticas."
+    ],
+    "answer": "E",
+    "supportImages": [],
+    "sourceUrl": "/provas/efomm/2026/dia-2.pdf#page=3",
+    "answerSource": "/provas/efomm/2026/gabarito.pdf"
+  },
+  {
+    "id": "efomm-2026-dia2-3",
+    "exam": "efomm",
+    "year": 2026,
+    "stage": "dia2",
+    "stageLabel": "2º dia — Branca",
+    "slug": "efomm-2026-dia-2",
+    "number": 3,
+    "subject": "Matemática",
+    "text": "A Escola de Formação de Oficiais da Marinha Mercante (EFOMM) decidiu modernizar sua frota de navios de instrução e colocou à venda o Navio Sirius, cujo valor à vista é de R$ 150.000.000,00. Uma empresa de transporte marítimo, a \"Rotas Navegáveis\", tem a opção de dar uma entrada de R$ 65.000.000,00 e parcelar o restante em sete prestações dispostas em uma progressão geométrica. Ao fechar o negócio, a empresa foi informada de que a terceira parcela seria de R$ 9.600.000,00 e a quinta parcela seria de R$ 1.536.000,00. Quanto a empresa \"Rotas Navegáveis\" terá de desembolsar no total para adquirir o Navio Sirius?",
+    "support": null,
+    "options": [
+      "R$ 121.350.160,00",
+      "R$ 124.890.160,00",
+      "R$ 130.344.160,00",
+      "R$ 132.789.160,00",
+      "R$ 164.836.160,00"
+    ],
+    "answer": "E",
+    "supportImages": [],
+    "sourceUrl": "/provas/efomm/2026/dia-2.pdf#page=3",
+    "answerSource": "/provas/efomm/2026/gabarito.pdf"
+  },
+  {
+    "id": "efomm-2026-dia2-9",
+    "exam": "efomm",
+    "year": 2026,
+    "stage": "dia2",
+    "stageLabel": "2º dia — Branca",
+    "slug": "efomm-2026-dia-2",
+    "number": 9,
+    "subject": "Matemática",
+    "text": "Considere que você está participando de um desafio de lógica proposto pela EFOMM (Escola de Formação de Oficiais da Marinha Mercante), uma instituição de ensino superior militar do Brasil, responsável pela formação de Oficiais da Marinha Mercante. Para testar suas habilidades de raciocínio lógico e numérico, foi criada a sequência S(n), definida pelas seguintes etapas: • Liste todos os números PARES de 2 até n. • Elimine todos os múltiplos de 6 (exceto o 6), depois os múltiplos de 8 (exceto o 8), e os múltiplos de 10 ( exceto o 10 ). • Atribua a cada número sobrevivente, na ordem crescente, uma letra da sigla EFOMM, repetindo -a ciclicamente. Por exemplo: • S(l)= 2-+ E • S(2)= 4-+ F • S(3)= 6-+ O • S(4)= 8-+ M • S(5)= 10-+ M • S(6)= 14-+ E Qual é a letra, destacada nas opções abaixo, que está associada ao número 2026 dentro da sequência de sobreviventes?",
+    "support": null,
+    "options": [
+      "E",
+      "F",
+      "O",
+      "Primeiro M",
+      "Segundo M"
+    ],
+    "answer": "D",
+    "supportImages": [],
+    "sourceUrl": "/provas/efomm/2026/dia-2.pdf#page=7",
+    "answerSource": "/provas/efomm/2026/gabarito.pdf"
+  },
+  {
+    "id": "efomm-2026-dia2-10",
+    "exam": "efomm",
+    "year": 2026,
+    "stage": "dia2",
+    "stageLabel": "2º dia — Branca",
+    "slug": "efomm-2026-dia-2",
+    "number": 10,
+    "subject": "Matemática",
+    "text": "Um terreno triangular equilátero possui, em seu interior, uma árvore plantada. As distâncias perpendiculares dessa árvore até cada um dos três lados do terreno medem 3m, 4m e 5m. Qual a área do terreno em metros quadrados?",
+    "support": null,
+    "options": [
+      "48√3 m²",
+      "36√3 m²",
+      "24√3 m²",
+      "24√2 m²",
+      "12√2 m²"
+    ],
+    "answer": "A",
+    "supportImages": [],
+    "sourceUrl": "/provas/efomm/2026/dia-2.pdf#page=8",
+    "answerSource": "/provas/efomm/2026/gabarito.pdf"
+  },
+  {
+    "id": "efomm-2026-dia2-20",
+    "exam": "efomm",
+    "year": 2026,
+    "stage": "dia2",
+    "stageLabel": "2º dia — Branca",
+    "slug": "efomm-2026-dia-2",
+    "number": 20,
+    "subject": "Matemática",
+    "text": "Uma escola está organizando um Conselho Escolar com os seguintes critérios: 3 professores, 2 estudantes e 1 responsável. Para tal, estão disponíveis: 6 professores (P₁ a P₆), 5 estudantes (E₁ a E₅) e 3 responsáveis (R₁ a R₃). Entretanto, existem duas restrições:\n– Se o professor P₁ for escolhido, o estudante E₁ não pode ser selecionado;\n– O responsável R₃ só pode participar se o professor P₆ também for escolhido.\nA quantidade de formas diferentes como esse conselho pode ser formado, respeitando as condições acima, é:",
+    "support": null,
+    "options": [
+      "404",
+      "420",
+      "440",
+      "460",
+      "480"
+    ],
+    "answer": "A",
+    "supportImages": [],
+    "sourceUrl": "/provas/efomm/2026/dia-2.pdf#page=12",
+    "answerSource": "/provas/efomm/2026/gabarito.pdf"
+  },
+  {
+    "id": "efomm-2026-dia2-23",
+    "exam": "efomm",
+    "year": 2026,
+    "stage": "dia2",
+    "stageLabel": "2º dia — Branca",
+    "slug": "efomm-2026-dia-2",
+    "number": 23,
+    "subject": "Física",
+    "text": "Uma espira condutora circular está inserida em um campo magnético uniforme que varia linearmente com o tempo, dado por B⃗(t) = (B₀ + a²t) k̂, em que B₀ < 0 e a são constantes, e k̂ é o vetor unitário na direção do eixo z. A espira está contida no plano z = 0. Com base nessas informações, assinale a alternativa correta.",
+    "support": "Adote g = 10 m/s² para a aceleração da gravidade, salvo indicação contrária.",
+    "options": [
+      "Há um momento em que a corrente induzida na espira é nula.",
+      "A f.e.m. induzida na espira é constante.",
+      "Um observador em um ponto de coordenada z positiva vê uma corrente induzida percorrer a espira no sentido anti-horário.",
+      "A f.e.m. induzida depende apenas de a, e não do raio da espira",
+      "Se a constante a for multiplicada por 2, a f.e.m. induzida será dobrada."
+    ],
+    "answer": "B",
+    "supportImages": [],
+    "sourceUrl": "/provas/efomm/2026/dia-2.pdf#page=15",
+    "answerSource": "/provas/efomm/2026/gabarito.pdf"
+  },
+  {
+    "id": "efomm-2026-dia2-28",
+    "exam": "efomm",
+    "year": 2026,
+    "stage": "dia2",
+    "stageLabel": "2º dia — Branca",
+    "slug": "efomm-2026-dia-2",
+    "number": 28,
+    "subject": "Física",
+    "text": "O ar contido no interior de um arranjo cilindro-pistão é considerado um gás ideal, e executa o ciclo descrito pelos processos reversíveis 1-2-3-4-5-1 em sistema fechado, conforme diagrama P × V (pressão × volume) mostrado abaixo.\nProcessos: 1-2 adiabático; 2-3 isovolumétrico; 3-4 isobárico; 4-5 adiabático; 5-1 isovolumétrico.\nSe m é a massa de ar contida no interior do cilindro e c_P e c_V são, respectivamente, os calores específicos a pressão e a volume constante durante todo o ciclo, analise as afirmativas abaixo.\nI. A eficiência termodinâmica (η) dessa máquina térmica é η = 1 − T_L/T_H, em que T_L é a temperatura mais baixa do ciclo e T_H é a temperatura mais elevada.\nII. O calor rejeitado pelo ar ocorre no processo 5-1, e o calor total recebido pelo sistema ocorre nos processos 2-3 e 3-4.\nIII. A variação de energia interna do ar no processo 3-4 é dada por mc_P(T₄ − T₃), em que T₄ é a temperatura no estado 4 e T₃ é a temperatura no estado 3.\nIV. O processo 4-5 é de expansão e o processo 1-2 é de compressão.\nAssinale a opção correta:",
+    "support": "Adote g = 10 m/s² para a aceleração da gravidade, salvo indicação contrária.",
+    "options": [
+      "Apenas as afirmativas II e III são verdadeiras.",
+      "Apenas as afirmativas II, III e IV são verdadeiras.",
+      "Apenas as afirmativas I, II e IV são verdadeiras.",
+      "Apenas as afirmativas II e IV são verdadeiras.",
+      "Apenas as afirmativas I, III e IV são verdadeiras."
+    ],
+    "answer": "D",
+    "supportImages": [
+      "/provas/efomm/2026/dia-2-q28-fig1.png"
+    ],
+    "sourceUrl": "/provas/efomm/2026/dia-2.pdf#page=18",
+    "answerSource": "/provas/efomm/2026/gabarito.pdf"
+  },
+  {
+    "id": "efomm-2026-dia2-33",
+    "exam": "efomm",
+    "year": 2026,
+    "stage": "dia2",
+    "stageLabel": "2º dia — Branca",
+    "slug": "efomm-2026-dia-2",
+    "number": 33,
+    "subject": "Física",
+    "text": "Duas estrelas de massas M 1 e M 2 se movem apenas devido à atração gravitacional mútua, e descrevem órbitas circulares em torno do centro de massa do sistema A distância entre elas vale D . Se G é a constante da gravitação universal, o módulo da quantidade de movimento de cada estrela para um observador no referencial do centro de massa vale:",
+    "support": "Adote g = 10 m/s² para a aceleração da gravidade, salvo indicação contrária.",
+    "options": [
+      "√[G(M₁ + M₂)³/D]",
+      "M₁M₂√[G/(D(M₁ + M₂))]",
+      "√[GM₁M₂(M₁ + M₂)/D]",
+      "√[GM₁M₂(M₁² + M₂²)/(D(M₁ + M₂))]",
+      "√[(GM₁M₂/D)(M₁²/M₂ + M₂²/M₁)]"
+    ],
+    "answer": "B",
+    "supportImages": [],
+    "sourceUrl": "/provas/efomm/2026/dia-2.pdf#page=21",
+    "answerSource": "/provas/efomm/2026/gabarito.pdf"
+  },
+  {
+    "id": "efomm-2026-dia2-36",
+    "exam": "efomm",
+    "year": 2026,
+    "stage": "dia2",
+    "stageLabel": "2º dia — Branca",
+    "slug": "efomm-2026-dia-2",
+    "number": 36,
+    "subject": "Física",
+    "text": "A análise cinemática de barcos em uma competição a remo pode ser realizada tratando-os como partículas que partem do repouso e se deslocam sobre a água em linha reta. Sabe-se que os alunos da EFOMM utilizam a estratégia de acelerar uniformemente o barco até atingir 54 km/h nos 10 s iniciais da competição; em seguida, manter a velocidade constante até atingir 3/4 da distância total do trajeto, instante em que passam a acelerar uniformemente até o final do trajeto, atingindo a velocidade final de 72 km/h. Sabendo que a velocidade média do barco é de 15 m/s, marque a opção que corresponde à distância total percorrida pelo barco.",
+    "support": "Adote g = 10 m/s² para a aceleração da gravidade, salvo indicação contrária.",
+    "options": [
+      "2100 m",
+      "2200 m",
+      "2300 m",
+      "2400 m",
+      "2500 m"
+    ],
+    "answer": "A",
+    "supportImages": [],
+    "sourceUrl": "/provas/efomm/2026/dia-2.pdf#page=23",
+    "answerSource": "/provas/efomm/2026/gabarito.pdf"
+  },
+  {
+    "id": "efomm-2026-dia2-39",
+    "exam": "efomm",
+    "year": 2026,
+    "stage": "dia2",
+    "stageLabel": "2º dia — Branca",
+    "slug": "efomm-2026-dia-2",
+    "number": 39,
+    "subject": "Física",
+    "text": "Um condutor esférico de raio desprezível, carregado positivamente com carga Q, está fixado ao solo horizontal em um ponto O, sendo considerado uma carga puntiforme. Uma carga de prova q > 0, de massa m, é inicialmente colocada em repouso no ponto A do solo, localizado a uma distância d do ponto O. A partir do ponto A, inicia-se uma rampa retilínea cujo menor ângulo com a horizontal vale θ . Seja B um ponto da rampa também situado à distância d de A. A carga q é liberada e sobe pela rampa sob a ação da força elétrica repulsiva proveniente de Q e da força gravitacional. Desprezando qualquer tipo de atrito ou dissipação, determine o módulo da velocidade da carga q ao chegar ao ponto B em função dos dados do problema. Dados: constante eletrostática k, aceleração da gravidade g.",
+    "support": "Adote g = 10 m/s² para a aceleração da gravidade, salvo indicação contrária.",
+    "options": [
+      "v = √[(2kQq/(md))(1 + 1/√(2(1 − cos θ))) − 2gd sen θ]",
+      "v = √[(2kQq/(md))(1 − 1/√(2(1 − cos θ))) + 2gd sen θ]",
+      "v = √[(2kQq/(md))(1 − 1/√(2(1 − cos θ))) − 2gd sen θ]",
+      "v = √[(2kQq/(md))(1 − 1/√(2(1 + cos θ))) − 2gd sen θ]",
+      "v = √[(2kQq/(md))(1 + 1/√(2(1 + cos θ))) − 2gd sen θ]"
+    ],
+    "answer": "D",
+    "supportImages": [],
+    "sourceUrl": "/provas/efomm/2026/dia-2.pdf#page=26",
+    "answerSource": "/provas/efomm/2026/gabarito.pdf"
+  },
+  {
+    "id": "cbmerj-2026-cfo-ingles-22",
+    "exam": "cbmerj",
+    "year": 2026,
+    "stage": "cfo-ingles",
+    "stageLabel": "CFO — Inglês",
+    "slug": "cbmerj-2026-cfo-ingles",
+    "number": 22,
+    "subject": "Matemática",
+    "text": "A produção de bolos de uma confeitaria possui o custo total fixo mensal de R$ 6.000,00. Em\ndeterminado mês, além desse custo, para produzir cada unidade de bolo, foram gastos R$ 40,00\nacrescidos de 9,5% de impostos sobre esse valor. Nesse mês, cada unidade foi vendida por R$ 120,00.\nPara essa produção, a expressão algébrica que representa o lucro L em função da quantidade x\nde unidades vendidas é:",
+    "support": null,
+    "options": [
+      "L(x) = 76,2x − 6000",
+      "L(x) = 76,2x + 6000",
+      "L(x) = 43,8x − 6000",
+      "L(x) = 43,8x + 6000"
+    ],
+    "answer": "A",
+    "supportImages": [],
+    "sourceUrl": "/provas/cbmerj/2026.pdf#page=14",
+    "answerSource": "/provas/cbmerj/2026-gabarito.pdf"
+  },
+  {
+    "id": "cbmerj-2026-cfo-ingles-23",
+    "exam": "cbmerj",
+    "year": 2026,
+    "stage": "cfo-ingles",
+    "stageLabel": "CFO — Inglês",
+    "slug": "cbmerj-2026-cfo-ingles",
+    "number": 23,
+    "subject": "Matemática",
+    "text": "Considere o sistema linear a seguir:\n4x + y + Az = 7\n2x − By + z = 5\nx + y + z = 1\nPara que esse sistema seja possível e indeterminado, os valores das constantes A e B são,\nrespectivamente, iguais a:",
+    "support": null,
+    "options": [
+      "− 1 e 3",
+      "− 3 e 1",
+      "1 e 3",
+      "3 e 1"
+    ],
+    "answer": "D",
+    "supportImages": [],
+    "sourceUrl": "/provas/cbmerj/2026.pdf#page=14",
+    "answerSource": "/provas/cbmerj/2026-gabarito.pdf"
+  },
+  {
+    "id": "cbmerj-2026-cfo-ingles-24",
+    "exam": "cbmerj",
+    "year": 2026,
+    "stage": "cfo-ingles",
+    "stageLabel": "CFO — Inglês",
+    "slug": "cbmerj-2026-cfo-ingles",
+    "number": 24,
+    "subject": "Matemática",
+    "text": "Considere a função f: [0, 2π] → ℝ tal que f(x) = 6 cos(x/4 + π/4). O valor máximo de f é:",
+    "support": null,
+    "options": [
+      "1",
+      "5",
+      "3√2",
+      "2√3"
+    ],
+    "answer": "C",
+    "supportImages": [],
+    "sourceUrl": "/provas/cbmerj/2026.pdf#page=14",
+    "answerSource": "/provas/cbmerj/2026-gabarito.pdf"
+  },
+  {
+    "id": "cbmerj-2026-cfo-ingles-26",
+    "exam": "cbmerj",
+    "year": 2026,
+    "stage": "cfo-ingles",
+    "stageLabel": "CFO — Inglês",
+    "slug": "cbmerj-2026-cfo-ingles",
+    "number": 26,
+    "subject": "Matemática",
+    "text": "Uma loja de eletrodomésticos vende um aparelho de TV por R$ 1.800,00 à vista e, para vendas a\nprazo, cobra juros compostos de 5% ao mês. Um cliente, ao comprar essa TV, optou por fazer o\npagamento em três parcelas, da seguinte forma:\n1ª) R$ 600,00 à vista;\n2ª) R$ 600,00 exatamente dois meses após a compra;\n3ª) x reais exatamente três meses após a compra.\nO valor de x, em reais, é igual a:",
+    "support": null,
+    "options": [
+      "759,15",
+      "719,15",
+      "659,15",
+      "619,15"
+    ],
+    "answer": "A",
+    "supportImages": [],
+    "sourceUrl": "/provas/cbmerj/2026.pdf#page=15",
+    "answerSource": "/provas/cbmerj/2026-gabarito.pdf"
+  },
+  {
+    "id": "cbmerj-2026-cfo-ingles-28",
+    "exam": "cbmerj",
+    "year": 2026,
+    "stage": "cfo-ingles",
+    "stageLabel": "CFO — Inglês",
+    "slug": "cbmerj-2026-cfo-ingles",
+    "number": 28,
+    "subject": "Matemática",
+    "text": "Considere todos os divisores naturais do número n = 2⁵ × 3³.\nO produto de todos esses divisores é:",
+    "support": null,
+    "options": [
+      "2⁴⁵ × 3³⁰",
+      "2⁴⁵ × 3³⁶",
+      "2⁶⁰ × 3³⁰",
+      "2⁶⁰ × 3³⁶"
+    ],
+    "answer": "D",
+    "supportImages": [],
+    "sourceUrl": "/provas/cbmerj/2026.pdf#page=15",
+    "answerSource": "/provas/cbmerj/2026-gabarito.pdf"
+  },
+  {
+    "id": "cbmerj-2026-cfo-ingles-42",
+    "exam": "cbmerj",
+    "year": 2026,
+    "stage": "cfo-ingles",
+    "stageLabel": "CFO — Inglês",
+    "slug": "cbmerj-2026-cfo-ingles",
+    "number": 42,
+    "subject": "Física",
+    "text": "De acordo com os postulados da teoria da relatividade especial, de Albert Einstein, dois observadores que possuem movimento relativo entre si observam intervalos de tempo diferentes. Considere um observador P, em repouso na Terra, e um observador N, deslocando-se em uma nave. A relação entre os intervalos de tempo marcados pelos dois observadores é Δt = Δt′/√(1 − v²/c²), sendo Δt o intervalo medido por P, Δt′ o intervalo medido por N, v a velocidade relativa entre os referenciais e c a velocidade da luz no vácuo. Sabe-se que Δt > Δt′. Admita que N realiza uma viagem com velocidade v = 0,75c, sendo Δt′ = 6,6 horas. Nessas condições, o intervalo de tempo Δt dessa viagem, em horas, medido por P, corresponde, aproximadamente, a:",
+    "support": null,
+    "options": [
+      "8",
+      "10",
+      "12",
+      "14"
+    ],
+    "answer": "B",
+    "supportImages": [
+      "/cbmerj-apoios/2026-q42-p20-figura.png"
+    ],
+    "sourceUrl": "/provas/cbmerj/2026.pdf#page=20",
+    "answerSource": "/provas/cbmerj/2026-gabarito.pdf"
+  },
+  {
+    "id": "cbmerj-2026-cfo-ingles-43",
+    "exam": "cbmerj",
+    "year": 2026,
+    "stage": "cfo-ingles",
+    "stageLabel": "CFO — Inglês",
+    "slug": "cbmerj-2026-cfo-ingles",
+    "number": 43,
+    "subject": "Física",
+    "text": "Em algumas rodovias brasileiras, existem áreas de escape, recurso de segurança que permite a\nveículos com problemas de frenagem parar sem causar acidentes, conforme ilustra a imagem.\nbr.images.search.yahoo.com\nConsidere que o motorista de um caminhão, com massa total de 12 toneladas e velocidade de\n86,4 km/h, está com problemas de frenagem e entra em uma área de escape com desaceleração\nde 7,2 m/s².\nO módulo do trabalho realizado pela força resultante, em megajoules, até o caminhão parar,\ncorresponde a cerca de:",
+    "support": null,
+    "options": [
+      "3,5",
+      "4,2",
+      "5,4",
+      "6,6"
+    ],
+    "answer": "A",
+    "supportImages": [
+      "/cbmerj-apoios/2026-q43-p21-figura.png"
+    ],
+    "sourceUrl": "/provas/cbmerj/2026.pdf#page=21",
+    "answerSource": "/provas/cbmerj/2026-gabarito.pdf"
+  },
+  {
+    "id": "cbmerj-2026-cfo-ingles-46",
+    "exam": "cbmerj",
+    "year": 2026,
+    "stage": "cfo-ingles",
+    "stageLabel": "CFO — Inglês",
+    "slug": "cbmerj-2026-cfo-ingles",
+    "number": 46,
+    "subject": "Física",
+    "text": "Na saída de um quartel do Corpo de Bombeiros, existe, por medida de segurança, um espelho\nesférico convexo cujo raio de curvatura apresenta valor, em módulo, de 60 cm. Considere que,\nao sair do quartel em uma viatura, um bombeiro observa um veículo parado, localizado a 7 m\ndo vértice do espelho.\nNessas condições, a medida do módulo da distância, em centímetros, da imagem do veículo\nem relação ao vértice do espelho é, aproximadamente, de:",
+    "support": null,
+    "options": [
+      "29",
+      "25",
+      "19",
+      "17"
+    ],
+    "answer": "A",
+    "supportImages": [],
+    "sourceUrl": "/provas/cbmerj/2026.pdf#page=22",
+    "answerSource": "/provas/cbmerj/2026-gabarito.pdf"
+  },
+  {
+    "id": "cbmerj-2026-cfo-ingles-47",
+    "exam": "cbmerj",
+    "year": 2026,
+    "stage": "cfo-ingles",
+    "stageLabel": "CFO — Inglês",
+    "slug": "cbmerj-2026-cfo-ingles",
+    "number": 47,
+    "subject": "Física",
+    "text": "Nas teias de aranha, ocorrem vibrações mecânicas que se propagam por seus fios de seda,\npermitindo que aranhas cacem suas presas. Considere os seguintes dados para uma situação em\nque um pequeno inseto colide contra uma teia:\n• distância entre a aranha e o pequeno inseto na teia = 60 cm;\n• tensão mecânica igualmente distribuída em todos os fios da teia = 9 x 10⁻³ N;\n• densidade linear de cada fio = 4 x 10⁻⁹ kg/m;\n• tempo desprezível de reação da aranha.\nO intervalo de tempo decorrido, em milissegundos, para que o pulso propagado pela colisão do\ninseto na teia seja percebido pela aranha, é igual a:",
+    "support": null,
+    "options": [
+      "0,1",
+      "0,2",
+      "0,4",
+      "0,8"
+    ],
+    "answer": "C",
+    "supportImages": [],
+    "sourceUrl": "/provas/cbmerj/2026.pdf#page=22",
+    "answerSource": "/provas/cbmerj/2026-gabarito.pdf"
+  },
+  {
+    "id": "cbmerj-2026-cfo-ingles-50",
+    "exam": "cbmerj",
+    "year": 2026,
+    "stage": "cfo-ingles",
+    "stageLabel": "CFO — Inglês",
+    "slug": "cbmerj-2026-cfo-ingles",
+    "number": 50,
+    "subject": "Física",
+    "text": "Para determinar a aceleração de um elevador, fixou-se em seu teto uma mola ideal, conectada a\numa massa. Na mola, com o elevador em repouso, mediu-se uma elongação de 5 cm; já com o\nelevador em movimento ascendente e acelerado, a elongação era de 6 cm.\nAdmitindo que a massa seja de 100 g, a aceleração do elevador, em m/s², é de:",
+    "support": null,
+    "options": [
+      "0,5",
+      "1,0",
+      "1,5",
+      "2,0"
+    ],
+    "answer": "D",
+    "supportImages": [],
+    "sourceUrl": "/provas/cbmerj/2026.pdf#page=23",
+    "answerSource": "/provas/cbmerj/2026-gabarito.pdf"
+  },
+  {
+    "id": "cbmerj-2026-cfo-ingles-52",
+    "exam": "cbmerj",
+    "year": 2026,
+    "stage": "cfo-ingles",
+    "stageLabel": "CFO — Inglês",
+    "slug": "cbmerj-2026-cfo-ingles",
+    "number": 52,
+    "subject": "Química",
+    "text": "Considere um tipo de detector de fumaça que utiliza uma câmara de ionização com uma pequena\nfonte radioativa de amerício-241. Essa fonte emite radiação do tipo alfa, que ioniza o ar, permitindo\na condução de corrente elétrica. Quando a fumaça entra na câmara, partículas em suspensão\nbloqueiam parte dessa ionização, interrompendo a corrente e acionando o alarme.\nNesse contexto, no decaimento do ²⁴¹Am, forma-se o seguinte radioisótopo:",
+    "support": null,
+    "options": [
+      "²³⁷Np",
+      "²³⁹Pu",
+      "²⁴²Cm",
+      "²⁴⁵Bk"
+    ],
+    "answer": "A",
+    "supportImages": [
+      "/cbmerj-apoios/2026-tabela-periodica.png"
+    ],
+    "sourceUrl": "/provas/cbmerj/2026.pdf#page=24",
+    "answerSource": "/provas/cbmerj/2026-gabarito.pdf"
+  },
+  {
+    "id": "cbmerj-2026-cfo-ingles-53",
+    "exam": "cbmerj",
+    "year": 2026,
+    "stage": "cfo-ingles",
+    "stageLabel": "CFO — Inglês",
+    "slug": "cbmerj-2026-cfo-ingles",
+    "number": 53,
+    "subject": "Química",
+    "text": "Em capacetes de bombeiros, uma combinação de fibras resistentes e matriz plástica, dentre\noutros materiais, forma uma estrutura leve, forte e resistente ao calor. Admita que, em uma\ndessas fibras, estão presentes os óxidos CaO, MgO, Na₂O e SiO₂, que foram, separadamente,\ncolocados em contato com solução aquosa concentrada de KOH. Observe a variação do pH de\num dos quatro óxidos na presença dessa solução:\npH\nquantidade de óxido adicionado (mol)\nNo gráfico, está representado o comportamento do seguinte óxido:",
+    "support": null,
+    "options": [
+      "CaO",
+      "MgO",
+      "Na₂O",
+      "SiO₂"
+    ],
+    "answer": "D",
+    "supportImages": [
+      "/cbmerj-apoios/2026-q53-p24-figura.png",
+      "/cbmerj-apoios/2026-tabela-periodica.png"
+    ],
+    "sourceUrl": "/provas/cbmerj/2026.pdf#page=24",
+    "answerSource": "/provas/cbmerj/2026-gabarito.pdf"
+  },
+  {
+    "id": "cbmerj-2026-cfo-ingles-55",
+    "exam": "cbmerj",
+    "year": 2026,
+    "stage": "cfo-ingles",
+    "stageLabel": "CFO — Inglês",
+    "slug": "cbmerj-2026-cfo-ingles",
+    "number": 55,
+    "subject": "Química",
+    "text": "Durante a investigação de um incêndio em um armazém químico, uma equipe do Corpo de\nBombeiros encontrou dois frascos intactos, um contendo o líquido A e outro contendo o líquido B.\nApós a realização de quatro testes, identificaram-se as seguintes características comuns de A e B:\nsão isômeros funcionais, solúveis em água, possuem cadeia carbônica saturada e fórmula C₃H₆O.\nUm quinto teste, utilizando solução aquosa de KMnO₄ em meio ácido, revelou que apenas o\nlíquido B sofre oxidação.\nO líquido B é denominado:",
+    "support": null,
+    "options": [
+      "propanal",
+      "propanona",
+      "propan-1-ol",
+      "propan-2-ol"
+    ],
+    "answer": "A",
+    "supportImages": [
+      "/cbmerj-apoios/2026-tabela-periodica.png"
+    ],
+    "sourceUrl": "/provas/cbmerj/2026.pdf#page=25",
+    "answerSource": "/provas/cbmerj/2026-gabarito.pdf"
+  },
+  {
+    "id": "cbmerj-2026-cfo-ingles-57",
+    "exam": "cbmerj",
+    "year": 2026,
+    "stage": "cfo-ingles",
+    "stageLabel": "CFO — Inglês",
+    "slug": "cbmerj-2026-cfo-ingles",
+    "number": 57,
+    "subject": "Química",
+    "text": "Uma solução aquosa de metanal, substância tóxica de aplicação medicinal e industrial, apresenta\nconcentração percentual em massa de 37% e densidade de 1150 g/L.\nA concentração dessa solução, em mol/L, corresponde, aproximadamente, a:",
+    "support": null,
+    "options": [
+      "14,2",
+      "18,4",
+      "22,6",
+      "26,8"
+    ],
+    "answer": "A",
+    "supportImages": [
+      "/cbmerj-apoios/2026-tabela-periodica.png"
+    ],
+    "sourceUrl": "/provas/cbmerj/2026.pdf#page=26",
+    "answerSource": "/provas/cbmerj/2026-gabarito.pdf"
+  },
+  {
+    "id": "cbmerj-2026-cfo-ingles-58",
+    "exam": "cbmerj",
+    "year": 2026,
+    "stage": "cfo-ingles",
+    "stageLabel": "CFO — Inglês",
+    "slug": "cbmerj-2026-cfo-ingles",
+    "number": 58,
+    "subject": "Química",
+    "text": "Em um processo metalúrgico, obteve-se zinco metálico a partir de 487,5 kg de um minério.\nSabe-se que essa massa contém 80% de sulfeto de zinco. Observe a sequência de reações\nquímicas envolvidas nesse processo:\n2 ZnS(s) + 3 O₂(g) → 2 ZnO(s) + 2 SO₂(g)\nZnO(s) + CO(g) → Zn(s) + CO₂(g)\nAdmitindo rendimento de 100% nas reações descritas, a massa de zinco metálico obtida, em\nquilogramas, corresponde a:",
+    "support": null,
+    "options": [
+      "131",
+      "262",
+      "393",
+      "524"
+    ],
+    "answer": "B",
+    "supportImages": [
+      "/cbmerj-apoios/2026-tabela-periodica.png"
+    ],
+    "sourceUrl": "/provas/cbmerj/2026.pdf#page=26",
+    "answerSource": "/provas/cbmerj/2026-gabarito.pdf"
+  },
+  {
+    "id": "esa-2026-geral-2",
+    "exam": "esa",
+    "year": 2026,
+    "stage": "geral",
+    "stageLabel": "Área Geral",
+    "slug": "esa-2026-geral",
+    "number": 2,
+    "subject": "Matemática",
+    "text": "A figura abaixo representa o gráfico da função f: ℝ₊* → ℝ definida por f(x) = log₂x. A área da região sombreada é numericamente igual a:",
+    "support": null,
+    "options": [
+      "10",
+      "12",
+      "16",
+      "18",
+      "20"
+    ],
+    "answer": "B",
+    "supportImages": [
+      "/militares-2026/esa-2026-geral-q2-figura-1.png"
+    ],
+    "sourceUrl": "/provas/militares/2026/esa-geral.pdf#page=2",
+    "answerSource": "/provas/militares/2026/esa-gabarito-geral.pdf"
+  },
+  {
+    "id": "esa-2026-geral-3",
+    "exam": "esa",
+    "year": 2026,
+    "stage": "geral",
+    "stageLabel": "Área Geral",
+    "slug": "esa-2026-geral",
+    "number": 3,
+    "subject": "Matemática",
+    "text": "A Escola de Sargentos das Armas (ESA) oferece as qualificações militares nas armas de\nInfantaria, Cavalaria, Artilharia, Engenharia e Comunicações. O fuzil, o carro de combate,\no obuseiro, as máquinas de engenharia e os rádios são objetos que caracterizam essas\narmas, respectivamente. A fim de divulgar o Exército Brasileiro, a ESA montará uma exposição\ncom pelo menos um objeto de cada arma, num total de 12 objetos. Se a ESA possui objetos em\nnúmero suficiente e os objetos de cada arma são idênticos, de quantas maneiras diferentes a\nexposição poderá ser montada se ela será em linha e obedecendo ao espaço reservado,\nconforme esquema abaixo?",
+    "support": null,
+    "options": [
+      "165",
+      "215",
+      "330",
+      "495",
+      "615"
+    ],
+    "answer": "C",
+    "supportImages": [
+      "/militares-2026/esa-2026-geral-q3-figura-1.png"
+    ],
+    "sourceUrl": "/provas/militares/2026/esa-geral.pdf#page=2",
+    "answerSource": "/provas/militares/2026/esa-gabarito-geral.pdf"
+  },
+  {
     "id": "esa-2026-geral-7",
     "exam": "esa",
     "year": 2026,
@@ -582,6 +2827,124 @@
     "answerSource": "/provas/militares/2026/esa-gabarito-geral.pdf"
   },
   {
+    "id": "esa-2026-geral-12",
+    "exam": "esa",
+    "year": 2026,
+    "stage": "geral",
+    "stageLabel": "Área Geral",
+    "slug": "esa-2026-geral",
+    "number": 12,
+    "subject": "Matemática",
+    "text": "Um baralho possui 52 cartas, que são divididas em 4 naipes diferentes (ouros, copas, paus\ne espadas), cada um destes possui 13 cartas, das quais são: 9 numéricas de “2 a 10”,\nValete (J), Dama (Q), Rei (K) e Ás (A). A probabilidade de a primeira carta retirada ser um\nREI e a segunda carta NÃO ser REI nem DAMA é:",
+    "support": null,
+    "options": [
+      "44/663",
+      "45/663",
+      "176/663",
+      "48/663",
+      "50/663"
+    ],
+    "answer": "A",
+    "supportImages": [],
+    "sourceUrl": "/provas/militares/2026/esa-geral.pdf#page=4",
+    "answerSource": "/provas/militares/2026/esa-gabarito-geral.pdf"
+  },
+  {
+    "id": "esa-2026-geral-13",
+    "exam": "esa",
+    "year": 2026,
+    "stage": "geral",
+    "stageLabel": "Área Geral",
+    "slug": "esa-2026-geral",
+    "number": 13,
+    "subject": "Matemática",
+    "text": "A administração de um pequeno shopping fez um estudo com o objetivo de melhorar a\nfrequência. Um dos engenheiros responsáveis por esse estudo observou que a frequência\nque representa essa situação pode ser expressa pela função f(x) = 700 + |225 − 15x|,\nsendo 1 ≤ x ≤ 30, em que x representa o dia do mês e f(x) a quantidade de pessoas que\nfrequentam esse pequeno shopping nesse dia (considere o mesmo horário de funcionamento\npara todos os dias do mês). Com base no enunciado, avalie as afirmações abaixo em verdadeiro\n(V) ou falso (F).\nl. O dia mais frequentado nesse shopping é o 30° dia.\nll. O dia menos frequentado nesse shopping é o 15° dia.\nlll. No 15° dia, a quantidade de pessoas que frequentou esse shopping é zero.\nlV. No dia 30, a quantidade de pessoas que frequentou esse shopping foi de 225.\nV. No dia 25, a quantidade de pessoas que frequentou esse shopping foi de 850.\nMarque a alternativa que representa a sequência correta com relação às afirmações acima:",
+    "support": null,
+    "options": [
+      "V – V – F – F – F",
+      "F – F – V – V – F",
+      "V – F – F – V – F",
+      "F – F – V – V – V",
+      "V – V – F – F – V"
+    ],
+    "answer": "E",
+    "supportImages": [],
+    "sourceUrl": "/provas/militares/2026/esa-geral.pdf#page=5",
+    "answerSource": "/provas/militares/2026/esa-gabarito-geral.pdf"
+  },
+  {
+    "id": "espcex-2026-objetiva-4",
+    "exam": "espcex",
+    "year": 2026,
+    "stage": "objetiva",
+    "stageLabel": "Prova objetiva — dias 1 e 2",
+    "slug": "espcex-2026-dia-2",
+    "number": 4,
+    "subject": "Matemática",
+    "text": "Seja f(x) = 16ˣ, g(x) = 2ˣ e h(x) = (5x − 1)/3. O valor de x tal que f(g(h(x))) = 2 é",
+    "support": null,
+    "options": [
+      "2.",
+      "–2.",
+      "1.",
+      "–1.",
+      "0."
+    ],
+    "answer": "D",
+    "supportImages": [],
+    "sourceUrl": "/provas/militares/2026/espcex-dia-2.pdf#page=3",
+    "answerSource": "/provas/militares/2026/espcex-dia-2-gabarito.pdf",
+    "day": 2
+  },
+  {
+    "id": "espcex-2026-objetiva-8",
+    "exam": "espcex",
+    "year": 2026,
+    "stage": "objetiva",
+    "stageLabel": "Prova objetiva — dias 1 e 2",
+    "slug": "espcex-2026-dia-2",
+    "number": 8,
+    "subject": "Matemática",
+    "text": "Sejam a, b, c e d as raízes da equação:\nx⁴ – 15x³ + 20x² + 240x – 576 = 0\nSabendo que a + b = 0, o algarismo das unidades da maior\nraiz dessa equação é",
+    "support": null,
+    "options": [
+      "1.",
+      "2.",
+      "0.",
+      "3.",
+      "4."
+    ],
+    "answer": "B",
+    "supportImages": [],
+    "sourceUrl": "/provas/militares/2026/espcex-dia-2.pdf#page=4",
+    "answerSource": "/provas/militares/2026/espcex-dia-2-gabarito.pdf",
+    "day": 2
+  },
+  {
+    "id": "espcex-2026-objetiva-12",
+    "exam": "espcex",
+    "year": 2026,
+    "stage": "objetiva",
+    "stageLabel": "Prova objetiva — dias 1 e 2",
+    "slug": "espcex-2026-dia-2",
+    "number": 12,
+    "subject": "Matemática",
+    "text": "O cuboctaedro truncado é um poliedro convexo formado por\n26 faces, algumas octógonos regulares, algumas hexágonos\nregulares e as demais quadrados, sendo o número de faces\nquadradas igual ao dobro do número de faces octogonais.\nSe em cada vértice do cuboctaedro concorrem 3 arestas, o\nnúmero de faces hexagonais desse poliedro é igual a",
+    "support": null,
+    "options": [
+      "6.",
+      "8.",
+      "4.",
+      "3.",
+      "5."
+    ],
+    "answer": "B",
+    "supportImages": [],
+    "sourceUrl": "/provas/militares/2026/espcex-dia-2.pdf#page=5",
+    "answerSource": "/provas/militares/2026/espcex-dia-2-gabarito.pdf",
+    "day": 2
+  },
+  {
     "id": "espcex-2026-objetiva-15",
     "exam": "espcex",
     "year": 2026,
@@ -602,6 +2965,30 @@
     "answer": "D",
     "supportImages": [],
     "sourceUrl": "/provas/militares/2026/espcex-dia-2.pdf#page=6",
+    "answerSource": "/provas/militares/2026/espcex-dia-2-gabarito.pdf",
+    "day": 2
+  },
+  {
+    "id": "espcex-2026-objetiva-19",
+    "exam": "espcex",
+    "year": 2026,
+    "stage": "objetiva",
+    "stageLabel": "Prova objetiva — dias 1 e 2",
+    "slug": "espcex-2026-dia-2",
+    "number": 19,
+    "subject": "Matemática",
+    "text": "Um cilindro B tem 7 cm de altura e a área de sua base mede o\ndobro da área da base de um cilindro A de altura 8 cm. Sabendo que o volume do cilindro B excede o volume do cilindro A\nem 432π cm³, a área da base do cilindro B é igual",
+    "support": null,
+    "options": [
+      "121π cm².",
+      "144π cm².",
+      "160π cm².",
+      "196π cm².",
+      "220π cm²."
+    ],
+    "answer": "B",
+    "supportImages": [],
+    "sourceUrl": "/provas/militares/2026/espcex-dia-2.pdf#page=7",
     "answerSource": "/provas/militares/2026/espcex-dia-2-gabarito.pdf",
     "day": 2
   },
@@ -632,6 +3019,130 @@
     "day": 1
   },
   {
+    "id": "espcex-2026-objetiva-23",
+    "exam": "espcex",
+    "year": 2026,
+    "stage": "objetiva",
+    "stageLabel": "Prova objetiva — dias 1 e 2",
+    "slug": "espcex-2026-dia-1",
+    "number": 23,
+    "subject": "Física",
+    "text": "Um canhão de brinquedo fixo no solo utiliza uma mola ideal para lançar verticalmente uma esfera de borracha, inicialmente em repouso dentro do canhão e encostada na mola comprimida e travada.\nDesprezando os atritos e a resistência do ar, quando a mola for liberada, a altura máxima (hₘáₓ) atingida pela esfera dependerá, apenas,",
+    "support": null,
+    "options": [
+      "da massa da esfera, da resistência da mola à deformação e da aceleração da gravidade local.",
+      "da massa do canhão, de quanto a mola estava comprimida e da resistência da mola à deformação.",
+      "da massa da esfera, da massa do canhão e de quanto a mola estava comprimida.",
+      "da massa da esfera, de quanto a mola estava comprimida, da resistência da mola à deformação e da aceleração da gravidade local.",
+      "da massa do canhão, de quanto a mola estava comprimida, da resistência da mola à deformação e da aceleração da gravidade local."
+    ],
+    "answer": "D",
+    "supportImages": [
+      "/militares-2026/espcex-2026-dia-1-q23-figura-1.png"
+    ],
+    "sourceUrl": "/provas/militares/2026/espcex-dia-1.pdf#page=9",
+    "answerSource": "/provas/militares/2026/espcex-dia-1-gabarito.pdf",
+    "day": 1
+  },
+  {
+    "id": "espcex-2026-objetiva-24",
+    "exam": "espcex",
+    "year": 2026,
+    "stage": "objetiva",
+    "stageLabel": "Prova objetiva — dias 1 e 2",
+    "slug": "espcex-2026-dia-1",
+    "number": 24,
+    "subject": "Física",
+    "text": "A escolha da órbita de um satélite artificial pelas agências\nespaciais é fundamental para a missão à qual ele se destina\ne depende de fatores como a área da superfície da Terra\nque se pretende cobrir e a resolução pretendida das imagens obtidas pelo satélite. Considere um satélite artificial\nque esteja em órbita circular com velocidade escalar constante em torno da Terra, em uma altitude h. Sendo M e R a\nmassa e o raio da Terra, respectivamente, e G a constante\nuniversal da gravitação, a expressão que determina o período de revolução T desse satélite em torno da Terra é:",
+    "support": null,
+    "options": [
+      "T = π · √(R³/(G · M))",
+      "T = 2 · π · √((R³ + h³)/(G · M))",
+      "T = 2 · π · √((R + h)³/(G · M))",
+      "T = π · √(h³/(G · M))",
+      "T = 2 · π · √((R − h)³/(G · M))"
+    ],
+    "answer": "C",
+    "supportImages": [],
+    "sourceUrl": "/provas/militares/2026/espcex-dia-1.pdf#page=10",
+    "answerSource": "/provas/militares/2026/espcex-dia-1-gabarito.pdf",
+    "day": 1
+  },
+  {
+    "id": "espcex-2026-objetiva-30",
+    "exam": "espcex",
+    "year": 2026,
+    "stage": "objetiva",
+    "stageLabel": "Prova objetiva — dias 1 e 2",
+    "slug": "espcex-2026-dia-1",
+    "number": 30,
+    "subject": "Física",
+    "text": "Na técnica de pintura eletrostática de viaturas, as partículas da tinta em pó, inicialmente neutras, adquirem carga elétrica negativa ao passarem por uma pistola de pulverização. Eletrizadas, essas partículas de tinta são atraídas pela peça a ser pintada, que se encontrava eletricamente neutra ou que estava eletrizada com cargas de sinal positivo. Após a aplicação da tinta, a peça pintada é colocada em um forno onde o pó derrete e forma uma película resistente, uniforme e durável.\nNessa técnica, as partículas da tinta em pó, ao serem pulverizadas, adquirem carga elétrica negativa porque ______, e a atração entre essas partículas e a peça a ser pintada é descrita pela lei de ______. Se a peça estiver eletricamente neutra, a atração pode ser explicada pela ______ induzida na superfície a ser pintada, que provoca a separação de cargas nessa superfície.\nAs lacunas do texto são preenchidas, respectivamente, por:",
+    "support": null,
+    "options": [
+      "perdem prótons – Coulomb – magnetização.",
+      "ganham elétrons – Coulomb – polarização.",
+      "ganham elétrons – Lenz – imantação.",
+      "perdem prótons – Coulomb – polarização.",
+      "ganham elétrons – Faraday – magnetização."
+    ],
+    "answer": "B",
+    "supportImages": [],
+    "sourceUrl": "/provas/militares/2026/espcex-dia-1.pdf#page=13",
+    "answerSource": "/provas/militares/2026/espcex-dia-1-gabarito.pdf",
+    "day": 1
+  },
+  {
+    "id": "espcex-2026-objetiva-32",
+    "exam": "espcex",
+    "year": 2026,
+    "stage": "objetiva",
+    "stageLabel": "Prova objetiva — dias 1 e 2",
+    "slug": "espcex-2026-dia-1",
+    "number": 32,
+    "subject": "Física",
+    "text": "Uma bateria B₁, de força eletromotriz constante ε₁ = 12 V e resistência interna r₁, é percorrida por uma corrente de intensidade i₁ e é utilizada para carregar outra bateria, B₂, descarregada, de força eletromotriz ε₂, também constante, e resistência interna r₂ = 1 Ω, percorrida por uma corrente de intensidade i₂ = 1,5 A. A mesma bateria B₁ também é utilizada para manter acesa uma lâmpada L de resistência R_L = 20 Ω, que é percorrida por uma corrente i_L = 0,5 A. A figura mostra o circuito elétrico que representa a situação descrita.\nDesprezando as resistências dos fios e das conexões utilizadas, os valores de ε₂ e de r₁ são, respectivamente,",
+    "support": null,
+    "options": [
+      "8,5 V e 2,0 Ω.",
+      "8,5 V e 1,0 Ω.",
+      "10,5 V e 1,0 Ω.",
+      "10,5 V e 2,0 Ω.",
+      "8,5 V e 0,5 Ω."
+    ],
+    "answer": "B",
+    "supportImages": [
+      "/militares-2026/espcex-2026-dia-1-q32-figura-1.png"
+    ],
+    "sourceUrl": "/provas/militares/2026/espcex-dia-1.pdf#page=13",
+    "answerSource": "/provas/militares/2026/espcex-dia-1-gabarito.pdf",
+    "day": 1
+  },
+  {
+    "id": "espcex-2026-objetiva-34",
+    "exam": "espcex",
+    "year": 2026,
+    "stage": "objetiva",
+    "stageLabel": "Prova objetiva — dias 1 e 2",
+    "slug": "espcex-2026-dia-1",
+    "number": 34,
+    "subject": "Química",
+    "text": "Elementos de terras-raras (ETR) são considerados ativos estratégicos na defesa nacional, pois são utilizados em equipamentos de alta tecnologia e precisão, como radares, sensores, mísseis guiados e drones. Os ímãs de neodímio (₆₀Nd), atualmente os mais fortes fabricados pelo homem, são empregados em motores silenciosos e em controles eletrônicos. O forte poder magnético dos ímãs de neodímio deve-se ao grande número de elétrons desemparelhados em sua estrutura eletrônica. Considere a regra de Hund, que determina que, ao preencher orbitais de mesma energia, os elétrons devem ocupar orbitais individualmente antes de formarem pares. Nessas condições, um átomo de neodímio, com distribuição eletrônica [Xe] 6s² 4f⁴, apresenta",
+    "support": null,
+    "options": [
+      "6 elétrons desemparelhados, todos com spins paralelos.",
+      "4 elétrons desemparelhados, sendo dois com spins opostos e dois com spins paralelos.",
+      "4 elétrons desemparelhados, em dois pares de elétrons com spins opostos.",
+      "4 elétrons desemparelhados, todos com spins paralelos.",
+      "6 elétrons desemparelhados, sendo dois com spins opostos e quatro com spins paralelos."
+    ],
+    "answer": "D",
+    "supportImages": [],
+    "sourceUrl": "/provas/militares/2026/espcex-dia-1.pdf#page=14",
+    "answerSource": "/provas/militares/2026/espcex-dia-1-gabarito.pdf",
+    "day": 1
+  },
+  {
     "id": "espcex-2026-objetiva-36",
     "exam": "espcex",
     "year": 2026,
@@ -656,119 +3167,75 @@
     "day": 1
   },
   {
-    "id": "efomm-2026-dia2-10",
-    "exam": "efomm",
+    "id": "espcex-2026-objetiva-39",
+    "exam": "espcex",
     "year": 2026,
-    "stage": "dia2",
-    "stageLabel": "2º dia — Branca",
-    "slug": "efomm-2026-dia-2",
-    "number": 10,
-    "subject": "Matemática",
-    "text": "Um terreno triangular equilátero possui, em seu interior, uma árvore plantada. As distâncias perpendiculares dessa árvore até cada um dos três lados do terreno medem 3m, 4m e 5m. Qual a área do terreno em metros quadrados?",
+    "stage": "objetiva",
+    "stageLabel": "Prova objetiva — dias 1 e 2",
+    "slug": "espcex-2026-dia-1",
+    "number": 39,
+    "subject": "Química",
+    "text": "A combustão completa de 2,3 g de um composto orgânico oxigenado produziu 4,4 g de dióxido de carbono,\nCO₂ (M = 44 g/mol) e 2,7 g de água, H₂O (M = 18 g/mol),\nalém de 68,4 kJ de energia. O número de carbonos existentes na fórmula mínima do composto orgânico e sua entalpia\nmolar de combustão, em kJ/mol, são, respectivamente,",
     "support": null,
     "options": [
-      "48√3 m²",
-      "36√3 m²",
-      "24√3 m²",
-      "24√2 m²",
-      "12√2 m²"
+      "4 e –1 368.",
+      "2 e – 684.",
+      "2 e –1 368.",
+      "1 e – 684.",
+      "1 e –1 368."
+    ],
+    "answer": "C",
+    "supportImages": [],
+    "sourceUrl": "/provas/militares/2026/espcex-dia-1.pdf#page=16",
+    "answerSource": "/provas/militares/2026/espcex-dia-1-gabarito.pdf",
+    "day": 1
+  },
+  {
+    "id": "espcex-2026-objetiva-40",
+    "exam": "espcex",
+    "year": 2026,
+    "stage": "objetiva",
+    "stageLabel": "Prova objetiva — dias 1 e 2",
+    "slug": "espcex-2026-dia-1",
+    "number": 40,
+    "subject": "Química",
+    "text": "Vegetais conseguem converter nitratos (NO₃⁻) em amônia (NH₃) por meio de processos metabólicos que utilizam a energia proveniente da radiação eletromagnética da luz solar no processo natural da fotossíntese. A semirreação que converte nitratos em amônia em meio ácido, envolvida na fotossíntese, é representada pela equação:\nNO₃⁻ + 9H⁺ + xe⁻ → NH₃ + 3H₂O\nA mesma reação pode ser empregada na remoção do nitrato por meio de sua transformação em amônia em uma célula eletrolítica. Quando a energia elétrica necessária à eletrólise é proveniente de fontes renováveis, como usinas solares ou eólicas, essa técnica constitui um método sustentável para a remoção desse poluente.\nNo processo eletrolítico de transformação do nitrato em amônia, essa reação ocorre no ______ da célula eletrolítica e, nesse processo eletrolítico, são transferidos ______ elétrons na transformação do nitrato em amônia.\nAs lacunas do texto são preenchidas, respectivamente, por",
+    "support": null,
+    "options": [
+      "cátodo e 8.",
+      "cátodo e 9.",
+      "cátodo e 3.",
+      "ânodo e 8.",
+      "ânodo e 3."
     ],
     "answer": "A",
     "supportImages": [],
-    "sourceUrl": "/provas/efomm/2026/dia-2.pdf#page=8",
-    "answerSource": "/provas/efomm/2026/gabarito.pdf"
+    "sourceUrl": "/provas/militares/2026/espcex-dia-1.pdf#page=16",
+    "answerSource": "/provas/militares/2026/espcex-dia-1-gabarito.pdf",
+    "day": 1
   },
   {
-    "id": "efomm-2026-dia2-28",
-    "exam": "efomm",
+    "id": "espcex-2026-objetiva-41",
+    "exam": "espcex",
     "year": 2026,
-    "stage": "dia2",
-    "stageLabel": "2º dia — Branca",
-    "slug": "efomm-2026-dia-2",
-    "number": 28,
-    "subject": "Física",
-    "text": "O ar contido no interior de um arranjo cilindro-pistão é considerado um gás ideal, e executa o ciclo descrito pelos processos reversíveis 1-2-3-4-5-1 em sistema fechado, conforme diagrama P × V (pressão × volume) mostrado abaixo.\nProcessos: 1-2 adiabático; 2-3 isovolumétrico; 3-4 isobárico; 4-5 adiabático; 5-1 isovolumétrico.\nSe m é a massa de ar contida no interior do cilindro e c_P e c_V são, respectivamente, os calores específicos a pressão e a volume constante durante todo o ciclo, analise as afirmativas abaixo.\nI. A eficiência termodinâmica (η) dessa máquina térmica é η = 1 − T_L/T_H, em que T_L é a temperatura mais baixa do ciclo e T_H é a temperatura mais elevada.\nII. O calor rejeitado pelo ar ocorre no processo 5-1, e o calor total recebido pelo sistema ocorre nos processos 2-3 e 3-4.\nIII. A variação de energia interna do ar no processo 3-4 é dada por mc_P(T₄ − T₃), em que T₄ é a temperatura no estado 4 e T₃ é a temperatura no estado 3.\nIV. O processo 4-5 é de expansão e o processo 1-2 é de compressão.\nAssinale a opção correta:",
-    "support": "Adote g = 10 m/s² para a aceleração da gravidade, salvo indicação contrária.",
+    "stage": "objetiva",
+    "stageLabel": "Prova objetiva — dias 1 e 2",
+    "slug": "espcex-2026-dia-1",
+    "number": 41,
+    "subject": "Química",
+    "text": "A ingestão de refrigerantes durante refeições pode alterar\ntemporariamente a concentração de íons H+ no estômago.\nEm geral, o suco gástrico apresenta pH igual a 1, e um refrigerante do tipo cola apresenta pH igual a 3. Se um indivíduo\nque tem 30 mL de suco gástrico no estômago ingerir 270 mL\nde refrigerante do tipo cola, a concentração de íons H+ em\nseu estômago, em mol/L, será de, aproximadamente,",
+    "support": null,
     "options": [
-      "Apenas as afirmativas II e III são verdadeiras.",
-      "Apenas as afirmativas II, III e IV são verdadeiras.",
-      "Apenas as afirmativas I, II e IV são verdadeiras.",
-      "Apenas as afirmativas II e IV são verdadeiras.",
-      "Apenas as afirmativas I, III e IV são verdadeiras."
+      "0,03.",
+      "0,001.",
+      "0,005.",
+      "0,01.",
+      "0,1."
     ],
     "answer": "D",
-    "supportImages": [
-      "/provas/efomm/2026/dia-2-q28-fig1.png"
-    ],
-    "sourceUrl": "/provas/efomm/2026/dia-2.pdf#page=18",
-    "answerSource": "/provas/efomm/2026/gabarito.pdf"
-  },
-  {
-    "id": "cbmerj-2026-cfo-ingles-24",
-    "exam": "cbmerj",
-    "year": 2026,
-    "stage": "cfo-ingles",
-    "stageLabel": "CFO — Inglês",
-    "slug": "cbmerj-2026-cfo-ingles",
-    "number": 24,
-    "subject": "Matemática",
-    "text": "Considere a função f: [0, 2π] → ℝ tal que f(x) = 6 cos(x/4 + π/4). O valor máximo de f é:",
-    "support": null,
-    "options": [
-      "1",
-      "5",
-      "3√2",
-      "2√3"
-    ],
-    "answer": "C",
     "supportImages": [],
-    "sourceUrl": "/provas/cbmerj/2026.pdf#page=14",
-    "answerSource": "/provas/cbmerj/2026-gabarito.pdf"
-  },
-  {
-    "id": "cbmerj-2026-cfo-ingles-47",
-    "exam": "cbmerj",
-    "year": 2026,
-    "stage": "cfo-ingles",
-    "stageLabel": "CFO — Inglês",
-    "slug": "cbmerj-2026-cfo-ingles",
-    "number": 47,
-    "subject": "Física",
-    "text": "Nas teias de aranha, ocorrem vibrações mecânicas que se propagam por seus fios de seda,\npermitindo que aranhas cacem suas presas. Considere os seguintes dados para uma situação em\nque um pequeno inseto colide contra uma teia:\n• distância entre a aranha e o pequeno inseto na teia = 60 cm;\n• tensão mecânica igualmente distribuída em todos os fios da teia = 9 x 10⁻³ N;\n• densidade linear de cada fio = 4 x 10⁻⁹ kg/m;\n• tempo desprezível de reação da aranha.\nO intervalo de tempo decorrido, em milissegundos, para que o pulso propagado pela colisão do\ninseto na teia seja percebido pela aranha, é igual a:",
-    "support": null,
-    "options": [
-      "0,1",
-      "0,2",
-      "0,4",
-      "0,8"
-    ],
-    "answer": "C",
-    "supportImages": [],
-    "sourceUrl": "/provas/cbmerj/2026.pdf#page=22",
-    "answerSource": "/provas/cbmerj/2026-gabarito.pdf"
-  },
-  {
-    "id": "cbmerj-2026-cfo-ingles-57",
-    "exam": "cbmerj",
-    "year": 2026,
-    "stage": "cfo-ingles",
-    "stageLabel": "CFO — Inglês",
-    "slug": "cbmerj-2026-cfo-ingles",
-    "number": 57,
-    "subject": "Química",
-    "text": "Uma solução aquosa de metanal, substância tóxica de aplicação medicinal e industrial, apresenta\nconcentração percentual em massa de 37% e densidade de 1150 g/L.\nA concentração dessa solução, em mol/L, corresponde, aproximadamente, a:",
-    "support": null,
-    "options": [
-      "14,2",
-      "18,4",
-      "22,6",
-      "26,8"
-    ],
-    "answer": "A",
-    "supportImages": [
-      "/cbmerj-apoios/2026-tabela-periodica.png"
-    ],
-    "sourceUrl": "/provas/cbmerj/2026.pdf#page=26",
-    "answerSource": "/provas/cbmerj/2026-gabarito.pdf"
+    "sourceUrl": "/provas/militares/2026/espcex-dia-1.pdf#page=16",
+    "answerSource": "/provas/militares/2026/espcex-dia-1-gabarito.pdf",
+    "day": 1
   }
 ]

@@ -22,7 +22,7 @@ const official = {
 }
 assert.equal(questions.length,135)
 assert.equal(new Set(questions.map(q=>q.id)).size,135)
-assert.equal(Object.keys(walkthroughSolutions).length,168)
+assert.equal(Object.keys(walkthroughSolutions).length,270)
 for(const [combination,key] of Object.entries(official)) {
  const rows=questions.filter(q=>[q.year,q.module,q.subject].join('-')===combination)
  assert.equal(rows.length,5,combination)

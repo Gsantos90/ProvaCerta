@@ -1246,5 +1246,3575 @@
       "Usar só a massa da água como base da porcentagem."
     ],
     "takeaway": "Escolha um litro: densidade dá a massa da solução, porcentagem dá a massa de soluto e massa molar converte para mol."
+  },
+  "uerj-2026-eq2-6": {
+    "topic": "Extremos no conjunto de Cantor",
+    "vocabulary": [
+      "Extremo: ponta de um segmento.",
+      "PG: sequência que multiplica cada termo por uma razão.",
+      "Iteração: repetição de uma mesma construção."
+    ],
+    "steps": [
+      {
+        "title": "Leia a numeração",
+        "text": "Na figura, o passo 1 já possui um segmento e dois extremos. Esse detalhe define a potência que será usada."
+      },
+      {
+        "title": "Conte os primeiros passos",
+        "text": "A cada remoção central, cada segmento origina dois segmentos separados. Os extremos passam de 2 para 4, 8 e 16."
+      },
+      {
+        "title": "Reconheça a razão",
+        "text": "O número de extremos dobra a cada passo, pois cada segmento continua com duas pontas e o total de segmentos dobra."
+      },
+      {
+        "title": "Avance até o passo seis",
+        "text": "Após 16 extremos no passo 4, temos 32 no passo 5 e 64 no passo 6. Em geral, E(n) = 2ⁿ."
+      },
+      {
+        "title": "Confira o objeto contado",
+        "text": "São 32 segmentos e 64 extremos no passo 6. Como a pergunta pede pontos extremos, a resposta é 64, alternativa B."
+      }
+    ],
+    "pitfalls": [
+      "Contar segmentos em vez de extremos.",
+      "Tratar o desenho inicial como passo zero."
+    ],
+    "takeaway": "Em construções iterativas, confira a numeração inicial e a grandeza contada antes de aplicar uma PG."
+  },
+  "uerj-2026-eq2-30": {
+    "topic": "Lucro relativo ao custo",
+    "vocabulary": [
+      "Receita: total recebido nas vendas.",
+      "Lucro: receita menos custo.",
+      "Percentual de lucro: lucro dividido pelo custo, vezes cem."
+    ],
+    "steps": [
+      {
+        "title": "Escreva o custo",
+        "text": "O enunciado iguala o custo da compra à receita de 500 camisas. Logo, o custo total é 500x reais."
+      },
+      {
+        "title": "Escreva a receita",
+        "text": "Todas as 625 camisas são vendidas por x reais cada. A receita total é 625x, supondo x positivo."
+      },
+      {
+        "title": "Subtraia os valores",
+        "text": "O lucro é a diferença entre receita e custo: 625x − 500x = 125x. Ainda não é o percentual."
+      },
+      {
+        "title": "Use a base pedida",
+        "text": "O percentual é relativo ao custo. Dividimos 125x por 500x, obtendo 1/4, independentemente do preço unitário."
+      },
+      {
+        "title": "Converta para porcentagem",
+        "text": "A razão 1/4 corresponde a 25%. Esse é o percentual da alternativa C, e não os 20% relativos à receita."
+      }
+    ],
+    "pitfalls": [
+      "Dividir o lucro pela receita.",
+      "Confundir valor recebido com lucro."
+    ],
+    "takeaway": "A expressão “em relação ao custo” determina o denominador da taxa de lucro."
+  },
+  "uerj-2026-eq2-31": {
+    "topic": "Sinal do cosseno no segundo quadrante",
+    "vocabulary": [
+      "Quadrante: uma das quatro regiões do círculo trigonométrico.",
+      "Identidade fundamental: sen²α + cos²α = 1.",
+      "Seno: coordenada vertical do ponto no círculo unitário."
+    ],
+    "steps": [
+      {
+        "title": "Localize o ângulo",
+        "text": "O ângulo está no segundo quadrante. Nessa região, o seno é positivo e o cosseno é negativo."
+      },
+      {
+        "title": "Use a identidade",
+        "text": "Substitua o seno fornecido na identidade fundamental: cos²α = 1 − (3/4)²."
+      },
+      {
+        "title": "Calcule os quadrados",
+        "text": "O resultado é 1 − 9/16 = 7/16. Essa etapa determina o quadrado do cosseno, não seu sinal."
+      },
+      {
+        "title": "Escolha a raiz correta",
+        "text": "As duas raízes possíveis são √7/4 e −√7/4. O segundo quadrante exige a negativa."
+      },
+      {
+        "title": "Compare com as opções",
+        "text": "O valor cos α = −√7/4 aparece na alternativa C. A verificação dos sinais elimina a raiz positiva."
+      }
+    ],
+    "pitfalls": [
+      "Usar apenas a raiz positiva.",
+      "Calcular 1 − 3/4 sem elevar o seno ao quadrado."
+    ],
+    "takeaway": "A identidade trigonométrica fornece o módulo; o quadrante decide o sinal."
+  },
+  "uerj-2026-eq2-41": {
+    "topic": "Equilíbrio térmico de quatro porções iguais",
+    "vocabulary": [
+      "Calor específico: energia por massa e variação de temperatura.",
+      "Equilíbrio térmico: temperatura final comum.",
+      "Sistema isolado: sem troca de calor com o exterior."
+    ],
+    "steps": [
+      {
+        "title": "Compare as porções",
+        "text": "A prova trata volumes iguais de um mesmo líquido como porções de mesma massa e mesmo calor específico."
+      },
+      {
+        "title": "Escreva o balanço",
+        "text": "Não há calor perdido para fora e os recipientes têm capacidade térmica desprezível. A soma dos calores das quatro porções é zero."
+      },
+      {
+        "title": "Cancele o fator comum",
+        "text": "Em Σmc(Tf − Ti) = 0, o fator mc é o mesmo nas quatro parcelas e pode ser cancelado."
+      },
+      {
+        "title": "Some as temperaturas",
+        "text": "Obtemos 4Tf = 20 + 55 + 75 + 90 = 240. Portanto, Tf = 240/4 = 60 °C."
+      },
+      {
+        "title": "Confira os limites",
+        "text": "O resultado fica entre a menor e a maior temperatura, como deve ocorrer nessa mistura. A alternativa correta é D. A resposta é a alternativa D."
+      }
+    ],
+    "pitfalls": [
+      "Somar temperaturas sem dividir por quatro.",
+      "Usar média simples quando massas ou calores específicos são diferentes."
+    ],
+    "takeaway": "Porções com a mesma capacidade térmica chegam à média aritmética das temperaturas iniciais."
+  },
+  "uerj-2026-eq2-43": {
+    "topic": "Por que o gelo fica na superfície",
+    "vocabulary": [
+      "Densidade: massa por volume.",
+      "Empuxo: força exercida pelo fluido sobre o corpo imerso.",
+      "Isolamento térmico: redução das trocas de calor."
+    ],
+    "steps": [
+      {
+        "title": "Observe o estado sólido",
+        "text": "Ao congelar, a água organiza uma estrutura que ocupa mais volume para a mesma massa. O gelo fica menos denso que a água líquida."
+      },
+      {
+        "title": "Relacione com a flutuação",
+        "text": "Por ser menos denso, o gelo pode equilibrar seu peso com o empuxo antes de ficar totalmente submerso."
+      },
+      {
+        "title": "Localize a camada congelada",
+        "text": "O gelo permanece na superfície do lago, em vez de afundar e substituir continuamente a água do fundo."
+      },
+      {
+        "title": "Relacione com a vida aquática",
+        "text": "A camada superficial reduz a perda de calor da água abaixo dela. Parte do lago pode permanecer líquida e abrigar organismos."
+      },
+      {
+        "title": "Identifique a propriedade",
+        "text": "A opção B expressa a maior flutuabilidade no estado sólido. A densidade máxima da água líquida ocorre perto de 4 °C, não no congelamento. A resposta é a alternativa B."
+      }
+    ],
+    "pitfalls": [
+      "Afirmar que o gelo é mais denso que a água.",
+      "Colocar a densidade máxima em zero grau."
+    ],
+    "takeaway": "A menor densidade do gelo explica sua posição superficial e a proteção da água líquida abaixo."
+  },
+  "uerj-2026-eq2-46": {
+    "topic": "Razão de energias e ordem de grandeza",
+    "vocabulary": [
+      "Razão: divisão entre duas grandezas.",
+      "Notação científica: a × 10ⁿ com 1 ≤ a < 10.",
+      "Ordem de grandeza: potência de dez mais próxima em escala logarítmica."
+    ],
+    "steps": [
+      {
+        "title": "Monte a comparação",
+        "text": "Divida a energia do terremoto pela energia da bomba, pois a pergunta compara o primeiro evento ao segundo."
+      },
+      {
+        "title": "Separe fatores e potências",
+        "text": "A razão é (7,9/2,0) × 10^(15 − 12), isto é, 3,95 × 10³. As unidades joule se cancelam."
+      },
+      {
+        "title": "Use o critério logarítmico",
+        "text": "Compare o fator 3,95 com √10, aproximadamente 3,16, que separa as duas potências de dez mais próximas."
+      },
+      {
+        "title": "Escolha a potência",
+        "text": "Como 3,95 supera √10, o valor está mais próximo de 10⁴ na escala de ordens de grandeza."
+      },
+      {
+        "title": "Diferencie valor e ordem",
+        "text": "A razão é aproximadamente 3950, mas sua ordem de grandeza é 10⁴. A alternativa B responde ao que foi pedido."
+      }
+    ],
+    "pitfalls": [
+      "Responder 10³ olhando apenas o expoente da notação científica.",
+      "Inverter a razão entre as energias."
+    ],
+    "takeaway": "Ordem de grandeza exige comparar o fator da notação científica com √10."
+  },
+  "uerj-2026-eq2-39": {
+    "topic": "Velocidade média de formação da glicose",
+    "vocabulary": [
+      "Velocidade média: variação de concentração por tempo.",
+      "Concentração: quantidade de soluto por volume.",
+      "Intervalo: diferença entre instantes final e inicial."
+    ],
+    "steps": [
+      {
+        "title": "Escolha o menor aumento",
+        "text": "No gráfico, as duas curvas partem de zero. Após 30 minutos, a curva da palatinose atinge a menor concentração."
+      },
+      {
+        "title": "Leia o eixo vertical",
+        "text": "A concentração dessa curva em 30 min é 7,5 × 10⁻⁴ mol/L. Não use 2,4 × 10⁻³, valor da sacarose."
+      },
+      {
+        "title": "Monte a taxa média",
+        "text": "A velocidade média no intervalo é Δconcentração/Δtempo = (7,5 × 10⁻⁴ − 0)/(30 − 0)."
+      },
+      {
+        "title": "Efetue a divisão",
+        "text": "Dividir 7,5 por 30 fornece 0,25. Assim, a taxa é 0,25 × 10⁻⁴ = 2,5 × 10⁻⁵ mol/(L·min)."
+      },
+      {
+        "title": "Confira a unidade",
+        "text": "A concentração foi dividida por minutos. O resultado corresponde à alternativa A, sem converter o tempo para segundos."
+      }
+    ],
+    "pitfalls": [
+      "Usar a curva mais alta.",
+      "Confundir taxa média com a concentração final."
+    ],
+    "takeaway": "Para velocidade média, use a variação de concentração no intervalo inteiro, e não a inclinação de um ponto isolado."
+  },
+  "uerj-2026-eq2-42": {
+    "topic": "Isomeria de posição nos tocoferóis",
+    "vocabulary": [
+      "Isômeros: compostos de mesma fórmula molecular e estruturas diferentes.",
+      "Isomeria de posição: mudança da localização de um grupo.",
+      "Metila: grupo substituinte CH₃."
+    ],
+    "steps": [
+      {
+        "title": "Compare as estruturas",
+        "text": "As quatro moléculas compartilham uma estrutura principal. A diferença está nos grupos metila ligados ao anel aromático."
+      },
+      {
+        "title": "Conte os substituintes",
+        "text": "I apresenta três metilas no anel, II e III apresentam duas e IV apresenta uma. Quantidades diferentes alteram a fórmula molecular."
+      },
+      {
+        "title": "Procure a mesma fórmula",
+        "text": "Somente II e III mantêm a mesma quantidade de cada tipo de átomo entre os pares propostos."
+      },
+      {
+        "title": "Compare as posições",
+        "text": "Em II e III, uma metila ocupa posições diferentes no anel. A conectividade muda sem alterar a fórmula molecular."
+      },
+      {
+        "title": "Classifique e conclua",
+        "text": "O par apresenta isomeria plana de posição. Portanto, betatocoferol e gamatocoferol, II e III, formam a alternativa B."
+      }
+    ],
+    "pitfalls": [
+      "Escolher moléculas apenas porque todas têm a mesma função.",
+      "Aceitar quantidades diferentes de metilas como isomeria."
+    ],
+    "takeaway": "Primeiro confira a fórmula molecular; depois localize a mudança de conectividade."
+  },
+  "uerj-2026-eq2-45": {
+    "topic": "Concentração em massa e em mol",
+    "vocabulary": [
+      "Massa molar: massa de um mol.",
+      "Concentração em massa: gramas de soluto por litro.",
+      "Concentração molar: mols de soluto por litro."
+    ],
+    "steps": [
+      {
+        "title": "Use a fórmula fornecida",
+        "text": "O cálculo pedido usa C₂₂H₃₀Cl₂N₁₀ e a concentração de 5 g/L. A fórmula do enunciado determina a massa molar usada."
+      },
+      {
+        "title": "Some as contribuições",
+        "text": "Com C = 12, H = 1, Cl = 35,5 e N = 14, temos 22×12 + 30×1 + 2×35,5 + 10×14."
+      },
+      {
+        "title": "Obtenha a massa molar",
+        "text": "A soma é 264 + 30 + 71 + 140 = 505 g/mol. Assim, 505 gramas correspondem a um mol."
+      },
+      {
+        "title": "Converta por litro",
+        "text": "Divida a concentração em massa pela massa molar: c = 5/505 ≈ 0,00990 mol/L."
+      },
+      {
+        "title": "Arredonde adequadamente",
+        "text": "O resultado é aproximadamente 0,01 mol/L, alternativa A. Não se multiplica a massa pela massa molar."
+      }
+    ],
+    "pitfalls": [
+      "Usar número atômico em vez de massa atômica.",
+      "Multiplicar 5 por 505 para converter a concentração."
+    ],
+    "takeaway": "Divida g/L por g/mol para obter mol/L, usando a fórmula química fornecida."
+  },
+  "usp-2025-v1-17": {
+    "topic": "Comparando percursos no plano cartesiano",
+    "vocabulary": [
+      "Distância cartesiana: comprimento entre dois pontos.",
+      "Percurso: soma dos comprimentos dos trechos.",
+      "Economia: diferença entre o trajeto longo e o curto."
+    ],
+    "steps": [
+      {
+        "title": "Identifique os caminhos",
+        "text": "O percurso realizado é OB mais BC. A travessia direta teria comprimento OC. A economia é d = OB + BC − OC."
+      },
+      {
+        "title": "Calcule o primeiro trecho",
+        "text": "De O(0,0) a B(13,−15), Pitágoras fornece OB = √(13² + 15²) = √394 ≈ 19,85 m."
+      },
+      {
+        "title": "Calcule os demais",
+        "text": "De B a C(29,−8), as diferenças são 16 e 7: BC = √305 ≈ 17,46 m. De O a C, OC = √905 ≈ 30,08 m."
+      },
+      {
+        "title": "Encontre a diferença",
+        "text": "A economia é aproximadamente 19,85 + 17,46 − 30,08 = 7,23 metros, sem somar diretamente as coordenadas."
+      },
+      {
+        "title": "Escolha o intervalo",
+        "text": "Como 5 ≤ 7,23 ≤ 8, a alternativa C contém o valor encontrado. O caminho direto é menor, coerentemente com a geometria."
+      }
+    ],
+    "pitfalls": [
+      "Somar distâncias horizontais e verticais como se fossem o trajeto diagonal.",
+      "Responder o comprimento total em vez da economia."
+    ],
+    "takeaway": "Para comparar rotas, calcule cada distância e só então subtraia os comprimentos totais."
+  },
+  "usp-2025-v1-69": {
+    "topic": "Gráfico de função com módulo de uma parábola",
+    "vocabulary": [
+      "Módulo: mantém valores positivos e troca o sinal dos negativos.",
+      "Raiz: ponto onde a expressão vale zero.",
+      "Função por partes: regra diferente em intervalos diferentes."
+    ],
+    "steps": [
+      {
+        "title": "Encontre as mudanças de sinal",
+        "text": "A expressão dentro do módulo é x² + 5x − 6 = (x + 6)(x − 1). Suas raízes são −6 e 1."
+      },
+      {
+        "title": "Separe os intervalos",
+        "text": "A parábola é positiva fora de [−6,1] e negativa dentro desse intervalo. Nas raízes, ela vale zero."
+      },
+      {
+        "title": "Retire o módulo fora",
+        "text": "Para x ≤ −6 ou x ≥ 1, o módulo mantém a expressão. Logo, f(x) = x² + 5x − 6 − 5x + 6 = x²."
+      },
+      {
+        "title": "Retire o módulo dentro",
+        "text": "Para −6 ≤ x ≤ 1, o sinal se inverte: f(x) = −x² − 10x + 12 = 37 − (x + 5)². O vértice interno é (−5,37)."
+      },
+      {
+        "title": "Confira as junções",
+        "text": "As partes se encontram em (−6,36) e (1,1). O gráfico B, visível no apoio, apresenta a parábola voltada para baixo entre esses pontos e x² fora. A resposta é a alternativa B."
+      }
+    ],
+    "pitfalls": [
+      "Aplicar o módulo também aos termos −5x + 6.",
+      "Trocar o sinal da expressão em todos os intervalos."
+    ],
+    "takeaway": "Encontre as raízes da expressão interna e use seu sinal para escrever cada trecho do gráfico."
+  },
+  "usp-2025-v1-76": {
+    "topic": "Escalas no volume e na área lateral do cilindro",
+    "vocabulary": [
+      "Volume do cilindro: πr²h.",
+      "Área lateral: 2πrh.",
+      "Escala: fator de mudança de uma medida."
+    ],
+    "steps": [
+      {
+        "title": "Escreva as referências",
+        "text": "Para o cilindro original, V = πr²h e A = 2πrh. O raio aparece ao quadrado apenas no volume."
+      },
+      {
+        "title": "Reduza a altura",
+        "text": "Em C₁, a altura é h/2 e o raio permanece r. Tanto o volume quanto a área lateral caem pela metade."
+      },
+      {
+        "title": "Reduza o raio",
+        "text": "Em C₂, o raio é r/2 e a altura permanece h. O volume vira V/4, mas a área lateral vira A/2."
+      },
+      {
+        "title": "Recombine os volumes",
+        "text": "Como V₁ = V/2 e V₂ = V/4, a soma V₁ + 2V₂ recupera V. Uma única parcela V₂ seria insuficiente."
+      },
+      {
+        "title": "Recombine as áreas",
+        "text": "Como A₁ = A₂ = A/2, temos A = A₁ + A₂. As duas relações simultâneas estão na alternativa D."
+      }
+    ],
+    "pitfalls": [
+      "Dividir o volume por dois ao reduzir o raio pela metade.",
+      "Confundir área lateral com área total."
+    ],
+    "takeaway": "Uma escala no raio atua ao quadrado no volume e linearmente na área lateral."
+  },
+  "usp-2025-v1-22": {
+    "topic": "Ângulo limite e reflexão total",
+    "vocabulary": [
+      "Índice de refração: razão entre a velocidade da luz no vácuo e no meio.",
+      "Ângulo limite: fronteira para reflexão total.",
+      "Reflexão total: ausência de raio transmitido para o outro meio nessa condição."
+    ],
+    "steps": [
+      {
+        "title": "Confira a condição inicial",
+        "text": "Reflexão total só pode ocorrer na passagem de maior para menor índice. Por isso, n₁ precisa superar n₂ = 1,0003."
+      },
+      {
+        "title": "Use o ângulo limite",
+        "text": "A lei de Snell fornece sen θL = n₂/n₁. O intervalo de reflexão total vai de θL até antes de 90 graus."
+      },
+      {
+        "title": "Compare os materiais",
+        "text": "Com n₂ fixo, aumentar n₁ diminui a razão n₂/n₁ e reduz o ângulo limite."
+      },
+      {
+        "title": "Amplie o intervalo",
+        "text": "Quanto menor θL, maior a faixa de ângulos de incidência capazes de produzir reflexão total."
+      },
+      {
+        "title": "Escolha o maior índice",
+        "text": "O material E tem n₁ = 1,4889, o maior da lista. Assim, ele produz o maior intervalo, alternativa E."
+      }
+    ],
+    "pitfalls": [
+      "Escolher o menor índice do meio de incidência.",
+      "Supor que reflexão total ocorre para qualquer sentido de propagação."
+    ],
+    "takeaway": "Com o meio de saída fixo, maior índice de entrada reduz o ângulo limite e amplia a reflexão total."
+  },
+  "usp-2025-v1-32": {
+    "topic": "Cores de uma película fina",
+    "vocabulary": [
+      "Reflexão: retorno de uma onda ao encontrar uma interface.",
+      "Interferência: superposição de ondas.",
+      "Iridescência: cor aparente que muda com o ângulo de observação."
+    ],
+    "steps": [
+      {
+        "title": "Localize as interfaces",
+        "text": "A camada transparente sobre a asa tem superfícies que refletem partes da luz incidente."
+      },
+      {
+        "title": "Acompanhe os raios",
+        "text": "Uma parte é refletida na superfície superior. Outra atravessa a camada e pode retornar após reflexão na superfície inferior."
+      },
+      {
+        "title": "Compare os caminhos",
+        "text": "Essas ondas percorrem distâncias diferentes e voltam a se superpor. A diferença de fase depende do caminho óptico."
+      },
+      {
+        "title": "Explique as cores",
+        "text": "Certos comprimentos de onda são reforçados e outros enfraquecidos por interferência. Ao mudar o ângulo, mudam as condições de reforço."
+      },
+      {
+        "title": "Escolha o par de fenômenos",
+        "text": "O mecanismo descrito reúne reflexão nas interfaces e interferência entre ondas refletidas. Essa combinação está na alternativa E."
+      }
+    ],
+    "pitfalls": [
+      "Atribuir as cores à dilatação da asa.",
+      "Confundir superposição com convecção."
+    ],
+    "takeaway": "Películas finas geram cores por interferência da luz refletida em superfícies distintas."
+  },
+  "usp-2025-v1-62": {
+    "topic": "Energia mecânica perdida na montanha-russa",
+    "vocabulary": [
+      "Energia potencial: energia associada à altura.",
+      "Energia cinética: energia associada ao movimento.",
+      "Dissipação: conversão de energia mecânica em outras formas."
+    ],
+    "steps": [
+      {
+        "title": "Escolha a referência",
+        "text": "Tome o ponto mais baixo como altura zero. No alto, o carrinho está parado a 50 m, então sua energia mecânica é apenas potencial."
+      },
+      {
+        "title": "Calcule a energia inicial",
+        "text": "Com massa de 300 kg e g = 10 m/s², Ei = mgh = 300×10×50 = 150000 J."
+      },
+      {
+        "title": "Calcule a energia final",
+        "text": "Na base, a altura é zero e a velocidade é 30 m/s. Ef = mv²/2 = 300×900/2 = 135000 J."
+      },
+      {
+        "title": "Subtraia na ordem correta",
+        "text": "A perda é energia inicial menos final: 150000 − 135000 = 15000 J, um valor positivo."
+      },
+      {
+        "title": "Interprete o resultado",
+        "text": "A redução da energia mecânica pode estar associada a atrito e resistência do ar. O valor calculado corresponde à alternativa D."
+      }
+    ],
+    "pitfalls": [
+      "Tratar toda a energia inicial como perdida.",
+      "Esquecer o quadrado da velocidade na energia cinética."
+    ],
+    "takeaway": "Energia mecânica dissipada é a diferença entre os valores inicial e final, usando uma referência de altura consistente."
+  },
+  "usp-2025-v1-20": {
+    "topic": "Limites do modelo atômico de Dalton",
+    "vocabulary": [
+      "Modelo científico: representação com um domínio de validade.",
+      "Radioatividade: emissão associada a transformações nucleares.",
+      "Átomo indivisível: hipótese histórica do modelo de Dalton."
+    ],
+    "steps": [
+      {
+        "title": "Identifique a hipótese histórica",
+        "text": "Dalton representava o átomo como uma entidade indivisível nas explicações de transformações químicas de seu modelo."
+      },
+      {
+        "title": "Reconheça o fenômeno novo",
+        "text": "Na radioatividade, núcleos emitem partículas ou radiação e podem se transformar em núcleos de outro elemento."
+      },
+      {
+        "title": "Compare as ideias",
+        "text": "Uma transformação interna do átomo e a emissão de partículas subatômicas excedem a representação indivisível de Dalton."
+      },
+      {
+        "title": "Examine os outros modelos",
+        "text": "Thomson já inclui elétrons; Rutherford propõe um núcleo. Não é correto atribuir um núcleo a todos os modelos ou nêutrons ao de Thomson."
+      },
+      {
+        "title": "Escolha a afirmação compatível",
+        "text": "A alternativa E reconhece a limitação do modelo de Dalton para elementos radioativos. Um modelo pode ser útil sem explicar todos os fenômenos."
+      }
+    ],
+    "pitfalls": [
+      "Atribuir núcleo ao modelo de Dalton.",
+      "Confundir descoberta do elétron com descoberta do nêutron."
+    ],
+    "takeaway": "Compare cada fenômeno às entidades que um modelo admite, respeitando a sequência histórica."
+  },
+  "usp-2025-v1-24": {
+    "topic": "Cloreto de sódio e obtenção do sal marinho",
+    "vocabulary": [
+      "Ligação iônica: atração entre íons de cargas opostas.",
+      "Salina: instalação que concentra água salgada para obter sais.",
+      "Solubilidade: capacidade de uma substância se dissolver em um meio."
+    ],
+    "steps": [
+      {
+        "title": "Identifique a substância",
+        "text": "O cloreto de sódio é um composto iônico formado por Na⁺ e Cl⁻. Sua identidade não muda de acordo com a fonte de extração."
+      },
+      {
+        "title": "Relacione com o oceano",
+        "text": "A água do mar contém íons dissolvidos, entre eles sódio e cloreto. A ligação iônica não impede a dissolução do sal em água."
+      },
+      {
+        "title": "Reconheça a produção salineira",
+        "text": "A evaporação da água concentra os sais até que possam cristalizar. O processo permite obter sal a partir da água marinha."
+      },
+      {
+        "title": "Elimine mudanças inexistentes",
+        "text": "Sal-gema e sal marinho não diferem por um ser covalente e outro iônico. A proporção de Na e Cl no NaCl continua sendo um para um."
+      },
+      {
+        "title": "Use o contexto brasileiro do item",
+        "text": "A alternativa C relaciona o sal utilizado no Brasil à produção proveniente do oceano, coerente com a obtenção salineira descrita."
+      }
+    ],
+    "pitfalls": [
+      "Concluir que um composto iônico sempre é insolúvel.",
+      "Afirmar que a fonte altera a fórmula do NaCl."
+    ],
+    "takeaway": "A origem de uma amostra não altera a identidade química do composto que ela contém."
+  },
+  "usp-2025-v1-58": {
+    "topic": "Produto de solubilidade e concentração de chumbo",
+    "vocabulary": [
+      "Kps: produto das concentrações iônicas no equilíbrio de dissolução.",
+      "Solubilidade molar: mol dissolvido por litro.",
+      "Miligrama: milésima parte do grama."
+    ],
+    "steps": [
+      {
+        "title": "Escreva a dissolução",
+        "text": "O equilíbrio PbSO₄(s) ⇌ Pb²⁺ + SO₄²⁻ libera um mol de cada íon por mol do sal dissolvido."
+      },
+      {
+        "title": "Defina a solubilidade",
+        "text": "Em água inicialmente sem esses íons, ambas as concentrações são s. Logo, Kps = s² = 1,0 × 10⁻⁸."
+      },
+      {
+        "title": "Extraia a raiz",
+        "text": "A concentração de Pb²⁺ é s = 1,0 × 10⁻⁴ mol/L. O Kps não é diretamente uma concentração em massa."
+      },
+      {
+        "title": "Converta para miligramas",
+        "text": "Multiplicando por 207 g/mol, obtemos 0,0207 g/L = 20,7 mg/L de chumbo."
+      },
+      {
+        "title": "Compare com o limite do item",
+        "text": "O valor supera 0,01 mg/L. Portanto, nas condições da prova, a água não atende ao limite: alternativa A."
+      }
+    ],
+    "pitfalls": [
+      "Usar Kps como se fosse s.",
+      "Esquecer o fator mil ao converter gramas em miligramas."
+    ],
+    "takeaway": "Monte o equilíbrio para obter a concentração iônica e converta para a mesma unidade do limite comparado."
+  },
+  "ita-2026-fase1-3": {
+    "topic": "Estrutura e posto de uma matriz grande",
+    "vocabulary": [
+      "Simétrica: matriz igual à sua transposta.",
+      "Singular: matriz quadrada sem inversa.",
+      "Posto: número máximo de linhas linearmente independentes."
+    ],
+    "steps": [
+      {
+        "title": "Teste a simetria",
+        "text": "Na regra aᵢⱼ = 1 + (1 − i)(1 − j), trocar i e j não muda o produto. Logo, aᵢⱼ = aⱼᵢ e a afirmação I é verdadeira."
+      },
+      {
+        "title": "Fixe uma linha",
+        "text": "Para i fixo, a diferença aᵢ,ⱼ₊₁ − aᵢⱼ é i − 1. Ela não depende de j, então cada linha forma uma PA, confirmando II."
+      },
+      {
+        "title": "Escreva cada linha com dois vetores",
+        "text": "Toda linha é a soma do vetor de uns com (1 − i) vezes o vetor (0,−1,−2,…,−99)."
+      },
+      {
+        "title": "Limite o posto",
+        "text": "As cem linhas pertencem a um espaço gerado por apenas dois vetores. O posto é no máximo dois, menor que cem, e a matriz é singular."
+      },
+      {
+        "title": "Junte os julgamentos",
+        "text": "I, II e III são verdadeiras, alternativa E. Não é necessário calcular um determinante de ordem cem diretamente."
+      }
+    ],
+    "pitfalls": [
+      "Supor que matriz grande exige cálculo entrada por entrada.",
+      "Confundir uma PA de razão zero com ausência de PA."
+    ],
+    "takeaway": "Uma regra simples para as entradas pode revelar simetria, progressões e dependência linear sem montar a matriz inteira."
+  },
+  "ita-2026-fase1-7": {
+    "topic": "Potência de uma matriz de rotação",
+    "vocabulary": [
+      "Rotação: transformação que gira vetores sem alterar seu módulo.",
+      "Matriz coluna: representação das coordenadas de um vetor.",
+      "Periodicidade: repetição após uma volta completa."
+    ],
+    "steps": [
+      {
+        "title": "Reconheça a matriz",
+        "text": "A tem a forma de uma rotação com cos θ = √3/2 e sen θ = 1/2. Portanto, cada aplicação gira o vetor em 30 graus."
+      },
+      {
+        "title": "Some as rotações",
+        "text": "A³¹ corresponde a 31×30° = 930°. Retirando duas voltas completas, o efeito é uma rotação de 210 graus."
+      },
+      {
+        "title": "Leia o vetor inicial",
+        "text": "B = (√2/2,√2/2) tem módulo um e argumento 45 graus. O vetor final tem argumento 45° + 210° = 255°."
+      },
+      {
+        "title": "Calcule as coordenadas",
+        "text": "cos 255° = −(√6 − √2)/4 e sen 255° = −(√6 + √2)/4, usando as fórmulas de soma de ângulos."
+      },
+      {
+        "title": "Compare as expressões",
+        "text": "Fatorando √2/4, encontramos [−(√2/4)(√3 − 1); −(√2/4)(1 + √3)]. Essa é a alternativa A."
+      }
+    ],
+    "pitfalls": [
+      "Multiplicar cada entrada da matriz por 31.",
+      "Somar a rotação sem incluir o ângulo inicial de B."
+    ],
+    "takeaway": "Potências de matrizes de rotação somam ângulos; aplique a rotação total ao vetor inicial."
+  },
+  "ita-2026-fase1-8": {
+    "topic": "Simetria ímpar de um polinômio cúbico",
+    "vocabulary": [
+      "Função ímpar: função com q(−t) = −q(t).",
+      "Raiz real: zero do polinômio na reta real.",
+      "Translação: mudança da origem da variável."
+    ],
+    "steps": [
+      {
+        "title": "Mude a origem",
+        "text": "Defina q(t) = p(2 + t). A identidade dada se torna q(t) = −q(−t), então q é um polinômio ímpar."
+      },
+      {
+        "title": "Escreva a forma possível",
+        "text": "Como p é mônico de grau três, q(t) deve ser t³ + at. Os termos de grau par e o termo constante precisam ser nulos."
+      },
+      {
+        "title": "Use as raízes reais",
+        "text": "Fatorando q(t) = t(t² + a), todas as raízes são reais somente se a ≤ 0. A raiz dupla quando a = 0 também é permitida."
+      },
+      {
+        "title": "Volte à entrada zero",
+        "text": "Como p(0) = q(−2), obtemos p(0) = −8 − 2a. A condição a ≤ 0 implica −2a ≥ 0."
+      },
+      {
+        "title": "Encontre o mínimo",
+        "text": "O menor valor é −8, atingido com a = 0 e p(x) = (x − 2)³. A alternativa correta é B. A resposta é a alternativa B."
+      }
+    ],
+    "pitfalls": [
+      "Impor que as três raízes sejam distintas.",
+      "Tratar p como ímpar em torno de zero em vez de dois."
+    ],
+    "takeaway": "Uma simetria em torno de um ponto se simplifica ao transladar esse ponto para a origem."
+  },
+  "ita-2026-fase1-11": {
+    "topic": "Permutações com ordens relativas fixas",
+    "vocabulary": [
+      "Bijeção: correspondência um a um entre dois conjuntos.",
+      "Permutação: ordenação de elementos distintos.",
+      "Ordem relativa: comparação entre posições selecionadas."
+    ],
+    "steps": [
+      {
+        "title": "Conte sem restrições",
+        "text": "Uma bijeção de um conjunto com oito elementos para ele mesmo é uma permutação dos oito valores. Existem 8! = 40320."
+      },
+      {
+        "title": "Imponha a primeira ordem",
+        "text": "Entre as três posições 1, 5 e 3, todas as 3! ordens dos valores são igualmente frequentes. Só uma satisfaz F(1) < F(5) < F(3)."
+      },
+      {
+        "title": "Imponha a segunda ordem",
+        "text": "As posições 7 e 2 são distintas das anteriores. Entre suas duas ordens possíveis, apenas uma satisfaz F(7) < F(2)."
+      },
+      {
+        "title": "Combine as proporções",
+        "text": "As restrições em grupos de posições disjuntos reduzem a contagem por um fator 3!×2! = 12."
+      },
+      {
+        "title": "Calcule a quantidade",
+        "text": "O total é 40320/12 = 3360, alternativa A. Os valores não se repetem porque F é bijetora."
+      }
+    ],
+    "pitfalls": [
+      "Tratar as desigualdades como valores específicos.",
+      "Dividir por cinco fatorial em vez de considerar os dois grupos."
+    ],
+    "takeaway": "Em permutações, uma ordem fixa em k posições seleciona uma dentre k! ordens relativas."
+  },
+  "ita-2026-fase1-14": {
+    "topic": "Encontro de dois corpos sob a mesma gravidade",
+    "vocabulary": [
+      "Queda livre: movimento sujeito somente à gravidade.",
+      "Componente: projeção de um vetor em um eixo.",
+      "Movimento relativo: movimento de um corpo visto a partir do outro."
+    ],
+    "steps": [
+      {
+        "title": "Determine o tempo disponível",
+        "text": "A esfera parte do repouso da altura H e chega ao solo em t = √(2H/g). O projétil precisa alcançá-la nesse mesmo tempo."
+      },
+      {
+        "title": "Ajuste o movimento horizontal",
+        "text": "Para percorrer a distância D, a componente horizontal inicial do projétil deve satisfazer vₓt = D."
+      },
+      {
+        "title": "Ajuste a componente vertical",
+        "text": "No instante final, 0 = h + vᵧt − gt²/2. Como gt²/2 = H, segue vᵧt = H − h."
+      },
+      {
+        "title": "Combine as componentes",
+        "text": "Somando os quadrados, v²t² = D² + (H − h)². A gravidade igual nos dois movimentos permite essa simplificação."
+      },
+      {
+        "title": "Substitua o tempo",
+        "text": "Obtemos v = √{[g/(2H)][D² + (H − h)²]}, expressão da alternativa A."
+      }
+    ],
+    "pitfalls": [
+      "Usar h como altura inicial da esfera.",
+      "Somar módulos de componentes em vez de seus quadrados."
+    ],
+    "takeaway": "Determine o tempo pelo corpo de movimento mais simples e use-o nas componentes do outro corpo."
+  },
+  "ita-2026-fase1-17": {
+    "topic": "Sincronismo entre pêndulo e massa-mola",
+    "vocabulary": [
+      "Período: tempo de uma oscilação completa.",
+      "Amplitude: afastamento máximo do equilíbrio.",
+      "Energia elástica: kx²/2 para mola ideal."
+    ],
+    "steps": [
+      {
+        "title": "Use o sincronismo inicial",
+        "text": "Soltos do repouso em extremos, os corpos chegam ao equilíbrio após um quarto de período. No encontro descrito, seus períodos são iguais."
+      },
+      {
+        "title": "Relacione os parâmetros",
+        "text": "Para pequenas oscilações, Tp = 2π√(ℓ/g) e Tm = 2π√(m/k). A igualdade fornece k/m = g/ℓ."
+      },
+      {
+        "title": "Calcule a energia do pêndulo",
+        "text": "A queda vertical até a posição inferior é ℓ(1 − cos θ). A energia cinética ali é mgℓ(1 − cos θ)."
+      },
+      {
+        "title": "Iguale as energias cinéticas",
+        "text": "As massas e os módulos das velocidades são iguais no encontro. Logo, mgℓ(1 − cos θ) = k(x₁ − x₀)²/2."
+      },
+      {
+        "title": "Elimine k/m",
+        "text": "Substituindo g/ℓ, obtemos cos θ = 1 − (x₁ − x₀)²/(2ℓ²), alternativa A. A deformação é a diferença entre os comprimentos."
+      }
+    ],
+    "pitfalls": [
+      "Usar x₁ como deformação da mola.",
+      "Igualar energias sem aproveitar o sincronismo dos períodos."
+    ],
+    "takeaway": "Quando osciladores partem juntos dos extremos e chegam juntos ao equilíbrio, combine tempo de oscilação e energia."
+  },
+  "ita-2026-fase1-19": {
+    "topic": "Custo de um refrigerador ideal",
+    "vocabulary": [
+      "COP: calor retirado dividido pelo trabalho consumido.",
+      "Kelvin: escala absoluta de temperatura.",
+      "Quilowatt-hora: unidade de energia."
+    ],
+    "steps": [
+      {
+        "title": "Calcule a carga térmica",
+        "text": "Dez pessoas gerando 100 W cada produzem 1000 W. Esse é o calor por segundo a retirar, não a potência elétrica consumida."
+      },
+      {
+        "title": "Use temperaturas absolutas",
+        "text": "As temperaturas são aproximadamente 290 K no interior e 310 K no exterior. Sua diferença é 20 K."
+      },
+      {
+        "title": "Calcule o COP máximo",
+        "text": "Para um refrigerador ideal, COP = Tfria/(Tquente − Tfria) = 290/20 = 14,5."
+      },
+      {
+        "title": "Encontre energia e custo",
+        "text": "A potência elétrica é 1/14,5 kW. Em quatro semanas de cinco dias e oito horas diárias, são 160 h, resultando em cerca de 11,03 kWh."
+      },
+      {
+        "title": "Aplique a tarifa",
+        "text": "O custo é 11,03×0,91 ≈ R$ 10,04. O valor aproximado da alternativa B é R$ 10,00."
+      }
+    ],
+    "pitfalls": [
+      "Usar graus Celsius no COP.",
+      "Cobrar energia elétrica igual a todo o calor retirado."
+    ],
+    "takeaway": "Em refrigeração ideal, use Kelvin no COP e diferencie carga térmica de potência elétrica."
+  },
+  "ita-2026-fase1-23": {
+    "topic": "Doppler refletido e equação de Bernoulli",
+    "vocabulary": [
+      "Efeito Doppler: mudança de frequência por movimento relativo.",
+      "Reflexão: retorno da onda ao atingir o sangue.",
+      "Bernoulli: relação entre pressão, velocidade e altura em escoamento ideal."
+    ],
+    "steps": [
+      {
+        "title": "Reconheça o duplo deslocamento",
+        "text": "O sangue recebe a onda como observador em movimento e a reflete como fonte em movimento. Para velocidade u muito menor que v, Δf/f ≈ 2u/v."
+      },
+      {
+        "title": "Isole a velocidade arterial",
+        "text": "A relação aproximada fornece u = vΔf/(2f). O fator dois vem dos dois efeitos Doppler."
+      },
+      {
+        "title": "Compare as alturas",
+        "text": "Coração e artéria estão no mesmo nível. Assim, os termos de energia gravitacional se cancelam na equação de Bernoulli."
+      },
+      {
+        "title": "Isole a diferença de pressão",
+        "text": "Definindo a variação como Partéria − Pcoração, temos ΔP = (ρ/2)(v_c² − u²)."
+      },
+      {
+        "title": "Substitua a velocidade",
+        "text": "A expressão final é (ρ/2)[v_c² − (vΔf/(2f))²], correspondente à alternativa C."
+      }
+    ],
+    "pitfalls": [
+      "Usar apenas um deslocamento Doppler.",
+      "Esquecer o fator um meio em Bernoulli."
+    ],
+    "takeaway": "Em ultrassom refletido por um alvo móvel, conte a ida e a volta antes de relacionar frequência e velocidade."
+  },
+  "ita-2026-fase1-25": {
+    "topic": "Catálise, Arrhenius e cinética de primeira ordem",
+    "vocabulary": [
+      "Energia de ativação: barreira energética do caminho reacional.",
+      "Catalisador: oferece um caminho de menor barreira.",
+      "Primeira ordem: velocidade proporcional à concentração de um reagente."
+    ],
+    "steps": [
+      {
+        "title": "Encontre a nova constante",
+        "text": "A unidade s⁻¹ indica primeira ordem. Com o catalisador, k passa de 0,002 para 0,020 s⁻¹, dez vezes o valor inicial."
+      },
+      {
+        "title": "Compare as barreiras",
+        "text": "Com o mesmo fator pré-exponencial, ln(kcat/ksem) = (Esem − Ecat)/(RT). Use R = 8,31 J/(mol·K)."
+      },
+      {
+        "title": "Calcule a energia catalisada",
+        "text": "A redução é RT ln 10 ≈ 8,31×310×2,3 = 5,93 kJ/mol. Logo, Ecat ≈ 85 − 5,93 = 79 kJ/mol."
+      },
+      {
+        "title": "Use a lei integrada",
+        "text": "Para cair de 0,200 para 0,050 mol/L, o quociente inicial/final é quatro. Assim, t = ln 4/0,020."
+      },
+      {
+        "title": "Resolva o tempo",
+        "text": "Como ln 4 ≈ 1,386, t ≈ 69,3 s. O par 79 kJ/mol e 69 s está na alternativa A."
+      }
+    ],
+    "pitfalls": [
+      "Reduzir a energia de ativação dez vezes.",
+      "Usar a constante sem catalisador no cálculo do tempo."
+    ],
+    "takeaway": "Arrhenius relaciona a mudança de k à barreira; a lei integrada fornece o tempo para a concentração desejada."
+  },
+  "ita-2026-fase1-30": {
+    "topic": "Ebulição e concentração por perda de solvente",
+    "vocabulary": [
+      "Ebulioscopia: elevação da temperatura de ebulição pelo soluto.",
+      "Molalidade: mol de soluto por quilograma de solvente.",
+      "Calor latente: energia necessária por massa que muda de fase."
+    ],
+    "steps": [
+      {
+        "title": "Conte as partículas em solução",
+        "text": "A ⇌ B troca uma espécie por outra na proporção um para um. Mesmo no equilíbrio, o total dissolvido de A mais B permanece um mol."
+      },
+      {
+        "title": "Use a elevação ebulioscópica",
+        "text": "O alvo do item é ΔTeb = 1,04 °C. Como ΔTeb = Keb·molalidade, a molalidade final é 1,04/0,52 = 2 mol/kg."
+      },
+      {
+        "title": "Determine a água restante",
+        "text": "Um mol de soluto a 2 mol/kg requer 0,5 kg de água. Dos 1000 g iniciais, devem evaporar 500 g."
+      },
+      {
+        "title": "Calcule a taxa de evaporação",
+        "text": "A potência térmica é 540 cal/s e o calor de vaporização é 540 cal/g. Assim, evapora um grama de água por segundo."
+      },
+      {
+        "title": "Encontre o tempo",
+        "text": "Evaporar 500 g a 1 g/s demanda 500 s, alternativa B. Não se multiplica a quantidade de partículas apenas por haver duas espécies."
+      }
+    ],
+    "pitfalls": [
+      "Contar um mol inteiro de A e outro inteiro de B no equilíbrio.",
+      "Usar massa da solução no lugar de massa do solvente na molalidade."
+    ],
+    "takeaway": "A quantidade total de partículas e a massa de solvente controlam o efeito coligativo."
+  },
+  "ita-2026-fase1-31": {
+    "topic": "Pressão de vapor e progresso de uma reação",
+    "vocabulary": [
+      "Lei de Raoult: pressão de vapor proporcional à fração molar do solvente.",
+      "Extensão da reação: quantidade de reagente convertida.",
+      "Meia-vida: intervalo que reduz pela metade o reagente em primeira ordem."
+    ],
+    "steps": [
+      {
+        "title": "Conte os mols de água",
+        "text": "A solução contém 90 g de água, aproximadamente cinco mols. Se x mol de A reagiu, restam 1 − x de A e surgem 3x de B."
+      },
+      {
+        "title": "Escreva a pressão",
+        "text": "O total de soluto é 1 + 2x. Pela lei de Raoult, P = 24×5/(6 + 2x), pois apenas a água é volátil."
+      },
+      {
+        "title": "Use o dado de vinte horas",
+        "text": "Com P = 16 mmHg, 6 + 2x = 7,5, resultando em x = 0,75. Resta um quarto de A após vinte horas."
+      },
+      {
+        "title": "Avance dez horas",
+        "text": "A reação elementar A → 3B é de primeira ordem. Se vinte horas equivalem a duas meias-vidas, a meia-vida é dez horas; após trinta horas resta 0,125 mol de A."
+      },
+      {
+        "title": "Recalcule a pressão",
+        "text": "Agora x = 0,875 e P = 120/(6 + 1,75) ≈ 15,48 mmHg. Esse é o valor da alternativa E."
+      }
+    ],
+    "pitfalls": [
+      "Aplicar pressão proporcional apenas à concentração de A.",
+      "Usar decaimento linear em vez de primeira ordem."
+    ],
+    "takeaway": "A pressão de vapor permite contar partículas; a estequiometria transforma essa contagem em progresso e tempo de reação."
+  },
+  "ita-2026-fase1-35": {
+    "topic": "Unidade repetitiva e produção de PET",
+    "vocabulary": [
+      "Policondensação: formação de polímero com eliminação de moléculas pequenas.",
+      "Unidade repetitiva: bloco estrutural da cadeia.",
+      "Grau de polimerização: quantidade média de unidades por cadeia."
+    ],
+    "steps": [
+      {
+        "title": "Monte a unidade repetitiva",
+        "text": "Um ácido tereftálico e um etilenoglicol formam duas ligações éster, com eliminação de duas águas por unidade na aproximação usual de cadeia longa."
+      },
+      {
+        "title": "Calcule sua massa molar",
+        "text": "Com as massas atômicas do caderno, 166,14 + 62,07 − 2×18,02 ≈ 192,17 g/mol."
+      },
+      {
+        "title": "Encontre a produção",
+        "text": "Os 332 g de ácido representam aproximadamente dois mols. Com reagente complementar em excesso e rendimento total, são cerca de 384,34 g de PET."
+      },
+      {
+        "title": "Use a densidade",
+        "text": "O volume é massa/densidade = 384,34/1,38 ≈ 278,51 cm³, sem confundir densidade com massa molar."
+      },
+      {
+        "title": "Conte as unidades por cadeia",
+        "text": "Divida 38400 por 192,17: aproximadamente 200 unidades. O conjunto dos quatro valores corresponde à alternativa A."
+      }
+    ],
+    "pitfalls": [
+      "Somar massas dos monômeros sem retirar água.",
+      "Multiplicar a massa pela densidade para obter volume."
+    ],
+    "takeaway": "Na policondensação, desconte as moléculas eliminadas antes de calcular produção e tamanho médio da cadeia."
+  },
+  "unicamp-2026-fase1-43": {
+    "topic": "Comparação de reajustes salariais",
+    "vocabulary": [
+      "Reajuste composto: aumento aplicado sobre o valor já reajustado.",
+      "Montante: total acumulado.",
+      "Base percentual: valor usado no denominador da comparação."
+    ],
+    "steps": [
+      {
+        "title": "Represente o salário inicial",
+        "text": "Chame o salário mensal de S. Na proposta 1, ele passa a 1,5S e permanece assim durante os três anos."
+      },
+      {
+        "title": "Some a primeira proposta",
+        "text": "São 36 salários de 1,5S, totalizando 54S. O valor mensal não recebe aumentos adicionais."
+      },
+      {
+        "title": "Some a segunda proposta",
+        "text": "Os salários mensais nos três anos são 1,2S, 1,44S e 1,728S. O total é 12S(1,2 + 1,44 + 1,728) = 52,416S."
+      },
+      {
+        "title": "Compare os totais",
+        "text": "A vantagem da proposta 1 é 54S − 52,416S = 1,584S. Dividindo pelo total da proposta 2, obtemos cerca de 0,0302."
+      },
+      {
+        "title": "Converta a diferença",
+        "text": "A proposta 1 rende aproximadamente 3% a mais, alternativa A. Comparar apenas o último salário não responde ao total recebido."
+      }
+    ],
+    "pitfalls": [
+      "Somar três aumentos de vinte por cento como sessenta por cento.",
+      "Comparar apenas o salário do terceiro ano."
+    ],
+    "takeaway": "Para comparar propostas ao longo do tempo, some os recebimentos de cada período antes de calcular a diferença percentual."
+  },
+  "unicamp-2026-fase1-45": {
+    "topic": "Grau de soma e produto de polinômios",
+    "vocabulary": [
+      "Grau: maior expoente de termo não nulo.",
+      "Coeficiente líder: coeficiente do termo de maior grau.",
+      "Cancelamento: anulação de termos ao somar expressões."
+    ],
+    "steps": [
+      {
+        "title": "Use o produto",
+        "text": "O grau de um produto de polinômios não nulos é a soma dos graus. Logo, grau(p) + grau(q) = 8."
+      },
+      {
+        "title": "Compare com a soma",
+        "text": "Se os graus fossem diferentes, a soma teria o maior deles. Esse maior grau seria pelo menos quatro, contrariando o grau três fornecido."
+      },
+      {
+        "title": "Conclua que os graus coincidem",
+        "text": "Eles precisam ser iguais e somar oito. Portanto, ambos têm grau quatro."
+      },
+      {
+        "title": "Analise os coeficientes líderes",
+        "text": "Para que p + q perca o termo de grau quatro, seus coeficientes líderes são opostos e não nulos."
+      },
+      {
+        "title": "Subtraia em vez de somar",
+        "text": "Em p − q, esses coeficientes se reforçam. O termo de grau quatro permanece: alternativa B."
+      }
+    ],
+    "pitfalls": [
+      "Achar que graus sempre se somam na adição.",
+      "Supor que o cancelamento da soma se repete na diferença."
+    ],
+    "takeaway": "No produto, graus se somam; na soma, verifique se os termos líderes se cancelam."
+  },
+  "unicamp-2026-fase1-49": {
+    "topic": "Exatamente dois brinquedos devolvidos aos donos",
+    "vocabulary": [
+      "Permutação: distribuição de objetos distintos.",
+      "Ponto fixo: criança que recebe o próprio brinquedo.",
+      "Desarranjo: distribuição sem ponto fixo."
+    ],
+    "steps": [
+      {
+        "title": "Conte todas as distribuições",
+        "text": "Cinco brinquedos distintos podem ser entregues às cinco crianças de 5! = 120 maneiras, todas igualmente prováveis no modelo."
+      },
+      {
+        "title": "Escolha os dois acertos",
+        "text": "Escolhemos quais duas crianças recebem seus brinquedos: C(5,2) = 10 possibilidades."
+      },
+      {
+        "title": "Impeça novos acertos",
+        "text": "As outras três crianças precisam receber brinquedos trocados. Existem apenas dois desarranjos de três objetos, os dois ciclos de comprimento três."
+      },
+      {
+        "title": "Conte os casos favoráveis",
+        "text": "Multiplicamos 10 escolhas de crianças por 2 trocas possíveis, obtendo 20 distribuições com exatamente dois acertos."
+      },
+      {
+        "title": "Calcule a probabilidade",
+        "text": "A razão 20/120 simplifica para 1/6, alternativa B. Distribuições com três ou mais acertos não entram nessa contagem."
+      }
+    ],
+    "pitfalls": [
+      "Permitir que alguma das três crianças restantes receba o próprio brinquedo.",
+      "Usar eventos independentes para retiradas sem reposição."
+    ],
+    "takeaway": "“Exatamente” exige escolher os acertos e impedir qualquer acerto adicional."
+  },
+  "unicamp-2026-fase1-52": {
+    "topic": "Equilibrando força e astúcia de uma tropa",
+    "vocabulary": [
+      "Sistema linear: conjunto de equações simultâneas.",
+      "Incógnita: quantidade desconhecida.",
+      "Pontuação total: soma das contribuições individuais."
+    ],
+    "steps": [
+      {
+        "title": "Defina as quantidades",
+        "text": "Seja s o número de soldados e e o de estrategistas. O total de combatentes impõe s + e = 100."
+      },
+      {
+        "title": "Some os pontos de força",
+        "text": "Cada soldado contribui com 70 e cada estrategista com 20. A força total é 70s + 20e."
+      },
+      {
+        "title": "Some os pontos de astúcia",
+        "text": "Os valores são 30 por soldado e 80 por estrategista. A astúcia total é 30s + 80e."
+      },
+      {
+        "title": "Iguale as pontuações",
+        "text": "De 70s + 20e = 30s + 80e, obtemos 40s = 60e, isto é, 2s = 3e."
+      },
+      {
+        "title": "Resolva com o total",
+        "text": "A proporção s:e = 3:2 em cem combatentes fornece 60 soldados e 40 estrategistas, alternativa B. Ambos os totais valem 5000 pontos."
+      }
+    ],
+    "pitfalls": [
+      "Confundir força e astúcia na montagem da equação.",
+      "Escolher cinquenta de cada tipo sem comparar os valores."
+    ],
+    "takeaway": "Equilíbrio entre somas ponderadas deve ser escrito como uma igualdade, junto da restrição de quantidade total."
+  },
+  "unicamp-2026-fase1-9": {
+    "topic": "Carga elétrica fornecida por uma bateria",
+    "vocabulary": [
+      "Corrente: carga por unidade de tempo.",
+      "Coulomb: unidade de carga elétrica.",
+      "Miliampère: milésima parte de um ampère."
+    ],
+    "steps": [
+      {
+        "title": "Identifique a relação",
+        "text": "Quando a corrente é constante, a carga transferida é Q = iΔt. Corrente e tempo precisam estar em unidades compatíveis."
+      },
+      {
+        "title": "Converta a corrente",
+        "text": "4000 mA equivalem a 4 A, pois mil miliampères correspondem a um ampère."
+      },
+      {
+        "title": "Converta o intervalo",
+        "text": "Uma hora tem 3600 segundos. Usar segundos permite obter a carga diretamente em coulombs."
+      },
+      {
+        "title": "Multiplique as grandezas",
+        "text": "Q = 4×3600 = 14400 C. A unidade ampère equivale a coulomb por segundo."
+      },
+      {
+        "title": "Compare as alternativas",
+        "text": "A carga é 14400 C, alternativa C. O valor 4000 descreve a capacidade em mAh, não a carga em coulombs."
+      }
+    ],
+    "pitfalls": [
+      "Tratar miliampère como ampère.",
+      "Usar uma hora como se fosse um segundo."
+    ],
+    "takeaway": "Para converter Ah ou mAh em coulombs, use ampères e multiplique o tempo por 3600 segundos por hora."
+  },
+  "unicamp-2026-fase1-10": {
+    "topic": "Tensão nos terminais de uma bateria real",
+    "vocabulary": [
+      "Força eletromotriz: energia fornecida por carga pela fonte.",
+      "Resistência interna: resistência do modelo da própria bateria.",
+      "Tensão terminal: diferença de potencial disponível no circuito externo."
+    ],
+    "steps": [
+      {
+        "title": "Leia o circuito",
+        "text": "A fonte de 3,6 V está em série com resistência interna de 1,2 Ω e carga de 6,0 Ω. O voltímetro ideal mede a tensão sobre a carga."
+      },
+      {
+        "title": "Some as resistências",
+        "text": "Como os resistores estão em série, a resistência total é 1,2 + 6,0 = 7,2 Ω."
+      },
+      {
+        "title": "Encontre a corrente",
+        "text": "Pela lei de Ohm aplicada ao circuito inteiro, i = 3,6/7,2 = 0,5 A."
+      },
+      {
+        "title": "Calcule a tensão externa",
+        "text": "Na carga, U = iR = 0,5×6 = 3,0 V. A resistência interna consome os 0,6 V restantes."
+      },
+      {
+        "title": "Confira a medida",
+        "text": "O voltímetro registra 3,0 V, alternativa B. Uma bateria real sob carga não entrega necessariamente toda a força eletromotriz nos terminais."
+      }
+    ],
+    "pitfalls": [
+      "Responder diretamente 3,6 V ignorando a resistência interna.",
+      "Somar resistências como se estivessem em paralelo."
+    ],
+    "takeaway": "Em uma fonte real, subtraia a queda de tensão interna para obter a tensão entregue ao dispositivo."
+  },
+  "unicamp-2026-fase1-11": {
+    "topic": "Energia de bateria e elevação de uma massa",
+    "vocabulary": [
+      "Watt-hora: energia de um watt fornecido por uma hora.",
+      "Joule: unidade SI de energia.",
+      "Energia potencial gravitacional: mgh."
+    ],
+    "steps": [
+      {
+        "title": "Reconheça a unidade fornecida",
+        "text": "A bateria armazena 15 Wh, uma quantidade de energia. Ela não informa uma potência de quinze watts durante qualquer tempo."
+      },
+      {
+        "title": "Converta para joules",
+        "text": "Cada Wh equivale a 3600 J. Assim, Eb = 15×3600 = 54000 J."
+      },
+      {
+        "title": "Escreva a elevação",
+        "text": "A variação de energia potencial ao elevar 45 kg por y metros é Ep = 45×10×y = 450y."
+      },
+      {
+        "title": "Iguale as energias",
+        "text": "A condição pedida é 450y = 54000. Dividir ambos os lados por 450 fornece y = 120 m."
+      },
+      {
+        "title": "Compare o resultado",
+        "text": "A altura encontrada é a da alternativa C. O cálculo iguala energias sem incluir perdas, conforme a hipótese da pergunta."
+      }
+    ],
+    "pitfalls": [
+      "Confundir Wh com W.",
+      "Usar a massa da bateria no lugar da massa elevada."
+    ],
+    "takeaway": "Converta a energia para joules antes de igualá-la à expressão mgh."
+  },
+  "unicamp-2026-fase1-12": {
+    "topic": "Lente usada como lupa",
+    "vocabulary": [
+      "Imagem direita: tem a mesma orientação do objeto.",
+      "Lente convergente: reúne raios incidentes paralelos.",
+      "Imagem virtual: formada pelo prolongamento dos raios."
+    ],
+    "steps": [
+      {
+        "title": "Liste as propriedades",
+        "text": "A imagem precisa ser direita e maior que o objeto. Essas duas exigências restringem o tipo de lente e a posição do objeto."
+      },
+      {
+        "title": "Examine a lente divergente",
+        "text": "Para um objeto real, uma lente divergente produz imagem virtual, direita e menor. Ela não satisfaz o aumento pedido."
+      },
+      {
+        "title": "Examine a convergente",
+        "text": "Uma convergente pode produzir imagem virtual, direita e ampliada quando funciona como uma lupa."
+      },
+      {
+        "title": "Posicione o objeto",
+        "text": "Para isso, o objeto deve ficar entre a lente e o foco, com distância positiva menor que a distância focal."
+      },
+      {
+        "title": "Escolha a descrição completa",
+        "text": "A alternativa A reúne lente convergente e objeto a distância menor que f. Além do foco, a imagem real seria invertida."
+      }
+    ],
+    "pitfalls": [
+      "Escolher divergente apenas porque a imagem é direita.",
+      "Colocar o objeto além do foco e esperar imagem direita."
+    ],
+    "takeaway": "Imagem direita e ampliada de objeto real caracteriza o funcionamento de uma lente convergente como lupa."
+  },
+  "unicamp-2026-fase1-67": {
+    "topic": "Acidificação do oceano e carbonatos",
+    "vocabulary": [
+      "Equilíbrio químico: coexistência dinâmica de reagentes e produtos.",
+      "Carbonato: íon CO₃²⁻.",
+      "pH: medida relacionada à concentração de íons H⁺."
+    ],
+    "steps": [
+      {
+        "title": "Siga o carbono dissolvido",
+        "text": "O aumento de CO₂ atmosférico favorece sua dissolução e a formação de espécies ácidas em água. O pH diminui, não aumenta."
+      },
+      {
+        "title": "Relacione H⁺ e carbonato",
+        "text": "Íons H⁺ reagem com CO₃²⁻ para formar bicarbonato. Assim, a acidificação diminui a disponibilidade de carbonato."
+      },
+      {
+        "title": "Identifique o material dos corais",
+        "text": "O esqueleto contém CaCO₃. Sua formação depende da disponibilidade de Ca²⁺ e CO₃²⁻, espécies indicadas no esquema."
+      },
+      {
+        "title": "Leia as letras e os eixos",
+        "text": "No infográfico, A e C representam CO₃²⁻ e B representa CaCO₃. A concentração atmosférica de CO₂ está no eixo X e a de carbonato no Y."
+      },
+      {
+        "title": "Combine as informações",
+        "text": "Menor pH e menor disponibilidade de carbonato favorecem a degradação dos corais. A alternativa B reúne as espécies e os eixos corretos."
+      }
+    ],
+    "pitfalls": [
+      "Afirmar que dissolver CO₂ aumenta o pH.",
+      "Trocar o íon carbonato pelo sólido carbonato de cálcio."
+    ],
+    "takeaway": "O aumento de acidez reduz o carbonato disponível para formar estruturas de CaCO₃."
+  },
+  "unicamp-2026-fase1-68": {
+    "topic": "Combustíveis: energia por massa e por volume",
+    "vocabulary": [
+      "Energia específica: energia por unidade de massa.",
+      "Densidade: massa por volume.",
+      "Massa molar: massa de um mol de combustível."
+    ],
+    "steps": [
+      {
+        "title": "Escolha a comparação",
+        "text": "Para a mesma energia produzida, precisamos comparar energia por massa e energia por volume. Energia por mol isolada não basta."
+      },
+      {
+        "title": "Calcule para o hidrogênio",
+        "text": "A energia por massa é 240/2 = 120 kJ/g. Multiplicando pela densidade 0,071 g/cm³, temos 8,52 kJ/cm³."
+      },
+      {
+        "title": "Calcule para o querosene",
+        "text": "A energia por massa é 6745/153 ≈ 44,1 kJ/g. Com densidade 0,804, são aproximadamente 35,4 kJ/cm³."
+      },
+      {
+        "title": "Compare as vantagens",
+        "text": "O hidrogênio libera mais energia por grama, exigindo menor massa para a mesma energia. Porém, sua energia por volume é menor."
+      },
+      {
+        "title": "Escolha a afirmação",
+        "text": "A vantagem verdadeira nas alternativas é sua maior razão energia por massa, alternativa C. Menor massa não implica menor volume."
+      }
+    ],
+    "pitfalls": [
+      "Comparar apenas os valores por mol.",
+      "Achar que a menor massa implica o menor volume."
+    ],
+    "takeaway": "Normalize pela grandeza relevante: energia por massa e energia por volume respondem a limitações diferentes."
+  },
+  "unicamp-2026-fase1-69": {
+    "topic": "Captura de CO₂ e aumento de massa",
+    "vocabulary": [
+      "Adsorção: retenção de espécies na superfície de um material.",
+      "Milimol: milésima parte de um mol.",
+      "Variação percentual: variação dividida pelo valor inicial, vezes cem."
+    ],
+    "steps": [
+      {
+        "title": "Leia o patamar do gráfico",
+        "text": "Após aproximadamente 65 min, o sólido capturou cerca de 3,0 mmol de CO₂ por grama de material."
+      },
+      {
+        "title": "Escolha uma base",
+        "text": "Em um grama de K₄Ti(O₂)₄, há 1/332,3 ≈ 0,00301 mol do composto. O CO₂ capturado corresponde a 0,0030 mol."
+      },
+      {
+        "title": "Calcule a razão molar",
+        "text": "Dividir 0,0030 por 0,00301 resulta em aproximadamente um mol de CO₂ por mol de sólido."
+      },
+      {
+        "title": "Calcule a massa acrescentada",
+        "text": "A massa do gás retido é 0,0030×44 = 0,132 g por grama inicial. A massa inicial é a base do percentual."
+      },
+      {
+        "title": "Converta a porcentagem",
+        "text": "O aumento é 0,132/1×100 = 13,2%, aproximadamente 13%. Razão molar um e aumento 13% formam a alternativa B."
+      }
+    ],
+    "pitfalls": [
+      "Confundir mmol por grama com mol por mol.",
+      "Usar a massa final como denominador do aumento percentual."
+    ],
+    "takeaway": "Adote uma massa inicial simples e converta separadamente a quantidade de gás para mol e para gramas."
+  },
+  "unicamp-2026-fase1-70": {
+    "topic": "Reagentes consumidos no processo Solvay",
+    "vocabulary": [
+      "Fluxo contínuo: entrada e saída permanente de materiais.",
+      "Regeneração: recuperação de um reagente durante o processo.",
+      "Reação global: soma das etapas com cancelamento de intermediários."
+    ],
+    "steps": [
+      {
+        "title": "Acompanhe a entrada de sódio",
+        "text": "O NaCl da salmoura fornece sódio para o carbonato de sódio produzido. Por isso, a salmoura precisa ser continuamente reposta."
+      },
+      {
+        "title": "Acompanhe o calcário",
+        "text": "O CaCO₃ fornece CO₂ e CaO em etapas do processo. O cálcio termina como CaCl₂, em vez de ser totalmente recuperado como calcário."
+      },
+      {
+        "title": "Siga a amônia",
+        "text": "A amônia participa da precipitação e é recuperada em uma etapa posterior a partir de NH₄Cl. No modelo ideal do item, ela circula internamente."
+      },
+      {
+        "title": "Some as etapas",
+        "text": "Cancelando intermediários, a reação global é 2NaCl + CaCO₃ → Na₂CO₃ + CaCl₂. Ela mostra os reagentes efetivamente consumidos."
+      },
+      {
+        "title": "Escolha a alimentação",
+        "text": "É necessário adicionar salmoura e calcário, pois a amônia é regenerada. Essa é a alternativa A, sob as hipóteses do fluxograma."
+      }
+    ],
+    "pitfalls": [
+      "Repor todo intermediário como se fosse consumido globalmente.",
+      "Afirmar que todo o CO₂ é regenerado."
+    ],
+    "takeaway": "Em processos de várias etapas, a reação global distingue reagentes consumidos de espécies regeneradas."
+  },
+  "unesp-2026-fase1-84": {
+    "topic": "Interpolação em um decaimento linear",
+    "vocabulary": [
+      "Função afim: função de taxa de variação constante.",
+      "Interpolação: estimativa entre dois pontos conhecidos.",
+      "Taxa de variação: mudança da saída por unidade de entrada."
+    ],
+    "steps": [
+      {
+        "title": "Escolha a origem do tempo",
+        "text": "Tome 1901 como t = 0. A potência inicial era 60 W, e em 2025, após 124 anos, ela era aproximadamente 4 W."
+      },
+      {
+        "title": "Calcule a taxa",
+        "text": "A queda total foi 56 W em 124 anos. A taxa linear é (4 − 60)/124 = −56/124 W por ano."
+      },
+      {
+        "title": "Localize o centenário",
+        "text": "Cem anos de funcionamento correspondem a t = 100, ou ao ano 2001. Não use o ano 2025 nessa etapa."
+      },
+      {
+        "title": "Aplique a função",
+        "text": "P(100) = 60 − (56/124)×100 ≈ 14,84 W. O modelo considera uma queda constante."
+      },
+      {
+        "title": "Compare as aproximações",
+        "text": "A alternativa C fornece 14,8 W, o valor mais próximo. A hipótese linear é a da questão, não uma lei geral de envelhecimento de lâmpadas."
+      }
+    ],
+    "pitfalls": [
+      "Usar 2025 como duração em anos.",
+      "Aplicar decaimento exponencial quando o item pede linear."
+    ],
+    "takeaway": "Use diferenças de tempo e uma taxa constante para interpolar entre os pontos de uma função afim."
+  },
+  "unesp-2026-fase1-85": {
+    "topic": "Consumo per capita e bases percentuais",
+    "vocabulary": [
+      "Per capita: por pessoa.",
+      "PIB: valor total de produção considerado na comparação.",
+      "Crescimento relativo: diferença dividida pelo valor inicial."
+    ],
+    "steps": [
+      {
+        "title": "Calcule o consumo em 1998",
+        "text": "Os 20% mais pobres consumiam 1,3% de 3,2×10¹³ dólares. Esse consumo era dividido por 20% de 6×10⁹ pessoas."
+      },
+      {
+        "title": "Obtenha o valor individual inicial",
+        "text": "A conta é (0,013×3,2×10¹³)/(0,2×6×10⁹) ≈ US$ 346,67 por pessoa."
+      },
+      {
+        "title": "Calcule o valor em 2013",
+        "text": "A nova razão é (0,01×7,8×10¹³)/(0,2×7,3×10⁹) ≈ US$ 534,25 por pessoa."
+      },
+      {
+        "title": "Compare por pessoa",
+        "text": "O aumento relativo é (534,25/346,67 − 1)×100 ≈ 54,1%. A população também cresceu e precisa entrar no denominador."
+      },
+      {
+        "title": "Escolha o intervalo",
+        "text": "O aumento fica entre 50% e 60%, alternativa D. A redução da participação percentual não significa necessariamente redução do valor individual."
+      }
+    ],
+    "pitfalls": [
+      "Comparar somente os percentuais de participação.",
+      "Usar o crescimento do PIB como crescimento automático per capita."
+    ],
+    "takeaway": "Em comparações por pessoa, calcule a parcela do total e divida pela população correspondente em cada período."
+  },
+  "unesp-2026-fase1-88": {
+    "topic": "Cilindro inscrito em uma pirâmide",
+    "vocabulary": [
+      "Semelhança: igualdade das razões entre medidas correspondentes.",
+      "Seção paralela: corte paralelo à base.",
+      "Diâmetro: duas vezes o raio."
+    ],
+    "steps": [
+      {
+        "title": "Leia as dimensões",
+        "text": "A pirâmide tem base quadrada de lado 8 m e altura 10 m. O cilindro tem raio 1 m, logo seu diâmetro é 2 m."
+      },
+      {
+        "title": "Considere a seção no topo",
+        "text": "Na altura h, uma seção da pirâmide paralela à base é um quadrado. Seu lado diminui linearmente conforme nos aproximamos do vértice."
+      },
+      {
+        "title": "Use semelhança",
+        "text": "A razão entre o lado da seção e 8 é (10 − h)/10. Portanto, o lado disponível é 8(1 − h/10)."
+      },
+      {
+        "title": "Imponha o ajuste máximo",
+        "text": "Para que o círculo de raio um caiba no quadrado, o lado precisa ser pelo menos dois. Na altura máxima, 8(1 − h/10) = 2."
+      },
+      {
+        "title": "Resolva a altura",
+        "text": "Segue 1 − h/10 = 1/4, de onde h = 7,5 m. O valor está na alternativa A."
+      }
+    ],
+    "pitfalls": [
+      "Usar o raio como largura total do cilindro.",
+      "Confundir a altura medida desde a base com a distância ao vértice."
+    ],
+    "takeaway": "Um sólido inscrito encontra seu limite quando sua largura coincide com a seção disponível do sólido externo."
+  },
+  "unesp-2026-fase1-90": {
+    "topic": "Ganho acumulado em reapostas",
+    "vocabulary": [
+      "Progressão geométrica: sequência de razão multiplicativa constante.",
+      "Retenção: parcela que não volta aos jogadores.",
+      "Soma parcial: soma de uma quantidade finita de termos."
+    ],
+    "steps": [
+      {
+        "title": "Conte a primeira retenção",
+        "text": "Na primeira aposta de R reais, a empresa retém 0,07R e devolve 0,93R aos jogadores."
+      },
+      {
+        "title": "Acompanhe as reapostas",
+        "text": "Na rodada seguinte, ela retém 0,07×0,93R. Cada retenção é 0,93 vezes a anterior."
+      },
+      {
+        "title": "Escreva a soma",
+        "text": "Após x rodadas, G(x) = 0,07R[1 + 0,93 + … + 0,93^(x − 1)]. Trata-se de uma PG."
+      },
+      {
+        "title": "Aplique a fórmula da PG",
+        "text": "A soma entre colchetes é (1 − 0,93ˣ)/(1 − 0,93). Como o denominador é 0,07, ele cancela o fator inicial."
+      },
+      {
+        "title": "Confira o resultado",
+        "text": "G(x) = R(1 − 0,93ˣ), alternativa B. Para x = 1, retorna 0,07R, coerente com a primeira rodada."
+      }
+    ],
+    "pitfalls": [
+      "Usar a taxa de lucro como razão da PG.",
+      "Somar o dinheiro devolvido como se fosse lucro da empresa."
+    ],
+    "takeaway": "Retenções repetidas sobre um saldo decrescente formam uma PG cuja soma mede o ganho acumulado."
+  },
+  "unesp-2026-fase1-76": {
+    "topic": "Aceleração média em movimento harmônico",
+    "vocabulary": [
+      "Velocidade instantânea: velocidade em um instante.",
+      "Aceleração média: variação de velocidade dividida pelo intervalo.",
+      "Seno: função trigonométrica periódica."
+    ],
+    "steps": [
+      {
+        "title": "Leia a expressão completa",
+        "text": "A figura fornece v(t) = −(0,3π/2)sen(πt/2), com t em segundos. A questão pede aceleração média, não a derivada em um ponto."
+      },
+      {
+        "title": "Avalie o instante inicial",
+        "text": "Em t = 1 s, o seno vale sen(π/2) = 1. Logo, v(1) = −0,15π m/s."
+      },
+      {
+        "title": "Avalie o instante final",
+        "text": "Em t = 4 s, o seno vale sen(2π) = 0. Portanto, v(4) = 0 m/s."
+      },
+      {
+        "title": "Monte a variação",
+        "text": "A aceleração média é [v(4) − v(1)]/(4 − 1) = [0 − (−0,15π)]/3."
+      },
+      {
+        "title": "Conclua com a unidade",
+        "text": "O resultado é 0,05π m/s², alternativa A. O sinal é positivo porque a velocidade final é maior que a inicial negativa."
+      }
+    ],
+    "pitfalls": [
+      "Dividir pelo instante final em vez do intervalo.",
+      "Calcular aceleração instantânea no lugar da média."
+    ],
+    "takeaway": "A aceleração média usa somente as velocidades nas extremidades e a duração entre elas."
+  },
+  "unesp-2026-fase1-77": {
+    "topic": "Rotação da Terra: gravidade e aceleração centrípeta",
+    "vocabulary": [
+      "Latitude: ângulo da posição em relação ao plano equatorial.",
+      "Aceleração centrípeta: aponta para o eixo da trajetória circular.",
+      "Força gravitacional: atração dirigida ao centro da Terra no modelo esférico."
+    ],
+    "steps": [
+      {
+        "title": "Identifique a trajetória",
+        "text": "Um morador fixo em Oslo acompanha um círculo de latitude devido à rotação da Terra. O centro desse círculo está no eixo terrestre."
+      },
+      {
+        "title": "Localize a aceleração",
+        "text": "A aceleração centrípeta aponta do morador para o eixo de rotação, paralelamente ao plano equatorial."
+      },
+      {
+        "title": "Localize a gravidade",
+        "text": "A força gravitacional aponta radialmente para o centro da Terra, e não para o centro do círculo de latitude."
+      },
+      {
+        "title": "Compare as direções",
+        "text": "O raio que passa por Oslo forma 60 graus com o plano equatorial. Ao inverter ambas as direções para apontarem para dentro, o ângulo continua 60 graus."
+      },
+      {
+        "title": "Escolha o valor",
+        "text": "O ângulo pedido é a latitude de 60 graus, alternativa B. A longitude de 11 graus não altera essa relação."
+      }
+    ],
+    "pitfalls": [
+      "Direcionar a aceleração centrípeta ao centro da Terra em qualquer latitude.",
+      "Usar a longitude no lugar da latitude."
+    ],
+    "takeaway": "Na rotação terrestre, a aceleração centrípeta aponta para o eixo, enquanto a gravidade aponta para o centro."
+  },
+  "unesp-2026-fase1-80": {
+    "topic": "Comprimento de onda da luz e fototropismo",
+    "vocabulary": [
+      "Comprimento de onda: distância de repetição espacial de uma onda.",
+      "Frequência: número de oscilações por segundo.",
+      "Fototropismo: crescimento orientado pela direção da luz."
+    ],
+    "steps": [
+      {
+        "title": "Identifique a luz detectada",
+        "text": "O texto informa que as fototropinas respondem à luz azul. No espectro visível, o azul tem comprimento menor que o vermelho."
+      },
+      {
+        "title": "Relacione frequência e comprimento",
+        "text": "Para propagação no mesmo meio, v = λf. Um menor comprimento de onda corresponde a maior frequência."
+      },
+      {
+        "title": "Acompanhe a auxina",
+        "text": "Na situação descrita, a auxina se concentra no lado sombreado do caule, estimulando maior alongamento celular nessa região."
+      },
+      {
+        "title": "Explique a curvatura",
+        "text": "O lado sombreado se alonga mais que o lado iluminado. Isso curva a muda em direção à fonte luminosa."
+      },
+      {
+        "title": "Combine as duas partes",
+        "text": "A alternativa A associa menores comprimentos de onda à maior concentração de auxina no lado sombreado, conforme texto e figura."
+      }
+    ],
+    "pitfalls": [
+      "Trocar o lado sombreado pelo iluminado.",
+      "Afirmar que luz azul tem maior comprimento que a vermelha."
+    ],
+    "takeaway": "Em questões interdisciplinares, confira tanto a propriedade física da luz quanto a resposta biológica descrita."
+  },
+  "unesp-2026-fase1-81": {
+    "topic": "Campo elétrico e força sobre um íon",
+    "vocabulary": [
+      "Campo elétrico: força por unidade de carga.",
+      "Diferença de potencial: energia por carga entre posições.",
+      "Íon: espécie química com carga elétrica líquida."
+    ],
+    "steps": [
+      {
+        "title": "Converta a distância",
+        "text": "A separação dos eletrodos é 5 mm, ou 0,005 m. A tensão entre eles é 4 V e o campo é uniforme."
+      },
+      {
+        "title": "Calcule o campo",
+        "text": "No modelo de placas com campo uniforme, E = U/d = 4/0,005 = 800 V/m."
+      },
+      {
+        "title": "Use a carga do íon",
+        "text": "Cada íon de lítio tem carga positiva de 1,6×10⁻¹⁹ C. A pergunta pede o módulo da força sobre um único íon."
+      },
+      {
+        "title": "Multiplique campo por carga",
+        "text": "Multiplicando a carga pelo campo, F = qE = 1,6×10⁻¹⁹×800 = 1,28×10⁻¹⁶ N. A unidade C·V/m equivale a newton."
+      },
+      {
+        "title": "Confira a alternativa",
+        "text": "O resultado corresponde à alternativa C. A carga positiva determina o sentido da força, mas não altera o cálculo de seu módulo."
+      }
+    ],
+    "pitfalls": [
+      "Usar cinco metros no lugar de cinco milímetros.",
+      "Confundir campo elétrico com força."
+    ],
+    "takeaway": "Calcule primeiro o campo pela tensão e separação; depois multiplique pela carga da partícula."
+  },
+  "unesp-2026-fase1-71": {
+    "topic": "Quantidade de manganês produzida a partir do minério",
+    "vocabulary": [
+      "Estequiometria: proporções de uma reação química.",
+      "Massa molar: massa correspondente a um mol.",
+      "Íon: átomo ou grupo com carga elétrica."
+    ],
+    "steps": [
+      {
+        "title": "Acompanhe o manganês",
+        "text": "Cada unidade de MnO₂ contém um átomo de manganês. Ao formar MnSO₄, cada unidade fornece um íon Mn²⁺."
+      },
+      {
+        "title": "Confira o balanceamento",
+        "text": "Uma forma balanceada é 2MnO₂ + 2H₂SO₄ → 2MnSO₄ + O₂ + 2H₂O. A proporção MnO₂:Mn²⁺ é um para um."
+      },
+      {
+        "title": "Calcule a massa molar",
+        "text": "Usando Mn ≈ 54,9 e O = 16, a massa molar do MnO₂ é aproximadamente 86,9 g/mol."
+      },
+      {
+        "title": "Converta a massa",
+        "text": "Os 869 kg correspondem a 869000 g. Dividindo por 86,9 g/mol, encontramos aproximadamente 10000 mol de MnO₂."
+      },
+      {
+        "title": "Use a proporção",
+        "text": "Com reação completa e ácido em excesso, surgem 10000 mol de Mn²⁺, alternativa C. A eletrólise posterior não muda essa contagem inicial."
+      }
+    ],
+    "pitfalls": [
+      "Usar quilogramas diretamente com massa molar em g/mol.",
+      "Achar que o índice dois do oxigênio duplica o manganês."
+    ],
+    "takeaway": "A conservação dos átomos do metal fornece a proporção entre o minério e os íons produzidos."
+  },
+  "unesp-2026-fase1-72": {
+    "topic": "Hidrólise de sais e pH próximo de sete",
+    "vocabulary": [
+      "Hidrólise: reação de um íon com água.",
+      "Ácido conjugado: espécie formada ao receber H⁺.",
+      "Base conjugada: espécie formada ao perder H⁺."
+    ],
+    "steps": [
+      {
+        "title": "Classifique o NaCl",
+        "text": "Ele vem de ácido e base fortes. Seus íons não sofrem hidrólise relevante nas condições usuais, e a solução fica aproximadamente neutra."
+      },
+      {
+        "title": "Classifique o acetato de sódio",
+        "text": "O acetato é base conjugada de um ácido fraco e reage com água produzindo OH⁻. Essa solução é básica."
+      },
+      {
+        "title": "Classifique o cloreto de amônio",
+        "text": "O NH₄⁺ é ácido conjugado da amônia, uma base fraca. Sua hidrólise acidifica a solução."
+      },
+      {
+        "title": "Compare os íons do acetato de amônio",
+        "text": "NH₄⁺ acidifica e CH₃COO⁻ alcaliniza. Como Ka do ácido acético e Kb da amônia são iguais, os efeitos se equilibram aproximadamente."
+      },
+      {
+        "title": "Selecione as soluções",
+        "text": "NaCl e NH₄CH₃COO, números 1 e 3, têm pH próximo de sete. A alternativa correta é A. A resposta é a alternativa A."
+      }
+    ],
+    "pitfalls": [
+      "Afirmar que todo sal gera solução neutra.",
+      "Comparar Ka e Kb sem identificar os pares conjugados."
+    ],
+    "takeaway": "O pH de um sal depende da hidrólise de seus íons e da força relativa dos ácidos e bases de origem."
+  },
+  "unesp-2026-fase1-73": {
+    "topic": "Magnésio: combustão e agente redutor",
+    "vocabulary": [
+      "Exotérmica: reação que libera energia para o entorno.",
+      "Oxidação: perda de elétrons.",
+      "Agente redutor: espécie que doa elétrons e se oxida."
+    ],
+    "steps": [
+      {
+        "title": "Leia o sentido energético",
+        "text": "O diagrama mostra produtos com energia inferior à dos reagentes. A diferença é liberada, caracterizando reação exotérmica."
+      },
+      {
+        "title": "Acompanhe o magnésio",
+        "text": "O magnésio metálico tem número de oxidação zero. No óxido, ele passa a +2."
+      },
+      {
+        "title": "Conte os elétrons",
+        "text": "A mudança Mg → Mg²⁺ + 2e⁻ representa perda de dois elétrons. Portanto, o magnésio sofre oxidação."
+      },
+      {
+        "title": "Identifique o agente",
+        "text": "A espécie que perde elétrons permite que outra seja reduzida. Assim, o magnésio é o agente redutor, não o oxidante."
+      },
+      {
+        "title": "Reúna as conclusões",
+        "text": "A reação é exotérmica e o magnésio perde elétrons, atuando como redutor. As três informações aparecem na alternativa E."
+      }
+    ],
+    "pitfalls": [
+      "Chamar o material oxidado de agente oxidante.",
+      "Associar liberação de luz a absorção obrigatória de energia."
+    ],
+    "takeaway": "Oxidação descreve o que ocorre com a espécie; agente redutor descreve o papel de quem doa elétrons."
+  },
+  "unesp-2026-fase1-74": {
+    "topic": "Processos de refino do petróleo",
+    "vocabulary": [
+      "Craqueamento: quebra de cadeias maiores.",
+      "Alquilação: combinação que forma uma cadeia maior.",
+      "Isomerização: rearranjo mantendo a fórmula molecular."
+    ],
+    "steps": [
+      {
+        "title": "Observe a reação III",
+        "text": "Uma molécula com dezesseis carbonos origina duas com oito. É uma quebra de cadeia, portanto craqueamento."
+      },
+      {
+        "title": "Observe a reação II",
+        "text": "Dois compostos de quatro carbonos formam um de oito. A combinação corresponde à alquilação."
+      },
+      {
+        "title": "Observe a reação I",
+        "text": "Uma cadeia linear de oito carbonos passa a uma estrutura ramificada com a mesma fórmula. Isso caracteriza isomerização."
+      },
+      {
+        "title": "Respeite a ordem pedida",
+        "text": "A pergunta solicita craqueamento, alquilação e isomerização. A sequência é III, II e I."
+      },
+      {
+        "title": "Compare com as alternativas",
+        "text": "A alternativa B apresenta essa sequência. O rearranjo em I melhora a ramificação sem alterar a quantidade total de carbonos."
+      }
+    ],
+    "pitfalls": [
+      "Confundir quebra de cadeia com rearranjo.",
+      "Responder na ordem das equações em vez da ordem pedida."
+    ],
+    "takeaway": "Conte carbonos e compare quantidade de moléculas e conectividade para reconhecer cada processo."
+  },
+  "enem-2025-dia2-138": {
+    "topic": "Perda fixa em uma entrega de combustível",
+    "vocabulary": [
+      "Perda fixa: quantidade que independe do volume transportado.",
+      "Volume líquido: quantidade que efetivamente chega ao destino.",
+      "Modelo aditivo: relação formada por somas e subtrações."
+    ],
+    "steps": [
+      {
+        "title": "Leia a entrega anterior",
+        "text": "A distribuidora enviou 10200 L, mas o posto recebeu 9900 L. A diferença revela o volume descartado no transporte."
+      },
+      {
+        "title": "Calcule a perda",
+        "text": "A perda fixa é 10200 − 9900 = 300 L. Não se trata de um percentual sobre toda nova carga."
+      },
+      {
+        "title": "Identifique o novo pedido",
+        "text": "O pedido anterior era de 10000 L. O dobro encomendado agora é 20000 L, e não o dobro dos 9900 L entregues."
+      },
+      {
+        "title": "Acrescente o descarte",
+        "text": "Para entregar 20000 L com perda de 300 L, é preciso despachar 20000 + 300 = 20300 L."
+      },
+      {
+        "title": "Confira a capacidade",
+        "text": "O valor está abaixo dos 30000 L do caminhão. O envio mínimo corresponde à alternativa C."
+      }
+    ],
+    "pitfalls": [
+      "Dobrar também a perda fixa.",
+      "Tomar a entrega anterior como quantidade originalmente encomendada."
+    ],
+    "takeaway": "Uma perda fixa deve ser somada uma única vez ao volume que se deseja entregar."
+  },
+  "enem-2025-dia2-139": {
+    "topic": "Mediana de dez velocidades",
+    "vocabulary": [
+      "Mediana: valor central de um conjunto ordenado.",
+      "Rol: lista ordenada de observações.",
+      "Quantidade par: exige a média dos dois valores centrais."
+    ],
+    "steps": [
+      {
+        "title": "Organize os dados",
+        "text": "Coloque as velocidades em ordem crescente: 320, 340, 350, 360, 380, 380, 390, 390, 390 e 400 MB/s."
+      },
+      {
+        "title": "Conte as posições",
+        "text": "Há dez observações. Como a quantidade é par, os valores centrais ocupam as posições cinco e seis."
+      },
+      {
+        "title": "Leia os valores centrais",
+        "text": "A quinta e a sexta velocidades são ambas 380 MB/s. Repetições contam como observações distintas."
+      },
+      {
+        "title": "Calcule a mediana",
+        "text": "A mediana é (380 + 380)/2 = 380 MB/s. Não é necessário somar todos os dez valores."
+      },
+      {
+        "title": "Escolha a referência",
+        "text": "A empresa adota a mediana como padrão, portanto a resposta é 380 MB/s, alternativa C."
+      }
+    ],
+    "pitfalls": [
+      "Escolher o valor mais frequente no lugar da mediana.",
+      "Localizar o centro antes de ordenar os dados."
+    ],
+    "takeaway": "Ordene todas as observações e identifique as posições centrais, mantendo os valores repetidos."
+  },
+  "enem-2025-dia2-140": {
+    "topic": "Sódio por pacote e leitura de rótulos",
+    "vocabulary": [
+      "Porção: quantidade de referência do rótulo.",
+      "Total por pacote: valor por porção vezes quantidade de porções.",
+      "Mínimo: menor valor entre os comparados."
+    ],
+    "steps": [
+      {
+        "title": "Leia a pergunta",
+        "text": "A estudante compara a quantidade total de sódio no pacote inteiro. O menor valor por porção isolada pode não ser o melhor."
+      },
+      {
+        "title": "Calcule os dois primeiros",
+        "text": "Batata chips: 3×170 = 510 mg. Palitos salgados: 4×501 = 2004 mg de sódio por pacote."
+      },
+      {
+        "title": "Calcule os demais",
+        "text": "Multigrãos: 8×264 = 2112 mg. Polvilho: 6×175 = 1050 mg. Água e sal: 5×166 = 830 mg."
+      },
+      {
+        "title": "Compare os totais",
+        "text": "Os valores são 510, 2004, 2112, 1050 e 830 mg. O menor é 510 mg, embora 166 mg fosse o menor valor por porção."
+      },
+      {
+        "title": "Identifique o produto",
+        "text": "A batata chips tem o menor total entre os pacotes apresentados. A resposta do item é a alternativa A."
+      }
+    ],
+    "pitfalls": [
+      "Comparar apenas o sódio por porção.",
+      "Multiplicar também pela massa da porção sem necessidade."
+    ],
+    "takeaway": "Quando a pergunta usa o pacote inteiro, multiplique o valor por porção pelo número de porções."
+  },
+  "enem-2025-dia2-141": {
+    "topic": "Faces congruentes em um sólido composto",
+    "vocabulary": [
+      "Congruência: mesma forma e mesmas dimensões.",
+      "Prisma: sólido com bases paralelas e congruentes.",
+      "Tronco de pirâmide: parte entre a base e um corte paralelo."
+    ],
+    "steps": [
+      {
+        "title": "Separe os dois sólidos",
+        "text": "O prisma hexagonal contribui com faces laterais retangulares. O tronco de pirâmide hexagonal contribui com faces laterais trapezoidais."
+      },
+      {
+        "title": "Retire a interface interna",
+        "text": "A base maior do tronco coincide com uma base do prisma. Essa face de contato fica interna e não é pintada."
+      },
+      {
+        "title": "Agrupe as laterais",
+        "text": "Os seis retângulos do prisma são congruentes entre si e usam uma cor. Os seis trapézios do tronco formam outro grupo e usam outra."
+      },
+      {
+        "title": "Compare as bases externas",
+        "text": "Restam uma base hexagonal maior do prisma e uma menor do tronco. Elas têm tamanhos diferentes e exigem duas cores adicionais."
+      },
+      {
+        "title": "Conte os grupos",
+        "text": "Há quatro classes de faces congruentes: retângulos, trapézios e dois tamanhos de hexágonos. Logo, são quatro cores, alternativa D."
+      }
+    ],
+    "pitfalls": [
+      "Pintar a face de contato interna.",
+      "Usar a mesma cor para hexágonos de tamanhos diferentes."
+    ],
+    "takeaway": "Conte grupos de faces externas congruentes, e não o número total de faces ou apenas seus formatos."
+  },
+  "enem-2025-dia2-97": {
+    "topic": "Flash fotográfico e pupila dilatada",
+    "vocabulary": [
+      "Pupila: abertura que controla a entrada de luz.",
+      "Reflexão: retorno da luz ao encontrar uma superfície.",
+      "Retina: região sensível à luz no fundo do olho."
+    ],
+    "steps": [
+      {
+        "title": "Leia o mecanismo descrito",
+        "text": "O flash ilumina uma região vascularizada do fundo do olho. A luz que retorna dessa região pode aparecer avermelhada na fotografia."
+      },
+      {
+        "title": "Compare a iluminação ambiente",
+        "text": "Em locais escuros, a pupila tende a dilatar para permitir maior entrada de luz."
+      },
+      {
+        "title": "Relacione com o flash",
+        "text": "A abertura maior permite que mais luz do flash alcance a região interna e que parte da luz refletida retorne à câmera."
+      },
+      {
+        "title": "Elimine a contração",
+        "text": "Uma pupila retraída reduz a abertura de entrada. Ela não explica a maior ocorrência do efeito em pouca luz."
+      },
+      {
+        "title": "Escolha a relação correta",
+        "text": "A alternativa A associa pupila dilatada à maior chegada de luz à retina. Essa é a combinação compatível com o fenômeno."
+      }
+    ],
+    "pitfalls": [
+      "Dizer que a pupila se contrai no escuro.",
+      "Confundir a cor da luz refletida com falta seletiva de luz azul."
+    ],
+    "takeaway": "Relacione o tamanho da abertura à quantidade de luz que entra, antes de explicar o registro da câmera."
+  },
+  "enem-2025-dia2-105": {
+    "topic": "Ressonância e frequência da voz",
+    "vocabulary": [
+      "Frequência natural: frequência preferencial de oscilação de um sistema.",
+      "Ressonância: resposta intensa a uma excitação compatível.",
+      "Timbre: característica ligada à composição de uma onda sonora."
+    ],
+    "steps": [
+      {
+        "title": "Observe o sistema que vibra",
+        "text": "A taça possui modos próprios de vibração. Uma onda sonora externa pode transferir energia a esses modos."
+      },
+      {
+        "title": "Reconheça a ressonância",
+        "text": "Quando a excitação se mantém próxima de uma frequência natural, a amplitude da vibração pode crescer significativamente."
+      },
+      {
+        "title": "Identifique a característica da voz",
+        "text": "A compatibilidade relevante é de frequência. Som alto sem frequência adequada não caracteriza, por si só, esse mecanismo."
+      },
+      {
+        "title": "Separe frequência e timbre",
+        "text": "O timbre diferencia fontes sonoras pela composição de harmônicos, mas não substitui a condição de frequência exigida."
+      },
+      {
+        "title": "Escolha os dois termos",
+        "text": "O fenômeno é ressonância e a característica associada é frequência, alternativa B. O texto afasta a intensidade como explicação principal."
+      }
+    ],
+    "pitfalls": [
+      "Escolher timbre como condição de ressonância.",
+      "Afirmar que qualquer som intenso quebra uma taça."
+    ],
+    "takeaway": "Ressonância exige compatibilidade entre a frequência da excitação e um modo natural do sistema."
+  },
+  "enem-2025-dia2-120": {
+    "topic": "Aquecimento em um fogão por indução",
+    "vocabulary": [
+      "Fluxo magnético: medida do campo que atravessa uma superfície.",
+      "Indução eletromagnética: geração de força eletromotriz por variação de fluxo.",
+      "Efeito Joule: transformação de energia elétrica em energia térmica."
+    ],
+    "steps": [
+      {
+        "title": "Localize a fonte do campo",
+        "text": "A bobina abaixo do vidro produz um campo magnético que varia no tempo. A panela está na região desse campo."
+      },
+      {
+        "title": "Use a lei de Faraday",
+        "text": "O fluxo magnético variável induz uma força eletromotriz no material condutor da panela."
+      },
+      {
+        "title": "Reconheça as correntes",
+        "text": "A força eletromotriz gera correntes induzidas na base da panela. Não é necessário contato elétrico direto com a bobina."
+      },
+      {
+        "title": "Explique o aquecimento",
+        "text": "As correntes atravessam um material com resistência elétrica, produzindo calor pelo efeito Joule."
+      },
+      {
+        "title": "Escolha o mecanismo",
+        "text": "A alternativa D descreve corrente induzida na parte inferior e aquecimento por efeito Joule. Convecção no ar não é o mecanismo de indução."
+      }
+    ],
+    "pitfalls": [
+      "Explicar o aquecimento apenas por imantação.",
+      "Confundir campo magnético variável com corrente de convecção."
+    ],
+    "takeaway": "Em aquecimento indutivo, siga a cadeia campo variável → corrente induzida → dissipação elétrica."
+  },
+  "enem-2025-dia2-124": {
+    "topic": "Pressão máxima e altura de uma pilha",
+    "vocabulary": [
+      "Pressão: força por área.",
+      "Densidade: massa por volume.",
+      "Peso: força gravitacional mg."
+    ],
+    "steps": [
+      {
+        "title": "Modele o produto empilhado",
+        "text": "Para uma área de base A e altura h, o volume é Ah. A massa do produto é ρAh."
+      },
+      {
+        "title": "Calcule o peso",
+        "text": "A força sobre a laje é F = ρAhg. Esse é o peso distribuído sobre a área ocupada."
+      },
+      {
+        "title": "Escreva a pressão",
+        "text": "Dividindo a força por A, obtemos P = ρgh. A área cancela porque mais área suporta proporcionalmente mais material."
+      },
+      {
+        "title": "Aplique o limite",
+        "text": "Com Pmáx = 10⁴ Pa, ρ = 1250 kg/m³ e g = 10 m/s², a altura é h = 10000/(1250×10)."
+      },
+      {
+        "title": "Resolva e compare",
+        "text": "A altura máxima é 0,80 m, alternativa C. O valor de 50 m² não precisa aparecer no resultado final."
+      }
+    ],
+    "pitfalls": [
+      "Ler 10⁴ como 104.",
+      "Multiplicar pela área depois que ela já se cancelou."
+    ],
+    "takeaway": "Para peso uniformemente distribuído, pressão = densidade × gravidade × altura."
+  },
+  "enem-2025-dia2-96": {
+    "topic": "Identificação da água sem sais dissolvidos",
+    "vocabulary": [
+      "Soluto: substância dissolvida.",
+      "Destilação: vaporização seguida de condensação.",
+      "Água dura: água com quantidade relevante de íons como cálcio e magnésio."
+    ],
+    "steps": [
+      {
+        "title": "Identifique a transformação",
+        "text": "O texto descreve água de que foram removidos os sais dissolvidos. O foco é a composição iônica, não a adição de outro produto."
+      },
+      {
+        "title": "Reconheça a destilação",
+        "text": "Ao vaporizar água e condensar seu vapor, sais não voláteis ficam majoritariamente no recipiente original."
+      },
+      {
+        "title": "Nomeie o produto",
+        "text": "A água obtida por esse procedimento é chamada de destilada, termo associado ao baixo teor de sais no contexto da questão."
+      },
+      {
+        "title": "Diferencie os distratores",
+        "text": "Água dura contém sais; água pesada envolve isótopos do hidrogênio; sanitária e oxigenada contêm outros compostos químicos."
+      },
+      {
+        "title": "Escolha o nome",
+        "text": "A alternativa D, destilada, é a que corresponde à descrição. O item pede identificação do material, e não uma recomendação de consumo."
+      }
+    ],
+    "pitfalls": [
+      "Confundir água destilada com água oxigenada.",
+      "Achar que remover sais transforma água em outra substância molecular."
+    ],
+    "takeaway": "Distinga purificação da água, composição isotópica e soluções de outros compostos."
+  },
+  "enem-2025-dia2-100": {
+    "topic": "Remoção de dióxido de carbono da atmosfera",
+    "vocabulary": [
+      "Fotossíntese: conversão de CO₂ e água em matéria orgânica usando luz.",
+      "Sumidouro: processo que retira uma substância de um reservatório.",
+      "Mitigação: ação que reduz causas ou intensidade de um problema."
+    ],
+    "steps": [
+      {
+        "title": "Leia o verbo principal",
+        "text": "A pergunta solicita uma ação que retire CO₂ já presente na atmosfera. Evitar uma emissão e remover gás existente são ações distintas."
+      },
+      {
+        "title": "Reconheça a fixação de carbono",
+        "text": "Na fotossíntese, as plantas incorporam carbono do CO₂ à matéria orgânica, usando energia luminosa."
+      },
+      {
+        "title": "Relacione ao crescimento",
+        "text": "Ao crescer, árvores podem acumular parte desse carbono em madeira e outras estruturas, funcionando como reservatório de carbono."
+      },
+      {
+        "title": "Compare com as fontes renováveis",
+        "text": "Energia solar e eólica podem evitar emissões em substituições energéticas, mas não retiram CO₂ diretamente por seu funcionamento."
+      },
+      {
+        "title": "Escolha a ação indicada",
+        "text": "Plantar mais árvores corresponde à alternativa A. A permanência do carbono depende também de conservação e manejo da vegetação."
+      }
+    ],
+    "pitfalls": [
+      "Responder apenas com uma ação que evita novas emissões.",
+      "Tratar todo carbono fixado como armazenamento permanente."
+    ],
+    "takeaway": "Separe redução de emissões e remoção de CO₂ quando a pergunta exige uma delas especificamente."
+  },
+  "enem-2025-dia2-108": {
+    "topic": "Notação histórica de fórmulas químicas",
+    "vocabulary": [
+      "Símbolo químico: representação de um elemento.",
+      "Índice: quantidade de átomos na fórmula.",
+      "Nitrato: grupo NO₃⁻ na notação atual."
+    ],
+    "steps": [
+      {
+        "title": "Leia a convenção histórica",
+        "text": "O texto informa que o nitrogênio era chamado azoto e recebia o símbolo Az. A mudança é de representação, não de quantidade de átomos."
+      },
+      {
+        "title": "Escreva o ácido atual",
+        "text": "O ácido nítrico é HNO₃. Substituir N por Az mantém um hidrogênio, um azoto e três oxigênios."
+      },
+      {
+        "title": "Aplique a grafia do exemplo",
+        "text": "Na notação ilustrada, o número aparece elevado: HAzO³. O três pertence ao oxigênio."
+      },
+      {
+        "title": "Escreva o sal de cálcio",
+        "text": "O cloreto de cálcio é CaCl₂, com um cálcio e dois cloros. A escrita histórica do item é CaCl²."
+      },
+      {
+        "title": "Compare o par",
+        "text": "HAzO³ e CaCl² aparecem na alternativa A. K corresponde a potássio, não a cálcio."
+      }
+    ],
+    "pitfalls": [
+      "Mover o índice do oxigênio para o nitrogênio.",
+      "Substituir Ca por K ao interpretar o nome do sal."
+    ],
+    "takeaway": "Ao traduzir uma notação química, preserve identidade dos elementos e contagem de átomos."
+  },
+  "enem-2025-dia2-119": {
+    "topic": "Volatilidade de uma amina e neutralização",
+    "vocabulary": [
+      "Amina: composto orgânico com caráter básico associado ao nitrogênio.",
+      "Protonação: recebimento de um próton H⁺.",
+      "Sal: composto iônico formado no processo considerado."
+    ],
+    "steps": [
+      {
+        "title": "Identifique o risco no item",
+        "text": "A dimetilamina tem baixa temperatura de ebulição e pode volatilizar com o aquecimento. A pergunta compara reagentes para transformar essa espécie."
+      },
+      {
+        "title": "Reconheça seu caráter básico",
+        "text": "O nitrogênio da amina pode receber um próton, formando o íon dimetilamônio."
+      },
+      {
+        "title": "Escolha um ácido entre as opções",
+        "text": "O vinagre contém ácido acético. Ele pode protonar a amina, formando um sal em solução."
+      },
+      {
+        "title": "Relacione com a volatilidade",
+        "text": "A forma iônica resultante tem comportamento diferente da amina molecular e reduz sua passagem para a fase gasosa nas condições propostas."
+      },
+      {
+        "title": "Selecione a alternativa",
+        "text": "O vinagre é a opção B. Esse é o raciocínio químico da prova, sem constituir um procedimento prático para atender acidentes reais. A resposta é a alternativa B."
+      }
+    ],
+    "pitfalls": [
+      "Escolher bicarbonato, também básico, para neutralizar a amina.",
+      "Achar que diluição e transformação química têm o mesmo efeito."
+    ],
+    "takeaway": "Converter uma base molecular volátil em uma espécie iônica por protonação pode reduzir sua volatilidade."
+  },
+  "esa-2026-geral-2": {
+    "topic": "Área de um trapézio sob uma secante",
+    "vocabulary": [
+      "Logaritmo: expoente ao qual uma base deve ser elevada.",
+      "Secante: reta que passa por dois pontos de uma curva.",
+      "Trapézio: quadrilátero com um par de lados paralelos."
+    ],
+    "steps": [
+      {
+        "title": "Leia os pontos do gráfico",
+        "text": "A região sombreada tem fronteira superior na reta tracejada entre os pontos de abscissas 2 e 8. Não é a área sob a curva inteira."
+      },
+      {
+        "title": "Calcule as alturas",
+        "text": "Na função log₂x, temos f(2) = 1 e f(8) = 3. Essas alturas formam os lados verticais paralelos do trapézio."
+      },
+      {
+        "title": "Calcule a separação",
+        "text": "A distância horizontal entre os lados paralelos é 8 − 2 = 6. Essa é a altura do trapézio na fórmula de área."
+      },
+      {
+        "title": "Aplique a fórmula",
+        "text": "A área é a média dos lados paralelos multiplicada pela separação: [(1 + 3)/2]×6 = 12."
+      },
+      {
+        "title": "Compare o resultado",
+        "text": "A área sombreada vale 12 unidades quadradas, alternativa B. A reta tracejada permite resolver sem cálculo integral."
+      }
+    ],
+    "pitfalls": [
+      "Calcular a área sob a curva em vez da região sombreada.",
+      "Usar oito como largura em vez de oito menos dois."
+    ],
+    "takeaway": "Identifique primeiro as fronteiras da região; uma secante pode transformar o problema em uma área de trapézio."
+  },
+  "esa-2026-geral-3": {
+    "topic": "Distribuição de objetos por cinco categorias",
+    "vocabulary": [
+      "Categoria: grupo de objetos idênticos.",
+      "Composição positiva: distribuição com ao menos um por grupo.",
+      "Combinação: escolha sem considerar ordem."
+    ],
+    "steps": [
+      {
+        "title": "Leia os espaços reservados",
+        "text": "O esquema fixa a ordem das cinco armas. Os objetos da mesma arma são idênticos e ocupam seu próprio bloco."
+      },
+      {
+        "title": "Garanta a presença mínima",
+        "text": "Reserve um objeto para cada arma. Isso usa cinco dos doze objetos e deixa sete para distribuir livremente."
+      },
+      {
+        "title": "Modele as quantidades",
+        "text": "Se cada acréscimo é não negativo, precisamos contar soluções de y₁ + y₂ + y₃ + y₄ + y₅ = 7."
+      },
+      {
+        "title": "Use separadores",
+        "text": "A distribuição de sete unidades entre cinco grupos é C(7 + 5 − 1,5 − 1) = C(11,4). Os quatro separadores delimitam os cinco grupos."
+      },
+      {
+        "title": "Calcule a combinação",
+        "text": "C(11,4) = 330, alternativa C. Não se permutam os objetos individualmente, pois são idênticos e os blocos estão fixos."
+      }
+    ],
+    "pitfalls": [
+      "Permutar as cinco categorias apesar dos espaços fixos.",
+      "Permitir que alguma arma fique sem objeto."
+    ],
+    "takeaway": "Com categorias em ordem fixa e objetos idênticos, conte distribuições de quantidades e aplique a presença mínima."
+  },
+  "esa-2026-geral-12": {
+    "topic": "Duas cartas retiradas sem reposição",
+    "vocabulary": [
+      "Evento condicionado: evento calculado após conhecer um resultado anterior.",
+      "Sem reposição: o objeto retirado não volta.",
+      "Probabilidade conjunta: chance de dois eventos ocorrerem na sequência."
+    ],
+    "steps": [
+      {
+        "title": "Conte os reis",
+        "text": "Um baralho tem quatro reis entre 52 cartas. A chance de a primeira carta ser um rei é 4/52."
+      },
+      {
+        "title": "Atualize o baralho",
+        "text": "Após retirar esse rei sem reposição, restam 51 cartas. São três reis e quatro damas ainda presentes."
+      },
+      {
+        "title": "Conte as segundas cartas permitidas",
+        "text": "A segunda carta não pode ser rei nem dama. Há 51 − 3 − 4 = 44 cartas possíveis."
+      },
+      {
+        "title": "Multiplique as chances",
+        "text": "A probabilidade da sequência é (4/52)×(44/51). A segunda fração já considera a retirada anterior."
+      },
+      {
+        "title": "Simplifique o produto",
+        "text": "O resultado é 176/2652 = 44/663, alternativa A. Não somamos as probabilidades porque os dois eventos precisam ocorrer."
+      }
+    ],
+    "pitfalls": [
+      "Manter 52 cartas no segundo denominador.",
+      "Excluir quatro reis depois que um já foi retirado."
+    ],
+    "takeaway": "Em retiradas sem reposição, atualize o total e as categorias antes de calcular a próxima chance."
+  },
+  "esa-2026-geral-13": {
+    "topic": "Extremos e valores de uma função modular",
+    "vocabulary": [
+      "Módulo: distância até zero.",
+      "Mínimo: menor valor da função no domínio.",
+      "Domínio: valores de entrada permitidos."
+    ],
+    "steps": [
+      {
+        "title": "Encontre o ponto de mudança",
+        "text": "A expressão interna zera quando 225 − 15x = 0, portanto x = 15. Nesse dia, o módulo tem seu menor valor, zero."
+      },
+      {
+        "title": "Calcule a frequência mínima",
+        "text": "A função inteira vale 700 + 0 = 700 no dia 15. A afirmação II é verdadeira e a III é falsa."
+      },
+      {
+        "title": "Compare as extremidades",
+        "text": "No dia 1, f = 700 + 210 = 910. No dia 30, f = 700 + 225 = 925. O máximo ocorre no dia 30, confirmando I."
+      },
+      {
+        "title": "Confira os demais números",
+        "text": "No dia 30 são 925 pessoas, não 225, tornando IV falsa. No dia 25, f = 700 + 150 = 850, tornando V verdadeira."
+      },
+      {
+        "title": "Organize os julgamentos",
+        "text": "A sequência I a V é V, V, F, F, V. Ela corresponde à alternativa E."
+      }
+    ],
+    "pitfalls": [
+      "Esquecer os setecentos somados ao módulo.",
+      "Achar que a menor saída é zero porque o módulo zera."
+    ],
+    "takeaway": "O mínimo de uma parcela modular não é necessariamente o mínimo zero da função completa."
+  },
+  "espcex-2026-objetiva-8": {
+    "topic": "Raízes opostas de um polinômio de quarto grau",
+    "vocabulary": [
+      "Raízes opostas: valores a e −a.",
+      "Fator quadrático: produto de dois fatores lineares.",
+      "Relações de Viète: relações entre raízes e coeficientes."
+    ],
+    "steps": [
+      {
+        "title": "Use as raízes opostas",
+        "text": "Se a + b = 0, o produto dos fatores correspondentes tem forma x² − a². Escreva o polinômio como (x² − u)(x² − 15x + v), com u = a²."
+      },
+      {
+        "title": "Compare o termo linear",
+        "text": "Ao expandir, o coeficiente de x é 15u. Como ele vale 240, obtemos u = 16."
+      },
+      {
+        "title": "Compare o termo quadrático",
+        "text": "O coeficiente de x² é v − u = 20. Com u = 16, segue v = 36. O termo constante −16×36 também confere."
+      },
+      {
+        "title": "Resolva os dois fatores",
+        "text": "O fator x² − 16 dá raízes 4 e −4. O fator x² − 15x + 36 = (x − 3)(x − 12) dá 3 e 12."
+      },
+      {
+        "title": "Leia a maior raiz",
+        "text": "A maior raiz é 12, e seu algarismo das unidades é 2. Compare esse algarismo com as alternativas, sem responder a raiz inteira. A resposta é a alternativa B."
+      }
+    ],
+    "pitfalls": [
+      "Responder doze quando a pergunta pede o algarismo das unidades.",
+      "Esquecer a raiz negativa no fator x² − 16."
+    ],
+    "takeaway": "Uma dupla de raízes opostas permite fatorar uma equação de quarto grau em dois fatores quadráticos."
+  },
+  "espcex-2026-objetiva-4": {
+    "topic": "Composição de três funções exponenciais",
+    "vocabulary": [
+      "Composição: aplicar funções em sequência.",
+      "Base comum: reescrita das potências na mesma base.",
+      "Expoente: número que indica uma potência."
+    ],
+    "steps": [
+      {
+        "title": "Respeite a ordem da composição",
+        "text": "Primeiro calculamos h(x), depois g nesse resultado e finalmente f. A igualdade é 16^(2^((5x − 1)/3)) = 2."
+      },
+      {
+        "title": "Troque a base dezesseis",
+        "text": "Como 16 = 2⁴, a igualdade se torna 2^[4×2^((5x − 1)/3)] = 2¹."
+      },
+      {
+        "title": "Compare os expoentes",
+        "text": "Com base dois, que é positiva e diferente de um, os expoentes devem coincidir: 4×2^((5x − 1)/3) = 1."
+      },
+      {
+        "title": "Resolva a segunda potência",
+        "text": "Assim, 2^((5x − 1)/3) = 1/4 = 2⁻². Logo, (5x − 1)/3 = −2."
+      },
+      {
+        "title": "Isole a variável",
+        "text": "De 5x − 1 = −6, obtemos x = −1, alternativa D. Conferindo: h(−1) = −2, g = 1/4 e f = 2."
+      }
+    ],
+    "pitfalls": [
+      "Trocar a ordem das funções.",
+      "Interpretar composição como multiplicação de resultados."
+    ],
+    "takeaway": "Abra a composição de dentro para fora e use uma base comum para comparar expoentes."
+  },
+  "espcex-2026-objetiva-12": {
+    "topic": "Faces, arestas e vértices de um poliedro",
+    "vocabulary": [
+      "Relação de Euler: V − E + F = 2 em poliedros convexos.",
+      "Incidência: ligação entre faces, arestas e vértices.",
+      "Aresta: segmento comum a duas faces."
+    ],
+    "steps": [
+      {
+        "title": "Defina os tipos de face",
+        "text": "Se há o octógonos e h hexágonos, há 2o quadrados. Como o total de faces é 26, temos 3o + h = 26."
+      },
+      {
+        "title": "Conte lados das faces",
+        "text": "A soma dos lados é 8o + 6h + 4×2o = 16o + 6h. Cada aresta é contada duas vezes, então E = 8o + 3h."
+      },
+      {
+        "title": "Use as três arestas por vértice",
+        "text": "Somando incidências nos vértices, 3V = 2E. Assim, V = 2E/3."
+      },
+      {
+        "title": "Aplique Euler",
+        "text": "Substitua V na relação: 2E/3 − E + 26 = 2. Segue E = 72 e, portanto, 8o + 3h = 72."
+      },
+      {
+        "title": "Resolva o sistema",
+        "text": "Com h = 26 − 3o, temos o = 6 e h = 8. São oito faces hexagonais, alternativa B."
+      }
+    ],
+    "pitfalls": [
+      "Contar cada aresta apenas uma vez na soma dos lados.",
+      "Confundir três arestas por vértice com três faces totais."
+    ],
+    "takeaway": "Combine Euler com contagens de incidência para transformar a geometria em um sistema linear."
+  },
+  "espcex-2026-objetiva-19": {
+    "topic": "Diferença entre volumes de cilindros",
+    "vocabulary": [
+      "Área da base: medida bidimensional da seção de apoio.",
+      "Volume: área da base multiplicada pela altura.",
+      "Incógnita auxiliar: quantidade escolhida para simplificar uma relação."
+    ],
+    "steps": [
+      {
+        "title": "Represente as bases",
+        "text": "Chame a área da base de A de S. A base do cilindro B tem área 2S, conforme a relação fornecida."
+      },
+      {
+        "title": "Escreva os volumes",
+        "text": "O cilindro A tem altura 8 cm e volume 8S. O cilindro B tem altura 7 cm e volume 7×2S = 14S."
+      },
+      {
+        "title": "Use a diferença",
+        "text": "O volume de B excede o de A em 432π cm³. Portanto, 14S − 8S = 432π."
+      },
+      {
+        "title": "Resolva para a base menor",
+        "text": "A equação 6S = 432π fornece S = 72π cm². Essa ainda é a área da base de A."
+      },
+      {
+        "title": "Retorne ao cilindro pedido",
+        "text": "A área da base de B é 2S = 144π cm², alternativa B. A unidade final é de área, não de volume."
+      }
+    ],
+    "pitfalls": [
+      "Responder a área da base do cilindro A.",
+      "Trocar o dobro da área por dobro do raio."
+    ],
+    "takeaway": "Use a área da base como incógnita quando o volume é fornecido por relações entre bases e alturas."
+  },
+  "espcex-2026-objetiva-23": {
+    "topic": "Altura de lançamento por uma mola",
+    "vocabulary": [
+      "Energia elástica: kx²/2.",
+      "Conservação da energia mecânica: energia total constante sem dissipação.",
+      "Constante elástica: medida da resistência da mola à deformação."
+    ],
+    "steps": [
+      {
+        "title": "Identifique a energia inicial",
+        "text": "A esfera parte do repouso e a mola está comprimida. A energia disponível do mecanismo depende de k e da compressão x."
+      },
+      {
+        "title": "Identifique a energia no topo",
+        "text": "Na altura máxima, a esfera está momentaneamente parada. A energia ganha por elevação é mgh, usando uma referência consistente."
+      },
+      {
+        "title": "Iguale as formas",
+        "text": "Sem atrito nem resistência do ar, a energia elástica se transforma em energia gravitacional. A relação central é kx²/2 = mgh."
+      },
+      {
+        "title": "Isole a altura",
+        "text": "Daí h = kx²/(2mg), para a elevação medida a partir da posição inicial. A expressão envolve k, x, m e g."
+      },
+      {
+        "title": "Escolha as dependências",
+        "text": "A alternativa D inclui massa da esfera, compressão, resistência da mola e gravidade local. A massa do canhão fixo não entra nessa expressão."
+      }
+    ],
+    "pitfalls": [
+      "Incluir a massa do canhão fixo.",
+      "Esquecer a compressão inicial da mola."
+    ],
+    "takeaway": "As variáveis de uma altura de lançamento podem ser identificadas pela conservação de energia."
+  },
+  "espcex-2026-objetiva-24": {
+    "topic": "Período de um satélite em órbita circular",
+    "vocabulary": [
+      "Raio orbital: distância do satélite ao centro da Terra.",
+      "Força centrípeta: resultante necessária ao movimento circular.",
+      "Período: tempo de uma volta."
+    ],
+    "steps": [
+      {
+        "title": "Escolha o raio correto",
+        "text": "A altitude é medida desde a superfície. A distância ao centro da Terra, usada na gravitação, é r = R + h."
+      },
+      {
+        "title": "Iguale as forças",
+        "text": "A gravidade fornece a força centrípeta: GMm/r² = mv²/r. Cancelando a massa do satélite, v² = GM/r."
+      },
+      {
+        "title": "Escreva o período",
+        "text": "Uma volta tem comprimento 2πr. Assim, T = 2πr/v, com velocidade de módulo constante."
+      },
+      {
+        "title": "Substitua a velocidade",
+        "text": "Usando v = √(GM/r), obtemos T = 2π√(r³/(GM)). O raio aparece ao cubo dentro da raiz."
+      },
+      {
+        "title": "Retorne aos dados",
+        "text": "Com r = R + h, T = 2π√((R + h)³/(GM)), alternativa C. Somar cubos não equivale ao cubo da soma."
+      }
+    ],
+    "pitfalls": [
+      "Usar somente a altitude como raio orbital.",
+      "Trocar (R + h)³ por R³ + h³."
+    ],
+    "takeaway": "Na gravitação, a distância relevante é ao centro do astro, e não à sua superfície."
+  },
+  "espcex-2026-objetiva-30": {
+    "topic": "Eletrização e atração da tinta em pó",
+    "vocabulary": [
+      "Elétron: partícula de carga negativa.",
+      "Lei de Coulomb: relação entre forças e cargas elétricas.",
+      "Polarização: redistribuição de cargas sem exigir carga líquida."
+    ],
+    "steps": [
+      {
+        "title": "Explique a carga negativa",
+        "text": "Uma partícula inicialmente neutra fica negativa ao ganhar elétrons. Não é necessário remover prótons de seus núcleos."
+      },
+      {
+        "title": "Identifique a força elétrica",
+        "text": "A atração entre cargas de sinais opostos é descrita pela lei de Coulomb, não pelas leis de indução magnética."
+      },
+      {
+        "title": "Examine a peça positiva",
+        "text": "Se a peça já tem carga positiva, ela atrai diretamente as partículas negativas da tinta."
+      },
+      {
+        "title": "Examine a peça neutra",
+        "text": "A presença da tinta carregada redistribui as cargas na superfície da peça. A região mais próxima fica efetivamente atraente, por polarização."
+      },
+      {
+        "title": "Preencha as lacunas",
+        "text": "A sequência é “ganham elétrons – Coulomb – polarização”, alternativa B. A neutralidade total da peça não impede a atração."
+      }
+    ],
+    "pitfalls": [
+      "Explicar carga negativa como perda de prótons.",
+      "Confundir polarização elétrica com imantação."
+    ],
+    "takeaway": "Uma peça neutra pode ser atraída por redistribuição de cargas, mesmo sem ganhar carga líquida."
+  },
+  "espcex-2026-objetiva-32": {
+    "topic": "Fonte real carregando bateria e alimentando lâmpada",
+    "vocabulary": [
+      "Tensão terminal: diferença de potencial nas extremidades da fonte.",
+      "Receptor: dispositivo que recebe energia elétrica.",
+      "Lei dos nós: corrente que entra é igual à corrente que sai."
+    ],
+    "steps": [
+      {
+        "title": "Calcule a tensão da lâmpada",
+        "text": "A lâmpada de 20 Ω é percorrida por 0,5 A. Logo, a tensão do ramo é U = 20×0,5 = 10 V."
+      },
+      {
+        "title": "Use os ramos paralelos",
+        "text": "A bateria que recebe carga está sob a mesma tensão de 10 V. Como receptor, U = ε₂ + r₂i₂."
+      },
+      {
+        "title": "Encontre a força contraeletromotriz",
+        "text": "Com r₂ = 1 Ω e i₂ = 1,5 A, temos ε₂ = 10 − 1,5 = 8,5 V."
+      },
+      {
+        "title": "Some as correntes da fonte",
+        "text": "A bateria B₁ fornece corrente aos dois ramos: i₁ = 0,5 + 1,5 = 2,0 A. Sua tensão terminal é 12 − 2r₁."
+      },
+      {
+        "title": "Determine a resistência interna",
+        "text": "De 10 = 12 − 2r₁, obtemos r₁ = 1 Ω. O par 8,5 V e 1 Ω corresponde à alternativa B."
+      }
+    ],
+    "pitfalls": [
+      "Usar o mesmo sinal para fonte fornecendo energia e receptor sendo carregado.",
+      "Esquecer um dos ramos ao calcular i₁."
+    ],
+    "takeaway": "Comece por um ramo conhecido para achar a tensão comum e só depois resolva as fontes reais."
+  },
+  "espcex-2026-objetiva-34": {
+    "topic": "Regra de Hund no subnível 4f",
+    "vocabulary": [
+      "Orbital: estado eletrônico que admite até dois elétrons.",
+      "Elétrons desemparelhados: elétrons sozinhos em orbitais.",
+      "Regra de Hund: preenchimento individual antes de formar pares em orbitais degenerados."
+    ],
+    "steps": [
+      {
+        "title": "Leia a configuração",
+        "text": "O neodímio apresenta [Xe]6s²4f⁴. Os elétrons do núcleo de xenônio e os dois de 6s estão emparelhados no modelo usado."
+      },
+      {
+        "title": "Conte os orbitais f",
+        "text": "Um subnível f possui sete orbitais de mesma energia na descrição adotada pela questão."
+      },
+      {
+        "title": "Distribua os quatro elétrons",
+        "text": "Como há mais orbitais disponíveis que elétrons, cada um dos quatro ocupa um orbital diferente antes que qualquer par se forme."
+      },
+      {
+        "title": "Use a orientação de spin",
+        "text": "Pela regra de Hund, esses quatro elétrons ocupam orbitais com spins paralelos, maximizando o número de desemparelhados."
+      },
+      {
+        "title": "Escolha a descrição",
+        "text": "São quatro elétrons desemparelhados, todos com spins paralelos. A alternativa correta é D. A resposta é a alternativa D."
+      }
+    ],
+    "pitfalls": [
+      "Colocar dois pares nos primeiros orbitais.",
+      "Contar os dois elétrons de 6s como desemparelhados."
+    ],
+    "takeaway": "Conte orbitais disponíveis e aplique Hund antes de emparelhar elétrons em um subnível."
+  },
+  "espcex-2026-objetiva-39": {
+    "topic": "Fórmula mínima a partir da combustão",
+    "vocabulary": [
+      "Combustão completa: carbono vira CO₂ e hidrogênio vira água.",
+      "Fórmula mínima: menor proporção inteira de átomos.",
+      "Entalpia de combustão: energia trocada na queima de um mol."
+    ],
+    "steps": [
+      {
+        "title": "Conte carbono e hidrogênio",
+        "text": "4,4 g de CO₂ são 0,10 mol de C. 2,7 g de água são 0,15 mol de H₂O, ou 0,30 mol de átomos de H."
+      },
+      {
+        "title": "Calcule o oxigênio da amostra",
+        "text": "A massa de C é 1,2 g e a de H é 0,3 g. Dos 2,3 g da amostra, restam 0,8 g de O, ou 0,05 mol."
+      },
+      {
+        "title": "Encontre a proporção mínima",
+        "text": "Dividindo 0,10:0,30:0,05 por 0,05, obtemos 2:6:1. A fórmula mínima é C₂H₆O e contém dois carbonos."
+      },
+      {
+        "title": "Converta a energia para um mol",
+        "text": "A massa molar da fórmula é 46 g/mol. A amostra de 2,3 g corresponde a 0,05 mol, cuja queima libera 68,4 kJ."
+      },
+      {
+        "title": "Use o sinal correto",
+        "text": "A entalpia molar é −68,4/0,05 = −1368 kJ/mol. Dois carbonos e −1368 formam a alternativa C."
+      }
+    ],
+    "pitfalls": [
+      "Contar 0,15 mol de H em vez de 0,30.",
+      "Usar sinal positivo para energia liberada na combustão."
+    ],
+    "takeaway": "CO₂ mede carbono, água mede hidrogênio e a diferença de massa revela o oxigênio do composto."
+  },
+  "espcex-2026-objetiva-40": {
+    "topic": "Redução de nitrato em uma célula eletrolítica",
+    "vocabulary": [
+      "Redução: recebimento de elétrons.",
+      "Cátodo: eletrodo em que ocorre redução.",
+      "Conservação de carga: carga total igual nos dois lados da equação."
+    ],
+    "steps": [
+      {
+        "title": "Identifique a transformação",
+        "text": "No nitrato, o nitrogênio tem número de oxidação +5. Na amônia, ele tem −3, sofrendo redução."
+      },
+      {
+        "title": "Conte a mudança de elétrons",
+        "text": "Passar de +5 para −3 exige receber oito elétrons por átomo de nitrogênio."
+      },
+      {
+        "title": "Confira pela carga",
+        "text": "À esquerda, NO₃⁻ e 9H⁺ somam +8 antes dos elétrons. São necessários oito elétrons para igualar a carga zero dos produtos."
+      },
+      {
+        "title": "Localize o eletrodo",
+        "text": "Redução ocorre no cátodo tanto em pilhas quanto em células eletrolíticas. O processo receber energia externa não muda essa definição."
+      },
+      {
+        "title": "Preencha os termos",
+        "text": "As lacunas são cátodo e oito elétrons, alternativa A. O ânodo é onde ocorre oxidação."
+      }
+    ],
+    "pitfalls": [
+      "Chamar o eletrodo de ânodo porque a célula é eletrolítica.",
+      "Contar nove elétrons a partir do número de H⁺."
+    ],
+    "takeaway": "Use variação do número de oxidação e conservação de carga para conferir o número de elétrons."
+  },
+  "espcex-2026-objetiva-41": {
+    "topic": "Mistura de soluções e concentração de H⁺",
+    "vocabulary": [
+      "pH: menos o logaritmo da concentração de H⁺ no modelo.",
+      "Quantidade de matéria: concentração multiplicada pelo volume.",
+      "Diluição: redução de concentração por aumento do volume."
+    ],
+    "steps": [
+      {
+        "title": "Converta os pHs",
+        "text": "O suco gástrico de pH 1 tem [H⁺] = 0,1 mol/L. O refrigerante de pH 3 tem [H⁺] = 0,001 mol/L."
+      },
+      {
+        "title": "Calcule as quantidades",
+        "text": "Nos 0,030 L de suco há 0,003 mol de H⁺. Nos 0,270 L de refrigerante há 0,00027 mol."
+      },
+      {
+        "title": "Some no modelo do item",
+        "text": "Considerando a soma das quantidades e volumes fornecidos, são 0,00327 mol em 0,300 L de mistura."
+      },
+      {
+        "title": "Divida pelo volume total",
+        "text": "A concentração é 0,00327/0,300 = 0,0109 mol/L, sem fazer média aritmética dos pHs."
+      },
+      {
+        "title": "Escolha a aproximação",
+        "text": "O valor é aproximadamente 0,01 mol/L, alternativa D. O modelo da prova desconsidera efeitos tampão e outras reações."
+      }
+    ],
+    "pitfalls": [
+      "Calcular a média dos pHs.",
+      "Usar mililitros diretamente em concentração por litro."
+    ],
+    "takeaway": "Em misturas, converta pH em concentração e some quantidades de H⁺ antes de dividir pelo volume final."
+  },
+  "efomm-2026-dia2-2": {
+    "topic": "Soma infinita dos segmentos retirados",
+    "vocabulary": [
+      "Progressão geométrica: termos obtidos por uma razão constante.",
+      "Série convergente: soma infinita com limite finito.",
+      "Comprimento: medida total dos segmentos considerados."
+    ],
+    "steps": [
+      {
+        "title": "Leia a primeira remoção",
+        "text": "O segmento inicial tem nove milhas náuticas. Retirar seu terço central remove três milhas na primeira etapa."
+      },
+      {
+        "title": "Conte a segunda remoção",
+        "text": "Restam dois segmentos de três milhas. Retirar um terço de cada um remove duas milhas no total."
+      },
+      {
+        "title": "Encontre a razão",
+        "text": "A soma dos comprimentos removidos em cada etapa fica multiplicada por 2/3. A série começa com 3, 2, 4/3 e assim por diante."
+      },
+      {
+        "title": "Some a série infinita",
+        "text": "Como a razão 2/3 tem módulo menor que um, a soma é 3/(1 − 2/3) = 9 milhas náuticas."
+      },
+      {
+        "title": "Interprete o limite",
+        "text": "O comprimento total retirado tende ao comprimento inicial, embora o conjunto de pontos remanescentes não seja vazio. A resposta é a alternativa E."
+      }
+    ],
+    "pitfalls": [
+      "Concluir que sobram três milhas porque cada etapa tira só um terço.",
+      "Confundir comprimento zero com conjunto sem pontos."
+    ],
+    "takeaway": "Some os comprimentos removidos por etapa como uma PG convergente, sem confundir medida e existência de pontos."
+  },
+  "efomm-2026-dia2-3": {
+    "topic": "Total de sete prestações em PG",
+    "vocabulary": [
+      "Razão da PG: quociente entre termos consecutivos.",
+      "Prestação: pagamento de uma série parcelada.",
+      "Soma finita: total de uma quantidade determinada de termos."
+    ],
+    "steps": [
+      {
+        "title": "Compare a terceira e a quinta",
+        "text": "Da terceira para a quinta prestação, a razão atua duas vezes. Portanto, q² = 1536000/9600000 = 0,16."
+      },
+      {
+        "title": "Escolha a razão positiva",
+        "text": "Como as prestações são pagamentos positivos, q = 0,4. A razão negativa não atende ao contexto."
+      },
+      {
+        "title": "Recupere a primeira",
+        "text": "A terceira é a₁q². Logo, a₁ = 9600000/0,16 = 60000000 reais."
+      },
+      {
+        "title": "Some as sete prestações",
+        "text": "S₇ = 60000000(1 − 0,4⁷)/(1 − 0,4) = 99836160 reais. O valor à vista não substitui essa soma contratada."
+      },
+      {
+        "title": "Acrescente a entrada",
+        "text": "O total pago é 65000000 + 99836160 = R$ 164836160,00. Esse valor corresponde à alternativa E."
+      }
+    ],
+    "pitfalls": [
+      "Usar a razão entre a quinta e a terceira como q.",
+      "Esquecer a entrada ao calcular o desembolso total."
+    ],
+    "takeaway": "Termos separados por duas posições determinam q²; depois recupere o primeiro termo e some todos os pagamentos."
+  },
+  "efomm-2026-dia2-9": {
+    "topic": "Contagem por inclusão e exclusão em uma sequência",
+    "vocabulary": [
+      "Inclusão-exclusão: método que corrige contagens sobrepostas.",
+      "Mínimo múltiplo comum: menor múltiplo positivo compartilhado.",
+      "Ciclo: padrão que se repete após um número fixo de posições."
+    ],
+    "steps": [
+      {
+        "title": "Conte os pares iniciais",
+        "text": "Entre 2 e 2026 existem 1013 números pares. Precisamos descobrir quantos sobrevivem às exclusões, incluindo 2026."
+      },
+      {
+        "title": "Conte cada conjunto removido",
+        "text": "São 336 múltiplos de 6 sem o próprio 6, 252 de 8 sem o próprio 8 e 201 de 10 sem o próprio 10."
+      },
+      {
+        "title": "Corrija as interseções",
+        "text": "Múltiplos comuns de 24, 30 e 40 foram contados duas vezes: são 84, 67 e 50. Os 16 múltiplos de 120 precisam ser acrescentados de volta."
+      },
+      {
+        "title": "Ache a posição sobrevivente",
+        "text": "A quantidade removida é 336 + 252 + 201 − 84 − 67 − 50 + 16 = 604. Assim, 2026 ocupa a posição 1013 − 604 = 409."
+      },
+      {
+        "title": "Use o ciclo de letras",
+        "text": "409 deixa resto quatro na divisão por cinco. O quarto símbolo de E, F, O, M, M é o primeiro M, alternativa D."
+      }
+    ],
+    "pitfalls": [
+      "Remover também os números 6, 8 e 10, que são exceções.",
+      "Contar múltiplos comuns várias vezes."
+    ],
+    "takeaway": "Conte primeiro a posição na sequência filtrada; só depois aplique o ciclo de símbolos."
+  },
+  "efomm-2026-dia2-20": {
+    "topic": "Conselho com restrições entre participantes",
+    "vocabulary": [
+      "Combinação: escolha de integrantes sem ordem.",
+      "Caso disjunto: situação que não se sobrepõe a outra.",
+      "Restrição: condição que elimina algumas escolhas."
+    ],
+    "steps": [
+      {
+        "title": "Separe a presença de P₆",
+        "text": "O responsável R₃ só é permitido quando P₆ participa. Conte conselhos com P₆ e sem P₆ separadamente."
+      },
+      {
+        "title": "Conte com P₆ e sem P₁",
+        "text": "Escolhemos os outros dois professores entre quatro: C(4,2)=6. Há C(5,2)=10 pares de estudantes e três responsáveis: 180 conselhos."
+      },
+      {
+        "title": "Conte com ambos os professores",
+        "text": "Com P₆ e P₁, resta escolher um entre quatro professores. E₁ é proibido, deixando C(4,2)=6 pares de estudantes. Com três responsáveis, são 72."
+      },
+      {
+        "title": "Conte sem P₆",
+        "text": "Sem P₁ também, são C(4,3)×C(5,2)×2 = 80. Com P₁, são C(4,2)×C(4,2)×2 = 72, pois R₃ é proibido."
+      },
+      {
+        "title": "Some os casos",
+        "text": "180 + 72 + 80 + 72 = 404 conselhos, alternativa A. Os casos são disjuntos e cobrem todas as escolhas permitidas."
+      }
+    ],
+    "pitfalls": [
+      "Permitir R₃ sem a presença de P₆.",
+      "Escolher E₁ mesmo quando P₁ participa."
+    ],
+    "takeaway": "Separe casos pela presença de integrantes que alteram as permissões dos outros grupos."
+  },
+  "efomm-2026-dia2-23": {
+    "topic": "Fluxo variável e força eletromotriz constante",
+    "vocabulary": [
+      "Fluxo magnético: integral do campo sobre uma superfície.",
+      "Força eletromotriz induzida: variação temporal do fluxo com sinal oposto.",
+      "Lei de Lenz: sentido induzido que se opõe à variação do fluxo."
+    ],
+    "steps": [
+      {
+        "title": "Identifique a orientação",
+        "text": "A espira está no plano z = 0 e o campo aponta no eixo z. Portanto, o campo é perpendicular à área da espira."
+      },
+      {
+        "title": "Escreva o fluxo",
+        "text": "Para área S constante, Φ = S(B₀ + a²t). O fluxo muda linearmente com o tempo."
+      },
+      {
+        "title": "Derive a variação",
+        "text": "A taxa dΦ/dt = Sa² é constante. Pela lei de Faraday, a força eletromotriz induzida é −Sa²."
+      },
+      {
+        "title": "Separe campo e sua variação",
+        "text": "Mesmo quando o campo cruza zero, sua taxa de mudança não zera. O sinal de B₀ não torna a força eletromotriz variável."
+      },
+      {
+        "title": "Escolha a conclusão",
+        "text": "A f.e.m. induzida é constante, alternativa B. Ela também depende da área da espira e quadruplica se a é multiplicado por dois."
+      }
+    ],
+    "pitfalls": [
+      "Achar que campo zero implica indução zero.",
+      "Ignorar o quadrado de a ao comparar mudanças do parâmetro."
+    ],
+    "takeaway": "Indução depende da taxa de mudança do fluxo, e não apenas do valor instantâneo do campo."
+  },
+  "efomm-2026-dia2-33": {
+    "topic": "Momento linear em um sistema de duas estrelas",
+    "vocabulary": [
+      "Centro de massa: posição média ponderada pelas massas.",
+      "Velocidade angular: ângulo percorrido por tempo.",
+      "Momento linear: produto da massa pela velocidade."
+    ],
+    "steps": [
+      {
+        "title": "Localize o centro de massa",
+        "text": "Se a separação é D, a primeira estrela tem raio orbital r₁ = M₂D/(M₁ + M₂). A segunda tem a expressão simétrica."
+      },
+      {
+        "title": "Use uma velocidade angular comum",
+        "text": "Ambas completam as voltas no mesmo período, mantendo a distância relativa. A gravidade determina ω² = G(M₁ + M₂)/D³."
+      },
+      {
+        "title": "Calcule o primeiro momento",
+        "text": "O módulo é p₁ = M₁ωr₁. Substituindo r₁, p₁ = M₁M₂Dω/(M₁ + M₂)."
+      },
+      {
+        "title": "Simplifique a expressão",
+        "text": "Ao inserir ω, obtemos p = M₁M₂√[G/(D(M₁ + M₂))]. Os dois momentos têm o mesmo módulo e sentidos opostos."
+      },
+      {
+        "title": "Compare as alternativas",
+        "text": "A expressão corresponde à alternativa B. O momento total é zero no referencial do centro de massa, mas cada momento individual não é zero."
+      }
+    ],
+    "pitfalls": [
+      "Usar D como raio orbital de cada estrela.",
+      "Confundir momento total nulo com momentos individuais nulos."
+    ],
+    "takeaway": "Em sistemas binários, determine os raios pelo centro de massa e use a velocidade angular comum."
+  },
+  "efomm-2026-dia2-36": {
+    "topic": "Velocidade média em três trechos de uma corrida",
+    "vocabulary": [
+      "Velocidade média: distância total dividida pelo tempo total.",
+      "Aceleração uniforme: taxa constante de variação da velocidade.",
+      "Trecho: parte do movimento com uma regra própria."
+    ],
+    "steps": [
+      {
+        "title": "Converta as velocidades",
+        "text": "54 km/h equivalem a 15 m/s, e 72 km/h a 20 m/s. Seja D a distância total da competição."
+      },
+      {
+        "title": "Calcule o primeiro trecho",
+        "text": "Nos dez segundos iniciais, a velocidade cresce de zero a 15 m/s. A média é 7,5 m/s e a distância é 75 m."
+      },
+      {
+        "title": "Calcule o segundo tempo",
+        "text": "A fase constante termina em 3D/4. Sua distância é 3D/4 − 75 e seu tempo é D/20 − 5 segundos."
+      },
+      {
+        "title": "Calcule o terceiro tempo",
+        "text": "A última quarta parte é percorrida com velocidade média (15 + 20)/2 = 17,5 m/s. O tempo desse trecho é D/70."
+      },
+      {
+        "title": "Use a média total",
+        "text": "D/15 = 10 + (D/20 − 5) + D/70. Resolvendo, D = 2100 m, alternativa A. Não se faz média simples das velocidades dos trechos."
+      }
+    ],
+    "pitfalls": [
+      "Usar média aritmética de todas as velocidades citadas.",
+      "Tratar três quartos como a distância apenas do segundo trecho."
+    ],
+    "takeaway": "Some os tempos individuais e aplique a velocidade média ao percurso completo."
+  },
+  "efomm-2026-dia2-39": {
+    "topic": "Energia elétrica e gravitacional em uma rampa",
+    "vocabulary": [
+      "Energia potencial elétrica: kQq/r para cargas puntiformes.",
+      "Conservação da energia: soma das formas de energia constante sem dissipação.",
+      "Distância radial: separação entre as cargas."
+    ],
+    "steps": [
+      {
+        "title": "Descreva a geometria",
+        "text": "OA = d e AB = d. A rampa sobe fazendo ângulo θ com a horizontal, de modo que a altura de B é d sen θ."
+      },
+      {
+        "title": "Calcule a nova separação",
+        "text": "A distância OB satisfaz OB² = (d + d cos θ)² + (d sen θ)² = 2d²(1 + cos θ)."
+      },
+      {
+        "title": "Escreva as energias iniciais",
+        "text": "A carga parte do repouso em A, ao nível do solo. Sua energia é apenas a potencial elétrica kQq/d na referência escolhida."
+      },
+      {
+        "title": "Escreva o estado final",
+        "text": "Em B, há energia cinética mv²/2, gravitacional mgd sen θ e elétrica kQq/[d√(2(1 + cos θ))]."
+      },
+      {
+        "title": "Isole a velocidade",
+        "text": "Da conservação, v = √{[2kQq/(md)][1 − 1/√(2(1 + cos θ))] − 2gd sen θ}, alternativa D."
+      }
+    ],
+    "pitfalls": [
+      "Usar AB como distância final entre as cargas.",
+      "Somar o ganho gravitacional à energia cinética disponível."
+    ],
+    "takeaway": "Em forças conservativas combinadas, calcule a geometria e inclua todas as energias potenciais na mesma referência."
+  },
+  "cbmerj-2026-cfo-ingles-22": {
+    "topic": "Função lucro com imposto e custo fixo",
+    "vocabulary": [
+      "Custo fixo: despesa que independe da quantidade.",
+      "Custo variável: despesa por unidade produzida.",
+      "Lucro: receita menos todos os custos."
+    ],
+    "steps": [
+      {
+        "title": "Calcule o imposto unitário",
+        "text": "O imposto é 9,5% dos R$ 40,00 de produção. Seu valor é 0,095×40 = R$ 3,80 por bolo."
+      },
+      {
+        "title": "Monte o custo variável",
+        "text": "Cada bolo custa 40 + 3,80 = R$ 43,80. Para x unidades, o custo variável é 43,8x."
+      },
+      {
+        "title": "Acrescente o custo fixo",
+        "text": "O custo total é C(x) = 6000 + 43,8x. O custo fixo não deve ser multiplicado pela quantidade."
+      },
+      {
+        "title": "Escreva a receita",
+        "text": "Cada bolo vendido por R$ 120,00 produz receita R(x) = 120x. Subtraia os custos da receita."
+      },
+      {
+        "title": "Simplifique o lucro",
+        "text": "L(x) = 120x − 43,8x − 6000 = 76,2x − 6000, alternativa A. Com zero vendas, o lucro é negativo pelo custo fixo."
+      }
+    ],
+    "pitfalls": [
+      "Somar o custo fixo ao lucro.",
+      "Aplicar o imposto sobre o preço de venda em vez do custo indicado."
+    ],
+    "takeaway": "Separe custo fixo, custo por unidade e receita antes de construir a função lucro."
+  },
+  "cbmerj-2026-cfo-ingles-23": {
+    "topic": "Sistema possível e indeterminado",
+    "vocabulary": [
+      "Sistema indeterminado: tem infinitas soluções.",
+      "Eliminação: combinação de equações para retirar incógnitas.",
+      "Equação dependente: relação obtida a partir das demais."
+    ],
+    "steps": [
+      {
+        "title": "Use a terceira equação",
+        "text": "De x + y + z = 1, obtemos x = 1 − y − z. Substitua essa expressão nas duas primeiras."
+      },
+      {
+        "title": "Simplifique a primeira",
+        "text": "4(1 − y − z) + y + Az = 7 fornece −3y + (A − 4)z = 3."
+      },
+      {
+        "title": "Simplifique a segunda",
+        "text": "2(1 − y − z) − By + z = 5 fornece −(B + 2)y − z = 3."
+      },
+      {
+        "title": "Imponha dependência",
+        "text": "Como os termos independentes são ambos três e não nulos, as duas equações devem coincidir para haver infinitas soluções. Logo, B + 2 = 3 e A − 4 = −1."
+      },
+      {
+        "title": "Determine os parâmetros",
+        "text": "Resultam B = 1 e A = 3. O par (A,B) = (3,1) está na alternativa D e permite uma variável livre."
+      }
+    ],
+    "pitfalls": [
+      "Exigir somente determinante zero sem verificar consistência.",
+      "Trocar a ordem de A e B na resposta."
+    ],
+    "takeaway": "Para infinitas soluções, a dependência deve incluir também os termos independentes."
+  },
+  "cbmerj-2026-cfo-ingles-26": {
+    "topic": "Parcelas e juros compostos em datas diferentes",
+    "vocabulary": [
+      "Saldo devedor: valor ainda não pago.",
+      "Capitalização: aplicação de juros ao saldo.",
+      "Data focal: instante escolhido para comparar pagamentos."
+    ],
+    "steps": [
+      {
+        "title": "Desconte a entrada",
+        "text": "Dos R$ 1800,00, R$ 600,00 são pagos à vista. O saldo financiado no instante inicial é R$ 1200,00."
+      },
+      {
+        "title": "Capitaliza por dois meses",
+        "text": "Com juros de 5% ao mês, o saldo em dois meses é 1200×1,05² = R$ 1323,00."
+      },
+      {
+        "title": "Registre o segundo pagamento",
+        "text": "Nesse instante são pagos R$ 600,00. O saldo passa a 1323 − 600 = R$ 723,00."
+      },
+      {
+        "title": "Avance ao terceiro mês",
+        "text": "O saldo restante rende juros por mais um mês: 723×1,05 = R$ 759,15."
+      },
+      {
+        "title": "Quite o financiamento",
+        "text": "A terceira parcela precisa ser de R$ 759,15, alternativa A. Cada pagamento altera o saldo a partir de sua própria data."
+      }
+    ],
+    "pitfalls": [
+      "Cobrar três meses de juros sobre todo o preço sem descontar pagamentos.",
+      "Aplicar juros simples de quinze por cento."
+    ],
+    "takeaway": "Atualize o saldo até cada data de pagamento, subtraia a parcela e só então continue a capitalização."
+  },
+  "cbmerj-2026-cfo-ingles-28": {
+    "topic": "Produto de todos os divisores naturais",
+    "vocabulary": [
+      "Divisor: inteiro positivo que divide outro sem resto.",
+      "Fatoração prima: escrita em potências de primos.",
+      "Par complementar: dois divisores cujo produto é o número original."
+    ],
+    "steps": [
+      {
+        "title": "Conte os divisores",
+        "text": "Para n = 2⁵×3³, há (5 + 1)(3 + 1) = 24 divisores positivos, escolhendo os expoentes de dois e de três."
+      },
+      {
+        "title": "Forme pares complementares",
+        "text": "Cada divisor d pode ser associado a n/d. O produto do par é sempre n."
+      },
+      {
+        "title": "Conte os pares",
+        "text": "Como há 24 divisores, existem doze pares. Aqui n não é quadrado perfeito, então nenhum divisor fica sozinho no pareamento."
+      },
+      {
+        "title": "Calcule o produto total",
+        "text": "Multiplicar os produtos dos doze pares dá n¹² = (2⁵×3³)¹²."
+      },
+      {
+        "title": "Distribua o expoente",
+        "text": "O resultado é 2⁶⁰×3³⁶, alternativa D. Os expoentes são multiplicados por doze, não somados a doze."
+      }
+    ],
+    "pitfalls": [
+      "Usar cinco vezes três como número de divisores.",
+      "Elevar n ao número total de divisores, sem dividir por dois."
+    ],
+    "takeaway": "Parear cada divisor com seu complementar transforma um produto grande em uma potência de n."
+  },
+  "cbmerj-2026-cfo-ingles-42": {
+    "topic": "Dilatação do tempo na relatividade especial",
+    "vocabulary": [
+      "Tempo próprio: intervalo medido no referencial do relógio.",
+      "Fator de Lorentz: 1/√(1 − v²/c²).",
+      "Velocidade relativa: velocidade entre os referenciais comparados."
+    ],
+    "steps": [
+      {
+        "title": "Leia os tempos definidos",
+        "text": "O enunciado dá Δt′ = 6,6 h na nave e pede Δt na Terra, usando Δt = Δt′/√(1 − v²/c²)."
+      },
+      {
+        "title": "Substitua a razão de velocidades",
+        "text": "Como v = 0,75c, a razão v²/c² vale 0,75² = 0,5625. A constante c se cancela."
+      },
+      {
+        "title": "Calcule o denominador",
+        "text": "O denominador é √(1 − 0,5625) = √0,4375 ≈ 0,6614. Como a razão de velocidades é menor que um, a raiz é real e positiva."
+      },
+      {
+        "title": "Calcule o tempo terrestre",
+        "text": "Δt ≈ 6,6/0,6614 ≈ 9,98 h. A divisão por um número menor que um aumenta o intervalo."
+      },
+      {
+        "title": "Compare a aproximação",
+        "text": "O resultado é aproximadamente dez horas, alternativa B, e respeita Δt > Δt′, condição informada no item."
+      }
+    ],
+    "pitfalls": [
+      "Multiplicar por √(1 − v²/c²) em vez de dividir.",
+      "Usar 0,75 no lugar de seu quadrado."
+    ],
+    "takeaway": "Substitua primeiro v/c e confira se a direção da dilatação temporal concorda com os tempos definidos."
+  },
+  "cbmerj-2026-cfo-ingles-43": {
+    "topic": "Trabalho da força resultante na frenagem",
+    "vocabulary": [
+      "Energia cinética: mv²/2.",
+      "Teorema trabalho-energia: trabalho resultante igual à variação da energia cinética.",
+      "Megajoule: um milhão de joules."
+    ],
+    "steps": [
+      {
+        "title": "Converta os dados",
+        "text": "A massa de doze toneladas é 12000 kg. A velocidade inicial de 86,4 km/h equivale a 24 m/s."
+      },
+      {
+        "title": "Use o estado final",
+        "text": "O caminhão para, então sua energia cinética final é zero. A variação de energia é negativa."
+      },
+      {
+        "title": "Calcule a energia inicial",
+        "text": "Ei = 12000×24²/2 = 3456000 J. Essa energia mecânica de movimento é retirada durante a parada."
+      },
+      {
+        "title": "Relacione com o trabalho",
+        "text": "O trabalho da força resultante é −3456000 J. A pergunta pede seu módulo, portanto usamos o valor positivo."
+      },
+      {
+        "title": "Converta para megajoules",
+        "text": "O módulo é 3,456 MJ, aproximadamente 3,5 MJ, alternativa A. A desaceleração não é necessária para esse cálculo por energia."
+      }
+    ],
+    "pitfalls": [
+      "Responder trabalho positivo sem perceber que o item pede o módulo.",
+      "Usar toneladas diretamente na fórmula em unidades SI."
+    ],
+    "takeaway": "Para um corpo que para, o módulo do trabalho resultante é igual à energia cinética inicial."
+  },
+  "cbmerj-2026-cfo-ingles-46": {
+    "topic": "Imagem em um espelho convexo",
+    "vocabulary": [
+      "Foco: ponto característico do espelho esférico.",
+      "Imagem virtual: formada pelo prolongamento de raios.",
+      "Equação de Gauss: 1/f = 1/p + 1/p′."
+    ],
+    "steps": [
+      {
+        "title": "Aplique os sinais",
+        "text": "O espelho é convexo, então sua distância focal é negativa. Com raio de curvatura de módulo 60 cm, f = −30 cm."
+      },
+      {
+        "title": "Uniformize as unidades",
+        "text": "O objeto está a 7 m do espelho, isto é, p = 700 cm. Trabalhe em centímetros em toda a equação."
+      },
+      {
+        "title": "Use a equação de Gauss",
+        "text": "1/p′ = 1/f − 1/p = −1/30 − 1/700 = −730/21000."
+      },
+      {
+        "title": "Calcule a imagem",
+        "text": "A distância é p′ = −21000/730 ≈ −28,77 cm. O sinal negativo indica imagem virtual atrás do espelho."
+      },
+      {
+        "title": "Responda o módulo",
+        "text": "A questão pede o módulo, aproximadamente 29 cm, alternativa A. Ele fica entre zero e trinta, coerente com um espelho convexo."
+      }
+    ],
+    "pitfalls": [
+      "Usar foco positivo para espelho convexo.",
+      "Misturar sete metros com foco em centímetros."
+    ],
+    "takeaway": "Adote uma convenção de sinais e confira se a imagem convexa fica virtual e entre o vértice e o foco."
+  },
+  "cbmerj-2026-cfo-ingles-50": {
+    "topic": "Mola em um elevador acelerado",
+    "vocabulary": [
+      "Lei de Hooke: força elástica proporcional à deformação.",
+      "Força resultante: soma vetorial das forças.",
+      "Aceleração: variação da velocidade por tempo."
+    ],
+    "steps": [
+      {
+        "title": "Use a situação de repouso",
+        "text": "A massa vale 0,1 kg e o peso, com g = 10 m/s², é 1 N. Em repouso, a força da mola equilibra esse peso."
+      },
+      {
+        "title": "Encontre a constante",
+        "text": "A deformação inicial é 0,05 m. Pela lei de Hooke, k = 1/0,05 = 20 N/m."
+      },
+      {
+        "title": "Calcule a força em movimento",
+        "text": "A nova deformação é 0,06 m. A força elástica para cima passa a kx = 20×0,06 = 1,2 N."
+      },
+      {
+        "title": "Determine a resultante",
+        "text": "A força para cima excede o peso em 1,2 − 1 = 0,2 N. Assim, ma = 0,2."
+      },
+      {
+        "title": "Resolva a aceleração",
+        "text": "a = 0,2/0,1 = 2,0 m/s² para cima, alternativa D. Movimento ascendente sozinho não definiria a aceleração, mas a deformação a revela."
+      }
+    ],
+    "pitfalls": [
+      "Usar a força da mola como resultante sem subtrair o peso.",
+      "Confundir movimento para cima com aceleração necessariamente para cima."
+    ],
+    "takeaway": "Calibre a mola em repouso e use a mudança da força elástica para calcular a aceleração."
+  },
+  "cbmerj-2026-cfo-ingles-52": {
+    "topic": "Emissão alfa do amerício-241",
+    "vocabulary": [
+      "Número de massa: total de prótons e nêutrons.",
+      "Número atômico: quantidade de prótons.",
+      "Partícula alfa: núcleo de hélio com dois prótons e dois nêutrons."
+    ],
+    "steps": [
+      {
+        "title": "Identifique o núcleo inicial",
+        "text": "O amerício tem número atômico 95 e número de massa 241. Esses números devem se conservar na soma dos produtos da emissão."
+      },
+      {
+        "title": "Descreva a partícula emitida",
+        "text": "Uma partícula alfa tem número de massa quatro e carga nuclear dois, representada por ⁴₂He."
+      },
+      {
+        "title": "Calcule o núcleo filho",
+        "text": "A massa do núcleo restante é 241 − 4 = 237. Seu número atômico é 95 − 2 = 93."
+      },
+      {
+        "title": "Localize o elemento",
+        "text": "O elemento de número atômico 93 é o neptúnio, Np. A massa 237 identifica o isótopo produzido."
+      },
+      {
+        "title": "Confira a conservação",
+        "text": "²⁴¹₉₅Am → ²³⁷₉₃Np + ⁴₂He conserva os dois números. A alternativa correta é A. A resposta é a alternativa A."
+      }
+    ],
+    "pitfalls": [
+      "Subtrair quatro também do número atômico.",
+      "Trocar emissão alfa por beta."
+    ],
+    "takeaway": "Em emissão alfa, o núcleo filho tem massa quatro unidades menor e número atômico duas unidades menor."
+  },
+  "cbmerj-2026-cfo-ingles-53": {
+    "topic": "Óxido ácido em contato com uma base",
+    "vocabulary": [
+      "Óxido ácido: óxido que reage com base formando sal.",
+      "Neutralização: consumo de espécies ácidas ou básicas.",
+      "pH: medida que diminui quando a basicidade diminui no contexto."
+    ],
+    "steps": [
+      {
+        "title": "Leia a tendência do gráfico",
+        "text": "A adição do óxido reduz o pH da solução concentrada de KOH. Isso indica consumo da base, e não produção adicional de OH⁻."
+      },
+      {
+        "title": "Classifique os óxidos metálicos",
+        "text": "CaO, MgO e Na₂O apresentam caráter básico nas condições usuais. Eles não explicam a neutralização de uma base por caráter ácido."
+      },
+      {
+        "title": "Identifique a sílica",
+        "text": "O SiO₂ é um óxido de caráter ácido e pode reagir com hidróxido de potássio."
+      },
+      {
+        "title": "Escreva a reação representativa",
+        "text": "Uma representação é SiO₂ + 2KOH → K₂SiO₃ + H₂O. Ela mostra o consumo de KOH durante a adição."
+      },
+      {
+        "title": "Escolha o composto",
+        "text": "O comportamento representado corresponde ao SiO₂, alternativa D. A queda de pH é coerente com a redução da basicidade."
+      }
+    ],
+    "pitfalls": [
+      "Achar que todo óxido reage com água gerando base.",
+      "Escolher um óxido básico para explicar consumo de KOH."
+    ],
+    "takeaway": "A direção da mudança de pH ajuda a distinguir um óxido ácido de um óxido básico."
+  },
+  "cbmerj-2026-cfo-ingles-55": {
+    "topic": "Isomeria funcional e oxidação de aldeído",
+    "vocabulary": [
+      "Isomeria funcional: mesma fórmula molecular com funções diferentes.",
+      "Aldeído: composto com grupo terminal –CHO.",
+      "Cetona: composto com carbonila entre carbonos."
+    ],
+    "steps": [
+      {
+        "title": "Use a fórmula molecular",
+        "text": "C₃H₆O é compatível com propanal e propanona. Os álcoois listados têm C₃H₈O e não atendem à fórmula."
+      },
+      {
+        "title": "Compare as funções",
+        "text": "O propanal é um aldeído e a propanona é uma cetona. Eles são isômeros funcionais com três carbonos."
+      },
+      {
+        "title": "Interprete a oxidação",
+        "text": "Nas condições do ensaio proposto, aldeídos sofrem oxidação a ácidos carboxílicos com mais facilidade que cetonas."
+      },
+      {
+        "title": "Identifique o frasco B",
+        "text": "Como apenas B foi oxidado pelo permanganato ácido no teste da questão, B corresponde ao aldeído."
+      },
+      {
+        "title": "Escolha o nome",
+        "text": "O aldeído com três carbonos é o propanal, alternativa A. A propanona representa o outro isômero do par."
+      }
+    ],
+    "pitfalls": [
+      "Escolher um álcool sem conferir o número de hidrogênios.",
+      "Confundir a localização da carbonila em aldeídos e cetonas."
+    ],
+    "takeaway": "Combine fórmula molecular, função e comportamento no teste para identificar um isômero."
+  },
+  "cbmerj-2026-cfo-ingles-58": {
+    "topic": "Pureza do minério e massa de zinco",
+    "vocabulary": [
+      "Pureza: fração da amostra composta pela substância desejada.",
+      "Rendimento: proporção entre produção real e teórica.",
+      "Massa molar: massa de um mol de substância."
+    ],
+    "steps": [
+      {
+        "title": "Desconte as impurezas",
+        "text": "O minério de 487,5 kg contém 80% de ZnS. A massa reativa é 487,5×0,80 = 390 kg."
+      },
+      {
+        "title": "Acompanhe o zinco",
+        "text": "Nas duas etapas, cada mol de ZnS dá um mol de ZnO e depois um mol de Zn metálico. A proporção global é um para um."
+      },
+      {
+        "title": "Use as massas molares",
+        "text": "Com Zn = 65,5 e S = 32, temos M(ZnS) = 97,5 g/mol. A fração de zinco no sulfeto puro é 65,5/97,5."
+      },
+      {
+        "title": "Calcule a produção teórica",
+        "text": "A massa de zinco é 390×65,5/97,5 = 262 kg. As unidades de massa podem permanecer em quilogramas nessa razão."
+      },
+      {
+        "title": "Aplique o rendimento",
+        "text": "Como as reações têm rendimento de 100%, não há redução adicional. O resultado corresponde à alternativa B."
+      }
+    ],
+    "pitfalls": [
+      "Tratar toda a massa do minério como ZnS puro.",
+      "Usar rendimento e pureza como se fossem a mesma informação."
+    ],
+    "takeaway": "Aplique a pureza antes da estequiometria e o rendimento à produção teórica obtida."
   }
 }

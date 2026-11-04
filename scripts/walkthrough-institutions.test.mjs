@@ -7,23 +7,33 @@ import { renderToStaticMarkup } from 'react-dom/server'
 import additions from '../src/lib/walkthroughInstitutionQuestions.json' with { type: 'json' }
 import { walkthroughQuestions, walkthroughExams, walkthroughSelection } from '../src/lib/walkthroughCatalog.js'
 import { walkthroughSolutions } from '../src/lib/walkthroughSolutions.js'
+import keys from './fixtures/walkthrough-institution-keys.json' with { type: 'json' }
 
-const keys = {
-  uerj: '29:A,34:D,1:A,44:C,5:C,37:A', usp: '70:A,77:E,19:B,33:B,57:A,64:B',
-  ita: '1:D,13:B,28:B', unicamp: '51:C,14:B,71:A', unesp: '83:E,78:D,70:C',
-  enem: '137:E,91:C,110:E', esa: '7:D', espcex: '15:D,22:E,36:E', efomm: '10:A,28:D', cbmerj: '24:C,47:C,57:A',
-}
-assert.equal(walkthroughQuestions.length, 168)
-assert.equal(additions.length, 33)
-assert.equal(new Set(walkthroughQuestions.map(q => q.id)).size, 168)
-assert.equal(Object.keys(walkthroughSolutions).length, 168)
+assert.equal(walkthroughQuestions.length, 270)
+assert.equal(additions.length, 135)
+assert.equal(new Set(walkthroughQuestions.map(q => q.id)).size, 270)
+assert.equal(Object.keys(walkthroughSolutions).length, 270)
 for (const [exam, expected] of Object.entries(keys)) {
   assert.equal(additions.filter(q => q.exam === exam).map(q => `${q.number}:${q.answer}`).join(','), expected)
 }
+const combinations = new Map()
+for (const q of walkthroughQuestions) {
+  const key = [q.exam, q.year, q.stage, q.subject].join('/')
+  combinations.set(key, (combinations.get(key) || 0) + 1)
+}
+assert.equal(combinations.size, 54)
+for (const [key, count] of combinations) assert(count >= 5, key)
+const uerj5 = additions.find(q => q.exam === 'uerj' && q.number === 5)
+assert.equal(uerj5.support, null)
+assert.deepEqual(uerj5.supportImages, ['/uerj-2026-eq2/apoio-p39.png'])
+const uerj37 = additions.find(q => q.exam === 'uerj' && q.number === 37)
+assert.equal(uerj37.support, null)
+assert(uerj37.supportImages.includes('/uerj-2026-eq2/q37.png'))
 for (const q of additions) {
   assert([4, 5].includes(q.options.length), q.id)
   assert(q.options.every(option => option.trim() && !option.includes('conforme o caderno original')), q.id)
   assert('ABCDE'.slice(0, q.options.length).includes(q.answer), q.id)
+  assert(!q.support?.includes('Enunciado e alternativas originais no apoio oficial'), q.id)
   for (const url of [q.sourceUrl, q.answerSource, ...q.supportImages]) {
     if (url.startsWith('/')) assert(existsSync(`public${url.split('#')[0]}`), url)
     else assert.equal(new URL(url).protocol, 'https:')
@@ -66,6 +76,9 @@ for (const q of additions) {
     assert(markup.includes(chosen === q.answer ? 'Você acertou!' : 'Ainda não foi desta vez'), q.id)
     assert(markup.includes(q.answerSource.replaceAll('&', '&amp;')), q.id)
     assert(!markup.includes('caderno e o gabarito da UFJF'), q.id)
+    assert(!markup.includes('resoluções consultadas nesta sessão'), q.id)
+    assert(!markup.includes('walkthrough-coverage'), q.id)
+    assert(!markup.includes('seleção comentada de questões objetivas'), q.id)
     if (q.support) assert(markup.includes('walkthrough-context'), q.id)
     for (const image of q.supportImages) assert(markup.includes(image), q.id)
   }
@@ -85,4 +98,38 @@ assert.equal(2 / 2 ** (26.5 / 5.3), .0625)
 assert.equal(.03 * 500 * 164 / 1000, 2.46)
 assert.equal(.6 / Math.sqrt(9e-3 / 4e-9) * 1000, .4)
 assert(Math.abs(.37 * 1150 / 30 - 14.2) < .03)
-console.log('33 novas resoluções: 10 provas, filtros persistidos, fontes, imagens, alternativas, feedback e cálculos verificados.')
+assert.equal(2 ** 6, 64)
+assert.equal((625 - 500) / 500, .25)
+assert.equal((20 + 55 + 75 + 90) / 4, 60)
+assert.equal(7.5e-4 / 30, 2.5e-5)
+assert.equal(22 * 12 + 30 + 2 * 35.5 + 10 * 14, 505)
+assert.equal(300 * 10 * 50 - 300 * 30 ** 2 / 2, 15000)
+assert.equal(207 * 1e-4 * 1000, 20.7)
+assert.equal(40320 / 6 / 2, 3360)
+assert(Math.abs(160 / 14.5 * .91 - 10) < .1)
+assert(Math.abs((85 - 8.31 * 310 * Math.log(10) / 1000) - 79) < .1)
+assert(Math.abs(Math.log(4) / .02 - 69) < 1)
+assert(Math.abs(120 / (6 + 2 * .875) - 15.48) < .01)
+assert.equal(12 * (1.2 + 1.44 + 1.728), 52.416)
+assert.equal(10 * 2 / 120, 1 / 6)
+assert.equal(70 * 60 + 20 * 40, 30 * 60 + 80 * 40)
+assert.equal(4 * 3600, 14400)
+assert.equal(3.6 / 7.2 * 6, 3)
+assert.equal(15 * 3600 / (45 * 10), 120)
+assert(Math.abs((1 / 332.3) / .003 - 1) < .01)
+assert(Math.abs((60 - 56 / 124 * 100) - 14.8) < .1)
+assert.equal(24 / 2, 12)
+assert(Math.abs(4 / 52 * 44 / 51 - 44 / 663) < 1e-12)
+assert.equal(700 + Math.abs(225 - 15 * 25), 850)
+assert.equal(8 * 6 + 3 * 8, 72)
+assert.equal(48 - 72 + 26, 2)
+assert(Math.abs(68.4 / (2.3 / 46) - 1368) < 1e-10)
+assert(Math.abs((.1 * .03 + .001 * .27) / .3 - .0109) < 1e-12)
+assert.equal(60000000 * (1 - .4 ** 7) / (1 - .4) + 65000000, 164836160)
+assert.equal(1013 - (336 + 252 + 201 - 84 - 67 - 50 + 16), 409)
+assert.equal(180 + 72 + 80 + 72, 404)
+assert.equal(2100 / 15, 10 + (2100 / 20 - 5) + 2100 / 70)
+assert(Math.abs(723 * 1.05 - 759.15) < 1e-10)
+assert.equal(12000 * 24 ** 2 / 2 / 1e6, 3.456)
+assert.equal(487.5 * .8 * 65.5 / 97.5, 262)
+console.log('270 resoluções: mínimo de 5 em cada uma das 54 combinações, 270 renderizações adicionais, apoios UERJ e remoção dos textos verificados.')
