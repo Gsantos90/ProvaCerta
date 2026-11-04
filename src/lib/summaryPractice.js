@@ -1,6 +1,8 @@
 import { studySummaries } from './studySummaries.js'
 import { studyTopics } from './studyTopics.js'
-import { shuffleQuestions } from './authorPractice.js'
+import { previousAuthorRound, selectAuthorRound } from './authorPractice.js'
+import { authorQuestionBank } from './authorQuestionBank.js'
+import { expandedPractice } from './expandedPractice.js'
 
 const bank = []
 function add(topicId, text, options, explanation) {
@@ -79,12 +81,32 @@ for (const topic of studySummaries) {
     add(topic.id, text, [correct, wrong1, wrong2], explanation)
   }
 }
+// Os assuntos antigos e novos usam o mesmo banco local e a mesma alternância.
+// Mantém os identificadores originais para preservar histórico e revisões.
+for (const question of authorQuestionBank) {
+  const topic = studySummaries.find(item => item.id === question.topicId)
+  bank.push({ ...question, origin: 'author', examSlug: `author:${topic.id}`, examTitle: `Questões autorais · ${topic.title}`, sourceUrl: null })
+}
+for (const [topicId, questions] of Object.entries(expandedPractice)) {
+  for (const [text, correct, wrong1, wrong2, explanation] of questions) {
+    add(topicId, text, [correct, wrong1, wrong2], explanation)
+  }
+}
 export const summaryPracticeQuestions = bank
+const practiceDescriptions = {
+  'grandes-navegacoes': 'Expansão marítima europeia, rotas comerciais e colonização.',
+  'america-espanhola': 'Conquista, trabalho e sociedade na colonização espanhola.',
+  'america-inglesa': 'Formação das colônias inglesas e independência dos Estados Unidos.',
+  'sociedades-africanas': 'Reinos, diversidade cultural e redes de comércio na África.',
+  'africa-antiga': 'Kush, Cartago e Aksum: poder, comércio e cultura na África antiga.',
+  'egito-antigo': 'Rio Nilo, faraós, religião e organização da sociedade egípcia.',
+  'antiguidade-classica': 'Grécia e Roma: política, sociedade e cultura no mundo antigo.',
+}
 export const practiceTopics = studySummaries.filter(topic => topic.subject !== 'Redação').map(topic => {
   const existing = studyTopics.find(item => item.id === topic.id)
-  return { ...topic, ...existing, title: topic.title, questions: existing?.questions || [], color: existing?.color || (['Matemática', 'Física'].includes(topic.subject) ? 'math' : 'language'), description: existing?.description || topic.intro, authoredCount: existing?.authoredCount || bank.filter(q => q.topicId === topic.id).length }
+  return { ...topic, ...existing, title: topic.title, questions: existing?.questions || [], color: existing?.color || (['Matemática', 'Física'].includes(topic.subject) ? 'math' : 'language'), description: practiceDescriptions[topic.id] || existing?.description || topic.intro, authoredCount: bank.filter(q => q.topicId === topic.id).length }
 })
 export function localSummaryRound(topicId) {
   const questions = bank.filter(question => question.topicId === topicId)
-  return questions.length ? shuffleQuestions(questions).slice(0, 10) : null
+  return questions.length ? selectAuthorRound(questions, previousAuthorRound(topicId)) : null
 }

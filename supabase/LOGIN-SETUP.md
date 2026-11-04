@@ -60,6 +60,26 @@ Não há permissão de atualização de resultados para o cliente público.
 
 ## Configuração no painel antes da publicação
 
+### Envio de confirmação e recuperação
+
+O serviço de e-mail padrão do Supabase é destinado a testes: a documentação
+informa limite de dois e-mails por hora e envio restrito a endereços da equipe.
+Para os estudantes receberem mensagens, configure um provedor SMTP próprio em
+**Authentication → Email → SMTP Settings**. As credenciais devem ficar na
+configuração do Supabase, nunca em variáveis `VITE_` ou no código do navegador.
+
+No diagnóstico de 03/11/2026, os logs técnicos registraram nove respostas HTTP
+429 com o código `over_email_send_rate_limit`. O endpoint público de configurações
+confirmou cadastro por e-mail habilitado e confirmação obrigatória. O aplicativo
+agora mostra um toast de erro para falhas de envio; não mostra sucesso quando a
+API retorna erro. A confirmação de entrega na caixa de entrada depende do provedor.
+
+Para testar após configurar SMTP, use um endereço de teste controlado, confirme
+o retorno sem erro, confira a chegada da mensagem e siga o link de confirmação.
+Evite tentativas repetidas enquanto houver bloqueio de envio.
+
+Referência: https://supabase.com/docs/guides/auth/auth-smtp
+
 Em [Authentication → URL Configuration](https://supabase.com/dashboard/project/tzwrgkxjdxkgcennjgwx/auth/url-configuration):
 
 - **Site URL:** `https://prova-certa-dusky.vercel.app/`

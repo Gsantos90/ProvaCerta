@@ -74,7 +74,7 @@ assert.ok(!markup.includes('Página compartilhada') && !markup.includes('pagina-
 const stateKey=`provacerta:page-state:v1:pism.discursive.subject.v2.${key}.${subject}`
 saved[stateKey]=JSON.stringify({ finished:true, answers:{ [question.id]:{ [question.fields[0].id]:'Minha resposta preservada.' } } })
 markup = render()
-assert.ok(markup.includes('Prova finalizada: 1 de 2 questões respondidas') && !markup.includes('<textarea'))
+assert.ok(markup.includes('itens com conceitos reconhecidos') && markup.includes('1 de 2 questões respondidas') && !markup.includes('<textarea'))
 saved[`${stateKey}.view`]=JSON.stringify('review')
 markup=render()
 assert.ok(markup.includes('Minha resposta preservada.') && markup.includes('readonly'))

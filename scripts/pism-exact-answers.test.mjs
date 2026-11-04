@@ -85,6 +85,7 @@ test('todos os resultados cadastrados são reconhecidos e cada campo tem referê
   for (const exam of Object.values(exams)) for (const section of exam.sections) for (const question of section.questions) {
     for (const field of question.fields) {
       if (field.manual) {manual++;continue}
+      if (field.rule.kind==='concepts') continue // Cobertura em pism-concept-answers.test.mjs.
       count++;assert.ok(field.reference && field.rule.models.length,question.id)
       const rule=field.rule
       const samples=rule.kind==='set' ? [rule.models.join('; ')] : rule.kind==='pair' ? [`(${rule.models.join('; ')})`] : rule.models

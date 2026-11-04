@@ -1,6 +1,7 @@
 // Short results transcribed from COPESE's official correction PDFs (2024–2026).
 // Only these registered results are graded. Proofs and structural drawings stay manual.
 import { matchesPismExact } from './pismExactAnswers.js'
+import { getPismConceptRule, gradePismConcepts } from './pismConceptAnswers.js'
 
 const exact = (kind,models,reference,extra={}) => ({ kind,models:Array.isArray(models) ? models : [models],reference,...extra })
 const quantity = (model,unit='',reference='',extra={}) => exact('quantity',model,reference || `${Array.isArray(model) ? model[0] : model}${unit && !['ratio','count'].includes(unit) ? ` ${unit}` : ''}`,{ unit,...extra })
@@ -71,7 +72,7 @@ export function preparePismExactExam(exam) {
   return { ...exam, sections:exam.sections.map(section => ({ ...section, questions:section.questions.map(question => {
     const registered=rules[`${exam.module}:${exam.year}:${section.subject}:${question.number}`] || {}
     const fields=question.fields.flatMap(field => {
-      const definition=registered[field.id]
+      const definition=registered[field.id] || getPismConceptRule(exam.module,exam.year,section.subject,question.number,field.id)
       if (!definition) return [{ ...field,manual:true }]
       return (Array.isArray(definition) ? definition : [part('',field.label,definition)]).map(component => ({
         id:component.id ? `${field.id}_${component.id}` : field.id,label:component.label,baseField:field.id,
@@ -83,6 +84,6 @@ export function preparePismExactExam(exam) {
 }
 
 export function gradePismQuestion(question,answers={}) {
-  const items=question.fields.map(field => ({ id:field.id,manual:field.manual,blank:!String(answers[field.id]||'').trim(),matched:!field.manual && matchesPismExact(field.rule,answers[field.id]) }))
+  const items=question.fields.map(field => ({ id:field.id,manual:field.manual,blank:!String(answers[field.id]||'').trim(),matched:!field.manual && (field.rule.kind==='concepts' ? false : matchesPismExact(field.rule,answers[field.id])),...(field.rule?.kind==='concepts' ? gradePismConcepts(field.rule,answers[field.id]) : {}) }))
   return { items,total:items.filter(item => !item.manual).length,recognized:items.filter(item => item.matched).length,manual:items.filter(item => item.manual).length }
 }
