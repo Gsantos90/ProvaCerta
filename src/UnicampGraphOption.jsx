@@ -1,6 +1,12 @@
 import React from 'react'
 
 export default function UnicampGraphOption({ graph, letter }) {
+  if (graph.vector) return <svg className="unicamp-option-graph" viewBox={`0 0 ${graph.width} ${graph.height}`} role="img" aria-label={`Gráfico ${letter}: quantidade de poluente em função do tempo`}>
+    <rect width={graph.width} height={graph.height} fill="white" />
+    {graph.paths.map((path, index) => <path key={index} d={path.d} stroke="#111" strokeWidth={path.width} fill="none" />)}
+    {graph.texts.map((text, index) => <text key={index} x={text.x} y={text.y} fontSize={text.size} fill="#111" fontFamily="Arial, sans-serif">{text.text}</text>)}
+    <text transform={`translate(9 ${graph.height/2}) rotate(-90)`} textAnchor="middle" fontSize="9" fill="#111">Q(t)</text>
+  </svg>
   return <svg className="unicamp-option-graph" viewBox="0 0 345 245" role="img" aria-label={`Gráfico ${letter}: posição em função do tempo`}>
     <rect width="345" height="245" fill="white" />
     <g stroke="#777" strokeWidth="0.8" strokeDasharray="3 3">

@@ -227,3 +227,6 @@ header nav{margin-left:0;gap:24px}
 .option:has(.unicamp-option-graph) > span:nth-child(2) { flex: 1; min-width: 0; }
 
 .exam-draft-status{font-size:12px;color:var(--theme-text-69748a,#69748a);margin:0 0 12px;line-height:1.6}
+
+.unicamp-option-figure { display: block; width: min(100%, 430px); max-height: 340px; object-fit: contain; height: auto; border-radius: 5px; }
+.option:has(.unicamp-option-figure) > span:nth-child(2) { flex: 1; min-width: 0; }

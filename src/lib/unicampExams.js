@@ -1,4 +1,6 @@
-import presentation from './unicamp2026Presentation.json' with { type: 'json' }
+import presentation2026 from './unicamp2026Presentation.json' with { type: 'json' }
+import presentation2025 from './unicamp2025Presentation.json' with { type: 'json' }
+import presentation2024 from './unicamp2024Presentation.json' with { type: 'json' }
 import sources from './unicampSources.js'
 import { supportImageUrls } from './safeUrls.js'
 
@@ -30,12 +32,11 @@ export function unicampDocument(year, name) {
   return `/provas/unicamp/${year}-fase2-${name}.pdf`
 }
 
-const presentationByNumber = new Map(presentation.map(question => [question.number, question]))
+const presentations = Object.fromEntries([[2026,presentation2026],[2025,presentation2025],[2024,presentation2024]].map(([year, questions]) => [`unicamp-${year}-fase1`, new Map(questions.map(question => [question.number, question]))]))
 
 // Apply at load time and again at display time for sessions saved before this revision.
 // Database identities, answer keys and progress are preserved.
 export function presentUnicampQuestion(question) {
-  if (question?.examSlug !== 'unicamp-2026-fase1') return question
-  const content = presentationByNumber.get(Number(question.number))
+  const content = presentations[question?.examSlug]?.get(Number(question.number))
   return content ? { ...question, ...content } : question
 }

@@ -39,18 +39,19 @@ for(const year of unicampYears) {
     assert.equal(q.options.length,4)
     assert.equal(q.answer,keys[year][i]==='*'?'A/B/C/D/E':keys[year][i])
     assert.ok(q.text.length>15&&!q.text.includes('[[placeholder]]'))
-    assert.ok(year==='2026' ? q.structuredContent && q.originalImages.length===0 : q.originalImages.length>0)
-    if(year==='2026') {
-      assert.ok(!q.options.some(option=>/conforme o caderno|^[a-d]\)/i.test(option)))
-      assert.equal(q.questionId,`unicamp-2026-fase1-${q.number}`)
+    assert.ok(q.structuredContent && q.originalImages.length===0)
+    {
+      assert.ok(!q.options.some(option=>/conforme o caderno|conforme a figura|^[a-d]\)/i.test(option)))
+      assert.ok(!/[\ue000-\uf8ff]/.test([q.text,q.support,...q.options].join(' ')))
+      assert.equal(q.questionId,`unicamp-${year}-fase1-${q.number}`)
       assert.deepEqual(presentUnicampQuestion(q),q)
     }
     assert.match(q.sourceUrl,/comvest\.unicamp\.br.*\.pdf#page=\d+$/)
-    for(const path of [...q.originalImages,...q.supportImage]) {
+    for(const path of [...q.originalImages,...q.supportImage,...(q.optionImages||[])]) {
       assert.ok(existsSync('public'+path),path);assets.add(path)
       const image=readFileSync('public'+path)
       assert.equal(image.toString('hex',0,8),'89504e470d0a1a0a')
-      assert.ok(image.readUInt32BE(16)>(year==='2026'?100:500)&&image.readUInt32BE(20)>20,path)
+      assert.ok(image.readUInt32BE(16)>100&&image.readUInt32BE(20)>20,path)
     }
   })
   const session={id:'fixture',startedAt:1,endedAt:2}
@@ -64,13 +65,15 @@ for(const year of unicampYears) {
   for(const name of ['fase1','gabarito'])assert.equal(readFileSync(`public/provas/unicamp/${year}-${name}.pdf`).toString('ascii',0,4),'%PDF')
 }
 assert.deepEqual(banks['unicamp-2025-fase1'].filter(q=>q.answer.includes('/')).map(q=>q.number),[53])
-assert.ok(banks['unicamp-2024-fase1'][1].supportImage.length)
+assert.ok(banks['unicamp-2024-fase1'][1].support)
 assert.ok(banks['unicamp-2025-fase1'][9].supportImage.length)
-assert.ok(banks['unicamp-2025-fase1'][18].supportImage.length>=2)
+assert.ok(banks['unicamp-2025-fase1'][18].support.includes('The past Go.'))
 for(const n of [9,10,11,13,14,55,56])assert.ok(banks['unicamp-2026-fase1'][n-1].support)
 assert.equal(banks['unicamp-2026-fase1'][12].optionGraphs.length,4)
 assert.equal(new Set(banks['unicamp-2026-fase1'][12].optionGraphs.map(g=>g.path)).size,4)
-assert.equal(presentUnicampQuestion({examSlug:'unicamp-2025-fase1',number:1,text:'original'}).text,'original')
+assert.equal(presentUnicampQuestion({examSlug:'outro',number:1,text:'original'}).text,'original')
+assert.equal(banks['unicamp-2025-fase1'][57].optionGraphs.length,4)
+for(const n of [26,67])assert.equal(banks['unicamp-2024-fase1'][n-1].optionImages.length,4)
 assert.equal(unicampDocument('2027','dia-1'),null)
 assert.equal(unicampOfficialSource('unicamp-2026-fase1',73),undefined)
 assert.equal(unicampOfficialSource('outro',1),undefined)
@@ -95,19 +98,20 @@ for(const year of unicampYears) {
   assert.ok(!docs.includes('Começar prova'))
   assert.equal((docs.match(/href="\/provas\/unicamp/g)||[]).length,9)
   const qs=banks[`unicamp-${year}-fase1`]
-  for(const n of (year==='2026'?Array.from({length:72},(_,i)=>i+1):[1,2,9,34,53,72])) {
+  for(const n of Array.from({length:72},(_,i)=>i+1)) {
     overrides={selectedExam:'unicamp',supabaseExamSlug:`unicamp-${year}-fase1`,enemQuestions:qs,screen:'review',current:n-1}
     const html=renderToStaticMarkup(React.createElement(mod.exports.App))
     assert.ok(html.includes(`Unicamp ${year}`)&&html.includes('da Comvest / Unicamp'))
     assert.ok(!html.includes('Módulo I'))
     assert.equal((html.match(/class="original-question-page"/g)||[]).length,qs[n-1].originalImages.length)
-    assert.equal((html.match(/Marcar alternativa /g)||[]).length,year==='2026'?0:4)
-    if(year==='2026') {
+    assert.equal((html.match(/Marcar alternativa /g)||[]).length,0)
+    {
       assert.equal((html.match(/class="option(?: |")/g)||[]).length,4)
       assert.equal((html.match(/class="sidebar-support"/g)||[]).length,qs[n-1].support || qs[n-1].supportImage.length ? 1 : 0)
       assert.equal(html.includes('>Texto ou imagem de apoio<'),!!qs[n-1].support || qs[n-1].supportImage.length>0)
       assert.ok(!html.includes('>Texto de apoio<')&&!html.includes('>Imagem de apoio<'))
-      assert.equal((html.match(/class="unicamp-option-graph"/g)||[]).length,n===13?4:0)
+      assert.equal((html.match(/class="unicamp-option-figure"/g)||[]).length,(year==='2024'&&[26,67].includes(n))?4:0)
+      assert.equal((html.match(/class="unicamp-option-graph"/g)||[]).length,((year==='2026'&&n===13)||(year==='2025'&&n===58))?4:0)
     }
     if(year==='2025'&&n===53)assert.ok(html.includes('ponto atribuído automaticamente'))
   }

@@ -1,0 +1,990 @@
+[
+  {
+    "year": 2024,
+    "question": 3,
+    "sources": [
+      "/unicamp-2024/q03-1.png",
+      "/unicamp-2024/q03-2.png"
+    ],
+    "referenceWidth": 434,
+    "box": [
+      6,
+      415,
+      424,
+      551
+    ],
+    "output": "/unicamp-2024-apoios/q03-figura.png"
+  },
+  {
+    "year": 2024,
+    "question": 4,
+    "sources": [
+      "/unicamp-2024/q04-1.png",
+      "/unicamp-2024/q04-2.png"
+    ],
+    "referenceWidth": 361,
+    "box": [
+      75,
+      120,
+      266,
+      414
+    ],
+    "output": "/unicamp-2024-apoios/q04-figura.png"
+  },
+  {
+    "year": 2024,
+    "question": 17,
+    "sources": [
+      "/unicamp-2024/q17-1.png",
+      "/unicamp-2024/q17-2.png"
+    ],
+    "referenceWidth": 422,
+    "box": [
+      12,
+      43,
+      365,
+      282
+    ],
+    "output": "/unicamp-2024-apoios/q17-figura.png"
+  },
+  {
+    "year": 2024,
+    "question": 19,
+    "sources": [
+      "/unicamp-2024/q19-1.png"
+    ],
+    "referenceWidth": 315,
+    "box": [
+      3,
+      30,
+      151,
+      230
+    ],
+    "output": "/unicamp-2024-apoios/q19-figura.png"
+  },
+  {
+    "year": 2024,
+    "question": 20,
+    "sources": [
+      "/unicamp-2024/contexto-20-21-1.png",
+      "/unicamp-2024/q20-1.png"
+    ],
+    "referenceWidth": 340,
+    "box": [
+      26,
+      303,
+      309,
+      532
+    ],
+    "output": "/unicamp-2024-apoios/q20-figura.png"
+  },
+  {
+    "year": 2024,
+    "question": 21,
+    "sources": [
+      "/unicamp-2024/contexto-20-21-1.png",
+      "/unicamp-2024/q21-1.png",
+      "/unicamp-2024/q21-2.png"
+    ],
+    "referenceWidth": 290,
+    "box": [
+      142,
+      260,
+      288,
+      690
+    ],
+    "output": "/unicamp-2024-apoios/q21-figura.png"
+  },
+  {
+    "year": 2024,
+    "question": 23,
+    "sources": [
+      "/unicamp-2024/q23-1.png"
+    ],
+    "referenceWidth": 440,
+    "box": [
+      67,
+      219,
+      372,
+      443
+    ],
+    "output": "/unicamp-2024-apoios/q23-figura.png"
+  },
+  {
+    "year": 2024,
+    "question": 24,
+    "sources": [
+      "/unicamp-2024/q24-1.png",
+      "/unicamp-2024/q24-2.png"
+    ],
+    "referenceWidth": 440,
+    "box": [
+      150,
+      38,
+      437,
+      508
+    ],
+    "output": "/unicamp-2024-apoios/q24-figura.png"
+  },
+  {
+    "year": 2024,
+    "question": 25,
+    "sources": [
+      "/unicamp-2024/q25-1.png",
+      "/unicamp-2024/q25-2.png"
+    ],
+    "referenceWidth": 346,
+    "box": [
+      34,
+      220,
+      299,
+      632
+    ],
+    "output": "/unicamp-2024-apoios/q25-figura.png"
+  },
+  {
+    "year": 2024,
+    "question": 29,
+    "sources": [
+      "/unicamp-2024/q29-1.png"
+    ],
+    "referenceWidth": 388,
+    "box": [
+      4,
+      57,
+      381,
+      266
+    ],
+    "output": "/unicamp-2024-apoios/q29-figura.png"
+  },
+  {
+    "year": 2024,
+    "question": 30,
+    "sources": [
+      "/unicamp-2024/q30-1.png",
+      "/unicamp-2024/q30-2.png"
+    ],
+    "referenceWidth": 325,
+    "box": [
+      3,
+      190,
+      320,
+      547
+    ],
+    "output": "/unicamp-2024-apoios/q30-figura.png"
+  },
+  {
+    "year": 2024,
+    "question": 32,
+    "sources": [
+      "/unicamp-2024/q32-1.png",
+      "/unicamp-2024/q32-2.png"
+    ],
+    "referenceWidth": 428,
+    "box": [
+      13,
+      260,
+      408,
+      549
+    ],
+    "output": "/unicamp-2024-apoios/q32-figura.png"
+  },
+  {
+    "year": 2024,
+    "question": 33,
+    "sources": [
+      "/unicamp-2024/q33-1.png",
+      "/unicamp-2024/q33-2.png"
+    ],
+    "referenceWidth": 325,
+    "box": [
+      9,
+      126,
+      314,
+      495
+    ],
+    "output": "/unicamp-2024-apoios/q33-figura.png"
+  },
+  {
+    "year": 2024,
+    "question": 37,
+    "sources": [
+      "/unicamp-2024/contexto-34-37-1.png",
+      "/unicamp-2024/q37-1.png",
+      "/unicamp-2024/q37-2.png"
+    ],
+    "referenceWidth": 440,
+    "box": [
+      47,
+      472,
+      390,
+      791
+    ],
+    "output": "/unicamp-2024-apoios/q37-figura.png"
+  },
+  {
+    "year": 2024,
+    "question": 39,
+    "sources": [
+      "/unicamp-2024/contexto-39-40-1.png",
+      "/unicamp-2024/q39-1.png",
+      "/unicamp-2024/q39-2.png"
+    ],
+    "referenceWidth": 440,
+    "box": [
+      48,
+      383,
+      379,
+      630
+    ],
+    "output": "/unicamp-2024-apoios/q39-figura.png"
+  },
+  {
+    "year": 2024,
+    "question": 40,
+    "sources": [
+      "/unicamp-2024/contexto-39-40-1.png",
+      "/unicamp-2024/q40-1.png"
+    ],
+    "referenceWidth": 440,
+    "box": [
+      56,
+      386,
+      376,
+      554
+    ],
+    "output": "/unicamp-2024-apoios/q40-figura.png"
+  },
+  {
+    "year": 2024,
+    "question": 42,
+    "sources": [
+      "/unicamp-2024/q42-1.png"
+    ],
+    "referenceWidth": 440,
+    "box": [
+      8,
+      106,
+      429,
+      367
+    ],
+    "output": "/unicamp-2024-apoios/q42-figura.png"
+  },
+  {
+    "year": 2024,
+    "question": 44,
+    "sources": [
+      "/unicamp-2024/q44-1.png"
+    ],
+    "referenceWidth": 440,
+    "box": [
+      6,
+      135,
+      432,
+      431
+    ],
+    "output": "/unicamp-2024-apoios/q44-figura.png"
+  },
+  {
+    "year": 2024,
+    "question": 46,
+    "sources": [
+      "/unicamp-2024/q46-1.png"
+    ],
+    "referenceWidth": 440,
+    "box": [
+      55,
+      122,
+      376,
+      350
+    ],
+    "output": "/unicamp-2024-apoios/q46-figura.png"
+  },
+  {
+    "year": 2024,
+    "question": 47,
+    "sources": [
+      "/unicamp-2024/q47-1.png"
+    ],
+    "referenceWidth": 440,
+    "box": [
+      181,
+      88,
+      435,
+      245
+    ],
+    "output": "/unicamp-2024-apoios/q47-figura.png"
+  },
+  {
+    "year": 2024,
+    "question": 57,
+    "sources": [
+      "/unicamp-2024/q57-1.png"
+    ],
+    "referenceWidth": 440,
+    "box": [
+      3,
+      131,
+      432,
+      267
+    ],
+    "output": "/unicamp-2024-apoios/q57-figura.png"
+  },
+  {
+    "year": 2024,
+    "question": 63,
+    "sources": [
+      "/unicamp-2024/q63-1.png"
+    ],
+    "referenceWidth": 440,
+    "box": [
+      68,
+      86,
+      363,
+      258
+    ],
+    "output": "/unicamp-2024-apoios/q63-figura.png"
+  },
+  {
+    "year": 2024,
+    "question": 65,
+    "sources": [
+      "/unicamp-2024/q65-1.png"
+    ],
+    "referenceWidth": 440,
+    "box": [
+      140,
+      69,
+      396,
+      221
+    ],
+    "output": "/unicamp-2024-apoios/q65-figura.png"
+  },
+  {
+    "year": 2024,
+    "question": 66,
+    "sources": [
+      "/unicamp-2024/q66-1.png"
+    ],
+    "referenceWidth": 440,
+    "box": [
+      80,
+      234,
+      319,
+      470
+    ],
+    "output": "/unicamp-2024-apoios/q66-figura.png"
+  },
+  {
+    "year": 2024,
+    "question": 4,
+    "sources": [
+      "/unicamp-2024/q04-1.png",
+      "/unicamp-2024/q04-2.png"
+    ],
+    "referenceWidth": 361,
+    "box": [
+      68,
+      429,
+      288,
+      595
+    ],
+    "output": "/unicamp-2024-apoios/q04-aguia.png"
+  },
+  {
+    "year": 2024,
+    "question": 19,
+    "sources": [
+      "/unicamp-2024/q19-1.png"
+    ],
+    "referenceWidth": 315,
+    "box": [
+      171,
+      30,
+      307,
+      230
+    ],
+    "output": "/unicamp-2024-apoios/q19-panfleto.png"
+  },
+  {
+    "year": 2024,
+    "question": 67,
+    "sources": [
+      "/unicamp-2024/q67-1.png",
+      "/unicamp-2024/q67-2.png"
+    ],
+    "referenceWidth": 440,
+    "box": [
+      6,
+      380,
+      187,
+      571
+    ],
+    "output": "/unicamp-2024-apoios/q67-peca-1.png",
+    "option": 0
+  },
+  {
+    "year": 2024,
+    "question": 67,
+    "sources": [
+      "/unicamp-2024/q67-1.png",
+      "/unicamp-2024/q67-2.png"
+    ],
+    "referenceWidth": 440,
+    "box": [
+      6,
+      607,
+      187,
+      795
+    ],
+    "output": "/unicamp-2024-apoios/q67-peca-2.png",
+    "option": 1
+  },
+  {
+    "year": 2024,
+    "question": 67,
+    "sources": [
+      "/unicamp-2024/q67-1.png",
+      "/unicamp-2024/q67-2.png"
+    ],
+    "referenceWidth": 440,
+    "box": [
+      217,
+      380,
+      400,
+      571
+    ],
+    "output": "/unicamp-2024-apoios/q67-peca-3.png",
+    "option": 2
+  },
+  {
+    "year": 2024,
+    "question": 67,
+    "sources": [
+      "/unicamp-2024/q67-1.png",
+      "/unicamp-2024/q67-2.png"
+    ],
+    "referenceWidth": 440,
+    "box": [
+      217,
+      607,
+      400,
+      795
+    ],
+    "output": "/unicamp-2024-apoios/q67-peca-4.png",
+    "option": 3
+  },
+  {
+    "year": 2024,
+    "question": 26,
+    "page": 11,
+    "box": [
+      31.1810913,
+      368.5655982,
+      286.2992096,
+      469.9058234
+    ],
+    "output": "/unicamp-2024-apoios/q26-graficos-1.png",
+    "option": 0
+  },
+  {
+    "year": 2024,
+    "question": 26,
+    "page": 11,
+    "box": [
+      31.1810913,
+      481.4254004,
+      286.2992096,
+      582.7656256
+    ],
+    "output": "/unicamp-2024-apoios/q26-graficos-2.png",
+    "option": 1
+  },
+  {
+    "year": 2024,
+    "question": 26,
+    "page": 11,
+    "box": [
+      31.1810913,
+      594.7513739,
+      286.2992096,
+      696.0915991
+    ],
+    "output": "/unicamp-2024-apoios/q26-graficos-3.png",
+    "option": 2
+  },
+  {
+    "year": 2024,
+    "question": 26,
+    "page": 11,
+    "box": [
+      31.1810913,
+      709.4931342,
+      286.2992096,
+      810.8333594
+    ],
+    "output": "/unicamp-2024-apoios/q26-graficos-4.png",
+    "option": 3
+  },
+  {
+    "year": 2025,
+    "question": 1,
+    "sources": [
+      "/unicamp-2025/q01-1.png"
+    ],
+    "referenceWidth": 404,
+    "box": [
+      8,
+      194,
+      394,
+      386
+    ],
+    "output": "/unicamp-2025-apoios/q01-figura.png"
+  },
+  {
+    "year": 2025,
+    "question": 3,
+    "sources": [
+      "/unicamp-2025/q03-1.png"
+    ],
+    "referenceWidth": 425,
+    "box": [
+      5,
+      38,
+      416,
+      380
+    ],
+    "output": "/unicamp-2025-apoios/q03-figura.png"
+  },
+  {
+    "year": 2025,
+    "question": 4,
+    "sources": [
+      "/unicamp-2025/q04-1.png"
+    ],
+    "referenceWidth": 419,
+    "box": [
+      13,
+      226,
+      410,
+      566
+    ],
+    "output": "/unicamp-2025-apoios/q04-figura.png"
+  },
+  {
+    "year": 2025,
+    "question": 5,
+    "sources": [
+      "/unicamp-2025/contexto-5-6-1.png",
+      "/unicamp-2025/contexto-5-6-2.png",
+      "/unicamp-2025/q05-1.png"
+    ],
+    "referenceWidth": 269,
+    "box": [
+      4,
+      205,
+      263,
+      556
+    ],
+    "output": "/unicamp-2025-apoios/q05-figura.png",
+    "shared": [
+      6
+    ]
+  },
+  {
+    "year": 2025,
+    "question": 7,
+    "sources": [
+      "/unicamp-2025/q07-1.png",
+      "/unicamp-2025/q07-2.png"
+    ],
+    "referenceWidth": 392,
+    "box": [
+      4,
+      225,
+      382,
+      519
+    ],
+    "output": "/unicamp-2025-apoios/q07-figura.png"
+  },
+  {
+    "year": 2025,
+    "question": 8,
+    "sources": [
+      "/unicamp-2025/q08-1.png"
+    ],
+    "referenceWidth": 440,
+    "box": [
+      6,
+      258,
+      432,
+      419
+    ],
+    "output": "/unicamp-2025-apoios/q08-figura.png"
+  },
+  {
+    "year": 2025,
+    "question": 10,
+    "sources": [
+      "/unicamp-2025/contexto-9-10-1.png",
+      "/unicamp-2025/q10-1.png"
+    ],
+    "referenceWidth": 351,
+    "box": [
+      16,
+      277,
+      321,
+      354
+    ],
+    "output": "/unicamp-2025-apoios/q10-figura.png"
+  },
+  {
+    "year": 2025,
+    "question": 12,
+    "sources": [
+      "/unicamp-2025/q12-1.png"
+    ],
+    "referenceWidth": 440,
+    "box": [
+      24,
+      165,
+      384,
+      425
+    ],
+    "output": "/unicamp-2025-apoios/q12-figura.png"
+  },
+  {
+    "year": 2025,
+    "question": 13,
+    "sources": [
+      "/unicamp-2025/contexto-13-14-1.png",
+      "/unicamp-2025/q13-1.png"
+    ],
+    "referenceWidth": 440,
+    "box": [
+      10,
+      390,
+      438,
+      591
+    ],
+    "output": "/unicamp-2025-apoios/q13-figura.png"
+  },
+  {
+    "year": 2025,
+    "question": 16,
+    "sources": [
+      "/unicamp-2025/q16-1.png",
+      "/unicamp-2025/q16-2.png"
+    ],
+    "referenceWidth": 404,
+    "box": [
+      10,
+      103,
+      393,
+      586
+    ],
+    "output": "/unicamp-2025-apoios/q16-figura.png"
+  },
+  {
+    "year": 2025,
+    "question": 17,
+    "sources": [
+      "/unicamp-2025/q17-1.png",
+      "/unicamp-2025/q17-2.png"
+    ],
+    "referenceWidth": 352,
+    "box": [
+      1,
+      268,
+      345,
+      678
+    ],
+    "output": "/unicamp-2025-apoios/q17-figura.png"
+  },
+  {
+    "year": 2025,
+    "question": 28,
+    "sources": [
+      "/unicamp-2025/q28-1.png"
+    ],
+    "referenceWidth": 440,
+    "box": [
+      6,
+      40,
+      432,
+      365
+    ],
+    "output": "/unicamp-2025-apoios/q28-figura.png"
+  },
+  {
+    "year": 2025,
+    "question": 29,
+    "sources": [
+      "/unicamp-2025/q29-1.png"
+    ],
+    "referenceWidth": 433,
+    "box": [
+      0,
+      100,
+      244,
+      467
+    ],
+    "output": "/unicamp-2025-apoios/q29-figura.png"
+  },
+  {
+    "year": 2025,
+    "question": 33,
+    "sources": [
+      "/unicamp-2025/q33-1.png",
+      "/unicamp-2025/q33-2.png"
+    ],
+    "referenceWidth": 417,
+    "box": [
+      67,
+      34,
+      409,
+      287
+    ],
+    "output": "/unicamp-2025-apoios/q33-figura.png"
+  },
+  {
+    "year": 2025,
+    "question": 35,
+    "sources": [
+      "/unicamp-2025/contexto-35-36-1.png",
+      "/unicamp-2025/q35-1.png"
+    ],
+    "referenceWidth": 422,
+    "box": [
+      3,
+      112,
+      410,
+      318
+    ],
+    "output": "/unicamp-2025-apoios/q35-figura.png",
+    "shared": [
+      36
+    ]
+  },
+  {
+    "year": 2025,
+    "question": 37,
+    "sources": [
+      "/unicamp-2025/contexto-37-38-1.png",
+      "/unicamp-2025/q37-1.png",
+      "/unicamp-2025/q37-2.png"
+    ],
+    "referenceWidth": 402,
+    "box": [
+      6,
+      23,
+      392,
+      525
+    ],
+    "output": "/unicamp-2025-apoios/q37-figura.png",
+    "shared": [
+      38
+    ]
+  },
+  {
+    "year": 2025,
+    "question": 47,
+    "sources": [
+      "/unicamp-2025/q47-1.png",
+      "/unicamp-2025/q47-2.png"
+    ],
+    "referenceWidth": 440,
+    "box": [
+      8,
+      274,
+      438,
+      513
+    ],
+    "output": "/unicamp-2025-apoios/q47-figura.png"
+  },
+  {
+    "year": 2025,
+    "question": 51,
+    "sources": [
+      "/unicamp-2025/q51-1.png"
+    ],
+    "referenceWidth": 440,
+    "box": [
+      95,
+      186,
+      331,
+      403
+    ],
+    "output": "/unicamp-2025-apoios/q51-figura.png"
+  },
+  {
+    "year": 2025,
+    "question": 53,
+    "sources": [
+      "/unicamp-2025/q53-1.png"
+    ],
+    "referenceWidth": 440,
+    "box": [
+      133,
+      104,
+      282,
+      254
+    ],
+    "output": "/unicamp-2025-apoios/q53-figura.png"
+  },
+  {
+    "year": 2025,
+    "question": 55,
+    "sources": [
+      "/unicamp-2025/q55-1.png",
+      "/unicamp-2025/q55-2.png"
+    ],
+    "referenceWidth": 440,
+    "box": [
+      31,
+      124,
+      387,
+      303
+    ],
+    "output": "/unicamp-2025-apoios/q55-figura.png"
+  },
+  {
+    "year": 2025,
+    "question": 59,
+    "sources": [
+      "/unicamp-2025/q59-1.png"
+    ],
+    "referenceWidth": 440,
+    "box": [
+      4,
+      179,
+      432,
+      420
+    ],
+    "output": "/unicamp-2025-apoios/q59-figura.png"
+  },
+  {
+    "year": 2025,
+    "question": 60,
+    "sources": [
+      "/unicamp-2025/q60-1.png",
+      "/unicamp-2025/q60-2.png"
+    ],
+    "referenceWidth": 440,
+    "box": [
+      5,
+      265,
+      429,
+      323
+    ],
+    "output": "/unicamp-2025-apoios/q60-figura.png"
+  },
+  {
+    "year": 2025,
+    "question": 64,
+    "sources": [
+      "/unicamp-2025/q64-1.png",
+      "/unicamp-2025/q64-2.png"
+    ],
+    "referenceWidth": 372,
+    "box": [
+      4,
+      282,
+      367,
+      563
+    ],
+    "output": "/unicamp-2025-apoios/q64-figura.png"
+  },
+  {
+    "year": 2025,
+    "question": 65,
+    "sources": [
+      "/unicamp-2025/q65-1.png"
+    ],
+    "referenceWidth": 440,
+    "box": [
+      6,
+      249,
+      429,
+      508
+    ],
+    "output": "/unicamp-2025-apoios/q65-figura.png"
+  },
+  {
+    "year": 2025,
+    "question": 66,
+    "sources": [
+      "/unicamp-2025/q66-1.png"
+    ],
+    "referenceWidth": 440,
+    "box": [
+      4,
+      147,
+      432,
+      338
+    ],
+    "output": "/unicamp-2025-apoios/q66-figura.png"
+  },
+  {
+    "year": 2025,
+    "question": 68,
+    "sources": [
+      "/unicamp-2025/q68-1.png"
+    ],
+    "referenceWidth": 440,
+    "box": [
+      8,
+      228,
+      428,
+      509
+    ],
+    "output": "/unicamp-2025-apoios/q68-figura.png"
+  },
+  {
+    "year": 2025,
+    "question": 69,
+    "sources": [
+      "/unicamp-2025/q69-1.png",
+      "/unicamp-2025/q69-2.png"
+    ],
+    "referenceWidth": 440,
+    "box": [
+      75,
+      316,
+      364,
+      451
+    ],
+    "output": "/unicamp-2025-apoios/q69-figura.png"
+  },
+  {
+    "year": 2025,
+    "question": 72,
+    "sources": [
+      "/unicamp-2025/q72-1.png"
+    ],
+    "referenceWidth": 397,
+    "box": [
+      48,
+      192,
+      332,
+      530
+    ],
+    "output": "/unicamp-2025-apoios/q72-figura.png"
+  },
+  {
+    "year": 2025,
+    "question": 10,
+    "sources": [
+      "/unicamp-2025/contexto-9-10-1.png",
+      "/unicamp-2025/q10-1.png"
+    ],
+    "referenceWidth": 351,
+    "box": [
+      10,
+      475,
+      315,
+      709
+    ],
+    "output": "/unicamp-2025-apoios/q10-grafico.png"
+  }
+]
