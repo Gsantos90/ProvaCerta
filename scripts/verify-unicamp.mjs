@@ -4,7 +4,7 @@ import { createRequire } from 'node:module'
 import React from 'react'
 import { renderToStaticMarkup } from 'react-dom/server'
 import { buildSync } from 'esbuild'
-import { unicampYears, unicampDocument, unicampOfficialSource, unicampQuestionMedia } from '../src/lib/unicampExams.js'
+import { unicampYears, unicampDocument, unicampOfficialSource, unicampQuestionMedia, presentUnicampQuestion } from '../src/lib/unicampExams.js'
 import { isCorrectAnswer } from '../src/lib/examAnswers.js'
 import { attemptPayload } from '../src/lib/studyHistory.js'
 import { attemptSource } from '../src/lib/catalogProgress.js'
@@ -25,7 +25,7 @@ for(const line of sql.split('\n')) {
   const m=line.match(/select id,(.*) from public.exams where slug='([^']+)'/)
   if(!m)continue
   const [number,subject,text,support,media,options,answer,explanation]=fields(m[1])
-  ;(banks[m[2]]||=[]).push({number,subject,text,support,supportImage:JSON.parse(media).support,...unicampQuestionMedia(m[2],media),options:JSON.parse(options),answer,explanation,examSlug:m[2],examTitle:`Unicamp ${m[2].split('-')[1]} · 1ª fase`,sourceUrl:unicampOfficialSource(m[2],number),questionId:m[2]+'-'+number})
+  ;(banks[m[2]]||=[]).push(presentUnicampQuestion({number,subject,text,support,supportImage:JSON.parse(media).support,...unicampQuestionMedia(m[2],media),options:JSON.parse(options),answer,explanation,examSlug:m[2],examTitle:`Unicamp ${m[2].split('-')[1]} · 1ª fase`,sourceUrl:unicampOfficialSource(m[2],number),questionId:m[2]+'-'+number}))
 }
 assert.deepEqual(unicampYears,['2026','2025','2024'])
 assert.equal(Object.keys(banks).length,3)
@@ -39,13 +39,18 @@ for(const year of unicampYears) {
     assert.equal(q.options.length,4)
     assert.equal(q.answer,keys[year][i]==='*'?'A/B/C/D/E':keys[year][i])
     assert.ok(q.text.length>15&&!q.text.includes('[[placeholder]]'))
-    assert.ok(q.originalImages.length>0)
+    assert.ok(year==='2026' ? q.structuredContent && q.originalImages.length===0 : q.originalImages.length>0)
+    if(year==='2026') {
+      assert.ok(!q.options.some(option=>/conforme o caderno|^[a-d]\)/i.test(option)))
+      assert.equal(q.questionId,`unicamp-2026-fase1-${q.number}`)
+      assert.deepEqual(presentUnicampQuestion(q),q)
+    }
     assert.match(q.sourceUrl,/comvest\.unicamp\.br.*\.pdf#page=\d+$/)
     for(const path of [...q.originalImages,...q.supportImage]) {
       assert.ok(existsSync('public'+path),path);assets.add(path)
       const image=readFileSync('public'+path)
       assert.equal(image.toString('hex',0,8),'89504e470d0a1a0a')
-      assert.ok(image.readUInt32BE(16)>500&&image.readUInt32BE(20)>20,path)
+      assert.ok(image.readUInt32BE(16)>(year==='2026'?100:500)&&image.readUInt32BE(20)>20,path)
     }
   })
   const session={id:'fixture',startedAt:1,endedAt:2}
@@ -62,7 +67,10 @@ assert.deepEqual(banks['unicamp-2025-fase1'].filter(q=>q.answer.includes('/')).m
 assert.ok(banks['unicamp-2024-fase1'][1].supportImage.length)
 assert.ok(banks['unicamp-2025-fase1'][9].supportImage.length)
 assert.ok(banks['unicamp-2025-fase1'][18].supportImage.length>=2)
-for(const n of [9,10,11,13,14,55,56])assert.ok(banks['unicamp-2026-fase1'][n-1].supportImage.length)
+for(const n of [9,10,11,13,14,55,56])assert.ok(banks['unicamp-2026-fase1'][n-1].support)
+assert.equal(banks['unicamp-2026-fase1'][12].optionGraphs.length,4)
+assert.equal(new Set(banks['unicamp-2026-fase1'][12].optionGraphs.map(g=>g.path)).size,4)
+assert.equal(presentUnicampQuestion({examSlug:'unicamp-2025-fase1',number:1,text:'original'}).text,'original')
 assert.equal(unicampDocument('2027','dia-1'),null)
 assert.equal(unicampOfficialSource('unicamp-2026-fase1',73),undefined)
 assert.equal(unicampOfficialSource('outro',1),undefined)
@@ -86,14 +94,29 @@ for(const year of unicampYears) {
   assert.ok(!docs.includes('Começar prova'))
   assert.equal((docs.match(/href="\/provas\/unicamp/g)||[]).length,9)
   const qs=banks[`unicamp-${year}-fase1`]
-  for(const n of [1,2,9,34,53,72]) {
+  for(const n of (year==='2026'?Array.from({length:72},(_,i)=>i+1):[1,2,9,34,53,72])) {
     overrides={selectedExam:'unicamp',supabaseExamSlug:`unicamp-${year}-fase1`,enemQuestions:qs,screen:'review',current:n-1}
     const html=renderToStaticMarkup(React.createElement(mod.exports.App))
     assert.ok(html.includes(`Unicamp ${year}`)&&html.includes('da Comvest / Unicamp'))
     assert.ok(!html.includes('Módulo I'))
     assert.equal((html.match(/class="original-question-page"/g)||[]).length,qs[n-1].originalImages.length)
-    assert.equal((html.match(/Marcar alternativa /g)||[]).length,4)
+    assert.equal((html.match(/Marcar alternativa /g)||[]).length,year==='2026'?0:4)
+    if(year==='2026') {
+      assert.equal((html.match(/class="option(?: |")/g)||[]).length,4)
+      assert.equal(html.includes('>Texto de apoio<'),!!qs[n-1].support)
+      assert.equal(html.includes('>Imagem de apoio<'),qs[n-1].supportImage.length>0)
+      assert.ok(!html.includes('Texto ou imagem de apoio'))
+      assert.equal((html.match(/class="unicamp-option-graph"/g)||[]).length,n===13?4:0)
+    }
     if(year==='2025'&&n===53)assert.ok(html.includes('ponto atribuído automaticamente'))
   }
 }
+// A previously saved session still receives the new presentation on display.
+const saved = banks['unicamp-2026-fase1'].map(q=>({...q,text:'LEGACY_STATEMENT',support:null,supportImage:[],originalImages:['/unicamp-2026/q01-1.png'],options:['Legacy A','Legacy B','Legacy C','Legacy D'],structuredContent:undefined}))
+overrides={selectedExam:'unicamp',supabaseExamSlug:'unicamp-2026-fase1',enemQuestions:saved,screen:'exam',current:12,answers:{12:'B'}}
+const restoredHtml=renderToStaticMarkup(React.createElement(mod.exports.App))
+assert.ok(!restoredHtml.includes('LEGACY_STATEMENT')&&!restoredHtml.includes('Legacy A'))
+assert.equal((restoredHtml.match(/class="unicamp-option-graph"/g)||[]).length,4)
+assert.match(restoredHtml,/class="option\s+selected"/)
+assert.equal(saved[12].text,'LEGACY_STATEMENT')
 console.log(`Unicamp: 216 questões/gabaritos, ${assets.size} imagens referenciadas, textos compartilhados, 33 PDFs e renderização dos 3 anos verificados.`)
