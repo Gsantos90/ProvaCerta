@@ -18,7 +18,7 @@
     ],
     "answer": "B",
     "supportImages": [
-      "/uerj-2026-eq2/q6.png"
+      "/uerj-2026-eq2/figura-q6.png"
     ],
     "sourceUrl": "/provas/uerj/2026-eq2.pdf",
     "answerSource": "/provas/uerj/2026-eq2-gabarito.pdf"
@@ -42,7 +42,7 @@
     ],
     "answer": "A",
     "supportImages": [
-      "/uerj-2026-eq2/q29.png"
+      "/uerj-2026-eq2/figura-q29.png"
     ],
     "sourceUrl": "/provas/uerj/2026-eq2.pdf",
     "answerSource": "/provas/uerj/2026-eq2-gabarito.pdf"
@@ -65,9 +65,7 @@
       "30%"
     ],
     "answer": "C",
-    "supportImages": [
-      "/uerj-2026-eq2/q30.png"
-    ],
+    "supportImages": [],
     "sourceUrl": "/provas/uerj/2026-eq2.pdf",
     "answerSource": "/provas/uerj/2026-eq2-gabarito.pdf"
   },
@@ -90,7 +88,7 @@
     ],
     "answer": "C",
     "supportImages": [
-      "/uerj-2026-eq2/q31.png"
+      "/uerj-2026-eq2/figura-q31.png"
     ],
     "sourceUrl": "/provas/uerj/2026-eq2.pdf",
     "answerSource": "/provas/uerj/2026-eq2-gabarito.pdf"
@@ -158,7 +156,7 @@
     ],
     "answer": "D",
     "supportImages": [
-      "/uerj-2026-eq2/q41.png"
+      "/provas/destrinchando/figuras/uerj-2026-41-recipientes.png"
     ],
     "sourceUrl": "/provas/uerj/2026-eq2.pdf",
     "answerSource": "/provas/uerj/2026-eq2-gabarito.pdf"
@@ -182,8 +180,7 @@
     ],
     "answer": "B",
     "supportImages": [
-      "/uerj-2026-eq2/apoio-p24.png",
-      "/uerj-2026-eq2/q43.png"
+      "/uerj-2026-eq2/agua.png"
     ],
     "sourceUrl": "/provas/uerj/2026-eq2.pdf",
     "answerSource": "/provas/uerj/2026-eq2-gabarito.pdf"
@@ -207,8 +204,7 @@
     ],
     "answer": "C",
     "supportImages": [
-      "/uerj-2026-eq2/apoio-p24.png",
-      "/uerj-2026-eq2/q44.png"
+      "/uerj-2026-eq2/agua.png"
     ],
     "sourceUrl": "/provas/uerj/2026-eq2.pdf",
     "answerSource": "/provas/uerj/2026-eq2-gabarito.pdf"
@@ -232,7 +228,7 @@
     ],
     "answer": "B",
     "supportImages": [
-      "/uerj-2026-eq2/q46.png"
+      "/provas/destrinchando/figuras/uerj-2026-46-energias.png"
     ],
     "sourceUrl": "/provas/uerj/2026-eq2.pdf",
     "answerSource": "/provas/uerj/2026-eq2-gabarito.pdf"
@@ -256,7 +252,7 @@
     ],
     "answer": "C",
     "supportImages": [
-      "/uerj-2026-eq2/apoio-p39.png"
+      "/provas/destrinchando/figuras/uerj-2026-tabela-periodica.png"
     ],
     "sourceUrl": "/provas/uerj/2026-eq2.pdf",
     "answerSource": "/provas/uerj/2026-eq2-gabarito.pdf"
@@ -280,8 +276,7 @@
     ],
     "answer": "A",
     "supportImages": [
-      "/uerj-2026-eq2/q37.png",
-      "/uerj-2026-eq2/apoio-p39.png"
+      "/provas/destrinchando/figuras/uerj-2026-tabela-periodica.png"
     ],
     "sourceUrl": "/provas/uerj/2026-eq2.pdf",
     "answerSource": "/provas/uerj/2026-eq2-gabarito.pdf"
@@ -305,8 +300,7 @@
     ],
     "answer": "A",
     "supportImages": [
-      "/uerj-2026-eq2/apoio-p22.png",
-      "/uerj-2026-eq2/q39.png"
+      "/uerj-2026-eq2/glicemia.png"
     ],
     "sourceUrl": "/provas/uerj/2026-eq2.pdf",
     "answerSource": "/provas/uerj/2026-eq2-gabarito.pdf"
@@ -330,7 +324,7 @@
     ],
     "answer": "B",
     "supportImages": [
-      "/uerj-2026-eq2/q42.png"
+      "/uerj-2026-eq2/figura-q42.png"
     ],
     "sourceUrl": "/provas/uerj/2026-eq2.pdf",
     "answerSource": "/provas/uerj/2026-eq2-gabarito.pdf"
@@ -354,8 +348,7 @@
     ],
     "answer": "A",
     "supportImages": [
-      "/uerj-2026-eq2/q45.png",
-      "/uerj-2026-eq2/apoio-p39.png"
+      "/provas/destrinchando/figuras/uerj-2026-tabela-periodica.png"
     ],
     "sourceUrl": "/provas/uerj/2026-eq2.pdf",
     "answerSource": "/provas/uerj/2026-eq2-gabarito.pdf"
@@ -405,7 +398,7 @@
     ],
     "answer": "B",
     "supportImages": [
-      "/usp-2025/questao-69-1.png"
+      "/provas/destrinchando/figuras/usp-2025-69-graficos.png"
     ],
     "sourceUrl": "https://www.fuvest.br/wp-content/uploads/fuvest2025_primeira_fase_prova_V1.pdf#page=26",
     "answerSource": "https://www.fuvest.br/wp-content/uploads/fuvest2025_gabarito_primeira_fase.pdf"
@@ -1090,9 +1083,7 @@
       "1% menor que o total a ser recebido na proposta 2."
     ],
     "answer": "A",
-    "supportImages": [
-      "/unicamp-2026/q43-1.png"
-    ],
+    "supportImages": [],
     "sourceUrl": "/provas/unicamp/2026-fase1.pdf#page=17",
     "answerSource": "/provas/unicamp/2026-gabarito.pdf"
   },
@@ -1114,9 +1105,7 @@
       "2."
     ],
     "answer": "B",
-    "supportImages": [
-      "/unicamp-2026/q45-1.png"
-    ],
+    "supportImages": [],
     "sourceUrl": "/provas/unicamp/2026-fase1.pdf#page=17",
     "answerSource": "/provas/unicamp/2026-gabarito.pdf"
   },
@@ -1138,9 +1127,7 @@
       "1/30."
     ],
     "answer": "B",
-    "supportImages": [
-      "/unicamp-2026/q49-1.png"
-    ],
+    "supportImages": [],
     "sourceUrl": "/provas/unicamp/2026-fase1.pdf#page=19",
     "answerSource": "/provas/unicamp/2026-gabarito.pdf"
   },
@@ -1184,9 +1171,7 @@
       "40 soldados e 60 estrategistas."
     ],
     "answer": "B",
-    "supportImages": [
-      "/unicamp-2026/q52-1.png"
-    ],
+    "supportImages": [],
     "sourceUrl": "/provas/unicamp/2026-fase1.pdf#page=19",
     "answerSource": "/provas/unicamp/2026-gabarito.pdf"
   },
@@ -1208,10 +1193,7 @@
       "14 400 000 C."
     ],
     "answer": "C",
-    "supportImages": [
-      "/unicamp-2026/q09-1.png",
-      "/unicamp-2026/contexto-9-11-1.png"
-    ],
+    "supportImages": [],
     "sourceUrl": "/provas/unicamp/2026-fase1.pdf#page=5",
     "answerSource": "/provas/unicamp/2026-gabarito.pdf"
   },
@@ -1234,8 +1216,7 @@
     ],
     "answer": "B",
     "supportImages": [
-      "/unicamp-2026/q10-1.png",
-      "/unicamp-2026/contexto-9-11-1.png"
+      "/provas/destrinchando/figuras/unicamp-2026-10-circuito.png"
     ],
     "sourceUrl": "/provas/unicamp/2026-fase1.pdf#page=5",
     "answerSource": "/provas/unicamp/2026-gabarito.pdf"
@@ -1258,10 +1239,7 @@
       "1 200 m."
     ],
     "answer": "C",
-    "supportImages": [
-      "/unicamp-2026/q11-1.png",
-      "/unicamp-2026/contexto-9-11-1.png"
-    ],
+    "supportImages": [],
     "sourceUrl": "/provas/unicamp/2026-fase1.pdf#page=5",
     "answerSource": "/provas/unicamp/2026-gabarito.pdf"
   },
@@ -1283,10 +1261,7 @@
       "a lente é divergente e a distância entre objeto e lente é maior que a distância focal."
     ],
     "answer": "A",
-    "supportImages": [
-      "/unicamp-2026/q12-1.png",
-      "/unicamp-2026/q12-2.png"
-    ],
+    "supportImages": [],
     "sourceUrl": "/provas/unicamp/2026-fase1.pdf#page=5",
     "answerSource": "/provas/unicamp/2026-gabarito.pdf"
   },
@@ -1308,9 +1283,7 @@
       "1 800 N."
     ],
     "answer": "B",
-    "supportImages": [
-      "/unicamp-2026/contexto-13-14-1.png"
-    ],
+    "supportImages": [],
     "sourceUrl": "/provas/unicamp/2026-fase1.pdf#page=6",
     "answerSource": "/provas/unicamp/2026-gabarito.pdf"
   },
@@ -1333,7 +1306,7 @@
     ],
     "answer": "B",
     "supportImages": [
-      "/unicamp-2026/q67-1.png"
+      "/provas/destrinchando/figuras/unicamp-2026-67-corais.png"
     ],
     "sourceUrl": "/provas/unicamp/2026-fase1.pdf#page=25",
     "answerSource": "/provas/unicamp/2026-gabarito.pdf"
@@ -1357,8 +1330,7 @@
     ],
     "answer": "C",
     "supportImages": [
-      "/unicamp-2026/q68-1.png",
-      "/unicamp-2026/q68-2.png"
+      "/provas/destrinchando/figuras/unicamp-2026-68-tabela.png"
     ],
     "sourceUrl": "/provas/unicamp/2026-fase1.pdf#page=25",
     "answerSource": "/provas/unicamp/2026-gabarito.pdf"
@@ -1382,7 +1354,7 @@
     ],
     "answer": "B",
     "supportImages": [
-      "/unicamp-2026/q69-1.png"
+      "/provas/destrinchando/figuras/unicamp-2026-69-grafico.png"
     ],
     "sourceUrl": "/provas/unicamp/2026-fase1.pdf#page=25",
     "answerSource": "/provas/unicamp/2026-gabarito.pdf"
@@ -1406,7 +1378,7 @@
     ],
     "answer": "A",
     "supportImages": [
-      "/unicamp-2026/q70-1.png"
+      "/provas/destrinchando/figuras/unicamp-2026-70-fluxograma.png"
     ],
     "sourceUrl": "/provas/unicamp/2026-fase1.pdf#page=26",
     "answerSource": "/provas/unicamp/2026-gabarito.pdf"
@@ -1475,9 +1447,7 @@
       "45,2 watts."
     ],
     "answer": "C",
-    "supportImages": [
-      "/unesp-2026/q84-1.png"
-    ],
+    "supportImages": [],
     "sourceUrl": "/provas/unesp/2026-fase1.pdf",
     "answerSource": "/provas/unesp/2026-gabarito.pdf"
   },
@@ -1501,7 +1471,7 @@
     ],
     "answer": "D",
     "supportImages": [
-      "/unesp-2026/q85-1.png"
+      "/provas/destrinchando/figuras/unesp-2026-85-tabela.png"
     ],
     "sourceUrl": "/provas/unesp/2026-fase1.pdf",
     "answerSource": "/provas/unesp/2026-gabarito.pdf"
@@ -1526,7 +1496,7 @@
     ],
     "answer": "A",
     "supportImages": [
-      "/unesp-2026/q88-1.png"
+      "/provas/destrinchando/figuras/unesp-2026-88-piramide.png"
     ],
     "sourceUrl": "/provas/unesp/2026-fase1.pdf",
     "answerSource": "/provas/unesp/2026-gabarito.pdf"
@@ -1550,9 +1520,7 @@
       "G(x) = 0,93R(1 − 0,07ˣ)."
     ],
     "answer": "B",
-    "supportImages": [
-      "/unesp-2026/q90-1.png"
-    ],
+    "supportImages": [],
     "sourceUrl": "/provas/unesp/2026-fase1.pdf",
     "answerSource": "/provas/unesp/2026-gabarito.pdf"
   },
@@ -1576,7 +1544,7 @@
     ],
     "answer": "A",
     "supportImages": [
-      "/unesp-2026/q76-1.png"
+      "/provas/destrinchando/figuras/unesp-2026-76-pendulo.png"
     ],
     "sourceUrl": "/provas/unesp/2026-fase1.pdf",
     "answerSource": "/provas/unesp/2026-gabarito.pdf"
@@ -1601,7 +1569,7 @@
     ],
     "answer": "B",
     "supportImages": [
-      "/unesp-2026/q77-1.png"
+      "/provas/destrinchando/figuras/unesp-2026-77-globo.png"
     ],
     "sourceUrl": "/provas/unesp/2026-fase1.pdf",
     "answerSource": "/provas/unesp/2026-gabarito.pdf"
@@ -1649,7 +1617,7 @@
     ],
     "answer": "A",
     "supportImages": [
-      "/unesp-2026/q80-1.png"
+      "/provas/destrinchando/figuras/unesp-2026-80-plantas.png"
     ],
     "sourceUrl": "/provas/unesp/2026-fase1.pdf",
     "answerSource": "/provas/unesp/2026-gabarito.pdf"
@@ -1674,7 +1642,7 @@
     ],
     "answer": "C",
     "supportImages": [
-      "/unesp-2026/q81-1.png"
+      "/provas/destrinchando/figuras/unesp-2026-81-janela.png"
     ],
     "sourceUrl": "/provas/unesp/2026-fase1.pdf",
     "answerSource": "/provas/unesp/2026-gabarito.pdf"
@@ -1722,8 +1690,8 @@
     ],
     "answer": "C",
     "supportImages": [
-      "/unesp-2026/q71-1.png",
-      "/unesp-2026/tabela-periodica.png"
+      "/provas/destrinchando/figuras/unesp-2026-71-pirolusita.png",
+      "/provas/destrinchando/figuras/unesp-tabela-periodica.png"
     ],
     "sourceUrl": "/provas/unesp/2026-fase1.pdf",
     "answerSource": "/provas/unesp/2026-gabarito.pdf"
@@ -1748,8 +1716,8 @@
     ],
     "answer": "A",
     "supportImages": [
-      "/unesp-2026/q72-1.png",
-      "/unesp-2026/tabela-periodica.png"
+      "/provas/destrinchando/figuras/unesp-2026-72-constantes.png",
+      "/provas/destrinchando/figuras/unesp-tabela-periodica.png"
     ],
     "sourceUrl": "/provas/unesp/2026-fase1.pdf",
     "answerSource": "/provas/unesp/2026-gabarito.pdf"
@@ -1774,8 +1742,8 @@
     ],
     "answer": "E",
     "supportImages": [
-      "/unesp-2026/q73-1.png",
-      "/unesp-2026/tabela-periodica.png"
+      "/provas/destrinchando/figuras/unesp-2026-73-energia.png",
+      "/provas/destrinchando/figuras/unesp-tabela-periodica.png"
     ],
     "sourceUrl": "/provas/unesp/2026-fase1.pdf",
     "answerSource": "/provas/unesp/2026-gabarito.pdf"
@@ -1800,8 +1768,7 @@
     ],
     "answer": "B",
     "supportImages": [
-      "/unesp-2026/q74-1.png",
-      "/unesp-2026/tabela-periodica.png"
+      "/provas/destrinchando/figuras/unesp-tabela-periodica.png"
     ],
     "sourceUrl": "/provas/unesp/2026-fase1.pdf",
     "answerSource": "/provas/unesp/2026-gabarito.pdf"
@@ -2536,9 +2503,7 @@
       "14"
     ],
     "answer": "B",
-    "supportImages": [
-      "/cbmerj-apoios/2026-q42-p20-figura.png"
-    ],
+    "supportImages": [],
     "sourceUrl": "/provas/cbmerj/2026.pdf#page=20",
     "answerSource": "/provas/cbmerj/2026-gabarito.pdf"
   },

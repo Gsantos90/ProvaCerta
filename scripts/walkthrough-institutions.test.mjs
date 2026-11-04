@@ -8,6 +8,7 @@ import additions from '../src/lib/walkthroughInstitutionQuestions.json' with { t
 import { walkthroughQuestions, walkthroughExams, walkthroughSelection } from '../src/lib/walkthroughCatalog.js'
 import { walkthroughSolutions } from '../src/lib/walkthroughSolutions.js'
 import keys from './fixtures/walkthrough-institution-keys.json' with { type: 'json' }
+import reviewedMedia from './fixtures/walkthrough-support-media.json' with { type: 'json' }
 
 assert.equal(walkthroughQuestions.length, 270)
 assert.equal(additions.length, 135)
@@ -25,10 +26,15 @@ assert.equal(combinations.size, 54)
 for (const [key, count] of combinations) assert(count >= 5, key)
 const uerj5 = additions.find(q => q.exam === 'uerj' && q.number === 5)
 assert.equal(uerj5.support, null)
-assert.deepEqual(uerj5.supportImages, ['/uerj-2026-eq2/apoio-p39.png'])
+assert.deepEqual(uerj5.supportImages, ['/provas/destrinchando/figuras/uerj-2026-tabela-periodica.png'])
 const uerj37 = additions.find(q => q.exam === 'uerj' && q.number === 37)
 assert.equal(uerj37.support, null)
-assert(uerj37.supportImages.includes('/uerj-2026-eq2/q37.png'))
+assert.deepEqual(uerj37.supportImages, uerj5.supportImages)
+assert.deepEqual(additions.find(q => q.exam === 'unicamp' && q.number === 43).supportImages, [])
+assert.deepEqual(additions.find(q => q.exam === 'uerj' && q.number === 42).supportImages, ['/uerj-2026-eq2/figura-q42.png'])
+for (const q of walkthroughQuestions) for (const image of q.supportImages || []) {
+  assert(!(image in reviewedMedia.replacements), `Recorte com texto voltou ao apoio: ${q.id}: ${image}`)
+}
 for (const q of additions) {
   assert([4, 5].includes(q.options.length), q.id)
   assert(q.options.every(option => option.trim() && !option.includes('conforme o caderno original')), q.id)

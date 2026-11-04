@@ -1,0 +1,346 @@
+{
+  "crops": [
+    {
+      "source": "/pism-apoios/pism-ii-2025-dia-1-q13-vetor.png",
+      "output": "/provas/destrinchando/figuras/pism-2025-ii-matematica-13-tabela.png",
+      "box": [
+        0,
+        0,
+        430,
+        201
+      ],
+      "referenceWidth": 430
+    },
+    {
+      "source": "/pism-apoios/pism-ii-2026-dia-1-q15-pagina-11.png",
+      "output": "/provas/destrinchando/figuras/pism-2026-ii-matematica-15-barras.png",
+      "box": [
+        0,
+        0,
+        515,
+        564
+      ],
+      "referenceWidth": 515
+    },
+    {
+      "source": "/pism-apoios/pism-ii-2026-dia-1-q15-pagina-11.png",
+      "output": "/provas/destrinchando/figuras/pism-2026-ii-matematica-15-setores.png",
+      "box": [
+        0,
+        685,
+        515,
+        1138
+      ],
+      "referenceWidth": 515
+    },
+    {
+      "source": "/uerj-2026-eq2/q41.png",
+      "output": "/provas/destrinchando/figuras/uerj-2026-41-recipientes.png",
+      "box": [
+        200,
+        64,
+        465,
+        157
+      ],
+      "referenceWidth": 600
+    },
+    {
+      "source": "/uerj-2026-eq2/q46.png",
+      "output": "/provas/destrinchando/figuras/uerj-2026-46-energias.png",
+      "box": [
+        140,
+        87,
+        525,
+        164
+      ],
+      "referenceWidth": 600
+    },
+    {
+      "source": "/uerj-2026-eq2/apoio-p39.png",
+      "output": "/provas/destrinchando/figuras/uerj-2026-tabela-periodica.png",
+      "box": [
+        24,
+        70,
+        575,
+        568
+      ],
+      "referenceWidth": 600
+    },
+    {
+      "source": "/usp-2025/questao-69-1.png",
+      "output": "/provas/destrinchando/figuras/usp-2025-69-graficos.png",
+      "box": [
+        20,
+        120,
+        586,
+        1624
+      ],
+      "referenceWidth": 600
+    },
+    {
+      "source": "/unicamp-2026/q10-1.png",
+      "output": "/provas/destrinchando/figuras/unicamp-2026-10-circuito.png",
+      "box": [
+        65,
+        207,
+        487,
+        526
+      ],
+      "referenceWidth": 600
+    },
+    {
+      "source": "/unicamp-2026/q67-1.png",
+      "output": "/provas/destrinchando/figuras/unicamp-2026-67-corais.png",
+      "box": [
+        4,
+        305,
+        595,
+        723
+      ],
+      "referenceWidth": 600
+    },
+    {
+      "source": "/unicamp-2026/q68-2.png",
+      "output": "/provas/destrinchando/figuras/unicamp-2026-68-tabela.png",
+      "box": [
+        4,
+        2,
+        592,
+        189
+      ],
+      "referenceWidth": 600
+    },
+    {
+      "source": "/unicamp-2026/q69-1.png",
+      "output": "/provas/destrinchando/figuras/unicamp-2026-69-grafico.png",
+      "box": [
+        40,
+        326,
+        535,
+        781
+      ],
+      "referenceWidth": 600
+    },
+    {
+      "source": "/unicamp-2026/q70-1.png",
+      "output": "/provas/destrinchando/figuras/unicamp-2026-70-fluxograma.png",
+      "box": [
+        6,
+        253,
+        587,
+        561
+      ],
+      "referenceWidth": 600
+    },
+    {
+      "source": "/unesp-2026/q85-1.png",
+      "output": "/provas/destrinchando/figuras/unesp-2026-85-tabela.png",
+      "box": [
+        8,
+        345,
+        595,
+        520
+      ],
+      "referenceWidth": 600
+    },
+    {
+      "source": "/unesp-2026/q88-1.png",
+      "output": "/provas/destrinchando/figuras/unesp-2026-88-piramide.png",
+      "box": [
+        52,
+        172,
+        540,
+        534
+      ],
+      "referenceWidth": 600
+    },
+    {
+      "source": "/unesp-2026/q76-1.png",
+      "output": "/provas/destrinchando/figuras/unesp-2026-76-pendulo.png",
+      "box": [
+        48,
+        365,
+        545,
+        804
+      ],
+      "referenceWidth": 600
+    },
+    {
+      "source": "/unesp-2026/q77-1.png",
+      "output": "/provas/destrinchando/figuras/unesp-2026-77-globo.png",
+      "box": [
+        42,
+        194,
+        565,
+        812
+      ],
+      "referenceWidth": 600
+    },
+    {
+      "source": "/unesp-2026/q80-1.png",
+      "output": "/provas/destrinchando/figuras/unesp-2026-80-plantas.png",
+      "box": [
+        34,
+        248,
+        570,
+        686
+      ],
+      "referenceWidth": 600
+    },
+    {
+      "source": "/unesp-2026/q81-1.png",
+      "output": "/provas/destrinchando/figuras/unesp-2026-81-janela.png",
+      "box": [
+        9,
+        306,
+        595,
+        695
+      ],
+      "referenceWidth": 600
+    },
+    {
+      "source": "/unesp-2026/q71-1.png",
+      "output": "/provas/destrinchando/figuras/unesp-2026-71-pirolusita.png",
+      "box": [
+        63,
+        146,
+        533,
+        483
+      ],
+      "referenceWidth": 600
+    },
+    {
+      "source": "/unesp-2026/tabela-periodica.png",
+      "output": "/provas/destrinchando/figuras/unesp-tabela-periodica.png",
+      "rotate": 270,
+      "trim": true
+    },
+    {
+      "source": "/unesp-2026/q72-1.png",
+      "output": "/provas/destrinchando/figuras/unesp-2026-72-constantes.png",
+      "box": [
+        8,
+        118,
+        595,
+        325
+      ],
+      "referenceWidth": 600
+    },
+    {
+      "source": "/unesp-2026/q73-1.png",
+      "output": "/provas/destrinchando/figuras/unesp-2026-73-energia.png",
+      "box": [
+        80,
+        169,
+        530,
+        513
+      ],
+      "referenceWidth": 600
+    }
+  ],
+  "replacements": {
+    "/pism-apoios/pism-ii-2025-dia-1-q13-vetor.png": [
+      "/provas/destrinchando/figuras/pism-2025-ii-matematica-13-tabela.png"
+    ],
+    "/pism-apoios/pism-ii-2026-dia-1-q15-pagina-11.png": [
+      "/provas/destrinchando/figuras/pism-2026-ii-matematica-15-barras.png",
+      "/provas/destrinchando/figuras/pism-2026-ii-matematica-15-setores.png"
+    ],
+    "/uerj-2026-eq2/q6.png": [
+      "/uerj-2026-eq2/figura-q6.png"
+    ],
+    "/uerj-2026-eq2/q29.png": [
+      "/uerj-2026-eq2/figura-q29.png"
+    ],
+    "/uerj-2026-eq2/q31.png": [
+      "/uerj-2026-eq2/figura-q31.png"
+    ],
+    "/uerj-2026-eq2/apoio-p24.png": [
+      "/uerj-2026-eq2/agua.png"
+    ],
+    "/uerj-2026-eq2/apoio-p22.png": [
+      "/uerj-2026-eq2/glicemia.png"
+    ],
+    "/uerj-2026-eq2/q42.png": [
+      "/uerj-2026-eq2/figura-q42.png"
+    ],
+    "/uerj-2026-eq2/q30.png": [],
+    "/uerj-2026-eq2/q43.png": [],
+    "/uerj-2026-eq2/q44.png": [],
+    "/uerj-2026-eq2/q37.png": [],
+    "/uerj-2026-eq2/q39.png": [],
+    "/uerj-2026-eq2/q45.png": [],
+    "/unicamp-2026/q43-1.png": [],
+    "/unicamp-2026/q45-1.png": [],
+    "/unicamp-2026/q49-1.png": [],
+    "/unicamp-2026/q52-1.png": [],
+    "/unicamp-2026/q09-1.png": [],
+    "/unicamp-2026/contexto-9-11-1.png": [],
+    "/unicamp-2026/q11-1.png": [],
+    "/unicamp-2026/q12-1.png": [],
+    "/unicamp-2026/q12-2.png": [],
+    "/unicamp-2026/contexto-13-14-1.png": [],
+    "/unicamp-2026/q68-1.png": [],
+    "/unesp-2026/q84-1.png": [],
+    "/unesp-2026/q90-1.png": [],
+    "/unesp-2026/q74-1.png": [],
+    "/cbmerj-apoios/2026-q42-p20-figura.png": [],
+    "/uerj-2026-eq2/q41.png": [
+      "/provas/destrinchando/figuras/uerj-2026-41-recipientes.png"
+    ],
+    "/uerj-2026-eq2/q46.png": [
+      "/provas/destrinchando/figuras/uerj-2026-46-energias.png"
+    ],
+    "/uerj-2026-eq2/apoio-p39.png": [
+      "/provas/destrinchando/figuras/uerj-2026-tabela-periodica.png"
+    ],
+    "/usp-2025/questao-69-1.png": [
+      "/provas/destrinchando/figuras/usp-2025-69-graficos.png"
+    ],
+    "/unicamp-2026/q10-1.png": [
+      "/provas/destrinchando/figuras/unicamp-2026-10-circuito.png"
+    ],
+    "/unicamp-2026/q67-1.png": [
+      "/provas/destrinchando/figuras/unicamp-2026-67-corais.png"
+    ],
+    "/unicamp-2026/q68-2.png": [
+      "/provas/destrinchando/figuras/unicamp-2026-68-tabela.png"
+    ],
+    "/unicamp-2026/q69-1.png": [
+      "/provas/destrinchando/figuras/unicamp-2026-69-grafico.png"
+    ],
+    "/unicamp-2026/q70-1.png": [
+      "/provas/destrinchando/figuras/unicamp-2026-70-fluxograma.png"
+    ],
+    "/unesp-2026/q85-1.png": [
+      "/provas/destrinchando/figuras/unesp-2026-85-tabela.png"
+    ],
+    "/unesp-2026/q88-1.png": [
+      "/provas/destrinchando/figuras/unesp-2026-88-piramide.png"
+    ],
+    "/unesp-2026/q76-1.png": [
+      "/provas/destrinchando/figuras/unesp-2026-76-pendulo.png"
+    ],
+    "/unesp-2026/q77-1.png": [
+      "/provas/destrinchando/figuras/unesp-2026-77-globo.png"
+    ],
+    "/unesp-2026/q80-1.png": [
+      "/provas/destrinchando/figuras/unesp-2026-80-plantas.png"
+    ],
+    "/unesp-2026/q81-1.png": [
+      "/provas/destrinchando/figuras/unesp-2026-81-janela.png"
+    ],
+    "/unesp-2026/q71-1.png": [
+      "/provas/destrinchando/figuras/unesp-2026-71-pirolusita.png"
+    ],
+    "/unesp-2026/tabela-periodica.png": [
+      "/provas/destrinchando/figuras/unesp-tabela-periodica.png"
+    ],
+    "/unesp-2026/q72-1.png": [
+      "/provas/destrinchando/figuras/unesp-2026-72-constantes.png"
+    ],
+    "/unesp-2026/q73-1.png": [
+      "/provas/destrinchando/figuras/unesp-2026-73-energia.png"
+    ]
+  }
+}
