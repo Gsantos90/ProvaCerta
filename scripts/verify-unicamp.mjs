@@ -88,7 +88,8 @@ const testUsePageState=(name,hook,...args)=>Object.hasOwn(overrides,name)?React.
 new Function('module','exports','require','testUseState','testUsePageState',output)(mod,mod.exports,createRequire(import.meta.url),testUseState,testUsePageState)
 for(const year of unicampYears) {
   const card=renderToStaticMarkup(React.createElement(mod.exports.UnicampCard,{year,phase:'fase1'}))
-  assert.ok(card.includes('Começar prova')&&card.includes('72 questões'))
+  assert.ok(card.includes('Começar prova'))
+  assert.ok(!card.includes('1ª fase · 72 questões · Comvest')&&!card.includes('Caderno completo')&&!card.includes('Gabarito oficial'))
   assert.equal((card.match(/<select(?:\s|>)/g)||[]).length,2)
   const docs=renderToStaticMarkup(React.createElement(mod.exports.UnicampCard,{year,phase:'fase2'}))
   assert.ok(!docs.includes('Começar prova'))
@@ -103,9 +104,9 @@ for(const year of unicampYears) {
     assert.equal((html.match(/Marcar alternativa /g)||[]).length,year==='2026'?0:4)
     if(year==='2026') {
       assert.equal((html.match(/class="option(?: |")/g)||[]).length,4)
-      assert.equal(html.includes('>Texto de apoio<'),!!qs[n-1].support)
-      assert.equal(html.includes('>Imagem de apoio<'),qs[n-1].supportImage.length>0)
-      assert.ok(!html.includes('Texto ou imagem de apoio'))
+      assert.equal((html.match(/class="sidebar-support"/g)||[]).length,qs[n-1].support || qs[n-1].supportImage.length ? 1 : 0)
+      assert.equal(html.includes('>Texto ou imagem de apoio<'),!!qs[n-1].support || qs[n-1].supportImage.length>0)
+      assert.ok(!html.includes('>Texto de apoio<')&&!html.includes('>Imagem de apoio<'))
       assert.equal((html.match(/class="unicamp-option-graph"/g)||[]).length,n===13?4:0)
     }
     if(year==='2025'&&n===53)assert.ok(html.includes('ponto atribuído automaticamente'))

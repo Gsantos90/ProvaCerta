@@ -2151,10 +2151,7 @@ function App() {
 
               <div className="support-stack" style={{ fontSize: `${supportScale}rem` }} onClick={(event) => { if (event.target.tagName === 'IMG' && event.target.classList.contains('support-image')) setLightboxImage({ src: event.target.src, alt: event.target.alt }) }}>
               {question.structuredContent
-                ? <>
-                  {question.support && <details className="sidebar-support" open><summary><BookOpen size={16} /><span>Texto de apoio</span><ChevronDown size={15} /></summary><div><span className="structured-support-text">{question.support}</span></div></details>}
-                  {question.supportImage?.length > 0 && <details className="sidebar-support" open><summary><BookOpen size={16} /><span>Imagem de apoio</span><ChevronDown size={15} /></summary><div>{renderSupportImages(question.supportImage, question.number)}</div></details>}
-                </>
+                ? (question.support || question.supportImage?.length > 0) && <details className="sidebar-support" open><summary><BookOpen size={16} /><span>Texto ou imagem de apoio</span><ChevronDown size={15} /></summary><div>{renderSupportImages(question.supportImage, question.number)}{question.support && <span className="structured-support-text">{question.support}</span>}</div></details>
                 : supabaseExamSlug
                 ? (question.support || question.supportImage) && <details className="sidebar-support" open><summary><BookOpen size={16} /><span>Texto ou imagem de apoio</span><ChevronDown size={15} /></summary><div>{renderSupportImages(question.supportImage, current + 1)}{question.support && <span className={/^(prf|receita|tse)-/.test(question.examSlug || '') ? 'national-support-text' : undefined}>{question.support}</span>}</div></details>
                 : selectedExam === 'enem'
