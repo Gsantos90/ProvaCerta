@@ -76,11 +76,13 @@ const testUsePageState=(name,hook,...args)=>Object.hasOwn(overrides,name)?React.
 new Function('module','exports','require','testUseState','testUsePageState',output)(mod,mod.exports,createRequire(import.meta.url),testUseState,testUsePageState)
 for(const year of unespYears) {
   const card=renderToStaticMarkup(React.createElement(mod.exports.UnespCard,{year,phase:'fase1'}))
-  assert.ok(card.includes('Começar prova')&&card.includes('90 questões'))
+  assert.ok(card.includes('Começar prova'))
   assert.equal((card.match(/<select(?:\s|>)/g)||[]).length,2)
   const docs=renderToStaticMarkup(React.createElement(mod.exports.UnespCard,{year,phase:'fase2'}))
-  assert.ok(!docs.includes('Começar prova'))
-  assert.equal((docs.match(/href="\/provas\/unesp/g)||[]).length,2)
+  assert.ok(docs.includes('Começar prova'))
+  assert.ok(!card.includes('2ª fase')&&!docs.includes('2ª fase'))
+  assert.ok(!card.includes('Caderno completo')&&!card.includes('Gabarito oficial')&&!card.includes('1ª fase · 90 questões · Vunesp'))
+  assert.equal((docs.match(/href="\/provas\/unesp/g)||[]).length,0)
   const qs=banks[`unesp-${year}-fase1`]
   for(const n of [1,2,9,34,53,72]) {
     overrides={selectedExam:'unesp',supabaseExamSlug:`unesp-${year}-fase1`,enemQuestions:qs,screen:'review',current:n-1}

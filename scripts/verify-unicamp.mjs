@@ -95,8 +95,9 @@ for(const year of unicampYears) {
   assert.ok(!card.includes('1ª fase · 72 questões · Comvest')&&!card.includes('Caderno completo')&&!card.includes('Gabarito oficial'))
   assert.equal((card.match(/<select(?:\s|>)/g)||[]).length,2)
   const docs=renderToStaticMarkup(React.createElement(mod.exports.UnicampCard,{year,phase:'fase2'}))
-  assert.ok(!docs.includes('Começar prova'))
-  assert.equal((docs.match(/href="\/provas\/unicamp/g)||[]).length,9)
+  assert.ok(docs.includes('Começar prova'))
+  assert.ok(!card.includes('2ª fase')&&!docs.includes('2ª fase'))
+  assert.equal((docs.match(/href="\/provas\/unicamp/g)||[]).length,0)
   const qs=banks[`unicamp-${year}-fase1`]
   for(const n of Array.from({length:72},(_,i)=>i+1)) {
     overrides={selectedExam:'unicamp',supabaseExamSlug:`unicamp-${year}-fase1`,enemQuestions:qs,screen:'review',current:n-1}

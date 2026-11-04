@@ -4,7 +4,6 @@ import { supportImageUrls } from './safeUrls.js'
 export const unespYears = ['2026', '2025', '2024']
 export const unespPhases = [
   { value: 'fase1', label: '1ª fase — Prova interativa' },
-  { value: 'fase2', label: '2ª fase — Provas discursivas e Redação' },
 ]
 export const unespSecondPhase = [
   { value: 'dia1', label: '1º dia - Humanas, Natureza e Matemática' },
