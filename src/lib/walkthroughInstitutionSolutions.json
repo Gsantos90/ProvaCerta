@@ -1,0 +1,1250 @@
+{
+  "uerj-2026-eq2-29": {
+    "topic": "Reconstruindo a função quadrática",
+    "vocabulary": [
+      "Raiz: entrada que faz a função valer zero.",
+      "Coeficiente: número que multiplica uma potência de x.",
+      "Ordenada na origem: valor de f(0)."
+    ],
+    "steps": [
+      {
+        "title": "Leia as interseções",
+        "text": "Os pontos A e B têm coordenada vertical zero. Portanto, 1 e −1 são as raízes da função procurada."
+      },
+      {
+        "title": "Use as raízes",
+        "text": "Uma função quadrática com essas raízes pode ser escrita como um produto. Falta descobrir a constante a, que controla a abertura da parábola.",
+        "calculation": "f(x) = a(x − 1)(x + 1)."
+      },
+      {
+        "title": "Aproveite o terceiro ponto",
+        "text": "O ponto C informa que a entrada zero produz −1. Substitua esse par na expressão fatorada para encontrar a constante.",
+        "calculation": "−1 = a(−1)(1) → a = 1."
+      },
+      {
+        "title": "Desenvolva o produto",
+        "text": "O produto da soma pela diferença é uma diferença de quadrados. Assim, a forma expandida é simples e permite comparar as alternativas.",
+        "calculation": "f(x) = (x − 1)(x + 1) = x² − 1."
+      },
+      {
+        "title": "Confira os três pontos",
+        "text": "A função encontrada zera em 1 e −1 e vale −1 na origem. Ela satisfaz simultaneamente todos os dados: alternativa A."
+      }
+    ],
+    "pitfalls": [
+      "Usar x² + 1: essa função não tem raízes reais.",
+      "Trocar o sinal de a sem conferir o ponto (0, −1)."
+    ],
+    "takeaway": "Com duas raízes e um terceiro ponto, use a forma fatorada e determine a constante restante."
+  },
+  "uerj-2026-eq2-34": {
+    "topic": "Probabilidade condicionada sem confundir o total",
+    "vocabulary": [
+      "Evento: resultado ou conjunto de resultados de interesse.",
+      "Interseção: pessoas que pertencem aos dois grupos.",
+      "Probabilidade condicionada: cálculo feito dentro do grupo já informado."
+    ],
+    "steps": [
+      {
+        "title": "Identifique a condição",
+        "text": "A pessoa escolhida já tem curso superior. Por isso, o universo da pergunta contém 25 pessoas, e não as 40 pessoas do grupo original."
+      },
+      {
+        "title": "Conte a interseção",
+        "text": "Das 18 pessoas com mais de 50 anos, 8 não têm curso superior. As restantes pertencem simultaneamente aos dois grupos.",
+        "calculation": "18 − 8 = 10 pessoas."
+      },
+      {
+        "title": "Monte a fração",
+        "text": "Dentro das 25 pessoas com curso superior, queremos as 10 que também têm mais de 50 anos. Essa é a razão entre casos favoráveis e possíveis.",
+        "calculation": "P(mais de 50 | superior) = 10/25."
+      },
+      {
+        "title": "Simplifique com cuidado",
+        "text": "Dividir numerador e denominador por 5 mantém a mesma proporção. O resultado também equivale a quarenta por cento.",
+        "calculation": "10/25 = 2/5 = 0,4."
+      },
+      {
+        "title": "Compare com as alternativas",
+        "text": "A fração 2/5 está na alternativa D. A condição mudou o denominador, mas não mudou quais pessoas pertencem à interseção."
+      }
+    ],
+    "pitfalls": [
+      "Dividir por 40 ignora a condição da pergunta.",
+      "Usar 18 no numerador inclui pessoas sem curso superior."
+    ],
+    "takeaway": "Antes de calcular uma probabilidade, descubra qual grupo a condição permite considerar."
+  },
+  "uerj-2026-eq2-1": {
+    "topic": "Princípio de Arquimedes e empuxo",
+    "vocabulary": [
+      "Empuxo: força resultante que um fluido exerce sobre um corpo imerso.",
+      "Fluido: líquido ou gás capaz de escoar.",
+      "Volume deslocado: volume de fluido ocupado pela parte imersa."
+    ],
+    "steps": [
+      {
+        "title": "Reconheça o fenômeno",
+        "text": "O relato associa a entrada de um corpo na água ao deslocamento de líquido. Essa é a situação clássica para estudar o princípio de Arquimedes."
+      },
+      {
+        "title": "Observe as pressões",
+        "text": "Em um líquido em repouso, a pressão aumenta com a profundidade. A parte inferior do corpo recebe pressão maior que a parte superior."
+      },
+      {
+        "title": "Some as forças do líquido",
+        "text": "A diferença entre as forças de pressão produz uma resultante vertical para cima. Essa resultante recebe o nome de empuxo."
+      },
+      {
+        "title": "Escreva o princípio",
+        "text": "O módulo do empuxo é igual ao peso do fluido deslocado. A densidade usada nessa expressão é a do fluido, e não a do corpo.",
+        "calculation": "E = ρ do fluido × g × volume deslocado."
+      },
+      {
+        "title": "Escolha o conceito pedido",
+        "text": "A pergunta quer o conceito associado ao princípio. Pressão ajuda a explicá-lo, mas o conceito que nomeia a força resultante é empuxo: alternativa A."
+      }
+    ],
+    "pitfalls": [
+      "Confundir empuxo com impulso, que envolve força e intervalo de tempo.",
+      "Afirmar que empuxo só existe quando o corpo flutua."
+    ],
+    "takeaway": "Corpos imersos sofrem empuxo mesmo quando afundam; flutuar depende do balanço entre as forças."
+  },
+  "uerj-2026-eq2-44": {
+    "topic": "Dilatação anômala da água",
+    "vocabulary": [
+      "Densidade: massa dividida pelo volume.",
+      "Dilatação anômala: comportamento diferente da expansão térmica usual.",
+      "Massa constante: a mesma quantidade de água em toda a comparação."
+    ],
+    "steps": [
+      {
+        "title": "Entenda o que comparar",
+        "text": "O enunciado pede a temperatura do menor volume, não a de maior volume. Leia essa informação no gráfico de volume ou use o de densidade."
+      },
+      {
+        "title": "Relacione volume e densidade",
+        "text": "Para uma mesma massa, diminuir o volume aumenta a densidade. Assim, o mínimo de volume coincide com o máximo de densidade.",
+        "calculation": "ρ = m/V."
+      },
+      {
+        "title": "Analise de zero a quatro graus",
+        "text": "Nesse intervalo, aquecer a água líquida reduz seu volume. Esse comportamento incomum está relacionado à reorganização de sua estrutura intermolecular."
+      },
+      {
+        "title": "Analise acima de quatro graus",
+        "text": "Depois de aproximadamente 4 °C, a água volta a expandir ao ser aquecida. O volume cresce e a densidade diminui, para a mesma massa."
+      },
+      {
+        "title": "Localize a mudança de comportamento",
+        "text": "A transição entre redução e aumento do volume ocorre perto de 4 °C. Essa é a temperatura procurada: alternativa C."
+      }
+    ],
+    "pitfalls": [
+      "Marcar 0 °C por ser a temperatura usual de fusão.",
+      "Dizer que maior densidade implica maior volume para a mesma massa."
+    ],
+    "takeaway": "Em torno da pressão atmosférica, a água líquida tem densidade máxima e volume mínimo perto de 4 °C."
+  },
+  "uerj-2026-eq2-5": {
+    "topic": "Da massa ao número de moléculas",
+    "vocabulary": [
+      "Mol: quantidade de matéria que contém aproximadamente 6 × 10²³ entidades.",
+      "Massa molar: massa de um mol de uma substância.",
+      "Notação científica: número escrito como um fator vezes uma potência de dez."
+    ],
+    "steps": [
+      {
+        "title": "Separe as grandezas",
+        "text": "A massa informada é 9,0 × 10⁻⁴ g. A pergunta quer contar moléculas de água, então precisamos converter massa em mol e depois em moléculas."
+      },
+      {
+        "title": "Calcule a massa molar",
+        "text": "Cada molécula tem dois átomos de hidrogênio e um de oxigênio. Com massas usuais de 1 e 16, encontramos a massa de um mol de água.",
+        "calculation": "M(H₂O) = 2 × 1 + 16 = 18 g/mol."
+      },
+      {
+        "title": "Converta massa em mol",
+        "text": "Divida a massa da amostra pela massa molar. O resultado representa a quantidade de matéria presente no fractal.",
+        "calculation": "n = (9,0 × 10⁻⁴)/18 = 5,0 × 10⁻⁵ mol."
+      },
+      {
+        "title": "Conte as moléculas",
+        "text": "Cada mol contém aproximadamente 6,0 × 10²³ moléculas. Multiplique a quantidade de mol por esse fator e some os expoentes.",
+        "calculation": "N = 5,0 × 10⁻⁵ × 6,0 × 10²³ = 3,0 × 10¹⁹."
+      },
+      {
+        "title": "Confira a ordem de grandeza",
+        "text": "A amostra contém muito menos que um mol, então o número deve ser menor que 6 × 10²³. O valor obtido corresponde à alternativa C."
+      }
+    ],
+    "pitfalls": [
+      "Multiplicar a massa diretamente pela constante de Avogadro.",
+      "Subtrair expoentes ao multiplicar potências de mesma base."
+    ],
+    "takeaway": "Para contar partículas a partir de uma massa, siga a sequência massa → mol → número de entidades."
+  },
+  "uerj-2026-eq2-37": {
+    "topic": "Configuração eletrônica do neodímio",
+    "vocabulary": [
+      "Número atômico: quantidade de prótons do núcleo.",
+      "Subnível: grupo de orbitais identificado por s, p, d ou f.",
+      "Subnível mais energético: referência à ordem energética de preenchimento."
+    ],
+    "steps": [
+      {
+        "title": "Conte os elétrons",
+        "text": "O neodímio tem número atômico 60. Para um átomo neutro, isso significa 60 elétrons a distribuir pelos subníveis."
+      },
+      {
+        "title": "Use um ponto de partida",
+        "text": "O xenônio tem 54 elétrons e permite abreviar a parte interna da configuração. Ainda restam seis elétrons a acomodar.",
+        "calculation": "60 − 54 = 6 elétrons."
+      },
+      {
+        "title": "Complete a configuração",
+        "text": "Na representação usual do estado fundamental do neodímio, dois elétrons ocupam 6s e quatro ocupam 4f.",
+        "calculation": "Nd: [Xe] 4f⁴ 6s²."
+      },
+      {
+        "title": "Separe energia e camada",
+        "text": "A camada mais externa tem número 6, mas a questão pede o subnível mais energético. Na ordem de preenchimento usada aqui, esse subnível é 4f."
+      },
+      {
+        "title": "Compare com as opções",
+        "text": "O subnível 4f aparece na alternativa A. O número 4 não significa que ele tenha menor energia que todos os subníveis de camadas mais externas."
+      }
+    ],
+    "pitfalls": [
+      "Responder 6s por ele pertencer à camada mais externa.",
+      "Distribuir apenas 59 elétrons ou esquecer que o átomo é neutro."
+    ],
+    "takeaway": "Camada mais externa e subnível mais energético são perguntas diferentes na configuração eletrônica."
+  },
+  "usp-2025-v1-70": {
+    "topic": "Duas progressões ligadas por uma recorrência",
+    "vocabulary": [
+      "PA: sequência cuja diferença entre termos consecutivos é constante.",
+      "Recorrência: regra que relaciona termos de uma sequência.",
+      "Razão da PA: diferença constante entre dois termos consecutivos."
+    ],
+    "steps": [
+      {
+        "title": "Reescreva a informação",
+        "text": "A regra dada soma aₙ ao termo bₙ para produzir o termo seguinte. Subtraindo bₙ, vemos diretamente a diferença consecutiva de b.",
+        "calculation": "bₙ₊₁ − bₙ = aₙ."
+      },
+      {
+        "title": "Imponha a condição de PA",
+        "text": "Para que a sequência b seja uma PA, a diferença à esquerda precisa ser a mesma para todo n. Portanto, a sequência a deve ser constante."
+      },
+      {
+        "title": "Descubra a razão de a",
+        "text": "Uma PA constante tem razão zero. Todos os seus termos são iguais ao primeiro, independentemente do valor escolhido para b₁.",
+        "calculation": "r = 0 e aₙ = a₁."
+      },
+      {
+        "title": "Identifique a razão de b",
+        "text": "Se a diferença entre termos consecutivos de b é sempre a₁, essa diferença é exatamente a razão r′ procurada.",
+        "calculation": "r′ = a₁."
+      },
+      {
+        "title": "Teste um caso simples",
+        "text": "Se a₁ = 3 e b₁ = 2, obtemos b = 2, 5, 8, 11. A razão é 3, confirmando a alternativa A, sem exigir um b₁ específico."
+      }
+    ],
+    "pitfalls": [
+      "Tomar o exemplo dos quadrados como se fosse uma PA.",
+      "Supor r′ = r: aqui r é zero, enquanto r′ pode ser diferente de zero."
+    ],
+    "takeaway": "Uma recorrência por somas revela uma PA quando os incrementos são constantes."
+  },
+  "usp-2025-v1-77": {
+    "topic": "Circunferências por completamento de quadrados",
+    "vocabulary": [
+      "Centro: ponto à mesma distância de todos os pontos da circunferência.",
+      "Raio: distância do centro à circunferência.",
+      "Circunferências exteriores: não se tocam e ficam fora uma da outra."
+    ],
+    "steps": [
+      {
+        "title": "Organize a primeira equação",
+        "text": "Complete o quadrado em x para reconhecer a forma padrão de uma circunferência. Some 4 aos dois lados da equação.",
+        "calculation": "x² − 4x + y² = −3 → (x − 2)² + y² = 1."
+      },
+      {
+        "title": "Leia centro e raio",
+        "text": "Compare com (x − a)² + (y − b)² = R². A primeira circunferência tem centro em (2, 0) e raio 1."
+      },
+      {
+        "title": "Repita para a segunda",
+        "text": "Agora o termo linear está em y. Complete esse quadrado e encontre outro centro, mantendo o mesmo raio.",
+        "calculation": "x² + (y − 2)² = 1 → centro (0, 2), raio 1."
+      },
+      {
+        "title": "Compare a distância entre centros",
+        "text": "Use a distância cartesiana. O resultado supera a soma dos raios, então as circunferências não se intersectam.",
+        "calculation": "d = √((2 − 0)² + (0 − 2)²) = 2√2 > 2."
+      },
+      {
+        "title": "Conclua a posição relativa",
+        "text": "As duas curvas são circunferências exteriores entre si, sem ponto em comum. Essa descrição corresponde à alternativa E."
+      }
+    ],
+    "pitfalls": [
+      "Ler o centro como (−2, 0) por causa do sinal na expressão.",
+      "Comparar apenas os raios sem calcular a distância entre centros."
+    ],
+    "takeaway": "Complete quadrados para ler centro e raio; depois compare a distância entre centros com a soma e a diferença dos raios."
+  },
+  "usp-2025-v1-19": {
+    "topic": "Efeito Compton: comprimento de onda e frequência",
+    "vocabulary": [
+      "Fóton: quantum de radiação eletromagnética.",
+      "Comprimento de onda: distância espacial de repetição da onda.",
+      "Frequência: quantidade de oscilações por segundo."
+    ],
+    "steps": [
+      {
+        "title": "Leia a expressão fornecida",
+        "text": "O comprimento final é o inicial mais uma parcela que depende do ângulo. A constante α e a massa m são positivas.",
+        "calculation": "λ′ − λ₀ = (α/m)(1 − cos θ)."
+      },
+      {
+        "title": "Teste o ângulo de trinta graus",
+        "text": "Para 30°, o cosseno é menor que 1. A parcela acrescentada é positiva, e o comprimento de onda final aumenta.",
+        "calculation": "1 − cos 30° = 1 − √3/2 > 0."
+      },
+      {
+        "title": "Use a velocidade da luz",
+        "text": "No vácuo, a relação entre velocidade, comprimento de onda e frequência mantém c constante. Comprimento maior exige frequência menor.",
+        "calculation": "c = λf → f = c/λ."
+      },
+      {
+        "title": "Elimine as trocas de conceito",
+        "text": "O espalhamento altera a frequência do fóton, mas não reduz sua velocidade no vácuo. Além disso, a maior variação ocorre a 180°, não a 90°."
+      },
+      {
+        "title": "Relacione com a alternativa",
+        "text": "A afirmação de que o fóton emergente a 30° tem frequência menor é correta. Esse é o conteúdo da alternativa B."
+      }
+    ],
+    "pitfalls": [
+      "Afirmar que a luz fica mais lenta no vácuo após o espalhamento.",
+      "Dizer que frequência e comprimento de onda crescem juntos com c constante."
+    ],
+    "takeaway": "Quando a velocidade da onda permanece constante, frequência e comprimento de onda variam em sentidos opostos."
+  },
+  "usp-2025-v1-33": {
+    "topic": "Desaceleração do pica-pau e conversão de unidades",
+    "vocabulary": [
+      "Desaceleração: aceleração que reduz o módulo da velocidade.",
+      "Milissegundo: milésima parte de um segundo.",
+      "Velocidade média: média das velocidades inicial e final no movimento uniformemente variado."
+    ],
+    "steps": [
+      {
+        "title": "Converta antes de calcular",
+        "text": "O módulo da aceleração é duzentas vezes g, e o tempo é dado em milissegundos. Passe ambos para unidades do SI.",
+        "calculation": "|a| = 200 × 10 = 2 000 m/s²; Δt = 0,002 s."
+      },
+      {
+        "title": "Encontre a velocidade inicial",
+        "text": "Como o crânio termina momentaneamente parado, a redução de velocidade durante o intervalo é igual à velocidade inicial.",
+        "calculation": "v₀ = |a|Δt = 2 000 × 0,002 = 4 m/s."
+      },
+      {
+        "title": "Calcule a velocidade média",
+        "text": "A desaceleração é constante. Assim, a velocidade média no intervalo é a média aritmética de 4 m/s e zero.",
+        "calculation": "v média = (4 + 0)/2 = 2 m/s."
+      },
+      {
+        "title": "Determine a distância",
+        "text": "Multiplique a velocidade média pelo intervalo. O resultado sai em metros e precisa ser convertido para milímetros.",
+        "calculation": "d = 2 × 0,002 = 0,004 m = 4 mm."
+      },
+      {
+        "title": "Confira por outra relação",
+        "text": "Como a velocidade final é zero, o mesmo deslocamento pode ser obtido por |a|Δt²/2. O resultado confirma 4 mm: alternativa B.",
+        "calculation": "2 000 × (0,002)²/2 = 0,004 m."
+      }
+    ],
+    "pitfalls": [
+      "Usar 2 s no lugar de 2 ms.",
+      "Multiplicar v₀ pelo tempo sem considerar a redução da velocidade."
+    ],
+    "takeaway": "Em uma frenagem uniforme até o repouso, a velocidade média é metade da velocidade inicial."
+  },
+  "usp-2025-v1-57": {
+    "topic": "Cristalização e calor no aquecedor reutilizável",
+    "vocabulary": [
+      "Exotérmico: processo que libera calor para o entorno.",
+      "Endotérmico: processo que absorve calor do entorno.",
+      "Solução supersaturada: solução com mais soluto dissolvido que o equilíbrio permite naquela condição."
+    ],
+    "steps": [
+      {
+        "title": "Identifique o que aquece as mãos",
+        "text": "O choque mecânico desencadeia a cristalização do sal. O aquecimento observado indica que esse processo libera energia para o entorno."
+      },
+      {
+        "title": "Classifique a precipitação",
+        "text": "Quando o sal sai da solução e forma cristais nesse dispositivo, há liberação de calor. Portanto, a precipitação é exotérmica."
+      },
+      {
+        "title": "Observe a regeneração",
+        "text": "Para reutilizar o aquecedor, ele é colocado em água quente. O calor fornecido favorece a redissolução do material cristalizado."
+      },
+      {
+        "title": "Classifique a dissolução",
+        "text": "Nas condições descritas, dissolver novamente o sal exige absorção de energia. A solubilização é, portanto, endotérmica."
+      },
+      {
+        "title": "Junte as duas conclusões",
+        "text": "A alternativa A combina corretamente precipitação exotérmica e solubilização endotérmica. O fato de o processo ser reversível no uso não implica sinais de calor iguais."
+      }
+    ],
+    "pitfalls": [
+      "Trocar o sinal do calor por olhar apenas para a água quente externa.",
+      "Afirmar que toda dissolução, de qualquer substância, é endotérmica."
+    ],
+    "takeaway": "Use a observação do aquecimento e do fornecimento de calor para classificar cada etapa do processo."
+  },
+  "usp-2025-v1-64": {
+    "topic": "Estequiometria ligada à densidade",
+    "vocabulary": [
+      "Coeficiente estequiométrico: proporção em mol na reação balanceada.",
+      "Massa molar: massa correspondente a um mol.",
+      "Densidade: razão entre massa e volume."
+    ],
+    "steps": [
+      {
+        "title": "Leia a proporção em mol",
+        "text": "A combustão balanceada consome um mol de metano para dois mols de oxigênio. Os coeficientes não são diretamente uma proporção de massas.",
+        "calculation": "CH₄ + 2 O₂ → CO₂ + 2 H₂O."
+      },
+      {
+        "title": "Passe a proporção para massas",
+        "text": "Um mol de metano tem massa 16 g. Dois mols de oxigênio têm massa 64 g, então a razão de massas consumidas é um quarto.",
+        "calculation": "m(CH₄)/m(O₂) = 16/64 = 1/4."
+      },
+      {
+        "title": "Use a informação de volume",
+        "text": "O oxigênio líquido ocupa 1,5 vez o volume do metano líquido. Essa é uma informação adicional; ela não vem dos coeficientes da equação.",
+        "calculation": "V(O₂)/V(CH₄) = 1,5."
+      },
+      {
+        "title": "Monte a razão das densidades",
+        "text": "Dividir as duas densidades equivale a multiplicar a razão das massas pela razão inversa dos volumes correspondentes.",
+        "calculation": "ρ(CH₄)/ρ(O₂) = [m(CH₄)/m(O₂)] × [V(O₂)/V(CH₄)]."
+      },
+      {
+        "title": "Calcule e compare",
+        "text": "Substitua as duas razões conhecidas. A razão de densidades é adimensional e corresponde à alternativa B.",
+        "calculation": "(1/4) × 1,5 = 0,375."
+      }
+    ],
+    "pitfalls": [
+      "Aplicar a proporção de volumes de gases a reagentes líquidos.",
+      "Inverter o fator de volumes ao dividir duas frações."
+    ],
+    "takeaway": "Coeficientes dão mol; massas molares dão massa; só então combine a informação de volume para calcular densidades."
+  },
+  "ita-2026-fase1-1": {
+    "topic": "Complexos em forma polar e cartesiana",
+    "vocabulary": [
+      "Módulo: distância do complexo à origem.",
+      "Argumento: ângulo que posiciona o complexo no plano.",
+      "Parte real: coordenada horizontal do complexo."
+    ],
+    "steps": [
+      {
+        "title": "Parametrize o complexo w",
+        "text": "Como o argumento de w é π/6 e w não é zero, escreva seu módulo como um número r estritamente positivo.",
+        "calculation": "w = r(√3/2 + i/2), r > 0."
+      },
+      {
+        "title": "Escreva z a partir de w",
+        "text": "A igualdade z − w = −2√3 desloca apenas a parte real. A parte imaginária de z continua sendo r/2.",
+        "calculation": "z = (r√3/2 − 2√3) + i(r/2)."
+      },
+      {
+        "title": "Use o módulo de z",
+        "text": "O quadrado do módulo é a soma dos quadrados das partes real e imaginária. Como |z| = 2√3, seu quadrado é 12.",
+        "calculation": "(r√3/2 − 2√3)² + (r/2)² = 12."
+      },
+      {
+        "title": "Resolva com a restrição",
+        "text": "Ao expandir, os termos constantes se cancelam. A raiz r = 0 é proibida, pois w é não nulo; resta r = 6.",
+        "calculation": "r² − 6r + 12 = 12 → r(r − 6) = 0 → r = 6."
+      },
+      {
+        "title": "Retorne à parte real",
+        "text": "Substitua r na expressão da coordenada horizontal de z. O módulo não é a parte real: aqui elas têm valores diferentes.",
+        "calculation": "Re(z) = 6√3/2 − 2√3 = √3. Alternativa D."
+      }
+    ],
+    "pitfalls": [
+      "Aceitar r = 0, contrariando w ≠ 0.",
+      "Responder 2√3, confundindo módulo com parte real."
+    ],
+    "takeaway": "Transforme o argumento em seno e cosseno; depois use o módulo como uma equação de distâncias no plano."
+  },
+  "ita-2026-fase1-13": {
+    "topic": "Corrente elétrica por fluxo de carga",
+    "vocabulary": [
+      "Corrente: carga que atravessa uma seção por unidade de tempo.",
+      "Densidade volumétrica de carga: carga por volume.",
+      "Constante adimensional: número sem unidade física."
+    ],
+    "steps": [
+      {
+        "title": "Imagine um pequeno intervalo",
+        "text": "Em um intervalo Δt, os elétrons que atravessam a seção estavam em uma fatia do feixe de comprimento vΔt. A seção tem área A."
+      },
+      {
+        "title": "Calcule o volume da fatia",
+        "text": "Multiplicar a área transversal pelo comprimento produz o volume que atravessa a seção nesse intervalo.",
+        "calculation": "ΔV = A v Δt."
+      },
+      {
+        "title": "Converta volume em carga",
+        "text": "A densidade de carga ρ informa quanta carga há em cada unidade de volume. Multiplique-a pelo volume da fatia.",
+        "calculation": "ΔQ = ρ A v Δt."
+      },
+      {
+        "title": "Divida pelo intervalo",
+        "text": "Corrente é fluxo temporal de carga. Ao dividir ΔQ por Δt, o intervalo se cancela. Um fator adimensional C não altera as unidades.",
+        "calculation": "I = CρAv."
+      },
+      {
+        "title": "Confira dimensionalmente",
+        "text": "Densidade em C/m³, área em m² e velocidade em m/s produzem C/s, a unidade ampère. A relação correta está na alternativa B.",
+        "calculation": "(C/m³) × m² × (m/s) = C/s = A."
+      }
+    ],
+    "pitfalls": [
+      "Usar densidade superficial de carga no lugar da volumétrica.",
+      "Confundir a letra A da área com o símbolo da unidade ampère."
+    ],
+    "takeaway": "Para calcular fluxo de carga, conte o volume que atravessa a seção em um segundo e multiplique pela densidade de carga."
+  },
+  "ita-2026-fase1-28": {
+    "topic": "Efeito estufa e análise de afirmações",
+    "vocabulary": [
+      "Potencial de aquecimento: medida comparativa do efeito de um gás em um horizonte de tempo definido.",
+      "Retroalimentação positiva: processo que reforça uma alteração inicial.",
+      "CFC: composto de carbono, cloro e flúor."
+    ],
+    "steps": [
+      {
+        "title": "Analise a primeira afirmação",
+        "text": "Metano e óxido nitroso têm potencial de aquecimento por unidade de massa maior que o CO₂ nos horizontes usuais de comparação. A menor concentração não torna I falsa."
+      },
+      {
+        "title": "Verifique o papel do efeito estufa",
+        "text": "O efeito estufa natural aquece a superfície. Sem ele, a temperatura média seria muito menor, usualmente estimada perto de −18 °C, e não 25 °C. II é falsa."
+      },
+      {
+        "title": "Reconheça a retroalimentação",
+        "text": "Uma superfície mais quente favorece a evaporação; vapor de água é um gás de efeito estufa. Esse mecanismo reforça o aquecimento inicial. III é verdadeira."
+      },
+      {
+        "title": "Leia a composição dos CFCs",
+        "text": "CFCs não possuem hidrogênio. Sua fotodecomposição pode liberar espécies de cloro que participam da destruição do ozônio; não é a liberação de hidrogênio descrita em IV."
+      },
+      {
+        "title": "Monte o conjunto correto",
+        "text": "As afirmações verdadeiras são I e III. O conjunto pedido aparece na alternativa B, sem incluir as duas proposições incorretas."
+      }
+    ],
+    "pitfalls": [
+      "Confundir efeito estufa com destruição da camada de ozônio.",
+      "Julgar o potencial de aquecimento apenas pela abundância do gás."
+    ],
+    "takeaway": "Em itens com afirmações, julgue cada frase inteira e confira a composição química antes de aceitar a explicação."
+  },
+  "unicamp-2026-fase1-51": {
+    "topic": "Inequações com módulo e contagem de primos",
+    "vocabulary": [
+      "Módulo: distância até zero na reta real.",
+      "Interseção: valores que cumprem duas condições ao mesmo tempo.",
+      "Primo: inteiro maior que 1 com apenas dois divisores naturais."
+    ],
+    "steps": [
+      {
+        "title": "Interprete a primeira distância",
+        "text": "Estar a pelo menos duas unidades de 5 significa ficar à esquerda de 3 ou à direita de 7, incluindo essas fronteiras.",
+        "calculation": "|x − 5| ≥ 2 → x ≤ 3 ou x ≥ 7."
+      },
+      {
+        "title": "Interprete a segunda distância",
+        "text": "Estar a no máximo nove unidades de 11 restringe x ao intervalo fechado entre 2 e 20.",
+        "calculation": "|x − 11| ≤ 9 → 2 ≤ x ≤ 20."
+      },
+      {
+        "title": "Combine as restrições",
+        "text": "As duas condições são simultâneas. Mantendo somente números naturais, ficamos com 2, 3 e todos os inteiros de 7 até 20."
+      },
+      {
+        "title": "Separe os números primos",
+        "text": "Nessa lista, descarte pares maiores que 2 e os compostos ímpares 9 e 15. Os primos restantes são fáceis de enumerar.",
+        "calculation": "2, 3, 7, 11, 13, 17, 19."
+      },
+      {
+        "title": "Conte sem pular as fronteiras",
+        "text": "Há sete números primos no conjunto. Os números 3 e 7 estão incluídos porque a desigualdade permite igualdade: alternativa C."
+      }
+    ],
+    "pitfalls": [
+      "Interpretar |x − 5| ≥ 2 como o intervalo entre 3 e 7.",
+      "Excluir os extremos de uma desigualdade com ≥ ou ≤."
+    ],
+    "takeaway": "Traduza módulos em intervalos ou regiões externas; faça a interseção antes de contar os valores pedidos."
+  },
+  "unicamp-2026-fase1-14": {
+    "topic": "Frenagem e segunda lei de Newton",
+    "vocabulary": [
+      "Força resultante: soma vetorial das forças sobre o corpo.",
+      "Aceleração média: variação da velocidade dividida pelo tempo.",
+      "Módulo: valor não negativo de uma grandeza vetorial."
+    ],
+    "steps": [
+      {
+        "title": "Escolha o trecho solicitado",
+        "text": "A pergunta se refere somente ao intervalo de 30 s a 50 s. A aceleração de 0,8 m/s² pertence a outro trecho e não deve ser usada."
+      },
+      {
+        "title": "Converta a velocidade inicial",
+        "text": "Ao começar a frear, o conjunto ainda tem velocidade de 36 km/h. Divida por 3,6 para calcular em metros por segundo.",
+        "calculation": "36/3,6 = 10 m/s."
+      },
+      {
+        "title": "Calcule a aceleração",
+        "text": "A velocidade cai de 10 m/s para zero em 20 s. O sinal negativo indica sentido oposto ao movimento nesse referencial.",
+        "calculation": "a = (0 − 10)/(50 − 30) = −0,5 m/s²."
+      },
+      {
+        "title": "Aplique a segunda lei",
+        "text": "A massa total é 180 kg. Multiplique-a pelo módulo da aceleração para obter o módulo da força resultante.",
+        "calculation": "|F| = 180 × 0,5 = 90 N."
+      },
+      {
+        "title": "Interprete a resposta",
+        "text": "A alternativa B informa 90 N. A força é resultante: o cálculo não exige separar todas as forças de contato e resistência que atuam na motocicleta."
+      }
+    ],
+    "pitfalls": [
+      "Usar os 50 s como duração da frenagem.",
+      "Usar 36 como velocidade em m/s ou a aceleração de outro trecho."
+    ],
+    "takeaway": "Em movimentos por etapas, isole o intervalo pedido antes de aplicar F = ma."
+  },
+  "unicamp-2026-fase1-71": {
+    "topic": "Misturas de etanol e água: teor e densidade",
+    "vocabulary": [
+      "Teor em massa: massa de um componente dividida pela massa da mistura.",
+      "Anidro: com teor de água muito baixo.",
+      "Mistura ideal: modelo adotado no enunciado para comparar os componentes."
+    ],
+    "steps": [
+      {
+        "title": "Compare os componentes",
+        "text": "A água tem densidade maior que o etanol nas condições usuais. No modelo da questão, acrescentar água aumenta a densidade da mistura e reduz o teor alcoólico."
+      },
+      {
+        "title": "Interprete o etanol anidro",
+        "text": "O EAC deve conter pelo menos 99,3% de etanol em massa. Logo, esse número é um mínimo de teor alcoólico, não um máximo."
+      },
+      {
+        "title": "Relacione com o limite de densidade",
+        "text": "Se água adicional aumenta a densidade, controlar a contaminação por água exige um limite máximo de massa específica para o EAC."
+      },
+      {
+        "title": "Ordene as misturas hidratadas",
+        "text": "O EHC tem teor alcoólico menor que o EHCP. Ele contém proporcionalmente mais água e deve ter a maior faixa de densidade.",
+        "calculation": "EHC: 805–811 kg/m³; EHCP: 800–803 kg/m³."
+      },
+      {
+        "title": "Preencha a sequência",
+        "text": "A ordem pedida é máximo, mínimo, 805–811 e 800–803. Essa sequência está na alternativa A, usando o modelo e os valores fornecidos na prova."
+      }
+    ],
+    "pitfalls": [
+      "Achar que maior teor de etanol significa necessariamente maior densidade.",
+      "Tratar os valores da questão como uma especificação atual sem consultar a norma vigente."
+    ],
+    "takeaway": "Ao comparar misturas, identifique qual componente é mais denso e qual limite protege o teor mínimo exigido."
+  },
+  "unesp-2026-fase1-83": {
+    "topic": "Porcentagem e média por hora",
+    "vocabulary": [
+      "Porcentagem: razão com denominador 100.",
+      "Taxa: valor cobrado segundo uma regra.",
+      "Média por hora: total pago dividido pelo total de horas trabalhadas."
+    ],
+    "steps": [
+      {
+        "title": "Leia a regra de cobrança",
+        "text": "A taxa de 2,5% incide apenas nas seis primeiras horas, embora Pepe trabalhe oito horas. Separe as horas cobradas das horas usadas na média."
+      },
+      {
+        "title": "Calcule o pagamento por hora cobrada",
+        "text": "A base da taxa é o ganho de R$ 40,00 em cada uma dessas horas. Transforme a porcentagem em fator decimal.",
+        "calculation": "0,025 × 40 = R$ 1,00."
+      },
+      {
+        "title": "Some o total do dia",
+        "text": "Há seis horas com taxa de R$ 1,00. Nas duas últimas horas, a regra descrita não acrescenta cobrança.",
+        "calculation": "Taxa total = 6 × 1 = R$ 6,00."
+      },
+      {
+        "title": "Divida pelo período completo",
+        "text": "A pergunta pede a média por hora trabalhada em um dia de oito horas. Portanto, o denominador é oito, e não seis.",
+        "calculation": "6/8 = R$ 0,75 por hora."
+      },
+      {
+        "title": "Confira a interpretação",
+        "text": "A média é menor que R$ 1,00 porque duas horas não têm cobrança. O valor R$ 0,75 corresponde à alternativa E."
+      }
+    ],
+    "pitfalls": [
+      "Aplicar 2,5% às oito horas.",
+      "Dividir o total por seis e responder a taxa por hora cobrada."
+    ],
+    "takeaway": "A média usa todas as unidades mencionadas na pergunta, mesmo quando parte delas tem custo zero."
+  },
+  "unesp-2026-fase1-78": {
+    "topic": "Do consumo de combustível à energia potencial",
+    "vocabulary": [
+      "Rendimento: fração da energia usada no objetivo considerado.",
+      "Densidade: massa por volume.",
+      "Energia potencial gravitacional: energia mgh perto da superfície terrestre."
+    ],
+    "steps": [
+      {
+        "title": "Calcule distância e consumo",
+        "text": "A viagem dura duas horas a 50 km/h de média. Com 10 km por litro, obtenha o volume total de gasolina consumida.",
+        "calculation": "d = 2 × 50 = 100 km; V = 100/10 = 10 L."
+      },
+      {
+        "title": "Converta litros em massa",
+        "text": "A energia de combustão é fornecida por quilograma. Multiplique o volume pela densidade para usar unidades compatíveis.",
+        "calculation": "m da gasolina = 10 × 0,7 = 7 kg."
+      },
+      {
+        "title": "Aplique a fração de um por cento",
+        "text": "Primeiro calcule a energia total liberada. Depois separe apenas a parcela atribuída ao movimento do motorista na hipótese do item.",
+        "calculation": "E total = 7 × 4 × 10⁷ = 2,8 × 10⁸ J; E útil = 2,8 × 10⁶ J."
+      },
+      {
+        "title": "Transforme em energia potencial",
+        "text": "Iguale a energia útil à energia potencial do motorista, cuja massa é 70 kg. Não use a massa de gasolina no termo mgh.",
+        "calculation": "2,8 × 10⁶ = 70 × 10 × h."
+      },
+      {
+        "title": "Resolva e confira",
+        "text": "Divida a energia por 700 N. A altura hipotética é quatro mil metros, correspondente à alternativa D.",
+        "calculation": "h = 2 800 000/700 = 4 000 m."
+      }
+    ],
+    "pitfalls": [
+      "Usar 1 em vez de 0,01 para representar um por cento.",
+      "Aplicar a energia em J/kg diretamente ao volume em litros."
+    ],
+    "takeaway": "Em cadeias de energia, faça cada conversão de unidade e aplique o rendimento antes de igualar à forma final de energia."
+  },
+  "unesp-2026-fase1-70": {
+    "topic": "Transmutação nuclear e número de prótons",
+    "vocabulary": [
+      "Número atômico: quantidade de prótons de um núcleo.",
+      "Transmutação: transformação de um elemento em outro por mudança nuclear.",
+      "Bilhões: unidades de 10⁹."
+    ],
+    "steps": [
+      {
+        "title": "Identifique os elementos",
+        "text": "A transformação descrita é de chumbo para ouro. Consulte seus números atômicos: o chumbo tem 82 prótons e o ouro tem 79."
+      },
+      {
+        "title": "Compare os núcleos",
+        "text": "Para que um núcleo de chumbo passe a ter o número atômico do ouro, ele precisa perder três prótons. A pergunta conta prótons, não elétrons.",
+        "calculation": "82 − 79 = 3 prótons por núcleo."
+      },
+      {
+        "title": "Use a quantidade de núcleos",
+        "text": "O texto informa a produção de 86 bilhões de núcleos de ouro no período. Cada um representa a remoção dos três prótons calculados."
+      },
+      {
+        "title": "Multiplique as quantidades",
+        "text": "Multiplique o número de núcleos pelo número de prótons removidos em cada transformação. A unidade bilhões permanece.",
+        "calculation": "86 bilhões × 3 = 258 bilhões de prótons."
+      },
+      {
+        "title": "Confira o que não foi necessário",
+        "text": "Os picogramas servem de contextualização e não precisam ser convertidos para contar os prótons com os dados disponíveis. O resultado é a alternativa C."
+      }
+    ],
+    "pitfalls": [
+      "Subtrair massas atômicas em vez de números atômicos.",
+      "Usar 79 como quantidade de prótons removidos por núcleo."
+    ],
+    "takeaway": "A identidade química do núcleo é determinada por seu número de prótons; compare os números atômicos em uma transmutação."
+  },
+  "enem-2025-dia2-137": {
+    "topic": "Porcentagem de uma solução após retirada",
+    "vocabulary": [
+      "Fração complementar: parte que falta para completar 100%.",
+      "Quantidade conservada: componente que não é retirado.",
+      "Concentração: proporção de um componente no total da solução."
+    ],
+    "steps": [
+      {
+        "title": "Descubra a pequena fração de S₂",
+        "text": "Se S₁ ocupa 99,95%, S₂ ocupa os 0,05% restantes dos dez litros. Converta a porcentagem antes de multiplicar.",
+        "calculation": "V(S₂) = 10 × 0,0005 = 0,005 L."
+      },
+      {
+        "title": "Identifique o que permanece",
+        "text": "Somente S₁ será retirada. Os 0,005 L de S₂ permanecem e passam a representar 0,10% do novo volume total."
+      },
+      {
+        "title": "Monte uma equação para o total",
+        "text": "Chame de V o volume final. A quantidade conservada de S₂ é igual à nova fração de S₂ multiplicada por esse volume.",
+        "calculation": "0,001V = 0,005."
+      },
+      {
+        "title": "Encontre o volume final",
+        "text": "Divida os dois lados por 0,001. O novo total é metade do inicial, pois a fração de S₂ dobrou sem mudar sua quantidade.",
+        "calculation": "V = 5 L."
+      },
+      {
+        "title": "Calcule o que foi retirado",
+        "text": "A pergunta pede a quantidade retirada, não o volume restante de S₁. Subtraia o volume final do inicial: alternativa E.",
+        "calculation": "10 − 5 = 5,0000 L de S₁."
+      }
+    ],
+    "pitfalls": [
+      "Aplicar a diferença de percentuais diretamente aos dez litros.",
+      "Confundir 0,10% com 0,10 na equação."
+    ],
+    "takeaway": "Quando um componente permanece fixo, use sua quantidade para relacionar as concentrações inicial e final."
+  },
+  "enem-2025-dia2-91": {
+    "topic": "Transferência de calor por irradiação",
+    "vocabulary": [
+      "Irradiação: transferência de energia por ondas eletromagnéticas.",
+      "Convecção: transporte de energia pelo movimento de um fluido.",
+      "Condução: transferência por interações microscópicas no material."
+    ],
+    "steps": [
+      {
+        "title": "Localize a condição da pergunta",
+        "text": "O item pede o mecanismo de transferência de calor que não depende da presença de fluidos. O texto aproxima as mariposas de uma fonte luminosa e quente."
+      },
+      {
+        "title": "Analise a convecção",
+        "text": "A convecção envolve movimento de líquido ou gás, como ar aquecido circulando. Por definição, ela depende da presença de um fluido."
+      },
+      {
+        "title": "Reconheça a radiação térmica",
+        "text": "Uma lâmpada pode emitir energia eletromagnética que é absorvida pelo corpo da mariposa. Essa transferência pode ocorrer até através do vácuo."
+      },
+      {
+        "title": "Separe fenômenos ópticos",
+        "text": "Reflexão, refração e dispersão descrevem comportamentos das ondas em outras situações. Não nomeiam o mecanismo de aquecimento procurado neste contexto."
+      },
+      {
+        "title": "Escolha o processo térmico",
+        "text": "A irradiação satisfaz a condição e explica uma possibilidade de aquecimento pela lâmpada: alternativa C. O texto distingue isso da causa de atração dos insetos."
+      }
+    ],
+    "pitfalls": [
+      "Escolher convecção apenas porque há ar ao redor da lâmpada.",
+      "Afirmar que a mariposa procura a lâmpada necessariamente para se aquecer."
+    ],
+    "takeaway": "Procure o mecanismo pedido: radiação não requer meio material; convecção exige movimento de fluido."
+  },
+  "enem-2025-dia2-110": {
+    "topic": "Meia-vida do cobalto-60",
+    "vocabulary": [
+      "Meia-vida: tempo necessário para a quantidade radioativa cair à metade.",
+      "Radioisótopo: isótopo com núcleo instável.",
+      "Decaimento exponencial: redução por um mesmo fator em intervalos iguais."
+    ],
+    "steps": [
+      {
+        "title": "Organize os dados",
+        "text": "A amostra começa com 2,00 mg, a meia-vida é 5,3 anos e o armazenamento dura 26,5 anos. A pergunta quer a massa de cobalto-60 restante."
+      },
+      {
+        "title": "Conte as meias-vidas",
+        "text": "Divida o tempo transcorrido pelo tempo de meia-vida. O quociente informa quantas vezes devemos dividir a quantidade por dois.",
+        "calculation": "n = 26,5/5,3 = 5."
+      },
+      {
+        "title": "Aplique a redução sucessiva",
+        "text": "Em cada uma das cinco etapas, resta metade do que existia na etapa anterior. Não se retira a mesma massa em todas elas.",
+        "calculation": "2 → 1 → 0,5 → 0,25 → 0,125 → 0,0625 mg."
+      },
+      {
+        "title": "Confira com a expressão",
+        "text": "A fórmula compacta divide a massa inicial por uma potência de dois. Ela reproduz a sequência de reduções.",
+        "calculation": "m = m₀/2ⁿ = 2/32 = 0,0625 mg."
+      },
+      {
+        "title": "Escolha a aproximação",
+        "text": "Entre as opções, 0,06 mg é a mais próxima do valor calculado. Portanto, a resposta é a alternativa E."
+      }
+    ],
+    "pitfalls": [
+      "Dividir a massa pelo número de meias-vidas em vez de por 2ⁿ.",
+      "Considerar a massa dos produtos de decaimento como cobalto-60 restante."
+    ],
+    "takeaway": "Conte primeiro as meias-vidas e só depois aplique a divisão sucessiva da quantidade radioativa."
+  },
+  "esa-2026-geral-7": {
+    "topic": "Raiz conhecida e fatoração de polinômio",
+    "vocabulary": [
+      "Raiz do polinômio: valor que torna p(x) igual a zero.",
+      "Fatoração: escrita de uma expressão como produto.",
+      "Expoente fracionário: potência que pode representar uma raiz."
+    ],
+    "steps": [
+      {
+        "title": "Use a raiz fornecida",
+        "text": "O número 2 é uma raiz do polinômio. Substitua x por 2 e imponha p(2) = 0 para encontrar o parâmetro m.",
+        "calculation": "16 − 4m + 34 − 6 = 0 → m = 11."
+      },
+      {
+        "title": "Retire o fator conhecido",
+        "text": "Se 2 é raiz, x − 2 é fator. Dividindo o polinômio por esse fator, obtemos uma expressão quadrática.",
+        "calculation": "2x³ − 11x² + 17x − 6 = (x − 2)(2x² − 7x + 3)."
+      },
+      {
+        "title": "Fatore a parte quadrática",
+        "text": "Busque dois fatores cujo produto recupere os termos do segundo grau. Assim, as outras raízes ficam explícitas.",
+        "calculation": "2x² − 7x + 3 = (2x − 1)(x − 3)."
+      },
+      {
+        "title": "Respeite a ordem das raízes",
+        "text": "As raízes restantes são 1/2 e 3. Como o enunciado informa a > b, devemos tomar a = 3 e b = 1/2."
+      },
+      {
+        "title": "Calcule a potência solicitada",
+        "text": "Elevar 3 a um meio equivale a extrair sua raiz quadrada. O valor é o da alternativa D.",
+        "calculation": "aᵇ = 3^(1/2) = √3."
+      }
+    ],
+    "pitfalls": [
+      "Trocar a e b mesmo com a > b.",
+      "Esquecer que a raiz 2 determina o parâmetro antes da fatoração."
+    ],
+    "takeaway": "Uma raiz conhecida permite determinar parâmetros e reduzir o grau antes de resolver as outras raízes."
+  },
+  "espcex-2026-objetiva-15": {
+    "topic": "Inversa de uma matriz de ordem dois",
+    "vocabulary": [
+      "Determinante: número que indica, neste caso, se a matriz é invertível.",
+      "Matriz inversa: matriz cujo produto com a original é a identidade.",
+      "Elemento: cada entrada de uma matriz."
+    ],
+    "steps": [
+      {
+        "title": "Leia as quatro entradas",
+        "text": "A matriz tem primeira linha (1/4, 3) e segunda linha (−2, 8). Mantenha a posição de cada número para usar a fórmula da inversa."
+      },
+      {
+        "title": "Calcule o determinante",
+        "text": "Para uma matriz 2 por 2, multiplique a diagonal principal e subtraia o produto da outra diagonal.",
+        "calculation": "det M = (1/4) × 8 − 3 × (−2) = 8."
+      },
+      {
+        "title": "Monte a matriz adjunta",
+        "text": "Troque as entradas da diagonal principal entre si e inverta os sinais das outras duas. Em seguida, divida todas as entradas pelo determinante.",
+        "calculation": "M⁻¹ = (1/8)[(8, −3); (2, 1/4)]."
+      },
+      {
+        "title": "Simplifique cada elemento",
+        "text": "A divisão pelo determinante afeta as quatro entradas, inclusive a fração que já existia. Agora podemos compará-las diretamente.",
+        "calculation": "M⁻¹ = [(1, −3/8); (1/4, 1/32)]."
+      },
+      {
+        "title": "Escolha o maior valor",
+        "text": "Entre 1, −3/8, 1/4 e 1/32, o maior é 1. Esse valor aparece na alternativa D; não se pede o maior módulo."
+      }
+    ],
+    "pitfalls": [
+      "Esquecer o sinal negativo de −2 ao calcular o determinante.",
+      "Dividir apenas parte da matriz pelo determinante."
+    ],
+    "takeaway": "Para inverter uma matriz 2 por 2, confira o determinante e aplique o fator a todas as entradas."
+  },
+  "espcex-2026-objetiva-22": {
+    "topic": "Frequência de um movimento repetitivo",
+    "vocabulary": [
+      "Frequência: quantidade de ciclos por unidade de tempo.",
+      "Hertz: unidade correspondente a um ciclo por segundo.",
+      "Período: tempo necessário para um ciclo completo."
+    ],
+    "steps": [
+      {
+        "title": "Leia o dado na tabela de apoio",
+        "text": "Para a candidata, o índice mínimo de flexões é 12 repetições. A tabela distingue essa tarefa das demais e também separa os índices por sexo."
+      },
+      {
+        "title": "Identifique o intervalo",
+        "text": "A candidata completa as doze repetições em cinquenta segundos, com ritmo constante. Não é preciso transformar o intervalo para minutos."
+      },
+      {
+        "title": "Monte a frequência",
+        "text": "A frequência conta repetições e divide pelo tempo em segundos. O resultado representa quantas flexões são realizadas por segundo.",
+        "calculation": "f = N/Δt = 12/50."
+      },
+      {
+        "title": "Efetue a divisão",
+        "text": "Doze dividido por cinquenta é vinte e quatro centésimos. Como o intervalo está em segundos, a unidade é hertz.",
+        "calculation": "f = 0,24 Hz."
+      },
+      {
+        "title": "Confira pelo período",
+        "text": "O período é aproximadamente 4,17 s por flexão, e sua inversa volta a dar 0,24 Hz. A alternativa correta é E.",
+        "calculation": "T = 50/12 ≈ 4,17 s; f = 1/T."
+      }
+    ],
+    "pitfalls": [
+      "Trocar a frequência pelo período e responder 50/12 Hz.",
+      "Usar o índice da linha ou coluna errada da tabela."
+    ],
+    "takeaway": "Frequência mede repetições por segundo; período mede segundos por repetição."
+  },
+  "espcex-2026-objetiva-36": {
+    "topic": "Concentração de íons em uma solução de sal",
+    "vocabulary": [
+      "Dissociação: separação de íons de um composto em solução.",
+      "Concentração molar: quantidade em mol por litro de solução.",
+      "Índice na fórmula: número de grupos ou átomos na unidade química."
+    ],
+    "steps": [
+      {
+        "title": "Leia a fórmula do sal",
+        "text": "Cada unidade de Ca(NO₃)₂ produz dois íons nitrato ao se dissociar. Portanto, a concentração do sal é metade da concentração de nitrato pedida."
+      },
+      {
+        "title": "Determine a concentração do sal",
+        "text": "A meta é 6 × 10⁻² mol/L de NO₃⁻. Divida esse valor por dois antes de calcular a quantidade de sal.",
+        "calculation": "c do sal = 0,06/2 = 0,03 mol/L."
+      },
+      {
+        "title": "Use o volume final",
+        "text": "A solução preparada terá 500 litros. A quantidade de matéria de sal é a concentração do sal multiplicada por esse volume.",
+        "calculation": "n = 0,03 × 500 = 15 mol."
+      },
+      {
+        "title": "Converta mol em massa",
+        "text": "A massa molar fornecida é 164 g/mol. Multiplique-a pelos quinze mol e depois transforme gramas em quilogramas.",
+        "calculation": "m = 15 × 164 = 2 460 g = 2,46 kg."
+      },
+      {
+        "title": "Confira o nitrato produzido",
+        "text": "Quinze mol do sal fornecem trinta mol de nitrato. Dividindo por 500 L, recuperamos a concentração desejada: alternativa E.",
+        "calculation": "30/500 = 0,06 mol/L de NO₃⁻."
+      }
+    ],
+    "pitfalls": [
+      "Tomar a concentração de nitrato como se fosse a do sal.",
+      "Responder em gramas quando a questão solicita quilogramas."
+    ],
+    "takeaway": "Relacione a concentração do composto com a de cada íon usando os índices da fórmula."
+  },
+  "efomm-2026-dia2-10": {
+    "topic": "Triângulo equilátero e soma de distâncias",
+    "vocabulary": [
+      "Distância perpendicular: menor distância entre um ponto e uma reta.",
+      "Altura: segmento perpendicular de um vértice ao lado oposto.",
+      "Teorema de Viviani: soma das distâncias de um ponto interno aos lados de um triângulo equilátero é a altura."
+    ],
+    "steps": [
+      {
+        "title": "Divida o terreno em triângulos",
+        "text": "Ligue a árvore aos três vértices. Os três triângulos menores têm bases iguais ao lado L do terreno e alturas de 3, 4 e 5 metros."
+      },
+      {
+        "title": "Some suas áreas",
+        "text": "A soma das três áreas deve ser a área do terreno inteiro. Como a base L é comum em valor, podemos colocá-la em evidência.",
+        "calculation": "Área = L(3 + 4 + 5)/2 = 6L."
+      },
+      {
+        "title": "Compare com a área pelo lado e altura",
+        "text": "A área total também é Lh/2. Igualando as expressões, obtemos a altura do triângulo equilátero.",
+        "calculation": "Lh/2 = 6L → h = 12 m."
+      },
+      {
+        "title": "Recupere a medida do lado",
+        "text": "Em um triângulo equilátero, a altura é L√3/2. Use a altura encontrada para determinar o lado.",
+        "calculation": "12 = L√3/2 → L = 8√3 m."
+      },
+      {
+        "title": "Calcule a área final",
+        "text": "Substitua o lado e a altura na expressão da área. A unidade é metro quadrado, e a resposta é a alternativa A.",
+        "calculation": "Área = (8√3 × 12)/2 = 48√3 m²."
+      }
+    ],
+    "pitfalls": [
+      "Usar a soma 12 m como se fosse a medida do lado.",
+      "Multiplicar as três distâncias entre si para obter área."
+    ],
+    "takeaway": "Somar áreas menores explica por que as distâncias aos lados de um equilátero somam sua altura."
+  },
+  "efomm-2026-dia2-28": {
+    "topic": "Ciclo térmico e energia interna do gás ideal",
+    "vocabulary": [
+      "Adiabático: processo sem troca de calor.",
+      "Isovolumétrico: processo com volume constante.",
+      "Isobárico: processo com pressão constante."
+    ],
+    "steps": [
+      {
+        "title": "Leia o sentido do ciclo na figura",
+        "text": "O trecho 1–2 comprime o gás e o trecho 4–5 o expande. Ambos são adiabáticos, de modo que neles não há calor trocado: a afirmação IV é verdadeira."
+      },
+      {
+        "title": "Localize as trocas de calor",
+        "text": "No diagrama, o gás recebe calor em 2–3 e em 3–4 e rejeita calor em 5–1. A afirmação II descreve corretamente essas etapas."
+      },
+      {
+        "title": "Diferencie calor e energia interna",
+        "text": "Para um gás ideal com calor específico constante, a variação de energia interna usa cᵥ em qualquer processo. Em 3–4, mcₚΔT é o calor, não a variação de energia interna.",
+        "calculation": "ΔU = mcᵥ(T₄ − T₃); Q isobárico = mcₚ(T₄ − T₃)."
+      },
+      {
+        "title": "Verifique a fórmula de rendimento",
+        "text": "A expressão 1 − T fria/T quente é o rendimento de Carnot entre duas fontes. Não se aplica automaticamente a este ciclo, que recebe calor em temperaturas variáveis. I é falsa."
+      },
+      {
+        "title": "Selecione as afirmações verdadeiras",
+        "text": "Apenas II e IV permanecem corretas. Esse conjunto corresponde à alternativa D; a palavra reversível sozinha não transforma o ciclo em um ciclo de Carnot."
+      }
+    ],
+    "pitfalls": [
+      "Usar cₚ na energia interna porque o processo tem pressão constante.",
+      "Aplicar o rendimento de Carnot a qualquer ciclo reversível."
+    ],
+    "takeaway": "Para gás ideal, ΔU usa cᵥ; o calor trocado depende também do tipo de transformação."
+  },
+  "cbmerj-2026-cfo-ingles-24": {
+    "topic": "Máximo do cosseno em um domínio restrito",
+    "vocabulary": [
+      "Domínio: entradas permitidas para x.",
+      "Argumento trigonométrico: expressão dentro do seno ou cosseno.",
+      "Função decrescente: saída que diminui quando a entrada aumenta."
+    ],
+    "steps": [
+      {
+        "title": "Leia a restrição de entrada",
+        "text": "A variável x só pode variar de zero até 2π. Não basta usar o máximo global do cosseno, pois o argumento não percorre todos os ângulos."
+      },
+      {
+        "title": "Transforme os extremos",
+        "text": "Calcule o argumento x/4 + π/4 nas duas pontas do domínio. Como essa expressão é crescente, esses valores delimitam seu intervalo.",
+        "calculation": "x = 0 → π/4; x = 2π → 3π/4."
+      },
+      {
+        "title": "Analise o cosseno nesse intervalo",
+        "text": "Entre π/4 e 3π/4, o cosseno é decrescente. Seu maior valor ocorre na ponta inicial, e não em um ângulo zero fora do intervalo."
+      },
+      {
+        "title": "Calcule o valor máximo",
+        "text": "Multiplique o maior cosseno permitido pelo fator 6. A entrada que realiza esse máximo é x = 0.",
+        "calculation": "f(0) = 6 cos(π/4) = 6√2/2 = 3√2."
+      },
+      {
+        "title": "Compare com as opções",
+        "text": "O valor máximo é 3√2, apresentado na alternativa C. O número 6 seria o máximo se um argumento com cosseno igual a 1 fosse permitido."
+      }
+    ],
+    "pitfalls": [
+      "Responder 6 usando apenas a amplitude da função.",
+      "Esquecer de transformar o domínio de x no intervalo do argumento."
+    ],
+    "takeaway": "Em extremos trigonométricos, determine primeiro quais ângulos o domínio permite alcançar."
+  },
+  "cbmerj-2026-cfo-ingles-47": {
+    "topic": "Velocidade de um pulso em um fio",
+    "vocabulary": [
+      "Tensão mecânica: força de tração no fio.",
+      "Densidade linear: massa por unidade de comprimento.",
+      "Pulso: perturbação que se propaga pelo meio."
+    ],
+    "steps": [
+      {
+        "title": "Organize as unidades",
+        "text": "A distância entre inseto e aranha é de 60 cm, ou 0,60 m. A tração e a densidade linear já estão em unidades do SI."
+      },
+      {
+        "title": "Relacione tração e velocidade",
+        "text": "Para ondas transversais no modelo de fio tenso, a velocidade cresce com a tração e diminui com a densidade linear.",
+        "calculation": "v = √(T/μ)."
+      },
+      {
+        "title": "Calcule a velocidade",
+        "text": "Substitua os valores e divida as potências de dez antes de tirar a raiz. A densidade linear muito pequena permite alta velocidade no modelo.",
+        "calculation": "v = √((9 × 10⁻³)/(4 × 10⁻⁹)) = √(2,25 × 10⁶) = 1 500 m/s."
+      },
+      {
+        "title": "Encontre o tempo de propagação",
+        "text": "Divida a distância pela velocidade. Como o tempo de reação é desprezível, esse é o intervalo pedido.",
+        "calculation": "t = 0,60/1 500 = 0,0004 s."
+      },
+      {
+        "title": "Converta para milissegundos",
+        "text": "Multiplicar segundos por mil produz o valor em milissegundos. A resposta é a alternativa C.",
+        "calculation": "0,0004 s = 0,4 ms."
+      }
+    ],
+    "pitfalls": [
+      "Usar 60 m no lugar de 60 cm.",
+      "Esquecer a raiz quadrada na fórmula da velocidade."
+    ],
+    "takeaway": "Em fios tensos, calcule a velocidade por √(T/μ) e depois use tempo = distância/velocidade."
+  },
+  "cbmerj-2026-cfo-ingles-57": {
+    "topic": "De porcentagem em massa para molaridade",
+    "vocabulary": [
+      "Porcentagem em massa: gramas de soluto em cem gramas de solução.",
+      "Densidade da solução: massa total por volume de solução.",
+      "Molaridade: quantidade de soluto em mol por litro de solução."
+    ],
+    "steps": [
+      {
+        "title": "Escolha um litro de solução",
+        "text": "Trabalhar com um litro torna o resultado final diretamente uma concentração em mol/L. Esse litro tem massa total de 1 150 g pela densidade fornecida."
+      },
+      {
+        "title": "Separe a massa do soluto",
+        "text": "O metanal representa 37% da massa total da solução. Multiplique a massa de um litro por 0,37.",
+        "calculation": "m do metanal = 0,37 × 1 150 = 425,5 g."
+      },
+      {
+        "title": "Calcule a massa molar",
+        "text": "O metanal tem fórmula CH₂O. Usando C = 12, H = 1 e O = 16, obtemos trinta gramas por mol.",
+        "calculation": "M(CH₂O) = 12 + 2 × 1 + 16 = 30 g/mol."
+      },
+      {
+        "title": "Converta a massa em mol",
+        "text": "Divida a massa de metanal pela massa molar. Essa é a quantidade presente no litro escolhido no início.",
+        "calculation": "n = 425,5/30 ≈ 14,18 mol."
+      },
+      {
+        "title": "Expresse a concentração",
+        "text": "Como a base foi um litro de solução, a concentração é aproximadamente 14,2 mol/L. Isso corresponde à alternativa A."
+      }
+    ],
+    "pitfalls": [
+      "Interpretar 37% em massa como 37 g por litro.",
+      "Usar só a massa da água como base da porcentagem."
+    ],
+    "takeaway": "Escolha um litro: densidade dá a massa da solução, porcentagem dá a massa de soluto e massa molar converte para mol."
+  }
+}

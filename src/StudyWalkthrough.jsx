@@ -1,24 +1,25 @@
 import React, { useEffect, useId, useState } from 'react'
-import questions from './lib/walkthroughQuestions.json'
+import { walkthroughQuestions as questions, walkthroughExams, walkthroughSelection } from './lib/walkthroughCatalog'
 import { walkthroughSolutions } from './lib/walkthroughSolutions'
 import { isAnnulledAnswer, isCorrectAnswer } from './lib/examAnswers'
 import { usePageState } from './lib/pageState'
 import './studyWalkthrough.css'
 
-const editions = [...new Set(questions.map(question => question.year))].sort((a,b) => b-a)
-const modules = ['I', 'II', 'III']
 const subjects = ['Matemática', 'Física', 'Química']
 
 function GuidedQuestion({ question }) {
   const solution = walkthroughSolutions[question.id]
+  const exam = walkthroughExams.find(item => item.id === question.exam)
+  const context = `${question.exam === 'pism' ? 'PISM' : exam.label} ${question.year} · ${question.exam === 'pism' ? `Módulo ${question.module}` : question.stageLabel}${question.day ? ` · ${question.day}º dia` : ''}`
   const [chosen, setChosen] = useState(null)
   const [checked, setChecked] = useState(false)
   const id = useId()
   return <article className="walkthrough-question">
-    <p className="eyebrow">Questão real · PISM {question.year} · Módulo {question.module} · {question.day}º dia</p>
+    <p className="eyebrow">Questão real · {context}</p>
     <h3>Questão {question.number} — {solution.topic}</h3>
     <div className={`walkthrough-question-layout ${question.supportImages?.length ? 'has-support' : ''}`}>
     <div className="walkthrough-question-main">
+    {question.support && <p className="walkthrough-statement walkthrough-context">{question.support}</p>}
     <p className="walkthrough-statement">{question.text}</p>
     <fieldset className="walkthrough-options" disabled={checked}>
       <legend>Alternativas</legend>
@@ -34,35 +35,43 @@ function GuidedQuestion({ question }) {
       <p>Acompanhe a resolução completa abaixo, com o motivo de cada etapa.</p>
       <section className="walkthrough-vocabulary"><h4>Palavras que vamos usar</h4><ul>{solution.vocabulary.map(word => <li key={word}>{word}</li>)}</ul></section>
       {solution.steps.map((step,index) => <section className="walkthrough-step" key={step.title}><span className="walkthrough-step-number">Passo {index+1}</span><h4>{step.title}</h4><p>{step.text}</p>{step.calculation && <p className="walkthrough-calculation">{step.calculation}</p>}</section>)}
-      <div className="walkthrough-conclusion"><h4>{isAnnulledAnswer(question.answer) ? 'Questão anulada' : question.answer.includes('/') ? `Respostas aceitas: ${question.answer.split('/').join(' ou ')}` : `Resposta: alternativa ${question.answer}`}</h4><p><strong>O que levar para a próxima questão:</strong> {solution.takeaway}</p><h4>Cuidado com estas armadilhas</h4><ul>{solution.pitfalls.map(pitfall => <li key={pitfall}>{pitfall}</li>)}</ul><p>Resolução didática autoral, conferida com o caderno e o gabarito da UFJF.</p></div>
+      <div className="walkthrough-conclusion"><h4>{isAnnulledAnswer(question.answer) ? 'Questão anulada' : question.answer.includes('/') ? `Respostas aceitas: ${question.answer.split('/').join(' ou ')}` : `Resposta: alternativa ${question.answer}`}</h4><p><strong>O que levar para a próxima questão:</strong> {solution.takeaway}</p><h4>Cuidado com estas armadilhas</h4><ul>{solution.pitfalls.map(pitfall => <li key={pitfall}>{pitfall}</li>)}</ul><p>Resolução didática autoral, com referências ao caderno e ao gabarito de {exam.institution}.</p></div>
     </section>
-    <details className="walkthrough-sources"><summary>Fonte da questão e conferência do gabarito</summary><a href={question.sourceUrl} target="_blank" rel="noopener noreferrer">Caderno original da UFJF ↗</a><a href={question.answerSource} target="_blank" rel="noopener noreferrer">Gabarito oficial usado nesta resolução ↗</a>{question.id === 'pism-2026-i-matematica-12' && <p>Usamos a alteração de gabarito de 09/07/2026: alternativa A.</p>}</details>
+    <details className="walkthrough-sources"><summary>Fonte da questão e conferência do gabarito</summary><a href={question.sourceUrl} target="_blank" rel="noopener noreferrer">Caderno original · {exam.institution} ↗</a><a href={question.answerSource} target="_blank" rel="noopener noreferrer">Gabarito oficial usado nesta resolução ↗</a>{question.id === 'pism-2026-i-matematica-12' && <p>Usamos a alteração de gabarito de 09/07/2026: alternativa A.</p>}</details>
     <p className="walkthrough-local-note">Esta atividade é de aprendizagem: suas tentativas aqui não entram na nota das provas.</p>
   </article>
 }
 
 export default function StudyWalkthrough() {
   const [subject, setSubject] = usePageState('walkthrough.subject', 'Matemática', value => subjects.includes(value))
-  const [year, setYear] = usePageState('walkthrough.year', 2026, value => editions.includes(value))
-  const [module, setModule] = usePageState('walkthrough.module', 'I', value => modules.includes(value))
+  const [year, setYear] = usePageState('walkthrough.year', 2026, value => questions.some(question => question.year === value))
+  const [module, setModule] = usePageState('walkthrough.module', 'I', value => questions.some(question => question.stage === value))
   const [current, setCurrent] = useState(0)
   const [read, setRead] = usePageState('walkthrough.read', [], value => Array.isArray(value) && value.every(id => questions.some(question => question.id === id)))
-  const selected = questions.filter(question => question.subject === subject && question.year === year && question.module === module)
+  const [examId, setExamId] = usePageState('walkthrough.exam', 'pism', value => walkthroughExams.some(exam => exam.id === value))
+  const selection = walkthroughSelection(examId, year, module, subject)
+  const exam = walkthroughExams.find(item => item.id === examId)
+  const selected = selection.questions
   const index = Math.min(current, selected.length-1)
   const question = selected[index]
-  useEffect(() => { setRead(previous => previous.includes(question.id) ? previous : [...previous,question.id]) }, [question.id, setRead])
+  const context = `${examId === 'pism' ? 'PISM' : exam.label} ${selection.year} · ${examId === 'pism' ? `Módulo ${selection.stage}` : selected[0]?.stageLabel}`
+  const changeSelection = (nextExam, nextYear, nextStage, nextSubject) => {
+    const next = walkthroughSelection(nextExam, nextYear, nextStage, nextSubject)
+    setExamId(nextExam); setYear(next.year); setModule(next.stage); setSubject(next.subject); setCurrent(0)
+  }
+  useEffect(() => { if (question) setRead(previous => previous.includes(question.id) ? previous : [...previous,question.id]) }, [question?.id, setRead])
   return <div className="study-walkthrough">
     <div className="study-hub-section"><div><h2>Destrinchando o conteúdo</h2><p>Questões reais, explicadas com calma: entenda as palavras, organize os dados e descubra o motivo de cada passo.</p></div><span>Acesso livre, sem login</span></div>
     <div className="walkthrough-filters">
-      <label className="study-subject-filter">Prova<select value="pism" onChange={() => {}}><option value="pism">PISM — UFJF</option></select></label>
-      <label className="study-subject-filter">Edição<select value={year} onChange={event => { setYear(Number(event.target.value)); setCurrent(0) }}>{editions.map(item => <option key={item} value={item}>{item}</option>)}</select></label>
-      <label className="study-subject-filter">Ano escolar<select value={module} onChange={event => { setModule(event.target.value); setCurrent(0) }}>{modules.map((item,index) => <option key={item} value={item}>{index+1}º ano — Módulo {item}</option>)}</select></label>
-      <label className="study-subject-filter">Matéria<select value={subject} onChange={event => { setSubject(event.target.value); setCurrent(0) }}>{subjects.map(item => <option key={item}>{item}</option>)}</select></label>
+      <label className="study-subject-filter">Prova<select value={examId} onChange={event => changeSelection(event.target.value, selection.year, selection.stage, selection.subject)}>{walkthroughExams.map(item => <option key={item.id} value={item.id}>{item.label}</option>)}</select></label>
+      <label className="study-subject-filter">Edição<select value={selection.year} onChange={event => changeSelection(examId, Number(event.target.value), selection.stage, selection.subject)}>{selection.editions.map(item => <option key={item} value={item}>{item}</option>)}</select></label>
+      <label className="study-subject-filter">{examId === 'pism' ? 'Ano escolar' : 'Etapa / caderno'}<select value={selection.stage} onChange={event => changeSelection(examId, selection.year, event.target.value, selection.subject)}>{selection.stages.map(item => <option key={item.id} value={item.id}>{item.label}</option>)}</select></label>
+      <label className="study-subject-filter">Matéria<select value={selection.subject} onChange={event => changeSelection(examId, selection.year, selection.stage, event.target.value)}>{selection.subjects.map(item => <option key={item}>{item}</option>)}</select></label>
     </div>
-    <p className="walkthrough-coverage">Coleção completa das edições disponíveis no site: 2024, 2025 e 2026, nos três anos escolares. São 135 questões objetivas de Matemática, Física e Química, com 5 por matéria em cada módulo e edição. Questões discursivas não fazem parte desta coleção.</p>
-    <nav className="walkthrough-navigation" aria-label={`Questões de ${subject}, PISM ${year}, módulo ${module}`}>{selected.map((item,i) => <button key={item.id} className={index === i ? 'active' : ''} aria-current={index === i ? 'step' : undefined} onClick={() => setCurrent(i)}>Questão {item.number}{read.includes(item.id) && <span> · Vista</span>}</button>)}</nav>
-    <p className="walkthrough-progress">{index+1} de {selected.length} · PISM {year} · Módulo {module} · {subject} · {selected.filter(item => read.includes(item.id)).length} resoluções consultadas nesta sessão.</p>
-    <GuidedQuestion key={question.id} question={question} />
+    <p className="walkthrough-coverage">{questions.length} questões com resolução completa em {walkthroughExams.length} provas. {examId === 'pism' ? 'PISM: 135 questões das edições 2024, 2025 e 2026, nos três módulos, com 5 por matéria em cada módulo e edição.' : `${exam.label}: seleção comentada de questões objetivas; não abrange o caderno completo.`} Os filtros mostram somente conteúdos já disponíveis. Questões discursivas não fazem parte desta coleção.</p>
+    <nav className="walkthrough-navigation" aria-label={`Questões de ${selection.subject}, ${context}`}>{selected.map((item,i) => <button key={item.id} className={index === i ? 'active' : ''} aria-current={index === i ? 'step' : undefined} onClick={() => setCurrent(i)}>Questão {item.number}{item.day && examId === 'espcex' ? ` · ${item.day}º dia` : ''}{read.includes(item.id) && <span> · Vista</span>}</button>)}</nav>
+    <p className="walkthrough-progress">{index+1} de {selected.length} · {context} · {selection.subject} · {selected.filter(item => read.includes(item.id)).length} resoluções consultadas nesta sessão.</p>
+    {question && <GuidedQuestion key={question.id} question={question} />}
     <div className="walkthrough-pagination"><button className="button secondary" disabled={index===0} onClick={() => setCurrent(index-1)}>Questão anterior</button><button className="button primary" disabled={index===selected.length-1} onClick={() => setCurrent(index+1)}>Próxima questão</button></div>
   </div>
 }
