@@ -47,7 +47,7 @@ for(const year of unespYears) {
     if(q.optionImages) assert.equal(q.optionImages.length,5)
     assert.match(q.sourceUrl,/curso-objetivo\.br.*\.pdf#page=\d+$/)
     for(const path of [...q.supportImage,...(q.optionImages||[])]) {
-      assert.match(path,/^\/(?:provas\/unesp\/figuras\/\d{4}\/[\w-]+|unesp-\d{4}\/tabela-periodica)\.png$/)
+      assert.match(path,/^\/(?:(?:provas\/unesp\/figuras\/\d{4}|unesp-2026-apoios)\/[\w-]+)\.png$/)
       assert.ok(existsSync('public'+path),path);assets.add(path)
       const image=readFileSync('public'+path)
       assert.equal(image.toString('hex',0,8),'89504e470d0a1a0a')
@@ -101,6 +101,10 @@ for(const year of unespYears) {
     assert.equal((html.match(/class="option-letter"/g)||[]).length,5)
     assert.equal((html.match(/class="unicamp-option-figure"/g)||[]).length,q.optionImages?.length||0)
     assert.equal(html.includes('Texto ou imagem de apoio'),Boolean(q.support||q.supportImage.length))
+    assert.deepEqual(
+      [...html.matchAll(/<img class="support-image" src="([^"]+)"/g)].map(match=>match[1]),
+      q.supportImage,
+    )
     if(q.textMarks) assert.ok(html.includes('<u>'))
   }
 }
