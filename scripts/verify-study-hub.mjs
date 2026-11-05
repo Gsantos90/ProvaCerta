@@ -174,6 +174,13 @@ for (const [topicId, lesson] of Object.entries(mathLessons)) {
   assert.ok(markup.includes('Confira o que você aprendeu'))
   assert.ok(markup.includes('math-diagram'))
 }
+for (const topicId of ['urbanizacao', 'clima-energia', 'cartografia', 'populacao-migracoes', 'relevo-hidrografia', 'espaco-agrario']) {
+  const markup = render({ tab: 'summaries' }, null, topicId)
+  assert.ok(markup.includes('Para aprofundar'), topicId)
+  assert.ok(markup.includes('type="range"'), topicId)
+  assert.ok(markup.includes('aria-live="polite"'), topicId)
+  assert.ok(markup.includes('Praticar este assunto'), topicId)
+}
 auth.user = { id: 'student' }
 assert.ok(render({ tab: 'review' }, { owner: 'student', rows, loading: false }).includes('2 erros registrados'))
 assert.ok(!render({ tab: 'review' }, { owner: 'another-user', rows, loading: false }).includes('2 erros registrados'))

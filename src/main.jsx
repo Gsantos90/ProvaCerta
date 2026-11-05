@@ -144,7 +144,7 @@ const catalogCategories = [
     description: 'Provas de concursos públicos.',
     kind: 'concurso',
     exams: [
-      { id: 'prf', name: 'PRF', org: 'POLÍCIA RODOVIÁRIA FEDERAL', short: 'PRF', description: 'Policial Rodoviário Federal', available: true, color: 'navy', roles: ['Policial Rodoviário Federal'] },
+      { id: 'prf', name: 'Polícia Rodoviária Federal', org: 'POLÍCIA RODOVIÁRIA FEDERAL', short: 'PRF', description: 'Policial Rodoviário Federal', available: true, color: 'navy', roles: ['Policial Rodoviário Federal'] },
       { id: 'receita', name: 'Receita Federal', org: 'RECEITA FEDERAL DO BRASIL', short: 'RFB', description: 'Auditor-Fiscal da Receita Federal', available: true, color: 'teal', roles: ['Auditor-Fiscal'] },
       { id: 'tse', name: 'Justiça Eleitoral — TSE', org: 'TRIBUNAL SUPERIOR ELEITORAL', short: 'TSE', description: 'TSE Unificado e seleções anteriores · Técnico Judiciário — Área Administrativa', available: true, color: 'navy', roles: ['Técnico Judiciário — Área Administrativa'] },
       { id: 'ebserh', name: 'EBSERH', org: 'SAÚDE · HOSPITAIS UNIVERSITÁRIOS', short: 'EBSERH', description: 'Concurso para Empresa Brasileira de Serviços Hospitalares', available: true, color: 'teal', roles: ['Farmacêutico'] },
@@ -152,7 +152,7 @@ const catalogCategories = [
       { id: 'esa', name: 'ESA', org: 'EXÉRCITO BRASILEIRO', short: 'ESA', description: 'Escola de Sargentos das Armas', available: true, color: 'olive', roles: ['Geral / Aviação', 'Música', 'Saúde'] },
       { id: 'espcex', name: 'EsPCEx', org: 'EXÉRCITO BRASILEIRO', short: 'EsPCEx', description: 'Escola Preparatória de Cadetes do Exército', available: true, color: 'olive', roles: ['Cadete'] },
       { id: 'cbmerj', name: 'Bombeiro Militar', org: 'CORPO DE BOMBEIROS · RJ', short: 'CBMERJ', description: 'Corpo de Bombeiros Militar do Estado do Rio de Janeiro · CFO', available: true, color: 'crimson', roles: ['Oficial'] },
-      { id: 'pmrj', name: 'PM', org: 'Segurança', short: 'PM', description: 'Polícia Militar do Rio de Janeiro e de São Paulo', available: true, color: 'navy', roles: ['Soldado', 'Oficial'] },
+      { id: 'pmrj', name: 'Polícia Militar', org: 'Segurança', short: 'PM', description: 'Polícia Militar do Rio de Janeiro e de São Paulo', available: true, color: 'navy', roles: ['Soldado', 'Oficial'] },
       { id: 'bb', name: 'Banco do Brasil', org: 'Bancário', short: 'BB', description: 'Concurso do Banco do Brasil', available: false, color: 'gold', roles: ['Escriturário - Agente Comercial', 'Escriturário - Agente de Tecnologia'] },
       { id: 'inss', name: 'INSS', org: 'PREVIDÊNCIA SOCIAL', short: 'INSS', description: 'Concurso do Instituto Nacional do Seguro Social', available: true, color: 'sky', roles: ['Técnico do Seguro Social', 'Analista do Seguro Social'] },
       { id: 'caixa', name: 'Caixa Econômica', org: 'BANCÁRIO', short: 'CAIXA', description: 'Concurso da Caixa Econômica Federal', available: true, color: 'sky', roles: ['Técnico Bancário Novo'] },

@@ -2384,7 +2384,7 @@
     "slug": "cbmerj-2026-cfo-ingles",
     "number": 22,
     "subject": "Matemática",
-    "text": "A produção de bolos de uma confeitaria possui o custo total fixo mensal de R$ 6.000,00. Em\ndeterminado mês, além desse custo, para produzir cada unidade de bolo, foram gastos R$ 40,00\nacrescidos de 9,5% de impostos sobre esse valor. Nesse mês, cada unidade foi vendida por R$ 120,00.\nPara essa produção, a expressão algébrica que representa o lucro L em função da quantidade x\nde unidades vendidas é:",
+    "text": "A produção de bolos de uma confeitaria possui o custo total fixo mensal de R$ 6.000,00. Em determinado mês, além desse custo, para produzir cada unidade de bolo, foram gastos R$ 40,00 acrescidos de 9,5% de impostos sobre esse valor. Nesse mês, cada unidade foi vendida por R$ 120,00.\n\nPara essa produção, a expressão algébrica que representa o lucro L em função da quantidade x de unidades vendidas é:",
     "support": null,
     "options": [
       "L(x) = 76,2x − 6000",
@@ -2406,7 +2406,7 @@
     "slug": "cbmerj-2026-cfo-ingles",
     "number": 23,
     "subject": "Matemática",
-    "text": "Considere o sistema linear a seguir:\n4x + y + Az = 7\n2x − By + z = 5\nx + y + z = 1\nPara que esse sistema seja possível e indeterminado, os valores das constantes A e B são,\nrespectivamente, iguais a:",
+    "text": "Considere o sistema linear a seguir:\n\n4x + y + Az = 7\n2x − By + z = 5\nx + y + z = 1\n\nPara que esse sistema seja possível e indeterminado, os valores das constantes A e B são, respectivamente, iguais a:",
     "support": null,
     "options": [
       "− 1 e 3",
@@ -2450,7 +2450,7 @@
     "slug": "cbmerj-2026-cfo-ingles",
     "number": 26,
     "subject": "Matemática",
-    "text": "Uma loja de eletrodomésticos vende um aparelho de TV por R$ 1.800,00 à vista e, para vendas a\nprazo, cobra juros compostos de 5% ao mês. Um cliente, ao comprar essa TV, optou por fazer o\npagamento em três parcelas, da seguinte forma:\n1ª) R$ 600,00 à vista;\n2ª) R$ 600,00 exatamente dois meses após a compra;\n3ª) x reais exatamente três meses após a compra.\nO valor de x, em reais, é igual a:",
+    "text": "Uma loja de eletrodomésticos vende um aparelho de TV por R$ 1.800,00 à vista e, para vendas a prazo, cobra juros compostos de 5% ao mês. Um cliente, ao comprar essa TV, optou por fazer o pagamento em três parcelas, da seguinte forma:\n\n1ª) R$ 600,00 à vista;\n2ª) R$ 600,00 exatamente dois meses após a compra;\n3ª) x reais exatamente três meses após a compra.\n\nO valor de x, em reais, é igual a:",
     "support": null,
     "options": [
       "759,15",
@@ -2472,7 +2472,7 @@
     "slug": "cbmerj-2026-cfo-ingles",
     "number": 28,
     "subject": "Matemática",
-    "text": "Considere todos os divisores naturais do número n = 2⁵ × 3³.\nO produto de todos esses divisores é:",
+    "text": "Considere todos os divisores naturais do número n = 2⁵ × 3³.\n\nO produto de todos esses divisores é:",
     "support": null,
     "options": [
       "2⁴⁵ × 3³⁰",
@@ -2494,7 +2494,7 @@
     "slug": "cbmerj-2026-cfo-ingles",
     "number": 42,
     "subject": "Física",
-    "text": "De acordo com os postulados da teoria da relatividade especial, de Albert Einstein, dois observadores que possuem movimento relativo entre si observam intervalos de tempo diferentes. Considere um observador P, em repouso na Terra, e um observador N, deslocando-se em uma nave. A relação entre os intervalos de tempo marcados pelos dois observadores é Δt = Δt′/√(1 − v²/c²), sendo Δt o intervalo medido por P, Δt′ o intervalo medido por N, v a velocidade relativa entre os referenciais e c a velocidade da luz no vácuo. Sabe-se que Δt > Δt′. Admita que N realiza uma viagem com velocidade v = 0,75c, sendo Δt′ = 6,6 horas. Nessas condições, o intervalo de tempo Δt dessa viagem, em horas, medido por P, corresponde, aproximadamente, a:",
+    "text": "De acordo com os postulados da teoria da relatividade especial, de Albert Einstein, dois observadores que possuem movimento relativo entre si observam intervalos de tempo diferentes.\n\nConsidere um observador P, em repouso na Terra, e um observador N, deslocando-se em uma nave. A relação entre os intervalos de tempo marcados pelos dois observadores é Δt = Δt′/√(1 − v²/c²), sendo Δt o intervalo medido por P, Δt′ o intervalo medido por N, v a velocidade relativa entre os referenciais e c a velocidade da luz no vácuo. Sabe-se que Δt > Δt′.\n\nAdmita que N realiza uma viagem com velocidade v = 0,75c, sendo Δt′ = 6,6 horas.\n\nNessas condições, o intervalo de tempo Δt dessa viagem, em horas, medido por P, corresponde, aproximadamente, a:",
     "support": null,
     "options": [
       "8",
@@ -2516,7 +2516,7 @@
     "slug": "cbmerj-2026-cfo-ingles",
     "number": 43,
     "subject": "Física",
-    "text": "Em algumas rodovias brasileiras, existem áreas de escape, recurso de segurança que permite a\nveículos com problemas de frenagem parar sem causar acidentes, conforme ilustra a imagem.\nbr.images.search.yahoo.com\nConsidere que o motorista de um caminhão, com massa total de 12 toneladas e velocidade de\n86,4 km/h, está com problemas de frenagem e entra em uma área de escape com desaceleração\nde 7,2 m/s².\nO módulo do trabalho realizado pela força resultante, em megajoules, até o caminhão parar,\ncorresponde a cerca de:",
+    "text": "Em algumas rodovias brasileiras, existem áreas de escape, recurso de segurança que permite a veículos com problemas de frenagem parar sem causar acidentes, conforme ilustra a imagem.\n\nbr.images.search.yahoo.com\n\nConsidere que o motorista de um caminhão, com massa total de 12 toneladas e velocidade de 86,4 km/h, está com problemas de frenagem e entra em uma área de escape com desaceleração de 7,2 m/s².\n\nO módulo do trabalho realizado pela força resultante, em megajoules, até o caminhão parar, corresponde a cerca de:",
     "support": null,
     "options": [
       "3,5",
@@ -2540,7 +2540,7 @@
     "slug": "cbmerj-2026-cfo-ingles",
     "number": 46,
     "subject": "Física",
-    "text": "Na saída de um quartel do Corpo de Bombeiros, existe, por medida de segurança, um espelho\nesférico convexo cujo raio de curvatura apresenta valor, em módulo, de 60 cm. Considere que,\nao sair do quartel em uma viatura, um bombeiro observa um veículo parado, localizado a 7 m\ndo vértice do espelho.\nNessas condições, a medida do módulo da distância, em centímetros, da imagem do veículo\nem relação ao vértice do espelho é, aproximadamente, de:",
+    "text": "Na saída de um quartel do Corpo de Bombeiros, existe, por medida de segurança, um espelho esférico convexo cujo raio de curvatura apresenta valor, em módulo, de 60 cm. Considere que, ao sair do quartel em uma viatura, um bombeiro observa um veículo parado, localizado a 7 m do vértice do espelho.\n\nNessas condições, a medida do módulo da distância, em centímetros, da imagem do veículo em relação ao vértice do espelho é, aproximadamente, de:",
     "support": null,
     "options": [
       "29",
@@ -2562,7 +2562,7 @@
     "slug": "cbmerj-2026-cfo-ingles",
     "number": 47,
     "subject": "Física",
-    "text": "Nas teias de aranha, ocorrem vibrações mecânicas que se propagam por seus fios de seda,\npermitindo que aranhas cacem suas presas. Considere os seguintes dados para uma situação em\nque um pequeno inseto colide contra uma teia:\n• distância entre a aranha e o pequeno inseto na teia = 60 cm;\n• tensão mecânica igualmente distribuída em todos os fios da teia = 9 x 10⁻³ N;\n• densidade linear de cada fio = 4 x 10⁻⁹ kg/m;\n• tempo desprezível de reação da aranha.\nO intervalo de tempo decorrido, em milissegundos, para que o pulso propagado pela colisão do\ninseto na teia seja percebido pela aranha, é igual a:",
+    "text": "Nas teias de aranha, ocorrem vibrações mecânicas que se propagam por seus fios de seda, permitindo que aranhas cacem suas presas. Considere os seguintes dados para uma situação em que um pequeno inseto colide contra uma teia:\n\n• distância entre a aranha e o pequeno inseto na teia = 60 cm;\n• tensão mecânica igualmente distribuída em todos os fios da teia = 9 x 10⁻³ N;\n• densidade linear de cada fio = 4 x 10⁻⁹ kg/m;\n• tempo desprezível de reação da aranha.\n\nO intervalo de tempo decorrido, em milissegundos, para que o pulso propagado pela colisão do inseto na teia seja percebido pela aranha, é igual a:",
     "support": null,
     "options": [
       "0,1",
@@ -2584,7 +2584,7 @@
     "slug": "cbmerj-2026-cfo-ingles",
     "number": 50,
     "subject": "Física",
-    "text": "Para determinar a aceleração de um elevador, fixou-se em seu teto uma mola ideal, conectada a\numa massa. Na mola, com o elevador em repouso, mediu-se uma elongação de 5 cm; já com o\nelevador em movimento ascendente e acelerado, a elongação era de 6 cm.\nAdmitindo que a massa seja de 100 g, a aceleração do elevador, em m/s², é de:",
+    "text": "Para determinar a aceleração de um elevador, fixou-se em seu teto uma mola ideal, conectada a uma massa. Na mola, com o elevador em repouso, mediu-se uma elongação de 5 cm; já com o elevador em movimento ascendente e acelerado, a elongação era de 6 cm.\n\nAdmitindo que a massa seja de 100 g, a aceleração do elevador, em m/s², é de:",
     "support": null,
     "options": [
       "0,5",
@@ -2606,7 +2606,7 @@
     "slug": "cbmerj-2026-cfo-ingles",
     "number": 52,
     "subject": "Química",
-    "text": "Considere um tipo de detector de fumaça que utiliza uma câmara de ionização com uma pequena\nfonte radioativa de amerício-241. Essa fonte emite radiação do tipo alfa, que ioniza o ar, permitindo\na condução de corrente elétrica. Quando a fumaça entra na câmara, partículas em suspensão\nbloqueiam parte dessa ionização, interrompendo a corrente e acionando o alarme.\nNesse contexto, no decaimento do ²⁴¹Am, forma-se o seguinte radioisótopo:",
+    "text": "Considere um tipo de detector de fumaça que utiliza uma câmara de ionização com uma pequena fonte radioativa de amerício-241. Essa fonte emite radiação do tipo alfa, que ioniza o ar, permitindo a condução de corrente elétrica. Quando a fumaça entra na câmara, partículas em suspensão bloqueiam parte dessa ionização, interrompendo a corrente e acionando o alarme.\n\nNesse contexto, no decaimento do ²⁴¹Am, forma-se o seguinte radioisótopo:",
     "support": null,
     "options": [
       "²³⁷Np",
@@ -2630,7 +2630,7 @@
     "slug": "cbmerj-2026-cfo-ingles",
     "number": 53,
     "subject": "Química",
-    "text": "Em capacetes de bombeiros, uma combinação de fibras resistentes e matriz plástica, dentre\noutros materiais, forma uma estrutura leve, forte e resistente ao calor. Admita que, em uma\ndessas fibras, estão presentes os óxidos CaO, MgO, Na₂O e SiO₂, que foram, separadamente,\ncolocados em contato com solução aquosa concentrada de KOH. Observe a variação do pH de\num dos quatro óxidos na presença dessa solução:\npH\nquantidade de óxido adicionado (mol)\nNo gráfico, está representado o comportamento do seguinte óxido:",
+    "text": "Em capacetes de bombeiros, uma combinação de fibras resistentes e matriz plástica, dentre outros materiais, forma uma estrutura leve, forte e resistente ao calor. Admita que, em uma dessas fibras, estão presentes os óxidos CaO, MgO, Na₂O e SiO₂, que foram, separadamente, colocados em contato com solução aquosa concentrada de KOH.\n\nObserve a variação do pH de um dos quatro óxidos na presença dessa solução:\n\npH quantidade de óxido adicionado (mol)\n\nNo gráfico, está representado o comportamento do seguinte óxido:",
     "support": null,
     "options": [
       "CaO",
@@ -2655,7 +2655,7 @@
     "slug": "cbmerj-2026-cfo-ingles",
     "number": 55,
     "subject": "Química",
-    "text": "Durante a investigação de um incêndio em um armazém químico, uma equipe do Corpo de\nBombeiros encontrou dois frascos intactos, um contendo o líquido A e outro contendo o líquido B.\nApós a realização de quatro testes, identificaram-se as seguintes características comuns de A e B:\nsão isômeros funcionais, solúveis em água, possuem cadeia carbônica saturada e fórmula C₃H₆O.\nUm quinto teste, utilizando solução aquosa de KMnO₄ em meio ácido, revelou que apenas o\nlíquido B sofre oxidação.\nO líquido B é denominado:",
+    "text": "Durante a investigação de um incêndio em um armazém químico, uma equipe do Corpo de Bombeiros encontrou dois frascos intactos, um contendo o líquido A e outro contendo o líquido B.\n\nApós a realização de quatro testes, identificaram-se as seguintes características comuns de A e B: são isômeros funcionais, solúveis em água, possuem cadeia carbônica saturada e fórmula C₃H₆O.\n\nUm quinto teste, utilizando solução aquosa de KMnO₄ em meio ácido, revelou que apenas o líquido B sofre oxidação.\n\nO líquido B é denominado:",
     "support": null,
     "options": [
       "propanal",
@@ -2679,7 +2679,7 @@
     "slug": "cbmerj-2026-cfo-ingles",
     "number": 57,
     "subject": "Química",
-    "text": "Uma solução aquosa de metanal, substância tóxica de aplicação medicinal e industrial, apresenta\nconcentração percentual em massa de 37% e densidade de 1150 g/L.\nA concentração dessa solução, em mol/L, corresponde, aproximadamente, a:",
+    "text": "Uma solução aquosa de metanal, substância tóxica de aplicação medicinal e industrial, apresenta concentração percentual em massa de 37% e densidade de 1150 g/L.\n\nA concentração dessa solução, em mol/L, corresponde, aproximadamente, a:",
     "support": null,
     "options": [
       "14,2",
@@ -2703,7 +2703,7 @@
     "slug": "cbmerj-2026-cfo-ingles",
     "number": 58,
     "subject": "Química",
-    "text": "Em um processo metalúrgico, obteve-se zinco metálico a partir de 487,5 kg de um minério.\nSabe-se que essa massa contém 80% de sulfeto de zinco. Observe a sequência de reações\nquímicas envolvidas nesse processo:\n2 ZnS(s) + 3 O₂(g) → 2 ZnO(s) + 2 SO₂(g)\nZnO(s) + CO(g) → Zn(s) + CO₂(g)\nAdmitindo rendimento de 100% nas reações descritas, a massa de zinco metálico obtida, em\nquilogramas, corresponde a:",
+    "text": "Em um processo metalúrgico, obteve-se zinco metálico a partir de 487,5 kg de um minério. Sabe-se que essa massa contém 80% de sulfeto de zinco.\n\nObserve a sequência de reações químicas envolvidas nesse processo:\n\n2 ZnS(s) + 3 O₂(g) → 2 ZnO(s) + 2 SO₂(g)\nZnO(s) + CO(g) → Zn(s) + CO₂(g)\n\nAdmitindo rendimento de 100% nas reações descritas, a massa de zinco metálico obtida, em quilogramas, corresponde a:",
     "support": null,
     "options": [
       "131",
@@ -2870,7 +2870,7 @@
     "slug": "espcex-2026-dia-2",
     "number": 8,
     "subject": "Matemática",
-    "text": "Sejam a, b, c e d as raízes da equação:\nx⁴ – 15x³ + 20x² + 240x – 576 = 0\nSabendo que a + b = 0, o algarismo das unidades da maior\nraiz dessa equação é",
+    "text": "Sejam a, b, c e d as raízes da equação:\n\nx⁴ – 15x³ + 20x² + 240x – 576 = 0\n\nSabendo que a + b = 0, o algarismo das unidades da maior raiz dessa equação é",
     "support": null,
     "options": [
       "1.",
@@ -2894,7 +2894,7 @@
     "slug": "espcex-2026-dia-2",
     "number": 12,
     "subject": "Matemática",
-    "text": "O cuboctaedro truncado é um poliedro convexo formado por\n26 faces, algumas octógonos regulares, algumas hexágonos\nregulares e as demais quadrados, sendo o número de faces\nquadradas igual ao dobro do número de faces octogonais.\nSe em cada vértice do cuboctaedro concorrem 3 arestas, o\nnúmero de faces hexagonais desse poliedro é igual a",
+    "text": "O cuboctaedro truncado é um poliedro convexo formado por 26 faces, algumas octógonos regulares, algumas hexágonos regulares e as demais quadrados, sendo o número de faces quadradas igual ao dobro do número de faces octogonais.\n\nSe em cada vértice do cuboctaedro concorrem 3 arestas, o número de faces hexagonais desse poliedro é igual a",
     "support": null,
     "options": [
       "6.",
@@ -2942,7 +2942,7 @@
     "slug": "espcex-2026-dia-2",
     "number": 19,
     "subject": "Matemática",
-    "text": "Um cilindro B tem 7 cm de altura e a área de sua base mede o\ndobro da área da base de um cilindro A de altura 8 cm. Sabendo que o volume do cilindro B excede o volume do cilindro A\nem 432π cm³, a área da base do cilindro B é igual",
+    "text": "Um cilindro B tem 7 cm de altura e a área de sua base mede o dobro da área da base de um cilindro A de altura 8 cm.\n\nSabendo que o volume do cilindro B excede o volume do cilindro A em 432π cm³, a área da base do cilindro B é igual",
     "support": null,
     "options": [
       "121π cm².",
@@ -2966,7 +2966,7 @@
     "slug": "espcex-2026-dia-1",
     "number": 22,
     "subject": "Física",
-    "text": "Na tarefa de flexão de braços sobre o solo, uma candidata atingiu o índice mínimo de repetições em um intervalo\nde tempo de 50 s, mantendo um ritmo constante durante a\nexecução dessa tarefa. Nessas condições, as flexões foram\nrealizadas com uma frequência aproximada de",
+    "text": "Na tarefa de flexão de braços sobre o solo, uma candidata atingiu o índice mínimo de repetições em um intervalo de tempo de 50 s, mantendo um ritmo constante durante a execução dessa tarefa.\n\nNessas condições, as flexões foram realizadas com uma frequência aproximada de",
     "support": "Leia o texto para responder às questões 21 e 22.\nNa página oficial da Escola Preparatória de Cadetes do Exército, constam as seguintes informações a respeito das tarefas\ndo exame de aptidão física realizado por candidatos a ingressar nessa escola, com os índices mínimos a serem atingidos\nem cada tarefa.\n(https://espcex.eb.mil.br. Adaptado.)",
     "options": [
       "0,33 Hz.",
@@ -2992,7 +2992,7 @@
     "slug": "espcex-2026-dia-1",
     "number": 23,
     "subject": "Física",
-    "text": "Um canhão de brinquedo fixo no solo utiliza uma mola ideal para lançar verticalmente uma esfera de borracha, inicialmente em repouso dentro do canhão e encostada na mola comprimida e travada.\nDesprezando os atritos e a resistência do ar, quando a mola for liberada, a altura máxima (hₘáₓ) atingida pela esfera dependerá, apenas,",
+    "text": "Um canhão de brinquedo fixo no solo utiliza uma mola ideal para lançar verticalmente uma esfera de borracha, inicialmente em repouso dentro do canhão e encostada na mola comprimida e travada.\n\nDesprezando os atritos e a resistência do ar, quando a mola for liberada, a altura máxima (hₘáₓ) atingida pela esfera dependerá, apenas,",
     "support": null,
     "options": [
       "da massa da esfera, da resistência da mola à deformação e da aceleração da gravidade local.",
@@ -3018,7 +3018,7 @@
     "slug": "espcex-2026-dia-1",
     "number": 24,
     "subject": "Física",
-    "text": "A escolha da órbita de um satélite artificial pelas agências\nespaciais é fundamental para a missão à qual ele se destina\ne depende de fatores como a área da superfície da Terra\nque se pretende cobrir e a resolução pretendida das imagens obtidas pelo satélite. Considere um satélite artificial\nque esteja em órbita circular com velocidade escalar constante em torno da Terra, em uma altitude h. Sendo M e R a\nmassa e o raio da Terra, respectivamente, e G a constante\nuniversal da gravitação, a expressão que determina o período de revolução T desse satélite em torno da Terra é:",
+    "text": "A escolha da órbita de um satélite artificial pelas agências espaciais é fundamental para a missão à qual ele se destina e depende de fatores como a área da superfície da Terra que se pretende cobrir e a resolução pretendida das imagens obtidas pelo satélite.\n\nConsidere um satélite artificial que esteja em órbita circular com velocidade escalar constante em torno da Terra, em uma altitude h.\n\nSendo M e R a massa e o raio da Terra, respectivamente, e G a constante universal da gravitação, a expressão que determina o período de revolução T desse satélite em torno da Terra é:",
     "support": null,
     "options": [
       "T = π · √(R³/(G · M))",
@@ -3042,7 +3042,7 @@
     "slug": "espcex-2026-dia-1",
     "number": 30,
     "subject": "Física",
-    "text": "Na técnica de pintura eletrostática de viaturas, as partículas da tinta em pó, inicialmente neutras, adquirem carga elétrica negativa ao passarem por uma pistola de pulverização. Eletrizadas, essas partículas de tinta são atraídas pela peça a ser pintada, que se encontrava eletricamente neutra ou que estava eletrizada com cargas de sinal positivo. Após a aplicação da tinta, a peça pintada é colocada em um forno onde o pó derrete e forma uma película resistente, uniforme e durável.\nNessa técnica, as partículas da tinta em pó, ao serem pulverizadas, adquirem carga elétrica negativa porque ______, e a atração entre essas partículas e a peça a ser pintada é descrita pela lei de ______. Se a peça estiver eletricamente neutra, a atração pode ser explicada pela ______ induzida na superfície a ser pintada, que provoca a separação de cargas nessa superfície.\nAs lacunas do texto são preenchidas, respectivamente, por:",
+    "text": "Na técnica de pintura eletrostática de viaturas, as partículas da tinta em pó, inicialmente neutras, adquirem carga elétrica negativa ao passarem por uma pistola de pulverização. Eletrizadas, essas partículas de tinta são atraídas pela peça a ser pintada, que se encontrava eletricamente neutra ou que estava eletrizada com cargas de sinal positivo. Após a aplicação da tinta, a peça pintada é colocada em um forno onde o pó derrete e forma uma película resistente, uniforme e durável.\n\nNessa técnica, as partículas da tinta em pó, ao serem pulverizadas, adquirem carga elétrica negativa porque ______, e a atração entre essas partículas e a peça a ser pintada é descrita pela lei de ______. Se a peça estiver eletricamente neutra, a atração pode ser explicada pela ______ induzida na superfície a ser pintada, que provoca a separação de cargas nessa superfície.\n\nAs lacunas do texto são preenchidas, respectivamente, por:",
     "support": null,
     "options": [
       "perdem prótons – Coulomb – magnetização.",
@@ -3066,7 +3066,7 @@
     "slug": "espcex-2026-dia-1",
     "number": 32,
     "subject": "Física",
-    "text": "Uma bateria B₁, de força eletromotriz constante ε₁ = 12 V e resistência interna r₁, é percorrida por uma corrente de intensidade i₁ e é utilizada para carregar outra bateria, B₂, descarregada, de força eletromotriz ε₂, também constante, e resistência interna r₂ = 1 Ω, percorrida por uma corrente de intensidade i₂ = 1,5 A. A mesma bateria B₁ também é utilizada para manter acesa uma lâmpada L de resistência R_L = 20 Ω, que é percorrida por uma corrente i_L = 0,5 A. A figura mostra o circuito elétrico que representa a situação descrita.\nDesprezando as resistências dos fios e das conexões utilizadas, os valores de ε₂ e de r₁ são, respectivamente,",
+    "text": "Uma bateria B₁, de força eletromotriz constante ε₁ = 12 V e resistência interna r₁, é percorrida por uma corrente de intensidade i₁ e é utilizada para carregar outra bateria, B₂, descarregada, de força eletromotriz ε₂, também constante, e resistência interna r₂ = 1 Ω, percorrida por uma corrente de intensidade i₂ = 1,5 A. A mesma bateria B₁ também é utilizada para manter acesa uma lâmpada L de resistência R_L = 20 Ω, que é percorrida por uma corrente i_L = 0,5 A. A figura mostra o circuito elétrico que representa a situação descrita.\n\nDesprezando as resistências dos fios e das conexões utilizadas, os valores de ε₂ e de r₁ são, respectivamente,",
     "support": null,
     "options": [
       "8,5 V e 2,0 Ω.",
@@ -3092,7 +3092,7 @@
     "slug": "espcex-2026-dia-1",
     "number": 34,
     "subject": "Química",
-    "text": "Elementos de terras-raras (ETR) são considerados ativos estratégicos na defesa nacional, pois são utilizados em equipamentos de alta tecnologia e precisão, como radares, sensores, mísseis guiados e drones. Os ímãs de neodímio (₆₀Nd), atualmente os mais fortes fabricados pelo homem, são empregados em motores silenciosos e em controles eletrônicos. O forte poder magnético dos ímãs de neodímio deve-se ao grande número de elétrons desemparelhados em sua estrutura eletrônica. Considere a regra de Hund, que determina que, ao preencher orbitais de mesma energia, os elétrons devem ocupar orbitais individualmente antes de formarem pares. Nessas condições, um átomo de neodímio, com distribuição eletrônica [Xe] 6s² 4f⁴, apresenta",
+    "text": "Elementos de terras-raras (ETR) são considerados ativos estratégicos na defesa nacional, pois são utilizados em equipamentos de alta tecnologia e precisão, como radares, sensores, mísseis guiados e drones. Os ímãs de neodímio (₆₀Nd), atualmente os mais fortes fabricados pelo homem, são empregados em motores silenciosos e em controles eletrônicos. O forte poder magnético dos ímãs de neodímio deve-se ao grande número de elétrons desemparelhados em sua estrutura eletrônica.\n\nConsidere a regra de Hund, que determina que, ao preencher orbitais de mesma energia, os elétrons devem ocupar orbitais individualmente antes de formarem pares.\n\nNessas condições, um átomo de neodímio, com distribuição eletrônica [Xe] 6s² 4f⁴, apresenta",
     "support": null,
     "options": [
       "6 elétrons desemparelhados, todos com spins paralelos.",
@@ -3116,7 +3116,7 @@
     "slug": "espcex-2026-dia-1",
     "number": 36,
     "subject": "Química",
-    "text": "Um agricultor necessita preparar 500 litros de uma solução nutritiva de nitrato de cálcio, Ca(NO₃)₂, contendo 6 × 10⁻² mol/L de íons NO₃⁻. Para se obter a concentração de íons NO₃⁻ desejada, a massa de Ca(NO₃)₂ (M = 164 g/mol), em quilogramas, que deve ser dissolvida em água suficiente para a preparação de 500 L de solução é igual a",
+    "text": "Um agricultor necessita preparar 500 litros de uma solução nutritiva de nitrato de cálcio, Ca(NO₃)₂, contendo 6 × 10⁻² mol/L de íons NO₃⁻.\n\nPara se obter a concentração de íons NO₃⁻ desejada, a massa de Ca(NO₃)₂ (M = 164 g/mol), em quilogramas, que deve ser dissolvida em água suficiente para a preparação de 500 L de solução é igual a",
     "support": null,
     "options": [
       "4,92.",
@@ -3140,7 +3140,7 @@
     "slug": "espcex-2026-dia-1",
     "number": 39,
     "subject": "Química",
-    "text": "A combustão completa de 2,3 g de um composto orgânico oxigenado produziu 4,4 g de dióxido de carbono,\nCO₂ (M = 44 g/mol) e 2,7 g de água, H₂O (M = 18 g/mol),\nalém de 68,4 kJ de energia. O número de carbonos existentes na fórmula mínima do composto orgânico e sua entalpia\nmolar de combustão, em kJ/mol, são, respectivamente,",
+    "text": "A combustão completa de 2,3 g de um composto orgânico oxigenado produziu 4,4 g de dióxido de carbono, CO₂ (M = 44 g/mol) e 2,7 g de água, H₂O (M = 18 g/mol), além de 68,4 kJ de energia.\n\nO número de carbonos existentes na fórmula mínima do composto orgânico e sua entalpia molar de combustão, em kJ/mol, são, respectivamente,",
     "support": null,
     "options": [
       "4 e –1 368.",
@@ -3164,7 +3164,7 @@
     "slug": "espcex-2026-dia-1",
     "number": 40,
     "subject": "Química",
-    "text": "Vegetais conseguem converter nitratos (NO₃⁻) em amônia (NH₃) por meio de processos metabólicos que utilizam a energia proveniente da radiação eletromagnética da luz solar no processo natural da fotossíntese. A semirreação que converte nitratos em amônia em meio ácido, envolvida na fotossíntese, é representada pela equação:\nNO₃⁻ + 9H⁺ + xe⁻ → NH₃ + 3H₂O\nA mesma reação pode ser empregada na remoção do nitrato por meio de sua transformação em amônia em uma célula eletrolítica. Quando a energia elétrica necessária à eletrólise é proveniente de fontes renováveis, como usinas solares ou eólicas, essa técnica constitui um método sustentável para a remoção desse poluente.\nNo processo eletrolítico de transformação do nitrato em amônia, essa reação ocorre no ______ da célula eletrolítica e, nesse processo eletrolítico, são transferidos ______ elétrons na transformação do nitrato em amônia.\nAs lacunas do texto são preenchidas, respectivamente, por",
+    "text": "Vegetais conseguem converter nitratos (NO₃⁻) em amônia (NH₃) por meio de processos metabólicos que utilizam a energia proveniente da radiação eletromagnética da luz solar no processo natural da fotossíntese. A semirreação que converte nitratos em amônia em meio ácido, envolvida na fotossíntese, é representada pela equação:\n\nNO₃⁻ + 9H⁺ + xe⁻ → NH₃ + 3H₂O\n\nA mesma reação pode ser empregada na remoção do nitrato por meio de sua transformação em amônia em uma célula eletrolítica. Quando a energia elétrica necessária à eletrólise é proveniente de fontes renováveis, como usinas solares ou eólicas, essa técnica constitui um método sustentável para a remoção desse poluente.\n\nNo processo eletrolítico de transformação do nitrato em amônia, essa reação ocorre no ______ da célula eletrolítica e, nesse processo eletrolítico, são transferidos ______ elétrons na transformação do nitrato em amônia.\n\nAs lacunas do texto são preenchidas, respectivamente, por",
     "support": null,
     "options": [
       "cátodo e 8.",
@@ -3188,7 +3188,7 @@
     "slug": "espcex-2026-dia-1",
     "number": 41,
     "subject": "Química",
-    "text": "A ingestão de refrigerantes durante refeições pode alterar\ntemporariamente a concentração de íons H+ no estômago.\nEm geral, o suco gástrico apresenta pH igual a 1, e um refrigerante do tipo cola apresenta pH igual a 3. Se um indivíduo\nque tem 30 mL de suco gástrico no estômago ingerir 270 mL\nde refrigerante do tipo cola, a concentração de íons H+ em\nseu estômago, em mol/L, será de, aproximadamente,",
+    "text": "A ingestão de refrigerantes durante refeições pode alterar temporariamente a concentração de íons H+ no estômago.\n\nEm geral, o suco gástrico apresenta pH igual a 1, e um refrigerante do tipo cola apresenta pH igual a 3.\n\nSe um indivíduo que tem 30 mL de suco gástrico no estômago ingerir 270 mL de refrigerante do tipo cola, a concentração de íons H+ em seu estômago, em mol/L, será de, aproximadamente,",
     "support": null,
     "options": [
       "0,03.",

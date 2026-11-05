@@ -229,6 +229,54 @@ const additionalSummaries = [
     commonMistake: 'Não confunda efeito estufa com destruição da camada de ozônio, nem matriz energética com matriz elétrica. Um dia frio não refuta uma tendência climática de longo prazo.',
     checklist: ['Diferencie tempo e clima.', 'Identifique a fonte de energia e a escala do impacto.', 'Compare benefícios e consequências sociais e ambientais.'],
   },
+  {
+    id: 'cartografia', title: 'Cartografia, escalas e coordenadas', subject: 'Geografia',
+    intro: 'Mapas representam o espaço por meio de uma escala, uma projeção e uma legenda. A leitura desses elementos ajuda a localizar pontos e comparar distâncias e áreas.',
+    concepts: [
+      ['Escala cartográfica', 'Em 1:50.000, cada unidade no mapa equivale a 50.000 unidades no terreno. Quanto menor o denominador, maior é a escala e mais detalhes cabem na representação de uma mesma feição.'],
+      ['Latitude e longitude', 'A latitude é medida a partir do Equador em direção ao norte ou ao sul. A longitude é medida a partir do meridiano de Greenwich em direção ao leste ou ao oeste.'],
+      ['Projeções', 'Transferir a superfície curva da Terra para um plano causa distorções. Projeções equivalentes preservam proporções de áreas, enquanto projeções conformes preservam ângulos localmente.'],
+    ],
+    example: 'Em um mapa de escala 1:50.000, dois pontos separados por 4 cm estão a 200.000 cm no terreno, ou 2 km em linha reta.',
+    commonMistake: 'Ao comparar escalas numéricas, lembre que 1:25.000 é uma fração maior que 1:100.000. Confira também se as unidades são iguais antes de calcular.',
+    checklist: ['Leia a escala e a legenda.', 'Converta as medidas para a mesma unidade.', 'Identifique o que a projeção preserva.'],
+  },
+  {
+    id: 'populacao-migracoes', title: 'População e migrações', subject: 'Geografia',
+    intro: 'A população de um território muda com nascimentos, mortes e deslocamentos. Mapas, pirâmides etárias e taxas revelam aspectos diferentes dessa dinâmica.',
+    concepts: [
+      ['Densidade demográfica', 'Divida a população pela área para obter a densidade média, em habitantes por quilômetro quadrado. Essa média pode esconder concentrações nas cidades e áreas pouco povoadas.'],
+      ['Estrutura etária', 'A pirâmide etária distribui a população por idade e sexo. Uma base relativamente estreita pode indicar redução dos nascimentos em comparação com gerações anteriores.'],
+      ['Crescimento e mobilidade', 'O crescimento natural corresponde a nascimentos menos mortes. O saldo migratório corresponde a entradas menos saídas. Os dois componentes ajudam a explicar a variação populacional.'],
+    ],
+    example: 'Em um ano, um município registra 900 nascimentos, 600 mortes, 400 chegadas e 800 saídas. O crescimento natural é de 300 pessoas e o saldo migratório é de −400. O município perde 100 habitantes.',
+    commonMistake: 'Considere o território de referência ao classificar um deslocamento. A mesma pessoa é emigrante para o local de saída e imigrante para o local de chegada.',
+    checklist: ['Confira o período e o território de referência.', 'Separe crescimento natural de saldo migratório.', 'Distinga população total de densidade demográfica.'],
+  },
+  {
+    id: 'relevo-hidrografia', title: 'Relevo, solos e bacias hidrográficas', subject: 'Geografia',
+    intro: 'O relevo orienta o escoamento da água, e a cobertura do solo influencia quanto infiltra e quanto escoa. Esses processos ajudam a entender a formação da paisagem e os riscos ambientais.',
+    concepts: [
+      ['Intemperismo e erosão', 'O intemperismo altera ou fragmenta rochas no local. A erosão remove e transporta materiais. A deposição ocorre quando o agente de transporte perde capacidade de carregá-los.'],
+      ['Bacia hidrográfica', 'A bacia é a área que drena água para um ponto de saída comum. Divisores de águas separam bacias vizinhas. Os afluentes deságuam em outros cursos de água.'],
+      ['Uso do solo e água', 'A impermeabilização tende a reduzir a infiltração e acelerar o escoamento superficial. Em encostas, a retirada da vegetação pode favorecer a erosão.'],
+    ],
+    example: 'Após a pavimentação de um bairro, parte da chuva que antes infiltrava chega mais depressa ao córrego. Se a drenagem for insuficiente, aumenta o risco de alagamento.',
+    commonMistake: 'O limite de uma bacia acompanha o relevo. Para identificá-lo, observe os divisores de águas em vez de seguir divisas municipais.',
+    checklist: ['Distinga alteração, transporte e deposição.', 'Identifique a direção do escoamento.', 'Relacione cobertura do solo, infiltração e erosão.'],
+  },
+  {
+    id: 'espaco-agrario', title: 'Espaço agrário brasileiro', subject: 'Geografia',
+    intro: 'A organização do campo envolve a distribuição da terra, as formas de trabalho, as técnicas de produção e as conexões entre áreas rurais, cidades e mercados.',
+    concepts: [
+      ['Estrutura fundiária', 'A estrutura fundiária descreve como a terra está distribuída entre estabelecimentos. Há concentração quando uma parcela pequena dos estabelecimentos ocupa uma parcela grande da área.'],
+      ['Produção e produtividade', 'Produção é a quantidade total obtida. Produtividade por área mede quanto se produz por hectare. Melhorias técnicas podem aumentar a produtividade mesmo com a área cultivada constante.'],
+      ['Cadeias produtivas e impactos', 'Uma cadeia agrícola inclui insumos, cultivo, transporte, processamento e comercialização. Os efeitos ambientais variam conforme o manejo, a localização e a expansão da área cultivada.'],
+    ],
+    example: 'Uma fazenda passa de 400 para 500 toneladas de grãos mantendo 100 hectares cultivados. A produção aumenta, e a produtividade sobe de 4 para 5 toneladas por hectare.',
+    commonMistake: 'Um aumento da produção pode vir do cultivo de uma área maior. Compare a produção por hectare antes de concluir que houve ganho de produtividade.',
+    checklist: ['Verifique se o dado trata de área, produção ou produtividade.', 'Observe a distribuição da terra.', 'Relacione o cultivo ao processamento e aos mercados.'],
+  },
 ]
 
 // Uma única entrada por assunto, mantendo as referências de prática e o resumo completo.

@@ -1,6 +1,94 @@
 // Questões complementares: a primeira alternativa de cada linha é a correta.
 // O comentário explica o conceito avaliado, independentemente da posição sorteada.
 const rows = {
+  cartografia: `
+Em um mapa de escala 1:100.000, uma estrada retilínea mede 3 cm. Qual é seu comprimento real?|3 km|300 m|30 km|Cada centímetro corresponde a 1 km no terreno.
+Qual escala permite representar com mais detalhes os quarteirões de um bairro?|1:5.000|1:50.000|1:500.000|A escala 1:5.000 é a maior das três e representa uma distância real menor por centímetro.
+Que coordenada indica se um ponto está ao norte ou ao sul do Equador?|Latitude|Longitude|Altitude|Os paralelos indicam a latitude em relação à linha do Equador.
+Um mapa será usado para comparar a área de continentes. Qual tipo de projeção é mais adequado?|Equivalente|Conforme|Equidistante a partir de um único ponto|A projeção equivalente preserva as proporções entre áreas.
+Qual elemento explica o significado das cores em um mapa de vegetação?|Legenda|Escala numérica|Meridiano de referência|A legenda associa símbolos e cores às categorias representadas.
+Qual linha corresponde à latitude 0°?|Equador|Greenwich|Trópico de Câncer|O Equador é a referência para medir latitudes.
+Qual linha corresponde à longitude 0°?|Greenwich|Equador|Trópico de Capricórnio|O meridiano de Greenwich é a referência das longitudes.
+Um ponto está a 20° S e 45° O. Em quais hemisférios está?|Sul e ocidental|Norte e ocidental|Sul e oriental|S indica sul e O indica oeste.
+Que linhas ligam os dois polos?|Meridianos|Paralelos|Curvas de nível|Os meridianos seguem a direção norte–sul e convergem nos polos.
+Qual é a faixa de valores absolutos da latitude?|0° a 90°|0° a 180°|0° a 360°|A distância angular vai do Equador até os polos.
+Que projeção convém a um mapa que precisa preservar ângulos locais?|Conforme|Equivalente|Qualquer projeção cilíndrica|A conformidade preserva ângulos localmente.
+Uma imagem do mapa é ampliada junto com sua escala gráfica. Qual escala continua utilizável?|A barra gráfica ampliada|Somente a razão numérica original|Nenhuma das duas|A barra aumenta na mesma proporção que o mapa.
+Em 1:25.000, quanto representa 1 cm?|250 m|25 m|2.500 m|25.000 cm correspondem a 250 m.
+Em 1:200.000, quanto representam 5 cm?|10 km|1 km|100 km|Cada centímetro equivale a 2 km.
+Um trecho de 6 km mede 3 cm no mapa. Qual a escala?|1:200.000|1:20.000|1:2.000.000|600.000 cm divididos por 3 cm dão 200.000.
+Em 1:10.000, quantos centímetros representam 500 m?|5 cm|0,5 cm|50 cm|500 m equivalem a 50.000 cm, que devem ser divididos por 10.000.
+Um quadrado de 1 cm de lado aparece em um mapa 1:100.000. Que área ele representa?|1 km²|2 km²|100 km²|Cada lado representa 1 km, então a área é 1 km × 1 km.
+Qual mapa tende a mostrar mais detalhes, mantido o tamanho da folha?|Um de 1:10.000|Um de 1:1.000.000|Um de 1:10.000.000|O menor denominador corresponde à maior escala.
+Qual coordenada distingue dois pontos sobre o mesmo paralelo, em meridianos diferentes?|Longitude|Latitude|Altitude|Pontos no mesmo paralelo têm a mesma latitude.
+Por que um mapa-múndi plano sempre apresenta algum tipo de distorção?|A superfície terrestre é curva|A legenda reduz as distâncias|A posição dos polos muda conforme a escala|Projetar uma superfície curva sobre um plano implica alterar alguma propriedade geométrica.
+`,
+  'populacao-migracoes': `
+Uma região tem 240.000 habitantes e 3.000 km². Qual é sua densidade média?|80 hab/km²|8 hab/km²|800 hab/km²|A densidade média é 240.000 ÷ 3.000 = 80 hab/km².
+Uma cidade recebe 700 moradores e perde 900 por mudança. Qual é seu saldo migratório?|−200 pessoas|+200 pessoas|+1.600 pessoas|Subtraia as saídas das entradas. O resultado é 700 − 900 = −200.
+Com 1.200 nascimentos e 850 mortes em um ano, qual é o crescimento natural?|350 pessoas|2.050 pessoas|850 pessoas|O crescimento natural é a diferença entre nascimentos e mortes.
+O que sugere uma pirâmide etária com a base mais estreita que as faixas adultas imediatamente acima?|Menos nascimentos recentes em relação às gerações adultas|Maior densidade em todos os bairros|Saldo migratório necessariamente positivo|A base representa os grupos mais jovens e sua largura indica seu peso na população.
+Uma pessoa muda de Recife para Curitiba. Como o deslocamento é classificado para Curitiba?|Imigração interna|Emigração internacional|Deslocamento pendular|Para a cidade de destino, a mudança de residência conta como entrada dentro do mesmo país.
+Dois municípios têm 60.000 habitantes. Qual tem maior densidade?|O de menor área|O de maior área|Ambos têm a mesma densidade|Com população igual, a divisão pela menor área dá o maior resultado.
+Uma região tem densidade média de 12 hab/km². Isso garante que todos os quilômetros quadrados tenham 12 moradores?|Não, a ocupação pode variar|Sim, se a população total estiver correta|Sim, se a área for rural|A densidade média não descreve a distribuição local.
+Qual faixa aparece na base da pirâmide etária?|Os mais jovens|Os mais idosos|A idade mediana|As faixas aparecem em ordem de idade, das mais jovens na base às mais velhas no topo.
+Qual mudança pode elevar a participação dos idosos ao longo do tempo?|Queda persistente da fecundidade|Aumento permanente dos nascimentos|Saída seletiva de idosos|Menos nascimentos reduzem o peso relativo das gerações jovens.
+O que mede a taxa bruta de natalidade?|Nascimentos por mil habitantes em um período|Filhos por mulher ao longo da vida|Imigrantes por mil habitantes|A taxa relaciona nascimentos e população total, geralmente em um ano.
+Qual indicador estima o número médio de filhos por mulher sob as taxas observadas?|Taxa de fecundidade total|Taxa bruta de mortalidade|Densidade demográfica|A fecundidade total sintetiza as taxas por idade das mulheres.
+Quando o crescimento natural é negativo?|Quando as mortes superam os nascimentos|Quando as saídas superam as entradas|Quando a densidade cai em um bairro|O crescimento natural considera apenas nascimentos e mortes.
+Uma cidade ganha 300 pessoas pelo crescimento natural e perde 500 pelo saldo migratório. Qual a variação total?|−200 pessoas|+200 pessoas|+800 pessoas|A variação é a soma de +300 e −500.
+Um município perde 40 pessoas no crescimento natural e ganha 100 por migração. Qual a variação?|+60 pessoas|−60 pessoas|+140 pessoas|Some −40 e +100.
+Para a cidade de origem, como se classifica a saída de um morador que muda de residência?|Emigração|Imigração|Natalidade|Emigração designa a saída do território de referência.
+Uma estudante viaja diariamente para outro município e volta para casa. Qual é o tipo de deslocamento?|Pendular|Emigração definitiva|Imigração internacional|O deslocamento é recorrente e ocorre sem mudança de residência.
+Que dado mede a variação por migrações sem considerar nascimentos?|Saldo migratório|Crescimento natural|População absoluta|O saldo considera entradas e saídas.
+Qual é a densidade de um município de 45.000 habitantes e 500 km²?|90 hab/km²|9 hab/km²|900 hab/km²|45.000 ÷ 500 = 90.
+Duas cidades têm a mesma área. Qual delas é mais densamente povoada?|A que tem mais moradores|A que tem mais nascimentos por ano|A que tem maior saldo migratório|Para a mesma área, a densidade aumenta com a população total.
+A população de uma cidade caiu apesar de haver mais nascimentos que mortes. O que pode explicar isso?|As saídas líquidas superaram o crescimento natural|A imigração superou a emigração|O crescimento natural foi negativo|Um saldo migratório negativo pode superar o crescimento natural positivo.
+`,
+  'relevo-hidrografia': `
+O que separa duas bacias hidrográficas vizinhas?|Divisor de águas|Foz do rio principal|Leito de um afluente|O divisor é um limite do relevo que direciona o escoamento para lados diferentes.
+Uma rocha se fragmenta no local, sem transporte dos fragmentos. Qual processo ocorreu?|Intemperismo|Erosão fluvial|Sedimentação|O intemperismo altera ou fragmenta a rocha onde ela se encontra.
+Qual efeito tende a ocorrer quando o solo de uma área urbana é impermeabilizado?|O escoamento superficial aumenta|A infiltração aumenta|A chuva deixa de alcançar os córregos|A superfície impermeável dificulta a entrada de água no solo e favorece o escoamento.
+Como se chama um curso de água que deságua em outro rio?|Afluente|Divisor de águas|Nascente|O afluente contribui com água para outro curso.
+Um rio perde velocidade e deixa parte da areia no leito. Qual processo isso exemplifica?|Deposição|Intemperismo|Infiltração|Com menor capacidade de transporte, a corrente deposita parte dos sedimentos.
+Qual informação as curvas de nível representam?|Altitude|Vazão|Tipo de vegetação|Cada curva liga pontos de mesma altitude.
+Em um mapa com a mesma equidistância vertical, o que indicam curvas de nível muito próximas?|Encosta íngreme|Planície sem desníveis|Rio com grande vazão|Uma mesma variação de altitude ocorre em menor distância horizontal.
+Em condições naturais, para onde escoa a água na superfície?|Para cotas mais baixas|Sempre para o norte|Sempre para a bacia de maior área|A gravidade conduz a água no sentido da descida.
+Como se chama o trecho em que um rio deságua em outro corpo d’água?|Foz|Nascente|Divisor|A foz marca a saída do curso para outro rio, lago ou mar.
+Em qual sentido se encontra um ponto a montante?|Na direção da nascente|Na direção da foz|Sempre no sentido leste|Montante indica a direção contrária à corrente.
+Em qual sentido se encontra um ponto a jusante?|No sentido do escoamento|Na direção da nascente|No sentido contrário ao declive|Jusante é a direção em que a água segue para a saída.
+Qual é o papel da mata ciliar nas margens de um rio?|Ajudar a estabilizar as margens e reter sedimentos|Impedir toda infiltração|Aumentar a velocidade da água em todas as situações|Raízes estabilizam o solo e a vegetação intercepta parte dos materiais.
+Que medida favorece a infiltração em um estacionamento?|Pavimento permeável|Revestimento contínuo de concreto|Vedação de juntas e poros|Uma superfície permeável permite a passagem de parte da água.
+Que processo pode levar à redução da profundidade de um reservatório?|Assoreamento|Intemperismo no local sem transporte|Evaporação sem deposição|O assoreamento é o acúmulo de sedimentos no leito.
+O que favorece a erosão hídrica numa lavoura de encosta?|Solo exposto em período chuvoso|Cobertura permanente do solo|Cultivo em curvas de nível|A chuva atinge diretamente o solo exposto e o escoamento pode carregar partículas.
+Qual exemplo representa intemperismo químico?|Dissolução de uma rocha calcária pela água|Transporte de areia por um rio|Acúmulo de lama na foz|A dissolução altera a rocha onde ela se encontra.
+Por que um mesmo rio pode receber poluentes lançados longe de seu leito principal?|Afluentes e escoamento conectam áreas da bacia|A bacia sempre segue os limites de um município|Toda a água subterrânea escoa para o mar sem passar por rios|A rede de drenagem reúne água de diferentes partes da bacia.
+Como a retirada de vegetação em uma encosta pode afetar o córrego abaixo?|Pode aumentar a chegada de sedimentos|Pode impedir o transporte de partículas|Pode deslocar o divisor sem alterar o relevo|A perda de cobertura favorece a erosão e o transporte de materiais pela água.
+Que condição favorece a deposição de partículas carregadas por uma corrente?|Redução da velocidade do fluxo|Aumento da capacidade de transporte|Aumento do declive com maior velocidade|Fluxos mais lentos tendem a perder capacidade de transportar sedimentos.
+Qual mapa ajuda a identificar divisores de águas?|Mapa topográfico com curvas de nível|Mapa de fusos horários|Mapa de idiomas|As curvas de nível mostram as elevações que separam as direções do escoamento.
+`,
+  'espaco-agrario': `
+Uma área de 60 hectares produz 300 toneladas. Qual é a produtividade por hectare?|5 t/ha|50 t/ha|18.000 t/ha|Divida a produção pela área cultivada. São 300 ÷ 60 = 5 t/ha.
+O que indica concentração fundiária?|Poucos estabelecimentos ocupam grande parte da área|Todos os estabelecimentos têm áreas semelhantes|Todas as lavouras produzem a mesma cultura|A concentração diz respeito à distribuição da área entre estabelecimentos.
+A colheita passou de 200 para 300 toneladas e a área, de 40 para 60 hectares. O que ocorreu com a produtividade?|Permaneceu em 5 t/ha|Aumentou para 7,5 t/ha|Caiu para 3,3 t/ha|Os dois períodos têm a mesma razão entre produção e área.
+Qual atividade integra a cadeia produtiva do café depois da colheita?|Torrefação e distribuição|Apenas a compra de sementes|Apenas a preparação do solo|Processamento e distribuição ligam o cultivo aos mercados consumidores.
+Qual prática tende a reduzir a perda de solo em lavouras inclinadas?|Cultivo em curvas de nível|Sulcos no sentido da maior inclinação|Retirada de toda a cobertura do solo|As curvas de nível ajudam a desacelerar o escoamento ao cruzar o sentido da descida.
+O que mede a produção agrícola de uma fazenda?|A quantidade total colhida|O rendimento por hectare|O número de propriedades vizinhas|Produção é o volume total obtido no período.
+Com 25 hectares e produtividade de 4 t/ha, qual a produção?|100 t|29 t|6,25 t|Multiplique 25 hectares por 4 toneladas por hectare.
+Uma fazenda colhe 360 t a 6 t/ha. Qual área foi cultivada?|60 ha|2.160 ha|6 ha|Divida 360 toneladas por 6 toneladas por hectare.
+Duas propriedades produzem 200 t. Qual tem maior produtividade por hectare?|A que usa menor área|A que usa maior área|As duas sempre têm a mesma produtividade|Com produção igual, uma área menor indica maior produção por hectare.
+A produção sobe de 100 t para 120 t com área constante. Em quanto cresce a produtividade?|20%|120%|2%|Com área constante, a produtividade cresce na mesma proporção que a produção.
+Qual atividade fornece insumos para uma cadeia agrícola?|Produção de fertilizantes|Venda da colheita ao consumidor|Beneficiamento do grão colhido|Fertilizantes são insumos usados na etapa de cultivo.
+Qual é a função do armazenamento de grãos na cadeia?|Conservar a colheita até o processamento ou a venda|Aumentar a área plantada|Substituir a etapa de colheita|O armazenamento conecta a colheita a etapas posteriores.
+Por que o transporte influencia a localização da produção?|Afeta o custo para levar insumos e mercadorias|Determina sozinho a fertilidade do solo|Elimina a necessidade de armazenamento|Distâncias e infraestrutura interferem nos custos de circulação.
+O que caracteriza uma monocultura em uma área cultivada?|Predomínio de uma única espécie cultivada|Alternância planejada de espécies ao longo do tempo|Cultivo simultâneo de várias espécies em proporções semelhantes|Monocultura descreve o predomínio de um cultivo.
+O que é rotação de culturas?|Alternar cultivos na mesma área ao longo do tempo|Mudar os limites de cada propriedade|Plantar sempre a mesma espécie|A rotação organiza a sucessão de espécies em um mesmo terreno.
+Que efeito a cobertura vegetal entre safras pode ter?|Proteger o solo do impacto das gotas de chuva|Aumentar a exposição direta do solo|Eliminar toda necessidade de manejo|A cobertura amortece o impacto da chuva e ajuda a reduzir a erosão.
+Por que a expansão agrícola pode alterar habitats?|Pode substituir vegetação nativa por áreas de cultivo|Aumenta automaticamente a vegetação nativa|Reduz necessariamente a demanda por terra|A mudança de uso do solo pode transformar ou fragmentar habitats.
+Qual dado ajuda a avaliar a distribuição fundiária?|Área ocupada por estabelecimentos de diferentes tamanhos|Preço médio do produto na feira|Temperatura média durante a colheita|A distribuição relaciona o tamanho dos estabelecimentos à área que ocupam.
+A mecanização aumentou a colheita por hectare com a mesma área. Qual indicador aumentou?|Produtividade por área|Área cultivada|Concentração fundiária necessariamente|Mais produção na mesma área eleva o rendimento por hectare.
+Qual medida distingue aumento de produtividade de simples expansão da lavoura?|Comparar as toneladas por hectare antes e depois|Comparar apenas a colheita total|Contar somente as culturas plantadas|A razão entre produção e área revela se houve ganho por hectare.
+`,
   'grandes-navegacoes': `
 Por que as especiarias atraíam comerciantes europeus?|Tinham alto valor comercial|Eram gratuitas em todos os portos|Só existiam em Portugal|O valor de produtos asiáticos estimulava a busca de lucros e de controle das rotas.
 Qual condição favoreceu o pioneirismo português?|Articulação entre Coroa e negociantes|Ausência de experiência marítima|Isolamento de todos os mercados|Financiamento, experiência náutica e consolidação da monarquia atuaram em conjunto.
