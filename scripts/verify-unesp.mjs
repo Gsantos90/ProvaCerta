@@ -4,7 +4,7 @@ import { createRequire } from 'node:module'
 import React from 'react'
 import { renderToStaticMarkup } from 'react-dom/server'
 import { buildSync } from 'esbuild'
-import { unespYears, unespDocument, unespOfficialSource, unespQuestionMedia } from '../src/lib/unespExams.js'
+import { unespYears, unespDocument, unespOfficialSource, unespQuestionMedia, presentUnespQuestion } from '../src/lib/unespExams.js'
 import { isCorrectAnswer } from '../src/lib/examAnswers.js'
 import { attemptPayload } from '../src/lib/studyHistory.js'
 import { attemptSource } from '../src/lib/catalogProgress.js'
@@ -35,17 +35,23 @@ const assets=new Set()
 for(const year of unespYears) {
   const qs=banks[`unesp-${year}-fase1`]
   assert.deepEqual(qs.map(q=>q.number),Array.from({length:90},(_,i)=>i+1))
-  qs.forEach((q,i)=>{
+  qs.forEach((stored,i)=>{
+    const q=presentUnespQuestion(stored)
     assert.equal(q.options.length,5)
     assert.equal(q.answer,keys[year][i]==='*'?'A/B/C/D/E':keys[year][i])
+    assert.equal(q.questionId,stored.questionId)
     assert.ok(q.text.length>15&&!q.text.includes('[[placeholder]]'))
-    assert.ok(q.originalImages.length>0)
+    assert.ok(q.structuredContent)
+    assert.deepEqual(q.originalImages,[])
+    assert.ok(q.options.every(option=>option&&!option.includes('conforme o caderno original')))
+    if(q.optionImages) assert.equal(q.optionImages.length,5)
     assert.match(q.sourceUrl,/curso-objetivo\.br.*\.pdf#page=\d+$/)
-    for(const path of [...q.originalImages,...q.supportImage]) {
+    for(const path of [...q.supportImage,...(q.optionImages||[])]) {
+      assert.match(path,/^\/(?:provas\/unesp\/figuras\/\d{4}\/[\w-]+|unesp-\d{4}\/tabela-periodica)\.png$/)
       assert.ok(existsSync('public'+path),path);assets.add(path)
       const image=readFileSync('public'+path)
       assert.equal(image.toString('hex',0,8),'89504e470d0a1a0a')
-      assert.ok(image.readUInt32BE(16)>500&&image.readUInt32BE(20)>20,path)
+      assert.ok(image.readUInt32BE(16)>20&&image.readUInt32BE(20)>20,path)
     }
   })
   const session={id:'fixture',startedAt:1,endedAt:2}
@@ -58,7 +64,7 @@ for(const year of unespYears) {
   }
   for(const name of ['fase1','gabarito'])assert.equal(readFileSync(`public/provas/unesp/${year}-${name}.pdf`).toString('ascii',0,4),'%PDF')
 }
-for(const year of unespYears)assert.ok(banks[`unesp-${year}-fase1`][0].supportImage.length)
+for(const year of unespYears)assert.ok(presentUnespQuestion(banks[`unesp-${year}-fase1`][0]).support.length)
 assert.equal(unespDocument('2027','dia1'),null)
 assert.equal(unespOfficialSource('unesp-2026-fase1',91),undefined)
 assert.equal(unespOfficialSource('outro',1),undefined)
@@ -84,13 +90,18 @@ for(const year of unespYears) {
   assert.ok(!card.includes('Caderno completo')&&!card.includes('Gabarito oficial')&&!card.includes('1ª fase · 90 questões · Vunesp'))
   assert.equal((docs.match(/href="\/provas\/unesp/g)||[]).length,0)
   const qs=banks[`unesp-${year}-fase1`]
-  for(const n of [1,2,9,34,53,72]) {
+  for(const { number:n } of qs) {
     overrides={selectedExam:'unesp',supabaseExamSlug:`unesp-${year}-fase1`,enemQuestions:qs,screen:'review',current:n-1}
     const html=renderToStaticMarkup(React.createElement(mod.exports.App))
+    const q=presentUnespQuestion(qs[n-1])
     assert.ok(html.includes(`Unesp ${year}`)&&html.includes('da Vunesp / Unesp'))
     assert.ok(!html.includes('Módulo I'))
-    assert.equal((html.match(/class="original-question-page"/g)||[]).length,qs[n-1].originalImages.length)
-    assert.equal((html.match(/Marcar alternativa /g)||[]).length,5)
+    assert.ok(html.includes('structured-question-text'))
+    assert.ok(!html.includes('original-question-page')&&!html.includes('Marcar alternativa '))
+    assert.equal((html.match(/class="option-letter"/g)||[]).length,5)
+    assert.equal((html.match(/class="unicamp-option-figure"/g)||[]).length,q.optionImages?.length||0)
+    assert.equal(html.includes('Texto ou imagem de apoio'),Boolean(q.support||q.supportImage.length))
+    if(q.textMarks) assert.ok(html.includes('<u>'))
   }
 }
 console.log(`Unesp: 270 questões/gabaritos, ${assets.size} imagens referenciadas, textos compartilhados, 12 PDFs e renderização dos 3 anos verificados.`)

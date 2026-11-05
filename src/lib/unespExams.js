@@ -1,5 +1,19 @@
 import sources from './unespSources.js'
+import presentation2024 from './unesp2024Presentation.json' with { type: 'json' }
+import presentation2025 from './unesp2025Presentation.json' with { type: 'json' }
+import presentation2026 from './unesp2026Presentation.json' with { type: 'json' }
 import { supportImageUrls } from './safeUrls.js'
+
+const presentations = {
+  'unesp-2024-fase1': presentation2024,
+  'unesp-2025-fase1': presentation2025,
+  'unesp-2026-fase1': presentation2026,
+}
+
+export function presentUnespQuestion(question) {
+  const content = presentations[question?.examSlug]?.[Number(question.number) - 1]
+  return content ? { ...question, ...content } : question
+}
 
 export const unespYears = ['2026', '2025', '2024']
 export const unespPhases = [

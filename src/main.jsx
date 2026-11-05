@@ -19,7 +19,7 @@ import { inssYears, inssExamsByYear, inssExamFor, inssExamFromSlug } from './lib
 import { unicampYears, unicampPhases, unicampOfficialSource, unicampQuestionMedia, presentUnicampQuestion } from './lib/unicampExams'
 import UnicampCard from './UnicampCard'
 import UnespCard from './UnespCard'
-import { unespYears, unespPhases, unespOfficialSource, unespQuestionMedia } from './lib/unespExams'
+import { unespYears, unespPhases, unespOfficialSource, unespQuestionMedia, presentUnespQuestion } from './lib/unespExams'
 import OriginalQuestion from './OriginalQuestion'
 import NationalExamCard from './NationalExamCard'
 import { nationalQuestionMedia, nationalOfficialSource, nationalKeySource, nationalYears } from './lib/nationalExams'
@@ -464,6 +464,21 @@ const uspExamsByYear = {
 }
 const uspYearOptions = Object.keys(uspExamsByYear).sort((a, b) => b.localeCompare(a))
 
+function presentExamQuestion(question) {
+  return presentUnespQuestion(presentUnicampQuestion(question))
+}
+
+function renderMarkedText(text, marks) {
+  if (!marks?.length) return text
+  let offset = 0
+  const parts = marks.map(([start, end, Tag]) => {
+    const before = text.slice(offset, start)
+    offset = end
+    return <React.Fragment key={start}>{before}<Tag>{text.slice(start, end)}</Tag></React.Fragment>
+  })
+  return [...parts, text.slice(offset)]
+}
+
 // Renderiza uma ou mais imagens de apoio. O campo support_image pode conter
 // varios caminhos separados por virgula; cada um vira uma <img> clicavel.
 function renderSupportImages(supportImage, questionNumber) {
@@ -854,7 +869,7 @@ function App() {
     if (!storedQuestions?.length) {
       throw new Error(`A prova "${supabaseSlug}" não possui questões cadastradas no banco de dados.`)
     }
-    const mapped = storedQuestions.map((question) => presentUnicampQuestion({
+    const mapped = storedQuestions.map((question) => presentExamQuestion({
       questionId: question.id,
       number: question.number,
       examSlug: supabaseSlug,
@@ -1275,7 +1290,7 @@ function App() {
       if (!rows?.length) {
         throw new Error('Não há questões cadastradas para as matérias selecionadas.')
       }
-      const questions = shuffleArray(rows).slice(0, simuladoCount).map((question) => presentUnicampQuestion({
+      const questions = shuffleArray(rows).slice(0, simuladoCount).map((question) => presentExamQuestion({
         questionId: question.id,
         number: question.number,
         examSlug: exams.find((exam) => exam.id === question.exam_id)?.slug,
@@ -1460,7 +1475,7 @@ function App() {
     try {
       const slug = `unesp-${unespYear}-fase1`
       const questions = await loadSupabaseExam(slug)
-      if (questions.length !== 90 || questions.some(question => question.options.length !== 5 || !question.originalImages?.length)) throw new Error('O caderno está incompleto.')
+      if (questions.length !== 90 || questions.some(question => question.options.length !== 5 || !question.structuredContent)) throw new Error('O caderno está incompleto.')
       setEnemQuestions(questions)
       setSupabaseExamSlug(slug)
       setSelectedExam('unesp')
@@ -2103,7 +2118,7 @@ function App() {
 
   if (screen === 'exam' || screen === 'review') {
     const isReview = screen === 'review'
-    const question = presentUnicampQuestion({
+    const question = presentExamQuestion({
       ...activeQuestions[current],
       ...uerjObjectiveMedia(activeQuestions[current].examSlug, activeQuestions[current].number, activeQuestions[current].support),
       text: normalizeExtractedText(activeQuestions[current].text),
@@ -2196,14 +2211,14 @@ function App() {
               {selectedExam === 'study' && <p className="official-source">{question.examTitle} · Questão {question.number}</p>}
               <div className="question-heading"><span>Questão {String(current + 1).padStart(2, '0')}</span><Clock3 size={16} /> <small>{isReview ? 'Revisão' : session?.deadline ? 'Modo de prova' : 'Sem tempo limite'}</small>{speechSupported && <button type="button" className={`listen-button ${speakingId === 'question' ? 'active' : ''}`} onClick={() => speak('question', `${question.text}. ${question.options.map((option, index) => binary ? option : `Alternativa ${letters[index]}. ${option}`).join('. ')}`)} aria-label={speakingId === 'question' ? 'Parar leitura da questão' : 'Ouvir a questão'}>{speakingId === 'question' ? <><Square size={14} /> Parar</> : <><Volume2 size={15} /> Ouvir questão</>}</button>}</div>
               {usesBinaryScoring && <p className="official-source">Acerto: +1 · Erro: -1 · Em branco: 0 · Anulado: +1.</p>}
-              {question.originalImages?.length ? <OriginalQuestion images={question.originalImages} text={question.text} number={question.number || current + 1} onExpand={setLightboxImage} /> : <h1 className={question.structuredContent ? 'structured-question-text' : question.examSlug?.match(/^(esa|espcex|ita|efomm)-/) ? 'military-question-text' : /^(prf|receita|tse)-/.test(question.examSlug || '') ? 'national-question-text' : undefined}>{question.text}</h1>}
+              {question.originalImages?.length ? <OriginalQuestion images={question.originalImages} text={question.text} number={question.number || current + 1} onExpand={setLightboxImage} /> : <h1 className={question.structuredContent ? 'structured-question-text' : question.examSlug?.match(/^(esa|espcex|ita|efomm)-/) ? 'military-question-text' : /^(prf|receita|tse)-/.test(question.examSlug || '') ? 'national-question-text' : undefined}>{renderMarkedText(question.text, question.textMarks)}</h1>}
               {question.sourceUrl && <p className="official-source"><a href={question.sourceUrl} target="_blank" rel="noopener noreferrer">{question.examSlug?.startsWith('ebserh-') ? 'Consultar fonte da questão da EBSERH' : 'Abrir questão e textos no caderno oficial'} {/^(prf|receita|tse)-/.test(question.examSlug || '') ? '' : question.examSlug?.startsWith('ebserh-') ? '' : question.examSlug?.startsWith('efomm-') ? 'da EFOMM' : question.examSlug?.startsWith('ita-') ? 'do ITA' : question.examSlug?.startsWith('uerj-') ? 'da UERJ' : question.examSlug?.startsWith('cbmerj-') ? 'do CBMERJ' : question.examSlug?.startsWith('pmsp-') ? 'da PM de São Paulo' : question.examSlug?.startsWith('pmerj-') ? 'da PMERJ' : question.sourceUrl.includes('cebraspe.org.br') ? 'do Cebraspe' : question.sourceUrl.includes('fuvest.br') ? 'da FUVEST' : question.sourceUrl.includes('inep') ? 'do Inep' : question.examSlug?.startsWith('unesp-') ? 'da Vunesp / Unesp' : question.examSlug?.startsWith('unicamp-') ? 'da Comvest / Unicamp' : question.examSlug?.startsWith('esa-') ? 'da ESA' : question.examSlug?.startsWith('espcex-') ? 'da EsPCEx' : 'da UFJF'} ↗</a></p>}
               <div className="options">
                 {question.options.map((option, index) => {
                   const letter = letters[index]
                   const isCorrect = !isAnnulledAnswer(question.answer) && isCorrectAnswer(letter, question.answer)
                   const isSelected = normalizeLetter(selected) === letter
-                  return <button key={letter} onClick={() => !isReview && answer(letter)} className={`option ${isReview && isCorrect ? 'correct' : ''} ${isReview && !isAnnulledAnswer(question.answer) && isSelected && !isCorrect ? 'incorrect' : ''} ${!isReview && isSelected ? 'selected' : ''}`}><span className="option-letter">{binary ? (index === 0 ? "C" : "E") : letter}</span><span className={/^(prf|receita|tse)-/.test(question.examSlug || '') ? 'national-option-text' : undefined}>{question.originalImages?.length ? <>{binary ? option : 'Marcar alternativa ' + letter}<span className="original-question-accessible">: {option}</span></> : question.optionImages?.[index] ? <><span className="original-question-accessible">{option}</span><img className="unicamp-option-figure" src={question.optionImages[index]} alt={option} /></> : question.optionGraphs?.[index] ? <><span className="original-question-accessible">{option}</span><UnicampGraphOption graph={question.optionGraphs[index]} letter={letter} /></> : option}</span>{isReview && isCorrect && <span className="answer-label"><Check size={15} /> Correta</span>}{isReview && !isAnnulledAnswer(question.answer) && isSelected && !isCorrect && <span className="answer-label wrong"><X size={15} /> Sua resposta</span>}{!isReview && isSelected && <Check size={18} className="option-check" />}</button>
+                  return <button key={letter} onClick={() => !isReview && answer(letter)} className={`option ${isReview && isCorrect ? 'correct' : ''} ${isReview && !isAnnulledAnswer(question.answer) && isSelected && !isCorrect ? 'incorrect' : ''} ${!isReview && isSelected ? 'selected' : ''}`}><span className="option-letter">{binary ? (index === 0 ? "C" : "E") : letter}</span><span className={/^(prf|receita|tse)-/.test(question.examSlug || '') ? 'national-option-text' : undefined}>{question.originalImages?.length ? <>{binary ? option : 'Marcar alternativa ' + letter}<span className="original-question-accessible">: {option}</span></> : question.optionImages?.[index] ? <><span className="original-question-accessible">{option}</span><img className="unicamp-option-figure" src={question.optionImages[index]} alt={option} />{question.optionImageCaptions && <span>{option}</span>}</> : question.optionGraphs?.[index] ? <><span className="original-question-accessible">{option}</span><UnicampGraphOption graph={question.optionGraphs[index]} letter={letter} /></> : renderMarkedText(option, question.optionMarks?.[index])}</span>{isReview && isCorrect && <span className="answer-label"><Check size={15} /> Correta</span>}{isReview && !isAnnulledAnswer(question.answer) && isSelected && !isCorrect && <span className="answer-label wrong"><X size={15} /> Sua resposta</span>}{!isReview && isSelected && <Check size={18} className="option-check" />}</button>
                 })}
               </div>
               {isReview && isAnnulledAnswer(question.answer) && <p className="official-source">Questão anulada · ponto atribuído automaticamente.</p>}
